@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kollektíva — online magazin</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%201000%201000%22%20width%3D%221000%22%20height%3D%221000%22%3E%3Crect%20width%3D%221000%22%20height%3D%221000%22%20rx%3D%22180%22%20fill%3D%22%230E1024%22/%3E%3Cg%20transform%3D%22translate%28500%2C515%29%20scale%281.1488%29%22%3E%3Cpath%20transform%3D%22translate%28-344.3%2C311.6%29%20scale%281%2C-1%29%22%20fill%3D%22%23ECE6D8%22%20d%3D%22M109.3255615234375%2081V544Q109.3255615234375%20573%20103.91302490234375%20587.5Q98.50048828125%20602%2082.03790283203125%20607.5Q65.5753173828125%20613%2033.3751220703125%20613Q30.650146484375%20613%2030.650146484375%20619.0Q30.650146484375%20625%2033.3751220703125%20625Q58.8250732421875%20625%2090.13751220703125%20623.5Q121.449951171875%20622%20156.349853515625%20622Q193.5247802734375%20622%20224.69970703125%20623.5Q255.8746337890625%20625%20280.3245849609375%20625Q283.049560546875%20625%20283.049560546875%20619.0Q283.049560546875%20613%20280.3245849609375%20613Q248.1243896484375%20613%20232.0242919921875%20607.0Q215.9241943359375%20601%20210.149169921875%20586.0Q204.3741455078125%20571%20204.3741455078125%20542V81Q204.3741455078125%2052%20209.649169921875%2037.0Q214.9241943359375%2022%20231.16180419921875%2017.0Q247.3994140625%2012%20280.3245849609375%2012Q283.7745361328125%2012%20283.7745361328125%206.0Q283.7745361328125%200%20280.3245849609375%200Q254.8746337890625%200%20224.19970703125%201.0Q193.5247802734375%202%20156.349853515625%202Q121.449951171875%202%2089.2750244140625%201.0Q57.10009765625%200%2031.650146484375%200Q29.650146484375%200%2029.650146484375%206.0Q29.650146484375%2012%2031.650146484375%2012Q64.5753173828125%2012%2081.1754150390625%2017.0Q97.7755126953125%2022%20103.550537109375%2037.0Q109.3255615234375%2052%20109.3255615234375%2081ZM368.650146484375%20145%20224.2244873046875%20335.2254638671875%20293.7735595703125%20399.29931640625%20444.29833984375%20200.1749267578125Q485.49853515625%20144.0748291015625%20514.0111694335938%20108.2998046875Q542.5238037109375%2072.5247802734375%20561.9863891601562%2052.43731689453125Q581.448974609375%2032.349853515625%20596.2740478515625%2023.76239013671875Q611.09912109375%2015.1749267578125%20625.149169921875%2013.58746337890625Q639.19921875%2012%20656.0242919921875%2012Q659.0242919921875%2012%20659.0242919921875%206.0Q659.0242919921875%200%20656.0242919921875%200Q611.749267578125%200%20584.749267578125%200.0Q557.749267578125%200%20544.0242919921875%200Q531.2244873046875%200%20522.0121459960938%20-0.86248779296875Q512.7998046875%20-1.7249755859375%20505.6248779296875%20-1.7249755859375Q492.349853515625%20-1.7249755859375%20482.89990234375%203.2750244140625Q473.449951171875%208.2750244140625%20460.7750244140625%2023.2750244140625Q448.10009765625%2038.2750244140625%20426.650146484375%2067.2750244140625Q405.2001953125%2096.2750244140625%20368.650146484375%20145ZM143.449951171875%20267.90087890625%20401.1749267578125%20529.70068359375Q438.449951171875%20566.9757080078125%20430.3250732421875%20589.9878540039062Q422.2001953125%20613%20371.3751220703125%20613Q368.650146484375%20613%20368.650146484375%20619.0Q368.650146484375%20625%20371.3751220703125%20625Q397.550048828125%20625%20424.58746337890625%20623.5Q451.6248779296875%20622%20495.9747314453125%20622Q540.949462890625%20622%20567.1618041992188%20623.5Q593.3741455078125%20625%20617.7239990234375%20625Q620.7239990234375%20625%20620.7239990234375%20619.0Q620.7239990234375%20613%20617.7239990234375%20613Q575.0242919921875%20613%20522.7745361328125%20589.9378051757812Q470.5247802734375%20566.8756103515625%20426.349853515625%20523.70068359375L169.6248779296875%20266.0009765625Z%22/%3E%3C/g%3E%3Ccircle%20cx%3D%22805%22%20cy%3D%22505%22%20r%3D%2268%22%20fill%3D%22%23C9A45C%22/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0E1024">
+<meta name="description" content="Kollektíva: napi horoszkóp, retro történetek, politika és életmód egy helyen.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          night:   '#0E1024', // alap háttér
+          vault:   '#171A36', // felületek
+          line:    '#2A2D52', // vonalak
+          parch:   '#ECE6D8', // szöveg
+          dusk:    '#9492B3', // másodlagos szöveg
+          brass:   '#C9A45C', // kiemelés
+          brassdk: '#A8853F'
+        },
+        fontFamily: {
+          display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+          sans: ['Manrope', 'system-ui', '-apple-system', 'Segoe UI', 'sans-serif']
+        }
+      }
+    }
+  }
+</script>
+<style>
+  :root { box-sizing: border-box; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+  html { scroll-behavior: smooth; scroll-padding-top: calc(80px + env(safe-area-inset-top, 0px)); }
+  body { background: #0E1024; }
+  .sym { font-variant-emoji: text; }
+  .stars {
+    background-image:
+      radial-gradient(1px 1px at 12% 18%, rgba(236,230,216,.55) 50%, transparent 51%),
+      radial-gradient(1px 1px at 72% 12%, rgba(236,230,216,.4) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 88% 64%, rgba(201,164,92,.6) 50%, transparent 51%),
+      radial-gradient(1px 1px at 34% 78%, rgba(236,230,216,.35) 50%, transparent 51%),
+      radial-gradient(1px 1px at 56% 42%, rgba(236,230,216,.3) 50%, transparent 51%),
+      radial-gradient(1px 1px at 6% 60%, rgba(236,230,216,.4) 50%, transparent 51%);
+  }
+  @keyframes spin-slow { to { transform: rotate(360deg); } }
+  .wheel { animation: spin-slow 240s linear infinite; transform-origin: 50% 50%; }
+  @media (prefers-reduced-motion: reduce) {
+    .wheel { animation: none; }
+    html { scroll-behavior: auto; }
+  }
+  :focus-visible { outline: 2px solid #C9A45C; outline-offset: 3px; border-radius: 4px; }
+  input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(.8) sepia(.4); cursor: pointer; }
+</style>
+</head>
+<body class="font-sans text-parch antialiased selection:bg-brass selection:text-night">
+
+<!-- ============ HEADER ============ -->
+<header class="sticky top-0 z-50 border-b border-line/70 bg-night/85 backdrop-blur-md" style="top: env(safe-area-inset-top, 0px);">
+  <div class="mx-auto flex h-[72px] max-w-7xl items-center justify-between gap-6 px-5 lg:px-8">
+    <a href="#" class="flex items-center gap-3 font-display text-[28px] font-semibold leading-none tracking-tight text-parch" aria-label="Kollektíva – főoldal">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="-438 -324 837 647" class="h-11 w-auto shrink-0" aria-hidden="true"><path d="M372.8,-114.9 A430,130 -24 0 1 -412.8,234.9" fill="none" stroke="#ECE6D8" stroke-width="18" stroke-linecap="round"/><path transform="translate(-344.3,311.6) scale(1,-1)" fill="#ECE6D8" d="M109.3255615234375 81V544Q109.3255615234375 573 103.91302490234375 587.5Q98.50048828125 602 82.03790283203125 607.5Q65.5753173828125 613 33.3751220703125 613Q30.650146484375 613 30.650146484375 619.0Q30.650146484375 625 33.3751220703125 625Q58.8250732421875 625 90.13751220703125 623.5Q121.449951171875 622 156.349853515625 622Q193.5247802734375 622 224.69970703125 623.5Q255.8746337890625 625 280.3245849609375 625Q283.049560546875 625 283.049560546875 619.0Q283.049560546875 613 280.3245849609375 613Q248.1243896484375 613 232.0242919921875 607.0Q215.9241943359375 601 210.149169921875 586.0Q204.3741455078125 571 204.3741455078125 542V81Q204.3741455078125 52 209.649169921875 37.0Q214.9241943359375 22 231.16180419921875 17.0Q247.3994140625 12 280.3245849609375 12Q283.7745361328125 12 283.7745361328125 6.0Q283.7745361328125 0 280.3245849609375 0Q254.8746337890625 0 224.19970703125 1.0Q193.5247802734375 2 156.349853515625 2Q121.449951171875 2 89.2750244140625 1.0Q57.10009765625 0 31.650146484375 0Q29.650146484375 0 29.650146484375 6.0Q29.650146484375 12 31.650146484375 12Q64.5753173828125 12 81.1754150390625 17.0Q97.7755126953125 22 103.550537109375 37.0Q109.3255615234375 52 109.3255615234375 81ZM368.650146484375 145 224.2244873046875 335.2254638671875 293.7735595703125 399.29931640625 444.29833984375 200.1749267578125Q485.49853515625 144.0748291015625 514.0111694335938 108.2998046875Q542.5238037109375 72.5247802734375 561.9863891601562 52.43731689453125Q581.448974609375 32.349853515625 596.2740478515625 23.76239013671875Q611.09912109375 15.1749267578125 625.149169921875 13.58746337890625Q639.19921875 12 656.0242919921875 12Q659.0242919921875 12 659.0242919921875 6.0Q659.0242919921875 0 656.0242919921875 0Q611.749267578125 0 584.749267578125 0.0Q557.749267578125 0 544.0242919921875 0Q531.2244873046875 0 522.0121459960938 -0.86248779296875Q512.7998046875 -1.7249755859375 505.6248779296875 -1.7249755859375Q492.349853515625 -1.7249755859375 482.89990234375 3.2750244140625Q473.449951171875 8.2750244140625 460.7750244140625 23.2750244140625Q448.10009765625 38.2750244140625 426.650146484375 67.2750244140625Q405.2001953125 96.2750244140625 368.650146484375 145ZM143.449951171875 267.90087890625 401.1749267578125 529.70068359375Q438.449951171875 566.9757080078125 430.3250732421875 589.9878540039062Q422.2001953125 613 371.3751220703125 613Q368.650146484375 613 368.650146484375 619.0Q368.650146484375 625 371.3751220703125 625Q397.550048828125 625 424.58746337890625 623.5Q451.6248779296875 622 495.9747314453125 622Q540.949462890625 622 567.1618041992188 623.5Q593.3741455078125 625 617.7239990234375 625Q620.7239990234375 625 620.7239990234375 619.0Q620.7239990234375 613 617.7239990234375 613Q575.0242919921875 613 522.7745361328125 589.9378051757812Q470.5247802734375 566.8756103515625 426.349853515625 523.70068359375L169.6248779296875 266.0009765625Z"/><path d="M-412.8,234.9 A430,130 -24 0 1 372.8,-114.9" fill="none" stroke="#0E1024" stroke-width="40"/><path d="M-412.8,234.9 A430,130 -24 0 1 372.8,-114.9" fill="none" stroke="#ECE6D8" stroke-width="18" stroke-linecap="round"/><circle cx="351.7" cy="-38.7" r="47" fill="#0E1024"/><circle cx="351.7" cy="-38.7" r="36" fill="#C9A45C"/></svg>
+      <span>Kollektíva<span class="text-brass">.</span></span>
+    </a>
+
+    <div class="hidden items-center gap-3 lg:flex">
+      <a href="#hirlevel" class="text-[15px] text-dusk transition-colors hover:text-parch">Hírlevél</a>
+      <button type="button" id="googleLogin" class="inline-flex items-center gap-2.5 rounded-full bg-parch px-5 py-2.5 text-[14px] font-semibold text-night transition hover:bg-white">
+        <svg width="16" height="16" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.6 5.4 2.7 13.3l7.9 6.1C12.5 13.6 17.8 9.5 24 9.5z"/><path fill="#4285F4" d="M46.1 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.4c-.5 2.9-2.2 5.3-4.6 6.9l7.4 5.7c4.3-4 6.9-9.9 6.9-17.1z"/><path fill="#FBBC05" d="M10.5 28.6c-.5-1.4-.8-3-.8-4.6s.3-3.2.8-4.6l-7.9-6.1C1 16.6 0 20.2 0 24s1 7.4 2.7 10.7l7.8-6.1z"/><path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.4-5.7c-2.1 1.4-4.8 2.3-8.5 2.3-6.2 0-11.5-4.2-13.4-9.9l-7.9 6.1C6.6 42.6 14.6 48 24 48z"/></svg>
+        Belépés Google-lel
+      </button>
+    </div>
+
+    <button type="button" id="menuBtn" class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-line text-parch lg:hidden" aria-expanded="false" aria-controls="mobileMenu" aria-label="Menü megnyitása">
+      <svg id="menuIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+
+  <!-- Rovatsáv: minden méreten látszik, mobilon vízszintesen görgethető -->
+  <nav class="border-t border-line/50" aria-label="Rovatok">
+    <div class="mx-auto flex max-w-7xl gap-7 overflow-x-auto whitespace-nowrap px-5 py-3 text-[14px] text-dusk [scrollbar-width:none] lg:px-8 [&::-webkit-scrollbar]:hidden">
+      <a href="#" class="text-parch" aria-current="page">Főoldal</a>
+      <a href="#horoszkop" class="transition-colors hover:text-parch">Horoszkóp</a>
+      <a href="#retro" class="transition-colors hover:text-parch">Retro</a>
+      <a href="#univerzum" class="transition-colors hover:text-parch">Univerzum</a>
+      <a href="#penzvilag" class="transition-colors hover:text-parch">Pénzvilág</a>
+      <a href="#tech" class="transition-colors hover:text-parch">Tech / Jövő</a>
+      <a href="#eletmod" class="transition-colors hover:text-parch">Életmód</a>
+      <a href="#kultura" class="transition-colors hover:text-parch">Kultúra</a>
+      <a href="#kozelet" class="transition-colors hover:text-parch">Közélet</a>
+    </div>
+  </nav>
+
+  <div id="mobileMenu" class="hidden border-t border-line/70 bg-night lg:hidden">
+    <nav class="mx-auto flex max-w-7xl flex-col px-5 py-4 text-[17px]" aria-label="Mobil navigáció">
+      <a href="#" class="py-3 text-parch">Főoldal</a>
+      <a href="#horoszkop" class="py-3 text-dusk">Horoszkóp</a>
+      <a href="#retro" class="py-3 text-dusk">Retro</a>
+      <a href="#univerzum" class="py-3 text-dusk">Univerzum</a>
+      <a href="#penzvilag" class="py-3 text-dusk">Pénzvilág</a>
+      <a href="#tech" class="py-3 text-dusk">Tech / Jövő</a>
+      <a href="#eletmod" class="py-3 text-dusk">Életmód</a>
+      <a href="#kultura" class="py-3 text-dusk">Kultúra</a>
+      <a href="#kozelet" class="py-3 text-dusk">Közélet</a>
+      <div class="mt-3 flex gap-3 border-t border-line/70 pt-4">
+        <button type="button" data-google class="flex-1 rounded-full bg-parch px-4 py-3 text-[14px] font-semibold text-night">Belépés Google-lel</button>
+        <a href="#hirlevel" class="flex-1 rounded-full border border-line px-4 py-3 text-center text-[14px] text-parch">Hírlevél</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ CÍMLAP ============ -->
+<section id="cimlap" class="stars relative overflow-hidden border-b border-line/70">
+  <!-- Háttér: a logó pályája, rajta lassan keringő arany hold -->
+  <svg class="pointer-events-none absolute inset-0 h-full w-full" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <g transform="rotate(-12 600 350)">
+      <ellipse cx="640" cy="380" rx="640" ry="200" fill="none" stroke="#2A2D52" stroke-width="1.2"/>
+      <ellipse cx="640" cy="380" rx="470" ry="140" fill="none" stroke="#2A2D52" stroke-width="1" stroke-dasharray="2 7" opacity=".8"/>
+      <circle r="7" fill="#C9A45C">
+        <animateMotion class="orbit-motion" dur="90s" repeatCount="indefinite" path="M0,380 a640,200 0 1,0 1280,0 a640,200 0 1,0 -1280,0"/>
+      </circle>
+    </g>
+  </svg>
+
+  <div class="relative mx-auto grid max-w-7xl gap-14 px-5 py-14 lg:grid-cols-[1.4fr_1fr] lg:gap-16 lg:px-8 lg:py-20">
+    <div class="max-w-3xl">
+      <p class="flex flex-wrap items-center gap-x-3 gap-y-1 text-[12px] uppercase tracking-[0.2em] text-dusk">
+        <span>No. <span id="issueNo"></span></span>
+        <span class="h-px w-8 bg-line" aria-hidden="true"></span>
+        <span id="todayLabel"></span>
+      </p>
+      <p id="featKicker" class="mt-10 text-[15px] text-brass">Ekkor történt</p>
+      <h1 id="featTitle" class="mt-4 font-display text-[44px] font-semibold leading-[1.02] tracking-tight text-parch sm:text-[60px] lg:text-[74px]">&nbsp;</h1>
+      <p id="featLead" class="mt-6 max-w-xl text-[18px] leading-relaxed text-dusk"></p>
+      <div class="mt-10 flex flex-wrap items-center gap-4">
+        <a id="featLink" href="#retro" class="rounded-full bg-brass px-7 py-3.5 text-[15px] font-semibold text-night transition hover:bg-[#D8B46B]">Elolvasom</a>
+        <a href="#rovatok" class="rounded-full border border-line px-7 py-3.5 text-[15px] text-parch transition hover:border-brass/70">Rovataink</a>
+      </div>
+      <p id="featMeta" class="mt-10 text-[14px] text-dusk"></p>
+    </div>
+
+    <aside class="lg:border-l lg:border-line/70 lg:pl-12" aria-labelledby="todayHeading">
+      <h2 id="todayHeading" class="text-[12px] uppercase tracking-[0.2em] text-dusk">Ma a Kollektívában</h2>
+      <ol id="todayList" class="mt-6 divide-y divide-line/70"></ol>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ RETRO / EKKOR TÖRTÉNT ============ -->
+<section id="retro" class="border-b border-line/70 bg-vault/40">
+  <div class="mx-auto max-w-7xl px-5 py-20 lg:px-8">
+    <div class="grid gap-12 lg:grid-cols-[320px_1fr]">
+      <div class="lg:sticky lg:top-28 lg:self-start">
+        <h2 class="font-display text-[40px] font-semibold leading-tight sm:text-[48px]">Ekkor történt</h2>
+        <p class="mt-3 font-display text-[26px] italic text-brass" id="retroDate"></p>
+        <p class="mt-4 text-[16px] leading-relaxed text-dusk">Letűnt botrányok, elfeledett rekordok és pillanatok, amelyek egy napon át mindenkit lázban tartottak.</p>
+        <a href="#" class="mt-6 inline-block border-b border-brass/60 pb-0.5 text-[15px] text-parch hover:border-brass">Teljes retro archívum</a>
+      </div>
+
+      <ol id="timeline" class="relative border-l border-line"></ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOROSZKÓP ============ -->
+<section id="horoszkop" class="border-b border-line/70">
+  <div class="mx-auto max-w-7xl px-5 py-20 lg:px-8">
+    <div class="mb-8 flex items-start gap-3 rounded-xl border-2 border-amber-400 bg-amber-400/10 px-5 py-4 text-amber-200 shadow-[0_0_24px_rgba(251,191,36,0.15)]" role="alert">
+      <span class="text-[22px] leading-none" aria-hidden="true">⚠️</span>
+      <p class="text-[15px] leading-relaxed sm:text-[16px]"><strong class="font-bold text-amber-300">Figyelem: A mai horoszkóp éjfélkor lejár és eltűnik. Ne maradj le!</strong></p>
+    </div>
+    <div class="flex flex-col justify-between gap-6 md:flex-row md:items-center">
+      <div>
+        <h2 class="font-display text-[40px] font-semibold leading-tight sm:text-[48px]">Napi horoszkóp</h2>
+        <p class="mt-2 max-w-lg text-[16px] text-dusk">Válaszd ki a csillagjegyed – a választást megjegyezzük a következő látogatásig.</p>
+      </div>
+      <!-- Zodiákus-kerék: a horoszkóp szekció dísze -->
+      <div class="relative hidden aspect-square w-[240px] shrink-0 md:block" aria-hidden="true">
+        <svg viewBox="0 0 400 400" class="h-full w-full">
+          <defs>
+            <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#C9A45C" stop-opacity=".22"/>
+              <stop offset="70%" stop-color="#C9A45C" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <circle cx="200" cy="200" r="190" fill="url(#glow)"/>
+          <g class="wheel" id="wheel"></g>
+          <circle cx="200" cy="200" r="56" fill="#0E1024" stroke="#C9A45C" stroke-width="1"/>
+          <circle cx="200" cy="200" r="6" fill="#C9A45C"/>
+        </svg>
+      </div>
+    </div>
+
+    <div id="signGrid" class="mt-10 grid grid-cols-3 gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-4 lg:grid-cols-6" role="listbox" aria-label="Csillagjegyek"></div>
+    <p id="horoscopeStatus" class="mt-4 hidden text-[14px] text-dusk" role="status"></p>
+
+    <article id="signPanel" class="mt-8 hidden rounded-2xl border border-brass/40 bg-vault p-6 sm:p-10" aria-live="polite">
+      <div class="grid gap-8 md:grid-cols-[auto_1fr]">
+        <div class="sym font-display text-[96px] leading-none text-brass" id="panelSymbol"></div>
+        <div>
+          <h3 class="font-display text-[34px] font-semibold leading-tight" id="panelTitle"></h3>
+          <p class="mt-1 text-[14px] text-dusk" id="panelDates"></p>
+          <p class="mt-5 max-w-2xl text-[17px] leading-relaxed text-parch/90" id="panelText"></p>
+          <p class="mt-4 hidden max-w-2xl text-[15px] text-dusk" id="panelExtra"></p>
+          <dl class="mt-8 grid max-w-xl grid-cols-3 gap-4 border-t border-line pt-6 text-[14px]">
+            <div><dt class="text-dusk">Szerelem</dt><dd class="mt-1 text-brass" id="mLove"></dd></div>
+            <div><dt class="text-dusk">Munka</dt><dd class="mt-1 text-brass" id="mWork"></dd></div>
+            <div><dt class="text-dusk">Energia</dt><dd class="mt-1 text-brass" id="mEnergy"></dd></div>
+          </dl>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ ROVATOK ============ -->
+<section id="rovatok" class="border-b border-line/70">
+  <div class="mx-auto max-w-7xl px-5 py-20 lg:px-8">
+    <h2 class="font-display text-[40px] font-semibold leading-tight sm:text-[48px]">Rovataink</h2>
+    <p class="mt-2 max-w-lg text-[16px] text-dusk">Csillagok, történelem, közélet és mindennapok – hiteles forrásokból.</p>
+    <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <article id="univerzum" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-6 transition-colors hover:border-brass/50">
+        <div class="flex items-center justify-between">
+          <span class="inline-flex h-12 w-12 items-center justify-center rounded-xl border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="6.5"/><ellipse cx="16" cy="16" rx="14" ry="4.5" transform="rotate(-20 16 16)"/><path d="M26 5.5v3M24.5 7h3"/></svg></span>
+          <span class="rounded-full border border-line px-3 py-1 text-[12px] text-dusk">Hamarosan</span>
+        </div>
+        <h3 class="mt-5 font-display text-[28px] font-semibold leading-tight">Univerzum</h3>
+        <p class="mt-2 text-[15px] leading-relaxed text-dusk">Csillagászat és űrkutatás: a NASA és az ESA legszebb felvételei, érthetően.</p>
+      </article>
+      <article id="penzvilag" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-6 transition-colors hover:border-brass/50">
+        <div class="flex items-center justify-between">
+          <span class="inline-flex h-12 w-12 items-center justify-center rounded-xl border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 27h24"/><path d="M6 21.5l6-6.5 5 4 9-10"/><path d="M20.5 9H26v5.5"/></svg></span>
+          <span class="rounded-full border border-line px-3 py-1 text-[12px] text-dusk">Hamarosan</span>
+        </div>
+        <h3 class="mt-5 font-display text-[28px] font-semibold leading-tight">Pénzvilág</h3>
+        <p class="mt-2 text-[15px] leading-relaxed text-dusk">Árfolyamok, infláció, bérek – mit jelentenek a számok a pénztárcádnak.</p>
+      </article>
+      <article id="tech" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-6 transition-colors hover:border-brass/50">
+        <div class="flex items-center justify-between">
+          <span class="inline-flex h-12 w-12 items-center justify-center rounded-xl border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="14" height="14" rx="2"/><rect x="13" y="13" width="6" height="6" rx="1"/><path d="M13 4.5V9M19 4.5V9M13 23v4.5M19 23v4.5M4.5 13H9M4.5 19H9M23 13h4.5M23 19h4.5"/></svg></span>
+          <span class="rounded-full border border-line px-3 py-1 text-[12px] text-dusk">Hamarosan</span>
+        </div>
+        <h3 class="mt-5 font-display text-[28px] font-semibold leading-tight">Tech / Jövő</h3>
+        <p class="mt-2 text-[15px] leading-relaxed text-dusk">Mesterséges intelligencia, eszközök és a digitális élet változásai.</p>
+      </article>
+      <article id="eletmod" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-6 transition-colors hover:border-brass/50">
+        <div class="flex items-center justify-between">
+          <span class="inline-flex h-12 w-12 items-center justify-center rounded-xl border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 25.5C6.5 13.5 13.5 6 26 6c0 12.5-7.5 19.5-19.5 19.5z"/><path d="M6.5 25.5 19 13"/></svg></span>
+          <span class="rounded-full border border-line px-3 py-1 text-[12px] text-dusk">Hamarosan</span>
+        </div>
+        <h3 class="mt-5 font-display text-[28px] font-semibold leading-tight">Életmód & Egészség</h3>
+        <p class="mt-2 text-[15px] leading-relaxed text-dusk">Mozgás, alvás, táplálkozás, mentális jóllét – forrásokkal alátámasztva.</p>
+      </article>
+      <article id="kultura" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-6 transition-colors hover:border-brass/50">
+        <div class="flex items-center justify-between">
+          <span class="inline-flex h-12 w-12 items-center justify-center rounded-xl border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 9.5C13 7.5 9 7 5 7.5v17c4-.5 8 0 11 2 3-2 7-2.5 11-2v-17c-4-.5-8 0-11 2z"/><path d="M16 9.5v17"/></svg></span>
+          <span class="rounded-full border border-line px-3 py-1 text-[12px] text-dusk">Hamarosan</span>
+        </div>
+        <h3 class="mt-5 font-display text-[28px] font-semibold leading-tight">Kultúra & Ajánló</h3>
+        <p class="mt-2 text-[15px] leading-relaxed text-dusk">Film, sorozat, könyv, zene és programok válogatva.</p>
+      </article>
+      <article id="kozelet" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-6 transition-colors hover:border-brass/50">
+        <div class="flex items-center justify-between">
+          <span class="inline-flex h-12 w-12 items-center justify-center rounded-xl border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12 16 5.5 27.5 12"/><path d="M6 12.5h20"/><path d="M8.5 15v8M13 15v8M19 15v8M23.5 15v8"/><path d="M5 26.5h22"/></svg></span>
+          <span class="rounded-full border border-line px-3 py-1 text-[12px] text-dusk">Hamarosan</span>
+        </div>
+        <h3 class="mt-5 font-display text-[28px] font-semibold leading-tight">Közélet számokban</h3>
+        <p class="mt-2 text-[15px] leading-relaxed text-dusk">Pártatlan, adatvezérelt magyarázók a közügyekről.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HÍRLEVÉL / LEAD GEN ============ -->
+<section id="hirlevel" class="stars">
+  <div class="mx-auto max-w-7xl px-5 py-20 lg:px-8">
+    <div class="grid overflow-hidden rounded-3xl border border-line bg-vault lg:grid-cols-2">
+      <div class="p-8 sm:p-12">
+        <h2 class="font-display text-[38px] font-semibold leading-[1.08] sm:text-[46px]">Heti Kollektíva – A legfontosabb lökettel és retro csemegékkel</h2>
+        <p class="mt-5 max-w-md text-[16px] leading-relaxed text-dusk">Minden vasárnap reggel összegezzük a jegyedre szabott legfontosabb energiákat, egy durvább történelmi/retro sztorit, valamint egy exkluzív heti elemzést. Ingyenes, bármikor leiratkozhatsz.</p>
+        <ul class="mt-8 space-y-3 text-[15px] text-parch/85">
+          <li class="flex gap-3"><span class="text-brass" aria-hidden="true">✓</span>Heti horoszkóp és energiák a jegyedre</li>
+          <li class="flex gap-3"><span class="text-brass" aria-hidden="true">✓</span>Exkluzív heti retro válogatás és archív sztorik</li>
+          <li class="flex gap-3"><span class="text-brass" aria-hidden="true">✓</span>Nincs spam, csak tiszta tartalom heti egyszer</li>
+        </ul>
+      </div>
+
+      <div class="border-t border-line bg-night/60 p-8 sm:p-12 lg:border-l lg:border-t-0">
+        <form id="leadForm" novalidate class="space-y-5">
+          <div>
+            <label for="birth" class="mb-2 block text-[14px] text-dusk">Születési dátum</label>
+            <input id="birth" name="birth_date" type="date" required min="1920-01-01"
+              class="w-full rounded-xl border border-line bg-vault px-4 py-3.5 text-[16px] text-parch placeholder-dusk focus:border-brass focus:outline-none">
+            <p id="signHint" class="mt-2 min-h-[20px] text-[14px] text-brass"></p>
+          </div>
+          <div>
+            <label for="email" class="mb-2 block text-[14px] text-dusk">E-mail cím</label>
+            <input id="email" name="email" type="email" required autocomplete="email" placeholder="nev@pelda.hu"
+              class="w-full rounded-xl border border-line bg-vault px-4 py-3.5 text-[16px] text-parch placeholder-dusk/70 focus:border-brass focus:outline-none">
+          </div>
+          <label class="flex items-start gap-3 text-[14px] leading-relaxed text-dusk">
+            <input id="consent" type="checkbox" required class="mt-1 h-4 w-4 accent-[#C9A45C]">
+            <span>Elfogadom az <a href="#" class="text-parch underline decoration-line underline-offset-2 hover:decoration-brass">adatkezelési tájékoztatót</a>, és hozzájárulok a heti hírlevél küldéséhez.</span>
+          </label>
+          <p id="formError" class="hidden text-[14px] text-[#E38B8B]" role="alert"></p>
+          <button type="submit" id="submitBtn" class="w-full rounded-full bg-brass px-6 py-4 text-[16px] font-semibold text-night transition hover:bg-[#D8B46B] disabled:opacity-60">Feliratkozom a heti levélre</button>
+        </form>
+
+        <div id="formSuccess" class="hidden py-6" role="status">
+          <div class="sym font-display text-[72px] leading-none text-brass" id="successSymbol"></div>
+          <h3 class="mt-4 font-display text-[32px] font-semibold">Feliratkoztál</h3>
+          <p class="mt-3 text-[16px] leading-relaxed text-dusk" id="successText"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="border-t border-line/70 bg-night">
+  <div class="mx-auto max-w-7xl px-5 py-14 lg:px-8">
+    <div class="grid gap-10 md:grid-cols-3">
+      <div class="md:col-span-2">
+        <p class="font-display text-[26px] font-semibold">Kollektíva<span class="text-brass">.</span></p>
+        <p class="mt-3 max-w-sm text-[14px] leading-relaxed text-dusk">Független online magazin csillagokról, történelemről, közéletről és a mindennapokról.</p>
+      </div>
+      <div class="text-[14px] leading-7 text-dusk">
+        <p class="mb-2 text-parch">Információ</p>
+        <p><a href="#" class="hover:text-parch">Impresszum</a></p>
+        <p><a href="#" class="hover:text-parch">Adatkezelési tájékoztató</a></p>
+        <p><a href="#" class="hover:text-parch">Süti beállítások</a></p>
+        <p><a href="#" class="hover:text-parch">Hirdetési ajánlat</a></p>
+      </div>
+    </div>
+    <div class="mt-12 flex flex-col justify-between gap-3 border-t border-line/70 pt-6 text-[13px] text-dusk/80 sm:flex-row">
+      <p>© <span id="year"></span> Kollektíva. Minden jog fenntartva.</p>
+      <p>A horoszkópok szórakoztató célú tartalmak.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* =====================================================================
+   KONFIG
+   ===================================================================== */
+// A JSON-ok lehetséges helyei, sorrendben próbálva. Cloudflare Pages-en a
+// kimeneti mappa a gyökér: ha az "public", akkor /data/, ha a repó gyökere, akkor /public/data/.
+const DATA_PATHS = ['/data/', './data/', '/public/data/', './public/data/'];
+const FETCH_TIMEOUT_MS = 8000;
+const SITE_TZ = 'Europe/Budapest';
+// Hírlevél backend végpontja (Brevo, Mailchimp, Systeme.io stb.). Üresen: demó mód.
+const NEWSLETTER_ENDPOINT = '';
+
+/* =====================================================================
+   ALAPADATOK + FALLBACK (ha a JSON nem érhető el)
+   ===================================================================== */
+const SIGNS = [
+  { id:'kos',      name:'Kos',      sym:'♈', from:[3,21],  to:[4,19]  },
+  { id:'bika',     name:'Bika',     sym:'♉', from:[4,20],  to:[5,20]  },
+  { id:'ikrek',    name:'Ikrek',    sym:'♊', from:[5,21],  to:[6,20]  },
+  { id:'rak',      name:'Rák',      sym:'♋', from:[6,21],  to:[7,22]  },
+  { id:'oroszlan', name:'Oroszlán', sym:'♌', from:[7,23],  to:[8,22]  },
+  { id:'szuz',     name:'Szűz',     sym:'♍', from:[8,23],  to:[9,22]  },
+  { id:'merleg',   name:'Mérleg',   sym:'♎', from:[9,23],  to:[10,22] },
+  { id:'skorpio',  name:'Skorpió',  sym:'♏', from:[10,23], to:[11,21] },
+  { id:'nyilas',   name:'Nyilas',   sym:'♐', from:[11,22], to:[12,21] },
+  { id:'bak',      name:'Bak',      sym:'♑', from:[12,22], to:[1,19]  },
+  { id:'vizonto',  name:'Vízöntő',  sym:'♒', from:[1,20],  to:[2,18]  },
+  { id:'halak',    name:'Halak',    sym:'♓', from:[2,19],  to:[3,20]  }
+];
+
+const FALLBACK_READINGS = {
+  kos:'Gyors döntést vár tőled valaki, de nem kell azonnal igent mondanod. Délután egy régi ötlet új értelmet nyer.',
+  bika:'Pénzügyekben ma a türelem fizetődik ki. Egy baráti beszélgetés többet ér bármilyen tervezgetésnél.',
+  ikrek:'Túl sok szál fut egyszerre – válaszd ki a legfontosabbat. Este jó hír érkezik egy váratlan irányból.',
+  rak:'Az otthonod ma a menedéked. Ha valami bánt, mondd ki: jobban fogadják, mint gondolnád.',
+  oroszlan:'Figyelem vesz körül, használd okosan. Egy nagyvonalú gesztus most sokat hozhat vissza.',
+  szuz:'A részletekben ma valóban ott az ördög – de te megtalálod. Egy apró rendrakás nagy megkönnyebbülést hoz.',
+  merleg:'A te idényed kezdődött: ma könnyebben mérlegelsz, és a kompromisszum most nem gyengeség, hanem erő.',
+  skorpio:'Egy titok felszínre kerülhet – nem feltétlenül a tiéd. Maradj megfigyelő, ne ítélj elsőre.',
+  nyilas:'Kalandvágy tör rád; egy rövid kiruccanás vagy új könyv is elég lehet. Ne ígérj többet, mint amit tartani tudsz.',
+  bak:'Munkában elismerés közelít. Ne szerénykedj, ha rákérdeznek az eredményeidre.',
+  vizonto:'Közösségi ügyekben ma te vagy a motor. Egy szokatlan ötleted meglepően jó visszhangot kap.',
+  halak:'Az intuíciód ma különösen éles. Egy álom vagy megérzés jó irányba terel.'
+};
+
+const FALLBACK_RETRO = [
+  { year:1934, title:'Vízre bocsátják a Queen Mary óceánjárót',
+    text:'Skóciában, Clydebankben bocsátották vízre a korszak egyik legnagyobb és legfényűzőbb utasszállítóját, amely később a transzatlanti gyorsasági rekordot is elnyerte.' },
+  { year:1960, title:'Az első televíziós elnökjelölti vita',
+    text:'Kennedy és Nixon élő tévévitája megmutatta, hogy a kamera előtt a megjelenés legalább annyit számít, mint a mondanivaló.' },
+  { year:1969, title:'Megjelenik az Abbey Road',
+    text:'A Beatles utolsóként rögzített albuma és a zebrán átkelő négyes borítója azóta is a popkultúra egyik legtöbbet utánzott képe.' },
+  { year:1983, title:'Petrov és a hamis riasztás',
+    text:'Sztanyiszlav Petrov szovjet tiszt téves rakétariasztásnak minősítette a rendszer jelzését – egy döntés, amely valószínűleg nukleáris eszkalációt előzött meg.' }
+];
+const FALLBACK_RETRO_DATE = [9, 26];
+
+/* =====================================================================
+   SEGÉDFÜGGVÉNYEK
+   ===================================================================== */
+const HU_MONTHS = ['január','február','március','április','május','június','július','augusztus','szeptember','október','november','december'];
+const txt = s => String(s) + '\uFE0E';   // csillagjegy-szimbólum szövegként, nem emojiként
+const pad = n => String(n).padStart(2,'0');
+const fmtRange = s => `${HU_MONTHS[s.from[0]-1]} ${s.from[1]}. – ${HU_MONTHS[s.to[0]-1]} ${s.to[1]}.`;
+const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const meter = n => { const v = Math.min(5, Math.max(1, Math.round(Number(n) || 3))); return '●'.repeat(v) + '○'.repeat(5 - v); };
+const todayISO = () => new Intl.DateTimeFormat('sv-SE', { timeZone: SITE_TZ }).format(new Date()); // ÉÉÉÉ-HH-NN
+const $ = id => document.getElementById(id);
+
+function signFromDate(month, day) {
+  return SIGNS.find(s => {
+    const [fm, fd] = s.from, [tm, td] = s.to;
+    if (fm <= tm) return (month === fm && day >= fd) || (month === tm && day <= td) || (month > fm && month < tm);
+    return (month === fm && day >= fd) || (month === tm && day <= td) || month > fm || month < tm;
+  });
+}
+function store(key, val) {
+  try { if (val !== undefined) localStorage.setItem(key, val); return localStorage.getItem(key); }
+  catch (e) { return null; }
+}
+
+/**
+ * JSON betöltése több lehetséges útvonalról.
+ * - NEM használ AbortSignal-t (az egyes beágyazott/sandbox környezetekben DataCloneError-t okoz);
+ *   az időkorlát Promise.race-szel működik.
+ * - Minden próbálkozást naplóz; a HTML-t visszaadó 404/SPA-oldalt is kiszűri.
+ */
+async function fetchJSON(file) {
+  const attempts = [];
+  for (const base of DATA_PATHS) {
+    const url = base + file;
+    const started = performance.now();
+    try {
+      const res = await Promise.race([
+        fetch(url, { cache: 'no-cache', headers: { 'Accept': 'application/json' } }),
+        new Promise((_, reject) => setTimeout(() => reject(new Error(`időtúllépés (${FETCH_TIMEOUT_MS} ms)`)), FETCH_TIMEOUT_MS))
+      ]);
+      const ms = Math.round(performance.now() - started);
+      if (!res.ok) { attempts.push({ url, status: res.status, ms, error: res.statusText || 'HTTP hiba' }); continue; }
+      const raw = await res.text();
+      if (/^\s*</.test(raw)) { attempts.push({ url, status: res.status, ms, error: 'HTML érkezett JSON helyett (valószínűleg 404/átirányítás)' }); continue; }
+      try {
+        const data = JSON.parse(raw);
+        console.info(`[Kollektíva] ${file} betöltve: ${res.url || url} (${ms} ms)`);
+        return data;
+      } catch (e) {
+        attempts.push({ url, status: res.status, ms, error: 'Érvénytelen JSON: ' + e.message });
+      }
+    } catch (e) {
+      attempts.push({ url, status: '-', ms: Math.round(performance.now() - started), error: `${e.name}: ${e.message}` });
+    }
+  }
+  const title = `[Kollektíva] ${file} nem tölthető be – fallback tartalom jelenik meg`;
+  if (typeof console.groupCollapsed === 'function') console.groupCollapsed(title); else console.warn(title);
+  if (typeof console.table === 'function') console.table(attempts); else console.warn(JSON.stringify(attempts, null, 2));
+  if (location.protocol === 'file:') console.warn('Fájlból (file://) megnyitva a böngésző tiltja a fetch-et. Helyi teszthez: "python -m http.server" a mappában, majd http://localhost:8000');
+  if (typeof console.groupEnd === 'function') console.groupEnd();
+  throw new Error(`${file}: egyik útvonalon sem érhető el`);
+}
+
+/* =====================================================================
+   ÁLTALÁNOS UI
+   ===================================================================== */
+const now = new Date();
+$('year').textContent = now.getFullYear();
+$('issueNo').textContent = Math.floor((Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) - Date.UTC(now.getFullYear(), 0, 0)) / 864e5);
+if (matchMedia('(prefers-reduced-motion: reduce)').matches) document.querySelectorAll('.orbit-motion').forEach(el => el.remove());
+$('todayLabel').textContent = now.toLocaleDateString('hu-HU', { timeZone: SITE_TZ, year:'numeric', month:'long', day:'numeric', weekday:'long' });
+
+const menuBtn = $('menuBtn'), mobileMenu = $('mobileMenu');
+menuBtn.addEventListener('click', () => {
+  const open = mobileMenu.classList.toggle('hidden') === false;
+  menuBtn.setAttribute('aria-expanded', open);
+  menuBtn.setAttribute('aria-label', open ? 'Menü bezárása' : 'Menü megnyitása');
+});
+mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { mobileMenu.classList.add('hidden'); menuBtn.setAttribute('aria-expanded', false); }));
+
+document.querySelectorAll('#googleLogin,[data-google]').forEach(b => b.addEventListener('click', () => {
+  alert('Google belépés: itt kell bekötni a Google Identity Services-t.');
+}));
+
+(function buildWheel() {
+  const g = $('wheel'); const cx = 200, cy = 200;
+  let html = `<circle cx="${cx}" cy="${cy}" r="170" fill="none" stroke="#2A2D52" stroke-width="1"/>
+              <circle cx="${cx}" cy="${cy}" r="120" fill="none" stroke="#2A2D52" stroke-width="1"/>`;
+  SIGNS.forEach((s, i) => {
+    const a = (i * 30 - 90) * Math.PI / 180, a2 = ((i * 30) - 75) * Math.PI / 180;
+    html += `<line x1="${cx + 120*Math.cos(a)}" y1="${cy + 120*Math.sin(a)}" x2="${cx + 170*Math.cos(a)}" y2="${cy + 170*Math.sin(a)}" stroke="#2A2D52"/>`;
+    html += `<text x="${cx + 145*Math.cos(a2)}" y="${cy + 145*Math.sin(a2)}" fill="#C9A45C" font-size="22" text-anchor="middle" dominant-baseline="central" font-family="Georgia, serif">${txt(s.sym)}</text>`;
+  });
+  for (let i = 0; i < 72; i++) {
+    const a = i * 5 * Math.PI / 180, r1 = i % 6 === 0 ? 176 : 172;
+    html += `<line x1="${cx + r1*Math.cos(a)}" y1="${cy + r1*Math.sin(a)}" x2="${cx + 182*Math.cos(a)}" y2="${cy + 182*Math.sin(a)}" stroke="#9492B3" stroke-opacity=".5"/>`;
+  }
+  g.innerHTML = html;
+})();
+
+/* =====================================================================
+   HOROSZKÓP (horoscope.json → fallback)
+   ===================================================================== */
+// Az aktuálisan megjelenített adatok jegyenként: {headline, text, love, work, energy, focus, lucky_color}
+let horoscopeData = {};
+
+function fallbackHoroscope() {
+  const seedBase = now.getDate();
+  const out = {};
+  SIGNS.forEach((s, i) => {
+    const seed = i + seedBase;
+    out[s.id] = { headline: '', text: FALLBACK_READINGS[s.id], love: 2 + seed % 4, work: 2 + (seed + 2) % 4, energy: 2 + (seed + 1) % 4, focus: '', lucky_color: '' };
+  });
+  return out;
+}
+
+const grid = $('signGrid');
+grid.innerHTML = SIGNS.map(s => `
+  <button type="button" role="option" aria-selected="false" data-sign="${s.id}"
+    class="group flex flex-col items-center gap-2 bg-night px-3 py-7 text-center transition-colors hover:bg-vault aria-selected:bg-vault">
+    <span class="sym font-display text-[40px] leading-none text-dusk transition-colors group-hover:text-brass group-aria-selected:text-brass">${txt(s.sym)}</span>
+    <span class="text-[15px] font-semibold text-parch">${s.name}</span>
+    <span class="text-[12px] text-dusk">${pad(s.from[0])}.${pad(s.from[1])} – ${pad(s.to[0])}.${pad(s.to[1])}</span>
+  </button>`).join('');
+
+function selectSign(id, scroll) {
+  const s = SIGNS.find(x => x.id === id); if (!s) return;
+  const h = horoscopeData[id] || fallbackHoroscope()[id];
+  grid.querySelectorAll('[data-sign]').forEach(b => b.setAttribute('aria-selected', b.dataset.sign === id));
+  $('panelSymbol').textContent = txt(s.sym);
+  $('panelTitle').textContent = h.headline ? `${s.name}: ${h.headline}` : `${s.name} – mai horoszkóp`;
+  $('panelDates').textContent = fmtRange(s);
+  $('panelText').textContent = h.text || FALLBACK_READINGS[id];
+  $('mLove').textContent = meter(h.love);
+  $('mWork').textContent = meter(h.work);
+  $('mEnergy').textContent = meter(h.energy);
+  const extra = [h.focus && `A nap gondolata: ${h.focus}`, h.lucky_color && `Szerencseszín: ${h.lucky_color}`].filter(Boolean).join('  ·  ');
+  $('panelExtra').textContent = extra;
+  $('panelExtra').classList.toggle('hidden', !extra);
+  const panel = $('signPanel'); panel.classList.remove('hidden');
+  store('kollektiva_sign', id);
+  renderToday();
+  if (scroll) panel.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
+}
+grid.addEventListener('click', e => { const b = e.target.closest('[data-sign]'); if (b) selectSign(b.dataset.sign, true); });
+
+function setHoroscopeStatus(msg) {
+  $('horoscopeStatus').textContent = msg || '';
+  $('horoscopeStatus').classList.toggle('hidden', !msg);
+}
+
+async function loadHoroscope() {
+  try {
+    const data = await fetchJSON('horoscope.json');
+    if (!Array.isArray(data.signs) || data.signs.length === 0) throw new Error('A horoscope.json "signs" tömbje üres vagy hiányzik');
+    const map = {};
+    data.signs.forEach(x => { if (x && x.id && x.text) map[x.id] = x; });
+    const missing = SIGNS.filter(s => !map[s.id]).map(s => s.id);
+    if (missing.length) console.warn('[Kollektíva] Hiányzó jegyek a horoscope.json-ban (fallback szöveg):', missing);
+    horoscopeData = { ...fallbackHoroscope(), ...map };
+    if (data.date && data.date !== todayISO()) {
+      setHoroscopeStatus(`A mai elemzés frissítése folyamatban van – addig a ${data.date_label || data.date} napi horoszkópot látod.`);
+      console.warn(`[Kollektíva] Elavult horoszkóp: ${data.date} (ma: ${todayISO()})`);
+    } else {
+      setHoroscopeStatus('');
+    }
+  } catch (err) {
+    console.error('[Kollektíva] Horoszkóp:', err.message);
+    horoscopeData = fallbackHoroscope();
+    setHoroscopeStatus('');
+  }
+  const saved = store('kollektiva_sign');
+  if (saved) selectSign(saved, false);
+}
+
+/* =====================================================================
+   CÍMLAP: kiemelt cikk + "Ma a Kollektívában"
+   ===================================================================== */
+const todayState = { retroTitle: '', retroYear: '' };
+
+function renderFeatured(f) {
+  $('featKicker').textContent = f.kicker;
+  $('featTitle').textContent = f.title;
+  $('featLead').textContent = f.lead || '';
+  $('featMeta').textContent = f.meta || '';
+  $('featLink').href = f.href || '#retro';
+}
+
+function renderToday() {
+  const saved = SIGNS.find(s => s.id === store('kollektiva_sign'));
+  const h = saved ? (horoscopeData[saved.id] || {}) : null;
+  const items = [
+    { label: 'Horoszkóp', href: '#horoszkop',
+      title: saved ? `${saved.name}: ${h.headline || 'a mai elemzésed'}` : 'Válaszd ki a jegyed – 12 napi elemzés' },
+    { label: 'Ekkor történt', href: '#retro',
+      title: todayState.retroTitle ? `${todayState.retroYear ? todayState.retroYear + ' – ' : ''}${todayState.retroTitle}` : 'Évfordulók és letűnt botrányok' },
+    { label: 'Univerzum', href: '#univerzum', title: 'Hamarosan: a NASA és az ESA legszebb felvételei' },
+    { label: 'Heti Kollektíva', href: '#hirlevel', title: 'Vasárnaponként a jegyedre szabott összefoglaló' }
+  ];
+  $('todayList').innerHTML = items.map((it, i) => `
+    <li>
+      <a href="${it.href}" class="group flex gap-5 py-5">
+        <span class="font-display text-[34px] font-semibold leading-none text-brass/80">${pad(i + 1)}</span>
+        <span>
+          <span class="block text-[12px] uppercase tracking-[0.16em] text-dusk">${esc(it.label)}</span>
+          <span class="mt-1.5 block font-display text-[22px] font-semibold leading-snug text-parch transition-colors group-hover:text-brass">${esc(it.title)}</span>
+        </span>
+      </a>
+    </li>`).join('');
+}
+
+/* =====================================================================
+   RETRO / EKKOR TÖRTÉNT (retro_articles.json → fallback)
+   ===================================================================== */
+function renderFallbackRetro() {
+  const feat = FALLBACK_RETRO.find(e => e.year === 1983) || FALLBACK_RETRO[0];
+  renderFeatured({ kicker: `Ekkor történt · ${feat.year}`, title: feat.title, lead: feat.text,
+                   meta: `${HU_MONTHS[FALLBACK_RETRO_DATE[0]-1]} ${FALLBACK_RETRO_DATE[1]}. · Kollektíva szerkesztőség`, href: '#retro' });
+  const second = FALLBACK_RETRO.find(e => e !== feat);
+  todayState.retroTitle = second.title; todayState.retroYear = second.year;
+  renderToday();
+  $('retroDate').textContent = `${HU_MONTHS[FALLBACK_RETRO_DATE[0]-1]} ${FALLBACK_RETRO_DATE[1]}.`;
+  $('timeline').innerHTML = FALLBACK_RETRO.slice().sort((a,b) => a.year - b.year).map(ev => `
+    <li class="relative pb-12 pl-8 last:pb-0 sm:pl-12">
+      <span class="absolute -left-[5px] top-3 h-[9px] w-[9px] rounded-full bg-brass"></span>
+      <p class="font-display text-[44px] font-semibold leading-none text-brass/90 sm:text-[56px]">${ev.year}</p>
+      <h3 class="mt-3 font-display text-[26px] font-semibold leading-snug text-parch">${esc(ev.title)}</h3>
+      <p class="mt-2 max-w-2xl text-[16px] leading-relaxed text-dusk">${esc(ev.text)}</p>
+    </li>`).join('');
+}
+
+function renderRetroArticles(articles, isTodayFirst) {
+  const first = articles[0];
+  $('retroDate').textContent = isTodayFirst ? (first.date_label || '') : `Legutóbbi: ${first.date_label || first.date || ''}`;
+  $('timeline').innerHTML = articles.map((a, i) => {
+    const body = Array.isArray(a.body) ? a.body : [];
+    const bodyId = `retroBody${i}`;
+    return `
+    <li class="relative pb-12 pl-8 last:pb-0 sm:pl-12">
+      <span class="absolute -left-[5px] top-3 h-[9px] w-[9px] rounded-full bg-brass"></span>
+      <p class="font-display text-[44px] font-semibold leading-none text-brass/90 sm:text-[56px]">${esc(a.category_meta?.event_year ?? a.event_year ?? '')}</p>
+      <p class="mt-2 text-[13px] text-dusk">${esc(a.date_label || '')} · ${esc(a.reading_time_min || 1)} perc olvasás</p>
+      <h3 class="mt-2 font-display text-[26px] font-semibold leading-snug text-parch">${esc(a.title)}</h3>
+      <p class="mt-2 max-w-2xl text-[16px] leading-relaxed text-dusk">${esc(a.lead)}</p>
+      ${body.length ? `
+      <button type="button" class="mt-4 border-b border-brass/60 pb-0.5 text-[15px] text-parch hover:border-brass" data-toggle="${bodyId}" aria-expanded="false" aria-controls="${bodyId}">Tovább olvasom</button>
+      <div id="${bodyId}" class="mt-5 hidden max-w-2xl space-y-4 text-[16px] leading-relaxed text-parch/85">
+        ${a.pull_quote ? `<blockquote class="border-l-2 border-brass pl-4 font-display text-[22px] italic text-parch">${esc(a.pull_quote)}</blockquote>` : ''}
+        ${body.map(p => `<p>${esc(p)}</p>`).join('')}
+      </div>` : ''}
+    </li>`;
+  }).join('');
+}
+
+$('timeline').addEventListener('click', e => {
+  const btn = e.target.closest('[data-toggle]'); if (!btn) return;
+  const panel = $(btn.dataset.toggle);
+  const open = panel.classList.toggle('hidden') === false;
+  btn.setAttribute('aria-expanded', open);
+  btn.textContent = open ? 'Bezárás' : 'Tovább olvasom';
+});
+
+async function loadRetro() {
+  try {
+    const data = await fetchJSON('retro_articles.json');
+    const list = (Array.isArray(data.articles) ? data.articles : [])
+      // Csak publikált cikk jelenik meg (új séma: status; régi: review_status)
+      .filter(a => a && a.title && (a.status ? a.status === 'published' : a.review_status !== 'needs_review'));
+    if (!list.length) throw new Error('Nincs publikálható cikk a retro_articles.json-ban');
+    list.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+    renderRetroArticles(list.slice(0, 4), list[0].date === todayISO());
+    const f = list[0], yr = f.category_meta?.event_year ?? f.event_year ?? '';
+    renderFeatured({ kicker: `Ekkor történt${yr ? ' · ' + yr : ''}`, title: f.title, lead: f.lead,
+                     meta: `${f.date_label || ''} · ${f.reading_time_min || 1} perc olvasás · Kollektíva szerkesztőség`, href: '#retro' });
+    const second = list[1] || null;
+    todayState.retroTitle = second ? second.title : '';
+    todayState.retroYear = second ? (second.category_meta?.event_year ?? second.event_year ?? '') : '';
+    renderToday();
+  } catch (err) {
+    console.error('[Kollektíva] Retro:', err.message);
+    renderFallbackRetro();
+  }
+}
+
+/* =====================================================================
+   HÍRLEVÉL / LEAD GEN
+   ===================================================================== */
+const birth = $('birth'), hint = $('signHint');
+birth.max = todayISO();
+birth.addEventListener('change', () => {
+  if (!birth.value) { hint.textContent = ''; return; }
+  const [, m, d] = birth.value.split('-').map(Number); const s = signFromDate(m, d);
+  hint.textContent = s ? `${txt(s.sym)} ${s.name} – erre a jegyre szabjuk a heti levelet` : '';
+});
+
+$('leadForm').addEventListener('submit', async e => {
+  e.preventDefault();
+  const err = $('formError'), btn = $('submitBtn');
+  const email = $('email').value.trim(), consent = $('consent').checked;
+  const fail = msg => { err.textContent = msg; err.classList.remove('hidden'); };
+  err.classList.add('hidden');
+  if (!birth.value) return fail('Add meg a születési dátumodat.');
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return fail('Érvényes e-mail címet adj meg, például nev@pelda.hu.');
+  if (!consent) return fail('A feliratkozáshoz fogadd el az adatkezelési tájékoztatót.');
+
+  const [, m, d] = birth.value.split('-').map(Number); const sign = signFromDate(m, d);
+  const payload = { email, birth_date: birth.value, sign: sign.id, source: 'kollektiva_home', consent_at: new Date().toISOString() };
+
+  btn.disabled = true; btn.textContent = 'Feliratkozás…';
+  try {
+    if (NEWSLETTER_ENDPOINT) {
+      const r = await fetch(NEWSLETTER_ENDPOINT, { method:'POST', headers:{ 'Content-Type':'application/json' }, body: JSON.stringify(payload) });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    } else {
+      console.info('[Kollektíva] Demó mód – hírlevél payload:', payload);
+      await new Promise(res => setTimeout(res, 600));
+    }
+    $('leadForm').classList.add('hidden');
+    $('successSymbol').textContent = txt(sign.sym);
+    $('successText').textContent = `Vasárnap reggel megérkezik az első Heti Kollektíva a(z) ${email} címre, ${sign.name} jegyre szabva.`;
+    $('formSuccess').classList.remove('hidden');
+    store('kollektiva_sign', sign.id); selectSign(sign.id, false);
+  } catch (ex) {
+    console.error('[Kollektíva] Hírlevél:', ex);
+    fail('A feliratkozás nem sikerült: a szerver nem válaszolt. Próbáld újra pár perc múlva.');
+    btn.disabled = false; btn.textContent = 'Feliratkozom a heti levélre';
+  }
+});
+
+/* =====================================================================
+   INDÍTÁS – a két betöltés egymástól független
+   ===================================================================== */
+renderFallbackRetro();          // azonnal van tartalom, a JSON felülírja, ha megérkezik
+horoscopeData = fallbackHoroscope();
+loadHoroscope();
+loadRetro();
+</script>
+</body>
+</html>
