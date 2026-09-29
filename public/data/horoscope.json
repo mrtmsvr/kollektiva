@@ -1,10 +1,10 @@
 {
   "date": "2026-09-29",
   "date_label": "2026. szeptember 29., kedd",
-  "generated_at": "2026-09-29T14:54:21+02:00",
+  "generated_at": "2026-09-29T14:57:33+02:00",
   "expires_at": "2026-09-30T00:00:00+02:00",
   "period": "daily",
-  "source": "fallback",
+  "source": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
   "signs": [
     {
       "id": "kos",
@@ -13,13 +13,13 @@
       "element": "tűz",
       "dates": "03.21–04.19",
       "sign": "kos",
-      "headline": "Új irány a láthatáron",
-      "text": "Belső tüzed ma nem kapkodást, hanem irányt kér. Figyelj a testedre is: a pihenés ma nem luxus, hanem befektetés. A múlt egy darabja ma más megvilágításba kerül, és ez felszabadító lehet. Este adj magadnak időt, hogy a nap tapasztalatai leülepedjenek.",
-      "love": 5,
-      "work": 3,
+      "headline": "A türelmetlenség most rossz tanácsadó",
+      "text": "Ma olyan belső feszültség motoszkál benned, amely legszívesebben azonnali cselekvésre ösztönözne. A szeptember végi hűvös levegő azonban arra int, hogy ne égesd el feleslegesen az energiáidat. Egy váratlan helyzet rávilágíthat arra, hogy a gyorsaság nem egyenlő a hatékonysággal. Engedd el a görcsös irányítási vágyat, és figyeld meg, mi történik, ha egy lépést hátralépsz. A nap második fele alkalmas lesz arra, hogy rendezd a soraidat a magánéletedben, és egy őszinte beszélgetés eloszlasson egy régóta húzódó félreértést. Ne akard mindenáron te megváltani a világot, néha elég, ha csak a saját belső békédet véded meg a zajos külvilágtól.",
+      "love": 3,
+      "work": 4,
       "energy": 5,
-      "focus": "Az egyszerű út most a bölcs út.",
-      "lucky_color": "arany"
+      "focus": "A megfontolt lépések most messzebbére visznek.",
+      "lucky_color": "karmazsinvörös"
     },
     {
       "id": "bika",
@@ -28,13 +28,13 @@
       "element": "föld",
       "dates": "04.20–05.20",
       "sign": "bika",
-      "headline": "A szavak súlya",
-      "text": "A figyelmed a kézzelfogható dolgok felé fordul, és ez jó iránytű. A múlt egy darabja ma más megvilágításba kerül, és ez felszabadító lehet. Munkában a kevesebb most több: egyetlen jól elvégzett feladat felér három félbehagyottal. Bízz a saját ritmusodban – ma ez a legjobb stratégia.",
-      "love": 5,
-      "work": 4,
-      "energy": 5,
-      "focus": "A türelem is cselekvés.",
-      "lucky_color": "rozsdabarna"
+      "headline": "A stabil talaj benned magadban van",
+      "text": "A mindennapok ritmusa ma kissé megakadhat, ami elsőre bosszantónak tűnhet, de mélyebb rétegeiben lehetőséget rejt. Ideális nap ez arra, hogy a fizikai környezetedet és a belső világodat is harmóniába hozd. Egy régi emlék vagy egy elfeledettnek hitt tárgy különös nosztalgiát válthat ki belőled, ám ahelyett, hogy a múltban időznél, fordítsd ezt a teremtőerőt a jelened szépítésére. A munkahelyeden vagy a teendőid között találhatsz valakit, akinek épp a te megnyugtató jelenlétedre van szüksége. Ne sajnáld az időt a lassú, elmélyült pillanatokra; a délutáni órákban egy gasztronómiai élmény vagy a természet közelsége csodákat tehet a hangulatoddal.",
+      "love": 4,
+      "work": 3,
+      "energy": 3,
+      "focus": "Találj örömöt az egyszerű, kézzelfogható dolgokban.",
+      "lucky_color": "zsályazöld"
     },
     {
       "id": "ikrek",
@@ -43,13 +43,13 @@
       "element": "levegő",
       "dates": "05.21–06.20",
       "sign": "ikrek",
-      "headline": "Belső egyensúly",
-      "text": "Gondolataid ma szokatlanul tiszták, és ezt mások is észreveszik. A kapcsolataidban most az őszinteség többet ér a diplomáciánál, ha tapintattal teszed. Figyelj a testedre is: a pihenés ma nem luxus, hanem befektetés. A nap végére kiderül: jó irányba indultál.",
+      "headline": "Szavak hálójában, de tisztán látva",
+      "text": "Gondolataid ma sebesebben járnak, mint a lehulló falevelek a szeptemberi szélben. Számos inspiráció ér, és legszívesebben egyszerre tíz dologba is belekezdenél. A kulcs mégis az összpontosításban rejlik: válaszd ki azt az egyetlen ügyet, amely valóban fontos, és szenteld neki a figyelmedet. A kommunikáció most a legfőbb fegyvered és egyben a gyenge pontod is; figyelj arra, hogy ne csak beszélj, hanem hallgass is meg másokat. Egy kötetlen beszélgetés során olyan információ birtokába juthatsz, amely átírja a heti terveidet. Este engedd meg az elmédnek a pihenést, kapcsold ki a folyamatosan zümmögő eszközöket, és hagyd, hogy a csend vegye át az uralmat.",
       "love": 4,
-      "work": 3,
-      "energy": 2,
-      "focus": "Az egyszerű út most a bölcs út.",
-      "lucky_color": "levendula"
+      "work": 4,
+      "energy": 4,
+      "focus": "A kevesebb információ most mélyebb megértést szül.",
+      "lucky_color": "napsárga"
     },
     {
       "id": "rak",
@@ -58,13 +58,13 @@
       "element": "víz",
       "dates": "06.21–07.22",
       "sign": "rak",
-      "headline": "A bátorság napja",
-      "text": "A csend ma nem üresség, hanem válasz. A múlt egy darabja ma más megvilágításba kerül, és ez felszabadító lehet. Munkában a kevesebb most több: egyetlen jól elvégzett feladat felér három félbehagyottal. Amit ma elengedsz, annak a helyén holnap tér nyílik valami újnak.",
-      "love": 2,
-      "work": 4,
-      "energy": 3,
-      "focus": "Kérdezz, mielőtt ítélsz.",
-      "lucky_color": "rozsdabarna"
+      "headline": "A lelkünk mélyéről fakadó igazságok",
+      "text": "Az őszi fények különös érzékenységet hoznak a felszínre. Ma fokozottan rezonálsz a környezeted rezdüléseire, ami áldás és teher is egyben. Ha úgy érzed, túl sok a külső inger, ne félj visszavonulni a saját belső szentélyedbe. Az otthonod most nemcsak fizikai menedék, hanem a lelkessséged feltöltődésének a helyszíne is. Egy családi vagy mélyen személyes kapcsolatban most lehetőség nyílik arra, hogy lehámozzátok a felesleges játszmákat, és tiszta szívvel szóljatok egymáshoz. Bízz az intuíciódban, mert pontosan súgja, kinek van szüksége a támogatásodra, és kitől érdemes most egy picit távolabb lépned. Az esti órákban egy forró tea és egy jó könyv csodás gyógyír.",
+      "love": 5,
+      "work": 3,
+      "energy": 2,
+      "focus": "Óvd a belső határaidat a túlzott érzelmi viharoktól.",
+      "lucky_color": "ezüst"
     },
     {
       "id": "oroszlan",
@@ -73,13 +73,13 @@
       "element": "tűz",
       "dates": "07.23–08.22",
       "sign": "oroszlan",
-      "headline": "Lassú, biztos lépések",
-      "text": "Belső tüzed ma nem kapkodást, hanem irányt kér. Figyelj a testedre is: a pihenés ma nem luxus, hanem befektetés. Valaki a környezetedben a támogatásodra vár, még ha nem is mondja ki. Amit ma elengedsz, annak a helyén holnap tér nyílik valami újnak.",
-      "love": 2,
-      "work": 2,
+      "headline": "A belső fény sosem szorul magyarázatra",
+      "text": "Megszoktad, hogy te vagy a középpontban, de ma érdemes lehet észrevenni a háttérben meghúzódó értékeket is. Nem kell mindig bizonyítanod a rátermettségedet; a valódi erőd most abban rejlik, hogy képes vagy méltóságteljesen hallgatni és megfigyelni. Egy szakmai vagy közösségi helyzetben a nagylelkűséged győz majd, nem pedig az érvelési kényszer. Engedd, hogy mások is megcsillantsák a tehetségüket, ez mit sem von le a te fényedből. A szerelemben a játékosság és a humor oldhatja fel a feszültségeket; ne vedd túl komolyan a hétköznapi apróságokat. Este szentelj időt valamilyen alkotói tevékenységnek, ami kifejezi az egyediségedet.",
+      "love": 4,
+      "work": 4,
       "energy": 4,
-      "focus": "Az egyszerű út most a bölcs út.",
-      "lucky_color": "smaragdzöld"
+      "focus": "A nagylelkűség a legnemesebb önkifejezés.",
+      "lucky_color": "aranysárga"
     },
     {
       "id": "szuz",
@@ -88,13 +88,13 @@
       "element": "föld",
       "dates": "08.23–09.22",
       "sign": "szuz",
-      "headline": "Belső egyensúly",
-      "text": "Ma a lassú, biztos lépések hozzák a legtöbbet. Ne siesd el a döntést: a délután olyan információt hozhat, ami átrendezi a képet. Munkában a kevesebb most több: egyetlen jól elvégzett feladat felér három félbehagyottal. Bízz a saját ritmusodban – ma ez a legjobb stratégia.",
-      "love": 5,
-      "work": 3,
-      "energy": 4,
-      "focus": "Mondd ki, amit gondolsz.",
-      "lucky_color": "levendula"
+      "headline": "A rend és a szabadság finom egyensúlya",
+      "text": "A részletek iránti éleslátásod ma áldásos módon segít kigyomlálni a káoszt a teendőid közül. Ugyanakkor fennáll a veszélye, hogy túlságosan is szigorú mércét állítasz fel magaddal és másokkal szemben. Emlékeztesd magad arra, hogy a tökéletesség illúzió, az élet pedig a maga tökéletlenségében élhető igazán. Egy munkahelyi vagy adminisztratív ügyben váratlan elismerést kaphatsz a precizitásodért, de ne hagyd, hogy ez elvigye a fókuszodat a lényegről. A nap folyamán iktass be egy kis tudatos szünetet: sétálj egyet a friss levegőn, és figyeld meg az őszi természet változásait. A tested jeleire való odafigyelés most segít visszanyerni az egyensúlyt.",
+      "love": 3,
+      "work": 5,
+      "energy": 3,
+      "focus": "Engedd el a kontrollt ott, ahol nincs rá szükség.",
+      "lucky_color": "barna"
     },
     {
       "id": "merleg",
@@ -103,13 +103,13 @@
       "element": "levegő",
       "dates": "09.23–10.22",
       "sign": "merleg",
-      "headline": "Tisztuló kép",
-      "text": "Egy beszélgetés ma többet mozdít, mint egy hét tervezgetés. Érdemes most különválasztanod, mi az, amit valóban akarsz, és mi az, amit csak elvárnak tőled. Ne siesd el a döntést: a délután olyan információt hozhat, ami átrendezi a képet. Bízz a saját ritmusodban – ma ez a legjobb stratégia.",
+      "headline": "A döntés szabadsága a te kezedben van",
+      "text": "A Mérleg jegyében járó napok mindig a harmónia kereséséről szólnak, de ma kényszerűen szembe kell nézned egy olyan választással, amelyet eddig tologattál. Ne félj attól, hogy valakinek nem tetszik majd a döntésed; a legfontosabb most az, hogy önmagaddal kerülj egységbe. Az igazságérzeted erős, és ha kiállsz valami mellett, azt tedd elegánsan, de határozottan. A kapcsolataidban a kompromisszumkeresés aranyat ér, de ne jelentsen ez önfeladást. Egy esztétikai élmény, egy kiállítás vagy egy hangulatos zenehallgatás ma olyan lelki feltöltődést ad, amely átlendít a nehezebb pillanatokon. Este a párkapcsolatodban vagy egy baráti körben béke és megnyugvás köszönt be.",
       "love": 5,
-      "work": 2,
-      "energy": 3,
-      "focus": "Kevesebb zaj, több figyelem.",
-      "lucky_color": "rozsdabarna"
+      "work": 3,
+      "energy": 4,
+      "focus": "A belső egyensúly fontosabb a külső tetszésnél.",
+      "lucky_color": "púderrózsaszín"
     },
     {
       "id": "skorpio",
@@ -118,13 +118,13 @@
       "element": "víz",
       "dates": "10.23–11.21",
       "sign": "skorpio",
-      "headline": "Új irány a láthatáron",
-      "text": "Ma az érzéseid pontosabban látnak, mint a logika. Ne siesd el a döntést: a délután olyan információt hozhat, ami átrendezi a képet. A kapcsolataidban most az őszinteség többet ér a diplomáciánál, ha tapintattal teszed. A nap végére kiderül: jó irányba indultál.",
-      "love": 5,
-      "work": 2,
-      "energy": 3,
-      "focus": "Mondd ki, amit gondolsz.",
-      "lucky_color": "rozsdabarna"
+      "headline": "A mélybe hatoló tekintet ereje",
+      "text": "Intenzív energiák dolgoznak benned, amelyek a felszín alatt zajló folyamatokat világítják meg. Ma nehezen éred be a felszínes válaszokkal vagy a kötelező udvariassággal; a lényegre, a titkokra és az igazságra törekszel. Ez a radikális őszinteség azonban megijesztheti a környezetedet, ezért érdemes némi tapintattal fűszerezni a megállapításaidat. Egy pénzügyi vagy stratégiai kérdésben olyan megérzésed támadhat, amely hosszú távon kifizetődő lesz. A magánéletedben a szenvedély és a birtoklási vágy határvidékén mozogsz; engedd szabadon azt, akit szeretsz, mert ami a tiéd, az úgyis megmarad. A sötétedő esték csendje remek teret ad az önismereti elmélyülésnek.",
+      "love": 4,
+      "work": 4,
+      "energy": 4,
+      "focus": "A valódi átalakulás az elengedéssel kezdődik.",
+      "lucky_color": "sötétlila"
     },
     {
       "id": "nyilas",
@@ -133,13 +133,13 @@
       "element": "tűz",
       "dates": "11.22–12.21",
       "sign": "nyilas",
-      "headline": "Lassú, biztos lépések",
-      "text": "Ma a lendületed előbb ér célba, mint a kételyeid. Ne siesd el a döntést: a délután olyan információt hozhat, ami átrendezi a képet. Figyelj a testedre is: a pihenés ma nem luxus, hanem befektetés. Amit ma elengedsz, annak a helyén holnap tér nyílik valami újnak.",
+      "headline": "A látóhatár tágul, ha befelé is figyelsz",
+      "text": "Kalandvágyad mit sem csökkent az őszi hűvösben, legszívesebben új tájakra vagy új tudás felé indulnál. Ma azonban a fizikai utazás helyett a szellemi tágulás kap főszerepet. Egy olvasott sor, egy filozófiai gondolat vagy egy külföldről jött hír olyan inspirációt adhat, amely új irányt mutat a terveidnek. Arra viszont ügyelj, hogy ne ígérj többet, mint amennyit ténylegesen teljesíteni tudsz a lelkesedésed hevében. A mindennapi kötelezettségek unalmasnak tűnhetnek, de ha játékosan állsz hozzájuk, gyorsan túljutsz rajtuk. Este keress társaságot, vagy oszd meg a meglátásaidat valakivel, aki ugyanúgy szomjazza a szellemi izgalmakat, mint te.",
       "love": 4,
-      "work": 2,
+      "work": 3,
       "energy": 5,
-      "focus": "Az egyszerű út most a bölcs út.",
-      "lucky_color": "smaragdzöld"
+      "focus": "A lelkesedésed legyen hű társad, de maradj a valóságban.",
+      "lucky_color": "türkiz"
     },
     {
       "id": "bak",
@@ -148,13 +148,13 @@
       "element": "föld",
       "dates": "12.22–01.19",
       "sign": "bak",
-      "headline": "A bátorság napja",
-      "text": "Egy régóta halogatott, gyakorlati ügy ma meglepően könnyen a helyére kerül. Egy apró gesztus – egy üzenet, egy visszahívás – most aránytalanul sokat számít. Munkában a kevesebb most több: egyetlen jól elvégzett feladat felér három félbehagyottal. Amit ma elengedsz, annak a helyén holnap tér nyílik valami újnak.",
-      "love": 2,
-      "work": 2,
-      "energy": 5,
-      "focus": "Kérdezz, mielőtt ítélsz.",
-      "lucky_color": "gyöngyházfehér"
+      "headline": "A csendes kitartás meghozza a gyümölcsét",
+      "text": "Komoly és céltudatos nap ez a a mai, amikor a hosszú távú terveid alapjait építheted. Lehet, hogy a környezeted türelmetlen, de te pontosan tudod, hogy a maradandó értékekhez időre és fegyelemre van szükség. Egy szakmai kihívás során a tapasztalatod és a megbízhatóságod most kulcsfontosságú lesz; mások hozzád fordulnak tanácsért. Ne hagyd, hogy a munkamánia elhomályosítsa a magánéleted szépségeit. Adj teret a gyengédségnek is a nap végén, mert a páncélod mögött te is vágyod az elfogadást és a meghittséget. Egy régi mentor vagy egy bölcs családtag szavai most olyan iránymutatást adhatnak, ami átsegít egy bizonytalan pillanaton.",
+      "love": 3,
+      "work": 5,
+      "energy": 3,
+      "focus": "A felelősségvállalás a felnőttség legszebb ajándéka.",
+      "lucky_color": "antracitszürke"
     },
     {
       "id": "vizonto",
@@ -163,13 +163,13 @@
       "element": "levegő",
       "dates": "01.20–02.18",
       "sign": "vizonto",
-      "headline": "Tisztuló kép",
-      "text": "Egy beszélgetés ma többet mozdít, mint egy hét tervezgetés. Figyelj a testedre is: a pihenés ma nem luxus, hanem befektetés. A múlt egy darabja ma más megvilágításba kerül, és ez felszabadító lehet. Bízz a saját ritmusodban – ma ez a legjobb stratégia.",
-      "love": 5,
-      "work": 2,
-      "energy": 3,
-      "focus": "A türelem is cselekvés.",
-      "lucky_color": "gyöngyházfehér"
+      "headline": "A jövő magvai a jelen pillanatban fanyarognak",
+      "text": "Eredeti meglátásaid ma teljesen új megvilágításba helyezhetnek egy közös ügyet. Olyan ötleteid támadhatnak, amelyek megelőzik a korukat, ám ehhez az is kell, hogy érthető módon tálald őket a többi embernek. Ne zárkózz be a saját elefántcsonttornyodba; a legszebb szellemi találkozások most a közös gondolkodásból születnek. Egy baráti kapcsolatban váratlan fordulat állhat be, amely rávilágít arra, kivel osztozol valódi értékrendben. Az esti órákban érdemes kicsit kiszakadni a digitális térből: a csillagos égbolt nézése vagy a zene hallgatása segíthet lecsillapítani a száguldó gondolataidat.",
+      "love": 4,
+      "work": 4,
+      "energy": 4,
+      "focus": "Oszd meg a látomásaidat, de maradj befogadó is.",
+      "lucky_color": "égszínkék"
     },
     {
       "id": "halak",
@@ -178,13 +178,13 @@
       "element": "víz",
       "dates": "02.19–03.20",
       "sign": "halak",
-      "headline": "A szavak súlya",
-      "text": "A csend ma nem üresség, hanem válasz. Érdemes most különválasztanod, mi az, amit valóban akarsz, és mi az, amit csak elvárnak tőled. A múlt egy darabja ma más megvilágításba kerül, és ez felszabadító lehet. Amit ma elengedsz, annak a helyén holnap tér nyílik valami újnak.",
-      "love": 4,
-      "work": 3,
-      "energy": 2,
-      "focus": "Kevesebb zaj, több figyelem.",
-      "lucky_color": "smaragdzöld"
+      "headline": "Álom és valóság határán, tisztán",
+      "text": "A fátyol ma különösen vékony a látható és a láthatatlan világ között. Fokozott empátiád és művészi érzékenységed miatt szinte átszövik a napodat a finom intuíciók és a megérzések. Ha teheted, tölts időt alkotással, zenével vagy egyszerűen csak ábrándozással, mert most ebből meríted a legtöbb erőt. Arra viszont vigyázz, hogy ne szívd magadba válogatás nélkül a környezetedben élők aggodalmait és feszültségeit. Húzz egészséges határokat a saját lelki világod és mások drámái közé. Egy romantikus pillanat vagy egy kedves gesztus ma mélyen megérintheti a szívedet, és emlékeztet arra, hogy a világ a maga csendes módján gyönyörű.",
+      "love": 5,
+      "work": 2,
+      "energy": 3,
+      "focus": "Vévd a belső békédet a külső zajoktól.",
+      "lucky_color": "tengerkék"
     }
   ]
 }
