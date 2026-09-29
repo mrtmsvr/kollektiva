@@ -572,6 +572,8 @@ def commons_image(page: dict, timeout: int) -> Optional[dict]:
     if "/commons/" not in src:
         return None  # helyi (pl. fair use) kép – nem használjuk
     fname = urllib.parse.unquote(src.split("/")[-1] if "/thumb/" not in src else src.split("/thumb/")[1].split("/")[2])
+    if re.search(r"logo|wordmark|icon|seal|coat[_ ]of[_ ]arms|flag|signature|\.svg$", fname, re.I):
+        return None  # logók, címerek, aláírások, grafikák: nem cikkfotó
     data = http_get_json("https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo"
                          f"&iiprop=url|extmetadata|size&iiurlwidth=1200&titles=File:{_q(fname)}", timeout)
     try:
@@ -633,7 +635,7 @@ def wiki_onthisday_event(d: date, http_timeout: int) -> Optional[dict]:
                for p in pages[:2] if p.get("content_urls")]
     facts = [f'{it["year"]}: {it["text"]}', *extracts]
     image = None
-    for pg in pages[:2]:
+    for pg in pages[:3]:
         t = (pg.get("normalizedtitle") or pg.get("title", "")).replace("_", " ")
         hu = wiki_hu_summary(t, http_timeout)
         if hu:
@@ -643,6 +645,13 @@ def wiki_onthisday_event(d: date, http_timeout: int) -> Optional[dict]:
         sources.extend(wiki_external_sources(t, http_timeout, limit=1))
         if image is None:
             image = commons_image(pg, http_timeout)
+    uniq, seen_src = [], set()
+    for src in sources:  # azonos kiadó/URL csak egyszer
+        key = src["url"] if src.get("publisher", "").startswith("Wiki") else src.get("publisher")
+        if key and key not in seen_src:
+            seen_src.add(key)
+            uniq.append(src)
+    sources = uniq
     return {
         "year": it["year"],
         "title": it["text"].rstrip(".")[:120] or title,
