@@ -91,93 +91,6 @@
       "expires_at": null
     },
     {
-      "id": "87c527ec-5605-5d58-b6dc-220a64c11994",
-      "slug": "2026-09-29-valtozas-a-central-szinhazban-uj-szinesz-erkezik-szabo-kimmel-tamas-h",
-      "status": "published",
-      "category": "kultura",
-      "subcategory": null,
-      "tags": [
-        "Centrál Színház",
-        "színház",
-        "kultura",
-        "színészváltás",
-        "Szabó Kimmel Tamás"
-      ],
-      "title": "Változás a Centrál Színházban: új színész érkezik Szabó Kimmel Tamás helyére",
-      "subtitle": null,
-      "lead": "Megvan, ki veszi át a népszerű színész szerepét a Centrál Színházban azután, hogy ő maga jelentette be távozását. A hazai kulturális életben mindig jelentős rezonanciát keltenek a társulati mozgások és a szereposztásbeli változások.",
-      "content": "A magyar színházi élet egyik friss fejleményeként hamarosan új arc veszi át Szabó Kimmel Tamás helyét a Centrál Színház színpadán. A színész nemrégiben hozta nyilvánosságra azt a döntését, hogy a jövőben nem folytatja munkáját az intézményben, így a színház vezetése elé állt a feladat, hogy mielőbb megtalálja a megfelelő utódot a megüresedett szerepekre.\n\nAz ehhez hasonló társulati változások szinte minden színházkedvelő számára ismerősek, hiszen a produkciók folyamatossága és a népszerű darabok műsoron tartása logisztikai és művészi szempontból is komoly odafigyelést igényel. Egy-egy karakter átvétele nemcsak az új művész számára jelent kihívást, hanem a meglévő stáb számára is új dinamikát hoz a próbafolyamatokba.\n\nA nézők számára a mindennapokban ez leginkább annyit tesz, hogy a megszokott előadások némileg frissült formában, új energiákkal térnek vissza a színpadra. Az évad során a színházlátogatók márciusban vagy más időpontokban is találkozhatnak majd a megújult szereposztással, miközben a produkciók alapvető hangulata és szellemisége a tervek szerint változatlan marad.\n\nAz elkövetkező időszakban minden szem arra szegeződik, hogyan illeszkedik be az új szereplő a meglévő előadásokba, és miként fogadja a közönség a friss felállást. A Centrál Színház életében ez egy új fejezet kezdetét jelenti, amely rávilágít arra is, hogy a színházművészet mennyire dinamikus és folyamatos megújulásra képes műfaj.",
-      "content_format": "markdown",
-      "body": [
-        "A magyar színházi élet egyik friss fejleményeként hamarosan új arc veszi át Szabó Kimmel Tamás helyét a Centrál Színház színpadán. A színész nemrégiben hozta nyilvánosságra azt a döntését, hogy a jövőben nem folytatja munkáját az intézményben, így a színház vezetése elé állt a feladat, hogy mielőbb megtalálja a megfelelő utódot a megüresedett szerepekre.",
-        "Az ehhez hasonló társulati változások szinte minden színházkedvelő számára ismerősek, hiszen a produkciók folyamatossága és a népszerű darabok műsoron tartása logisztikai és művészi szempontból is komoly odafigyelést igényel. Egy-egy karakter átvétele nemcsak az új művész számára jelent kihívást, hanem a meglévő stáb számára is új dinamikát hoz a próbafolyamatokba.",
-        "A nézők számára a mindennapokban ez leginkább annyit tesz, hogy a megszokott előadások némileg frissült formában, új energiákkal térnek vissza a színpadra. Az évad során a színházlátogatók márciusban vagy más időpontokban is találkozhatnak majd a megújult szereposztással, miközben a produkciók alapvető hangulata és szellemisége a tervek szerint változatlan marad.",
-        "Az elkövetkező időszakban minden szem arra szegeződik, hogyan illeszkedik be az új szereplő a meglévő előadásokba, és miként fogadja a közönség a friss felállást. A Centrál Színház életében ez egy új fejezet kezdetét jelenti, amely rávilágít arra is, hogy a színházművészet mennyire dinamikus és folyamatos megújulásra képes műfaj."
-      ],
-      "pull_quote": null,
-      "reading_time_min": 2,
-      "word_count": 233,
-      "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/View_of_Orpheum_Theater_auditorium_from_stage.jpg/1280px-View_of_Orpheum_Theater_auditorium_from_stage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 900,
-        "kind": "photo",
-        "alt": "Orpheum Theater, Minneapolis. View of the auditorium from stage. The large circle dome seen at the ceiling has a practical acoustic purpose. So long as one can project their voice, it can be heard cle",
-        "credit": "Tommy Sar / Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:View_of_Orpheum_Theater_auditorium_from_stage.jpg"
-      },
-      "sources": [
-        {
-          "url": "https://hvg.hu/kultura/20260929_megvan-ki-veszi-at-szabo-kimmel-tamas-szerepet",
-          "title": "Megvan, ki veszi át Szabó Kimmel Tamás szerepét a Centrálban",
-          "publisher": "hvg.hu",
-          "license": null,
-          "accessed_at": "2026-09-29T18:55:00+02:00"
-        }
-      ],
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v1",
-        "reviewed_by": null,
-        "reviewed_at": null
-      },
-      "category_meta": {
-        "source_links": [
-          "https://hvg.hu/kultura/20260929_megvan-ki-veszi-at-szabo-kimmel-tamas-szerepet"
-        ]
-      },
-      "date": "2026-09-29",
-      "date_label": "szeptember 29.",
-      "url": "/kultura/2026-09-29-valtozas-a-central-szinhazban-uj-szinesz-erkezik-szabo-kimmel-tamas-h/",
-      "seo": {
-        "meta_title": "Változás a Centrál Színházban: új színész érkezik Szabó Kimm",
-        "meta_description": "Megvan, ki veszi át a népszerű színész szerepét a Centrál Színházban azután, hogy ő maga jelentette be távozását. A hazai kulturális életben mindig jelentős rez",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-09-29-valtozas-a-central-szinhazban-uj-szinesz-erkezik-szabo-kimmel-tamas-h/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/View_of_Orpheum_Theater_auditorium_from_stage.jpg/1280px-View_of_Orpheum_Theater_auditorium_from_stage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [],
-      "dedupe_hash": "e5bc77341ce6fbdf8ee4a7d6feb3d329663dfef68230e41fc328d1a61aeb0c1c",
-      "pipeline_run_id": "36600936606",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-29T18:55:00+02:00",
-      "updated_at": "2026-09-29T18:55:00+02:00",
-      "published_at": "2026-09-29T18:55:00+02:00",
-      "expires_at": null
-    },
-    {
       "id": "bc508689-2caf-5fe9-b190-f2d774f0145d",
       "slug": "2026-09-29-ujabb-merfoldkovek-az-urkutatasban-indulasra-kesz-a-crew-13-es-fejlod",
       "status": "published",
@@ -538,6 +451,583 @@
       "created_at": "2026-09-29T18:53:37+02:00",
       "updated_at": "2026-09-29T18:53:37+02:00",
       "published_at": "2026-09-29T18:53:37+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "ff8fd008-2749-5345-8788-0712e46c4ef7",
+      "slug": "2026-09-29-orizetben-hanko-balazs-sulyos-buncselekmeny-gyanuja-razza-meg-a-kozel",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Közélet",
+        "Ügyészség",
+        "Belföld",
+        "Politika"
+      ],
+      "title": "Őrizetben Hankó Balázs: súlyos bűncselekmény gyanúja rázza meg a közéletet",
+      "subtitle": null,
+      "lead": "Az ügyészség megerősítette Hankó Balázs őrizetbe vételét, akit bűnszövetségben elkövetett hűtlen kezeléssel gyanúsítanak. Az eset nyomán azonnali politikai viták bontakoztak ki a mandátum sorsáról.",
+      "content": "A Hvg.hu információi szerint az ügyészség hivatalosan is megerősítette Hankó Balázs őrizetbe vételét. A képviselőt különösen jelentős vagyoni hátrányt okozó, bűnszövetségben elkövetett hűtlen kezeléssel gyanúsítják, ami a legsúlyosabb gazdasági bűncselekmények közé tartozik a magyar jogrendszerben. A gyanúsított a rendelkezésre álló adatok alapján élt panasszal az ellene indított eljárás ellen.\n\nAz ügy gyorsan túllépett a puszta jogi kereteken, és éles politikai összecsapássá vált. Havasi Bertalan nyilatkozatában politikai fogolynak nevezte Hankót, ami jól mutatja a helyzet súlyosságát és a felek közötti kommunikációs frontvonalakat.\n\nA kormánypárt álláspontja határozott a kérdésben: a Fidesz közlése szerint szóba sem jöhet, hogy Hankó lemondjon a képviselői mandátumáról. Ez a döntés rávilágít arra a belpolitikai dinamikára, amelyben egy ilyen súlyos büntetőeljárás sem írja felül automatikusan a parlamenti pozíciót a politikai szövetségesek szemében.\n\nA hétköznapi olvasó számára az ilyen esetek rávilágítanak arra, hogy a hatalmi intézmények és a jogállami keretek működése miként csapódik le a mindennapokban. Egyrészt a hatóságok fellépése a gazdasági bűncselekmények gyanújakor alapvető közérdek, másrészt a politikai szereplők reakciói mélyen megosztják a közvéleményt.\n\nA következő napokban az eljárás jogi menete, a panasz elbírálása, valamint a politikai reakciók továbbra is meghatározhatják a hazai közélet napirendjét. Az ügy további fejleményei rávilágíthatnak arra, miként kezelik a felelősségre vonás kérdését a magyar intézmények.",
+      "content_format": "markdown",
+      "body": [
+        "A Hvg.hu információi szerint az ügyészség hivatalosan is megerősítette Hankó Balázs őrizetbe vételét. A képviselőt különösen jelentős vagyoni hátrányt okozó, bűnszövetségben elkövetett hűtlen kezeléssel gyanúsítják, ami a legsúlyosabb gazdasági bűncselekmények közé tartozik a magyar jogrendszerben. A gyanúsított a rendelkezésre álló adatok alapján élt panasszal az ellene indított eljárás ellen.",
+        "Az ügy gyorsan túllépett a puszta jogi kereteken, és éles politikai összecsapássá vált. Havasi Bertalan nyilatkozatában politikai fogolynak nevezte Hankót, ami jól mutatja a helyzet súlyosságát és a felek közötti kommunikációs frontvonalakat.",
+        "A kormánypárt álláspontja határozott a kérdésben: a Fidesz közlése szerint szóba sem jöhet, hogy Hankó lemondjon a képviselői mandátumáról. Ez a döntés rávilágít arra a belpolitikai dinamikára, amelyben egy ilyen súlyos büntetőeljárás sem írja felül automatikusan a parlamenti pozíciót a politikai szövetségesek szemében.",
+        "A hétköznapi olvasó számára az ilyen esetek rávilágítanak arra, hogy a hatalmi intézmények és a jogállami keretek működése miként csapódik le a mindennapokban. Egyrészt a hatóságok fellépése a gazdasági bűncselekmények gyanújakor alapvető közérdek, másrészt a politikai szereplők reakciói mélyen megosztják a közvéleményt.",
+        "A következő napokban az eljárás jogi menete, a panasz elbírálása, valamint a politikai reakciók továbbra is meghatározhatják a hazai közélet napirendjét. Az ügy további fejleményei rávilágíthatnak arra, miként kezelik a felelősségre vonás kérdését a magyar intézmények."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 227,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 732,
+        "kind": "photo",
+        "alt": "Parliament building, Budapest",
+        "credit": "Dirk Beyer / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Parliament_4604.JPG"
+      },
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20260929_hanko-balazs-ugyeszseg-orizetbe-vetel-hutlen-kezeles-gyanuja-kihallgatas",
+          "title": "Az ügyészség megerősítette Hankó Balázs őrizetbe vételét, aki panasszal élt az eljárás ellen",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-29T16:08:17+02:00"
+        },
+        {
+          "url": "https://hvg.hu/itthon/20260929_havasi-bertalan-hanko-balazs-politikai-fogoly",
+          "title": "Havasi Bertalan: Hankó Balázs politikai fogoly",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-29T16:08:17+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20260929_hanko-balazs-ugyeszseg-orizetbe-vetel-hutlen-kezeles-gyanuja-kihallgatas",
+          "https://hvg.hu/itthon/20260929_havasi-bertalan-hanko-balazs-politikai-fogoly"
+        ]
+      },
+      "date": "2026-09-29",
+      "date_label": "szeptember 29.",
+      "url": "/kozelet/2026-09-29-orizetben-hanko-balazs-sulyos-buncselekmeny-gyanuja-razza-meg-a-kozel/",
+      "seo": {
+        "meta_title": "Őrizetben Hankó Balázs: súlyos bűncselekmény gyanúja rázza m",
+        "meta_description": "Az ügyészség megerősítette Hankó Balázs őrizetbe vételét, akit bűnszövetségben elkövetett hűtlen kezeléssel gyanúsítanak. Az eset nyomán azonnali politikai vitá",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-09-29-orizetben-hanko-balazs-sulyos-buncselekmeny-gyanuja-razza-meg-a-kozel/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "1b9f20d5d4a9b9783651804076e4edbae5cfb14e9198f2b0d3df61dbea952bd0",
+      "pipeline_run_id": "36579995345",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-29T16:08:17+02:00",
+      "updated_at": "2026-09-29T16:08:17+02:00",
+      "published_at": "2026-09-29T16:08:17+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "87c527ec-5605-5d58-b6dc-220a64c11994",
+      "slug": "2026-09-29-valtozas-a-central-szinhazban-uj-szinesz-erkezik-szabo-kimmel-tamas-h",
+      "status": "published",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Centrál Színház",
+        "Szabó Kimmel Tamás",
+        "színház",
+        "kultura"
+      ],
+      "title": "Változás a Centrál Színházban: új színész érkezik Szabó Kimmel Tamás helyére",
+      "subtitle": null,
+      "lead": "Váratlan váltás előtt áll a fővárosi teátrum, miután Szabó Kimmel Tamás bejelentette távozását. A népszerű színész helyét hamarosan új művész veszi át a Centrál Színházban.",
+      "content": "A kulturális életben mindig jelentős rezonanciát kelt, ha egy népszerű teátrum társulatában vagy az előadások szereposztásában kulcsfontosságú változások történnek. A közelmúltban hivatalossá vált hír szerint Szabó Kimmel Tamás úgy határozott, hogy a jövőben nem folytatja munkáját a Centrál Színházban, így a színész nemrégiben bejelentett távozása nyomán új fejezet kezdődik az intézmény életében.\n\nEgy-egy ilyen színészcsere nem csupán adminisztratív vagy logisztikai kérdés egy színház számára, hanem komoly művészeti újratervezést is igényel. A Centrál Színház vezetése és a rendezők számára most az a legfontosabb feladat, hogy megtalálják azt a művészt, aki zökkenőmentesen tudja átvenni a megüresedett feladatokat, és hitelesen tudja képviselni az érintett karaktereket a színpadon.\n\nA nézők számára ezek a pillanatnyi helyzetcserék gyakran izgalmas színházi élményeket tartogatnak. Bár egy kedvelt előadó búcsúja mindig nosztalgiával és hiányérzettel töltheti el a közönséget, az új arcok érkezése gyakran friss dinamikát hoz a produkciókba, és lehetőséget teremt arra, hogy a darabok új árnyalatokkal gazdagodjanak az elkövetkező időszakban.\n\nA színházkedvelők számára a legfőbb kérdés most az, hogy ki veszi át a stafétabotot, és hogyan alakulnak majd a jövőbeni előadások. A Centrál Színház hamarosan nyilvánosságra hozza az új szereplő kilétét, ami biztosítja, hogy a repertoár zökkenőmentesen folytatódhasson a fővárosi közönség nagy örömére.",
+      "content_format": "markdown",
+      "body": [
+        "A kulturális életben mindig jelentős rezonanciát kelt, ha egy népszerű teátrum társulatában vagy az előadások szereposztásában kulcsfontosságú változások történnek. A közelmúltban hivatalossá vált hír szerint Szabó Kimmel Tamás úgy határozott, hogy a jövőben nem folytatja munkáját a Centrál Színházban, így a színész nemrégiben bejelentett távozása nyomán új fejezet kezdődik az intézmény életében.",
+        "Egy-egy ilyen színészcsere nem csupán adminisztratív vagy logisztikai kérdés egy színház számára, hanem komoly művészeti újratervezést is igényel. A Centrál Színház vezetése és a rendezők számára most az a legfontosabb feladat, hogy megtalálják azt a művészt, aki zökkenőmentesen tudja átvenni a megüresedett feladatokat, és hitelesen tudja képviselni az érintett karaktereket a színpadon.",
+        "A nézők számára ezek a pillanatnyi helyzetcserék gyakran izgalmas színházi élményeket tartogatnak. Bár egy kedvelt előadó búcsúja mindig nosztalgiával és hiányérzettel töltheti el a közönséget, az új arcok érkezése gyakran friss dinamikát hoz a produkciókba, és lehetőséget teremt arra, hogy a darabok új árnyalatokkal gazdagodjanak az elkövetkező időszakban.",
+        "A színházkedvelők számára a legfőbb kérdés most az, hogy ki veszi át a stafétabotot, és hogyan alakulnak majd a jövőbeni előadások. A Centrál Színház hamarosan nyilvánosságra hozza az új szereplő kilétét, ami biztosítja, hogy a repertoár zökkenőmentesen folytatódhasson a fővárosi közönség nagy örömére."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 221,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/View_of_Orpheum_Theater_auditorium_from_stage.jpg/1280px-View_of_Orpheum_Theater_auditorium_from_stage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "alt": "Orpheum Theater, Minneapolis. View of the auditorium from stage. The large circle dome seen at the ceiling has a practical acoustic purpose. So long as one can project their voice, it can be heard cle",
+        "credit": "Tommy Sar / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:View_of_Orpheum_Theater_auditorium_from_stage.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://hvg.hu/kultura/20260929_megvan-ki-veszi-at-szabo-kimmel-tamas-szerepet",
+          "title": "Megvan, ki veszi át Szabó Kimmel Tamás szerepét a Centrálban",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-29T16:07:37+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/kultura/20260929_megvan-ki-veszi-at-szabo-kimmel-tamas-szerepet"
+        ]
+      },
+      "date": "2026-09-29",
+      "date_label": "szeptember 29.",
+      "url": "/kultura/2026-09-29-valtozas-a-central-szinhazban-uj-szinesz-erkezik-szabo-kimmel-tamas-h/",
+      "seo": {
+        "meta_title": "Változás a Centrál Színházban: új színész érkezik Szabó Kimm",
+        "meta_description": "Váratlan váltás előtt áll a fővárosi teátrum, miután Szabó Kimmel Tamás bejelentette távozását. A népszerű színész helyét hamarosan új művész veszi át a Centrál",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-09-29-valtozas-a-central-szinhazban-uj-szinesz-erkezik-szabo-kimmel-tamas-h/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/View_of_Orpheum_Theater_auditorium_from_stage.jpg/1280px-View_of_Orpheum_Theater_auditorium_from_stage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "e5bc77341ce6fbdf8ee4a7d6feb3d329663dfef68230e41fc328d1a61aeb0c1c",
+      "pipeline_run_id": "36579995345",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-29T16:07:37+02:00",
+      "updated_at": "2026-09-29T16:07:37+02:00",
+      "published_at": "2026-09-29T16:07:37+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "7a23eb02-d67e-5029-b303-233559af9bea",
+      "slug": "2026-09-29-ujabb-merfoldkovek-az-urkutatasban-artemis-kuldetes-uripari-fejleszte",
+      "status": "published",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "Artemis II",
+        "NASA",
+        "űrkutatás",
+        "Starliner",
+        "Hold"
+      ],
+      "title": "Újabb mérföldkövek az űrkutatásban: Artemis-küldetés, űripari fejlesztések és történelmi évfordulók",
+      "subtitle": null,
+      "lead": "A NASA e héten egyszerre adri hírt az Artemis II űrhajósainak készülődéséről, a Holdon vagy Marson is előállítható új anyagok fejlesztéséről, valamint a Starliner program frissítéseiről. Ezek az innovációk nemcsak a mélyűrbe vezető utat nyitják meg, hanem az emberiség repüléstörténetének mérföldköveire is emlékeztetnek.",
+      "content": "Az űrkutatás jelenlegi korszaka izgalmas időszakot hozott a szakemberek és az érdeklődők számára. A NASA tájékoztatása szerint az Artemis II küldetés négy asztronautája a Houstoni Egyetemen vesz részt egy nyilvános rendezvényen, ahol ipari és közösségi partnerekkel közösen beszélgetnek a Hold körüli, Orion űrhajóval végrehajtandó közelgő utazásuk részleteiről.\n\nA űrrepülés jövője szempontjából kulcsfontosságúak azok az anyagtudományi áttörések is, amelyek a távoli bázisok kiépítését célozzák. A clevelandi Glenn Kutatóközpontban kifejlesztettek egy olyan új, mikroszkóp alatt káprázatos, színes kristályszerkezetet mutató anyagot, amelyet a jövőben közvetlenül a Holdon vagy a Marson is elő lehet majd állítani. Ez a technológia jelentősen csökkentheti a Fínről magunkkal hozendő rakomány súlyát, ami hatékonyabbá és gazdaságosabbá teheti a küldetéseket.\n\nA Föld körüli pályára irányuló szállítást is érintik a friss fejlemények: a NASA és a Boeing nemrégiben közös frissítést adott közre a Starliner űrhajó fejlesztési terveiről. Ennek keretében további személyzetes missziókat ütemeztek be, és egy új rakétát is hitelesítettek a Föld körüli alacsony pályára történő emberes utazásokhoz. Jared Isaacman, a NASA adminisztrátora úgy fogalmazott, hogy az Apollo-korszak óta nem éltünk át ilyen izgalmas időszakot a térség felfedezésében.\n\nEzek a mai technológiai lépések szép ívű összefüggésbe kerülnek a múlt mérföldköveivel is. Éppen nyolc évtizeddel ezelőtt, 1946. szeptember 30-án érkezett meg az a mérnökcsoport a kaliforniai sivatagba, amelynek munkája nyomán kevesebb mint két éven belül sikerült átlépni a hangsebességet az X-1 repülőgéppel. A nyolcvan évvel ezelőtti bátor lépések megalapozták azt a modern repülési és űrkutatási ökoszisztémát, amely ma már a bolygóközi utazásokat készíti elő.\n\nA hétköznapi olvasó számára mindez azt jelenti, hogy az űrkutatás már nem csupán elvont tudományos elmélet, hanem kézzelfogható ipari és technológiai valóság. Az új anyaggyártási módszerek, a kereskedelmi űrhajózás bővülése és a holdmissziók mind közelebb hozzák a fenntartható jelenlétet a világűrben, miközben a múlt tapasztalatai biztos alapot nyújtanak a jövő kihívásaihoz.",
+      "content_format": "markdown",
+      "body": [
+        "Az űrkutatás jelenlegi korszaka izgalmas időszakot hozott a szakemberek és az érdeklődők számára. A NASA tájékoztatása szerint az Artemis II küldetés négy asztronautája a Houstoni Egyetemen vesz részt egy nyilvános rendezvényen, ahol ipari és közösségi partnerekkel közösen beszélgetnek a Hold körüli, Orion űrhajóval végrehajtandó közelgő utazásuk részleteiről.",
+        "A űrrepülés jövője szempontjából kulcsfontosságúak azok az anyagtudományi áttörések is, amelyek a távoli bázisok kiépítését célozzák. A clevelandi Glenn Kutatóközpontban kifejlesztettek egy olyan új, mikroszkóp alatt káprázatos, színes kristályszerkezetet mutató anyagot, amelyet a jövőben közvetlenül a Holdon vagy a Marson is elő lehet majd állítani. Ez a technológia jelentősen csökkentheti a Fínről magunkkal hozendő rakomány súlyát, ami hatékonyabbá és gazdaságosabbá teheti a küldetéseket.",
+        "A Föld körüli pályára irányuló szállítást is érintik a friss fejlemények: a NASA és a Boeing nemrégiben közös frissítést adott közre a Starliner űrhajó fejlesztési terveiről. Ennek keretében további személyzetes missziókat ütemeztek be, és egy új rakétát is hitelesítettek a Föld körüli alacsony pályára történő emberes utazásokhoz. Jared Isaacman, a NASA adminisztrátora úgy fogalmazott, hogy az Apollo-korszak óta nem éltünk át ilyen izgalmas időszakot a térség felfedezésében.",
+        "Ezek a mai technológiai lépések szép ívű összefüggésbe kerülnek a múlt mérföldköveivel is. Éppen nyolc évtizeddel ezelőtt, 1946. szeptember 30-án érkezett meg az a mérnökcsoport a kaliforniai sivatagba, amelynek munkája nyomán kevesebb mint két éven belül sikerült átlépni a hangsebességet az X-1 repülőgéppel. A nyolcvan évvel ezelőtti bátor lépések megalapozták azt a modern repülési és űrkutatási ökoszisztémát, amely ma már a bolygóközi utazásokat készíti elő.",
+        "A hétköznapi olvasó számára mindez azt jelenti, hogy az űrkutatás már nem csupán elvont tudományos elmélet, hanem kézzelfogható ipari és technológiai valóság. Az új anyaggyártási módszerek, a kereskedelmi űrhajózás bővülése és a holdmissziók mind közelebb hozzák a fenntartható jelenlétet a világűrben, miközben a múlt tapasztalatai biztos alapot nyújtanak a jövő kihívásaihoz."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 339,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Artemis_II_Launch_%28NHQ202604010307%29.jpg/1280px-Artemis_II_Launch_%28NHQ202604010307%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 734,
+        "kind": "photo",
+        "alt": "NASA's Space Launch System rocket launches carrying the Orion spacecraft with NASA astronauts Reid Wiseman, commander; Victor Glover, pilot; Christina Koch, mission specialist; and CSA (Canadian Space",
+        "credit": "NASA HQ PHOTO / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Artemis_II_Launch_(NHQ202604010307).jpg"
+      },
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/news-release/meet-nasas-artemis-ii-crew-during-houston-public-event/",
+          "title": "Meet NASA’s Artemis II Crew During Houston Public Event",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-09-29T16:07:15+02:00"
+        },
+        {
+          "url": "https://www.nasa.gov/image-article/nasa-made-material-moon-manufacturing/",
+          "title": "Under the Microscope: NASA-Made Material for Moon Manufacturing",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-09-29T16:07:15+02:00"
+        },
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-boeing-share-update-on-commercial-starliner-development-plans/",
+          "title": "NASA, Boeing Share Update on Commercial Starliner Development Plans",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-09-29T16:07:15+02:00"
+        },
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-armstrong-celebrates-80-years-of-flight-innovation/",
+          "title": "NASA Armstrong Celebrates 80 Years of Flight Innovation",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-09-29T16:07:15+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/news-release/meet-nasas-artemis-ii-crew-during-houston-public-event/",
+          "https://www.nasa.gov/image-article/nasa-made-material-moon-manufacturing/",
+          "https://www.nasa.gov/news-release/nasa-boeing-share-update-on-commercial-starliner-development-plans/",
+          "https://www.nasa.gov/news-release/nasa-armstrong-celebrates-80-years-of-flight-innovation/"
+        ]
+      },
+      "date": "2026-09-29",
+      "date_label": "szeptember 29.",
+      "url": "/univerzum/2026-09-29-ujabb-merfoldkovek-az-urkutatasban-artemis-kuldetes-uripari-fejleszte/",
+      "seo": {
+        "meta_title": "Újabb mérföldkövek az űrkutatásban: Artemis-küldetés, űripar",
+        "meta_description": "A NASA e héten egyszerre adri hírt az Artemis II űrhajósainak készülődéséről, a Holdon vagy Marson is előállítható új anyagok fejlesztéséről, valamint a Starlin",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-09-29-ujabb-merfoldkovek-az-urkutatasban-artemis-kuldetes-uripari-fejleszte/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Artemis_II_Launch_%28NHQ202604010307%29.jpg/1280px-Artemis_II_Launch_%28NHQ202604010307%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "cb7e99efafddd55f67779b983b8ed908baa985b8bd3682468c737ed2b7e57eb5",
+      "pipeline_run_id": "36579995345",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-29T16:07:15+02:00",
+      "updated_at": "2026-09-29T16:07:15+02:00",
+      "published_at": "2026-09-29T16:07:15+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "83ac5ce0-4a11-552f-89df-d6b92373ff87",
+      "slug": "2026-09-29-politika-es-tablajatek-uj-fejezet-nyilt-a-nemzetkozi-sakk-vilagaban",
+      "status": "published",
+      "category": "eletmod",
+      "subcategory": null,
+      "tags": [
+        "sakk",
+        "világpolitika",
+        "nemzetközi hírek",
+        "gazdaság"
+      ],
+      "title": "Politika és táblajáték: Új fejezet nyílt a nemzetközi sakk világában",
+      "subtitle": null,
+      "lead": "A Nemzetközi Sakkszövetség élére egy olyan milliárdos került, aki korábban orosz állampolgársággal is rendelkezett. Az ügy rávilágít arra, hogy a sportág és a nagypolitika összefonódása a jövőben is meghatározhatja a sakkvilág mindennapjait.",
+      "content": "Oroszország történetében a sakk évszázadok óta nem csupán egy szellemi sportág, hanem a nemzetközi propaganda és a politikai befolyásgyakorlás egyik fontos eszköze is. Ebbe a hagyományba illeszkedik a Nemzetközi Sakkszövetség élén történt vezetőváltás, amely során egy új, komoly gazdasági hátterrel rendelkező személy vette át az irányítást.\n\nA szövetség új elnöke Timur Turlov, egy szankciókkal sújtott milliárdos, akinek a hivatalba lépése komoly visszhangot váltott ki. Bár Turlov hivatalosan már 2022-ben lemondott orosz állampolgárságáról, a háttérinformációk szerint a hatalomra jutásához Vlagyimir Putyin támogatására is szüksége lehetett, ami ismét felveti a sport és a politika függetlenségének kérdését.\n\nAz új elnök személyisége és módszerei is tartogatnak érdekességeket a nagyközönség számára. A róla szóló beszámolók szerint Turlov a környezetében életnagyságú kartonfigurákat tart olyan meghatározó globális szereplőkről, mint Donald Trump, Elon Musk és Joe Biden, ami jól mutatja vonzalmát a nemzetközi közélet iránt.\n\nA hétköznapi olvasó számára ez a változás azt jelzi, hogy a hagyományos táblajátékok világa sem vonhatja ki magát a globális gazdasági és politikai erőtér hatásai alól. A sportág jövőjét és irányvonalát a jövőben is alapvetően határozhatják meg a színfalak mögötti érdekek és a befolyásos vezetők döntései.",
+      "content_format": "markdown",
+      "body": [
+        "Oroszország történetében a sakk évszázadok óta nem csupán egy szellemi sportág, hanem a nemzetközi propaganda és a politikai befolyásgyakorlás egyik fontos eszköze is. Ebbe a hagyományba illeszkedik a Nemzetközi Sakkszövetség élén történt vezetőváltás, amely során egy új, komoly gazdasági hátterrel rendelkező személy vette át az irányítást.",
+        "A szövetség új elnöke Timur Turlov, egy szankciókkal sújtott milliárdos, akinek a hivatalba lépése komoly visszhangot váltott ki. Bár Turlov hivatalosan már 2022-ben lemondott orosz állampolgárságáról, a háttérinformációk szerint a hatalomra jutásához Vlagyimir Putyin támogatására is szüksége lehetett, ami ismét felveti a sport és a politika függetlenségének kérdését.",
+        "Az új elnök személyisége és módszerei is tartogatnak érdekességeket a nagyközönség számára. A róla szóló beszámolók szerint Turlov a környezetében életnagyságú kartonfigurákat tart olyan meghatározó globális szereplőkről, mint Donald Trump, Elon Musk és Joe Biden, ami jól mutatja vonzalmát a nemzetközi közélet iránt.",
+        "A hétköznapi olvasó számára ez a változás azt jelzi, hogy a hagyományos táblajátékok világa sem vonhatja ki magát a globális gazdasági és politikai erőtér hatásai alól. A sportág jövőjét és irányvonalát a jövőben is alapvetően határozhatják meg a színfalak mögötti érdekek és a befolyásos vezetők döntései."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 216,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Chess_game_Staunton_No._6_perfil_view_8.jpg/1280px-Chess_game_Staunton_No._6_perfil_view_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 787,
+        "kind": "photo",
+        "alt": "Chess set composed of Rio Staunton pieces by House of Chess and a Wegiel Handmade Wooden Chess Board. The pieces are made of Ringy rosewood and boxwood, with triple internal weighting, beveled bases,",
+        "credit": "Wilfredor / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chess_game_Staunton_No._6_perfil_view_8.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://hvg.hu/elet/20260929_nemzetkozi-sakkszovetseg-fide-elnok-timur-turlov-oroszorszag-kazahsztan-vlagyimir-putyin-kreml",
+          "title": "Putyin segítségével kerülhetett a sakkvilág csúcsára az ukrán szankciókkal sújtott milliárdos",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-29T16:06:51+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/elet/20260929_nemzetkozi-sakkszovetseg-fide-elnok-timur-turlov-oroszorszag-kazahsztan-vlagyimir-putyin-kreml"
+        ]
+      },
+      "date": "2026-09-29",
+      "date_label": "szeptember 29.",
+      "url": "/eletmod/2026-09-29-politika-es-tablajatek-uj-fejezet-nyilt-a-nemzetkozi-sakk-vilagaban/",
+      "seo": {
+        "meta_title": "Politika és táblajáték: Új fejezet nyílt a nemzetközi sakk v",
+        "meta_description": "A Nemzetközi Sakkszövetség élére egy olyan milliárdos került, aki korábban orosz állampolgársággal is rendelkezett. Az ügy rávilágít arra, hogy a sportág és a n",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-09-29-politika-es-tablajatek-uj-fejezet-nyilt-a-nemzetkozi-sakk-vilagaban/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Chess_game_Staunton_No._6_perfil_view_8.jpg/1280px-Chess_game_Staunton_No._6_perfil_view_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "42f14108f39eedc5afad1a5909f61b2280cc37ff809090de77baee8106817c12",
+      "pipeline_run_id": "36579995345",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-29T16:06:51+02:00",
+      "updated_at": "2026-09-29T16:06:51+02:00",
+      "published_at": "2026-09-29T16:06:51+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "1c4ebbdb-12f8-5a44-af49-70e9f9c7c35c",
+      "slug": "2026-09-29-katonai-mozgasok-es-letszamnovelesek-komoly-erokifejtes-a-vilagpoliti",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "világpolitika",
+        "gazdaság",
+        "hadiipar",
+        "egyesült államok",
+        "oroszország"
+      ],
+      "title": "Katonai mozgások és létszámnövelések: komoly erőkifejtés a világpolitikában",
+      "subtitle": null,
+      "lead": "Az Egyesült Államok friss haditengerészeti egységeket vetett be és csoportosított át, míg Oroszországban újabb létszámnövelésről döntöttek. Ezek a lépések alapvetően határozzák meg a nemzetközi biztonsági helyzetet.",
+      "content": "A nemzetközi biztonságpolitika és a hadiipari fejlesztések közvetve a globális gazdaságra és a hétköznapi pénzügyekre is komoly hatással lehetnek. A legfrissebb hírek szerint az Egyesült Államok jelentős katonai eszközöket mozgat meg: míg az európai hadszíntéren az első bevetését teljesítette az amerikaiak legújabb, Virginia-osztályú támadó tengeralattjárója, a USS Idaho, addig máshol is komoly erőátcsoportosítások zajlanak.\n\nA Közel-Kelet irányába is újabb acélmonstrum indult el: a USS Theodore Roosevelt repülőgép-hordozó hagyta el San Diegót, hogy a térségben váltsa a USS George Washington hajót. Ennek a lépésnek a hátterében az áll, hogy az Egyesült Államok tartósan két hordozó-csapásmérő csoportot kíván fenntartani a régióban az Irán elleni műveletek folytatásához.\n\nEzzel párhuzamosan Oroszországban is jelentős belső döntések születtek. Vlagyimir Putyin legújabb rendelete értelmében tovább növelik az orosz fegyveres erők és a szolgálatot teljesítő katonák létszámát. Az ilyen nagyságrendű katonai és költségvetési mozgások mindig mélyen érintik az érintett országok gazdaságát.\n\nA hétköznapi olvasó számára ezek a folyamatok leginkább a globális bizonytalanság növekedésén, az energia- és nyersanyagárak esetleges ingadozásán, valamint a biztonságpolitikai kockázatok árazásán keresztül válhatnak kézzelfoghatóvá a pénzpiacokon. A nagyszabású katonai kiadások ugyanis elvonják a forrásokat a polgári szférától, ami közvetett módon mindannyiunk mindennapjait befolyásolhatja.",
+      "content_format": "markdown",
+      "body": [
+        "A nemzetközi biztonságpolitika és a hadiipari fejlesztések közvetve a globális gazdaságra és a hétköznapi pénzügyekre is komoly hatással lehetnek. A legfrissebb hírek szerint az Egyesült Államok jelentős katonai eszközöket mozgat meg: míg az európai hadszíntéren az első bevetését teljesítette az amerikaiak legújabb, Virginia-osztályú támadó tengeralattjárója, a USS Idaho, addig máshol is komoly erőátcsoportosítások zajlanak.",
+        "A Közel-Kelet irányába is újabb acélmonstrum indult el: a USS Theodore Roosevelt repülőgép-hordozó hagyta el San Diegót, hogy a térségben váltsa a USS George Washington hajót. Ennek a lépésnek a hátterében az áll, hogy az Egyesült Államok tartósan két hordozó-csapásmérő csoportot kíván fenntartani a régióban az Irán elleni műveletek folytatásához.",
+        "Ezzel párhuzamosan Oroszországban is jelentős belső döntések születtek. Vlagyimir Putyin legújabb rendelete értelmében tovább növelik az orosz fegyveres erők és a szolgálatot teljesítő katonák létszámát. Az ilyen nagyságrendű katonai és költségvetési mozgások mindig mélyen érintik az érintett országok gazdaságát.",
+        "A hétköznapi olvasó számára ezek a folyamatok leginkább a globális bizonytalanság növekedésén, az energia- és nyersanyagárak esetleges ingadozásán, valamint a biztonságpolitikai kockázatok árazásán keresztül válhatnak kézzelfoghatóvá a pénzpiacokon. A nagyszabású katonai kiadások ugyanis elvonják a forrásokat a polgári szférától, ami közvetett módon mindannyiunk mindennapjait befolyásolhatja."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 218,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg/1280px-An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 795,
+        "kind": "photo",
+        "alt": "Pacific Ocean (Aug. 17, 2005) – An F/A-18C Hornet, assigned to the \"Golden Dragons\" of Strike Fighter Squadron One Nine Two (VFA-192), launches from the flight deck of the conventionally powered aircr",
+        "credit": "U.S. Navy photo by Photographer's Mate 3rd Class Jonathan Chandler / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/global/20260929/mar-a-vizeket-szeli-az-egyesult-allamok-legujabb-fegyvere-brutalis-csapasmero-erovel-bir-866012",
+          "title": "Már a vizeket szeli az Egyesült Államok legújabb fegyvere: brutális csapásmérő erővel bír",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-09-29T16:06:17+02:00"
+        },
+        {
+          "url": "https://www.portfolio.hu/global/20260929/hatalmas-erot-csoportosit-at-az-egyesult-allamok-ujabb-acelmonstrum-erkezik-a-kozel-keletre-866010",
+          "title": "Hatalmas erőt csoportosít át az Egyesült Államok: újabb acélmonstrum érkezik a Közel-Keletre",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-09-29T16:06:17+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/kozelet/2026/09/orosz-hadsereg-letszamnoveles-putyin-ukrajna-haboru?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Nagy bejelentést tett Putyin: tovább növeli az orosz hadsereg létszámát – brutális számokat tartalmaz a legújabb rendelet",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-09-29T16:06:17+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/global/20260929/mar-a-vizeket-szeli-az-egyesult-allamok-legujabb-fegyvere-brutalis-csapasmero-erovel-bir-866012",
+          "https://www.portfolio.hu/global/20260929/hatalmas-erot-csoportosit-at-az-egyesult-allamok-ujabb-acelmonstrum-erkezik-a-kozel-keletre-866010",
+          "https://www.vg.hu/kozelet/2026/09/orosz-hadsereg-letszamnoveles-putyin-ukrajna-haboru?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator"
+        ]
+      },
+      "date": "2026-09-29",
+      "date_label": "szeptember 29.",
+      "url": "/penzvilag/2026-09-29-katonai-mozgasok-es-letszamnovelesek-komoly-erokifejtes-a-vilagpoliti/",
+      "seo": {
+        "meta_title": "Katonai mozgások és létszámnövelések: komoly erőkifejtés a v",
+        "meta_description": "Az Egyesült Államok friss haditengerészeti egységeket vetett be és csoportosított át, míg Oroszországban újabb létszámnövelésről döntöttek. Ezek a lépések alapv",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-09-29-katonai-mozgasok-es-letszamnovelesek-komoly-erokifejtes-a-vilagpoliti/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg/1280px-An_F-A-18C_Hornet_launches_from_the_flight_deck_of_the_conventionally_powered_aircraft_carrier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "07409bf658dd0955efe71fff39420a06e9a598f41bc5b5cc6e8ad8e95b5142c8",
+      "pipeline_run_id": "36579995345",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-29T16:06:17+02:00",
+      "updated_at": "2026-09-29T16:06:17+02:00",
+      "published_at": "2026-09-29T16:06:17+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "279a021f-9abc-5529-b713-2f97c3f7a891",
+      "slug": "2026-09-29-fekezhetetlen-intelligenciarobbanas-johet-de-az-openai-maris-elhalasz",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "mesterséges intelligencia",
+        "OpenAI",
+        "biztonság",
+        "technológia",
+        "jövő"
+      ],
+      "title": "Fékezhetetlen intelligenciarobbanás jöhet, de az OpenAI máris elhalasztotta új modelljét",
+      "subtitle": null,
+      "lead": "A világ vezető mesterségesintelligencia-kutatói kezelhetetlen folyamatokra és példátlan sebességű fejlődésre figyelmeztetnek, miközben az OpenAI biztonsági okokból maga tolta későbbre legújabb modelljének bevezetését. A fejlemények rávilágítanak arra, hogy a technológia szabályozása és ellenőrzése ma a szektor legégetőbb kihívása.",
+      "content": "A mesterséges intelligencia fejlesztése olyan fordulóponthoz érkezett, amely alapjaiban kérdőjelezheti meg eddigi elképzeléseinket a technológia üteméről. Turing-díjas tudósok, valamint az OpenAI és az Anthropic vezető kutatói nemrégiben arra figyelmeztettek, hogy ha a gépek maguk veszik át a saját fejlesztésük irányítását, az eddig évtizedekben vagy években mérhető technológiai áttörések akár hetek alatt is végbemenhetnek.\n\nEz a fajta intelligenciarobbanás olyan sebességet diktálhat, amelyre sem a társadalom, sem az intézményrendszerek nincsenek felkészülve. A szakemberek sürgős állami és kormányzati lépéseket szorgalmaznak, mondván: most van utolsó esély arra, hogy keretek közé szorítsák a folyamatokat, amíg a fejlődés irányítása emberi kézben marad.\n\nEzzel párhuzamosan a gyakorlati valóság is óvatosságra int. A ChatGPT-t fejlesztő OpenAI a napokban bejelentette, hogy biztonsági kockázatok miatt elhalasztja legújabb modelljének bevezetését. A döntés hátterében az áll, hogy a rendszer egyszerűen nem felelt meg a cég saját belső biztonsági és minőségi szabványainak sem, ami jól mutatja, hogy a technológiai óriások is komoly dilemmákkal szembesülnek.\n\nMit jelent mindez a hétköznapi olvasó számára? A mindennapjainkat átható digitális eszközök mögött álló rendszerek fejlődése kiszámíthatatlanabbá vált. Bár a technológia óriási ígéreteket hordoz, a fejlesztők saját aggodalmai és a biztonsági fékek beiktatása azt jelzik, hogy a sebesség hajszolása mellett a kockázatok kezelése is elkerülhetetlenné vált. Az előttünk álló időszakban a kormányzati szabályozás és az iparági etika meghatározó szerepet kap abban, hogy a mesterséges intelligencia biztonságos maradjon.",
+      "content_format": "markdown",
+      "body": [
+        "A mesterséges intelligencia fejlesztése olyan fordulóponthoz érkezett, amely alapjaiban kérdőjelezheti meg eddigi elképzeléseinket a technológia üteméről. Turing-díjas tudósok, valamint az OpenAI és az Anthropic vezető kutatói nemrégiben arra figyelmeztettek, hogy ha a gépek maguk veszik át a saját fejlesztésük irányítását, az eddig évtizedekben vagy években mérhető technológiai áttörések akár hetek alatt is végbemenhetnek.",
+        "Ez a fajta intelligenciarobbanás olyan sebességet diktálhat, amelyre sem a társadalom, sem az intézményrendszerek nincsenek felkészülve. A szakemberek sürgős állami és kormányzati lépéseket szorgalmaznak, mondván: most van utolsó esély arra, hogy keretek közé szorítsák a folyamatokat, amíg a fejlődés irányítása emberi kézben marad.",
+        "Ezzel párhuzamosan a gyakorlati valóság is óvatosságra int. A ChatGPT-t fejlesztő OpenAI a napokban bejelentette, hogy biztonsági kockázatok miatt elhalasztja legújabb modelljének bevezetését. A döntés hátterében az áll, hogy a rendszer egyszerűen nem felelt meg a cég saját belső biztonsági és minőségi szabványainak sem, ami jól mutatja, hogy a technológiai óriások is komoly dilemmákkal szembesülnek.",
+        "Mit jelent mindez a hétköznapi olvasó számára? A mindennapjainkat átható digitális eszközök mögött álló rendszerek fejlődése kiszámíthatatlanabbá vált. Bár a technológia óriási ígéreteket hordoz, a fejlesztők saját aggodalmai és a biztonsági fékek beiktatása azt jelzik, hogy a sebesség hajszolása mellett a kockázatok kezelése is elkerülhetetlenné vált. Az előttünk álló időszakban a kormányzati szabályozás és az iparági etika meghatározó szerepet kap abban, hogy a mesterséges intelligencia biztonságos maradjon."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 258,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Duisburg%2C_Landschaftspark_Duisburg-Nord%2C_Hochofen_5_--_2016_--_1186-92.jpg/1280px-Duisburg%2C_Landschaftspark_Duisburg-Nord%2C_Hochofen_5_--_2016_--_1186-92.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "alt": "Detail of Blast furnace 5 at Landschaftspark Duisburg-Nord, Duisburg, North Rhine-Westphalia, GermanyThe Landschaftspark Duisburg-Nord (also known as “LaPaNo” or “LaPaDu” for short) is a landscape par",
+        "credit": "Dietmar Rabich / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Duisburg,_Landschaftspark_Duisburg-Nord,_Hochofen_5_--_2016_--_1186-92.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://qubit.hu/2026/09/29/kezelhetetlen-intelligenciarobbanasra-figyelmeztetnek-a-vilag-vezeto-ai-kutatoi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "Kezelhetetlen intelligenciarobbanásra figyelmeztetnek a világ vezető AI-kutatói",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-09-29T16:05:55+02:00"
+        },
+        {
+          "url": "https://telex.hu/techtud/2026/09/29/openai-mesterseges-intelligencia-uj-rendszer-halasztas-biztonsagi-okok",
+          "title": "Az OpenAI biztonsági kockázatok miatt elhalasztotta az új modelljének a bevezetését",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-09-29T16:05:55+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "source_links": [
+          "https://qubit.hu/2026/09/29/kezelhetetlen-intelligenciarobbanasra-figyelmeztetnek-a-vilag-vezeto-ai-kutatoi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "https://telex.hu/techtud/2026/09/29/openai-mesterseges-intelligencia-uj-rendszer-halasztas-biztonsagi-okok"
+        ]
+      },
+      "date": "2026-09-29",
+      "date_label": "szeptember 29.",
+      "url": "/tech/2026-09-29-fekezhetetlen-intelligenciarobbanas-johet-de-az-openai-maris-elhalasz/",
+      "seo": {
+        "meta_title": "Fékezhetetlen intelligenciarobbanás jöhet, de az OpenAI mári",
+        "meta_description": "A világ vezető mesterségesintelligencia-kutatói kezelhetetlen folyamatokra és példátlan sebességű fejlődésre figyelmeztetnek, miközben az OpenAI biztonsági okok",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-09-29-fekezhetetlen-intelligenciarobbanas-johet-de-az-openai-maris-elhalasz/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Duisburg%2C_Landschaftspark_Duisburg-Nord%2C_Hochofen_5_--_2016_--_1186-92.jpg/1280px-Duisburg%2C_Landschaftspark_Duisburg-Nord%2C_Hochofen_5_--_2016_--_1186-92.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "a209b0c46436d1d5dff97a80bd77d65ff403ad1d42fa214c22b7fca91d628042",
+      "pipeline_run_id": "36579995345",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-29T16:05:55+02:00",
+      "updated_at": "2026-09-29T16:05:55+02:00",
+      "published_at": "2026-09-29T16:05:55+02:00",
       "expires_at": null
     }
   ]
