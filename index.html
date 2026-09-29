@@ -678,7 +678,7 @@ async function loadRetro() {
     list.sort((a, b) => String(b.date).localeCompare(String(a.date)));
     renderRetroArticles(list.slice(0, 4), list[0].date === todayISO());
     const f = list[0], yr = f.category_meta?.event_year ?? f.event_year ?? '';
-    renderFeatured({ kicker: `Ekkor történt${yr ? ' · ' + yr : ''}`, title: f.title, lead: f.lead,
+    if (!window.__hotFeatured) renderFeatured({ kicker: `Ekkor történt${yr ? ' · ' + yr : ''}`, title: f.title, lead: f.lead,
                      meta: `${f.date_label || ''} · ${f.reading_time_min || 1} perc olvasás · Kollektíva szerkesztőség`, href: f.url || '#retro' });
     const second = list[1] || null;
     todayState.retroTitle = second ? second.title : '';
@@ -738,7 +738,6 @@ $('leadForm').addEventListener('submit', async e => {
 /* =====================================================================
    INDÍTÁS – a két betöltés egymástól független
    ===================================================================== */
-renderFallbackRetro();          // azonnal van tartalom, a JSON felülírja, ha megérkezik
 horoscopeData = fallbackHoroscope();
 loadHoroscope();
 loadRetro();
@@ -749,6 +748,9 @@ loadRetro();
   try {
     const data = await fetchJSON('articles.json');
     const arts = (Array.isArray(data.articles) ? data.articles : []).filter(a => a && a.status === 'published' && a.url);
+    const NAMES = { kozelet: 'Közélet', penzvilag: 'Pénzvilág', tech: 'Tech / Jövő', eletmod: 'Életmód', kultura: 'Kultúra', univerzum: 'Univerzum' };
+    const top = arts.slice().sort((a, b) => String(b.created_at || '').localeCompare(String(a.created_at || '')))[0];
+    if (top) { window.__hotFeatured = true; renderFeatured({ kicker: NAMES[top.category] || 'Friss', title: top.title, lead: top.lead, meta: `${top.date_label || ''} · ${top.reading_time_min || 1} perc olvasás · Kollektíva szerkesztőség`, href: top.url }); }
     ['univerzum', 'penzvilag', 'tech', 'eletmod', 'kultura', 'kozelet'].forEach(id => {
       const card = document.getElementById(id); if (!card) return;
       card.style.cursor = 'pointer'; card.addEventListener('click', e => { if (!e.target.closest('a')) location.href = '/' + id + '/'; });
