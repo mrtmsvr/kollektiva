@@ -1465,7 +1465,15 @@ def main(argv: Optional[list] = None) -> int:
     ai = AIClient(cfg)
     exit_code = 0
 
-    if args.only in (None, "horoscope"):
+    force = os.getenv("FORCE_REGENERATE", "false").lower() in ("1", "true", "yes")
+    # Ami egyszer kikerült, az nem változik: a mai horoszkóp/retro cikk csak akkor készül, ha még nincs
+    # (vagy ha csak AI nélküli tartalék-tartalom van). FORCE_REGENERATE=true felülírja.
+    existing_h = read_json(cfg.output_dir / "horoscope.json", {})
+    skip_h = (not force and existing_h.get("date") == target.isoformat()
+              and str(existing_h.get("source", "")).startswith("ai:"))
+    if skip_h:
+        log.info("A mai horoszkóp már kint van – nem generálom újra.")
+    if args.only in (None, "horoscope") and not skip_h:
         try:
             horoscope = build_horoscope(ai, target, tz)
             if args.dry_run:
@@ -1477,7 +1485,12 @@ def main(argv: Optional[list] = None) -> int:
             log.exception("horoscope.json írása sikertelen: %s", e)
             exit_code = 1
 
-    if args.only in (None, "retro"):
+    existing_r = read_json(cfg.output_dir / "retro_articles.json", {"articles": []}).get("articles", [])
+    skip_r = not force and any(a.get("date") == target.isoformat() and a.get("status") == "published"
+                               and str(a.get("generator", "")).startswith("ai:") for a in existing_r)
+    if skip_r:
+        log.info("A mai retro cikk már kint van – nem generálom újra.")
+    if args.only in (None, "retro") and not skip_r:
         try:
             article = build_retro_article(ai, target, tz, load_events(cfg.events_file))
             if article:
