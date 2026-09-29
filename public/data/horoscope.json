@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-29",
-  "date_label": "2026. szeptember 29., kedd",
-  "generated_at": "2026-09-29T18:58:26+02:00",
-  "expires_at": "2026-09-30T00:00:00+02:00",
+  "date": "2026-09-30",
+  "date_label": "2026. szeptember 30., szerda",
+  "generated_at": "2026-09-30T01:17:13+02:00",
+  "expires_at": "2026-10-01T00:00:00+02:00",
   "period": "daily",
   "source": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
   "signs": [
@@ -13,13 +13,13 @@
       "element": "tűz",
       "dates": "03.21–04.19",
       "sign": "kos",
-      "headline": "Lendület és belső fék",
-      "text": "Az az érzésed, hogy egyszerre kellene gázt adnod és fékezned. Kifelé rettenthetetlennek látszol, ám a nap második felében egy apró, megválaszolatlan üzenet kizökkenthet a tempódból. Ne akard most azonnal megváltani a világot, inkább engedd meg magadnak a türelmet. Egy váratlan kávészünet vagy egy rövid séta csodákra képes a kedélyállapotoddal.",
+      "headline": "A türelmetlenség ma nem a barátod",
+      "text": "Az utóbbi napokban többször visszatért hozzád egy félbehagyott gondolat, amivel sürgősen kezdeni akarsz valamit. Délelőtt mégis érdemes lassítanod, mert a lendületed most nem egyenes vonalban halad, hanem cikázik. Hallgass meg egy váratlan ötletet a környezetedből!",
       "love": 4,
       "work": 3,
       "energy": 5,
-      "focus": "Nem kell minden harcot ma megvívnod.",
-      "lucky_color": "tűzpiros"
+      "focus": "A tempó csökkentése ma nem visszalépés, hanem stratégiai manőver.",
+      "lucky_color": ""
     },
     {
       "id": "bika",
@@ -28,13 +28,13 @@
       "element": "föld",
       "dates": "04.20–05.20",
       "sign": "bika",
-      "headline": "A stabil tempó diadala",
-      "text": "Bár a környezetedben mindenki rohan, te pontosan tudod, hogy a kapkodás csak a hibákat szιja köréd. Délelőtt egy régóta halogatott apróság viszi el a figyelmed, de estére megérkezik a jól megérdemelt elégedettség érzése. Kifinomult érzéked van most ahhoz, hogy észrevedd a részletekben rejlő szépséget, csak ne sajnáld az időt a lelassulásra.",
-      "love": 4,
-      "work": 5,
+      "headline": "A megszokott kényelem most próbát tesz",
+      "text": "Bár kifelé rendíthetetlennek látszol, legbelül pontosan tudod, hogy valami apró változtatásra érett meg a helyzeted. A nap második felében egy ismerős szituációban teljesen új oldalról mutatkozhatsz meg. Engedd el a görcsös kontrollt egyetlen részlet felett!",
+      "love": 3,
+      "work": 4,
       "energy": 3,
-      "focus": "Haladj a saját ritmusodban, bízz a tempódban.",
-      "lucky_color": "zsályazöld"
+      "focus": "A rugalmasság ma nem gyengeség, hanem a te titkos fegyvered.",
+      "lucky_color": ""
     },
     {
       "id": "ikrek",
@@ -43,13 +43,13 @@
       "element": "levegő",
       "dates": "05.21–06.20",
       "sign": "ikrek",
-      "headline": "Cikázó gondolatok hálójában",
-      "text": "Az utóbbi napokban többször visszatért hozzád egy félbehagyott ötlet, és ma kedvező szél fúj a megvalósításához. A környezeted csodálja a sziporkázó energiádat, ám legbelül te is vágysz egy nyugodt, csendes pillanatra. A nap második felében érdemes egyetlen dologra fókuszálnod a sok közül, így elkerülheted a felesleges szellemi fáradtságot.",
-      "love": 3,
-      "work": 4,
+      "headline": "Ezer szálon futó gondolatok hálója",
+      "text": "Egy elejtett mondat vagy egy villámgyors üzenet teljesen új irányba terelheti a mai napodat. Kifejezetten élvezed a szellemi pörgést, de este már jól esik majd a csend. Válaszd ki azt az egyetlen ügyet, ami valóban számít, a többit hagyd figyelmen kívül!",
+      "love": 4,
+      "work": 5,
       "energy": 4,
-      "focus": "Válassz ki egyetlen célt, és tartsd magad hozzá.",
-      "lucky_color": "napsárga"
+      "focus": "A fókuszálás ma nehezebb a szokásosnál, de annál kifizetődőbb.",
+      "lucky_color": ""
     },
     {
       "id": "rak",
@@ -58,13 +58,13 @@
       "element": "víz",
       "dates": "06.21–07.22",
       "sign": "rak",
-      "headline": "Finom rezdülések és intuíció",
-      "text": "Szinte szivacsként szívod magadba a környezeted hangulatát, ami néha fárasztó, de most különleges empátiával ajándékoz meg. Egy beszélgetés során olyan rejtett utalást kapsz, ami segít átértékelni egy korábbi döntésedet. Este engedd el a kötelességeket, és teremts magad köré egy kis békét, mert a lelked most hangolódik át.",
+      "headline": "Finom rezdülések és láthatatlan határok",
+      "text": "Ma sokkal intenzívebben érzékeled mások hangulatát, mint az kifejezetten hasznos lenne számodra. Délelőtt érdemes egy picit befelé figyelned, és megóvni a saját belső békédet a külső zajoktól. Egy kedves gesztus ma csodákra képes a közvetlen környezetedben.",
       "love": 5,
       "work": 3,
       "energy": 3,
-      "focus": "Hallgass a megérzéseidre, ne hagyd magad befolyásolni.",
-      "lucky_color": "ezüst"
+      "focus": "Engedd meg magadnak, hogy neked se kelljen mindent azonnal megoldanod.",
+      "lucky_color": ""
     },
     {
       "id": "oroszlan",
@@ -73,13 +73,13 @@
       "element": "tűz",
       "dates": "07.23–08.22",
       "sign": "oroszlan",
-      "headline": "Fény, ami belülről ragyog",
-      "text": "Az a fajta magabiztosság sugárzik belőled, ami másokat is mágnesként vonz, mégis jól esne egy kis csendes elismerés. Délelőtt váratlan esemény boríthatja fel a terveidet, de rugalmasságoddal könnyedén fordítasz az irányításon. Ne félj megmutatni a lágyabb oldaladat sem, mert ez tesz igazán hitelessé és szerethetővé.",
-      "love": 5,
+      "headline": "Amikor a színfalak mögé nézel",
+      "text": "Bár szeretsz a középpontban lenni, ma jobban esik a megfigyelő szerepe, mint a hangos szereplés. Egy váratlan észrevétel teljesen új megvilágításba helyez egy eddig magától értetődőnek hitt kapcsolatot. Adj teret másoknak is a kibontakozásra!",
+      "love": 4,
       "work": 4,
-      "energy": 5,
-      "focus": "Engedd, hogy észrevegyék az igazi értékeidet.",
-      "lucky_color": "arany"
+      "energy": 4,
+      "focus": "A valódi magabiztosság nem igényli, hogy folyamatosan bizonyítsd.",
+      "lucky_color": ""
     },
     {
       "id": "szuz",
@@ -88,13 +88,13 @@
       "element": "föld",
       "dates": "08.23–09.22",
       "sign": "szuz",
-      "headline": "A rend teremtésének művészete",
-      "text": "Szereted a dolgokat kézben tartani, ám ma kiderülhet, hogy a tökéletességre való törekvés néha csak elvonja a figyelmedet a lényegről. Egy apró technikai akadály vagy adminisztrációs részlet bosszanthat délelőtt, de a nap második felében minden a helyére kattan. Engedj meg magadnak némi rugalmasságot, és bízz abban, hogy elég jó, amit teszel.",
+      "headline": "A tökéletesség álcája mögötti nyugalom",
+      "text": "A részletek iránti érzékenységed ma épp annyira lehet áldás, mint amennyire fárasztó teher. Miközben mindenkit a hátadon hordozol, titkon arra vágysz, hogy valaki végre levegye a terhet a válladról. Engedj meg magadnak egy kis lazítást a délutáni órákban!",
       "love": 3,
       "work": 5,
       "energy": 3,
-      "focus": "A jó elég jó, nem kell mindent túlgondolni.",
-      "lucky_color": "barna"
+      "focus": "A rend a fejedben fontosabb, mint a makulátlanul tiszta asztal.",
+      "lucky_color": ""
     },
     {
       "id": "merleg",
@@ -103,13 +103,13 @@
       "element": "levegő",
       "dates": "09.23–10.22",
       "sign": "merleg",
-      "headline": "Harmónia keresése a sűrűben",
-      "text": "Kifelé mosolygós és békeszerető vagy, ám a színfalak mögött most is komoly belső egyeztetések zajlanak benned. Egy kapcsolatodban feltámadhat az igény a tisztázásra, és a ma délutáni órák különösen alkalmasak egy őszinte, kedves beszélgetésre. Ne akarj mindenkinek megfelelni egyszerre, mert a saját belső egyensúlyod fontosabb mindennél.",
+      "headline": "Az egyensúlyozás művészete határok nélkül",
+      "text": "Egyszerre próbálsz megfelelni egy külső elvárásnak és a saját belső morális iránytűdnek. Ez a finom tánc most komoly szellemi energiát köt le, de hamarosan letisztul a kép. Este szánj időt egy olyan tevékenységre, ami csak és kizárólag a te örömödet szolgálja!",
       "love": 4,
       "work": 3,
       "energy": 4,
-      "focus": "Vedd észre, hol billent el az arány.",
-      "lucky_color": "púderrózsaszín"
+      "focus": "A döntés kézben tartása néha azt jelenti, hogy nem választasz azonnal.",
+      "lucky_color": ""
     },
     {
       "id": "skorpio",
@@ -118,13 +118,13 @@
       "element": "víz",
       "dates": "10.23–11.21",
       "sign": "skorpio",
-      "headline": "Titkok és mély áramlatok",
-      "text": "A felszín alatt komoly folyamatok zajlanak benned, és ma nehezen viseled a felszínes csevegéseket. Olyan éleslátássalolsvasol a sorok között, ami szinte zavarba ejti a környezetedet, de most érdemes ezt a képességet önismeretre fordítanod. Este egy könyv vagy egy mélyebb gondolat segít lecsillapítani a benned dolgozó intenzív energiákat.",
-      "love": 4,
+      "headline": "A megérzés, amit kár lenne figyelmen kívül hagyni",
+      "text": "Mélyen benned már megszületett a válasz egy olyan kérdésre, amit eddig csak forgattál a fejedben. A nap második felében egy beszélgetés során olyan információ juthat a birtokodba, ami igazolja a sejtéseidet. Ne titkold el a véleményed, de csomagold finomabb szavakba!",
+      "love": 5,
       "work": 4,
       "energy": 4,
-      "focus": "Engedd el azt, amit már nem tudsz irányítani.",
-      "lucky_color": "sötétlila"
+      "focus": "Az intuíciód ma élesebb a szokásosnál, bízz benne bátran.",
+      "lucky_color": ""
     },
     {
       "id": "nyilas",
@@ -133,13 +133,13 @@
       "element": "tűz",
       "dates": "11.22–12.21",
       "sign": "nyilas",
-      "headline": "Új horizontok és türelmetlenség",
-      "text": "Tele vagy jövőbe mutató tervekkel, és legszívesebben azonnal átugornád a hétköznapi kötelezettségeket. A délelőtti órákban egy inspiráló hír vagy találkozás új lendületet ad a kreativitásodnak, de figyelj arra, hogy ne ígérj túl sokat. A szabadságvágyad most erős, ezért iktass be egy kis mozgást vagy friss levegőt a napodba.",
-      "love": 3,
-      "work": 4,
+      "headline": "Táguló horizontok és apró elintéznivalók",
+      "text": "Gondolatban már megint messze jársz, talán egy új utazást vagy egy izgalmas projektet tervezel. A hétköznapi kötelezettségek azonban visszahúznak a földre, ami először bosszantó lehet, de hamar rájössz a hasznára. Keress valami újat a megszokott rutinodban is!",
+      "love": 4,
+      "work": 3,
       "energy": 5,
-      "focus": "Éld meg a jelent, a jövő megvár.",
-      "lucky_color": "tengerészkék"
+      "focus": "A lelkesedés ragadós, használd ezt a tulajdonságodat ma okosan.",
+      "lucky_color": ""
     },
     {
       "id": "bak",
@@ -148,13 +148,13 @@
       "element": "föld",
       "dates": "12.22–01.19",
       "sign": "bak",
-      "headline": "Hosszan tartó alapok építése",
-      "text": "A céltudatosságod ma is irigylésre méltó, és pontosan tudod, hová szeretnél eljutni a munkádban vagy a magánéletedben. Érdemes mégis megállnod egy pillanatra, és megnézni, nem vállaltál-e magadra túl sok terhet mások helyett. A nap második fele kiváló alkalom arra, hogy egy fontos pénzügyi vagy stratégiai kérdésben tisztán láss.",
+      "headline": "A céltudatosság csendes ereje",
+      "text": "Lépésről lépésre haladsz a terveiddel, még akkor is, ha ma nem mindenki érti a tempódat. Kifelé hűvösnek és távolságtartónak tűnhetsz, de belül komoly érzelmi munkát végzel a színfalak mögött. Egy váratlan szakmai vagy emberi elismerés megkoronázhatja a napodat.",
       "love": 3,
       "work": 5,
       "energy": 3,
-      "focus": "Oszd be az erődet, nem kell mindent egyedül vinned.",
-      "lucky_color": "antracitszürke"
+      "focus": "A kitartásod ma olyan kapukat nyit meg, amikről hitted, hogy zárva vannak.",
+      "lucky_color": ""
     },
     {
       "id": "vizonto",
@@ -163,13 +163,13 @@
       "element": "levegő",
       "dates": "01.20–02.18",
       "sign": "vizonto",
-      "headline": "Szokatlan ötletek valósága",
-      "text": "A fejedben most is különleges elképzelések születnek, amelyek megelőzik a korukat, de ma a megvalósítás fázisába is átültetheted őket. Egy baráti beszélgetés vagy közösségi élmény olyan meglátást ad, ami teljesen új perspektívát nyit számodra. Ne félj eltérni a megszokott sablonoktól, mert most a sajátos meglátásaid a legfőbb erősségeid.",
+      "headline": "A megszokottól eltérő látószög varázsa",
+      "text": "Olyan zseniális ötlet pattanhat ki a fejedből a nap folyamán, ami teljesen átírja a délutáni terveidet. Szeretsz a dobozon kívül gondolkodni, de ma érdemes arra is figyelned, hogy a többiek követni tudjanak. Oszd meg a meglátásaidat egy közeli személlyel!",
       "love": 4,
       "work": 4,
       "energy": 4,
-      "focus": "Merj eredeti lenni, a sablonok nem neked valók.",
-      "lucky_color": "türkizkék"
+      "focus": "Az eredetiség ma a legnagyobb érték, amit felmutathatsz.",
+      "lucky_color": ""
     },
     {
       "id": "halak",
@@ -178,13 +178,13 @@
       "element": "víz",
       "dates": "02.19–03.20",
       "sign": "halak",
-      "headline": "Álmok és kézzelfogható valóság",
-      "text": "A kreatív energiáid szárnyalnak, és hajlamosabb vagy a szokásosnál is mélyebben megélni a pillanatokat. Egy művészeti alkotás, zene vagy egy kedves gesztus könnyen könnyeket csalhat a szemedbe, de ezek felszabadító könnyek. A nap második felében érdemes egy kicsit lehorgonyoznod magad a fizikai valóságban egy kiadós teával vagy pihenéssel.",
+      "headline": "Álmok és valóság finom határterületén",
+      "text": "A képzelőerőd ma szárnyal, és szinte magadba szívod a környezeted rezdüléseit. Nagyon fontos, hogy délután iktass be egy kis egyedüllétet, különben kifáraszt a sok külső ingor. Bízz azokban a megérzésekben, amelyek mosolyt csalnak az arcodra!",
       "love": 5,
-      "work": 2,
+      "work": 3,
       "energy": 3,
-      "focus": "Öleld át az érzékenységedet, ez a legnagyobb ajándék.",
-      "lucky_color": "mentazöld"
+      "focus": "A kreatív energia ma a legbiztosabb menedéked a stressz elől.",
+      "lucky_color": ""
     }
   ]
 }

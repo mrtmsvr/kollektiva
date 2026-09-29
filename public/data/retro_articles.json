@@ -1,7 +1,87 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-29T18:58:39+02:00",
+  "updated_at": "2026-09-30T01:17:50+02:00",
   "articles": [
+    {
+      "id": "eef100db-31bf-5a14-ad6d-add59a766580",
+      "slug": "2026-09-30-a-lazado-legendaja-james-dean-tragikus-utolso-utja",
+      "status": "published",
+      "category": "retro",
+      "subcategory": null,
+      "tags": [
+        "James Dean",
+        "Hollywood",
+        "1950-es évek",
+        "filmtörténet",
+        "tragédia"
+      ],
+      "title": "A lázadó legendája: James Dean tragikus utolsó útja",
+      "subtitle": null,
+      "lead": "Egyetlen gyújtónapon égett, és fiatalon vált halhatatlanná. James Dean 1955. szeptember 30-án bekövetkezett halála nemcsak egy ígéretes párttörést jelentett, hanem egy korszak lezáratlan szimbólumává tette a huszonnégy éves színészt.",
+      "content": "> A sebességimádatáról ismert fiatal tehetség számára ez az út bizonyult az utolsónak, a gyorsasági mámor pedig végzetes torkollásba torkollott az országúton.\n\nAz amerikai filmtörténet talán legviharosabb ikonja 1955. szeptember 30-án vesztette életét egy kaliforniai autóbalesetben. James Dean mindössze huszonnégy éves volt, amikor a sors végleg megállította az óráját, de addigra már kitörölhetetlen nyomot hagyott a modern kultúrában.\n\nA tragikus napon Dean vadonatúj, ezüstszínű Porsche 550 Spyder versenyautójával tartott egy kaliforniai autóversenyre. A sebességimádatáról és autószenvedélyéről ismert fiatal tehetség számára ez az út bizonyult az utolsónak, a gyorsasági mámor pedig végzetes torkollásba torkollott az országúton.\n\nHalála után nem sokkal, alig néhány héttel a tragikus események at követően került a mozikba a Haragban a világgal című film, amely végleg ikonná avatta őt. A vásznon áradó feszültség, a céltalan, mégis égető fiatalos dac olyan rezonanciát keltett a nézőkben, amely messze túlmutatott egy átlagos hollywoodi produkción.\n\nA film és a főszereplő tragikus sorsa összefonódott a kollektív emlékezetben. A nézők már egy olyan sztárt láttak a vásznon, aki nemcsak eljátszotta a lázadót, hanem az élete és a hirtelen halála révén magává a mítosszá vált.\n\nJames Dean korai távozása mély sebet ejtett a filmvilágon, ugyanakkor példátlan módon a halála után is folytatódott a sikere. Két posztumusz Oscar-jelölést is kapott a munkásságáért, amire a filmtörténetben addig még soha nem volt példa.\n\nEzek a jelölések nemcsak a színészi teljesítményét igazolták vissza, hanem azt a kulturális sokkot is, amelyet a hirtelen távozása okozott. James Dean huszonnégy év adatott meg, de az a néhány esztendő elegendő volt ahhoz, hogy örökre beírja magát a filmtörténet legfényesebb lapjaira.",
+      "content_format": "markdown",
+      "body": [
+        "Az amerikai filmtörténet talán legviharosabb ikonja 1955. szeptember 30-án vesztette életét egy kaliforniai autóbalesetben. James Dean mindössze huszonnégy éves volt, amikor a sors végleg megállította az óráját, de addigra már kitörölhetetlen nyomot hagyott a modern kultúrában.",
+        "A tragikus napon Dean vadonatúj, ezüstszínű Porsche 550 Spyder versenyautójával tartott egy kaliforniai autóversenyre. A sebességimádatáról és autószenvedélyéről ismert fiatal tehetség számára ez az út bizonyult az utolsónak, a gyorsasági mámor pedig végzetes torkollásba torkollott az országúton.",
+        "Halála után nem sokkal, alig néhány héttel a tragikus események at követően került a mozikba a Haragban a világgal című film, amely végleg ikonná avatta őt. A vásznon áradó feszültség, a céltalan, mégis égető fiatalos dac olyan rezonanciát keltett a nézőkben, amely messze túlmutatott egy átlagos hollywoodi produkción.",
+        "A film és a főszereplő tragikus sorsa összefonódott a kollektív emlékezetben. A nézők már egy olyan sztárt láttak a vásznon, aki nemcsak eljátszotta a lázadót, hanem az élete és a hirtelen halála révén magává a mítosszá vált.",
+        "James Dean korai távozása mély sebet ejtett a filmvilágon, ugyanakkor példátlan módon a halála után is folytatódott a sikere. Két posztumusz Oscar-jelölést is kapott a munkásságáért, amire a filmtörténetben addig még soha nem volt példa.",
+        "Ezek a jelölések nemcsak a színészi teljesítményét igazolták vissza, hanem azt a kulturális sokkot is, amelyet a hirtelen távozása okozott. James Dean huszonnégy év adatott meg, de az a néhány esztendő elegendő volt ahhoz, hogy örökre beírja magát a filmtörténet legfényesebb lapjaira."
+      ],
+      "pull_quote": "A sebességimádatáról ismert fiatal tehetség számára ez az út bizonyult az utolsónak, a gyorsasági mámor pedig végzetes torkollásba torkollott az országúton.",
+      "reading_time_min": 2,
+      "word_count": 267,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/James_Dean",
+          "title": "",
+          "publisher": "en.wikipedia.org",
+          "license": null,
+          "accessed_at": "2026-09-30T01:17:50+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "retro-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "event_year": 1955,
+        "event_date": "09-30",
+        "event_title": "James Dean halála"
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/retro/2026-09-30-a-lazado-legendaja-james-dean-tragikus-utolso-utja/",
+      "seo": {
+        "meta_title": "A lázadó legendája: James Dean tragikus utolsó útja",
+        "meta_description": "Egyetlen gyújtónapon égett, és fiatalon vált halhatatlanná. James Dean 1955. szeptember 30-án bekövetkezett halála nemcsak egy ígéretes párttörést jelentett, ha",
+        "canonical_url": "https://xn--kollektva-m5a.hu/retro/2026-09-30-a-lazado-legendaja-james-dean-tragikus-utolso-utja/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "Article"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "3a44c6aebfe00bbe33adec8a17226866c7224f0845c30ccad5a80293d47ba202",
+      "pipeline_run_id": "36644327392",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T01:17:50+02:00",
+      "updated_at": "2026-09-30T01:17:50+02:00",
+      "published_at": "2026-09-30T01:17:50+02:00",
+      "expires_at": null
+    },
     {
       "id": "8ea98907-ae72-5ff1-8eb3-de2ca3e388b7",
       "slug": "2026-09-29-amikor-a-szepseg-es-a-szornyeteg-meg-felkeszkent-hoditotta-meg-a-kozo",
