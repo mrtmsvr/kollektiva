@@ -1,4 +1,10 @@
 /retro/* /public/retro/:splat 200
+/tech/* /public/tech/:splat 200
+/penzvilag/* /public/penzvilag/:splat 200
+/eletmod/* /public/eletmod/:splat 200
+/univerzum/* /public/univerzum/:splat 200
+/kultura/* /public/kultura/:splat 200
+/kozelet/* /public/kozelet/:splat 200
 /sitemap.xml /public/sitemap.xml 200
 /news-sitemap.xml /public/news-sitemap.xml 200
 /feed.xml /public/feed.xml 200
