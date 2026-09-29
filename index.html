@@ -714,8 +714,9 @@ async function loadRetro() {
     list.sort((a, b) => String(b.date).localeCompare(String(a.date)));
     renderRetroArticles(list.slice(0, 4), list[0].date === todayISO());
     const f = list[0], yr = f.category_meta?.event_year ?? f.event_year ?? '';
-    if (!window.__hotFeatured) renderFeatured({ kicker: `Ekkor történt${yr ? ' · ' + yr : ''}`, title: f.title, lead: f.lead,
+    window.__retroFeat = ({ kicker: `Ekkor történt${yr ? ' · ' + yr : ''}`, title: f.title, lead: f.lead,
                      meta: `${f.date_label || ''} · ${f.reading_time_min || 1} perc olvasás · Kollektíva szerkesztőség`, href: f.url || '#retro' });
+    if (window.__artsDone && !window.__hotFeatured) renderFeatured(window.__retroFeat);
     const second = list[1] || null;
     todayState.retroTitle = second ? second.title : '';
     todayState.retroYear = second ? (second.category_meta?.event_year ?? second.event_year ?? '') : '';
@@ -823,6 +824,8 @@ loadRetro();
       more.textContent = 'Összes cikk'; card.appendChild(more);
     });
   } catch (e) { console.info('[Kollektíva] Rovatok:', e.message); }
+  window.__artsDone = true;
+  if (!window.__hotFeatured && window.__retroFeat) renderFeatured(window.__retroFeat);
 })();
 </script>
 </body>
