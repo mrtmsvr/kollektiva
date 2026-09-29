@@ -120,13 +120,21 @@
 <!-- ============ CÍMLAP ============ -->
 <section id="cimlap" class="stars relative overflow-hidden border-b border-line/70">
   <!-- Háttér: a logó pályája, rajta lassan keringő arany hold -->
-  <svg class="pointer-events-none absolute inset-0 h-full w-full" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <svg class="hero-orbit pointer-events-none absolute inset-0 hidden h-full w-full sm:block" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
     <g transform="rotate(-12 600 350)">
       <ellipse cx="640" cy="380" rx="640" ry="200" fill="none" stroke="#2A2D52" stroke-width="1.2"/>
       <ellipse cx="640" cy="380" rx="470" ry="140" fill="none" stroke="#2A2D52" stroke-width="1" stroke-dasharray="2 7" opacity=".8"/>
       <circle r="7" fill="#C9A45C">
         <animateMotion class="orbit-motion" dur="90s" repeatCount="indefinite" path="M0,380 a640,200 0 1,0 1280,0 a640,200 0 1,0 -1280,0"/>
       </circle>
+    </g>
+  </svg>
+  <!-- Mobilon: kisebb, álló (animáció nélküli) pálya -->
+  <svg class="pointer-events-none absolute -right-10 top-4 w-[280px] opacity-80 sm:hidden" viewBox="0 0 300 130" aria-hidden="true">
+    <g transform="rotate(-12 150 65)">
+      <ellipse cx="150" cy="65" rx="140" ry="44" fill="none" stroke="#2A2D52" stroke-width="1.2"/>
+      <ellipse cx="150" cy="65" rx="102" ry="30" fill="none" stroke="#2A2D52" stroke-width="1" stroke-dasharray="2 6" opacity=".8"/>
+      <circle cx="262" cy="92" r="5" fill="#C9A45C"/>
     </g>
   </svg>
 
@@ -151,6 +159,20 @@
       <h2 id="todayHeading" class="text-[12px] uppercase tracking-[0.2em] text-dusk">Ma a Kollektívában</h2>
       <ol id="todayList" class="mt-6 divide-y divide-line/70"></ol>
     </aside>
+  </div>
+</section>
+
+<!-- ============ FRISS HÍREK (articles.json-ból töltődik) ============ -->
+<section id="friss" class="hidden border-b border-line/70">
+  <div class="mx-auto max-w-7xl px-5 py-14 lg:px-8">
+    <div class="flex items-end justify-between gap-4">
+      <h2 class="font-display text-[36px] font-semibold leading-tight sm:text-[44px]">Friss</h2>
+      <span class="text-[13px] text-dusk">A nap legfontosabb témái</span>
+    </div>
+    <div class="mt-8 grid gap-8 lg:grid-cols-[1.5fr_1fr]">
+      <div id="frissMain"></div>
+      <ol id="frissList" class="space-y-5"></ol>
+    </div>
   </div>
 </section>
 
@@ -751,6 +773,25 @@ loadRetro();
     const NAMES = { kozelet: 'Közélet', penzvilag: 'Pénzvilág', tech: 'Tech / Jövő', eletmod: 'Életmód', kultura: 'Kultúra', univerzum: 'Univerzum' };
     const top = arts.slice().sort((a, b) => String(b.created_at || '').localeCompare(String(a.created_at || '')))[0];
     if (top) { window.__hotFeatured = true; renderFeatured({ kicker: NAMES[top.category] || 'Friss', title: top.title, lead: top.lead, meta: `${top.date_label || ''} · ${top.reading_time_min || 1} perc olvasás · Kollektíva szerkesztőség`, href: top.url }); }
+    // Friss blokk: 1 nagy + 4 kisebb képes kártya (a legújabbak elöl, a kiemelt cikk nélkül)
+    const sorted = arts.slice().sort((a, b) => String(b.created_at || '').localeCompare(String(a.created_at || '')));
+    const rest = sorted.filter(a => a !== top);
+    const img = (a, cls) => a.hero_image && a.hero_image.url
+      ? `<img src="${esc(a.hero_image.url)}" alt="" loading="lazy" class="${cls} ${a.hero_image.kind === 'graphic' ? 'object-contain bg-parch p-4' : 'object-cover'}">`
+      : `<div class="${cls} bg-vault"></div>`;
+    if (rest.length) {
+      const m = rest[0];
+      $('frissMain').innerHTML = `<a href="${esc(m.url)}" class="group block">${img(m, 'aspect-[16/9] w-full rounded-2xl')}
+        <p class="mt-4 text-[12px] uppercase tracking-[0.18em] text-brass">${esc(NAMES[m.category] || '')}</p>
+        <h3 class="mt-2 font-display text-[30px] font-semibold leading-tight text-parch group-hover:text-brass sm:text-[36px]">${esc(m.title)}</h3>
+        <p class="mt-3 text-[16px] leading-relaxed text-dusk">${esc(m.lead || '')}</p></a>`;
+      $('frissList').innerHTML = rest.slice(1, 5).map(a => `<li><a href="${esc(a.url)}" class="group grid grid-cols-[120px_1fr] gap-4 sm:grid-cols-[150px_1fr]">
+        ${img(a, 'aspect-[4/3] w-full rounded-xl')}
+        <span><span class="block text-[11px] uppercase tracking-[0.16em] text-brass">${esc(NAMES[a.category] || '')}</span>
+        <span class="mt-1 block text-[17px] font-semibold leading-snug text-parch group-hover:text-brass">${esc(a.title)}</span>
+        <span class="mt-1 block text-[12px] text-dusk">${esc(a.date_label || '')}</span></span></a></li>`).join('');
+      $('friss').classList.remove('hidden');
+    }
     ['univerzum', 'penzvilag', 'tech', 'eletmod', 'kultura', 'kozelet'].forEach(id => {
       const card = document.getElementById(id); if (!card) return;
       card.style.cursor = 'pointer'; card.addEventListener('click', e => { if (!e.target.closest('a')) location.href = '/' + id + '/'; });
