@@ -272,7 +272,7 @@
           <span class="inline-flex h-12 w-12 items-center justify-center rounded-xl border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12 16 5.5 27.5 12"/><path d="M6 12.5h20"/><path d="M8.5 15v8M13 15v8M19 15v8M23.5 15v8"/><path d="M5 26.5h22"/></svg></span>
           <span class="rounded-full border border-line px-3 py-1 text-[12px] text-dusk">Hamarosan</span>
         </div>
-        <h3 class="mt-5 font-display text-[28px] font-semibold leading-tight">Közélet számokban</h3>
+        <h3 class="mt-5 font-display text-[28px] font-semibold leading-tight">Közélet</h3>
         <p class="mt-2 text-[15px] leading-relaxed text-dusk">Pártatlan, adatvezérelt magyarázók a közügyekről.</p>
       </article>
     </div>
@@ -751,6 +751,7 @@ loadRetro();
     const arts = (Array.isArray(data.articles) ? data.articles : []).filter(a => a && a.status === 'published' && a.url);
     ['univerzum', 'penzvilag', 'tech', 'eletmod', 'kultura', 'kozelet'].forEach(id => {
       const card = document.getElementById(id); if (!card) return;
+      card.style.cursor = 'pointer'; card.addEventListener('click', e => { if (!e.target.closest('a')) location.href = '/' + id + '/'; });
       const list = arts.filter(a => a.category === id).slice(0, 3); if (!list.length) return;
       const badge = card.querySelector('span.rounded-full'); if (badge) badge.textContent = 'Friss';
       const ul = document.createElement('ul');
