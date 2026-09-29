@@ -1,0 +1,63 @@
+{
+  "_readme": "Kurált, ellenőrzött események. Kulcs: HH-NN. Az AI csak ezekből a tényekből ír. Bővítsd napokkal; több esemény esetén évente rotál.",
+  "09-26": [
+    {
+      "year": 1960,
+      "title": "Az első televíziós elnökjelölti vita",
+      "summary": "John F. Kennedy és Richard Nixon élő tévévitája megmutatta, hogy a képernyőn a megjelenés legalább annyit számít, mint a mondanivaló.",
+      "facts": [
+        "1960. szeptember 26-án Chicagóban rendezték meg az első televízióban közvetített amerikai elnökjelölti vitát John F. Kennedy és Richard Nixon között.",
+        "A vitát a becslések szerint több tízmillió amerikai követte a tévében.",
+        "Nixon betegségből lábadozott és elutasította a sminket; Kennedy kipihentnek és magabiztosnak tűnt a kamerák előtt.",
+        "Egy gyakran hivatkozott, de módszertanilag vitatott korabeli megfigyelés szerint a rádióhallgatók inkább Nixont, a tévénézők inkább Kennedyt látták győztesnek.",
+        "A vitát a politikai kommunikáció fordulópontjaként tartják számon: a vizuális megjelenés azóta a kampányok központi eleme."
+      ],
+      "tags": ["politika", "televízió", "1960-as évek"],
+      "sources": ["https://www.jfklibrary.org/learn/about-jfk/history-of-the-jfk-presidency/campaign-of-1960"]
+    },
+    {
+      "year": 1983,
+      "title": "Petrov és a hamis rakétariasztás",
+      "summary": "Egy szovjet tiszt döntése, hogy a rendszer riasztását hibásnak minősítse, valószínűleg nukleáris eszkalációt előzött meg.",
+      "facts": [
+        "1983. szeptember 26-án a szovjet korai előrejelző rendszer amerikai rakétaindítást jelzett.",
+        "Sztanyiszlav Petrov alezredes, az ügyeletes tiszt a jelzést téves riasztásnak ítélte, és nem jelentette támadásként.",
+        "Később kiderült, hogy a riasztást a műholdas érzékelők hibája okozta, a napfény felhők tetejéről való visszaverődése miatt.",
+        "Az eset a hidegháború egyik legfeszültebb évében történt, néhány héttel a KAL 007-es utasszállító lelövése után.",
+        "Az incidens csak a Szovjetunió felbomlása után vált széles körben ismertté."
+      ],
+      "tags": ["hidegháború", "1980-as évek", "történelem"],
+      "sources": ["https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident"]
+    }
+  ],
+  "09-28": [
+    {
+      "year": 1928,
+      "title": "Fleming és a penicillin",
+      "summary": "Egy elfelejtett baktériumtenyészet és egy penészfolt a modern orvoslás egyik legnagyobb felfedezéséhez vezetett.",
+      "facts": [
+        "Alexander Fleming 1928 szeptemberében, szabadságáról visszatérve észlelte londoni laboratóriumában, hogy egy penészgomba gátolja a staphylococcus-tenyészet növekedését.",
+        "A hatóanyagot penicillinnek nevezte el, eredményeit 1929-ben publikálta.",
+        "A penicillin tömeges előállítása csak az 1940-es években, Howard Florey és Ernst Chain munkája nyomán valósult meg.",
+        "Fleming, Florey és Chain 1945-ben megosztva kapta meg az élettani-orvosi Nobel-díjat."
+      ],
+      "tags": ["tudomány", "orvoslás", "1920-as évek"],
+      "sources": ["https://www.nobelprize.org/prizes/medicine/1945/summary/"]
+    }
+  ],
+  "09-30": [
+    {
+      "year": 1955,
+      "title": "James Dean halála",
+      "summary": "A 24 éves színész autóbalesete egy generáció lázadó ikonjává tette.",
+      "facts": [
+        "James Dean 1955. szeptember 30-án Kaliforniában autóbalesetben meghalt, 24 évesen.",
+        "Porsche 550 Spyder versenyautójával egy autóversenyre tartott.",
+        "Az Haragban a világgal (Rebel Without a Cause) című filmje néhány héttel halála után került a mozikba.",
+        "Két posztumusz Oscar-jelölést kapott, elsőként a filmtörténetben."
+      ],
+      "tags": ["film", "popkultúra", "1950-es évek"],
+      "sources": ["https://en.wikipedia.org/wiki/James_Dean"]
+    }
+  ]
+}
