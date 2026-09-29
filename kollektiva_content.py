@@ -623,10 +623,24 @@ def commons_search_image(query: str, timeout: int) -> Optional[dict]:
         pages = sorted(data["query"]["pages"].values(), key=lambda p: p.get("index", 99))
     except (TypeError, KeyError):
         return None
+    # Csak olyan képet fogadunk el, amelynek fájlneve/leírása tényleg a keresett dologról szól
+    # (különben pl. egy ELTE-s hírhez egy indiai előadás képe jönne be).
+    def norm(t: str) -> str:
+        return t.lower().translate(str.maketrans("áéíóöőúüű", "aeiooouuu"))
+    generic = {"with", "from", "that", "this", "university", "building", "people", "city", "photo", "image",
+               "picture", "center", "centre", "house", "street", "group", "meeting", "hungary", "hungarian"}
+    tokens = [w for w in re.findall(r"\w{4,}", norm(query)) if w not in generic] or re.findall(r"\w{4,}", norm(query))
+    need = 1
     graphic = None
     for pg in pages:
         info = (pg.get("imageinfo") or [None])[0]
-        img = _image_from_info(info, pg.get("title", "")) if info else None
+        if not info:
+            continue
+        desc = norm(pg.get("title", "") + " " + re.sub(r"<[^>]+>", " ", info.get("extmetadata", {})
+                                                          .get("ImageDescription", {}).get("value", ""))[:300])
+        if sum(1 for t in tokens if t in desc) < min(need, len(tokens)):
+            continue
+        img = _image_from_info(info, pg.get("title", ""))
         if img and img["kind"] == "photo":
             return img
         graphic = graphic or img
@@ -1352,10 +1366,12 @@ Forráskivonatok:
 - "tags": 3–5 rövid címke
 - "image_query": 1–4 szavas ANGOL keresőkifejezés a Wikimedia Commonshoz: ha a hír egy konkrét, ismert
   személyről, helyről, intézményről vagy tárgyról szól, AZ legyen (pl. "Hungarian Parliament Building",
-  "James Webb Space Telescope", "Viktor Orbán"); különben egy kifejező, konkrét téma (pl. "Budapest Stock Exchange")
+  "James Webb Space Telescope", "Viktor Orbán", "Eötvös Loránd University"); különben egy kifejező, konkrét téma
+  (pl. "Budapest Stock Exchange"). Magyar hírnél magyar helyszínt/intézményt keress, ne általános külföldi képet.
+- "image_query_alt": 1–2 további, tágabb angol keresőkifejezés tartaléknak (pl. ["ELTE Budapest", "Budapest university"])
 
 Kizárólag ezt a JSON-t add vissza:
-{{"title": "...", "lead": "...", "key_points": ["...", "...", "..."], "body": ["...", "..."], "tags": ["..."], "image_query": "..."}}"""
+{{"title": "...", "lead": "...", "key_points": ["...", "...", "..."], "body": ["...", "..."], "tags": ["..."], "image_query": "...", "image_query_alt": ["..."]}}"""
 
 
 def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, used_links: set) -> Optional[dict]:
@@ -1370,7 +1386,11 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, us
     except (AIError, ValueError, TypeError, KeyError) as e:
         log.error("[%s] AI cikkírás sikertelen: %s – kimarad.", section["id"], e)
         return None
-    image = commons_search_image(str(raw.get("image_query", "")).strip()[:60], ai.cfg.http_timeout)
+    image = None
+    for q in [raw.get("image_query"), *(raw.get("image_query_alt") or [])][:3]:
+        image = commons_search_image(str(q or "").strip()[:60], ai.cfg.http_timeout)
+        if image:
+            break
     now_iso = now.isoformat(timespec="seconds")
     slug = slugify(f"{d.isoformat()}-{art['title']}")
     sources = normalize_sources([{"url": s["link"], "title": s["title"], "publisher": s["source"]} for s in story], now_iso)
