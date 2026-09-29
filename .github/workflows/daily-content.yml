@@ -30,6 +30,6 @@ jobs:
         run: |
           git config user.name "kollektiva-bot"
           git config user.email "bot@kollektiva.hu"
-          git add public/data/*.json
+          git add public/
           git diff --cached --quiet || git commit -m "Napi tartalom: $(TZ=Europe/Budapest date +%F)"
           git push
