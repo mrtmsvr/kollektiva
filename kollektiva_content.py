@@ -1116,6 +1116,18 @@ def build_static_site(output_dir: Path, tz: ZoneInfo) -> None:
 # és a forrásokra hivatkozva SAJÁT megfogalmazású összefoglaló cikket írat.
 # Feed: (url, kategória-szűrő regex vagy None, kulcsszó-szűrő regex vagy None)
 
+ECON = (r"forint|árfolyam|infláció|kamat|MNB|jegybank|\bbér|fizetés|nyugdíj|\badó|\bár(ak|a)?\b|drág|olcsó|tőzsde|"
+        r"részvény|befektet|hitel|lakás|ingatlan|energiaár|benzin|üzemanyag|gazdaság|GDP|költségvetés|bank|"
+        r"megtakarít|euró|dollár|bitcoin|kripto|vállalat|cég|munkanélküli|fogyasztó")
+HEALTH = (r"egészs|edzés|mozgás|alvás|táplálkoz|étrend|diéta|vitamin|szív|stressz|mentális|pszich|fogyás|"
+          r"elhízás|cukor|kutatás|orvos|betegség|immun|futás|jóga|izom|életmód")
+PUBLIC = (r"adat|statisztik|KSH|felmérés|kutatás|oktatás|iskola|egészségügy|kórház|közlekedés|MÁV|BKV|lakhatás|"
+          r"nyugdíj|család|népesség|szavazó|választás|törvény|önkormányzat|időjárás|klíma|környezet")
+# Minden rovatból kizárt témák: bűnügy, tragédia, háború, konkrét személyek elleni vádak
+EXCLUDE_ALL = re.compile(r"gyanú|őrizet|letartóztat|vádemel|vádol|bűncselek|bűnügy|gyilkos|meghalt|halálos|tragédi|"
+                         r"holttest|erőszak|bántalmaz|háború|katonai|katona|fegyver|támadás|lövöldöz|robban|"
+                         r"öngyilk|botrány|killed|dies|death|war\b|attack", re.I)
+
 RETRO_SECTION = {"id": "retro", "name": "Ekkor történt", "kicker": "Ekkor történt",
                  "tagline": "Minden nap egy történet a múltból."}
 
@@ -1131,8 +1143,8 @@ SECTIONS = {
         "id": "penzvilag", "name": "Pénzvilág", "kicker": "Pénzvilág",
         "tagline": "Árfolyamok, infláció, bérek – mit jelentenek a számok a pénztárcádnak.",
         "focus": "gazdaság, pénzügyek, árfolyamok, infláció, bérek, befektetés – a hétköznapi olvasó szemszögéből",
-        "feeds": [("https://www.portfolio.hu/rss/all.xml", None, None), ("https://www.vg.hu/feed", None, None),
-                  ("https://telex.hu/rss", r"Gazdaság|Vállalat", None)],
+        "feeds": [("https://www.portfolio.hu/rss/all.xml", None, ECON), ("https://www.vg.hu/feed", None, ECON),
+                  ("https://telex.hu/rss", r"Gazdaság|Vállalat", ECON)],
     },
     "eletmod": {
         "id": "eletmod", "name": "Életmód & Egészség", "kicker": "Életmód",
@@ -1140,7 +1152,7 @@ SECTIONS = {
         "focus": "egészség, mozgás, edzés, alvás, táplálkozás, mentális jóllét – kutatási eredmények érthetően",
         "feeds": [("https://www.sciencedaily.com/rss/health_medicine/fitness.xml", None, None),
                   ("https://www.sciencedaily.com/rss/health_medicine/nutrition.xml", None, None),
-                  ("https://telex.hu/rss", r"^Élet$", None), ("https://hvg.hu/rss", r"Élet|egészség", None)],
+                  ("https://telex.hu/rss", r"^Élet$", HEALTH), ("https://hvg.hu/rss", r"Élet|egészség", HEALTH)],
     },
     "univerzum": {
         "id": "univerzum", "name": "Univerzum", "kicker": "Univerzum",
@@ -1160,7 +1172,8 @@ SECTIONS = {
         "id": "kozelet", "name": "Közélet számokban", "kicker": "Közélet",
         "tagline": "Pártatlan, adatvezérelt magyarázók a közügyekről.",
         "focus": "közügyek, társadalom, adatok és számok mögötti összefüggések – pártsemlegesen",
-        "feeds": [("https://telex.hu/rss", r"Belföld|Külföld|Adat", None), ("https://hvg.hu/rss", r"Itthon|Világ", None)],
+        "feeds": [("https://telex.hu/rss", r"Adat", None), ("https://telex.hu/rss", r"Belföld", PUBLIC),
+                  ("https://hvg.hu/rss", r"Itthon", PUBLIC)],
     },
 }
 NAV_LINKS = " ".join(f'<a href="/{sid}/">{html.escape(sec["name"])}</a>'
@@ -1183,8 +1196,17 @@ def _text(el: Optional[ET.Element]) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html.unescape(el.text or ""))).strip() if el is not None else ""
 
 
+_FEED_CACHE: dict = {}
+
+
 def fetch_feed(url: str, timeout: int) -> list:
-    """RSS 2.0 / Atom beolvasása -> [{title, link, summary, published, categories, source}]"""
+    """RSS 2.0 / Atom beolvasása -> [{title, link, summary, published, categories, source}] (futásonként cache-elve)"""
+    if url not in _FEED_CACHE:
+        _FEED_CACHE[url] = _fetch_feed(url, timeout)
+    return [dict(i) for i in _FEED_CACHE[url]]
+
+
+def _fetch_feed(url: str, timeout: int) -> list:
     req = urllib.request.Request(url, headers={"User-Agent": WIKI_UA["User-Agent"],
                                                "Accept": "application/rss+xml, application/xml, text/xml, */*"})
     try:
@@ -1235,7 +1257,7 @@ def pick_story(section: dict, used_links: set, now: datetime, timeout: int, max_
                 continue
             if kw_re and not re.search(kw_re, it["title"] + " " + it["summary"], re.I):
                 continue
-            if SPONSORED.search(cats + " " + it["title"]):
+            if SPONSORED.search(cats + " " + it["title"]) or EXCLUDE_ALL.search(it["title"] + " " + it["summary"][:300]):
                 continue
             if it["published"] and (now - it["published"]).total_seconds() > max_age_h * 3600:
                 continue
