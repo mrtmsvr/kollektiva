@@ -938,7 +938,19 @@ article p{color:rgba(236,230,216,.88)}
 .box a{color:var(--parch)}
 figure{margin:32px 0}figure img{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;border-radius:12px;background:var(--vault)}
 figure.graphic img{max-height:340px;padding:28px;background:#ECE6D8}
-figcaption{margin-top:8px;color:var(--dusk);font-size:12px}figcaption a{color:var(--dusk)}
+figcaption{margin-top:6px;color:var(--dusk);font-size:12px}figcaption a{color:var(--dusk)}
+.credit summary{list-style:none;cursor:pointer;display:inline-block;width:22px;height:22px;line-height:22px;text-align:center;border:1px solid var(--line);border-radius:50%;font-size:12px}
+.credit summary::-webkit-details-marker{display:none}.credit[open] summary{margin-right:8px}
+.slist{list-style:none;padding:0;margin:28px 0}
+.slist li{border-bottom:1px solid var(--line)}
+.slist a{display:grid;grid-template-columns:120px 1fr;gap:16px;padding:16px 0;text-decoration:none;align-items:start}
+.slist img,.slist .ph{width:120px;aspect-ratio:4/3;object-fit:cover;border-radius:10px;background:var(--vault)}
+.slist img.graphic{object-fit:contain;padding:8px;background:#ECE6D8}
+.slist .ph{display:flex;align-items:center;justify-content:center;color:var(--brass);font:600 15px "Cormorant Garamond",Georgia,serif;background:linear-gradient(135deg,#171A36,#2A2D52)}
+.slist .t{font-weight:600;font-size:17px;line-height:1.35;color:var(--parch)}.slist .m{font-size:12px;color:var(--dusk);margin-top:4px}
+.slist .l{font-size:14px;color:var(--dusk);margin-top:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.slist .y{color:var(--brass);font:600 14px "Cormorant Garamond",Georgia,serif}
+@media (min-width:640px){.slist a{grid-template-columns:180px 1fr}.slist img,.slist .ph{width:180px}}
 .thumb{display:block;width:100%;aspect-ratio:16/9;height:auto;object-fit:cover;object-position:center;border-radius:10px;margin:10px 0 12px}
 .thumb.graphic{object-fit:contain;padding:24px;background:#ECE6D8}
 .list{list-style:none;padding:0;margin:32px 0}
@@ -1061,8 +1073,9 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
         figure = (f'<figure class="{E(img.get("kind", "photo"))}"><img src="{E(img["url"])}" alt="{E(img.get("alt") or a["title"])}" '
                   f'width="{E(str(img.get("width") or ""))}" height="{E(str(img.get("height") or ""))}" '
                   f'loading="eager" decoding="async">'
-                  f'<figcaption>{"Kép" if img.get("kind") == "graphic" else "Fotó"}: <a href="{E(img.get("source_url") or img["url"])}" rel="noopener" '
-                  f'target="_blank">{E(img.get("credit", ""))}</a>, {E(img.get("license", ""))}</figcaption></figure>')
+                  f'<figcaption><details class="credit"><summary title="Képforrás">ⓘ</summary>'
+                  f'{"Kép" if img.get("kind") == "graphic" else "Fotó"}: <a href="{E(img.get("source_url") or img["url"])}" rel="noopener" '
+                  f'target="_blank">{E(img.get("credit", ""))}</a>, {E(img.get("license", ""))}</details></figcaption></figure>')
     published = (a.get("published_at") or a.get("created_at") or a["date"])[:10]
     body = f"""<article>
 <p class="kicker">{E(section["kicker"])}{(" · " + E(str(year))) if year else ""}</p>
@@ -1075,7 +1088,6 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
 {paras}
 </article>
 <details class="box"><summary>Források ({len(a.get("sources", []))})</summary><ul>{sources or "<li>—</li>"}</ul></details>
-<p><a href="/{section["id"]}/">← Vissza: {E(section["name"])}</a></p>
 {_related_html(related or [])}"""
     og = (f'<meta property="og:image" content="{E(img["url"])}">\n<meta property="og:type" content="article">\n'
           if img and img.get("url") else '<meta property="og:type" content="article">\n')
@@ -1087,15 +1099,16 @@ def render_section_index(section: dict, articles: list) -> str:
     def item(a: dict) -> str:
         img = a.get("hero_image") or {}
         year = a.get("category_meta", {}).get("event_year", "") if section["id"] == "retro" else ""
-        return ((f'<li><div class="year">{E(str(year))}</div>' if year else "<li>")
-                + (f'<a href="{E(a["url"])}"><img class="thumb {E(img.get("kind", "photo"))}" src="{E(img["url"])}" '
-                   f'alt="" loading="lazy"></a>' if img.get("url") else "")
-                + f'<h2><a href="{E(a["url"])}">{E(a["title"])}</a></h2>'
-                f'<p class="meta">{E(a.get("date_label", ""))} · {a.get("reading_time_min", 1)} perc olvasás</p>'
-                f'<p>{E(a["lead"])}</p></li>')
+        pic = (f'<img class="{E(img.get("kind", "photo"))}" src="{E(img["url"])}" alt="" loading="lazy">'
+               if img.get("url") else f'<span class="ph">{E(str(year) or section["kicker"])}</span>')
+        return (f'<li><a href="{E(a["url"])}">{pic}<span>'
+                + (f'<span class="y">{E(str(year))}</span><br>' if year else "")
+                + f'<span class="t">{E(a["title"])}</span>'
+                f'<span class="m"><br>{E(a.get("date_label", ""))} · {a.get("reading_time_min", 1)} perc</span>'
+                f'<span class="l">{E(a["lead"])}</span></span></a></li>')
     items = "\n".join(item(a) for a in articles)
     body = (f'<p class="kicker">Rovat</p><h1>{E(section["name"])}</h1>'
-            f'<p class="lead">{E(section["tagline"])}</p><ul class="list">{items or "<li>Hamarosan…</li>"}</ul>')
+            f'<p class="lead">{E(section["tagline"])}</p><ul class="slist">{items or "<li>Hamarosan…</li>"}</ul>')
     return _page(f'{section["name"]} – {SITE_NAME}', section["tagline"], f'{SITE_URL}/{section["id"]}/', body)
 
 
@@ -1258,8 +1271,47 @@ SECTION_SYSTEM = (
     "megfogalmazású, magyarázó magazincikket: nem másolsz, nem fordítasz szó szerint, hanem összefoglalsz, "
     "kontextust adsz és elmagyarázod, mit jelent ez az olvasónak. SZIGORÚ SZABÁLY: csak a megadott "
     "forráskivonatokban szereplő tényekre és vitathatatlan, közismert háttérre támaszkodhatsz; nem találsz ki "
-    "számot, idézetet, nevet vagy dátumot. Pártpolitikai állást nem foglalsz. Csak érvényes JSON-t adsz vissza."
+    "számot, idézetet, nevet vagy dátumot. Pártpolitikai állást nem foglalsz. "
+    "STÍLUS: természetes, gördülékeny, újságírói magyar nyelv; változatos mondathossz; nincs töltelékszöveg, "
+    "nincs ismétlődő szó vagy fordulat egymás közelében, nincsenek tükörfordítások és erőltetett szókapcsolatok "
+    "(pl. „ez rávilágít arra”, „nem csupán… hanem”, „fontos megjegyezni”, „összességében”). Az első mondat "
+    "a lényeget mondja, a bekezdések sorrendje: mi történt → miért fontos → háttér → mi várható. "
+    "Csak érvényes JSON-t adsz vissza."
 )
+
+EDIT_SYSTEM = (
+    "Tapasztalt magyar olvasószerkesztő vagy. Kapsz egy cikket JSON-ban. Javítsd a nyelvezetét: helyesírás, "
+    "gördülékenység, szóismétlések, kellemetlen szókapcsolatok, gépies (AI-szerű) fordulatok. A TÉNYEKEN, "
+    "számokon, neveken, dátumokon és a forrásmegnevezésen NE változtass, új információt ne adj hozzá, ne rövidíts "
+    "érdemben. Ugyanazt a JSON-szerkezetet add vissza, csak a szöveges mezőket javítva."
+)
+
+
+def editorial_polish(ai: "AIClient", raw: dict) -> dict:
+    """Második kör: olvasószerkesztői javítás. Hiba esetén az eredeti marad."""
+    keep = {k: raw.get(k) for k in ("title", "lead", "key_points", "body", "tags")}
+    try:
+        fixed = ai.complete_json(EDIT_SYSTEM, json.dumps(keep, ensure_ascii=False), 4000)
+        if isinstance(fixed.get("body"), list) and len(fixed["body"]) >= max(3, len(keep["body"] or []) - 1):
+            return {**raw, **{k: fixed[k] for k in keep if fixed.get(k)}}
+    except (AIError, ValueError, TypeError, KeyError) as e:
+        log.warning("Olvasószerkesztés kimaradt: %s", e)
+    return raw
+
+
+def wiki_context(story: list, timeout: int, limit: int = 3) -> list:
+    """Háttér a hírben szereplő nevekhez/intézményekhez a magyar Wikipédiából (ki kicsoda, mi micsoda)."""
+    text = " ".join(s["title"] + ". " + s["summary"][:300] for s in story)
+    names = re.findall(r"(?<![\wÁÉÍÓÖŐÚÜŰ])([A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüű]+(?:[ -][A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüű]+)+)", text)
+    seen, out = set(), []
+    for n in names:
+        if n in seen or len(out) >= limit:
+            continue
+        seen.add(n)
+        data = http_get_json(f"https://hu.wikipedia.org/api/rest_v1/page/summary/{_q(n)}", timeout)
+        if data and data.get("type") == "standard" and data.get("extract"):
+            out.append(f"{data.get('title', n)}: {data['extract'][:400]}")
+    return out
 
 
 def _text(el: Optional[ET.Element]) -> str:
@@ -1347,13 +1399,15 @@ def pick_story(section: dict, used_links: set, now: datetime, timeout: int, max_
     return best[:4]
 
 
-def section_prompt(section: dict, story: list, d: date) -> str:
+def section_prompt(section: dict, story: list, d: date, context: Optional[list] = None) -> str:
     src = "\n\n".join(f"[{i + 1}] {s['source']} – {s['title']}\n{s['summary']}" for i, s in enumerate(story))
+    bg = "\n".join(f"- {c}" for c in (context or []))
+    bg_block = f"\nHáttér a szereplőkhöz (magyar Wikipédia – csak magyarázatra, ha tényleg ugyanarról van szó):\n{bg}\n" if bg else ""
     return f"""Rovat: {section['name']} ({section['focus']}). Dátum: {hu_date(d)}.
 
 Forráskivonatok:
 {src}
-
+{bg_block}
 Írj ebből egy eredeti, magyar nyelvű magazincikket:
 - "title": RÖVID (max. 8 szó), ütős, kíváncsiságot keltő cím – de ne hazudjon és ne túlozzon
 - "lead": 2 mondatos bevezető: mi történt és miért fontos
@@ -1362,6 +1416,7 @@ Forráskivonatok:
   hétköznapi olvasónak. A cikk elején nevezd meg a forrást a szövegben is (pl. „– írja a Telex.”).
   Ha személy szerepel, első említéskor egy rövid jelzővel mutasd be, ki ő (pl. „Kovács Anna, az MNB
   alelnöke”) – csak ha ez a forrásból kiderül. Ahol illik, egy bekezdés lehet felsorolás: sorok „- ” jellel.
+  Ha egy fogalom, ügy vagy intézmény nem köztudott (pl. „ügynökakták”), egy mondatban magyarázd el, mi az.
   Ha a forrásokból nem derül ki valami, ne találgass.
 - "tags": 3–5 rövid címke
 - "image_query": 1–4 szavas ANGOL keresőkifejezés a Wikimedia Commonshoz: ha a hír egy konkrét, ismert
@@ -1381,7 +1436,10 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, us
         log.warning("[%s] nincs friss, megfelelő hír a forrásokban – kimarad.", section["id"])
         return None
     try:
-        raw = ai.complete_json(SECTION_SYSTEM, section_prompt(section, story, d), 4000)
+        context = wiki_context(story, ai.cfg.http_timeout)
+        raw = ai.complete_json(SECTION_SYSTEM, section_prompt(section, story, d, context), 4000)
+        validate_retro(raw)
+        raw = editorial_polish(ai, raw)
         art = validate_retro(raw)
     except (AIError, ValueError, TypeError, KeyError) as e:
         log.error("[%s] AI cikkírás sikertelen: %s – kimarad.", section["id"], e)
