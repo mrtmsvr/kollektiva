@@ -1,0 +1,4 @@
+/retro/* /public/retro/:splat 200
+/sitemap.xml /public/sitemap.xml 200
+/news-sitemap.xml /public/news-sitemap.xml 200
+/feed.xml /public/feed.xml 200
