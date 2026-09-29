@@ -78,6 +78,8 @@ class Config:
     anthropic_model: str
     openai_key: str
     openai_model: str
+    gemini_key: str
+    gemini_model: str
     output_dir: Path
     events_file: Path
     timezone: str
@@ -90,9 +92,11 @@ class Config:
         return Config(
             provider=os.getenv("AI_PROVIDER", "auto").lower(),
             anthropic_key=os.getenv("ANTHROPIC_API_KEY", ""),
-            anthropic_model=os.getenv("ANTHROPIC_MODEL", "claude-sonnet-5"),
+            anthropic_model=os.getenv("ANTHROPIC_MODEL", "claude-sonnet-5-5"),
             openai_key=os.getenv("OPENAI_API_KEY", ""),
             openai_model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
+            gemini_key=os.getenv("GEMINI_API_KEY", ""),
+            gemini_model=os.getenv("GEMINI_MODEL", "gemini-flash-latest"),
             output_dir=(BASE_DIR / os.getenv("OUTPUT_DIR", "public/data")).resolve(),
             events_file=(BASE_DIR / os.getenv("RETRO_EVENTS_FILE", "data/retro_events.json")).resolve(),
             timezone=os.getenv("SITE_TIMEZONE", "Europe/Budapest"),
@@ -169,7 +173,11 @@ class AIClient:
         self.cfg = cfg
         p = cfg.provider
         if p == "auto":
-            p = "anthropic" if cfg.anthropic_key else "openai" if cfg.openai_key else "mock"
+            p = ("anthropic" if cfg.anthropic_key else "gemini" if cfg.gemini_key
+                 else "openai" if cfg.openai_key else "mock")
+        if p == "gemini" and not cfg.gemini_key:
+            log.warning("AI_PROVIDER=gemini, de nincs GEMINI_API_KEY – mock mód.")
+            p = "mock"
         if p == "anthropic" and not cfg.anthropic_key:
             log.warning("AI_PROVIDER=anthropic, de nincs ANTHROPIC_API_KEY – mock mód.")
             p = "mock"
@@ -189,6 +197,8 @@ class AIClient:
             return f"ai:anthropic:{self.cfg.anthropic_model}"
         if self.provider == "openai":
             return f"ai:openai:{self.cfg.openai_model}"
+        if self.provider == "gemini":
+            return f"ai:gemini:{self.cfg.gemini_model}"
         return "fallback"
 
     def complete(self, system: str, prompt: str, max_tokens: int = 4000) -> str:
@@ -206,6 +216,17 @@ class AIClient:
                 "https://api.openai.com/v1/chat/completions",
                 {"Authorization": f"Bearer {c.openai_key}"},
                 {"model": c.openai_model, "max_tokens": max_tokens,
+                 "response_format": {"type": "json_object"},
+                 "messages": [{"role": "system", "content": system},
+                              {"role": "user", "content": prompt}]},
+                c.http_timeout, c.http_retries)
+            return data["choices"][0]["message"]["content"]
+        if self.provider == "gemini":
+            # A Gemini API OpenAI-kompatibilis végpontja (ingyenes szint: aistudio.google.com)
+            data = post_json(
+                "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+                {"Authorization": f"Bearer {c.gemini_key}"},
+                {"model": c.gemini_model, "max_tokens": max_tokens,
                  "response_format": {"type": "json_object"},
                  "messages": [{"role": "system", "content": system},
                               {"role": "user", "content": prompt}]},
@@ -609,7 +630,7 @@ def update_retro_archive(path: Path, article: dict, limit: int) -> dict:
 def parse_args(argv: Optional[list] = None) -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Kollektíva napi tartalomgenerátor")
     p.add_argument("--date", help="Cél dátum ÉÉÉÉ-HH-NN (alapból a mai nap a site időzónájában)")
-    p.add_argument("--provider", choices=["auto", "anthropic", "openai", "mock"], help="AI_PROVIDER felülírása")
+    p.add_argument("--provider", choices=["auto", "anthropic", "gemini", "openai", "mock"], help="AI_PROVIDER felülírása")
     p.add_argument("--only", choices=["horoscope", "retro"], help="Csak az egyik modul futtatása")
     p.add_argument("--dry-run", action="store_true", help="Nem ír fájlt, csak a kimenetet mutatja")
     p.add_argument("-v", "--verbose", action="store_true")
