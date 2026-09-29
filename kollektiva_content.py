@@ -44,6 +44,7 @@ import tempfile
 import time
 import uuid
 import urllib.error
+import urllib.parse
 import urllib.request
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
@@ -488,6 +489,111 @@ WIKI_EXCLUDE = re.compile(
     r"execut|stampede|hostage|suicide|rape|assassinat|explosion|crash|died|dies|death)\w*", re.I)
 
 
+WIKI_UA = {"User-Agent": "KollektivaBot/1.0 (https://kollektiva.hu; bot@kollektiva.hu)", "Accept": "application/json"}
+
+# Megbízható külső források (a Wikipédia-cikkek hivatkozásaiból válogatva)
+TRUSTED_SOURCES = {
+    "britannica.com": "Encyclopaedia Britannica", "bbc.co.uk": "BBC", "bbc.com": "BBC",
+    "nytimes.com": "The New York Times", "theguardian.com": "The Guardian", "history.com": "History",
+    "smithsonianmag.com": "Smithsonian Magazine", "nationalgeographic.com": "National Geographic",
+    "loc.gov": "Library of Congress", "archives.gov": "National Archives", "nasa.gov": "NASA",
+    "reuters.com": "Reuters", "apnews.com": "Associated Press", "time.com": "TIME",
+    "washingtonpost.com": "The Washington Post", "latimes.com": "Los Angeles Times",
+    "variety.com": "Variety", "hollywoodreporter.com": "The Hollywood Reporter",
+    "rollingstone.com": "Rolling Stone", "nobelprize.org": "Nobel Prize", "un.org": "United Nations",
+    "europa.eu": "Európai Unió", "cam.ac.uk": "University of Cambridge", "ox.ac.uk": "University of Oxford",
+    "nature.com": "Nature", "science.org": "Science", "esa.int": "ESA", "unesco.org": "UNESCO",
+    "rubicon.hu": "Rubicon", "arcanum.com": "Arcanum", "mek.oszk.hu": "Magyar Elektronikus Könyvtár",
+    "nemzetiarchivum.hu": "Nemzeti Archívum", "npr.org": "NPR", "theatlantic.com": "The Atlantic",
+    "independent.co.uk": "The Independent", "telegraph.co.uk": "The Telegraph", "wsj.com": "The Wall Street Journal",
+    "pbs.org": "PBS", "newyorker.com": "The New Yorker", "economist.com": "The Economist", "ft.com": "Financial Times",
+    "cbsnews.com": "CBS News", "nbcnews.com": "NBC News", "abcnews.go.com": "ABC News", "olympics.com": "Olympics",
+    "fifa.com": "FIFA", "espn.com": "ESPN", "ew.com": "Entertainment Weekly", "people.com": "People",
+}
+FREE_LICENSE = re.compile(r"^(public domain|pd|cc0|cc[ -]by(-sa)?( \d\.\d)?|cc by(-sa)? \d\.\d.*)", re.I)
+
+
+def http_get_json(url: str, timeout: int) -> Optional[dict]:
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=WIKI_UA), timeout=timeout) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError) as e:
+        log.debug("GET sikertelen: %s (%s)", url, e)
+        return None
+
+
+def _q(title: str) -> str:
+    return urllib.parse.quote(title.replace(" ", "_"), safe="")
+
+
+def wiki_hu_summary(en_title: str, timeout: int) -> Optional[dict]:
+    """A magyar Wikipédia megfelelő cikkének kivonata (ha létezik)."""
+    data = http_get_json("https://en.wikipedia.org/w/api.php?action=query&format=json&prop=langlinks"
+                         f"&lllang=hu&titles={_q(en_title)}", timeout)
+    try:
+        page = next(iter(data["query"]["pages"].values()))
+        hu_title = page["langlinks"][0]["*"]
+    except (TypeError, KeyError, IndexError, StopIteration):
+        return None
+    summ = http_get_json(f"https://hu.wikipedia.org/api/rest_v1/page/summary/{_q(hu_title)}", timeout)
+    if not summ or not summ.get("extract"):
+        return None
+    return {"title": hu_title, "extract": summ["extract"],
+            "url": summ.get("content_urls", {}).get("desktop", {}).get("page",
+                                                                        f"https://hu.wikipedia.org/wiki/{_q(hu_title)}")}
+
+
+def wiki_external_sources(en_title: str, timeout: int, limit: int = 2) -> list:
+    """A Wikipédia-cikk hivatkozásai közül a megbízható, nem archív külső források."""
+    data = http_get_json("https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extlinks"
+                         f"&ellimit=500&titles={_q(en_title)}", timeout)
+    try:
+        links = [l["*"] for l in next(iter(data["query"]["pages"].values())).get("extlinks", [])]
+    except (TypeError, KeyError, StopIteration):
+        return []
+    out, seen = [], set()
+    for url in links:
+        if not url.startswith("https://") or "web.archive.org" in url or "archive.today" in url:
+            continue
+        host = re.sub(r"^www\.", "", urllib.parse.urlparse(url).netloc.lower())
+        dom = next((d for d in TRUSTED_SOURCES if host == d or host.endswith("." + d)), None)
+        if not dom or dom in seen:
+            continue
+        seen.add(dom)
+        out.append({"url": url, "title": TRUSTED_SOURCES[dom], "publisher": TRUSTED_SOURCES[dom]})
+        if len(out) >= limit:
+            break
+    return out
+
+
+def commons_image(page: dict, timeout: int) -> Optional[dict]:
+    """A Wikipédia-oldal fő képe, CSAK ha a Wikimedia Commonson van és szabad licencű."""
+    src = (page.get("originalimage") or page.get("thumbnail") or {}).get("source", "")
+    if "/commons/" not in src:
+        return None  # helyi (pl. fair use) kép – nem használjuk
+    fname = urllib.parse.unquote(src.split("/")[-1] if "/thumb/" not in src else src.split("/thumb/")[1].split("/")[2])
+    data = http_get_json("https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo"
+                         f"&iiprop=url|extmetadata|size&iiurlwidth=1200&titles=File:{_q(fname)}", timeout)
+    try:
+        info = next(iter(data["query"]["pages"].values()))["imageinfo"][0]
+    except (TypeError, KeyError, IndexError, StopIteration):
+        return None
+    meta = info.get("extmetadata", {})
+    lic = re.sub(r"<[^>]+>", "", meta.get("LicenseShortName", {}).get("value", "")).strip()
+    if not FREE_LICENSE.match(lic):
+        return None
+    artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip() or "ismeretlen szerző"
+    return {
+        "url": info.get("thumburl") or info["url"],
+        "width": info.get("thumbwidth") or info.get("width"),
+        "height": info.get("thumbheight") or info.get("height"),
+        "alt": re.sub(r"<[^>]+>", "", meta.get("ImageDescription", {}).get("value", ""))[:200].strip(),
+        "credit": f"{artist[:80]} / Wikimedia Commons",
+        "license": lic,
+        "source_url": info.get("descriptionurl", ""),
+    }
+
+
 def wiki_onthisday_event(d: date, http_timeout: int) -> Optional[dict]:
     """Tartalék: a Wikipédia szerkesztők által válogatott „On this day” eseményei (en).
     A tények a Wikipédiából jönnek (esemény + cikkkivonat), az AI csak megfogalmaz."""
@@ -525,13 +631,26 @@ def wiki_onthisday_event(d: date, http_timeout: int) -> Optional[dict]:
                 "title": (p.get("normalizedtitle") or p.get("title", "")).replace("_", " "),
                 "publisher": "Wikipedia", "license": "CC BY-SA 4.0"}
                for p in pages[:2] if p.get("content_urls")]
+    facts = [f'{it["year"]}: {it["text"]}', *extracts]
+    image = None
+    for pg in pages[:2]:
+        t = (pg.get("normalizedtitle") or pg.get("title", "")).replace("_", " ")
+        hu = wiki_hu_summary(t, http_timeout)
+        if hu:
+            facts.append(hu["extract"])
+            sources.append({"url": hu["url"], "title": hu["title"], "publisher": "Wikipédia",
+                            "license": "CC BY-SA 4.0"})
+        sources.extend(wiki_external_sources(t, http_timeout, limit=1))
+        if image is None:
+            image = commons_image(pg, http_timeout)
     return {
         "year": it["year"],
         "title": it["text"].rstrip(".")[:120] or title,
         "summary": it["text"],
-        "facts": [f'{it["year"]}: {it["text"]}', *extracts],
+        "facts": facts,
         "tags": [],
         "sources": sources,
+        "image": image,
         "origin": "wikipedia",
         "language": "en",
     }
@@ -659,7 +778,7 @@ def build_retro_article(ai: AIClient, d: date, tz: ZoneInfo, events: dict) -> Op
         "reading_time_min": reading_time(full_text),
         "word_count": len(re.findall(r"\w+", full_text)),
         "locale": "hu-HU",
-        "hero_image": None,                    # később: Fortepan / Wikimedia, licenccel
+        "hero_image": event.get("image"),      # szabad licencű Wikimedia Commons kép (ha van)
         # --- Források, szerzőség ---
         "sources": sources,
         "authorship": {
@@ -742,6 +861,9 @@ blockquote{margin:32px 0;padding-left:18px;border-left:2px solid var(--brass);fo
 article p{color:rgba(236,230,216,.88)}
 .box{margin:40px 0;padding:18px 20px;background:var(--vault);border:1px solid var(--line);border-radius:12px;font-size:14px;color:var(--dusk)}
 .box a{color:var(--parch)}
+figure{margin:32px 0}figure img{display:block;width:100%;height:auto;border-radius:12px;background:var(--vault)}
+figcaption{margin-top:8px;color:var(--dusk);font-size:12px}figcaption a{color:var(--dusk)}
+.thumb{display:block;width:100%;max-height:260px;object-fit:cover;border-radius:10px;margin:10px 0 12px}
 .list{list-style:none;padding:0;margin:32px 0}
 .list li{padding:22px 0;border-bottom:1px solid var(--line)}
 .year{color:var(--brass);font:600 34px/1 "Cormorant Garamond",Georgia,serif}
@@ -802,6 +924,8 @@ def _article_jsonld(a: dict) -> str:
         "publisher": {"@type": "Organization", "name": SITE_NAME, "url": SITE_URL},
         "isBasedOn": [s["url"] for s in a.get("sources", []) if s.get("url")],
     }
+    if (a.get("hero_image") or {}).get("url"):
+        data["image"] = [a["hero_image"]["url"]]
     return '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False).replace("</", "<\\/") + "</script>"
 
 
@@ -811,31 +935,40 @@ def render_article_page(a: dict) -> str:
     quote = f"<blockquote>{E(a['pull_quote'])}</blockquote>" if a.get("pull_quote") else ""
     sources = "".join(
         f'<li><a href="{E(s["url"])}" rel="noopener" target="_blank">{E(s.get("title") or s["url"])}</a>'
-        f'{" (" + E(s["publisher"]) + ")" if s.get("publisher") else ""}</li>'
+        f'{" (" + E(s["publisher"]) + ")" if s.get("publisher") and s.get("publisher") != s.get("title") else ""}</li>'
         for s in a.get("sources", []) if s.get("url"))
-    ai_note = ""
-    if a["authorship"]["mode"] == "ai_generated":
-        ai_note = ("<p>A cikk mesterséges intelligencia segítségével, a lent megjelölt források alapján készült"
-                   + (", szerkesztői átnézéssel." if a["authorship"].get("reviewed_by") else ".") + "</p>")
+    img = a.get("hero_image") or None
+    figure = ""
+    if img and img.get("url"):
+        figure = (f'<figure><img src="{E(img["url"])}" alt="{E(img.get("alt") or a["title"])}" '
+                  f'width="{E(str(img.get("width") or ""))}" height="{E(str(img.get("height") or ""))}" '
+                  f'loading="eager" decoding="async">'
+                  f'<figcaption>Fotó: <a href="{E(img.get("source_url") or img["url"])}" rel="noopener" '
+                  f'target="_blank">{E(img.get("credit", ""))}</a>, {E(img.get("license", ""))}</figcaption></figure>')
     published = (a.get("published_at") or a.get("created_at") or a["date"])[:10]
     body = f"""<article>
 <p class="kicker">Ekkor történt{(" · " + E(str(year))) if year else ""}</p>
 <h1>{E(a["title"])}</h1>
 <p class="meta">{E(a["authorship"]["byline"])} · <time datetime="{E(published)}">{E(published.replace("-", ". "))}.</time> · {a.get("reading_time_min", 1)} perc olvasás</p>
 <p class="lead">{E(a["lead"])}</p>
+{figure}
 {quote}
 {paras}
 </article>
-<div class="box">{ai_note}<p><strong>Források:</strong></p><ul>{sources or "<li>—</li>"}</ul></div>
+<div class="box"><p><strong>Források:</strong></p><ul>{sources or "<li>—</li>"}</ul></div>
 <p><a href="/retro/">← Vissza a retro archívumhoz</a></p>"""
+    og = (f'<meta property="og:image" content="{E(img["url"])}">\n<meta property="og:type" content="article">\n'
+          if img and img.get("url") else '<meta property="og:type" content="article">\n')
     return _page(f'{a["seo"]["meta_title"] or a["title"]} – {SITE_NAME}', a["seo"]["meta_description"] or a["lead"],
-                 a["seo"]["canonical_url"], body, _article_jsonld(a), noindex=a["seo"].get("noindex", False))
+                 a["seo"]["canonical_url"], body, og + _article_jsonld(a), noindex=a["seo"].get("noindex", False))
 
 
 def render_retro_index(articles: list) -> str:
     items = "\n".join(
         f'<li><div class="year">{E(str(a.get("category_meta", {}).get("event_year", "")))}</div>'
-        f'<h2><a href="{E(a["url"])}">{E(a["title"])}</a></h2>'
+        + (f'<a href="{E(a["url"])}"><img class="thumb" src="{E(a["hero_image"]["url"])}" alt="" loading="lazy"></a>'
+           if (a.get("hero_image") or {}).get("url") else "")
+        + f'<h2><a href="{E(a["url"])}">{E(a["title"])}</a></h2>'
         f'<p class="meta">{E(a.get("date_label", ""))} · {a.get("reading_time_min", 1)} perc olvasás</p>'
         f'<p>{E(a["lead"])}</p></li>' for a in articles)
     body = (f'<p class="kicker">Rovat</p><h1>Ekkor történt – retro archívum</h1>'
