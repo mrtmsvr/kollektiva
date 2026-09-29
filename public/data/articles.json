@@ -1,1 +1,544 @@
-{"schema_version": 1, "updated_at": null, "articles": []}
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-29T18:55:44+02:00",
+  "articles": [
+    {
+      "id": "ebd4f8f1-2774-5e88-aaad-dd32f505f393",
+      "slug": "2026-09-29-hamarosan-megnyilik-a-keresheto-tobb-tizezres-ugynokadatbazis-az-inte",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "ügynökadatbázis",
+        "levéltár",
+        "történelem",
+        "közélet",
+        "nyilvánosság"
+      ],
+      "title": "Hamarosan megnyílik a kereshető, több tízezres ügynökadatbázis az interneten",
+      "subtitle": null,
+      "lead": "Az ígért időponthoz képest kicsit később, de napokon belül elérhetővé válik az a nyilvános internetes adatbázis, amelyben bárki böngészhet az ügynöklisták között. A gyűjtemény sok ezer nevet tesz hozzáférhetővé, ám a rendszer sajátosságai miatt a levéltári kép mégsem lesz teljesen teljessé.",
+      "content": "A közelebbi napokban indul el az a kereshető, internetes adatbázis, amely az ügynöklisták nyilvánosságra hozatalát tűzte ki célul. A Hvg.hu információi szerint a rendszerben összesen 55-60 ezer nevet tesznek majd közzé, ami jelentős mérföldkőnek számít a múlt feltárásában.\n\nBár a projekt egy ideje már készülődik, a technikai és adminisztratív lépések miatt az indulás két hetet csúszott az eredetileg ígérthöz képest. Az Állambiztonsági Szolgálatok Történeti Levéltára ugyanakkor bizonyos szempontból túl is teljesíti a jogszabályban előírt feladatait, ami jól mutatja a munka összetettségét.\n\nA mindennapi olvasó számára ez azt jelenti, hogy a múlt iránt érdeklődők közvetlenül, otthonról is kereshetnek majd az adatok között. A nyilvános felület átláthatóbbá teszi a történeti dokumentumokat, és bárki számára hozzáférhetővé válnak olyan nevek, amelyek eddig rejtve maradtak vagy nehezen voltak kutathatók.\n\nUgyanakkor fontos látni, hogy a most megnyíló adatbázis nem ad feltétlenül teljes körű képet. A rendszer felépítése és a levéltári dokumentumok állapota miatt a kutatóknak és az érdeklődőknek számolniuk kell bizonyos hiányosságokkal is, vagyis a munka a közzététel után sem ér véget.\n\nA mostani adatbázis-bővítés így egy kettős folyamatot mutat: egyrészt hatalmas mennyiségű információ válik nyitottá a nagyközönség előtt, másrészt továbbra is megmaradnak azok a korlátok, amelyek miatt a múlt teljes feltárása folyamatos kihívást jelent a szakembereknek.",
+      "content_format": "markdown",
+      "body": [
+        "A közelebbi napokban indul el az a kereshető, internetes adatbázis, amely az ügynöklisták nyilvánosságra hozatalát tűzte ki célul. A Hvg.hu információi szerint a rendszerben összesen 55-60 ezer nevet tesznek majd közzé, ami jelentős mérföldkőnek számít a múlt feltárásában.",
+        "Bár a projekt egy ideje már készülődik, a technikai és adminisztratív lépések miatt az indulás két hetet csúszott az eredetileg ígérthöz képest. Az Állambiztonsági Szolgálatok Történeti Levéltára ugyanakkor bizonyos szempontból túl is teljesíti a jogszabályban előírt feladatait, ami jól mutatja a munka összetettségét.",
+        "A mindennapi olvasó számára ez azt jelenti, hogy a múlt iránt érdeklődők közvetlenül, otthonról is kereshetnek majd az adatok között. A nyilvános felület átláthatóbbá teszi a történeti dokumentumokat, és bárki számára hozzáférhetővé válnak olyan nevek, amelyek eddig rejtve maradtak vagy nehezen voltak kutathatók.",
+        "Ugyanakkor fontos látni, hogy a most megnyíló adatbázis nem ad feltétlenül teljes körű képet. A rendszer felépítése és a levéltári dokumentumok állapota miatt a kutatóknak és az érdeklődőknek számolniuk kell bizonyos hiányosságokkal is, vagyis a munka a közzététel után sem ér véget.",
+        "A mostani adatbázis-bővítés így egy kettős folyamatot mutat: egyrészt hatalmas mennyiségű információ válik nyitottá a nagyközönség előtt, másrészt továbbra is megmaradnak azok a korlátok, amelyek miatt a múlt teljes feltárása folyamatos kihívást jelent a szakembereknek."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 245,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Moscow%2C_Bolshaya_Pirogovskaya_17_Old_Archive_Aug_2008_03.JPG/1280px-Moscow%2C_Bolshaya_Pirogovskaya_17_Old_Archive_Aug_2008_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "alt": "Bolshaya Pirogovskaya Street, Moscow.",
+        "credit": "NVO / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Moscow,_Bolshaya_Pirogovskaya_17_Old_Archive_Aug_2008_03.JPG"
+      },
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20260929_55-60-ezer-nevet-tesznek-kozze-hamarosan-a-keresheto-ugynokadatbazisban-de-azert-meg-lesz-min-dolgozni",
+          "title": "55-60 ezer nevet tesznek közzé hamarosan a kereshető ügynökadatbázisban, de azért még lesz min dolgozni",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-29T18:55:20+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20260929_55-60-ezer-nevet-tesznek-kozze-hamarosan-a-keresheto-ugynokadatbazisban-de-azert-meg-lesz-min-dolgozni"
+        ]
+      },
+      "date": "2026-09-29",
+      "date_label": "szeptember 29.",
+      "url": "/kozelet/2026-09-29-hamarosan-megnyilik-a-keresheto-tobb-tizezres-ugynokadatbazis-az-inte/",
+      "seo": {
+        "meta_title": "Hamarosan megnyílik a kereshető, több tízezres ügynökadatbáz",
+        "meta_description": "Az ígért időponthoz képest kicsit később, de napokon belül elérhetővé válik az a nyilvános internetes adatbázis, amelyben bárki böngészhet az ügynöklisták közöt",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-09-29-hamarosan-megnyilik-a-keresheto-tobb-tizezres-ugynokadatbazis-az-inte/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Moscow%2C_Bolshaya_Pirogovskaya_17_Old_Archive_Aug_2008_03.JPG/1280px-Moscow%2C_Bolshaya_Pirogovskaya_17_Old_Archive_Aug_2008_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "1d1c3cb7f44b0e3e3a88d6ff5eef774739f84a2967f19a16226b6c15fd8634f8",
+      "pipeline_run_id": "36600936606",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-29T18:55:20+02:00",
+      "updated_at": "2026-09-29T18:55:20+02:00",
+      "published_at": "2026-09-29T18:55:20+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "87c527ec-5605-5d58-b6dc-220a64c11994",
+      "slug": "2026-09-29-valtozas-a-central-szinhazban-uj-szinesz-erkezik-szabo-kimmel-tamas-h",
+      "status": "published",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Centrál Színház",
+        "színház",
+        "kultura",
+        "színészváltás",
+        "Szabó Kimmel Tamás"
+      ],
+      "title": "Változás a Centrál Színházban: új színész érkezik Szabó Kimmel Tamás helyére",
+      "subtitle": null,
+      "lead": "Megvan, ki veszi át a népszerű színész szerepét a Centrál Színházban azután, hogy ő maga jelentette be távozását. A hazai kulturális életben mindig jelentős rezonanciát keltenek a társulati mozgások és a szereposztásbeli változások.",
+      "content": "A magyar színházi élet egyik friss fejleményeként hamarosan új arc veszi át Szabó Kimmel Tamás helyét a Centrál Színház színpadán. A színész nemrégiben hozta nyilvánosságra azt a döntését, hogy a jövőben nem folytatja munkáját az intézményben, így a színház vezetése elé állt a feladat, hogy mielőbb megtalálja a megfelelő utódot a megüresedett szerepekre.\n\nAz ehhez hasonló társulati változások szinte minden színházkedvelő számára ismerősek, hiszen a produkciók folyamatossága és a népszerű darabok műsoron tartása logisztikai és művészi szempontból is komoly odafigyelést igényel. Egy-egy karakter átvétele nemcsak az új művész számára jelent kihívást, hanem a meglévő stáb számára is új dinamikát hoz a próbafolyamatokba.\n\nA nézők számára a mindennapokban ez leginkább annyit tesz, hogy a megszokott előadások némileg frissült formában, új energiákkal térnek vissza a színpadra. Az évad során a színházlátogatók márciusban vagy más időpontokban is találkozhatnak majd a megújult szereposztással, miközben a produkciók alapvető hangulata és szellemisége a tervek szerint változatlan marad.\n\nAz elkövetkező időszakban minden szem arra szegeződik, hogyan illeszkedik be az új szereplő a meglévő előadásokba, és miként fogadja a közönség a friss felállást. A Centrál Színház életében ez egy új fejezet kezdetét jelenti, amely rávilágít arra is, hogy a színházművészet mennyire dinamikus és folyamatos megújulásra képes műfaj.",
+      "content_format": "markdown",
+      "body": [
+        "A magyar színházi élet egyik friss fejleményeként hamarosan új arc veszi át Szabó Kimmel Tamás helyét a Centrál Színház színpadán. A színész nemrégiben hozta nyilvánosságra azt a döntését, hogy a jövőben nem folytatja munkáját az intézményben, így a színház vezetése elé állt a feladat, hogy mielőbb megtalálja a megfelelő utódot a megüresedett szerepekre.",
+        "Az ehhez hasonló társulati változások szinte minden színházkedvelő számára ismerősek, hiszen a produkciók folyamatossága és a népszerű darabok műsoron tartása logisztikai és művészi szempontból is komoly odafigyelést igényel. Egy-egy karakter átvétele nemcsak az új művész számára jelent kihívást, hanem a meglévő stáb számára is új dinamikát hoz a próbafolyamatokba.",
+        "A nézők számára a mindennapokban ez leginkább annyit tesz, hogy a megszokott előadások némileg frissült formában, új energiákkal térnek vissza a színpadra. Az évad során a színházlátogatók márciusban vagy más időpontokban is találkozhatnak majd a megújult szereposztással, miközben a produkciók alapvető hangulata és szellemisége a tervek szerint változatlan marad.",
+        "Az elkövetkező időszakban minden szem arra szegeződik, hogyan illeszkedik be az új szereplő a meglévő előadásokba, és miként fogadja a közönség a friss felállást. A Centrál Színház életében ez egy új fejezet kezdetét jelenti, amely rávilágít arra is, hogy a színházművészet mennyire dinamikus és folyamatos megújulásra képes műfaj."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 233,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/View_of_Orpheum_Theater_auditorium_from_stage.jpg/1280px-View_of_Orpheum_Theater_auditorium_from_stage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "alt": "Orpheum Theater, Minneapolis. View of the auditorium from stage. The large circle dome seen at the ceiling has a practical acoustic purpose. So long as one can project their voice, it can be heard cle",
+        "credit": "Tommy Sar / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:View_of_Orpheum_Theater_auditorium_from_stage.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://hvg.hu/kultura/20260929_megvan-ki-veszi-at-szabo-kimmel-tamas-szerepet",
+          "title": "Megvan, ki veszi át Szabó Kimmel Tamás szerepét a Centrálban",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-29T18:55:00+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/kultura/20260929_megvan-ki-veszi-at-szabo-kimmel-tamas-szerepet"
+        ]
+      },
+      "date": "2026-09-29",
+      "date_label": "szeptember 29.",
+      "url": "/kultura/2026-09-29-valtozas-a-central-szinhazban-uj-szinesz-erkezik-szabo-kimmel-tamas-h/",
+      "seo": {
+        "meta_title": "Változás a Centrál Színházban: új színész érkezik Szabó Kimm",
+        "meta_description": "Megvan, ki veszi át a népszerű színész szerepét a Centrál Színházban azután, hogy ő maga jelentette be távozását. A hazai kulturális életben mindig jelentős rez",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-09-29-valtozas-a-central-szinhazban-uj-szinesz-erkezik-szabo-kimmel-tamas-h/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/View_of_Orpheum_Theater_auditorium_from_stage.jpg/1280px-View_of_Orpheum_Theater_auditorium_from_stage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "e5bc77341ce6fbdf8ee4a7d6feb3d329663dfef68230e41fc328d1a61aeb0c1c",
+      "pipeline_run_id": "36600936606",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-29T18:55:00+02:00",
+      "updated_at": "2026-09-29T18:55:00+02:00",
+      "published_at": "2026-09-29T18:55:00+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "bc508689-2caf-5fe9-b190-f2d774f0145d",
+      "slug": "2026-09-29-ujabb-merfoldkovek-az-urkutatasban-indulasra-kesz-a-crew-13-es-fejlod",
+      "status": "published",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "űrkutatás",
+        "NASA",
+        "SpaceX",
+        "Starliner",
+        "Mars és Hold"
+      ],
+      "title": "Újabb mérföldkövek az űrkutatásban: indulásra kész a Crew-13 és fejlődik a Starliner",
+      "subtitle": null,
+      "lead": "Az amerikai űrkutatás mozgalmas időszakot él át: útjára indulhat a SpaceX Crew-13 küldetése, miközben a NASA és a Boeing is beszámolt a Starliner program fejleményeiről. A technológiai újítások célja, hogy fenntarthatóbbá és hatékonyabbá tegyék a jövőbeli űrutazásokat.",
+      "content": "Az űrkutatás jelenlegi korszaka izgalmas lehetőségeket tartogat, amit a friss bejelentések is jól mutatnak. A NASA és a Boeing nemrégiben részleteket osztott meg a Starliner űrhajó fejlesztési terveiről, amelynek keretében újabb személyzetes küldetéseket adnak hozzá a programhoz, és egy új rakétát is hitelesítenek a Föld körüli pályára irányuló emberes szállításokhoz. Az ilyen jellegű együttműködések és technológiai bővítések alapvetően határozzák meg a közeljövő űrutazási lehetőségeit.\n\nEzzel párhuzamosan a floridai Cape Canaveral Space Force Station területén, a 40-es indítóálláson már függőleges helyzetben várakozik a SpaceX Falcon 9 rakétája és a Dragon űrhajó. Ez a szerkezet a NASA közelgő Crew-13 küldetésének előkészületeit szolgálja. A fedélzeten nemzetközi összefogás rajzolódik ki: a NASA asztronautái, Jessica Watkins és Luke Delaney mellett a Kanadai Űrügynökség (CSA) képviselője, Joshua Kutryk, valamint a Roszkozmosz űrhajósa, Szergej is helyet kap.\n\nA távolabbi célok eléréséhez azonban nemcsak a szállításban, hanem az anyaghasználatban is áttörésekre van szükség. A NASA Glenn Kutatóközpontjában, Clevelandben egy olyan új anyagot fejlesztettek ki, amely mikroszkóp alatt vizsgálva színes, kaleidoszkópszerű kristályszerkezetet mutat. Ez a speciális anyag a jövőbeli űrküldetések során közvetlenül a Holdon vagy a Marson is előállítható lesz.\n\nMiért fontos ez mindez a hétköznapi ember számára? A Holdon vagy a Vörös Bolygón történő helyszíni gyártás lehetősége azt jelenti, hogy az űrutazóknak kevesebb felszerelést kell magukkal vinniük a Földről. Ez jelentős tömegmegtakarítást eredményez, ami hatékonyabbá és gazdaságosabbá teszi a mélyűr feltérképezését, és közelebb hozza az emberiséget az űrben való tartós jelenléthez.",
+      "content_format": "markdown",
+      "body": [
+        "Az űrkutatás jelenlegi korszaka izgalmas lehetőségeket tartogat, amit a friss bejelentések is jól mutatnak. A NASA és a Boeing nemrégiben részleteket osztott meg a Starliner űrhajó fejlesztési terveiről, amelynek keretében újabb személyzetes küldetéseket adnak hozzá a programhoz, és egy új rakétát is hitelesítenek a Föld körüli pályára irányuló emberes szállításokhoz. Az ilyen jellegű együttműködések és technológiai bővítések alapvetően határozzák meg a közeljövő űrutazási lehetőségeit.",
+        "Ezzel párhuzamosan a floridai Cape Canaveral Space Force Station területén, a 40-es indítóálláson már függőleges helyzetben várakozik a SpaceX Falcon 9 rakétája és a Dragon űrhajó. Ez a szerkezet a NASA közelgő Crew-13 küldetésének előkészületeit szolgálja. A fedélzeten nemzetközi összefogás rajzolódik ki: a NASA asztronautái, Jessica Watkins és Luke Delaney mellett a Kanadai Űrügynökség (CSA) képviselője, Joshua Kutryk, valamint a Roszkozmosz űrhajósa, Szergej is helyet kap.",
+        "A távolabbi célok eléréséhez azonban nemcsak a szállításban, hanem az anyaghasználatban is áttörésekre van szükség. A NASA Glenn Kutatóközpontjában, Clevelandben egy olyan új anyagot fejlesztettek ki, amely mikroszkóp alatt vizsgálva színes, kaleidoszkópszerű kristályszerkezetet mutat. Ez a speciális anyag a jövőbeli űrküldetések során közvetlenül a Holdon vagy a Marson is előállítható lesz.",
+        "Miért fontos ez mindez a hétköznapi ember számára? A Holdon vagy a Vörös Bolygón történő helyszíni gyártás lehetősége azt jelenti, hogy az űrutazóknak kevesebb felszerelést kell magukkal vinniük a Földről. Ez jelentős tömegmegtakarítást eredményez, ami hatékonyabbá és gazdaságosabbá teszi a mélyűr feltérképezését, és közelebb hozza az emberiséget az űrben való tartós jelenléthez."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 273,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Soyuz_TMA-09M_spacecraft_at_the_Baikonur_Cosmodrome_launch_pad_%284%29.jpg/1280px-Soyuz_TMA-09M_spacecraft_at_the_Baikonur_Cosmodrome_launch_pad_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 799,
+        "kind": "photo",
+        "alt": "The Service arms are raised into position around the Soyuz rocket, with the TMA-09M spacecraft, after arriving at the Baikonur Cosmodrome launch pad by train, Sunday, May 26, 2013, in Kazakhstan. The",
+        "credit": "Bill Ingalls / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Soyuz_TMA-09M_spacecraft_at_the_Baikonur_Cosmodrome_launch_pad_(4).jpg"
+      },
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/image-article/crew-13-rocket-and-spacecraft-at-launch-pad/",
+          "title": "Crew-13 Rocket and Spacecraft at Launch Pad",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-09-29T18:54:40+02:00"
+        },
+        {
+          "url": "https://www.nasa.gov/image-article/nasa-made-material-moon-manufacturing/",
+          "title": "Under the Microscope: NASA-Made Material for Moon Manufacturing",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-09-29T18:54:40+02:00"
+        },
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-boeing-share-update-on-commercial-starliner-development-plans/",
+          "title": "NASA, Boeing Share Update on Commercial Starliner Development Plans",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-09-29T18:54:40+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/image-article/crew-13-rocket-and-spacecraft-at-launch-pad/",
+          "https://www.nasa.gov/image-article/nasa-made-material-moon-manufacturing/",
+          "https://www.nasa.gov/news-release/nasa-boeing-share-update-on-commercial-starliner-development-plans/"
+        ]
+      },
+      "date": "2026-09-29",
+      "date_label": "szeptember 29.",
+      "url": "/univerzum/2026-09-29-ujabb-merfoldkovek-az-urkutatasban-indulasra-kesz-a-crew-13-es-fejlod/",
+      "seo": {
+        "meta_title": "Újabb mérföldkövek az űrkutatásban: indulásra kész a Crew-13",
+        "meta_description": "Az amerikai űrkutatás mozgalmas időszakot él át: útjára indulhat a SpaceX Crew-13 küldetése, miközben a NASA és a Boeing is beszámolt a Starliner program fejlem",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-09-29-ujabb-merfoldkovek-az-urkutatasban-indulasra-kesz-a-crew-13-es-fejlod/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Soyuz_TMA-09M_spacecraft_at_the_Baikonur_Cosmodrome_launch_pad_%284%29.jpg/1280px-Soyuz_TMA-09M_spacecraft_at_the_Baikonur_Cosmodrome_launch_pad_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "ef84a793742de57a4505bcff53de7c26d52406fd5fb259f3c55516a56d6b9c87",
+      "pipeline_run_id": "36600936606",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-29T18:54:40+02:00",
+      "updated_at": "2026-09-29T18:54:40+02:00",
+      "published_at": "2026-09-29T18:54:40+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "1b042b28-9088-5dcc-8b84-e6932b8e4bf1",
+      "slug": "2026-09-29-igy-koti-ossze-a-kave-a-belrendszert-es-az-agymukodest",
+      "status": "published",
+      "category": "eletmod",
+      "subcategory": null,
+      "tags": [
+        "kávé",
+        "egészség",
+        "bélrendszer",
+        "agy",
+        "kutatás"
+      ],
+      "title": "Így köti össze a kávé a bélrendszert és az agyműködést",
+      "subtitle": null,
+      "lead": "Egy friss tudományos kutatás rávilágított, hogy a kávé a bélbaktériumainkon keresztül befolyásolhatja a hangulatunkat és az agyi funkcióinkat. Az eredmények rávädítnek, hogy mind a koffeines, mind a koffeinmentes változat hatással van a mentális jóllétünkre.",
+      "content": "A mindennapi kávézás rituáléja sokunk számára elengedhetetlen a nap indításához, de eddig kevésbé volt ismert, hogy pontosan milyen rejtett folyamatok zajlanak le a szervezetünkben a fekete ital hatására. Egy új kutatás most részletesen feltérképezte, hogyan kapcsolódik össze a kávéfogyasztás és a bélrendszerünk mikrobiomja, valamint ez utóbbi hogyan üzen az agyunknak.\n\nA vizsgálat során a kutatók mind a koffeines, mind a koffeinmentes kávé hatásait elemezték. Az eredmények azt mutatták, hogy mindkét változat összefüggésbe hozható a stressz, a depresszió és az impulzivitás csökkenésével. Ezzel párhuzamosan a szakemberek mérhető változásokat figyeltek meg a bélbaktériumok összetételében és a kapcsolódó metabolitokban is.\n\nA kutatás különbséget tett a koffeines és a mentes ital specifikus hatásai között is. A koffeinmentes kávé a tanulás és a memória javulásával mutatott összefüggést, míg a koffeines változat a szorongás csökkentésében és a figyelmi szint javításában játszott szerepet.\n\nMit jelent ez a mindennapokban a kávéimádók számára? A felfedezés újabb bizonyíték arra, hogy az elfogyasztott ételeink és italaink közvetlen kapcsolatban állnak a mentális állapotunkkal. Bár a pontos biológiai mechanizmusok feltárása még tart, az biztos, hogy a reggeli csésze kávénk nemcsak a figyelmünket éberen tartja, hanem a bélflóránkon keresztül a hangulatunkra és a kognitív képességeinkre is hatással lehet.",
+      "content_format": "markdown",
+      "body": [
+        "A mindennapi kávézás rituáléja sokunk számára elengedhetetlen a nap indításához, de eddig kevésbé volt ismert, hogy pontosan milyen rejtett folyamatok zajlanak le a szervezetünkben a fekete ital hatására. Egy új kutatás most részletesen feltérképezte, hogyan kapcsolódik össze a kávéfogyasztás és a bélrendszerünk mikrobiomja, valamint ez utóbbi hogyan üzen az agyunknak.",
+        "A vizsgálat során a kutatók mind a koffeines, mind a koffeinmentes kávé hatásait elemezték. Az eredmények azt mutatták, hogy mindkét változat összefüggésbe hozható a stressz, a depresszió és az impulzivitás csökkenésével. Ezzel párhuzamosan a szakemberek mérhető változásokat figyeltek meg a bélbaktériumok összetételében és a kapcsolódó metabolitokban is.",
+        "A kutatás különbséget tett a koffeines és a mentes ital specifikus hatásai között is. A koffeinmentes kávé a tanulás és a memória javulásával mutatott összefüggést, míg a koffeines változat a szorongás csökkentésében és a figyelmi szint javításában játszott szerepet.",
+        "Mit jelent ez a mindennapokban a kávéimádók számára? A felfedezés újabb bizonyíték arra, hogy az elfogyasztott ételeink és italaink közvetlen kapcsolatban állnak a mentális állapotunkkal. Bár a pontos biológiai mechanizmusok feltárása még tart, az biztos, hogy a reggeli csésze kávénk nemcsak a figyelmünket éberen tartja, hanem a bélflóránkon keresztül a hangulatunkra és a kognitív képességeinkre is hatással lehet."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 228,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260927034331.htm",
+          "title": "Scientists just discovered what coffee really does to your gut and brain",
+          "publisher": "sciencedaily.com",
+          "license": null,
+          "accessed_at": "2026-09-29T18:54:20+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "source_links": [
+          "https://www.sciencedaily.com/releases/2026/09/260927034331.htm"
+        ]
+      },
+      "date": "2026-09-29",
+      "date_label": "szeptember 29.",
+      "url": "/eletmod/2026-09-29-igy-koti-ossze-a-kave-a-belrendszert-es-az-agymukodest/",
+      "seo": {
+        "meta_title": "Így köti össze a kávé a bélrendszert és az agyműködést",
+        "meta_description": "Egy friss tudományos kutatás rávilágított, hogy a kávé a bélbaktériumainkon keresztül befolyásolhatja a hangulatunkat és az agyi funkcióinkat. Az eredmények ráv",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-09-29-igy-koti-ossze-a-kave-a-belrendszert-es-az-agymukodest/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "118ad26438f3318b6ee8b80bbbd9fdd837f007abe10066b6b90851539764d2da",
+      "pipeline_run_id": "36600936606",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-29T18:54:20+02:00",
+      "updated_at": "2026-09-29T18:54:20+02:00",
+      "published_at": "2026-09-29T18:54:20+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "ac36a6e3-10e9-5ea9-8d16-556167c9496c",
+      "slug": "2026-09-29-magyarorszag-hamarosan-csatlakozhat-az-europai-ugyeszseghez",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "Európai Ügyészség",
+        "pénzügyek",
+        "EU-s források",
+        "gazdaság",
+        "NAV"
+      ],
+      "title": "Magyarország hamarosan csatlakozhat az Európai Ügyészséghez",
+      "subtitle": null,
+      "lead": "Budapesti egyeztetések után jelentették be, hogy Magyarország a csatlakozás előkészítésén dolgozik az uniós pénzeket felügyelő szervezethez. Ez a lépés jelentősen átalakíthatja az európai uniós források felhasználásának ellenőrzését és a hazai nyomozóhatóságok együttműködését.",
+      "content": "Budapestre látogatott Laura Codruța Kövesi, az Európai Ügyészség (EPPO) európai főügyésze, aki az Igazságügyi Minisztériumban egyeztetett a magyar csatlakozás részleteiről. A megbeszélések során Kármán András pénzügyminiszter számolt be a fejleményekről egy közösségi oldalon megjelent bejegyzésben, amely a hivatalos előkészületek kezdetét jelzi.\n\nA közeledő csatlakozás legfontosabb gyakorlati teendői közé tartozik a szükséges jogszabály-harmonizáció végrehajtása. Ez azt jelenti, hogy a hazai jogrendszert össze kell hangolni az uniós ügyészség elvárásaival és működési kereteivel, hogy a szervezet zökkenőmentesen láthassa el feladatait a magyar határokon belül is.\n\nAz előkészületi munkálatok részeként már megkezdődtek az egyeztetések arról is, hogy a Nemzeti Adó- és Vámhivatal (NAV) milyen jövőbeli szerepet kap majd az Európai Ügyészség nyomozásaiban. Mivel a NAV eddig is kiemelt szerepet játszott a gazdasági bűnczelekmények felderítésében, a hazai hatóság és az uniós szervezet közötti munkamegosztás kulcsfontosságú lesz a jövőben.\n\nA hétköznapi olvasó számára ez a folyamat elsősorban az uniós pénzek átláthatóbb és szigorúbb ellenőrzését hozhatja magával. Mivel az Európai Ügyészség kifejezetten az uniós pénzügyi érdekeket sértő bűncselekmények – például a támogatásokkal kapcsolatos visszaélések – felkutatására és üldözésére jött létre, a csatlakozás új garanciákat teremthet a közpénzek szabályos felhasználása terén.",
+      "content_format": "markdown",
+      "body": [
+        "Budapestre látogatott Laura Codruța Kövesi, az Európai Ügyészség (EPPO) európai főügyésze, aki az Igazságügyi Minisztériumban egyeztetett a magyar csatlakozás részleteiről. A megbeszélések során Kármán András pénzügyminiszter számolt be a fejleményekről egy közösségi oldalon megjelent bejegyzésben, amely a hivatalos előkészületek kezdetét jelzi.",
+        "A közeledő csatlakozás legfontosabb gyakorlati teendői közé tartozik a szükséges jogszabály-harmonizáció végrehajtása. Ez azt jelenti, hogy a hazai jogrendszert össze kell hangolni az uniós ügyészség elvárásaival és működési kereteivel, hogy a szervezet zökkenőmentesen láthassa el feladatait a magyar határokon belül is.",
+        "Az előkészületi munkálatok részeként már megkezdődtek az egyeztetések arról is, hogy a Nemzeti Adó- és Vámhivatal (NAV) milyen jövőbeli szerepet kap majd az Európai Ügyészség nyomozásaiban. Mivel a NAV eddig is kiemelt szerepet játszott a gazdasági bűnczelekmények felderítésében, a hazai hatóság és az uniós szervezet közötti munkamegosztás kulcsfontosságú lesz a jövőben.",
+        "A hétköznapi olvasó számára ez a folyamat elsősorban az uniós pénzek átláthatóbb és szigorúbb ellenőrzését hozhatja magával. Mivel az Európai Ügyészség kifejezetten az uniós pénzügyi érdekeket sértő bűncselekmények – például a támogatásokkal kapcsolatos visszaélések – felkutatására és üldözésére jött létre, a csatlakozás új garanciákat teremthet a közpénzek szabályos felhasználása terén."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 214,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Geographic_centre_of_the_European_Union_Westerngrund.jpg/1280px-Geographic_centre_of_the_European_Union_Westerngrund.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "alt": "The geographical centre of the European Union near Westerngrund, Bavaria",
+        "credit": "Freak-Line-Community / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Geographic_centre_of_the_European_Union_Westerngrund.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20260929/karman-andras-magyarorszag-hamarosan-csatlakozik-az-europai-ugyeszseghez-akik-az-unios-penzeket-felugyelik-866094",
+          "title": "Kármán András: Magyarország hamarosan csatlakozik az Európai Ügyészséghez, akik az uniós pénzeket felügyelik",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-09-29T18:53:59+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/kozelet/2026/09/karman-andras-gorog-marta-romanok-korrupcio-fougyesz?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Kármán Andrásnál és Görög Mártánál nem akárki járt: a románok rettegett korrupcióellenes főügyészét vetné be a Tisza-kormány a Fidesz ellen – Laura Codruța Kövesi valamire készül Budapesten",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-09-29T18:53:59+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20260929/karman-andras-magyarorszag-hamarosan-csatlakozik-az-europai-ugyeszseghez-akik-az-unios-penzeket-felugyelik-866094",
+          "https://www.vg.hu/kozelet/2026/09/karman-andras-gorog-marta-romanok-korrupcio-fougyesz?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator"
+        ]
+      },
+      "date": "2026-09-29",
+      "date_label": "szeptember 29.",
+      "url": "/penzvilag/2026-09-29-magyarorszag-hamarosan-csatlakozhat-az-europai-ugyeszseghez/",
+      "seo": {
+        "meta_title": "Magyarország hamarosan csatlakozhat az Európai Ügyészséghez",
+        "meta_description": "Budapesti egyeztetések után jelentették be, hogy Magyarország a csatlakozás előkészítésén dolgozik az uniós pénzeket felügyelő szervezethez. Ez a lépés jelentős",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-09-29-magyarorszag-hamarosan-csatlakozhat-az-europai-ugyeszseghez/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Geographic_centre_of_the_European_Union_Westerngrund.jpg/1280px-Geographic_centre_of_the_European_Union_Westerngrund.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "53b96fa5119816d271fa45e764d2afd54815d51f86e519236dcbb5dd86fbad16",
+      "pipeline_run_id": "36600936606",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-29T18:53:59+02:00",
+      "updated_at": "2026-09-29T18:53:59+02:00",
+      "published_at": "2026-09-29T18:53:59+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "8aa8ee56-7727-54bc-a46c-cc06dc133c51",
+      "slug": "2026-09-29-ingyenes-mesterseges-intelligencia-het-indul-az-elte-n",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "mesterséges intelligencia",
+        "ELTE",
+        "technológia",
+        "tudomány",
+        "kutatás"
+      ],
+      "title": "Ingyenes mesterséges intelligencia hét indul az ELTE-n",
+      "subtitle": null,
+      "lead": "Október elején ingyenes rendezvénysorozat mutatja be a mesterséges intelligencia legfrissebb eredményeit és nyitott kérdéseit. Az esemény célja, hogy közelebb hozza a hazai fejlesztéseket és a technológia gyakorlati alkalmazásait az érdeklődőkhöz.",
+      "content": "A mesterséges intelligencia (AI) napjainkban egyre nagyobb szerepet kap a legkülönbözőbb területeken, a mindennapi munkától kezdve a tudományos kutatásokig. Október 5. és 9. között az Eötvös Loránd Tudományegyetem (ELTE) ad otthont az AI hete elnevezésű rendezvénysorozatnak, amely díjmentesen kínál betekintést ebbe a dinamikusan fejlődő világba.\n\nA program során olyan izgalmas és sokakat foglalkoztató kérdésekre keresik a választ, mint például hogy mi a kapcsolat a stratégiai go játék és a nyelvi modellek működése között. Ezen túlmenően azt is megvizsgálják a szakértők, hogy a technológia milyen feladatokat vehet át biztonsággal egy orvos munkája mellett, vagy éppen milyen szerep jut neki egy kutatólaboratóriumban.\n\nA rendezvény különlegessége, hogy élvonalbeli kutatók és elismert szakemberek szólalnak meg a friss eredményekről. Nem csupán a nemzetközi trendeket tekintik át, hanem a hazai fejlesztésekre is hangsúlyt fektetnek, így a résztvevők első kézből kaphatnak képet arról, hol tart ma a magyar szakma.\n\nA technológia fejlődésével a hétköznapi emberek számára is egyre fontosabbá válik, hogy értsék az AI korlátait és lehetőségeit. Az ilyen nyitott szakmai fórumok abban segítenek, hogy a túlzott elvárások vagy a félelmek helyett a valós, gyakorlati tudás jusson el a nagyközönséghez, átláthatóbbá téve a jövő digitális eszközeit.",
+      "content_format": "markdown",
+      "body": [
+        "A mesterséges intelligencia (AI) napjainkban egyre nagyobb szerepet kap a legkülönbözőbb területeken, a mindennapi munkától kezdve a tudományos kutatásokig. Október 5. és 9. között az Eötvös Loránd Tudományegyetem (ELTE) ad otthont az AI hete elnevezésű rendezvénysorozatnak, amely díjmentesen kínál betekintést ebbe a dinamikusan fejlődő világba.",
+        "A program során olyan izgalmas és sokakat foglalkoztató kérdésekre keresik a választ, mint például hogy mi a kapcsolat a stratégiai go játék és a nyelvi modellek működése között. Ezen túlmenően azt is megvizsgálják a szakértők, hogy a technológia milyen feladatokat vehet át biztonsággal egy orvos munkája mellett, vagy éppen milyen szerep jut neki egy kutatólaboratóriumban.",
+        "A rendezvény különlegessége, hogy élvonalbeli kutatók és elismert szakemberek szólalnak meg a friss eredményekről. Nem csupán a nemzetközi trendeket tekintik át, hanem a hazai fejlesztésekre is hangsúlyt fektetnek, így a résztvevők első kézből kaphatnak képet arról, hol tart ma a magyar szakma.",
+        "A technológia fejlődésével a hétköznapi emberek számára is egyre fontosabbá válik, hogy értsék az AI korlátait és lehetőségeit. Az ilyen nyitott szakmai fórumok abban segítenek, hogy a túlzott elvárások vagy a félelmek helyett a valós, gyakorlati tudás jusson el a nagyközönséghez, átláthatóbbá téve a jövő digitális eszközeit."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 219,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Krishna_Bajpai_delivering_invited_lecture_on_use_of_Artificial_Intelligence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 903,
+        "kind": "photo",
+        "alt": "Krishna Bajpai delivering invited lecture on use of Artificial Intelligence at Khwaja Moinuddin Chisthi Language University",
+        "credit": "Krishna56788 / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Krishna_Bajpai_delivering_invited_lecture_on_use_of_Artificial_Intelligence.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://qubit.hu/2026/09/29/nem-kell-szazezres-konferenciajegy-ingyenes-ai-hetet-szerveznek-az-elte-n?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "Nem kell százezres konferenciajegy, ingyenes AI-hetet szerveznek az ELTE-n",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-09-29T18:53:37+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "source_links": [
+          "https://qubit.hu/2026/09/29/nem-kell-szazezres-konferenciajegy-ingyenes-ai-hetet-szerveznek-az-elte-n?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
+        ]
+      },
+      "date": "2026-09-29",
+      "date_label": "szeptember 29.",
+      "url": "/tech/2026-09-29-ingyenes-mesterseges-intelligencia-het-indul-az-elte-n/",
+      "seo": {
+        "meta_title": "Ingyenes mesterséges intelligencia hét indul az ELTE-n",
+        "meta_description": "Október elején ingyenes rendezvénysorozat mutatja be a mesterséges intelligencia legfrissebb eredményeit és nyitott kérdéseit. Az esemény célja, hogy közelebb h",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-09-29-ingyenes-mesterseges-intelligencia-het-indul-az-elte-n/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Krishna_Bajpai_delivering_invited_lecture_on_use_of_Artificial_Intelligence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "94036250797d9627e33e96b69113753ca80066779c189ad2b45bac31afa0f9eb",
+      "pipeline_run_id": "36600936606",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-29T18:53:37+02:00",
+      "updated_at": "2026-09-29T18:53:37+02:00",
+      "published_at": "2026-09-29T18:53:37+02:00",
+      "expires_at": null
+    }
+  ]
+}
