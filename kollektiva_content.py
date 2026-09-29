@@ -617,7 +617,7 @@ def commons_search_image(query: str, timeout: int) -> Optional[dict]:
     if not query:
         return None
     data = http_get_json("https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search"
-                         f"&gsrnamespace=6&gsrlimit=10&gsrsearch={urllib.parse.quote(query + ' filetype:bitmap')}"
+                         f"&gsrnamespace=6&gsrlimit=10&gsrsearch={urllib.parse.quote(query)}"
                          "&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1200", timeout)
     try:
         pages = sorted(data["query"]["pages"].values(), key=lambda p: p.get("index", 99))
@@ -895,10 +895,23 @@ PAGE_CSS = """
 body{margin:0;background:var(--night);color:var(--parch);font:17px/1.75 Manrope,system-ui,-apple-system,"Segoe UI",sans-serif}
 a{color:var(--parch)}a:hover{color:var(--brass)}
 header,main,footer{max-width:720px;margin:0 auto;padding:0 20px}
-header{display:flex;justify-content:space-between;align-items:center;padding-top:22px;padding-bottom:22px;border-bottom:1px solid var(--line)}
+header{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;border-bottom:1px solid var(--line);position:relative}
+.menu summary{list-style:none;cursor:pointer;color:var(--dusk);font-size:14px;padding:6px 12px;border:1px solid var(--line);border-radius:999px}
+.menu summary::-webkit-details-marker{display:none}
+.menu[open] nav{position:absolute;right:20px;top:58px;z-index:10;display:flex;flex-direction:column;gap:10px;min-width:220px;padding:16px 18px;background:var(--vault);border:1px solid var(--line);border-radius:12px}
+.menu nav a{color:var(--parch)}
+.keypoints{margin:28px 0;padding:16px 20px;border-left:2px solid var(--brass);background:var(--vault);border-radius:0 12px 12px 0}
+.keypoints p{margin:0 0 6px;color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+.keypoints ul{margin:0;padding-left:18px}
+article ul li{margin:4px 0;color:rgba(236,230,216,.88)}
+details.box summary{cursor:pointer;color:var(--parch);font-weight:600}
+.related{margin:48px 0 0}.related h2{font-size:26px;margin-bottom:14px}
+.rel-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px}
+.rel-grid a{text-decoration:none;display:block}.rel-grid img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;background:var(--vault)}
+.rel-grid img.graphic{object-fit:contain;padding:14px;background:#ECE6D8}
+.rel-grid .t{margin-top:8px;font-weight:600;line-height:1.35;color:var(--parch)}.rel-grid .k{font-size:12px;color:var(--brass);text-transform:uppercase;letter-spacing:.1em}
 .logo{font:600 28px/1 "Cormorant Garamond",Georgia,serif;text-decoration:none}
-nav{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:4px 16px}nav a{color:var(--dusk);text-decoration:none;font-size:14px}
-@media (max-width:640px){header{flex-direction:column;align-items:flex-start;gap:12px}nav{justify-content:flex-start;gap:6px 14px}}
+.menu nav{display:none}nav a{text-decoration:none;font-size:15px}
 footer a{color:var(--dusk);margin-right:10px}
 .kicker{margin-top:44px;color:var(--brass);font-size:13px;letter-spacing:.14em;text-transform:uppercase}
 h1{font:600 clamp(32px,6vw,48px)/1.15 "Cormorant Garamond",Georgia,serif;margin:12px 0 16px}
@@ -946,7 +959,7 @@ def _page(title: str, description: str, canonical: str, body: str, head_extra: s
 {head_extra}
 </head>
 <body>
-<header><a class="logo" href="/">{SITE_NAME}</a><nav>{NAV_LINKS}</nav></header>
+<header><a class="logo" href="/">{SITE_NAME}</a><details class="menu"><summary aria-label="Rovatok">Rovatok ☰</summary><nav>{NAV_LINKS}</nav></details></header>
 <main>
 {body}
 </main>
@@ -979,10 +992,50 @@ def _article_jsonld(a: dict) -> str:
     return '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False).replace("</", "<\\/") + "</script>"
 
 
-def render_article_page(a: dict) -> str:
+BULLET = re.compile(r"^[-•*]\s+")
+
+
+def _para(p: str) -> str:
+    """Bekezdés -> HTML; a „- ” kezdetű sorokból felsorolás lesz."""
+    lines = [l.strip() for l in p.split("\n") if l.strip()]
+    bullets = [l for l in lines if BULLET.match(l)]
+    if not bullets:
+        return f"<p>{E(p)}</p>"
+    out, items = [], []
+    for l in lines:
+        if BULLET.match(l):
+            items.append("<li>" + E(BULLET.sub("", l)) + "</li>")
+        else:
+            if items:
+                out.append("<ul>" + "".join(items) + "</ul>")
+                items = []
+            out.append("<p>" + E(l) + "</p>")
+    if items:
+        out.append("<ul>" + "".join(items) + "</ul>")
+    return "".join(out)
+
+
+def _related_html(related: list) -> str:
+    if not related:
+        return ""
+    cards = []
+    for r in related[:4]:
+        img = r.get("hero_image") or {}
+        sec = SECTIONS.get(r.get("category"), RETRO_SECTION)
+        pic = (f'<img class="{E(img.get("kind", "photo"))}" src="{E(img["url"])}" alt="" loading="lazy">'
+               if img.get("url") else "")
+        cards.append(f'<a href="{E(r["url"])}">{pic}<div class="k">{E(sec["kicker"])}</div>'
+                     f'<div class="t">{E(r["title"])}</div></a>')
+    return f'<section class="related"><h2>Olvass tovább</h2><div class="rel-grid">{"".join(cards)}</div></section>'
+
+
+def render_article_page(a: dict, related: Optional[list] = None) -> str:
     year = a.get("category_meta", {}).get("event_year", "")
     section = SECTIONS.get(a.get("category"), RETRO_SECTION)
-    paras = "\n".join(f"<p>{E(p)}</p>" for p in a.get("body", []))
+    paras = "\n".join(_para(p) for p in a.get("body", []))
+    kp = [k for k in a.get("key_points") or [] if k]
+    keypoints = (f'<div class="keypoints"><p>Röviden</p><ul>{"".join(f"<li>{E(k)}</li>" for k in kp)}</ul></div>'
+                 if kp else "")
     quote = f"<blockquote>{E(a['pull_quote'])}</blockquote>" if a.get("pull_quote") else ""
     sources = "".join(
         f'<li><a href="{E(s["url"])}" rel="noopener" target="_blank">{E(s.get("title") or s["url"])}</a>'
@@ -1003,11 +1056,13 @@ def render_article_page(a: dict) -> str:
 <p class="meta">{E(a["authorship"]["byline"])} · <time datetime="{E(published)}">{E(published.replace("-", ". "))}.</time> · {a.get("reading_time_min", 1)} perc olvasás</p>
 <p class="lead">{E(a["lead"])}</p>
 {figure}
+{keypoints}
 {quote}
 {paras}
 </article>
-<div class="box"><p><strong>Források:</strong></p><ul>{sources or "<li>—</li>"}</ul></div>
-<p><a href="/{section["id"]}/">← Vissza: {E(section["name"])}</a></p>"""
+<details class="box"><summary>Források ({len(a.get("sources", []))})</summary><ul>{sources or "<li>—</li>"}</ul></details>
+<p><a href="/{section["id"]}/">← Vissza: {E(section["name"])}</a></p>
+{_related_html(related or [])}"""
     og = (f'<meta property="og:image" content="{E(img["url"])}">\n<meta property="og:type" content="article">\n'
           if img and img.get("url") else '<meta property="og:type" content="article">\n')
     return _page(f'{a["seo"]["meta_title"] or a["title"]} – {SITE_NAME}', a["seo"]["meta_description"] or a["lead"],
@@ -1062,7 +1117,8 @@ def build_static_site(output_dir: Path, tz: ZoneInfo) -> None:
         for a in items:
             page_dir = sec_dir / a["slug"]
             page_dir.mkdir(parents=True, exist_ok=True)
-            (page_dir / "index.html").write_text(render_article_page(a), encoding="utf-8")
+            related = [r for r in items if r is not a][:2] + [r for r in articles if r.get("category") != a.get("category")][:4]
+            (page_dir / "index.html").write_text(render_article_page(a, related[:4]), encoding="utf-8")
         sec_dir.mkdir(parents=True, exist_ok=True)
         section = SECTIONS.get(sid, RETRO_SECTION)
         items.sort(key=lambda a: a.get("published_at") or a.get("created_at") or "", reverse=True)
@@ -1132,12 +1188,12 @@ RETRO_SECTION = {"id": "retro", "name": "Ekkor történt", "kicker": "Ekkor tör
                  "tagline": "Minden nap egy történet a múltból."}
 
 SECTIONS = {
-    "tech": {
-        "id": "tech", "name": "Tech / Jövő", "kicker": "Tech / Jövő",
-        "tagline": "Mesterséges intelligencia, eszközök és a digitális élet változásai.",
-        "focus": "technológia, mesterséges intelligencia, digitális eszközök, tudomány gyakorlati hatásai",
-        "feeds": [("https://telex.hu/rss", r"Techtud", None), ("https://qubit.hu/feed", None, None),
-                  ("https://hvg.hu/rss", r"Tech|Tudomány", None)],
+    "kozelet": {
+        "id": "kozelet", "name": "Közélet", "kicker": "Közélet",
+        "tagline": "Pártatlan, adatvezérelt magyarázók a közügyekről.",
+        "focus": "közügyek, társadalom, adatok és számok mögötti összefüggések – pártsemlegesen",
+        "feeds": [("https://telex.hu/rss", r"Adat", None), ("https://telex.hu/rss", r"Belföld", PUBLIC),
+                  ("https://hvg.hu/rss", r"Itthon", PUBLIC)],
     },
     "penzvilag": {
         "id": "penzvilag", "name": "Pénzvilág", "kicker": "Pénzvilág",
@@ -1145,6 +1201,13 @@ SECTIONS = {
         "focus": "gazdaság, pénzügyek, árfolyamok, infláció, bérek, befektetés – a hétköznapi olvasó szemszögéből",
         "feeds": [("https://www.portfolio.hu/rss/all.xml", None, ECON), ("https://www.vg.hu/feed", None, ECON),
                   ("https://telex.hu/rss", r"Gazdaság|Vállalat", ECON)],
+    },
+    "tech": {
+        "id": "tech", "name": "Tech / Jövő", "kicker": "Tech / Jövő",
+        "tagline": "Mesterséges intelligencia, eszközök és a digitális élet változásai.",
+        "focus": "technológia, mesterséges intelligencia, digitális eszközök, tudomány gyakorlati hatásai",
+        "feeds": [("https://telex.hu/rss", r"Techtud", None), ("https://qubit.hu/feed", None, None),
+                  ("https://hvg.hu/rss", r"Tech|Tudomány", None)],
     },
     "eletmod": {
         "id": "eletmod", "name": "Életmód & Egészség", "kicker": "Életmód",
@@ -1154,6 +1217,12 @@ SECTIONS = {
                   ("https://www.sciencedaily.com/rss/health_medicine/nutrition.xml", None, None),
                   ("https://telex.hu/rss", r"^Élet$", HEALTH), ("https://hvg.hu/rss", r"Élet|egészség", HEALTH)],
     },
+    "kultura": {
+        "id": "kultura", "name": "Kultúra & Ajánló", "kicker": "Kultúra",
+        "tagline": "Film, sorozat, könyv, zene és programok válogatva.",
+        "focus": "film, sorozat, könyv, zene, színház, kiállítás, programajánló",
+        "feeds": [("https://telex.hu/rss", r"Kultúra", None), ("https://hvg.hu/rss", r"Kult", None)],
+    },
     "univerzum": {
         "id": "univerzum", "name": "Univerzum", "kicker": "Univerzum",
         "tagline": "Csillagászat és űrkutatás, érthetően.",
@@ -1162,22 +1231,9 @@ SECTIONS = {
                   ("https://qubit.hu/feed", None, r"űr|NASA|ESA|bolygó|csillag|galaxis|Hold|Mars|teleszkóp|rakéta|asztro"),
                   ("https://telex.hu/rss", r"Techtud", r"űr|NASA|ESA|bolygó|csillag|galaxis|Hold|Mars|teleszkóp|rakéta")],
     },
-    "kultura": {
-        "id": "kultura", "name": "Kultúra & Ajánló", "kicker": "Kultúra",
-        "tagline": "Film, sorozat, könyv, zene és programok válogatva.",
-        "focus": "film, sorozat, könyv, zene, színház, kiállítás, programajánló",
-        "feeds": [("https://telex.hu/rss", r"Kultúra", None), ("https://hvg.hu/rss", r"Kult", None)],
-    },
-    "kozelet": {
-        "id": "kozelet", "name": "Közélet számokban", "kicker": "Közélet",
-        "tagline": "Pártatlan, adatvezérelt magyarázók a közügyekről.",
-        "focus": "közügyek, társadalom, adatok és számok mögötti összefüggések – pártsemlegesen",
-        "feeds": [("https://telex.hu/rss", r"Adat", None), ("https://telex.hu/rss", r"Belföld", PUBLIC),
-                  ("https://hvg.hu/rss", r"Itthon", PUBLIC)],
-    },
 }
 NAV_LINKS = " ".join(f'<a href="/{sid}/">{html.escape(sec["name"])}</a>'
-                     for sid, sec in [("retro", RETRO_SECTION), *SECTIONS.items()])
+                     for sid, sec in [*SECTIONS.items(), ("retro", RETRO_SECTION)])
 SPONSORED = re.compile(r"PR-cikk|Támogatott|Szponzor|Hirdetés|Közlemény|partner", re.I)
 STOPWORDS = set("""a az és is egy hogy nem de már még meg el ki be le fel van volt lesz lett mint
 csak ez azt ezt itt ott mit mi ami aki akik kell után alatt miatt szerint között új több nagy the of and
@@ -1285,16 +1341,21 @@ Forráskivonatok:
 {src}
 
 Írj ebből egy eredeti, magyar nyelvű magazincikket:
-- "title": pontos, figyelemfelkeltő, de nem bulvár cím (max. 12 szó)
+- "title": RÖVID (max. 8 szó), ütős, kíváncsiságot keltő cím – de ne hazudjon és ne túlozzon
 - "lead": 2 mondatos bevezető: mi történt és miért fontos
+- "key_points": 3 rövid, egymondatos pont a lényegről („Röviden” doboz)
 - "body": 4–6 bekezdés (tömb), összesen kb. 350–600 szó: a tények, a háttér, és hogy mit jelent ez a
-  hétköznapi olvasónak. Ha a forrásokból nem derül ki valami, ne találgass.
+  hétköznapi olvasónak. A cikk elején nevezd meg a forrást a szövegben is (pl. „– írja a Telex.”).
+  Ha személy szerepel, első említéskor egy rövid jelzővel mutasd be, ki ő (pl. „Kovács Anna, az MNB
+  alelnöke”) – csak ha ez a forrásból kiderül. Ahol illik, egy bekezdés lehet felsorolás: sorok „- ” jellel.
+  Ha a forrásokból nem derül ki valami, ne találgass.
 - "tags": 3–5 rövid címke
-- "image_query": 2–4 szavas ANGOL keresőkifejezés egy illusztráló, általános képhez (pl. "stock exchange",
-  "night sky telescope"); ne személynevet adj meg
+- "image_query": 1–4 szavas ANGOL keresőkifejezés a Wikimedia Commonshoz: ha a hír egy konkrét, ismert
+  személyről, helyről, intézményről vagy tárgyról szól, AZ legyen (pl. "Hungarian Parliament Building",
+  "James Webb Space Telescope", "Viktor Orbán"); különben egy kifejező, konkrét téma (pl. "Budapest Stock Exchange")
 
 Kizárólag ezt a JSON-t add vissza:
-{{"title": "...", "lead": "...", "body": ["...", "..."], "tags": ["..."], "image_query": "..."}}"""
+{{"title": "...", "lead": "...", "key_points": ["...", "...", "..."], "body": ["...", "..."], "tags": ["..."], "image_query": "..."}}"""
 
 
 def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, used_links: set) -> Optional[dict]:
@@ -1320,6 +1381,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, us
         "id": str(uuid.uuid5(uuid.NAMESPACE_URL, f"{SITE_URL}/{section['id']}/{slug}")),
         "slug": slug, "status": status, "category": section["id"], "subcategory": None,
         "tags": art["tags"], "title": art["title"], "subtitle": None, "lead": art["lead"],
+        "key_points": [str(k).strip() for k in (raw.get("key_points") or []) if str(k).strip()][:4],
         "content": to_markdown(art), "content_format": "markdown", "body": art["body"], "pull_quote": None,
         "reading_time_min": reading_time(full_text), "word_count": len(re.findall(r"\w+", full_text)),
         "locale": "hu-HU", "hero_image": image, "sources": sources,
