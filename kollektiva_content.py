@@ -96,7 +96,7 @@ class Config:
             openai_key=os.getenv("OPENAI_API_KEY", ""),
             openai_model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
             gemini_key=os.getenv("GEMINI_API_KEY", ""),
-            gemini_model=os.getenv("GEMINI_MODEL", "gemini-flash-latest"),
+            gemini_model=os.getenv("GEMINI_MODEL", "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash"),
             output_dir=(BASE_DIR / os.getenv("OUTPUT_DIR", "public/data")).resolve(),
             events_file=(BASE_DIR / os.getenv("RETRO_EVENTS_FILE", "data/retro_events.json")).resolve(),
             timezone=os.getenv("SITE_TIMEZONE", "Europe/Budapest"),
@@ -222,16 +222,26 @@ class AIClient:
                 c.http_timeout, c.http_retries)
             return data["choices"][0]["message"]["content"]
         if self.provider == "gemini":
-            # A Gemini API OpenAI-kompatibilis végpontja (ingyenes szint: aistudio.google.com)
-            data = post_json(
-                "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
-                {"Authorization": f"Bearer {c.gemini_key}"},
-                {"model": c.gemini_model, "max_tokens": max_tokens,
-                 "response_format": {"type": "json_object"},
-                 "messages": [{"role": "system", "content": system},
-                              {"role": "user", "content": prompt}]},
-                c.http_timeout, c.http_retries)
-            return data["choices"][0]["message"]["content"]
+            # A Gemini API OpenAI-kompatibilis végpontja (ingyenes szint: aistudio.google.com).
+            # GEMINI_MODEL vesszővel elválasztott lista is lehet: túlterhelés (503) esetén
+            # a következő modellel próbálkozik.
+            models = [m.strip() for m in c.gemini_model.split(",") if m.strip()]
+            last: Optional[Exception] = None
+            for model in models:
+                try:
+                    data = post_json(
+                        "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+                        {"Authorization": f"Bearer {c.gemini_key}"},
+                        {"model": model, "max_tokens": max_tokens,
+                         "response_format": {"type": "json_object"},
+                         "messages": [{"role": "system", "content": system},
+                                      {"role": "user", "content": prompt}]},
+                        c.http_timeout, c.http_retries)
+                    return data["choices"][0]["message"]["content"]
+                except Exception as e:  # noqa: BLE001 – következő modell
+                    log.warning("Gemini modell sikertelen (%s): %s", model, str(e)[:200])
+                    last = e
+            raise last or AIError("Nincs megadott Gemini modell")
         raise AIError("Mock módban nincs AI hívás")
 
     def complete_json(self, system: str, prompt: str, max_tokens: int = 4000) -> dict:
