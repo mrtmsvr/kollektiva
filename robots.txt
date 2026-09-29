@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xn--kollektva-m5a.hu/sitemap.xml
+Sitemap: https://xn--kollektva-m5a.hu/news-sitemap.xml
