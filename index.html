@@ -743,5 +743,26 @@ horoscopeData = fallbackHoroscope();
 loadHoroscope();
 loadRetro();
 </script>
+<script>
+/* Rovatkártyák: a legfrissebb rovatcikkek (articles.json) */
+(async () => {
+  try {
+    const data = await fetchJSON('articles.json');
+    const arts = (Array.isArray(data.articles) ? data.articles : []).filter(a => a && a.status === 'published' && a.url);
+    ['univerzum', 'penzvilag', 'tech', 'eletmod', 'kultura', 'kozelet'].forEach(id => {
+      const card = document.getElementById(id); if (!card) return;
+      const list = arts.filter(a => a.category === id).slice(0, 3); if (!list.length) return;
+      const badge = card.querySelector('span.rounded-full'); if (badge) badge.textContent = 'Friss';
+      const ul = document.createElement('ul');
+      ul.className = 'mt-5 space-y-3 border-t border-line pt-4';
+      ul.innerHTML = list.map(a => `<li><a href="${esc(a.url)}" class="block text-[16px] font-semibold leading-snug text-parch hover:text-brass">${esc(a.title)}</a><span class="text-[12px] text-dusk">${esc(a.date_label || '')}</span></li>`).join('');
+      card.appendChild(ul);
+      const more = document.createElement('a');
+      more.href = '/' + id + '/'; more.className = 'mt-4 inline-block self-start border-b border-brass/60 pb-0.5 text-[14px] text-parch hover:border-brass';
+      more.textContent = 'Összes cikk'; card.appendChild(more);
+    });
+  } catch (e) { console.info('[Kollektíva] Rovatok:', e.message); }
+})();
+</script>
 </body>
 </html>
