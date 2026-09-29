@@ -31,6 +31,7 @@ Csak a Python standard könyvtárát használja (Python 3.9+), nincs pip install
 from __future__ import annotations
 
 import argparse
+import html
 import hashlib
 import json
 import logging
@@ -51,6 +52,9 @@ from typing import Any, Optional
 from zoneinfo import ZoneInfo
 
 BASE_DIR = Path(__file__).resolve().parent
+# A kanonikus webcím (kollektíva.hu punycode alakja). Ékezet nélküli kollektiva.hu MÁS domain!
+SITE_URL = os.getenv("SITE_URL", "https://xn--kollektva-m5a.hu").rstrip("/")
+SITE_NAME = "Kollektíva"
 log = logging.getLogger("kollektiva")
 
 
@@ -462,7 +466,7 @@ szakirodalomban szokásos alakjukban):
 {facts}
 
 Elvárások:
-- "title": figyelemfelkeltő, de nem bulvár cím (max. 12 szó)
+- "title": figyelemfelkeltő, de nem bulvár cím (max. 12 szó), NE kezdődjön az „Ekkor történt” szavakkal
 - "lead": 2–3 mondatos bevezető
 - "body": 5–7 bekezdés (tömb), összesen kb. 600–900 szó, magyarul, magazinstílusban
 - "pull_quote": egy saját megfogalmazású kiemelés a cikkből (NEM valós személy idézete)
@@ -547,8 +551,9 @@ def validate_retro(raw: dict) -> dict:
         body = [p.strip() for p in body.split("\n\n") if p.strip()]
     if not raw.get("title") or not raw.get("lead") or not isinstance(body, list) or len(body) < 3:
         raise AIError("Hiányos retro cikk (title/lead/body)")
+    title = re.sub(r"^\s*ekkor történt\s*[:–-]\s*", "", str(raw["title"]).strip(), flags=re.I)
     return {
-        "title": str(raw["title"]).strip(),
+        "title": title[:1].upper() + title[1:],
         "lead": str(raw["lead"]).strip(),
         "body": [str(p).strip() for p in body if str(p).strip()],
         "pull_quote": str(raw.get("pull_quote", "")).strip(),
@@ -632,7 +637,7 @@ def build_retro_article(ai: AIClient, d: date, tz: ZoneInfo, events: dict) -> Op
     if not sources:
         log.warning("A kurált eseménynek nincs forrása – a séma legalább egyet vár: %s", event["title"])
     is_ai = source.startswith("ai:")
-    slug = slugify(f"{d.year}-{event['title']}")
+    slug = slugify(f"{d.isoformat()}-{article['title']}")
     auto_publish = os.getenv("RETRO_AUTO_PUBLISH", "false").lower() in ("1", "true", "yes")
     status = "published" if (not is_ai or auto_publish) else "needs_review"
     return {
@@ -673,13 +678,14 @@ def build_retro_article(ai: AIClient, d: date, tz: ZoneInfo, events: dict) -> Op
         },
         "date": d.isoformat(),                 # kényelmi mezők a statikus frontendnek
         "date_label": f"{HU_MONTHS[d.month - 1]} {d.day}.",
+        "url": f"/retro/{slug}/",              # saját, statikus cikkoldal
         # --- SEO, monetizáció ---
         "seo": {
             "meta_title": article["title"][:60],
             "meta_description": article["lead"][:160],
-            "canonical_url": f"https://kollektiva.hu/retro/{slug}",
+            "canonical_url": f"{SITE_URL}/retro/{slug}/",
             "og_image": None,
-            "noindex": is_ai,                  # átnézésig ne indexelje a Google
+            "noindex": status != "published",  # csak a publikált cikk indexelhető
             "schema_type": "Article",
         },
         "monetization": {
@@ -708,6 +714,205 @@ def update_retro_archive(path: Path, article: dict, limit: int) -> dict:
     articles.insert(0, article)
     articles.sort(key=lambda a: a.get("date", ""), reverse=True)
     return {"schema_version": 1, "updated_at": article["updated_at"], "articles": articles[:limit]}
+
+
+# ---------------------------------------------------------------------------
+# 3) Statikus oldalak: cikkoldalak, retro archívum, sitemap, hírsitemap, RSS
+# ---------------------------------------------------------------------------
+# A Cloudflare Pages a repó gyökerét szolgálja ki; a gyökérben lévő `_redirects`
+# a /retro/*, /sitemap.xml, /news-sitemap.xml és /feed.xml címeket a public/ alá irányítja.
+
+E = html.escape
+
+PAGE_CSS = """
+:root{--night:#0E1024;--vault:#171A36;--line:#2A2D52;--parch:#ECE6D8;--dusk:#9492B3;--brass:#C9A45C}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--night);color:var(--parch);font:17px/1.75 Manrope,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--parch)}a:hover{color:var(--brass)}
+header,main,footer{max-width:720px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding-top:22px;padding-bottom:22px;border-bottom:1px solid var(--line)}
+.logo{font:600 28px/1 "Cormorant Garamond",Georgia,serif;text-decoration:none}
+nav a{color:var(--dusk);text-decoration:none;margin-left:18px;font-size:15px}
+.kicker{margin-top:44px;color:var(--brass);font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+h1{font:600 clamp(32px,6vw,48px)/1.15 "Cormorant Garamond",Georgia,serif;margin:12px 0 16px}
+h2{font:600 28px/1.25 "Cormorant Garamond",Georgia,serif;margin:0 0 6px}
+.meta{color:var(--dusk);font-size:14px}
+.lead{font-size:20px;line-height:1.6;color:var(--parch)}
+blockquote{margin:32px 0;padding-left:18px;border-left:2px solid var(--brass);font:italic 24px/1.4 "Cormorant Garamond",Georgia,serif}
+article p{color:rgba(236,230,216,.88)}
+.box{margin:40px 0;padding:18px 20px;background:var(--vault);border:1px solid var(--line);border-radius:12px;font-size:14px;color:var(--dusk)}
+.box a{color:var(--parch)}
+.list{list-style:none;padding:0;margin:32px 0}
+.list li{padding:22px 0;border-bottom:1px solid var(--line)}
+.year{color:var(--brass);font:600 34px/1 "Cormorant Garamond",Georgia,serif}
+footer{margin-top:60px;padding-top:24px;padding-bottom:40px;border-top:1px solid var(--line);color:var(--dusk);font-size:13px}
+"""
+
+
+def _page(title: str, description: str, canonical: str, body: str, head_extra: str = "",
+          noindex: bool = False) -> str:
+    robots = "noindex,follow" if noindex else "index,follow,max-image-preview:large"
+    return f"""<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{E(title)}</title>
+<meta name="description" content="{E(description)}">
+<meta name="robots" content="{robots}">
+<link rel="canonical" href="{E(canonical)}">
+<meta name="theme-color" content="#0E1024">
+<meta property="og:site_name" content="{SITE_NAME}">
+<meta property="og:title" content="{E(title)}">
+<meta property="og:description" content="{E(description)}">
+<meta property="og:url" content="{E(canonical)}">
+<meta property="og:locale" content="hu_HU">
+<link rel="alternate" type="application/rss+xml" title="{SITE_NAME} – Retro" href="{SITE_URL}/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+<style>{PAGE_CSS}</style>
+{head_extra}
+</head>
+<body>
+<header><a class="logo" href="/">{SITE_NAME}</a><nav><a href="/#horoszkop">Horoszkóp</a><a href="/retro/">Retro</a></nav></header>
+<main>
+{body}
+</main>
+<footer>© {datetime.now().year} {SITE_NAME} · <a href="/">Főoldal</a> · <a href="/retro/">Retro archívum</a> · <a href="/feed.xml">RSS</a></footer>
+</body>
+</html>
+"""
+
+
+def _article_jsonld(a: dict) -> str:
+    url = a["seo"]["canonical_url"]
+    data = {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": a["title"][:110],
+        "description": a["lead"],
+        "datePublished": a.get("published_at") or a.get("created_at"),
+        "dateModified": a.get("updated_at") or a.get("created_at"),
+        "inLanguage": "hu-HU",
+        "mainEntityOfPage": {"@type": "WebPage", "@id": url},
+        "url": url,
+        "articleSection": "Retro",
+        "keywords": ", ".join(a.get("tags", [])),
+        "author": {"@type": "Organization", "name": a["authorship"]["byline"], "url": SITE_URL},
+        "publisher": {"@type": "Organization", "name": SITE_NAME, "url": SITE_URL},
+        "isBasedOn": [s["url"] for s in a.get("sources", []) if s.get("url")],
+    }
+    return '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False).replace("</", "<\\/") + "</script>"
+
+
+def render_article_page(a: dict) -> str:
+    year = a.get("category_meta", {}).get("event_year", "")
+    paras = "\n".join(f"<p>{E(p)}</p>" for p in a.get("body", []))
+    quote = f"<blockquote>{E(a['pull_quote'])}</blockquote>" if a.get("pull_quote") else ""
+    sources = "".join(
+        f'<li><a href="{E(s["url"])}" rel="noopener" target="_blank">{E(s.get("title") or s["url"])}</a>'
+        f'{" (" + E(s["publisher"]) + ")" if s.get("publisher") else ""}</li>'
+        for s in a.get("sources", []) if s.get("url"))
+    ai_note = ""
+    if a["authorship"]["mode"] == "ai_generated":
+        ai_note = ("<p>A cikk mesterséges intelligencia segítségével, a lent megjelölt források alapján készült"
+                   + (", szerkesztői átnézéssel." if a["authorship"].get("reviewed_by") else ".") + "</p>")
+    published = (a.get("published_at") or a.get("created_at") or a["date"])[:10]
+    body = f"""<article>
+<p class="kicker">Ekkor történt{(" · " + E(str(year))) if year else ""}</p>
+<h1>{E(a["title"])}</h1>
+<p class="meta">{E(a["authorship"]["byline"])} · <time datetime="{E(published)}">{E(published.replace("-", ". "))}.</time> · {a.get("reading_time_min", 1)} perc olvasás</p>
+<p class="lead">{E(a["lead"])}</p>
+{quote}
+{paras}
+</article>
+<div class="box">{ai_note}<p><strong>Források:</strong></p><ul>{sources or "<li>—</li>"}</ul></div>
+<p><a href="/retro/">← Vissza a retro archívumhoz</a></p>"""
+    return _page(f'{a["seo"]["meta_title"] or a["title"]} – {SITE_NAME}', a["seo"]["meta_description"] or a["lead"],
+                 a["seo"]["canonical_url"], body, _article_jsonld(a), noindex=a["seo"].get("noindex", False))
+
+
+def render_retro_index(articles: list) -> str:
+    items = "\n".join(
+        f'<li><div class="year">{E(str(a.get("category_meta", {}).get("event_year", "")))}</div>'
+        f'<h2><a href="{E(a["url"])}">{E(a["title"])}</a></h2>'
+        f'<p class="meta">{E(a.get("date_label", ""))} · {a.get("reading_time_min", 1)} perc olvasás</p>'
+        f'<p>{E(a["lead"])}</p></li>' for a in articles)
+    body = (f'<p class="kicker">Rovat</p><h1>Ekkor történt – retro archívum</h1>'
+            f'<p class="lead">Minden nap egy történet a múltból.</p><ul class="list">{items or "<li>Hamarosan…</li>"}</ul>')
+    return _page(f"Ekkor történt – retro archívum – {SITE_NAME}",
+                 "A Kollektíva retro rovata: minden nap egy történet a múltból.", f"{SITE_URL}/retro/", body)
+
+
+def _rfc822(iso: str) -> str:
+    try:
+        return datetime.fromisoformat(iso).strftime("%a, %d %b %Y %H:%M:%S %z")
+    except (TypeError, ValueError):
+        return ""
+
+
+def build_static_site(output_dir: Path, tz: ZoneInfo) -> None:
+    """A publikált retro cikkekből statikus oldalakat, sitemapeket és RSS-t generál a public/ alá."""
+    public = output_dir.parent  # public/data -> public
+    archive = read_json(output_dir / "retro_articles.json", {"articles": []})
+    articles = [a for a in archive.get("articles", [])
+                if a.get("status") == "published" and a.get("slug") and a.get("seo")]
+    for a in articles:
+        a.setdefault("url", f"/retro/{a['slug']}/")
+        a["seo"]["canonical_url"] = f"{SITE_URL}/retro/{a['slug']}/"
+    retro_dir = public / "retro"
+    keep = {a["slug"] for a in articles}
+    if retro_dir.exists():  # már nem publikált cikkek oldalainak törlése
+        for child in retro_dir.iterdir():
+            if child.is_dir() and child.name not in keep:
+                for f in child.iterdir():
+                    f.unlink()
+                child.rmdir()
+    for a in articles:
+        page_dir = retro_dir / a["slug"]
+        page_dir.mkdir(parents=True, exist_ok=True)
+        (page_dir / "index.html").write_text(render_article_page(a), encoding="utf-8")
+    retro_dir.mkdir(parents=True, exist_ok=True)
+    (retro_dir / "index.html").write_text(render_retro_index(articles), encoding="utf-8")
+
+    now = datetime.now(tz)
+    urls = [(f"{SITE_URL}/", now.date().isoformat()), (f"{SITE_URL}/retro/", now.date().isoformat())]
+    urls += [(a["seo"]["canonical_url"], (a.get("updated_at") or a["date"])[:10]) for a in articles]
+    sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
+               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    sitemap += [f"  <url><loc>{E(u)}</loc><lastmod>{m}</lastmod></url>" for u, m in urls]
+    sitemap.append("</urlset>")
+    (public / "sitemap.xml").write_text("\n".join(sitemap) + "\n", encoding="utf-8")
+
+    # Google News sitemap: csak az elmúlt 2 nap cikkei
+    news = ['<?xml version="1.0" encoding="UTF-8"?>',
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+            'xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">']
+    for a in articles:
+        pub = a.get("published_at") or a.get("created_at")
+        try:
+            fresh = pub and now - datetime.fromisoformat(pub) <= timedelta(days=2)
+        except ValueError:
+            fresh = False
+        if fresh:
+            news.append(f"  <url><loc>{E(a['seo']['canonical_url'])}</loc><news:news>"
+                        f"<news:publication><news:name>{SITE_NAME}</news:name><news:language>hu</news:language>"
+                        f"</news:publication><news:publication_date>{E(pub)}</news:publication_date>"
+                        f"<news:title>{E(a['title'])}</news:title></news:news></url>")
+    news.append("</urlset>")
+    (public / "news-sitemap.xml").write_text("\n".join(news) + "\n", encoding="utf-8")
+
+    items = "\n".join(
+        f"<item><title>{E(a['title'])}</title><link>{E(a['seo']['canonical_url'])}</link>"
+        f"<guid isPermaLink=\"true\">{E(a['seo']['canonical_url'])}</guid>"
+        f"<pubDate>{_rfc822(a.get('published_at') or a.get('created_at'))}</pubDate>"
+        f"<description>{E(a['lead'])}</description></item>" for a in articles[:20])
+    rss = (f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel>'
+           f"<title>{SITE_NAME} – Retro</title><link>{SITE_URL}/retro/</link>"
+           f"<description>Minden nap egy történet a múltból.</description><language>hu</language>\n{items}\n"
+           f"</channel></rss>\n")
+    (public / "feed.xml").write_text(rss, encoding="utf-8")
+    log.info("✔ statikus oldalak: %d cikkoldal, sitemap.xml, news-sitemap.xml, feed.xml", len(articles))
 
 
 # ---------------------------------------------------------------------------
@@ -766,6 +971,13 @@ def main(argv: Optional[list] = None) -> int:
                              article["title"], article["reading_time_min"], article["generator"], article["status"])
         except OSError as e:
             log.exception("retro_articles.json írása sikertelen: %s", e)
+            exit_code = 1
+
+    if not args.dry_run:
+        try:
+            build_static_site(cfg.output_dir, tz)
+        except (OSError, KeyError, TypeError, ValueError) as e:
+            log.exception("Statikus oldalak generálása sikertelen: %s", e)
             exit_code = 1
 
     return exit_code
