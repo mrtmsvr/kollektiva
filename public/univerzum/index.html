@@ -22,10 +22,23 @@
 body{margin:0;background:var(--night);color:var(--parch);font:17px/1.75 Manrope,system-ui,-apple-system,"Segoe UI",sans-serif}
 a{color:var(--parch)}a:hover{color:var(--brass)}
 header,main,footer{max-width:720px;margin:0 auto;padding:0 20px}
-header{display:flex;justify-content:space-between;align-items:center;padding-top:22px;padding-bottom:22px;border-bottom:1px solid var(--line)}
+header{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;border-bottom:1px solid var(--line);position:relative}
+.menu summary{list-style:none;cursor:pointer;color:var(--dusk);font-size:14px;padding:6px 12px;border:1px solid var(--line);border-radius:999px}
+.menu summary::-webkit-details-marker{display:none}
+.menu[open] nav{position:absolute;right:20px;top:58px;z-index:10;display:flex;flex-direction:column;gap:10px;min-width:220px;padding:16px 18px;background:var(--vault);border:1px solid var(--line);border-radius:12px}
+.menu nav a{color:var(--parch)}
+.keypoints{margin:28px 0;padding:16px 20px;border-left:2px solid var(--brass);background:var(--vault);border-radius:0 12px 12px 0}
+.keypoints p{margin:0 0 6px;color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+.keypoints ul{margin:0;padding-left:18px}
+article ul li{margin:4px 0;color:rgba(236,230,216,.88)}
+details.box summary{cursor:pointer;color:var(--parch);font-weight:600}
+.related{margin:48px 0 0}.related h2{font-size:26px;margin-bottom:14px}
+.rel-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px}
+.rel-grid a{text-decoration:none;display:block}.rel-grid img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;background:var(--vault)}
+.rel-grid img.graphic{object-fit:contain;padding:14px;background:#ECE6D8}
+.rel-grid .t{margin-top:8px;font-weight:600;line-height:1.35;color:var(--parch)}.rel-grid .k{font-size:12px;color:var(--brass);text-transform:uppercase;letter-spacing:.1em}
 .logo{font:600 28px/1 "Cormorant Garamond",Georgia,serif;text-decoration:none}
-nav{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:4px 16px}nav a{color:var(--dusk);text-decoration:none;font-size:14px}
-@media (max-width:640px){header{flex-direction:column;align-items:flex-start;gap:12px}nav{justify-content:flex-start;gap:6px 14px}}
+.menu nav{display:none}nav a{text-decoration:none;font-size:15px}
 footer a{color:var(--dusk);margin-right:10px}
 .kicker{margin-top:44px;color:var(--brass);font-size:13px;letter-spacing:.14em;text-transform:uppercase}
 h1{font:600 clamp(32px,6vw,48px)/1.15 "Cormorant Garamond",Georgia,serif;margin:12px 0 16px}
@@ -49,10 +62,10 @@ footer{margin-top:60px;padding-top:24px;padding-bottom:40px;border-top:1px solid
 
 </head>
 <body>
-<header><a class="logo" href="/">Kollektíva</a><nav><a href="/retro/">Ekkor történt</a> <a href="/tech/">Tech / Jövő</a> <a href="/penzvilag/">Pénzvilág</a> <a href="/eletmod/">Életmód &amp; Egészség</a> <a href="/univerzum/">Univerzum</a> <a href="/kultura/">Kultúra &amp; Ajánló</a> <a href="/kozelet/">Közélet számokban</a></nav></header>
+<header><a class="logo" href="/">Kollektíva</a><details class="menu"><summary aria-label="Rovatok">Rovatok ☰</summary><nav><a href="/kozelet/">Közélet</a> <a href="/penzvilag/">Pénzvilág</a> <a href="/tech/">Tech / Jövő</a> <a href="/eletmod/">Életmód &amp; Egészség</a> <a href="/kultura/">Kultúra &amp; Ajánló</a> <a href="/univerzum/">Univerzum</a> <a href="/retro/">Ekkor történt</a></nav></details></header>
 <main>
 <p class="kicker">Rovat</p><h1>Univerzum</h1><p class="lead">Csillagászat és űrkutatás, érthetően.</p><ul class="list"><li><a href="/univerzum/2026-09-29-ujabb-merfoldkovek-az-urkutatasban-indulasra-kesz-a-crew-13-es-fejlod/"><img class="thumb photo" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Soyuz_TMA-09M_spacecraft_at_the_Baikonur_Cosmodrome_launch_pad_%284%29.jpg/1280px-Soyuz_TMA-09M_spacecraft_at_the_Baikonur_Cosmodrome_launch_pad_%284%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="" loading="lazy"></a><h2><a href="/univerzum/2026-09-29-ujabb-merfoldkovek-az-urkutatasban-indulasra-kesz-a-crew-13-es-fejlod/">Újabb mérföldkövek az űrkutatásban: indulásra kész a Crew-13 és fejlődik a Starliner</a></h2><p class="meta">szeptember 29. · 2 perc olvasás</p><p>Az amerikai űrkutatás mozgalmas időszakot él át: útjára indulhat a SpaceX Crew-13 küldetése, miközben a NASA és a Boeing is beszámolt a Starliner program fejleményeiről. A technológiai újítások célja, hogy fenntarthatóbbá és hatékonyabbá tegyék a jövőbeli űrutazásokat.</p></li></ul>
 </main>
-<footer>© 2026 Kollektíva<br><a href="/">Főoldal</a><a href="/retro/">Ekkor történt</a> <a href="/tech/">Tech / Jövő</a> <a href="/penzvilag/">Pénzvilág</a> <a href="/eletmod/">Életmód &amp; Egészség</a> <a href="/univerzum/">Univerzum</a> <a href="/kultura/">Kultúra &amp; Ajánló</a> <a href="/kozelet/">Közélet számokban</a><a href="/feed.xml">RSS</a></footer>
+<footer>© 2026 Kollektíva<br><a href="/">Főoldal</a><a href="/kozelet/">Közélet</a> <a href="/penzvilag/">Pénzvilág</a> <a href="/tech/">Tech / Jövő</a> <a href="/eletmod/">Életmód &amp; Egészség</a> <a href="/kultura/">Kultúra &amp; Ajánló</a> <a href="/univerzum/">Univerzum</a> <a href="/retro/">Ekkor történt</a><a href="/feed.xml">RSS</a></footer>
 </body>
 </html>
