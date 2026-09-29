@@ -603,7 +603,7 @@ def to_markdown(article: dict) -> str:
 
 def slugify(text: str) -> str:
     table = str.maketrans("áéíóöőúüű", "aeiooouuu")
-    return re.sub(r"[^a-z0-9]+", "-", text.lower().translate(table)).strip("-")[:80]
+    return re.sub(r"[^a-z0-9]+", "-", text.lower().translate(table)).strip("-")[:80].rstrip("-")
 
 
 def build_retro_article(ai: AIClient, d: date, tz: ZoneInfo, events: dict) -> Optional[dict]:
