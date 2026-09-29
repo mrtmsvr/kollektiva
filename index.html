@@ -130,11 +130,11 @@
     </g>
   </svg>
   <!-- Mobilon: kisebb, álló (animáció nélküli) pálya -->
-  <svg class="pointer-events-none absolute -right-10 top-4 w-[280px] opacity-80 sm:hidden" viewBox="0 0 300 130" aria-hidden="true">
+  <svg class="pointer-events-none absolute -right-6 bottom-4 w-[260px] opacity-90 sm:hidden" viewBox="0 0 300 130" aria-hidden="true">
     <g transform="rotate(-12 150 65)">
       <ellipse cx="150" cy="65" rx="140" ry="44" fill="none" stroke="#2A2D52" stroke-width="1.2"/>
       <ellipse cx="150" cy="65" rx="102" ry="30" fill="none" stroke="#2A2D52" stroke-width="1" stroke-dasharray="2 6" opacity=".8"/>
-      <circle cx="262" cy="92" r="5" fill="#C9A45C"/>
+      <circle cx="252" cy="93" r="7" fill="#C9A45C"/>
     </g>
   </svg>
 
@@ -159,20 +159,6 @@
       <h2 id="todayHeading" class="text-[12px] uppercase tracking-[0.2em] text-dusk">Ma a Kollektívában</h2>
       <ol id="todayList" class="mt-6 divide-y divide-line/70"></ol>
     </aside>
-  </div>
-</section>
-
-<!-- ============ FRISS HÍREK (articles.json-ból töltődik) ============ -->
-<section id="friss" class="hidden border-b border-line/70">
-  <div class="mx-auto max-w-7xl px-5 py-14 lg:px-8">
-    <div class="flex items-end justify-between gap-4">
-      <h2 class="font-display text-[36px] font-semibold leading-tight sm:text-[44px]">Friss</h2>
-      <span class="text-[13px] text-dusk">A nap legfontosabb témái</span>
-    </div>
-    <div class="mt-8 grid gap-8 lg:grid-cols-[1.5fr_1fr]">
-      <div id="frissMain"></div>
-      <ol id="frissList" class="space-y-5"></ol>
-    </div>
   </div>
 </section>
 
@@ -244,6 +230,20 @@
 </section>
 
 <!-- ============ ROVATOK ============ -->
+<!-- ============ FRISS HÍREK (articles.json-ból töltődik) ============ -->
+<section id="friss" class="hidden border-b border-line/70">
+  <div class="mx-auto max-w-7xl px-5 py-14 lg:px-8">
+    <div class="flex items-end justify-between gap-4">
+      <h2 class="font-display text-[36px] font-semibold leading-tight sm:text-[44px]">Friss</h2>
+      <span class="text-[13px] text-dusk">A nap legfontosabb témái</span>
+    </div>
+    <div class="mt-8 grid gap-8 lg:grid-cols-[1.5fr_1fr]">
+      <div id="frissMain"></div>
+      <ol id="frissList" class="space-y-5"></ol>
+    </div>
+  </div>
+</section>
+
 <section id="rovatok" class="border-b border-line/70">
   <div class="mx-auto max-w-7xl px-5 py-20 lg:px-8">
     <h2 class="font-display text-[40px] font-semibold leading-tight sm:text-[48px]">Rovataink</h2>
@@ -778,7 +778,7 @@ loadRetro();
     const rest = sorted.filter(a => a !== top);
     const img = (a, cls) => a.hero_image && a.hero_image.url
       ? `<img src="${esc(a.hero_image.url)}" alt="" loading="lazy" class="${cls} ${a.hero_image.kind === 'graphic' ? 'object-contain bg-parch p-4' : 'object-cover'}">`
-      : `<div class="${cls} bg-vault"></div>`;
+      : `<div class="${cls} flex items-center justify-center bg-gradient-to-br from-vault to-line font-display text-[22px] font-semibold text-brass">${esc(NAMES[a.category] || 'Kollektíva')}</div>`;
     if (rest.length) {
       const m = rest[0];
       $('frissMain').innerHTML = `<a href="${esc(m.url)}" class="group block">${img(m, 'aspect-[16/9] w-full rounded-2xl')}
