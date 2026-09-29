@@ -43,6 +43,8 @@ import sys
 import tempfile
 import time
 import uuid
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -566,37 +568,69 @@ def wiki_external_sources(en_title: str, timeout: int, limit: int = 2) -> list:
     return out
 
 
+GRAPHIC_HINT = re.compile(r"logo|wordmark|icon|seal|coat[_ ]of[_ ]arms|flag|emblem|map|diagram|\.svg$", re.I)
+
+
+def _image_from_info(info: dict, fname: str = "") -> Optional[dict]:
+    """Commons imageinfo -> cikk-kép. Csak szabad licenc; logó/grafika 'graphic' típust kap
+    (a megjelenítés ilyenkor nem vágja, hanem arányosan, háttérrel illeszti)."""
+    meta = info.get("extmetadata", {})
+    lic = re.sub(r"<[^>]+>", "", meta.get("LicenseShortName", {}).get("value", "")).strip()
+    if not FREE_LICENSE.match(lic):
+        return None
+    w, h = info.get("width") or 0, info.get("height") or 0
+    if w < 300 or h < 150:
+        return None  # túl kicsi, pixeles lenne
+    fname = fname or info.get("descriptionurl", "").rsplit("/", 1)[-1]
+    ratio = w / h if h else 0
+    kind = "graphic" if (GRAPHIC_HINT.search(fname) or w < 800 or not 1.2 <= ratio <= 2.2) else "photo"
+    artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip() or "ismeretlen szerző"
+    return {
+        "url": info.get("thumburl") or info["url"],
+        "width": info.get("thumbwidth") or w,
+        "height": info.get("thumbheight") or h,
+        "kind": kind,
+        "alt": re.sub(r"<[^>]+>", "", meta.get("ImageDescription", {}).get("value", ""))[:200].strip(),
+        "credit": f"{artist[:80]} / Wikimedia Commons",
+        "license": lic,
+        "source_url": info.get("descriptionurl", ""),
+    }
+
+
 def commons_image(page: dict, timeout: int) -> Optional[dict]:
     """A Wikipédia-oldal fő képe, CSAK ha a Wikimedia Commonson van és szabad licencű."""
     src = (page.get("originalimage") or page.get("thumbnail") or {}).get("source", "")
     if "/commons/" not in src:
         return None  # helyi (pl. fair use) kép – nem használjuk
     fname = urllib.parse.unquote(src.split("/")[-1] if "/thumb/" not in src else src.split("/thumb/")[1].split("/")[2])
-    if re.search(r"logo|wordmark|icon|seal|coat[_ ]of[_ ]arms|flag|signature|\.svg$", fname, re.I):
-        return None  # logók, címerek, aláírások, grafikák: nem cikkfotó
     data = http_get_json("https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo"
                          f"&iiprop=url|extmetadata|size&iiurlwidth=1200&titles=File:{_q(fname)}", timeout)
     try:
         info = next(iter(data["query"]["pages"].values()))["imageinfo"][0]
     except (TypeError, KeyError, IndexError, StopIteration):
         return None
-    w, h = info.get("width") or 0, info.get("height") or 0
-    if w < 800 or not h or not (1.2 <= w / h <= 2.2):
-        return None  # túl kicsi, álló vagy extrém arányú kép: rosszul vágódna
-    meta = info.get("extmetadata", {})
-    lic = re.sub(r"<[^>]+>", "", meta.get("LicenseShortName", {}).get("value", "")).strip()
-    if not FREE_LICENSE.match(lic):
+    return _image_from_info(info, fname)
+
+
+def commons_search_image(query: str, timeout: int) -> Optional[dict]:
+    """Szabad licencű kép keresése a Wikimedia Commonson (fotót részesít előnyben)."""
+    if not query:
         return None
-    artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip() or "ismeretlen szerző"
-    return {
-        "url": info.get("thumburl") or info["url"],
-        "width": info.get("thumbwidth") or info.get("width"),
-        "height": info.get("thumbheight") or info.get("height"),
-        "alt": re.sub(r"<[^>]+>", "", meta.get("ImageDescription", {}).get("value", ""))[:200].strip(),
-        "credit": f"{artist[:80]} / Wikimedia Commons",
-        "license": lic,
-        "source_url": info.get("descriptionurl", ""),
-    }
+    data = http_get_json("https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search"
+                         f"&gsrnamespace=6&gsrlimit=10&gsrsearch={urllib.parse.quote(query + ' filetype:bitmap')}"
+                         "&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1200", timeout)
+    try:
+        pages = sorted(data["query"]["pages"].values(), key=lambda p: p.get("index", 99))
+    except (TypeError, KeyError):
+        return None
+    graphic = None
+    for pg in pages:
+        info = (pg.get("imageinfo") or [None])[0]
+        img = _image_from_info(info, pg.get("title", "")) if info else None
+        if img and img["kind"] == "photo":
+            return img
+        graphic = graphic or img
+    return graphic
 
 
 def wiki_onthisday_event(d: date, http_timeout: int) -> Optional[dict]:
@@ -863,7 +897,9 @@ a{color:var(--parch)}a:hover{color:var(--brass)}
 header,main,footer{max-width:720px;margin:0 auto;padding:0 20px}
 header{display:flex;justify-content:space-between;align-items:center;padding-top:22px;padding-bottom:22px;border-bottom:1px solid var(--line)}
 .logo{font:600 28px/1 "Cormorant Garamond",Georgia,serif;text-decoration:none}
-nav a{color:var(--dusk);text-decoration:none;margin-left:18px;font-size:15px}
+nav{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:4px 16px}nav a{color:var(--dusk);text-decoration:none;font-size:14px}
+@media (max-width:640px){header{flex-direction:column;align-items:flex-start;gap:12px}nav{justify-content:flex-start;gap:6px 14px}}
+footer a{color:var(--dusk);margin-right:10px}
 .kicker{margin-top:44px;color:var(--brass);font-size:13px;letter-spacing:.14em;text-transform:uppercase}
 h1{font:600 clamp(32px,6vw,48px)/1.15 "Cormorant Garamond",Georgia,serif;margin:12px 0 16px}
 h2{font:600 28px/1.25 "Cormorant Garamond",Georgia,serif;margin:0 0 6px}
@@ -874,8 +910,10 @@ article p{color:rgba(236,230,216,.88)}
 .box{margin:40px 0;padding:18px 20px;background:var(--vault);border:1px solid var(--line);border-radius:12px;font-size:14px;color:var(--dusk)}
 .box a{color:var(--parch)}
 figure{margin:32px 0}figure img{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;border-radius:12px;background:var(--vault)}
+figure.graphic img{max-height:340px;padding:28px;background:#ECE6D8}
 figcaption{margin-top:8px;color:var(--dusk);font-size:12px}figcaption a{color:var(--dusk)}
 .thumb{display:block;width:100%;aspect-ratio:16/9;height:auto;object-fit:cover;object-position:center;border-radius:10px;margin:10px 0 12px}
+.thumb.graphic{object-fit:contain;padding:24px;background:#ECE6D8}
 .list{list-style:none;padding:0;margin:32px 0}
 .list li{padding:22px 0;border-bottom:1px solid var(--line)}
 .year{color:var(--brass);font:600 34px/1 "Cormorant Garamond",Georgia,serif}
@@ -908,11 +946,11 @@ def _page(title: str, description: str, canonical: str, body: str, head_extra: s
 {head_extra}
 </head>
 <body>
-<header><a class="logo" href="/">{SITE_NAME}</a><nav><a href="/#horoszkop">Horoszkóp</a><a href="/retro/">Retro</a></nav></header>
+<header><a class="logo" href="/">{SITE_NAME}</a><nav>{NAV_LINKS}</nav></header>
 <main>
 {body}
 </main>
-<footer>© {datetime.now().year} {SITE_NAME} · <a href="/">Főoldal</a> · <a href="/retro/">Retro archívum</a> · <a href="/feed.xml">RSS</a></footer>
+<footer>© {datetime.now().year} {SITE_NAME}<br><a href="/">Főoldal</a>{NAV_LINKS}<a href="/feed.xml">RSS</a></footer>
 </body>
 </html>
 """
@@ -943,6 +981,7 @@ def _article_jsonld(a: dict) -> str:
 
 def render_article_page(a: dict) -> str:
     year = a.get("category_meta", {}).get("event_year", "")
+    section = SECTIONS.get(a.get("category"), RETRO_SECTION)
     paras = "\n".join(f"<p>{E(p)}</p>" for p in a.get("body", []))
     quote = f"<blockquote>{E(a['pull_quote'])}</blockquote>" if a.get("pull_quote") else ""
     sources = "".join(
@@ -952,14 +991,14 @@ def render_article_page(a: dict) -> str:
     img = a.get("hero_image") or None
     figure = ""
     if img and img.get("url"):
-        figure = (f'<figure><img src="{E(img["url"])}" alt="{E(img.get("alt") or a["title"])}" '
+        figure = (f'<figure class="{E(img.get("kind", "photo"))}"><img src="{E(img["url"])}" alt="{E(img.get("alt") or a["title"])}" '
                   f'width="{E(str(img.get("width") or ""))}" height="{E(str(img.get("height") or ""))}" '
                   f'loading="eager" decoding="async">'
-                  f'<figcaption>Fotó: <a href="{E(img.get("source_url") or img["url"])}" rel="noopener" '
+                  f'<figcaption>{"Kép" if img.get("kind") == "graphic" else "Fotó"}: <a href="{E(img.get("source_url") or img["url"])}" rel="noopener" '
                   f'target="_blank">{E(img.get("credit", ""))}</a>, {E(img.get("license", ""))}</figcaption></figure>')
     published = (a.get("published_at") or a.get("created_at") or a["date"])[:10]
     body = f"""<article>
-<p class="kicker">Ekkor történt{(" · " + E(str(year))) if year else ""}</p>
+<p class="kicker">{E(section["kicker"])}{(" · " + E(str(year))) if year else ""}</p>
 <h1>{E(a["title"])}</h1>
 <p class="meta">{E(a["authorship"]["byline"])} · <time datetime="{E(published)}">{E(published.replace("-", ". "))}.</time> · {a.get("reading_time_min", 1)} perc olvasás</p>
 <p class="lead">{E(a["lead"])}</p>
@@ -968,25 +1007,27 @@ def render_article_page(a: dict) -> str:
 {paras}
 </article>
 <div class="box"><p><strong>Források:</strong></p><ul>{sources or "<li>—</li>"}</ul></div>
-<p><a href="/retro/">← Vissza a retro archívumhoz</a></p>"""
+<p><a href="/{section["id"]}/">← Vissza: {E(section["name"])}</a></p>"""
     og = (f'<meta property="og:image" content="{E(img["url"])}">\n<meta property="og:type" content="article">\n'
           if img and img.get("url") else '<meta property="og:type" content="article">\n')
     return _page(f'{a["seo"]["meta_title"] or a["title"]} – {SITE_NAME}', a["seo"]["meta_description"] or a["lead"],
                  a["seo"]["canonical_url"], body, og + _article_jsonld(a), noindex=a["seo"].get("noindex", False))
 
 
-def render_retro_index(articles: list) -> str:
-    items = "\n".join(
-        f'<li><div class="year">{E(str(a.get("category_meta", {}).get("event_year", "")))}</div>'
-        + (f'<a href="{E(a["url"])}"><img class="thumb" src="{E(a["hero_image"]["url"])}" alt="" loading="lazy"></a>'
-           if (a.get("hero_image") or {}).get("url") else "")
-        + f'<h2><a href="{E(a["url"])}">{E(a["title"])}</a></h2>'
-        f'<p class="meta">{E(a.get("date_label", ""))} · {a.get("reading_time_min", 1)} perc olvasás</p>'
-        f'<p>{E(a["lead"])}</p></li>' for a in articles)
-    body = (f'<p class="kicker">Rovat</p><h1>Ekkor történt – retro archívum</h1>'
-            f'<p class="lead">Minden nap egy történet a múltból.</p><ul class="list">{items or "<li>Hamarosan…</li>"}</ul>')
-    return _page(f"Ekkor történt – retro archívum – {SITE_NAME}",
-                 "A Kollektíva retro rovata: minden nap egy történet a múltból.", f"{SITE_URL}/retro/", body)
+def render_section_index(section: dict, articles: list) -> str:
+    def item(a: dict) -> str:
+        img = a.get("hero_image") or {}
+        year = a.get("category_meta", {}).get("event_year", "") if section["id"] == "retro" else ""
+        return ((f'<li><div class="year">{E(str(year))}</div>' if year else "<li>")
+                + (f'<a href="{E(a["url"])}"><img class="thumb {E(img.get("kind", "photo"))}" src="{E(img["url"])}" '
+                   f'alt="" loading="lazy"></a>' if img.get("url") else "")
+                + f'<h2><a href="{E(a["url"])}">{E(a["title"])}</a></h2>'
+                f'<p class="meta">{E(a.get("date_label", ""))} · {a.get("reading_time_min", 1)} perc olvasás</p>'
+                f'<p>{E(a["lead"])}</p></li>')
+    items = "\n".join(item(a) for a in articles)
+    body = (f'<p class="kicker">Rovat</p><h1>{E(section["name"])}</h1>'
+            f'<p class="lead">{E(section["tagline"])}</p><ul class="list">{items or "<li>Hamarosan…</li>"}</ul>')
+    return _page(f'{section["name"]} – {SITE_NAME}', section["tagline"], f'{SITE_URL}/{section["id"]}/', body)
 
 
 def _rfc822(iso: str) -> str:
@@ -997,31 +1038,39 @@ def _rfc822(iso: str) -> str:
 
 
 def build_static_site(output_dir: Path, tz: ZoneInfo) -> None:
-    """A publikált retro cikkekből statikus oldalakat, sitemapeket és RSS-t generál a public/ alá."""
+    """A publikált cikkekből (retro + rovatok) statikus oldalakat, sitemapeket és RSS-t generál a public/ alá."""
     public = output_dir.parent  # public/data -> public
-    archive = read_json(output_dir / "retro_articles.json", {"articles": []})
-    articles = [a for a in archive.get("articles", [])
-                if a.get("status") == "published" and a.get("slug") and a.get("seo")]
+    pool = (read_json(output_dir / "retro_articles.json", {"articles": []}).get("articles", [])
+            + read_json(output_dir / "articles.json", {"articles": []}).get("articles", []))
+    articles = [a for a in pool if a.get("status") == "published" and a.get("slug") and a.get("seo")]
+    by_section: dict = {sid: [] for sid in [RETRO_SECTION["id"], *SECTIONS]}
     for a in articles:
-        a.setdefault("url", f"/retro/{a['slug']}/")
-        a["seo"]["canonical_url"] = f"{SITE_URL}/retro/{a['slug']}/"
-    retro_dir = public / "retro"
-    keep = {a["slug"] for a in articles}
-    if retro_dir.exists():  # már nem publikált cikkek oldalainak törlése
-        for child in retro_dir.iterdir():
-            if child.is_dir() and child.name not in keep:
-                for f in child.iterdir():
-                    f.unlink()
-                child.rmdir()
-    for a in articles:
-        page_dir = retro_dir / a["slug"]
-        page_dir.mkdir(parents=True, exist_ok=True)
-        (page_dir / "index.html").write_text(render_article_page(a), encoding="utf-8")
-    retro_dir.mkdir(parents=True, exist_ok=True)
-    (retro_dir / "index.html").write_text(render_retro_index(articles), encoding="utf-8")
+        sid = a.get("category") if a.get("category") in SECTIONS else "retro"
+        a["url"] = f"/{sid}/{a['slug']}/"
+        a["seo"]["canonical_url"] = f"{SITE_URL}/{sid}/{a['slug']}/"
+        by_section[sid].append(a)
+    articles.sort(key=lambda a: a.get("published_at") or a.get("created_at") or "", reverse=True)
+    for sid, items in by_section.items():
+        sec_dir = public / sid
+        keep = {a["slug"] for a in items}
+        if sec_dir.exists():  # már nem publikált cikkek oldalainak törlése
+            for child in sec_dir.iterdir():
+                if child.is_dir() and child.name not in keep:
+                    for f in child.iterdir():
+                        f.unlink()
+                    child.rmdir()
+        for a in items:
+            page_dir = sec_dir / a["slug"]
+            page_dir.mkdir(parents=True, exist_ok=True)
+            (page_dir / "index.html").write_text(render_article_page(a), encoding="utf-8")
+        sec_dir.mkdir(parents=True, exist_ok=True)
+        section = SECTIONS.get(sid, RETRO_SECTION)
+        items.sort(key=lambda a: a.get("published_at") or a.get("created_at") or "", reverse=True)
+        (sec_dir / "index.html").write_text(render_section_index(section, items), encoding="utf-8")
 
     now = datetime.now(tz)
-    urls = [(f"{SITE_URL}/", now.date().isoformat()), (f"{SITE_URL}/retro/", now.date().isoformat())]
+    urls = [(f"{SITE_URL}/", now.date().isoformat())]
+    urls += [(f"{SITE_URL}/{sid}/", now.date().isoformat()) for sid in by_section]
     urls += [(a["seo"]["canonical_url"], (a.get("updated_at") or a["date"])[:10]) for a in articles]
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -1051,13 +1100,255 @@ def build_static_site(output_dir: Path, tz: ZoneInfo) -> None:
         f"<item><title>{E(a['title'])}</title><link>{E(a['seo']['canonical_url'])}</link>"
         f"<guid isPermaLink=\"true\">{E(a['seo']['canonical_url'])}</guid>"
         f"<pubDate>{_rfc822(a.get('published_at') or a.get('created_at'))}</pubDate>"
-        f"<description>{E(a['lead'])}</description></item>" for a in articles[:20])
+        f"<description>{E(a['lead'])}</description></item>" for a in articles[:40])
     rss = (f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel>'
-           f"<title>{SITE_NAME} – Retro</title><link>{SITE_URL}/retro/</link>"
-           f"<description>Minden nap egy történet a múltból.</description><language>hu</language>\n{items}\n"
+           f"<title>{SITE_NAME}</title><link>{SITE_URL}/</link>"
+           f"<description>Kollektíva – online magazin.</description><language>hu</language>\n{items}\n"
            f"</channel></rss>\n")
     (public / "feed.xml").write_text(rss, encoding="utf-8")
     log.info("✔ statikus oldalak: %d cikkoldal, sitemap.xml, news-sitemap.xml, feed.xml", len(articles))
+
+
+# ---------------------------------------------------------------------------
+# 4) Rovatok (Univerzum, Pénzvilág, Tech, Életmód, Kultúra, Közélet)
+# ---------------------------------------------------------------------------
+# Rovatonként RSS-forrásokból kiválasztja a nap legtöbb forrásban szereplő témáját,
+# és a forrásokra hivatkozva SAJÁT megfogalmazású összefoglaló cikket írat.
+# Feed: (url, kategória-szűrő regex vagy None, kulcsszó-szűrő regex vagy None)
+
+RETRO_SECTION = {"id": "retro", "name": "Ekkor történt", "kicker": "Ekkor történt",
+                 "tagline": "Minden nap egy történet a múltból."}
+
+SECTIONS = {
+    "tech": {
+        "id": "tech", "name": "Tech / Jövő", "kicker": "Tech / Jövő",
+        "tagline": "Mesterséges intelligencia, eszközök és a digitális élet változásai.",
+        "focus": "technológia, mesterséges intelligencia, digitális eszközök, tudomány gyakorlati hatásai",
+        "feeds": [("https://telex.hu/rss", r"Techtud", None), ("https://qubit.hu/feed", None, None),
+                  ("https://hvg.hu/rss", r"Tech|Tudomány", None)],
+    },
+    "penzvilag": {
+        "id": "penzvilag", "name": "Pénzvilág", "kicker": "Pénzvilág",
+        "tagline": "Árfolyamok, infláció, bérek – mit jelentenek a számok a pénztárcádnak.",
+        "focus": "gazdaság, pénzügyek, árfolyamok, infláció, bérek, befektetés – a hétköznapi olvasó szemszögéből",
+        "feeds": [("https://www.portfolio.hu/rss/all.xml", None, None), ("https://www.vg.hu/feed", None, None),
+                  ("https://telex.hu/rss", r"Gazdaság|Vállalat", None)],
+    },
+    "eletmod": {
+        "id": "eletmod", "name": "Életmód & Egészség", "kicker": "Életmód",
+        "tagline": "Mozgás, alvás, táplálkozás, mentális jóllét – forrásokkal alátámasztva.",
+        "focus": "egészség, mozgás, edzés, alvás, táplálkozás, mentális jóllét – kutatási eredmények érthetően",
+        "feeds": [("https://www.sciencedaily.com/rss/health_medicine/fitness.xml", None, None),
+                  ("https://www.sciencedaily.com/rss/health_medicine/nutrition.xml", None, None),
+                  ("https://telex.hu/rss", r"^Élet$", None), ("https://hvg.hu/rss", r"Élet|egészség", None)],
+    },
+    "univerzum": {
+        "id": "univerzum", "name": "Univerzum", "kicker": "Univerzum",
+        "tagline": "Csillagászat és űrkutatás, érthetően.",
+        "focus": "csillagászat, űrkutatás, bolygók, űrmissziók",
+        "feeds": [("https://www.nasa.gov/feed/", None, None),
+                  ("https://qubit.hu/feed", None, r"űr|NASA|ESA|bolygó|csillag|galaxis|Hold|Mars|teleszkóp|rakéta|asztro"),
+                  ("https://telex.hu/rss", r"Techtud", r"űr|NASA|ESA|bolygó|csillag|galaxis|Hold|Mars|teleszkóp|rakéta")],
+    },
+    "kultura": {
+        "id": "kultura", "name": "Kultúra & Ajánló", "kicker": "Kultúra",
+        "tagline": "Film, sorozat, könyv, zene és programok válogatva.",
+        "focus": "film, sorozat, könyv, zene, színház, kiállítás, programajánló",
+        "feeds": [("https://telex.hu/rss", r"Kultúra", None), ("https://hvg.hu/rss", r"Kult", None)],
+    },
+    "kozelet": {
+        "id": "kozelet", "name": "Közélet számokban", "kicker": "Közélet",
+        "tagline": "Pártatlan, adatvezérelt magyarázók a közügyekről.",
+        "focus": "közügyek, társadalom, adatok és számok mögötti összefüggések – pártsemlegesen",
+        "feeds": [("https://telex.hu/rss", r"Belföld|Külföld|Adat", None), ("https://hvg.hu/rss", r"Itthon|Világ", None)],
+    },
+}
+NAV_LINKS = " ".join(f'<a href="/{sid}/">{html.escape(sec["name"])}</a>'
+                     for sid, sec in [("retro", RETRO_SECTION), *SECTIONS.items()])
+SPONSORED = re.compile(r"PR-cikk|Támogatott|Szponzor|Hirdetés|Közlemény|partner", re.I)
+STOPWORDS = set("""a az és is egy hogy nem de már még meg el ki be le fel van volt lesz lett mint
+csak ez azt ezt itt ott mit mi ami aki akik kell után alatt miatt szerint között új több nagy the of and
+to in for on with from""".split())
+
+SECTION_SYSTEM = (
+    "Egy prémium magyar online magazin (Kollektíva) szerkesztője vagy. Friss hírekből írsz SAJÁT "
+    "megfogalmazású, magyarázó magazincikket: nem másolsz, nem fordítasz szó szerint, hanem összefoglalsz, "
+    "kontextust adsz és elmagyarázod, mit jelent ez az olvasónak. SZIGORÚ SZABÁLY: csak a megadott "
+    "forráskivonatokban szereplő tényekre és vitathatatlan, közismert háttérre támaszkodhatsz; nem találsz ki "
+    "számot, idézetet, nevet vagy dátumot. Pártpolitikai állást nem foglalsz. Csak érvényes JSON-t adsz vissza."
+)
+
+
+def _text(el: Optional[ET.Element]) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html.unescape(el.text or ""))).strip() if el is not None else ""
+
+
+def fetch_feed(url: str, timeout: int) -> list:
+    """RSS 2.0 / Atom beolvasása -> [{title, link, summary, published, categories, source}]"""
+    req = urllib.request.Request(url, headers={"User-Agent": WIKI_UA["User-Agent"],
+                                               "Accept": "application/rss+xml, application/xml, text/xml, */*"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            root = ET.fromstring(resp.read())
+    except (urllib.error.URLError, TimeoutError, ET.ParseError, OSError, ValueError) as e:
+        log.warning("Feed nem olvasható: %s (%s)", url, e)
+        return []
+    host = re.sub(r"^www\.", "", urllib.parse.urlparse(url).netloc)
+    items = []
+    atom = "{http://www.w3.org/2005/Atom}"
+    for it in root.iter("item"):
+        pub = None
+        try:
+            pub = parsedate_to_datetime(_text(it.find("pubDate")))
+        except (TypeError, ValueError):
+            pass
+        items.append({"title": _text(it.find("title")), "link": _text(it.find("link")),
+                      "summary": _text(it.find("description"))[:600], "published": pub,
+                      "categories": [_text(c) for c in it.findall("category")], "source": host})
+    for it in root.iter(atom + "entry"):
+        link = it.find(atom + "link")
+        pub = None
+        try:
+            pub = datetime.fromisoformat(_text(it.find(atom + "updated")).replace("Z", "+00:00"))
+        except ValueError:
+            pass
+        items.append({"title": _text(it.find(atom + "title")), "link": link.get("href", "") if link is not None else "",
+                      "summary": _text(it.find(atom + "summary"))[:600], "published": pub,
+                      "categories": [c.get("term", "") for c in it.findall(atom + "category")], "source": host})
+    return [i for i in items if i["title"] and i["link"].startswith("http")]
+
+
+def _keywords(text: str) -> set:
+    words = re.findall(r"[a-záéíóöőúüű0-9]{4,}", text.lower())
+    return {w[:7] for w in words if w not in STOPWORDS}
+
+
+def pick_story(section: dict, used_links: set, now: datetime, timeout: int, max_age_h: int = 36) -> Optional[list]:
+    """A rovat friss híreiből a legtöbb (lehetőleg több kiadónál is szereplő) témát választja; 1–4 forrás."""
+    items, seen = [], set()
+    for url, cat_re, kw_re in section["feeds"]:
+        for it in fetch_feed(url, timeout):
+            if it["link"] in seen or it["link"] in used_links:
+                continue
+            cats = " ".join(it["categories"])
+            if cat_re and not re.search(cat_re, cats, re.I):
+                continue
+            if kw_re and not re.search(kw_re, it["title"] + " " + it["summary"], re.I):
+                continue
+            if SPONSORED.search(cats + " " + it["title"]):
+                continue
+            if it["published"] and (now - it["published"]).total_seconds() > max_age_h * 3600:
+                continue
+            seen.add(it["link"])
+            it["kw"] = _keywords(it["title"] + " " + it["summary"][:200])
+            items.append(it)
+    if not items:
+        return None
+    best, best_score = None, -1.0
+    for it in items:
+        group = [it] + [o for o in items if o is not it and len(it["kw"] & o["kw"]) >= 3]
+        publishers = {g["source"] for g in group}
+        fresh = 1.0 if it["published"] and (now - it["published"]).total_seconds() < 12 * 3600 else 0.0
+        score = len(publishers) * 3 + len(group) + fresh + min(len(it["summary"]), 400) / 400
+        if score > best_score:
+            best, best_score = group, score
+    return best[:4]
+
+
+def section_prompt(section: dict, story: list, d: date) -> str:
+    src = "\n\n".join(f"[{i + 1}] {s['source']} – {s['title']}\n{s['summary']}" for i, s in enumerate(story))
+    return f"""Rovat: {section['name']} ({section['focus']}). Dátum: {hu_date(d)}.
+
+Forráskivonatok:
+{src}
+
+Írj ebből egy eredeti, magyar nyelvű magazincikket:
+- "title": pontos, figyelemfelkeltő, de nem bulvár cím (max. 12 szó)
+- "lead": 2 mondatos bevezető: mi történt és miért fontos
+- "body": 4–6 bekezdés (tömb), összesen kb. 350–600 szó: a tények, a háttér, és hogy mit jelent ez a
+  hétköznapi olvasónak. Ha a forrásokból nem derül ki valami, ne találgass.
+- "tags": 3–5 rövid címke
+- "image_query": 2–4 szavas ANGOL keresőkifejezés egy illusztráló, általános képhez (pl. "stock exchange",
+  "night sky telescope"); ne személynevet adj meg
+
+Kizárólag ezt a JSON-t add vissza:
+{{"title": "...", "lead": "...", "body": ["...", "..."], "tags": ["..."], "image_query": "..."}}"""
+
+
+def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, used_links: set) -> Optional[dict]:
+    now = datetime.now(tz)
+    story = pick_story(section, used_links, now, ai.cfg.http_timeout)
+    if not story:
+        log.warning("[%s] nincs friss, megfelelő hír a forrásokban – kimarad.", section["id"])
+        return None
+    try:
+        raw = ai.complete_json(SECTION_SYSTEM, section_prompt(section, story, d), 4000)
+        art = validate_retro(raw)
+    except (AIError, ValueError, TypeError, KeyError) as e:
+        log.error("[%s] AI cikkírás sikertelen: %s – kimarad.", section["id"], e)
+        return None
+    image = commons_search_image(str(raw.get("image_query", "")).strip()[:60], ai.cfg.http_timeout)
+    now_iso = now.isoformat(timespec="seconds")
+    slug = slugify(f"{d.isoformat()}-{art['title']}")
+    sources = normalize_sources([{"url": s["link"], "title": s["title"], "publisher": s["source"]} for s in story], now_iso)
+    full_text = " ".join([art["lead"], *art["body"]])
+    auto_publish = os.getenv("RETRO_AUTO_PUBLISH", "false").lower() in ("1", "true", "yes")
+    status = "published" if auto_publish else "needs_review"
+    return {
+        "id": str(uuid.uuid5(uuid.NAMESPACE_URL, f"{SITE_URL}/{section['id']}/{slug}")),
+        "slug": slug, "status": status, "category": section["id"], "subcategory": None,
+        "tags": art["tags"], "title": art["title"], "subtitle": None, "lead": art["lead"],
+        "content": to_markdown(art), "content_format": "markdown", "body": art["body"], "pull_quote": None,
+        "reading_time_min": reading_time(full_text), "word_count": len(re.findall(r"\w+", full_text)),
+        "locale": "hu-HU", "hero_image": image, "sources": sources,
+        "authorship": {"mode": "ai_generated", "byline": "Kollektíva szerkesztőség", "model": ai.label.split(":", 2)[-1],
+                       "prompt_version": "section-v1", "reviewed_by": None, "reviewed_at": None},
+        "category_meta": {"source_links": [s["link"] for s in story]},
+        "date": d.isoformat(), "date_label": f"{HU_MONTHS[d.month - 1]} {d.day}.",
+        "url": f"/{section['id']}/{slug}/",
+        "seo": {"meta_title": art["title"][:60], "meta_description": art["lead"][:160],
+                "canonical_url": f"{SITE_URL}/{section['id']}/{slug}/", "og_image": image["url"] if image else None,
+                "noindex": status != "published", "schema_type": "NewsArticle"},
+        "monetization": {"ads_enabled": True, "brand_safety": "safe", "sponsored": False,
+                         "sponsor_name": None, "affiliate_links": False},
+        "related_ids": [], "dedupe_hash": hashlib.sha256(f"{section['id']}|{story[0]['link']}".encode()).hexdigest(),
+        "pipeline_run_id": os.getenv("GITHUB_RUN_ID"), "generator": ai.label,
+        "created_at": now_iso, "updated_at": now_iso, "published_at": now_iso if status == "published" else None,
+        "expires_at": None,
+    }
+
+
+def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run: bool) -> int:
+    """Minden rovathoz legfeljebb egy új cikk naponta (SECTION_IDS / ARTICLES_PER_SECTION env)."""
+    if not ai.enabled:
+        log.warning("Rovatcikkekhez AI kell – kimarad.")
+        return 0
+    path = output_dir / "articles.json"
+    data = read_json(path, {"articles": []})
+    articles = data.get("articles", [])
+    used_links = {l for a in articles for l in a.get("category_meta", {}).get("source_links", [])}
+    wanted = [x.strip() for x in os.getenv("SECTION_IDS", ",".join(SECTIONS)).split(",") if x.strip() in SECTIONS]
+    per_section = int(os.getenv("ARTICLES_PER_SECTION", "1"))
+    pause = int(os.getenv("AI_PAUSE_SECONDS", "8"))
+    made = 0
+    for sid in wanted:
+        have = sum(1 for a in articles if a.get("category") == sid and a.get("date") == d.isoformat())
+        for _ in range(max(0, per_section - have)):
+            art = build_section_article(ai, SECTIONS[sid], d, tz, used_links)
+            if not art:
+                break
+            used_links.update(art["category_meta"]["source_links"])
+            articles.insert(0, art)
+            made += 1
+            log.info("✔ [%s] \"%s\" (%s forrás, kép: %s)", sid, art["title"], len(art["sources"]),
+                     (art["hero_image"] or {}).get("kind", "nincs"))
+            time.sleep(pause)  # ingyenes AI-keret: ne fussunk bele a percenkénti limitbe
+    articles.sort(key=lambda a: a.get("created_at", ""), reverse=True)
+    if made and not dry_run:
+        write_json_atomic(path, {"schema_version": 1, "updated_at": datetime.now(tz).isoformat(timespec="seconds"),
+                                 "articles": articles[:int(os.getenv("ARTICLES_ARCHIVE_LIMIT", "300"))]})
+    log.info("Rovatcikkek: %d új", made)
+    return made
 
 
 # ---------------------------------------------------------------------------
@@ -1068,7 +1359,7 @@ def parse_args(argv: Optional[list] = None) -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Kollektíva napi tartalomgenerátor")
     p.add_argument("--date", help="Cél dátum ÉÉÉÉ-HH-NN (alapból a mai nap a site időzónájában)")
     p.add_argument("--provider", choices=["auto", "anthropic", "gemini", "openai", "mock"], help="AI_PROVIDER felülírása")
-    p.add_argument("--only", choices=["horoscope", "retro"], help="Csak az egyik modul futtatása")
+    p.add_argument("--only", choices=["horoscope", "retro", "sections"], help="Csak az egyik modul futtatása")
     p.add_argument("--dry-run", action="store_true", help="Nem ír fájlt, csak a kimenetet mutatja")
     p.add_argument("-v", "--verbose", action="store_true")
     return p.parse_args(argv)
@@ -1116,6 +1407,13 @@ def main(argv: Optional[list] = None) -> int:
                              article["title"], article["reading_time_min"], article["generator"], article["status"])
         except OSError as e:
             log.exception("retro_articles.json írása sikertelen: %s", e)
+            exit_code = 1
+
+    if args.only in (None, "sections"):
+        try:
+            run_sections(ai, target, tz, cfg.output_dir, args.dry_run)
+        except OSError as e:
+            log.exception("articles.json írása sikertelen: %s", e)
             exit_code = 1
 
     if not args.dry_run:
