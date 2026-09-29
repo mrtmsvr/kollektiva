@@ -580,6 +580,9 @@ def commons_image(page: dict, timeout: int) -> Optional[dict]:
         info = next(iter(data["query"]["pages"].values()))["imageinfo"][0]
     except (TypeError, KeyError, IndexError, StopIteration):
         return None
+    w, h = info.get("width") or 0, info.get("height") or 0
+    if w < 800 or not h or not (1.2 <= w / h <= 2.2):
+        return None  # túl kicsi, álló vagy extrém arányú kép: rosszul vágódna
     meta = info.get("extmetadata", {})
     lic = re.sub(r"<[^>]+>", "", meta.get("LicenseShortName", {}).get("value", "")).strip()
     if not FREE_LICENSE.match(lic):
@@ -870,9 +873,9 @@ blockquote{margin:32px 0;padding-left:18px;border-left:2px solid var(--brass);fo
 article p{color:rgba(236,230,216,.88)}
 .box{margin:40px 0;padding:18px 20px;background:var(--vault);border:1px solid var(--line);border-radius:12px;font-size:14px;color:var(--dusk)}
 .box a{color:var(--parch)}
-figure{margin:32px 0}figure img{display:block;width:100%;height:auto;border-radius:12px;background:var(--vault)}
+figure{margin:32px 0}figure img{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;border-radius:12px;background:var(--vault)}
 figcaption{margin-top:8px;color:var(--dusk);font-size:12px}figcaption a{color:var(--dusk)}
-.thumb{display:block;width:100%;max-height:260px;object-fit:cover;border-radius:10px;margin:10px 0 12px}
+.thumb{display:block;width:100%;aspect-ratio:16/9;height:auto;object-fit:cover;object-position:center;border-radius:10px;margin:10px 0 12px}
 .list{list-style:none;padding:0;margin:32px 0}
 .list li{padding:22px 0;border-bottom:1px solid var(--line)}
 .year{color:var(--brass);font:600 34px/1 "Cormorant Garamond",Georgia,serif}
