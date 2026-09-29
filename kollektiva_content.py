@@ -306,8 +306,9 @@ def reading_time(text: str, wpm: int = 200) -> int:
 
 HOROSCOPE_SYSTEM = (
     "Egy prémium magyar online magazin (Kollektíva) asztrológiai rovatának szerkesztője vagy. "
-    "Igényes, irodalmi, de közérthető magyar nyelven írsz; kerülöd a közhelyeket, a "
-    "rémisztgetést, az egészségügyi vagy pénzügyi konkrét tanácsot. Csak érvényes JSON-t adsz vissza."
+    "Szórakoztató rovatot írsz, amelynek célja, hogy az olvasó úgy érezze: pontosan róla szól. "
+    "Természetes, igényes, közérthető magyar nyelven írsz (tegezve); kerülöd a közhelyeket, a "
+    "rémisztgetést, az egészségügyi, jogi vagy pénzügyi konkrét tanácsot. Csak érvényes JSON-t adsz vissza."
 )
 
 
@@ -318,8 +319,20 @@ def horoscope_prompt(d: date) -> str:
 Csillagjegyek (id, név, elem): {signs}
 
 Minden jegyhez:
-- "headline": 4–8 szavas, egyedi főcím
-- "text": 90–130 szavas, mélyebb, személyes hangvételű napi elemzés (tegező forma)
+- "headline": 3–7 szavas, egyedi főcím
+- "text": 45–75 szavas (3–4 mondat), személyesnek ható napi szöveg, tegező formában
+
+Írástechnika (Barnum/Forer-hatás – ettől érzi az olvasó személyre szabottnak):
+- Olyan állításokat írj, amelyek szinte bárkire igazak, de konkrétnak hatnak
+  (pl. „Az utóbbi napokban többször visszatért hozzád egy félbehagyott gondolat.”).
+- Használj kétoldalú jellemzést (pl. „kifelé magabiztosnak tűnsz, belül mégis mérlegelsz”).
+- Utalj rejtett erősségre vagy ki nem használt lehetőségre, hízelgően, de nem túlzóan.
+- Adj egy hétköznapi, felismerhető helyzetet (üzenet, beszélgetés, halogatott teendő, döntés),
+  és egy apró, könnyen megtehető javaslatot.
+- Időbeli támpont segít (délelőtt, a nap második fele, este).
+- Az elem hangulata (tűz, föld, levegő, víz) finoman érződjön, de ne ismételd a jegy nevét.
+- Minden jegynél más szerkezettel és más képekkel kezdj; ne ismételj mondatot vagy fordulatot.
+- Soha ne jósolj konkrét eseményt, betegséget, pénzösszeget vagy veszteséget.
 - "love", "work", "energy": egész szám 1–5
 - "focus": egyetlen rövid mondat, a nap kulcsgondolata
 - "lucky_color": egy szín magyarul
@@ -444,7 +457,8 @@ def retro_prompt(event: dict, d: date) -> str:
     return f"""Írj egy "Ekkor történt" magazincikket erről az eseményről ({HU_MONTHS[d.month - 1]} {d.day}.):
 
 Esemény: {event["title"]} ({event["year"]})
-Ellenőrzött tények:
+Ellenőrzött tények (lehetnek angolul – a cikket magyarul írd, a neveket a magyar
+szakirodalomban szokásos alakjukban):
 {facts}
 
 Elvárások:
@@ -463,6 +477,60 @@ def load_events(path: Path) -> dict:
     if not events:
         log.warning("Nincs kurált eseményfájl vagy üres: %s", path)
     return events
+
+
+WIKI_EXCLUDE = re.compile(
+    r"\b(kill|killed|killing|massacre|bomb|bombing|attack|shoot|shooting|terror|murder|genocide|"
+    r"execut|stampede|hostage|suicide|rape|assassinat|explosion|crash|died|dies|death)\w*", re.I)
+
+
+def wiki_onthisday_event(d: date, http_timeout: int) -> Optional[dict]:
+    """Tartalék: a Wikipédia szerkesztők által válogatott „On this day” eseményei (en).
+    A tények a Wikipédiából jönnek (esemény + cikkkivonat), az AI csak megfogalmaz."""
+    url = f"https://en.wikipedia.org/api/rest_v1/feed/onthisday/selected/{d.month:02d}/{d.day:02d}"
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "KollektivaBot/1.0 (https://kollektiva.hu; bot@kollektiva.hu)",
+        "Accept": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=http_timeout) as resp:
+            items = json.loads(resp.read().decode("utf-8")).get("selected", [])
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError) as e:
+        log.warning("Wikipédia On this day nem elérhető: %s", e)
+        return None
+
+    min_age = 25
+    candidates = []
+    for it in items:
+        text, year, pages = it.get("text", ""), it.get("year"), it.get("pages") or []
+        if not text or not isinstance(year, int) or year > d.year - min_age or not pages:
+            continue
+        extracts = [p.get("extract", "") for p in pages[:2] if p.get("extract")]
+        if WIKI_EXCLUDE.search(text) or not extracts:
+            continue
+        score = 2 if re.search(r"Hungar|Budapest", text + " ".join(extracts)) else 0
+        candidates.append((score, it, pages, extracts))
+    if not candidates:
+        log.warning("Nincs megfelelő Wikipédia-esemény erre a napra (%s).", d.strftime("%m-%d"))
+        return None
+    best = max(c[0] for c in candidates)
+    pool = [c for c in candidates if c[0] == best]
+    _, it, pages, extracts = seeded_rng("wiki", d.isoformat()).choice(pool)
+    main = pages[0]
+    title = (main.get("normalizedtitle") or main.get("title", "")).replace("_", " ")
+    sources = [{"url": p.get("content_urls", {}).get("desktop", {}).get("page", ""),
+                "title": (p.get("normalizedtitle") or p.get("title", "")).replace("_", " "),
+                "publisher": "Wikipedia", "license": "CC BY-SA 4.0"}
+               for p in pages[:2] if p.get("content_urls")]
+    return {
+        "year": it["year"],
+        "title": it["text"].rstrip(".")[:120] or title,
+        "summary": it["text"],
+        "facts": [f'{it["year"]}: {it["text"]}', *extracts],
+        "tags": [],
+        "sources": sources,
+        "origin": "wikipedia",
+        "language": "en",
+    }
 
 
 def pick_event(events: dict, d: date) -> Optional[dict]:
@@ -536,8 +604,13 @@ def slugify(text: str) -> str:
 def build_retro_article(ai: AIClient, d: date, tz: ZoneInfo, events: dict) -> Optional[dict]:
     event = pick_event(events, d)
     if not event:
-        log.warning("Nincs kurált esemény erre a napra (%s) – retro cikk kimarad.", d.strftime("%m-%d"))
-        return None
+        log.info("Nincs kurált esemény erre a napra (%s) – Wikipédia-tartalék.", d.strftime("%m-%d"))
+        if not ai.enabled:
+            log.warning("AI nélkül a Wikipédia-tartalék nem használható – retro cikk kimarad.")
+            return None
+        event = wiki_onthisday_event(d, ai.cfg.http_timeout)
+        if not event:
+            return None
 
     source = "fallback"
     article = None
@@ -548,6 +621,9 @@ def build_retro_article(ai: AIClient, d: date, tz: ZoneInfo, events: dict) -> Op
         except (AIError, ValueError, TypeError, KeyError) as e:
             log.error("Retro AI generálás sikertelen: %s – fallback cikk", e)
     if article is None:
+        if event.get("origin") == "wikipedia":
+            log.warning("Wikipédia-eseményből AI nélkül nem készül cikk – kimarad.")
+            return None
         article = fallback_retro(event)
 
     now_iso = datetime.now(tz).isoformat(timespec="seconds")
@@ -557,7 +633,8 @@ def build_retro_article(ai: AIClient, d: date, tz: ZoneInfo, events: dict) -> Op
         log.warning("A kurált eseménynek nincs forrása – a séma legalább egyet vár: %s", event["title"])
     is_ai = source.startswith("ai:")
     slug = slugify(f"{d.year}-{event['title']}")
-    status = "needs_review" if is_ai else "published"
+    auto_publish = os.getenv("RETRO_AUTO_PUBLISH", "false").lower() in ("1", "true", "yes")
+    status = "published" if (not is_ai or auto_publish) else "needs_review"
     return {
         # --- Azonosítás, állapot ---
         "id": str(uuid.uuid5(uuid.NAMESPACE_URL, f"https://kollektiva.hu/retro/{slug}")),
