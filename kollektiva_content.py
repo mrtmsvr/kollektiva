@@ -1396,6 +1396,7 @@ def pick_story(section: dict, used_links: set, now: datetime, timeout: int, max_
         score = len(publishers) * 3 + len(group) + fresh + min(len(it["summary"]), 400) / 400
         if score > best_score:
             best, best_score = group, score
+    best[0]["hot_score"] = round(best_score, 2)
     return best[:4]
 
 
@@ -1409,7 +1410,8 @@ Forráskivonatok:
 {src}
 {bg_block}
 Írj ebből egy eredeti, magyar nyelvű magazincikket:
-- "title": RÖVID (max. 8 szó), ütős, kíváncsiságot keltő cím – de ne hazudjon és ne túlozzon
+- "title": RÖVID (max. 7 szó), közepesen clickbait cím: kíváncsiságot keltő fordulat, meglepő szám vagy kérdés
+  (pl. „Ezért drágul…”, „Kiderült, mi…”, „X forintot…”) – de legyen igaz, ne ijesztgessen és ne túlozzon
 - "lead": 2 mondatos bevezető: mi történt és miért fontos
 - "key_points": 3 rövid, egymondatos pont a lényegről („Röviden” doboz)
 - "body": 4–6 bekezdés (tömb), összesen kb. 350–600 szó: a tények, a háttér, és hogy mit jelent ez a
@@ -1465,6 +1467,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, us
         "locale": "hu-HU", "hero_image": image, "sources": sources,
         "authorship": {"mode": "ai_generated", "byline": "Kollektíva szerkesztőség", "model": ai.label.split(":", 2)[-1],
                        "prompt_version": "section-v1", "reviewed_by": None, "reviewed_at": None},
+        "hot_score": story[0].get("hot_score", 0),
         "category_meta": {"source_links": [s["link"] for s in story]},
         "date": d.isoformat(), "date_label": f"{HU_MONTHS[d.month - 1]} {d.day}.",
         "url": f"/{section['id']}/{slug}/",
