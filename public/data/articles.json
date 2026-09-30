@@ -1,7 +1,110 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T15:39:01+02:00",
+  "updated_at": "2026-09-30T15:39:48+02:00",
   "articles": [
+    {
+      "id": "1a09daec-5dcc-5474-b1f5-d7968f63420d",
+      "slug": "2026-09-30-182-milliard-forintbol-ujul-meg-a-villamoshalozat",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "MVM",
+        "energetika",
+        "hálózatfejlesztés",
+        "okosmérő",
+        "megújuló energia"
+      ],
+      "title": "182 milliárd forintból újul meg a villamoshálózat",
+      "subtitle": null,
+      "lead": "Több mint 180 milliárd forintos, uniós támogatású fejlesztési program indult az MVM csoport két leányvállalatánál a hazai villamosenergia-rendszer modernizálására. A beruházás célja, hogy a hálózat képes legyen kezelni a megújuló energiaforrások terjedésével járó kihívásokat.",
+      "key_points": [
+        "Az MVM Démász és az MVM Émász 184,8 milliárd forintból növeli a hálózati csatlakozási kapacitásokat.",
+        "A projekthez 138,6 milliárd forintos európai uniós támogatás társul 75 százalékos intenzitással.",
+        "A program részeként több mint 230 ezer okosmérőt is telepítenek 2030 végéig.",
+        "A fejlesztések kizárólag a két érintett társaság saját működési területére vonatkoznak."
+      ],
+      "content": "Az MVM Démász Áramhálózati Kft. és az MVM Émász Áramhálózati Kft. összesen 1400 megawattnyival növeli a megújuló alapú energiatermelők hálózati csatlakozási kapacitását. A Világgazdaság beszámolója szerint a teljes fejlesztéssorozat 184,8 milliárd forintba kerül, amelyből 138,6 milliárd forintot uniós forrás biztosít 75 százalékos támogatási intenzitással.\n\nA hazai villamosenergia-rendszer az elmúlt évtizedekben alapvető átalakuláson ment keresztül. Kovács Gábor, az MVM Energetika Zrt. infrastruktúráért felelős vezérigazgató-helyettese szerint míg korábban néhány nagy erőmű biztosította a statikus energiaáramlást, mára kiserőművek sokasága csatlakozott a rendszerbe. 2026 augusztusáig az időjárásfüggő energiatermelők beépített teljesítménye elérte a 9,2 gigawattot, amiből 8,8 gigawatt a naperőművekhez köthető, míg a Paksi Atomerőmű teljesítménye 2 gigawatt.\n\nA nagyszabású program keretében a hálózatfejlesztés mellett 230 759 darab okosmérőt is kihelyeznek a fogyasztókhoz 13,145 milliárd forintból. Hiezl Gábor, a két hálózati társaság ügyvezető igazgatója elmondta, hogy ezek az eszközök valós idejű adatszolgáltatással segítik a döntéshozatalt és az üzemzavarok gyorsabb elhárítását. A beruházásokhoz kapcsolódó munkák az RRF nevű uniós alapon keresztül valósulnak meg, és a projektek lezárása 2030. december 31-re várható.\n\nA hálózati társaságok együttműködéséről szólva a vezetés hangsúlyozta, hogy a jelenlegi fejlesztések kizárólag a saját működési területükre korlátozódnak. Emiatt a program nem érinti azt a területet, amelyről az MFB által alkalmazott átláthatósági követelmények hiánya miatt kizárt OPUS TITÁSZ Áramhálózati Zrt. lemaradt.",
+      "content_format": "markdown",
+      "body": [
+        "Az MVM Démász Áramhálózati Kft. és az MVM Émász Áramhálózati Kft. összesen 1400 megawattnyival növeli a megújuló alapú energiatermelők hálózati csatlakozási kapacitását. A Világgazdaság beszámolója szerint a teljes fejlesztéssorozat 184,8 milliárd forintba kerül, amelyből 138,6 milliárd forintot uniós forrás biztosít 75 százalékos támogatási intenzitással.",
+        "A hazai villamosenergia-rendszer az elmúlt évtizedekben alapvető átalakuláson ment keresztül. Kovács Gábor, az MVM Energetika Zrt. infrastruktúráért felelős vezérigazgató-helyettese szerint míg korábban néhány nagy erőmű biztosította a statikus energiaáramlást, mára kiserőművek sokasága csatlakozott a rendszerbe. 2026 augusztusáig az időjárásfüggő energiatermelők beépített teljesítménye elérte a 9,2 gigawattot, amiből 8,8 gigawatt a naperőművekhez köthető, míg a Paksi Atomerőmű teljesítménye 2 gigawatt.",
+        "A nagyszabású program keretében a hálózatfejlesztés mellett 230 759 darab okosmérőt is kihelyeznek a fogyasztókhoz 13,145 milliárd forintból. Hiezl Gábor, a két hálózati társaság ügyvezető igazgatója elmondta, hogy ezek az eszközök valós idejű adatszolgáltatással segítik a döntéshozatalt és az üzemzavarok gyorsabb elhárítását. A beruházásokhoz kapcsolódó munkák az RRF nevű uniós alapon keresztül valósulnak meg, és a projektek lezárása 2030. december 31-re várható.",
+        "A hálózati társaságok együttműködéséről szólva a vezetés hangsúlyozta, hogy a jelenlegi fejlesztések kizárólag a saját működési területükre korlátozódnak. Emiatt a program nem érinti azt a területet, amelyről az MFB által alkalmazott átláthatósági követelmények hiánya miatt kizárt OPUS TITÁSZ Áramhálózati Zrt. lemaradt."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 249,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Anemometer%2C_Solar_plant%2C_2025_Nagyv%C3%A1zsony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 2192,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Solar plant. 'Nagyvázsony, parcel number 099/3' unit, Transformer Station 46906, operated by MVM Green Generation Group - at the end of Széchenyi István Street, Nagyvázsony, Veszprém County, Hungary.",
+        "credit": "Globetrotter19 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Anemometer,_Solar_plant,_2025_Nagyv%C3%A1zsony.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/09/mvm-rendszer-demasz-emasz-beruhazas?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Elárulta az MVM, hogy mi a terve Mészáros Lőrincék „körzetével\": ez jöhet az OPUS TITÁSZ kiesése után – több mint 180 milliárd forintos projektről hullt le a lepel",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T15:33:34+02:00"
+        },
+        {
+          "url": "https://telex.hu/gazdasag/2026/09/30/mvm-csoport-185-milliard-forint-fejlesztes-villamosenergia-halozat",
+          "title": "185 milliárd forintból, részben uniós támogatásból fejleszti a villamosenergia-hálózatot az MVM",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T15:33:34+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-09-30T15:39:48+02:00"
+      },
+      "hot_score": 9.44,
+      "category_meta": {
+        "source_links": [
+          "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/09/mvm-rendszer-demasz-emasz-beruhazas?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "https://telex.hu/gazdasag/2026/09/30/mvm-csoport-185-milliard-forint-fejlesztes-villamosenergia-halozat"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/penzvilag/2026-09-30-182-milliard-forintbol-ujul-meg-a-villamoshalozat/",
+      "seo": {
+        "meta_title": "182 milliárd forintból újul meg a villamoshálózat",
+        "meta_description": "Több mint 180 milliárd forintos, uniós támogatású fejlesztési program indult az MVM csoport két leányvállalatánál a hazai villamosenergia-rendszer modernizálásá",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-09-30-182-milliard-forintbol-ujul-meg-a-villamoshalozat/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/8/80/Anemometer%2C_Solar_plant%2C_2025_Nagyv%C3%A1zsony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "e62c3fc66311640ce2eef47c8a644796f2595dad1f62bfe5cf0084eb4b82d423",
+      "pipeline_run_id": "36722227905",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T15:39:48+02:00",
+      "updated_at": "2026-09-30T15:39:48+02:00",
+      "published_at": "2026-09-30T15:39:48+02:00",
+      "expires_at": null
+    },
     {
       "id": "d120b396-5efb-5543-8f09-166ce4129faf",
       "slug": "2026-09-30-nem-irta-ala-a-sandor-palota-az-egeszsegugyi-kamarai-modositast",
