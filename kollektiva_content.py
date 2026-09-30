@@ -584,13 +584,16 @@ def _image_from_info(info: dict, fname: str = "") -> Optional[dict]:
     if re.search(r"\.(pdf|djvu|tiff?|webm|ogv|ogg|mp3|wav|stl)$", fname, re.I):
         return None  # nem fotó (dokumentum, videó, hang)
     ratio = w / h if h else 0
-    kind = "graphic" if (GRAPHIC_HINT.search(fname) or w < 800 or not 1.2 <= ratio <= 2.2) else "photo"
+    # álló (portré) fotó: nem grafika, hanem kép, amit felülre igazítva vágunk (az arc ne vesszen el)
+    portrait = not GRAPHIC_HINT.search(fname) and w >= 600 and 0.5 <= ratio < 1.2
+    kind = "photo" if portrait else ("graphic" if (GRAPHIC_HINT.search(fname) or w < 800 or not 1.2 <= ratio <= 2.2) else "photo")
     artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip() or "ismeretlen szerző"
     return {
         "url": info.get("thumburl") or info["url"],
         "width": info.get("thumbwidth") or w,
         "height": info.get("thumbheight") or h,
         "kind": kind,
+        "pos": "top" if portrait else "center",
         "alt": re.sub(r"<[^>]+>", "", meta.get("ImageDescription", {}).get("value", ""))[:200].strip(),
         "credit": f"{artist[:80]} / Wikimedia Commons",
         "license": lic,
@@ -614,17 +617,24 @@ def commons_image(page: dict, timeout: int) -> Optional[dict]:
 
 
 def commons_search_image(query: str, timeout: int, strict: bool = True, avoid: Optional[set] = None) -> Optional[dict]:
-    """Szabad licencű kép keresése a Wikimedia Commonson (fotót részesít előnyben).
+    """Szabad licencű kép keresése a Wikimedia Commonson (fotót részesít előnyben)."""
+    found = commons_search_images(query, timeout, strict, avoid, limit=1)
+    return found[0] if found else None
+
+
+def commons_search_images(query: str, timeout: int, strict: bool = True, avoid: Optional[set] = None,
+                          limit: int = 4) -> list:
+    """Több képjelölt a Commonsról (előbb a fotók, aztán a grafikák).
     strict=True: a keresőszó minden jellegzetes szavának (max. 2) szerepelnie kell a fájlnévben/leírásban."""
     if not query:
-        return None
+        return []
     data = http_get_json("https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search"
                          f"&gsrnamespace=6&gsrlimit=10&gsrsearch={urllib.parse.quote(query)}"
                          "&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=1200", timeout)
     try:
         pages = sorted(data["query"]["pages"].values(), key=lambda p: p.get("index", 99))
     except (TypeError, KeyError):
-        return None
+        return []
     # Csak olyan képet fogadunk el, amelynek fájlneve/leírása tényleg a keresett dologról szól
     # (különben pl. egy ELTE-s hírhez egy indiai előadás képe jönne be).
     def norm(t: str) -> str:
@@ -633,7 +643,7 @@ def commons_search_image(query: str, timeout: int, strict: bool = True, avoid: O
                "picture", "center", "centre", "house", "street", "group", "meeting", "hungary", "hungarian"}
     tokens = [w for w in re.findall(r"\w{4,}", norm(query)) if w not in generic] or re.findall(r"\w{4,}", norm(query))
     need = 2 if strict else 1
-    graphic = None
+    photos, graphics = [], []
     for pg in pages:
         info = (pg.get("imageinfo") or [None])[0]
         if not info:
@@ -645,16 +655,21 @@ def commons_search_image(query: str, timeout: int, strict: bool = True, avoid: O
         img = _image_from_info(info, pg.get("title", ""))
         if img and avoid and img["url"] in avoid:
             continue  # ezt a képet nemrég már használtuk
-        if img and img["kind"] == "photo":
-            return img
-        graphic = graphic or img
-    return graphic
+        if img:
+            (photos if img["kind"] == "photo" else graphics).append(img)
+    return (photos + graphics)[:limit]
 
 
 def openverse_image(query: str, timeout: int, avoid: Optional[set] = None) -> Optional[dict]:
     """Általános témához (pl. „coffee cup”) szabad licencű fotó az Openverse-ből (Flickr CC stb.)."""
+    found = openverse_images(query, timeout, avoid, limit=1)
+    return found[0] if found else None
+
+
+def openverse_images(query: str, timeout: int, avoid: Optional[set] = None, limit: int = 4) -> list:
     if not query:
-        return None
+        return []
+    out = []
     data = http_get_json("https://api.openverse.org/v1/images/?page_size=12&license_type=commercial"
                          f"&mature=false&q={urllib.parse.quote(query)}", timeout)
     words = [w for w in re.findall(r"\w{3,}", query.lower())]
@@ -666,10 +681,12 @@ def openverse_image(query: str, timeout: int, avoid: Optional[set] = None) -> Op
             continue
         lic = f"{(r.get('license') or '').upper()} {r.get('license_version') or ''}".strip()
         lic = "Public domain" if lic.startswith(("PDM", "CC0")) else ("CC " + lic.replace("BY-SA", "BY-SA"))
-        return {"url": r["url"], "width": w, "height": h, "kind": "photo", "alt": (r.get("title") or "")[:200],
-                "credit": f"{(r.get('creator') or 'ismeretlen szerző')[:80]} / {r.get('source') or 'Openverse'}",
-                "license": lic, "source_url": r.get("foreign_landing_url") or r["url"]}
-    return None
+        out.append({"url": r["url"], "width": w, "height": h, "kind": "photo", "alt": (r.get("title") or "")[:200],
+                    "credit": f"{(r.get('creator') or 'ismeretlen szerző')[:80]} / {r.get('source') or 'Openverse'}",
+                    "license": lic, "source_url": r.get("foreign_landing_url") or r["url"]})
+        if len(out) >= limit:
+            break
+    return out
 
 
 def find_image(specific: list, generic: list, timeout: int, avoid: Optional[set] = None) -> Optional[dict]:
@@ -688,6 +705,27 @@ def find_image(specific: list, generic: list, timeout: int, avoid: Optional[set]
         if img:
             return img
     return None
+
+
+def find_images(specific: list, generic: list, timeout: int, avoid: Optional[set] = None, limit: int = 4) -> list:
+    """Képjelöltek a Telegramos kiválasztáshoz: a konkrét találatok elöl, utána az általános hangulatképek."""
+    out, seen = [], set(avoid or ())
+    def add(items: list) -> None:
+        for im in items:
+            if im["url"] not in seen and len(out) < limit:
+                seen.add(im["url"])
+                out.append(im)
+    for q in specific:
+        q = str(q or "").strip()[:60]
+        if q and not (re.search(r"parliament|országház", q, re.I) and len(specific) > 1):
+            add(commons_search_images(q, timeout, strict=True, avoid=seen, limit=2))
+    for q in generic:
+        q = str(q or "").strip()[:40]
+        if q and len(out) < limit:
+            add(openverse_images(q, timeout, seen, limit=2))
+            if len(out) < limit:
+                add(commons_search_images(q, timeout, strict=False, avoid=seen, limit=1))
+    return out
 
 
 def wiki_onthisday_event(d: date, http_timeout: int) -> Optional[dict]:
@@ -965,7 +1003,7 @@ details.box summary{cursor:pointer;color:var(--parch);font-weight:600}
 .related{margin:48px 0 0}.related h2{font-size:26px;margin-bottom:14px}
 .rel-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px}
 .rel-grid a{text-decoration:none;display:block}.rel-grid img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;background:var(--vault)}
-.rel-grid img.graphic{object-fit:contain;padding:14px;background:#ECE6D8}
+.rel-grid img.graphic{object-fit:contain;padding:14px;background:#ECE6D8}.rel-grid img.top,.slist img.top{object-position:50% 15%}
 .rel-grid .t{margin-top:3px;font-weight:600;line-height:1.35;color:var(--parch)}.rel-grid .k{margin-top:12px;font-size:12px;line-height:1.3;color:var(--brass);text-transform:uppercase;letter-spacing:.1em}
 .logo{display:flex;align-items:center;gap:10px;font:600 26px/1 "Cormorant Garamond",Georgia,serif;text-decoration:none}
 .logo svg{height:38px;width:auto;flex:none}.logo b{color:var(--brass);font-weight:600}
@@ -1109,7 +1147,7 @@ def _related_html(related: list) -> str:
     for r in related[:4]:
         img = r.get("hero_image") or {}
         sec = SECTIONS.get(r.get("category"), RETRO_SECTION)
-        pic = (f'<img class="{E(img.get("kind", "photo"))}" src="{E(img["url"])}" alt="" loading="lazy">'
+        pic = (f'<img class="{E(img.get("kind", "photo"))}{" top" if img.get("pos") == "top" else ""}" src="{E(img["url"])}" alt="" loading="lazy">'
                if img.get("url") else "")
         cards.append(f'<a href="{E(r["url"])}">{pic}<div class="k">{E(sec["kicker"])}</div>'
                      f'<div class="t">{E(r["title"])}</div></a>')
@@ -1160,7 +1198,7 @@ def render_section_index(section: dict, articles: list) -> str:
     def item(a: dict) -> str:
         img = a.get("hero_image") or {}
         year = a.get("category_meta", {}).get("event_year", "") if section["id"] == "retro" else ""
-        pic = (f'<img class="{E(img.get("kind", "photo"))}" src="{E(img["url"])}" alt="" loading="lazy">'
+        pic = (f'<img class="{E(img.get("kind", "photo"))}{" top" if img.get("pos") == "top" else ""}" src="{E(img["url"])}" alt="" loading="lazy">'
                if img.get("url") else f'<span class="ph">{E(str(year) or section["kicker"])}</span>')
         return (f'<li><a href="{E(a["url"])}">{pic}<span>'
                 + (f'<span class="y">{E(str(year))}</span><br>' if year else "")
@@ -1557,6 +1595,7 @@ de a tényeiket SOHA ne keverd a fő eseményével. Ha nem illenek, hagyd ki ők
 Írj ebből egy eredeti, magyar nyelvű magazincikket:
 - "title": RÖVID (max. 7 szó), közepesen clickbait cím: kíváncsiságot keltő fordulat, meglepő szám vagy kérdés
   (pl. „Ezért drágul…”, „Kiderült, mi…”, „X forintot…”) – de legyen igaz, ne ijesztgessen és ne túlozzon
+- "title_options": 2 további, eltérő stílusú címváltozat (ugyanazokkal a szabályokkal), tömbként
 - "lead": 2 mondatos bevezető: mi történt és miért fontos
 - "key_points": 3 rövid, egymondatos pont a lényegről („Röviden” doboz)
 - "body": bekezdések tömbje. A HOSSZ A TARTALOMHOZ IGAZODJON: egyszerű hírnél 300–450 szó elég; ha a téma
@@ -1583,7 +1622,7 @@ de a tényeiket SOHA ne keverd a fő eseményével. Ha nem illenek, hagyd ki ők
   (pl. "coffee cup", "courtroom", "police car", "stock market", "theatre stage", "rocket launch")
 
 Kizárólag ezt a JSON-t add vissza:
-{{"title": "...", "lead": "...", "key_points": ["...", "...", "..."], "body": ["...", "..."], "tags": ["..."], "image_query": "...", "image_query_alt": ["..."], "image_generic": "..."}}"""
+{{"title": "...", "title_options": ["...", "..."], "lead": "...", "key_points": ["...", "...", "..."], "body": ["...", "..."], "tags": ["..."], "image_query": "...", "image_query_alt": ["..."], "image_generic": "..."}}"""
 
 
 def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, story: list,
@@ -1615,8 +1654,14 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         log.error("[%s] AI cikkírás sikertelen: %s – kimarad.", section["id"], e)
         return None
     generic = raw.get("image_generic")
-    image = find_image([raw.get("image_query"), *(raw.get("image_query_alt") or [])][:3],
-                       generic if isinstance(generic, list) else [generic], ai.cfg.http_timeout, avoid_images)
+    image_options = find_images([raw.get("image_query"), *(raw.get("image_query_alt") or [])][:3],
+                                generic if isinstance(generic, list) else [generic], ai.cfg.http_timeout, avoid_images)
+    image = image_options[0] if image_options else None
+    title_options = [art["title"]]
+    for t in raw.get("title_options") or []:
+        t = str(t).strip()
+        if t and t not in title_options and not title_too_similar(t, story):
+            title_options.append(t)
     now_iso = now.isoformat(timespec="seconds")
     slug = slugify(f"{d.isoformat()}-{art['title']}")
     sources = normalize_sources([{"url": s["link"], "title": s["title"], "publisher": s["source"]} for s in story], now_iso)
@@ -1634,6 +1679,8 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         "authorship": {"mode": "ai_generated", "byline": "Kollektíva szerkesztőség", "model": ai.label.split(":", 2)[-1],
                        "prompt_version": "section-v2", "reviewed_by": None, "reviewed_at": None},
         "hot_score": story[0].get("hot_score", 0),
+        "title_options": title_options[:3], "image_options": image_options,
+        "story": [{k: s.get(k) for k in ("title", "link", "summary", "source", "related", "hot_score")} for s in story],
         "category_meta": {"source_links": [s["link"] for s in story if not s.get("related")]},
         "date": d.isoformat(), "date_label": f"{HU_MONTHS[d.month - 1]} {d.day}.",
         "url": f"/{section['id']}/{slug}/",
@@ -1659,16 +1706,26 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
     path = output_dir / "articles.json"
     data = read_json(path, {"articles": []})
     articles = data.get("articles", [])
-    used_links = {l for a in articles for l in a.get("category_meta", {}).get("source_links", [])}
+    review = None
+    if os.getenv("TELEGRAM_BOT_TOKEN"):
+        import telegram_review as review  # emberi jóváhagyás Telegramon
+        review.poll(output_dir, ai, tz)  # előbb a beérkezett válaszok (pl. első üzenet = összekötés)
+        if not review.enabled(output_dir):
+            review = None
+    pending = review.load_pending(output_dir) if review else []
+    used_links = {l for a in articles + pending for l in a.get("category_meta", {}).get("source_links", [])}
+    if review:
+        used_links |= review.rejected_links(output_dir)
+    articles_all = articles + pending
     now = datetime.now(tz)
     recent_kw = [_keywords(a.get("title", "") + " " + " ".join(s.get("title", "") for s in a.get("sources", [])))
-                 for a in articles if (a.get("created_at") or "") >= (now - timedelta(hours=48)).isoformat()]
+                 for a in articles_all if (a.get("created_at") or "") >= (now - timedelta(hours=48)).isoformat()]
     wanted = [x.strip() for x in os.getenv("SECTION_IDS", ",".join(SECTIONS)).split(",") if x.strip() in SECTIONS]
     max_run = int(os.getenv("MAX_ARTICLES_PER_RUN", "2"))
     # Napi keret (ingyenes AI-kvóta + Cloudflare-buildek): a napi cikkszám nem lépheti túl a DAILY_ARTICLE_LIMIT-et,
     # és a keret egyenletesen oszlik el a nap futásai között (ne fogyjon el délelőtt).
     daily_limit = int(os.getenv("DAILY_ARTICLE_LIMIT", "16"))
-    made_today = sum(1 for a in articles if a.get("date") == d.isoformat() and a.get("category") in SECTIONS)
+    made_today = sum(1 for a in articles_all if a.get("date") == d.isoformat() and a.get("category") in SECTIONS)
     runs_left = max(1, (22 - now.hour) // 2 + 1)  # hátralévő kétórás futások ma (kb. 22 óráig)
     max_run = max(0, min(max_run, daily_limit - made_today, -(-(daily_limit - made_today) // runs_left)))
     if max_run == 0:
@@ -1679,7 +1736,7 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
     recent_imgs = {(a.get("hero_image") or {}).get("url") for a in articles[:60]} - {None}
     cands = []
     for sid in wanted:
-        today = sum(1 for a in articles if a.get("category") == sid and a.get("date") == d.isoformat())
+        today = sum(1 for a in articles_all if a.get("category") == sid and a.get("date") == d.isoformat())
         for group in pick_story(SECTIONS[sid], used_links, now, ai.cfg.http_timeout):
             kw = group[0]["kw"]
             if any(len(kw & rk) >= 4 for rk in recent_kw):
@@ -1700,14 +1757,23 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
         recent_kw.append(group[0]["kw"])
         if art.get("hero_image"):
             recent_imgs.add(art["hero_image"]["url"])
-        articles.insert(0, art)
+        if review:
+            art["status"] = "pending"
+            review.send_article(output_dir, art)
+            pending.append(art)
+        else:
+            for k in ("title_options", "image_options", "story"):
+                art.pop(k, None)
+            articles.insert(0, art)
         made += 1
         per_section[sid] = 1
         log.info("✔ [%s] \"%s\" (pont: %.1f, %s forrás, kép: %s)", sid, art["title"], score, len(art["sources"]),
                  (art["hero_image"] or {}).get("kind", "nincs"))
         time.sleep(pause)  # ingyenes AI-keret: ne fussunk bele a percenkénti limitbe
+    if review and not dry_run:
+        review.save_pending(output_dir, pending)
     articles.sort(key=lambda a: a.get("created_at", ""), reverse=True)
-    if made and not dry_run:
+    if made and not dry_run and not review:
         write_json_atomic(path, {"schema_version": 1, "updated_at": datetime.now(tz).isoformat(timespec="seconds"),
                                  "articles": articles[:int(os.getenv("ARTICLES_ARCHIVE_LIMIT", "600"))]})
     log.info("Rovatcikkek: %d új (%d jelölt)", made, len(cands))
