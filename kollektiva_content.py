@@ -1559,8 +1559,10 @@ de a tényeiket SOHA ne keverd a fő eseményével. Ha nem illenek, hagyd ki ők
   (pl. „Ezért drágul…”, „Kiderült, mi…”, „X forintot…”) – de legyen igaz, ne ijesztgessen és ne túlozzon
 - "lead": 2 mondatos bevezető: mi történt és miért fontos
 - "key_points": 3 rövid, egymondatos pont a lényegről („Röviden” doboz)
-- "body": 6–9 bekezdés (tömb), összesen kb. 600–900 szó (3–5 perc olvasás); ha a forrásokban kevés a tény,
-  inkább 400–500 szó legyen, mint töltelék. Tartalom: a tények részletesen, előzmények és háttér (ki kicsoda,
+- "body": bekezdések tömbje. A HOSSZ A TARTALOMHOZ IGAZODJON: egyszerű hírnél 300–450 szó elég; ha a téma
+  érdekes és a forrásokban (vagy a háttérben) sok valódi tény, előzmény, szám, álláspont van, mehet 600–900 szó
+  (3–5 perc olvasás). SOHA ne nyújtsd a szöveget: minden mondat új információt adjon, ismétlés, általánosság,
+  „kerekítő” zárómondat tilos – a kevesebb néha több. Tartalom: a tények, előzmények és háttér (ki kicsoda,
   mi történt korábban), számok és összefüggések, eltérő álláspontok, és hogy mit jelent ez a
   hétköznapi olvasónak. Az első bekezdésben egy teljes mondatba építve nevezd meg a forrást
   (pl. „A Telex beszámolója szerint …”) – ne külön sorban.
@@ -1663,6 +1665,15 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
                  for a in articles if (a.get("created_at") or "") >= (now - timedelta(hours=48)).isoformat()]
     wanted = [x.strip() for x in os.getenv("SECTION_IDS", ",".join(SECTIONS)).split(",") if x.strip() in SECTIONS]
     max_run = int(os.getenv("MAX_ARTICLES_PER_RUN", "2"))
+    # Napi keret (ingyenes AI-kvóta + Cloudflare-buildek): a napi cikkszám nem lépheti túl a DAILY_ARTICLE_LIMIT-et,
+    # és a keret egyenletesen oszlik el a nap futásai között (ne fogyjon el délelőtt).
+    daily_limit = int(os.getenv("DAILY_ARTICLE_LIMIT", "16"))
+    made_today = sum(1 for a in articles if a.get("date") == d.isoformat() and a.get("category") in SECTIONS)
+    runs_left = max(1, (22 - now.hour) // 2 + 1)  # hátralévő kétórás futások ma (kb. 22 óráig)
+    max_run = max(0, min(max_run, daily_limit - made_today, -(-(daily_limit - made_today) // runs_left)))
+    if max_run == 0:
+        log.info("A mai cikkkeret (%d) elfogyott – ebben a futásban nincs új cikk.", daily_limit)
+        return 0
     min_score = float(os.getenv("MIN_HOT_SCORE", "5"))
     pause = int(os.getenv("AI_PAUSE_SECONDS", "8"))
     recent_imgs = {(a.get("hero_image") or {}).get("url") for a in articles[:60]} - {None}
