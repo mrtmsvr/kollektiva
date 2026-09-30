@@ -1122,6 +1122,9 @@ BULLET = re.compile(r"^[-•*]\s+")
 
 def _para(p: str) -> str:
     """Bekezdés -> HTML; a „- ” kezdetű sorokból felsorolás lesz."""
+    if p.startswith("## "):  # alcím (összefoglaló cikkekben eseményenként)
+        head, _, rest = p[3:].partition("\n")
+        return f"<h2>{E(head.strip())}</h2>" + (_para(rest.strip()) if rest.strip() else "")
     lines = [l.strip() for l in p.split("\n") if l.strip()]
     bullets = [l for l in lines if BULLET.match(l)]
     if not bullets:
@@ -1591,20 +1594,24 @@ Forráskivonatok:
 FŐ TÉMA az [1]-es forrás eseménye. A [KAPCSOLÓDÓ] jelű források másik, de összefüggő eseményről szólnak: ha tényleg
 tágítják a képet, külön bekezdés(ek)ben, egyértelmű átvezetéssel említsd őket („Közben…”, „Egy másik ügyben…”),
 de a tényeiket SOHA ne keverd a fő eseményével. Ha nem illenek, hagyd ki őket.
+ÖSSZEFOGLALÓ: ha a cikk végül egynél több, külön eseményről szól, akkor legyen nyíltan összefoglaló: a cím ezt
+jelezze (pl. „Tech-körkép: …”, „A nap legérdekesebb űrhírei”), a "key_points"-ban eseményenként egy pont, és minden
+esemény külön blokkban szerepeljen, a blokk első bekezdése „## Rövid alcím” sorral kezdődjön.
 
 Írj ebből egy eredeti, magyar nyelvű magazincikket:
 - "title": RÖVID (max. 7 szó), közepesen clickbait cím: kíváncsiságot keltő fordulat, meglepő szám vagy kérdés
   (pl. „Ezért drágul…”, „Kiderült, mi…”, „X forintot…”) – de legyen igaz, ne ijesztgessen és ne túlozzon
 - "title_options": 2 további, eltérő stílusú címváltozat (ugyanazokkal a szabályokkal), tömbként
 - "lead": 2 mondatos bevezető: mi történt és miért fontos
-- "key_points": 3 rövid, egymondatos pont a lényegről („Röviden” doboz)
+- "key_points": 3–5 rövid, egymondatos pont a lényegről („Röviden” doboz)
 - "body": bekezdések tömbje. A HOSSZ A TARTALOMHOZ IGAZODJON: egyszerű hírnél 300–450 szó elég; ha a téma
   érdekes és a forrásokban (vagy a háttérben) sok valódi tény, előzmény, szám, álláspont van, mehet 600–900 szó
   (3–5 perc olvasás). SOHA ne nyújtsd a szöveget: minden mondat új információt adjon, ismétlés, általánosság,
   „kerekítő” zárómondat tilos – a kevesebb néha több. Tartalom: a tények, előzmények és háttér (ki kicsoda,
   mi történt korábban), számok és összefüggések, eltérő álláspontok, és hogy mit jelent ez a
-  hétköznapi olvasónak. Az első bekezdésben egy teljes mondatba építve nevezd meg a forrást
-  (pl. „A Telex beszámolója szerint …”) – ne külön sorban.
+  hétköznapi olvasónak. NE a forrás megnevezésével kezdd: az első mondat magáról az eseményről szóljon.
+  A forrást elég egyszer, természetesen beépítve említeni valahol a szövegben (pl. „– írta a Telex”), vagy
+  el is hagyhatod, mert a források listája a cikk alatt ott van.
   Ha személy szerepel, első említéskor egy rövid jelzővel mutasd be, ki ő (pl. „Kovács Anna, az MNB
   alelnöke”) – csak ha ez a forrásból kiderül. Ahol illik, egy bekezdés lehet felsorolás: sorok „- ” jellel.
   Ha egy fogalom, ügy vagy intézmény nem köztudott (pl. „ügynökakták”), egy mondatban magyarázd el, mi az.
