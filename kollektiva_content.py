@@ -1088,7 +1088,7 @@ def _page(title: str, description: str, canonical: str, body: str, head_extra: s
 <main>
 {body}
 </main>
-<footer>© {datetime.now().year} {SITE_NAME}<br><a href="/">Főoldal</a>{NAV_LINKS}<a href="/feed.xml">RSS</a><br><a href="/info/#impresszum">Impresszum</a><a href="/info/#adatkezeles">Adatkezelés</a><a href="/info/#sutik">Sütik</a><a href="/info/#hirdetes">Hirdetés</a></footer>
+<footer>© {datetime.now().year} {SITE_NAME}<br><a href="/">Főoldal</a>{NAV_LINKS}<a href="/feed.xml">RSS</a><br><a href="/info/#impresszum">Impresszum</a><a href="/info/#adatkezeles">Adatkezelés</a><a href="/info/#sutik">Sütik</a><a href="/info/#hirdetes">Hirdetés</a><br><a href="https://www.google.com/preferences/source?q=xn--kollektva-m5a.hu" target="_blank" rel="noopener">★ Kollektíva kedvenc forrásként a Google-ben</a></footer>
 </body>
 </html>
 """
@@ -1453,15 +1453,35 @@ EDIT_SYSTEM = (
 )
 
 
+# Nem magyar ékezetes betűt tartalmazó szavak (pl. „rávädítnek”) – tipikus AI-elírás; idegen tulajdonneveknél lehet jó.
+ODD_WORD = re.compile(r"\b\w*[äëïÿàèìòùâêîôûãõñçøåßæœ]\w*\b", re.I)
+
+
+def _odd_words(raw: dict) -> list:
+    parts = [raw.get("title") or "", raw.get("lead") or ""] + list(raw.get("key_points") or []) + list(raw.get("body") or [])
+    return sorted({w for p in parts for w in ODD_WORD.findall(str(p)) if not w[:1].isupper()})
+
+
 def editorial_polish(ai: "AIClient", raw: dict) -> dict:
-    """Második kör: olvasószerkesztői javítás. Hiba esetén az eredeti marad."""
+    """Második kör: olvasószerkesztői javítás (+ egy célzott kör, ha furcsa, nem magyar betűs szó maradt).
+    Hiba esetén az eredeti marad."""
     keep = {k: raw.get(k) for k in ("title", "lead", "key_points", "body", "tags")}
-    try:
-        fixed = ai.complete_json(EDIT_SYSTEM, json.dumps(keep, ensure_ascii=False), 4000)
-        if isinstance(fixed.get("body"), list) and len(fixed["body"]) >= max(3, len(keep["body"] or []) - 1):
-            return {**raw, **{k: fixed[k] for k in keep if fixed.get(k)}}
-    except (AIError, ValueError, TypeError, KeyError) as e:
-        log.warning("Olvasószerkesztés kimaradt: %s", e)
+    for attempt in range(2):
+        odd = _odd_words(raw)
+        if attempt and not odd:
+            break
+        hint = ("\n\nFIGYELEM, ezek a szavak valószínűleg elgépelések (nem magyar betű van bennük), javítsd őket a "
+                "helyes magyar szóra: " + ", ".join(odd[:15])) if odd else ""
+        try:
+            fixed = ai.complete_json(EDIT_SYSTEM + hint, json.dumps(keep, ensure_ascii=False), 4000)
+            if isinstance(fixed.get("body"), list) and len(fixed["body"]) >= max(3, len(keep["body"] or []) - 1):
+                raw = {**raw, **{k: fixed[k] for k in keep if fixed.get(k)}}
+                keep = {k: raw.get(k) for k in keep}
+        except (AIError, ValueError, TypeError, KeyError) as e:
+            log.warning("Olvasószerkesztés kimaradt: %s", e)
+            break
+    if _odd_words(raw):
+        log.warning("Gyanús szavak maradtak a cikkben: %s", ", ".join(_odd_words(raw)[:10]))
     return raw
 
 
