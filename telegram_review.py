@@ -378,7 +378,7 @@ HELP = ("Szia! Ide küldöm az új Kollektíva-cikkeket jóváhagyásra.\n\n"
         f"• Ha {AUTO_PUBLISH_MIN} percen belül nem döntesz, magától kikerül\n"
         "• 🗓 Saját (időzített) anyag: csendesebb időszakban kerül ki magától, legkésőbb este\n"
         "• Kint lévő cikknél (🟢): cím/kép csere, 🔁 Újraírás (ugyanazon a linken), 🗑 Törlés\n"
-        "• ✅ Rendben: lezárom az ellenőrzést\n"
+        "• ✅ Rendben: jelzés, hogy megnézted – 48 óráig még módosíthatod\n"
         "• ✏️ Saját cím: a gomb után írd be (vagy válaszolj „cím: …”)\n• /lista – függő és kint lévő cikkek")
 
 
@@ -470,10 +470,8 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                     "chat_id": st["chat_id"], "text": f"✏️ Írd be az új címet ehhez: {_chosen_title(art)}",
                     "reply_markup": {"force_reply": True, "input_field_placeholder": "Új cím"}}))
             elif act == "ok" and art.get("live"):
-                pending.remove(art)
-                note = "Rendben ✅"
-                tg("editMessageText", {"chat_id": st["chat_id"], "message_id": q["message"]["message_id"],
-                                       "text": f"✅ Rendben, lezárva: {_chosen_title(art)}"})
+                # nem zárjuk le: PENDING_MAX_AGE_H óráig (alap: 48) még cserélhető a cím/kép, vagy törölhető
+                note = f"Rendben ✅ – {PENDING_MAX_AGE_H} óráig még módosíthatod"
             elif act == "ok":
                 _go_live(out_dir, art, tz)
                 published += 1
