@@ -1088,7 +1088,7 @@ def _page(title: str, description: str, canonical: str, body: str, head_extra: s
 <main>
 {body}
 </main>
-<footer>© {datetime.now().year} {SITE_NAME}<br><a href="/">Főoldal</a>{NAV_LINKS}<a href="/feed.xml">RSS</a></footer>
+<footer>© {datetime.now().year} {SITE_NAME}<br><a href="/">Főoldal</a>{NAV_LINKS}<a href="/feed.xml">RSS</a><br><a href="/info/#impresszum">Impresszum</a><a href="/info/#adatkezeles">Adatkezelés</a><a href="/info/#sutik">Sütik</a><a href="/info/#hirdetes">Hirdetés</a></footer>
 </body>
 </html>
 """
@@ -1221,9 +1221,55 @@ def _rfc822(iso: str) -> str:
         return ""
 
 
+INFO_BODY = """
+<style>article h2{margin-top:40px}</style>
+<p class="kicker">Információ</p>
+<h1>A Kollektíváról</h1>
+<p class="lead">Független online magazin: közélet, világ, pénz, tech, életmód, kultúra, univerzum – és egy kis retro.</p>
+<nav class="box"><a href="#impresszum">Impresszum</a> · <a href="#adatkezeles">Adatkezelési tájékoztató</a> ·
+<a href="#sutik">Sütik</a> · <a href="#hirdetes">Hirdetési ajánlat</a></nav>
+<article>
+<h2 id="impresszum">Impresszum</h2>
+<p>Kiadó és szerkesztő: Kollektíva szerkesztőség.<br>Webcím: kollektíva.hu<br>
+Tárhelyszolgáltató: Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, USA – cloudflare.com</p>
+<p>Cikkeink nyilvános forrásokra (hazai és nemzetközi sajtó, hivatalos közlemények) épülnek; a felhasznált
+forrásokat minden cikk alján feltüntetjük. A képek szabad licencű forrásokból (Wikimedia Commons, Openverse)
+származnak, a szerző és a licenc a kép melletti ⓘ jelre kattintva látható. A horoszkóp szórakoztató célú tartalom.</p>
+
+<h2 id="adatkezeles">Adatkezelési tájékoztató</h2>
+<p><b>Milyen adatot kezelünk?</b> Csak azt, amit te adsz meg: a hírlevélre való feliratkozáskor az e-mail
+címedet és a feliratkozás időpontját.</p>
+<p><b>Mire használjuk?</b> Kizárólag a Heti Kollektíva hírlevél kiküldésére (hetente egyszer). Nem adjuk el,
+nem adjuk át harmadik félnek hirdetési célra.</p>
+<p><b>Hol tároljuk?</b> A hírlevél-listát a Brevo (Sendinblue SAS, Franciaország, EU) levelezőrendszere kezeli.
+Az oldalt a Cloudflare szolgálja ki; ha a látogatottságot mérjük, azt sütik és személyes azonosítás nélkül tesszük.</p>
+<p><b>Leiratkozás, törlés:</b> minden levél alján van leiratkozó link – egy kattintással megszűnik a feliratkozás.
+Adataid törlését, helyesbítését vagy másolatát bármikor kérheted a hírlevélre válaszolva.</p>
+
+<h2 id="sutik">Sütik (cookie-k)</h2>
+<p>Az oldal nem használ követő vagy hirdetési sütiket, ezért nincs mit elfogadnod. A böngésződ csak egy apró,
+helyi beállítást jegyez meg (a horoszkópnál kiválasztott csillagjegyet), ez nem hagyja el a gépedet, és a böngésző
+beállításaiban bármikor törölheted. Ha a jövőben hirdetések vagy mérőeszközök kerülnek az oldalra, itt jelezzük,
+és előtte kérjük a hozzájárulásodat.</p>
+
+<h2 id="hirdetes">Hirdetési ajánlat</h2>
+<p>A Kollektíva jelenleg hirdetésmentes. Hirdetési és együttműködési lehetőségekről (szponzorált tartalom,
+hírlevél-megjelenés) hamarosan itt tájékoztatunk.</p>
+</article>
+"""
+
+
+def build_info_page(public: Path) -> None:
+    d = public / "info"
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "index.html").write_text(_page(f"Információ – {SITE_NAME}", "Impresszum, adatkezelés, sütik, hirdetés.",
+                                        f"{SITE_URL}/info/", INFO_BODY), encoding="utf-8")
+
+
 def build_static_site(output_dir: Path, tz: ZoneInfo) -> None:
     """A publikált cikkekből (retro + rovatok) statikus oldalakat, sitemapeket és RSS-t generál a public/ alá."""
     public = output_dir.parent  # public/data -> public
+    build_info_page(public)
     pool = (read_json(output_dir / "retro_articles.json", {"articles": []}).get("articles", [])
             + read_json(output_dir / "articles.json", {"articles": []}).get("articles", []))
     articles = [a for a in pool if a.get("status") == "published" and a.get("slug") and a.get("seo")]
