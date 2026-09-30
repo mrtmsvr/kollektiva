@@ -483,8 +483,8 @@ def main(argv: Optional[list] = None) -> int:
             kc.build_static_site(cfg.output_dir, tz)
             log.info("✔ %d változás az oldalon", n)
         after = (STATE_FILE.read_text() if STATE_FILE.exists() else "", PENDING_FILE.read_text() if PENDING_FILE.exists() else "")
-        if n or after != before:
-            _save_to_git("Jóváhagyás")
+        if n or after != before or (kc.BASE_DIR / "data" / "deploy_pending").exists():
+            _save_to_git("Jóváhagyás")  # a várakozó kirakást is itt küldi ki, amint lehet
         if time.time() >= deadline - 2:
             break
     return 0
