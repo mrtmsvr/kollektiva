@@ -1214,7 +1214,7 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
     figure = _figure(img, a["title"], eager=True) if img and img.get("url") else ""
     published = (a.get("published_at") or a.get("created_at") or a["date"])[:10]
     sa = [x for x in a.get("see_also") or [] if x.get("url")]
-    see_also = (f'<div class="box seealso"><b>Korábban írtuk</b><ul>' + "".join(
+    see_also = (f'<div class="box seealso"><b>{"Az ügy előzményei" if a.get("thread_id") else "Korábban írtuk"}</b><ul>' + "".join(
         f'<li><a href="{E(x["url"])}">{E(x["title"])}</a>' + (f' <span>· {E(str(x.get("date", ""))[5:].replace("-", ". "))}.</span>' if x.get("date") else "")
         + '</li>' for x in sa[:3]) + '</ul></div>') if sa else ""
     body = f"""<article>
@@ -1724,7 +1724,8 @@ def related_past(articles: list, story: list, limit: int = 3, days: int = 45) ->
             scored.append((len(common), a.get("date", ""), a))
     scored.sort(key=lambda x: (x[0], x[1]), reverse=True)  # legtöbb közös szó, azon belül a legfrissebb
     return [{"id": a.get("id"), "title": a.get("title"), "lead": a.get("lead"), "url": a.get("url"),
-             "date": a.get("date")} for _, _, a in scored[:limit]]
+             "date": a.get("date"), "score": n, "thread_id": a.get("thread_id") or a.get("id")}
+            for n, _, a in scored[:limit]]
 
 
 def section_prompt(section: dict, story: list, d: date, context: Optional[list] = None,
@@ -1734,6 +1735,10 @@ def section_prompt(section: dict, story: list, d: date, context: Optional[list] 
                       for i, s in enumerate(story))
     bg = "\n".join(f"- {c}" for c in (context or []))
     bg_block = f"\nHáttér a szereplőkhöz (magyar Wikipédia – csak magyarázatra, ha tényleg ugyanarról van szó):\n{bg}\n" if bg else ""
+    if past and max(p.get("score", 0) for p in past) >= 4:
+        bg_block += ("\nFOLYTATÁS: ez egy folyamatban lévő ügy ÚJ fejleménye, amelyről korábban már írtunk. A cikk az ÚJ "
+                     "fejleményről szóljon (a cím is ezt tükrözze); az előzményeket legfeljebb egy rövid bekezdésben "
+                     "foglald össze, és ne ismételd meg a korábbi cikkek tartalmát.\n")
     if past:
         bg_block += ("\nKorábbi cikkeink ugyanebben az ügyben (előzményként használhatod – pl. „ahogy korábban megírtuk” –, "
                      "de csak ha tényleg ugyanarról szól; új tényt ne találj ki belőlük):\n"
@@ -1858,6 +1863,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
                          "sponsor_name": None, "affiliate_links": False},
         "related_ids": [p["id"] for p in past or [] if p.get("id")],
         "see_also": [{"title": p["title"], "url": p["url"], "date": p.get("date")} for p in past or [] if p.get("url")],
+        "thread_id": next((p["thread_id"] for p in past or [] if p.get("score", 0) >= 4 and p.get("thread_id")), None),
         "dedupe_hash": hashlib.sha256(f"{section['id']}|{story[0]['link']}".encode()).hexdigest(),
         "pipeline_run_id": os.getenv("GITHUB_RUN_ID"), "generator": ai.label,
         "created_at": now_iso, "updated_at": now_iso, "published_at": now_iso if status == "published" else None,
@@ -1887,8 +1893,11 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
         used_links |= review.rejected_links(output_dir)
     articles_all = articles + [p for p in pending if not p.get("live")]
     now = datetime.now(tz)
+    # Ugyanarról az ügyről FOLLOWUP_MIN_H órán belül nem írunk újra; utána egy új fejlemény már „folytatás” lehet
+    # (a korábbi cikkek előzményként mennek, és a cikkek egy ügyfolyamba kapcsolódnak).
+    followup_h = float(os.getenv("FOLLOWUP_MIN_H", "10"))
     recent_kw = [_keywords(a.get("title", "") + " " + " ".join(s.get("title", "") for s in a.get("sources", [])))
-                 for a in articles_all if (a.get("created_at") or "") >= (now - timedelta(hours=48)).isoformat()]
+                 for a in articles_all if (a.get("created_at") or "") >= (now - timedelta(hours=followup_h)).isoformat()]
     wanted = [x.strip() for x in os.getenv("SECTION_IDS", ",".join(SECTIONS)).split(",") if x.strip() in SECTIONS]
     max_run = int(os.getenv("MAX_ARTICLES_PER_RUN", "2"))
     # Napi keret (ingyenes AI-kvóta + Cloudflare-buildek): a napi cikkszám nem lépheti túl a DAILY_ARTICLE_LIMIT-et,
@@ -1909,7 +1918,7 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
         for group in pick_story(SECTIONS[sid], used_links, now, ai.cfg.http_timeout):
             kw = group[0]["kw"]
             if any(len(kw & rk) >= 4 for rk in recent_kw):
-                continue  # ugyanerről a témáról már írtunk az elmúlt 48 órában
+                continue  # ugyanerről a témáról már írtunk az elmúlt néhány órában
             bonus = 3 if today == 0 else 0  # minden rovatban legyen legalább egy friss cikk naponta
             cands.append((group[0]["hot_score"] + bonus, sid, group))
     cands.sort(key=lambda x: -x[0])
@@ -2073,6 +2082,8 @@ def main(argv: Optional[list] = None) -> int:
         try:
             import offtopic
             offtopic.run(ai, target, tz, cfg.output_dir, args.dry_run)
+            import polls
+            polls.run(ai, target, tz, cfg.output_dir, args.dry_run)
         except Exception as e:  # noqa: BLE001 – a saját cikk hibája ne állítsa meg a robotot
             log.exception("Off-topic cikk kimaradt: %s", e)
 
