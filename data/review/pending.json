@@ -3,7 +3,7 @@
     {
       "id": "9728c2d8-7373-5c63-8a99-b84e32bf0fb8",
       "slug": "2026-09-30-varatlan-fordulat-erosodessel-zarta-a-reggelt-a-forint",
-      "status": "pending",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -33,15 +33,15 @@
       "word_count": 237,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/50_Forint_Comemmorative_Ambulance_Front.jpg/1280px-50_Forint_Comemmorative_Ambulance_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 900,
+        "height": 1600,
         "kind": "photo",
-        "pos": "center",
-        "alt": "The coin was released on 2023 May 9 as a comemmoration of the establishment of the Hungarian Ambulance Services.",
-        "credit": "ByRussia45 / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:50_Forint_Comemmorative_Ambulance_Front.jpg"
+        "pos": "top",
+        "alt": "Budapest Stock Exchange",
+        "credit": "Leonard Chien / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_stock_exchange.jpg"
       },
       "sources": [
         {
@@ -149,7 +149,7 @@
         "meta_title": "Váratlan fordulat: erősödéssel zárta a reggelt a forint",
         "meta_description": "A vártnál kedvezőbb amerikai inflációs adatok hatására számottevően erősödött a forint a szerdai kereskedésben. A magyar fizetőeszköz az euróval és a dollárral ",
         "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-09-30-varatlan-fordulat-erosodessel-zarta-a-reggelt-a-forint/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/50_Forint_Comemmorative_Ambulance_Front.jpg/1280px-50_Forint_Comemmorative_Ambulance_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -164,9 +164,9 @@
       "dedupe_hash": "81a6910499d7356b04d83d301cae097f281edfd93d9aea229234225e690613da",
       "pipeline_run_id": "36736957934",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T17:28:24+02:00",
-      "updated_at": "2026-09-30T17:28:24+02:00",
-      "published_at": "2026-09-30T17:28:24+02:00",
+      "created_at": "2026-09-30T17:39:14+02:00",
+      "updated_at": "2026-09-30T17:39:14+02:00",
+      "published_at": "2026-09-30T17:39:14+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -181,7 +181,8 @@
           149
         ],
         "control_id": 150
-      }
+      },
+      "live": true
     },
     {
       "id": "35dc1aee-8209-541f-a0fa-921b5928f7a6",
