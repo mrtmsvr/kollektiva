@@ -3,8 +3,10 @@
 Kollektíva – emberi jóváhagyás Telegramon
 =========================================
 
-A rovatcikkek nem kerülnek ki automatikusan: a robot elküldi őket Telegramon, és csak jóváhagyás után
-jelennek meg az oldalon.
+Két mód (REVIEW_MODE környezeti változó):
+  post (alap): a hír AZONNAL kikerül (verseny a kattintásért), és a robot elküldi Telegramon utólagos
+               ellenőrzésre: cím- és képcsere, újraírás, törlés – a változás pár percen belül él.
+  pre:         a cikk csak jóváhagyás („Kirakom”) után jelenik meg.
 
 Egy cikkhez ezt kapod:
   1. fejléc: rovat, forróság, címjavaslatok, lead, „Röviden” pontok, források
@@ -43,6 +45,7 @@ PENDING_FILE = REVIEW_DIR / "pending.json"
 STATE_FILE = REVIEW_DIR / "state.json"
 PENDING_MAX_AGE_H = int(os.getenv("PENDING_MAX_AGE_H", "48"))
 PUBLISH_FLAG = kc.BASE_DIR / ".published_flag"
+MODE = os.getenv("REVIEW_MODE", "post").strip().lower()
 E = lambda t: html.escape(str(t or ""), quote=False)  # noqa: E731
 
 
@@ -140,11 +143,14 @@ def _control(art: dict) -> tuple:
     if imgs:
         rows.append([{"text": f"{mark(ii == i)}Kép {i + 1}", "callback_data": f"{sid}|i|{i}"} for i in range(len(imgs))]
                     + [{"text": f"{mark(ii == -1)}Nincs kép", "callback_data": f"{sid}|i|-1"}])
-    rows.append([{"text": "✅ Kirakom", "callback_data": f"{sid}|ok"},
+    live = art.get("live")
+    rows.append([{"text": "✅ Rendben" if live else "✅ Kirakom", "callback_data": f"{sid}|ok"},
                  {"text": "🔁 Újraírás", "callback_data": f"{sid}|rw"},
-                 {"text": "🗑 Elvetem", "callback_data": f"{sid}|no"}])
+                 {"text": "🗑 Törlés" if live else "🗑 Elvetem", "callback_data": f"{sid}|no"}])
     img_txt = f"{ii + 1}. kép" if ii >= 0 and imgs else "nincs kép"
-    text = (f"<b>Döntés</b> – {E(kc.SECTIONS.get(art['category'], {}).get('name', art['category']))}\n"
+    state = (f"🟢 <b>Kint van</b> – {kc.SITE_URL}{art.get('url', '')}\nA cím- és képcsere pár percen belül él."
+             if live else "<b>Jóváhagyásra vár</b>")
+    text = (f"{state}\n{E(kc.SECTIONS.get(art['category'], {}).get('name', art['category']))}\n"
             f"Cím: <b>{E(_chosen_title(art))}</b>\nKép: {img_txt}\n\n"
             "Saját címhez válaszolj (reply) erre az üzenetre a címmel.")
     return text, {"inline_keyboard": rows}
@@ -156,7 +162,7 @@ def send_article(_out_dir: Optional[Path], art: dict) -> None:
         return
     sec = kc.SECTIONS.get(art["category"], {}).get("name", art["category"])
     titles = art.get("title_options") or [art["title"]]
-    head = (f"🆕 <b>{E(sec)}</b> · forróság {art.get('hot_score', 0)} · {len(art.get('sources', []))} forrás · "
+    head = (f"{'🟢 KINT VAN' if art.get('live') else '🆕 ÚJ'} · <b>{E(sec)}</b> · forróság {art.get('hot_score', 0)} · {len(art.get('sources', []))} forrás · "
             f"{art.get('reading_time_min', 1)} perc\n\n<b>Címjavaslatok</b>\n"
             + "\n".join(f"{i + 1}) {E(t)}" for i, t in enumerate(titles))
             + f"\n\n<i>{E(art.get('lead'))}</i>")
@@ -223,6 +229,34 @@ def publish(art: dict, tz: ZoneInfo) -> dict:
     return art
 
 
+def _apply_live(out_dir: Path, art: dict, tz: ZoneInfo, remove: bool = False, content: bool = False) -> None:
+    """A már kint lévő cikk módosítása az articles.json-ban (cím, kép, újraírt szöveg vagy törlés).
+    Az URL (slug) nem változik, hogy a megosztott linkek ne törjenek el."""
+    path = out_dir / "articles.json"
+    data = kc.read_json(path, {"articles": []})
+    items = data.get("articles", [])
+    idx = next((i for i, a in enumerate(items) if a.get("id") == art["id"]), None)
+    if idx is None:
+        return
+    if remove:
+        items.pop(idx)
+    else:
+        cur = items[idx]
+        rv = art.get("review", {})
+        imgs = art.get("image_options") or []
+        ii = rv.get("image", 0 if imgs else -1)
+        cur["title"] = _chosen_title(art)
+        cur["hero_image"] = imgs[ii] if 0 <= ii < len(imgs) else None
+        if content:
+            for k in ("lead", "key_points", "body", "content", "tags", "word_count", "reading_time_min", "sources"):
+                if k in art:
+                    cur[k] = art[k]
+        cur["seo"].update({"meta_title": cur["title"][:60], "meta_description": cur.get("lead", "")[:160],
+                           "og_image": (cur["hero_image"] or {}).get("url")})
+        cur["updated_at"] = datetime.now(tz).isoformat(timespec="seconds")
+    kc.write_json_atomic(path, {**data, "updated_at": datetime.now(tz).isoformat(timespec="seconds"), "articles": items})
+
+
 def _add_published(out_dir: Path, art: dict, tz: ZoneInfo) -> None:
     path = out_dir / "articles.json"
     articles = kc.read_json(path, {"articles": []}).get("articles", [])
@@ -236,10 +270,10 @@ def _add_published(out_dir: Path, art: dict, tz: ZoneInfo) -> None:
 # Beérkezett válaszok feldolgozása
 # ---------------------------------------------------------------------------
 
-HELP = ("Szia! Ide küldöm jóváhagyásra az új Kollektíva-cikkeket.\n\n"
-        "• Cím 1–3 / Kép 1–4 / Nincs kép: kiválasztás\n• ✅ Kirakom: megjelenik az oldalon (pár percen belül)\n"
-        "• 🔁 Újraírás: új változatot kérek\n• 🗑 Elvetem: törlés\n• Saját cím: válaszolj a cikk üzenetére a címmel\n"
-        "• /lista – függő cikkek")
+HELP = ("Szia! Ide küldöm az új Kollektíva-cikkeket. A hírek azonnal kikerülnek (🟢 KINT VAN), itt utólag javíthatod:\n\n"
+        "• Cím 1–3 / Kép 1–4 / Nincs kép: csere (pár percen belül él)\n• ✅ Rendben: lezárom az ellenőrzést\n"
+        "• 🔁 Újraírás: új változat ugyanazon a linken\n• 🗑 Törlés: lekerül az oldalról\n"
+        "• Saját cím: válaszolj a cikk üzenetére a címmel\n• /lista – ellenőrzésre váró cikkek")
 
 
 def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None) -> int:
@@ -270,6 +304,9 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None) -> int:
                 if art:
                     art["review"]["custom_title"] = text[:140]
                     _refresh_control(st["chat_id"], art)
+                    if art.get("live"):
+                        _apply_live(out_dir, art, tz)
+                        published += 1
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": f"Cím beállítva: {text[:140]}",
                                        "reply_to_message_id": m["message_id"]})
                 else:
@@ -294,10 +331,21 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None) -> int:
                 art["review"].pop("custom_title", None)
                 _refresh_control(st["chat_id"], art)
                 note = f"Cím {int(parts[2]) + 1}"
+                if art.get("live"):
+                    _apply_live(out_dir, art, tz)
+                    published += 1
             elif act == "i":
                 art["review"]["image"] = int(parts[2])
                 _refresh_control(st["chat_id"], art)
                 note = "Nincs kép" if int(parts[2]) < 0 else f"Kép {int(parts[2]) + 1}"
+                if art.get("live"):
+                    _apply_live(out_dir, art, tz)
+                    published += 1
+            elif act == "ok" and art.get("live"):
+                pending.remove(art)
+                note = "Rendben ✅"
+                tg("editMessageText", {"chat_id": st["chat_id"], "message_id": q["message"]["message_id"],
+                                       "text": f"✅ Rendben, lezárva: {_chosen_title(art)}"})
             elif act == "ok":
                 pending.remove(art)
                 final = publish(art, tz)
@@ -310,14 +358,24 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None) -> int:
             elif act == "no":
                 pending.remove(art)
                 st.setdefault("rejected_links", []).extend(art.get("category_meta", {}).get("source_links", []))
-                note = "Elvetve"
+                if art.get("live"):
+                    _apply_live(out_dir, art, tz, remove=True)
+                    published += 1
+                note = "Törölve" if art.get("live") else "Elvetve"
                 tg("editMessageText", {"chat_id": st["chat_id"], "message_id": q["message"]["message_id"],
-                                       "text": f"🗑 Elvetve: {_chosen_title(art)}"})
+                                       "text": f"🗑 {note}: {_chosen_title(art)}"})
             elif act == "rw":
                 note = "Újraírás…"
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": note})
                 q = None
                 new = _rewrite(art, ai, tz)
+                if new and art.get("live"):  # az élő cikk helyben cserélődik, az URL marad
+                    for k in ("id", "slug", "url", "seo", "created_at", "published_at", "status"):
+                        new[k] = art[k]
+                    new["live"] = True
+                    new["review"] = {"title": 0, "image": 0 if new.get("image_options") else -1}
+                    _apply_live(out_dir, new, tz, content=True)
+                    published += 1
                 if new:
                     pending[pending.index(art)] = new
                     tg("editMessageText", {"chat_id": st["chat_id"], "message_id": art["review"].get("control_id"),
@@ -330,8 +388,9 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None) -> int:
     # lejárt függő cikkek
     limit = (datetime.now(tz) - timedelta(hours=PENDING_MAX_AGE_H)).isoformat()
     for a in [a for a in pending if (a.get("created_at") or "") < limit]:
-        pending.remove(a)
-        st.setdefault("rejected_links", []).extend(a.get("category_meta", {}).get("source_links", []))
+        pending.remove(a)  # az élő cikk kint marad, csak az ellenőrzés zárul le
+        if not a.get("live"):
+            st.setdefault("rejected_links", []).extend(a.get("category_meta", {}).get("source_links", []))
         changed = True
     if changed:
         save_state(st)
