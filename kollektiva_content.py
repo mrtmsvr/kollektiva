@@ -1431,6 +1431,15 @@ def _fetch_feed(url: str, timeout: int) -> list:
     return [i for i in items if i["title"] and i["link"].startswith("http")]
 
 
+def same_story(a: dict, b: dict) -> bool:
+    """Ugyanarról az eseményről szól-e két hír (nem csak közös témakör, pl. „kormány”, „cég”)."""
+    shared = len(a["kw"] & b["kw"])
+    sim = shared / max(1, min(len(a["kw"]), len(b["kw"])))
+    if a["source"] == b["source"]:
+        return shared >= 4 and sim >= 0.5
+    return shared >= 3 and sim >= 0.35
+
+
 def fetch_article_text(url: str, timeout: int, limit: int = 2500) -> str:
     """A forráscikk bekezdései (csak háttérnek a tényekhez – a szöveget nem vesszük át)."""
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; KollektivaBot/1.0)",
@@ -1499,7 +1508,7 @@ def pick_story(section: dict, used_links: set, now: datetime, timeout: int, max_
         return []
     scored = []
     for it in items:
-        group = [it] + [o for o in items if o is not it and len(it["kw"] & o["kw"]) >= 3]
+        group = [it] + [o for o in items if o is not it and same_story(it, o)]
         publishers = {g["source"] for g in group}
         fresh = 1.0 if it["published"] and (now - it["published"]).total_seconds() < 12 * 3600 else 0.0
         score = len(publishers) * 3 + len(group) + fresh + min(len(it["summary"]), 400) / 400
@@ -1529,6 +1538,9 @@ def section_prompt(section: dict, story: list, d: date, context: Optional[list] 
 Forráskivonatok:
 {src}
 {bg_block}
+EGY CIKK = EGY TÉMA: az [1]-es forrás eseményéről írj. A többi forrást csak akkor használd, ha ugyanarról az
+eseményről szól; ha más ügyről szól, hagyd figyelmen kívül (ne mosd össze a különböző ügyeket).
+
 Írj ebből egy eredeti, magyar nyelvű magazincikket:
 - "title": RÖVID (max. 7 szó), közepesen clickbait cím: kíváncsiságot keltő fordulat, meglepő szám vagy kérdés
   (pl. „Ezért drágul…”, „Kiderült, mi…”, „X forintot…”) – de legyen igaz, ne ijesztgessen és ne túlozzon
