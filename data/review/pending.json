@@ -851,9 +851,9 @@
       "live": true
     },
     {
-      "id": "be6c97d6-e70a-5b77-bca2-eddc1b5b8d4d",
-      "slug": "2026-09-30-1-8-milliard-forintos-tamogatasi-vita-robbant-ki",
-      "status": "pending",
+      "id": "0c6dab9b-e62e-5554-ad11-a4630c7d1f76",
+      "slug": "2026-09-30-hutlen-kezeles-gyanuja-miatt-tett-feljelentest-a-miniszterium",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -863,7 +863,7 @@
         "állami támogatás",
         "NAV"
       ],
-      "title": "1,8 milliárd forintos támogatási vita robbant ki",
+      "title": "Hűtlen kezelés gyanúja miatt tett feljelentést a minisztérium",
       "subtitle": null,
       "lead": "Feljelentést tett a Vidék- és Településfejlesztési Minisztérium egy veszprémi cégnek juttatott 1,8 milliárd forintos állami támogatás miatt, miután összeférhetetlenség gyanúja merült fel. A döntés hátteréről a volt és a jelenlegi tárcavezető is éles vitát folytat.",
       "key_points": [
@@ -886,17 +886,7 @@
       "reading_time_min": 2,
       "word_count": 359,
       "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Navracsics_Tibor.jpg/1280px-Navracsics_Tibor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 1600,
-        "kind": "photo",
-        "pos": "top",
-        "alt": "NAVRACSICS Tibor. Várkert Bazár, Európa Projekt 2022.",
-        "credit": "Elekes Andor / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Navracsics_Tibor.jpg"
-      },
+      "hero_image": null,
       "inline_images": [],
       "sources": [
         {
@@ -1041,12 +1031,12 @@
       },
       "date": "2026-09-30",
       "date_label": "szeptember 30.",
-      "url": "/penzvilag/2026-09-30-1-8-milliard-forintos-tamogatasi-vita-robbant-ki/",
+      "url": "/penzvilag/2026-09-30-hutlen-kezeles-gyanuja-miatt-tett-feljelentest-a-miniszterium/",
       "seo": {
-        "meta_title": "1,8 milliárd forintos támogatási vita robbant ki",
+        "meta_title": "Hűtlen kezelés gyanúja miatt tett feljelentést a minisztériu",
         "meta_description": "Feljelentést tett a Vidék- és Településfejlesztési Minisztérium egy veszprémi cégnek juttatott 1,8 milliárd forintos állami támogatás miatt, miután összeférhete",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-09-30-1-8-milliard-forintos-tamogatasi-vita-robbant-ki/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Navracsics_Tibor.jpg/1280px-Navracsics_Tibor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-09-30-hutlen-kezeles-gyanuja-miatt-tett-feljelentest-a-miniszterium/",
+        "og_image": null,
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -1083,9 +1073,9 @@
       "dedupe_hash": "8a7644c0418c7dd615823ba207bf2c3378a9505eff61216e54d1425206bbc0d7",
       "pipeline_run_id": "36765260513",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T21:24:38+02:00",
-      "updated_at": "2026-09-30T21:24:38+02:00",
-      "published_at": "2026-09-30T21:24:38+02:00",
+      "created_at": "2026-09-30T21:55:39+02:00",
+      "updated_at": "2026-09-30T21:55:39+02:00",
+      "published_at": "2026-09-30T21:55:39+02:00",
       "expires_at": null,
       "review": {
         "title": 2,
@@ -1155,7 +1145,8 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z2.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Plaque_commemorating_President_Lech_Kaczy%C5%84ski_in_Veszpr%C3%A9m%2C_Hungary.jpg/1280px-Plaque_commemorating_President_Lech_Kaczy%C5%84ski_in_Veszpr%C3%A9m%2C_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Visit_of_Tibor_Navracsics%2C_Hungarian_Minister_for_Public_Administration_and_Regional_Development%2C_to_the_EC_%28P-065648-00-01%29.jpg/1280px-Visit_of_Tibor_Navracsics%2C_Hungarian_Minister_for_Public_Administration_and_Regional_Development%2C_to_the_EC_%28P-065648-00-01%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     }
   ]
 }
