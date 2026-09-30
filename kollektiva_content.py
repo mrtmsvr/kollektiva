@@ -707,6 +707,31 @@ def find_image(specific: list, generic: list, timeout: int, avoid: Optional[set]
     return None
 
 
+def find_inline_images(raw: dict, n_paras: int, timeout: int, avoid: Optional[set] = None) -> list:
+    """Szövegközi képek (max. 2): amit a cikk konkrétan említ (hajó, épület, eszköz, helyszín, személy), azt mutatjuk
+    meg a megfelelő bekezdés után. Csak szigorú (nevében egyező) Commons-fotó jöhet; ha nincs, kimarad."""
+    out, seen = [], set(avoid or ())
+    for item in (raw.get("inline_images") or [])[:3]:
+        if not isinstance(item, dict) or len(out) >= 2:
+            continue
+        q = str(item.get("query") or "").strip()[:60]
+        if not q or re.search(r"parliament|országház", q, re.I):
+            continue
+        found = [im for im in commons_search_images(q, timeout, strict=True, avoid=seen, limit=2) if im["kind"] == "photo"]
+        if not found:
+            continue
+        try:
+            after = int(item.get("after", 1))
+        except (TypeError, ValueError):
+            after = 1
+        after = max(0, min(after, n_paras - 2))
+        if any(o["after"] == after for o in out):
+            after = min(after + 1, n_paras - 2)
+        seen.add(found[0]["url"])
+        out.append({**found[0], "after": after, "caption": str(item.get("caption") or "").strip()[:160]})
+    return out
+
+
 def find_images(specific: list, generic: list, timeout: int, avoid: Optional[set] = None, limit: int = 4) -> list:
     """Képjelöltek a Telegramos kiválasztáshoz: a konkrét találatok elöl, utána az általános hangulatképek."""
     out, seen = [], set(avoid or ())
@@ -1020,7 +1045,7 @@ article p{color:rgba(236,230,216,.88)}
 .box a{color:var(--parch)}
 figure{margin:32px 0}figure img{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;border-radius:12px;background:var(--vault)}
 figure.graphic img{max-height:340px;padding:28px;background:#ECE6D8}
-figcaption{margin-top:6px;color:var(--dusk);font-size:12px}figcaption a{color:var(--dusk)}
+figcaption{margin-top:6px;color:var(--dusk);font-size:12px}figcaption a{color:var(--dusk)}figcaption .cap{font-size:14px;color:rgba(236,230,216,.75)}
 .credit summary{list-style:none;cursor:pointer;display:inline-block;width:22px;height:22px;line-height:22px;text-align:center;border:1px solid var(--line);border-radius:50%;font-size:12px}
 .credit summary::-webkit-details-marker{display:none}.credit[open] summary{margin-right:8px}
 .slist{list-style:none;padding:0;margin:28px 0}
@@ -1157,10 +1182,26 @@ def _related_html(related: list) -> str:
     return f'<section class="related"><h2>Olvass tovább</h2><div class="rel-grid">{"".join(cards)}</div></section>'
 
 
+def _figure(img: dict, alt: str, eager: bool = False, caption: str = "") -> str:
+    """Kép kredittel (ⓘ); a szövegközi képeknél látható képaláírással."""
+    cap = f'<span class="cap">{E(caption)}</span> ' if caption else ""
+    return (f'<figure class="{E(img.get("kind", "photo"))}"><img src="{E(img["url"])}" alt="{E(img.get("alt") or alt)}" '
+            f'width="{E(str(img.get("width") or ""))}" height="{E(str(img.get("height") or ""))}" '
+            f'loading="{"eager" if eager else "lazy"}" decoding="async">'
+            f'<figcaption>{cap}<details class="credit"><summary title="Képforrás">ⓘ</summary>'
+            f'{"Kép" if img.get("kind") == "graphic" else "Fotó"}: <a href="{E(img.get("source_url") or img["url"])}" rel="noopener" '
+            f'target="_blank">{E(img.get("credit", ""))}</a>, {E(img.get("license", ""))}</details></figcaption></figure>')
+
+
 def render_article_page(a: dict, related: Optional[list] = None) -> str:
     year = a.get("category_meta", {}).get("event_year", "")
     section = SECTIONS.get(a.get("category"), RETRO_SECTION)
-    paras = "\n".join(_para(p) for p in a.get("body", []))
+    inline = {}
+    for im in a.get("inline_images") or []:
+        if im.get("url"):
+            inline.setdefault(int(im.get("after", 0)), []).append(im)
+    paras = "\n".join(_para(p) + "".join(_figure(im, a["title"], caption=im.get("caption", "")) for im in inline.get(i, []))
+                      for i, p in enumerate(a.get("body", [])))
     kp = [k for k in a.get("key_points") or [] if k]
     keypoints = (f'<div class="keypoints"><p>Röviden</p><ul>{"".join(f"<li>{E(k)}</li>" for k in kp)}</ul></div>'
                  if kp else "")
@@ -1170,14 +1211,7 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
         f'{" (" + E(s["publisher"]) + ")" if s.get("publisher") and s.get("publisher") != s.get("title") else ""}</li>'
         for s in a.get("sources", []) if s.get("url"))
     img = a.get("hero_image") or None
-    figure = ""
-    if img and img.get("url"):
-        figure = (f'<figure class="{E(img.get("kind", "photo"))}"><img src="{E(img["url"])}" alt="{E(img.get("alt") or a["title"])}" '
-                  f'width="{E(str(img.get("width") or ""))}" height="{E(str(img.get("height") or ""))}" '
-                  f'loading="eager" decoding="async">'
-                  f'<figcaption><details class="credit"><summary title="Képforrás">ⓘ</summary>'
-                  f'{"Kép" if img.get("kind") == "graphic" else "Fotó"}: <a href="{E(img.get("source_url") or img["url"])}" rel="noopener" '
-                  f'target="_blank">{E(img.get("credit", ""))}</a>, {E(img.get("license", ""))}</details></figcaption></figure>')
+    figure = _figure(img, a["title"], eager=True) if img and img.get("url") else ""
     published = (a.get("published_at") or a.get("created_at") or a["date"])[:10]
     body = f"""<article>
 <p class="kicker">{E(section["kicker"])}{(" · " + E(str(year))) if year else ""}</p>
@@ -1705,9 +1739,14 @@ esemény külön blokkban szerepeljen, a blokk első bekezdése „## Rövid alc
 - "image_query_alt": 1–2 további konkrét angol keresőkifejezés (pl. ["ELTE Budapest", "Centrál Színház Budapest"])
 - "image_generic": 1–2 szavas ANGOL, egyszerű, fotózható téma a hangulatképhez, ha nincs konkrét kép
   (pl. "coffee cup", "courtroom", "police car", "stock market", "theatre stage", "rocket launch")
+- "inline_images": 0–2 szövegközi kép. CSAK akkor, ha a cikk egy konkrét, fotózható dolgot említ, amit az olvasó
+  szívesen látna, és ami NEM a főkép témája (pl. egy hadihajó-típus, épület, jármű, eszköz, helyszín, másik szereplő).
+  Elemei: {{"after": annak a bekezdésnek a sorszáma (0-tól), ami után jöjjön, "query": pontos angol név vagy
+  tulajdonnév a Wikimedia Commonshoz (pl. "USS Gerald R. Ford", "Keleti railway station"), "caption": rövid magyar
+  képaláírás}}. Ha nincs ilyen, üres tömb.
 
 Kizárólag ezt a JSON-t add vissza:
-{{"title": "...", "title_options": ["...", "..."], "lead": "...", "key_points": ["...", "...", "..."], "body": ["...", "..."], "tags": ["..."], "image_query": "...", "image_query_alt": ["..."], "image_generic": "..."}}"""
+{{"title": "...", "title_options": ["...", "..."], "lead": "...", "key_points": ["...", "...", "..."], "body": ["...", "..."], "tags": ["..."], "image_query": "...", "image_query_alt": ["..."], "image_generic": "...", "inline_images": []}}"""
 
 
 def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, story: list,
@@ -1742,6 +1781,8 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
     image_options = find_images([raw.get("image_query"), *(raw.get("image_query_alt") or [])][:3],
                                 generic if isinstance(generic, list) else [generic], ai.cfg.http_timeout, avoid_images)
     image = image_options[0] if image_options else None
+    inline_images = find_inline_images(raw, len(art["body"]), ai.cfg.http_timeout,
+                                       (avoid_images or set()) | {im["url"] for im in image_options})
     title_options = [art["title"]]
     for t in raw.get("title_options") or []:
         t = str(t).strip()
@@ -1760,7 +1801,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         "key_points": [str(k).strip() for k in (raw.get("key_points") or []) if str(k).strip()][:4],
         "content": to_markdown(art), "content_format": "markdown", "body": art["body"], "pull_quote": None,
         "reading_time_min": reading_time(full_text), "word_count": len(re.findall(r"\w+", full_text)),
-        "locale": "hu-HU", "hero_image": image, "sources": sources,
+        "locale": "hu-HU", "hero_image": image, "inline_images": inline_images, "sources": sources,
         "authorship": {"mode": "ai_generated", "byline": "Kollektíva szerkesztőség", "model": ai.label.split(":", 2)[-1],
                        "prompt_version": "section-v2", "reviewed_by": None, "reviewed_at": None},
         "hot_score": story[0].get("hot_score", 0),
