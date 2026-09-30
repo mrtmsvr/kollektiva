@@ -1016,6 +1016,7 @@ PAGE_CSS = """
 body{margin:0;background:var(--night);color:var(--parch);font:17px/1.75 Manrope,system-ui,-apple-system,"Segoe UI",sans-serif}
 a{color:var(--parch)}a:hover{color:var(--brass)}
 header,main,footer{max-width:720px;margin:0 auto;padding:0 20px}
+.share{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase;margin-right:6px}.share a,.share button{font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.share a:hover,.share button:hover{border-color:var(--brass);color:var(--brass)}.share .sh-native{background:var(--brass);color:#0E1024;border-color:var(--brass)}
 .gpref{text-align:center;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)}.gpref a{color:var(--brass);text-decoration:none}.gpref a:hover{color:var(--parch)}.gpref b{color:var(--brass);font-weight:400}
 header{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;border-bottom:1px solid var(--line);position:relative}
 .menu summary{list-style:none;cursor:pointer;color:var(--dusk);font-size:14px;padding:6px 12px;border:1px solid var(--line);border-radius:999px}
@@ -1210,6 +1211,22 @@ def _figure(img: dict, alt: str, eager: bool = False, caption: str = "") -> str:
             f'target="_blank">{E(img.get("credit", ""))}</a>, {E(img.get("license", ""))}</details></figcaption></figure>')
 
 
+def _share_html(url: str, title: str) -> str:
+    """Megosztás-sáv a cikk alján: telefonon a rendszer saját megosztója, mellette Facebook, WhatsApp, X, link másolása."""
+    u, t = urllib.parse.quote(url, safe=""), urllib.parse.quote(title, safe="")
+    return (f'<div class="share" data-url="{E(url)}" data-title="{E(title)}"><b>Oszd meg</b>'
+            '<button type="button" class="sh-native" hidden>Megosztás…</button>'
+            f'<a href="https://www.facebook.com/sharer/sharer.php?u={u}" target="_blank" rel="noopener">Facebook</a>'
+            f'<a href="https://wa.me/?text={t}%20{u}" target="_blank" rel="noopener">WhatsApp</a>'
+            f'<a href="https://x.com/intent/post?url={u}&text={t}" target="_blank" rel="noopener">X</a>'
+            '<button type="button" class="sh-copy">Link másolása</button></div>'
+            "<script>(function(){var d=document.currentScript.previousElementSibling,n=d.querySelector('.sh-native'),"
+            "c=d.querySelector('.sh-copy'),u=d.dataset.url,t=d.dataset.title;if(navigator.share){n.hidden=false;"
+            "n.onclick=function(){navigator.share({title:t,url:u}).catch(function(){})}}c.onclick=function(){"
+            "(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(function(){c.textContent='Másolva ✓'},"
+            "function(){prompt('A cikk linkje:',u)})}})();</script>")
+
+
 def render_article_page(a: dict, related: Optional[list] = None) -> str:
     year = a.get("category_meta", {}).get("event_year", "")
     section = SECTIONS.get(a.get("category"), RETRO_SECTION)
@@ -1244,6 +1261,7 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
 {quote}
 {paras}
 </article>
+{_share_html(a["seo"]["canonical_url"], a["title"])}
 {see_also}
 <details class="box"><summary>Források ({len(a.get("sources", []))})</summary><ul>{sources or "<li>—</li>"}</ul></details>
 {_related_html(related or [])}"""
