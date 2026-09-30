@@ -1777,6 +1777,12 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
                 art["status"] = "pending"
             review.send_article(output_dir, art)
             pending.append(art)
+            if not dry_run and review.MODE != "post":
+                # azonnal mentjük, és közben feldolgozzuk a beérkezett gombnyomásokat (ne kelljen a futás végéig várni)
+                cur = review.load_pending(output_dir)
+                cur.append(art)
+                review.save_pending(output_dir, cur)
+                review.poll(output_dir, ai, tz)
         else:
             for k in ("title_options", "image_options", "story"):
                 art.pop(k, None)
@@ -1786,7 +1792,7 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
         log.info("✔ [%s] \"%s\" (pont: %.1f, %s forrás, kép: %s)", sid, art["title"], score, len(art["sources"]),
                  (art["hero_image"] or {}).get("kind", "nincs"))
         time.sleep(pause)  # ingyenes AI-keret: ne fussunk bele a percenkénti limitbe
-    if review and not dry_run:
+    if review and not dry_run and review.MODE == "post":
         review.save_pending(output_dir, pending)
     articles.sort(key=lambda a: a.get("created_at", ""), reverse=True)
     if (made_public or (made and not review)) and not dry_run:
