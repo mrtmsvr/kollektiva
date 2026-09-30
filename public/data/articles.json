@@ -1,7 +1,133 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T21:24:14+02:00",
+  "updated_at": "2026-09-30T21:29:06+02:00",
   "articles": [
+    {
+      "id": "238afc54-e95e-55e1-a9ec-d98e5dcb3e77",
+      "slug": "2026-09-30-nem-vart-huzas-a-tv2-musoraban",
+      "status": "published",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Házasság első látásra",
+        "TV2",
+        "Polyák Roland",
+        "reality"
+      ],
+      "title": "Nem várt húzás a TV2 műsorában",
+      "subtitle": null,
+      "lead": "A TV2 Házasság első látásra című műsorának történetében eddig példátlan döntés született: a szakértők kizártak egy szereplőt a kísérletből. Polyák Roland számára azonban a váratlan fordulat inkább megkönnyebbülést hozott, mintsem csalódást.",
+      "key_points": [
+        "Példa nélküli döntéssel zárták ki Rolit a TV2 sikerműsorából.",
+        "A férj számára a kizárás hatalmas megkönnyebbülést jelentett.",
+        "Livi maradhatott a kísérletben, hogy tovább dolgozzon önmagán."
+      ],
+      "content": "A TV2 Házasság első látásra című műsorának történetében eddig példátlan döntés született, amikor a szakértők a szerda esti beszélgetésen úgy határoztak, hogy kizárnak egy szereplőt a kísérletből. Polyák Roland számára azonban a váratlan fordulat inkább felszabadító hatással bírt, mintsem hogy csalódást okozott volna.\n\nLivi és Roli kapcsolata az elmúlt hetekben fokozatosan megromlott, a feszültség pedig a közös programok elkerüléséhez vezetett. A férfi a Blikknek adott interjújában elmagyarázta, hogy az első két hét próbálkozásai után a folyamatos csipkelődések miatt úgy érezte, kezdi elveszíteni önmagát, ami már a baráti és családtagi kapcsolataira is rányomta a bélyegét.\n\nA szakemberek értékelése szerint Livi maradhatott a kísérletben, hogy önmagán dolgozzon, míg Rolinak távoznia kellett. A feleség a szerda esti adásban úgy nyilatkozott, hogy bár emberileg sajnálja a férfit, a jövőben már nem kell ezzel a helyzettel foglalkoznia, és a szakértők helyes döntést hoztak.",
+      "content_format": "markdown",
+      "body": [
+        "A TV2 Házasság első látásra című műsorának történetében eddig példátlan döntés született, amikor a szakértők a szerda esti beszélgetésen úgy határoztak, hogy kizárnak egy szereplőt a kísérletből. Polyák Roland számára azonban a váratlan fordulat inkább felszabadító hatással bírt, mintsem hogy csalódást okozott volna.",
+        "Livi és Roli kapcsolata az elmúlt hetekben fokozatosan megromlott, a feszültség pedig a közös programok elkerüléséhez vezetett. A férfi a Blikknek adott interjújában elmagyarázta, hogy az első két hét próbálkozásai után a folyamatos csipkelődések miatt úgy érezte, kezdi elveszíteni önmagát, ami már a baráti és családtagi kapcsolataira is rányomta a bélyegét.",
+        "A szakemberek értékelése szerint Livi maradhatott a kísérletben, hogy önmagán dolgozzon, míg Rolinak távoznia kellett. A feleség a szerda esti adásban úgy nyilatkozott, hogy bár emberileg sajnálja a férfit, a jövőben már nem kell ezzel a helyzettel foglalkoznia, és a szakértők helyes döntést hoztak."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 169,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Tv2_comedy_wide.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 675,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "TV2 Comedy logo.",
+        "credit": "KristofLaszlo991130 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tv2_comedy_wide.png"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra/2w9dg21",
+          "title": "Megdöbbentő fordulat: Rolinak távoznia kellett a kísérletből, számára véget ért a Házasság első látásra",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T21:23:16+02:00"
+        },
+        {
+          "url": "https://borsonline.origo.hu/magyar-sztarhirek/2026/09/hazassag-elso-latasra-balhe-laci-tucsi",
+          "title": "Házasság első látásra: „Édes f*szom, mi a Jóisten lesz ebből?!” – Kemenczés Laci teljesen kiborult",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T21:23:16+02:00"
+        },
+        {
+          "url": "https://borsonline.origo.hu/magyar-sztarhirek/2026/09/hazassag-elso-latasra-a-terapia-sem-segitett-rolinak",
+          "title": "„Sosem éreztem magam ennyire rosszul” – A Házasság első látásra Livije kiakadt Rolira!",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T21:23:16+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-09-30T21:29:06+02:00"
+      },
+      "hot_score": 7.81,
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra/2w9dg21"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/bulvar/2026-09-30-nem-vart-huzas-a-tv2-musoraban/",
+      "seo": {
+        "meta_title": "Nem várt húzás a TV2 műsorában",
+        "meta_description": "A TV2 Házasság első látásra című műsorának történetében eddig példátlan döntés született: a szakértők kizártak egy szereplőt a kísérletből. Polyák Roland számár",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-09-30-nem-vart-huzas-a-tv2-musoraban/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Tv2_comedy_wide.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "40076348283ca23158bbf02c9433ab70f89b1274a1d80cc8c5e912b0c32d857a",
+      "pipeline_run_id": "36765260513",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T21:29:06+02:00",
+      "updated_at": "2026-09-30T21:29:06+02:00",
+      "published_at": "2026-09-30T21:29:06+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "TV2",
+        "Házasság első látásra",
+        "Polyák Roland",
+        "television studio",
+        "wedding ring",
+        "sadness",
+        "relief"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg/1280px-Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/ABC-TV_studio_at_Sandy_Bay_Road%2C_Hobart_%28AB713-1-8232%29.jpg/1280px-ABC-TV_studio_at_Sandy_Bay_Road%2C_Hobart_%28AB713-1-8232%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/5330/7432171056_48b21b5bc9_b.jpg",
+        "https://live.staticflickr.com/4023/4297510020_3aa8807692_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829462950066%29.jpg/1280px-Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829462950066%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/2/23/Joey_Essex_and_Lorena_Medina_at_the_National_Television_Awards.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      ]
+    },
     {
       "id": "94c60679-ed80-5134-905b-10b867edbc52",
       "slug": "2026-09-30-igy-telt-orban-viktor-londoni-utja-a-letartoztatasok-arnyekaban",
