@@ -579,6 +579,747 @@
         "control_id": 201
       },
       "live": true
+    },
+    {
+      "id": "328eee69-ced3-5621-986c-ea7205531993",
+      "slug": "2026-09-30-varatlan-fordulat-kizartak-egy-szereplot",
+      "status": "pending",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Házasság első látásra",
+        "TV2",
+        "Polyák Roland",
+        "reality"
+      ],
+      "title": "Váratlan fordulat: kizártak egy szereplőt",
+      "subtitle": null,
+      "lead": "A TV2 Házasság első látásra című műsorának történetében eddig példátlan döntés született: a szakértők kizártak egy szereplőt a kísérletből. Polyák Roland számára azonban a váratlan fordulat inkább megkönnyebbülést hozott, mintsem csalódást.",
+      "key_points": [
+        "Példa nélküli döntéssel zárták ki Rolit a TV2 sikerműsorából.",
+        "A férj számára a kizárás hatalmas megkönnyebbülést jelentett.",
+        "Livi maradhatott a kísérletben, hogy tovább dolgozzon önmagán."
+      ],
+      "content": "A TV2 Házasság első látásra című műsorának történetében eddig példátlan döntés született, amikor a szakértők a szerda esti beszélgetésen úgy határoztak, hogy kizárnak egy szereplőt a kísérletből. Polyák Roland számára azonban a váratlan fordulat inkább felszabadító hatással bírt, mintsem hogy csalódást okozott volna.\n\nLivi és Roli kapcsolata az elmúlt hetekben fokozatosan megromlott, a feszültség pedig a közös programok elkerüléséhez vezetett. A férfi a Blikknek adott interjújában elmagyarázta, hogy az első két hét próbálkozásai után a folyamatos csipkelődések miatt úgy érezte, kezdi elveszíteni önmagát, ami már a baráti és családtagi kapcsolataira is rányomta a bélyegét.\n\nA szakemberek értékelése szerint Livi maradhatott a kísérletben, hogy önmagán dolgozzon, míg Rolinak távoznia kellett. A feleség a szerda esti adásban úgy nyilatkozott, hogy bár emberileg sajnálja a férfit, a jövőben már nem kell ezzel a helyzettel foglalkoznia, és a szakértők helyes döntést hoztak.",
+      "content_format": "markdown",
+      "body": [
+        "A TV2 Házasság első látásra című műsorának történetében eddig példátlan döntés született, amikor a szakértők a szerda esti beszélgetésen úgy határoztak, hogy kizárnak egy szereplőt a kísérletből. Polyák Roland számára azonban a váratlan fordulat inkább felszabadító hatással bírt, mintsem hogy csalódást okozott volna.",
+        "Livi és Roli kapcsolata az elmúlt hetekben fokozatosan megromlott, a feszültség pedig a közös programok elkerüléséhez vezetett. A férfi a Blikknek adott interjújában elmagyarázta, hogy az első két hét próbálkozásai után a folyamatos csipkelődések miatt úgy érezte, kezdi elveszíteni önmagát, ami már a baráti és családtagi kapcsolataira is rányomta a bélyegét.",
+        "A szakemberek értékelése szerint Livi maradhatott a kísérletben, hogy önmagán dolgozzon, míg Rolinak távoznia kellett. A feleség a szerda esti adásban úgy nyilatkozott, hogy bár emberileg sajnálja a férfit, a jövőben már nem kell ezzel a helyzettel foglalkoznia, és a szakértők helyes döntést hoztak."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 169,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg/1280px-Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 751,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Tesvisio 1957-1965, the first television channel in Finland. Music show for juvenile audience under way. Presenter Antti Einiö on the left, music producer and composer Jaakko Salo in the middle. Finni",
+        "credit": "Yle Archives -  Yle Elävä arkisto from Yleisradio, Finland / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_(29388489672).jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra/2w9dg21",
+          "title": "Megdöbbentő fordulat: Rolinak távoznia kellett a kísérletből, számára véget ért a Házasság első látásra",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T21:23:16+02:00"
+        },
+        {
+          "url": "https://borsonline.origo.hu/magyar-sztarhirek/2026/09/hazassag-elso-latasra-balhe-laci-tucsi",
+          "title": "Házasság első látásra: „Édes f*szom, mi a Jóisten lesz ebből?!” – Kemenczés Laci teljesen kiborult",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T21:23:16+02:00"
+        },
+        {
+          "url": "https://borsonline.origo.hu/magyar-sztarhirek/2026/09/hazassag-elso-latasra-a-terapia-sem-segitett-rolinak",
+          "title": "„Sosem éreztem magam ennyire rosszul” – A Házasság első látásra Livije kiakadt Rolira!",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T21:23:16+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 7.81,
+      "title_options": [
+        "Váratlan fordulat: kizártak egy szereplőt",
+        "Nem várt húzás a TV2 műsorában",
+        "Véget ért a kísérlet a szereplő számára"
+      ],
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Tv2_comedy_wide.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "TV2 Comedy logo.",
+          "credit": "KristofLaszlo991130 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Tv2_comedy_wide.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/F29A8587_Tv2_618.jpg/1280px-F29A8587_Tv2_618.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 820,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "F29A8587 Tv2 618.jpg",
+          "credit": "JP Bennett / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:F29A8587_Tv2_618.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Dornbirn-ORF_Vorarlberg-Television_studio-recording_studio-13ASD.jpg/1280px-Dornbirn-ORF_Vorarlberg-Television_studio-recording_studio-13ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Listed ORF Broadcastingstudio for Vorarlberg for radio and television in Dornbirn, Vorarlberg, Austria",
+          "credit": "Asurnipal / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dornbirn-ORF_Vorarlberg-Television_studio-recording_studio-13ASD.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/A_todo_o_nada_Chile_Studio_%2820200130_194226%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 900,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Estudio del programa de televisión chileno A todo o nada (2019) de Televisión Nacional de Chile.",
+          "credit": "NMdUnsl / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:A_todo_o_nada_Chile_Studio_(20200130_194226).jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/176/408909320_f752e4f880_b.jpg",
+          "width": 1024,
+          "height": 769,
+          "kind": "photo",
+          "alt": "Wedding Rings",
+          "credit": "firemedic58 / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/50841708@N00/408909320"
+        },
+        {
+          "url": "https://live.staticflickr.com/127/408909324_c7f79db048_b.jpg",
+          "width": 1024,
+          "height": 769,
+          "kind": "photo",
+          "alt": "Wedding Rings 2",
+          "credit": "firemedic58 / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/50841708@N00/408909324"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wedding_ring_with_heart_shadow.jpg/1280px-Wedding_ring_with_heart_shadow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1371,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Wedding rings with the shadows of a heart-symbol of love.",
+          "credit": "Petar Milošević / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Wedding_ring_with_heart_shadow.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Five_year_old_child_in_a_state_of_sadness_and_introspection%2C_listening_to_trance_music_at_a_trance_music_party.jpg/1280px-Five_year_old_child_in_a_state_of_sadness_and_introspection%2C_listening_to_trance_music_at_a_trance_music_party.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A five year old child girl in a state of sadness and introspection, listening to trance music at a trance music party. A state of introspection, sadness and mystery through minor chord progressions. B",
+          "credit": "Vyacheslav Argenberg / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Five_year_old_child_in_a_state_of_sadness_and_introspection,_listening_to_trance_music_at_a_trance_music_party.jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "Megdöbbentő fordulat: Rolinak távoznia kellett a kísérletből, számára véget ért a Házasság első látásra",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra/2w9dg21",
+          "summary": "A TV2 Házasság első látásra című műsorának történetében eddig példátlan döntés született: a szakértők kizártak egy szereplőt a kísérletből. Polyák Roland számára azonban a váratlan fordulat inkább megkönnyebbülést hozott, mintsem csalódást. A Blikknek adott interjújában arról beszélt, hogy utólag sem csinálna semmit másképp.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 7.81
+        },
+        {
+          "title": "Házasság első látásra: „Édes f*szom, mi a Jóisten lesz ebből?!” – Kemenczés Laci teljesen kiborult",
+          "link": "https://borsonline.origo.hu/magyar-sztarhirek/2026/09/hazassag-elso-latasra-balhe-laci-tucsi",
+          "summary": "A Házasság első látásra sztárja teljesen kiborult.",
+          "source": "borsonline.hu",
+          "related": true,
+          "hot_score": null
+        },
+        {
+          "title": "„Sosem éreztem magam ennyire rosszul” – A Házasság első látásra Livije kiakadt Rolira!",
+          "link": "https://borsonline.origo.hu/magyar-sztarhirek/2026/09/hazassag-elso-latasra-a-terapia-sem-segitett-rolinak",
+          "summary": "A szakértők és Livi kiosztotta Rolit.",
+          "source": "borsonline.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra/2w9dg21"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/bulvar/2026-09-30-varatlan-fordulat-kizartak-egy-szereplot/",
+      "seo": {
+        "meta_title": "Váratlan fordulat: kizártak egy szereplőt",
+        "meta_description": "A TV2 Házasság első látásra című műsorának történetében eddig példátlan döntés született: a szakértők kizártak egy szereplőt a kísérletből. Polyák Roland számár",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-09-30-varatlan-fordulat-kizartak-egy-szereplot/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg/1280px-Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "40076348283ca23158bbf02c9433ab70f89b1274a1d80cc8c5e912b0c32d857a",
+      "pipeline_run_id": "36765260513",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T21:23:16+02:00",
+      "updated_at": "2026-09-30T21:23:16+02:00",
+      "published_at": "2026-09-30T21:23:16+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 1,
+        "image": 0,
+        "sent_at": "2026-09-30T19:24:13+00:00",
+        "msg_ids": [
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231
+        ],
+        "control_id": 232
+      },
+      "image_queries": [
+        "TV2",
+        "Házasság első látásra",
+        "Polyák Roland",
+        "television studio",
+        "wedding ring",
+        "sadness",
+        "relief"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg/1280px-Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/ABC-TV_studio_at_Sandy_Bay_Road%2C_Hobart_%28AB713-1-8232%29.jpg/1280px-ABC-TV_studio_at_Sandy_Bay_Road%2C_Hobart_%28AB713-1-8232%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/5330/7432171056_48b21b5bc9_b.jpg",
+        "https://live.staticflickr.com/4023/4297510020_3aa8807692_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829462950066%29.jpg/1280px-Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829462950066%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/2/23/Joey_Essex_and_Lorena_Medina_at_the_National_Television_Awards.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      ]
+    },
+    {
+      "id": "be6c97d6-e70a-5b77-bca2-eddc1b5b8d4d",
+      "slug": "2026-09-30-1-8-milliard-forintos-tamogatasi-vita-robbant-ki",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "Navracsics Tibor",
+        "Lőrincz Viktória",
+        "Veszprém-Balaton 2023 Zrt.",
+        "állami támogatás",
+        "NAV"
+      ],
+      "title": "1,8 milliárd forintos támogatási vita robbant ki",
+      "subtitle": null,
+      "lead": "Feljelentést tett a Vidék- és Településfejlesztési Minisztérium egy veszprémi cégnek juttatott 1,8 milliárd forintos állami támogatás miatt, miután összeférhetetlenség gyanúja merült fel. A döntés hátteréről a volt és a jelenlegi tárcavezető is éles vitát folytat.",
+      "key_points": [
+        "A Vidék- és Településfejlesztési Minisztérium hűtlen kezelés, költségvetési csalás és hivatali visszaélés gyanúja miatt fordult a Nemzeti Adó- és Vámhivatalhoz.",
+        "A vitatott, 1,8 milliárd forintos támogatást a Veszprém-Balaton 2023 Zrt. kapta a 2026-os sportrégiós programokra.",
+        "Lőrincz Viktória miniszter szerint a támogatási okirat kiállításakor összeférhetetlenség állt fenn, amit Navracsics Tibor korábbi miniszter visszautasít.",
+        "A Veszprém-Balaton 2023 Zrt. közleményben utasította vissza a vádakat, hangoztatva, hogy a pályázatokat szabályosan hirdették meg."
+      ],
+      "content": "Hűtlen kezelés, költségvetési csalás és hivatali visszaélés gyanúja miatt tett feljelentést ismeretlen tettes ellen a Nemzeti Adó- és Vámhivatal Bűnügyi Főigazgatóságánál a Vidék- és Településfejlesztési Minisztérium. Az eljárás a Veszprém-Balaton 2023 Zrt.-nek juttatott 1,8 milliárd forintos állami támogatás ügyében indult, amelyet a Közigazgatási és Területfejlesztési Minisztérium ítélt oda 2026 januárjában.\n\nLőrincz Viktória vidék- és településfejlesztési miniszter azzal indokolta a lépést, hogy a támogatási okirat kiadásának pillanatában a tárca egyik felsővezetője egyben a kedvezményezett cég vezető tisztségviselője is volt. Az államtitkári vagy vezetői pozíció and a céges tisztség összefonódása az államháztartási törvény szabályai szerint kizárttá tette volna a forrás biztosítását.\n\nNavracsics Tibor korábbi közigazgatási és területfejlesztési miniszter a közösségi oldalán reagált a fejleményekre. Kifejtette, hogy a tárca csupán a kormány 1380/2025. számú határozatát hajtotta végre, amely 2026-ra legfeljebb 2,0012 milliárd forint többletforrás biztosításáról rendelkezett a Veszprém–Balaton Európa Sportrégiója 2026 program megvalósítására. Navracsics hozzátette, hogy a kormányzati igazgatásról szóló törvény alapján önmagában nem jelent összeférhetetlenséget e tisztségek együttállása.\n\nLőrincz Viktória erre úgy reagált, hogy a kormányhatározat nem nevesítette a Veszprém-Balaton 2023 Zrt.-t kedvezményezettként, így a konkrét pénz elosztásáról a minisztérium döntött. A tárcavezető hangsúlyozta, hogy folytatják az átvilágítást a hasonló esetek feltárására.\n\nA Veszprém-Balaton 2023 Zrt. határozottan visszautasította a bűncselekményre utaló felvetéseket. A három önkormányzat és négy civil szervezet tulajdonában álló társaság közlése szerint a programhoz 92 település csatlakozott, a beérkezett 366 pályázatból pedig 242 részesült támogatásban. A forrásokból köztük a következő területeket finanszírozták:\n- Közel 331 millió forint jutott a kistelepülések mozgásprogramjaira.\n- 200 millió forintot fordítottak a járásközpontok sportmotivációs programjaira.\n- 80 millió forint ment a téli mozgásformák népszerűsítésére.\n- Közel 562 millió forintot osztottak szét iskolák, sportegyesületek és civil szervezetek rendezvényeire.\n- 165 millió forintot különítettek el a fogyatékossággal élők és speciális igényű emberek sportprogramjaira.\n\nKözben egy másik területen is viták borzolják a kedélyeket a kormányzati beruházások körül. A Miniszterelnökség korábban ugyancsak hivatalos feljelentést tett szervezetfejlesztési megbízások miatt, miközben a hatóságok több korábbi minisztert is őrizetbe vettek.",
+      "content_format": "markdown",
+      "body": [
+        "Hűtlen kezelés, költségvetési csalás és hivatali visszaélés gyanúja miatt tett feljelentést ismeretlen tettes ellen a Nemzeti Adó- és Vámhivatal Bűnügyi Főigazgatóságánál a Vidék- és Településfejlesztési Minisztérium. Az eljárás a Veszprém-Balaton 2023 Zrt.-nek juttatott 1,8 milliárd forintos állami támogatás ügyében indult, amelyet a Közigazgatási és Területfejlesztési Minisztérium ítélt oda 2026 januárjában.",
+        "Lőrincz Viktória vidék- és településfejlesztési miniszter azzal indokolta a lépést, hogy a támogatási okirat kiadásának pillanatában a tárca egyik felsővezetője egyben a kedvezményezett cég vezető tisztségviselője is volt. Az államtitkári vagy vezetői pozíció and a céges tisztség összefonódása az államháztartási törvény szabályai szerint kizárttá tette volna a forrás biztosítását.",
+        "Navracsics Tibor korábbi közigazgatási és területfejlesztési miniszter a közösségi oldalán reagált a fejleményekre. Kifejtette, hogy a tárca csupán a kormány 1380/2025. számú határozatát hajtotta végre, amely 2026-ra legfeljebb 2,0012 milliárd forint többletforrás biztosításáról rendelkezett a Veszprém–Balaton Európa Sportrégiója 2026 program megvalósítására. Navracsics hozzátette, hogy a kormányzati igazgatásról szóló törvény alapján önmagában nem jelent összeférhetetlenséget e tisztségek együttállása.",
+        "Lőrincz Viktória erre úgy reagált, hogy a kormányhatározat nem nevesítette a Veszprém-Balaton 2023 Zrt.-t kedvezményezettként, így a konkrét pénz elosztásáról a minisztérium döntött. A tárcavezető hangsúlyozta, hogy folytatják az átvilágítást a hasonló esetek feltárására.",
+        "A Veszprém-Balaton 2023 Zrt. határozottan visszautasította a bűncselekményre utaló felvetéseket. A három önkormányzat és négy civil szervezet tulajdonában álló társaság közlése szerint a programhoz 92 település csatlakozott, a beérkezett 366 pályázatból pedig 242 részesült támogatásban. A forrásokból köztük a következő területeket finanszírozták:\n- Közel 331 millió forint jutott a kistelepülések mozgásprogramjaira.\n- 200 millió forintot fordítottak a járásközpontok sportmotivációs programjaira.\n- 80 millió forint ment a téli mozgásformák népszerűsítésére.\n- Közel 562 millió forintot osztottak szét iskolák, sportegyesületek és civil szervezetek rendezvényeire.\n- 165 millió forintot különítettek el a fogyatékossággal élők és speciális igényű emberek sportprogramjaira.",
+        "Közben egy másik területen is viták borzolják a kedélyeket a kormányzati beruházások körül. A Miniszterelnökség korábban ugyancsak hivatalos feljelentést tett szervezetfejlesztési megbízások miatt, miközben a hatóságok több korábbi minisztert is őrizetbe vettek."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 359,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Navracsics_Tibor.jpg/1280px-Navracsics_Tibor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "NAVRACSICS Tibor. Várkert Bazár, Európa Projekt 2022.",
+        "credit": "Elekes Andor / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Navracsics_Tibor.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20260930/kitort-a-botrany-a-milliardos-tamogatas-korul-navracsics-tibor-is-megszolalt-866462",
+          "title": "Kitört a botrány a milliárdos támogatás körül: Navracsics Tibor is megszólalt",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T21:24:38+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/kozelet/2026/09/navracsics-tibor-lorincz-viktoria-feljelentes-projekt?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Újabb botrány van kibontakozóban: egymásnak esett a volt és jelenlegi területfejlesztési miniszter – Navracsics Tibor helyrerakta Lőrincz Viktóriát",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T21:24:38+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 7.0,
+      "title_options": [
+        "1,8 milliárd forintos támogatási vita robbant ki",
+        "Navracsics Tibor és Lőrincz Viktória vitatkozik a veszprémi pénzeken",
+        "Hűtlen kezelés gyanúja miatt tett feljelentést a minisztérium"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Navracsics_Tibor.jpg/1280px-Navracsics_Tibor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "NAVRACSICS Tibor. Várkert Bazár, Európa Projekt 2022.",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Navracsics_Tibor.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Navracsics_Tibor_portrait_2023.jpg/1280px-Navracsics_Tibor_portrait_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1800,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Official government portrait of Mr. Tibor Navracsics taken in 2022.",
+          "credit": "Magyarország kormánya/Government of Hungary / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Navracsics_Tibor_portrait_2023.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Veszpr%C3%A9m-Balaton_2023.jpg/1280px-Veszpr%C3%A9m-Balaton_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 791,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Veszprém-Balaton 2023 Európa Kulturális Fővárosa program",
+          "credit": "Veszprembalaton2023 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Veszpr%C3%A9m-Balaton_2023.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Veszpr%C3%A9m-Balaton_2023_Eur%C3%B3pa_Kultur%C3%A1lis_F%C5%91v%C3%A1rosa.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1056,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Veszprém-Balaton 2023 Európa Kulturális Fővárosa",
+          "credit": "Veszprembalaton2023 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Veszpr%C3%A9m-Balaton_2023_Eur%C3%B3pa_Kultur%C3%A1lis_F%C5%91v%C3%A1rosa.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z5.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest, Dózsa György út, Nemzeti Adó- és Vámhivatal székház",
+          "credit": "12akd / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt,_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z5.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest, Dózsa György út, Nemzeti Adó- és Vámhivatal székház",
+          "credit": "12akd / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt,_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/4039/4312159033_6b1c4ce360_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Courtroom",
+          "credit": "srqpix / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/85549619@N00/4312159033"
+        },
+        {
+          "url": "https://live.staticflickr.com/4031/4289726649_2d622fe46e_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Courtroom",
+          "credit": "☺ Lee J Haywood / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/45034206@N06/4289726649"
+        }
+      ],
+      "story": [
+        {
+          "title": "Kitört a botrány a milliárdos támogatás körül: Navracsics Tibor is megszólalt",
+          "link": "https://www.portfolio.hu/gazdasag/20260930/kitort-a-botrany-a-milliardos-tamogatas-korul-navracsics-tibor-is-megszolalt-866462",
+          "summary": "Hűtlen kezelés, költségvetési csalás és hivatali visszaélés gyanúja miatt tett feljelentést a Vidék- és Településfejlesztési Minisztérium a Veszprém-Balaton 2023 Zrt.-nek juttatott 1,8 milliárd forintos állami támogatás ügyében. Lőrincz Viktória vidék- és településfejlesztési miniszter szerint a támogatás odaítélésekor összeférhetetlenség állhatott fenn, ezt azonban a társaság és a korábbi tárcavezető, Navracsics Tibor is vitatja.",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 7.0
+        },
+        {
+          "title": "Újabb botrány van kibontakozóban: egymásnak esett a volt és jelenlegi területfejlesztési miniszter – Navracsics Tibor helyrerakta Lőrincz Viktóriát",
+          "link": "https://www.vg.hu/kozelet/2026/09/navracsics-tibor-lorincz-viktoria-feljelentes-projekt?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "summary": "Súlyos vádakkal indult és gyorsan egymásnak feszülés lett az 1,8 milliárd forintos veszprémi támogatás ügyéből.",
+          "source": "vg.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20260930/kitort-a-botrany-a-milliardos-tamogatas-korul-navracsics-tibor-is-megszolalt-866462"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/penzvilag/2026-09-30-1-8-milliard-forintos-tamogatasi-vita-robbant-ki/",
+      "seo": {
+        "meta_title": "1,8 milliárd forintos támogatási vita robbant ki",
+        "meta_description": "Feljelentést tett a Vidék- és Településfejlesztési Minisztérium egy veszprémi cégnek juttatott 1,8 milliárd forintos állami támogatás miatt, miután összeférhete",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-09-30-1-8-milliard-forintos-tamogatasi-vita-robbant-ki/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Navracsics_Tibor.jpg/1280px-Navracsics_Tibor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "bf9655e4-5a9f-509a-90d0-1941fa82ad21",
+        "1a09daec-5dcc-5474-b1f5-d7968f63420d",
+        "1b8d58ce-a33f-52ae-b64f-816a7d47401d"
+      ],
+      "see_also": [
+        {
+          "title": "Százmilliók tűntek el a Miniszterelnökség papírjain",
+          "url": "/kozelet/2026-09-30-szazmilliok-tuntek-el-a-miniszterelnokseg-papirjain/",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "182 milliárd forintból újul meg a villamoshálózat",
+          "url": "/penzvilag/2026-09-30-182-milliard-forintbol-ujul-meg-a-villamoshalozat/",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "Négymilliárd forint ment el a csádi misszióra",
+          "url": "/kozelet/2026-09-30-negymilliard-forint-ment-el-a-csadi-missziora/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": "bf9655e4-5a9f-509a-90d0-1941fa82ad21",
+      "dedupe_hash": "8a7644c0418c7dd615823ba207bf2c3378a9505eff61216e54d1425206bbc0d7",
+      "pipeline_run_id": "36765260513",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T21:24:38+02:00",
+      "updated_at": "2026-09-30T21:24:38+02:00",
+      "published_at": "2026-09-30T21:24:38+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-09-30T19:25:20+00:00",
+        "msg_ids": [
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222
+        ],
+        "control_id": 223
+      }
+    },
+    {
+      "id": "912ef8c1-cfb8-53dd-9662-ff7481cd5551",
+      "slug": "2026-09-30-igy-fest-a-fold-az-urbol-ejjel",
+      "status": "pending",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "Nemzetközi Űrállomás",
+        "NASA",
+        "csillagászat",
+        "Föld"
+      ],
+      "title": "Így fest a Föld az űrből éjjel",
+      "subtitle": null,
+      "lead": "Látványos, hosszú expozíciós felvételt készített a NASA a Nemzetközi Űrállomásról, amely a Banda-tenger felett keringve rögzítette a csillagok mozgását és a Föld fényeit. A 2026. szeptember 20-án rögzített kép egyszerre mutatja be a természetes égi jelenségeket és a lenti városok civilizációját.",
+      "key_points": [
+        "A NASA által közzétett hosszú expozíciós felvétel a Nemzetközi Űrállomásról készült 258 mérföldes magasságban.",
+        "A képen jól kivehetők a csillagok vonalai, a Banda-tenger, valamint az indonéz városok és halászhajók fényei.",
+        "A felvételt Anil Menon készítette a küldetés során."
+      ],
+      "content": "A Nemzetközi Űrállomás – amely az alacsony Föld körüli pályán keringő, nemzetközi összefogásban létrejött, hatalmas méretű kutatóbázis – abban a magasságban mozog, ahonnan bolygónk felszíni részletei és a világűr egyedülálló módon látszik. Ez olyan, mintha valaki egy rendkívül érzékeny kamerát helyezne el egy folyamatosan mozgó óriáskerék tetején, amelynek ablakából egyszerre látszana a messzi égbolt és a lenti nyüzsgő városi élet.\n\nA NASA hivatalos felvételén a csillagok mozgását jelző fényívek dominálnak a sötét égbolton, míg alul, a sötét vízű Banda-tenger felett az indonéz települések sárgás fényei és a halászhajók kék jelzőfényei rajzolnak ki éles kontrasztot. Anil Menon az űrállomás fedélzetéről rögzítette a pillanatot, amikor a szerkezet 258 mérföldes magasságban haladt.\n\nAz ehhez hasonló, hosszú expozíciós képek nemcsak esztétikai élményt nyújtanak, hanem segítenek a kutatóknak és a nagyközönségnek is vizuálisan megérteni az alacsony Föld körüli pálya léptékeit. A keringés során az űrhajósok naponta többször is megtapasztalják a nappalok és éjszakák váltakozását, ami egyedülálló rálátást biztosít bolygónk éjszakai arculatára.",
+      "content_format": "markdown",
+      "body": [
+        "A Nemzetközi Űrállomás – amely az alacsony Föld körüli pályán keringő, nemzetközi összefogásban létrejött, hatalmas méretű kutatóbázis – abban a magasságban mozog, ahonnan bolygónk felszíni részletei és a világűr egyedülálló módon látszik. Ez olyan, mintha valaki egy rendkívül érzékeny kamerát helyezne el egy folyamatosan mozgó óriáskerék tetején, amelynek ablakából egyszerre látszana a messzi égbolt és a lenti nyüzsgő városi élet.",
+        "A NASA hivatalos felvételén a csillagok mozgását jelző fényívek dominálnak a sötét égbolton, míg alul, a sötét vízű Banda-tenger felett az indonéz települések sárgás fényei és a halászhajók kék jelzőfényei rajzolnak ki éles kontrasztot. Anil Menon az űrállomás fedélzetéről rögzítette a pillanatot, amikor a szerkezet 258 mérföldes magasságban haladt.",
+        "Az ehhez hasonló, hosszú expozíciós képek nemcsak esztétikai élményt nyújtanak, hanem segítenek a kutatóknak és a nagyközönségnek is vizuálisan megérteni az alacsony Föld körüli pálya léptékeit. A keringés során az űrhajósok naponta többször is megtapasztalják a nappalok és éjszakák váltakozását, ami egyedülálló rálátást biztosít bolygónk éjszakai arculatára."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 198,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/1280px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 797,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "The International Space Station is featured in this image photographed by an STS-134 crew member on the space shuttle Endeavour after the station and shuttle began their post-undocking relative separa",
+        "credit": "NASA / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:STS-134_International_Space_Station_after_undocking.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/image-article/star-trails/",
+          "title": "Star Trails",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-09-30T21:26:03+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.69,
+      "title_options": [
+        "Így fest a Föld az űrből éjjel",
+        "Csillagösvények felett lebeg az űrállomás",
+        "Különleges fotót osztott meg a NASA"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/1280px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 797,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The International Space Station is featured in this image photographed by an STS-134 crew member on the space shuttle Endeavour after the station and shuttle began their post-undocking relative separa",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:STS-134_International_Space_Station_after_undocking.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/STS-135_final_flyaround_of_ISS_1.jpg/1280px-STS-135_final_flyaround_of_ISS_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "STS-135 final flyaround of ISSThis picture of the International Space Station was photographed from the space shuttle Atlantis as the orbiting complex and the shuttle performed their relative separati",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:STS-135_final_flyaround_of_ISS_1.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/2012-03-14_21-42-55-file-etoiles-14f-2min-3d.jpg/1280px-2012-03-14_21-42-55-file-etoiles-14f-2min-3d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 797,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Startrails created from 14 photos (2 minutes of exposure).",
+          "credit": "Thomas Bresson / Wikimedia Commons",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:2012-03-14_21-42-55-file-etoiles-14f-2min-3d.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Kitt_Peak_National_Observatory_Beneath_Star_Trails_%28noirlab2512ae%29.jpg/1280px-Kitt_Peak_National_Observatory_Beneath_Star_Trails_%28noirlab2512ae%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 801,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The U.S. National Science Foundation Kitt Peak National Observatory (KPNO), a Program of NSF NOIRLab, beneath streaking star trails, created by long-exposure photography. The tallest telescope seen is",
+          "credit": "DESI Collaboration/DOE/KPNO/NOIRLab/NSF/AURA/L. Tyas / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Kitt_Peak_National_Observatory_Beneath_Star_Trails_(noirlab2512ae).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Dolphin_at_Banda_Sea_%288%29.jpg/1280px-Dolphin_at_Banda_Sea_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Lumba-lumba di laut Banda, Indonesia.",
+          "credit": "Marwan Mohamad / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dolphin_at_Banda_Sea_(8).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Dolphin_at_Banda_Sea_%281%29.jpg/1280px-Dolphin_at_Banda_Sea_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Lumba-lumba di laut Banda, Indonesia.",
+          "credit": "Marwan Mohamad / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dolphin_at_Banda_Sea_(1).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Tiangong_Space_Station_orbiting_Earth.jpg",
+          "width": 2953,
+          "height": 2126,
+          "kind": "photo",
+          "alt": "Tiangong Space Station orbiting Earth",
+          "credit": "China Manned Space Agency / wikimedia",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/w/index.php?curid=141579354"
+        },
+        {
+          "url": "https://live.staticflickr.com/3136/13077708183_caaa98b481_b.jpg",
+          "width": 1024,
+          "height": 576,
+          "kind": "photo",
+          "alt": "Commander International Space Station Sunny Williams of NASA on tour of the orbital laboratory Nov. 18, just before she, cosmonaut Yuri Malenchenko and Flight Engineer Aki Hoshide of the Japan Aerospa",
+          "credit": "Wonderlane / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/71401718@N00/13077708183"
+        }
+      ],
+      "story": [
+        {
+          "title": "Star Trails",
+          "link": "https://www.nasa.gov/image-article/star-trails/",
+          "summary": "This long-duration image shows star trails above Earth and the blue lights of fishing boats and the yellow lights of Indonesian cities stretching below the International Space Station as it orbited 258 miles above the Banda Sea on Sept. 20, 2026. Image credit: NASA/Anil Menon",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": 5.69
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/image-article/star-trails/"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/univerzum/2026-09-30-igy-fest-a-fold-az-urbol-ejjel/",
+      "seo": {
+        "meta_title": "Így fest a Föld az űrből éjjel",
+        "meta_description": "Látványos, hosszú expozíciós felvételt készített a NASA a Nemzetközi Űrállomásról, amely a Banda-tenger felett keringve rögzítette a csillagok mozgását és a Föl",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-09-30-igy-fest-a-fold-az-urbol-ejjel/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/1280px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "09ac07be39854047d1d2ef6d1ab8ea8fbd49ddeff92bd06859f3bf99a7ffec2e",
+      "pipeline_run_id": "36765260513",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T21:26:03+02:00",
+      "updated_at": "2026-09-30T21:26:03+02:00",
+      "published_at": "2026-09-30T21:26:03+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-09-30T19:26:36+00:00",
+        "msg_ids": [
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242
+        ],
+        "control_id": 243
+      }
     }
   ]
 }

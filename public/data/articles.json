@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T19:30:28+02:00",
+  "updated_at": "2026-09-30T21:24:14+02:00",
   "articles": [
     {
       "id": "94c60679-ed80-5134-905b-10b867edbc52",
@@ -3476,111 +3476,6 @@
       "created_at": "2026-09-30T01:19:40+02:00",
       "updated_at": "2026-09-30T01:19:40+02:00",
       "published_at": "2026-09-30T01:19:40+02:00",
-      "expires_at": null
-    },
-    {
-      "id": "2d997ed4-ee84-593c-9b66-5704e7001d74",
-      "slug": "2026-09-30-kockakbol-epul-ujja-a-kultikus-anime",
-      "status": "published",
-      "category": "tech",
-      "subcategory": null,
-      "tags": [
-        "Lego",
-        "Dragon Ball",
-        "SpaceX",
-        "Starship",
-        "technológia"
-      ],
-      "title": "Kockákból épül újjá a kultikus anime",
-      "subtitle": null,
-      "lead": "Son Goku világa először költözik be a dán építőkockák közé, miközben a SpaceX óriásűrhajója történelmi pályára állt – írja a hvg.hu és a qubit.hu. A popkulturális legendák és a modern technológia e heti találkozása a gyermekkori emlékeket és a jövő utazásait hozza közelebb.",
-      "key_points": [
-        "A Lego hivatalos készletben dolgozza fel Akira Torijama népszerű mangasorozatát, a Dragon Ballt.",
-        "A SpaceX Starship nevű óriásűrhajója először állt sikeresen pályára a Föld körül.",
-        "A sikeres tesztekkel mindkét területen új korszak veszi kezdetét a rajongók számára."
-      ],
-      "content": "A popkultúra és a mérnöki bravúrok is izgalmas pillanatokat hoztak a héten, amelyek a mindennapi kikapcsolódásunkat és a jövőnket is formálják. A dán építőjáték-gyártó bejelentése szerint először kap hivatalos készletet Akira Torijama japán mangasorozata, a Dragon Ball. A kiadványairól és animéiről ismert univerzum karakterei és emlékezetes jelenetei eddig nem szerepeltek a kínálatban, ám a jövőben több ikonikus elem is megjelenik a boltok polcain kockák formájában.\n\nAz anime alapjául szolgáló képregényeket a szerző 1984 és 1995 között alkotta meg, a rajongók pedig azóta is generációkon át követik a főhős, Son Goku kalandjait. A sorozat évtizedek óta határozza meg a japán animációs kultúrát világszerte, így a mostani lépés a gyűjtők mellett a nosztalgiázó közönség számára is jelentős mérföldkőnek számít.\n\nA technológiai oldalon is történelmi pillanatokat jegyezhettünk fel, hiszen hétfő délután fellőtték a világ legnagyobb űrhajóját, a Starshipet. A SpaceX szerkezete most először érte el a Föld körüli pályát, amivel hatalmas lépést tett a jövőbeli, rutinszerű űrutazások megvalósítása felé.\n\nAz indítás során huszonhat darab Starlink műholdat szállított a jármű, ami mutatja a rendszer gyakorlati hasznát és fejlődését. Az ehhez hasonló küldetések közelebb hozzák azt a kort, amikor a nehéz rakományok szállítása a világűrbe megszokottá és gazdaságossá válhat.\n\nA hét eseményei jól mutatják, hogyan fonódik össze a múlt kulturális öröksége a jövő technológiájával a mindennapjainkban:\n\n- A Lego rajongói a kedvenc animés jeleneteiket építhetik meg fizikai formában.\n\n- Az űrkutatás kedvelői pedig a Starship sikeres pályára állásával egy új korszak kibontakozását figyelhetik.\n\nEzek a fejlesztések mindannyiunk számára azt mutatják, hogy a képzeletünk határai folyamatosan kitágulnak, legyen szó a gyerekszobák polcairól vagy a világűrről.",
-      "content_format": "markdown",
-      "body": [
-        "A popkultúra és a mérnöki bravúrok is izgalmas pillanatokat hoztak a héten, amelyek a mindennapi kikapcsolódásunkat és a jövőnket is formálják. A dán építőjáték-gyártó bejelentése szerint először kap hivatalos készletet Akira Torijama japán mangasorozata, a Dragon Ball. A kiadványairól és animéiről ismert univerzum karakterei és emlékezetes jelenetei eddig nem szerepeltek a kínálatban, ám a jövőben több ikonikus elem is megjelenik a boltok polcain kockák formájában.",
-        "Az anime alapjául szolgáló képregényeket a szerző 1984 és 1995 között alkotta meg, a rajongók pedig azóta is generációkon át követik a főhős, Son Goku kalandjait. A sorozat évtizedek óta határozza meg a japán animációs kultúrát világszerte, így a mostani lépés a gyűjtők mellett a nosztalgiázó közönség számára is jelentős mérföldkőnek számít.",
-        "A technológiai oldalon is történelmi pillanatokat jegyezhettünk fel, hiszen hétfő délután fellőtték a világ legnagyobb űrhajóját, a Starshipet. A SpaceX szerkezete most először érte el a Föld körüli pályát, amivel hatalmas lépést tett a jövőbeli, rutinszerű űrutazások megvalósítása felé.",
-        "Az indítás során huszonhat darab Starlink műholdat szállított a jármű, ami mutatja a rendszer gyakorlati hasznát és fejlődését. Az ehhez hasonló küldetések közelebb hozzák azt a kort, amikor a nehéz rakományok szállítása a világűrbe megszokottá és gazdaságossá válhat.",
-        "A hét eseményei jól mutatják, hogyan fonódik össze a múlt kulturális öröksége a jövő technológiájával a mindennapjainkban:",
-        "- A Lego rajongói a kedvenc animés jeleneteiket építhetik meg fizikai formában.",
-        "- Az űrkutatás kedvelői pedig a Starship sikeres pályára állásával egy új korszak kibontakozását figyelhetik.",
-        "Ezek a fejlesztések mindannyiunk számára azt mutatják, hogy a képzeletünk határai folyamatosan kitágulnak, legyen szó a gyerekszobák polcairól vagy a világűrről."
-      ],
-      "pull_quote": null,
-      "reading_time_min": 2,
-      "word_count": 302,
-      "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/SpaceX_Starship_SN8_launch_as_viewed_from_South_Padre_Island.jpg/1280px-SpaceX_Starship_SN8_launch_as_viewed_from_South_Padre_Island.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 750,
-        "kind": "photo",
-        "alt": "Launch of SpaceX's Starship SN8 prototype, as viewed from South Padre Island, Texas.",
-        "credit": "Forest Katsch / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:SpaceX_Starship_SN8_launch_as_viewed_from_South_Padre_Island.jpg"
-      },
-      "sources": [
-        {
-          "url": "https://hvg.hu/tudomany/20260929_lego-dragon-ball-keszlet-11390-goku-sheron-video",
-          "title": "Kamehameha! Dragon Ball-készlettel állt elő a Lego, és jön még egy csomó másik is",
-          "publisher": "hvg.hu",
-          "license": null,
-          "accessed_at": "2026-09-30T01:19:07+02:00"
-        },
-        {
-          "url": "https://qubit.hu/2026/09/28/tortenelmi-utazasra-indult-a-vilag-legnagyobb-urhajoja-a-starship?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-          "title": "Történelmi utazásra indult a világ legnagyobb űrhajója, a Starship",
-          "publisher": "qubit.hu",
-          "license": null,
-          "accessed_at": "2026-09-30T01:19:07+02:00"
-        }
-      ],
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v1",
-        "reviewed_by": null,
-        "reviewed_at": null
-      },
-      "hot_score": 9.42,
-      "category_meta": {
-        "source_links": [
-          "https://hvg.hu/tudomany/20260929_lego-dragon-ball-keszlet-11390-goku-sheron-video",
-          "https://qubit.hu/2026/09/28/tortenelmi-utazasra-indult-a-vilag-legnagyobb-urhajoja-a-starship?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
-        ]
-      },
-      "date": "2026-09-30",
-      "date_label": "szeptember 30.",
-      "url": "/tech/2026-09-30-kockakbol-epul-ujja-a-kultikus-anime/",
-      "seo": {
-        "meta_title": "Kockákból épül újjá a kultikus anime",
-        "meta_description": "Son Goku világa először költözik be a dán építőkockák közé, miközben a SpaceX óriásűrhajója történelmi pályára állt – írja a hvg.hu és a qubit.hu. A popkulturál",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-09-30-kockakbol-epul-ujja-a-kultikus-anime/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/SpaceX_Starship_SN8_launch_as_viewed_from_South_Padre_Island.jpg/1280px-SpaceX_Starship_SN8_launch_as_viewed_from_South_Padre_Island.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [],
-      "dedupe_hash": "7b906ba77ed360890e42b7115037fb6472bc64de928e35e51a5feb643b259279",
-      "pipeline_run_id": "36644327392",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T01:19:07+02:00",
-      "updated_at": "2026-09-30T01:19:07+02:00",
-      "published_at": "2026-09-30T01:19:07+02:00",
       "expires_at": null
     },
     {
