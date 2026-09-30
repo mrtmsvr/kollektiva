@@ -930,90 +930,92 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Navracsics_Tibor.jpg/1280px-Navracsics_Tibor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Visit_of_Tibor_Navracsics%2C_Hungarian_Minister_for_Public_Administration_and_Regional_Development%2C_to_the_EC_%28P-065648-00-01%29.jpg/1280px-Visit_of_Tibor_Navracsics%2C_Hungarian_Minister_for_Public_Administration_and_Regional_Development%2C_to_the_EC_%28P-065648-00-01%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "János Bóka, Raffaele Fitto, and Tibor Navracsics (from left to right)",
+          "credit": "Europäische Kommission - Audiovisueller Dienst, Bogdan Hoyaux, Yügen, CE - Servi / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Visit_of_Tibor_Navracsics,_Hungarian_Minister_for_Public_Administration_and_Regional_Development,_to_the_EC_(P-065648-00-01).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Visit_of_Tibor_Navracsics%2C_Hungarian_Minister_for_Public_Administration_and_Regional_Development%2C_to_the_EC_%28P-068052-00-01%29.jpg/1280px-Visit_of_Tibor_Navracsics%2C_Hungarian_Minister_for_Public_Administration_and_Regional_Development%2C_to_the_EC_%28P-068052-00-01%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Handshake between Tibor Navracsics, on the left and Raffaele Fitto",
+          "credit": "Europäische Kommission - Audiovisueller Dienst, Claudio Centonze, Yügen, CE - Se / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Visit_of_Tibor_Navracsics,_Hungarian_Minister_for_Public_Administration_and_Regional_Development,_to_the_EC_(P-068052-00-01).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest, Dózsa György út, Nemzeti Adó- és Vámhivatal székház",
+          "credit": "12akd / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt,_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z2.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest, Dózsa György út, Nemzeti Adó- és Vámhivatal székház",
+          "credit": "12akd / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt,_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z2.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Veszpr%C3%A9m_castle.jpg/1280px-Veszpr%C3%A9m_castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Medieval castle of Veszprém.",
+          "credit": "Csendesmark / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Veszpr%C3%A9m_castle.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Plaque_commemorating_President_Lech_Kaczy%C5%84ski_in_Veszpr%C3%A9m%2C_Hungary.jpg/1280px-Plaque_commemorating_President_Lech_Kaczy%C5%84ski_in_Veszpr%C3%A9m%2C_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 680,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Plaque commemorating President Lech Kaczyński in Veszprém, Hungary.",
+          "credit": "Chancellery of the Prime Minister of Poland / Wikimedia Commons",
+          "license": "CC BY 3.0 pl",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Plaque_commemorating_President_Lech_Kaczy%C5%84ski_in_Veszpr%C3%A9m,_Hungary.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/HUNGARY-Lake_Balaton_Region.jpg/1280px-HUNGARY-Lake_Balaton_Region.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Yachts, and a view across Lake Balaton, Veszprém region, Hungary",
+          "credit": "DavidivardiIL / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:HUNGARY-Lake_Balaton_Region.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Balaton_and_Badacsony_-_June_2025.jpg/1280px-Balaton_and_Badacsony_-_June_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 1600,
           "kind": "photo",
           "pos": "top",
-          "alt": "NAVRACSICS Tibor. Várkert Bazár, Európa Projekt 2022.",
-          "credit": "Elekes Andor / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Navracsics_Tibor.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Navracsics_Tibor_portrait_2023.jpg/1280px-Navracsics_Tibor_portrait_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1800,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Official government portrait of Mr. Tibor Navracsics taken in 2022.",
-          "credit": "Magyarország kormánya/Government of Hungary / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Navracsics_Tibor_portrait_2023.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Veszpr%C3%A9m-Balaton_2023.jpg/1280px-Veszpr%C3%A9m-Balaton_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 791,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Veszprém-Balaton 2023 Európa Kulturális Fővárosa program",
-          "credit": "Veszprembalaton2023 / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Veszpr%C3%A9m-Balaton_2023.jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Veszpr%C3%A9m-Balaton_2023_Eur%C3%B3pa_Kultur%C3%A1lis_F%C5%91v%C3%A1rosa.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 1056,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Veszprém-Balaton 2023 Európa Kulturális Fővárosa",
-          "credit": "Veszprembalaton2023 / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Veszpr%C3%A9m-Balaton_2023_Eur%C3%B3pa_Kultur%C3%A1lis_F%C5%91v%C3%A1rosa.png"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z5.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Budapest, Dózsa György út, Nemzeti Adó- és Vámhivatal székház",
-          "credit": "12akd / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt,_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z5.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Budapest, Dózsa György út, Nemzeti Adó- és Vámhivatal székház",
-          "credit": "12akd / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt,_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg"
-        },
-        {
-          "url": "https://live.staticflickr.com/4039/4312159033_6b1c4ce360_b.jpg",
-          "width": 1024,
-          "height": 768,
-          "kind": "photo",
-          "alt": "Courtroom",
-          "credit": "srqpix / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/85549619@N00/4312159033"
-        },
-        {
-          "url": "https://live.staticflickr.com/4031/4289726649_2d622fe46e_b.jpg",
-          "width": 1024,
-          "height": 768,
-          "kind": "photo",
-          "alt": "Courtroom",
-          "credit": "☺ Lee J Haywood / flickr",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://www.flickr.com/photos/45034206@N06/4289726649"
+          "alt": "A view of Lake Balaton and the Badacsony.",
+          "credit": "Deltapug / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Balaton_and_Badacsony_-_June_2025.jpg"
         }
       ],
       "story": [
@@ -1101,10 +1103,38 @@
           219,
           220,
           221,
-          222
+          222,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251
         ],
-        "control_id": 223
-      }
+        "control_id": 252
+      },
+      "image_queries": [
+        "Navracsics Tibor",
+        "Nemzeti Adó- és Vámhivatal",
+        "Veszprém",
+        "Lake Balaton",
+        "Ministry of Public Administration and Regional Development",
+        "corruption investigation",
+        "courtroom document",
+        "hungarian parliament building"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z5.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/4031/4289726649_2d622fe46e_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Navracsics_Tibor_portrait_2023.jpg/1280px-Navracsics_Tibor_portrait_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Veszpr%C3%A9m-Balaton_2023.jpg/1280px-Veszpr%C3%A9m-Balaton_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Navracsics_Tibor.jpg/1280px-Navracsics_Tibor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d3/Veszpr%C3%A9m-Balaton_2023_Eur%C3%B3pa_Kultur%C3%A1lis_F%C5%91v%C3%A1rosa.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://live.staticflickr.com/4039/4312159033_6b1c4ce360_b.jpg"
+      ]
     },
     {
       "id": "912ef8c1-cfb8-53dd-9662-ff7481cd5551",
