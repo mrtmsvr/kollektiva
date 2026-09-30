@@ -33,13 +33,17 @@ jobs:
           RETRO_AUTO_PUBLISH: "true"
           MAX_ARTICLES_PER_RUN: "4"
           DAILY_ARTICLE_LIMIT: "40"
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: python kollektiva_content.py
       - name: Commit és push (a Cloudflare Pages erre automatikusan újratelepít)
         run: |
           git config user.name "kollektiva-bot"
           git config user.email "bot@kollektiva.hu"
-          git add public/
+          git add public/ data/review/ 2>/dev/null || git add public/
           git diff --cached --quiet && exit 0
-          git commit -m "Tartalom: $(TZ=Europe/Budapest date '+%F %H:%M')"
+          MSG="Tartalom: $(TZ=Europe/Budapest date '+%F %H:%M')"
+          # ha csak a jóváhagyásra váró állapot változott, a Cloudflare ne építsen újra (build-keret)
+          if ! git diff --cached --name-only | grep -qv '^data/review/'; then MSG="$MSG [CF-Pages-Skip]"; fi
+          git commit -m "$MSG"
           git pull --rebase origin main
           git push
