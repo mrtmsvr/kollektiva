@@ -1,9 +1,9 @@
 {
   "articles": [
     {
-      "id": "0a8f6fd1-2a18-53f3-9725-86eb021025f6",
-      "slug": "2026-09-30-miert-dobta-vissza-az-elnok-a-kamarai-torvenyt",
-      "status": "pending",
+      "id": "d120b396-5efb-5543-8f09-166ce4129faf",
+      "slug": "2026-09-30-nem-irta-ala-a-sandor-palota-az-egeszsegugyi-kamarai-modositast",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -13,7 +13,7 @@
         "egészségügy",
         "Országgyűlés"
       ],
-      "title": "Miért dobta vissza az elnök a kamarai törvényt?",
+      "title": "Nem írta alá a Sándor-palota az egészségügyi kamarai módosítást",
       "subtitle": null,
       "lead": "Baka András köztársasági elnök megfontolásra visszaküldte az Országgyűlésnek a kötelező orvosi kamarai tagságot visszaállító törvénymódosítást. Az államfő a célkitűzéssel egyetért, de a tisztségviselő-választás törvényi korlátozását aggályosnak tartja.",
       "key_points": [
@@ -160,11 +160,11 @@
       },
       "date": "2026-09-30",
       "date_label": "szeptember 30.",
-      "url": "/kozelet/2026-09-30-miert-dobta-vissza-az-elnok-a-kamarai-torvenyt/",
+      "url": "/kozelet/2026-09-30-nem-irta-ala-a-sandor-palota-az-egeszsegugyi-kamarai-modositast/",
       "seo": {
-        "meta_title": "Miért dobta vissza az elnök a kamarai törvényt?",
+        "meta_title": "Nem írta alá a Sándor-palota az egészségügyi kamarai módosít",
         "meta_description": "Baka András köztársasági elnök megfontolásra visszaküldte az Országgyűlésnek a kötelező orvosi kamarai tagságot visszaállító törvénymódosítást. Az államfő a cél",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-09-30-miert-dobta-vissza-az-elnok-a-kamarai-torvenyt/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-09-30-nem-irta-ala-a-sandor-palota-az-egeszsegugyi-kamarai-modositast/",
         "og_image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Andr%C3%A1s_Baka.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -180,9 +180,9 @@
       "dedupe_hash": "6eec36397f09e6967ab5c148fc1dd6501b2b3604261a4f2b20fbf9f25e54caf9",
       "pipeline_run_id": "36722227905",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T15:31:29+02:00",
-      "updated_at": "2026-09-30T15:31:29+02:00",
-      "published_at": "2026-09-30T15:31:29+02:00",
+      "created_at": "2026-09-30T15:39:01+02:00",
+      "updated_at": "2026-09-30T15:39:01+02:00",
+      "published_at": "2026-09-30T15:39:01+02:00",
       "expires_at": null,
       "review": {
         "title": 1,
@@ -197,7 +197,8 @@
           112
         ],
         "control_id": 113
-      }
+      },
+      "live": true
     },
     {
       "id": "1a09daec-5dcc-5474-b1f5-d7968f63420d",
