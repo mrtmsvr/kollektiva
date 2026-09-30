@@ -89,6 +89,7 @@
     <div class="mx-auto flex max-w-7xl gap-7 overflow-x-auto whitespace-nowrap px-5 py-3 text-[14px] text-dusk [scrollbar-width:none] lg:px-8 [&::-webkit-scrollbar]:hidden">
       <a href="#" class="text-parch" aria-current="page">Főoldal</a>
       <a href="/kozelet/" class="transition-colors hover:text-parch">Közélet</a>
+      <a href="/vilag/" class="transition-colors hover:text-parch">Világ</a>
       <a href="/penzvilag/" class="transition-colors hover:text-parch">Pénzvilág</a>
       <a href="/tech/" class="transition-colors hover:text-parch">Tech / Jövő</a>
       <a href="/eletmod/" class="transition-colors hover:text-parch">Életmód</a>
@@ -103,6 +104,7 @@
     <nav class="mx-auto flex max-w-7xl flex-col px-5 py-4 text-[17px]" aria-label="Mobil navigáció">
       <a href="#" class="py-3 text-parch">Főoldal</a>
       <a href="/kozelet/" class="py-3 text-dusk">Közélet</a>
+      <a href="/vilag/" class="py-3 text-dusk">Világ</a>
       <a href="/penzvilag/" class="py-3 text-dusk">Pénzvilág</a>
       <a href="/tech/" class="py-3 text-dusk">Tech / Jövő</a>
       <a href="/eletmod/" class="py-3 text-dusk">Életmód</a>
@@ -133,7 +135,7 @@
     </g>
   </svg>
   <!-- Mobilon: kis „K” iniciálé, körülötte széles pályán keringő arany hold (jobb felül) -->
-  <svg class="pointer-events-none absolute right-4 top-7 w-[180px] sm:hidden" viewBox="-510 -165 1020 330" aria-hidden="true">
+  <svg class="pointer-events-none absolute -right-10 top-14 w-[250px] opacity-25 sm:hidden" viewBox="-510 -165 1020 330" aria-hidden="true">
     <defs><clipPath id="mFront"><rect x="-540" y="0" width="1080" height="220"/></clipPath></defs>
     <g transform="rotate(-16)">
       <ellipse rx="480" ry="70" fill="none" stroke="#2A2D52" stroke-width="8"/>
@@ -147,19 +149,32 @@
     </g>
   </svg>
 
-  <div class="relative mx-auto max-w-7xl px-5 py-14 lg:px-8 lg:py-20">
+  <div class="relative mx-auto max-w-7xl px-5 py-7 sm:py-12 lg:px-8 lg:py-16">
     <div class="max-w-3xl">
-      <p class="pr-[190px] text-[14px] text-dusk sm:pr-0"><span id="todayLabel"></span></p>
-      <p id="featKicker" class="mt-12 text-[15px] text-brass sm:mt-10">Ekkor történt</p>
-      <h1 id="featTitle" class="mt-4 font-display text-[44px] font-semibold leading-[1.02] tracking-tight text-parch sm:text-[60px] lg:text-[74px]">&nbsp;</h1>
-      <p id="featLead" class="mt-6 max-w-xl text-[18px] leading-relaxed text-dusk"></p>
-      <div class="mt-10 flex flex-wrap items-center gap-4">
-        <a id="featLink" href="#retro" class="rounded-full bg-brass px-7 py-3.5 text-[15px] font-semibold text-night transition hover:bg-[#D8B46B]">Elolvasom</a>
-        <a href="#rovatok" class="rounded-full border border-line px-7 py-3.5 text-[15px] text-parch transition hover:border-brass/70">Rovataink</a>
+      <div class="flex items-baseline justify-between gap-4">
+        <p id="featKicker" class="text-[13px] uppercase tracking-[0.16em] text-brass">&nbsp;</p>
+        <p class="shrink-0 text-[13px] text-dusk"><span id="todayLabel"></span></p>
       </div>
-      <p id="featMeta" class="mt-10 text-[14px] text-dusk"></p>
+      <a id="featLink" href="#retro" class="group block">
+        <h1 id="featTitle" class="mt-3 font-display text-[38px] font-semibold leading-[1.04] tracking-tight text-parch transition-colors group-hover:text-brass sm:text-[56px] lg:text-[68px]">&nbsp;</h1>
+      </a>
+      <p id="featLead" class="hidden"></p>
+      <p id="featMeta" class="hidden"></p>
     </div>
+  </div>
+</section>
 
+<!-- ============ TOP TÉMÁK / HOT TOPIC (articles.json-ból töltődik) ============ -->
+<section id="friss" class="hidden border-b border-line/70">
+  <div class="mx-auto max-w-7xl px-5 py-10 lg:px-8 lg:py-14">
+    <div class="flex items-end justify-between gap-4">
+      <h2 class="font-display text-[34px] font-semibold leading-tight sm:text-[44px]">Top témák</h2>
+      <span class="text-[12px] uppercase tracking-[0.16em] text-brass">Hot topic</span>
+    </div>
+    <div class="mt-8 grid gap-8 lg:grid-cols-[1.5fr_1fr]">
+      <div id="frissMain"></div>
+      <ol id="frissList" class="space-y-5"></ol>
+    </div>
   </div>
 </section>
 
@@ -179,13 +194,77 @@
   </div>
 </section>
 
+
+
+
+<!-- ============ ROVATOK ============ -->
+<section id="rovatok" class="border-b border-line/70">
+  <div class="mx-auto max-w-7xl px-5 py-14 sm:py-20 lg:px-8">
+    <h2 class="font-display text-[40px] font-semibold leading-tight sm:text-[48px]">Rovataink</h2>
+    <div class="mt-8 grid grid-cols-2 gap-3 sm:mt-10 sm:gap-6 lg:grid-cols-3">
+      <article id="kozelet" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-4 transition-colors sm:p-6 hover:border-brass/50">
+        <div class="flex items-center justify-between">
+          <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl sm:h-12 sm:w-12 border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12 16 5.5 27.5 12"/><path d="M6 12.5h20"/><path d="M8.5 15v8M13 15v8M19 15v8M23.5 15v8"/><path d="M5 26.5h22"/></svg></span>
+          <span class="rounded-full border border-line px-2.5 py-0.5 text-[11px] text-dusk sm:px-3 sm:py-1 sm:text-[12px]">Hamarosan</span>
+        </div>
+        <h3 class="mt-3 font-display text-[21px] font-semibold leading-tight sm:mt-5 sm:text-[28px]">Közélet</h3>
+        <p class="mt-2 hidden text-[15px] leading-relaxed text-dusk sm:block">Belpolitika és közügyek – pártatlanul, érthetően.</p>
+      </article>
+      <article id="vilag" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-4 transition-colors sm:p-6 hover:border-brass/50">
+        <div class="flex items-center justify-between">
+          <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl sm:h-12 sm:w-12 border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="11.5"/><path d="M4.5 16h23"/><path d="M16 4.5c3.2 3.2 4.8 7 4.8 11.5S19.2 24.3 16 27.5c-3.2-3.2-4.8-7-4.8-11.5S12.8 7.7 16 4.5z"/></svg></span>
+          <span class="rounded-full border border-line px-2.5 py-0.5 text-[11px] text-dusk sm:px-3 sm:py-1 sm:text-[12px]">Hamarosan</span>
+        </div>
+        <h3 class="mt-3 font-display text-[21px] font-semibold leading-tight sm:mt-5 sm:text-[28px]">Világ</h3>
+        <p class="mt-2 hidden text-[15px] leading-relaxed text-dusk sm:block">Ami a világban történik – háttérrel, magyarul.</p>
+      </article>
+      <article id="univerzum" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-4 transition-colors sm:p-6 hover:border-brass/50">
+        <div class="flex items-center justify-between">
+          <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl sm:h-12 sm:w-12 border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="6.5"/><ellipse cx="16" cy="16" rx="14" ry="4.5" transform="rotate(-20 16 16)"/><path d="M26 5.5v3M24.5 7h3"/></svg></span>
+          <span class="rounded-full border border-line px-2.5 py-0.5 text-[11px] text-dusk sm:px-3 sm:py-1 sm:text-[12px]">Hamarosan</span>
+        </div>
+        <h3 class="mt-3 font-display text-[21px] font-semibold leading-tight sm:mt-5 sm:text-[28px]">Univerzum</h3>
+        <p class="mt-2 hidden text-[15px] leading-relaxed text-dusk sm:block">Csillagászat és űrkutatás: a NASA és az ESA legszebb felvételei, érthetően.</p>
+      </article>
+      <article id="penzvilag" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-4 transition-colors sm:p-6 hover:border-brass/50">
+        <div class="flex items-center justify-between">
+          <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl sm:h-12 sm:w-12 border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 27h24"/><path d="M6 21.5l6-6.5 5 4 9-10"/><path d="M20.5 9H26v5.5"/></svg></span>
+          <span class="rounded-full border border-line px-2.5 py-0.5 text-[11px] text-dusk sm:px-3 sm:py-1 sm:text-[12px]">Hamarosan</span>
+        </div>
+        <h3 class="mt-3 font-display text-[21px] font-semibold leading-tight sm:mt-5 sm:text-[28px]">Pénzvilág</h3>
+        <p class="mt-2 hidden text-[15px] leading-relaxed text-dusk sm:block">Árfolyamok, infláció, bérek – mit jelentenek a számok a pénztárcádnak.</p>
+      </article>
+      <article id="tech" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-4 transition-colors sm:p-6 hover:border-brass/50">
+        <div class="flex items-center justify-between">
+          <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl sm:h-12 sm:w-12 border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="14" height="14" rx="2"/><rect x="13" y="13" width="6" height="6" rx="1"/><path d="M13 4.5V9M19 4.5V9M13 23v4.5M19 23v4.5M4.5 13H9M4.5 19H9M23 13h4.5M23 19h4.5"/></svg></span>
+          <span class="rounded-full border border-line px-2.5 py-0.5 text-[11px] text-dusk sm:px-3 sm:py-1 sm:text-[12px]">Hamarosan</span>
+        </div>
+        <h3 class="mt-3 font-display text-[21px] font-semibold leading-tight sm:mt-5 sm:text-[28px]">Tech / Jövő</h3>
+        <p class="mt-2 hidden text-[15px] leading-relaxed text-dusk sm:block">Mesterséges intelligencia, eszközök és a digitális élet változásai.</p>
+      </article>
+      <article id="eletmod" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-4 transition-colors sm:p-6 hover:border-brass/50">
+        <div class="flex items-center justify-between">
+          <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl sm:h-12 sm:w-12 border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 25.5C6.5 13.5 13.5 6 26 6c0 12.5-7.5 19.5-19.5 19.5z"/><path d="M6.5 25.5 19 13"/></svg></span>
+          <span class="rounded-full border border-line px-2.5 py-0.5 text-[11px] text-dusk sm:px-3 sm:py-1 sm:text-[12px]">Hamarosan</span>
+        </div>
+        <h3 class="mt-3 font-display text-[21px] font-semibold leading-tight sm:mt-5 sm:text-[28px]">Életmód & Egészség</h3>
+        <p class="mt-2 hidden text-[15px] leading-relaxed text-dusk sm:block">Mozgás, alvás, táplálkozás, mentális jóllét – forrásokkal alátámasztva.</p>
+      </article>
+      <article id="kultura" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-4 transition-colors sm:p-6 hover:border-brass/50">
+        <div class="flex items-center justify-between">
+          <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl sm:h-12 sm:w-12 border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 9.5C13 7.5 9 7 5 7.5v17c4-.5 8 0 11 2 3-2 7-2.5 11-2v-17c-4-.5-8 0-11 2z"/><path d="M16 9.5v17"/></svg></span>
+          <span class="rounded-full border border-line px-2.5 py-0.5 text-[11px] text-dusk sm:px-3 sm:py-1 sm:text-[12px]">Hamarosan</span>
+        </div>
+        <h3 class="mt-3 font-display text-[21px] font-semibold leading-tight sm:mt-5 sm:text-[28px]">Kultúra & Ajánló</h3>
+        <p class="mt-2 hidden text-[15px] leading-relaxed text-dusk sm:block">Film, sorozat, könyv, zene és programok válogatva.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
 <!-- ============ HOROSZKÓP ============ -->
 <section id="horoszkop" class="border-b border-line/70">
   <div class="mx-auto max-w-7xl px-5 py-20 lg:px-8">
-    <div class="mb-8 flex items-start gap-3 rounded-xl border-2 border-amber-400 bg-amber-400/10 px-5 py-4 text-amber-200 shadow-[0_0_24px_rgba(251,191,36,0.15)]" role="alert">
-      <span class="text-[22px] leading-none" aria-hidden="true">⚠️</span>
-      <p class="text-[15px] leading-relaxed sm:text-[16px]"><strong class="font-bold text-amber-300">Figyelem: A mai horoszkóp éjfélkor lejár és eltűnik. Ne maradj le!</strong></p>
-    </div>
     <div class="flex flex-col justify-between gap-6 md:flex-row md:items-center">
       <div>
         <h2 class="font-display text-[40px] font-semibold leading-tight sm:text-[48px]">Napi horoszkóp</h2>
@@ -227,86 +306,6 @@
         </div>
       </div>
     </article>
-  </div>
-</section>
-
-<!-- ============ ROVATOK ============ -->
-<!-- ============ FRISS HÍREK (articles.json-ból töltődik) ============ -->
-<section id="friss" class="hidden border-b border-line/70">
-  <div class="mx-auto max-w-7xl px-5 py-14 lg:px-8">
-    <div class="flex items-end justify-between gap-4">
-      <h2 class="font-display text-[36px] font-semibold leading-tight sm:text-[44px]">Friss</h2>
-      <span class="text-[13px] text-dusk">A nap legfontosabb témái</span>
-    </div>
-    <div class="mt-8 grid gap-8 lg:grid-cols-[1.5fr_1fr]">
-      <div id="frissMain"></div>
-      <ol id="frissList" class="space-y-5"></ol>
-    </div>
-  </div>
-</section>
-
-<!-- ============ MA A KOLLEKTÍVÁBAN ============ -->
-<section id="ma" class="border-b border-line/70" aria-labelledby="todayHeading">
-  <div class="mx-auto max-w-7xl px-5 py-12 lg:px-8">
-    <h2 id="todayHeading" class="text-[12px] uppercase tracking-[0.2em] text-dusk">Ma a Kollektívában</h2>
-    <ol id="todayList" class="mt-4 grid divide-y divide-line/70 sm:grid-cols-2 sm:gap-x-12 sm:divide-y-0 lg:grid-cols-4"></ol>
-  </div>
-</section>
-
-<section id="rovatok" class="border-b border-line/70">
-  <div class="mx-auto max-w-7xl px-5 py-14 sm:py-20 lg:px-8">
-    <h2 class="font-display text-[40px] font-semibold leading-tight sm:text-[48px]">Rovataink</h2>
-    <p class="mt-2 max-w-lg text-[16px] text-dusk">Csillagok, történelem, közélet és mindennapok – hiteles forrásokból.</p>
-    <div class="mt-8 grid grid-cols-2 gap-3 sm:mt-10 sm:gap-6 lg:grid-cols-3">
-      <article id="univerzum" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-4 transition-colors sm:p-6 hover:border-brass/50">
-        <div class="flex items-center justify-between">
-          <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl sm:h-12 sm:w-12 border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="6.5"/><ellipse cx="16" cy="16" rx="14" ry="4.5" transform="rotate(-20 16 16)"/><path d="M26 5.5v3M24.5 7h3"/></svg></span>
-          <span class="rounded-full border border-line px-2.5 py-0.5 text-[11px] text-dusk sm:px-3 sm:py-1 sm:text-[12px]">Hamarosan</span>
-        </div>
-        <h3 class="mt-3 font-display text-[21px] font-semibold leading-tight sm:mt-5 sm:text-[28px]">Univerzum</h3>
-        <p class="mt-2 hidden text-[15px] leading-relaxed text-dusk sm:block">Csillagászat és űrkutatás: a NASA és az ESA legszebb felvételei, érthetően.</p>
-      </article>
-      <article id="penzvilag" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-4 transition-colors sm:p-6 hover:border-brass/50">
-        <div class="flex items-center justify-between">
-          <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl sm:h-12 sm:w-12 border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 27h24"/><path d="M6 21.5l6-6.5 5 4 9-10"/><path d="M20.5 9H26v5.5"/></svg></span>
-          <span class="rounded-full border border-line px-2.5 py-0.5 text-[11px] text-dusk sm:px-3 sm:py-1 sm:text-[12px]">Hamarosan</span>
-        </div>
-        <h3 class="mt-3 font-display text-[21px] font-semibold leading-tight sm:mt-5 sm:text-[28px]">Pénzvilág</h3>
-        <p class="mt-2 hidden text-[15px] leading-relaxed text-dusk sm:block">Árfolyamok, infláció, bérek – mit jelentenek a számok a pénztárcádnak.</p>
-      </article>
-      <article id="tech" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-4 transition-colors sm:p-6 hover:border-brass/50">
-        <div class="flex items-center justify-between">
-          <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl sm:h-12 sm:w-12 border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="14" height="14" rx="2"/><rect x="13" y="13" width="6" height="6" rx="1"/><path d="M13 4.5V9M19 4.5V9M13 23v4.5M19 23v4.5M4.5 13H9M4.5 19H9M23 13h4.5M23 19h4.5"/></svg></span>
-          <span class="rounded-full border border-line px-2.5 py-0.5 text-[11px] text-dusk sm:px-3 sm:py-1 sm:text-[12px]">Hamarosan</span>
-        </div>
-        <h3 class="mt-3 font-display text-[21px] font-semibold leading-tight sm:mt-5 sm:text-[28px]">Tech / Jövő</h3>
-        <p class="mt-2 hidden text-[15px] leading-relaxed text-dusk sm:block">Mesterséges intelligencia, eszközök és a digitális élet változásai.</p>
-      </article>
-      <article id="eletmod" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-4 transition-colors sm:p-6 hover:border-brass/50">
-        <div class="flex items-center justify-between">
-          <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl sm:h-12 sm:w-12 border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 25.5C6.5 13.5 13.5 6 26 6c0 12.5-7.5 19.5-19.5 19.5z"/><path d="M6.5 25.5 19 13"/></svg></span>
-          <span class="rounded-full border border-line px-2.5 py-0.5 text-[11px] text-dusk sm:px-3 sm:py-1 sm:text-[12px]">Hamarosan</span>
-        </div>
-        <h3 class="mt-3 font-display text-[21px] font-semibold leading-tight sm:mt-5 sm:text-[28px]">Életmód & Egészség</h3>
-        <p class="mt-2 hidden text-[15px] leading-relaxed text-dusk sm:block">Mozgás, alvás, táplálkozás, mentális jóllét – forrásokkal alátámasztva.</p>
-      </article>
-      <article id="kultura" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-4 transition-colors sm:p-6 hover:border-brass/50">
-        <div class="flex items-center justify-between">
-          <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl sm:h-12 sm:w-12 border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 9.5C13 7.5 9 7 5 7.5v17c4-.5 8 0 11 2 3-2 7-2.5 11-2v-17c-4-.5-8 0-11 2z"/><path d="M16 9.5v17"/></svg></span>
-          <span class="rounded-full border border-line px-2.5 py-0.5 text-[11px] text-dusk sm:px-3 sm:py-1 sm:text-[12px]">Hamarosan</span>
-        </div>
-        <h3 class="mt-3 font-display text-[21px] font-semibold leading-tight sm:mt-5 sm:text-[28px]">Kultúra & Ajánló</h3>
-        <p class="mt-2 hidden text-[15px] leading-relaxed text-dusk sm:block">Film, sorozat, könyv, zene és programok válogatva.</p>
-      </article>
-      <article id="kozelet" class="flex flex-col rounded-2xl border border-line bg-vault/60 p-4 transition-colors sm:p-6 hover:border-brass/50">
-        <div class="flex items-center justify-between">
-          <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl sm:h-12 sm:w-12 border border-line bg-night/60 text-brass" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12 16 5.5 27.5 12"/><path d="M6 12.5h20"/><path d="M8.5 15v8M13 15v8M19 15v8M23.5 15v8"/><path d="M5 26.5h22"/></svg></span>
-          <span class="rounded-full border border-line px-2.5 py-0.5 text-[11px] text-dusk sm:px-3 sm:py-1 sm:text-[12px]">Hamarosan</span>
-        </div>
-        <h3 class="mt-3 font-display text-[21px] font-semibold leading-tight sm:mt-5 sm:text-[28px]">Közélet</h3>
-        <p class="mt-2 hidden text-[15px] leading-relaxed text-dusk sm:block">Pártatlan, adatvezérelt magyarázók a közügyekről.</p>
-      </article>
-    </div>
   </div>
 </section>
 
@@ -621,6 +620,7 @@ function renderFeatured(f) {
 }
 
 function renderToday() {
+  if (!$('todayList')) return;
   const saved = SIGNS.find(s => s.id === store('kollektiva_sign'));
   const h = saved ? (horoscopeData[saved.id] || {}) : null;
   const items = [
@@ -763,7 +763,7 @@ loadRetro();
   try {
     const data = await fetchJSON('articles.json');
     const arts = (Array.isArray(data.articles) ? data.articles : []).filter(a => a && a.status === 'published' && a.url);
-    const NAMES = { kozelet: 'Közélet', penzvilag: 'Pénzvilág', tech: 'Tech / Jövő', eletmod: 'Életmód', kultura: 'Kultúra', univerzum: 'Univerzum' };
+    const NAMES = { kozelet: 'Közélet', vilag: 'Világ', penzvilag: 'Pénzvilág', tech: 'Tech / Jövő', eletmod: 'Életmód', kultura: 'Kultúra', univerzum: 'Univerzum' };
     // Hot topic: a legfrissebb nap cikkei közül a legtöbb kiadónál futó téma (hot_score) kerül előre
     const day = a => String(a.created_at || '').slice(0, 10);
     const hot = (a, b) => day(b).localeCompare(day(a)) || (b.hot_score || 0) - (a.hot_score || 0) || String(b.created_at || '').localeCompare(String(a.created_at || ''));
@@ -781,14 +781,14 @@ loadRetro();
         <p class="mt-4 text-[12px] uppercase tracking-[0.18em] text-brass">${esc(NAMES[m.category] || '')}</p>
         <h3 class="mt-2 font-display text-[30px] font-semibold leading-tight text-parch group-hover:text-brass sm:text-[36px]">${esc(m.title)}</h3>
         <p class="mt-3 text-[16px] leading-relaxed text-dusk">${esc(m.lead || '')}</p></a>`;
-      $('frissList').innerHTML = rest.slice(1, 5).map(a => `<li><a href="${esc(a.url)}" class="group grid grid-cols-[120px_1fr] gap-4 sm:grid-cols-[150px_1fr]">
+      $('frissList').innerHTML = rest.slice(1, 7).map(a => `<li><a href="${esc(a.url)}" class="group grid grid-cols-[120px_1fr] gap-4 sm:grid-cols-[150px_1fr]">
         ${img(a, 'aspect-[4/3] w-full rounded-xl')}
         <span><span class="block text-[11px] uppercase tracking-[0.16em] text-brass">${esc(NAMES[a.category] || '')}</span>
         <span class="mt-1 block text-[17px] font-semibold leading-snug text-parch group-hover:text-brass">${esc(a.title)}</span>
         <span class="mt-1 block text-[12px] text-dusk">${esc(a.date_label || '')}</span></span></a></li>`).join('');
       $('friss').classList.remove('hidden');
     }
-    ['univerzum', 'penzvilag', 'tech', 'eletmod', 'kultura', 'kozelet'].forEach(id => {
+    ['kozelet', 'vilag', 'penzvilag', 'tech', 'eletmod', 'kultura', 'univerzum'].forEach(id => {
       const card = document.getElementById(id); if (!card) return;
       card.style.cursor = 'pointer'; card.addEventListener('click', e => { if (!e.target.closest('a')) location.href = '/' + id + '/'; });
       const list = arts.filter(a => a.category === id).slice(0, 3); if (!list.length) return;
