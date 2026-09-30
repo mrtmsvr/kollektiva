@@ -1,7 +1,199 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T15:41:28+02:00",
+  "updated_at": "2026-09-30T17:37:31+02:00",
   "articles": [
+    {
+      "id": "103326b1-a651-55a4-aec2-a39fd793b27e",
+      "slug": "2026-09-30-az-eperfa-rejtelyes-hatasa-a-belrendszerre",
+      "status": "published",
+      "category": "eletmod",
+      "subcategory": null,
+      "tags": [
+        "egészség",
+        "bélflóra",
+        "anyagcsere",
+        "kutatás",
+        "táplálkozás"
+      ],
+      "title": "Az eperfa rejtélyes hatása a bélrendszerre",
+      "subtitle": null,
+      "lead": "A bélmikrobiom összetételét és az anyagcserét is befolyásolhatják az eperfafélék egyes vegyületei laboratóriumi vizsgálatok szerint. A Wroclawi Orvosi Egyetem kutatói áttekintették a növény biológiailag aktív összetevőinek hatásait.",
+      "key_points": [
+        "Az eperfa leveléből és gyümölcséből készült kivonatok hatással lehetnek a bélbaktériumok összetételére.",
+        "A fehér és a fekete eper is gazdag polifenolokban, poliszacharidokban, valamint egyéb biológiailag aktív anyagokban.",
+        "A feldolgozási módszerek – például a szárítás vagy az extrakció – jelentősen megváltoztatják a készítmények hatását."
+      ],
+      "content": "Az eperfát évszázadok óta használják a hagyományos gyógyászatban és élelmiszerként, a legújabb tudományos vizsgálatok azonban molekuláris szinten is részletesen elemezték a növényt. Anna Prescha professzor, a Wroclawi Orvosi Egyetem dietetikai és bromatológiai tanszékének kutatója szerint a bélmikrobióta nemcsak az emésztőrendszer működéséhez járul hozzá, hanem az egész szervezet anyagcseréjét befolyásolhatja.\n\nA kutatások eddig főként a fehér eperre (Morus alba) koncentráltak, de a fekete eper (Morus nigra) gyümölcse is figyelemre méltó eredményeket mutatott. A növényi részek különböző hatóanyagokat tartalmaznak:\n\n- A levelekben 1-deoxinojirimycin (DNJ) található, amely a szénhidrát-anyagcserére hat.\n\n- A fekete eper gyümölcse magas antocianin- és fenolosvegyület-tartalommal bír.\n\n- Poliszacharidok mindkét növényi részben előfordulnak.\n\nA szakemberek megfigyelték, hogy a feldolgozási eljárások – mint a szárítás, a fermentáció vagy a különböző extrakciós módszerek – átalakítják a hatóanyagok arányát. A vízzel és pektát-liázzal végzett kivonások például a fekete eper esetében különösen erős prebiotikus potenciált mutattak.\n\nEgérkísérletek során, magas zsírtartalmú diétán tartott állatoknál a fehér eper gyümölcséből származó, polifenolokat és poliszacharidokat egyaránt tartalmazó frakció kedvezőbb bélflóra-változásokat idézett elő, mint az egyes összetevők külön-külön. A mikrobióta-transzplantációs kísérletek ráadásul alátámasztották, hogy a bélbaktériumok összetételének megváltoztatása önmagában is hozzájárulhatott a mérsékelt anyagcsere-javulásokhoz.",
+      "content_format": "markdown",
+      "body": [
+        "Az eperfát évszázadok óta használják a hagyományos gyógyászatban és élelmiszerként, a legújabb tudományos vizsgálatok azonban molekuláris szinten is részletesen elemezték a növényt. Anna Prescha professzor, a Wroclawi Orvosi Egyetem dietetikai és bromatológiai tanszékének kutatója szerint a bélmikrobióta nemcsak az emésztőrendszer működéséhez járul hozzá, hanem az egész szervezet anyagcseréjét befolyásolhatja.",
+        "A kutatások eddig főként a fehér eperre (Morus alba) koncentráltak, de a fekete eper (Morus nigra) gyümölcse is figyelemre méltó eredményeket mutatott. A növényi részek különböző hatóanyagokat tartalmaznak:",
+        "- A levelekben 1-deoxinojirimycin (DNJ) található, amely a szénhidrát-anyagcserére hat.",
+        "- A fekete eper gyümölcse magas antocianin- és fenolosvegyület-tartalommal bír.",
+        "- Poliszacharidok mindkét növényi részben előfordulnak.",
+        "A szakemberek megfigyelték, hogy a feldolgozási eljárások – mint a szárítás, a fermentáció vagy a különböző extrakciós módszerek – átalakítják a hatóanyagok arányát. A vízzel és pektát-liázzal végzett kivonások például a fekete eper esetében különösen erős prebiotikus potenciált mutattak.",
+        "Egérkísérletek során, magas zsírtartalmú diétán tartott állatoknál a fehér eper gyümölcséből származó, polifenolokat és poliszacharidokat egyaránt tartalmazó frakció kedvezőbb bélflóra-változásokat idézett elő, mint az egyes összetevők külön-külön. A mikrobióta-transzplantációs kísérletek ráadásul alátámasztották, hogy a bélbaktériumok összetételének megváltoztatása önmagában is hozzájárulhatott a mérsékelt anyagcsere-javulásokhoz."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 215,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Morus_alba_MHNT.BOT.2006.0.1270.JPG/1280px-Morus_alba_MHNT.BOT.2006.0.1270.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1165,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "White mulberry ,  wood",
+        "credit": "Roger Culos / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Morus_alba_MHNT.BOT.2006.0.1270.JPG"
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260928100551.htm",
+          "title": "Mulberry may reshape gut bacteria and influence metabolism",
+          "publisher": "sciencedaily.com",
+          "license": null,
+          "accessed_at": "2026-09-30T17:33:01+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-09-30T17:37:31+02:00"
+      },
+      "hot_score": 5.78,
+      "category_meta": {
+        "source_links": [
+          "https://www.sciencedaily.com/releases/2026/09/260928100551.htm"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/eletmod/2026-09-30-az-eperfa-rejtelyes-hatasa-a-belrendszerre/",
+      "seo": {
+        "meta_title": "Az eperfa rejtélyes hatása a bélrendszerre",
+        "meta_description": "A bélmikrobiom összetételét és az anyagcserét is befolyásolhatják az eperfafélék egyes vegyületei laboratóriumi vizsgálatok szerint. A Wroclawi Orvosi Egyetem k",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-09-30-az-eperfa-rejtelyes-hatasa-a-belrendszerre/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Morus_alba_MHNT.BOT.2006.0.1270.JPG/1280px-Morus_alba_MHNT.BOT.2006.0.1270.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "a0a75ddb55324ac2d9a5ed61fc81e91d9638cda9b7611f192d780d8e2a9743ec",
+      "pipeline_run_id": "36736957934",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T17:37:31+02:00",
+      "updated_at": "2026-09-30T17:37:31+02:00",
+      "published_at": "2026-09-30T17:37:31+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "35dc1aee-8209-541f-a0fa-921b5928f7a6",
+      "slug": "2026-09-30-furdoszobai-krem-hozhatja-el-a-litiumforradalmat",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "lítium",
+        "akkumulátor",
+        "MIT",
+        "technológia",
+        "anyagtudomány"
+      ],
+      "title": "Fürdőszobai krém hozhatja el a lítiumforradalmat",
+      "subtitle": null,
+      "lead": "Egy korábbi lakásfelújítás során használt üvegmarató szer adta az ötletet amerikai kutatóknak egy olyan új eljáráshoz, amely felére csökkentheti a lítiumkitermelés költségeit. Az innováció alapja egy szobahőmérsékleten működő, zárt láncú kémiai módszer, amely szinte semmilyen hulladékot nem termel.",
+      "key_points": [
+        "A lítium iránti világpiaci kereslet meredeken megugrott az akkumulátorok terjedése miatt.",
+        "A Massachusettsi Műszaki Egyetem kutatói egy ammónium-fluorid alapú oldattal oldják fel a kőzet szilíciumtartalmát.",
+        "Az új eljárás fele annyiba kerülhet, mint a hagyományos, ezer Celsius-fok feletti kiégetés.",
+        "A technológia ipari méretű alkalmazására a kutatók által alapított Rock Zero startup fókuszál."
+      ],
+      "content": "A modern technológiai eszközök, az okostelefonok és az elektromos autók elengedhetetlen kellékei a lítium-ion akkumulátorok, amelyek miatt a nyersanyag iránti kereslet globális szinten soha nem látott magasságokba emelkedett. Bár az alkálifém nem számít ritka elemnek a Földön, és jelentős készletek rejtőznek az Egyesült Államokban, Ausztráliában, valamint Európában is, a kőzetekbe zárt anyag kinyerése eddig rendkívül energiaigényesnek és drágának bizonyult. A hagyományos technológiák során a lítiumtartalmú kőzetet több mint ezer Celsius-fokon égetik ki, ami hatalmas energiafogyasztással és jelentős környezeti terheléssel jár. Emiatt a világ lítiumfinomításának döntő részét jelenleg Kína uralja, miközben a geopolitikai verseny folyamatosan éleződik a nyersanyagért.\n\nA Massachusettsi Műszaki Egyetem (MIT) szakemberei által kidolgozott új módszer azonban alapjaiban változtathatja meg ezt a folyamatot, a kiindulópontot pedig egy korábbi fürdőszoba-felújítás jelentette. Az intézmény egyik professzora korábban egy barkácsáruházban találkozott azzal az ammónium-fluorid tartalmú üvegmarató krémmel, amelyet üvegtéglák átlátszatlanná tételére terveztek, és amely hatékonyan támadja meg a szilícium-dioxidot. Amikor később a leggyakoribb lítiumtartalmú ásvány, a spodumen kémiai lebontásán ötletelt, visszagondolt erre az anyagra, hiszen a kőzet az üveghez hasonlóan szintén nagy mennyiségben tartalmaz szilícium-dioxidot. A felismerés arra a kérdésre vezetett, hogy mi történne, ha a lítium helyett először a szilíciumot oldanák fel a kőzetből.\n\nA kutatók ezt követően víz és ammónium-fluorid keverékével kísérleteztek, amely már szobahőmérsékleten képes megbontani a spodumen szerkezetét, így nincs szükség extrém hőmérsékletre. Az eljárás során nemcsak az akkumulátorgyártáshoz szükséges lítiumsókat nyerik ki, hanem az ásvány többi összetevőjét is hasznosítani tudják:\n- alumíniumból kohászati minőségű alumínium-oxid készül,\n- a szilícium pedig cementipari alapanyagként hasznosítható.\nEzenfelül az oldószer és a reagens a folyamat végén visszanyerhető és újra felhasználható, aminek köszönhetően a keletkező hulladék mennyisége a nullához közelít.\n\nA laboratóriumi tesztek során tizenhét különböző helyről származó spodumen mintán próbálták ki sikerrel az eljárást, igazolva annak széles körű alkalmazhatóságát. A becslések szerint ez a zárt láncú technológia a hagyományos keménykőzet-kitermelés költségeinek a feléből kihozható, emellett a sós vizes kitermelés negatív környezeti hatásai nélkül is versenyképes maradhat. Az elméleti sikerek után a kutatók létrehozták a Rock Zero nevű startupot, amelynek feladata az ipari méretű skálázás megvalósítása, hogy a laboratóriumi eredményeket a gazdasági valóságban is érvényesíteni tudják.",
+      "content_format": "markdown",
+      "body": [
+        "A modern technológiai eszközök, az okostelefonok és az elektromos autók elengedhetetlen kellékei a lítium-ion akkumulátorok, amelyek miatt a nyersanyag iránti kereslet globális szinten soha nem látott magasságokba emelkedett. Bár az alkálifém nem számít ritka elemnek a Földön, és jelentős készletek rejtőznek az Egyesült Államokban, Ausztráliában, valamint Európában is, a kőzetekbe zárt anyag kinyerése eddig rendkívül energiaigényesnek és drágának bizonyult. A hagyományos technológiák során a lítiumtartalmú kőzetet több mint ezer Celsius-fokon égetik ki, ami hatalmas energiafogyasztással és jelentős környezeti terheléssel jár. Emiatt a világ lítiumfinomításának döntő részét jelenleg Kína uralja, miközben a geopolitikai verseny folyamatosan éleződik a nyersanyagért.",
+        "A Massachusettsi Műszaki Egyetem (MIT) szakemberei által kidolgozott új módszer azonban alapjaiban változtathatja meg ezt a folyamatot, a kiindulópontot pedig egy korábbi fürdőszoba-felújítás jelentette. Az intézmény egyik professzora korábban egy barkácsáruházban találkozott azzal az ammónium-fluorid tartalmú üvegmarató krémmel, amelyet üvegtéglák átlátszatlanná tételére terveztek, és amely hatékonyan támadja meg a szilícium-dioxidot. Amikor később a leggyakoribb lítiumtartalmú ásvány, a spodumen kémiai lebontásán ötletelt, visszagondolt erre az anyagra, hiszen a kőzet az üveghez hasonlóan szintén nagy mennyiségben tartalmaz szilícium-dioxidot. A felismerés arra a kérdésre vezetett, hogy mi történne, ha a lítium helyett először a szilíciumot oldanák fel a kőzetből.",
+        "A kutatók ezt követően víz és ammónium-fluorid keverékével kísérleteztek, amely már szobahőmérsékleten képes megbontani a spodumen szerkezetét, így nincs szükség extrém hőmérsékletre. Az eljárás során nemcsak az akkumulátorgyártáshoz szükséges lítiumsókat nyerik ki, hanem az ásvány többi összetevőjét is hasznosítani tudják:\n- alumíniumból kohászati minőségű alumínium-oxid készül,\n- a szilícium pedig cementipari alapanyagként hasznosítható.\nEzenfelül az oldószer és a reagens a folyamat végén visszanyerhető és újra felhasználható, aminek köszönhetően a keletkező hulladék mennyisége a nullához közelít.",
+        "A laboratóriumi tesztek során tizenhét különböző helyről származó spodumen mintán próbálták ki sikerrel az eljárást, igazolva annak széles körű alkalmazhatóságát. A becslések szerint ez a zárt láncú technológia a hagyományos keménykőzet-kitermelés költségeinek a feléből kihozható, emellett a sós vizes kitermelés negatív környezeti hatásai nélkül is versenyképes maradhat. Az elméleti sikerek után a kutatók létrehozták a Rock Zero nevű startupot, amelynek feladata az ipari méretű skálázás megvalósítása, hogy a laboratóriumi eredményeket a gazdasági valóságban is érvényesíteni tudják."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 389,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Lithium_mines_and_refineries.webp/1280px-Lithium_mines_and_refineries.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 644,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Lithium mines and refineries",
+        "credit": "Wikideas1 / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Lithium_mines_and_refineries.webp"
+      },
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20260930_energiahatekony-litiumkitermeles-hulladek-nelkul",
+          "title": "Egy fürdőszoba-felújítás és egy olcsó üvegmarató krém hozhat áttörést a lítiumpiacon",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T17:32:02+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-09-30T17:37:30+02:00"
+      },
+      "hot_score": 5.96,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20260930_energiahatekony-litiumkitermeles-hulladek-nelkul"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/tech/2026-09-30-furdoszobai-krem-hozhatja-el-a-litiumforradalmat/",
+      "seo": {
+        "meta_title": "Fürdőszobai krém hozhatja el a lítiumforradalmat",
+        "meta_description": "Egy korábbi lakásfelújítás során használt üvegmarató szer adta az ötletet amerikai kutatóknak egy olyan új eljáráshoz, amely felére csökkentheti a lítiumkiterme",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-09-30-furdoszobai-krem-hozhatja-el-a-litiumforradalmat/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Lithium_mines_and_refineries.webp/1280px-Lithium_mines_and_refineries.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "227c70fcf9a264eecedf0a5d226cb461f04367c2e5bc523160fdb14aaa132fe4",
+      "pipeline_run_id": "36736957934",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T17:37:30+02:00",
+      "updated_at": "2026-09-30T17:37:30+02:00",
+      "published_at": "2026-09-30T17:37:30+02:00",
+      "expires_at": null
+    },
     {
       "id": "01b97a4b-4358-5870-9b81-062d99d7eed1",
       "slug": "2026-09-30-miert-akadt-el-az-uj-orvosi-torveny",
