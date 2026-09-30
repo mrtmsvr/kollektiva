@@ -1,9 +1,9 @@
 {
   "articles": [
     {
-      "id": "2b9e53f3-30b8-5039-aa04-69c505dd94ac",
-      "slug": "2026-09-30-mit-kerestek-a-fotosok-a-gyerekszoba-ablakanal",
-      "status": "pending",
+      "id": "73e42e2d-d649-50fb-86f6-97b70361fda3",
+      "slug": "2026-09-30-iskolai-incidens-miatt-haborodott-fel-harry-es-meghan",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -13,7 +13,7 @@
         "Paparazzi",
         "Egyesült Királyság"
       ],
-      "title": "Mit kerestek a fotósok a gyerekszoba ablakánál?",
+      "title": "Iskolai incidens miatt háborodott fel Harry és Meghan",
       "subtitle": null,
       "lead": "Fokozott biztonsági kockázatot jelentett, hogy ismeretlen fotósok bukkantak fel Harry herceg és Meghan hercegné gyerekeinek iskolája körül. A sussexi házaspár élesen elítélte a sajtómunkások akcióját.",
       "key_points": [
@@ -145,11 +145,11 @@
       },
       "date": "2026-09-30",
       "date_label": "szeptember 30.",
-      "url": "/vilag/2026-09-30-mit-kerestek-a-fotosok-a-gyerekszoba-ablakanal/",
+      "url": "/vilag/2026-09-30-iskolai-incidens-miatt-haborodott-fel-harry-es-meghan/",
       "seo": {
-        "meta_title": "Mit kerestek a fotósok a gyerekszoba ablakánál?",
+        "meta_title": "Iskolai incidens miatt háborodott fel Harry és Meghan",
         "meta_description": "Fokozott biztonsági kockázatot jelentett, hogy ismeretlen fotósok bukkantak fel Harry herceg és Meghan hercegné gyerekeinek iskolája körül. A sussexi házaspár é",
-        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-09-30-mit-kerestek-a-fotosok-a-gyerekszoba-ablakanal/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-09-30-iskolai-incidens-miatt-haborodott-fel-harry-es-meghan/",
         "og_image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Prince_Harry%2C_Duke_of_Sussex_2020_cropped_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -165,9 +165,9 @@
       "dedupe_hash": "1bae369af3f8b5ad03b211064fc08124cbf982365c08974f1a82b4cc79643cd1",
       "pipeline_run_id": "36722227905",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T15:35:26+02:00",
-      "updated_at": "2026-09-30T15:35:26+02:00",
-      "published_at": "2026-09-30T15:35:26+02:00",
+      "created_at": "2026-09-30T15:40:41+02:00",
+      "updated_at": "2026-09-30T15:40:41+02:00",
+      "published_at": "2026-09-30T15:40:41+02:00",
       "expires_at": null,
       "review": {
         "title": 1,
@@ -182,7 +182,8 @@
           126
         ],
         "control_id": 127
-      }
+      },
+      "live": true
     },
     {
       "id": "01b97a4b-4358-5870-9b81-062d99d7eed1",
