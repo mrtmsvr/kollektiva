@@ -1409,6 +1409,14 @@ SECTIONS = {
         "focus": "film, sorozat, könyv, zene, színház, kiállítás, programajánló",
         "feeds": [("https://telex.hu/rss", r"Kultúra", None), ("https://hvg.hu/rss", r"Kult", None)],
     },
+    "bulvar": {
+        "id": "bulvar", "name": "Bulvár", "kicker": "Bulvár",
+        "tagline": "Sztárok, show és az internet legfurcsább történetei.",
+        "focus": ("sztárok, hírességek, showbiznisz, tévéműsorok, virális és furcsa történetek – könnyed hangon, de "
+                  "ízlésesen: pletykát, feltételezést soha nem állítunk tényként, magánéleti részleteket nem nagyítunk fel"),
+        "feeds": [("https://www.blikk.hu/rss", r"Sztárvilág", None),
+                  ("https://www.borsonline.hu/publicapi/hu/rss/bors/articles", None, None)],
+    },
     "univerzum": {
         "id": "univerzum", "name": "Univerzum", "kicker": "Univerzum",
         "tagline": "Csillagászat és űrkutatás, érthetően.",
