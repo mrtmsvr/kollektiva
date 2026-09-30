@@ -1976,6 +1976,14 @@ def main(argv: Optional[list] = None) -> int:
     elif args.if_due:
         log.info("Új rovatcikk most nem esedékes.")
 
+    # Napi egy saját (off-topic) cikk a témalistából – Telegramra megy, csendes időszakban kerül ki
+    if args.only in (None, "sections"):
+        try:
+            import offtopic
+            offtopic.run(ai, target, tz, cfg.output_dir, args.dry_run)
+        except Exception as e:  # noqa: BLE001 – a saját cikk hibája ne állítsa meg a robotot
+            log.exception("Off-topic cikk kimaradt: %s", e)
+
     if not args.dry_run and (wrote or not args.if_due):
         try:
             build_static_site(cfg.output_dir, tz)
