@@ -1,8 +1,13 @@
-name: Telegram jóváhagyás
+name: Kollektíva robot
 
+# Egyetlen robot, 5 percenként indul (a GitHub ezt néha 10–20 percre nyújtja):
+#  1. ha esedékes (kb. kétóránként, 6–22 óra között), új rovatcikkek -> Telegramra jóváhagyásra
+#     (éjfél után a napi horoszkóp és retro cikk is itt készül)
+#  2. kb. 10 percig folyamatosan figyeli a Telegram-gombnyomásokat, és azonnal kirakja / módosítja a cikket;
+#     ha AUTO_PUBLISH_MIN percen belül nincs döntés, magától kikerül
+#  3. minden változás mentése; Cloudflare-build csak a havi keret szerint (scripts/commit.sh)
 on:
   schedule:
-    # 5 percenként megnézi, mit hagytál jóvá Telegramon (a GitHub néha késik pár percet)
     - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
@@ -14,32 +19,42 @@ permissions:
   contents: write
 
 jobs:
-  poll:
+  robot:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+      ANTHROPIC_MODEL: claude-sonnet-5-5
+      RETRO_AUTO_PUBLISH: "true"
+      REVIEW_MODE: hybrid
+      AUTO_PUBLISH_MIN: "30"
+      SECTIONS_EVERY_MIN: "110"
+      MAX_ARTICLES_PER_RUN: "4"
+      DAILY_ARTICLE_LIMIT: "40"
+      BUILD_BUDGET: "470"
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Telegram-válaszok feldolgozása
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          ANTHROPIC_MODEL: claude-sonnet-5-5
-          RETRO_AUTO_PUBLISH: "true"
-        run: python telegram_review.py
-      - name: Commit és push
+      - name: Git beállítás
         run: |
           git config user.name "kollektiva-bot"
           git config user.email "bot@kollektiva.hu"
-          git add public/ data/review/ 2>/dev/null || true
-          git diff --cached --quiet && exit 0
-          MSG="Jóváhagyás: $(TZ=Europe/Budapest date '+%F %H:%M')"
-          # csak állapotváltozás (gombnyomás, választás) -> nincs Cloudflare-build
-          if ! git diff --cached --name-only | grep -qv '^data/review/'; then MSG="$MSG [CF-Pages-Skip]"; fi
-          git commit -m "$MSG"
-          git pull --rebase origin main
-          git push
+      - name: Telegram (gyors kör)
+        run: python telegram_review.py
+      - name: Új tartalom, ha esedékes
+        run: python kollektiva_content.py --if-due
+      - name: Mentés
+        run: bash scripts/commit.sh "Tartalom"
+      - name: Telegram-gombnyomások figyelése (kb. 10 perc)
+        run: python telegram_review.py --loop 600
+      - name: Mentés (maradék)
+        if: always()
+        run: bash scripts/commit.sh "Jóváhagyás"
