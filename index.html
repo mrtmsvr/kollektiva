@@ -328,6 +328,7 @@
             <input id="consent" type="checkbox" required class="mt-1 h-4 w-4 accent-[#C9A45C]">
             <span>Kérem a heti levelet, és elfogadom az <a href="#" class="text-parch underline decoration-line underline-offset-2 hover:decoration-brass">adatkezelési tájékoztatót</a>.</span>
           </label>
+          <input type="text" name="website" id="nlWebsite" tabindex="-1" autocomplete="off" aria-hidden="true" class="hidden">
           <p id="formError" class="hidden text-[14px] text-[#E38B8B]" role="alert"></p>
           <button type="submit" id="submitBtn" class="w-full rounded-full bg-brass px-6 py-4 text-[16px] font-semibold text-night transition hover:bg-[#D8B46B] disabled:opacity-60">Feliratkozom</button>
           <p class="text-[13px] leading-relaxed text-dusk/80">Ugyanezzel az e-mail címmel később be is léphetsz az oldalra – jelszó nélkül, egy belépőlinkkel. Bármikor leiratkozhatsz.</p>
@@ -378,7 +379,7 @@ const DATA_PATHS = ['/data/', './data/', '/public/data/', './public/data/'];
 const FETCH_TIMEOUT_MS = 8000;
 const SITE_TZ = 'Europe/Budapest';
 // Hírlevél backend végpontja (Brevo, Mailchimp, Systeme.io stb.). Üresen: demó mód.
-const NEWSLETTER_ENDPOINT = '';
+const NEWSLETTER_ENDPOINT = '/api/subscribe';
 
 /* =====================================================================
    ALAPADATOK + FALLBACK (ha a JSON nem érhető el)
@@ -728,7 +729,7 @@ $('leadForm').addEventListener('submit', async e => {
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return fail('Érvényes e-mail címet adj meg, például nev@pelda.hu.');
   if (!consent) return fail('A feliratkozáshoz fogadd el az adatkezelési tájékoztatót.');
 
-  const payload = { email, source: 'kollektiva_home', consent_at: new Date().toISOString() };
+  const payload = { email, source: 'kollektiva_home', consent_at: new Date().toISOString(), website: $('nlWebsite').value };
 
   btn.disabled = true; btn.textContent = 'Feliratkozás…';
   try {
