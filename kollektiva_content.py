@@ -1246,9 +1246,13 @@ Az oldalt a Cloudflare szolgálja ki; ha a látogatottságot mérjük, azt süti
 <p><b>Leiratkozás, törlés:</b> minden levél alján van leiratkozó link – egy kattintással megszűnik a feliratkozás.
 Adataid törlését, helyesbítését vagy másolatát bármikor kérheted a hírlevélre válaszolva.</p>
 
+<p><b>Google-belépés:</b> ha Google-fiókkal lépsz be, a nevedet, e-mail címedet és profilképedet kapjuk meg
+(jelszót soha). Ezeket a Brevóban, a „Kollektíva fiókok” listán tároljuk, hírlevelet csak akkor küldünk, ha külön
+feliratkozol. A belépés a böngésződben marad meg; kilépni a nevedre kattintva tudsz.</p>
+
 <h2 id="sutik">Sütik (cookie-k)</h2>
 <p>Az oldal nem használ követő vagy hirdetési sütiket, ezért nincs mit elfogadnod. A böngésződ csak egy apró,
-helyi beállítást jegyez meg (a horoszkópnál kiválasztott csillagjegyet), ez nem hagyja el a gépedet, és a böngésző
+helyi beállítást jegyez meg (a horoszkópnál kiválasztott csillagjegyet, és ha belépsz, a nevedet), ez nem hagyja el a gépedet, és a böngésző
 beállításaiban bármikor törölheted. Ha a jövőben hirdetések vagy mérőeszközök kerülnek az oldalra, itt jelezzük,
 és előtte kérjük a hozzájárulásodat.</p>
 
