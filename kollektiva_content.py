@@ -1710,20 +1710,20 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
     if not ai.enabled:
         log.warning("Rovatcikkekhez AI kell – kimarad.")
         return 0
+    review = None
+    if os.getenv("TELEGRAM_BOT_TOKEN"):
+        import telegram_review as review  # szerkesztői ellenőrzés Telegramon
+        review.poll(output_dir, ai, tz)  # előbb a beérkezett gombnyomások (ezek módosíthatják az articles.json-t)
+        if not review.enabled(output_dir):
+            review = None
     path = output_dir / "articles.json"
     data = read_json(path, {"articles": []})
     articles = data.get("articles", [])
-    review = None
-    if os.getenv("TELEGRAM_BOT_TOKEN"):
-        import telegram_review as review  # emberi jóváhagyás Telegramon
-        review.poll(output_dir, ai, tz)  # előbb a beérkezett válaszok (pl. első üzenet = összekötés)
-        if not review.enabled(output_dir):
-            review = None
     pending = review.load_pending(output_dir) if review else []
     used_links = {l for a in articles + pending for l in a.get("category_meta", {}).get("source_links", [])}
     if review:
         used_links |= review.rejected_links(output_dir)
-    articles_all = articles + pending
+    articles_all = articles + [p for p in pending if not p.get("live")]
     now = datetime.now(tz)
     recent_kw = [_keywords(a.get("title", "") + " " + " ".join(s.get("title", "") for s in a.get("sources", [])))
                  for a in articles_all if (a.get("created_at") or "") >= (now - timedelta(hours=48)).isoformat()]
@@ -1751,7 +1751,7 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
             bonus = 3 if today == 0 else 0  # minden rovatban legyen legalább egy friss cikk naponta
             cands.append((group[0]["hot_score"] + bonus, sid, group))
     cands.sort(key=lambda x: -x[0])
-    made, per_section = 0, {}
+    made, per_section, made_public = 0, {}, 0
     for score, sid, group in cands:
         if made >= max_run:
             break
@@ -1765,7 +1765,16 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
         if art.get("hero_image"):
             recent_imgs.add(art["hero_image"]["url"])
         if review:
-            art["status"] = "pending"
+            # REVIEW_MODE=post (alap): a hír azonnal kikerül (verseny a kattintásért), és utólag Telegramon
+            # lehet címet/képet cserélni, újraíratni vagy törölni. REVIEW_MODE=pre: csak jóváhagyás után kerül ki.
+            if review.MODE == "post":
+                art["status"] = "published"
+                art["live"] = True
+                articles.insert(0, {k: v for k, v in art.items()
+                                    if k not in ("title_options", "image_options", "story", "live")})
+                made_public += 1
+            else:
+                art["status"] = "pending"
             review.send_article(output_dir, art)
             pending.append(art)
         else:
@@ -1780,7 +1789,7 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
     if review and not dry_run:
         review.save_pending(output_dir, pending)
     articles.sort(key=lambda a: a.get("created_at", ""), reverse=True)
-    if made and not dry_run and not review:
+    if (made_public or (made and not review)) and not dry_run:
         write_json_atomic(path, {"schema_version": 1, "updated_at": datetime.now(tz).isoformat(timespec="seconds"),
                                  "articles": articles[:int(os.getenv("ARTICLES_ARCHIVE_LIMIT", "600"))]})
     log.info("Rovatcikkek: %d új (%d jelölt)", made, len(cands))
