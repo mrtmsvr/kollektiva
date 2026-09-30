@@ -1,7 +1,100 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T13:34:01+02:00",
+  "updated_at": "2026-09-30T13:34:05+02:00",
   "articles": [
+    {
+      "id": "7b569ae9-21df-56eb-b1f5-018a3ae9e373",
+      "slug": "2026-09-30-miert-halogatja-a-magyarok-fele-a-lakasfelujitast",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "lakásbiztosítás",
+        "szakemberhiány",
+        "felújítás",
+        "gazdaság"
+      ],
+      "title": "Miért halogatja a magyarok fele a lakásfelújítást?",
+      "subtitle": null,
+      "lead": "A magyar háztartások közel felében hónapok óta halogatják a különféle javítási munkákat a megfelelő kivitelezők hiánya miatt. Egy új biztosítási modell mostantól nemcsak a kártérítést fizeti ki, hanem a teljes helyreállítást is megszervezi.",
+      "key_points": [
+        "A magyar háztartások felébe kellett műszaki szakembert hívni az elmúlt két évben.",
+        "A megkérdezettek 42 százaléka számla nélkül fizetett az elvégzett munkáért.",
+        "Az Alfa Biztosító új konstrukciója 300 ezer és 5 millió forint közötti károknál szervezi meg a helyreállítást."
+      ],
+      "content": "A 2024 és 2026 közötti időszakban minden második magyar otthonban megfordult valamilyen műszaki szakember egy friss, ezerfős reprezentatív felmérés szerint. A legnagyobb kereslet a villanyszerelők, a vízszerelők és a gázszerelők iránt mutatkozott.\n\nA mesteremberek megtalálása azonban komoly akadályokba ütközik: a válaszadók 17 százalékának egyáltalán nem sikerült kivitelezőt találnia, míg tízből egy ügyfélnek legalább öt embert fel kellett hívnia, mire valaki elvállalta a munkát. A helyzetet súlyosbítja a kivitelezők eltűnése is, hiszen a megkérdezettek ötödét soha nem hívták vissza, 32 százalékuknál pedig a helyszíni felmérés után vált elérhetetlenné a szakember.\n\nA megbízhatatlan minőség és a hosszú várakozási idők miatt a háztartások 46 százalékánál hónapok óta, 30 százalékuknál pedig több mint egy éve halmozódnak az elmaradt javítások. A helyzetet a szürkegazdaság jelenléte is nehezíti, ugyanis az ügyfelek 42 százaléka számla nélkül fizet, ami miatt garanciális igényt sem lehet érvényesíteni.\n\nA problémák kezelésére az Alfa Biztosító új, aktív kárrendezési lakásbiztosítást vezetett be. A 300 ezer és 5 millió forint közötti károknál a biztosító minősített szakemberekkel, áfás számlával és garanciával szervezi meg a helyreállítást, egymillió forint felett pedig energetikai korszerűsítéssel is összeköthető a munka.",
+      "content_format": "markdown",
+      "body": [
+        "A 2024 és 2026 közötti időszakban minden második magyar otthonban megfordult valamilyen műszaki szakember egy friss, ezerfős reprezentatív felmérés szerint. A legnagyobb kereslet a villanyszerelők, a vízszerelők és a gázszerelők iránt mutatkozott.",
+        "A mesteremberek megtalálása azonban komoly akadályokba ütközik: a válaszadók 17 százalékának egyáltalán nem sikerült kivitelezőt találnia, míg tízből egy ügyfélnek legalább öt embert fel kellett hívnia, mire valaki elvállalta a munkát. A helyzetet súlyosbítja a kivitelezők eltűnése is, hiszen a megkérdezettek ötödét soha nem hívták vissza, 32 százalékuknál pedig a helyszíni felmérés után vált elérhetetlenné a szakember.",
+        "A megbízhatatlan minőség és a hosszú várakozási idők miatt a háztartások 46 százalékánál hónapok óta, 30 százalékuknál pedig több mint egy éve halmozódnak az elmaradt javítások. A helyzetet a szürkegazdaság jelenléte is nehezíti, ugyanis az ügyfelek 42 százaléka számla nélkül fizet, ami miatt garanciális igényt sem lehet érvényesíteni.",
+        "A problémák kezelésére az Alfa Biztosító új, aktív kárrendezési lakásbiztosítást vezetett be. A 300 ezer és 5 millió forint közötti károknál a biztosító minősített szakemberekkel, áfás számlával és garanciával szervezi meg a helyreállítást, egymillió forint felett pedig energetikai korszerűsítéssel is összeköthető a munka."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 213,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Dan_Wells.jpg/1280px-Dan_Wells.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1240,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Author Dan Wells at WorldCon 69: Renovation",
+        "credit": "Coltonlg / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dan_Wells.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/uzlet/20260930/ujfajta-lakasbiztositasi-modell-jelent-meg-magyarorszagon-a-helyreallitast-is-megszervezik-866326",
+          "title": "Újfajta lakásbiztosítási modell jelent meg Magyarországon, a helyreállítást is megszervezik",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T13:32:54+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-09-30T13:34:05+02:00"
+      },
+      "hot_score": 6.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/uzlet/20260930/ujfajta-lakasbiztositasi-modell-jelent-meg-magyarorszagon-a-helyreallitast-is-megszervezik-866326"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/penzvilag/2026-09-30-miert-halogatja-a-magyarok-fele-a-lakasfelujitast/",
+      "seo": {
+        "meta_title": "Miért halogatja a magyarok fele a lakásfelújítást?",
+        "meta_description": "A magyar háztartások közel felében hónapok óta halogatják a különféle javítási munkákat a megfelelő kivitelezők hiánya miatt. Egy új biztosítási modell mostantó",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-09-30-miert-halogatja-a-magyarok-fele-a-lakasfelujitast/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Dan_Wells.jpg/1280px-Dan_Wells.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "258407ade6265aab6f834875f009edb04024ea62982ad04570b1be2f3572cb03",
+      "pipeline_run_id": "36709036752",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T13:34:05+02:00",
+      "updated_at": "2026-09-30T13:34:05+02:00",
+      "published_at": "2026-09-30T13:34:05+02:00",
+      "expires_at": null
+    },
     {
       "id": "b1e181b7-dc96-529d-9d6c-0cb0a076c8c6",
       "slug": "2026-09-30-gyaszol-a-hazai-cirkuszvilag-elhunyt-a-recirquel-muvesze",
