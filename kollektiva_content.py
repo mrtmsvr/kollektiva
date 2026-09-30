@@ -1740,6 +1740,32 @@ def pick_story(section: dict, used_links: set, now: datetime, timeout: int, max_
     return out
 
 
+DUP_SYSTEM = ("Hírszerkesztő vagy. Eldöntöd, hogy egy új hír UGYANARRÓL az eseményről/ügyről szól-e, mint valamelyik "
+              "már megírt cikkünk (akkor is, ha más szemszögből, más szavakkal vagy más rovatban). Csak JSON-t adsz vissza.")
+
+
+def same_story_as_recent(ai: "AIClient", group: list, recent_titles: list) -> bool:
+    """Rovatok közötti duplikáció szűrése: a kulcsszavas egyezés nem fogja meg, ha két kiadó másképp fogalmaz
+    (pl. „Nem írta alá a Sándor-palota…” vs. „Miért akadt el az új orvosi törvény?”), ezért egy rövid AI-ellenőrzés
+    dönt. Hibánál nem szűr (inkább legyen cikk)."""
+    if not recent_titles or os.getenv("DUP_CHECK", "true").lower() not in ("1", "true", "yes"):
+        return False
+    cand = "\n".join(f"- {s.get('title', '')}: {(s.get('summary') or '')[:200]}" for s in group[:3])
+    prompt = (f"ÚJ HÍR (több forrás címe és kivonata):\n{cand}\n\nMÁR MEGÍRT CIKKEINK (az elmúlt órákból):\n"
+              + "\n".join(f"{i + 1}. {t}" for i, t in enumerate(recent_titles[-40:]))
+              + "\n\nUgyanarról a konkrét eseményről/ügyről szól az új hír, mint valamelyik megírt cikk? Ha csak a téma "
+                "hasonló (pl. két külön egészségügyi hír), az NEM ugyanaz. JSON: {\"same\": true/false, \"which\": sorszám vagy null}")
+    try:
+        raw = ai.complete_json(DUP_SYSTEM, prompt, 150)
+    except (AIError, ValueError, TypeError, KeyError) as e:
+        log.warning("Duplikáció-ellenőrzés kimaradt: %s", e)
+        return False
+    if raw.get("same") is True:
+        log.info("Kihagyva (már megírtuk, %s. cikk): %s", raw.get("which"), group[0].get("title"))
+        return True
+    return False
+
+
 def related_past(articles: list, story: list, limit: int = 3, days: int = 45) -> list:
     """„Belső memória”: a korábbi saját cikkeink közül azok, amelyek ugyanarról az ügyről/szereplőről szóltak
     (legalább 3 közös kulcsszó). Ezek háttérként mennek a cikkíráshoz, és „Korábban írtuk” linkként a cikk alá."""
@@ -1933,6 +1959,8 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
     # Ugyanarról az ügyről FOLLOWUP_MIN_H órán belül nem írunk újra; utána egy új fejlemény már „folytatás” lehet
     # (a korábbi cikkek előzményként mennek, és a cikkek egy ügyfolyamba kapcsolódnak).
     followup_h = float(os.getenv("FOLLOWUP_MIN_H", "10"))
+    recent_titles = [a.get("title", "") for a in articles_all
+                     if (a.get("created_at") or "") >= (now - timedelta(hours=followup_h)).isoformat() and a.get("title")]
     recent_kw = [_keywords(a.get("title", "") + " " + " ".join(s.get("title", "") for s in a.get("sources", [])))
                  for a in articles_all if (a.get("created_at") or "") >= (now - timedelta(hours=followup_h)).isoformat()]
     wanted = [x.strip() for x in os.getenv("SECTION_IDS", ",".join(SECTIONS)).split(",") if x.strip() in SECTIONS]
@@ -1965,11 +1993,14 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
             break
         if score < min_score or per_section.get(sid):
             continue
+        if same_story_as_recent(ai, group, recent_titles):
+            continue  # más rovatban / más címmel már megírtuk ugyanezt az ügyet
         art = build_section_article(ai, SECTIONS[sid], d, tz, group, recent_imgs, related_past(articles, group))
         if not art:
             continue
         used_links.update(art["category_meta"]["source_links"])
         recent_kw.append(group[0]["kw"])
+        recent_titles.append(art["title"])
         if art.get("hero_image"):
             recent_imgs.add(art["hero_image"]["url"])
         if review:
