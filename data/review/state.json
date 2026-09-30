@@ -1,5 +1,7 @@
 {
-  "offset": 391603791,
+  "offset": 391603792,
   "chat_id": 5901583666,
-  "rejected_links": []
+  "rejected_links": [
+    "https://hu.wikipedia.org/wiki/Koffein"
+  ]
 }
