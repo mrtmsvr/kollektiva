@@ -124,18 +124,8 @@
 
 <!-- ============ CÍMLAP ============ -->
 <section id="cimlap" class="stars relative overflow-hidden border-b border-line/70">
-  <!-- Háttér: a logó pályája, rajta lassan keringő arany hold -->
-  <svg class="hero-orbit pointer-events-none absolute inset-0 hidden h-full w-full sm:block" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-    <g transform="rotate(-12 600 350)">
-      <ellipse cx="640" cy="380" rx="640" ry="200" fill="none" stroke="#2A2D52" stroke-width="1.2"/>
-      <ellipse cx="640" cy="380" rx="470" ry="140" fill="none" stroke="#2A2D52" stroke-width="1" stroke-dasharray="2 7" opacity=".8"/>
-      <circle r="7" fill="#C9A45C">
-        <animateMotion class="orbit-motion" dur="90s" repeatCount="indefinite" path="M0,380 a640,200 0 1,0 1280,0 a640,200 0 1,0 -1280,0"/>
-      </circle>
-    </g>
-  </svg>
   <!-- Mobilon: kis „K” iniciálé, körülötte széles pályán keringő arany hold (jobb felül) -->
-  <svg class="pointer-events-none absolute -right-10 top-14 w-[250px] opacity-25 sm:hidden" viewBox="-510 -165 1020 330" aria-hidden="true">
+  <svg class="pointer-events-none absolute -right-8 bottom-3 w-[210px] opacity-25 lg:hidden" viewBox="-510 -165 1020 330" aria-hidden="true">
     <defs><clipPath id="mFront"><rect x="-540" y="0" width="1080" height="220"/></clipPath></defs>
     <g transform="rotate(-16)">
       <ellipse rx="480" ry="70" fill="none" stroke="#2A2D52" stroke-width="8"/>
@@ -149,18 +139,32 @@
     </g>
   </svg>
 
-  <div class="relative mx-auto max-w-7xl px-5 py-7 sm:py-12 lg:px-8 lg:py-16">
+  <div class="relative mx-auto grid max-w-7xl items-center gap-12 px-5 py-7 sm:py-12 lg:grid-cols-[1.2fr_1fr] lg:px-8 lg:py-14">
     <div class="max-w-3xl">
       <div class="flex items-baseline justify-between gap-4">
         <p id="featKicker" class="text-[13px] uppercase tracking-[0.16em] text-brass">&nbsp;</p>
         <p class="shrink-0 text-[13px] text-dusk"><span id="todayLabel"></span></p>
       </div>
       <a id="featLink" href="#retro" class="group block">
-        <h1 id="featTitle" class="mt-3 font-display text-[38px] font-semibold leading-[1.04] tracking-tight text-parch transition-colors group-hover:text-brass sm:text-[56px] lg:text-[68px]">&nbsp;</h1>
+        <h1 id="featTitle" class="mt-3 font-display text-[38px] font-semibold leading-[1.04] tracking-tight text-parch transition-colors group-hover:text-brass sm:text-[54px] lg:text-[62px]">&nbsp;</h1>
+        <p id="featLead" class="mt-3 max-w-xl text-[16px] leading-relaxed text-dusk line-clamp-2 sm:text-[18px]"></p>
       </a>
-      <p id="featLead" class="hidden"></p>
+      <div class="mt-5 flex flex-wrap items-center gap-3">
+        <a id="featBtn" href="#retro" class="rounded-full bg-brass px-5 py-2.5 text-[14px] font-semibold text-night transition hover:bg-[#D8B46B]">Elolvasom →</a>
+        <a href="#friss" class="rounded-full border border-line px-5 py-2.5 text-[14px] text-parch transition hover:border-brass/70">További témák</a>
+      </div>
       <p id="featMeta" class="hidden"></p>
     </div>
+    <!-- Asztali nézet: a kiemelt cikk képe, körülötte a logó pályája a keringő holddal -->
+    <a id="featPic" href="#retro" class="relative hidden lg:block" aria-hidden="true" tabindex="-1">
+      <svg class="pointer-events-none absolute -inset-x-16 -inset-y-10 h-[calc(100%+5rem)] w-[calc(100%+8rem)]" viewBox="0 0 1000 600" preserveAspectRatio="none">
+        <g transform="rotate(-10 500 300)">
+          <ellipse cx="500" cy="300" rx="480" ry="250" fill="none" stroke="#2A2D52" stroke-width="1.5"/>
+          <circle r="8" fill="#C9A45C"><animateMotion class="orbit-motion" dur="40s" repeatCount="indefinite" path="M20,300 a480,250 0 1,0 960,0 a480,250 0 1,0 -960,0"/></circle>
+        </g>
+      </svg>
+      <div id="featImgBox" class="relative aspect-[16/10] overflow-hidden rounded-2xl border border-line bg-gradient-to-br from-vault to-line"></div>
+    </a>
   </div>
 </section>
 
@@ -617,6 +621,12 @@ function renderFeatured(f) {
   $('featLead').textContent = f.lead || '';
   $('featMeta').textContent = f.meta || '';
   $('featLink').href = f.href || '#retro';
+  $('featBtn').href = f.href || '#retro';
+  $('featPic').href = f.href || '#retro';
+  const im = f.img && f.img.url ? f.img : null;
+  $('featImgBox').innerHTML = im
+    ? `<img src="${esc(im.url)}" alt="" class="h-full w-full ${im.kind === 'graphic' ? 'object-contain bg-parch p-6' : 'object-cover'}">`
+    : `<div class="flex h-full items-center justify-center font-display text-[30px] font-semibold text-brass">${esc(f.kicker || 'Kollektíva')}</div>`;
 }
 
 function renderToday() {
@@ -705,7 +715,7 @@ async function loadRetro() {
     renderRetroArticles(list.slice(0, 4), list[0].date === todayISO());
     const f = list[0], yr = f.category_meta?.event_year ?? f.event_year ?? '';
     window.__retroFeat = ({ kicker: `Ekkor történt${yr ? ' · ' + yr : ''}`, title: f.title, lead: f.lead,
-                     meta: `${f.date_label || ''} · ${f.reading_time_min || 1} perc olvasás · Kollektíva szerkesztőség`, href: f.url || '#retro' });
+                     meta: `${f.date_label || ''} · ${f.reading_time_min || 1} perc olvasás · Kollektíva szerkesztőség`, href: f.url || '#retro', img: f.hero_image });
     if (window.__artsDone && !window.__hotFeatured) renderFeatured(window.__retroFeat);
     const second = list[1] || null;
     todayState.retroTitle = second ? second.title : '';
@@ -768,7 +778,7 @@ loadRetro();
     const day = a => String(a.created_at || '').slice(0, 10);
     const hot = (a, b) => day(b).localeCompare(day(a)) || (b.hot_score || 0) - (a.hot_score || 0) || String(b.created_at || '').localeCompare(String(a.created_at || ''));
     const top = arts.slice().sort(hot)[0];
-    if (top) { window.__hotFeatured = true; renderFeatured({ kicker: NAMES[top.category] || 'Friss', title: top.title, lead: top.lead, meta: `${top.date_label || ''} · ${top.reading_time_min || 1} perc olvasás · Kollektíva szerkesztőség`, href: top.url }); }
+    if (top) { window.__hotFeatured = true; renderFeatured({ kicker: NAMES[top.category] || 'Friss', title: top.title, lead: top.lead, meta: `${top.date_label || ''} · ${top.reading_time_min || 1} perc olvasás · Kollektíva szerkesztőség`, href: top.url, img: top.hero_image }); }
     // Friss blokk: 1 nagy + 4 kisebb képes kártya (a legújabbak elöl, a kiemelt cikk nélkül)
     const sorted = arts.slice().sort(hot);
     const rest = sorted.filter(a => a !== top);
