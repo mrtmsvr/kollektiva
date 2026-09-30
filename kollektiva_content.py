@@ -567,6 +567,7 @@ def wiki_external_sources(en_title: str, timeout: int, limit: int = 2) -> list:
     return out
 
 
+IMAGE_OPTIONS = int(os.getenv("IMAGE_OPTIONS", "8"))  # képjelöltek száma a Telegramos választáshoz (max. 10)
 GRAPHIC_HINT = re.compile(r"logo|wordmark|icon|seal|coat[_ ]of[_ ]arms|flag|emblem|map|diagram|\.svg$", re.I)
 
 
@@ -1015,6 +1016,7 @@ PAGE_CSS = """
 body{margin:0;background:var(--night);color:var(--parch);font:17px/1.75 Manrope,system-ui,-apple-system,"Segoe UI",sans-serif}
 a{color:var(--parch)}a:hover{color:var(--brass)}
 header,main,footer{max-width:720px;margin:0 auto;padding:0 20px}
+.gpref{text-align:center;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)}.gpref a{color:var(--dusk);text-decoration:none}.gpref a:hover{color:var(--brass)}.gpref b{color:var(--brass);font-weight:400}
 header{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;border-bottom:1px solid var(--line);position:relative}
 .menu summary{list-style:none;cursor:pointer;color:var(--dusk);font-size:14px;padding:6px 12px;border:1px solid var(--line);border-radius:999px}
 .menu summary::-webkit-details-marker{display:none}
@@ -1110,6 +1112,7 @@ def _page(title: str, description: str, canonical: str, body: str, head_extra: s
 <body>
 {LOADER_HTML}
 <header><a class="logo" href="/" aria-label="{SITE_NAME} – főoldal">{LOGO_SVG}<span>{SITE_NAME}<b>.</b></span></a><details class="menu"><summary aria-label="Rovatok">Rovatok ☰</summary><nav>{NAV_LINKS}</nav></details></header>
+<div class="gpref"><a href="https://www.google.com/preferences/source?q=xn--kollektva-m5a.hu" target="_blank" rel="noopener"><b>★</b> Kedvenc forrás a Google-ben</a></div>
 <main>
 {body}
 </main>
@@ -1782,8 +1785,9 @@ esemény külön blokkban szerepeljen, a blokk első bekezdése „## Rövid alc
   személyről, helyről, intézményről vagy tárgyról szól, AZ legyen (pl. "Hungarian Parliament Building",
   "James Webb Space Telescope", "Viktor Orbán", "Eötvös Loránd University"); különben egy kifejező, konkrét téma
   (pl. "Budapest Stock Exchange"). Magyar hírnél magyar helyszínt/intézményt keress, ne általános külföldi képet.
-- "image_query_alt": 1–2 további konkrét angol keresőkifejezés (pl. ["ELTE Budapest", "Centrál Színház Budapest"])
-- "image_generic": 1–2 szavas ANGOL, egyszerű, fotózható téma a hangulatképhez, ha nincs konkrét kép
+- "image_query_alt": 2–4 további konkrét angol keresőkifejezés a cikkben szereplő más személyekre, helyekre,
+  tárgyakra (pl. ["ELTE Budapest", "Centrál Színház Budapest"])
+- "image_generic": 1–2 szavas ANGOL, egyszerű, fotózható téma a hangulatképhez (ha van jobb, 2 ilyen listában)
   (pl. "coffee cup", "courtroom", "police car", "stock market", "theatre stage", "rocket launch")
 - "inline_images": 0–2 szövegközi kép. CSAK akkor, ha a cikk egy konkrét, fotózható dolgot említ, amit az olvasó
   szívesen látna, és ami NEM a főkép témája (pl. egy hadihajó-típus, épület, jármű, eszköz, helyszín, másik szereplő).
@@ -1824,8 +1828,9 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         log.error("[%s] AI cikkírás sikertelen: %s – kimarad.", section["id"], e)
         return None
     generic = raw.get("image_generic")
-    image_options = find_images([raw.get("image_query"), *(raw.get("image_query_alt") or [])][:3],
-                                generic if isinstance(generic, list) else [generic], ai.cfg.http_timeout, avoid_images)
+    image_options = find_images([raw.get("image_query"), *(raw.get("image_query_alt") or [])][:5],
+                                (generic if isinstance(generic, list) else [generic])[:2], ai.cfg.http_timeout,
+                                avoid_images, limit=IMAGE_OPTIONS)
     image = image_options[0] if image_options else None
     inline_images = find_inline_images(raw, len(art["body"]), ai.cfg.http_timeout,
                                        (avoid_images or set()) | {im["url"] for im in image_options})
