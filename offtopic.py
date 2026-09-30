@@ -115,7 +115,7 @@ Háttéranyag (csak ebből és közismert tudásból dolgozz; angol anyagot magy
   („- ” kezdetű sorok). Ne ismételd a leadet, ne legyen „kerekítő” zárómondat.
 - "tags": 3–5 rövid címke
 - "image_query": 1–4 szavas ANGOL keresőkifejezés a Wikimedia Commonshoz (konkrét, fotózható tárgy/hely/jelenség)
-- "image_query_alt": 1–2 további angol keresőkifejezés
+- "image_query_alt": 2–4 további angol keresőkifejezés
 - "image_generic": 1–2 szavas ANGOL, egyszerű hangulatkép-téma
 - "inline_images": 1–2 szövegközi kép, ha a cikk konkrét, fotózható dolgot mutat be (tárgy, hely, jelenség, eszköz,
   személy), ami nem a főkép témája: {{"after": bekezdés sorszáma (0-tól), "query": pontos angol név a Wikimedia
@@ -145,8 +145,9 @@ def build_article(ai: "kc.AIClient", topic: dict, d: date, tz: ZoneInfo, avoid_i
         log.warning("Off-topic: túl rövid lett (%d szó) – kimarad.", words)
         return None
     generic = raw.get("image_generic")
-    image_options = kc.find_images([raw.get("image_query"), *(raw.get("image_query_alt") or []), *topic.get("images", [])][:4],
-                                   generic if isinstance(generic, list) else [generic], ai.cfg.http_timeout, avoid_images)
+    image_options = kc.find_images([raw.get("image_query"), *(raw.get("image_query_alt") or []), *topic.get("images", [])][:6],
+                                   (generic if isinstance(generic, list) else [generic])[:2], ai.cfg.http_timeout,
+                                   avoid_images, limit=kc.IMAGE_OPTIONS)
     image = image_options[0] if image_options else None
     inline_images = kc.find_inline_images(raw, len(art["body"]), ai.cfg.http_timeout,
                                           (avoid_images or set()) | {im["url"] for im in image_options})
