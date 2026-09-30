@@ -1042,7 +1042,7 @@ h2{font:600 28px/1.25 "Cormorant Garamond",Georgia,serif;margin:0 0 6px}
 blockquote{margin:32px 0;padding-left:18px;border-left:2px solid var(--brass);font:italic 24px/1.4 "Cormorant Garamond",Georgia,serif}
 article p{color:rgba(236,230,216,.88)}
 .box{margin:40px 0;padding:18px 20px;background:var(--vault);border:1px solid var(--line);border-radius:12px;font-size:14px;color:var(--dusk)}
-.box a{color:var(--parch)}
+.box a{color:var(--parch)}.seealso b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.seealso ul{margin:8px 0 0;padding-left:18px}.seealso span{color:var(--dusk)}
 figure{margin:32px 0}figure img{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;border-radius:12px;background:var(--vault)}
 figure.graphic img{max-height:340px;padding:28px;background:#ECE6D8}
 figcaption{margin-top:6px;color:var(--dusk);font-size:12px}figcaption a{color:var(--dusk)}figcaption .cap{font-size:14px;color:rgba(236,230,216,.75)}
@@ -1213,6 +1213,10 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
     img = a.get("hero_image") or None
     figure = _figure(img, a["title"], eager=True) if img and img.get("url") else ""
     published = (a.get("published_at") or a.get("created_at") or a["date"])[:10]
+    sa = [x for x in a.get("see_also") or [] if x.get("url")]
+    see_also = (f'<div class="box seealso"><b>Korábban írtuk</b><ul>' + "".join(
+        f'<li><a href="{E(x["url"])}">{E(x["title"])}</a>' + (f' <span>· {E(str(x.get("date", ""))[5:].replace("-", ". "))}.</span>' if x.get("date") else "")
+        + '</li>' for x in sa[:3]) + '</ul></div>') if sa else ""
     body = f"""<article>
 <p class="kicker">{E(section["kicker"])}{(" · " + E(str(year))) if year else ""}</p>
 <h1>{E(a["title"])}</h1>
@@ -1223,6 +1227,7 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
 {quote}
 {paras}
 </article>
+{see_also}
 <details class="box"><summary>Források ({len(a.get("sources", []))})</summary><ul>{sources or "<li>—</li>"}</ul></details>
 {_related_html(related or [])}"""
     og = (f'<meta property="og:image" content="{E(img["url"])}">\n<meta property="og:type" content="article">\n'
@@ -1692,12 +1697,39 @@ def pick_story(section: dict, used_links: set, now: datetime, timeout: int, max_
     return out
 
 
-def section_prompt(section: dict, story: list, d: date, context: Optional[list] = None) -> str:
+def related_past(articles: list, story: list, limit: int = 3, days: int = 45) -> list:
+    """„Belső memória”: a korábbi saját cikkeink közül azok, amelyek ugyanarról az ügyről/szereplőről szóltak
+    (legalább 3 közös kulcsszó). Ezek háttérként mennek a cikkíráshoz, és „Korábban írtuk” linkként a cikk alá."""
+    kw = set()
+    for s in story[:3]:
+        kw |= s.get("kw") or _keywords(s.get("title", "") + " " + (s.get("summary") or "")[:200])
+    links = {s.get("link") for s in story}
+    cutoff = (datetime.now() - timedelta(days=days)).date().isoformat()
+    scored = []
+    for a in articles:
+        if a.get("status") != "published" or (a.get("date") or "") < cutoff:
+            continue
+        if links & set(a.get("category_meta", {}).get("source_links", [])):
+            continue
+        common = kw & _keywords(a.get("title", "") + " " + (a.get("lead") or ""))
+        if len(common) >= 3:
+            scored.append((len(common), a.get("date", ""), a))
+    scored.sort(key=lambda x: (x[0], x[1]), reverse=True)  # legtöbb közös szó, azon belül a legfrissebb
+    return [{"id": a.get("id"), "title": a.get("title"), "lead": a.get("lead"), "url": a.get("url"),
+             "date": a.get("date")} for _, _, a in scored[:limit]]
+
+
+def section_prompt(section: dict, story: list, d: date, context: Optional[list] = None,
+                   past: Optional[list] = None) -> str:
     src = "\n\n".join(f"[{i + 1}]{' [KAPCSOLÓDÓ]' if s.get('related') else ''} {s['source']} – {s['title']}\n{s['summary']}"
                       + (f"\nRészletek a cikkből:\n{s['fulltext']}" if s.get("fulltext") else "")
                       for i, s in enumerate(story))
     bg = "\n".join(f"- {c}" for c in (context or []))
     bg_block = f"\nHáttér a szereplőkhöz (magyar Wikipédia – csak magyarázatra, ha tényleg ugyanarról van szó):\n{bg}\n" if bg else ""
+    if past:
+        bg_block += ("\nKorábbi cikkeink ugyanebben az ügyben (előzményként használhatod – pl. „ahogy korábban megírtuk” –, "
+                     "de csak ha tényleg ugyanarról szól; új tényt ne találj ki belőlük):\n"
+                     + "\n".join(f"- {p['date']}: {p['title']} – {p.get('lead') or ''}" for p in past) + "\n")
     return f"""Rovat: {section['name']} ({section['focus']}). Dátum: {hu_date(d)}.
 
 Forráskivonatok:
@@ -1750,13 +1782,13 @@ Kizárólag ezt a JSON-t add vissza:
 
 
 def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, story: list,
-                          avoid_images: Optional[set] = None) -> Optional[dict]:
+                          avoid_images: Optional[set] = None, past: Optional[list] = None) -> Optional[dict]:
     now = datetime.now(tz)
     for s in story[:4]:
         s["fulltext"] = fetch_article_text(s["link"], ai.cfg.http_timeout)
     try:
         context = wiki_context(story, ai.cfg.http_timeout)
-        raw = ai.complete_json(SECTION_SYSTEM, section_prompt(section, story, d, context), 4000)
+        raw = ai.complete_json(SECTION_SYSTEM, section_prompt(section, story, d, context, past), 4000)
         validate_retro(raw)
         raw = editorial_polish(ai, raw)
         if title_too_similar(str(raw.get("title", "")), story):
@@ -1815,7 +1847,9 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
                 "noindex": status != "published", "schema_type": "NewsArticle"},
         "monetization": {"ads_enabled": True, "brand_safety": "safe", "sponsored": False,
                          "sponsor_name": None, "affiliate_links": False},
-        "related_ids": [], "dedupe_hash": hashlib.sha256(f"{section['id']}|{story[0]['link']}".encode()).hexdigest(),
+        "related_ids": [p["id"] for p in past or [] if p.get("id")],
+        "see_also": [{"title": p["title"], "url": p["url"], "date": p.get("date")} for p in past or [] if p.get("url")],
+        "dedupe_hash": hashlib.sha256(f"{section['id']}|{story[0]['link']}".encode()).hexdigest(),
         "pipeline_run_id": os.getenv("GITHUB_RUN_ID"), "generator": ai.label,
         "created_at": now_iso, "updated_at": now_iso, "published_at": now_iso if status == "published" else None,
         "expires_at": None,
@@ -1876,7 +1910,7 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
             break
         if score < min_score or per_section.get(sid):
             continue
-        art = build_section_article(ai, SECTIONS[sid], d, tz, group, recent_imgs)
+        art = build_section_article(ai, SECTIONS[sid], d, tz, group, recent_imgs, related_past(articles, group))
         if not art:
             continue
         used_links.update(art["category_meta"]["source_links"])
