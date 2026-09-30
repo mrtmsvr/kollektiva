@@ -3,7 +3,7 @@
     {
       "id": "44325a57-2adf-551c-b573-eb705c9144e8",
       "slug": "2026-09-30-negyvenmillio-dollaros-percek-ennyibe-kerul-az-ukrajnai-gazdasagnak-e",
-      "status": "pending",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -186,9 +186,9 @@
       "dedupe_hash": "136e0a12aefec3c9cf370110cfad6a97ff38cf4dc754c2634f7775017bb695d3",
       "pipeline_run_id": "36750577225",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T19:20:45+02:00",
-      "updated_at": "2026-09-30T19:20:45+02:00",
-      "published_at": "2026-09-30T19:20:45+02:00",
+      "created_at": "2026-09-30T19:27:58+02:00",
+      "updated_at": "2026-09-30T19:27:58+02:00",
+      "published_at": "2026-09-30T19:27:58+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -203,7 +203,8 @@
           186
         ],
         "control_id": 187
-      }
+      },
+      "live": true
     },
     {
       "id": "980ed1a2-efc3-5781-bf27-49753acf0bf9",
