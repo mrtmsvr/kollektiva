@@ -1,0 +1,45 @@
+name: Telegram jóváhagyás
+
+on:
+  schedule:
+    # 5 percenként megnézi, mit hagytál jóvá Telegramon (a GitHub néha késik pár percet)
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: content
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Telegram-válaszok feldolgozása
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_MODEL: claude-sonnet-5-5
+          RETRO_AUTO_PUBLISH: "true"
+        run: python telegram_review.py
+      - name: Commit és push
+        run: |
+          git config user.name "kollektiva-bot"
+          git config user.email "bot@kollektiva.hu"
+          git add public/ data/review/ 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          MSG="Jóváhagyás: $(TZ=Europe/Budapest date '+%F %H:%M')"
+          # csak állapotváltozás (gombnyomás, választás) -> nincs Cloudflare-build
+          if ! git diff --cached --name-only | grep -qv '^data/review/'; then MSG="$MSG [CF-Pages-Skip]"; fi
+          git commit -m "$MSG"
+          git pull --rebase origin main
+          git push
