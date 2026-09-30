@@ -125,7 +125,7 @@
 <!-- Vékony sáv a fejléc és a kiemelt cikk között: Google kedvenc forrás -->
 <div class="border-b border-line/50 bg-vault/40">
   <div class="mx-auto max-w-7xl px-5 py-1.5 text-center text-[12px] lg:px-8">
-    <a href="https://www.google.com/preferences/source?q=xn--kollektva-m5a.hu" target="_blank" rel="noopener" class="text-dusk transition-colors hover:text-brass"><span class="text-brass">★</span> Add hozzá a Kollektívát a kedvenc forrásaidhoz a Google-ben</a>
+    <a href="https://www.google.com/preferences/source?q=xn--kollektva-m5a.hu" target="_blank" rel="noopener" class="text-brass transition-colors hover:text-parch">★ Add hozzá a Kollektívát a kedvenc forrásaidhoz a Google-ben</a>
   </div>
 </div>
 
@@ -968,5 +968,18 @@ loadRetro();
   if (!window.__hotFeatured && window.__retroFeat) renderFeatured(window.__retroFeat);
 })();
 </script>
+<!-- ============ ÚJ CIKK ÉRTESÍTŐ ============ -->
+<div id="knew" role="status" aria-live="polite" style="position:fixed;left:50%;bottom:18px;transform:translate(-50%,160%);transition:transform .45s ease;z-index:60;max-width:min(560px,calc(100vw - 24px));display:flex;align-items:center;gap:10px;background:#B3261E;color:#fff;border-radius:999px;padding:9px 10px 9px 16px;box-shadow:0 8px 28px rgba(0,0,0,.45);font:600 14px/1.3 Manrope,system-ui,sans-serif"><span style="flex:none;width:8px;height:8px;border-radius:50%;background:#fff;animation:knp 1.2s infinite"></span><a id="knewA" href="/" style="color:#fff;text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"></a><button type="button" aria-label="Bezár" onclick="document.getElementById('knew').style.transform='translate(-50%,160%)'" style="flex:none;background:rgba(255,255,255,.18);border:0;color:#fff;border-radius:50%;width:26px;height:26px;cursor:pointer;font-size:15px;line-height:1">×</button></div>
+<style>@keyframes knp{50%{opacity:.25}}</style>
+<script>/* Új cikk értesítő: ha az oldalon tartózkodás közben új cikk kerül ki, alul egy piros sáv jelzi. */
+(function(){var N={kozelet:'Közélet',vilag:'Világ',penzvilag:'Pénzvilág',tech:'Tech',eletmod:'Életmód',kultura:'Kultúra',univerzum:'Univerzum',bulvar:'Bulvár'};
+var known=null,box=document.getElementById('knew'),a=document.getElementById('knewA'),t;
+function get(){return fetch('/data/articles.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()}).catch(function(){return fetch('/public/data/articles.json',{cache:'no-cache'}).then(function(r){return r.json()})})}
+function check(){if(document.hidden)return;get().then(function(d){var arts=(d.articles||[]).filter(function(x){return x.status==='published'&&x.url});
+if(!known){known={};arts.forEach(function(x){known[x.id]=1});return}
+var fresh=arts.filter(function(x){return !known[x.id]&&x.url!==location.pathname});arts.forEach(function(x){known[x.id]=1});
+if(!fresh.length)return;var n=fresh[0];a.href=n.url;a.textContent='ÚJ · '+(N[n.category]||'Friss')+' · '+n.title+(fresh.length>1?'  (+'+(fresh.length-1)+')':'');
+box.style.transform='translate(-50%,0)';clearTimeout(t);t=setTimeout(function(){box.style.transform='translate(-50%,160%)'},15000)}).catch(function(){})}
+check();setInterval(check,90000);document.addEventListener('visibilitychange',check)})();</script>
 </body>
 </html>
