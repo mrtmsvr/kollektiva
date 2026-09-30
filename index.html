@@ -505,9 +505,63 @@ menuBtn.addEventListener('click', () => {
 });
 mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { mobileMenu.classList.add('hidden'); menuBtn.setAttribute('aria-expanded', false); }));
 
-document.querySelectorAll('#googleLogin,[data-google]').forEach(b => b.addEventListener('click', () => {
-  alert('Google belépés: itt kell bekötni a Google Identity Services-t.');
+/* =====================================================================
+   GOOGLE-BELÉPÉS (Google Identity Services, popup) – ellenőrzés: /api/login
+   ===================================================================== */
+const GOOGLE_CLIENT_ID = '1014482488754-j1k6m2otl4cma3iaec2639i2nbji0p06.apps.googleusercontent.com';
+const USER_KEY = 'kollektiva_user';
+const loginBtns = () => document.querySelectorAll('#googleLogin,[data-google]');
+function getUser() { try { return JSON.parse(localStorage.getItem(USER_KEY) || 'null'); } catch (e) { return null; } }
+function setUser(u) {
+  try { u ? localStorage.setItem(USER_KEY, JSON.stringify(u)) : localStorage.removeItem(USER_KEY); } catch (e) { /* privát mód */ }
+  renderUser();
+}
+function renderUser() {
+  const u = getUser();
+  loginBtns().forEach(b => {
+    if (!b.dataset.orig) b.dataset.orig = b.innerHTML;
+    b.classList.add('inline-flex', 'items-center', 'justify-center', 'gap-2');
+    if (u) {
+      b.innerHTML = (u.picture ? `<img src="${esc(u.picture)}" alt="" referrerpolicy="no-referrer" class="h-6 w-6 rounded-full">` : '')
+        + `<span>${esc(u.given_name || u.name || 'Fiókom')}</span>`;
+      b.title = 'Belépve: ' + u.email + ' – kattints a kilépéshez';
+    } else { b.innerHTML = b.dataset.orig; b.title = ''; }
+  });
+  if (u && $('email') && !$('email').value) $('email').value = u.email;
+}
+let gisReady = null;
+function loadGis() {
+  return gisReady || (gisReady = new Promise((res, rej) => {
+    const s = document.createElement('script');
+    s.src = 'https://accounts.google.com/gsi/client'; s.async = true; s.onload = res;
+    s.onerror = () => { gisReady = null; rej(new Error('gis')); };
+    document.head.appendChild(s);
+  }));
+}
+let tokenClient = null;
+async function googleLogin() {
+  try { await loadGis(); } catch (e) { alert('A Google-belépés most nem érhető el, próbáld újra később.'); return; }
+  tokenClient = tokenClient || google.accounts.oauth2.initTokenClient({
+    client_id: GOOGLE_CLIENT_ID, scope: 'openid email profile',
+    callback: async resp => {
+      if (!resp || !resp.access_token) return;
+      try {
+        const r = await fetch('/api/login', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                                              body: JSON.stringify({ access_token: resp.access_token }) });
+        const j = await r.json();
+        if (!j.ok) throw new Error(j.error || r.status);
+        setUser(j.user);
+      } catch (ex) { console.error('[Kollektíva] Belépés:', ex); alert('A belépés nem sikerült, próbáld újra.'); }
+    },
+  });
+  tokenClient.requestAccessToken();
+}
+loginBtns().forEach(b => b.addEventListener('click', () => {
+  if (getUser()) { if (confirm('Kilépsz a fiókodból?')) setUser(null); }
+  else googleLogin();
 }));
+renderUser();
+(window.requestIdleCallback || (f => setTimeout(f, 1500)))(() => loadGis().catch(() => {}));  // előre betöltjük, hogy a popup ne akadjon el
 
 (function buildWheel() {
   const g = $('wheel'); const cx = 200, cy = 200;
