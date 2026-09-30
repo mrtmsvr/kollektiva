@@ -31,7 +31,8 @@ jobs:
           ANTHROPIC_MODEL: claude-sonnet-5-5
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           RETRO_AUTO_PUBLISH: "true"
-          MAX_ARTICLES_PER_RUN: "2"
+          MAX_ARTICLES_PER_RUN: "4"
+          DAILY_ARTICLE_LIMIT: "40"
         run: python kollektiva_content.py
       - name: Commit és push (a Cloudflare Pages erre automatikusan újratelepít)
         run: |
