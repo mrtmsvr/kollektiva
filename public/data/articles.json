@@ -1,7 +1,227 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T08:13:19+02:00",
+  "updated_at": "2026-09-30T08:38:15+02:00",
   "articles": [
+    {
+      "id": "015b9db0-a23e-5873-99d7-083fd759a28c",
+      "slug": "2026-09-30-ket-evszazad-utan-az-elso-kivegzes",
+      "status": "published",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Christa Pike",
+        "Egyesült Államok",
+        "halálbüntetés",
+        "bíróság",
+        "Tennessee"
+      ],
+      "title": "Két évszázad után az első kivégzés?",
+      "subtitle": null,
+      "lead": "Az amerikai legfelsőbb bíróság elutasította Christa Pike kegyelmi kérvényét, így kétszáz év után ő lehet az első nő, akit kivégeznek Tennessee államban. Az ügy rávilágít az amerikai igazságszolgáltatás évtizedes vitáira és a halálbüntetés rendszerszintű kérdéseire.",
+      "key_points": [
+        "A jelenleg ötvenéves Christa Pike utolsó esélye is elúszott a legfelsőbb bíróság döntésével.",
+        "Az elítélt még tizennyolc évesen, 1995-ben követte el a bűncselekményt akkori barátjával.",
+        "Az 1970-es évek óta mindössze 18 nőt végeztek ki az Egyesült Államokban a férfiak ezerhatszázhatvanhárom kivégzése mellett."
+      ],
+      "content": "A Telex beszámolója szerint a tennesseei kormányzó után az amerikai legfelsőbb bíróság is elutasította a halálra ítélt Christa Pike kegyelmi kérvényét, ezzel pedig elhárultak a jogi akadályok a szerda délelőttre kitűzött kivégzés elől. A most ötvenéves nő ügyvédei az utolsó pillanatban fordultak a testülethez, de a határozat pecsétet ütött a sorsára.\n\nAz események gyökerei 1995-be nyúlnak vissza, amikor a tizennyolc éves Pike akkori barátjával, a tizenhét éves Tadaryl Shipp-pel együtt megverte, megkínozta és meggyilkolta a tizenkilenc éves Colleen Slemmert. A fiatalokat egy veszélyeztetett fiatalok számára szervezett képzési program hozta össze, a gyilkosság indítéka pedig féltékenység volt, mivel Pike azzal vádolta Slemmert, hogy el akarta csábítani a barátját. A bűntény után a hatóságok megállapították, hogy a tettesek különös kegyetlenséggel jártak el.\n\nAz azóta eltelt évtizedekben a jogi képviselők és az ENSZ emberi jogi szakértői is többször megpróbálták elérni az ítélet megváltoztatását. A védelem azzal érvelt, hogy a nő gyerekkorát súlyos fizikai, szexuális és érzelmi bántalmazás, valamint elhanyagolás jellemezte, ami miatt kezeletlen poszttraumás stressz-szindrómában szenvedett. Egy 2021-es börtönbeli vizsgálat során ráadásul bipoláris zavarral is diagnosztizálták, ami a szakértők szerint befolyásolhatta a cselekmény idején a tettei következményeinek felmérését.\n\nA bíróságok azonban a korábbi eljárások során rendre elutasították ezeket az enyhítési kérelmeket. Az érvelésekben elhangzott, hogy a per során az esküdtek már hallottak a vádlott nehéz családi hátteréről a rokonok vallomásaiból, a később diagnosztizált mentális betegségek pedig nem mentik fel a felelősség alól. A tennesseei Legfelsőbb Bíróság tavaly úgy határozott, nincs alap a büntetés módosítására, és 2026. szeptember 30-ára tűzte ki a dátumot.\n\nAz Egyesült Államokban a nők kivégzése kifejezetten ritka statisztikai jelenség. Az 1970-es évek óta összesen tizennyolc nőt végeztek ki az országban, miközben a férfiak esetében ez a szám ezernél is több, ami sajátos kontextust ad a tennesseei esetnek.\n\nAz olvasó számára ez az ügy nem csupán egy kirívó bűnügyet mutat be, hanem felszínre hozza a fiatalkorban elkövetett súlyos bűncselekmények, a gyermekkori trauma és a felnőttkori felelősségvállalás bonyolult jogi összefonódásait. A halálbüntetés etikai és jogi kérdései továbbra is éles vitákat generálnak a tengerentúlon, különösen akkor, amikor a védelem a vádlott saját korábbi áldozatstátuszára hivatkozik.",
+      "content_format": "markdown",
+      "body": [
+        "A Telex beszámolója szerint a tennesseei kormányzó után az amerikai legfelsőbb bíróság is elutasította a halálra ítélt Christa Pike kegyelmi kérvényét, ezzel pedig elhárultak a jogi akadályok a szerda délelőttre kitűzött kivégzés elől. A most ötvenéves nő ügyvédei az utolsó pillanatban fordultak a testülethez, de a határozat pecsétet ütött a sorsára.",
+        "Az események gyökerei 1995-be nyúlnak vissza, amikor a tizennyolc éves Pike akkori barátjával, a tizenhét éves Tadaryl Shipp-pel együtt megverte, megkínozta és meggyilkolta a tizenkilenc éves Colleen Slemmert. A fiatalokat egy veszélyeztetett fiatalok számára szervezett képzési program hozta össze, a gyilkosság indítéka pedig féltékenység volt, mivel Pike azzal vádolta Slemmert, hogy el akarta csábítani a barátját. A bűntény után a hatóságok megállapították, hogy a tettesek különös kegyetlenséggel jártak el.",
+        "Az azóta eltelt évtizedekben a jogi képviselők és az ENSZ emberi jogi szakértői is többször megpróbálták elérni az ítélet megváltoztatását. A védelem azzal érvelt, hogy a nő gyerekkorát súlyos fizikai, szexuális és érzelmi bántalmazás, valamint elhanyagolás jellemezte, ami miatt kezeletlen poszttraumás stressz-szindrómában szenvedett. Egy 2021-es börtönbeli vizsgálat során ráadásul bipoláris zavarral is diagnosztizálták, ami a szakértők szerint befolyásolhatta a cselekmény idején a tettei következményeinek felmérését.",
+        "A bíróságok azonban a korábbi eljárások során rendre elutasították ezeket az enyhítési kérelmeket. Az érvelésekben elhangzott, hogy a per során az esküdtek már hallottak a vádlott nehéz családi hátteréről a rokonok vallomásaiból, a később diagnosztizált mentális betegségek pedig nem mentik fel a felelősség alól. A tennesseei Legfelsőbb Bíróság tavaly úgy határozott, nincs alap a büntetés módosítására, és 2026. szeptember 30-ára tűzte ki a dátumot.",
+        "Az Egyesült Államokban a nők kivégzése kifejezetten ritka statisztikai jelenség. Az 1970-es évek óta összesen tizennyolc nőt végeztek ki az országban, miközben a férfiak esetében ez a szám ezernél is több, ami sajátos kontextust ad a tennesseei esetnek.",
+        "Az olvasó számára ez az ügy nem csupán egy kirívó bűnügyet mutat be, hanem felszínre hozza a fiatalkorban elkövetett súlyos bűncselekmények, a gyermekkori trauma és a felnőttkori felelősségvállalás bonyolult jogi összefonódásait. A halálbüntetés etikai és jogi kérdései továbbra is éles vitákat generálnak a tengerentúlon, különösen akkor, amikor a védelem a vádlott saját korábbi áldozatstátuszára hivatkozik."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 383,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Waxman_during_Hyatt_III_sketch.jpg/1280px-Waxman_during_Hyatt_III_sketch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "alt": "Seth P. Waxman presents oral arguments before the US Supreme Court in the case Franchise Tax Board of California v. Hyatt. He represents the petitioner, the Franchise Tax Board of California. In the b",
+        "credit": "Arthur Lien / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Waxman_during_Hyatt_III_sketch.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://telex.hu/kulfold/2026/09/30/elutasitotta-amerikai-legfelsobb-birosag-christa-pike-kegyelmi-kerveny",
+          "title": "A legfelsőbb bíróság is elutasította Christa Pike kegyelmi kérvényét, 200 év után ő lesz az első nő, akit kivégeznek Tennessee államban",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T08:37:21+02:00"
+        },
+        {
+          "url": "https://telex.hu/kulfold/2026/09/29/tennessee-kivegzes-200-ev-no-christa-pike-gyilkossag-aldozat-eroszak",
+          "title": "Kivégezhetik a 18 éves korában halálra ítélt Christa Pike-ot, aki hiába érvelt azzal, hogy ő maga is áldozat volt",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T08:37:21+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.26,
+      "category_meta": {
+        "source_links": [
+          "https://telex.hu/kulfold/2026/09/30/elutasitotta-amerikai-legfelsobb-birosag-christa-pike-kegyelmi-kerveny",
+          "https://telex.hu/kulfold/2026/09/29/tennessee-kivegzes-200-ev-no-christa-pike-gyilkossag-aldozat-eroszak"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/vilag/2026-09-30-ket-evszazad-utan-az-elso-kivegzes/",
+      "seo": {
+        "meta_title": "Két évszázad után az első kivégzés?",
+        "meta_description": "Az amerikai legfelsőbb bíróság elutasította Christa Pike kegyelmi kérvényét, így kétszáz év után ő lehet az első nő, akit kivégeznek Tennessee államban. Az ügy ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-09-30-ket-evszazad-utan-az-elso-kivegzes/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Waxman_during_Hyatt_III_sketch.jpg/1280px-Waxman_during_Hyatt_III_sketch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "7e856093ecb2eb27890a651c3d3f38e59587edb0b3d9cbbb7b242169cbe95942",
+      "pipeline_run_id": "36679120098",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T08:37:21+02:00",
+      "updated_at": "2026-09-30T08:37:21+02:00",
+      "published_at": "2026-09-30T08:37:21+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "3cfc98c0-2244-5d82-b106-11eefe5c8532",
+      "slug": "2026-09-30-bortonnel-fenyegettek-az-utcan-a-volt-minisztert",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Hankó Balázs",
+        "NKA",
+        "Semmelweis Egyetem",
+        "közélet",
+        "belföld"
+      ],
+      "title": "Börtönnel fenyegették az utcán a volt minisztert",
+      "subtitle": null,
+      "lead": "Bilincsben vittek el egy korábbi kormánytagot egy vitatott forráselosztási ügy miatt. A politikus szerint mindez nyers politikai leszámolás.",
+      "key_points": [
+        "Hűtlen kezeléssel hozzák összefüggésbe Hankó Balázs volt minisztert az NKA támogatásai miatt.",
+        "A Hír TV-nek adott interjúban a politikus azt mondta, hogy az utcán ötven méteren belül öten is börtönt követeltek tőle.",
+        "A Semmelweis Egyetemen igazolt, nem fizetett távollétet rögzítettek az őrizetbe vétel idejére."
+      ],
+      "content": "A Telex beszámolója szerint Hankó Balázs volt kulturális és innovációs miniszter a Hír TV-nek adott interjújában arról beszélt, hogy a napokban ötszáz métert tett meg gyalog az utcán, és ezalatt öten is börtönbe akarták juttatni, miközben nagyon csúnya szavakkal illették. A volt tárcavezetőt az NKA-ügyben hűtlen kezeléssel hozzák összefüggésbe, miután hétfő este őrizetbe vették, és bilincsben szállították Kecskemétre egy ötrészes kihallgatásra.\n\nAz eljárás hátterében a Nemzeti Kulturális Alap (NKA) pénzeinek elosztása áll, amely szervezet pályázati úton támogatja a kulturális élet szereplőit. A hatóságok gyanúja szerint a források jelentős részét a Fidesz kampányára vagy a támogatottak magánéletének finanszírozására fordították, és a támogatások elosztásakor a politikai hovatartozás is szerepet játszott.\n\nHankó Balázs a felvételen visszautasította a vádakat, és az egészet kultúrpolitikai harcnak, valamint politikai leszámolásnak nevezte, amelynek célja a nemzeti érzelmű előadók kiszorítása. Hozzátette, hogy a kulturális programoknak mindig is velejárói voltak a politikai szereplők, és példaként említette, hogy a jelenlegi rendezvényeken a Tisza Párt országgyűlési képviselői is részt vesznek.\n\nA volt miniszter ügyvédje, Tóth M. Gábor tájékoztatása szerint védence a közel öt órán át tartó kihallgatáson egy 25 oldalas, érdemi védekezést tartalmazó vallomást tett, amelyben hangsúlyozta, hogy a jogszabályokat betartva cselekedett. A parlament hétfői ülésén egyébként az Országgyűlés tiszás többsége megszavazta Hankó mentelmi jogának felfüggesztését, amit Lajtár István legfőbbügyész-helyettes indítványozott.\n\nEgy másik fejlemény kapcsán a Semmelweis Egyetem is nyilatkozott az eseményekről, mivel a fideszes politikus több szálon is kötődik az intézményhez: korábban stratégiai rektorhelyettes volt, jelenleg pedig egyetemi tanárként dolgozik. Az egyetem közlése szerint a munkaügyi nyilvántartásban a volt miniszter számára az őrizetbe vétel idejére igazolt, nem fizetett távollétet rögzítettek.\n\nA történtek után a Fidesz politikai fogolynak tekinti a volt minisztert, és ragaszkodnak ahhoz, hogy a fogva tartása alatt is tartsa meg képviselői mandátumát. Az eljárás lefolytatása a Bács-Kiskun Vármegyei Főügyészség hatáskörébe tartozik, a nyomozók pedig a szökés esélyének csökkentése érdekében szállították át Kecskemétre a politikust.",
+      "content_format": "markdown",
+      "body": [
+        "A Telex beszámolója szerint Hankó Balázs volt kulturális és innovációs miniszter a Hír TV-nek adott interjújában arról beszélt, hogy a napokban ötszáz métert tett meg gyalog az utcán, és ezalatt öten is börtönbe akarták juttatni, miközben nagyon csúnya szavakkal illették. A volt tárcavezetőt az NKA-ügyben hűtlen kezeléssel hozzák összefüggésbe, miután hétfő este őrizetbe vették, és bilincsben szállították Kecskemétre egy ötrészes kihallgatásra.",
+        "Az eljárás hátterében a Nemzeti Kulturális Alap (NKA) pénzeinek elosztása áll, amely szervezet pályázati úton támogatja a kulturális élet szereplőit. A hatóságok gyanúja szerint a források jelentős részét a Fidesz kampányára vagy a támogatottak magánéletének finanszírozására fordították, és a támogatások elosztásakor a politikai hovatartozás is szerepet játszott.",
+        "Hankó Balázs a felvételen visszautasította a vádakat, és az egészet kultúrpolitikai harcnak, valamint politikai leszámolásnak nevezte, amelynek célja a nemzeti érzelmű előadók kiszorítása. Hozzátette, hogy a kulturális programoknak mindig is velejárói voltak a politikai szereplők, és példaként említette, hogy a jelenlegi rendezvényeken a Tisza Párt országgyűlési képviselői is részt vesznek.",
+        "A volt miniszter ügyvédje, Tóth M. Gábor tájékoztatása szerint védence a közel öt órán át tartó kihallgatáson egy 25 oldalas, érdemi védekezést tartalmazó vallomást tett, amelyben hangsúlyozta, hogy a jogszabályokat betartva cselekedett. A parlament hétfői ülésén egyébként az Országgyűlés tiszás többsége megszavazta Hankó mentelmi jogának felfüggesztését, amit Lajtár István legfőbbügyész-helyettes indítványozott.",
+        "Egy másik fejlemény kapcsán a Semmelweis Egyetem is nyilatkozott az eseményekről, mivel a fideszes politikus több szálon is kötődik az intézményhez: korábban stratégiai rektorhelyettes volt, jelenleg pedig egyetemi tanárként dolgozik. Az egyetem közlése szerint a munkaügyi nyilvántartásban a volt miniszter számára az őrizetbe vétel idejére igazolt, nem fizetett távollétet rögzítettek.",
+        "A történtek után a Fidesz politikai fogolynak tekinti a volt minisztert, és ragaszkodnak ahhoz, hogy a fogva tartása alatt is tartsa meg képviselői mandátumát. Az eljárás lefolytatása a Bács-Kiskun Vármegyei Főügyészség hatáskörébe tartozik, a nyomozók pedig a szökés esélyének csökkentése érdekében szállították át Kecskemétre a politikust."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 327,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Hank%C3%B3_Bal%C3%A1zs_%283%29.jpg/1280px-Hank%C3%B3_Bal%C3%A1zs_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "alt": "Balázs Hankó",
+        "credit": "Elekes Andor / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hank%C3%B3_Bal%C3%A1zs_(3).jpg"
+      },
+      "sources": [
+        {
+          "url": "https://telex.hu/belfold/2026/09/29/hanko-balazs-interjut-hirtv-orizetbe-vetel-volt-miniszter-korrupcio",
+          "title": "Hankó Balázs: Ötszáz métert mentem az utcán, és öten akartak börtönbe rakni. Nagyon csúnya szavakkal, mindennek elmondtak",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T08:36:46+02:00"
+        },
+        {
+          "url": "https://hvg.hu/itthon/20260929_hanko-interju-vadlok-felelni-nepharag-gerjesztes",
+          "title": "Hankó Balázs: A kulturális programoknak mindig is velejárója volt, hogy oda politikusokat meghívtak",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T08:36:46+02:00"
+        },
+        {
+          "url": "https://hvg.hu/itthon/20260929_semmelweis-egyetem-hanko-balazs-orizet",
+          "title": "A Semmelweis Egyetem szűkszavúan reagált Hankó Balázs őrizetbe vételére",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T08:36:46+02:00"
+        },
+        {
+          "url": "https://hvg.hu/itthon/20260929_hanko-balazs-ot-ora-kihallgatas-ugyved",
+          "title": "Közel öt órán át hallgatták ki Hankó Balázst",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T08:36:46+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 11.33,
+      "category_meta": {
+        "source_links": [
+          "https://telex.hu/belfold/2026/09/29/hanko-balazs-interjut-hirtv-orizetbe-vetel-volt-miniszter-korrupcio",
+          "https://hvg.hu/itthon/20260929_hanko-interju-vadlok-felelni-nepharag-gerjesztes"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/kozelet/2026-09-30-bortonnel-fenyegettek-az-utcan-a-volt-minisztert/",
+      "seo": {
+        "meta_title": "Börtönnel fenyegették az utcán a volt minisztert",
+        "meta_description": "Bilincsben vittek el egy korábbi kormánytagot egy vitatott forráselosztási ügy miatt. A politikus szerint mindez nyers politikai leszámolás.",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-09-30-bortonnel-fenyegettek-az-utcan-a-volt-minisztert/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Hank%C3%B3_Bal%C3%A1zs_%283%29.jpg/1280px-Hank%C3%B3_Bal%C3%A1zs_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "f1665caf705382f662a6b76225af69d6053086387ef765bc86443ef5ccf9d0a9",
+      "pipeline_run_id": "36679120098",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T08:36:46+02:00",
+      "updated_at": "2026-09-30T08:36:46+02:00",
+      "published_at": "2026-09-30T08:36:46+02:00",
+      "expires_at": null
+    },
     {
       "id": "2c3e6fbb-d476-50ca-aab1-b91625dc52e3",
       "slug": "2026-09-30-heti-negynapos-irodai-kotelezettseget-vezet-be-a-mercedes",
