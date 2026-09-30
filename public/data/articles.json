@@ -1,7 +1,404 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T08:38:15+02:00",
+  "updated_at": "2026-09-30T09:27:45+02:00",
   "articles": [
+    {
+      "id": "5c7bbb4f-155e-5e39-bc9b-81c8d20e8826",
+      "slug": "2026-09-30-kisebb-oroszorszag-nagyobb-afrika-az-uj-terkepen",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "földrajz",
+        "ENSZ",
+        "térkép",
+        "tudomány",
+        "geopolitika"
+      ],
+      "title": "Kisebb Oroszország, nagyobb Afrika az új térképen",
+      "subtitle": null,
+      "lead": "Az ENSZ Közgyűlése megszavazta az Equal Earth-vetületet használó térképeket, amelyek pontosabban mutatják a földrészek valódi arányait. Ez a döntés nemcsak a földrajzi szemléletünket formálja át, hanem a társadalmi identitásunkra is hatással van.",
+      "key_points": [
+        "Az ENSZ elfogadta az Equal Earth-térképeket.",
+        "A hagyományos Mercator-vetület torzít a sarkpontok felé.",
+        "Afrika jóval nagyobbnak, Oroszország pedig kisebbnek látszik az új ábrázolásban."
+      ],
+      "content": "A Qubit beszámolója szerint az ENSZ Közgyűlése nemrég szavazta meg azt a területtartó világtérképet, amely alapjaiban rajzolhatja újra a globális arányokról alkotott képet. Az afrikai kezdeményezésre indult Equal Earth projection matematikai pontossággal őrzi meg a területarányokat, miközben szakít a 16. század óta használt hagyományos rendszerek vizuális torzításaival.\n\nA mindennapokban használt webes térképek és atlaszok eddig a Mercator-vetületi rendszert követték, amelyet eredetileg hajózási navigációhoz terveztek. Ennek a struktúrának a legfőbb sajátossága, hogy a sarkpontok felé haladva fokozatosan felnagyítja a területeket, így Grönland vagy Oroszország mérete jelentősen túlméretezetté vált a valósághoz képest.\n\nA Szegedi Tudományegyetem Földrajz- és Földtudományi Intézetének szakértői, Kriska Olivér társadalomföldrajz-kutató és Kádár Anett friss tanulmányukban rámutatnak a vizuális ábrázolások identitásformáló erejére. A gyerekek mentális térképe és a társadalmak önképe is nagymértékben függ attól, hogy a térképeken hogyan viszonyulnak egymáshoz a kontinensek.\n\nAz ENSZ-szavazás során a nemzetközi diplomácia is megosztottnak bizonyult az új vetület kérdésében. Az Egyesült Államok ideológiai ambíciókat sejtett a kezdeményezés mögött, ezért leszavazta azt, míg hat ország – Észtország, Grúzia, Litvánia, Moldova, Szerbia és Ukrajna – tartózkodott a szavazástól.",
+      "content_format": "markdown",
+      "body": [
+        "A Qubit beszámolója szerint az ENSZ Közgyűlése nemrég szavazta meg azt a területtartó világtérképet, amely alapjaiban rajzolhatja újra a globális arányokról alkotott képet. Az afrikai kezdeményezésre indult Equal Earth projection matematikai pontossággal őrzi meg a területarányokat, miközben szakít a 16. század óta használt hagyományos rendszerek vizuális torzításaival.",
+        "A mindennapokban használt webes térképek és atlaszok eddig a Mercator-vetületi rendszert követték, amelyet eredetileg hajózási navigációhoz terveztek. Ennek a struktúrának a legfőbb sajátossága, hogy a sarkpontok felé haladva fokozatosan felnagyítja a területeket, így Grönland vagy Oroszország mérete jelentősen túlméretezetté vált a valósághoz képest.",
+        "A Szegedi Tudományegyetem Földrajz- és Földtudományi Intézetének szakértői, Kriska Olivér társadalomföldrajz-kutató és Kádár Anett friss tanulmányukban rámutatnak a vizuális ábrázolások identitásformáló erejére. A gyerekek mentális térképe és a társadalmak önképe is nagymértékben függ attól, hogy a térképeken hogyan viszonyulnak egymáshoz a kontinensek.",
+        "Az ENSZ-szavazás során a nemzetközi diplomácia is megosztottnak bizonyult az új vetület kérdésében. Az Egyesült Államok ideológiai ambíciókat sejtett a kezdeményezés mögött, ezért leszavazta azt, míg hat ország – Észtország, Grúzia, Litvánia, Moldova, Szerbia és Ukrajna – tartózkodott a szavazástól."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 206,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Szegedi_Tudom%C3%A1nyegyetem.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 675,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "szegedi tudományegyetem",
+        "credit": "szeged university / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Szegedi_Tudom%C3%A1nyegyetem.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://qubit.hu/2026/09/30/oroszorszag-sokkal-kisebb-afrika-joval-nagyobb-mint-azt-az-eddigi-terkepek-mutattak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "Oroszország sokkal kisebb, Afrika jóval nagyobb, mint azt az eddigi térképek mutatták",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T09:26:59+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.67,
+      "category_meta": {
+        "source_links": [
+          "https://qubit.hu/2026/09/30/oroszorszag-sokkal-kisebb-afrika-joval-nagyobb-mint-azt-az-eddigi-terkepek-mutattak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/tech/2026-09-30-kisebb-oroszorszag-nagyobb-afrika-az-uj-terkepen/",
+      "seo": {
+        "meta_title": "Kisebb Oroszország, nagyobb Afrika az új térképen",
+        "meta_description": "Az ENSZ Közgyűlése megszavazta az Equal Earth-vetületet használó térképeket, amelyek pontosabban mutatják a földrészek valódi arányait. Ez a döntés nemcsak a fö",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-09-30-kisebb-oroszorszag-nagyobb-afrika-az-uj-terkepen/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Szegedi_Tudom%C3%A1nyegyetem.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "d95ecdedcaedf3892d7226521e72ede1ba4845ee4e0badd4764b16c0939d3053",
+      "pipeline_run_id": "36683412396",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T09:26:59+02:00",
+      "updated_at": "2026-09-30T09:26:59+02:00",
+      "published_at": "2026-09-30T09:26:59+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "2e3b7ae9-ac98-5cf4-a2ac-52ae4a3b5264",
+      "slug": "2026-09-30-urbiztonsagi-szolgaltatasokra-szerzodott-a-nasa",
+      "status": "published",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "űrkutatás",
+        "biztonság",
+        "űrutazás"
+      ],
+      "title": "Űrbiztonsági szolgáltatásokra szerződött a NASA",
+      "subtitle": null,
+      "lead": "A NASA szerződést kötött az Omitron Inc. vállalattal űrbiztonsági elemzési szolgáltatások ellátására. A megállapodás célja az űreszközök és az űrhajósok védelmének garantálása.",
+      "key_points": [
+        "A megegyezés értéke megközelítőleg 23,5 millió dollár.",
+        "A szerződés ötéves teljesítési időszakra szól.",
+        "A feladatok közé tartozik a személyzet nélküli űrhajók pályaelemzése."
+      ],
+      "content": "A nasa.gov-on megjelent hivatalos közlemény szerint a NASA szerződést kötött az Omitron Inc. céggel űrbiztonsági elemzői szolgáltatások ellátására. A megállapodás kulcsszerepet játszik az űrügynökség repülőeszközeinek és az űrhajósok életének védelmében.\n\nA megbízás ötéves teljesítési időszakra szól, a szerződés becsült értéke pedig megközelíti a 23,5 millió dollárt. A keretmegállapodás értelmében a vállalat végzi el az összes személyzet nélküli NASA-űrhajó pályametszés-ellenőrzési (conjunction assessment) szűrési feladatát.\n\nAz ehhez hasonló technológiai és biztonsági szolgáltatások elengedhetetlenek a mind zsúfoltabbá váló alacsony Föld körüli pályán, ahol a különböző űreszközök és műholdak ütközésének elkerülése mindennapos mérnöki kihívást jelent.\n\nA jövőben ezek a szolgáltatások garantálják majd, hogy a folyamatosan bővülő űrkutatási és emberes küldetések – amilyenek például a Crew-missziók is – zavartalanul és a legnagyobb biztonságban valósulhassanak meg.",
+      "content_format": "markdown",
+      "body": [
+        "A nasa.gov-on megjelent hivatalos közlemény szerint a NASA szerződést kötött az Omitron Inc. céggel űrbiztonsági elemzői szolgáltatások ellátására. A megállapodás kulcsszerepet játszik az űrügynökség repülőeszközeinek és az űrhajósok életének védelmében.",
+        "A megbízás ötéves teljesítési időszakra szól, a szerződés becsült értéke pedig megközelíti a 23,5 millió dollárt. A keretmegállapodás értelmében a vállalat végzi el az összes személyzet nélküli NASA-űrhajó pályametszés-ellenőrzési (conjunction assessment) szűrési feladatát.",
+        "Az ehhez hasonló technológiai és biztonsági szolgáltatások elengedhetetlenek a mind zsúfoltabbá váló alacsony Föld körüli pályán, ahol a különböző űreszközök és műholdak ütközésének elkerülése mindennapos mérnöki kihívást jelent.",
+        "A jövőben ezek a szolgáltatások garantálják majd, hogy a folyamatosan bővülő űrkutatási és emberes küldetések – amilyenek például a Crew-missziók is – zavartalanul és a legnagyobb biztonságban valósulhassanak meg."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 146,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1280px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 927,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "NASA Headquarters at 300 E Street SW in Washington D.C.\nDeutsch:  NASA Hauptsitz auf der 300 E Street SW in Washington D.C.\n中文：​位于美国华盛顿300 E Street SW的美国国家航空航天局(NASA)总部大楼\nБеларуская:  Штаб-кватэра NAS",
+        "credit": "NASA / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NASA_HQ_Building.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-awards-orbital-safety-analysis-support-services-contract/",
+          "title": "NASA Awards Orbital Safety Analysis Support Services Contract",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-09-30T09:25:44+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/news-release/nasa-awards-orbital-safety-analysis-support-services-contract/"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/univerzum/2026-09-30-urbiztonsagi-szolgaltatasokra-szerzodott-a-nasa/",
+      "seo": {
+        "meta_title": "Űrbiztonsági szolgáltatásokra szerződött a NASA",
+        "meta_description": "A NASA szerződést kötött az Omitron Inc. vállalattal űrbiztonsági elemzési szolgáltatások ellátására. A megállapodás célja az űreszközök és az űrhajósok védelmé",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-09-30-urbiztonsagi-szolgaltatasokra-szerzodott-a-nasa/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1280px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "f28fdea1ab8e1e40c83d0cb30ade0e71ccca4defef6b8b526749d197c056863d",
+      "pipeline_run_id": "36683412396",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T09:25:44+02:00",
+      "updated_at": "2026-09-30T09:25:44+02:00",
+      "published_at": "2026-09-30T09:25:44+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "47814d47-fabd-5006-a676-0af9c4384d79",
+      "slug": "2026-09-30-szazmilliardos-penzugyi-terhet-hagyott-maga-utan-a-lang-negyed-beruha",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "Láng Negyed",
+        "Magyar Fejlesztési Bank",
+        "ingatlanfejlesztés",
+        "Váci út",
+        "gazdaság"
+      ],
+      "title": "Százmilliárdos pénzügyi terhet hagyott maga után a Láng Negyed beruházása",
+      "subtitle": null,
+      "lead": "Több százmilliárd forintos pénzügyi kockázatot és nehezen felbontható kötelezettségeket örökölt a Váci úton épülő Láng Negyed ingatlanberuházásából a Magyar Péter vezette kormány. A pesti gigaprojekt hátterében álló milliárdosok vállalkozását az állami MFB kötvényvásárlással és garanciákkal segítette ki.",
+      "key_points": [
+        "Az MFB 70 milliárd forint értékű kötvényt jegyzett le a Southblaze Kft. februári kibocsátásából.",
+        "A Bayer Construct nehéz helyzete miatt a 39 milliárd forintos bankgarancia komoly terhet jelenthet az adófizetőknek.",
+        "A Láng Negyedben épülő sportkomplexumot az állam 150 milliárd forintért venné meg a World Aquatics számára."
+      ],
+      "content": "A HVG és a Portfolio beszámolója szerint a pesti Váci út 152–156. szám alatt futó, mintegy 500 milliárd forintos összköltségvetésű Láng Negyed ingatlanfejlesztés körül komoly pénzügyi kihívások rajzolódnak ki az új vezetés számára. A Southblaze Kft., amelynek tulajdonosai fele-fele arányban Ruszlan Rahimkulov orosz származású milliárdos és Zentai Péter üzletember, februárban 100 milliárd forint értékben bocsátott ki kötvényeket. Ennek 70 százalékát, vagyis 70 milliárd forintot az állami tulajdonú Magyar Fejlesztési Bank (MFB) jegyzett le, míg a fennmaradó 30 milliárdot piaci forrásokból fedezték a befektetők.\n\nA beruházás pénzügyi hátterét tovább bonyolítja, hogy a kivitelezési munkákért felelős Bayer Construct építőipari cég a zuglói állami irodaház-vásárlások leállítása miatt nehéz helyzetbe került. Az állam ráadásul egy 39 milliárd forintos bankgaranciával is jótállt a kivitelező munkájáért, ami közvetlen kockázatot jelent az adófizetők számára, ha a cég nem tud teljesíteni.\n\nA helyzetet súlyosbítja a Nemzetközi Úszószövetség (World Aquatics) új budapesti központjának ügye is. Szijjártó Péter volt külgazdasági és külügyminiszter 2023-as megállapodása értelmében a Láng Negyedben felépülő, legalább 150 milliárd forintra becsült sportkomplexumot az állam vásárolná meg, majd 15 éven át bérletidíj-mentesen biztosítaná a szövetségnek. Bár az új Pénzügyminisztérium tart a megörökölt tehertől, a nemzetközi szervezet már Budapesten működteti ideiglenes irodáját.\n\nA megváltozott piaci igényekre hivatkozva a beruházók időközben módosították a terveket, így az irodák helyett a lakófunkciót helyezték előtérbe. A 13–18 emeletes tornyokban így mintegy ezer, 30 és 82 négyzetméter közötti lakást alakítanak ki, miközben a Magyar Péter vezette kormány a terület északi részén visszavonta a beruházás kiemelt állami státuszát.",
+      "content_format": "markdown",
+      "body": [
+        "A HVG és a Portfolio beszámolója szerint a pesti Váci út 152–156. szám alatt futó, mintegy 500 milliárd forintos összköltségvetésű Láng Negyed ingatlanfejlesztés körül komoly pénzügyi kihívások rajzolódnak ki az új vezetés számára. A Southblaze Kft., amelynek tulajdonosai fele-fele arányban Ruszlan Rahimkulov orosz származású milliárdos és Zentai Péter üzletember, februárban 100 milliárd forint értékben bocsátott ki kötvényeket. Ennek 70 százalékát, vagyis 70 milliárd forintot az állami tulajdonú Magyar Fejlesztési Bank (MFB) jegyzett le, míg a fennmaradó 30 milliárdot piaci forrásokból fedezték a befektetők.",
+        "A beruházás pénzügyi hátterét tovább bonyolítja, hogy a kivitelezési munkákért felelős Bayer Construct építőipari cég a zuglói állami irodaház-vásárlások leállítása miatt nehéz helyzetbe került. Az állam ráadásul egy 39 milliárd forintos bankgaranciával is jótállt a kivitelező munkájáért, ami közvetlen kockázatot jelent az adófizetők számára, ha a cég nem tud teljesíteni.",
+        "A helyzetet súlyosbítja a Nemzetközi Úszószövetség (World Aquatics) új budapesti központjának ügye is. Szijjártó Péter volt külgazdasági és külügyminiszter 2023-as megállapodása értelmében a Láng Negyedben felépülő, legalább 150 milliárd forintra becsült sportkomplexumot az állam vásárolná meg, majd 15 éven át bérletidíj-mentesen biztosítaná a szövetségnek. Bár az új Pénzügyminisztérium tart a megörökölt tehertől, a nemzetközi szervezet már Budapesten működteti ideiglenes irodáját.",
+        "A megváltozott piaci igényekre hivatkozva a beruházók időközben módosították a terveket, így az irodák helyett a lakófunkciót helyezték előtérbe. A 13–18 emeletes tornyokban így mintegy ezer, 30 és 82 négyzetméter közötti lakást alakítanak ki, miközben a Magyar Péter vezette kormány a terület északi részén visszavonta a beruházás kiemelt állami státuszát."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 286,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/V%C3%A1ci_%C3%BAt_2018-05-20.jpg/1280px-V%C3%A1ci_%C3%BAt_2018-05-20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Váci út at its intersection with Árbóc utca. The street is closed because of the construction of Agora Budapest. The overpass bridge over Róbert Károly körút is on the left.",
+        "credit": "Vauia Rex / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:V%C3%A1ci_%C3%BAt_2018-05-20.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/ingatlan/20260930/500-milliardos-ingatlanfejlesztes-a-vaci-uton-hatalmas-terhet-hagyott-hatra-az-orban-kormany-866200",
+          "title": "500 milliárdos ingatlanfejlesztés a Váci úton: hatalmas terhet hagyott hátra az Orbán-kormány",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T09:24:51+02:00"
+        },
+        {
+          "url": "https://telex.hu/gazdasag/2026/09/30/rahimkulov-ruszlan-lang-negyed-zentai-peter-mfb-kotveny",
+          "title": "HVG: Jelentős adófizetői kockázat, hogy Orbánék megsegítették Rahimkulovékat a Láng Negyedben",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T09:24:51+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 7.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/ingatlan/20260930/500-milliardos-ingatlanfejlesztes-a-vaci-uton-hatalmas-terhet-hagyott-hatra-az-orban-kormany-866200"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/penzvilag/2026-09-30-szazmilliardos-penzugyi-terhet-hagyott-maga-utan-a-lang-negyed-beruha/",
+      "seo": {
+        "meta_title": "Százmilliárdos pénzügyi terhet hagyott maga után a Láng Negy",
+        "meta_description": "Több százmilliárd forintos pénzügyi kockázatot és nehezen felbontható kötelezettségeket örökölt a Váci úton épülő Láng Negyed ingatlanberuházásából a Magyar Pét",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-09-30-szazmilliardos-penzugyi-terhet-hagyott-maga-utan-a-lang-negyed-beruha/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/V%C3%A1ci_%C3%BAt_2018-05-20.jpg/1280px-V%C3%A1ci_%C3%BAt_2018-05-20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "7425b3425fa5eeaf198353d80ced9795e44e112bbed28ac7aaa26b158b148cce",
+      "pipeline_run_id": "36683412396",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T09:24:51+02:00",
+      "updated_at": "2026-09-30T09:24:51+02:00",
+      "published_at": "2026-09-30T09:24:51+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "5730da9b-ef92-53fa-8365-f954ac6163f4",
+      "slug": "2026-09-30-kiderult-mirol-targyalt-zart-ajtok-mogott-orban",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "kormányülések",
+        "Orbán Viktor",
+        "jegyzőkönyvek",
+        "kormányhatározatok"
+      ],
+      "title": "Kiderült, miről tárgyalt zárt ajtók mögött Orbán",
+      "subtitle": null,
+      "lead": "Szerdán nyilvánosságra hozta a kormány a második Orbán-kabinet 2010-es üléseinek hivatalos összefoglalóit, amelyek részletesen bemutatják a hatalomátvétel utáni első hónapok kulisszatitkait. A dokumentumok feltárják a magánnyugdíjpénztárak államosításának előkészítését, az Alkotmánybíróság jogköreinek szűkítését és a legfelsőbb vezetők hatalomfelfogását.",
+      "key_points": [
+        "A közzétett iratok szerint a 2010-es kabinet kiemelten foglalkozott a nyugdíjpénztárak államosításával és a taláros testület jogköreinek visszavágásával.",
+        "Orbán Viktor az összefoglaló tanúsága szerint nyíltan rögzítette, hogy a köztársasági elnököt nem tekinti a kormány ellensúlyának.",
+        "A mostani lépést megelőzően a 2010 és 2026 közötti, több mint 3500 nem nyilvános kormányhatározat jegyzékét is elérhetővé tették."
+      ],
+      "content": "A hvg.hu és a Telex beszámolója szerint a kormány szerda reggel közzétette a második Orbán-kormány 2010. májusa és decembere között tartott üléseinek jegyzőkönyveit és összefoglalóit. A kabinet tájékoztatása alapján az állampolgároknak évek múltán is joguk van megismerni a korábbi döntések hátterét, így a nemzetbiztonsági átvilágítások lezárultával az elkövetkező hónapokban a későbbi évek anyagai is felkerülnek az internetre.\n\nA friss iratok közvetlen rálátást adnak arra, milyen témák uralták a kabinetasztalt 2010-ben. A miniszterek intenzíven készítették elő a magánnyugdíjpénztárak államosítását, vitáztak az Alkotmánybíróság döntési hatásköreinek szűkítéséről, miközben az asztalon feküdt Balog Zoltán romaügyi stratégiája, a 2011-es európai uniós elnökség menetrendje, valamint a súlyos környezeti károkat okozó ajkai vörösiszap-katasztrófa kezelése is.\n\nAz iratcsomó egyik legemlékezetesebb részlete a 2010. augusztus 11-i üléshez kötődik, amelyen a frissen hivatalba lépett köztársasági elnök, Schmitt Pál is megjelent. Orbán Viktor ekkor egyértelművé tette az államfői pozícióhoz fűződő elvárásait: kijelentette, hogy a köztársasági elnök nem képez ellensúlyt a végrehajtó hatalommal szemben, hanem az elnök és a kormánytagok közösen őrzik az alkotmányt, miközben személyes kapcsolattartást és folyamatos tájékoztatást kért a miniszterektől.\n\nKözben a kormány az elmúlt másfél évtized egyéb zárt döntéseiről is igyekszik lerántani a leplet: alig egy nappal korábban tették elérhetővé a 2010 és 2026 között hozott úgynevezett 2000-es számozású határozatok címlistáját. Ezek olyan nem nyilvános döntések, amelyek nem jelentek meg a Magyar Közlönyben, és amelyekből tizenhat év alatt összesen 3598 darab született állami feladatok kijelölésére, illetve kiemelt beruházási támogatások odaítélésére.\n\nA nem nyilvános határozatok száma a második Orbán-kormány kezdeti évi 10–20 darabjáról 2014-re 33-ra nőtt, majd a koronavírus-járvány idején érte el a csúcsot: 2021-ben 679, míg 2023-ban 635 ilyen határozat készült. Ezekből az derül ki, hogy 2020 után egyedi döntésekkel finanszíroztak cégeket és szervezeteket, többek között a gödi Samsung-gyárat és a csádi katonai missziót is. Bár a határozatok pontos szövege továbbra sem hozzáférhető, a címek nyilvánossá váltak, és a kabinet ígérete szerint a korábbi kormányülések részleteit is folyamatosan megismerheti a nyilvánosság.",
+      "content_format": "markdown",
+      "body": [
+        "A hvg.hu és a Telex beszámolója szerint a kormány szerda reggel közzétette a második Orbán-kormány 2010. májusa és decembere között tartott üléseinek jegyzőkönyveit és összefoglalóit. A kabinet tájékoztatása alapján az állampolgároknak évek múltán is joguk van megismerni a korábbi döntések hátterét, így a nemzetbiztonsági átvilágítások lezárultával az elkövetkező hónapokban a későbbi évek anyagai is felkerülnek az internetre.",
+        "A friss iratok közvetlen rálátást adnak arra, milyen témák uralták a kabinetasztalt 2010-ben. A miniszterek intenzíven készítették elő a magánnyugdíjpénztárak államosítását, vitáztak az Alkotmánybíróság döntési hatásköreinek szűkítéséről, miközben az asztalon feküdt Balog Zoltán romaügyi stratégiája, a 2011-es európai uniós elnökség menetrendje, valamint a súlyos környezeti károkat okozó ajkai vörösiszap-katasztrófa kezelése is.",
+        "Az iratcsomó egyik legemlékezetesebb részlete a 2010. augusztus 11-i üléshez kötődik, amelyen a frissen hivatalba lépett köztársasági elnök, Schmitt Pál is megjelent. Orbán Viktor ekkor egyértelművé tette az államfői pozícióhoz fűződő elvárásait: kijelentette, hogy a köztársasági elnök nem képez ellensúlyt a végrehajtó hatalommal szemben, hanem az elnök és a kormánytagok közösen őrzik az alkotmányt, miközben személyes kapcsolattartást és folyamatos tájékoztatást kért a miniszterektől.",
+        "Közben a kormány az elmúlt másfél évtized egyéb zárt döntéseiről is igyekszik lerántani a leplet: alig egy nappal korábban tették elérhetővé a 2010 és 2026 között hozott úgynevezett 2000-es számozású határozatok címlistáját. Ezek olyan nem nyilvános döntések, amelyek nem jelentek meg a Magyar Közlönyben, és amelyekből tizenhat év alatt összesen 3598 darab született állami feladatok kijelölésére, illetve kiemelt beruházási támogatások odaítélésére.",
+        "A nem nyilvános határozatok száma a második Orbán-kormány kezdeti évi 10–20 darabjáról 2014-re 33-ra nőtt, majd a koronavírus-járvány idején érte el a csúcsot: 2021-ben 679, míg 2023-ban 635 ilyen határozat készült. Ezekből az derül ki, hogy 2020 után egyedi döntésekkel finanszíroztak cégeket és szervezeteket, többek között a gödi Samsung-gyárat és a csádi katonai missziót is. Bár a határozatok pontos szövege továbbra sem hozzáférhető, a címek nyilvánossá váltak, és a kabinet ígérete szerint a korábbi kormányülések részleteit is folyamatosan megismerheti a nyilvánosság."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 367,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Viktor_Orb%C3%A1n_2023.jpg/1280px-Viktor_Orb%C3%A1n_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1666,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Santiago Abascal se reúne con Viktor Orbán y Eduardo Bolsonaro en ocasión de la asistencia de la jura como presidente de Argentina de Javier Milei en Buenos Aires.",
+        "credit": "Vox España / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Orb%C3%A1n_2023.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20260930_orba-viktor-kormany-2010-kormanyules-osszefoglalo-kozzetetel",
+          "title": "Közzétették az Orbán-kormány 2010-es üléseinek összefoglalóit",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T09:23:44+02:00"
+        },
+        {
+          "url": "https://telex.hu/belfold/2026/09/30/nyilvanos-2010-orban-kormany-kormanyulesek-jegyzokonyv",
+          "title": "Nyilvánosságra hozta a kormány a 2010-es kormányülések jegyzőkönyveit",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T09:23:44+02:00"
+        },
+        {
+          "url": "https://telex.hu/belfold/2026/09/29/nyilvanossarga-hoztak-a-ner-titkos-kormanyhatarozatainak-listajat",
+          "title": "Nyilvánosságra hozták a NER 16 éve alatt született nem nyilvános kormányhatározatok listáját",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T09:23:44+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 10.31,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20260930_orba-viktor-kormany-2010-kormanyules-osszefoglalo-kozzetetel",
+          "https://telex.hu/belfold/2026/09/30/nyilvanos-2010-orban-kormany-kormanyulesek-jegyzokonyv"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/kozelet/2026-09-30-kiderult-mirol-targyalt-zart-ajtok-mogott-orban/",
+      "seo": {
+        "meta_title": "Kiderült, miről tárgyalt zárt ajtók mögött Orbán",
+        "meta_description": "Szerdán nyilvánosságra hozta a kormány a második Orbán-kabinet 2010-es üléseinek hivatalos összefoglalóit, amelyek részletesen bemutatják a hatalomátvétel utáni",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-09-30-kiderult-mirol-targyalt-zart-ajtok-mogott-orban/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Viktor_Orb%C3%A1n_2023.jpg/1280px-Viktor_Orb%C3%A1n_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "94da653ec27e6a5a1c76456462e3d1cada0a3a61665e8228b79931733564fa5b",
+      "pipeline_run_id": "36683412396",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T09:23:44+02:00",
+      "updated_at": "2026-09-30T09:23:44+02:00",
+      "published_at": "2026-09-30T09:23:44+02:00",
+      "expires_at": null
+    },
     {
       "id": "015b9db0-a23e-5873-99d7-083fd759a28c",
       "slug": "2026-09-30-ket-evszazad-utan-az-elso-kivegzes",
