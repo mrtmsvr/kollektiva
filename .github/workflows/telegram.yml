@@ -51,6 +51,8 @@ jobs:
         run: python telegram_review.py
       - name: Új tartalom, ha esedékes
         run: python kollektiva_content.py --if-due
+      - name: Heti hírlevél (vasárnap reggel)
+        run: python scripts/newsletter.py || true
       - name: Mentés
         run: bash scripts/commit.sh "Tartalom"
       - name: Telegram-gombnyomások figyelése (kb. 10 perc)
