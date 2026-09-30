@@ -613,7 +613,7 @@ def commons_image(page: dict, timeout: int) -> Optional[dict]:
     return _image_from_info(info, fname)
 
 
-def commons_search_image(query: str, timeout: int, strict: bool = True) -> Optional[dict]:
+def commons_search_image(query: str, timeout: int, strict: bool = True, avoid: Optional[set] = None) -> Optional[dict]:
     """Szabad licencű kép keresése a Wikimedia Commonson (fotót részesít előnyben).
     strict=True: a keresőszó minden jellegzetes szavának (max. 2) szerepelnie kell a fájlnévben/leírásban."""
     if not query:
@@ -643,13 +643,15 @@ def commons_search_image(query: str, timeout: int, strict: bool = True) -> Optio
         if sum(1 for t in tokens if t in desc) < min(need, len(tokens)):
             continue
         img = _image_from_info(info, pg.get("title", ""))
+        if img and avoid and img["url"] in avoid:
+            continue  # ezt a képet nemrég már használtuk
         if img and img["kind"] == "photo":
             return img
         graphic = graphic or img
     return graphic
 
 
-def openverse_image(query: str, timeout: int) -> Optional[dict]:
+def openverse_image(query: str, timeout: int, avoid: Optional[set] = None) -> Optional[dict]:
     """Általános témához (pl. „coffee cup”) szabad licencű fotó az Openverse-ből (Flickr CC stb.)."""
     if not query:
         return None
@@ -659,7 +661,8 @@ def openverse_image(query: str, timeout: int) -> Optional[dict]:
     for r in (data or {}).get("results", []):
         w, h = r.get("width") or 0, r.get("height") or 0
         title = (r.get("title") or "").lower() + " " + " ".join(t.get("name", "") for t in r.get("tags") or [])
-        if w < 1000 or not h or not 1.25 <= w / h <= 2.0 or (words and words[0] not in title):
+        if (w < 1000 or not h or not 1.25 <= w / h <= 2.0 or (words and words[0] not in title)
+                or (avoid and r.get("url") in avoid)):
             continue
         lic = f"{(r.get('license') or '').upper()} {r.get('license_version') or ''}".strip()
         lic = "Public domain" if lic.startswith(("PDM", "CC0")) else ("CC " + lic.replace("BY-SA", "BY-SA"))
@@ -669,16 +672,19 @@ def openverse_image(query: str, timeout: int) -> Optional[dict]:
     return None
 
 
-def find_image(specific: list, generic: list, timeout: int) -> Optional[dict]:
+def find_image(specific: list, generic: list, timeout: int, avoid: Optional[set] = None) -> Optional[dict]:
     """Előbb a konkrét (név, hely, intézmény) keresések a Commonson, szigorúan; utána az általános
     témakép (Openverse, majd Commons lazábban). Ha semmi nem illik, inkább nincs kép, mint rossz kép."""
     for q in specific:
-        img = commons_search_image(str(q or "").strip()[:60], timeout, strict=True)
+        q = str(q or "").strip()[:60]
+        if re.search(r"parliament|országház", q, re.I) and len(specific) > 1:
+            continue  # a Parlament-kép túl általános; csak végső esetben
+        img = commons_search_image(q, timeout, strict=True, avoid=avoid)
         if img:
             return img
     for q in generic:
         q = str(q or "").strip()[:40]
-        img = openverse_image(q, timeout) or commons_search_image(q, timeout, strict=False)
+        img = openverse_image(q, timeout, avoid) or commons_search_image(q, timeout, strict=False, avoid=avoid)
         if img:
             return img
     return None
@@ -1339,7 +1345,7 @@ SECTION_SYSTEM = (
     "(pl. „ez rávilágít arra”, „nem csupán… hanem”, „fontos megjegyezni”, „összességében”). Az első mondat "
     "a lényeget mondja, a bekezdések sorrendje: mi történt → miért fontos → háttér → mi várható. "
     "EREDETISÉG: ne kövesd a forráscikk szerkezetét, szögét és címét – saját felépítést és saját címet írj, "
-    "a forrás címéből ne vegyél át három egymást követő szót. Minden bekezdésben legyen konkrét tény "
+    "a címet ne másold le (egy-egy ütős közös szó belefér). Minden bekezdésben legyen konkrét tény "
     "(név, szám, dátum, helyszín, döntés, következmény); általános, bármire ráhúzható töltelékmondat tilos. "
     "Ha kevés a tény, inkább legyen rövidebb a cikk. "
     "BŰNÜGY, VÁDAK, HÁBORÚ: ártatlanság vélelme – gyanút és vádat soha ne írj tényként („a rendőrség szerint”, "
@@ -1459,17 +1465,15 @@ def fetch_article_text(url: str, timeout: int, limit: int = 2500) -> str:
 
 
 def title_too_similar(title: str, sources: list) -> bool:
-    """Igaz, ha a cím 3 egymást követő szót átvesz valamelyik forrás címéből, vagy szavainak fele egyezik."""
+    """Igaz, ha a cím szinte szó szerint a forrás címe (4+ egymást követő azonos szó). Egy-egy közös,
+    ütős szó (pl. „éjjel”, „csőd”) megengedett."""
     def words(t: str) -> list:
         return re.findall(r"[a-záéíóöőúüű0-9]+", t.lower())
     tw = words(title)
-    tri = {" ".join(tw[i:i + 3]) for i in range(len(tw) - 2)}
+    tri = {" ".join(tw[i:i + 4]) for i in range(len(tw) - 3)}
     for s in sources:
         sw = words(s.get("title", ""))
-        if tri & {" ".join(sw[i:i + 3]) for i in range(len(sw) - 2)}:
-            return True
-        big = [w for w in tw if len(w) >= 5]
-        if len(big) >= 4 and sum(1 for w in big if w[:6] in {x[:6] for x in sw}) / len(big) >= 0.75:
+        if tri & {" ".join(sw[i:i + 4]) for i in range(len(sw) - 3)}:
             return True
     return False
 
@@ -1554,7 +1558,10 @@ eseményről szól; ha más ügyről szól, hagyd figyelmen kívül (ne mosd ös
   Ha egy fogalom, ügy vagy intézmény nem köztudott (pl. „ügynökakták”), egy mondatban magyarázd el, mi az.
   Ha a forrásokból nem derül ki valami, ne találgass.
 - "tags": 3–5 rövid címke
-- "image_query": 1–4 szavas ANGOL keresőkifejezés a Wikimedia Commonshoz: ha a hír egy konkrét, ismert
+- "image_query": 1–4 szavas keresőkifejezés a Wikimedia Commonshoz. Ha a hír főszereplője egy közszereplő,
+  az ő TELJES NEVE legyen (pl. "Ruff Bálint", "Magyar Péter") – a portré a legjobb kép. Egyébként a konkrét
+  helyszín, intézmény, cég, termék vagy tárgy (ANGOLUL vagy tulajdonnévként). Az Országház / Parliament CSAK akkor,
+  ha a hír magáról a parlamenti ülésről szól. Ha a hír egy konkrét, ismert
   személyről, helyről, intézményről vagy tárgyról szól, AZ legyen (pl. "Hungarian Parliament Building",
   "James Webb Space Telescope", "Viktor Orbán", "Eötvös Loránd University"); különben egy kifejező, konkrét téma
   (pl. "Budapest Stock Exchange"). Magyar hírnél magyar helyszínt/intézményt keress, ne általános külföldi képet.
@@ -1566,7 +1573,8 @@ Kizárólag ezt a JSON-t add vissza:
 {{"title": "...", "lead": "...", "key_points": ["...", "...", "..."], "body": ["...", "..."], "tags": ["..."], "image_query": "...", "image_query_alt": ["..."], "image_generic": "..."}}"""
 
 
-def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, story: list) -> Optional[dict]:
+def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, story: list,
+                          avoid_images: Optional[set] = None) -> Optional[dict]:
     now = datetime.now(tz)
     for s in story[:3]:
         s["fulltext"] = fetch_article_text(s["link"], ai.cfg.http_timeout)
@@ -1578,8 +1586,8 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         if title_too_similar(str(raw.get("title", "")), story):
             try:
                 alt = ai.complete_json(SECTION_SYSTEM, (
-                    "Ez a cím túl közel áll a forrás címéhez. Írj 3 új, rövid (max. 7 szó), közepesen clickbait, igaz "
-                    "címet, más szórenddel és más szavakkal, mint a források címei.\n"
+                    "Ez a cím szinte szó szerint a forrás címe. Írj 3 új, rövid (max. 7 szó), közepesen clickbait, igaz "
+                    "címet, más megfogalmazással (egy-egy ütős kulcsszó maradhat).\n"
                     f"Jelenlegi cím: {raw.get('title')}\nForráscímek: " + " | ".join(s["title"] for s in story)
                     + f"\nLead: {raw.get('lead')}\nJSON: {{\"titles\": [\"...\", \"...\", \"...\"]}}"), 600)
                 for t in alt.get("titles") or []:
@@ -1595,7 +1603,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         return None
     generic = raw.get("image_generic")
     image = find_image([raw.get("image_query"), *(raw.get("image_query_alt") or [])][:3],
-                       generic if isinstance(generic, list) else [generic], ai.cfg.http_timeout)
+                       generic if isinstance(generic, list) else [generic], ai.cfg.http_timeout, avoid_images)
     now_iso = now.isoformat(timespec="seconds")
     slug = slugify(f"{d.isoformat()}-{art['title']}")
     sources = normalize_sources([{"url": s["link"], "title": s["title"], "publisher": s["source"]} for s in story], now_iso)
@@ -1646,6 +1654,7 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
     max_run = int(os.getenv("MAX_ARTICLES_PER_RUN", "2"))
     min_score = float(os.getenv("MIN_HOT_SCORE", "5"))
     pause = int(os.getenv("AI_PAUSE_SECONDS", "8"))
+    recent_imgs = {(a.get("hero_image") or {}).get("url") for a in articles[:60]} - {None}
     cands = []
     for sid in wanted:
         today = sum(1 for a in articles if a.get("category") == sid and a.get("date") == d.isoformat())
@@ -1662,11 +1671,13 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
             break
         if score < min_score or per_section.get(sid):
             continue
-        art = build_section_article(ai, SECTIONS[sid], d, tz, group)
+        art = build_section_article(ai, SECTIONS[sid], d, tz, group, recent_imgs)
         if not art:
             continue
         used_links.update(art["category_meta"]["source_links"])
         recent_kw.append(group[0]["kw"])
+        if art.get("hero_image"):
+            recent_imgs.add(art["hero_image"]["url"])
         articles.insert(0, art)
         made += 1
         per_section[sid] = 1
