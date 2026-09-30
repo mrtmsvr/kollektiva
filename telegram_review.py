@@ -173,7 +173,9 @@ def send_article(_out_dir: Optional[Path], art: dict) -> None:
     titles = art.get("title_options") or [art["title"]]
     kind = "🟢 KINT VAN" if art.get("live") else ("🗓 SAJÁT (időzített)" if art.get("offtopic") else "🆕 ÚJ")
     head = (f"{kind} · <b>{E(sec)}</b> · forróság {art.get('hot_score', 0)} · {len(art.get('sources', []))} forrás · "
-            f"{art.get('reading_time_min', 1)} perc\n\n<b>Címjavaslatok</b>\n"
+            f"{art.get('reading_time_min', 1)} perc"
+            + (f" · +{len(art['inline_images'])} kép a szövegben" if art.get("inline_images") else "")
+            + "\n\n<b>Címjavaslatok</b>\n"
             + "\n".join(f"{i + 1}) {E(t)}" for i, t in enumerate(titles))
             + f"\n\n<i>{E(art.get('lead'))}</i>")
     if art.get("key_points"):
