@@ -170,7 +170,7 @@
       "published_at": "2026-09-30T13:31:18+02:00",
       "expires_at": null,
       "review": {
-        "title": 0,
+        "title": 1,
         "image": 2,
         "sent_at": "2026-09-30T08:34:53",
         "msg_ids": [
