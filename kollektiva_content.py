@@ -1765,8 +1765,8 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
         if art.get("hero_image"):
             recent_imgs.add(art["hero_image"]["url"])
         if review:
-            # REVIEW_MODE=post (alap): a hír azonnal kikerül (verseny a kattintásért), és utólag Telegramon
-            # lehet címet/képet cserélni, újraíratni vagy törölni. REVIEW_MODE=pre: csak jóváhagyás után kerül ki.
+            # REVIEW_MODE=hybrid (alap): jóváhagyásra vár, de AUTO_PUBLISH_MIN perc után magától kikerül;
+            # post: azonnal kikerül, utólagos ellenőrzéssel; pre: csak jóváhagyás után.
             if review.MODE == "post":
                 art["status"] = "published"
                 art["live"] = True
@@ -1806,6 +1806,9 @@ def parse_args(argv: Optional[list] = None) -> argparse.Namespace:
     p.add_argument("--provider", choices=["auto", "anthropic", "gemini", "openai", "mock"], help="AI_PROVIDER felülírása")
     p.add_argument("--only", choices=["horoscope", "retro", "sections"], help="Csak az egyik modul futtatása")
     p.add_argument("--dry-run", action="store_true", help="Nem ír fájlt, csak a kimenetet mutatja")
+    p.add_argument("--if-due", action="store_true",
+                   help="Gyakori (5 perces) futáshoz: rovatcikkek csak SECTIONS_EVERY_MIN percenként (6–22 óra között), "
+                        "horoszkóp/retro csak ha a mai még nincs meg")
     p.add_argument("-v", "--verbose", action="store_true")
     return p.parse_args(argv)
 
@@ -1825,13 +1828,28 @@ def main(argv: Optional[list] = None) -> int:
 
     ai = AIClient(cfg)
     exit_code = 0
+    wrote = False
+
+    # --if-due: a robot 5 percenként fut (Telegram), de új rovatcikk csak kb. kétóránként készül
+    runs_path = BASE_DIR / "data" / "robot.json"
+    runs = read_json(runs_path, {})
+    now = datetime.now(tz)
+    sections_due = True
+    if args.if_due:
+        every = int(os.getenv("SECTIONS_EVERY_MIN", "110"))
+        last = runs.get("last_sections")
+        try:
+            since = (now - datetime.fromisoformat(last)).total_seconds() / 60 if last else 1e9
+        except ValueError:
+            since = 1e9
+        sections_due = since >= every and 6 <= now.hour <= 22
 
     force = os.getenv("FORCE_REGENERATE", "false").lower() in ("1", "true", "yes")
     # Ami egyszer kikerült, az nem változik: a mai horoszkóp/retro cikk csak akkor készül, ha még nincs
     # (vagy ha csak AI nélküli tartalék-tartalom van). FORCE_REGENERATE=true felülírja.
     existing_h = read_json(cfg.output_dir / "horoscope.json", {})
     skip_h = (not force and existing_h.get("date") == target.isoformat()
-              and str(existing_h.get("source", "")).startswith("ai:"))
+              and (str(existing_h.get("source", "")).startswith("ai:") or not sections_due))
     if skip_h:
         log.info("A mai horoszkóp már kint van – nem generálom újra.")
     if args.only in (None, "horoscope") and not skip_h:
@@ -1841,6 +1859,7 @@ def main(argv: Optional[list] = None) -> int:
                 print(json.dumps(horoscope, ensure_ascii=False, indent=2)[:3000])
             else:
                 write_json_atomic(cfg.output_dir / "horoscope.json", horoscope)
+                wrote = True
                 log.info("✔ horoscope.json mentve (%s)", horoscope["source"])
         except OSError as e:
             log.exception("horoscope.json írása sikertelen: %s", e)
@@ -1848,7 +1867,8 @@ def main(argv: Optional[list] = None) -> int:
 
     existing_r = read_json(cfg.output_dir / "retro_articles.json", {"articles": []}).get("articles", [])
     skip_r = not force and any(a.get("date") == target.isoformat() and a.get("status") == "published"
-                               and str(a.get("generator", "")).startswith("ai:") for a in existing_r)
+                               and (str(a.get("generator", "")).startswith("ai:") or not sections_due)
+                               for a in existing_r)
     if skip_r:
         log.info("A mai retro cikk már kint van – nem generálom újra.")
     if args.only in (None, "retro") and not skip_r:
@@ -1861,20 +1881,26 @@ def main(argv: Optional[list] = None) -> int:
                     print(json.dumps(article, ensure_ascii=False, indent=2)[:3000])
                 else:
                     write_json_atomic(path, archive)
+                    wrote = True
                     log.info("✔ retro_articles.json mentve: \"%s\" (%s perc, %s, %s)",
                              article["title"], article["reading_time_min"], article["generator"], article["status"])
         except OSError as e:
             log.exception("retro_articles.json írása sikertelen: %s", e)
             exit_code = 1
 
-    if args.only in (None, "sections"):
+    if args.only in (None, "sections") and sections_due:
         try:
             run_sections(ai, target, tz, cfg.output_dir, args.dry_run)
+            wrote = True
         except OSError as e:
             log.exception("articles.json írása sikertelen: %s", e)
             exit_code = 1
+        if args.if_due and not args.dry_run:
+            write_json_atomic(runs_path, {**runs, "last_sections": now.isoformat(timespec="seconds")})
+    elif args.if_due:
+        log.info("Új rovatcikk most nem esedékes.")
 
-    if not args.dry_run:
+    if not args.dry_run and (wrote or not args.if_due):
         try:
             build_static_site(cfg.output_dir, tz)
         except (OSError, KeyError, TypeError, ValueError) as e:
