@@ -154,6 +154,9 @@ def _control(art: dict) -> tuple:
                  {"text": "🗑 Törlés" if live else "🗑 Elvetem", "callback_data": f"{sid}|no"}])
     img_txt = f"{ii + 1}. kép" if ii >= 0 and imgs else "nincs kép"
     auto = f"\nHa nem döntesz, {AUTO_PUBLISH_MIN} perc múlva magától kikerül." if MODE == "hybrid" else ""
+    if art.get("schedule") and MODE == "hybrid":
+        dl = str(art["schedule"].get("deadline", ""))[11:16]
+        auto = f"\n🗓 Saját anyag: ha nem döntesz, egy csendesebb időszakban kerül ki (legkésőbb {dl})."
     state = (f"🟢 <b>Kint van</b> – {kc.SITE_URL}{art.get('url', '')}\nA cím- és képcsere 1–2 percen belül él."
              if live else "⏳ <b>Jóváhagyásra vár</b> – válaszd ki a címet és a képet, majd: ✅ Kirakom." + auto)
     text = (f"{state}\n{E(kc.SECTIONS.get(art['category'], {}).get('name', art['category']))}\n"
@@ -168,7 +171,8 @@ def send_article(_out_dir: Optional[Path], art: dict) -> None:
         return
     sec = kc.SECTIONS.get(art["category"], {}).get("name", art["category"])
     titles = art.get("title_options") or [art["title"]]
-    head = (f"{'🟢 KINT VAN' if art.get('live') else '🆕 ÚJ'} · <b>{E(sec)}</b> · forróság {art.get('hot_score', 0)} · {len(art.get('sources', []))} forrás · "
+    kind = "🟢 KINT VAN" if art.get("live") else ("🗓 SAJÁT (időzített)" if art.get("offtopic") else "🆕 ÚJ")
+    head = (f"{kind} · <b>{E(sec)}</b> · forróság {art.get('hot_score', 0)} · {len(art.get('sources', []))} forrás · "
             f"{art.get('reading_time_min', 1)} perc\n\n<b>Címjavaslatok</b>\n"
             + "\n".join(f"{i + 1}) {E(t)}" for i, t in enumerate(titles))
             + f"\n\n<i>{E(art.get('lead'))}</i>")
@@ -230,7 +234,7 @@ def publish(art: dict, tz: ZoneInfo) -> dict:
     art.update({"status": "published", "published_at": now_iso, "created_at": now_iso, "updated_at": now_iso})
     art["authorship"]["reviewed_by"] = "szerkesztő (Telegram)"
     art["authorship"]["reviewed_at"] = now_iso
-    for k in ("title_options", "image_options", "story"):
+    for k in ("title_options", "image_options", "story", "offtopic_topic", "schedule"):
         art.pop(k, None)
     return art
 
@@ -304,6 +308,7 @@ HELP = ("Szia! Ide küldöm az új Kollektíva-cikkeket jóváhagyásra.\n\n"
         "• Cím 1–3 / Kép 1–4 / Nincs kép: csak kiválasztás (a ✓ jelzi, mi van kiválasztva)\n"
         "• ✅ Kirakom: azonnal kikerül az oldalra (1–2 perc)\n"
         f"• Ha {AUTO_PUBLISH_MIN} percen belül nem döntesz, magától kikerül\n"
+        "• 🗓 Saját (időzített) anyag: csendesebb időszakban kerül ki magától, legkésőbb este\n"
         "• Kint lévő cikknél (🟢): cím/kép csere, 🔁 Újraírás (ugyanazon a linken), 🗑 Törlés\n"
         "• ✅ Rendben: lezárom az ellenőrzést\n"
         "• Saját cím: válaszolj (reply) a cikk üzenetére a címmel\n• /lista – függő és kint lévő cikkek")
@@ -418,14 +423,24 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": note})
     # automatikus kirakás, ha AUTO_PUBLISH_MIN percen belül nem jött döntés
     if MODE == "hybrid":
-        for a in [a for a in pending if not a.get("live") and _age_min(a) >= AUTO_PUBLISH_MIN]:
+        import offtopic
+        now_local = datetime.now(tz)
+        live_articles = kc.read_json(out_dir / "articles.json", {"articles": []}).get("articles", [])
+        for a in [a for a in pending if not a.get("live")]:
+            if a.get("schedule"):
+                if not offtopic.is_due(a, live_articles, now_local):
+                    continue
+                msg = "🗓 Csendesebb időszak van, ezért kiraktam a saját anyagot."
+            elif _age_min(a) >= AUTO_PUBLISH_MIN:
+                msg = f"⏱ Nem jött döntés {AUTO_PUBLISH_MIN} percen belül, ezért kiraktam."
+            else:
+                continue
             _go_live(out_dir, a, tz, auto=True)
             published += 1
             changed = True
             _refresh_control(st["chat_id"], a)
             tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": a["review"].get("control_id"),
-                               "text": f"⏱ Nem jött döntés {AUTO_PUBLISH_MIN} percen belül, ezért kiraktam. "
-                                       "Utólag még cserélheted a címet/képet, vagy törölheted."})
+                               "text": msg + " Utólag még cserélheted a címet/képet, vagy törölheted."})
     # lejárt függő cikkek
     limit = (datetime.now(tz) - timedelta(hours=PENDING_MAX_AGE_H)).isoformat()
     for a in [a for a in pending if (a.get("created_at") or "") < limit and (a.get("live") or MODE != "hybrid")]:
@@ -444,6 +459,13 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
 def _rewrite(art: dict, ai, tz: ZoneInfo) -> Optional[dict]:
     if ai is None:
         ai = kc.AIClient(kc.Config.from_env())
+    if ai.enabled and art.get("offtopic_topic"):  # saját anyag: ugyanarról a témáról új változat
+        import offtopic
+        new = offtopic.build_article(ai, art["offtopic_topic"], date.fromisoformat(art["date"]), tz,
+                                     {im["url"] for im in art.get("image_options") or []})
+        if new and art.get("schedule"):
+            new["schedule"] = art["schedule"]
+        return new
     if not ai.enabled or not art.get("story"):
         return None
     story = [dict(s, kw=kc._keywords(s["title"] + " " + (s.get("summary") or "")[:200])) for s in art["story"]]
