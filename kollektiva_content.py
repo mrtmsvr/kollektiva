@@ -1446,7 +1446,13 @@ def same_story(a: dict, b: dict) -> bool:
     return shared >= 3 and sim >= 0.35
 
 
-def fetch_article_text(url: str, timeout: int, limit: int = 2500) -> str:
+def related_story(a: dict, b: dict) -> bool:
+    """Kapcsolódó (de nem ugyanaz) esemény más laptól: külön bekezdésben említhető."""
+    shared = len(a["kw"] & b["kw"])
+    return a["source"] != b["source"] and shared >= 2 and shared / max(1, min(len(a["kw"]), len(b["kw"]))) >= 0.2
+
+
+def fetch_article_text(url: str, timeout: int, limit: int = 4000) -> str:
     """A forráscikk bekezdései (csak háttérnek a tényekhez – a szöveget nem vesszük át)."""
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; KollektivaBot/1.0)",
                                                "Accept": "text/html"})
@@ -1513,7 +1519,9 @@ def pick_story(section: dict, used_links: set, now: datetime, timeout: int, max_
     scored = []
     for it in items:
         group = [it] + [o for o in items if o is not it and same_story(it, o)]
-        publishers = {g["source"] for g in group}
+        group += [dict(o, related=True) for o in items
+                  if o is not it and o not in group and related_story(it, o)][:2]
+        publishers = {g["source"] for g in group if not g.get("related")}
         fresh = 1.0 if it["published"] and (now - it["published"]).total_seconds() < 12 * 3600 else 0.0
         score = len(publishers) * 3 + len(group) + fresh + min(len(it["summary"]), 400) / 400
         scored.append((score, group))
@@ -1523,7 +1531,7 @@ def pick_story(section: dict, used_links: set, now: datetime, timeout: int, max_
         if group[0]["link"] in taken:
             continue
         taken.update(g["link"] for g in group)
-        group = [dict(g) for g in group[:4]]
+        group = [dict(g) for g in group[:5]]
         group[0]["hot_score"] = round(score, 2)
         out.append(group)
         if len(out) >= limit:
@@ -1532,7 +1540,7 @@ def pick_story(section: dict, used_links: set, now: datetime, timeout: int, max_
 
 
 def section_prompt(section: dict, story: list, d: date, context: Optional[list] = None) -> str:
-    src = "\n\n".join(f"[{i + 1}] {s['source']} – {s['title']}\n{s['summary']}"
+    src = "\n\n".join(f"[{i + 1}]{' [KAPCSOLÓDÓ]' if s.get('related') else ''} {s['source']} – {s['title']}\n{s['summary']}"
                       + (f"\nRészletek a cikkből:\n{s['fulltext']}" if s.get("fulltext") else "")
                       for i, s in enumerate(story))
     bg = "\n".join(f"- {c}" for c in (context or []))
@@ -1542,15 +1550,18 @@ def section_prompt(section: dict, story: list, d: date, context: Optional[list] 
 Forráskivonatok:
 {src}
 {bg_block}
-EGY CIKK = EGY TÉMA: az [1]-es forrás eseményéről írj. A többi forrást csak akkor használd, ha ugyanarról az
-eseményről szól; ha más ügyről szól, hagyd figyelmen kívül (ne mosd össze a különböző ügyeket).
+FŐ TÉMA az [1]-es forrás eseménye. A [KAPCSOLÓDÓ] jelű források másik, de összefüggő eseményről szólnak: ha tényleg
+tágítják a képet, külön bekezdés(ek)ben, egyértelmű átvezetéssel említsd őket („Közben…”, „Egy másik ügyben…”),
+de a tényeiket SOHA ne keverd a fő eseményével. Ha nem illenek, hagyd ki őket.
 
 Írj ebből egy eredeti, magyar nyelvű magazincikket:
 - "title": RÖVID (max. 7 szó), közepesen clickbait cím: kíváncsiságot keltő fordulat, meglepő szám vagy kérdés
   (pl. „Ezért drágul…”, „Kiderült, mi…”, „X forintot…”) – de legyen igaz, ne ijesztgessen és ne túlozzon
 - "lead": 2 mondatos bevezető: mi történt és miért fontos
 - "key_points": 3 rövid, egymondatos pont a lényegről („Röviden” doboz)
-- "body": 3–6 bekezdés (tömb), összesen kb. 250–600 szó (annyi, amennyi tény van): a tények, a háttér, és hogy mit jelent ez a
+- "body": 6–9 bekezdés (tömb), összesen kb. 600–900 szó (3–5 perc olvasás); ha a forrásokban kevés a tény,
+  inkább 400–500 szó legyen, mint töltelék. Tartalom: a tények részletesen, előzmények és háttér (ki kicsoda,
+  mi történt korábban), számok és összefüggések, eltérő álláspontok, és hogy mit jelent ez a
   hétköznapi olvasónak. Az első bekezdésben egy teljes mondatba építve nevezd meg a forrást
   (pl. „A Telex beszámolója szerint …”) – ne külön sorban.
   Ha személy szerepel, első említéskor egy rövid jelzővel mutasd be, ki ő (pl. „Kovács Anna, az MNB
@@ -1576,7 +1587,7 @@ Kizárólag ezt a JSON-t add vissza:
 def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, story: list,
                           avoid_images: Optional[set] = None) -> Optional[dict]:
     now = datetime.now(tz)
-    for s in story[:3]:
+    for s in story[:4]:
         s["fulltext"] = fetch_article_text(s["link"], ai.cfg.http_timeout)
     try:
         context = wiki_context(story, ai.cfg.http_timeout)
@@ -1621,7 +1632,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         "authorship": {"mode": "ai_generated", "byline": "Kollektíva szerkesztőség", "model": ai.label.split(":", 2)[-1],
                        "prompt_version": "section-v2", "reviewed_by": None, "reviewed_at": None},
         "hot_score": story[0].get("hot_score", 0),
-        "category_meta": {"source_links": [s["link"] for s in story]},
+        "category_meta": {"source_links": [s["link"] for s in story if not s.get("related")]},
         "date": d.isoformat(), "date_label": f"{HU_MONTHS[d.month - 1]} {d.day}.",
         "url": f"/{section['id']}/{slug}/",
         "seo": {"meta_title": art["title"][:60], "meta_description": art["lead"][:160],
