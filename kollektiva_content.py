@@ -1149,7 +1149,7 @@ def _article_jsonld(a: dict) -> str:
         "inLanguage": "hu-HU",
         "mainEntityOfPage": {"@type": "WebPage", "@id": url},
         "url": url,
-        "articleSection": "Retro",
+        "articleSection": SECTIONS.get(a.get("category"), {}).get("name", "Retro"),
         "keywords": ", ".join(a.get("tags", [])),
         "author": {"@type": "Organization", "name": a["authorship"]["byline"], "url": SITE_URL},
         "publisher": {"@type": "Organization", "name": SITE_NAME, "url": SITE_URL},
