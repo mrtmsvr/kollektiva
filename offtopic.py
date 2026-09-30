@@ -116,9 +116,12 @@ Háttéranyag (csak ebből és közismert tudásból dolgozz; angol anyagot magy
 - "image_query": 1–4 szavas ANGOL keresőkifejezés a Wikimedia Commonshoz (konkrét, fotózható tárgy/hely/jelenség)
 - "image_query_alt": 1–2 további angol keresőkifejezés
 - "image_generic": 1–2 szavas ANGOL, egyszerű hangulatkép-téma
+- "inline_images": 1–2 szövegközi kép, ha a cikk konkrét, fotózható dolgot mutat be (tárgy, hely, jelenség, eszköz,
+  személy), ami nem a főkép témája: {{"after": bekezdés sorszáma (0-tól), "query": pontos angol név a Wikimedia
+  Commonshoz, "caption": rövid magyar képaláírás}}. Ha nincs ilyen, üres tömb.
 
 Kizárólag ezt a JSON-t add vissza:
-{{"title": "...", "title_options": ["...", "..."], "lead": "...", "key_points": ["..."], "body": ["..."], "tags": ["..."], "image_query": "...", "image_query_alt": ["..."], "image_generic": "..."}}"""
+{{"title": "...", "title_options": ["...", "..."], "lead": "...", "key_points": ["..."], "body": ["..."], "tags": ["..."], "image_query": "...", "image_query_alt": ["..."], "image_generic": "...", "inline_images": []}}"""
 
 
 def build_article(ai: "kc.AIClient", topic: dict, d: date, tz: ZoneInfo, avoid_images: Optional[set] = None,
@@ -144,6 +147,8 @@ def build_article(ai: "kc.AIClient", topic: dict, d: date, tz: ZoneInfo, avoid_i
     image_options = kc.find_images([raw.get("image_query"), *(raw.get("image_query_alt") or []), *topic.get("images", [])][:4],
                                    generic if isinstance(generic, list) else [generic], ai.cfg.http_timeout, avoid_images)
     image = image_options[0] if image_options else None
+    inline_images = kc.find_inline_images(raw, len(art["body"]), ai.cfg.http_timeout,
+                                          (avoid_images or set()) | {im["url"] for im in image_options})
     title_options = [art["title"]] + [str(t).strip() for t in (raw.get("title_options") or [])
                                       if str(t).strip() and str(t).strip() != art["title"]]
     now_iso = datetime.now(tz).isoformat(timespec="seconds")
@@ -159,7 +164,7 @@ def build_article(ai: "kc.AIClient", topic: dict, d: date, tz: ZoneInfo, avoid_i
         "key_points": [str(k).strip() for k in (raw.get("key_points") or []) if str(k).strip()][:5],
         "content": kc.to_markdown(art), "content_format": "markdown", "body": art["body"], "pull_quote": None,
         "reading_time_min": kc.reading_time(full_text), "word_count": len(re.findall(r"\w+", full_text)),
-        "locale": "hu-HU", "hero_image": image, "sources": srcs,
+        "locale": "hu-HU", "hero_image": image, "inline_images": inline_images, "sources": srcs,
         "authorship": {"mode": "ai_generated", "byline": "Kollektíva szerkesztőség", "model": ai.label.split(":", 2)[-1],
                        "prompt_version": "offtopic-v1", "reviewed_by": None, "reviewed_at": None},
         "hot_score": 0, "offtopic": True, "offtopic_topic": topic,
