@@ -97,6 +97,7 @@ def gather(topic: dict, timeout: int) -> list:
 def offtopic_prompt(topic: dict, section: dict, sources: list, d: date) -> str:
     src = "\n\n".join(f"[{i + 1}] Wikipédia ({s['lang']}) – {s['title']}\n{s['text']}" for i, s in enumerate(sources))
     return f"""Rovat: {section['name']} ({section['focus']}). Dátum: {kc.hu_date(d)}.
+A rovat hangja: {section.get('voice', 'természetes, újságírói')}.
 Téma: {topic['topic']}
 Szög / amire az olvasó kíváncsi: {topic.get('angle', '')}
 
