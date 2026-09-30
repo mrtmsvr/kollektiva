@@ -207,9 +207,9 @@
       "live": true
     },
     {
-      "id": "980ed1a2-efc3-5781-bf27-49753acf0bf9",
-      "slug": "2026-09-30-szuperintelligenciara-keresztelte-at-az-elnok-az-ai-t",
-      "status": "pending",
+      "id": "5a8309fe-1b25-5c29-8f18-e172d3345019",
+      "slug": "2026-09-30-uj-nevet-kapott-a-mesterseges-intelligencia-a-feher-hazban",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -219,7 +219,7 @@
         "technológia",
         "szuperintelligencia"
       ],
-      "title": "Szuperintelligenciára keresztelte át az elnök az AI-t",
+      "title": "Új nevet kapott a mesterséges intelligencia a Fehér Házban",
       "subtitle": null,
       "lead": "Donald Trump amerikai elnök egy egyoldalas, önkéntes megállapodást írt alá a legnagyobb technológiai cégek vezetőivel a mesterséges intelligencia belső ellenőrzéséről. Ezzel párhuzamosan a szövetségi közigazgatásban hivatalosan szuperintelligenciára cserélték a korábbi elnevezést.",
       "key_points": [
@@ -337,11 +337,11 @@
       },
       "date": "2026-09-30",
       "date_label": "szeptember 30.",
-      "url": "/tech/2026-09-30-szuperintelligenciara-keresztelte-at-az-elnok-az-ai-t/",
+      "url": "/tech/2026-09-30-uj-nevet-kapott-a-mesterseges-intelligencia-a-feher-hazban/",
       "seo": {
-        "meta_title": "Szuperintelligenciára keresztelte át az elnök az AI-t",
+        "meta_title": "Új nevet kapott a mesterséges intelligencia a Fehér Házban",
         "meta_description": "Donald Trump amerikai elnök egy egyoldalas, önkéntes megállapodást írt alá a legnagyobb technológiai cégek vezetőivel a mesterséges intelligencia belső ellenőrz",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-09-30-szuperintelligenciara-keresztelte-at-az-elnok-az-ai-t/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-09-30-uj-nevet-kapott-a-mesterseges-intelligencia-a-feher-hazban/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -367,9 +367,9 @@
       "dedupe_hash": "a4497879f6f7b14f1cd5d6f093fb5748a1af3a9d5fe933230b0bed8d16bfddbf",
       "pipeline_run_id": "36750577225",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T19:21:29+02:00",
-      "updated_at": "2026-09-30T19:21:29+02:00",
-      "published_at": "2026-09-30T19:21:29+02:00",
+      "created_at": "2026-09-30T19:28:58+02:00",
+      "updated_at": "2026-09-30T19:28:58+02:00",
+      "published_at": "2026-09-30T19:28:58+02:00",
       "expires_at": null,
       "review": {
         "title": 1,
@@ -384,7 +384,8 @@
           193
         ],
         "control_id": 194
-      }
+      },
+      "live": true
     },
     {
       "id": "04722ed7-aec9-529a-ab79-9d1bd1cb042a",
