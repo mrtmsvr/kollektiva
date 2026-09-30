@@ -3,7 +3,7 @@
     {
       "id": "1ab27d1e-c67c-5f36-974f-37c01caf7ea6",
       "slug": "2026-09-30-harom-eve-nem-latott-kulkereskedelmi-hiany-jott-ossze-magyarorszagon",
-      "status": "pending",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -165,9 +165,9 @@
       "dedupe_hash": "7779f25bc4dad045d178f7a6375cf3e19fed6a5b5e64ad1c8bea38f764f6cc0d",
       "pipeline_run_id": "36690486430",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T10:34:03+02:00",
-      "updated_at": "2026-09-30T10:34:03+02:00",
-      "published_at": "2026-09-30T10:34:03+02:00",
+      "created_at": "2026-09-30T13:31:18+02:00",
+      "updated_at": "2026-09-30T13:31:18+02:00",
+      "published_at": "2026-09-30T13:31:18+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -182,12 +182,13 @@
           9
         ],
         "control_id": 10
-      }
+      },
+      "live": true
     },
     {
-      "id": "e9458f5c-1794-58d4-972f-38605fcee30f",
-      "slug": "2026-09-30-mi-rejtozik-az-urkutatas-mindennapjai-mogott",
-      "status": "pending",
+      "id": "de2f4597-1b3b-51b4-b882-20dcc7a5cd6d",
+      "slug": "2026-09-30-rengeteg-kuldetest-keszit-elo-a-nasa",
+      "status": "published",
       "category": "univerzum",
       "subcategory": null,
       "tags": [
@@ -196,7 +197,7 @@
         "csillagászat",
         "SpaceX"
       ],
-      "title": "Mi rejtőzik az űrkutatás mindennapjai mögött?",
+      "title": "Rengeteg küldetést készít elő a NASA",
       "subtitle": null,
       "lead": "A NASA folyamatosan frissülő missziói és kutatásai képet adnak a jövő űrrepülési terveiről. Az ügynökség egyszerre készít elő emberes küldetéseket, bolygókutató egységeket és csillagászati mérföldköveket.",
       "key_points": [
@@ -313,11 +314,11 @@
       },
       "date": "2026-09-30",
       "date_label": "szeptember 30.",
-      "url": "/univerzum/2026-09-30-mi-rejtozik-az-urkutatas-mindennapjai-mogott/",
+      "url": "/univerzum/2026-09-30-rengeteg-kuldetest-keszit-elo-a-nasa/",
       "seo": {
-        "meta_title": "Mi rejtőzik az űrkutatás mindennapjai mögött?",
+        "meta_title": "Rengeteg küldetést készít elő a NASA",
         "meta_description": "A NASA folyamatosan frissülő missziói és kutatásai képet adnak a jövő űrrepülési terveiről. Az ügynökség egyszerre készít elő emberes küldetéseket, bolygókutató",
-        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-09-30-mi-rejtozik-az-urkutatas-mindennapjai-mogott/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-09-30-rengeteg-kuldetest-keszit-elo-a-nasa/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg/1280px-Katherine_Johnson_at_NASA%2C_in_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -333,9 +334,9 @@
       "dedupe_hash": "0dc84ff34cd9b91224e1ae1b300906fe4cb2d1f57f774e8b608f722bb6904440",
       "pipeline_run_id": "36690486430",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T10:35:01+02:00",
-      "updated_at": "2026-09-30T10:35:01+02:00",
-      "published_at": "2026-09-30T10:35:01+02:00",
+      "created_at": "2026-09-30T13:31:18+02:00",
+      "updated_at": "2026-09-30T13:31:18+02:00",
+      "published_at": "2026-09-30T13:31:18+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -351,12 +352,13 @@
         ],
         "control_id": 17,
         "custom_title": "Rengeteg küldetést készít elő a NASA"
-      }
+      },
+      "live": true
     },
     {
       "id": "cc6c3523-8ed9-5c18-9bdf-449758e52922",
       "slug": "2026-09-30-elindult-a-fidesz-uj-online-platformja",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -503,9 +505,9 @@
       "dedupe_hash": "2feb8961a777c9ddfd3166225f51086eab2917dfd3c749cb71433c1403d5f3af",
       "pipeline_run_id": "36690486430",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T10:35:41+02:00",
-      "updated_at": "2026-09-30T10:35:41+02:00",
-      "published_at": "2026-09-30T10:35:41+02:00",
+      "created_at": "2026-09-30T13:31:19+02:00",
+      "updated_at": "2026-09-30T13:31:19+02:00",
+      "published_at": "2026-09-30T13:31:19+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -520,12 +522,13 @@
           23
         ],
         "control_id": 24
-      }
+      },
+      "live": true
     },
     {
       "id": "8055701a-2ee0-5fbd-b9e6-15acf26a5bb2",
       "slug": "2026-09-30-mrns-koktellal-tuntettek-el-a-hasnyalmirigyrakot",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -674,9 +677,9 @@
       "dedupe_hash": "1bc8722d6f2a123a48686d23722988149231ff141e44733a10ba2d5ef26894e7",
       "pipeline_run_id": "36690486430",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T10:36:43+02:00",
-      "updated_at": "2026-09-30T10:36:43+02:00",
-      "published_at": "2026-09-30T10:36:43+02:00",
+      "created_at": "2026-09-30T13:31:20+02:00",
+      "updated_at": "2026-09-30T13:31:20+02:00",
+      "published_at": "2026-09-30T13:31:20+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -691,12 +694,13 @@
           30
         ],
         "control_id": 31
-      }
+      },
+      "live": true
     },
     {
       "id": "f56b9961-0ced-5cf9-960d-6a0cdd4b02b1",
       "slug": "2026-09-30-11-milliardos-vesztegetesi-gyanu-letartoztattak-sesztak-miklost",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -889,9 +893,9 @@
       "dedupe_hash": "58bb7362adc8372cf6683c3991e4bba2bc22688976666eb35b17043310ebb64f",
       "pipeline_run_id": "36702983852",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T12:31:58+02:00",
-      "updated_at": "2026-09-30T12:31:58+02:00",
-      "published_at": "2026-09-30T12:31:58+02:00",
+      "created_at": "2026-09-30T13:31:21+02:00",
+      "updated_at": "2026-09-30T13:31:21+02:00",
+      "published_at": "2026-09-30T13:31:21+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -906,12 +910,13 @@
           43
         ],
         "control_id": 44
-      }
+      },
+      "live": true
     },
     {
       "id": "78c1fa2a-0292-57d8-aff3-2c04a922a467",
       "slug": "2026-09-30-meghosszabbitottak-a-moszkvai-dizelexport-tilalmat",
-      "status": "pending",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -1073,9 +1078,9 @@
       "dedupe_hash": "1c959a1e55ecd77a646d3e059f205ec6a29a81a538987af218dc6355d3e8e879",
       "pipeline_run_id": "36702983852",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T12:32:48+02:00",
-      "updated_at": "2026-09-30T12:32:48+02:00",
-      "published_at": "2026-09-30T12:32:48+02:00",
+      "created_at": "2026-09-30T13:31:22+02:00",
+      "updated_at": "2026-09-30T13:31:22+02:00",
+      "published_at": "2026-09-30T13:31:22+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -1086,12 +1091,13 @@
           46
         ],
         "control_id": 51
-      }
+      },
+      "live": true
     },
     {
       "id": "702fff07-1b46-5e60-8dec-83b605d8a922",
       "slug": "2026-09-30-osszeverekedtek-a-pilotak-egy-utasszallito-repulogep-fedelzeten",
-      "status": "pending",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -1255,9 +1261,9 @@
       "dedupe_hash": "e4a93b40675f4e52b5d422839d81e5c67309e8d0c857963dd4288dce5d4e7b6b",
       "pipeline_run_id": "36702983852",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T12:33:40+02:00",
-      "updated_at": "2026-09-30T12:33:40+02:00",
-      "published_at": "2026-09-30T12:33:40+02:00",
+      "created_at": "2026-09-30T13:31:23+02:00",
+      "updated_at": "2026-09-30T13:31:23+02:00",
+      "published_at": "2026-09-30T13:31:23+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -1272,12 +1278,13 @@
           57
         ],
         "control_id": 58
-      }
+      },
+      "live": true
     },
     {
       "id": "76aa7bea-38a6-5c29-a4b8-dc264de7a68e",
       "slug": "2026-09-30-huszmillio-forintot-is-bukhat-aki-bizik-a-telefonos-csalokban",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -1426,9 +1433,9 @@
       "dedupe_hash": "064763d7c7a5c3132311a77a26dacd901681cd1ccc3968cca6b90ae6617d346e",
       "pipeline_run_id": "36702983852",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T12:34:14+02:00",
-      "updated_at": "2026-09-30T12:34:14+02:00",
-      "published_at": "2026-09-30T12:34:14+02:00",
+      "created_at": "2026-09-30T13:31:16+02:00",
+      "updated_at": "2026-09-30T13:31:16+02:00",
+      "published_at": "2026-09-30T13:31:16+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -1443,7 +1450,8 @@
           64
         ],
         "control_id": 65
-      }
+      },
+      "live": true
     }
   ]
 }

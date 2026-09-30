@@ -1,7 +1,809 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T09:27:45+02:00",
+  "updated_at": "2026-09-30T13:31:23+02:00",
   "articles": [
+    {
+      "id": "702fff07-1b46-5e60-8dec-83b605d8a922",
+      "slug": "2026-09-30-osszeverekedtek-a-pilotak-egy-utasszallito-repulogep-fedelzeten",
+      "status": "published",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Flydubai",
+        "kényszerleszállás",
+        "Szaúd-Arábia",
+        "Izrael",
+        "légi közlekedés"
+      ],
+      "title": "Összeverekedtek a pilóták egy utasszállító repülőgép fedélzetén",
+      "subtitle": null,
+      "lead": "Kényszerleszállást hajtott végre Szaúd-Arábiában egy Dubajból Tel-Avivba tartó utasszállító repülőgép, miután a pilóták összeverekedtek a levegőben. A fedélzeten mintegy 180 utas tartózkodott, a gép pedig az incidens során több vészjelzést is leadott.",
+      "key_points": [
+        "A Flydubai járata Dubajból tartott Tel-Avivba, fedélzetén 174 utassal.",
+        "A pilóták verekedése miatt a gép Szaúd-Arábiában, a tabuki repülőtéren szállt le.",
+        "A járat először általános vészjelzést, majd gépeltérítésre utaló kódot adott le.",
+        "Benjámin Netanjahu izraeli miniszterelnök és Jiszráel Kac védelmi miniszter azonnali biztonsági egyeztetést tartott."
+      ],
+      "content": "Vészjelzést adott le szerdán egy Dubajból Tel-Avivba tartó utasszállító repülőgép, amelynek fedélzetén 174 utas – köztük 27 gyermek – utazott. A Flydubai légitársaság járata először az általános vészhelyzetet jelző 7700-as kódot forgalmazta, majd ezt röviddel később 7500-asra módosította, amely a repülésbiztonsági szabályok szerint jogellenes beavatkozást vagy gépeltérítést jelent. A repüléskövetési adatok tanúsága szerint a gép eközben mindössze két perc alatt tízezer méterről ötezer méterre süllyedt, és Jordánia közelében megváltoztatta az útvonalát.\n\nA repülőgép végül Szaúd-Arábia északnyugati részén, a tabuki repülőtéren hajtott végre kényszerleszállást. Izraeli biztonsági források és katonai rádiójelentések szerint az esetet a pilóták közötti tettlegesség okozta: egy ukrán és egy orosz pilóta esett egymásnak a fülkében. A dulakodás közben tévedésből aktiválták a vészjelzőt, és percekig a légiforgalmi irányítás hívásaira sem reagáltak.\n\nA történtek miatt a térségbe az izraeli légierő vadászgépeit is riasztották, Benjámin Netanjahu miniszterelnök és Jiszráel Kac védelmi miniszter pedig azonnali biztonsági konzultációt tartott. Egy magas rangú izraeli tisztviselő közölte, hogy a másodpilóta ellen nyomozás indult, mert vizsgálják, megpróbált-e szándékosan kárt tenni a gépben. A helyzetet végül a fedélzeten tartózkodó, civil ruhás pilóták közbeavatkozásával sikerült stabilizálni.\n\nA miniszterelnöki hivatal tájékoztatása szerint minden szükséges intézkedést megtesznek, hogy az izraeli utasokat épségben hazajuttassák.",
+      "content_format": "markdown",
+      "body": [
+        "Vészjelzést adott le szerdán egy Dubajból Tel-Avivba tartó utasszállító repülőgép, amelynek fedélzetén 174 utas – köztük 27 gyermek – utazott. A Flydubai légitársaság járata először az általános vészhelyzetet jelző 7700-as kódot forgalmazta, majd ezt röviddel később 7500-asra módosította, amely a repülésbiztonsági szabályok szerint jogellenes beavatkozást vagy gépeltérítést jelent. A repüléskövetési adatok tanúsága szerint a gép eközben mindössze két perc alatt tízezer méterről ötezer méterre süllyedt, és Jordánia közelében megváltoztatta az útvonalát.",
+        "A repülőgép végül Szaúd-Arábia északnyugati részén, a tabuki repülőtéren hajtott végre kényszerleszállást. Izraeli biztonsági források és katonai rádiójelentések szerint az esetet a pilóták közötti tettlegesség okozta: egy ukrán és egy orosz pilóta esett egymásnak a fülkében. A dulakodás közben tévedésből aktiválták a vészjelzőt, és percekig a légiforgalmi irányítás hívásaira sem reagáltak.",
+        "A történtek miatt a térségbe az izraeli légierő vadászgépeit is riasztották, Benjámin Netanjahu miniszterelnök és Jiszráel Kac védelmi miniszter pedig azonnali biztonsági konzultációt tartott. Egy magas rangú izraeli tisztviselő közölte, hogy a másodpilóta ellen nyomozás indult, mert vizsgálják, megpróbált-e szándékosan kárt tenni a gépben. A helyzetet végül a fedélzeten tartózkodó, civil ruhás pilóták közbeavatkozásával sikerült stabilizálni.",
+        "A miniszterelnöki hivatal tájékoztatása szerint minden szükséges intézkedést megtesznek, hogy az izraeli utasokat épségben hazajuttassák."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 230,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/FlyDubai%2C_A6-FMB%2C_Boeing_737-8_MAX_%2830728990597%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "FlyDubai, A6-FMB, Boeing 737-8 MAX",
+        "credit": "Anna Zvereva from Tallinn, Estonia / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:FlyDubai,_A6-FMB,_Boeing_737-8_MAX_(30728990597).jpg"
+      },
+      "sources": [
+        {
+          "url": "https://telex.hu/kulfold/2026/09/30/veszjelzes-dubaj-tel-aviv-repulogep-kenyszerleszallas-pilotak-verekedes",
+          "title": "Vészjelzést adott ki egy Dubajból Tel-Avivba tartó repülőgép, kiderült, hogy a pilóták verekedtek össze",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T12:33:40+02:00"
+        },
+        {
+          "url": "https://hvg.hu/vilag/20260930_osszeverekedett-ket-pilota-egy-dubajbol-tel-avivba-tarto-jaraton",
+          "title": "Összeverekedtek a pilóták, kényszerleszállást hajtott végre egy Dubajból Tel-Avivba tartó repülőjárat",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T12:33:40+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-09-30T13:31:23+02:00"
+      },
+      "hot_score": 9.29,
+      "category_meta": {
+        "source_links": [
+          "https://telex.hu/kulfold/2026/09/30/veszjelzes-dubaj-tel-aviv-repulogep-kenyszerleszallas-pilotak-verekedes",
+          "https://hvg.hu/vilag/20260930_osszeverekedett-ket-pilota-egy-dubajbol-tel-avivba-tarto-jaraton"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/vilag/2026-09-30-osszeverekedtek-a-pilotak-egy-utasszallito-repulogep-fedelzeten/",
+      "seo": {
+        "meta_title": "Összeverekedtek a pilóták egy utasszállító repülőgép fedélze",
+        "meta_description": "Kényszerleszállást hajtott végre Szaúd-Arábiában egy Dubajból Tel-Avivba tartó utasszállító repülőgép, miután a pilóták összeverekedtek a levegőben. A fedélzete",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-09-30-osszeverekedtek-a-pilotak-egy-utasszallito-repulogep-fedelzeten/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/FlyDubai%2C_A6-FMB%2C_Boeing_737-8_MAX_%2830728990597%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "e4a93b40675f4e52b5d422839d81e5c67309e8d0c857963dd4288dce5d4e7b6b",
+      "pipeline_run_id": "36702983852",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T13:31:23+02:00",
+      "updated_at": "2026-09-30T13:31:23+02:00",
+      "published_at": "2026-09-30T13:31:23+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "78c1fa2a-0292-57d8-aff3-2c04a922a467",
+      "slug": "2026-09-30-meghosszabbitottak-a-moszkvai-dizelexport-tilalmat",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "gazdaság",
+        "dízel",
+        "oroszország",
+        "exporttilalom",
+        "üzemanyag"
+      ],
+      "title": "Meghosszabbították a moszkvai dízelexport-tilalmat",
+      "subtitle": null,
+      "lead": "Az orosz kormány október végéig meghosszabbította a dízelolaj kivitelére vonatkozó tilalmat a belföldi piac stabilizálása érdekében. A lépés tovább szűkíti a globális kínálatot, ami különösen az európai piacot érinti érzékenyen.",
+      "key_points": [
+        "Moszkva október 31-ig meghosszabbította a dízelolaj exportjának tilalmát.",
+        "A döntést a finomítókat ért ukrán dróntámadások okozta kapacitáskiesés indokolja.",
+        "Az európai dízel finomítói marzsok történelmi magasságba emelkedtek."
+      ],
+      "content": "Az orosz kormány határozata alapján október 31-ig érvényben marad az egyes üzemanyagfajták – így a dízel és a hajózási üzemanyagok – kivitelének tilalma a gyártók számára. A TASZSZ hírügynökség beszámolója szerint a lépés célja a belföldi ellátás biztonságának megőrzése, különös tekintettel a mezőgazdasági betakarítási idény megnövekedett motorüzemanyag-igényére.\n\nA korlátozások hátterében az orosz finomítók elleni ukrán dróntámadások állnak. A Reuters üzemanyagpiaci adatai szerint a hat legnagyobb orosz dízeltermelő finomító közül három szeptemberben jelentősen visszafogta a termelését, vagy teljesen leállt a károk miatt. A termelőknél a dízel exporttilalma eddig szeptember végéig tartott, míg a nem termelők esetében a benzin- és dízelexport korlátozása 2027. január 31-ig érvényes.\n\nA globális piacon a kínálat szűkülése tovább nehezíti a helyzetet. Európa számára a fejlemény különösen kellemetlen, hiszen a finomítói marzsok már korábban történelmi magasságba emelkedtek. A helyzet súlyosságát jelzi, hogy szeptember közepén Donald Trump amerikai elnök is arra kérte Volodimir Zelenszkij ukrán elnököt, hogy mérsékelje az orosz üzemanyag-infrastruktúrát érő támadásokat.",
+      "content_format": "markdown",
+      "body": [
+        "Az orosz kormány határozata alapján október 31-ig érvényben marad az egyes üzemanyagfajták – így a dízel és a hajózási üzemanyagok – kivitelének tilalma a gyártók számára. A TASZSZ hírügynökség beszámolója szerint a lépés célja a belföldi ellátás biztonságának megőrzése, különös tekintettel a mezőgazdasági betakarítási idény megnövekedett motorüzemanyag-igényére.",
+        "A korlátozások hátterében az orosz finomítók elleni ukrán dróntámadások állnak. A Reuters üzemanyagpiaci adatai szerint a hat legnagyobb orosz dízeltermelő finomító közül három szeptemberben jelentősen visszafogta a termelését, vagy teljesen leállt a károk miatt. A termelőknél a dízel exporttilalma eddig szeptember végéig tartott, míg a nem termelők esetében a benzin- és dízelexport korlátozása 2027. január 31-ig érvényes.",
+        "A globális piacon a kínálat szűkülése tovább nehezíti a helyzetet. Európa számára a fejlemény különösen kellemetlen, hiszen a finomítói marzsok már korábban történelmi magasságba emelkedtek. A helyzet súlyosságát jelzi, hogy szeptember közepén Donald Trump amerikai elnök is arra kérte Volodimir Zelenszkij ukrán elnököt, hogy mérsékelje az orosz üzemanyag-infrastruktúrát érő támadásokat."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 186,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Anacortes_Refinery_31911.JPG/1280px-Anacortes_Refinery_31911.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 890,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Oil refinery#Anacortes Refinery (Tesoro Corporation), on the north end of March Point; Mount Baker (10,781 feet, 3286 meters); 2006 refinery capacity, 115,000 barrels per day; 917 acres, 350 employees",
+        "credit": "Walter Siegmund (talk) / Wikimedia Commons",
+        "license": "CC BY 2.5",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Anacortes_Refinery_31911.JPG"
+      },
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/global/20260930/dontott-moszkva-zarva-maradnak-a-dizelcsapok-egyre-sulyosabb-az-uzemanyagvalsag-866308",
+          "title": "Döntött Moszkva: zárva maradnak a dízelcsapok – egyre súlyosabb az üzemanyagválság",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T12:32:48+02:00"
+        },
+        {
+          "url": "https://telex.hu/gazdasag/2026/09/30/oroszorszag-egy-honappal-meghosszabbitotta-dizeluzemanyag-exporttilalmat",
+          "title": "Oroszország egy hónappal meghosszabbította a dízel exporttilalmát",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T12:32:48+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-09-30T13:31:22+02:00"
+      },
+      "hot_score": 10.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/global/20260930/dontott-moszkva-zarva-maradnak-a-dizelcsapok-egyre-sulyosabb-az-uzemanyagvalsag-866308",
+          "https://telex.hu/gazdasag/2026/09/30/oroszorszag-egy-honappal-meghosszabbitotta-dizeluzemanyag-exporttilalmat"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/penzvilag/2026-09-30-meghosszabbitottak-a-moszkvai-dizelexport-tilalmat/",
+      "seo": {
+        "meta_title": "Meghosszabbították a moszkvai dízelexport-tilalmat",
+        "meta_description": "Az orosz kormány október végéig meghosszabbította a dízelolaj kivitelére vonatkozó tilalmat a belföldi piac stabilizálása érdekében. A lépés tovább szűkíti a gl",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-09-30-meghosszabbitottak-a-moszkvai-dizelexport-tilalmat/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Anacortes_Refinery_31911.JPG/1280px-Anacortes_Refinery_31911.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "1c959a1e55ecd77a646d3e059f205ec6a29a81a538987af218dc6355d3e8e879",
+      "pipeline_run_id": "36702983852",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T13:31:22+02:00",
+      "updated_at": "2026-09-30T13:31:22+02:00",
+      "published_at": "2026-09-30T13:31:22+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "f56b9961-0ced-5cf9-960d-6a0cdd4b02b1",
+      "slug": "2026-09-30-11-milliardos-vesztegetesi-gyanu-letartoztattak-sesztak-miklost",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Seszták Miklós",
+        "letartóztatás",
+        "korrupció",
+        "Volánbusz",
+        "NVVH"
+      ],
+      "title": "11 milliárdos vesztegetési gyanú: letartóztatták Seszták Miklóst",
+      "subtitle": null,
+      "lead": "Harminc napra letartóztatta a bíróság Seszták Miklós KDNP-s országgyűlési képviselőt, a harmadik Orbán-kormány egykori nemzeti fejlesztési miniszterét. A politikust hivatali vesztegetés elfogadásával gyanúsítják egy nagyszabású, a Volánbuszhoz kapcsolódó korrupciós eljárásban.",
+      "key_points": [
+        "A Budai Központi Kerületi Bíróság 30 napra rendelte el Seszták Miklós letartóztatását.",
+        "A gyanú szerint 2014 és 2018 között több milliárd forintos kenőpénzt fogadhatott el.",
+        "Az ügyet a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal vizsgálja.",
+        "Egy másik ügyben Hankó Balázs letartóztatását is indítványozta az ügyészség."
+      ],
+      "content": "Elrendelte Seszták Miklós letartóztatását a Budai Központi Kerületi Bíróság nyomozási bírája a Fővárosi Törvényszék szerdai közlése szerint. A KDNP országgyűlési képviselőjét, volt nemzeti fejlesztési minisztert a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) hivatali vesztegetés elfogadásával és más bűncselekményekkel gyanúsítja. Az ügyészség szerint a politikus 2014 és 2018 közötti minisztersége alatt építési vállalkozóktól és a Volánbusz ügyein keresztül több milliárd forintos jogtalan előnyre tett szert, és a gyanúban szereplő kenőpénzek összege a 11 milliárd forintot is elérheti.\n\nA bíróság a letartóztatást a bizonyítási eljárás eredményességével indokolta, mivel a terhelt kommunikációjának teljes ellenőrzése nélkül a tanúk befolyásmentessége nem volt garantálható. A végzés nem végleges, a gyanúsított és védője fellebbezést jelentett be. Seszták Miklós korábban maga ment be a Központi Nyomozó Főügyészségre vallomást tenni, ahol az NVVH nyomozati elnökhelyettese, Tasnády Katalin őrizetbe vette, miután a parlament megszavazta a mentelmi jogának felfüggesztését. A KDNP-s politikus ártatlannak vallja magát, védelmében pedig kijelentette, hogy a gyanúsításban szereplő összegek értelmezhetetlenek számára.\n\nEgy másik fejlemény szerint a Bács-Kiskun Vármegyei Főügyészség kezdeményezte Hankó Balázs országgyűlési képviselő letartóztatását is a Nemzeti Kulturális Alappal összefüggő, hűtlen kezelés miatt folyamatban lévő nyomozásban. Az NKA ügyében a gyanú szerint 17,3 milliárd forint vagyoni hátrány érte a központi költségvetést a támogatások szabálytalan felhasználása miatt, a kecskeméti bíróság pedig csütörtökön dönt az indítványról.",
+      "content_format": "markdown",
+      "body": [
+        "Elrendelte Seszták Miklós letartóztatását a Budai Központi Kerületi Bíróság nyomozási bírája a Fővárosi Törvényszék szerdai közlése szerint. A KDNP országgyűlési képviselőjét, volt nemzeti fejlesztési minisztert a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) hivatali vesztegetés elfogadásával és más bűncselekményekkel gyanúsítja. Az ügyészség szerint a politikus 2014 és 2018 közötti minisztersége alatt építési vállalkozóktól és a Volánbusz ügyein keresztül több milliárd forintos jogtalan előnyre tett szert, és a gyanúban szereplő kenőpénzek összege a 11 milliárd forintot is elérheti.",
+        "A bíróság a letartóztatást a bizonyítási eljárás eredményességével indokolta, mivel a terhelt kommunikációjának teljes ellenőrzése nélkül a tanúk befolyásmentessége nem volt garantálható. A végzés nem végleges, a gyanúsított és védője fellebbezést jelentett be. Seszták Miklós korábban maga ment be a Központi Nyomozó Főügyészségre vallomást tenni, ahol az NVVH nyomozati elnökhelyettese, Tasnády Katalin őrizetbe vette, miután a parlament megszavazta a mentelmi jogának felfüggesztését. A KDNP-s politikus ártatlannak vallja magát, védelmében pedig kijelentette, hogy a gyanúsításban szereplő összegek értelmezhetetlenek számára.",
+        "Egy másik fejlemény szerint a Bács-Kiskun Vármegyei Főügyészség kezdeményezte Hankó Balázs országgyűlési képviselő letartóztatását is a Nemzeti Kulturális Alappal összefüggő, hűtlen kezelés miatt folyamatban lévő nyomozásban. Az NKA ügyében a gyanú szerint 17,3 milliárd forint vagyoni hátrány érte a központi költségvetést a támogatások szabálytalan felhasználása miatt, a kecskeméti bíróság pedig csütörtökön dönt az indítványról."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 243,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Seszt%C3%A1k_Mikl%C3%B3s_miniszter.jpg/1280px-Seszt%C3%A1k_Mikl%C3%B3s_miniszter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1803,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Seszták Miklós nemzeti fejlesztési miniszter",
+        "credit": "ismeretlen szerző / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Seszt%C3%A1k_Mikl%C3%B3s_miniszter.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://telex.hu/belfold/2026/09/30/sesztak-miklo-letartoztatas-volanbusz-ugy-nvvh-torvenyszek",
+          "title": "Elrendelte a bíróság Seszták Miklós letartóztatását",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T12:31:58+02:00"
+        },
+        {
+          "url": "https://hvg.hu/itthon/20260930_sesztak-miklos-letartoztatas-budai-kozponti-keruleti-birosag-volanbusz-ugy",
+          "title": "Elrendelték Seszták Miklós letartóztatását",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T12:31:58+02:00"
+        },
+        {
+          "url": "https://hvg.hu/itthon/20260929_szerda-dontes-sesztak-miklos-letartoztatas",
+          "title": "Már szerdán dönthetnek Seszták Miklós letartóztatásáról",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T12:31:58+02:00"
+        },
+        {
+          "url": "https://hvg.hu/itthon/20260930_hanko-balazs-letartoztatasat-kezdemenyezte-az-ugyeszseg",
+          "title": "Hankó Balázs letartóztatását kezdeményezte az ügyészség",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T12:31:58+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-09-30T13:31:21+02:00"
+      },
+      "hot_score": 11.54,
+      "category_meta": {
+        "source_links": [
+          "https://telex.hu/belfold/2026/09/30/sesztak-miklo-letartoztatas-volanbusz-ugy-nvvh-torvenyszek",
+          "https://hvg.hu/itthon/20260930_sesztak-miklos-letartoztatas-budai-kozponti-keruleti-birosag-volanbusz-ugy",
+          "https://hvg.hu/itthon/20260929_szerda-dontes-sesztak-miklos-letartoztatas"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/kozelet/2026-09-30-11-milliardos-vesztegetesi-gyanu-letartoztattak-sesztak-miklost/",
+      "seo": {
+        "meta_title": "11 milliárdos vesztegetési gyanú: letartóztatták Seszták Mik",
+        "meta_description": "Harminc napra letartóztatta a bíróság Seszták Miklós KDNP-s országgyűlési képviselőt, a harmadik Orbán-kormány egykori nemzeti fejlesztési miniszterét. A politi",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-09-30-11-milliardos-vesztegetesi-gyanu-letartoztattak-sesztak-miklost/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Seszt%C3%A1k_Mikl%C3%B3s_miniszter.jpg/1280px-Seszt%C3%A1k_Mikl%C3%B3s_miniszter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "58bb7362adc8372cf6683c3991e4bba2bc22688976666eb35b17043310ebb64f",
+      "pipeline_run_id": "36702983852",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T13:31:21+02:00",
+      "updated_at": "2026-09-30T13:31:21+02:00",
+      "published_at": "2026-09-30T13:31:21+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "8055701a-2ee0-5fbd-b9e6-15acf26a5bb2",
+      "slug": "2026-09-30-mrns-koktellal-tuntettek-el-a-hasnyalmirigyrakot",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "mRNS",
+        "hasnyálmirigyrák",
+        "immunterápia",
+        "egérkísérlet",
+        "orvostudomány"
+      ],
+      "title": "MRNS-koktéllal tüntették el a hasnyálmirigyrákot",
+      "subtitle": null,
+      "lead": "Egy kísérleti mRNS-kezelés hatására teljesen eltűntek a hasnyálmirigyrákos daganatok az egerekből, és a betegség egy év elteltével sem újult ki. A UMass Chan Orvosi Egyetem kutatóinak áttörése a Covid-vakcinák sikereire épül.",
+      "key_points": [
+        "Az mRNS-koktél aktiválja az immunrendszert, és áttöri a daganat védőszövetét.",
+        "A kísérleti egerek közel felénél teljesen eltűntek a rákos sejtek.",
+        "A kezelés után egy évvel sem tért vissza a betegség.",
+        "Az emberi klinikai alkalmazáshoz még további vizsgálatok szükségesek."
+      ],
+      "content": "A UMass Chan Orvosi Egyetem kutatói olyan kísérleti eljárást fejlesztettek ki, amely hírvivő RNS-ek koktélját használja a nehezen kezelhető hasnyálmirigyrák leküzdésére. A módszer az immunrendszer aktiválásával, a daganatot körülvevő védőszövet áttörésével és az immunsejtek támogatásával éri el, hogy azok fenyegetésként ismerjék fel a rákos sejteket.\n\nA hasnyálmirigyrák az egyik legellenállóbb daganatfajta, mivel egy sűrű, heges-rostos szövetből álló burok veszi körül, amely távol tartja a gyógyszereket és az immunsejteket. Emellett úgynevezett immunológiailag hideg daganatként viselkedik, amely megakadályozza a T-sejtek bejutását.\n\nAz amerikai fejlesztés során a sejtek ideiglenes genetikai utasításkészletet kapnak, amely öt citokin- és három tumorantigén-mRNS kombinációját tartalmazza. A citokin-mRNS-ek az immuntámadást indítják be, míg az antigének idegen anyagként jelölik meg a rákos sejteket.\n\nA Nature Communications folyóiratban ismertetett eredmények szerint a kezelés hatására meggyengült a tumor fizikai védelme, és fokozott sejtpusztulás ment végbe. A kezelt egerek közel felénél a daganatok eltűntek, és az állapot egy év múlva is fennállt, ami hosszan tartó immunmemóriára utal.\n\nBár a fejlesztést a Covid-vakcinák terén elért eredmények ihlették, a kutatók hangsúlyozzák, hogy jelenleg csak egérkísérletekről van szó. Az emberi alkalmazáshoz további fejlesztésekre és klinikai vizsgálatokra lesz szükség.",
+      "content_format": "markdown",
+      "body": [
+        "A UMass Chan Orvosi Egyetem kutatói olyan kísérleti eljárást fejlesztettek ki, amely hírvivő RNS-ek koktélját használja a nehezen kezelhető hasnyálmirigyrák leküzdésére. A módszer az immunrendszer aktiválásával, a daganatot körülvevő védőszövet áttörésével és az immunsejtek támogatásával éri el, hogy azok fenyegetésként ismerjék fel a rákos sejteket.",
+        "A hasnyálmirigyrák az egyik legellenállóbb daganatfajta, mivel egy sűrű, heges-rostos szövetből álló burok veszi körül, amely távol tartja a gyógyszereket és az immunsejteket. Emellett úgynevezett immunológiailag hideg daganatként viselkedik, amely megakadályozza a T-sejtek bejutását.",
+        "Az amerikai fejlesztés során a sejtek ideiglenes genetikai utasításkészletet kapnak, amely öt citokin- és három tumorantigén-mRNS kombinációját tartalmazza. A citokin-mRNS-ek az immuntámadást indítják be, míg az antigének idegen anyagként jelölik meg a rákos sejteket.",
+        "A Nature Communications folyóiratban ismertetett eredmények szerint a kezelés hatására meggyengült a tumor fizikai védelme, és fokozott sejtpusztulás ment végbe. A kezelt egerek közel felénél a daganatok eltűntek, és az állapot egy év múlva is fennállt, ami hosszan tartó immunmemóriára utal.",
+        "Bár a fejlesztést a Covid-vakcinák terén elért eredmények ihlették, a kutatók hangsúlyozzák, hogy jelenleg csak egérkísérletekről van szó. Az emberi alkalmazáshoz további fejlesztésekre és klinikai vizsgálatokra lesz szükség."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 222,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/SARS-CoV-2_%28%C2%B5-IMAGE%29_vaccines_mRNA-1273_%28moderna%29%2C_Ad5_%28CanSinoBio%2C_NantKwest_ImmunityBio%29%2C_ChAdOx1_nCoV-19_%28Oxford_university%29._-_Other_remedies_S309_%28antibody%29%2C_hydroxychloroquin_%28Malaria-medicament%29%2C_fluvoxamin_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 768,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "CAPTION This transmission electron microscope image shows SARS-CoV-2 - the virus that causes COVID-19 - isolated from a patient in the U.S. The protrusions visible on the outside are the spike protein",
+        "credit": "quapan / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SARS-CoV-2_(%C2%B5-IMAGE)_vaccines_mRNA-1273_(moderna),_Ad5_(CanSinoBio,_NantKwest_ImmunityBio),_ChAdOx1_nCoV-19_(Oxford_university)._-_Other_remedies_S309_(antibody),_hydroxychloroquin_(Malaria-medicament),_fluvoxamin_.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20260930_sikeres-mrns-terapia-hasnyalmirigyrakos-egereknel",
+          "title": "Eltűnt a hasnyálmirigyrák az mRNS immunterápia után az egerekben",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T10:36:43+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-09-30T13:31:20+02:00"
+      },
+      "hot_score": 5.65,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20260930_sikeres-mrns-terapia-hasnyalmirigyrakos-egereknel"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/tech/2026-09-30-mrns-koktellal-tuntettek-el-a-hasnyalmirigyrakot/",
+      "seo": {
+        "meta_title": "MRNS-koktéllal tüntették el a hasnyálmirigyrákot",
+        "meta_description": "Egy kísérleti mRNS-kezelés hatására teljesen eltűntek a hasnyálmirigyrákos daganatok az egerekből, és a betegség egy év elteltével sem újult ki. A UMass Chan Or",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-09-30-mrns-koktellal-tuntettek-el-a-hasnyalmirigyrakot/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/SARS-CoV-2_%28%C2%B5-IMAGE%29_vaccines_mRNA-1273_%28moderna%29%2C_Ad5_%28CanSinoBio%2C_NantKwest_ImmunityBio%29%2C_ChAdOx1_nCoV-19_%28Oxford_university%29._-_Other_remedies_S309_%28antibody%29%2C_hydroxychloroquin_%28Malaria-medicament%29%2C_fluvoxamin_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "1bc8722d6f2a123a48686d23722988149231ff141e44733a10ba2d5ef26894e7",
+      "pipeline_run_id": "36690486430",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T13:31:20+02:00",
+      "updated_at": "2026-09-30T13:31:20+02:00",
+      "published_at": "2026-09-30T13:31:20+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "cc6c3523-8ed9-5c18-9bdf-449758e52922",
+      "slug": "2026-09-30-elindult-a-fidesz-uj-online-platformja",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Fidesz",
+        "NVVH",
+        "Orbán Viktor",
+        "Tisza-kormány",
+        "közélet"
+      ],
+      "title": "Elindult a Fidesz új online platformja",
+      "subtitle": null,
+      "lead": "Elindult a Fidesz oldalán az ÁVH-figyelő, amellyel a kormánypárt a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatalt célozza meg. Orbán Viktor szerint az új intézmény csupán figyelemelterelés a gazdasági nehézségekről.",
+      "key_points": [
+        "A Fidesz elindította az ÁVH-figyelőt a hivatalos oldalán.",
+        "A célkeresztben a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal áll.",
+        "A Tisza-kormány által felállított hivatalt a fideszes vezetés élesen bírálja.",
+        "A volt miniszterelnök szerint a szervezet feladata a valós gazdasági problémák elfedése."
+      ],
+      "content": "Elindult a Fidesz oldalán az ÁVH-figyelő nevű felület, amely a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) tevékenységét és vezetőit veszi górcső alá. Orbán Viktor, a Fidesz elnöke és korábbi miniszterelnök a közösségi oldalán úgy fogalmazott, hogy a Tisza-kormány által létrehozott szervezet bárkire lecsaphat, lehallgathat, valamint besúgásra kényszeríthet.\n\nA portálon jelenleg Unger Anna és Tasnády Katalin, az NVVH két vezetőjének életrajza, valamint egy kritikus fideszes narratíva olvasható. A kormánypárti álláspont szerint a hivatal felállítása csupán arra szolgál, hogy elterelje a közfigyelmet a benzinárakról, az államadósságról és az elmaradt béremelésekről.\n\nEzzel párhuzamosan a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal hétfő reggel jelentette be azt a négy ügyet, amelyet saját hatáskörbe von, és erről tájékoztatta a Központi Nyomozó Főügyészséget, valamint a Nemzeti Nyomozó Iroda vezetőjét. Az ügy kapcsán jogi viták is kibontakoztak, miután az ügyészség elutasította a Fekete-Győr András által benyújtott feljelentést, amelyet a politikus a hivatal dolgozóinak megfenyegetése miatt kezdeményezett.",
+      "content_format": "markdown",
+      "body": [
+        "Elindult a Fidesz oldalán az ÁVH-figyelő nevű felület, amely a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) tevékenységét és vezetőit veszi górcső alá. Orbán Viktor, a Fidesz elnöke és korábbi miniszterelnök a közösségi oldalán úgy fogalmazott, hogy a Tisza-kormány által létrehozott szervezet bárkire lecsaphat, lehallgathat, valamint besúgásra kényszeríthet.",
+        "A portálon jelenleg Unger Anna és Tasnády Katalin, az NVVH két vezetőjének életrajza, valamint egy kritikus fideszes narratíva olvasható. A kormánypárti álláspont szerint a hivatal felállítása csupán arra szolgál, hogy elterelje a közfigyelmet a benzinárakról, az államadósságról és az elmaradt béremelésekről.",
+        "Ezzel párhuzamosan a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal hétfő reggel jelentette be azt a négy ügyet, amelyet saját hatáskörbe von, és erről tájékoztatta a Központi Nyomozó Főügyészséget, valamint a Nemzeti Nyomozó Iroda vezetőjét. Az ügy kapcsán jogi viták is kibontakoztak, miután az ügyészség elutasította a Fekete-Győr András által benyújtott feljelentést, amelyet a politikus a hivatal dolgozóinak megfenyegetése miatt kezdeményezett."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 179,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Viktor_Orb%C3%A1n.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1171,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Viktor Orban",
+        "credit": "Romiro / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Orb%C3%A1n.png"
+      },
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20260930_orban-viktor-elindult-a-fidesz-oldalan-az-avh-figyelo",
+          "title": "Orbán Viktor: Elindult a Fidesz oldalán az ÁVH-figyelő",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T10:35:41+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-09-30T13:31:19+02:00"
+      },
+      "hot_score": 5.68,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20260930_orban-viktor-elindult-a-fidesz-oldalan-az-avh-figyelo"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/kozelet/2026-09-30-elindult-a-fidesz-uj-online-platformja/",
+      "seo": {
+        "meta_title": "Elindult a Fidesz új online platformja",
+        "meta_description": "Elindult a Fidesz oldalán az ÁVH-figyelő, amellyel a kormánypárt a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatalt célozza meg. Orbán Viktor szerint az ú",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-09-30-elindult-a-fidesz-uj-online-platformja/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Viktor_Orb%C3%A1n.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "2feb8961a777c9ddfd3166225f51086eab2917dfd3c749cb71433c1403d5f3af",
+      "pipeline_run_id": "36690486430",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T13:31:19+02:00",
+      "updated_at": "2026-09-30T13:31:19+02:00",
+      "published_at": "2026-09-30T13:31:19+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "de2f4597-1b3b-51b4-b882-20dcc7a5cd6d",
+      "slug": "2026-09-30-rengeteg-kuldetest-keszit-elo-a-nasa",
+      "status": "published",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "űrkutatás",
+        "csillagászat",
+        "SpaceX"
+      ],
+      "title": "Rengeteg küldetést készít elő a NASA",
+      "subtitle": null,
+      "lead": "A NASA folyamatosan frissülő missziói és kutatásai képet adnak a jövő űrrepülési terveiről. Az ügynökség egyszerre készít elő emberes küldetéseket, bolygókutató egységeket és csillagászati mérföldköveket.",
+      "key_points": [
+        "A NASA jelenleg is több aktív és készülő űrmisszión dolgozik.",
+        "A programok között égitestek kutatása és űrhajós-küldetések is szerepelnek.",
+        "A kutatók folyamatosan elemzik a Naprendszer és a távoli univerzum jelenségeit."
+      ],
+      "content": "Az amerikai űrügynökség folyamatosan frissülő programjai a Föld közeli pályáktól egészen a távoli galaxisok vizsgálatáig terjednek. A hivatalos adatbázisok és a naponta frissülő csillagászati felvételek jól mutatják, hányféle területen zajlik egyszerre kutatómunka.\n\n- A SpaceX Crew-13 küldetés előkészületei az emberes űrrepülés kérdéseit vizsgálják.\n- A DAVINCI elnevezésű program a Vénusz perzselő légkörébe való ereszkedéstkészíti elő.\n- A Hubble űrtávcső eközben újabb mérföldköveket ér el a szupernóvák kutatásában.\n\nA mindennapi tudományos munka nemcsak a rakéták indításáról szól, hanem a Föld klímaváltozásáról, a naprendszerbeli égitestek összetételéről és a jövőbeli holdbázisok kommunikációs kihívásairól is. A kutatók olyan részletekre fókuszálnak, mint a Mars ősi vizes rendszerei vagy a fekete lyukak környezetének viselkedése.\n\nA következő időszakban a nemzetközi együttműködések és az új technológiai tesztek határozzák meg a kutatások irányát, amelyek végül a jövőbeli emberes expedíciók biztonságát szolgálják.",
+      "content_format": "markdown",
+      "body": [
+        "Az amerikai űrügynökség folyamatosan frissülő programjai a Föld közeli pályáktól egészen a távoli galaxisok vizsgálatáig terjednek. A hivatalos adatbázisok és a naponta frissülő csillagászati felvételek jól mutatják, hányféle területen zajlik egyszerre kutatómunka.",
+        "- A SpaceX Crew-13 küldetés előkészületei az emberes űrrepülés kérdéseit vizsgálják.\n- A DAVINCI elnevezésű program a Vénusz perzselő légkörébe való ereszkedéstkészíti elő.\n- A Hubble űrtávcső eközben újabb mérföldköveket ér el a szupernóvák kutatásában.",
+        "A mindennapi tudományos munka nemcsak a rakéták indításáról szól, hanem a Föld klímaváltozásáról, a naprendszerbeli égitestek összetételéről és a jövőbeli holdbázisok kommunikációs kihívásairól is. A kutatók olyan részletekre fókuszálnak, mint a Mars ősi vizes rendszerei vagy a fekete lyukak környezetének viselkedése.",
+        "A következő időszakban a nemzetközi együttműködések és az új technológiai tesztek határozzák meg a kutatások irányát, amelyek végül a jövőbeli emberes expedíciók biztonságát szolgálják."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 155,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg/1280px-Katherine_Johnson_at_NASA%2C_in_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1513,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Katherine Johnson, NASA employée, mathematician and physicist, in 1966",
+        "credit": "Adam Cuerden / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_at_NASA,_in_1966.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/image-article/apod-2026-september-30-arp-78-peculiar-galaxy-in-aries/",
+          "title": "APOD: 2026 September 30 – Arp 78: Peculiar Galaxy in Aries",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-09-30T10:35:01+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-09-30T13:31:18+02:00"
+      },
+      "hot_score": 5.88,
+      "category_meta": {
+        "source_links": [
+          "https://science.nasa.gov/image-article/apod-2026-september-30-arp-78-peculiar-galaxy-in-aries/"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/univerzum/2026-09-30-rengeteg-kuldetest-keszit-elo-a-nasa/",
+      "seo": {
+        "meta_title": "Rengeteg küldetést készít elő a NASA",
+        "meta_description": "A NASA folyamatosan frissülő missziói és kutatásai képet adnak a jövő űrrepülési terveiről. Az ügynökség egyszerre készít elő emberes küldetéseket, bolygókutató",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-09-30-rengeteg-kuldetest-keszit-elo-a-nasa/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg/1280px-Katherine_Johnson_at_NASA%2C_in_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "0dc84ff34cd9b91224e1ae1b300906fe4cb2d1f57f774e8b608f722bb6904440",
+      "pipeline_run_id": "36690486430",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T13:31:18+02:00",
+      "updated_at": "2026-09-30T13:31:18+02:00",
+      "published_at": "2026-09-30T13:31:18+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "1ab27d1e-c67c-5f36-974f-37c01caf7ea6",
+      "slug": "2026-09-30-harom-eve-nem-latott-kulkereskedelmi-hiany-jott-ossze-magyarorszagon",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "gazdaság",
+        "forint",
+        "külkereskedelem",
+        "tőzsde"
+      ],
+      "title": "Három éve nem látott külkereskedelmi hiány jött össze Magyarországon",
+      "subtitle": null,
+      "lead": "Augusztusban a kivitel stagnálása és a behozatal jelentős növekedése miatt 2023 óta nem látott külkereskedelmi hiány keletkezett Magyarországon. Ezzel párhuzamosan a hazai deviza is hullámvasútra ült a nemzetközi pénzpiacokon.",
+      "key_points": [
+        "Augusztusban gyakorlatilag stagnált a magyar export, míg az import jelentősen nőtt.",
+        "A folyamatok eredményeként 2023 óta nem látott külkereskedelmi hiány alakult ki.",
+        "A forint a nap folyamán 366,2-es euróárfolyam környékén is járt.",
+        "A tőzsdén az OTP részvényei emelkedtek, míg a Mol árfolyama csökkent."
+      ],
+      "content": "## Külkereskedelmi pofon és devizamozgások\n\nAugusztusban a magyar export gyakorlatilag stagnált, miközben az import volumene jelentős mértékben emelkedett. Ez oda vezetett, hogy 2023 óta nem látott külkereskedelmi hiány jött össze az év nyolcadik hónapjában. A Portfolio beszámolója szerint a nemzetközi devizapiacokon is mozgalmasan telt a szerda: a forint a nap folyamán a 365,5-ös napi csúcsról 366,2-es euróárfolyamig gyengült vissza, míg a dollárral szemben 322 környékére korrigált.\n\n## Mozgásban a hazai nagypapírok\n\nKözben a hazai tőzsdén is markáns mozgások zajlottak a szerdai kereskedésben. A nap elején az OTP részvénye 0,7 százalékkal 44 090 forintra drágult, miután kiderült, hogy év végéig megszülethet a döntés a pénzintézet oroszországi piacának elhagyásáról. Ezzel szemben a Mol árfolyama 0,3 százalékkal 5035 forintra süllyedt a keddi komolyabb zuhanást követően, a Richter kurzusa pedig 12 330 forinton stagnált.",
+      "content_format": "markdown",
+      "body": [
+        "## Külkereskedelmi pofon és devizamozgások",
+        "Augusztusban a magyar export gyakorlatilag stagnált, miközben az import volumene jelentős mértékben emelkedett. Ez oda vezetett, hogy 2023 óta nem látott külkereskedelmi hiány jött össze az év nyolcadik hónapjában. A Portfolio beszámolója szerint a nemzetközi devizapiacokon is mozgalmasan telt a szerda: a forint a nap folyamán a 365,5-ös napi csúcsról 366,2-es euróárfolyamig gyengült vissza, míg a dollárral szemben 322 környékére korrigált.",
+        "## Mozgásban a hazai nagypapírok",
+        "Közben a hazai tőzsdén is markáns mozgások zajlottak a szerdai kereskedésben. A nap elején az OTP részvénye 0,7 százalékkal 44 090 forintra drágult, miután kiderült, hogy év végéig megszülethet a döntés a pénzintézet oroszországi piacának elhagyásáról. Ezzel szemben a Mol árfolyama 0,3 százalékkal 5035 forintra süllyedt a keddi komolyabb zuhanást követően, a Richter kurzusa pedig 12 330 forinton stagnált."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 163,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Budapest Stock Exchange",
+        "credit": "Leonard Chien / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_stock_exchange.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/deviza/20260930/lenduletet-vett-a-forint-de-hatra-van-meg-a-fekete-leves-866176",
+          "title": "Lendületet vett a forint, de hátra van még a fekete leves",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T10:34:03+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/penz-es-tokepiac/2026/09/megindult-az-otp-erosit-a-forint-is?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Megindult az OTP, erősít a forint is",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T10:34:03+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-09-30T13:31:18+02:00"
+      },
+      "hot_score": 7.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/deviza/20260930/lenduletet-vett-a-forint-de-hatra-van-meg-a-fekete-leves-866176"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/penzvilag/2026-09-30-harom-eve-nem-latott-kulkereskedelmi-hiany-jott-ossze-magyarorszagon/",
+      "seo": {
+        "meta_title": "Három éve nem látott külkereskedelmi hiány jött össze Magyar",
+        "meta_description": "Augusztusban a kivitel stagnálása és a behozatal jelentős növekedése miatt 2023 óta nem látott külkereskedelmi hiány keletkezett Magyarországon. Ezzel párhuzamo",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-09-30-harom-eve-nem-latott-kulkereskedelmi-hiany-jott-ossze-magyarorszagon/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "7779f25bc4dad045d178f7a6375cf3e19fed6a5b5e64ad1c8bea38f764f6cc0d",
+      "pipeline_run_id": "36690486430",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T13:31:18+02:00",
+      "updated_at": "2026-09-30T13:31:18+02:00",
+      "published_at": "2026-09-30T13:31:18+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "76aa7bea-38a6-5c29-a4b8-dc264de7a68e",
+      "slug": "2026-09-30-huszmillio-forintot-is-bukhat-aki-bizik-a-telefonos-csalokban",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "kiberbiztonság",
+        "online csalás",
+        "banki biztonság",
+        "Adathalászat"
+      ],
+      "title": "Húszmillió forintot is bukhat, aki bízik a telefonos csalókban",
+      "subtitle": null,
+      "lead": "Akár huszonnégymillió forintos kárt is okozhatnak a gyanútlan netezőknek azok a csalók, akik banki ügyintézőnek adják ki magukat, vagy távoli elérést kérnek. A szakemberek szerint a legmodernebb technológia sem véd meg a hiszékenységtől.",
+      "key_points": [
+        "Egyes áldozatok huszonnégymillió forintot veszítettek el online csalások miatt.",
+        "A csalók gyakran banki alkalmazottnak adják ki magukat, és távoli asztali szoftvert telepítenek.",
+        "A védekezéshez a többrétegű digitális biztonság mellett az emberi óvatosság is elengedhetetlen.",
+        "A romantikus csalások szintén milliókba kerülhetnek a magányos internetezőknek."
+      ],
+      "content": "Akár huszonnégymillió forint is eltűnhet a bankszámlákról egyetlen rossz mozdulat után, miközben a védekezés sokszor az emberi józan eszen múlik. Egy tavalyi eset során egy károsulttól 24 millió forintot emeltek le, miután a telefonon banki ügyintézőként fellépő csaló felajánlotta, hogy segít egy alkalmazást telepíteni a lekötött pénz biztonságba helyezésére. A csalás kivitelezése során a hívó arra kérte a sértettet, hogy menjen át egy másik szobába, majd egy távoli elérést biztosító szoftverrel hozzáfért a számlához, ahonnan a pénznek egy hét alatt veszett nyoma.\n\nNem egyedi esetről van szó, hiszen a kiberbiztonsági szakemberek konferenciáján a résztvevők több mint fele jelezte, hogy esett már áldozatul valamilyen online csalásnak a múltban. Az Antivírus blogot vezető Csizmazia Darab István gyűjtései mellett Széll András, a G Data szakértője is hangsúlyozza, hogy a mesterséges intelligencia korában sem elég csupán a szoftverekre bízni a vagyonunkat. A biztonság ugyanis négy pilléren nyugszik:\n\n- Az emberi tudatosság és óvatosság\n\n- A modern vírusvédelem\n\n- A rendszeres biztonsági mentés\n\n- A kétfaktoros azonosítás használata\n\nA technológiai fejlődés persze segít a szűrésben, hiszen a telefontársaságok és internetszolgáltatók rendszerei sok gyanús linket már a betöltés előtt blokkolnak. Ezzel együtt a figyelmetlennél az óvatosság sem segít mindig, amit egy 2023-as pápai eset is bizonyít. Az 57 éves férfi egy kazah nőnek utalt át kétmillió forintot vízum- és repülőjegy-költségekre, mire felismerte a csalást. Hasonló módszerrel egy francia belsőépítész nőtől 830 ezer eurót csaltak ki azzal a hittel, hogy Brad Pitt filmsztár szerelmes belé, és a kezelési költségeire kér pénzt.",
+      "content_format": "markdown",
+      "body": [
+        "Akár huszonnégymillió forint is eltűnhet a bankszámlákról egyetlen rossz mozdulat után, miközben a védekezés sokszor az emberi józan eszen múlik. Egy tavalyi eset során egy károsulttól 24 millió forintot emeltek le, miután a telefonon banki ügyintézőként fellépő csaló felajánlotta, hogy segít egy alkalmazást telepíteni a lekötött pénz biztonságba helyezésére. A csalás kivitelezése során a hívó arra kérte a sértettet, hogy menjen át egy másik szobába, majd egy távoli elérést biztosító szoftverrel hozzáfért a számlához, ahonnan a pénznek egy hét alatt veszett nyoma.",
+        "Nem egyedi esetről van szó, hiszen a kiberbiztonsági szakemberek konferenciáján a résztvevők több mint fele jelezte, hogy esett már áldozatul valamilyen online csalásnak a múltban. Az Antivírus blogot vezető Csizmazia Darab István gyűjtései mellett Széll András, a G Data szakértője is hangsúlyozza, hogy a mesterséges intelligencia korában sem elég csupán a szoftverekre bízni a vagyonunkat. A biztonság ugyanis négy pilléren nyugszik:",
+        "- Az emberi tudatosság és óvatosság",
+        "- A modern vírusvédelem",
+        "- A rendszeres biztonsági mentés",
+        "- A kétfaktoros azonosítás használata",
+        "A technológiai fejlődés persze segít a szűrésben, hiszen a telefontársaságok és internetszolgáltatók rendszerei sok gyanús linket már a betöltés előtt blokkolnak. Ezzel együtt a figyelmetlennél az óvatosság sem segít mindig, amit egy 2023-as pápai eset is bizonyít. Az 57 éves férfi egy kazah nőnek utalt át kétmillió forintot vízum- és repülőjegy-költségekre, mire felismerte a csalást. Hasonló módszerrel egy francia belsőépítész nőtől 830 ezer eurót csaltak ki azzal a hittel, hogy Brad Pitt filmsztár szerelmes belé, és a kezelési költségeire kér pénzt."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 275,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Cybercrime_Abstract_Concept.png/1280px-Cybercrime_Abstract_Concept.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 801,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "This is mixed media from using another wikimedia commons images. One image \"Typing computer screen reflection.jpg\", from Almonroth and \"Young man exhibiting a serious expression.jpg\", from Ananian.\nI",
+        "credit": "ITSveronica / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cybercrime_Abstract_Concept.png"
+      },
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20260930_online-atveresek-modszerek-vedekezesi-taktikak-ai-g-data-antivirus",
+          "title": "Bárki átverhető a neten: rémtörténetek a 2 millió forintos kártól a 24 milliósig",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T12:34:14+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-09-30T13:31:16+02:00"
+      },
+      "hot_score": 5.61,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20260930_online-atveresek-modszerek-vedekezesi-taktikak-ai-g-data-antivirus"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/tech/2026-09-30-huszmillio-forintot-is-bukhat-aki-bizik-a-telefonos-csalokban/",
+      "seo": {
+        "meta_title": "Húszmillió forintot is bukhat, aki bízik a telefonos csalókb",
+        "meta_description": "Akár huszonnégymillió forintos kárt is okozhatnak a gyanútlan netezőknek azok a csalók, akik banki ügyintézőnek adják ki magukat, vagy távoli elérést kérnek. A ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-09-30-huszmillio-forintot-is-bukhat-aki-bizik-a-telefonos-csalokban/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Cybercrime_Abstract_Concept.png/1280px-Cybercrime_Abstract_Concept.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "064763d7c7a5c3132311a77a26dacd901681cd1ccc3968cca6b90ae6617d346e",
+      "pipeline_run_id": "36702983852",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T13:31:16+02:00",
+      "updated_at": "2026-09-30T13:31:16+02:00",
+      "published_at": "2026-09-30T13:31:16+02:00",
+      "expires_at": null
+    },
     {
       "id": "5c7bbb4f-155e-5e39-bc9b-81c8d20e8826",
       "slug": "2026-09-30-kisebb-oroszorszag-nagyobb-afrika-az-uj-terkepen",
