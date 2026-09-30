@@ -1071,6 +1071,14 @@ footer{margin-top:60px;padding-top:24px;padding-bottom:40px;border-top:1px solid
 
 
 # Betöltő animáció (K + keringő hold) – csak 150 ms feletti várakozásnál látszik
+# Google „kedvenc forrás” link: csak akkor jelenjen meg, ha a Google már felvett a forrásai közé (GOOGLE_PREF_LINK=true)
+_GPREF_URL = "https://www.google.com/preferences/source?q=xn--kollektva-m5a.hu"
+GPREF_ON = os.getenv("GOOGLE_PREF_LINK", "false").lower() in ("1", "true", "yes")
+GPREF_HTML = (f'\n<div class="gpref"><a href="{_GPREF_URL}" target="_blank" rel="noopener"><b>★</b> Kedvenc forrás a Google-ben</a></div>'
+              if GPREF_ON else "")
+GPREF_FOOT = (f'<br><a href="{_GPREF_URL}" target="_blank" rel="noopener">★ Kollektíva kedvenc forrásként a Google-ben</a>'
+              if GPREF_ON else "")
+
 NEW_TOAST_HTML = r"""<div id="knew" role="status" aria-live="polite" style="position:fixed;left:50%;bottom:14px;transform:translate(-50%,180%);transition:transform .35s ease;z-index:60;max-width:min(420px,calc(100vw - 32px));display:flex;align-items:center;gap:8px;background:#B3261E;color:#fff;border-radius:999px;padding:5px 6px 5px 12px;box-shadow:0 6px 20px rgba(0,0,0,.4);font:600 12px/1.3 Manrope,system-ui,sans-serif"><span style="flex:none;width:6px;height:6px;border-radius:50%;background:#fff;animation:knp 1.2s infinite"></span><a id="knewA" href="/" style="color:#fff;text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"></a><button type="button" aria-label="Bezár" onclick="document.getElementById('knew').style.transform='translate(-50%,180%)'" style="flex:none;background:rgba(255,255,255,.18);border:0;color:#fff;border-radius:50%;width:20px;height:20px;cursor:pointer;font-size:13px;line-height:1">×</button></div>
 <style>@keyframes knp{50%{opacity:.25}}</style>
 <script>/* Új cikk értesítő: ha az oldalon tartózkodás közben új cikk kerül ki, alul egy piros sáv jelzi. */
@@ -1125,12 +1133,11 @@ def _page(title: str, description: str, canonical: str, body: str, head_extra: s
 </head>
 <body>
 {LOADER_HTML}
-<header><a class="logo" href="/" aria-label="{SITE_NAME} – főoldal">{LOGO_SVG}<span>{SITE_NAME}<b>.</b></span></a><details class="menu"><summary aria-label="Rovatok">Rovatok ☰</summary><nav>{NAV_LINKS}</nav></details></header>
-<div class="gpref"><a href="https://www.google.com/preferences/source?q=xn--kollektva-m5a.hu" target="_blank" rel="noopener"><b>★</b> Kedvenc forrás a Google-ben</a></div>
+<header><a class="logo" href="/" aria-label="{SITE_NAME} – főoldal">{LOGO_SVG}<span>{SITE_NAME}<b>.</b></span></a><details class="menu"><summary aria-label="Rovatok">Rovatok ☰</summary><nav>{NAV_LINKS}</nav></details></header>{GPREF_HTML}
 <main>
 {body}
 </main>
-<footer>© {datetime.now().year} {SITE_NAME}<br><a href="/">Főoldal</a>{NAV_LINKS}<a href="/feed.xml">RSS</a><br><a href="/info/#impresszum">Impresszum</a><a href="/info/#adatkezeles">Adatkezelés</a><a href="/info/#sutik">Sütik</a><a href="/info/#hirdetes">Hirdetés</a><br><a href="https://www.google.com/preferences/source?q=xn--kollektva-m5a.hu" target="_blank" rel="noopener">★ Kollektíva kedvenc forrásként a Google-ben</a></footer>
+<footer>© {datetime.now().year} {SITE_NAME}<br><a href="/">Főoldal</a>{NAV_LINKS}<a href="/feed.xml">RSS</a><br><a href="/info/#impresszum">Impresszum</a><a href="/info/#adatkezeles">Adatkezelés</a><a href="/info/#sutik">Sütik</a><a href="/info/#hirdetes">Hirdetés</a>{GPREF_FOOT}</footer>
 {NEW_TOAST_HTML}
 </body>
 </html>
