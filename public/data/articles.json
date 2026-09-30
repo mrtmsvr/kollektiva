@@ -1,7 +1,228 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T01:20:46+02:00",
+  "updated_at": "2026-09-30T08:13:19+02:00",
   "articles": [
+    {
+      "id": "2c3e6fbb-d476-50ca-aab1-b91625dc52e3",
+      "slug": "2026-09-30-heti-negynapos-irodai-kotelezettseget-vezet-be-a-mercedes",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "Mercedes",
+        "Commerzbank",
+        "UniCredit",
+        "home office",
+        "német gazdaság"
+      ],
+      "title": "Heti négynapos irodai kötelezettséget vezet be a Mercedes",
+      "subtitle": null,
+      "lead": "Szigorítja a távmunka szabályait a Mercedes-Benz, miközben a német kormány garanciákat vár el az UniCredittől a Commerzbank ügyében. A gazdasági változások alapjaiban formálják át a német nagyvállalatok mindennapjait.",
+      "key_points": [
+        "Heti négy nap irodai jelenlétet rendel el a Mercedes Németországban.",
+        "Az olasz UniCredit már a Commerzbank részvényeinek közel felét birtokolja.",
+        "A német állam a munkahelyek megőrzését és a kkv-k finanszírozását követeli."
+      ],
+      "content": "A Handelsblatt és a Reuters friss értesülései szerint jelentős átszervezések zajlanak a német gazdaság meghatározó szereplőinél, amelyek a munkavállalókat és a pénzpiacokat is közvetlenül érintik. A Mercedes-Benz e-mailben tájékoztatta németországi munkavállalóit arról, hogy a 2016-ban kötött, akár ötnapos otthoni munkavégzést is engedélyező megállapodást felváltja a heti négynapos kötelező irodai jelenlét. Britta Seeger munkaügyi igazgató korábbi nyilatkozatában úgy fogalmazott, hogy a személyes együttműködés az a ragasztó, amelyre a csapatoknak szüksége van.\n\nA szigorítás hátterében a járműgyártó évekre visszanyúló, csökkenő profitja és romló értékesítési mutatói állnak, ami miatt a vállalat termelékenységi offenzívát indított. Ola Källenius vezérigazgató belső források szerint még ennél is szigorúbb feltételeket szorgalmazott, mivel a belső adatok alapján a távmunka időszakában az irodai jelenlét gyakran az ötven százalékot sem érte el.\n\nEzzel párhuzamosan a pénzügyi szektorban is feszült egyeztetések zajlanak, miután az olasz UniCredit közel került a Commerzbank többségi irányításának megszerzéséhez. Lars Klingbeil német pénzügyminiszter és Andrea Orcel, az UniCredit vezérigazgatója szeptemberben tárgyalt az akvizícióról, amely során a német kormány egyértelmű kötelezettségvállalásokat szabott meg.\n\nA német állam, amely a Commerzbank 13,3 százalékát tulajdonítja, két fő feltételhez köti a folyamatot:\n\n- Biztosítani kell a munkahelyek megőrzését a pénzintézetnél.\n\n- Fenn kell tartani a bank hagyományos szerepét a német kis- és középvállalkozások finanszírozásában.\n\nAmennyiben az UniCredit elfogadja ezeket a feltételeket, a német kormány alapvető aggályai eloszlanak, a Financial Times híradása szerint pedig az olasz vezérigazgató már januárban átalakíthatja a felügyelőbizottságot.",
+      "content_format": "markdown",
+      "body": [
+        "A Handelsblatt és a Reuters friss értesülései szerint jelentős átszervezések zajlanak a német gazdaság meghatározó szereplőinél, amelyek a munkavállalókat és a pénzpiacokat is közvetlenül érintik. A Mercedes-Benz e-mailben tájékoztatta németországi munkavállalóit arról, hogy a 2016-ban kötött, akár ötnapos otthoni munkavégzést is engedélyező megállapodást felváltja a heti négynapos kötelező irodai jelenlét. Britta Seeger munkaügyi igazgató korábbi nyilatkozatában úgy fogalmazott, hogy a személyes együttműködés az a ragasztó, amelyre a csapatoknak szüksége van.",
+        "A szigorítás hátterében a járműgyártó évekre visszanyúló, csökkenő profitja és romló értékesítési mutatói állnak, ami miatt a vállalat termelékenységi offenzívát indított. Ola Källenius vezérigazgató belső források szerint még ennél is szigorúbb feltételeket szorgalmazott, mivel a belső adatok alapján a távmunka időszakában az irodai jelenlét gyakran az ötven százalékot sem érte el.",
+        "Ezzel párhuzamosan a pénzügyi szektorban is feszült egyeztetések zajlanak, miután az olasz UniCredit közel került a Commerzbank többségi irányításának megszerzéséhez. Lars Klingbeil német pénzügyminiszter és Andrea Orcel, az UniCredit vezérigazgatója szeptemberben tárgyalt az akvizícióról, amely során a német kormány egyértelmű kötelezettségvállalásokat szabott meg.",
+        "A német állam, amely a Commerzbank 13,3 százalékát tulajdonítja, két fő feltételhez köti a folyamatot:",
+        "- Biztosítani kell a munkahelyek megőrzését a pénzintézetnél.",
+        "- Fenn kell tartani a bank hagyományos szerepét a német kis- és középvállalkozások finanszírozásában.",
+        "Amennyiben az UniCredit elfogadja ezeket a feltételeket, a német kormány alapvető aggályai eloszlanak, a Financial Times híradása szerint pedig az olasz vezérigazgató már januárban átalakíthatja a felügyelőbizottságot."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 259,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Mercedes-Benz_W115_220D_%281973%29.jpg/1280px-Mercedes-Benz_W115_220D_%281973%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 772,
+        "kind": "photo",
+        "alt": "A 1973 model, pre-facelift Mercedes-Benz W115 220D photographed near Gorczenica, Poland. All W115 models feature four-cylinder engines with the 220D version having a 2.2 L diesel engine.",
+        "credit": "1bumer / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W115_220D_(1973).jpg"
+      },
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/bank/20260930/commerzbank-felvasarlas-itt-vannak-a-nemet-kormany-feltetelei-866158",
+          "title": "Commerzbank-felvásárlás: itt vannak a német kormány feltételei",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T08:12:49+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/cegvilag/2026/09/mercedes-benz-nemet-irodai-dolgozok-otthoni-munkavegzes?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Elege lett a Magyarországon jelenlévő autóipari multinak: akkora bajban a Mercedes, hogy berendelte az irodákba a dolgozóit – Ola Källenius egyre keményebb döntésekre kényszerül",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T08:12:49+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 9.72,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/bank/20260930/commerzbank-felvasarlas-itt-vannak-a-nemet-kormany-feltetelei-866158",
+          "https://www.vg.hu/cegvilag/2026/09/mercedes-benz-nemet-irodai-dolgozok-otthoni-munkavegzes?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/penzvilag/2026-09-30-heti-negynapos-irodai-kotelezettseget-vezet-be-a-mercedes/",
+      "seo": {
+        "meta_title": "Heti négynapos irodai kötelezettséget vezet be a Mercedes",
+        "meta_description": "Szigorítja a távmunka szabályait a Mercedes-Benz, miközben a német kormány garanciákat vár el az UniCredittől a Commerzbank ügyében. A gazdasági változások alap",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-09-30-heti-negynapos-irodai-kotelezettseget-vezet-be-a-mercedes/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Mercedes-Benz_W115_220D_%281973%29.jpg/1280px-Mercedes-Benz_W115_220D_%281973%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "317febb3008abb0118390b512b45a01fe6f65c23384cd8f341713103c3eccdf6",
+      "pipeline_run_id": "36677026694",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T08:12:49+02:00",
+      "updated_at": "2026-09-30T08:12:49+02:00",
+      "published_at": "2026-09-30T08:12:49+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "bf9655e4-5a9f-509a-90d0-1941fa82ad21",
+      "slug": "2026-09-30-szazmilliok-tuntek-el-a-miniszterelnokseg-papirjain",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Közélet",
+        "Miniszterelnökség",
+        "korrupció",
+        "feljelentés",
+        "nyomozás"
+      ],
+      "title": "Százmilliók tűntek el a Miniszterelnökség papírjain",
+      "subtitle": null,
+      "lead": "Hivatalos feljelentést tett a Miniszterelnökség korábbi szervezetfejlesztési megbízások miatt, miközben több volt minisztert is őrizetbe vettek a hatóságok. Az ügyek nyomán politikai viták és milliárdos tételek keverednek a közigazgatásban.",
+      "key_points": [
+        "A Miniszterelnökség 455 millió forintnyi kétes szerződés miatt tett feljelentést.",
+        "Hankó Balázs volt kulturális és innovációs minisztert Kecskemétre szállították kihallgatásra.",
+        "Rogán Antal egykori miniszter szerint politikai döntések állnak a hatósági intézkedések mögött."
+      ],
+      "content": "A hvg.hu beszámolója szerint a Ruff Bálint vezette Miniszterelnökség keddi közleményében költségvetési csalás, hűtlen kezelés és hivatali visszaélés gyanúja miatt tett feljelentést. A vizsgálat a p2m Informatika Szolgáltató Kft. és a p2m Consulting Szolgáltató és Tanácsadó Kft. által alkotott konzorcium szerződéseit érinti, amelyeket a 2023 és 2026 közötti időszakban kötöttek.\n\nA kancellária átvizsgálása alapján a 17 egyedi megrendelés közül 16 nem tartozott a szervezetfejlesztési keretszerződések tárgykörébe, hanem önálló szakpolitikai, társadalomtudományi, iparági, területfejlesztési, külpolitikai és lakáspiaci tanulmányokat tartalmazott, amelyek nem álltak kapcsolatban a megrendelő intézményi feladataival. A bruttó 455 millió forintos összegű ügyletek mellett más korrupciós és hivatali eljárások is zajlanak.\n\nA Fidesz-kormány volt kulturális és innovációs minisztere, Hankó Balázs ellen is eljárás indult, akit a Nemzeti Adó- és Vámhivatal műveleti egysége vett őrizetbe, majd szállított Kecskemétre. Védője, Tóth M. Gábor nyilatkozata szerint a politikus 25 oldalas vallomásban tagadta a bűncselekmény elkövetését, és kijelentette, hogy a jogszabályokat betartva cselekedett.\n\nAz ügyészség eközben visszautasította a nyomozókat érintő politikai nyomásgyakorlás vádját, miközben Rogán Antal volt propagandaminiszter újságíróknak nyilatkozva úgy fogalmazott, hogy a bűnüldöző szervek döntései mögött nem szakmai, hanem politikai utasítások állnak.",
+      "content_format": "markdown",
+      "body": [
+        "A hvg.hu beszámolója szerint a Ruff Bálint vezette Miniszterelnökség keddi közleményében költségvetési csalás, hűtlen kezelés és hivatali visszaélés gyanúja miatt tett feljelentést. A vizsgálat a p2m Informatika Szolgáltató Kft. és a p2m Consulting Szolgáltató és Tanácsadó Kft. által alkotott konzorcium szerződéseit érinti, amelyeket a 2023 és 2026 közötti időszakban kötöttek.",
+        "A kancellária átvizsgálása alapján a 17 egyedi megrendelés közül 16 nem tartozott a szervezetfejlesztési keretszerződések tárgykörébe, hanem önálló szakpolitikai, társadalomtudományi, iparági, területfejlesztési, külpolitikai és lakáspiaci tanulmányokat tartalmazott, amelyek nem álltak kapcsolatban a megrendelő intézményi feladataival. A bruttó 455 millió forintos összegű ügyletek mellett más korrupciós és hivatali eljárások is zajlanak.",
+        "A Fidesz-kormány volt kulturális és innovációs minisztere, Hankó Balázs ellen is eljárás indult, akit a Nemzeti Adó- és Vámhivatal műveleti egysége vett őrizetbe, majd szállított Kecskemétre. Védője, Tóth M. Gábor nyilatkozata szerint a politikus 25 oldalas vallomásban tagadta a bűncselekmény elkövetését, és kijelentette, hogy a jogszabályokat betartva cselekedett.",
+        "Az ügyészség eközben visszautasította a nyomozókat érintő politikai nyomásgyakorlás vádját, miközben Rogán Antal volt propagandaminiszter újságíróknak nyilatkozva úgy fogalmazott, hogy a bűnüldöző szervek döntései mögött nem szakmai, hanem politikai utasítások állnak."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 210,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 732,
+        "kind": "photo",
+        "alt": "Parliament building, Budapest",
+        "credit": "Dirk Beyer / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Parliament_4604.JPG"
+      },
+      "sources": [
+        {
+          "url": "https://hvg.hu/gazdasag/20260929_455-millio-forint-ketes-megrendeles-feljelentes-miniszterelnokseg-p2m",
+          "title": "Ruff Bálint tárcája 455 millió forintnyi kétes megrendelés miatt tett feljelentést",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T08:12:15+02:00"
+        },
+        {
+          "url": "https://telex.hu/belfold/2026/09/29/hanko-balazs-vedoje-toth-m-gabor-kihallgatas-orizet",
+          "title": "Hankót bilincsben szállították Kecskemétre, ahol hajnali háromig hallgatták ki",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T08:12:15+02:00"
+        },
+        {
+          "url": "https://telex.hu/belfold/2026/09/29/rogan-antal-hanko-balazs-es-sesztak-miklos-orizetbe-vetelerol",
+          "title": "Rogán Antal hunyurog a szemébe sütő naptól, elmondja a véleményét Hankóék előállításáról, majd besétál a Fidesz-székházba",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T08:12:15+02:00"
+        },
+        {
+          "url": "https://telex.hu/belfold/2026/09/29/lorincz-viktoria-feljelentes-videkfejlesztes-miniszterium",
+          "title": "Olyan cég kapott támogatást, aminek az államtitkár volt az egyik vezetője, Lőrincz Viktória feljelentést tett",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T08:12:15+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 14.65,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/gazdasag/20260929_455-millio-forint-ketes-megrendeles-feljelentes-miniszterelnokseg-p2m",
+          "https://telex.hu/belfold/2026/09/29/hanko-balazs-vedoje-toth-m-gabor-kihallgatas-orizet",
+          "https://telex.hu/belfold/2026/09/29/rogan-antal-hanko-balazs-es-sesztak-miklos-orizetbe-vetelerol",
+          "https://telex.hu/belfold/2026/09/29/lorincz-viktoria-feljelentes-videkfejlesztes-miniszterium"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/kozelet/2026-09-30-szazmilliok-tuntek-el-a-miniszterelnokseg-papirjain/",
+      "seo": {
+        "meta_title": "Százmilliók tűntek el a Miniszterelnökség papírjain",
+        "meta_description": "Hivatalos feljelentést tett a Miniszterelnökség korábbi szervezetfejlesztési megbízások miatt, miközben több volt minisztert is őrizetbe vettek a hatóságok. Az ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-09-30-szazmilliok-tuntek-el-a-miniszterelnokseg-papirjain/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "45ee592d87fb3b139e2662c7829826c2c4df106dc74c93cfbf08ec219b29b50c",
+      "pipeline_run_id": "36677026694",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T08:12:15+02:00",
+      "updated_at": "2026-09-30T08:12:15+02:00",
+      "published_at": "2026-09-30T08:12:15+02:00",
+      "expires_at": null
+    },
     {
       "id": "ea09d0b1-c943-5107-9b9e-0d3d9b75525a",
       "slug": "2026-09-30-uj-korszak-kuszoben-az-urkutatas-vilaga",
