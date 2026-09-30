@@ -1,7 +1,102 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T21:29:06+02:00",
+  "updated_at": "2026-09-30T21:31:29+02:00",
   "articles": [
+    {
+      "id": "c43dd20c-dbc6-5a24-9e75-e382b41d9c94",
+      "slug": "2026-09-30-kulonleges-fotot-osztott-meg-a-nasa",
+      "status": "published",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "Nemzetközi Űrállomás",
+        "NASA",
+        "csillagászat",
+        "Föld"
+      ],
+      "title": "Különleges fotót osztott meg a NASA",
+      "subtitle": null,
+      "lead": "Látványos, hosszú expozíciós felvételt készített a NASA a Nemzetközi Űrállomásról, amely a Banda-tenger felett keringve rögzítette a csillagok mozgását és a Föld fényeit. A 2026. szeptember 20-án rögzített kép egyszerre mutatja be a természetes égi jelenségeket és a lenti városok civilizációját.",
+      "key_points": [
+        "A NASA által közzétett hosszú expozíciós felvétel a Nemzetközi Űrállomásról készült 258 mérföldes magasságban.",
+        "A képen jól kivehetők a csillagok vonalai, a Banda-tenger, valamint az indonéz városok és halászhajók fényei.",
+        "A felvételt Anil Menon készítette a küldetés során."
+      ],
+      "content": "A Nemzetközi Űrállomás – amely az alacsony Föld körüli pályán keringő, nemzetközi összefogásban létrejött, hatalmas méretű kutatóbázis – abban a magasságban mozog, ahonnan bolygónk felszíni részletei és a világűr egyedülálló módon látszik. Ez olyan, mintha valaki egy rendkívül érzékeny kamerát helyezne el egy folyamatosan mozgó óriáskerék tetején, amelynek ablakából egyszerre látszana a messzi égbolt és a lenti nyüzsgő városi élet.\n\nA NASA hivatalos felvételén a csillagok mozgását jelző fényívek dominálnak a sötét égbolton, míg alul, a sötét vízű Banda-tenger felett az indonéz települések sárgás fényei és a halászhajók kék jelzőfényei rajzolnak ki éles kontrasztot. Anil Menon az űrállomás fedélzetéről rögzítette a pillanatot, amikor a szerkezet 258 mérföldes magasságban haladt.\n\nAz ehhez hasonló, hosszú expozíciós képek nemcsak esztétikai élményt nyújtanak, hanem segítenek a kutatóknak és a nagyközönségnek is vizuálisan megérteni az alacsony Föld körüli pálya léptékeit. A keringés során az űrhajósok naponta többször is megtapasztalják a nappalok és éjszakák váltakozását, ami egyedülálló rálátást biztosít bolygónk éjszakai arculatára.",
+      "content_format": "markdown",
+      "body": [
+        "A Nemzetközi Űrállomás – amely az alacsony Föld körüli pályán keringő, nemzetközi összefogásban létrejött, hatalmas méretű kutatóbázis – abban a magasságban mozog, ahonnan bolygónk felszíni részletei és a világűr egyedülálló módon látszik. Ez olyan, mintha valaki egy rendkívül érzékeny kamerát helyezne el egy folyamatosan mozgó óriáskerék tetején, amelynek ablakából egyszerre látszana a messzi égbolt és a lenti nyüzsgő városi élet.",
+        "A NASA hivatalos felvételén a csillagok mozgását jelző fényívek dominálnak a sötét égbolton, míg alul, a sötét vízű Banda-tenger felett az indonéz települések sárgás fényei és a halászhajók kék jelzőfényei rajzolnak ki éles kontrasztot. Anil Menon az űrállomás fedélzetéről rögzítette a pillanatot, amikor a szerkezet 258 mérföldes magasságban haladt.",
+        "Az ehhez hasonló, hosszú expozíciós képek nemcsak esztétikai élményt nyújtanak, hanem segítenek a kutatóknak és a nagyközönségnek is vizuálisan megérteni az alacsony Föld körüli pálya léptékeit. A keringés során az űrhajósok naponta többször is megtapasztalják a nappalok és éjszakák váltakozását, ami egyedülálló rálátást biztosít bolygónk éjszakai arculatára."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 198,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/1280px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 797,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "The International Space Station is featured in this image photographed by an STS-134 crew member on the space shuttle Endeavour after the station and shuttle began their post-undocking relative separa",
+        "credit": "NASA / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:STS-134_International_Space_Station_after_undocking.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/image-article/star-trails/",
+          "title": "Star Trails",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-09-30T21:26:03+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-09-30T21:31:29+02:00"
+      },
+      "hot_score": 5.69,
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/image-article/star-trails/"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/univerzum/2026-09-30-kulonleges-fotot-osztott-meg-a-nasa/",
+      "seo": {
+        "meta_title": "Különleges fotót osztott meg a NASA",
+        "meta_description": "Látványos, hosszú expozíciós felvételt készített a NASA a Nemzetközi Űrállomásról, amely a Banda-tenger felett keringve rögzítette a csillagok mozgását és a Föl",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-09-30-kulonleges-fotot-osztott-meg-a-nasa/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/1280px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "09ac07be39854047d1d2ef6d1ab8ea8fbd49ddeff92bd06859f3bf99a7ffec2e",
+      "pipeline_run_id": "36765260513",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T21:31:29+02:00",
+      "updated_at": "2026-09-30T21:31:29+02:00",
+      "published_at": "2026-09-30T21:31:29+02:00",
+      "expires_at": null
+    },
     {
       "id": "238afc54-e95e-55e1-a9ec-d98e5dcb3e77",
       "slug": "2026-09-30-nem-vart-huzas-a-tv2-musoraban",

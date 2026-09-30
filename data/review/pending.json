@@ -1137,9 +1137,9 @@
       ]
     },
     {
-      "id": "912ef8c1-cfb8-53dd-9662-ff7481cd5551",
-      "slug": "2026-09-30-igy-fest-a-fold-az-urbol-ejjel",
-      "status": "pending",
+      "id": "c43dd20c-dbc6-5a24-9e75-e382b41d9c94",
+      "slug": "2026-09-30-kulonleges-fotot-osztott-meg-a-nasa",
+      "status": "published",
       "category": "univerzum",
       "subcategory": null,
       "tags": [
@@ -1148,7 +1148,7 @@
         "csillagászat",
         "Föld"
       ],
-      "title": "Így fest a Föld az űrből éjjel",
+      "title": "Különleges fotót osztott meg a NASA",
       "subtitle": null,
       "lead": "Látványos, hosszú expozíciós felvételt készített a NASA a Nemzetközi Űrállomásról, amely a Banda-tenger felett keringve rögzítette a csillagok mozgását és a Föld fényeit. A 2026. szeptember 20-án rögzített kép egyszerre mutatja be a természetes égi jelenségeket és a lenti városok civilizációját.",
       "key_points": [
@@ -1307,11 +1307,11 @@
       },
       "date": "2026-09-30",
       "date_label": "szeptember 30.",
-      "url": "/univerzum/2026-09-30-igy-fest-a-fold-az-urbol-ejjel/",
+      "url": "/univerzum/2026-09-30-kulonleges-fotot-osztott-meg-a-nasa/",
       "seo": {
-        "meta_title": "Így fest a Föld az űrből éjjel",
+        "meta_title": "Különleges fotót osztott meg a NASA",
         "meta_description": "Látványos, hosszú expozíciós felvételt készített a NASA a Nemzetközi Űrállomásról, amely a Banda-tenger felett keringve rögzítette a csillagok mozgását és a Föl",
-        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-09-30-igy-fest-a-fold-az-urbol-ejjel/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-09-30-kulonleges-fotot-osztott-meg-a-nasa/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/1280px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -1329,9 +1329,9 @@
       "dedupe_hash": "09ac07be39854047d1d2ef6d1ab8ea8fbd49ddeff92bd06859f3bf99a7ffec2e",
       "pipeline_run_id": "36765260513",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-09-30T21:26:03+02:00",
-      "updated_at": "2026-09-30T21:26:03+02:00",
-      "published_at": "2026-09-30T21:26:03+02:00",
+      "created_at": "2026-09-30T21:31:29+02:00",
+      "updated_at": "2026-09-30T21:31:29+02:00",
+      "published_at": "2026-09-30T21:31:29+02:00",
       "expires_at": null,
       "review": {
         "title": 2,
@@ -1350,7 +1350,8 @@
           242
         ],
         "control_id": 243
-      }
+      },
+      "live": true
     }
   ]
 }
