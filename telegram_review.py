@@ -3,10 +3,12 @@
 Kollektíva – emberi jóváhagyás Telegramon
 =========================================
 
-Két mód (REVIEW_MODE környezeti változó):
-  post (alap): a hír AZONNAL kikerül (verseny a kattintásért), és a robot elküldi Telegramon utólagos
-               ellenőrzésre: cím- és képcsere, újraírás, törlés – a változás pár percen belül él.
-  pre:         a cikk csak jóváhagyás („Kirakom”) után jelenik meg.
+Módok (REVIEW_MODE környezeti változó):
+  hybrid (alap): a cikk jóváhagyásra vár; „✅ Kirakom” után azonnal kikerül. Ha AUTO_PUBLISH_MIN percen
+                 belül (alap: 30) nem döntesz, automatikusan kikerül (verseny a kattintásért). Kint lévő
+                 cikknél utólag is lehet címet/képet cserélni, újraíratni vagy törölni.
+  post:          a hír azonnal kikerül, Telegramon csak utólagos ellenőrzés.
+  pre:           csak jóváhagyás után jelenik meg (nincs automatikus kirakás).
 
 Egy cikkhez ezt kapod:
   1. fejléc: rovat, forróság, címjavaslatok, lead, „Röviden” pontok, források
@@ -15,15 +17,17 @@ Egy cikkhez ezt kapod:
   4. vezérlőüzenet gombokkal:  Cím 1–3 · Kép 1–4 / Nincs kép · ✅ Kirakom · 🔁 Újraírás · 🗑 Elvetem
 Saját cím: válaszolj (reply) a cikk bármelyik üzenetére a kívánt címmel.
 
-Futtatás: `python telegram_review.py` (GitHub Actions, 5 percenként) – feldolgozza a beérkezett
-gombnyomásokat/üzeneteket. Az első üzenet, amit a botnak írsz, összeköti a botot veled (chat ID).
+Futtatás: `python telegram_review.py --loop 600` (GitHub Actions) – kb. 10 percig figyeli a gombnyomásokat,
+és azonnal feldolgozza őket (a változás a mentés után 1–2 perccel él az oldalon). Az első üzenet, amit a botnak írsz, összeköti a botot veled (chat ID).
 
 Állapot: data/review/pending.json (függő cikkek), data/review/state.json (offset, chat ID, elvetett linkek).
 A token csak a TELEGRAM_BOT_TOKEN környezeti változóból jön, sehova nem íródik ki.
 """
 from __future__ import annotations
 
+import copy
 import html
+import subprocess
 import json
 import logging
 import os
@@ -32,7 +36,7 @@ import time
 import urllib.error
 import urllib.request
 import uuid
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 from zoneinfo import ZoneInfo
@@ -45,7 +49,8 @@ PENDING_FILE = REVIEW_DIR / "pending.json"
 STATE_FILE = REVIEW_DIR / "state.json"
 PENDING_MAX_AGE_H = int(os.getenv("PENDING_MAX_AGE_H", "48"))
 PUBLISH_FLAG = kc.BASE_DIR / ".published_flag"
-MODE = os.getenv("REVIEW_MODE", "post").strip().lower()
+MODE = os.getenv("REVIEW_MODE", "hybrid").strip().lower()
+AUTO_PUBLISH_MIN = int(os.getenv("AUTO_PUBLISH_MIN", "30"))
 E = lambda t: html.escape(str(t or ""), quote=False)  # noqa: E731
 
 
@@ -148,8 +153,9 @@ def _control(art: dict) -> tuple:
                  {"text": "🔁 Újraírás", "callback_data": f"{sid}|rw"},
                  {"text": "🗑 Törlés" if live else "🗑 Elvetem", "callback_data": f"{sid}|no"}])
     img_txt = f"{ii + 1}. kép" if ii >= 0 and imgs else "nincs kép"
-    state = (f"🟢 <b>Kint van</b> – {kc.SITE_URL}{art.get('url', '')}\nA cím- és képcsere pár percen belül él."
-             if live else "<b>Jóváhagyásra vár</b>")
+    auto = f"\nHa nem döntesz, {AUTO_PUBLISH_MIN} perc múlva magától kikerül." if MODE == "hybrid" else ""
+    state = (f"🟢 <b>Kint van</b> – {kc.SITE_URL}{art.get('url', '')}\nA cím- és képcsere 1–2 percen belül él."
+             if live else "⏳ <b>Jóváhagyásra vár</b> – válaszd ki a címet és a képet, majd: ✅ Kirakom." + auto)
     text = (f"{state}\n{E(kc.SECTIONS.get(art['category'], {}).get('name', art['category']))}\n"
             f"Cím: <b>{E(_chosen_title(art))}</b>\nKép: {img_txt}\n\n"
             "Saját címhez válaszolj (reply) erre az üzenetre a címmel.")
@@ -190,7 +196,7 @@ def send_article(_out_dir: Optional[Path], art: dict) -> None:
         ids.append(_mid(tg("sendPhoto", {"chat_id": chat, "photo": imgs[0]["url"], "caption": "1. kép"})))
     else:
         ids.append(_mid(tg("sendMessage", {"chat_id": chat, "text": "Ehhez a cikkhez nem találtam illő, szabad licencű képet."})))
-    art["review"] = {"title": 0, "image": 0 if imgs else -1, "sent_at": datetime.now().isoformat(timespec="seconds")}
+    art["review"] = {"title": 0, "image": 0 if imgs else -1, "sent_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
     text, kb = _control(art)
     ctl = _mid(tg("sendMessage", {"chat_id": chat, "text": text, "parse_mode": "HTML", "reply_markup": kb}))
     art["review"].update({"msg_ids": [i for i in ids if i], "control_id": ctl})
@@ -266,22 +272,50 @@ def _add_published(out_dir: Path, art: dict, tz: ZoneInfo) -> None:
                                 "articles": articles[:int(os.getenv("ARTICLES_ARCHIVE_LIMIT", "600"))]})
 
 
+def _go_live(out_dir: Path, art: dict, tz: ZoneInfo, auto: bool = False) -> dict:
+    """A függő cikk kikerül az oldalra; a függő listában „kint van” állapotban marad, hogy utólag is
+    lehessen címet/képet cserélni, újraíratni vagy törölni."""
+    final = publish(copy.deepcopy(art), tz)
+    if auto:
+        final["authorship"]["reviewed_by"] = None
+    _add_published(out_dir, final, tz)
+    for k in ("id", "slug", "url", "seo", "status", "title", "hero_image", "published_at", "created_at", "updated_at"):
+        art[k] = final[k]
+    art["live"] = True
+    return final
+
+
+def _age_min(art: dict) -> float:
+    ts = art.get("review", {}).get("sent_at") or art.get("created_at")
+    try:
+        t = datetime.fromisoformat(ts)
+    except (TypeError, ValueError):
+        return 0
+    if t.tzinfo is None:
+        t = t.replace(tzinfo=timezone.utc)  # a régi bejegyzések UTC-ben (GitHub Actions)
+    return (datetime.now(timezone.utc) - t).total_seconds() / 60
+
+
 # ---------------------------------------------------------------------------
 # Beérkezett válaszok feldolgozása
 # ---------------------------------------------------------------------------
 
-HELP = ("Szia! Ide küldöm az új Kollektíva-cikkeket. A hírek azonnal kikerülnek (🟢 KINT VAN), itt utólag javíthatod:\n\n"
-        "• Cím 1–3 / Kép 1–4 / Nincs kép: csere (pár percen belül él)\n• ✅ Rendben: lezárom az ellenőrzést\n"
-        "• 🔁 Újraírás: új változat ugyanazon a linken\n• 🗑 Törlés: lekerül az oldalról\n"
-        "• Saját cím: válaszolj a cikk üzenetére a címmel\n• /lista – ellenőrzésre váró cikkek")
+HELP = ("Szia! Ide küldöm az új Kollektíva-cikkeket jóváhagyásra.\n\n"
+        "• Cím 1–3 / Kép 1–4 / Nincs kép: csak kiválasztás (a ✓ jelzi, mi van kiválasztva)\n"
+        "• ✅ Kirakom: azonnal kikerül az oldalra (1–2 perc)\n"
+        f"• Ha {AUTO_PUBLISH_MIN} percen belül nem döntesz, magától kikerül\n"
+        "• Kint lévő cikknél (🟢): cím/kép csere, 🔁 Újraírás (ugyanazon a linken), 🗑 Törlés\n"
+        "• ✅ Rendben: lezárom az ellenőrzést\n"
+        "• Saját cím: válaszolj (reply) a cikk üzenetére a címmel\n• /lista – függő és kint lévő cikkek")
 
 
-def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None) -> int:
-    """Feldolgozza a Telegram-frissítéseket. Visszatér: hány cikk került ki."""
+def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -> int:
+    """Feldolgozza a Telegram-frissítéseket (wait > 0: ennyi mp-ig vár az új gombnyomásra).
+    Visszatér: hány változás történt az oldalon (kirakás, csere, törlés)."""
     tz = tz or ZoneInfo("Europe/Budapest")
     st, pending = load_state(), load_pending()
-    resp = tg("getUpdates", {"offset": st.get("offset", 0), "timeout": 0,
-                             "allowed_updates": ["message", "callback_query"]})
+    resp = tg("getUpdates", {"offset": st.get("offset", 0), "timeout": wait,
+                             "allowed_updates": ["message", "callback_query"]}, timeout=wait + 15)
     published, changed = 0, False
     for u in resp.get("result", []):
         st["offset"] = u["update_id"] + 1
@@ -312,7 +346,8 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None) -> int:
                 else:
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": "Ez a cikk már nincs függőben."})
             elif text.startswith("/lista"):
-                lines = [f"• {kc.SECTIONS.get(a['category'], {}).get('name', '')}: {_chosen_title(a)}" for a in pending]
+                lines = [f"{'🟢' if a.get('live') else '⏳'} {kc.SECTIONS.get(a['category'], {}).get('name', '')}: "
+                         f"{_chosen_title(a)}" for a in pending]
                 tg("sendMessage", {"chat_id": st["chat_id"], "text": "\n".join(lines) or "Nincs függő cikk."})
             elif text.startswith("/"):
                 tg("sendMessage", {"chat_id": st["chat_id"], "text": HELP})
@@ -347,14 +382,10 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None) -> int:
                 tg("editMessageText", {"chat_id": st["chat_id"], "message_id": q["message"]["message_id"],
                                        "text": f"✅ Rendben, lezárva: {_chosen_title(art)}"})
             elif act == "ok":
-                pending.remove(art)
-                final = publish(art, tz)
-                _add_published(out_dir, final, tz)
+                _go_live(out_dir, art, tz)
                 published += 1
-                note = "Kirakva ✅"
-                tg("editMessageText", {"chat_id": st["chat_id"], "message_id": q["message"]["message_id"],
-                                       "parse_mode": "HTML", "text": f"✅ <b>Kirakva</b> (pár perc múlva látszik):\n"
-                                       f"{E(final['title'])}\n{kc.SITE_URL}{final['url']}"})
+                note = "Kirakva ✅ (1–2 perc múlva látszik)"
+                _refresh_control(st["chat_id"], art)
             elif act == "no":
                 pending.remove(art)
                 st.setdefault("rejected_links", []).extend(art.get("category_meta", {}).get("source_links", []))
@@ -385,9 +416,19 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None) -> int:
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": "Az újraírás most nem sikerült, próbáld később."})
             if q:
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": note})
+    # automatikus kirakás, ha AUTO_PUBLISH_MIN percen belül nem jött döntés
+    if MODE == "hybrid":
+        for a in [a for a in pending if not a.get("live") and _age_min(a) >= AUTO_PUBLISH_MIN]:
+            _go_live(out_dir, a, tz, auto=True)
+            published += 1
+            changed = True
+            _refresh_control(st["chat_id"], a)
+            tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": a["review"].get("control_id"),
+                               "text": f"⏱ Nem jött döntés {AUTO_PUBLISH_MIN} percen belül, ezért kiraktam. "
+                                       "Utólag még cserélheted a címet/képet, vagy törölheted."})
     # lejárt függő cikkek
     limit = (datetime.now(tz) - timedelta(hours=PENDING_MAX_AGE_H)).isoformat()
-    for a in [a for a in pending if (a.get("created_at") or "") < limit]:
+    for a in [a for a in pending if (a.get("created_at") or "") < limit and (a.get("live") or MODE != "hybrid")]:
         pending.remove(a)  # az élő cikk kint marad, csak az ellenőrzés zárul le
         if not a.get("live"):
             st.setdefault("rejected_links", []).extend(a.get("category_meta", {}).get("source_links", []))
@@ -413,7 +454,19 @@ def _rewrite(art: dict, ai, tz: ZoneInfo) -> Optional[dict]:
     return new
 
 
-def main() -> int:
+def _save_to_git(label: str) -> None:
+    """GitHub Actionsben menti és feltölti a változást (a build-keretet a scripts/commit.sh figyeli)."""
+    if os.getenv("GITHUB_ACTIONS") == "true":
+        r = subprocess.run(["bash", "scripts/commit.sh", label], cwd=kc.BASE_DIR)
+        if r.returncode:
+            log.warning("A mentés nem sikerült (%s) – a következő körben újrapróbálom.", r.returncode)
+
+
+def main(argv: Optional[list] = None) -> int:
+    import argparse
+    p = argparse.ArgumentParser(description="Kollektíva – Telegram-jóváhagyás")
+    p.add_argument("--loop", type=int, default=0, help="ennyi másodpercig figyeli folyamatosan a gombnyomásokat")
+    args = p.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)-7s %(message)s", datefmt="%H:%M:%S")
     kc.load_dotenv(kc.BASE_DIR / ".env")
     if not os.getenv("TELEGRAM_BOT_TOKEN"):
@@ -421,10 +474,19 @@ def main() -> int:
         return 0
     cfg = kc.Config.from_env()
     tz = ZoneInfo(cfg.timezone)
-    n = poll(cfg.output_dir, None, tz)
-    if n:
-        kc.build_static_site(cfg.output_dir, tz)
-        log.info("✔ %d jóváhagyott cikk kirakva", n)
+    deadline = time.time() + max(0, args.loop)
+    while True:
+        before = (STATE_FILE.read_text() if STATE_FILE.exists() else "", PENDING_FILE.read_text() if PENDING_FILE.exists() else "")
+        left = int(deadline - time.time())
+        n = poll(cfg.output_dir, None, tz, wait=max(0, min(25, left)))
+        if n:
+            kc.build_static_site(cfg.output_dir, tz)
+            log.info("✔ %d változás az oldalon", n)
+        after = (STATE_FILE.read_text() if STATE_FILE.exists() else "", PENDING_FILE.read_text() if PENDING_FILE.exists() else "")
+        if n or after != before:
+            _save_to_git("Jóváhagyás")
+        if time.time() >= deadline - 2:
+            break
     return 0
 
 
