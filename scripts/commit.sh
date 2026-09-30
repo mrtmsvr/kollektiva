@@ -2,6 +2,7 @@
 # Kollektíva robot – mentés és feltöltés a Cloudflare build-keret figyelésével.
 # Havi keret: BUILD_BUDGET (alap 470 a 500-ból), a hónap napjaira egyenletesen elosztva. Ha elfogyott a
 # mai rész, a változás elmentődik [CF-Pages-Skip]-pel, és a következő szabad alkalommal kerül ki az oldalra.
+# Két kirakás között legalább MIN_DEPLOY_GAP_MIN perc (alap 8), hogy a sok gombnyomás ne egyenként építsen.
 set -u
 LABEL="${1:-Robot}"
 FLAG="data/deploy_pending"
@@ -17,7 +18,11 @@ if [ "$site_changed" = 1 ] || [ -f "$FLAG" ]; then
   dim=$(date -u -d "$month_start +1 month -1 day" +%-d)
   used=$(git log HEAD --since="${month_start}T00:00:00Z" --format=%s | grep -vc 'CF-Pages-Skip' || true)
   allowed=$(( ${BUILD_BUDGET:-470} * day / dim ))
-  if [ "${used:-0}" -lt "$allowed" ]; then
+  last=$(git log HEAD -1 --format=%ct --invert-grep --grep='CF-Pages-Skip' 2>/dev/null || echo 0)
+  gap=$(( $(date +%s) - ${last:-0} ))
+  if [ "$gap" -lt $(( ${MIN_DEPLOY_GAP_MIN:-8} * 60 )) ]; then
+    echo "Az előző kirakás óta csak ${gap} mp telt el – ez a változás a következő körrel kerül ki."; touch "$FLAG"
+  elif [ "${used:-0}" -lt "$allowed" ]; then
     deploy=1; rm -f "$FLAG"
   else
     echo "Build-keret: ${used}/${allowed} – a változás később kerül ki."; touch "$FLAG"
