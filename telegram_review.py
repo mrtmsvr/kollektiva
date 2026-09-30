@@ -379,7 +379,8 @@ HELP = ("Szia! Ide küldöm az új Kollektíva-cikkeket jóváhagyásra.\n\n"
         "• 🗓 Saját (időzített) anyag: csendesebb időszakban kerül ki magától, legkésőbb este\n"
         "• Kint lévő cikknél (🟢): cím/kép csere, 🔁 Újraírás (ugyanazon a linken), 🗑 Törlés\n"
         "• ✅ Rendben: jelzés, hogy megnézted – 48 óráig még módosíthatod\n"
-        "• ✏️ Saját cím: a gomb után írd be (vagy válaszolj „cím: …”)\n• /lista – függő és kint lévő cikkek")
+        "• ✏️ Saját cím: a gomb után írd be (vagy válaszolj „cím: …”)\n"
+        "• /torles <link vagy címrészlet> – kint lévő cikk leszedése bármikor\n• /lista – függő és kint lévő cikkek")
 
 
 def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -> int:
@@ -429,6 +430,20 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                                        "reply_to_message_id": m["message_id"]})
                 else:
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": "Ez a cikk már nincs függőben."})
+            elif text.startswith("/torles") or text.startswith("/törlés"):
+                # bármikor (a 48 órás szerkesztési idő után is) leszedhető egy kint lévő cikk: link vagy címrészlet alapján
+                qtxt = text.split(maxsplit=1)[1].strip().lower() if len(text.split(maxsplit=1)) > 1 else ""
+                live_arts = kc.read_json(out_dir / "articles.json", {"articles": []}).get("articles", [])
+                hits = [a for a in live_arts if qtxt and (qtxt in (a.get("url") or "").lower() or qtxt in a.get("title", "").lower())]
+                if len(hits) == 1:
+                    h = hits[0]
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": f"Biztosan leszedjem?\n{h['title']}\n{kc.SITE_URL}{h.get('url', '')}",
+                                       "reply_markup": {"inline_keyboard": [[{"text": "🗑 Igen, leszedem", "callback_data": f"del|{h['id'][:12]}"},
+                                                                            {"text": "Mégse", "callback_data": "del|x"}]]}})
+                else:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": (
+                        "Használat: /torles <link vagy címrészlet>" if not hits else
+                        f"{len(hits)} cikk illik rá, pontosíts:\n" + "\n".join("• " + a["title"] for a in hits[:8]))})
             elif text.startswith("/lista"):
                 lines = [f"{'🟢' if a.get('live') else '⏳'} {kc.SECTIONS.get(a['category'], {}).get('name', '')}: "
                          f"{_chosen_title(a)}" for a in pending]
@@ -440,6 +455,22 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
             if (q.get("message") or {}).get("chat", {}).get("id") != st.get("chat_id"):
                 continue
             parts = (q.get("data") or "").split("|")
+            if parts[0] == "del":
+                msg_id = q["message"]["message_id"]
+                if parts[1] == "x":
+                    tg("editMessageText", {"chat_id": st["chat_id"], "message_id": msg_id, "text": "Rendben, marad."})
+                else:
+                    live_arts = kc.read_json(out_dir / "articles.json", {"articles": []}).get("articles", [])
+                    h = next((a for a in live_arts if a.get("id", "").startswith(parts[1])), None)
+                    if h:
+                        _apply_live(out_dir, h, tz, remove=True)
+                        st.setdefault("rejected_links", []).extend(h.get("category_meta", {}).get("source_links", []))
+                        pending[:] = [p for p in pending if p.get("id") != h["id"]]
+                        published += 1
+                    tg("editMessageText", {"chat_id": st["chat_id"], "message_id": msg_id,
+                                           "text": f"🗑 Leszedve (1–2 perc): {h['title']}" if h else "Ez a cikk már nincs kint."})
+                tg("answerCallbackQuery", {"callback_query_id": q["id"]})
+                continue
             art = next((a for a in pending if a["id"].startswith(parts[0])), None)
             if not art:
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Ez a cikk már nincs függőben."})
