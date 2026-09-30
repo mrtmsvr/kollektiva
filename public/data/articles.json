@@ -1,7 +1,113 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T13:31:23+02:00",
+  "updated_at": "2026-09-30T13:34:01+02:00",
   "articles": [
+    {
+      "id": "b1e181b7-dc96-529d-9d6c-0cb0a076c8c6",
+      "slug": "2026-09-30-gyaszol-a-hazai-cirkuszvilag-elhunyt-a-recirquel-muvesze",
+      "status": "published",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Recirquel",
+        "cirkusz",
+        "gyász",
+        "Kultúra"
+      ],
+      "title": "Gyászol a hazai cirkuszvilág: elhunyt a Recirquel művésze",
+      "subtitle": null,
+      "lead": "Életének harminckettedik évében, közúti balesetben vesztette életét Nagy Ferenc Karádi-díjas cirkuszművész, a Recirquel társulatának tagja. A tragédia miatt a produkció több előadását is elhalasztották.",
+      "key_points": [
+        "Hétfőn közúti balesetben elhunyt Nagy Ferenc cirkuszművész.",
+        "A művész tavaly óta volt a Recirquel tagja, a Walk My World című előadásban Jupiter szerepét alakította.",
+        "A társulat kegyeleti okokból lemondta a csütörtöki és pénteki előadásait.",
+        "Az október 25-i produkció teljes jegybevételét a gyászoló családnak ajánlják fel."
+      ],
+      "content": "Hétfőn tragikus hirtelenséggel, közúti balesetben elhunyt Nagy Ferenc Karádi-díjas cirkuszművész, aki tavaly óta csatlakozott a Recirquel társulatához. A hír hallatán a művészeti közösség mély megrendüléssel reagált, kiemelve a művész egyedi színpadi jelenlétét és szakmai elhivatottságát.\n\nNagy Ferenc 2008-ban végzett az Állami Artistaképző Intézetben rhönrád szakon; pályájára nagy hatással volt Kováts Tibor balettművész, akire mentorként tekintett. Pályafutása során a világ számos országában fellépett, és munkásságának egyik legmeghatározóbb állomása volt a németországi Flic-Flac cirkusz is.\n\nMűvészi munkáját pályája során több rangos elismeréssel díjazták:\n\n- A porond ifjú csillaga díj\n\n- Karádi Béla-díj\n\n- Hortobágyi Károly-díj\n\n- A 8. Albacetei Nemzetközi Cirkuszfesztivál ezüstérme\n\nA Recirquel a gyász miatt átalakította műsorrendjét: a csütörtöki és pénteki Walk My World előadások elmaradnak, szombaton pedig gyászszünettel emlékeznek meg a művészről. Az október 25-i est teljes jegybevételét a család támogatására fordítják.",
+      "content_format": "markdown",
+      "body": [
+        "Hétfőn tragikus hirtelenséggel, közúti balesetben elhunyt Nagy Ferenc Karádi-díjas cirkuszművész, aki tavaly óta csatlakozott a Recirquel társulatához. A hír hallatán a művészeti közösség mély megrendüléssel reagált, kiemelve a művész egyedi színpadi jelenlétét és szakmai elhivatottságát.",
+        "Nagy Ferenc 2008-ban végzett az Állami Artistaképző Intézetben rhönrád szakon; pályájára nagy hatással volt Kováts Tibor balettművész, akire mentorként tekintett. Pályafutása során a világ számos országában fellépett, és munkásságának egyik legmeghatározóbb állomása volt a németországi Flic-Flac cirkusz is.",
+        "Művészi munkáját pályája során több rangos elismeréssel díjazták:",
+        "- A porond ifjú csillaga díj",
+        "- Karádi Béla-díj",
+        "- Hortobágyi Károly-díj",
+        "- A 8. Albacetei Nemzetközi Cirkuszfesztivál ezüstérme",
+        "A Recirquel a gyász miatt átalakította műsorrendjét: a csütörtöki és pénteki Walk My World előadások elmaradnak, szombaton pedig gyászszünettel emlékeznek meg a művészről. Az október 25-i est teljes jegybevételét a család támogatására fordítják."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 160,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/V%C3%A1gi_Bence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1801,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Vági Bence, a Recirquel Újcirkusz Társulat alapítója és művészeti vezetője.",
+        "credit": "Bálint Hirling, photographer / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:V%C3%A1gi_Bence.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://hvg.hu/kultura/20260930_kozuti-balesetben-elhunyt-a-recirquel-tarsulatanak-tagja",
+          "title": "Meghalt Nagy Ferenc, a Recirquel társulatának tagja",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T13:32:08+02:00"
+        },
+        {
+          "url": "https://telex.hu/karakter/kultura/2026/09/30/kozuti-balesetben-meghalt-nagy-ferenc-recirquel-tarsulat-tagja",
+          "title": "Balesetben meghalt a Recirquel Társulat egyik tagja",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T13:32:08+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-09-30T13:34:01+02:00"
+      },
+      "hot_score": 9.27,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/kultura/20260930_kozuti-balesetben-elhunyt-a-recirquel-tarsulatanak-tagja",
+          "https://telex.hu/karakter/kultura/2026/09/30/kozuti-balesetben-meghalt-nagy-ferenc-recirquel-tarsulat-tagja"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/kultura/2026-09-30-gyaszol-a-hazai-cirkuszvilag-elhunyt-a-recirquel-muvesze/",
+      "seo": {
+        "meta_title": "Gyászol a hazai cirkuszvilág: elhunyt a Recirquel művésze",
+        "meta_description": "Életének harminckettedik évében, közúti balesetben vesztette életét Nagy Ferenc Karádi-díjas cirkuszművész, a Recirquel társulatának tagja. A tragédia miatt a p",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-09-30-gyaszol-a-hazai-cirkuszvilag-elhunyt-a-recirquel-muvesze/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/V%C3%A1gi_Bence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "96415d189b88fd24021d0476794bd9be1a25df72312e781fb35c0bf12e103276",
+      "pipeline_run_id": "36709036752",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T13:34:01+02:00",
+      "updated_at": "2026-09-30T13:34:01+02:00",
+      "published_at": "2026-09-30T13:34:01+02:00",
+      "expires_at": null
+    },
     {
       "id": "702fff07-1b46-5e60-8dec-83b605d8a922",
       "slug": "2026-09-30-osszeverekedtek-a-pilotak-egy-utasszallito-repulogep-fedelzeten",
