@@ -1408,6 +1408,7 @@ RETRO_SECTION = {"id": "retro", "name": "Ekkor történt", "kicker": "Ekkor tör
 
 SECTIONS = {
     "kozelet": {
+        "voice": "tárgyilagos, pontos, higgadt; a tényeket és az érintettek álláspontját egymás mellé teszi, értékelés nélkül",
         "id": "kozelet", "name": "Közélet", "kicker": "Közélet",
         "tagline": "Belpolitika és közügyek – pártatlanul, érthetően.",
         "focus": "belpolitika, közügyek, társadalom, bűnügyek és közérdekű adatok – pártsemlegesen",
@@ -1415,12 +1416,14 @@ SECTIONS = {
                   ("https://hvg.hu/rss", r"Itthon", None)],
     },
     "vilag": {
+        "voice": "magyarázó külpolitikai elemző: földrajzi, történelmi kontextust ad, és elmondja, mit jelent ez Magyarországnak",
         "id": "vilag", "name": "Világ", "kicker": "Világ",
         "tagline": "Ami a világban történik – háttérrel, magyarul.",
         "focus": "külpolitika, nemzetközi események, háborúk és konfliktusok, világgazdaság – tényszerűen",
         "feeds": [("https://telex.hu/rss", r"Külföld|Világ", None), ("https://hvg.hu/rss", r"Világ|Külföld", None)],
     },
     "penzvilag": {
+        "voice": "józan, gyakorlatias gazdasági újságíró: számokkal dolgozik, és mindig lefordítja, mit jelent a pénztárcának",
         "id": "penzvilag", "name": "Pénzvilág", "kicker": "Pénzvilág",
         "tagline": "Árfolyamok, infláció, bérek – mit jelentenek a számok a pénztárcádnak.",
         "focus": "gazdaság, pénzügyek, árfolyamok, infláció, bérek, befektetés – a hétköznapi olvasó szemszögéből",
@@ -1428,6 +1431,7 @@ SECTIONS = {
                   ("https://telex.hu/rss", r"Gazdaság|Vállalat", ECON)],
     },
     "tech": {
+        "voice": "közérthető, kíváncsi tech-újságíró: a szakszavakat egy félmondatban elmagyarázza, túlzó hype nélkül",
         "id": "tech", "name": "Tech / Jövő", "kicker": "Tech / Jövő",
         "tagline": "Mesterséges intelligencia, eszközök és a digitális élet változásai.",
         "focus": "technológia, mesterséges intelligencia, digitális eszközök, tudomány gyakorlati hatásai",
@@ -1435,6 +1439,7 @@ SECTIONS = {
                   ("https://hvg.hu/rss", r"Tech|Tudomány", None)],
     },
     "eletmod": {
+        "voice": "barátságos, tudományosan megalapozott: a kutatási eredményt a helyén kezeli (egy vizsgálat nem bizonyíték), praktikus",
         "id": "eletmod", "name": "Életmód & Egészség", "kicker": "Életmód",
         "tagline": "Mozgás, alvás, táplálkozás, mentális jóllét – forrásokkal alátámasztva.",
         "focus": "egészség, mozgás, edzés, alvás, táplálkozás, mentális jóllét – kutatási eredmények érthetően",
@@ -1443,12 +1448,14 @@ SECTIONS = {
                   ("https://telex.hu/rss", r"^Élet$", HEALTH), ("https://hvg.hu/rss", r"Élet|egészség", HEALTH)],
     },
     "kultura": {
+        "voice": "élvezetes kulturális kritikus: érzékletes, személyes hangú, de nem nagyképű",
         "id": "kultura", "name": "Kultúra & Ajánló", "kicker": "Kultúra",
         "tagline": "Film, sorozat, könyv, zene és programok válogatva.",
         "focus": "film, sorozat, könyv, zene, színház, kiállítás, programajánló",
         "feeds": [("https://telex.hu/rss", r"Kultúra", None), ("https://hvg.hu/rss", r"Kult", None)],
     },
     "bulvar": {
+        "voice": "könnyed, szórakoztató, kacsintós, de soha nem bántó vagy lekezelő",
         "id": "bulvar", "name": "Bulvár", "kicker": "Bulvár",
         "tagline": "Sztárok, show és az internet legfurcsább történetei.",
         "focus": ("sztárok, hírességek, showbiznisz, tévéműsorok, virális és furcsa történetek – könnyed hangon, de "
@@ -1457,6 +1464,7 @@ SECTIONS = {
                   ("https://www.borsonline.hu/publicapi/hu/rss/bors/articles", None, None)],
     },
     "univerzum": {
+        "voice": "lelkes ismeretterjesztő: léptékeket érzékeltet hétköznapi hasonlatokkal (pl. „ez olyan, mintha…”)",
         "id": "univerzum", "name": "Univerzum", "kicker": "Univerzum",
         "tagline": "Csillagászat és űrkutatás, érthetően.",
         "focus": "csillagászat, űrkutatás, bolygók, űrmissziók",
@@ -1731,6 +1739,7 @@ def section_prompt(section: dict, story: list, d: date, context: Optional[list] 
                      "de csak ha tényleg ugyanarról szól; új tényt ne találj ki belőlük):\n"
                      + "\n".join(f"- {p['date']}: {p['title']} – {p.get('lead') or ''}" for p in past) + "\n")
     return f"""Rovat: {section['name']} ({section['focus']}). Dátum: {hu_date(d)}.
+A rovat hangja: {section.get('voice', 'természetes, újságírói')}.
 
 Forráskivonatok:
 {src}
