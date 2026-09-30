@@ -1,3 +1,696 @@
 {
-  "articles": []
+  "articles": [
+    {
+      "id": "1ab27d1e-c67c-5f36-974f-37c01caf7ea6",
+      "slug": "2026-09-30-harom-eve-nem-latott-kulkereskedelmi-hiany-jott-ossze-magyarorszagon",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "gazdaság",
+        "forint",
+        "külkereskedelem",
+        "tőzsde"
+      ],
+      "title": "Három éve nem látott külkereskedelmi hiány jött össze Magyarországon",
+      "subtitle": null,
+      "lead": "Augusztusban a kivitel stagnálása és a behozatal jelentős növekedése miatt 2023 óta nem látott külkereskedelmi hiány keletkezett Magyarországon. Ezzel párhuzamosan a hazai deviza is hullámvasútra ült a nemzetközi pénzpiacokon.",
+      "key_points": [
+        "Augusztusban gyakorlatilag stagnált a magyar export, míg az import jelentősen nőtt.",
+        "A folyamatok eredményeként 2023 óta nem látott külkereskedelmi hiány alakult ki.",
+        "A forint a nap folyamán 366,2-es euróárfolyam környékén is járt.",
+        "A tőzsdén az OTP részvényei emelkedtek, míg a Mol árfolyama csökkent."
+      ],
+      "content": "## Külkereskedelmi pofon és devizamozgások\n\nAugusztusban a magyar export gyakorlatilag stagnált, miközben az import volumene jelentős mértékben emelkedett. Ez oda vezetett, hogy 2023 óta nem látott külkereskedelmi hiány jött össze az év nyolcadik hónapjában. A Portfolio beszámolója szerint a nemzetközi devizapiacokon is mozgalmasan telt a szerda: a forint a nap folyamán a 365,5-ös napi csúcsról 366,2-es euróárfolyamig gyengült vissza, míg a dollárral szemben 322 környékére korrigált.\n\n## Mozgásban a hazai nagypapírok\n\nKözben a hazai tőzsdén is markáns mozgások zajlottak a szerdai kereskedésben. A nap elején az OTP részvénye 0,7 százalékkal 44 090 forintra drágult, miután kiderült, hogy év végéig megszülethet a döntés a pénzintézet oroszországi piacának elhagyásáról. Ezzel szemben a Mol árfolyama 0,3 százalékkal 5035 forintra süllyedt a keddi komolyabb zuhanást követően, a Richter kurzusa pedig 12 330 forinton stagnált.",
+      "content_format": "markdown",
+      "body": [
+        "## Külkereskedelmi pofon és devizamozgások",
+        "Augusztusban a magyar export gyakorlatilag stagnált, miközben az import volumene jelentős mértékben emelkedett. Ez oda vezetett, hogy 2023 óta nem látott külkereskedelmi hiány jött össze az év nyolcadik hónapjában. A Portfolio beszámolója szerint a nemzetközi devizapiacokon is mozgalmasan telt a szerda: a forint a nap folyamán a 365,5-ös napi csúcsról 366,2-es euróárfolyamig gyengült vissza, míg a dollárral szemben 322 környékére korrigált.",
+        "## Mozgásban a hazai nagypapírok",
+        "Közben a hazai tőzsdén is markáns mozgások zajlottak a szerdai kereskedésben. A nap elején az OTP részvénye 0,7 százalékkal 44 090 forintra drágult, miután kiderült, hogy év végéig megszülethet a döntés a pénzintézet oroszországi piacának elhagyásáról. Ezzel szemben a Mol árfolyama 0,3 százalékkal 5035 forintra süllyedt a keddi komolyabb zuhanást követően, a Richter kurzusa pedig 12 330 forinton stagnált."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 163,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Budapest Stock Exchange",
+        "credit": "Leonard Chien / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_stock_exchange.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/deviza/20260930/lenduletet-vett-a-forint-de-hatra-van-meg-a-fekete-leves-866176",
+          "title": "Lendületet vett a forint, de hátra van még a fekete leves",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T10:34:03+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/penz-es-tokepiac/2026/09/megindult-az-otp-erosit-a-forint-is?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Megindult az OTP, erősít a forint is",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T10:34:03+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 7.0,
+      "title_options": [
+        "Három éve nem látott külkereskedelmi hiány jött össze Magyarországon",
+        "Megtorpant az export, kilőtt az import augusztusban",
+        "Komoly pofont kapott a magyar külkereskedelem"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Budapest Stock Exchange",
+          "credit": "Leonard Chien / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_stock_exchange.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest's Stock Exchange Palace in Szabadság tér.",
+          "credit": "Illustratedjc / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/100_Forint_Comemmorative_Army_Front.jpg/1280px-100_Forint_Comemmorative_Army_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The forint was released on 2023 May 22 as a comemmoration of the Hungarian Army.",
+          "credit": "ByRussia45 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:100_Forint_Comemmorative_Army_Front.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/50_Forint_Comemmorative_Ambulance_Front.jpg/1280px-50_Forint_Comemmorative_Ambulance_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The coin was released on 2023 May 9 as a comemmoration of the establishment of the Hungarian Ambulance Services.",
+          "credit": "ByRussia45 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:50_Forint_Comemmorative_Ambulance_Front.jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "Lendületet vett a forint, de hátra van még a fekete leves",
+          "link": "https://www.portfolio.hu/deviza/20260930/lenduletet-vett-a-forint-de-hatra-van-meg-a-fekete-leves-866176",
+          "summary": "A dollár erősödéssel kezdte a szerda reggelt, az amerikai fizetőeszköz az idei csúcs közelében járt az euróval szemben, de a jenhez képest gyengült, míg a kínai jüan sorozatban hetedik negyedéves erősödése felé tart. A nap kiemelt eseményei közé tartoznak az európai inflációs adatok és az amerikai PCE-infláció, amelyek a Fed következő lépéseit is befolyásolhatják. A forint szerda reggel erősödött mind az euróval, mind a dollárral szemben, szeptemberben összességében azonban gyengült mindkét devizához képest.",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 7.0
+        },
+        {
+          "title": "Megindult az OTP, erősít a forint is",
+          "link": "https://www.vg.hu/penz-es-tokepiac/2026/09/megindult-az-otp-erosit-a-forint-is?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "summary": "Erőre kapott a BUX szerda reggel.",
+          "source": "vg.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/deviza/20260930/lenduletet-vett-a-forint-de-hatra-van-meg-a-fekete-leves-866176"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/penzvilag/2026-09-30-harom-eve-nem-latott-kulkereskedelmi-hiany-jott-ossze-magyarorszagon/",
+      "seo": {
+        "meta_title": "Három éve nem látott külkereskedelmi hiány jött össze Magyar",
+        "meta_description": "Augusztusban a kivitel stagnálása és a behozatal jelentős növekedése miatt 2023 óta nem látott külkereskedelmi hiány keletkezett Magyarországon. Ezzel párhuzamo",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-09-30-harom-eve-nem-latott-kulkereskedelmi-hiany-jott-ossze-magyarorszagon/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "7779f25bc4dad045d178f7a6375cf3e19fed6a5b5e64ad1c8bea38f764f6cc0d",
+      "pipeline_run_id": "36690486430",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T10:34:03+02:00",
+      "updated_at": "2026-09-30T10:34:03+02:00",
+      "published_at": "2026-09-30T10:34:03+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-09-30T08:34:53",
+        "msg_ids": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "control_id": 10
+      }
+    },
+    {
+      "id": "e9458f5c-1794-58d4-972f-38605fcee30f",
+      "slug": "2026-09-30-mi-rejtozik-az-urkutatas-mindennapjai-mogott",
+      "status": "pending",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "űrkutatás",
+        "csillagászat",
+        "SpaceX"
+      ],
+      "title": "Mi rejtőzik az űrkutatás mindennapjai mögött?",
+      "subtitle": null,
+      "lead": "A NASA folyamatosan frissülő missziói és kutatásai képet adnak a jövő űrrepülési terveiről. Az ügynökség egyszerre készít elő emberes küldetéseket, bolygókutató egységeket és csillagászati mérföldköveket.",
+      "key_points": [
+        "A NASA jelenleg is több aktív és készülő űrmisszión dolgozik.",
+        "A programok között égitestek kutatása és űrhajós-küldetések is szerepelnek.",
+        "A kutatók folyamatosan elemzik a Naprendszer és a távoli univerzum jelenségeit."
+      ],
+      "content": "Az amerikai űrügynökség folyamatosan frissülő programjai a Föld közeli pályáktól egészen a távoli galaxisok vizsgálatáig terjednek. A hivatalos adatbázisok és a naponta frissülő csillagászati felvételek jól mutatják, hányféle területen zajlik egyszerre kutatómunka.\n\n- A SpaceX Crew-13 küldetés előkészületei az emberes űrrepülés kérdéseit vizsgálják.\n- A DAVINCI elnevezésű program a Vénusz perzselő légkörébe való ereszkedéstkészíti elő.\n- A Hubble űrtávcső eközben újabb mérföldköveket ér el a szupernóvák kutatásában.\n\nA mindennapi tudományos munka nemcsak a rakéták indításáról szól, hanem a Föld klímaváltozásáról, a naprendszerbeli égitestek összetételéről és a jövőbeli holdbázisok kommunikációs kihívásairól is. A kutatók olyan részletekre fókuszálnak, mint a Mars ősi vizes rendszerei vagy a fekete lyukak környezetének viselkedése.\n\nA következő időszakban a nemzetközi együttműködések és az új technológiai tesztek határozzák meg a kutatások irányát, amelyek végül a jövőbeli emberes expedíciók biztonságát szolgálják.",
+      "content_format": "markdown",
+      "body": [
+        "Az amerikai űrügynökség folyamatosan frissülő programjai a Föld közeli pályáktól egészen a távoli galaxisok vizsgálatáig terjednek. A hivatalos adatbázisok és a naponta frissülő csillagászati felvételek jól mutatják, hányféle területen zajlik egyszerre kutatómunka.",
+        "- A SpaceX Crew-13 küldetés előkészületei az emberes űrrepülés kérdéseit vizsgálják.\n- A DAVINCI elnevezésű program a Vénusz perzselő légkörébe való ereszkedéstkészíti elő.\n- A Hubble űrtávcső eközben újabb mérföldköveket ér el a szupernóvák kutatásában.",
+        "A mindennapi tudományos munka nemcsak a rakéták indításáról szól, hanem a Föld klímaváltozásáról, a naprendszerbeli égitestek összetételéről és a jövőbeli holdbázisok kommunikációs kihívásairól is. A kutatók olyan részletekre fókuszálnak, mint a Mars ősi vizes rendszerei vagy a fekete lyukak környezetének viselkedése.",
+        "A következő időszakban a nemzetközi együttműködések és az új technológiai tesztek határozzák meg a kutatások irányát, amelyek végül a jövőbeli emberes expedíciók biztonságát szolgálják."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 155,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg/1280px-Katherine_Johnson_at_NASA%2C_in_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1513,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Katherine Johnson, NASA employée, mathematician and physicist, in 1966",
+        "credit": "Adam Cuerden / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_at_NASA,_in_1966.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/image-article/apod-2026-september-30-arp-78-peculiar-galaxy-in-aries/",
+          "title": "APOD: 2026 September 30 – Arp 78: Peculiar Galaxy in Aries",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-09-30T10:35:01+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.88,
+      "title_options": [
+        "Mi rejtőzik az űrkutatás mindennapjai mögött?",
+        "Ezt a rengeteg küldetést készíti elő a NASA",
+        "Így zajlik a folyamatos készülődés a világűrben"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg/1280px-Katherine_Johnson_at_NASA%2C_in_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1513,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Katherine Johnson, NASA employée, mathematician and physicist, in 1966",
+          "credit": "Adam Cuerden / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_at_NASA,_in_1966.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/STS-129_Atlantis_Ready_to_Fly.jpg/1280px-STS-129_Atlantis_Ready_to_Fly.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 792,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The Space Shuttle Atlantis is seen on launch pad 39A at the NASA Kennedy Space Center shortly after the rotating service structure was rolled back on Nov. 15, 2009. Atlantis is scheduled to launch at",
+          "credit": "Bill Ingalls / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:STS-129_Atlantis_Ready_to_Fly.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/1280px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 797,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The International Space Station is featured in this image photographed by an STS-134 crew member on the space shuttle Endeavour after the station and shuttle began their post-undocking relative separa",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:STS-134_International_Space_Station_after_undocking.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/ISS_March_2009.jpg/1280px-ISS_March_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 904,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The International Space Station as seen from the departing Space Shuttle Discovery during STS-119. In view are the four pairs of solar arrays mounted along the newly-completed Integrated Truss Structu",
+          "credit": "National Aeronautics and Space Administration (Q23548) / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:ISS_March_2009.jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "APOD: 2026 September 30 – Arp 78: Peculiar Galaxy in Aries",
+          "link": "https://science.nasa.gov/image-article/apod-2026-september-30-arp-78-peculiar-galaxy-in-aries/",
+          "summary": "APOD Science APOD APOD: 2026 September 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Arp 78: Peculiar […]",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": 5.88
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://science.nasa.gov/image-article/apod-2026-september-30-arp-78-peculiar-galaxy-in-aries/"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/univerzum/2026-09-30-mi-rejtozik-az-urkutatas-mindennapjai-mogott/",
+      "seo": {
+        "meta_title": "Mi rejtőzik az űrkutatás mindennapjai mögött?",
+        "meta_description": "A NASA folyamatosan frissülő missziói és kutatásai képet adnak a jövő űrrepülési terveiről. Az ügynökség egyszerre készít elő emberes küldetéseket, bolygókutató",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-09-30-mi-rejtozik-az-urkutatas-mindennapjai-mogott/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg/1280px-Katherine_Johnson_at_NASA%2C_in_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "0dc84ff34cd9b91224e1ae1b300906fe4cb2d1f57f774e8b608f722bb6904440",
+      "pipeline_run_id": "36690486430",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T10:35:01+02:00",
+      "updated_at": "2026-09-30T10:35:01+02:00",
+      "published_at": "2026-09-30T10:35:01+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-09-30T08:35:33",
+        "msg_ids": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "control_id": 17
+      }
+    },
+    {
+      "id": "cc6c3523-8ed9-5c18-9bdf-449758e52922",
+      "slug": "2026-09-30-elindult-a-fidesz-uj-online-platformja",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Fidesz",
+        "NVVH",
+        "Orbán Viktor",
+        "Tisza-kormány",
+        "közélet"
+      ],
+      "title": "Elindult a Fidesz új online platformja",
+      "subtitle": null,
+      "lead": "Elindult a Fidesz oldalán az ÁVH-figyelő, amellyel a kormánypárt a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatalt célozza meg. Orbán Viktor szerint az új intézmény csupán figyelemelterelés a gazdasági nehézségekről.",
+      "key_points": [
+        "A Fidesz elindította az ÁVH-figyelőt a hivatalos oldalán.",
+        "A célkeresztben a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal áll.",
+        "A Tisza-kormány által felállított hivatalt a fideszes vezetés élesen bírálja.",
+        "A volt miniszterelnök szerint a szervezet feladata a valós gazdasági problémák elfedése."
+      ],
+      "content": "Elindult a Fidesz oldalán az ÁVH-figyelő nevű felület, amely a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) tevékenységét és vezetőit veszi górcső alá. Orbán Viktor, a Fidesz elnöke és korábbi miniszterelnök a közösségi oldalán úgy fogalmazott, hogy a Tisza-kormány által létrehozott szervezet bárkire lecsaphat, lehallgathat, valamint besúgásra kényszeríthet.\n\nA portálon jelenleg Unger Anna és Tasnády Katalin, az NVVH két vezetőjének életrajza, valamint egy kritikus fideszes narratíva olvasható. A kormánypárti álláspont szerint a hivatal felállítása csupán arra szolgál, hogy elterelje a közfigyelmet a benzinárakról, az államadósságról és az elmaradt béremelésekről.\n\nEzzel párhuzamosan a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal hétfő reggel jelentette be azt a négy ügyet, amelyet saját hatáskörbe von, és erről tájékoztatta a Központi Nyomozó Főügyészséget, valamint a Nemzeti Nyomozó Iroda vezetőjét. Az ügy kapcsán jogi viták is kibontakoztak, miután az ügyészség elutasította a Fekete-Győr András által benyújtott feljelentést, amelyet a politikus a hivatal dolgozóinak megfenyegetése miatt kezdeményezett.",
+      "content_format": "markdown",
+      "body": [
+        "Elindult a Fidesz oldalán az ÁVH-figyelő nevű felület, amely a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) tevékenységét és vezetőit veszi górcső alá. Orbán Viktor, a Fidesz elnöke és korábbi miniszterelnök a közösségi oldalán úgy fogalmazott, hogy a Tisza-kormány által létrehozott szervezet bárkire lecsaphat, lehallgathat, valamint besúgásra kényszeríthet.",
+        "A portálon jelenleg Unger Anna és Tasnády Katalin, az NVVH két vezetőjének életrajza, valamint egy kritikus fideszes narratíva olvasható. A kormánypárti álláspont szerint a hivatal felállítása csupán arra szolgál, hogy elterelje a közfigyelmet a benzinárakról, az államadósságról és az elmaradt béremelésekről.",
+        "Ezzel párhuzamosan a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal hétfő reggel jelentette be azt a négy ügyet, amelyet saját hatáskörbe von, és erről tájékoztatta a Központi Nyomozó Főügyészséget, valamint a Nemzeti Nyomozó Iroda vezetőjét. Az ügy kapcsán jogi viták is kibontakoztak, miután az ügyészség elutasította a Fekete-Győr András által benyújtott feljelentést, amelyet a politikus a hivatal dolgozóinak megfenyegetése miatt kezdeményezett."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 179,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Viktor_Orb%C3%A1n.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1171,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Viktor Orban",
+        "credit": "Romiro / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Orb%C3%A1n.png"
+      },
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20260930_orban-viktor-elindult-a-fidesz-oldalan-az-avh-figyelo",
+          "title": "Orbán Viktor: Elindult a Fidesz oldalán az ÁVH-figyelő",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T10:35:41+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.68,
+      "title_options": [
+        "Elindult a Fidesz új online platformja",
+        "ÁVH-figyelő néven indított oldalt a Fidesz",
+        "Orbán Viktor bírálja az új vagyonvisszaszerzési hivatalt"
+      ],
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Viktor_Orb%C3%A1n.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1171,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Viktor Orban",
+          "credit": "Romiro / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Orb%C3%A1n.png"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Viktor_Orb%C3%A1n_leaving_the_Kremlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 741,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Hungarian Prime Minister Viktor Orbán leaving the Moscow Kremlin after meeting with Russian President Vladimir Putin",
+          "credit": "kremlin.ru / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Orb%C3%A1n_leaving_the_Kremlin.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Fidesz_szekhaz_Szentkiralyi_18_Budapest_2010-03-15_IMG_0453-1000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Fidesz-pártszékház (Budapest, VIII. ker., Szentkirályi utca 18.)",
+          "credit": "Misibacsi at Hungarian Wikipedia / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fidesz_szekhaz_Szentkiralyi_18_Budapest_2010-03-15_IMG_0453-1000.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Fidesz_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1366,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "A Fidesz logója",
+          "credit": "https://www.fidesz.hu/index.php / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fidesz_logo.png"
+        }
+      ],
+      "story": [
+        {
+          "title": "Orbán Viktor: Elindult a Fidesz oldalán az ÁVH-figyelő",
+          "link": "https://hvg.hu/itthon/20260930_orban-viktor-elindult-a-fidesz-oldalan-az-avh-figyelo",
+          "summary": "A Fidesz elnöke szerint a Tisza-kormány azért állította fel az általa „ÁVH-nak” nevezett szervezetet, azaz a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatalt, hogy elterelje a figyelmet többek között a benzinárakról, az államadósságról és az elmaradt béremelésekről.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.68
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20260930_orban-viktor-elindult-a-fidesz-oldalan-az-avh-figyelo"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/kozelet/2026-09-30-elindult-a-fidesz-uj-online-platformja/",
+      "seo": {
+        "meta_title": "Elindult a Fidesz új online platformja",
+        "meta_description": "Elindult a Fidesz oldalán az ÁVH-figyelő, amellyel a kormánypárt a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatalt célozza meg. Orbán Viktor szerint az ú",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-09-30-elindult-a-fidesz-uj-online-platformja/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Viktor_Orb%C3%A1n.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "2feb8961a777c9ddfd3166225f51086eab2917dfd3c749cb71433c1403d5f3af",
+      "pipeline_run_id": "36690486430",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T10:35:41+02:00",
+      "updated_at": "2026-09-30T10:35:41+02:00",
+      "published_at": "2026-09-30T10:35:41+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-09-30T08:36:34",
+        "msg_ids": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "control_id": 24
+      }
+    },
+    {
+      "id": "8055701a-2ee0-5fbd-b9e6-15acf26a5bb2",
+      "slug": "2026-09-30-mrns-koktellal-tuntettek-el-a-hasnyalmirigyrakot",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "mRNS",
+        "hasnyálmirigyrák",
+        "immunterápia",
+        "egérkísérlet",
+        "orvostudomány"
+      ],
+      "title": "MRNS-koktéllal tüntették el a hasnyálmirigyrákot",
+      "subtitle": null,
+      "lead": "Egy kísérleti mRNS-kezelés hatására teljesen eltűntek a hasnyálmirigyrákos daganatok az egerekből, és a betegség egy év elteltével sem újult ki. A UMass Chan Orvosi Egyetem kutatóinak áttörése a Covid-vakcinák sikereire épül.",
+      "key_points": [
+        "Az mRNS-koktél aktiválja az immunrendszert, és áttöri a daganat védőszövetét.",
+        "A kísérleti egerek közel felénél teljesen eltűntek a rákos sejtek.",
+        "A kezelés után egy évvel sem tért vissza a betegség.",
+        "Az emberi klinikai alkalmazáshoz még további vizsgálatok szükségesek."
+      ],
+      "content": "A UMass Chan Orvosi Egyetem kutatói olyan kísérleti eljárást fejlesztettek ki, amely hírvivő RNS-ek koktélját használja a nehezen kezelhető hasnyálmirigyrák leküzdésére. A módszer az immunrendszer aktiválásával, a daganatot körülvevő védőszövet áttörésével és az immunsejtek támogatásával éri el, hogy azok fenyegetésként ismerjék fel a rákos sejteket.\n\nA hasnyálmirigyrák az egyik legellenállóbb daganatfajta, mivel egy sűrű, heges-rostos szövetből álló burok veszi körül, amely távol tartja a gyógyszereket és az immunsejteket. Emellett úgynevezett immunológiailag hideg daganatként viselkedik, amely megakadályozza a T-sejtek bejutását.\n\nAz amerikai fejlesztés során a sejtek ideiglenes genetikai utasításkészletet kapnak, amely öt citokin- és három tumorantigén-mRNS kombinációját tartalmazza. A citokin-mRNS-ek az immuntámadást indítják be, míg az antigének idegen anyagként jelölik meg a rákos sejteket.\n\nA Nature Communications folyóiratban ismertetett eredmények szerint a kezelés hatására meggyengült a tumor fizikai védelme, és fokozott sejtpusztulás ment végbe. A kezelt egerek közel felénél a daganatok eltűntek, és az állapot egy év múlva is fennállt, ami hosszan tartó immunmemóriára utal.\n\nBár a fejlesztést a Covid-vakcinák terén elért eredmények ihlették, a kutatók hangsúlyozzák, hogy jelenleg csak egérkísérletekről van szó. Az emberi alkalmazáshoz további fejlesztésekre és klinikai vizsgálatokra lesz szükség.",
+      "content_format": "markdown",
+      "body": [
+        "A UMass Chan Orvosi Egyetem kutatói olyan kísérleti eljárást fejlesztettek ki, amely hírvivő RNS-ek koktélját használja a nehezen kezelhető hasnyálmirigyrák leküzdésére. A módszer az immunrendszer aktiválásával, a daganatot körülvevő védőszövet áttörésével és az immunsejtek támogatásával éri el, hogy azok fenyegetésként ismerjék fel a rákos sejteket.",
+        "A hasnyálmirigyrák az egyik legellenállóbb daganatfajta, mivel egy sűrű, heges-rostos szövetből álló burok veszi körül, amely távol tartja a gyógyszereket és az immunsejteket. Emellett úgynevezett immunológiailag hideg daganatként viselkedik, amely megakadályozza a T-sejtek bejutását.",
+        "Az amerikai fejlesztés során a sejtek ideiglenes genetikai utasításkészletet kapnak, amely öt citokin- és három tumorantigén-mRNS kombinációját tartalmazza. A citokin-mRNS-ek az immuntámadást indítják be, míg az antigének idegen anyagként jelölik meg a rákos sejteket.",
+        "A Nature Communications folyóiratban ismertetett eredmények szerint a kezelés hatására meggyengült a tumor fizikai védelme, és fokozott sejtpusztulás ment végbe. A kezelt egerek közel felénél a daganatok eltűntek, és az állapot egy év múlva is fennállt, ami hosszan tartó immunmemóriára utal.",
+        "Bár a fejlesztést a Covid-vakcinák terén elért eredmények ihlették, a kutatók hangsúlyozzák, hogy jelenleg csak egérkísérletekről van szó. Az emberi alkalmazáshoz további fejlesztésekre és klinikai vizsgálatokra lesz szükség."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 222,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/SARS-CoV-2_%28%C2%B5-IMAGE%29_vaccines_mRNA-1273_%28moderna%29%2C_Ad5_%28CanSinoBio%2C_NantKwest_ImmunityBio%29%2C_ChAdOx1_nCoV-19_%28Oxford_university%29._-_Other_remedies_S309_%28antibody%29%2C_hydroxychloroquin_%28Malaria-medicament%29%2C_fluvoxamin_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 768,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "CAPTION This transmission electron microscope image shows SARS-CoV-2 - the virus that causes COVID-19 - isolated from a patient in the U.S. The protrusions visible on the outside are the spike protein",
+        "credit": "quapan / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SARS-CoV-2_(%C2%B5-IMAGE)_vaccines_mRNA-1273_(moderna),_Ad5_(CanSinoBio,_NantKwest_ImmunityBio),_ChAdOx1_nCoV-19_(Oxford_university)._-_Other_remedies_S309_(antibody),_hydroxychloroquin_(Malaria-medicament),_fluvoxamin_.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20260930_sikeres-mrns-terapia-hasnyalmirigyrakos-egereknel",
+          "title": "Eltűnt a hasnyálmirigyrák az mRNS immunterápia után az egerekben",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-09-30T10:36:43+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.65,
+      "title_options": [
+        "MRNS-koktéllal tüntették el a hasnyálmirigyrákot",
+        "Egy év után sem tért vissza a rák",
+        "Áttörés az mRNS-alapú immunterápiában"
+      ],
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/SARS-CoV-2_%28%C2%B5-IMAGE%29_vaccines_mRNA-1273_%28moderna%29%2C_Ad5_%28CanSinoBio%2C_NantKwest_ImmunityBio%29%2C_ChAdOx1_nCoV-19_%28Oxford_university%29._-_Other_remedies_S309_%28antibody%29%2C_hydroxychloroquin_%28Malaria-medicament%29%2C_fluvoxamin_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 768,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "CAPTION This transmission electron microscope image shows SARS-CoV-2 - the virus that causes COVID-19 - isolated from a patient in the U.S. The protrusions visible on the outside are the spike protein",
+          "credit": "quapan / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:SARS-CoV-2_(%C2%B5-IMAGE)_vaccines_mRNA-1273_(moderna),_Ad5_(CanSinoBio,_NantKwest_ImmunityBio),_ChAdOx1_nCoV-19_(Oxford_university)._-_Other_remedies_S309_(antibody),_hydroxychloroquin_(Malaria-medicament),_fluvoxamin_.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Medical_Research_Council%2C_Laboratory_of_Molecular_Biology_-_geograph.org.uk_-_3018493.jpg/1280px-Medical_Research_Council%2C_Laboratory_of_Molecular_Biology_-_geograph.org.uk_-_3018493.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Medical Research Council, Laboratory of Molecular Biology",
+          "credit": "David P Howard / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Medical_Research_Council,_Laboratory_of_Molecular_Biology_-_geograph.org.uk_-_3018493.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Medical_Research_Council%2C_Laboratory_of_Molecular_Biology_-_geograph.org.uk_-_3016826.jpg/1280px-Medical_Research_Council%2C_Laboratory_of_Molecular_Biology_-_geograph.org.uk_-_3016826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 898,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Medical Research Council, Laboratory of Molecular Biology",
+          "credit": "David P Howard / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Medical_Research_Council,_Laboratory_of_Molecular_Biology_-_geograph.org.uk_-_3016826.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/TIGR_lab_Old_DNA_sequencers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 784,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Discarded in the corner are the year-2000-era machines that sequenced the human genome.  \nThe TIGR lab was also the first to sequence a complete genome, influenza… just 10 years ago.\n\nSource: Kimel Fa",
+          "credit": "Steve Jurvetson / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:TIGR_lab_Old_DNA_sequencers.jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "Eltűnt a hasnyálmirigyrák az mRNS immunterápia után az egerekben",
+          "link": "https://hvg.hu/tudomany/20260930_sikeres-mrns-terapia-hasnyalmirigyrakos-egereknel",
+          "summary": "Nemcsak hogy eltűntek a hasnyálmirigyrák daganatok a kísérleti mRNS immunterápiával kezelt egerekből, hanem még a kezelés leállítása utáni egy év múlva sem újult ki a betegség. Az amerikai kutatók fejlesztését a Covid-vakcinák terén elért eredmények ihlették.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.65
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20260930_sikeres-mrns-terapia-hasnyalmirigyrakos-egereknel"
+        ]
+      },
+      "date": "2026-09-30",
+      "date_label": "szeptember 30.",
+      "url": "/tech/2026-09-30-mrns-koktellal-tuntettek-el-a-hasnyalmirigyrakot/",
+      "seo": {
+        "meta_title": "MRNS-koktéllal tüntették el a hasnyálmirigyrákot",
+        "meta_description": "Egy kísérleti mRNS-kezelés hatására teljesen eltűntek a hasnyálmirigyrákos daganatok az egerekből, és a betegség egy év elteltével sem újult ki. A UMass Chan Or",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-09-30-mrns-koktellal-tuntettek-el-a-hasnyalmirigyrakot/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/SARS-CoV-2_%28%C2%B5-IMAGE%29_vaccines_mRNA-1273_%28moderna%29%2C_Ad5_%28CanSinoBio%2C_NantKwest_ImmunityBio%29%2C_ChAdOx1_nCoV-19_%28Oxford_university%29._-_Other_remedies_S309_%28antibody%29%2C_hydroxychloroquin_%28Malaria-medicament%29%2C_fluvoxamin_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "1bc8722d6f2a123a48686d23722988149231ff141e44733a10ba2d5ef26894e7",
+      "pipeline_run_id": "36690486430",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-09-30T10:36:43+02:00",
+      "updated_at": "2026-09-30T10:36:43+02:00",
+      "published_at": "2026-09-30T10:36:43+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-09-30T08:37:05",
+        "msg_ids": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "control_id": 31
+      }
+    }
+  ]
 }
