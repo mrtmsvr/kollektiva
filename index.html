@@ -174,6 +174,19 @@
 </section>
 
 <!-- ============ RETRO / EKKOR TÖRTÉNT ============ -->
+<!-- ============ NAPI SZAVAZÁS (D1) ============ -->
+<section id="szavazas" class="hidden border-b border-line/70">
+  <div class="mx-auto max-w-7xl px-5 py-8 lg:px-8">
+    <div class="rounded-2xl border border-line bg-vault/60 p-5 sm:p-7">
+      <p class="text-[12px] uppercase tracking-[0.18em] text-brass">A nap kérdése</p>
+      <h2 id="pollQ" class="mt-2 font-display text-[26px] font-semibold leading-tight sm:text-[32px]"></h2>
+      <a id="pollArt" class="mt-1 inline-block text-[14px] text-dusk underline decoration-line underline-offset-2 hover:text-parch"></a>
+      <div id="pollOpts" class="mt-5 grid gap-2.5 sm:grid-cols-2"></div>
+      <p id="pollMeta" class="mt-3 text-[13px] text-dusk"></p>
+    </div>
+  </div>
+</section>
+
 <!-- ============ ÁRFOLYAMOK (élő, ECB + CoinGecko) ============ -->
 <section id="arfolyam" class="hidden border-b border-line/70">
   <div class="mx-auto flex max-w-7xl flex-wrap items-center gap-x-6 gap-y-2 px-5 py-4 text-[14px] lg:px-8">
@@ -676,6 +689,47 @@ async function loadFx() {
   } catch (e) { /* rejtve marad */ }
 }
 loadFx();
+
+/* A nap kérdése: a robot írja (public/data/polls.json), a szavazatokat a /api/poll (Cloudflare D1) tárolja. */
+async function loadPoll() {
+  let data;
+  try { data = await fetchJSON('polls.json'); } catch (e) { return; }
+  const poll = (data && data.polls || []).find(p => Date.parse(p.closes_at) > Date.now());
+  if (!poll) return;
+  const box = $('pollOpts');
+  $('pollQ').textContent = poll.question;
+  $('pollArt').textContent = 'A cikk: ' + poll.article_title; $('pollArt').href = poll.article_url;
+  const show = r => {
+    const total = r.total || 0;
+    box.innerHTML = poll.options.map((o, i) => {
+      const pct = total ? Math.round(100 * (r.counts[i] || 0) / total) : 0;
+      return `<div class="relative overflow-hidden rounded-xl border ${r.voted === i ? 'border-brass' : 'border-line'} px-4 py-3">
+        <div class="absolute inset-y-0 left-0 bg-brass/15" style="width:${pct}%"></div>
+        <div class="relative flex justify-between gap-3 text-[15px]"><span>${esc(o)}${r.voted === i ? ' ✓' : ''}</span><b>${pct}%</b></div></div>`;
+    }).join('');
+    $('pollMeta').textContent = `${total} szavazat · ${r.closed ? 'lezárult' : 'a szavazás nyitva'}`;
+  };
+  const ask = () => {
+    box.innerHTML = poll.options.map((o, i) =>
+      `<button type="button" data-i="${i}" class="rounded-xl border border-line px-4 py-3 text-left text-[15px] transition hover:border-brass">${esc(o)}</button>`).join('');
+    $('pollMeta').textContent = 'Szavazz, és utána látod az eredményt.';
+    box.querySelectorAll('button').forEach(b => b.addEventListener('click', async () => {
+      box.querySelectorAll('button').forEach(x => x.disabled = true);
+      try {
+        const r = await fetch('/api/poll', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                                             body: JSON.stringify({ id: poll.id, option: Number(b.dataset.i) }) }).then(x => x.json());
+        if (r.counts) show(r); else throw new Error(r.error);
+      } catch (e) { $('pollMeta').textContent = 'A szavazás most nem sikerült, próbáld újra.'; box.querySelectorAll('button').forEach(x => x.disabled = false); }
+    }));
+  };
+  try {
+    const r = await fetch('/api/poll?id=' + encodeURIComponent(poll.id)).then(x => x.json());
+    if (!r.ok) return;                 // nincs még adatbázis → a doboz rejtve marad
+    (r.voted !== null || r.closed) ? show(r) : ask();
+    $('szavazas').classList.remove('hidden');
+  } catch (e) { /* rejtve marad */ }
+}
+loadPoll();
 
 async function loadHoroscope() {
   try {
