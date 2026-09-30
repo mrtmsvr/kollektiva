@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T13:38:26+02:00",
+  "updated_at": "2026-09-30T13:39:23+02:00",
   "articles": [
     {
       "id": "1b8d58ce-a33f-52ae-b64f-816a7d47401d",
@@ -240,15 +240,15 @@
       "word_count": 213,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Dan_Wells.jpg/1280px-Dan_Wells.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Ong-tho-sua-nha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "width": 1200,
-        "height": 1240,
+        "height": 675,
         "kind": "photo",
-        "pos": "top",
-        "alt": "Author Dan Wells at WorldCon 69: Renovation",
-        "credit": "Coltonlg / Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Dan_Wells.jpg"
+        "pos": "center",
+        "alt": "https://appongtho.vn/ - Ong Mechanic repair and maintenance service at home",
+        "credit": "appongtho / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ong-tho-sua-nha.jpg"
       },
       "sources": [
         {
@@ -280,7 +280,7 @@
         "meta_title": "Miért halogatja a magyarok fele a lakásfelújítást?",
         "meta_description": "A magyar háztartások közel felében hónapok óta halogatják a különféle javítási munkákat a megfelelő kivitelezők hiánya miatt. Egy új biztosítási modell mostantó",
         "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-09-30-miert-halogatja-a-magyarok-fele-a-lakasfelujitast/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Dan_Wells.jpg/1280px-Dan_Wells.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Ong-tho-sua-nha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -296,7 +296,7 @@
       "pipeline_run_id": "36709036752",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-09-30T13:34:05+02:00",
-      "updated_at": "2026-09-30T13:34:05+02:00",
+      "updated_at": "2026-09-30T13:39:23+02:00",
       "published_at": "2026-09-30T13:34:05+02:00",
       "expires_at": null
     },
