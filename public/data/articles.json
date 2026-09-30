@@ -1964,14 +1964,15 @@
       "word_count": 210,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 732,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Budapest%2C_the_Carmelite_Monastery_of_Buda.jpg/1280px-Budapest%2C_the_Carmelite_Monastery_of_Buda.jpg",
+        "width": 1280,
+        "height": 991,
         "kind": "photo",
-        "alt": "Parliament building, Budapest",
-        "credit": "Dirk Beyer / Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Parliament_4604.JPG"
+        "pos": "center",
+        "alt": "A Karmelita kolostor, a Miniszterelnökség épülete a budai Várban",
+        "credit": "Dguendel / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_the_Carmelite_Monastery_of_Buda.jpg"
       },
       "sources": [
         {
@@ -2027,7 +2028,7 @@
         "meta_title": "Százmilliók tűntek el a Miniszterelnökség papírjain",
         "meta_description": "Hivatalos feljelentést tett a Miniszterelnökség korábbi szervezetfejlesztési megbízások miatt, miközben több volt minisztert is őrizetbe vettek a hatóságok. Az ",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-09-30-szazmilliok-tuntek-el-a-miniszterelnokseg-papirjain/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Budapest%2C_the_Carmelite_Monastery_of_Buda.jpg/1280px-Budapest%2C_the_Carmelite_Monastery_of_Buda.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -2759,7 +2760,7 @@
       ],
       "title": "Így köti össze a kávé a bélrendszert és az agyműködést",
       "subtitle": null,
-      "lead": "Egy friss tudományos kutatás rávilágított, hogy a kávé a bélbaktériumainkon keresztül befolyásolhatja a hangulatunkat és az agyi funkcióinkat. Az eredmények rávädítnek, hogy mind a koffeines, mind a koffeinmentes változat hatással van a mentális jóllétünkre.",
+      "lead": "Egy friss tudományos kutatás rávilágított, hogy a kávé a bélbaktériumainkon keresztül befolyásolhatja a hangulatunkat és az agyi funkcióinkat. Az eredmények rámutatnak, hogy mind a koffeines, mind a koffeinmentes változat hatással van a mentális jóllétünkre.",
       "content": "A mindennapi kávézás rituáléja sokunk számára elengedhetetlen a nap indításához, de eddig kevésbé volt ismert, hogy pontosan milyen rejtett folyamatok zajlanak le a szervezetünkben a fekete ital hatására. Egy új kutatás most részletesen feltérképezte, hogyan kapcsolódik össze a kávéfogyasztás és a bélrendszerünk mikrobiomja, valamint ez utóbbi hogyan üzen az agyunknak.\n\nA vizsgálat során a kutatók mind a koffeines, mind a koffeinmentes kávé hatásait elemezték. Az eredmények azt mutatták, hogy mindkét változat összefüggésbe hozható a stressz, a depresszió és az impulzivitás csökkenésével. Ezzel párhuzamosan a szakemberek mérhető változásokat figyeltek meg a bélbaktériumok összetételében és a kapcsolódó metabolitokban is.\n\nA kutatás különbséget tett a koffeines és a mentes ital specifikus hatásai között is. A koffeinmentes kávé a tanulás és a memória javulásával mutatott összefüggést, míg a koffeines változat a szorongás csökkentésében és a figyelmi szint javításában játszott szerepet.\n\nMit jelent ez a mindennapokban a kávéimádók számára? A felfedezés újabb bizonyíték arra, hogy az elfogyasztott ételeink és italaink közvetlen kapcsolatban állnak a mentális állapotunkkal. Bár a pontos biológiai mechanizmusok feltárása még tart, az biztos, hogy a reggeli csésze kávénk nemcsak a figyelmünket éberen tartja, hanem a bélflóránkon keresztül a hangulatunkra és a kognitív képességeinkre is hatással lehet.",
       "content_format": "markdown",
       "body": [
@@ -2772,7 +2773,17 @@
       "reading_time_min": 2,
       "word_count": 228,
       "locale": "hu-HU",
-      "hero_image": null,
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/1280px-A_small_cup_of_coffee.JPG",
+        "width": 1280,
+        "height": 960,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Egy csésze kávé",
+        "credit": "Julius Schorzman / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_small_cup_of_coffee.JPG"
+      },
       "sources": [
         {
           "url": "https://www.sciencedaily.com/releases/2026/09/260927034331.htm",
@@ -2802,7 +2813,7 @@
         "meta_title": "Így köti össze a kávé a bélrendszert és az agyműködést",
         "meta_description": "Egy friss tudományos kutatás rávilágított, hogy a kávé a bélbaktériumainkon keresztül befolyásolhatja a hangulatunkat és az agyi funkcióinkat. Az eredmények ráv",
         "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-09-29-igy-koti-ossze-a-kave-a-belrendszert-es-az-agymukodest/",
-        "og_image": null,
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/1280px-A_small_cup_of_coffee.JPG",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -3033,14 +3044,15 @@
       "word_count": 227,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 732,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Hank%C3%B3_Bal%C3%A1zs_in_2025_03.jpg/1280px-Hank%C3%B3_Bal%C3%A1zs_in_2025_03.jpg",
+        "width": 1280,
+        "height": 1707,
         "kind": "photo",
-        "alt": "Parliament building, Budapest",
-        "credit": "Dirk Beyer / Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Parliament_4604.JPG"
+        "pos": "top",
+        "alt": "Hankó Balázs",
+        "credit": "Elekes Andor / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hank%C3%B3_Bal%C3%A1zs_in_2025_03.jpg"
       },
       "sources": [
         {
@@ -3079,7 +3091,7 @@
         "meta_title": "Őrizetben Hankó Balázs: súlyos bűncselekmény gyanúja rázza m",
         "meta_description": "Az ügyészség megerősítette Hankó Balázs őrizetbe vételét, akit bűnszövetségben elkövetett hűtlen kezeléssel gyanúsítanak. Az eset nyomán azonnali politikai vitá",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-09-29-orizetben-hanko-balazs-sulyos-buncselekmeny-gyanuja-razza-meg-a-kozel/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Hank%C3%B3_Bal%C3%A1zs_in_2025_03.jpg/1280px-Hank%C3%B3_Bal%C3%A1zs_in_2025_03.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
