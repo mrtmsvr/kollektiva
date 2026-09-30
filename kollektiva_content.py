@@ -581,6 +581,8 @@ def _image_from_info(info: dict, fname: str = "") -> Optional[dict]:
     if w < 300 or h < 150:
         return None  # túl kicsi, pixeles lenne
     fname = fname or info.get("descriptionurl", "").rsplit("/", 1)[-1]
+    if re.search(r"\.(pdf|djvu|tiff?|webm|ogv|ogg|mp3|wav|stl)$", fname, re.I):
+        return None  # nem fotó (dokumentum, videó, hang)
     ratio = w / h if h else 0
     kind = "graphic" if (GRAPHIC_HINT.search(fname) or w < 800 or not 1.2 <= ratio <= 2.2) else "photo"
     artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip() or "ismeretlen szerző"
@@ -611,8 +613,9 @@ def commons_image(page: dict, timeout: int) -> Optional[dict]:
     return _image_from_info(info, fname)
 
 
-def commons_search_image(query: str, timeout: int) -> Optional[dict]:
-    """Szabad licencű kép keresése a Wikimedia Commonson (fotót részesít előnyben)."""
+def commons_search_image(query: str, timeout: int, strict: bool = True) -> Optional[dict]:
+    """Szabad licencű kép keresése a Wikimedia Commonson (fotót részesít előnyben).
+    strict=True: a keresőszó minden jellegzetes szavának (max. 2) szerepelnie kell a fájlnévben/leírásban."""
     if not query:
         return None
     data = http_get_json("https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search"
@@ -629,7 +632,7 @@ def commons_search_image(query: str, timeout: int) -> Optional[dict]:
     generic = {"with", "from", "that", "this", "university", "building", "people", "city", "photo", "image",
                "picture", "center", "centre", "house", "street", "group", "meeting", "hungary", "hungarian"}
     tokens = [w for w in re.findall(r"\w{4,}", norm(query)) if w not in generic] or re.findall(r"\w{4,}", norm(query))
-    need = 1
+    need = 2 if strict else 1
     graphic = None
     for pg in pages:
         info = (pg.get("imageinfo") or [None])[0]
@@ -644,6 +647,41 @@ def commons_search_image(query: str, timeout: int) -> Optional[dict]:
             return img
         graphic = graphic or img
     return graphic
+
+
+def openverse_image(query: str, timeout: int) -> Optional[dict]:
+    """Általános témához (pl. „coffee cup”) szabad licencű fotó az Openverse-ből (Flickr CC stb.)."""
+    if not query:
+        return None
+    data = http_get_json("https://api.openverse.org/v1/images/?page_size=12&license_type=commercial"
+                         f"&mature=false&q={urllib.parse.quote(query)}", timeout)
+    words = [w for w in re.findall(r"\w{3,}", query.lower())]
+    for r in (data or {}).get("results", []):
+        w, h = r.get("width") or 0, r.get("height") or 0
+        title = (r.get("title") or "").lower() + " " + " ".join(t.get("name", "") for t in r.get("tags") or [])
+        if w < 1000 or not h or not 1.25 <= w / h <= 2.0 or (words and words[0] not in title):
+            continue
+        lic = f"{(r.get('license') or '').upper()} {r.get('license_version') or ''}".strip()
+        lic = "Public domain" if lic.startswith(("PDM", "CC0")) else ("CC " + lic.replace("BY-SA", "BY-SA"))
+        return {"url": r["url"], "width": w, "height": h, "kind": "photo", "alt": (r.get("title") or "")[:200],
+                "credit": f"{(r.get('creator') or 'ismeretlen szerző')[:80]} / {r.get('source') or 'Openverse'}",
+                "license": lic, "source_url": r.get("foreign_landing_url") or r["url"]}
+    return None
+
+
+def find_image(specific: list, generic: list, timeout: int) -> Optional[dict]:
+    """Előbb a konkrét (név, hely, intézmény) keresések a Commonson, szigorúan; utána az általános
+    témakép (Openverse, majd Commons lazábban). Ha semmi nem illik, inkább nincs kép, mint rossz kép."""
+    for q in specific:
+        img = commons_search_image(str(q or "").strip()[:60], timeout, strict=True)
+        if img:
+            return img
+    for q in generic:
+        q = str(q or "").strip()[:40]
+        img = openverse_image(q, timeout) or commons_search_image(q, timeout, strict=False)
+        if img:
+            return img
+    return None
 
 
 def wiki_onthisday_event(d: date, http_timeout: int) -> Optional[dict]:
@@ -922,8 +960,9 @@ details.box summary{cursor:pointer;color:var(--parch);font-weight:600}
 .rel-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px}
 .rel-grid a{text-decoration:none;display:block}.rel-grid img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;background:var(--vault)}
 .rel-grid img.graphic{object-fit:contain;padding:14px;background:#ECE6D8}
-.rel-grid .t{margin-top:8px;font-weight:600;line-height:1.35;color:var(--parch)}.rel-grid .k{font-size:12px;color:var(--brass);text-transform:uppercase;letter-spacing:.1em}
-.logo{font:600 28px/1 "Cormorant Garamond",Georgia,serif;text-decoration:none}
+.rel-grid .t{margin-top:3px;font-weight:600;line-height:1.35;color:var(--parch)}.rel-grid .k{margin-top:12px;font-size:12px;line-height:1.3;color:var(--brass);text-transform:uppercase;letter-spacing:.1em}
+.logo{display:flex;align-items:center;gap:10px;font:600 26px/1 "Cormorant Garamond",Georgia,serif;text-decoration:none}
+.logo svg{height:38px;width:auto;flex:none}.logo b{color:var(--brass);font-weight:600}
 .menu nav{display:none}nav a{text-decoration:none;font-size:15px}
 footer a{color:var(--dusk);margin-right:10px}
 .kicker{margin-top:44px;color:var(--brass);font-size:13px;letter-spacing:.14em;text-transform:uppercase}
@@ -966,6 +1005,15 @@ LOADER_HTML = r"""<div id="kload" class="on" aria-hidden="true"><svg viewBox="-4
 """
 
 
+_KP = re.search(r'fill="#ECE6D8" d="([^"]+)"', LOADER_HTML).group(1)
+LOGO_SVG = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="-438 -324 837 647" aria-hidden="true">'
+            '<path d="M372.8,-114.9 A430,130 -24 0 1 -412.8,234.9" fill="none" stroke="#ECE6D8" stroke-width="18" stroke-linecap="round"/>'
+            f'<path transform="translate(-344.3,311.6) scale(1,-1)" fill="#ECE6D8" d="{_KP}"/>'
+            '<path d="M-412.8,234.9 A430,130 -24 0 1 372.8,-114.9" fill="none" stroke="#0E1024" stroke-width="40"/>'
+            '<path d="M-412.8,234.9 A430,130 -24 0 1 372.8,-114.9" fill="none" stroke="#ECE6D8" stroke-width="18" stroke-linecap="round"/>'
+            '<circle cx="351.7" cy="-38.7" r="47" fill="#0E1024"/><circle cx="351.7" cy="-38.7" r="36" fill="#C9A45C"/></svg>')
+
+
 def _page(title: str, description: str, canonical: str, body: str, head_extra: str = "",
           noindex: bool = False) -> str:
     robots = "noindex,follow" if noindex else "index,follow,max-image-preview:large"
@@ -992,7 +1040,7 @@ def _page(title: str, description: str, canonical: str, body: str, head_extra: s
 </head>
 <body>
 {LOADER_HTML}
-<header><a class="logo" href="/">{SITE_NAME}</a><details class="menu"><summary aria-label="Rovatok">Rovatok ☰</summary><nav>{NAV_LINKS}</nav></details></header>
+<header><a class="logo" href="/" aria-label="{SITE_NAME} – főoldal">{LOGO_SVG}<span>{SITE_NAME}<b>.</b></span></a><details class="menu"><summary aria-label="Rovatok">Rovatok ☰</summary><nav>{NAV_LINKS}</nav></details></header>
 <main>
 {body}
 </main>
@@ -1213,10 +1261,11 @@ HEALTH = (r"egészs|edzés|mozgás|alvás|táplálkoz|étrend|diéta|vitamin|sz�
           r"elhízás|cukor|kutatás|orvos|betegség|immun|futás|jóga|izom|életmód")
 PUBLIC = (r"adat|statisztik|KSH|felmérés|kutatás|oktatás|iskola|egészségügy|kórház|közlekedés|MÁV|BKV|lakhatás|"
           r"nyugdíj|család|népesség|szavazó|választás|törvény|önkormányzat|időjárás|klíma|környezet")
-# Minden rovatból kizárt témák: bűnügy, tragédia, háború, konkrét személyek elleni vádak
-EXCLUDE_ALL = re.compile(r"gyanú|őrizet|letartóztat|vádemel|vádol|bűncselek|bűnügy|gyilkos|meghalt|halálos|tragédi|"
-                         r"holttest|erőszak|bántalmaz|háború|katonai|katona|fegyver|támadás|lövöldöz|robban|"
-                         r"öngyilk|botrány|killed|dies|death|war\b|attack", re.I)
+# Minden rovatból kizárt témák: csak a szélsőséges tartalom (bűnügy, háború, vádak mehetnek, tényszerűen)
+EXCLUDE_ALL = re.compile(r"öngyilk|pedofil|gyermekpornó|kiskorú.{0,20}(szexuális|bántalmaz)", re.I)
+# Nem önálló hír, hanem „hír a hírről” / gyűjtőcikk / élő közvetítés – ezekből nem írunk
+META_STORY = re.compile(r"Google Trends|keresések|keresőben|percről percre|hírösszefoglaló|napi összefoglaló|"
+                        r"\bélő\b|élőben|podcast|videó:|galéria|horoszkóp|kvíz|nyereményjáték|ajánlónk", re.I)
 
 RETRO_SECTION = {"id": "retro", "name": "Ekkor történt", "kicker": "Ekkor történt",
                  "tagline": "Minden nap egy történet a múltból."}
@@ -1224,10 +1273,16 @@ RETRO_SECTION = {"id": "retro", "name": "Ekkor történt", "kicker": "Ekkor tör
 SECTIONS = {
     "kozelet": {
         "id": "kozelet", "name": "Közélet", "kicker": "Közélet",
-        "tagline": "Pártatlan, adatvezérelt magyarázók a közügyekről.",
-        "focus": "közügyek, társadalom, adatok és számok mögötti összefüggések – pártsemlegesen",
-        "feeds": [("https://telex.hu/rss", r"Adat", None), ("https://telex.hu/rss", r"Belföld", PUBLIC),
-                  ("https://hvg.hu/rss", r"Itthon", PUBLIC)],
+        "tagline": "Belpolitika és közügyek – pártatlanul, érthetően.",
+        "focus": "belpolitika, közügyek, társadalom, bűnügyek és közérdekű adatok – pártsemlegesen",
+        "feeds": [("https://telex.hu/rss", r"Adat", None), ("https://telex.hu/rss", r"Belföld", None),
+                  ("https://hvg.hu/rss", r"Itthon", None)],
+    },
+    "vilag": {
+        "id": "vilag", "name": "Világ", "kicker": "Világ",
+        "tagline": "Ami a világban történik – háttérrel, magyarul.",
+        "focus": "külpolitika, nemzetközi események, háborúk és konfliktusok, világgazdaság – tényszerűen",
+        "feeds": [("https://telex.hu/rss", r"Külföld|Világ", None), ("https://hvg.hu/rss", r"Világ|Külföld", None)],
     },
     "penzvilag": {
         "id": "penzvilag", "name": "Pénzvilág", "kicker": "Pénzvilág",
@@ -1283,6 +1338,13 @@ SECTION_SYSTEM = (
     "nincs ismétlődő szó vagy fordulat egymás közelében, nincsenek tükörfordítások és erőltetett szókapcsolatok "
     "(pl. „ez rávilágít arra”, „nem csupán… hanem”, „fontos megjegyezni”, „összességében”). Az első mondat "
     "a lényeget mondja, a bekezdések sorrendje: mi történt → miért fontos → háttér → mi várható. "
+    "EREDETISÉG: ne kövesd a forráscikk szerkezetét, szögét és címét – saját felépítést és saját címet írj, "
+    "a forrás címéből ne vegyél át három egymást követő szót. Minden bekezdésben legyen konkrét tény "
+    "(név, szám, dátum, helyszín, döntés, következmény); általános, bármire ráhúzható töltelékmondat tilos. "
+    "Ha kevés a tény, inkább legyen rövidebb a cikk. "
+    "BŰNÜGY, VÁDAK, HÁBORÚ: ártatlanság vélelme – gyanút és vádat soha ne írj tényként („a rendőrség szerint”, "
+    "„a vád szerint”, „a gyanú szerint”); magánszemélyt ne nevezz meg teljes névvel, csak közszereplőt; "
+    "nincs naturalisztikus, véres részlet, nincs szenzációhajhászás. "
     "Csak érvényes JSON-t adsz vissza."
 )
 
@@ -1369,13 +1431,52 @@ def _fetch_feed(url: str, timeout: int) -> list:
     return [i for i in items if i["title"] and i["link"].startswith("http")]
 
 
+def fetch_article_text(url: str, timeout: int, limit: int = 2500) -> str:
+    """A forráscikk bekezdései (csak háttérnek a tényekhez – a szöveget nem vesszük át)."""
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; KollektivaBot/1.0)",
+                                               "Accept": "text/html"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            raw = resp.read(600_000).decode("utf-8", "ignore")
+    except (urllib.error.URLError, TimeoutError, OSError, ValueError):
+        return ""
+    raw = re.sub(r"(?is)<(script|style|noscript|figure|aside|nav|footer|header)[^>]*>.*?</\1>", " ", raw)
+    paras = []
+    for p in re.findall(r"(?is)<p[^>]*>(.*?)</p>", raw):
+        t = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", p))).strip()
+        if len(t) >= 80 and not re.search(r"cookie|feliratkoz|előfizet|hírlevél|Minden jog fenntartva", t, re.I):
+            paras.append(t)
+    return "\n".join(paras)[:limit]
+
+
+def title_too_similar(title: str, sources: list) -> bool:
+    """Igaz, ha a cím 3 egymást követő szót átvesz valamelyik forrás címéből, vagy szavainak fele egyezik."""
+    def words(t: str) -> list:
+        return re.findall(r"[a-záéíóöőúüű0-9]+", t.lower())
+    tw = words(title)
+    tri = {" ".join(tw[i:i + 3]) for i in range(len(tw) - 2)}
+    for s in sources:
+        sw = words(s.get("title", ""))
+        if tri & {" ".join(sw[i:i + 3]) for i in range(len(sw) - 2)}:
+            return True
+        big = [w for w in tw if len(w) >= 5]
+        if len(big) >= 4 and sum(1 for w in big if w[:6] in {x[:6] for x in sw}) / len(big) >= 0.75:
+            return True
+    return False
+
+
+ORPHAN_SOURCE = re.compile(r"^[–-]\s*(írja|közölte|számolt be)\b.{0,60}$", re.I)
+
+
 def _keywords(text: str) -> set:
     words = re.findall(r"[a-záéíóöőúüű0-9]{4,}", text.lower())
     return {w[:7] for w in words if w not in STOPWORDS}
 
 
-def pick_story(section: dict, used_links: set, now: datetime, timeout: int, max_age_h: int = 36) -> Optional[list]:
-    """A rovat friss híreiből a legtöbb (lehetőleg több kiadónál is szereplő) témát választja; 1–4 forrás."""
+def pick_story(section: dict, used_links: set, now: datetime, timeout: int, max_age_h: int = 36,
+               limit: int = 3) -> list:
+    """A rovat friss híreiből témacsoportokat képez (egy téma = 1–4 forrás), pontszám szerint csökkenő
+    sorrendben: minél több kiadó írja, annál forróbb."""
     items, seen = [], set()
     for url, cat_re, kw_re in section["feeds"]:
         for it in fetch_feed(url, timeout):
@@ -1386,7 +1487,8 @@ def pick_story(section: dict, used_links: set, now: datetime, timeout: int, max_
                 continue
             if kw_re and not re.search(kw_re, it["title"] + " " + it["summary"], re.I):
                 continue
-            if SPONSORED.search(cats + " " + it["title"]) or EXCLUDE_ALL.search(it["title"] + " " + it["summary"][:300]):
+            if (SPONSORED.search(cats + " " + it["title"]) or EXCLUDE_ALL.search(it["title"] + " " + it["summary"][:300])
+                    or META_STORY.search(it["title"] + " " + it["summary"][:200] + " " + it["link"])):
                 continue
             if it["published"] and (now - it["published"]).total_seconds() > max_age_h * 3600:
                 continue
@@ -1394,21 +1496,32 @@ def pick_story(section: dict, used_links: set, now: datetime, timeout: int, max_
             it["kw"] = _keywords(it["title"] + " " + it["summary"][:200])
             items.append(it)
     if not items:
-        return None
-    best, best_score = None, -1.0
+        return []
+    scored = []
     for it in items:
         group = [it] + [o for o in items if o is not it and len(it["kw"] & o["kw"]) >= 3]
         publishers = {g["source"] for g in group}
         fresh = 1.0 if it["published"] and (now - it["published"]).total_seconds() < 12 * 3600 else 0.0
         score = len(publishers) * 3 + len(group) + fresh + min(len(it["summary"]), 400) / 400
-        if score > best_score:
-            best, best_score = group, score
-    best[0]["hot_score"] = round(best_score, 2)
-    return best[:4]
+        scored.append((score, group))
+    scored.sort(key=lambda x: -x[0])
+    out, taken = [], set()
+    for score, group in scored:
+        if group[0]["link"] in taken:
+            continue
+        taken.update(g["link"] for g in group)
+        group = [dict(g) for g in group[:4]]
+        group[0]["hot_score"] = round(score, 2)
+        out.append(group)
+        if len(out) >= limit:
+            break
+    return out
 
 
 def section_prompt(section: dict, story: list, d: date, context: Optional[list] = None) -> str:
-    src = "\n\n".join(f"[{i + 1}] {s['source']} – {s['title']}\n{s['summary']}" for i, s in enumerate(story))
+    src = "\n\n".join(f"[{i + 1}] {s['source']} – {s['title']}\n{s['summary']}"
+                      + (f"\nRészletek a cikkből:\n{s['fulltext']}" if s.get("fulltext") else "")
+                      for i, s in enumerate(story))
     bg = "\n".join(f"- {c}" for c in (context or []))
     bg_block = f"\nHáttér a szereplőkhöz (magyar Wikipédia – csak magyarázatra, ha tényleg ugyanarról van szó):\n{bg}\n" if bg else ""
     return f"""Rovat: {section['name']} ({section['focus']}). Dátum: {hu_date(d)}.
@@ -1421,8 +1534,9 @@ Forráskivonatok:
   (pl. „Ezért drágul…”, „Kiderült, mi…”, „X forintot…”) – de legyen igaz, ne ijesztgessen és ne túlozzon
 - "lead": 2 mondatos bevezető: mi történt és miért fontos
 - "key_points": 3 rövid, egymondatos pont a lényegről („Röviden” doboz)
-- "body": 4–6 bekezdés (tömb), összesen kb. 350–600 szó: a tények, a háttér, és hogy mit jelent ez a
-  hétköznapi olvasónak. A cikk elején nevezd meg a forrást a szövegben is (pl. „– írja a Telex.”).
+- "body": 3–6 bekezdés (tömb), összesen kb. 250–600 szó (annyi, amennyi tény van): a tények, a háttér, és hogy mit jelent ez a
+  hétköznapi olvasónak. Az első bekezdésben egy teljes mondatba építve nevezd meg a forrást
+  (pl. „A Telex beszámolója szerint …”) – ne külön sorban.
   Ha személy szerepel, első említéskor egy rövid jelzővel mutasd be, ki ő (pl. „Kovács Anna, az MNB
   alelnöke”) – csak ha ez a forrásból kiderül. Ahol illik, egy bekezdés lehet felsorolás: sorok „- ” jellel.
   Ha egy fogalom, ügy vagy intézmény nem köztudott (pl. „ügynökakták”), egy mondatban magyarázd el, mi az.
@@ -1432,32 +1546,44 @@ Forráskivonatok:
   személyről, helyről, intézményről vagy tárgyról szól, AZ legyen (pl. "Hungarian Parliament Building",
   "James Webb Space Telescope", "Viktor Orbán", "Eötvös Loránd University"); különben egy kifejező, konkrét téma
   (pl. "Budapest Stock Exchange"). Magyar hírnél magyar helyszínt/intézményt keress, ne általános külföldi képet.
-- "image_query_alt": 1–2 további, tágabb angol keresőkifejezés tartaléknak (pl. ["ELTE Budapest", "Budapest university"])
+- "image_query_alt": 1–2 további konkrét angol keresőkifejezés (pl. ["ELTE Budapest", "Centrál Színház Budapest"])
+- "image_generic": 1–2 szavas ANGOL, egyszerű, fotózható téma a hangulatképhez, ha nincs konkrét kép
+  (pl. "coffee cup", "courtroom", "police car", "stock market", "theatre stage", "rocket launch")
 
 Kizárólag ezt a JSON-t add vissza:
-{{"title": "...", "lead": "...", "key_points": ["...", "...", "..."], "body": ["...", "..."], "tags": ["..."], "image_query": "...", "image_query_alt": ["..."]}}"""
+{{"title": "...", "lead": "...", "key_points": ["...", "...", "..."], "body": ["...", "..."], "tags": ["..."], "image_query": "...", "image_query_alt": ["..."], "image_generic": "..."}}"""
 
 
-def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, used_links: set) -> Optional[dict]:
+def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, story: list) -> Optional[dict]:
     now = datetime.now(tz)
-    story = pick_story(section, used_links, now, ai.cfg.http_timeout)
-    if not story:
-        log.warning("[%s] nincs friss, megfelelő hír a forrásokban – kimarad.", section["id"])
-        return None
+    for s in story[:3]:
+        s["fulltext"] = fetch_article_text(s["link"], ai.cfg.http_timeout)
     try:
         context = wiki_context(story, ai.cfg.http_timeout)
         raw = ai.complete_json(SECTION_SYSTEM, section_prompt(section, story, d, context), 4000)
         validate_retro(raw)
         raw = editorial_polish(ai, raw)
+        if title_too_similar(str(raw.get("title", "")), story):
+            try:
+                alt = ai.complete_json(SECTION_SYSTEM, (
+                    "Ez a cím túl közel áll a forrás címéhez. Írj 3 új, rövid (max. 7 szó), közepesen clickbait, igaz "
+                    "címet, más szórenddel és más szavakkal, mint a források címei.\n"
+                    f"Jelenlegi cím: {raw.get('title')}\nForráscímek: " + " | ".join(s["title"] for s in story)
+                    + f"\nLead: {raw.get('lead')}\nJSON: {{\"titles\": [\"...\", \"...\", \"...\"]}}"), 600)
+                for t in alt.get("titles") or []:
+                    if t and not title_too_similar(str(t), story):
+                        raw["title"] = str(t).strip()
+                        break
+            except (AIError, ValueError, TypeError, KeyError) as e:
+                log.warning("Címcsere kimaradt: %s", e)
+        raw["body"] = [p for p in (raw.get("body") or []) if not ORPHAN_SOURCE.match(str(p).strip())]
         art = validate_retro(raw)
     except (AIError, ValueError, TypeError, KeyError) as e:
         log.error("[%s] AI cikkírás sikertelen: %s – kimarad.", section["id"], e)
         return None
-    image = None
-    for q in [raw.get("image_query"), *(raw.get("image_query_alt") or [])][:3]:
-        image = commons_search_image(str(q or "").strip()[:60], ai.cfg.http_timeout)
-        if image:
-            break
+    generic = raw.get("image_generic")
+    image = find_image([raw.get("image_query"), *(raw.get("image_query_alt") or [])][:3],
+                       generic if isinstance(generic, list) else [generic], ai.cfg.http_timeout)
     now_iso = now.isoformat(timespec="seconds")
     slug = slugify(f"{d.isoformat()}-{art['title']}")
     sources = normalize_sources([{"url": s["link"], "title": s["title"], "publisher": s["source"]} for s in story], now_iso)
@@ -1473,7 +1599,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, us
         "reading_time_min": reading_time(full_text), "word_count": len(re.findall(r"\w+", full_text)),
         "locale": "hu-HU", "hero_image": image, "sources": sources,
         "authorship": {"mode": "ai_generated", "byline": "Kollektíva szerkesztőség", "model": ai.label.split(":", 2)[-1],
-                       "prompt_version": "section-v1", "reviewed_by": None, "reviewed_at": None},
+                       "prompt_version": "section-v2", "reviewed_by": None, "reviewed_at": None},
         "hot_score": story[0].get("hot_score", 0),
         "category_meta": {"source_links": [s["link"] for s in story]},
         "date": d.isoformat(), "date_label": f"{HU_MONTHS[d.month - 1]} {d.day}.",
@@ -1491,7 +1617,9 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, us
 
 
 def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run: bool) -> int:
-    """Minden rovathoz legfeljebb egy új cikk naponta (SECTION_IDS / ARTICLES_PER_SECTION env)."""
+    """Nincs napi cikkszám-korlát: minden futás (napközben kétóránként) összegyűjti az összes rovat friss
+    témáit, forróság szerint rangsorolja, és a legjobb MAX_ARTICLES_PER_RUN (alap: 2) új témáról ír – így a
+    cikkek elosztva, a nap folyamán jelennek meg. Ami már megjelent, azt nem írja meg újra."""
     if not ai.enabled:
         log.warning("Rovatcikkekhez AI kell – kimarad.")
         return 0
@@ -1499,27 +1627,45 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
     data = read_json(path, {"articles": []})
     articles = data.get("articles", [])
     used_links = {l for a in articles for l in a.get("category_meta", {}).get("source_links", [])}
+    now = datetime.now(tz)
+    recent_kw = [_keywords(a.get("title", "") + " " + " ".join(s.get("title", "") for s in a.get("sources", [])))
+                 for a in articles if (a.get("created_at") or "") >= (now - timedelta(hours=48)).isoformat()]
     wanted = [x.strip() for x in os.getenv("SECTION_IDS", ",".join(SECTIONS)).split(",") if x.strip() in SECTIONS]
-    per_section = int(os.getenv("ARTICLES_PER_SECTION", "1"))
+    max_run = int(os.getenv("MAX_ARTICLES_PER_RUN", "2"))
+    min_score = float(os.getenv("MIN_HOT_SCORE", "5"))
     pause = int(os.getenv("AI_PAUSE_SECONDS", "8"))
-    made = 0
+    cands = []
     for sid in wanted:
-        have = sum(1 for a in articles if a.get("category") == sid and a.get("date") == d.isoformat())
-        for _ in range(max(0, per_section - have)):
-            art = build_section_article(ai, SECTIONS[sid], d, tz, used_links)
-            if not art:
-                break
-            used_links.update(art["category_meta"]["source_links"])
-            articles.insert(0, art)
-            made += 1
-            log.info("✔ [%s] \"%s\" (%s forrás, kép: %s)", sid, art["title"], len(art["sources"]),
-                     (art["hero_image"] or {}).get("kind", "nincs"))
-            time.sleep(pause)  # ingyenes AI-keret: ne fussunk bele a percenkénti limitbe
+        today = sum(1 for a in articles if a.get("category") == sid and a.get("date") == d.isoformat())
+        for group in pick_story(SECTIONS[sid], used_links, now, ai.cfg.http_timeout):
+            kw = group[0]["kw"]
+            if any(len(kw & rk) >= 4 for rk in recent_kw):
+                continue  # ugyanerről a témáról már írtunk az elmúlt 48 órában
+            bonus = 3 if today == 0 else 0  # minden rovatban legyen legalább egy friss cikk naponta
+            cands.append((group[0]["hot_score"] + bonus, sid, group))
+    cands.sort(key=lambda x: -x[0])
+    made, per_section = 0, {}
+    for score, sid, group in cands:
+        if made >= max_run:
+            break
+        if score < min_score or per_section.get(sid):
+            continue
+        art = build_section_article(ai, SECTIONS[sid], d, tz, group)
+        if not art:
+            continue
+        used_links.update(art["category_meta"]["source_links"])
+        recent_kw.append(group[0]["kw"])
+        articles.insert(0, art)
+        made += 1
+        per_section[sid] = 1
+        log.info("✔ [%s] \"%s\" (pont: %.1f, %s forrás, kép: %s)", sid, art["title"], score, len(art["sources"]),
+                 (art["hero_image"] or {}).get("kind", "nincs"))
+        time.sleep(pause)  # ingyenes AI-keret: ne fussunk bele a percenkénti limitbe
     articles.sort(key=lambda a: a.get("created_at", ""), reverse=True)
     if made and not dry_run:
         write_json_atomic(path, {"schema_version": 1, "updated_at": datetime.now(tz).isoformat(timespec="seconds"),
-                                 "articles": articles[:int(os.getenv("ARTICLES_ARCHIVE_LIMIT", "300"))]})
-    log.info("Rovatcikkek: %d új", made)
+                                 "articles": articles[:int(os.getenv("ARTICLES_ARCHIVE_LIMIT", "600"))]})
+    log.info("Rovatcikkek: %d új (%d jelölt)", made, len(cands))
     return made
 
 
