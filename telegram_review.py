@@ -515,6 +515,10 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                     _apply_live(out_dir, art, tz, remove=True)
                     published += 1
                 note = "Törölve" if art.get("live") else "Elvetve"
+                if art.get("offtopic") and not art.get("live"):
+                    import offtopic  # elvetett saját cikk helyett aznap új téma jön
+                    if art.get("date") == datetime.now(tz).date().isoformat() and offtopic.allow_reroll(datetime.now(tz).date()):
+                        note += " – új saját cikket írok (másik téma)"
                 tg("editMessageText", {"chat_id": st["chat_id"], "message_id": q["message"]["message_id"],
                                        "text": f"🗑 {note}: {_chosen_title(art)}"})
             elif act == "rw":
