@@ -4,8 +4,10 @@ Kollektíva – saját („off-topic”) magazincikkek
 =============================================
 
 A hírek (on-topic) mellett naponta egy saját, időtálló, mélyebb cikk készül egy előre összeállított témalistából
-(data/offtopic_topics.json): életmód, univerzum, tech, kultúra, pénz. A cikk a magyar (és ha kell, angol)
-Wikipédia szövegére épül – ezek a források a cikk alatt is megjelennek –, nem hírforrásra.
+(data/offtopic_topics.json): életmód, univerzum, tech, kultúra, pénz. A cikk gerincét TUDOMÁNYOS TANULMÁNYOK
+adják (Europe PMC: orvos- és élettudomány, OpenAlex: minden más – a legtöbbet idézett áttekintések/cikkek
+összefoglalói), a Wikipédia csak háttér. A források a cikk alatt is megjelennek.
+Ha egy saját cikket elvetsz Telegramon, aznap új témából új készül (max. OFFTOPIC_REROLLS, alap 2).
 
 Időzítés: a cikk Telegramra megy (🗓 SAJÁT). Ha nem nyúlsz hozzá, CSENDES időszakban kerül ki: legkorábban
 a generálás után OFFTOPIC_MIN_DELAY_H órával (alap 2), 9 és 21 óra között, amikor az elmúlt OFFTOPIC_QUIET_MIN
@@ -35,8 +37,10 @@ RUNS_FILE = kc.BASE_DIR / "data" / "robot.json"
 
 OFFTOPIC_SYSTEM = (
     "Egy prémium magyar online magazin (Kollektíva) vezető szerzője vagy. Időtálló, alapos, mégis könnyen olvasható "
-    "magazincikket írsz egy megadott témáról. SZIGORÚ SZABÁLY: a tényeket a megadott Wikipédia-kivonatokból és "
-    "vitathatatlan, közismert tudásból veszed; nem találsz ki számot, tanulmányt, idézetet, nevet vagy dátumot. "
+    "magazincikket írsz egy megadott témáról, elsősorban tudományos kutatások alapján: az idegen nyelvű, száraz "
+    "tanulmányokat érthetővé és izgalmassá teszed a magyar olvasónak. SZIGORÚ SZABÁLY: a tényeket a megadott "
+    "tanulmány-összefoglalókból, Wikipédia-kivonatokból és vitathatatlan, közismert tudásból veszed; nem találsz ki "
+    "számot, tanulmányt, idézetet, nevet vagy dátumot, és nem állítasz többet, mint amit a tanulmány kimond. "
     "Ha valamiben a tudomány bizonytalan, azt kimondod. Egészségügyi témánál nem adsz személyre szabott tanácsot, "
     "és a végén egy mondatban jelzed, hogy a cikk nem helyettesíti az orvosi/szakértői véleményt. "
     "STÍLUS: természetes, élvezetes, újságírói magyar nyelv; változatos mondathossz; konkrét példák, számok, "
@@ -75,9 +79,73 @@ def wiki_extract(title: str, lang: str, timeout: int, chars: int = 5000) -> Opti
     return None
 
 
-def gather(topic: dict, timeout: int) -> list:
-    """Források egy témához: a megadott magyar szócikkek, és ha kevés, az angolok is."""
+EPMC_URL = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+OPENALEX_URL = "https://api.openalex.org/works"
+
+
+def _clean(t: str) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", t or "")).strip()
+
+
+def epmc_papers(q: str, timeout: int, n: int = 5) -> list:
+    """Europe PMC: a témában legtöbbet idézett áttekintések / metaanalízisek (2012-től), összefoglalóval."""
+    query = (f'TITLE:({q}) AND (PUB_TYPE:"review" OR PUB_TYPE:"systematic-review" OR PUB_TYPE:"meta-analysis") '
+             "AND HAS_ABSTRACT:y AND LANG:eng AND PUB_YEAR:[2012 TO 2030]")
+    data = kc.http_get_json(f"{EPMC_URL}?query={urllib.parse.quote(query)}&format=json&resultType=core"
+                            f"&pageSize={n + 3}&sort={urllib.parse.quote('CITED desc')}", timeout) or {}
     out = []
+    for r in ((data.get("resultList") or {}).get("result") or []):
+        ab = _clean(r.get("abstractText"))
+        if len(ab) < 400:
+            continue
+        url = f"https://doi.org/{r['doi']}" if r.get("doi") else f"https://europepmc.org/article/MED/{r.get('pmid')}"
+        out.append({"title": _clean(r.get("title")).rstrip("."), "url": url, "lang": "en", "kind": "paper",
+                    "journal": _clean((r.get("journalInfo") or {}).get("journal", {}).get("title")) or "Europe PMC",
+                    "year": r.get("pubYear"), "cited": r.get("citedByCount") or 0, "text": ab[:2200]})
+    return out[:n]
+
+
+def openalex_papers(q: str, timeout: int, n: int = 5) -> list:
+    """OpenAlex: a címben a keresett kifejezést tartalmazó, legtöbbet idézett tanulmányok (2010-től), összefoglalóval."""
+    flt = f"title.search:{q},has_abstract:true,from_publication_date:2010-01-01,type:article|review"
+    data = kc.http_get_json(f"{OPENALEX_URL}?filter={urllib.parse.quote(flt)}&sort=cited_by_count:desc&per-page={n + 3}"
+                            "&select=title,publication_year,doi,id,cited_by_count,primary_location,abstract_inverted_index"
+                            "&mailto=szerkesztoseg@kollektiva.hu", timeout) or {}
+    out = []
+    for r in data.get("results") or []:
+        inv = r.get("abstract_inverted_index") or {}
+        pos = sorted((i, w) for w, idx in inv.items() for i in idx)
+        ab = _clean(" ".join(w for _, w in pos))
+        if len(ab) < 400:
+            continue
+        src = ((r.get("primary_location") or {}).get("source") or {}).get("display_name") or "OpenAlex"
+        out.append({"title": _clean(r.get("title")).rstrip("."), "url": r.get("doi") or r.get("id"), "lang": "en",
+                    "kind": "paper", "journal": src, "year": r.get("publication_year"),
+                    "cited": r.get("cited_by_count") or 0, "text": ab[:2200]})
+    return out[:n]
+
+
+def science_sources(topic: dict, timeout: int) -> list:
+    sci = topic.get("science") or {}
+    if not sci.get("q") or os.getenv("OFFTOPIC_SCIENCE", "true").lower() not in ("1", "true", "yes"):
+        return []
+    try:
+        papers = (epmc_papers if sci.get("db") == "epmc" else openalex_papers)(sci["q"], timeout)
+    except Exception as e:  # noqa: BLE001 – a tudományos forrás hiánya nem állíthatja meg a cikket
+        log.warning("Tudományos források nem jöttek (%s): %s", topic.get("id"), e)
+        return []
+    log.info("Off-topic: %d tanulmány (%s)", len(papers), sci.get("db"))
+    return papers
+
+
+def gather(topic: dict, timeout: int) -> list:
+    """Források egy témához: előbb a tudományos tanulmányok (ha van legalább 2, a Wikipédiából csak 1 magyar
+    szócikk megy mellé háttérnek), különben a magyar, és ha kevés, az angol szócikkek."""
+    papers = science_sources(topic, timeout)
+    if len(papers) >= 2:
+        bg = next((ex for ex in (wiki_extract(t, "hu", timeout, 2500) for t in topic.get("wiki_hu", [])[:1]) if ex), None)
+        return papers + ([bg] if bg else [])
+    out = list(papers)
     for t in topic.get("wiki_hu", [])[:3]:
         ex = wiki_extract(t, "hu", timeout)
         if ex and ex["url"] not in {o["url"] for o in out}:
@@ -95,7 +163,17 @@ def gather(topic: dict, timeout: int) -> list:
 # ---------------------------------------------------------------------------
 
 def offtopic_prompt(topic: dict, section: dict, sources: list, d: date) -> str:
-    src = "\n\n".join(f"[{i + 1}] Wikipédia ({s['lang']}) – {s['title']}\n{s['text']}" for i, s in enumerate(sources))
+    src = "\n\n".join(
+        (f"[{i + 1}] TANULMÁNY – {s['title']} ({s['journal']}, {s['year']}; {s['cited']} hivatkozás) – összefoglaló:\n{s['text']}"
+         if s.get("kind") == "paper" else f"[{i + 1}] Wikipédia ({s['lang']}) – {s['title']}\n{s['text']}")
+        for i, s in enumerate(sources))
+    sci = any(s.get("kind") == "paper" for s in sources)
+    sci_rules = ("""
+TUDOMÁNYOS ALAP: a cikk gerincét a fenti tanulmányok adják. Mondd el közérthetően, mit vizsgáltak és mit találtak
+(pl. „egy 2019-es, több tucat kutatást összesítő áttekintés szerint…”, a folyóirat neve megemlíthető). Jelezd, ha
+az eredmény bizonytalan, csak összefüggés, vagy állatkísérlet. Ne sorold fel a tanulmányokat egymás után: a
+témát magyarázd, a kutatások a bizonyítékok. Számot csak a forrásból vegyél.
+""" if sci else "")
     return f"""Rovat: {section['name']} ({section['focus']}). Dátum: {kc.hu_date(d)}.
 A rovat hangja: {section.get('voice', 'természetes, újságírói')}.
 Téma: {topic['topic']}
@@ -103,7 +181,7 @@ Szög / amire az olvasó kíváncsi: {topic.get('angle', '')}
 
 Háttéranyag (csak ebből és közismert tudásból dolgozz; angol anyagot magyarul, saját szavaiddal használd):
 {src}
-
+{sci_rules}
 Írj egy eredeti, időtálló magyar magazincikket (nem hír, hanem „olvasnivaló”):
 - "title": RÖVID (max. 8 szó), kíváncsiságot keltő, de igaz cím (kérdés, meglepő tény vagy szám is lehet)
 - "title_options": 2 további, eltérő stílusú címváltozat, tömbként
@@ -130,7 +208,7 @@ def build_article(ai: "kc.AIClient", topic: dict, d: date, tz: ZoneInfo, avoid_i
     section = kc.SECTIONS.get(topic.get("section")) or kc.SECTIONS["eletmod"]
     sources = sources or gather(topic, ai.cfg.http_timeout)
     if not sources:
-        log.warning("Off-topic: nincs Wikipédia-anyag ehhez: %s", topic.get("topic"))
+        log.warning("Off-topic: nincs forrásanyag ehhez: %s", topic.get("topic"))
         return None
     try:
         raw = ai.complete_json(OFFTOPIC_SYSTEM, offtopic_prompt(topic, section, sources, d), 6000)
@@ -155,8 +233,11 @@ def build_article(ai: "kc.AIClient", topic: dict, d: date, tz: ZoneInfo, avoid_i
                                       if str(t).strip() and str(t).strip() != art["title"]]
     now_iso = datetime.now(tz).isoformat(timespec="seconds")
     slug = kc.slugify(f"{d.isoformat()}-{art['title']}")
-    srcs = kc.normalize_sources([{"url": s["url"], "title": s["title"], "publisher": f"Wikipédia ({s['lang']})",
-                                  "license": "CC BY-SA 4.0"} for s in sources], now_iso)
+    srcs = kc.normalize_sources([
+        {"url": s["url"], "title": s["title"], "publisher": f"{s['journal']}, {s['year']}"}
+        if s.get("kind") == "paper" else
+        {"url": s["url"], "title": s["title"], "publisher": f"Wikipédia ({s['lang']})", "license": "CC BY-SA 4.0"}
+        for s in sources], now_iso)
     full_text = " ".join([art["lead"], *art["body"]])
     sid = section["id"]
     return {
@@ -168,8 +249,9 @@ def build_article(ai: "kc.AIClient", topic: dict, d: date, tz: ZoneInfo, avoid_i
         "reading_time_min": kc.reading_time(full_text), "word_count": len(re.findall(r"\w+", full_text)),
         "locale": "hu-HU", "hero_image": image, "inline_images": inline_images, "sources": srcs,
         "authorship": {"mode": "ai_generated", "byline": "Kollektíva szerkesztőség", "model": ai.label.split(":", 2)[-1],
-                       "prompt_version": "offtopic-v1", "reviewed_by": None, "reviewed_at": None},
+                       "prompt_version": "offtopic-v2-science", "reviewed_by": None, "reviewed_at": None},
         "hot_score": 0, "offtopic": True, "offtopic_topic": topic,
+        "science_based": any(s.get("kind") == "paper" for s in sources),
         "title_options": title_options[:3], "image_options": image_options,
         "category_meta": {"source_links": [s["url"] for s in sources], "offtopic_id": topic.get("id")},
         "date": d.isoformat(), "date_label": f"{kc.HU_MONTHS[d.month - 1]} {d.day}.",
@@ -239,6 +321,18 @@ def next_topic(done: list) -> Optional[dict]:
             last_sec[t.get("section")] = i
     fresh.sort(key=lambda t: last_sec.get(t.get("section"), -1))
     return fresh[0]
+
+
+def allow_reroll(d: date) -> bool:
+    """Elvetett saját cikk után aznap új készülhet (max. OFFTOPIC_REROLLS alkalommal)."""
+    runs = kc.read_json(RUNS_FILE, {})
+    used = runs.get("offtopic_rerolls", {}).get(d.isoformat(), 0)
+    if used >= int(os.getenv("OFFTOPIC_REROLLS", "2")):
+        return False
+    runs.pop("last_offtopic_date", None)
+    runs["offtopic_rerolls"] = {d.isoformat(): used + 1}
+    kc.write_json_atomic(RUNS_FILE, runs)
+    return True
 
 
 def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: bool = False) -> int:
