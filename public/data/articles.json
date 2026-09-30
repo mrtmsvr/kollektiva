@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T13:34:46+02:00",
+  "updated_at": "2026-09-30T13:36:16+02:00",
   "articles": [
     {
       "id": "1b8d58ce-a33f-52ae-b64f-816a7d47401d",
@@ -740,7 +740,7 @@
         "egérkísérlet",
         "orvostudomány"
       ],
-      "title": "MRNS-koktéllal tüntették el a hasnyálmirigyrákot",
+      "title": "Egy év után sem tért vissza a rák",
       "subtitle": null,
       "lead": "Egy kísérleti mRNS-kezelés hatására teljesen eltűntek a hasnyálmirigyrákos daganatok az egerekből, és a betegség egy év elteltével sem újult ki. A UMass Chan Orvosi Egyetem kutatóinak áttörése a Covid-vakcinák sikereire épül.",
       "key_points": [
@@ -800,7 +800,7 @@
       "date_label": "szeptember 30.",
       "url": "/tech/2026-09-30-mrns-koktellal-tuntettek-el-a-hasnyalmirigyrakot/",
       "seo": {
-        "meta_title": "MRNS-koktéllal tüntették el a hasnyálmirigyrákot",
+        "meta_title": "Egy év után sem tért vissza a rák",
         "meta_description": "Egy kísérleti mRNS-kezelés hatására teljesen eltűntek a hasnyálmirigyrákos daganatok az egerekből, és a betegség egy év elteltével sem újult ki. A UMass Chan Or",
         "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-09-30-mrns-koktellal-tuntettek-el-a-hasnyalmirigyrakot/",
         "og_image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/SARS-CoV-2_%28%C2%B5-IMAGE%29_vaccines_mRNA-1273_%28moderna%29%2C_Ad5_%28CanSinoBio%2C_NantKwest_ImmunityBio%29%2C_ChAdOx1_nCoV-19_%28Oxford_university%29._-_Other_remedies_S309_%28antibody%29%2C_hydroxychloroquin_%28Malaria-medicament%29%2C_fluvoxamin_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -819,7 +819,7 @@
       "pipeline_run_id": "36690486430",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-09-30T13:31:20+02:00",
-      "updated_at": "2026-09-30T13:31:20+02:00",
+      "updated_at": "2026-09-30T13:36:16+02:00",
       "published_at": "2026-09-30T13:31:20+02:00",
       "expires_at": null
     },
