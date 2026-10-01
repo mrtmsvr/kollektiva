@@ -1,7 +1,103 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01T19:07:26+02:00",
+  "updated_at": "2026-10-01T20:48:48+02:00",
   "articles": [
+    {
+      "id": "03519491-63ae-5c95-b46b-85c8b8375edf",
+      "slug": "2026-10-01-igy-valt-a-jog-a-hatalom-fegyvereve",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "jogállamiság",
+        "politika",
+        "alkotmányjog",
+        "demokrácia"
+      ],
+      "title": "Így vált a jog a hatalom fegyverévé",
+      "subtitle": null,
+      "lead": "A 2026-os magyarországi kormányváltás után is látszik, hogy az Orbán-rendszer által kiépített autoriter jogrendet rendkívül nehéz felszámolni. A qubit.hu elemzése szerint a politikai vezetők a jogot használták fel arra, hogy kivonják hatalmukat a jogállami korlátok alól.",
+      "key_points": [
+        "A választók meghatározó többséggel leváltották az Orbán-kormányt 2026-ban.",
+        "Az autoriter jog elveszítette autonómiáját, és a politika fegyverévé vált.",
+        "A liberális jogrend válsága teremtett utat az autoriter rendszerek előretörésének.",
+        "A korlátlan hatalom elkerülésének eszméje a második világháború után gyökerezett le."
+      ],
+      "content": "2026-ban jelentős politikai változások zajlottak le Magyarországon, amikor a választók meghatározó többséggel leváltották az Orbán-kormányt. A gyors politikai fordulat ellenére azonban a mindennapokban továbbra is velünk él az a jogrend, amelyet az előző rendszer épített ki, igazolva, hogy egy autoriter rendszert korántsem olyan könnyű lebontani, mint kormányt váltani.\n\nEnnek a jelenségnek a hátterében az úgynevezett autoriter jog áll, amely szembehelyezkedik a felvilágosodás óta kibontakozó normatív keretekkel. Ebben a rendszerben a jog elveszítette autonómiáját, és olyan eszközzé vált, amellyel a politikai vezetők kivonják a hatalmukat a jogállami korlátok alól.\n\nA kortárs autoriter berendezkedések előretörése a liberális jogrend elbizonytalanodásából fakad. Megrendült ugyanis a hit abban, hogy a második világháború után létrejött liberális alkotmányos és nemzetközi jogi rend képes összetartani a világot, valamint megakadályozni egy újabb világégést.\n\nA folyamat mélyebb megértéséhez a német alkotmányjogász, Carl Schmitt által használt katechón fogalmat hívják segítségül, amely a katasztrófát feltartóztató erőt jelöli. A liberális intézmények egykor ugyanezzel a katechontikus küldetéssel léptek fel, ám amikor ez az ígéret meggyengült, megnyílt a tér az új katechónként tetszelgő vezetők előtt.",
+      "content_format": "markdown",
+      "body": [
+        "2026-ban jelentős politikai változások zajlottak le Magyarországon, amikor a választók meghatározó többséggel leváltották az Orbán-kormányt. A gyors politikai fordulat ellenére azonban a mindennapokban továbbra is velünk él az a jogrend, amelyet az előző rendszer épített ki, igazolva, hogy egy autoriter rendszert korántsem olyan könnyű lebontani, mint kormányt váltani.",
+        "Ennek a jelenségnek a hátterében az úgynevezett autoriter jog áll, amely szembehelyezkedik a felvilágosodás óta kibontakozó normatív keretekkel. Ebben a rendszerben a jog elveszítette autonómiáját, és olyan eszközzé vált, amellyel a politikai vezetők kivonják a hatalmukat a jogállami korlátok alól.",
+        "A kortárs autoriter berendezkedések előretörése a liberális jogrend elbizonytalanodásából fakad. Megrendült ugyanis a hit abban, hogy a második világháború után létrejött liberális alkotmányos és nemzetközi jogi rend képes összetartani a világot, valamint megakadályozni egy újabb világégést.",
+        "A folyamat mélyebb megértéséhez a német alkotmányjogász, Carl Schmitt által használt katechón fogalmat hívják segítségül, amely a katasztrófát feltartóztató erőt jelöli. A liberális intézmények egykor ugyanezzel a katechontikus küldetéssel léptek fel, ám amikor ez az ígéret meggyengült, megnyílt a tér az új katechónként tetszelgő vezetők előtt."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 211,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://live.staticflickr.com/7301/26682691294_385a8a19c4_b.jpg",
+        "width": 1024,
+        "height": 682,
+        "kind": "photo",
+        "alt": "Court Gavel - Judge's Gavel - Courtroom",
+        "credit": "weiss_paarz_photos / flickr",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://www.flickr.com/photos/141290938@N03/26682691294"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://qubit.hu/2026/10/01/az-autoriter-jogot-nehezebb-felszamolni-mint-kormanyt-valtani-de-korantsem-lehetetlen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "Az autoriter jogot nehezebb felszámolni, mint kormányt váltani, de korántsem lehetetlen",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T20:47:23+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-01T20:48:48+02:00"
+      },
+      "hot_score": 5.79,
+      "category_meta": {
+        "source_links": [
+          "https://qubit.hu/2026/10/01/az-autoriter-jogot-nehezebb-felszamolni-mint-kormanyt-valtani-de-korantsem-lehetetlen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/tech/2026-10-01-igy-valt-a-jog-a-hatalom-fegyvereve/",
+      "seo": {
+        "meta_title": "Így vált a jog a hatalom fegyverévé",
+        "meta_description": "A 2026-os magyarországi kormányváltás után is látszik, hogy az Orbán-rendszer által kiépített autoriter jogrendet rendkívül nehéz felszámolni. A qubit.hu elemzé",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-01-igy-valt-a-jog-a-hatalom-fegyvereve/",
+        "og_image": "https://live.staticflickr.com/7301/26682691294_385a8a19c4_b.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "fde6d177caa0e4fd14f934c97efdeec92a8a1483d77ee50b4531a6e429771b4e",
+      "pipeline_run_id": "36909127434",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T20:48:48+02:00",
+      "updated_at": "2026-10-01T20:48:48+02:00",
+      "published_at": "2026-10-01T20:48:48+02:00",
+      "expires_at": null
+    },
     {
       "id": "d3941b01-28a3-581a-b6cc-75db2e4a0c68",
       "slug": "2026-10-01-kilottek-a-spacex-crew-13-missziot",

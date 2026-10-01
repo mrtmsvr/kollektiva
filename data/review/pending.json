@@ -8346,9 +8346,9 @@
       }
     },
     {
-      "id": "46c00d26-77bd-5e81-be50-f9841f08f248",
-      "slug": "2026-10-01-miert-olyan-nehez-lebontani-az-autoriter-jogot",
-      "status": "pending",
+      "id": "03519491-63ae-5c95-b46b-85c8b8375edf",
+      "slug": "2026-10-01-igy-valt-a-jog-a-hatalom-fegyvereve",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -8357,7 +8357,7 @@
         "alkotmányjog",
         "demokrácia"
       ],
-      "title": "Miért olyan nehéz lebontani az autoriter jogot?",
+      "title": "Így vált a jog a hatalom fegyverévé",
       "subtitle": null,
       "lead": "A 2026-os magyarországi kormányváltás után is látszik, hogy az Orbán-rendszer által kiépített autoriter jogrendet rendkívül nehéz felszámolni. A qubit.hu elemzése szerint a politikai vezetők a jogot használták fel arra, hogy kivonják hatalmukat a jogállami korlátok alól.",
       "key_points": [
@@ -8379,15 +8379,14 @@
       "word_count": 211,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Viktor_Orb%C3%A1n_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "width": 1200,
-        "height": 1690,
+        "url": "https://live.staticflickr.com/7301/26682691294_385a8a19c4_b.jpg",
+        "width": 1024,
+        "height": 682,
         "kind": "photo",
-        "pos": "top",
-        "alt": "Viktor Orbán in 2018.",
-        "credit": "European People's Party / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Orb%C3%A1n_2018.jpg"
+        "alt": "Court Gavel - Judge's Gavel - Courtroom",
+        "credit": "weiss_paarz_photos / flickr",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://www.flickr.com/photos/141290938@N03/26682691294"
       },
       "inline_images": [],
       "sources": [
@@ -8507,12 +8506,12 @@
       },
       "date": "2026-10-01",
       "date_label": "október 1.",
-      "url": "/tech/2026-10-01-miert-olyan-nehez-lebontani-az-autoriter-jogot/",
+      "url": "/tech/2026-10-01-igy-valt-a-jog-a-hatalom-fegyvereve/",
       "seo": {
-        "meta_title": "Miért olyan nehéz lebontani az autoriter jogot?",
+        "meta_title": "Így vált a jog a hatalom fegyverévé",
         "meta_description": "A 2026-os magyarországi kormányváltás után is látszik, hogy az Orbán-rendszer által kiépített autoriter jogrendet rendkívül nehéz felszámolni. A qubit.hu elemzé",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-01-miert-olyan-nehez-lebontani-az-autoriter-jogot/",
-        "og_image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Viktor_Orb%C3%A1n_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-01-igy-valt-a-jog-a-hatalom-fegyvereve/",
+        "og_image": "https://live.staticflickr.com/7301/26682691294_385a8a19c4_b.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8529,9 +8528,9 @@
       "dedupe_hash": "fde6d177caa0e4fd14f934c97efdeec92a8a1483d77ee50b4531a6e429771b4e",
       "pipeline_run_id": "36909127434",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T20:47:23+02:00",
-      "updated_at": "2026-10-01T20:47:23+02:00",
-      "published_at": "2026-10-01T20:47:23+02:00",
+      "created_at": "2026-10-01T20:48:48+02:00",
+      "updated_at": "2026-10-01T20:48:48+02:00",
+      "published_at": "2026-10-01T20:48:48+02:00",
       "expires_at": null,
       "review": {
         "title": 1,
@@ -8549,7 +8548,8 @@
           887
         ],
         "control_id": 888
-      }
+      },
+      "live": true
     }
   ]
 }
