@@ -6040,9 +6040,9 @@
       ]
     },
     {
-      "id": "34a910f4-9163-5a2f-bb27-22d63c1408a0",
-      "slug": "2026-10-01-a-hold-es-a-tuzhanyo-talalkozasa",
-      "status": "pending",
+      "id": "9a529fe5-41d0-5f7e-bdb5-ca6cccaea4db",
+      "slug": "2026-10-01-ritka-egi-pillanat-az-etna-felett",
+      "status": "published",
       "category": "univerzum",
       "subcategory": null,
       "tags": [
@@ -6052,7 +6052,7 @@
         "Etna",
         "NASA"
       ],
-      "title": "A Hold és a tűzhányó találkozása",
+      "title": "Ritka égi pillanat az Etna felett",
       "subtitle": null,
       "lead": "Lenyűgöző csillagászati felvétel örökítette meg a naprendszer egyik legszebb együttállását, amelyben a telihold egy aktív vulkán füstölő csúcsával került egy vonalba. Az űrkutatás és a csillagászat iránt érdeklődők számára ez a nap képei között is kiemelt pillanatot jelentett a nasa.gov hírei szerint.",
       "key_points": [
@@ -6225,11 +6225,11 @@
       },
       "date": "2026-10-01",
       "date_label": "október 1.",
-      "url": "/univerzum/2026-10-01-a-hold-es-a-tuzhanyo-talalkozasa/",
+      "url": "/univerzum/2026-10-01-ritka-egi-pillanat-az-etna-felett/",
       "seo": {
-        "meta_title": "A Hold és a tűzhányó találkozása",
+        "meta_title": "Ritka égi pillanat az Etna felett",
         "meta_description": "Lenyűgöző csillagászati felvétel örökítette meg a naprendszer egyik legszebb együttállását, amelyben a telihold egy aktív vulkán füstölő csúcsával került egy vo",
-        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-01-a-hold-es-a-tuzhanyo-talalkozasa/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-01-ritka-egi-pillanat-az-etna-felett/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Etna_eruption_seen_from_the_International_Space_Station.jpg/1280px-Etna_eruption_seen_from_the_International_Space_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -6247,9 +6247,9 @@
       "dedupe_hash": "d8d0c724af2a0cb2b8fcb561d7d0d6ba0b1b39695300171bee72f8001dced0b3",
       "pipeline_run_id": "36876886244",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T16:32:34+02:00",
-      "updated_at": "2026-10-01T16:32:34+02:00",
-      "published_at": "2026-10-01T16:32:34+02:00",
+      "created_at": "2026-10-01T16:37:13+02:00",
+      "updated_at": "2026-10-01T16:37:13+02:00",
+      "published_at": "2026-10-01T16:37:13+02:00",
       "expires_at": null,
       "review": {
         "title": 2,
@@ -6268,7 +6268,8 @@
           644
         ],
         "control_id": 645
-      }
+      },
+      "live": true
     },
     {
       "id": "3474135a-1af5-5238-9782-3546d14c1c06",

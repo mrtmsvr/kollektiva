@@ -1,7 +1,117 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01T16:37:09+02:00",
+  "updated_at": "2026-10-01T16:37:13+02:00",
   "articles": [
+    {
+      "id": "9a529fe5-41d0-5f7e-bdb5-ca6cccaea4db",
+      "slug": "2026-10-01-ritka-egi-pillanat-az-etna-felett",
+      "status": "published",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "Univerzum",
+        "csillagászat",
+        "Hold",
+        "Etna",
+        "NASA"
+      ],
+      "title": "Ritka égi pillanat az Etna felett",
+      "subtitle": null,
+      "lead": "Lenyűgöző csillagászati felvétel örökítette meg a naprendszer egyik legszebb együttállását, amelyben a telihold egy aktív vulkán füstölő csúcsával került egy vonalba. Az űrkutatás és a csillagászat iránt érdeklődők számára ez a nap képei között is kiemelt pillanatot jelentett a nasa.gov hírei szerint.",
+      "key_points": [
+        "A NASA hivatalos csillagászati oldalán egyedi felvétel jelent meg a Holdról és az Etnáról.",
+        "A jelenség során a Harvester-holdként is ismert telihold éppen a vulkáni kitörés füstje mögött látszott.",
+        "A professzionális csillagászok által magyarázott képek napról napra közelebb hozzák az univerzum csodáit."
+      ],
+      "content": "Az égbolt gyakran kínál olyan látványosságokat, amelyekhez foghatót emberi kéz nem tudna építeni. Ez a helyzet akkor is, amikor Földünk kísérője, a Hold pontosan egy működő vulkán, az Etna látómezejébe vándorol. Olyan ez a pillanat, mintha egy hatalmas ezüstgolyó gurulna végig egy füstölgő kémény tetején.\n\nA NASA Astronomy Picture of the Day (APOD) elnevezésű kezdeményezése naponta mutat be olyan különleges fotókat, amelyeket hivatásos csillagászok magyaráznak el a nagyközönségnek. A legfrissebb bemutató középpontjában a Harvest Moon, vagyis az őszi napéjegyenlőséghez legközelebbi telihold állt, amely az olaszországi vulkán füstjével alkotott egységes kompozíciót.\n\nAz űrkutatás jelenlegi fókuszában egyébként számos más izgalmas küldetés is szerepel a távoli bolygók vizsgálatától kezdve a Nemzetközi Űrállomás mindennapjaiig, de időnként érdemes a Földről nyíló kilátásra is figyelni. Az ilyen ritka együttállások emlékeztetnek arra, hogy mindennapi égboltunk alatt folyamatosan kozmikus léptékű események zajlanak.",
+      "content_format": "markdown",
+      "body": [
+        "Az égbolt gyakran kínál olyan látványosságokat, amelyekhez foghatót emberi kéz nem tudna építeni. Ez a helyzet akkor is, amikor Földünk kísérője, a Hold pontosan egy működő vulkán, az Etna látómezejébe vándorol. Olyan ez a pillanat, mintha egy hatalmas ezüstgolyó gurulna végig egy füstölgő kémény tetején.",
+        "A NASA Astronomy Picture of the Day (APOD) elnevezésű kezdeményezése naponta mutat be olyan különleges fotókat, amelyeket hivatásos csillagászok magyaráznak el a nagyközönségnek. A legfrissebb bemutató középpontjában a Harvest Moon, vagyis az őszi napéjegyenlőséghez legközelebbi telihold állt, amely az olaszországi vulkán füstjével alkotott egységes kompozíciót.",
+        "Az űrkutatás jelenlegi fókuszában egyébként számos más izgalmas küldetés is szerepel a távoli bolygók vizsgálatától kezdve a Nemzetközi Űrállomás mindennapjaiig, de időnként érdemes a Földről nyíló kilátásra is figyelni. Az ilyen ritka együttállások emlékeztetnek arra, hogy mindennapi égboltunk alatt folyamatosan kozmikus léptékű események zajlanak."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 177,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Etna_eruption_seen_from_the_International_Space_Station.jpg/1280px-Etna_eruption_seen_from_the_International_Space_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 882,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "ISS005-E-19024 --- The three-member crew of the Expedition Five mission onboard the International Space Station was able to observe Mt. Etna’s spectacular eruption, and photograph the details of the e",
+        "credit": "NASA / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Etna_eruption_seen_from_the_International_Space_Station.jpg"
+      },
+      "inline_images": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Mount_Etna_2024_21.jpg/1280px-Mount_Etna_2024_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Lava fields and vegetation on Mount Etna in Sicily, Italy.",
+          "credit": "Cayambe / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mount_Etna_2024_21.jpg",
+          "after": 0,
+          "caption": "Az aktív olaszországi vulkán, az Etna."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-1-harvest-moon-with-belt-of-venus-and-erupting-mount-etna/",
+          "title": "APOD: 2026 October 1 – Harvest Moon with Erupting Mount Etna",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-01T16:32:34+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-01T16:37:13+02:00"
+      },
+      "hot_score": 5.88,
+      "category_meta": {
+        "source_links": [
+          "https://science.nasa.gov/image-article/apod-2026-october-1-harvest-moon-with-belt-of-venus-and-erupting-mount-etna/"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/univerzum/2026-10-01-ritka-egi-pillanat-az-etna-felett/",
+      "seo": {
+        "meta_title": "Ritka égi pillanat az Etna felett",
+        "meta_description": "Lenyűgöző csillagászati felvétel örökítette meg a naprendszer egyik legszebb együttállását, amelyben a telihold egy aktív vulkán füstölő csúcsával került egy vo",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-01-ritka-egi-pillanat-az-etna-felett/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Etna_eruption_seen_from_the_International_Space_Station.jpg/1280px-Etna_eruption_seen_from_the_International_Space_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "d8d0c724af2a0cb2b8fcb561d7d0d6ba0b1b39695300171bee72f8001dced0b3",
+      "pipeline_run_id": "36876886244",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T16:37:13+02:00",
+      "updated_at": "2026-10-01T16:37:13+02:00",
+      "published_at": "2026-10-01T16:37:13+02:00",
+      "expires_at": null
+    },
     {
       "id": "ceb68079-3911-503c-8747-b90f80746457",
       "slug": "2026-10-01-harmadszor-is-megnosult-jim-carrey",
