@@ -1,7 +1,131 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01T00:00:45+02:00",
+  "updated_at": "2026-10-02T00:18:52+02:00",
   "articles": [
+    {
+      "id": "8007ae8e-3c62-5501-be7c-055ca33aa32a",
+      "slug": "2026-10-02-a-krimi-alku-amelyert-halalbuntetes-jart-a-livadiai-szerzodes-kudarca",
+      "status": "published",
+      "category": "retro",
+      "subcategory": null,
+      "tags": [
+        "Csing-dinasztia",
+        "Orosz Birodalom",
+        "diplomáciatörténet",
+        "Hszincsiang"
+      ],
+      "title": "A krími alku, amelyért halálbüntetés járt: a livádiai szerződés kudarca",
+      "subtitle": null,
+      "lead": "1879. október 2-án a Csing-dinasztia követe Livágyijában írta alá a vitatott megállapodást az Orosz Birodalommal. A Pekingbe visszajutó feltételek azonban akkora felháborodást keltettek, hogy a császári udvar megtagadta a ratifikációt, a tárgyaló diplomatát pedig halálra ítélte.",
+      "content": "> A megbízott követ számára a livádiai diplomáciai kudarc nem egyszerű politikai vereséget, hanem halálos ítéletet jelentett a pekingi udvarban.\n\n1879 őszén a Krím-félsziget déli partján, Livágyijában két hatalmas eurázsiai birodalom érdekei ütköztek a tárgyalóasztalnál. Az 1721-ben Péterváron kikiáltott, a cár által irányított Orosz Birodalom és a keleti szomszéd, a Csing-dinasztia uralta Kína diplomáciai képviselői egy olyan térség sorsáról igyekeztek dűlőre jutni, amely messze esett mindkét fővárostól. Október 2-án megszületett a livádiai szerződés, ám a kompromisszum nem békés lezárást, hanem súlyos diplomáciai botrányt és személyes tragédiát hozott.\n\nA Csing-dinasztia, Kína utolsó császári háza, mandzsu gyökerekből emelkedett fel: 1616-ban alapított Kései Csin államból fejlődött ki, majd 1636-ban Senjangban vették fel a Csing nevet, 1644-ben pedig Peking elfoglalásával vették át a hatalmat a Ming-dinasztiától. Fénykorában a birodalom a Japán-tengertől a Pamír-hegységig, a Mongol-fennsíktól a Dél-kínai-tengerig terjedt, és 1790-re a világtörténelem negyedik legnagyobb kiterjedésű államává vált. A tizenkilencedik század második fele azonban a soknemzetiségű birodalom peremvidékein mély válságokat hozott.\n\nA feszültség gócpontja Hszincsiang volt, ahol az 1862 és 1877 közötti dungan felkelés lángjai pusztítottak. A zavaros évtizedek során a szentpétervári cári kormányzat katonai erőkkel lépett közbe, és területeket szállt meg a stratégiai fontosságú határvidéken. Bár a mandzsu haderő végül felszámolta a felkelést és visszaszerezte az ellenőrzést a tágabb régió felett, az orosz cári erők jelenléte közvetlen diplomáciai rendezést igényelt a két birodalom között.\n\nA tárgyalások eredményeként Livágyijában aláírt dokumentum értelmében Oroszország beleegyezett abba, hogy visszaadja a dungan lázadás idején elfoglalt hszincsiangi területek egy részét. A kínai udvar szempontjából azonban a megállapodás megalázó volt: az orosz fél jelentős területi és egyéb előnyöket tartott meg magának, noha a Csing-erők katonailag már uralták a térséget. Az egyezmény így feliratkozott a Kína által elszenvedett „egyenlőtlen szerződések” sorába.\n\nAmikor a livádiai egyezség pontjai eljutottak Pekingbe, az udvarban az elégedetlenség heves ellenállásba csapott át. A mandzsu vezetésű kormányzat úgy értékelte, hogy a megbízott diplomata messze feladta a birodalom érdekeit, ezért a császári udvar határozottan megtagadta a szerződés ratifikálását. A követ nemcsak a pozícióját vesztette el: a kudarcba fulladt misszió és a birodalmi érdekek feladása miatt halálbüntetésre ítélték.\n\nA szerződés megtagadása és a diplomáciai vihar végül nem torkollt közvetlen háborúba. Tizenhét hónappal a livádiai aláírás után a két fél újra tárgyalóasztalhoz ült, és aláírták a szentpétervári szerződést. Ez utóbbi dokumentum – eltekintve a Kína számára kedvezőbb területi rendelkezésektől – nagyrészt ugyanazokat a feltételeket tartalmazta, mint az 1879. október 2-án szignált livádiai tervezet, ám a diplomata életét kockáztató ellenállás világossá tette az oroszok számára a császári udvar tűréshatárait.",
+      "content_format": "markdown",
+      "body": [
+        "1879 őszén a Krím-félsziget déli partján, Livágyijában két hatalmas eurázsiai birodalom érdekei ütköztek a tárgyalóasztalnál. Az 1721-ben Péterváron kikiáltott, a cár által irányított Orosz Birodalom és a keleti szomszéd, a Csing-dinasztia uralta Kína diplomáciai képviselői egy olyan térség sorsáról igyekeztek dűlőre jutni, amely messze esett mindkét fővárostól. Október 2-án megszületett a livádiai szerződés, ám a kompromisszum nem békés lezárást, hanem súlyos diplomáciai botrányt és személyes tragédiát hozott.",
+        "A Csing-dinasztia, Kína utolsó császári háza, mandzsu gyökerekből emelkedett fel: 1616-ban alapított Kései Csin államból fejlődött ki, majd 1636-ban Senjangban vették fel a Csing nevet, 1644-ben pedig Peking elfoglalásával vették át a hatalmat a Ming-dinasztiától. Fénykorában a birodalom a Japán-tengertől a Pamír-hegységig, a Mongol-fennsíktól a Dél-kínai-tengerig terjedt, és 1790-re a világtörténelem negyedik legnagyobb kiterjedésű államává vált. A tizenkilencedik század második fele azonban a soknemzetiségű birodalom peremvidékein mély válságokat hozott.",
+        "A feszültség gócpontja Hszincsiang volt, ahol az 1862 és 1877 közötti dungan felkelés lángjai pusztítottak. A zavaros évtizedek során a szentpétervári cári kormányzat katonai erőkkel lépett közbe, és területeket szállt meg a stratégiai fontosságú határvidéken. Bár a mandzsu haderő végül felszámolta a felkelést és visszaszerezte az ellenőrzést a tágabb régió felett, az orosz cári erők jelenléte közvetlen diplomáciai rendezést igényelt a két birodalom között.",
+        "A tárgyalások eredményeként Livágyijában aláírt dokumentum értelmében Oroszország beleegyezett abba, hogy visszaadja a dungan lázadás idején elfoglalt hszincsiangi területek egy részét. A kínai udvar szempontjából azonban a megállapodás megalázó volt: az orosz fél jelentős területi és egyéb előnyöket tartott meg magának, noha a Csing-erők katonailag már uralták a térséget. Az egyezmény így feliratkozott a Kína által elszenvedett „egyenlőtlen szerződések” sorába.",
+        "Amikor a livádiai egyezség pontjai eljutottak Pekingbe, az udvarban az elégedetlenség heves ellenállásba csapott át. A mandzsu vezetésű kormányzat úgy értékelte, hogy a megbízott diplomata messze feladta a birodalom érdekeit, ezért a császári udvar határozottan megtagadta a szerződés ratifikálását. A követ nemcsak a pozícióját vesztette el: a kudarcba fulladt misszió és a birodalmi érdekek feladása miatt halálbüntetésre ítélték.",
+        "A szerződés megtagadása és a diplomáciai vihar végül nem torkollt közvetlen háborúba. Tizenhét hónappal a livádiai aláírás után a két fél újra tárgyalóasztalhoz ült, és aláírták a szentpétervári szerződést. Ez utóbbi dokumentum – eltekintve a Kína számára kedvezőbb területi rendelkezésektől – nagyrészt ugyanazokat a feltételeket tartalmazta, mint az 1879. október 2-án szignált livádiai tervezet, ám a diplomata életét kockáztató ellenállás világossá tette az oroszok számára a császári udvar tűréshatárait."
+      ],
+      "pull_quote": "A megbízott követ számára a livádiai diplomáciai kudarc nem egyszerű politikai vereséget, hanem halálos ítéletet jelentett a pekingi udvarban.",
+      "reading_time_min": 3,
+      "word_count": 440,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Flag_of_China_%281889%E2%80%931912%29.svg/1280px-Flag_of_China_%281889%E2%80%931912%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 799,
+        "kind": "graphic",
+        "pos": "center",
+        "alt": "Flag of the Chinese Empire under the Qing dynasty (1889-1912), details per the restoration of Beiyang fleet researcher [1].",
+        "credit": "Original: zh:清朝政府 Vector:  Sodacan / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_China_(1889%E2%80%931912).svg"
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Qing_dynasty",
+          "title": "Qing dynasty",
+          "publisher": "Wikipedia",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-02T00:18:52+02:00"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Livadia",
+          "title": "Treaty of Livadia",
+          "publisher": "Wikipedia",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-02T00:18:52+02:00"
+        },
+        {
+          "url": "https://hu.wikipedia.org/wiki/Csing-dinasztia",
+          "title": "Csing-dinasztia",
+          "publisher": "Wikipédia",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-02T00:18:52+02:00"
+        },
+        {
+          "url": "https://www.britannica.com/place/China",
+          "title": "Encyclopaedia Britannica",
+          "publisher": "Encyclopaedia Britannica",
+          "license": null,
+          "accessed_at": "2026-10-02T00:18:52+02:00"
+        },
+        {
+          "url": "https://hu.wikipedia.org/wiki/Orosz_Birodalom",
+          "title": "Orosz Birodalom",
+          "publisher": "Wikipédia",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-02T00:18:52+02:00"
+        },
+        {
+          "url": "https://www.bbc.com/travel/article/20210623-canadas-little-known-russian-sect",
+          "title": "BBC",
+          "publisher": "BBC",
+          "license": null,
+          "accessed_at": "2026-10-02T00:18:52+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "retro-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "event_year": 1879,
+        "event_date": "10-02",
+        "event_title": "Qing China signed the Treaty of Livadia with the Russian Empire, but the terms were so unfavorable that the Chinese gove"
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/retro/2026-10-02-a-krimi-alku-amelyert-halalbuntetes-jart-a-livadiai-szerzodes-kudarca/",
+      "seo": {
+        "meta_title": "A krími alku, amelyért halálbüntetés járt: a livádiai szerző",
+        "meta_description": "1879. október 2-án a Csing-dinasztia követe Livágyijában írta alá a vitatott megállapodást az Orosz Birodalommal. A Pekingbe visszajutó feltételek azonban akkor",
+        "canonical_url": "https://xn--kollektva-m5a.hu/retro/2026-10-02-a-krimi-alku-amelyert-halalbuntetes-jart-a-livadiai-szerzodes-kudarca/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "Article"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "c8be8a7d0192957074815b1f04139c352a4fcbd72840b4b98cfbf99b7adcc61f",
+      "pipeline_run_id": "36934190687",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T00:18:52+02:00",
+      "updated_at": "2026-10-02T00:18:52+02:00",
+      "published_at": "2026-10-02T00:18:52+02:00",
+      "expires_at": null
+    },
     {
       "id": "76a93c66-e021-5f54-930f-7dddbbcaaa52",
       "slug": "2026-10-01-az-adria-gyongyenek-ostroma-amikor-dubrovnikra-arnyek-borult",
