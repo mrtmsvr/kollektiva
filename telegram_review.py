@@ -240,7 +240,7 @@ def _new_images(art: dict, ai, hint: str = "") -> list:
                     "railway station')\"], \"generic\": [\"2–3 egyszerű, fotózható angol hangulat-téma, pl. 'coffee cup', "
                     "'courtroom', 'hospital corridor'\"]}. Parliament / Országház csak ha a cikk tényleg arról szól.")
         try:
-            raw = ai.complete_json(IMG_SYSTEM, prompt, 500)
+            raw = ai.complete_json(IMG_SYSTEM, prompt, 500, light=True)
             specific = [str(q).strip()[:60] for q in raw.get("specific") or [] if str(q).strip()][:6]
             generic = [str(q).strip()[:40] for q in raw.get("generic") or [] if str(q).strip()][:3]
         except (kc.AIError, ValueError, TypeError, KeyError) as e:
