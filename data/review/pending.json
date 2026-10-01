@@ -1151,7 +1151,7 @@
     {
       "id": "2bd17ca6-fd16-5a22-9428-4c5b3c3f7fc5",
       "slug": "2026-10-01-az-utolso-oraban-allitottak-meg-az-evszazad-kivegzeset",
-      "status": "pending",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -1346,9 +1346,9 @@
       "dedupe_hash": "b249064f05f0e98470b4d5357cea5cc5a97c535fd74a351e9b6275f8e422230d",
       "pipeline_run_id": "36814621504",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T06:20:30+02:00",
-      "updated_at": "2026-10-01T06:20:30+02:00",
-      "published_at": "2026-10-01T06:20:30+02:00",
+      "created_at": "2026-10-01T06:56:02+02:00",
+      "updated_at": "2026-10-01T06:56:02+02:00",
+      "published_at": "2026-10-01T06:56:02+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -1365,12 +1365,13 @@
           270
         ],
         "control_id": 271
-      }
+      },
+      "live": true
     },
     {
       "id": "86fab367-0e3a-5110-8751-055aa62bd9a1",
       "slug": "2026-10-01-megfigyelesi-botrany-sesztak-miklos-ugyeben",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -1562,9 +1563,9 @@
       "dedupe_hash": "86ee3d8c1ceebab8408a7b131100e253ffb0460bb485ba7a4c5893408fb1f59c",
       "pipeline_run_id": "36814621504",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T06:21:18+02:00",
-      "updated_at": "2026-10-01T06:21:18+02:00",
-      "published_at": "2026-10-01T06:21:18+02:00",
+      "created_at": "2026-10-01T06:56:03+02:00",
+      "updated_at": "2026-10-01T06:56:03+02:00",
+      "published_at": "2026-10-01T06:56:03+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -1580,12 +1581,13 @@
           278
         ],
         "control_id": 279
-      }
+      },
+      "live": true
     },
     {
       "id": "5902150d-1a9a-5b6c-be2f-45790288c4e6",
       "slug": "2026-10-01-uj-hatalmi-kozpontot-hozott-letre-a-kormany",
-      "status": "pending",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -1782,9 +1784,9 @@
       "dedupe_hash": "7d82de90b01c259c157949e90bfe1824ff24a024511bed47cc58e51cad10feba",
       "pipeline_run_id": "36814621504",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T06:22:04+02:00",
-      "updated_at": "2026-10-01T06:22:04+02:00",
-      "published_at": "2026-10-01T06:22:04+02:00",
+      "created_at": "2026-10-01T06:56:03+02:00",
+      "updated_at": "2026-10-01T06:56:03+02:00",
+      "published_at": "2026-10-01T06:56:03+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -1800,12 +1802,13 @@
           286
         ],
         "control_id": 287
-      }
+      },
+      "live": true
     },
     {
       "id": "1b99d207-36aa-597b-8b60-6a58ffc87c37",
       "slug": "2026-10-01-5g-a-holdon-ezt-hozza-az-uj-halozat",
-      "status": "pending",
+      "status": "published",
       "category": "univerzum",
       "subcategory": null,
       "tags": [
@@ -1987,9 +1990,9 @@
       "dedupe_hash": "7c8e3203e418627ba485cb3e59d118e5637c331436959c49394887b4dc32dda6",
       "pipeline_run_id": "36814621504",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T06:22:45+02:00",
-      "updated_at": "2026-10-01T06:22:45+02:00",
-      "published_at": "2026-10-01T06:22:45+02:00",
+      "created_at": "2026-10-01T06:56:04+02:00",
+      "updated_at": "2026-10-01T06:56:04+02:00",
+      "published_at": "2026-10-01T06:56:04+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -2007,7 +2010,8 @@
           296
         ],
         "control_id": 297
-      }
+      },
+      "live": true
     }
   ]
 }

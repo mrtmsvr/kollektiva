@@ -1,7 +1,459 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T21:55:39+02:00",
+  "updated_at": "2026-10-01T06:56:04+02:00",
   "articles": [
+    {
+      "id": "1b99d207-36aa-597b-8b60-6a58ffc87c37",
+      "slug": "2026-10-01-5g-a-holdon-ezt-hozza-az-uj-halozat",
+      "status": "published",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "Hold",
+        "5G",
+        "űrkutatás",
+        "technológia"
+      ],
+      "title": "5G a Holdon: ezt hozza az új hálózat",
+      "subtitle": null,
+      "lead": "A NASA megbízást adott egy fejlett hálózat kifejlesztésére a Hold felszínére, amely stabil összeköttetést biztosít majd az űrhajósoknak. Ez a technológia a mindennapokban olyan, mintha otthoni gigabites optikai netet vinnénk magunkkal a sivatag közepére.",
+      "key_points": [
+        "A NASA megbízást adott egy holdi 5G kommunikációs rendszer kifejlesztésére.",
+        "A fejlesztés a clevelandi Glenn Kutatóközpont irányításával zajlik.",
+        "A technológia beépített Wi-Fi 6 kapcsolattal is rendelkezik majd a felszíni munkához."
+      ],
+      "content": "A Modulate Space Corporation nevű vállalkozás nyerte el a megbízást a NASA-tól, hogy kulcsfontosságú elemeket fejlesszen ki egy olyan hálózathoz, amely a Hold felszínén biztosít stabil kapcsolatot. Ez a feladat olyan, mintha egy teljesen új, földi mobilhálózatot kellene felhúzni egy olyan helyen, ahol eddig még vezetékes telefon sem létezett.\n\nA munkálatokat a clevelandi Glenn Kutatóközpont koordinálja, a cél pedig egy skálázható, szabványokon alapuló kommunikációs képesség létrehozása. A rendszer kifejlesztése két fő területre oszlik, amelyek együttesen teszik lehetővé a jövőbeli űrmissziók zavartalan adatforgalmát a Hold felszínén.\n\nA tervezett rendszer különlegessége, hogy a modern 5G technológia mellett beépített Wi-Fi 6 szabványt is tartalmaz, ami megkönnyíti a helyi eszközök közötti adatcserét. A Wi-Fi a rádióhullámokat használó, vezeték nélküli hálózatok elterjedt technológiája, amelyet eredetileg fülbemászó marketingnévként alkottak meg a hifi rendszerek hangulatára utalva, ma pedig már a mindennapjaink alapja.\n\nA jövőben ezekre a fejlesztésekre azért van égető szükség, mert az Artemis program keretében visszatérő űrhajósoknak nagy sávszélességre lesz szükségük a kutatási adatok továbbításához és a földi irányítással való kapcsolattartáshoz.",
+      "content_format": "markdown",
+      "body": [
+        "A Modulate Space Corporation nevű vállalkozás nyerte el a megbízást a NASA-tól, hogy kulcsfontosságú elemeket fejlesszen ki egy olyan hálózathoz, amely a Hold felszínén biztosít stabil kapcsolatot. Ez a feladat olyan, mintha egy teljesen új, földi mobilhálózatot kellene felhúzni egy olyan helyen, ahol eddig még vezetékes telefon sem létezett.",
+        "A munkálatokat a clevelandi Glenn Kutatóközpont koordinálja, a cél pedig egy skálázható, szabványokon alapuló kommunikációs képesség létrehozása. A rendszer kifejlesztése két fő területre oszlik, amelyek együttesen teszik lehetővé a jövőbeli űrmissziók zavartalan adatforgalmát a Hold felszínén.",
+        "A tervezett rendszer különlegessége, hogy a modern 5G technológia mellett beépített Wi-Fi 6 szabványt is tartalmaz, ami megkönnyíti a helyi eszközök közötti adatcserét. A Wi-Fi a rádióhullámokat használó, vezeték nélküli hálózatok elterjedt technológiája, amelyet eredetileg fülbemászó marketingnévként alkottak meg a hifi rendszerek hangulatára utalva, ma pedig már a mindennapjaink alapja.",
+        "A jövőben ezekre a fejlesztésekre azért van égető szükség, mert az Artemis program keretében visszatérő űrhajósoknak nagy sávszélességre lesz szükségük a kutatási adatok továbbításához és a földi irányítással való kapcsolattartáshoz."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 202,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Moon_surface_10k.png/1280px-Moon_surface_10k.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 675,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Moon surface",
+        "credit": "Wikideas1 / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Moon_surface_10k.png"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-awards-contract-to-develop-5g-communications-for-moon/",
+          "title": "NASA Awards Contract to Develop 5G Communications for Moon",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-01T06:22:45+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-01T06:56:04+02:00"
+      },
+      "hot_score": 5.92,
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/news-release/nasa-awards-contract-to-develop-5g-communications-for-moon/"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/univerzum/2026-10-01-5g-a-holdon-ezt-hozza-az-uj-halozat/",
+      "seo": {
+        "meta_title": "5G a Holdon: ezt hozza az új hálózat",
+        "meta_description": "A NASA megbízást adott egy fejlett hálózat kifejlesztésére a Hold felszínére, amely stabil összeköttetést biztosít majd az űrhajósoknak. Ez a technológia a mind",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-01-5g-a-holdon-ezt-hozza-az-uj-halozat/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Moon_surface_10k.png/1280px-Moon_surface_10k.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "7c8e3203e418627ba485cb3e59d118e5637c331436959c49394887b4dc32dda6",
+      "pipeline_run_id": "36814621504",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T06:56:04+02:00",
+      "updated_at": "2026-10-01T06:56:04+02:00",
+      "published_at": "2026-10-01T06:56:04+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "5902150d-1a9a-5b6c-be2f-45790288c4e6",
+      "slug": "2026-10-01-uj-hatalmi-kozpontot-hozott-letre-a-kormany",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "gazdaság",
+        "kormányzat",
+        "Kármán András",
+        "pénzügyminisztérium",
+        "döntéshozatal"
+      ],
+      "title": "Új hatalmi központot hozott létre a kormány",
+      "subtitle": null,
+      "lead": "Megkezdte működését a Gazdasági és Költségvetési Kabinet Kármán András vezetésével, amely önálló döntési jogkörrel tehermentesíti a kormányüléseket. Az új struktúra célja a szakmai döntéshozatal felgyorsítása és a kabinetrendszer megerősítése.",
+      "key_points": [
+        "Kármán András veszi át az újonnan felálló Gazdasági és Költségvetési Kabinet irányítását.",
+        "A testület kéthetente, szerdánként ülésezik, és saját hatáskörben hoz döntéseket a részletkérdésekben.",
+        "Az átszervezés célja, hogy a kormányülések kizárólag a stratégiai jelentőségű kérdésekre fókuszálhassanak."
+      ],
+      "content": "Új kormányzati struktúra lépett életbe, amelynek élén a Gazdasági és Költségvetési Kabinet vezetőjeként Kármán András folytatja munkáját. A közösségi oldalon közzétett részletek szerint az átszervezés elsődleges célja a döntéshozatal felgyorsítása és a kabinetrendszer megerősítése, amellyel jelentősen tehermentesíthetők a teljes körű kormányülések.\n\nA kabinetek kétheti rendszerességgel, szerdánként tartják üléseiket állandó tagokkal és vezetőkkel. A beérkező jelentéseket és előterjesztéseket részletesen megtárgyalják, és a szakmai ügyek nagy részében helyben hozzák meg a határozatokat, így azoknak már el sem kell jutniuk a kormány elé.\n\nA testület rendkívül széles körű hatáskörrel bír, önálló döntési jogkört kapott többek között az adópolitika, a gazdaság- és vállalkozásfejlesztés, valamint az energia- és klímapolitika területén is. A hangsúly szerint ami szakmai szinten eldönthető, azt a kabinetekben lezárják, míg a kormány egésze az ország irányát meghatározó nagy, stratégiai kérdésekre összpontosít.\n\nA gazdasági terület átalakításával párhuzamosan további három testület is megkezdte működését ugyanebben a struktúrában: a Fejlesztési Kabinet, a Stratégiai Kabinet, valamint a Védelmi Kabinet. Ezzel a többlépcsős rendszerrel a miniszterelnök és a kormány mentesül az egyes szakpolitikai részletkérdések alól.",
+      "content_format": "markdown",
+      "body": [
+        "Új kormányzati struktúra lépett életbe, amelynek élén a Gazdasági és Költségvetési Kabinet vezetőjeként Kármán András folytatja munkáját. A közösségi oldalon közzétett részletek szerint az átszervezés elsődleges célja a döntéshozatal felgyorsítása és a kabinetrendszer megerősítése, amellyel jelentősen tehermentesíthetők a teljes körű kormányülések.",
+        "A kabinetek kétheti rendszerességgel, szerdánként tartják üléseiket állandó tagokkal és vezetőkkel. A beérkező jelentéseket és előterjesztéseket részletesen megtárgyalják, és a szakmai ügyek nagy részében helyben hozzák meg a határozatokat, így azoknak már el sem kell jutniuk a kormány elé.",
+        "A testület rendkívül széles körű hatáskörrel bír, önálló döntési jogkört kapott többek között az adópolitika, a gazdaság- és vállalkozásfejlesztés, valamint az energia- és klímapolitika területén is. A hangsúly szerint ami szakmai szinten eldönthető, azt a kabinetekben lezárják, míg a kormány egésze az ország irányát meghatározó nagy, stratégiai kérdésekre összpontosít.",
+        "A gazdasági terület átalakításával párhuzamosan további három testület is megkezdte működését ugyanebben a struktúrában: a Fejlesztési Kabinet, a Stratégiai Kabinet, valamint a Védelmi Kabinet. Ezzel a többlépcsős rendszerrel a miniszterelnök és a kormány mentesül az egyes szakpolitikai részletkérdések alól."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 197,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 798,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "View from Buda Castle towards the Northern west Budapest",
+        "credit": "Jakub Hałun / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:20190502_View_from_Buda_Castle_1059_2025_DxO.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20260930/uj-poziciot-kapott-karman-andras-866468",
+          "title": "Új pozíciót kapott Kármán András",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T06:22:04+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/nemzetkozi-gazdasag/2026/10/giorgia-meloni-uzemanyagar-bravur-tisza?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Üzemanyagár: a Tisza-kormány zsebre teszi a plusz áfát, Giorgia Meloni visszaosztja – Kármán Andrásnak heteken belül színt kell vallania",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T06:22:04+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/09/karman-andras-gazdasagi-kabinet-elnoke-kapitany-istvan?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Ezt a meccset Kapitány István nagyon csúnyán elbukta: Kármán András lett a gazdasági kabinet elnöke",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T06:22:04+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-01T06:56:03+02:00"
+      },
+      "hot_score": 8.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20260930/uj-poziciot-kapott-karman-andras-866468"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/penzvilag/2026-10-01-uj-hatalmi-kozpontot-hozott-letre-a-kormany/",
+      "seo": {
+        "meta_title": "Új hatalmi központot hozott létre a kormány",
+        "meta_description": "Megkezdte működését a Gazdasági és Költségvetési Kabinet Kármán András vezetésével, amely önálló döntési jogkörrel tehermentesíti a kormányüléseket. Az új struk",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-01-uj-hatalmi-kozpontot-hozott-letre-a-kormany/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "47814d47-fabd-5006-a676-0af9c4384d79"
+      ],
+      "see_also": [
+        {
+          "title": "Százmilliárdos pénzügyi terhet hagyott maga után a Láng Negyed beruházása",
+          "url": "/penzvilag/2026-09-30-szazmilliardos-penzugyi-terhet-hagyott-maga-utan-a-lang-negyed-beruha/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "7d82de90b01c259c157949e90bfe1824ff24a024511bed47cc58e51cad10feba",
+      "pipeline_run_id": "36814621504",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T06:56:03+02:00",
+      "updated_at": "2026-10-01T06:56:03+02:00",
+      "published_at": "2026-10-01T06:56:03+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "86fab367-0e3a-5110-8751-055aa62bd9a1",
+      "slug": "2026-10-01-megfigyelesi-botrany-sesztak-miklos-ugyeben",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Seszták Miklós",
+        "NVVH",
+        "korrupció",
+        "belföld",
+        "bíróság"
+      ],
+      "title": "Megfigyelési botrány Seszták Miklós ügyében",
+      "subtitle": null,
+      "lead": "A 11 milliárdos korrupciós gyanúval letartóztatott Seszták Miklós védője szerint ügyfelét és őt magát is megfigyelték a mentelmi jog felfüggesztése előtt. Papp Gábor ügyvéd aggályosnak tartja a hatósági eljárást, miközben az NVVH vezetője visszautasítja a jogsértés vádját.",
+      "key_points": [
+        "Seszták Miklós ügyvédje, Papp Gábor szerint már a mentelmi jog felfüggesztése előtt megfigyelték az ügyfelét és őt is.",
+        "A Blikknek nyilatkozó védő kifogásolja, hogy a jelentés részletesen rögzítette a mozgását a Központi Nyomozó Főügyészség elhagyása után.",
+        "A Budai Központi Kerületi Bíróság 30 napra elrendelte a KDNP-s politikus letartóztatását a bizonyítás veszélyeztetése miatt.",
+        "Unger Anna, a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal vezetője szerint a szabályok betartásával történt az őrizetbe vétel."
+      ],
+      "content": "## Újabb feszültség a korrupciós nyomozásban\n\nA Budai Központi Kerületi Bíróság nyomozási bírája szerdán harminc napra elrendelte Seszták Miklós KDNP-s országgyűlési képviselő, volt nemzeti fejlesztési miniszter letartóztatását. A kényszerintézkedést a bizonyítás veszélyeztetésével indokolták, mivel a bíróság álláspontja szerint biztosítani kell a tanúk külső befolyástól mentes vallomástételét. A Volánbusz túlárazott járműbeszerzéseihez kapcsolódó, nagyjából 11 milliárd forintos vesztegetési gyanú ügyében korábban már letartóztatták Jellinek Dánielt és Szivek Norbertet is.\n\n## Aggályosnak tartott megfigyelés\n\nPapp Gábor, a volt miniszter jogi képviselője a Blikknek elmondta, hogy a nyomozati anyagokból egyértelműen kiderül: ügyfelét már hétfő reggel, a mentelmi joga felfüggesztése előtt megfigyelték, amikor még gyanúsított sem volt. Az ügyvéd állítása szerint nemcsak Sesztákot követték, hanem őt magát is: a jelentésben részletesen szerepelt, hogy a Központi Nyomozó Főügyészségről egyedül távozó védő kivel beszélt, milyen ruhát viselt, és milyen rendszámú autóba szállt be. „Eddig nem volt jellemző, hogy az ügyvédeket is megfigyelik, és nem is szabályszerű; kifejezetten aggályosnak tartom ezt az eljárást. Nem vagyok hajlandó félelemben élni és dolgozni” – fogalmazott a jogi képviselő.\n\n## Viták az őrizetbe vétel körül\n\nA védő az őrizetbe vétel időzítését is vitatja, szerinte ugyanis az még azelőtt megtörtént, hogy a mentelmi jog felfüggesztéséről szóló határozat megjelent volna a Magyar Közlönyben. Ezzel szemben Unger Anna, a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) vezetője az Ötpontnak adott nyilatkozatában visszautasította ezt, hangsúlyozva, hogy Tasnády Katalin nyomozati elnökhelyettes megvárta a hivatalos megjelenést, mielőtt intézkedett volna. A szeptember 27-én elindult NVVH első akciója így komoly jogi és politikai vitákat generált a kényszerintézkedések jogszerűsége körül.",
+      "content_format": "markdown",
+      "body": [
+        "## Újabb feszültség a korrupciós nyomozásban",
+        "A Budai Központi Kerületi Bíróság nyomozási bírája szerdán harminc napra elrendelte Seszták Miklós KDNP-s országgyűlési képviselő, volt nemzeti fejlesztési miniszter letartóztatását. A kényszerintézkedést a bizonyítás veszélyeztetésével indokolták, mivel a bíróság álláspontja szerint biztosítani kell a tanúk külső befolyástól mentes vallomástételét. A Volánbusz túlárazott járműbeszerzéseihez kapcsolódó, nagyjából 11 milliárd forintos vesztegetési gyanú ügyében korábban már letartóztatták Jellinek Dánielt és Szivek Norbertet is.",
+        "## Aggályosnak tartott megfigyelés",
+        "Papp Gábor, a volt miniszter jogi képviselője a Blikknek elmondta, hogy a nyomozati anyagokból egyértelműen kiderül: ügyfelét már hétfő reggel, a mentelmi joga felfüggesztése előtt megfigyelték, amikor még gyanúsított sem volt. Az ügyvéd állítása szerint nemcsak Sesztákot követték, hanem őt magát is: a jelentésben részletesen szerepelt, hogy a Központi Nyomozó Főügyészségről egyedül távozó védő kivel beszélt, milyen ruhát viselt, és milyen rendszámú autóba szállt be. „Eddig nem volt jellemző, hogy az ügyvédeket is megfigyelik, és nem is szabályszerű; kifejezetten aggályosnak tartom ezt az eljárást. Nem vagyok hajlandó félelemben élni és dolgozni” – fogalmazott a jogi képviselő.",
+        "## Viták az őrizetbe vétel körül",
+        "A védő az őrizetbe vétel időzítését is vitatja, szerinte ugyanis az még azelőtt megtörtént, hogy a mentelmi jog felfüggesztéséről szóló határozat megjelent volna a Magyar Közlönyben. Ezzel szemben Unger Anna, a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) vezetője az Ötpontnak adott nyilatkozatában visszautasította ezt, hangsúlyozva, hogy Tasnády Katalin nyomozati elnökhelyettes megvárta a hivatalos megjelenést, mielőtt intézkedett volna. A szeptember 27-én elindult NVVH első akciója így komoly jogi és politikai vitákat generált a kényszerintézkedések jogszerűsége körül."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 283,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Seszt%C3%A1k_Mikl%C3%B3s_ITU_Telecom_World_2014.jpg/1280px-Seszt%C3%A1k_Mikl%C3%B3s_ITU_Telecom_World_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1800,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Miklós Seszták, the Minister of National Development of Hungary at the ITU Telecom World 2014 Press Conference",
+        "credit": "ITU Pictures / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Seszt%C3%A1k_Mikl%C3%B3s_ITU_Telecom_World_2014.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20260930_sesztak-miklos-ugyved-megfigyeles",
+          "title": "„Nem vagyok hajlandó félelemben élni” – Seszták Miklós ügyvédje azt állítja, hogy az ügyfelét és őt is megfigyelték",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T06:21:18+02:00"
+        },
+        {
+          "url": "https://telex.hu/belfold/2026/09/30/sesztak-ugyved-papp-gabor-mentelmi-jog-felfuggesztes-megfigyeles",
+          "title": "Seszták ügyvédje szerint már a mentelmi jog felfüggesztése előtt megfigyelték a volt minisztert és őt is",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T06:21:18+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-01T06:56:03+02:00"
+      },
+      "hot_score": 9.4,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20260930_sesztak-miklos-ugyved-megfigyeles",
+          "https://telex.hu/belfold/2026/09/30/sesztak-ugyved-papp-gabor-mentelmi-jog-felfuggesztes-megfigyeles"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/kozelet/2026-10-01-megfigyelesi-botrany-sesztak-miklos-ugyeben/",
+      "seo": {
+        "meta_title": "Megfigyelési botrány Seszták Miklós ügyében",
+        "meta_description": "A 11 milliárdos korrupciós gyanúval letartóztatott Seszták Miklós védője szerint ügyfelét és őt magát is megfigyelték a mentelmi jog felfüggesztése előtt. Papp ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-01-megfigyelesi-botrany-sesztak-miklos-ugyeben/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Seszt%C3%A1k_Mikl%C3%B3s_ITU_Telecom_World_2014.jpg/1280px-Seszt%C3%A1k_Mikl%C3%B3s_ITU_Telecom_World_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "f56b9961-0ced-5cf9-960d-6a0cdd4b02b1",
+        "3cfc98c0-2244-5d82-b106-11eefe5c8532"
+      ],
+      "see_also": [
+        {
+          "title": "11 milliárdos vesztegetési gyanú: letartóztatták Seszták Miklóst",
+          "url": "/kozelet/2026-09-30-11-milliardos-vesztegetesi-gyanu-letartoztattak-sesztak-miklost/",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "„Az utca a gyűlölet terepe lett” – megszólalt Hankó Balázs",
+          "url": "/kozelet/2026-09-30-bortonnel-fenyegettek-az-utcan-a-volt-minisztert/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": "f56b9961-0ced-5cf9-960d-6a0cdd4b02b1",
+      "dedupe_hash": "86ee3d8c1ceebab8408a7b131100e253ffb0460bb485ba7a4c5893408fb1f59c",
+      "pipeline_run_id": "36814621504",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T06:56:03+02:00",
+      "updated_at": "2026-10-01T06:56:03+02:00",
+      "published_at": "2026-10-01T06:56:03+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "2bd17ca6-fd16-5a22-9428-4c5b3c3f7fc5",
+      "slug": "2026-10-01-az-utolso-oraban-allitottak-meg-az-evszazad-kivegzeset",
+      "status": "published",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Egyesült Államok",
+        "halálbüntetés",
+        "Tennessee",
+        "bíróság",
+        "kivégzés"
+      ],
+      "title": "Az utolsó órában állították meg az évszázad kivégzését",
+      "subtitle": null,
+      "lead": "Alig egy órával a tervezett végrehajtás előtt függesztették fel Christa Pike kivégzését Tennessee államban. A szövetségi fellebbviteli bíróság azért avatkozott közbe, hogy alaposabban megvizsgálja a védők új jogi érveit.",
+      "key_points": [
+        "Az ötvenéves Christa Pike kivégzését hatvan perccel a kezdés előtt állították le szerdán.",
+        "A hatodik körzeti szövetségi fellebbviteli bíróság azért avatkozott közbe, hogy megvizsgálja a halálos injekció lehetséges mellékhatásait.",
+        "Bill Lee, Tennessee kormányzója a hét elején még elutasította a nő kegyelmi kérvényét.",
+        "Amennyiben az ítéletet végrehajtották volna, Pike kétszáz év óta az első nő lett volna, akit kivégeznek az államban."
+      ],
+      "content": "Drámai fordulat történt az Egyesült Államokban, miután a hatodik körzeti szövetségi fellebbviteli bíróság szerdán, alig több mint egy órával a halálos ítélet elrendelt végrehajtása előtt felfüggesztette Christa Pike kivégzését Tennessee államban – írta a BBC. Bill Lee, Tennessee kormányzója a hét elején még megtagadta a kegyelmet, az amerikai legfelsőbb bíróság pedig elutasította a védelem korábbi beadványát, ám a bíróság utolsó pillanatban hozott döntése megakasztotta az eljárást.\n\nA védőkre háruló újabb jogi küzdelem középpontjában a méreginjekció alkalmazása áll. Az ügyvédek amiatt tiltakoztak, mert szerintük az államban használt módszer a szükségesnél nagyobb szenvedést és mellékhatásokat okozhat, ami ellentmond az Egyesült Államok jogrendszere által elvi szinten megkövetelt tilalmaknak. A fellebbviteli bíróság ezt az érvelést érdemi megfontolásra érdemesnek ítélte, ezért határozatlan időre – a döntés megszületéséig – elhalasztották a procedúrát.\n\nA mostani eljárás mellett a védelem korábban arra is hivatkozott, hogy az esküdtszék az eredeti tárgyaláson nem ismerhette meg a nő gyerekkori bántalmazásának teljes történetét. Pike-ot 1996-ban ítélték el egy 1995-ben elkövetett brutális gyilkosságért, amelyet tizennyolc évesen, akkori barátjával követett el egy problémás fiataloknak fenntartott táborban. Az ítélet szerint az áldozat mellkasára egy pentagrammát karcoltak, a bűntényt pedig súlyosbította, hogy a vádlott a tettével kérkedett.\n\nA Tennessee állambeli igazságszolgáltatásban rendkívül ritka esetnek számít a halálbüntetés nőken történő alkalmazása. Ha végrehajtották volna a büntetést, Christa Pike kétszáz év után az első nő lett volna, akit az államban kivégeznek, miközben az 1970-es évek óta összesen tizennyolc női és több mint ezerhatszáz férfi halálos ítéletét hajtották végre országszerte. A tennessee-i főügyész közlése szerint a legfelsőbb bíróságtól kérik majd a mostani felfüggesztés feloldását, így a jogi vita tovább folytatódik.",
+      "content_format": "markdown",
+      "body": [
+        "Drámai fordulat történt az Egyesült Államokban, miután a hatodik körzeti szövetségi fellebbviteli bíróság szerdán, alig több mint egy órával a halálos ítélet elrendelt végrehajtása előtt felfüggesztette Christa Pike kivégzését Tennessee államban – írta a BBC. Bill Lee, Tennessee kormányzója a hét elején még megtagadta a kegyelmet, az amerikai legfelsőbb bíróság pedig elutasította a védelem korábbi beadványát, ám a bíróság utolsó pillanatban hozott döntése megakasztotta az eljárást.",
+        "A védőkre háruló újabb jogi küzdelem középpontjában a méreginjekció alkalmazása áll. Az ügyvédek amiatt tiltakoztak, mert szerintük az államban használt módszer a szükségesnél nagyobb szenvedést és mellékhatásokat okozhat, ami ellentmond az Egyesült Államok jogrendszere által elvi szinten megkövetelt tilalmaknak. A fellebbviteli bíróság ezt az érvelést érdemi megfontolásra érdemesnek ítélte, ezért határozatlan időre – a döntés megszületéséig – elhalasztották a procedúrát.",
+        "A mostani eljárás mellett a védelem korábban arra is hivatkozott, hogy az esküdtszék az eredeti tárgyaláson nem ismerhette meg a nő gyerekkori bántalmazásának teljes történetét. Pike-ot 1996-ban ítélték el egy 1995-ben elkövetett brutális gyilkosságért, amelyet tizennyolc évesen, akkori barátjával követett el egy problémás fiataloknak fenntartott táborban. Az ítélet szerint az áldozat mellkasára egy pentagrammát karcoltak, a bűntényt pedig súlyosbította, hogy a vádlott a tettével kérkedett.",
+        "A Tennessee állambeli igazságszolgáltatásban rendkívül ritka esetnek számít a halálbüntetés nőken történő alkalmazása. Ha végrehajtották volna a büntetést, Christa Pike kétszáz év után az első nő lett volna, akit az államban kivégeznek, miközben az 1970-es évek óta összesen tizennyolc női és több mint ezerhatszáz férfi halálos ítéletét hajtották végre országszerte. A tennessee-i főügyész közlése szerint a legfelsőbb bíróságtól kérik majd a mostani felfüggesztés feloldását, így a jogi vita tovább folytatódik."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 292,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Tennessee_state_capitol_2009.jpg/1280px-Tennessee_state_capitol_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Tennessee State Capitol in Nashville.",
+        "credit": "euthman / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tennessee_state_capitol_2009.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/vilag/20260930_kivegzes-ora-vegrehajtas-idopont-elitelt",
+          "title": "A kivégzése előtt egy órával tudta meg egy elítélt nő, hogy felfüggesztették az ítélet végrehajtását",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T06:20:30+02:00"
+        },
+        {
+          "url": "https://telex.hu/kulfold/2026/09/30/egy-oraval-kezdes-elott-leallitottak-christa-pike-kivegzeset",
+          "title": "Egy órával a kezdés előtt leállították Christa Pike kivégzését Tennesseeben",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T06:20:30+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-01T06:56:02+02:00"
+      },
+      "hot_score": 9.48,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/vilag/20260930_kivegzes-ora-vegrehajtas-idopont-elitelt",
+          "https://telex.hu/kulfold/2026/09/30/egy-oraval-kezdes-elott-leallitottak-christa-pike-kivegzeset"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/vilag/2026-10-01-az-utolso-oraban-allitottak-meg-az-evszazad-kivegzeset/",
+      "seo": {
+        "meta_title": "Az utolsó órában állították meg az évszázad kivégzését",
+        "meta_description": "Alig egy órával a tervezett végrehajtás előtt függesztették fel Christa Pike kivégzését Tennessee államban. A szövetségi fellebbviteli bíróság azért avatkozott ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-01-az-utolso-oraban-allitottak-meg-az-evszazad-kivegzeset/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Tennessee_state_capitol_2009.jpg/1280px-Tennessee_state_capitol_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "015b9db0-a23e-5873-99d7-083fd759a28c"
+      ],
+      "see_also": [
+        {
+          "title": "Két évszázad után az első kivégzés?",
+          "url": "/vilag/2026-09-30-ket-evszazad-utan-az-elso-kivegzes/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": "015b9db0-a23e-5873-99d7-083fd759a28c",
+      "dedupe_hash": "b249064f05f0e98470b4d5357cea5cc5a97c535fd74a351e9b6275f8e422230d",
+      "pipeline_run_id": "36814621504",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T06:56:02+02:00",
+      "updated_at": "2026-10-01T06:56:02+02:00",
+      "published_at": "2026-10-01T06:56:02+02:00",
+      "expires_at": null
+    },
     {
       "id": "0c6dab9b-e62e-5554-ad11-a4630c7d1f76",
       "slug": "2026-09-30-hutlen-kezeles-gyanuja-miatt-tett-feljelentest-a-miniszterium",
