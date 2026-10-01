@@ -7086,9 +7086,9 @@
       "live": true
     },
     {
-      "id": "be35c4e4-ca57-59b2-a7bc-30211169d832",
-      "slug": "2026-10-01-ujabb-urutazok-indultak-a-nemzetkozi-urallomasra",
-      "status": "pending",
+      "id": "d3941b01-28a3-581a-b6cc-75db2e4a0c68",
+      "slug": "2026-10-01-kilottek-a-spacex-crew-13-missziot",
+      "status": "published",
       "category": "univerzum",
       "subcategory": null,
       "tags": [
@@ -7097,7 +7097,7 @@
         "NASA",
         "Nemzetközi Űrállomás"
       ],
-      "title": "Újabb űrutazók indultak a Nemzetközi Űrállomásra",
+      "title": "Kilőtték a SpaceX Crew-13 missziót",
       "subtitle": null,
       "lead": "Csütörtök délelőtt útnak indult a SpaceX Crew-13 küldetése a floridai Cape Canaveral Space Force Stationről, hogy négyfős legénységgel tudományos expedíciót hajtson végre a Nemzetközi Űrállomáson. Az utazás ismét rávilágít az Egyesült Államok meghatározó szerepére a humán űrrepülésben, valamint a kereskedelmi partnerségek erejére.",
       "key_points": [
@@ -7117,15 +7117,15 @@
       "word_count": 216,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Iridium-1_Launch_%2832312419215%29.jpg/1280px-Iridium-1_Launch_%2832312419215%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/First_NASA_ISINGLASS_rocket_launch.jpg/1280px-First_NASA_ISINGLASS_rocket_launch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
         "height": 1800,
         "kind": "photo",
         "pos": "top",
-        "alt": "SpaceX’s Falcon 9 Full Thrust rocket lifts off from Vandenberg Air Force Base SLC-4E with the first ten Iridium NEXT communication satellites.",
-        "credit": "SpaceX / Wikimedia Commons",
-        "license": "CC0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Iridium-1_Launch_(32312419215).jpg"
+        "alt": "A Black Brant IX sounding rocket launches from the Poker Flat Research Range in Alaska at 5:14 a.m. EST, Feb. 22, 2017. This is the first of two launches planned in NASA's In Situ and Groundbased Low",
+        "credit": "NASA / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:First_NASA_ISINGLASS_rocket_launch.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -7257,12 +7257,12 @@
       },
       "date": "2026-10-01",
       "date_label": "október 1.",
-      "url": "/univerzum/2026-10-01-ujabb-urutazok-indultak-a-nemzetkozi-urallomasra/",
+      "url": "/univerzum/2026-10-01-kilottek-a-spacex-crew-13-missziot/",
       "seo": {
-        "meta_title": "Újabb űrutazók indultak a Nemzetközi Űrállomásra",
+        "meta_title": "Kilőtték a SpaceX Crew-13 missziót",
         "meta_description": "Csütörtök délelőtt útnak indult a SpaceX Crew-13 küldetése a floridai Cape Canaveral Space Force Stationről, hogy négyfős legénységgel tudományos expedíciót haj",
-        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-01-ujabb-urutazok-indultak-a-nemzetkozi-urallomasra/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Iridium-1_Launch_%2832312419215%29.jpg/1280px-Iridium-1_Launch_%2832312419215%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-01-kilottek-a-spacex-crew-13-missziot/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/First_NASA_ISINGLASS_rocket_launch.jpg/1280px-First_NASA_ISINGLASS_rocket_launch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -7287,9 +7287,9 @@
       "dedupe_hash": "b630dc2d29f2922c3ed213992f0425897acf2ddd197c415cf27faedc85dcd9e5",
       "pipeline_run_id": "36893141296",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T18:37:45+02:00",
-      "updated_at": "2026-10-01T18:37:45+02:00",
-      "published_at": "2026-10-01T18:37:45+02:00",
+      "created_at": "2026-10-01T18:40:36+02:00",
+      "updated_at": "2026-10-01T18:40:36+02:00",
+      "published_at": "2026-10-01T18:40:36+02:00",
       "expires_at": null,
       "review": {
         "title": 1,
@@ -7308,7 +7308,8 @@
           712
         ],
         "control_id": 713
-      }
+      },
+      "live": true
     },
     {
       "id": "5d978366-c4dc-5c1f-8527-5aff1880eb24",
