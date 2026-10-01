@@ -7681,9 +7681,9 @@
       "live": true
     },
     {
-      "id": "bbd24310-c9c7-5524-9583-80acaa34f00f",
-      "slug": "2026-10-01-hat-szazalekot-zuhant-az-otp-a-tozsden",
-      "status": "pending",
+      "id": "718ae6db-a6e3-5f13-8f70-43c54e1d4de5",
+      "slug": "2026-10-01-nagyot-esett-az-otp-es-a-mol",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -7693,7 +7693,7 @@
         "gazdaság",
         "befektetés"
       ],
-      "title": "Hat százalékot zuhant az OTP a tőzsdén",
+      "title": "Nagyot esett az OTP és a Mol",
       "subtitle": null,
       "lead": "A nemzetközi piaci hangulat romlása a magyar tőzsdét is magával rántotta, miközben az OTP részvényei hat százalék feletti mínuszban zárták a szerdai kereskedést. A befektetőket az emelkedő amerikai államkötvény-hozamok és a kínai üzemanyagexport-felfüggesztés miatti olajár-emelkedés aggasztják.",
       "key_points": [
@@ -7715,15 +7715,15 @@
       "word_count": 225,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Budapesti_ertektozsde_bankcenter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "width": 1200,
-        "height": 798,
+        "height": 801,
         "kind": "photo",
         "pos": "center",
-        "alt": "Budapest's Stock Exchange Palace in Szabadság tér.",
-        "credit": "Illustratedjc / Wikimedia Commons",
+        "alt": "Budapesti ertektozsde bankcenter",
+        "credit": "VZs76 / Wikimedia Commons",
         "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace.jpg"
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapesti_ertektozsde_bankcenter.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -7856,12 +7856,12 @@
       },
       "date": "2026-10-01",
       "date_label": "október 1.",
-      "url": "/penzvilag/2026-10-01-hat-szazalekot-zuhant-az-otp-a-tozsden/",
+      "url": "/penzvilag/2026-10-01-nagyot-esett-az-otp-es-a-mol/",
       "seo": {
-        "meta_title": "Hat százalékot zuhant az OTP a tőzsdén",
+        "meta_title": "Nagyot esett az OTP és a Mol",
         "meta_description": "A nemzetközi piaci hangulat romlása a magyar tőzsdét is magával rántotta, miközben az OTP részvényei hat százalék feletti mínuszban zárták a szerdai kereskedést",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-01-hat-szazalekot-zuhant-az-otp-a-tozsden/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-01-nagyot-esett-az-otp-es-a-mol/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Budapesti_ertektozsde_bankcenter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -7898,9 +7898,9 @@
       "dedupe_hash": "badb24781fe0704f213391a053bac20dea51d75d4b28d53ae5fd4c1916d86c2a",
       "pipeline_run_id": "36909127434",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T20:45:14+02:00",
-      "updated_at": "2026-10-01T20:45:14+02:00",
-      "published_at": "2026-10-01T20:45:14+02:00",
+      "created_at": "2026-10-01T20:53:43+02:00",
+      "updated_at": "2026-10-01T20:53:43+02:00",
+      "published_at": "2026-10-01T20:53:43+02:00",
       "expires_at": null,
       "review": {
         "title": 2,
@@ -7969,7 +7969,8 @@
         "https://live.staticflickr.com/7312/9677861633_cc1d703f56_b.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Stock_Exchange_Palace_%281905%29%2C_south_side%2C_detail%2C_2017_Lip%C3%B3tv%C3%A1ros.jpg/1280px-Stock_Exchange_Palace_%281905%29%2C_south_side%2C_detail%2C_2017_Lip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://live.staticflickr.com/3008/2932191922_1f919d6437_b.jpg"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "60f91f1e-07ac-5f11-b204-02e5f25276e6",
