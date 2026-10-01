@@ -2624,7 +2624,7 @@
     {
       "id": "b280525b-357b-5d8f-a16f-06f381b33c93",
       "slug": "2026-10-01-vegre-megmentik-a-budapesti-planetariumot",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -2657,15 +2657,15 @@
       "word_count": 261,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/A_Magyar_M%C5%B1szaki_%C3%A9s_K%C3%B6zleked%C3%A9si_M%C3%BAzeum_f%C5%91%C3%A9p%C3%BCletnek_romjai._Fortepan_18553.jpg/1280px-A_Magyar_M%C5%B1szaki_%C3%A9s_K%C3%B6zleked%C3%A9si_M%C3%BAzeum_f%C5%91%C3%A9p%C3%BCletnek_romjai._Fortepan_18553.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Planet%C3%A1rium.jpg/1280px-Planet%C3%A1rium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 1040,
+        "height": 900,
         "kind": "photo",
-        "pos": "top",
-        "alt": "a Magyar Műszaki és Közlekedési Múzeum főépületnek romjai.",
-        "credit": "FOTO:Fortepan — ID 18553: Adományozó/Donor: Pohl Pálma. / Wikimedia Commons",
+        "pos": "center",
+        "alt": "Planetárium in Budapest",
+        "credit": "Hunyadym / Wikimedia Commons",
         "license": "CC BY-SA 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:A_Magyar_M%C5%B1szaki_%C3%A9s_K%C3%B6zleked%C3%A9si_M%C3%BAzeum_f%C5%91%C3%A9p%C3%BCletnek_romjai._Fortepan_18553.jpg"
+        "source_url": "https://commons.wikimedia.org/wiki/File:Planet%C3%A1rium.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -2817,7 +2817,7 @@
         "meta_title": "Végre megmentik a budapesti Planetáriumot?",
         "meta_description": "Csütörtöktől hivatalosan a Magyar Műszaki és Közlekedési Múzeum kezelésébe került a budapesti Planetárium, miután életbe lépett az erről szóló törvény. A Néplig",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-01-vegre-megmentik-a-budapesti-planetariumot/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/A_Magyar_M%C5%B1szaki_%C3%A9s_K%C3%B6zleked%C3%A9si_M%C3%BAzeum_f%C5%91%C3%A9p%C3%BCletnek_romjai._Fortepan_18553.jpg/1280px-A_Magyar_M%C5%B1szaki_%C3%A9s_K%C3%B6zleked%C3%A9si_M%C3%BAzeum_f%C5%91%C3%A9p%C3%BCletnek_romjai._Fortepan_18553.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Planet%C3%A1rium.jpg/1280px-Planet%C3%A1rium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -2834,9 +2834,9 @@
       "dedupe_hash": "71d0698ba87993007729688531b3acf35c6bb976b4416f4f9224621e532cf60b",
       "pipeline_run_id": "36825054317",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T08:30:51+02:00",
-      "updated_at": "2026-10-01T08:30:51+02:00",
-      "published_at": "2026-10-01T08:30:51+02:00",
+      "created_at": "2026-10-01T08:36:01+02:00",
+      "updated_at": "2026-10-01T08:36:01+02:00",
+      "published_at": "2026-10-01T08:36:01+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -2855,7 +2855,8 @@
           353
         ],
         "control_id": 354
-      }
+      },
+      "live": true
     },
     {
       "id": "8a4cf92b-7de3-5a82-86c8-3b07acca115c",
