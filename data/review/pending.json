@@ -8492,92 +8492,92 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sant_Vasily_cathedral_in_Moscow.JPG/1280px-Sant_Vasily_cathedral_in_Moscow.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Skyline_Moscow_May_2024.jpg/1280px-Skyline_Moscow_May_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1699,
+          "height": 1600,
           "kind": "photo",
           "pos": "top",
-          "alt": "Saint Basil's Cathedral in Moscow.",
-          "credit": "Petar Milošević / Wikimedia Commons",
+          "alt": "Skyline Moscow May 2024",
+          "credit": "The Genji / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Skyline_Moscow_May_2024.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Moscow_Skyline.jpg/1280px-Moscow_Skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Integration of urban landscape architecture and modern architecture based on the architecture of the city of Moscow",
+          "credit": "Mia Primavera / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Moscow_Skyline.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ministry_of_Energy_Russia_Logo.png/1280px-Ministry_of_Energy_Russia_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 402,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Логотип Министерства энергетики России",
+          "credit": "Министерство Энергетики России / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Energy_Russia_Logo.png"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Emblem_of_the_Russian_Ministry_of_Energy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1304,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Эмблема Министерства энергетики Российской Федерации",
+          "credit": "Геральдическая комиссия при президенте РФ / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Russian_Ministry_of_Energy.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "The Flag of Europe is the flag and emblem of the European Union (EU) and Council of Europe (CoE). It consists of a circle of 12 golden (yellow) stars on a blue background. It was created in 1955 by th",
+          "credit": "User:Verdy p, User:-xfi-, User:Paddu, User:Nightstallion, User:Funakoshi, User:J / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_map_of_European_Union_maxium_enlargement.svg/1280px-Flag_map_of_European_Union_maxium_enlargement.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 883,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Flag map of European Union with his maxium enlargement",
+          "credit": "OttavianoUrsu / Wikimedia Commons",
           "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Sant_Vasily_cathedral_in_Moscow.JPG"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Flag_map_of_European_Union_maxium_enlargement.svg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Moscow_-_2025_-_Daytime_view_of_St._Basil%27s_Cathedral_from_Vasilyevsky_Spusk.jpg/1280px-Moscow_-_2025_-_Daytime_view_of_St._Basil%27s_Cathedral_from_Vasilyevsky_Spusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Moscow._Moskva_river._Kotelnicheskaya_Embankment_Building_P8090117_2750.jpg/1280px-Moscow._Moskva_river._Kotelnicheskaya_Embankment_Building_P8090117_2750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1054,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Москва - Дневной вид Храма Василия Блаженного с Васильевского спуска",
-          "credit": "Юрий Д.К. / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Daytime_view_of_St._Basil%27s_Cathedral_from_Vasilyevsky_Spusk.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg/1280px-Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 797,
+          "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "Moscow's Red Square. Sports holiday forum «GTO». Moscow, Russia.",
-          "credit": "Vyacheslav Argenberg / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Moscow%27s_Red_Square,_Moscow,_Russia.jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Red_Square._Visual_Realism_of_a_Peasant_Woman_in_Two_Dimensions.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 1248,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "",
-          "credit": "Kazimir Malevich / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Red_Square._Visual_Realism_of_a_Peasant_Woman_in_Two_Dimensions.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Russian-American_Co_-_1_Ruble_%287559%29.jpg/1280px-Russian-American_Co_-_1_Ruble_%287559%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1722,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "1 Ruble printed on vellum or parchment by the Russian-American Company. Used as a form of company scrip in Alaska when it was a possession of the Russian Empire. On the obverse, the horizontal text im",
-          "credit": "National Museum of American History / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Russian-American_Co_-_1_Ruble_(7559).jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Current_Russian_ruble_%28banknotes%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 1200,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Collage of Bank of Russia banknotes with the current design as of June 1, 2025 (100 rubles 2022, 200 rubles 2017, 1000 rubles 2025, 2000 rubles 2017, 5000 rubles 2023).",
-          "credit": "Центральный банк Российской Федерации / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Current_Russian_ruble_(banknotes).png"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Ministry_of_Foreign_Affairs_of_Russia_Building.jpg/1280px-Ministry_of_Foreign_Affairs_of_Russia_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 803,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Ministry of Foreign Affairs of Russia Building in Moscow",
-          "credit": "Florstein (Telegram:WikiPhoto.Space) / Wikimedia Commons",
+          "alt": "Moscow. Moskva river. Kotelnicheskaya Embankment Building",
+          "credit": "Alexxx1979 / Wikimedia Commons",
           "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Foreign_Affairs_of_Russia_Building.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Moscow._Moskva_river._Kotelnicheskaya_Embankment_Building_P8090117_2750.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Moscow_-_2025_-_Headquarters_of_the_Ministry_of_Foreign_Affairs_of_Russia_-_Facade_details3.jpg/1280px-Moscow_-_2025_-_Headquarters_of_the_Ministry_of_Foreign_Affairs_of_Russia_-_Facade_details3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Moscow._Berezhkovskaya_Embankment_P5150172_2750.jpg/1280px-Moscow._Berezhkovskaya_Embankment_P5150172_2750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 961,
+          "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "Москва. Детали фасада здания МИДа",
-          "credit": "Юрий Д.К. / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Headquarters_of_the_Ministry_of_Foreign_Affairs_of_Russia_-_Facade_details3.jpg"
+          "alt": "Moscow. Berezhkovskaya Embankment",
+          "credit": "Alexxx1979 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Moscow._Berezhkovskaya_Embankment_P5150172_2750.jpg"
         }
       ],
       "story": [
@@ -8645,7 +8645,7 @@
       "expires_at": null,
       "review": {
         "title": 0,
-        "image": 2,
+        "image": 0,
         "sent_at": "2026-10-01T20:41:13+00:00",
         "msg_ids": [
           924,
@@ -8673,9 +8673,17 @@
           973,
           974,
           975,
-          976
+          976,
+          991,
+          992,
+          993,
+          994,
+          995,
+          996,
+          997,
+          998
         ],
-        "control_id": 977
+        "control_id": 999
       },
       "image_queries": [
         "Moscow Kremlin",
@@ -8693,25 +8701,41 @@
         "fuel tanker truck",
         "fuel pump",
         "stock market graph",
-        "cargo ship"
+        "cargo ship",
+        "Moscow city skyline",
+        "Russian Ministry of Energy",
+        "European Union flag",
+        "Belaya Gazeta",
+        "Moscow river embankment",
+        "fuel price sign",
+        "oil storage tanks",
+        "industrial pipeline"
       ],
       "images_seen": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Vladimir_Putin_taking_the_Presidential_Oath%2C_7_May_2000.jpg/1280px-Vladimir_Putin_taking_the_Presidential_Oath%2C_7_May_2000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://live.staticflickr.com/7312/9677861633_cc1d703f56_b.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/6b/Meeting_with_members_of_Valdai_Club_%282009-09-15%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://upload.wikimedia.org/wikipedia/commons/6/63/Meeting_with_members_of_Valdai_Club_%282009-09-15%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Vista_general_del_Kremlin%2C_Mosc%C3%BA%2C_Rusia%2C_2016-10-03%2C_DD_18-19_HDR.jpg/1280px-Vista_general_del_Kremlin%2C_Mosc%C3%BA%2C_Rusia%2C_2016-10-03%2C_DD_18-19_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Northern_door_of_the_Assumption_Cathedral_in_Moscow_Kremlin%2C_Moscow_July_2011-3d.jpg/1280px-Northern_door_of_the_Assumption_Cathedral_in_Moscow_Kremlin%2C_Moscow_July_2011-3d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/5/52/Meeting_with_members_of_Valdai_Club_%282009-09-15%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Vladimir_Putin_official_photo_08.jpg/1280px-Vladimir_Putin_official_photo_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/RIAN_archive_100306_Vladimir_Putin%2C_Federal_Security_Service_Director.jpg/1280px-RIAN_archive_100306_Vladimir_Putin%2C_Federal_Security_Service_Director.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Vladimir_Putin_in_KGB_uniform.jpg/1280px-Vladimir_Putin_in_KGB_uniform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Dmitry_Peskov_%282023-03-21%29.jpg/1280px-Dmitry_Peskov_%282023-03-21%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Dmitry_Peskov_portrait.jpg/1280px-Dmitry_Peskov_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Russian-American_Co_-_1_Ruble_%287559%29.jpg/1280px-Russian-American_Co_-_1_Ruble_%287559%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/5/52/Meeting_with_members_of_Valdai_Club_%282009-09-15%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Moscow_-_2025_-_Headquarters_of_the_Ministry_of_Foreign_Affairs_of_Russia_-_Facade_details3.jpg/1280px-Moscow_-_2025_-_Headquarters_of_the_Ministry_of_Foreign_Affairs_of_Russia_-_Facade_details3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://upload.wikimedia.org/wikipedia/commons/f/fa/Meeting_with_members_of_Valdai_Club_%282009-09-15%29_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Vladimir_Putin_official_photo_08.jpg/1280px-Vladimir_Putin_official_photo_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Dmitry_Peskov_%282023-03-21%29_3x4_portrait.jpg/1280px-Dmitry_Peskov_%282023-03-21%29_3x4_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Vista_general_del_Kremlin%2C_Mosc%C3%BA%2C_Rusia%2C_2016-10-03%2C_DD_18-19_HDR.jpg/1280px-Vista_general_del_Kremlin%2C_Mosc%C3%BA%2C_Rusia%2C_2016-10-03%2C_DD_18-19_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6b/Meeting_with_members_of_Valdai_Club_%282009-09-15%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sant_Vasily_cathedral_in_Moscow.JPG/1280px-Sant_Vasily_cathedral_in_Moscow.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Dmitry_Peskov_portrait_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://live.staticflickr.com/7312/9677861633_cc1d703f56_b.jpg",
         "https://live.staticflickr.com/4124/4845905314_8b4ce58572_b.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Dmitry_Peskov_portrait_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg/1280px-Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Moscow_-_2025_-_Daytime_view_of_St._Basil%27s_Cathedral_from_Vasilyevsky_Spusk.jpg/1280px-Moscow_-_2025_-_Daytime_view_of_St._Basil%27s_Cathedral_from_Vasilyevsky_Spusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0c/Current_Russian_ruble_%28banknotes%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Dmitry_Peskov_%282023-03-21%29.jpg/1280px-Dmitry_Peskov_%282023-03-21%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0a/Red_Square._Visual_Realism_of_a_Peasant_Woman_in_Two_Dimensions.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Northern_door_of_the_Assumption_Cathedral_in_Moscow_Kremlin%2C_Moscow_July_2011-3d.jpg/1280px-Northern_door_of_the_Assumption_Cathedral_in_Moscow_Kremlin%2C_Moscow_July_2011-3d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Vladimir_Putin_taking_the_Presidential_Oath%2C_7_May_2000.jpg/1280px-Vladimir_Putin_taking_the_Presidential_Oath%2C_7_May_2000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/6/63/Meeting_with_members_of_Valdai_Club_%282009-09-15%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Ministry_of_Foreign_Affairs_of_Russia_Building.jpg/1280px-Ministry_of_Foreign_Affairs_of_Russia_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Dmitry_Peskov_portrait.jpg/1280px-Dmitry_Peskov_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
     },
     {
