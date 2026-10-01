@@ -1,7 +1,104 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01T18:39:36+02:00",
+  "updated_at": "2026-10-01T18:40:06+02:00",
   "articles": [
+    {
+      "id": "5d978366-c4dc-5c1f-8527-5aff1880eb24",
+      "slug": "2026-10-01-ez-az-etrend-lassithatja-az-agy-oregedeset",
+      "status": "published",
+      "category": "eletmod",
+      "subcategory": null,
+      "tags": [
+        "egészség",
+        "táplálkozás",
+        "agy",
+        "kutatás",
+        "életmód"
+      ],
+      "title": "Ez az étrend lassíthatja az agy öregedését",
+      "subtitle": null,
+      "lead": "A mediterrán és a vérnyomáscsökkentő étrend elemeit ötvöző MIND-diéta szoros összefüggést mutat a lassabb agyi öregedéssel és a kisebb szövetvesztéssel. A Journal of Neurology Neurosurgery & Psychiatry szaklapban közölt kutatás szerint a helyes táplálkozás éveikkel késleltetheti a szellemi hanyatlást.",
+      "key_points": [
+        "A MIND-diéta szorosabb követése lassabb szürkeállomány-vesztési ütemmel járt együtt.",
+        "A bogyós gyümölcsök és a szárnyasok fogyasztása kifejezetten kedvező hatásúnak bizonyult.",
+        "Az édességek és a sült gyorsételek ezzel szemben nagyobb szövetvesztéssel és zsugorodással mutattak kapcsolatot."
+      ],
+      "content": "A szellemi frissesség megőrzésében kulcsszerepet játszó szürkeállomány és az agykamrák méretváltozását vizsgálták kutatók egy 1647 fős, középkorú és idősebb résztvevőket bevonó vizsgálatban. Az alanyok átlagéletkora 60 év volt a Framingham Heart Study Offspring kohóból, és a résztvevők rendszeres egészségügyi értékelésen, valamint időközönként agyi MRI-vizsgálaton estek át 1999 és 2019 között. Az étrendi szokásokat legalább egy étrendi kérdőívvel mérték fel az 1991 és 2001 közötti időszakban, miközben a kezdeti mérésekkor egyiküknél sem állapítottak meg stroke-ot vagy demenciát.\n\nAz eredmények alapján a legmagasabb pontszámot elérő, vagyis a MIND-diétát leginkább követő embereknél lassabban csökkent a memóriáért, a tanulásért és a döntéshozatalért felelős szürkeállomány mennyisége. Minden hármas pontszámnövekedés 0,279 köbcentiméterrel lassabb éves szürkeállomány-vesztést eredményezett, ami a szakemberek számítása szerint húszszázalékos csökkenést és 2,5 évnyi késleltetett agyi öregedést jelent. Hasonló folyamat rajzolódott ki a folyadékkal teli agykamrák tágulásánál is, ahol ugyancsak mérsékeltebb növekedést mértek a diétát szigorúbbak követők körében.\n\nA MIND jelölésű táplálkozási forma a zöld leveles zöldségeket, egyéb zöldségeket, bogyós gyümölcsöket, olajos magvakat, teljes kiőrlésű gabonákat, halat, hüvelyeseket, olívaolajat és a szárnyasokat helyezi előtérbe, miközben mérsékelt borfogyasztást enged meg. Ezzel szemben határozottan javasolja a vaj, a margarin, a sajt, a vörös húsok, a sütemények, az édességek és a sült gyorsételek visszaszorítását. A kutatás adatai szerint a bogyós gyümölcsök és a szárnyasok fogyasztása összefüggött a kamrák lassabb tágulásával, míg az édességek és a gyorsételek a hippocampus zsugorodásához kapcsolódtak.\n\nA magasabb pontszámot elérő csoport tagjai körében jellemzőbb volt a felsőfokú végzettség, emellett ritkábban dohányoztak, és kevesebbeknél fordult elő elhízás vagy 2-es típusú cukorbetegség, magas vérnyomás, illetve kardiovaszkuláris megbetegedés. A kutatók megállapítása szerint a diétában szereplő, antioxidánsokban gazdag élelmiszerek és a minőségi fehérjék csökkenthetik az oxidatív stresszt, ezáltal mérsékelve az idegsejtek károsodását.",
+      "content_format": "markdown",
+      "body": [
+        "A szellemi frissesség megőrzésében kulcsszerepet játszó szürkeállomány és az agykamrák méretváltozását vizsgálták kutatók egy 1647 fős, középkorú és idősebb résztvevőket bevonó vizsgálatban. Az alanyok átlagéletkora 60 év volt a Framingham Heart Study Offspring kohóból, és a résztvevők rendszeres egészségügyi értékelésen, valamint időközönként agyi MRI-vizsgálaton estek át 1999 és 2019 között. Az étrendi szokásokat legalább egy étrendi kérdőívvel mérték fel az 1991 és 2001 közötti időszakban, miközben a kezdeti mérésekkor egyiküknél sem állapítottak meg stroke-ot vagy demenciát.",
+        "Az eredmények alapján a legmagasabb pontszámot elérő, vagyis a MIND-diétát leginkább követő embereknél lassabban csökkent a memóriáért, a tanulásért és a döntéshozatalért felelős szürkeállomány mennyisége. Minden hármas pontszámnövekedés 0,279 köbcentiméterrel lassabb éves szürkeállomány-vesztést eredményezett, ami a szakemberek számítása szerint húszszázalékos csökkenést és 2,5 évnyi késleltetett agyi öregedést jelent. Hasonló folyamat rajzolódott ki a folyadékkal teli agykamrák tágulásánál is, ahol ugyancsak mérsékeltebb növekedést mértek a diétát szigorúbbak követők körében.",
+        "A MIND jelölésű táplálkozási forma a zöld leveles zöldségeket, egyéb zöldségeket, bogyós gyümölcsöket, olajos magvakat, teljes kiőrlésű gabonákat, halat, hüvelyeseket, olívaolajat és a szárnyasokat helyezi előtérbe, miközben mérsékelt borfogyasztást enged meg. Ezzel szemben határozottan javasolja a vaj, a margarin, a sajt, a vörös húsok, a sütemények, az édességek és a sült gyorsételek visszaszorítását. A kutatás adatai szerint a bogyós gyümölcsök és a szárnyasok fogyasztása összefüggött a kamrák lassabb tágulásával, míg az édességek és a gyorsételek a hippocampus zsugorodásához kapcsolódtak.",
+        "A magasabb pontszámot elérő csoport tagjai körében jellemzőbb volt a felsőfokú végzettség, emellett ritkábban dohányoztak, és kevesebbeknél fordult elő elhízás vagy 2-es típusú cukorbetegség, magas vérnyomás, illetve kardiovaszkuláris megbetegedés. A kutatók megállapítása szerint a diétában szereplő, antioxidánsokban gazdag élelmiszerek és a minőségi fehérjék csökkenthetik az oxidatív stresszt, ezáltal mérsékelve az idegsejtek károsodását."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 321,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/DIETA_MEDITERRANEA_ITALIA.JPG/1280px-DIETA_MEDITERRANEA_ITALIA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 832,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "mediterranean diet foods",
+        "credit": "G.steph.rocket / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:DIETA_MEDITERRANEA_ITALIA.JPG"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260930225503.htm",
+          "title": "This diet may slow brain aging by 2.5 years",
+          "publisher": "sciencedaily.com",
+          "license": null,
+          "accessed_at": "2026-10-01T18:38:45+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-01T18:40:06+02:00"
+      },
+      "hot_score": 5.84,
+      "category_meta": {
+        "source_links": [
+          "https://www.sciencedaily.com/releases/2026/09/260930225503.htm"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/eletmod/2026-10-01-ez-az-etrend-lassithatja-az-agy-oregedeset/",
+      "seo": {
+        "meta_title": "Ez az étrend lassíthatja az agy öregedését",
+        "meta_description": "A mediterrán és a vérnyomáscsökkentő étrend elemeit ötvöző MIND-diéta szoros összefüggést mutat a lassabb agyi öregedéssel és a kisebb szövetvesztéssel. A Journ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-01-ez-az-etrend-lassithatja-az-agy-oregedeset/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/DIETA_MEDITERRANEA_ITALIA.JPG/1280px-DIETA_MEDITERRANEA_ITALIA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "8b35a9f0c318c48b7996a46342587970a8d8ac6e8f952b5662c967d559ea9a34",
+      "pipeline_run_id": "36893141296",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T18:40:06+02:00",
+      "updated_at": "2026-10-01T18:40:06+02:00",
+      "published_at": "2026-10-01T18:40:06+02:00",
+      "expires_at": null
+    },
     {
       "id": "92bcc6d5-1071-5cc1-abfe-242cdbc7d5c8",
       "slug": "2026-10-01-120-ezer-forint-lesz-a-nyugdijminimum",
