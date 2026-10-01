@@ -5556,7 +5556,7 @@
     {
       "id": "ceb68079-3911-503c-8747-b90f80746457",
       "slug": "2026-10-01-harmadszor-is-megnosult-jim-carrey",
-      "status": "pending",
+      "status": "published",
       "category": "bulvar",
       "subcategory": null,
       "tags": [
@@ -5586,15 +5586,15 @@
       "word_count": 254,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Jim_Carrey_2020_cropped.jpg/1280px-Jim_Carrey_2020_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Jim_Carrey_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "width": 1200,
-        "height": 1599,
+        "height": 1633,
         "kind": "photo",
         "pos": "top",
-        "alt": "Jim Carrey in 2020",
-        "credit": "SHOWTIME / Wikimedia Commons",
-        "license": "CC BY 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Jim_Carrey_2020_cropped.jpg"
+        "alt": "Jim Carrey, Yes Man premiere, 2008",
+        "credit": "Ian Smith from London, England / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Jim_Carrey_2008.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -5734,7 +5734,7 @@
         "meta_title": "Harmadszor is megnősült Jim Carrey",
         "meta_description": "Jim Carrey harmadszor is oltár elé állt egy szűk körű Los Angeles-i szertartáson. A 64 éves színész választottja a harminc évvel fiatalabb Min Ah volt.",
         "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-01-harmadszor-is-megnosult-jim-carrey/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Jim_Carrey_2020_cropped.jpg/1280px-Jim_Carrey_2020_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Jim_Carrey_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -5751,9 +5751,9 @@
       "dedupe_hash": "f1ba1cc12729073c95a47c1276b45bf5c7223de12df88948f9b1a706af1899c5",
       "pipeline_run_id": "36876886244",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T16:31:05+02:00",
-      "updated_at": "2026-10-01T16:31:05+02:00",
-      "published_at": "2026-10-01T16:31:05+02:00",
+      "created_at": "2026-10-01T16:37:09+02:00",
+      "updated_at": "2026-10-01T16:37:09+02:00",
+      "published_at": "2026-10-01T16:37:09+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -5771,7 +5771,8 @@
           622
         ],
         "control_id": 623
-      }
+      },
+      "live": true
     },
     {
       "id": "a29da881-c20f-5bf4-9f58-5ea9035e5385",
