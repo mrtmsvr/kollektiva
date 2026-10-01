@@ -3825,7 +3825,7 @@
       "published_at": "2026-10-01T10:28:26+02:00",
       "expires_at": null,
       "review": {
-        "title": 0,
+        "title": 1,
         "image": 0,
         "sent_at": "2026-10-01T08:28:53+00:00",
         "msg_ids": [
