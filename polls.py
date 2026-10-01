@@ -52,7 +52,7 @@ def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: boo
                 "\"options\": [\"2–4 rövid válasz, max. 6 szó\"]}. Ha a témához nem illik tisztességes szavazás "
                 "(pl. tragédia, bűncselekmény áldozatai), add vissza: {\"skip\": true}.")
     try:
-        raw = ai.complete_json(POLL_SYSTEM, prompt, 600)
+        raw = ai.complete_json(POLL_SYSTEM, prompt, 600, light=True)
     except (kc.AIError, ValueError, TypeError, KeyError) as e:
         log.warning("Szavazás kimaradt: %s", e)
         return 0
