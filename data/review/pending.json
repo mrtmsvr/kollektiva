@@ -4700,7 +4700,7 @@
       "expires_at": null,
       "review": {
         "title": 2,
-        "image": 1,
+        "image": -1,
         "sent_at": "2026-10-01T10:21:18+00:00",
         "msg_ids": [
           472,
@@ -4744,6 +4744,677 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Swedish_police_car_with_lights_on.jpg/1280px-Swedish_police_car_with_lights_on.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Vladimir_Putin_and_Viktor_Orb%C3%A1n_%282016-02-17%29_11.jpg/1280px-Vladimir_Putin_and_Viktor_Orb%C3%A1n_%282016-02-17%29_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
+    },
+    {
+      "id": "3196c298-0cfe-5c09-be03-d5df3428ec10",
+      "slug": "2026-10-01-szaz-dollar-felett-az-olajar-a-tozsdeken",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "tőzsde",
+        "olajár",
+        "gazdaság",
+        "Mol",
+        "BUX"
+      ],
+      "title": "Száz dollár felett az olajár a tőzsdéken",
+      "subtitle": null,
+      "lead": "Megingottak a globális piacok, miután a brent hordónkénti ára átlépte a száz dolláros határt a kínai exportfelfüggesztési hírek hatására. Eközben az amerikai államkötvényhozamok több évtizedes csúcsra szöktek, ami az európai és a hazai részvényeket is lefelé húzta.",
+      "key_points": [
+        "A brent típusú olaj ára 100 dollár fölé emelkedett a kínai finomítók lépései nyomán.",
+        "Az amerikai 10 éves államkötvényhozam több mint 20 éves csúcsot ért el.",
+        "A BUX index is gyengült, amiben a hazai tőzsdei óriás, az OTP szerepe volt a legjelentősebb.",
+        "A Mol közben felmondta az Alteóra vonatkozó részvénycserés tranzakciót."
+      ],
+      "content": "A szerdai kereskedési nap hátrányosan érintette a globális tőzsdéket, különösen az energiaszektor és a bankpapírok piacát. A Portfolio híradása szerint a brent olaj ára 2,7 százalékos drágulással ismét 100 dollár fölé kúszott, miután piaci információk szerint a kínai finomítók leállíthatják az októberi üzemanyag-exportot a belföldi ellátás biztonsága érdekében. Ezzel párhuzamosan a WTI olaj is 2,6 százalékos pluszban zárt, miközben az amerikai 10 éves államkötvényhozam több mint két évtizedes csúcsra emelkedett.\n\nAz európai parketteken délelőtt komolyabb esés alakult ki a bankpapírok vezetésével, bár délutánra némileg enyhültek a veszteségek. A német DAX csupán 0,1 százalékos mínuszba korrigált vissza, a brit FTSE-100 index 1,2 százalékos, a francia CAC-40 pedig 0,6 százalékos esést mutatott. A budapesti BUX index szintén lefelé tartott, a nap folyamán 1,3 százalékos mínuszban is járt, amiben meghatározó szerepet játszott az OTP 2,7 százalékos esése is, mielőtt a papír valamelyest szépített.\n\nA hazai nagyvállalatok körében más fronton is történt változás, ugyanis a Mol Nyrt. bejelentette: kútba esett a Waberer's-részesedés és az Alteo papírok cseréjére tervezett tranzakció. Az áprilisban megállapodott üzlet keretében a Mol közel 40 százalékra növelte volna részesedését az Alteóban a Waberer'sben lévő 15 százalékos pakettjéért cserébe, ám a hatósági jóváhagyások hiánya miatt a vállalat végül a szerződések felmondása mellett döntött. A 4iG Csoport háza táján is akadt hír, hiszen a Moody's Ratings Ba1 besorolást adott a cég távközlési portfólióját összefogó holdingnak, pozitív kilátások mellett.",
+      "content_format": "markdown",
+      "body": [
+        "A szerdai kereskedési nap hátrányosan érintette a globális tőzsdéket, különösen az energiaszektor és a bankpapírok piacát. A Portfolio híradása szerint a brent olaj ára 2,7 százalékos drágulással ismét 100 dollár fölé kúszott, miután piaci információk szerint a kínai finomítók leállíthatják az októberi üzemanyag-exportot a belföldi ellátás biztonsága érdekében. Ezzel párhuzamosan a WTI olaj is 2,6 százalékos pluszban zárt, miközben az amerikai 10 éves államkötvényhozam több mint két évtizedes csúcsra emelkedett.",
+        "Az európai parketteken délelőtt komolyabb esés alakult ki a bankpapírok vezetésével, bár délutánra némileg enyhültek a veszteségek. A német DAX csupán 0,1 százalékos mínuszba korrigált vissza, a brit FTSE-100 index 1,2 százalékos, a francia CAC-40 pedig 0,6 százalékos esést mutatott. A budapesti BUX index szintén lefelé tartott, a nap folyamán 1,3 százalékos mínuszban is járt, amiben meghatározó szerepet játszott az OTP 2,7 százalékos esése is, mielőtt a papír valamelyest szépített.",
+        "A hazai nagyvállalatok körében más fronton is történt változás, ugyanis a Mol Nyrt. bejelentette: kútba esett a Waberer's-részesedés és az Alteo papírok cseréjére tervezett tranzakció. Az áprilisban megállapodott üzlet keretében a Mol közel 40 százalékra növelte volna részesedését az Alteóban a Waberer'sben lévő 15 százalékos pakettjéért cserébe, ám a hatósági jóváhagyások hiánya miatt a vállalat végül a szerződések felmondása mellett döntött. A 4iG Csoport háza táján is akadt hír, hiszen a Moody's Ratings Ba1 besorolást adott a cég távközlési portfólióját összefogó holdingnak, pozitív kilátások mellett."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 276,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 798,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Budapest's Stock Exchange Palace in Szabadság tér.",
+        "credit": "Illustratedjc / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/uzlet/20261001/szepitenek-az-europai-tozsdek-merseklodnek-az-esesek-866508",
+          "title": "Szépítenek az európai tőzsdék, mérséklődnek az esések",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T14:28:59+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Száz dollár felett az olajár a tőzsdéken",
+        "Megrázta a piacokat a tengerentúli államkötvény",
+        "Így reagáltak a tőzsdék az új kínai hírekre"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest's Stock Exchange Palace in Szabadság tér.",
+          "credit": "Illustratedjc / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Budapest_Stock_Exchange_Palace_%2806%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest Stock Exchange Palace at Szabadság tér.",
+          "credit": "Vasyatka1 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace_(06).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Portraits_of_WAAF_Servicewomen_Based_at_RAF_Watnall%2C_Headquarters_of_No._12_Group_Royal_Air_Force_Fighter_Command_during_the_Second_World_War_HU91762.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1229,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Portraits of Waaf Servicewomen Based at RAF Watnall, Headquarters of No. 12 Group Royal Air Force Fighter Command during the Second World War\nMolly Jessop.",
+          "credit": "Royal Air Force official photographer / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Portraits_of_WAAF_Servicewomen_Based_at_RAF_Watnall,_Headquarters_of_No._12_Group_Royal_Air_Force_Fighter_Command_during_the_Second_World_War_HU91762.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/USMC-120203-M-OB827-005.jpg/1280px-USMC-120203-M-OB827-005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Maj. Gen. Andrew W. O’Donnell, Jr., left, the commanding general of 3rd Marine Aircraft Wing and Sgt. Maj. Anthony A. Spadaro, right, the sergeant major for 3rd MAW, present Sgt. Molly A. Howe, center",
+          "credit": "ismeretlen szerző / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:USMC-120203-M-OB827-005.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/OTP_Bank%2C_Pozsonyi_Stra%C3%9Fe%2C_2021_Budapest.jpg/1280px-OTP_Bank%2C_Pozsonyi_Stra%C3%9Fe%2C_2021_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "There are marble benches and radiators at the entrances. The nameplates and loudspeaker and home phone equipment were designed to be recessed into the marble floor of the lobby. Two elevators, baby c",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:OTP_Bank,_Pozsonyi_Stra%C3%9Fe,_2021_Budapest.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/OTP_Bank%2C_2018_Sashalom.jpg/1280px-OTP_Bank%2C_2018_Sashalom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": ": OTP Bank 16th district Jókai street branch. - 3 Jókai street, Sashalom, 16th district of Budapest.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:OTP_Bank,_2018_Sashalom.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/4124/4845905314_8b4ce58572_b.jpg",
+          "width": 1024,
+          "height": 763,
+          "kind": "photo",
+          "alt": "Stock market",
+          "credit": "Manu Manohar Photography / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/32833136@N04/4845905314"
+        },
+        {
+          "url": "https://live.staticflickr.com/7312/9677861633_cc1d703f56_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Analyzing Stock Market",
+          "credit": "ota_photos / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/101332430@N03/9677861633"
+        }
+      ],
+      "story": [
+        {
+          "title": "Szépítenek az európai tőzsdék, mérséklődnek az esések",
+          "link": "https://www.portfolio.hu/uzlet/20261001/szepitenek-az-europai-tozsdek-merseklodnek-az-esesek-866508",
+          "summary": "Vegyesen zárták a szerdai kereskedést az amerikai indexek, a Nasdaq felülteljesítő volt, az ázsiai tőzsdéken pedig ma reggel több fontos piacon kereskedési szünnap volt, nem nyitott ki a kínai és a hongkongi tőzsde. Ahol volt kereskedés, ott viszont többségében emelkedtek az indexek: mind a japán, mind a dél-koreai tőzsde jelentősebb pluszban zárt. Az európai piacokon komolyabb esés bontakozott ma délelőtt ki a bankpapírok vezetésével, de délutánra mérséklődtek a mínuszok, a BUX is esik, amiben az OTP játssza a főszerepet. Az olajár újbóli emelkedése és a több mint 20 éves csúcsra emelkedő ame",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/uzlet/20261001/szepitenek-az-europai-tozsdek-merseklodnek-az-esesek-866508"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/penzvilag/2026-10-01-szaz-dollar-felett-az-olajar-a-tozsdeken/",
+      "seo": {
+        "meta_title": "Száz dollár felett az olajár a tőzsdéken",
+        "meta_description": "Megingottak a globális piacok, miután a brent hordónkénti ára átlépte a száz dolláros határt a kínai exportfelfüggesztési hírek hatására. Eközben az amerikai ál",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-01-szaz-dollar-felett-az-olajar-a-tozsdeken/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "9728c2d8-7373-5c63-8a99-b84e32bf0fb8"
+      ],
+      "see_also": [
+        {
+          "title": "Váratlan fordulat: erősödéssel zárta a reggelt a forint",
+          "url": "/penzvilag/2026-09-30-varatlan-fordulat-erosodessel-zarta-a-reggelt-a-forint/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "d58d32a97913edefadc56123d38a4f996c26208c3629295362bc16d223712f6b",
+      "pipeline_run_id": "36861986596",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T14:28:59+02:00",
+      "updated_at": "2026-10-01T14:28:59+02:00",
+      "published_at": "2026-10-01T14:28:59+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 2,
+        "image": 0,
+        "sent_at": "2026-10-01T12:29:48+00:00",
+        "msg_ids": [
+          500,
+          501,
+          502,
+          503,
+          504,
+          505,
+          506,
+          507,
+          508,
+          509
+        ],
+        "control_id": 510
+      }
+    },
+    {
+      "id": "6b5d437b-1a89-5531-9756-593d69d09b77",
+      "slug": "2026-10-01-nevunkon-szolit-a-szallodai-robot",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "mesterséges intelligencia",
+        "szálloda",
+        "Accor",
+        "turizmus",
+        "tech"
+      ],
+      "title": "Nevünkön szólít a szállodai robot",
+      "subtitle": null,
+      "lead": "Megkezdte működését az ALL Concierge nevű, mesterséges intelligencián alapuló szolgáltatás, amely ötvennyolcszáz szállodában segíti a vendégeket a tervezéstől a tartózkodás utáni támogatásig. A hvg.hu beszámolója szerint a rendszer a világon több ezer, Magyarországon pedig harminchárom hotelt – köztük az Ibis, a Tribe és a Mercure egységeit – üzemeltető Accor lánc fejlesztéseként indul.",
+      "key_points": [
+        "Az Accor elindította az ALL Concierge nevű, mesterséges intelligencián alapuló virtuális asszisztensét 5800 szállodában.",
+        "A rendszer egy tavaly július óta tartó, több mint egymillió vendégbeszélgetést feldolgozó kísérleti szakasz után állt élesbe.",
+        "A szoftver tizenegy nyelven, valamint a WhatsAppon és az iMessage-en keresztül is elérhető a felhasználók számára."
+      ],
+      "content": "## Megújuló szállodai élmény\n\nAz Accor szállodalánc új digitális asszisztense, az ALL Concierge azért jött létre, hogy átfogóan kísérje végig az utazókat a szálláskereséstől kezdve a foglalás kezelésén át egészen a kiköltözés utáni teendőkig. A szoftver a vendégek által megadott nyaralási stílus, hangulat vagy konkrét elvárások alapján valós időben, néhány másodperces válaszidővel javasol személyre szabott szálláshelyeket egyetlen beszélgetés keretében.\n\nA fejlesztést egy tavaly júliusban rajtoló kísérleti szakasz előzte meg, amelynek során több mint egymillió vendégbeszélgetés tapasztalatait elemezték ki a szakemberek. Ezen adatok alapján finomították a rendszert, amely jelenleg tizenegy különböző nyelven működik, ám az év végéig ezt a kört minden nyelvre kiterjesztik. Az alkalmazott technológia ráadásul felismeri a visszatérő vendégeket, így figyelembe veszi korábbi tartózkodásaikat, egyéni preferenciáikat és hűségprofiljukat is.\n\nA technikai háttér integrálva van az ALL Accor mobilalkalmazásba és az ALL.com weboldalra, de a felhasználók a mindennapokban használt üzenetküldő platformokon, így a WhatsAppon és az iMessage-en keresztül is kapcsolatba léphetnek a rendszerrel. A program önállóan kezeli a foglalások visszaigazolását és a leggyakoribb kéréseket, ám a bonyolultabb, speciális esetekben azonnal jelzi a feladatot a hús-vér ügyintézőknek. Magyarországon a lánc harminchárom hotelt – köztük Ibis, Tribe és Mercure márkájú egységeket – üzemeltet, ahol szintén elérhetők a modern digitális megoldások.",
+      "content_format": "markdown",
+      "body": [
+        "## Megújuló szállodai élmény",
+        "Az Accor szállodalánc új digitális asszisztense, az ALL Concierge azért jött létre, hogy átfogóan kísérje végig az utazókat a szálláskereséstől kezdve a foglalás kezelésén át egészen a kiköltözés utáni teendőkig. A szoftver a vendégek által megadott nyaralási stílus, hangulat vagy konkrét elvárások alapján valós időben, néhány másodperces válaszidővel javasol személyre szabott szálláshelyeket egyetlen beszélgetés keretében.",
+        "A fejlesztést egy tavaly júliusban rajtoló kísérleti szakasz előzte meg, amelynek során több mint egymillió vendégbeszélgetés tapasztalatait elemezték ki a szakemberek. Ezen adatok alapján finomították a rendszert, amely jelenleg tizenegy különböző nyelven működik, ám az év végéig ezt a kört minden nyelvre kiterjesztik. Az alkalmazott technológia ráadásul felismeri a visszatérő vendégeket, így figyelembe veszi korábbi tartózkodásaikat, egyéni preferenciáikat és hűségprofiljukat is.",
+        "A technikai háttér integrálva van az ALL Accor mobilalkalmazásba és az ALL.com weboldalra, de a felhasználók a mindennapokban használt üzenetküldő platformokon, így a WhatsAppon és az iMessage-en keresztül is kapcsolatba léphetnek a rendszerrel. A program önállóan kezeli a foglalások visszaigazolását és a leggyakoribb kéréseket, ám a bonyolultabb, speciális esetekben azonnal jelzi a feladatot a hús-vér ügyintézőknek. Magyarországon a lánc harminchárom hotelt – köztük Ibis, Tribe és Mercure márkájú egységeket – üzemeltet, ahol szintén elérhetők a modern digitális megoldások."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 249,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Gare_de_Lyon-Part-Dieu%2C_h%C3%B4tels_Accor_de_nuit.jpg/1280px-Gare_de_Lyon-Part-Dieu%2C_h%C3%B4tels_Accor_de_nuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 675,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Gare de Lyon-Part-Dieu, hôtels Accor de nuit",
+        "credit": "TCY / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gare_de_Lyon-Part-Dieu,_h%C3%B4tels_Accor_de_nuit.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261001_accor-all-concierge-szallodai-ai",
+          "title": "Fejből tudja a vendég nevét, meg azt is, hogy milyen szobát szeretne – AI indul 5800 hotelben",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T14:31:36+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.88,
+      "title_options": [
+        "Nevünkön szólít a szállodai robot",
+        "Egymillió beszélgetésből tanul az új hotel-AI",
+        "Megérkezett a mesterséges intelligencia a szobafoglalásba"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Gare_de_Lyon-Part-Dieu%2C_h%C3%B4tels_Accor_de_nuit.jpg/1280px-Gare_de_Lyon-Part-Dieu%2C_h%C3%B4tels_Accor_de_nuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Gare de Lyon-Part-Dieu, hôtels Accor de nuit",
+          "credit": "TCY / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Gare_de_Lyon-Part-Dieu,_h%C3%B4tels_Accor_de_nuit.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Accor_Building_Paris.jpg/1280px-Accor_Building_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1401,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Accor building in Paris near the Périphérique",
+          "credit": "Paul Vaurie / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Accor_Building_Paris.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Hotel_%22Mercure%22%2C_Opole.JPG/1280px-Hotel_%22Mercure%22%2C_Opole.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1660,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Hotel \"Mercure\" in Opole (Oppeln)",
+          "credit": "Pudelek (Marcin Szala) / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hotel_%22Mercure%22,_Opole.JPG"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Hotel_Mercure%2C_Middle_Road%2C_Singapur%2C_2023-08-16%2C_DD_04.jpg/1280px-Hotel_Mercure%2C_Middle_Road%2C_Singapur%2C_2023-08-16%2C_DD_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1304,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Mercure Hotel, Middle Road, Singapore",
+          "credit": "Diego Delso / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hotel_Mercure,_Middle_Road,_Singapur,_2023-08-16,_DD_04.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ibis_Hotel_an_der_Blauen_Br%C3%BCcke_in_T%C3%BCbingen_und_Blauer_Turm.jpg/1280px-Ibis_Hotel_an_der_Blauen_Br%C3%BCcke_in_T%C3%BCbingen_und_Blauer_Turm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Ibis Hotel an der Blauen Brücke in Tübingen und Blauer Turm",
+          "credit": "Dktue / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ibis_Hotel_an_der_Blauen_Br%C3%BCcke_in_T%C3%BCbingen_und_Blauer_Turm.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Ibis_Hotel_Sheffield_-_geograph.org.uk_-_2306580.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Ibis Hotel Sheffield",
+          "credit": "Keith Edkins / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ibis_Hotel_Sheffield_-_geograph.org.uk_-_2306580.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/2935/13634874233_7891102839_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Hotel lobby",
+          "credit": "kevin dooley / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/12836528@N00/13634874233"
+        },
+        {
+          "url": "https://live.staticflickr.com/2408/2466357253_03622550a9_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Fairmont Hotel Lobby",
+          "credit": "Pargon / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/24539921@N08/2466357253"
+        }
+      ],
+      "story": [
+        {
+          "title": "Fejből tudja a vendég nevét, meg azt is, hogy milyen szobát szeretne – AI indul 5800 hotelben",
+          "link": "https://hvg.hu/tudomany/20261001_accor-all-concierge-szallodai-ai",
+          "summary": "ALL Concierge néven mesterséges intelligenciájával dolgozó szolgáltatást indított a Magyarországon 33 hotellel jelen lévő, világszerte több ezret üzemeltető Accor. A szállodalánc újdonsága végigkíséri a vendégeket az utazási ötletek felmerülésétől és a szállodák összehasonlításától kezdve a foglalás kezelésén át egészen a tartózkodás utáni támogatásig.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.88
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261001_accor-all-concierge-szallodai-ai"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/tech/2026-10-01-nevunkon-szolit-a-szallodai-robot/",
+      "seo": {
+        "meta_title": "Nevünkön szólít a szállodai robot",
+        "meta_description": "Megkezdte működését az ALL Concierge nevű, mesterséges intelligencián alapuló szolgáltatás, amely ötvennyolcszáz szállodában segíti a vendégeket a tervezéstől a",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-01-nevunkon-szolit-a-szallodai-robot/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Gare_de_Lyon-Part-Dieu%2C_h%C3%B4tels_Accor_de_nuit.jpg/1280px-Gare_de_Lyon-Part-Dieu%2C_h%C3%B4tels_Accor_de_nuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "8aa8ee56-7727-54bc-a46c-cc06dc133c51"
+      ],
+      "see_also": [
+        {
+          "title": "Ingyenes mesterséges intelligencia hét indul az ELTE-n",
+          "url": "/tech/2026-09-29-ingyenes-mesterseges-intelligencia-het-indul-az-elte-n/",
+          "date": "2026-09-29"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "743a085533b6ecfb73f97e62cf2f90f0f456cd383429c2e69d58d8952f75d922",
+      "pipeline_run_id": "36861986596",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T14:31:36+02:00",
+      "updated_at": "2026-10-01T14:31:36+02:00",
+      "published_at": "2026-10-01T14:31:36+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 1,
+        "sent_at": "2026-10-01T12:32:26+00:00",
+        "msg_ids": [
+          519,
+          520,
+          521,
+          522,
+          523,
+          524,
+          525,
+          526,
+          527,
+          528
+        ],
+        "control_id": 529
+      }
+    },
+    {
+      "id": "755a35f5-be09-590a-afad-f71de3357b1b",
+      "slug": "2026-10-01-hirtelen-tavozasok-raztak-meg-a-nav-vezeteset",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "NAV",
+        "Nemzeti Adó- és Vámhivatal",
+        "Pénzügyminisztérium",
+        "belföld",
+        "közélet"
+      ],
+      "title": "Hirtelen távozások rázták meg a NAV vezetését",
+      "subtitle": null,
+      "lead": "Váratlanul megszűnt Tamásné Czinege Csilla adószakmai elnökhelyettes, valamint a NAV bűnügyi főigazgatójának és helyettesének a vezetői megbízatása. A Pénzügyminisztérium és az adóhatóság egyszerre hajtotta végre a magas rangú vezetőcseréket a szervezet élén.",
+      "key_points": [
+        "Felmentették Tamásné Czinege Csillát, a NAV adószakmai elnökhelyettesét.",
+        "Október elsejei hatállyal a bűnügyi főigazgató és helyettese is távozott.",
+        "A NAV nem indokolta a személycseréket, és adatvédelmi okokra hivatkozott.",
+        "A bűnügyi vezető korábbi ügyei is a sajtó figyelmébe kerültek."
+      ],
+      "content": "Tamásné Czinege Csilla adószakmai elnökhelyettes vezetői megbízatása 2026. szeptember 30-án megszűnt a pénzügyminiszter döntése nyomán, miután a NAV elnöke ezt javasolta. A HVG információi szerint a távozás szinte egyidőben történt a szervezet bűnügyi főigazgatójának és helyettesének leváltásával. A most menesztett elnökhelyettes nagy múltra tekint vissza az adóhatóságnál, hiszen 1990 óta dolgozott a szervezetnél és annak elődszervezeteinél, sőt a kormányváltás után átmenetileg az egész NAV-ot is irányította.\n\nA vezetőség átrendeződése október elsején a bűnügyi területet is elérte. Visszavonta a hivatal Domokos Ferenc dandártábornok bűnügyi főigazgató, valamint helyettese, Szűcs Gábor László ezredes vezetői megbízatását. A vonatkozó törvényi előírások alapján ezeket a felmentéseket nem is kötelező indokolni a hatóságnak. A NAV a sajtó megkeresésére közölte, hogy konkrét személyügyi kérdésekben adatvédelmi és személyiségi jogi okokból nem adhat további tájékoztatást arról, hogy az érintettek a szervezetnél maradtak-e más beosztásban.\n\nA személycserék előzményei közé tartozik, hogy Tamásné Czinege Csillát nyáron még a NAV élére is kinevezték ideiglenesen, ám a személyét érő kritikák miatt végül nyílt pályázatot írtak ki a posztra, amelyen közel félszáz jelentkező közül augusztus 31-i hatállyal Rózsáné Sádt Mónikát választották meg elnöknek. Az új elnök így alig egy hónap elteltével vált meg a három helyettese közül az egyik legfontosabb szakembertől, akinek a neve és fotója a csütörtöki hivatalos bejelentés után hamar lekerült az adóhatóság honlapjáról.\n\nEgy másik ügyben, a menesztett bűnügyi főigazgatóval kapcsolatban a sajtó arról is beszámolt, hogy Domokos Ferenc részt vett azon a Zselicvölgy Szabadidőfarmon tartott rendezvényen, amelyet az ukrán pénzszállítók elfogásának estéjén tartottak. Az eseményen Demeter Tamás altábornagyi előléptetését ünnepelték, a mulatság azonban tragédiába torkollott, miután az este folyamán egy pénzügyőr dandártábornok életét vesztette a helyszínen.",
+      "content_format": "markdown",
+      "body": [
+        "Tamásné Czinege Csilla adószakmai elnökhelyettes vezetői megbízatása 2026. szeptember 30-án megszűnt a pénzügyminiszter döntése nyomán, miután a NAV elnöke ezt javasolta. A HVG információi szerint a távozás szinte egyidőben történt a szervezet bűnügyi főigazgatójának és helyettesének leváltásával. A most menesztett elnökhelyettes nagy múltra tekint vissza az adóhatóságnál, hiszen 1990 óta dolgozott a szervezetnél és annak elődszervezeteinél, sőt a kormányváltás után átmenetileg az egész NAV-ot is irányította.",
+        "A vezetőség átrendeződése október elsején a bűnügyi területet is elérte. Visszavonta a hivatal Domokos Ferenc dandártábornok bűnügyi főigazgató, valamint helyettese, Szűcs Gábor László ezredes vezetői megbízatását. A vonatkozó törvényi előírások alapján ezeket a felmentéseket nem is kötelező indokolni a hatóságnak. A NAV a sajtó megkeresésére közölte, hogy konkrét személyügyi kérdésekben adatvédelmi és személyiségi jogi okokból nem adhat további tájékoztatást arról, hogy az érintettek a szervezetnél maradtak-e más beosztásban.",
+        "A személycserék előzményei közé tartozik, hogy Tamásné Czinege Csillát nyáron még a NAV élére is kinevezték ideiglenesen, ám a személyét érő kritikák miatt végül nyílt pályázatot írtak ki a posztra, amelyen közel félszáz jelentkező közül augusztus 31-i hatállyal Rózsáné Sádt Mónikát választották meg elnöknek. Az új elnök így alig egy hónap elteltével vált meg a három helyettese közül az egyik legfontosabb szakembertől, akinek a neve és fotója a csütörtöki hivatalos bejelentés után hamar lekerült az adóhatóság honlapjáról.",
+        "Egy másik ügyben, a menesztett bűnügyi főigazgatóval kapcsolatban a sajtó arról is beszámolt, hogy Domokos Ferenc részt vett azon a Zselicvölgy Szabadidőfarmon tartott rendezvényen, amelyet az ukrán pénzszállítók elfogásának estéjén tartottak. Az eseményen Demeter Tamás altábornagyi előléptetését ünnepelték, a mulatság azonban tragédiába torkollott, miután az este folyamán egy pénzügyőr dandártábornok életét vesztette a helyszínen."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 301,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Budapest, Dózsa György út, Nemzeti Adó- és Vámhivatal székház",
+        "credit": "12akd / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt,_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261001_levaltas-nav-adoszakmai-elnokhelyettes-menesztes",
+          "title": "Leváltották a NAV adószakmai elnökhelyettesét is, aki 36 éve dolgozott ott, és egy ideig vezette is az adóhatóságot",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T14:33:21+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.76,
+      "title_options": [
+        "Hirtelen távozások rázták meg a NAV vezetését",
+        "Miért váltották le egyszerre a NAV csúcsvezetőit?",
+        "Komoly személycserék történt a Nemzeti Adó- és Vámhivatalnál"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest, Dózsa György út, Nemzeti Adó- és Vámhivatal székház",
+          "credit": "12akd / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt,_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest, Dózsa György út, Nemzeti Adó- és Vámhivatal székház",
+          "credit": "12akd / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt,_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1024,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Ministry of Finance (Hungary)",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ministry_of_Finance_%28Hungary%29_%282%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1027,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Ministry of Finance (Hungary)",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary)_(2).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Skatteskrapan_%28old_Tax_Authority_Building%29_2009_Stockholm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1613,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "The Old Scotscraper Gamla Skatteskrapan on Goth StreetPlace: Stockholm, Sweden",
+          "credit": "Jacob Truedson Demitz for Ristesson / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Skatteskrapan_(old_Tax_Authority_Building)_2009_Stockholm.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Finanzamt-wedding_osloer-str-36-37_2023-09-17.png/1280px-Finanzamt-wedding_osloer-str-36-37_2023-09-17.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 929,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The Finanzamt Wedding (tax authority building) at Osloer Straße 36-37, Berlin-Mitte. Designed 1966–67 by Rainer G. Rümmler.",
+          "credit": "Babewyn / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Finanzamt-wedding_osloer-str-36-37_2023-09-17.png"
+        },
+        {
+          "url": "https://live.staticflickr.com/2880/9569863543_25b4aed497_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Office Buildings",
+          "credit": "oatsy40 / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/68089229@N06/9569863543"
+        },
+        {
+          "url": "https://live.staticflickr.com/7728/18159454855_813e02f001_b.jpg",
+          "width": 1024,
+          "height": 819,
+          "kind": "photo",
+          "alt": "Steel office building",
+          "credit": "SteelMaster Buildings / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/35055618@N07/18159454855"
+        }
+      ],
+      "story": [
+        {
+          "title": "Leváltották a NAV adószakmai elnökhelyettesét is, aki 36 éve dolgozott ott, és egy ideig vezette is az adóhatóságot",
+          "link": "https://hvg.hu/itthon/20261001_levaltas-nav-adoszakmai-elnokhelyettes-menesztes",
+          "summary": "Tamásné Czinege Csilla, a NAV adószakmai elnökhelyettesének vezetői megbízatása is megszűnt, szinte egyidőben a szervezet bűnügyi főigazgatójáéval és annak helyetteséével. A most leváltott elnökhelyettes volt az, akit nyáron egy ideig elnökké is kineveztek, majd inkább pályázatot írtak ki és lecserélték.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.76
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261001_levaltas-nav-adoszakmai-elnokhelyettes-menesztes"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/kozelet/2026-10-01-hirtelen-tavozasok-raztak-meg-a-nav-vezeteset/",
+      "seo": {
+        "meta_title": "Hirtelen távozások rázták meg a NAV vezetését",
+        "meta_description": "Váratlanul megszűnt Tamásné Czinege Csilla adószakmai elnökhelyettes, valamint a NAV bűnügyi főigazgatójának és helyettesének a vezetői megbízatása. A Pénzügymi",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-01-hirtelen-tavozasok-raztak-meg-a-nav-vezeteset/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "342886c1377074405c5163fb9299fb99e83baca15d60f13b6ed0b52366d72c33",
+      "pipeline_run_id": "36861986596",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T14:33:21+02:00",
+      "updated_at": "2026-10-01T14:33:21+02:00",
+      "published_at": "2026-10-01T14:33:21+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-01T12:34:08+00:00",
+        "msg_ids": [
+          530,
+          531,
+          532,
+          533,
+          534,
+          535,
+          536,
+          537,
+          538,
+          539
+        ],
+        "control_id": 540
+      }
     }
   ]
 }
