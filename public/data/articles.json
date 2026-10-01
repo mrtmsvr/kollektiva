@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01T13:35:16+02:00",
+  "updated_at": "2026-10-01T13:53:43+02:00",
   "articles": [
     {
       "id": "8689d8be-bcaf-56bc-9e52-6b1c6ba4c4d6",
@@ -15,7 +15,7 @@
         "belpolitika",
         "Alkotmányvédelmi Hivatal"
       ],
-      "title": "Politikai utasítás állt a pénzszállítók elfogása mögött",
+      "title": "Titkos iratok rántják le a leplet a TEK-akcióról",
       "subtitle": null,
       "lead": "Nyilvánosságra hozott dokumentumok szerint politikai utasításra, a kampányhajrában hajtották végre az ukrán pénzszállítók elleni TEK-es akciót. Az ügyben indult nyomozás során már magas rangú tisztségviselőket is gyanúsítottként hallgattak ki.",
       "key_points": [
@@ -75,7 +75,7 @@
       "date_label": "október 1.",
       "url": "/kozelet/2026-10-01-igy-dolt-ossze-az-aranykonvoj-ugy/",
       "seo": {
-        "meta_title": "Politikai utasítás állt a pénzszállítók elfogása mögött",
+        "meta_title": "Titkos iratok rántják le a leplet a TEK-akcióról",
         "meta_description": "Nyilvánosságra hozott dokumentumok szerint politikai utasításra, a kampányhajrában hajtották végre az ukrán pénzszállítók elleni TEK-es akciót. Az ügyben indult",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-01-igy-dolt-ossze-az-aranykonvoj-ugy/",
         "og_image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Secret_Service_agent_trainees_practice_executing_a_search_warrant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -110,7 +110,7 @@
       "pipeline_run_id": "36848233390",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-01T12:53:42+02:00",
-      "updated_at": "2026-10-01T13:35:15+02:00",
+      "updated_at": "2026-10-01T13:53:43+02:00",
       "published_at": "2026-10-01T12:53:42+02:00",
       "expires_at": null
     },
