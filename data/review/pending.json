@@ -2840,7 +2840,7 @@
       "expires_at": null,
       "review": {
         "title": 0,
-        "image": 0,
+        "image": 4,
         "sent_at": "2026-10-01T06:31:22+00:00",
         "msg_ids": [
           344,
