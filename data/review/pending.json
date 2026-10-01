@@ -3193,7 +3193,7 @@
     {
       "id": "de69dbfe-9d47-5deb-88d8-c9b132e0a1c8",
       "slug": "2026-10-01-vegleg-torolhetok-a-windows-fajlok",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -3223,15 +3223,15 @@
       "word_count": 196,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Windows_95_%26_Microsoft_Plus_CD_Room_de_instalaci%C3%B3n.jpg/1280px-Windows_95_%26_Microsoft_Plus_CD_Room_de_instalaci%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Windows_Logo_%281992-2001%29.svg/1280px-Windows_Logo_%281992-2001%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 900,
-        "kind": "photo",
+        "height": 1038,
+        "kind": "graphic",
         "pos": "center",
-        "alt": "Windows 95 &amp; Microsoft Plus CD Room de instalación",
-        "credit": "Pedro Cambra / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Windows_95_%26_Microsoft_Plus_CD_Room_de_instalaci%C3%B3n.jpg"
+        "alt": "Old Microsoft Windows logo, first used on Windows 3.1 packaging.",
+        "credit": "Microsoft / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Windows_Logo_(1992-2001).svg"
       },
       "inline_images": [],
       "sources": [
@@ -3367,7 +3367,7 @@
         "meta_title": "Végleg törölhetők a Windows-fájlok",
         "meta_description": "Új funkciót tesztel a Microsoft a Windows 11-ben, amely internetes felhőből végzi az újratelepítést, ráadásul biztonságos adattörlést is kínál. Az eljárás jelen",
         "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-01-vegleg-torolhetok-a-windows-fajlok/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Windows_95_%26_Microsoft_Plus_CD_Room_de_instalaci%C3%B3n.jpg/1280px-Windows_95_%26_Microsoft_Plus_CD_Room_de_instalaci%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Windows_Logo_%281992-2001%29.svg/1280px-Windows_Logo_%281992-2001%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -3384,9 +3384,9 @@
       "dedupe_hash": "20efd7917f378d07be4fda443d82a50f481e553777fba9c14b64cdd0c3dd4145",
       "pipeline_run_id": "36825054317",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T08:32:45+02:00",
-      "updated_at": "2026-10-01T08:32:45+02:00",
-      "published_at": "2026-10-01T08:32:45+02:00",
+      "created_at": "2026-10-01T08:39:28+02:00",
+      "updated_at": "2026-10-01T08:39:28+02:00",
+      "published_at": "2026-10-01T08:39:28+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -3405,7 +3405,8 @@
           375
         ],
         "control_id": 376
-      }
+      },
+      "live": true
     }
   ]
 }
