@@ -8040,91 +8040,90 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Artemis_I_Launch_%28NHQ202211160017%29.jpg/1280px-Artemis_I_Launch_%28NHQ202211160017%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 798,
+          "height": 1201,
           "kind": "photo",
-          "pos": "center",
-          "alt": "Caption: During cryogenic testing, the mirrors will be subjected to temperatures dipping to 24 Kelvins, permitting engineers to measure in extreme detail how the shape of each mirror changes as it coo",
-          "credit": "NASA/MSFC/David Higginbotham/Emmett Given / Wikimedia Commons",
+          "pos": "top",
+          "alt": "NASA’s Space Launch System rocket carrying the Orion spacecraft launches on the Artemis I flight test, Wednesday, Nov. 16, 2022, from Launch Complex 39B at NASA’s Kennedy Space Center in Florida. NASA",
+          "credit": "Joel Kowsky / Wikimedia Commons",
           "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Mirror37.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Artemis_I_Launch_(NHQ202211160017).jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_%2830108124923%29.jpg/1280px-James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_%2830108124923%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Artemis-program-infographic.webp/1280px-Artemis-program-infographic.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1799,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "The primary mirror of NASA's James Webb Space Telescope consisting of 18 hexagonal mirrors looks like a giant puzzle piece standing in the massive clean room of NASA's Goddard Space Flight Center in G",
-          "credit": "Chris Gunn / Wikimedia Commons",
-          "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_(30108124923).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1280px-FullMoon2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1140,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Full Moon photograph taken 10-22-2010 from Madison, Alabama, USA. Photographed with a Celestron 9.25 Schmidt-Cassegrain telescope. Acquired with a Canon EOS Rebel T1i (EOS 500D), 20 images stacked to",
-          "credit": "Gregory H. Revera / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Mercury%2C_Venus_and_the_Moon_Align.jpg/1280px-Mercury%2C_Venus_and_the_Moon_Align.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1774,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "A conjunction of Mercury and Venus, aligned above the Moon, as seen from the Paranal Observatory.",
-          "credit": "ESO/Y. Beletsky / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Mercury,_Venus_and_the_Moon_Align.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/1280px-OSIRIS_Mars_true_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1200,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "True color image of Mars taken by the OSIRIS instrument on the ESA Rosetta spacecraft during its February 2007 flyby of the planet. The image was generated using the OSIRIS orange (red), green, and bl",
-          "credit": "ESA &amp; MPS for OSIRIS Team MPS/UPD/LAM/IAA/RSSD/INTA/UPM/DASP/IDA, CC BY-SA 3 / Wikimedia Commons",
-          "license": "CC BY-SA 3.0 igo",
-          "source_url": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Shy_Albatross_with_Mars_bar_0A2A0034.jpg/1280px-Shy_Albatross_with_Mars_bar_0A2A0034.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
+          "height": 864,
           "kind": "photo",
           "pos": "center",
-          "alt": "Shy Albatross (Thalassarche cauta) with Mars bar, near Eaglehawk Neck, Tasmania, Australia",
-          "credit": "JJ Harrison / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Shy_Albatross_with_Mars_bar_0A2A0034.jpg"
+          "alt": "A graphic illustrating NASA’s increased cadence of Artemis missions.",
+          "credit": "Unknown authorUnknown author / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Artemis-program-infographic.webp"
         },
         {
-          "url": "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg",
-          "width": 1024,
-          "height": 683,
-          "kind": "photo",
-          "alt": "Antares Rocket Launch",
-          "credit": "NASA Goddard Photo and Video / nasa",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/24662369@N07/8674655959"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Early_earth_%28artist%27s_concept%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 1200,
+          "height": 1553,
           "kind": "photo",
           "pos": "top",
-          "alt": "The April 12 launch at Pad 39A of STS-1, just seconds past 7 a.m., carries astronauts John Young and Robert Crippen into an Earth orbital mission scheduled to last for 54 hours, ending with unpowered",
+          "alt": "An artist’s concept of the early Earth, showing a beach, an ocean, a rocky landmass, an erupting volcano, fork lightning, and a meteor.",
           "credit": "NASA / Wikimedia Commons",
           "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_launching.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Early_earth_(artist%27s_concept).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Artist%E2%80%99s_impression_of_a_gamma-ray_burst_shining_through_two_young_galaxies_in_the_early_Universe.jpg/1280px-Artist%E2%80%99s_impression_of_a_gamma-ray_burst_shining_through_two_young_galaxies_in_the_early_Universe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "This artist’s impression shows two galaxies in the early Universe. The brilliant explosion on the left is a gamma-ray burst. As the light from the burst passes through the two galaxies  on the way to",
+          "credit": "ESO/L. Calçada / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_of_a_gamma-ray_burst_shining_through_two_young_galaxies_in_the_early_Universe.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Moon_formation_from_ring_around_early_earth_1_r_1_1_1_1.png/1280px-Moon_formation_from_ring_around_early_earth_1_r_1_1_1_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Moon was formed from  dust and pebbles ring around Earth. Ring was formed when giant planet impacted to Earth, causing \"Big Splash\".",
+          "credit": "Merikanto / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Moon_formation_from_ring_around_early_earth_1_r_1_1_1_1.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Formation_of_moons_of_uranus_like_ice_giant_planet_2_1_1_1.png/1280px-Formation_of_moons_of_uranus_like_ice_giant_planet_2_1_1_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "ormation of moons of uranus like ice giant planet. From small particles comes due to accreting big moons.",
+          "credit": "Merikanto / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Formation_of_moons_of_uranus_like_ice_giant_planet_2_1_1_1.png"
+        },
+        {
+          "url": "https://live.staticflickr.com/4808/45738608235_48d2087a64_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Aurora on Saturn",
+          "credit": "NASA Hubble / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/144614754@N02/45738608235"
+        },
+        {
+          "url": "https://live.staticflickr.com/8023/7309213060_d585413262_b.jpg",
+          "width": 1024,
+          "height": 576,
+          "kind": "photo",
+          "alt": "NASA's Hubble Shows Milky Way is Destined for Head-On Collision",
+          "credit": "NASA Goddard Photo and Video / nasa",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/24662369@N07/7309213060"
         }
       ],
       "story": [
@@ -8184,10 +8183,37 @@
           866,
           867,
           868,
-          869
+          869,
+          912,
+          913,
+          914,
+          915,
+          916,
+          917,
+          918,
+          919
         ],
-        "control_id": 870
-      }
+        "control_id": 920
+      },
+      "image_queries": [
+        "Theia planet",
+        "NASA Artemis program",
+        "Early Earth",
+        "Moon formation",
+        "planet collision",
+        "space debris",
+        "asteroid impact"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Shy_Albatross_with_Mars_bar_0A2A0034.jpg/1280px-Shy_Albatross_with_Mars_bar_0A2A0034.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Mercury%2C_Venus_and_the_Moon_Align.jpg/1280px-Mercury%2C_Venus_and_the_Moon_Align.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/1280px-OSIRIS_Mars_true_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_%2830108124923%29.jpg/1280px-James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_%2830108124923%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1280px-FullMoon2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "5ddf4234-129f-59f2-8cb8-895bbda0bd09",
