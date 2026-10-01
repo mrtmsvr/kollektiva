@@ -8421,6 +8421,733 @@
         "control_id": 888
       },
       "live": true
+    },
+    {
+      "id": "bc66e724-0b42-5d62-a3df-30267ccd57cc",
+      "slug": "2026-10-01-kockazatos-gazdasagi-fordulatot-erlel-moszkva",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "gazdaság",
+        "energiapiac",
+        "dízeltilalom",
+        "Oroszország",
+        "üzlet"
+      ],
+      "title": "Kockázatos gazdasági fordulatot érlel Moszkva?",
+      "subtitle": null,
+      "lead": "Az orosz vezetés figyelmeztetést küldött Budapestnek a gazdasági együttműködés jövőjéről, miközben a nemzetközi energiapiacokon is komoly korlátozások léptek életbe. A hátrányos politikai lépések idővel veszélyeztethetik a két ország üzleti kapcsolatait – hangzott el a moszkvai értékelésekben.",
+      "key_points": [
+        "Moszkva szerint a magyar vezetés barátságtalan lépései veszélyeztethetik a gazdasági kapcsolatokat.",
+        "Az orosz kormány október végéig meghosszabbította a dízelolaj kivitelére vonatkozó tilalmat a belföldi piac stabilizálására.",
+        "A korlátozás tovább szűkíti a globális kínálatot, ami különösen az európai piacot érinti érzékenyen.",
+        "Vlagyimir Putyin orosz elnök a Valdaj Klub ülésén az új világrend alapelveiről egyeztetne."
+      ],
+      "content": "Dmitrij Peszkov elnöki szóvivő figyelmeztetése nyomán kérdések merülhetnek fel a magyar–orosz gazdasági kapcsolatok jövőjével kapcsolatban. Bár a Kreml bízik abban, hogy a hűvösebb politikai viszony ellenére is fennmarad az együttműködés, a barátságtalan lépések idővel komoly kockázatot jelenthetnek az üzleti szférára nézve.\n\nEzzel párhuzamosan az energiapiacon is szigorú intézkedések nehezítik a helyzetet: az orosz kormány október végéig meghosszabbította a dízelolaj kivitelére vonatkozó tilalmát. A belföldi piac stabilizálását célzó döntés tovább szűkíti a globális kínálatot, ami közvetlenül az európai piacokat érinti érzékenyen.\n\nA nemzetközi folyamatokat értékelve Vlagyimir Putyin orosz elnök csütörtökön a Valdaj Klub nemzetközi vitafórum éves ülésén úgy nyilatkozott, hogy a Keletnek, Nyugatnak, Északnak és Délnek előbb-utóbb meg kell állapodnia az új világrend alapelveiről. A nemzetközi stabilitás kérdései így közvetve a mindennapi üzemanyagárakra és a vállalkozások költségeire is kihatnak.",
+      "content_format": "markdown",
+      "body": [
+        "Dmitrij Peszkov elnöki szóvivő figyelmeztetése nyomán kérdések merülhetnek fel a magyar–orosz gazdasági kapcsolatok jövőjével kapcsolatban. Bár a Kreml bízik abban, hogy a hűvösebb politikai viszony ellenére is fennmarad az együttműködés, a barátságtalan lépések idővel komoly kockázatot jelenthetnek az üzleti szférára nézve.",
+        "Ezzel párhuzamosan az energiapiacon is szigorú intézkedések nehezítik a helyzetet: az orosz kormány október végéig meghosszabbította a dízelolaj kivitelére vonatkozó tilalmát. A belföldi piac stabilizálását célzó döntés tovább szűkíti a globális kínálatot, ami közvetlenül az európai piacokat érinti érzékenyen.",
+        "A nemzetközi folyamatokat értékelve Vlagyimir Putyin orosz elnök csütörtökön a Valdaj Klub nemzetközi vitafórum éves ülésén úgy nyilatkozott, hogy a Keletnek, Nyugatnak, Északnak és Délnek előbb-utóbb meg kell állapodnia az új világrend alapelveiről. A nemzetközi stabilitás kérdései így közvetve a mindennapi üzemanyagárakra és a vállalkozások költségeire is kihatnak."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 165,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Vladimir_Putin_taking_the_Presidential_Oath%2C_7_May_2000.jpg/1280px-Vladimir_Putin_taking_the_Presidential_Oath%2C_7_May_2000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1800,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "The inauguration was held in the St Andrew Hall of the Grand Kremlin Palace.",
+        "credit": "Presidential Press and Information Office / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_taking_the_Presidential_Oath,_7_May_2000.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/global/20261001/putyin-embere-uzent-magyarorszagnak-egyre-nagyobb-veszely-leselkedik-europara-hireink-az-orosz-ukran-haborurol-csutortokon-866494",
+          "title": "Putyin embere üzent Magyarországnak, egyre nagyobb veszély leselkedik Európára - Híreink az orosz-ukrán háborúról csütörtökön",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T22:40:45+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Kockázatos gazdasági fordulatot érlel Moszkva?",
+        "Meddig tarthat még a gazdasági bizonytalanság?",
+        "Üzent Moszkva: veszélyben az üzleti kapcsolatok"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sant_Vasily_cathedral_in_Moscow.JPG/1280px-Sant_Vasily_cathedral_in_Moscow.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1699,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Saint Basil's Cathedral in Moscow.",
+          "credit": "Petar Milošević / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Sant_Vasily_cathedral_in_Moscow.JPG"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Moscow_-_2025_-_Daytime_view_of_St._Basil%27s_Cathedral_from_Vasilyevsky_Spusk.jpg/1280px-Moscow_-_2025_-_Daytime_view_of_St._Basil%27s_Cathedral_from_Vasilyevsky_Spusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1054,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Москва - Дневной вид Храма Василия Блаженного с Васильевского спуска",
+          "credit": "Юрий Д.К. / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Daytime_view_of_St._Basil%27s_Cathedral_from_Vasilyevsky_Spusk.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg/1280px-Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 797,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Moscow's Red Square. Sports holiday forum «GTO». Moscow, Russia.",
+          "credit": "Vyacheslav Argenberg / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Moscow%27s_Red_Square,_Moscow,_Russia.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Red_Square._Visual_Realism_of_a_Peasant_Woman_in_Two_Dimensions.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1248,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "",
+          "credit": "Kazimir Malevich / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Red_Square._Visual_Realism_of_a_Peasant_Woman_in_Two_Dimensions.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Russian-American_Co_-_1_Ruble_%287559%29.jpg/1280px-Russian-American_Co_-_1_Ruble_%287559%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1722,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "1 Ruble printed on vellum or parchment by the Russian-American Company. Used as a form of company scrip in Alaska when it was a possession of the Russian Empire. On the obverse, the horizontal text im",
+          "credit": "National Museum of American History / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Russian-American_Co_-_1_Ruble_(7559).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Current_Russian_ruble_%28banknotes%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1200,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Collage of Bank of Russia banknotes with the current design as of June 1, 2025 (100 rubles 2022, 200 rubles 2017, 1000 rubles 2025, 2000 rubles 2017, 5000 rubles 2023).",
+          "credit": "Центральный банк Российской Федерации / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Current_Russian_ruble_(banknotes).png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Ministry_of_Foreign_Affairs_of_Russia_Building.jpg/1280px-Ministry_of_Foreign_Affairs_of_Russia_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 803,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Ministry of Foreign Affairs of Russia Building in Moscow",
+          "credit": "Florstein (Telegram:WikiPhoto.Space) / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Foreign_Affairs_of_Russia_Building.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Moscow_-_2025_-_Headquarters_of_the_Ministry_of_Foreign_Affairs_of_Russia_-_Facade_details3.jpg/1280px-Moscow_-_2025_-_Headquarters_of_the_Ministry_of_Foreign_Affairs_of_Russia_-_Facade_details3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 961,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Москва. Детали фасада здания МИДа",
+          "credit": "Юрий Д.К. / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Moscow_-_2025_-_Headquarters_of_the_Ministry_of_Foreign_Affairs_of_Russia_-_Facade_details3.jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "Putyin embere üzent Magyarországnak, egyre nagyobb veszély leselkedik Európára - Híreink az orosz-ukrán háborúról csütörtökön",
+          "link": "https://www.portfolio.hu/global/20261001/putyin-embere-uzent-magyarorszagnak-egyre-nagyobb-veszely-leselkedik-europara-hireink-az-orosz-ukran-haborurol-csutortokon-866494",
+          "summary": "Szerdán Moszkva atomcsapásokkal, illetve konvencionális támadásokkal fenyegette meg az Ukrajnát támogató európai országokat, ezzel párhuzamosan pedig egyre több NATO-vezető fejezi ki aggodamát az orosz hibrid hadviselés jelentette veszélyek miatt. Az ukrán légtérben egyre nagyobb számban jelennek meg a Gerány-4-es sugárhajtású kamikaze drónok, amiket a légvédelem jóval nehezebben tud lelőni. Cikkünk folyamatosan frissül az orosz-ukrán háború legfontosabb híreivel.",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/global/20261001/putyin-embere-uzent-magyarorszagnak-egyre-nagyobb-veszely-leselkedik-europara-hireink-az-orosz-ukran-haborurol-csutortokon-866494"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/penzvilag/2026-10-01-kockazatos-gazdasagi-fordulatot-erlel-moszkva/",
+      "seo": {
+        "meta_title": "Kockázatos gazdasági fordulatot érlel Moszkva?",
+        "meta_description": "Az orosz vezetés figyelmeztetést küldött Budapestnek a gazdasági együttműködés jövőjéről, miközben a nemzetközi energiapiacokon is komoly korlátozások léptek él",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-01-kockazatos-gazdasagi-fordulatot-erlel-moszkva/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Vladimir_Putin_taking_the_Presidential_Oath%2C_7_May_2000.jpg/1280px-Vladimir_Putin_taking_the_Presidential_Oath%2C_7_May_2000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "6b5d437b-1a89-5531-9756-593d69d09b77",
+        "44325a57-2adf-551c-b573-eb705c9144e8",
+        "78c1fa2a-0292-57d8-aff3-2c04a922a467"
+      ],
+      "see_also": [
+        {
+          "title": "Nevünkön szólít a szállodai robot",
+          "url": "/tech/2026-10-01-nevunkon-szolit-a-szallodai-robot/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Negyvenmillió dolláros percek: ennyibe kerül az ukrajnai gazdaságnak egyetlen légiriadó",
+          "url": "/penzvilag/2026-09-30-negyvenmillio-dollaros-percek-ennyibe-kerul-az-ukrajnai-gazdasagnak-e/",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "Meghosszabbították a moszkvai dízelexport-tilalmat",
+          "url": "/penzvilag/2026-09-30-meghosszabbitottak-a-moszkvai-dizelexport-tilalmat/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "ac81650e05df1a68ebd20d58e765e13633764c2274bde8c5acc08d3b1d6e8527",
+      "pipeline_run_id": "36923287538",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T22:40:45+02:00",
+      "updated_at": "2026-10-01T22:40:45+02:00",
+      "published_at": "2026-10-01T22:40:45+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 1,
+        "sent_at": "2026-10-01T20:41:13+00:00",
+        "msg_ids": [
+          924,
+          925,
+          926,
+          927,
+          928,
+          929,
+          930,
+          931,
+          932,
+          933,
+          947,
+          948,
+          949,
+          950,
+          951,
+          952,
+          953,
+          954,
+          969,
+          970,
+          971,
+          972,
+          973,
+          974,
+          975,
+          976
+        ],
+        "control_id": 977
+      },
+      "image_queries": [
+        "Moscow Kremlin",
+        "Vladimir Putin",
+        "Dmitry Peskov",
+        "Valdai Discussion Club",
+        "diesel fuel tank",
+        "oil refinery",
+        "economic chart",
+        "gas station",
+        "Saint Basil's Cathedral",
+        "Red Square",
+        "Russian ruble banknote",
+        "Ministry of Foreign Affairs of Russia",
+        "fuel tanker truck",
+        "fuel pump",
+        "stock market graph",
+        "cargo ship"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Vladimir_Putin_taking_the_Presidential_Oath%2C_7_May_2000.jpg/1280px-Vladimir_Putin_taking_the_Presidential_Oath%2C_7_May_2000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/7312/9677861633_cc1d703f56_b.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6b/Meeting_with_members_of_Valdai_Club_%282009-09-15%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://upload.wikimedia.org/wikipedia/commons/6/63/Meeting_with_members_of_Valdai_Club_%282009-09-15%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Vista_general_del_Kremlin%2C_Mosc%C3%BA%2C_Rusia%2C_2016-10-03%2C_DD_18-19_HDR.jpg/1280px-Vista_general_del_Kremlin%2C_Mosc%C3%BA%2C_Rusia%2C_2016-10-03%2C_DD_18-19_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Northern_door_of_the_Assumption_Cathedral_in_Moscow_Kremlin%2C_Moscow_July_2011-3d.jpg/1280px-Northern_door_of_the_Assumption_Cathedral_in_Moscow_Kremlin%2C_Moscow_July_2011-3d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/5/52/Meeting_with_members_of_Valdai_Club_%282009-09-15%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/RIAN_archive_100306_Vladimir_Putin%2C_Federal_Security_Service_Director.jpg/1280px-RIAN_archive_100306_Vladimir_Putin%2C_Federal_Security_Service_Director.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Vladimir_Putin_in_KGB_uniform.jpg/1280px-Vladimir_Putin_in_KGB_uniform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Dmitry_Peskov_%282023-03-21%29.jpg/1280px-Dmitry_Peskov_%282023-03-21%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Dmitry_Peskov_portrait.jpg/1280px-Dmitry_Peskov_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/f/fa/Meeting_with_members_of_Valdai_Club_%282009-09-15%29_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Vladimir_Putin_official_photo_08.jpg/1280px-Vladimir_Putin_official_photo_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Dmitry_Peskov_%282023-03-21%29_3x4_portrait.jpg/1280px-Dmitry_Peskov_%282023-03-21%29_3x4_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/4124/4845905314_8b4ce58572_b.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Dmitry_Peskov_portrait_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      ]
+    },
+    {
+      "id": "4a3a5f30-ef2f-5c76-adeb-bd6d881bb444",
+      "slug": "2026-10-01-mit-rejt-az-oktoberi-egbolt",
+      "status": "pending",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "csillagászat",
+        "Szaturnusz",
+        "meteorraj",
+        "NASA",
+        "Hold"
+      ],
+      "title": "Mit rejt az októberi égbolt?",
+      "subtitle": null,
+      "lead": "Az őszi éjszakák beköszöntével látványos csillagászati jelenségek váltják egymást, amelyeket szabad szemmel is könnyen megfigyelhetünk. A NASA friss előrejelzése szerint októberben a bolygók állása és a hullócsillagok is főszerepet kapnak.",
+      "key_points": [
+        "A Szaturnusz szembenállásba kerül a Nappal, így különösen fényesen ragyog.",
+        "Az Orionidák meteorraj darabjai húznak el az éjszakai égbolton.",
+        "A Hold a Fiastyúk, azaz a Hét Nővér közelében halad el."
+      ],
+      "content": "Októberben a csillagászat kedvelői számos izgalmas látványosságra számíthatnak a friss űrkutatási tájékoztatók szerint. Érdemes figyelni az eget, hiszen egyszerre több ritka együttállás és égi vándor is feltűnik a sötétedő órákban.\n\nA hónap egyik kiemelt eseménye, amikor a Szaturnusz a Földhöz képest pontosan a Nappal ellentétes oldalra kerül. Ekkor a bolygó teljes fényességében ragyog, és már egy kisebb távcsővel vagy akár jobb binokulárral is jól kivehetők a jellegzetes gyűrűi.\n\nNem kell messzire menni a lenyűgöző látványért, hiszen a Hold is különleges társaságot kap. Az égitest vándorlása során szorosan elhalad a Fiastyúk, vagyis a hét legfényesebb csillagáról elnevezett Hét Nővér nyílthalmaz mellett, ami szabad szemmel is szemet gyönyörködtető kontrasztot nyújt.\n\nAz őszi estéket a hullócsillagok rajongói is élvezhetik, ugyanis tetőzik az Orionidák meteorraj. Ilyenkor a Föld légkörébe csapódó apró szemcsék fényes csíkokat húznak az égboltra, megkoronázva a hűvös, tiszta októberi éjszakákat.",
+      "content_format": "markdown",
+      "body": [
+        "Októberben a csillagászat kedvelői számos izgalmas látványosságra számíthatnak a friss űrkutatási tájékoztatók szerint. Érdemes figyelni az eget, hiszen egyszerre több ritka együttállás és égi vándor is feltűnik a sötétedő órákban.",
+        "A hónap egyik kiemelt eseménye, amikor a Szaturnusz a Földhöz képest pontosan a Nappal ellentétes oldalra kerül. Ekkor a bolygó teljes fényességében ragyog, és már egy kisebb távcsővel vagy akár jobb binokulárral is jól kivehetők a jellegzetes gyűrűi.",
+        "Nem kell messzire menni a lenyűgöző látványért, hiszen a Hold is különleges társaságot kap. Az égitest vándorlása során szorosan elhalad a Fiastyúk, vagyis a hét legfényesebb csillagáról elnevezett Hét Nővér nyílthalmaz mellett, ami szabad szemmel is szemet gyönyörködtető kontrasztot nyújt.",
+        "Az őszi estéket a hullócsillagok rajongói is élvezhetik, ugyanis tetőzik az Orionidák meteorraj. Ilyenkor a Föld légkörébe csapódó apró szemcsék fényes csíkokat húznak az égboltra, megkoronázva a hűvös, tiszta októberi éjszakákat."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 169,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg/1280px-Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "A swing high above Saturn by NASA's Cassini spacecraft revealed this stately view of the golden-hued planet and its main rings. The view is in natural color, as human eyes would have seen it. This mos",
+        "credit": "NASA/JPL-Caltech/SSI/Cornell / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10,_2013.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+          "title": "What’s Up: October 2026 Skywatching Tips from NASA",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-01T22:42:49+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.83,
+      "title_options": [
+        "Mit rejt az októberi égbolt?",
+        "Csillaghullás és bolygók a tiszta éjszakában",
+        "Így érdemes teleszkópot ragadni idén ősszel"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg/1280px-Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A swing high above Saturn by NASA's Cassini spacecraft revealed this stately view of the golden-hued planet and its main rings. The view is in natural color, as human eyes would have seen it. This mos",
+          "credit": "NASA/JPL-Caltech/SSI/Cornell / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10,_2013.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1280px-Saturn_during_Equinox.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 581,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "This natural color view of the planet Saturn was created from images collected shortly after Cassini began its extended Equinox Mission in July 2008. (Saturn actually reached equinox on August 11, 200",
+          "credit": "NASA / JPL / Space Science Institute / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Saturn_during_Equinox.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Pleiades_large.jpg/1280px-Pleiades_large.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 865,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The Pleiades, an open cluster consisting of approximately 3,000 stars at a distance of 400 light-years (120 parsecs) from Earth in the constellation of Taurus. It is also known as ‘The Seven Sisters’,",
+          "credit": "NASA, ESA, AURA/Caltech, Palomar Observatory\n\nThe science team consists of: D. S / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Pleiades_large.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/M45-Les_Pl%C3%A9iades_Hamois_le_28-12-2024-Luc_Viatour.jpg/1280px-M45-Les_Pl%C3%A9iades_Hamois_le_28-12-2024-Luc_Viatour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 802,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Astrophotography image of Messier 45 (The Pleiades).\nAcquisition Details\nLocation: Hamois, Belgium (Bortle 4 Sky)\nIntegration: 5 hours total (50 x 360s)\nCalibration: 50 Flats, 50 Darks, 50 Bias\nEquipm",
+          "credit": "Lviatour / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:M45-Les_Pl%C3%A9iades_Hamois_le_28-12-2024-Luc_Viatour.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Orionids_Meteor_shower.jpg/1280px-Orionids_Meteor_shower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Orionids Meteor shower",
+          "credit": "Wacool / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Orionids_Meteor_shower.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Orionids_and_Orion.jpg/1280px-Orionids_and_Orion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 929,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A green Orionid meteor",
+          "credit": "Brocken Inaglory / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Orionids_and_Orion.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/7422/9138364501_6ea6073b67_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Night sky",
+          "credit": "YLev / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/48110224@N08/9138364501"
+        },
+        {
+          "url": "https://live.staticflickr.com/2890/33762719595_85ca91d32b_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Night Sky",
+          "credit": "sava89@ymail.com / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/149238312@N04/33762719595"
+        }
+      ],
+      "story": [
+        {
+          "title": "What’s Up: October 2026 Skywatching Tips from NASA",
+          "link": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+          "summary": "A Meteor Shower and the Moon Near the Pleiades See Saturn at opposition, catch the Orionid meteor shower, and watch the Moon pass close to the Pleiades, also known as the Seven Sisters. Skywatching Highlights Transcript Saturn takes center stage, a meteor shower lights up the sky, and the Moon visits the Seven Sisters. That’s […]",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": 5.83
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/univerzum/2026-10-01-mit-rejt-az-oktoberi-egbolt/",
+      "seo": {
+        "meta_title": "Mit rejt az októberi égbolt?",
+        "meta_description": "Az őszi éjszakák beköszöntével látványos csillagászati jelenségek váltják egymást, amelyeket szabad szemmel is könnyen megfigyelhetünk. A NASA friss előrejelzés",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-01-mit-rejt-az-oktoberi-egbolt/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg/1280px-Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "2765e7482e6d5861c3cfcf7dd3edbbe4d024018451882d1db70900feb4b55f3b",
+      "pipeline_run_id": "36923287538",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T22:42:49+02:00",
+      "updated_at": "2026-10-01T22:42:49+02:00",
+      "published_at": "2026-10-01T22:42:49+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 3,
+        "sent_at": "2026-10-01T20:43:14+00:00",
+        "msg_ids": [
+          958,
+          959,
+          960,
+          961,
+          962,
+          963,
+          964,
+          965,
+          966,
+          967
+        ],
+        "control_id": 968
+      }
+    },
+    {
+      "id": "74e92860-e064-5d6d-a395-9f3217a22bc6",
+      "slug": "2026-10-01-minden-tizenharmadik-fiatal-ereiben-ott-rejlik-a-baj",
+      "status": "pending",
+      "category": "eletmod",
+      "subcategory": null,
+      "tags": [
+        "egészség",
+        "szívbetegség",
+        "kutatás",
+        "orvostudomány"
+      ],
+      "title": "Minden tizenharmadik fiatal ereiben ott rejlik a baj",
+      "subtitle": null,
+      "lead": "A tizennyolc és huszonkilenc év közötti korosztály mintegy hét százalékánál már kimutathatók a rejtett érrendszeri lerakódások, jóllehet ők maguk teljesen egészségesnek tűnnek. Egy nagyszabású nemzetközi vizsgálat szerint az érelmeszesedés jóval korábban kezdődik, mint ahogy azt eddig a szakemberek feltételezték.",
+      "key_points": [
+        "A vizsgálatban részt vevő, tünetmentes felnőttek több mint felénél találtak artériás plakkokat.",
+        "A kutatók tizennyolc és hetven év közötti, összesen 16 808 személyt vizsgáltak meg Dániában és Spanyolországban.",
+        "A program első fázisát a Novo Nordisk Alapítvány huszonhárom millió eurós támogatásával finanszírozták."
+      ],
+      "content": "A szív- és érrendszeri megbetegedések hátterében leggyakrabban álló érelmeszesedés évtizedek alatt, észrevétlenül alakul ki a szervezetben. A folyamat során az artériák falán plakkok halmozódnak fel, ami végül szívrohamhoz, szélütéshez vagy hirtelen halálhoz vezethet. Az elváltozások megléte önmagában még nem jelenti azt, hogy a betegségnél tünetek is jelentkeznek, ám a világon évente csaknem húszmillió ember haláláért felelősek ezek a kórképek. A betegség korai felismerése eddig azért ütközött akadályokba, mert a szakemberek leginkább közvetett kockázati tényezőkre – mint a vérnyomás, a koleszterinszint vagy a dohányzás – támaszkodtak.\n\nA most közölt eredmények a REACT elnevezésű nemzetközi kutatási program első szakaszából származnak, amelynek részleteit a New England Journal of Medicine szaklapban publikálták, és az ESC Congress 2024 elnevezésű rendezvényen is bemutatták. A dániai és spanyolországi központok – köztük a koppenhágai Rigshospitalet és a spanyolországi CNIC – együttműködésében zajló nyolcéves program első fázisában tizennyolc és hetven év közötti önkénteseket vizsgáltak meg. Henning Bundgaard, a Rigshospitalet kardiológia professzora és Borja Ibáñez, a CNIC tudományos igazgatója irányításával a szakemberek fejlett képalkotó eljárásokkal azt vizsgálták, hogy a nyaki, a lábszári és a szívkoszorúerekben hogyan jelennek meg a lerakódások.\n\nA vizsgált 16 808 tünetmentes ember 57,1 százalékánál azonosítottak atheroscleroticus plakkokat. Különösen figyelemre méltó, hogy a tizennyolc és huszonkilenc év közötti korcsoportban tizenháromból egy ember szervezetében már jelen voltak ezek a rejtett elváltozások. A kutatók célja egy olyan precíziós medicina alapú megelőzési modell kialakítása, amelyben a jövőben nem csupán becslésekre hagyatkoznak, hanem közvetlenül a képalkotó vizsgálatok eredményei alapján határozzák meg a szükséges kezeléseket és a rizikófaktorok terápiáját.\n\nA tervezett ütemezés szerint a program első szakasza után, a források biztosításától függően, a második fázis 2027 és 2032 között fut majd. A kutatás eddigi adatai pontosabb képet adnak arról, hogy a különböző korcsoportokban, valamint a nők és a férfiak körében miként alakul a csendes érelmeszesedés előfordulása. A mindennapi gyakorlatban ez azt jelenti, hogy a jövőben a megelőzés már a tünetek megjelenése előtt sokkal pontosabbá válhat az artériák közvetlen feltérképezésének köszönhetően.",
+      "content_format": "markdown",
+      "body": [
+        "A szív- és érrendszeri megbetegedések hátterében leggyakrabban álló érelmeszesedés évtizedek alatt, észrevétlenül alakul ki a szervezetben. A folyamat során az artériák falán plakkok halmozódnak fel, ami végül szívrohamhoz, szélütéshez vagy hirtelen halálhoz vezethet. Az elváltozások megléte önmagában még nem jelenti azt, hogy a betegségnél tünetek is jelentkeznek, ám a világon évente csaknem húszmillió ember haláláért felelősek ezek a kórképek. A betegség korai felismerése eddig azért ütközött akadályokba, mert a szakemberek leginkább közvetett kockázati tényezőkre – mint a vérnyomás, a koleszterinszint vagy a dohányzás – támaszkodtak.",
+        "A most közölt eredmények a REACT elnevezésű nemzetközi kutatási program első szakaszából származnak, amelynek részleteit a New England Journal of Medicine szaklapban publikálták, és az ESC Congress 2024 elnevezésű rendezvényen is bemutatták. A dániai és spanyolországi központok – köztük a koppenhágai Rigshospitalet és a spanyolországi CNIC – együttműködésében zajló nyolcéves program első fázisában tizennyolc és hetven év közötti önkénteseket vizsgáltak meg. Henning Bundgaard, a Rigshospitalet kardiológia professzora és Borja Ibáñez, a CNIC tudományos igazgatója irányításával a szakemberek fejlett képalkotó eljárásokkal azt vizsgálták, hogy a nyaki, a lábszári és a szívkoszorúerekben hogyan jelennek meg a lerakódások.",
+        "A vizsgált 16 808 tünetmentes ember 57,1 százalékánál azonosítottak atheroscleroticus plakkokat. Különösen figyelemre méltó, hogy a tizennyolc és huszonkilenc év közötti korcsoportban tizenháromból egy ember szervezetében már jelen voltak ezek a rejtett elváltozások. A kutatók célja egy olyan precíziós medicina alapú megelőzési modell kialakítása, amelyben a jövőben nem csupán becslésekre hagyatkoznak, hanem közvetlenül a képalkotó vizsgálatok eredményei alapján határozzák meg a szükséges kezeléseket és a rizikófaktorok terápiáját.",
+        "A tervezett ütemezés szerint a program első szakasza után, a források biztosításától függően, a második fázis 2027 és 2032 között fut majd. A kutatás eddigi adatai pontosabb képet adnak arról, hogy a különböző korcsoportokban, valamint a nők és a férfiak körében miként alakul a csendes érelmeszesedés előfordulása. A mindennapi gyakorlatban ez azt jelenti, hogy a jövőben a megelőzés már a tünetek megjelenése előtt sokkal pontosabbá válhat az artériák közvetlen feltérképezésének köszönhetően."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 354,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Rigshospitalet_Copenhagen_2005-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 804,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Rigshospitalet in Copenhagen, Denmark. Taken November 12, 2005, by Henrik Jessen.\n\nThe largest hospital in Denmark. The picture shows the main entrance and the 16 storeyed central building completed i",
+        "credit": "No machine-readable author provided. Heje assumed (based on copyright claims). / Wikimedia Commons",
+        "license": "CC BY 2.5",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rigshospitalet_Copenhagen_2005-11.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260929053541.htm",
+          "title": "1 in 13 adults under 30 already had hidden artery plaque",
+          "publisher": "sciencedaily.com",
+          "license": null,
+          "accessed_at": "2026-10-01T22:43:44+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.74,
+      "title_options": [
+        "Minden tizenharmadik fiatal ereiben ott rejlik a baj",
+        "Rejtett érrendszeri plakkok a fiataloknál",
+        "Meglepő eredmények a szív- és érrendszeri kutatásban"
+      ],
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Rigshospitalet_Copenhagen_2005-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 804,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Rigshospitalet in Copenhagen, Denmark. Taken November 12, 2005, by Henrik Jessen.\n\nThe largest hospital in Denmark. The picture shows the main entrance and the 16 storeyed central building completed i",
+          "credit": "No machine-readable author provided. Heje assumed (based on copyright claims). / Wikimedia Commons",
+          "license": "CC BY 2.5",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rigshospitalet_Copenhagen_2005-11.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Rigshospitalet_2017.jpg/1280px-Rigshospitalet_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The tall building on the left is the center complex. The white building on the right is a new building for children, women giving birth and their families.",
+          "credit": "Alexandra Freltoft / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rigshospitalet_2017.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Cardiovascular_disease_chart.png/1280px-Cardiovascular_disease_chart.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 815,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Global burden of cardiovascular disease with risk factors.\nCitation: (2005) Affluence and the Worldwide Distribution of Cardiovascular Disease Risks. PLoS Med 2(5): e148. https://doi.org/10.1371/journ",
+          "credit": "Citation: (2005) Affluence and the Worldwide Distribution of Cardiovascular Dise / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Cardiovascular_disease_chart.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Infers_group_arting_health_2018_street_art_graffiti_cardiovascular_disease_hypertension_funded_by_welcome_5112x4368.jpg/1280px-Infers_group_arting_health_2018_street_art_graffiti_cardiovascular_disease_hypertension_funded_by_welcome_5112x4368.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1025,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "The man in the image is bent over in pain and clutching his heart,\nshowing the agony of not taking care of our hearts. The blue colour\nrepresents the mood of the topic – cold.\nThe exaggerated heart re",
+          "credit": "James-Alex Matthews, Infers Group / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Infers_group_arting_health_2018_street_art_graffiti_cardiovascular_disease_hypertension_funded_by_welcome_5112x4368.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Atherosclerosis%2C_aorta%2C_gross_pathology_PHIL_846_lores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1869,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "ID#:\t846\nDescription:\tGross pathology of atherosclerosis, aorta.\nAutopsy specimen of aorta has been opened lengthwise to reveal luminal surface studded with lesions of atherosclerosis.\nContent Provide",
+          "credit": "ismeretlen szerző / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Atherosclerosis,_aorta,_gross_pathology_PHIL_846_lores.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/X-ray_of_atherosclerosis_of_the_abdominal_aorta.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 994,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Atherosclerosis of the abdominal aorta. Woman of 75 years old with hypertension.",
+          "credit": "Jmarchn / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:X-ray_of_atherosclerosis_of_the_abdominal_aorta.png"
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/49501365313_97476713ea_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Medical Laboratory",
+          "credit": "ben.dracup / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/186856158@N06/49501365313"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Medical_laboratories_and_clinics_in_Kinwat.jpg",
+          "width": 4032,
+          "height": 3024,
+          "kind": "photo",
+          "alt": "Medical laboratories and clinics in Kinwat",
+          "credit": "Mouryan / wikimedia",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/w/index.php?curid=148539412"
+        }
+      ],
+      "story": [
+        {
+          "title": "1 in 13 adults under 30 already had hidden artery plaque",
+          "link": "https://www.sciencedaily.com/releases/2026/09/260929053541.htm",
+          "summary": "More than half of 16,000 apparently healthy adults had signs of atherosclerosis, with arterial plaques already detectable in about 1 in 13 people ages 18 to 29. Researchers say directly imaging the arteries could reveal hidden cardiovascular disease years or even decades before symptoms appear.",
+          "source": "sciencedaily.com",
+          "related": null,
+          "hot_score": 5.74
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.sciencedaily.com/releases/2026/09/260929053541.htm"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/eletmod/2026-10-01-minden-tizenharmadik-fiatal-ereiben-ott-rejlik-a-baj/",
+      "seo": {
+        "meta_title": "Minden tizenharmadik fiatal ereiben ott rejlik a baj",
+        "meta_description": "A tizennyolc és huszonkilenc év közötti korosztály mintegy hét százalékánál már kimutathatók a rejtett érrendszeri lerakódások, jóllehet ők maguk teljesen egész",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-01-minden-tizenharmadik-fiatal-ereiben-ott-rejlik-a-baj/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Rigshospitalet_Copenhagen_2005-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "22beea4eaee56afc829ec7fbb06267aa6673a17046bcfd7bae14cef54c3fa9ae",
+      "pipeline_run_id": "36923287538",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T22:43:44+02:00",
+      "updated_at": "2026-10-01T22:43:44+02:00",
+      "published_at": "2026-10-01T22:43:44+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-01T20:44:17+00:00",
+        "msg_ids": [
+          979,
+          980,
+          981,
+          982,
+          983,
+          984,
+          985,
+          986,
+          987,
+          988
+        ],
+        "control_id": 989
+      }
     }
   ]
 }
