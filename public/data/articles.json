@@ -1,7 +1,142 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01T16:37:13+02:00",
+  "updated_at": "2026-10-01T16:37:20+02:00",
   "articles": [
+    {
+      "id": "49a1742d-6794-5749-87f0-3131bc9920fb",
+      "slug": "2026-10-01-megallapodas-szuletett-penzt-kap-a-fovaros",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "Budapest",
+        "gazdaság",
+        "önkormányzat",
+        "közlekedés",
+        "költségvetés"
+      ],
+      "title": "Megállapodás született: pénzt kap a főváros",
+      "subtitle": null,
+      "lead": "Fél évtizedes szünet után ült össze csütörtökön a Fővárosi Közfejlesztések Tanácsa, ahol 120 milliárd forintos támogatásról és a közlekedés finanszírozásáról is egyeztettek a kormány és a főváros vezetői. A megbeszélésen terítékre került a szolidaritási hozzájárulás sorsa, valamint a kerületi parkolási bevételek központosítása is, ami komoly vitákat váltott ki a polgármesterek körében.",
+      "key_points": [
+        "Fél évtizedes szünet után ült össze a Fővárosi Közfejlesztések Tanácsa.",
+        "A kormány 120 milliárd forintos támogatást biztosít Budapestnek.",
+        "A jövő évben 170 milliárd forint jut a BKK közösségi közlekedésére.",
+        "A parkolási bevételek központosítása miatt a kerületi vezetők tiltakoznak."
+      ],
+      "content": "Fél évtizedes szünetet követően csütörtökön ismét összeült a Fővárosi Közfejlesztések Tanácsa, hogy megvitassa Budapest rövid és hosszabb távú pénzügyi helyzetét. A portfólió.hu beszámolója szerint a kormány és a főváros egyeztetésén egy 120 milliárd forintos támogatási csomagról, valamint a közlekedési és fejlesztési ügyekről is szó esett. A testület munkáját a jövőben a közös beruházások előkészítése határozza meg, a napirendet pedig a miniszterelnök és a főpolgármester közösen jegyzi.\n\nA megbeszélés egyik legvitásabb pontja a parkolási bevételek fővárosi szintre történő átcsoportosítása volt. Karácsony Gergely főpolgármester és Vitézy Dávid miniszter azzal érveltek a központosítás mellett, hogy a bevételek jelentős része jelenleg a fenntartásra megy el, és a rendszer hatékonysága növelhető. Ezzel szemben Baranyi Krisztina ferencvárosi polgármester hosszan érvelt a kerületi szempontok mellett, mivel a városvezetők szerint ez a lépés forráselvonást jelent a helyi fejlesztések és a köztisztaság terén.\n\nA pénzügyi tervek között szerepel a szolidaritási hozzájárulás is, amely Vitézy Dávid szerint az államháztartás stabilitása miatt elengedhetetlen, így azt 2027-ben sem lehet nélkülözni, ugyanakkor a mértékén és a beszedés módján változtatni fognak. A megállapodás részletei közé tartozik az is, hogy a kormány jövőre 170 milliárd forintot ad a BKK-nak a közösségi közlekedésre, valamint terítékre került a Diákváros, Rákosrendező, a fürdők és a Duna ügye is.\n\nA megvalósításhoz szükség lesz a Fővárosi Közgyűlés jóváhagyására is, ahol a főpolgármester várakozásai szerint meglesz a támogatás. Vitézy Dávid hozzátette, hogy a Tisza frakciója, a Podmaniczky Mozgalom képviselői, valamint a Kutyapárt is támogatja a megállapodás legtöbb elemét, így a következő hetekben a részletes pénzügyi tervek kidolgozása következik.",
+      "content_format": "markdown",
+      "body": [
+        "Fél évtizedes szünetet követően csütörtökön ismét összeült a Fővárosi Közfejlesztések Tanácsa, hogy megvitassa Budapest rövid és hosszabb távú pénzügyi helyzetét. A portfólió.hu beszámolója szerint a kormány és a főváros egyeztetésén egy 120 milliárd forintos támogatási csomagról, valamint a közlekedési és fejlesztési ügyekről is szó esett. A testület munkáját a jövőben a közös beruházások előkészítése határozza meg, a napirendet pedig a miniszterelnök és a főpolgármester közösen jegyzi.",
+        "A megbeszélés egyik legvitásabb pontja a parkolási bevételek fővárosi szintre történő átcsoportosítása volt. Karácsony Gergely főpolgármester és Vitézy Dávid miniszter azzal érveltek a központosítás mellett, hogy a bevételek jelentős része jelenleg a fenntartásra megy el, és a rendszer hatékonysága növelhető. Ezzel szemben Baranyi Krisztina ferencvárosi polgármester hosszan érvelt a kerületi szempontok mellett, mivel a városvezetők szerint ez a lépés forráselvonást jelent a helyi fejlesztések és a köztisztaság terén.",
+        "A pénzügyi tervek között szerepel a szolidaritási hozzájárulás is, amely Vitézy Dávid szerint az államháztartás stabilitása miatt elengedhetetlen, így azt 2027-ben sem lehet nélkülözni, ugyanakkor a mértékén és a beszedés módján változtatni fognak. A megállapodás részletei közé tartozik az is, hogy a kormány jövőre 170 milliárd forintot ad a BKK-nak a közösségi közlekedésre, valamint terítékre került a Diákváros, Rákosrendező, a fürdők és a Duna ügye is.",
+        "A megvalósításhoz szükség lesz a Fővárosi Közgyűlés jóváhagyására is, ahol a főpolgármester várakozásai szerint meglesz a támogatás. Vitézy Dávid hozzátette, hogy a Tisza frakciója, a Podmaniczky Mozgalom képviselői, valamint a Kutyapárt is támogatja a megállapodás legtöbb elemét, így a következő hetekben a részletes pénzügyi tervek kidolgozása következik."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 301,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://live.staticflickr.com/7677/17102031717_89994a17e5_b.jpg",
+        "width": 1024,
+        "height": 616,
+        "kind": "photo",
+        "alt": "Money",
+        "credit": "free pictures of money / flickr",
+        "license": "CC BY 2.0",
+        "source_url": "https://www.flickr.com/photos/126278138@N03/17102031717"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261001/120-milliard-forintos-tamogatast-kap-budapest-kiderult-milyen-megallapodas-szuletett-a-kormany-es-fovaros-kozt-866668",
+          "title": "120 milliárd forintos támogatást kap Budapest – kiderült, milyen megállapodás született a kormány és főváros közt",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T16:31:50+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-01T16:37:20+02:00"
+      },
+      "hot_score": 6.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261001/120-milliard-forintos-tamogatast-kap-budapest-kiderult-milyen-megallapodas-szuletett-a-kormany-es-fovaros-kozt-866668"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/penzvilag/2026-10-01-megallapodas-szuletett-penzt-kap-a-fovaros/",
+      "seo": {
+        "meta_title": "Megállapodás született: pénzt kap a főváros",
+        "meta_description": "Fél évtizedes szünet után ült össze csütörtökön a Fővárosi Közfejlesztések Tanácsa, ahol 120 milliárd forintos támogatásról és a közlekedés finanszírozásáról is",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-01-megallapodas-szuletett-penzt-kap-a-fovaros/",
+        "og_image": "https://live.staticflickr.com/7677/17102031717_89994a17e5_b.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "a98aec1b-fa6a-595b-8d14-8c77df19389c",
+        "b280525b-357b-5d8f-a16f-06f381b33c93",
+        "0c6dab9b-e62e-5554-ad11-a4630c7d1f76"
+      ],
+      "see_also": [
+        {
+          "title": "Kilencmilliárd forintért feszülnek egymásnak a budapesti kerületek",
+          "url": "/penzvilag/2026-10-01-kilencmilliard-forintert-feszulnek-egymasnak-a-budapesti-keruletek/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Végre megmentik a budapesti Planetáriumot?",
+          "url": "/kozelet/2026-10-01-vegre-megmentik-a-budapesti-planetariumot/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Hűtlen kezelés gyanúja miatt tett feljelentést a minisztérium",
+          "url": "/penzvilag/2026-09-30-hutlen-kezeles-gyanuja-miatt-tett-feljelentest-a-miniszterium/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "85c82843b53bf71bfc889090b3bdff7d4bcdc3fcb419dd3a07d98e2f3735da77",
+      "pipeline_run_id": "36876886244",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T16:37:20+02:00",
+      "updated_at": "2026-10-01T16:37:20+02:00",
+      "published_at": "2026-10-01T16:37:20+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "Budapest Parliament building",
+        "Budapest public transport bus",
+        "Budapest street parking",
+        "Hungarian forint banknotes",
+        "paper money cash",
+        "financial meeting"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Vit%C3%A9zy_D%C3%A1vid_-.jpg/1280px-Vit%C3%A9zy_D%C3%A1vid_-.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Vit%C3%A9zyD%C3%A1vid2021.jpg/1280px-Vit%C3%A9zyD%C3%A1vid2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Kar%C3%A1csony_Gergely_-_2016.03.28.JPG/1280px-Kar%C3%A1csony_Gergely_-_2016.03.28.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/7312/9677861633_cc1d703f56_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Kar%C3%A1csony_Gergely_besz%C3%A9de_a_V%C3%A1rosh%C3%A1za_el%C5%91tt_%282%29.jpg/1280px-Kar%C3%A1csony_Gergely_besz%C3%A9de_a_V%C3%A1rosh%C3%A1za_el%C5%91tt_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/4124/4845905314_8b4ce58572_b.jpg"
+      ]
+    },
     {
       "id": "9a529fe5-41d0-5f7e-bdb5-ca6cccaea4db",
       "slug": "2026-10-01-ritka-egi-pillanat-az-etna-felett",
