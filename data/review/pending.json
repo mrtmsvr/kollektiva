@@ -7679,6 +7679,850 @@
         "control_id": 735
       },
       "live": true
+    },
+    {
+      "id": "bbd24310-c9c7-5524-9583-80acaa34f00f",
+      "slug": "2026-10-01-hat-szazalekot-zuhant-az-otp-a-tozsden",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "tőzsde",
+        "OTP",
+        "Mol",
+        "gazdaság",
+        "befektetés"
+      ],
+      "title": "Hat százalékot zuhant az OTP a tőzsdén",
+      "subtitle": null,
+      "lead": "A nemzetközi piaci hangulat romlása a magyar tőzsdét is magával rántotta, miközben az OTP részvényei hat százalék feletti mínuszban zárták a szerdai kereskedést. A befektetőket az emelkedő amerikai államkötvény-hozamok és a kínai üzemanyagexport-felfüggesztés miatti olajár-emelkedés aggasztják.",
+      "key_points": [
+        "Hat százalékot esett az OTP részvénye a szerdai tőzsdezárásig.",
+        "A Mol árfolyama is jelentős mínuszban fejezte be a napot.",
+        "A tízéves amerikai állampapír hozama húszéves csúcsra emelkedett.",
+        "Kína felfüggesztette az üzemanyagexportot, ami feljebb hajtotta az olajárat."
+      ],
+      "content": "Csúnyán megsínylette a szerdai kereskedést a magyar tőzsde, miután a vezető hazai részvények árfolyama meredeken süllyedt. A BUX index esésében a főszerepet az OTP játszotta, amely végül több mint hat százalékos mínuszban fejezte be a napot, de a Mol is megérezte a nemzetközi eladási hullámot. A Portfolio adatai szerint a globális piacokon az olajár újbóli emelkedése és az amerikai államkötvények hozamának több évtizedes csúcsa határozta meg a befektetői hangulatot.\n\nA tengerentúlon a tízéves amerikai állampapír hozama 2002 óta nem látott szintre kapaszkodott, ami különösen a magas értékeltségen forgó papírokra helyezett nyomást. Ezzel párhuzamosan a kőolaj ára hordónként több mint három dollárral drágult, miután Kína leállította az üzemanyagexportot, tovább szűkítve a globális kínálatot.\n\nAz európai piacokon délelőtt még bankvezérelt esés alakult ki, majd a nap második felében tovább romlottak a mutatók. Az amerikai tőzsdéken ugyanakkor napközben enyhült a kötvénypiaci nyomás, és a technológiai szektor – a Micron vártnál jobb eredményeinek köszönhetően – kisebb pluszba tudott kapaszkodni.\n\nA hazai részvénytulajdonosok számára a mostani árfolyammozgások azt jelzik, hogy a nemzetközi makrogazdasági folyamatok – így a kötvénypiaci hozamok alakulása és az energiaárak ugrása – közvetlenül begyűrűznek a Budapesti Értéktőzsdére is, bizonytalanságot teremtve a portfóliókban.",
+      "content_format": "markdown",
+      "body": [
+        "Csúnyán megsínylette a szerdai kereskedést a magyar tőzsde, miután a vezető hazai részvények árfolyama meredeken süllyedt. A BUX index esésében a főszerepet az OTP játszotta, amely végül több mint hat százalékos mínuszban fejezte be a napot, de a Mol is megérezte a nemzetközi eladási hullámot. A Portfolio adatai szerint a globális piacokon az olajár újbóli emelkedése és az amerikai államkötvények hozamának több évtizedes csúcsa határozta meg a befektetői hangulatot.",
+        "A tengerentúlon a tízéves amerikai állampapír hozama 2002 óta nem látott szintre kapaszkodott, ami különösen a magas értékeltségen forgó papírokra helyezett nyomást. Ezzel párhuzamosan a kőolaj ára hordónként több mint három dollárral drágult, miután Kína leállította az üzemanyagexportot, tovább szűkítve a globális kínálatot.",
+        "Az európai piacokon délelőtt még bankvezérelt esés alakult ki, majd a nap második felében tovább romlottak a mutatók. Az amerikai tőzsdéken ugyanakkor napközben enyhült a kötvénypiaci nyomás, és a technológiai szektor – a Micron vártnál jobb eredményeinek köszönhetően – kisebb pluszba tudott kapaszkodni.",
+        "A hazai részvénytulajdonosok számára a mostani árfolyammozgások azt jelzik, hogy a nemzetközi makrogazdasági folyamatok – így a kötvénypiaci hozamok alakulása és az energiaárak ugrása – közvetlenül begyűrűznek a Budapesti Értéktőzsdére is, bizonytalanságot teremtve a portfóliókban."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 225,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 798,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Budapest's Stock Exchange Palace in Szabadság tér.",
+        "credit": "Illustratedjc / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/uzlet/20261001/kapott-egy-ujabb-utest-a-magyar-tozsde-nagyot-esett-a-mol-zuhant-az-otp-866508",
+          "title": "Kapott egy újabb ütést a magyar tőzsde, nagyot esett a Mol, zuhant az OTP",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T20:45:14+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Hat százalékot zuhant az OTP a tőzsdén",
+        "Miért ütötte meg a tőzsde a magyar bankpapírokat?",
+        "Nagyot esett az OTP és a Mol"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest's Stock Exchange Palace in Szabadság tér.",
+          "credit": "Illustratedjc / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Budapest_Stock_Exchange_Palace_%2806%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest Stock Exchange Palace at Szabadság tér.",
+          "credit": "Vasyatka1 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace_(06).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/OTP_Bank%2C_Pozsonyi_Stra%C3%9Fe%2C_2021_Budapest.jpg/1280px-OTP_Bank%2C_Pozsonyi_Stra%C3%9Fe%2C_2021_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "There are marble benches and radiators at the entrances. The nameplates and loudspeaker and home phone equipment were designed to be recessed into the marble floor of the lobby. Two elevators, baby c",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:OTP_Bank,_Pozsonyi_Stra%C3%9Fe,_2021_Budapest.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/OTP_Bank%2C_2018_Sashalom.jpg/1280px-OTP_Bank%2C_2018_Sashalom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": ": OTP Bank 16th district Jókai street branch. - 3 Jókai street, Sashalom, 16th district of Budapest.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:OTP_Bank,_2018_Sashalom.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Portraits_of_WAAF_Servicewomen_Based_at_RAF_Watnall%2C_Headquarters_of_No._12_Group_Royal_Air_Force_Fighter_Command_during_the_Second_World_War_HU91762.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1229,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Portraits of Waaf Servicewomen Based at RAF Watnall, Headquarters of No. 12 Group Royal Air Force Fighter Command during the Second World War\nMolly Jessop.",
+          "credit": "Royal Air Force official photographer / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Portraits_of_WAAF_Servicewomen_Based_at_RAF_Watnall,_Headquarters_of_No._12_Group_Royal_Air_Force_Fighter_Command_during_the_Second_World_War_HU91762.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/USMC-120203-M-OB827-005.jpg/1280px-USMC-120203-M-OB827-005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Maj. Gen. Andrew W. O’Donnell, Jr., left, the commanding general of 3rd Marine Aircraft Wing and Sgt. Maj. Anthony A. Spadaro, right, the sergeant major for 3rd MAW, present Sgt. Molly A. Howe, center",
+          "credit": "ismeretlen szerző / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:USMC-120203-M-OB827-005.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/4124/4845905314_8b4ce58572_b.jpg",
+          "width": 1024,
+          "height": 763,
+          "kind": "photo",
+          "alt": "Stock market",
+          "credit": "Manu Manohar Photography / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/32833136@N04/4845905314"
+        },
+        {
+          "url": "https://live.staticflickr.com/7312/9677861633_cc1d703f56_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Analyzing Stock Market",
+          "credit": "ota_photos / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/101332430@N03/9677861633"
+        }
+      ],
+      "story": [
+        {
+          "title": "Kapott egy újabb ütést a magyar tőzsde, nagyot esett a Mol, zuhant az OTP",
+          "link": "https://www.portfolio.hu/uzlet/20261001/kapott-egy-ujabb-utest-a-magyar-tozsde-nagyot-esett-a-mol-zuhant-az-otp-866508",
+          "summary": "Vegyesen zárták a szerdai kereskedést az amerikai indexek, a Nasdaq felülteljesítő volt, az ázsiai tőzsdéken pedig ma reggel több fontos piacon kereskedési szünnap volt, nem nyitott ki a kínai és a hongkongi tőzsde. Ahol volt kereskedés, ott viszont többségében emelkedtek az indexek: mind a japán, mind a dél-koreai tőzsde jelentősebb pluszban zárt. Az európai piacokon komolyabb esés bontakozott ma délelőtt ki a bankpapírok vezetésével, majd délre mérséklődtek a mínuszok, de a nap második felében ismét elromolott a hangulat. A BUX is esett, amiben az OTP játszotta a főszerepet, a hazai bankpapí",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/uzlet/20261001/kapott-egy-ujabb-utest-a-magyar-tozsde-nagyot-esett-a-mol-zuhant-az-otp-866508"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/penzvilag/2026-10-01-hat-szazalekot-zuhant-az-otp-a-tozsden/",
+      "seo": {
+        "meta_title": "Hat százalékot zuhant az OTP a tőzsdén",
+        "meta_description": "A nemzetközi piaci hangulat romlása a magyar tőzsdét is magával rántotta, miközben az OTP részvényei hat százalék feletti mínuszban zárták a szerdai kereskedést",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-01-hat-szazalekot-zuhant-az-otp-a-tozsden/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "9728c2d8-7373-5c63-8a99-b84e32bf0fb8",
+        "3196c298-0cfe-5c09-be03-d5df3428ec10",
+        "4a220c12-9890-5021-ba23-0ecba40ddda2"
+      ],
+      "see_also": [
+        {
+          "title": "Váratlan fordulat: erősödéssel zárta a reggelt a forint",
+          "url": "/penzvilag/2026-09-30-varatlan-fordulat-erosodessel-zarta-a-reggelt-a-forint/",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "Száz dollár felett az olajár a tőzsdéken",
+          "url": "/penzvilag/2026-10-01-szaz-dollar-felett-az-olajar-a-tozsdeken/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Kiesett a Celeb vagyokból a transznemű influenszer",
+          "url": "/bulvar/2026-10-01-kiesett-a-celeb-vagyokbol-a-transznemu-influenszer/",
+          "date": "2026-10-01"
+        }
+      ],
+      "thread_id": "9728c2d8-7373-5c63-8a99-b84e32bf0fb8",
+      "dedupe_hash": "badb24781fe0704f213391a053bac20dea51d75d4b28d53ae5fd4c1916d86c2a",
+      "pipeline_run_id": "36909127434",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T20:45:14+02:00",
+      "updated_at": "2026-10-01T20:45:14+02:00",
+      "published_at": "2026-10-01T20:45:14+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-01T18:45:40+00:00",
+        "msg_ids": [
+          849,
+          850,
+          851,
+          852,
+          853,
+          854,
+          855,
+          856,
+          857,
+          858
+        ],
+        "control_id": 859
+      }
+    },
+    {
+      "id": "60f91f1e-07ac-5f11-b204-02e5f25276e6",
+      "slug": "2026-10-01-hogyan-zuzzak-szet-a-bolygok-egymast",
+      "status": "pending",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "Univerzum",
+        "csillagászat",
+        "NASA",
+        "Föld",
+        "Hold"
+      ],
+      "title": "Hogyan zúzzák szét a bolygók egymást?",
+      "subtitle": null,
+      "lead": "Az űrkutatás legújabb megfigyelései rávilágítanak arra, hogyan formálták a naprendszer hajnalát a kataklizmikus bolygóütközések. A NASA friss elemzései a Föld múltbéli, katasztrofális ütközéseit és azok következményeit veszik górcső alá.",
+      "key_points": [
+        "A korai naprendszerben egy Mars méretű égitest, a Theia csapódott a fiatal Földhöz.",
+        "Az ütközés következtében hatalmas mennyiségű kőzet párolgott el és szóródott ki a világűrbe.",
+        "Ebből a kiszakadt törmelékből alakult ki a Hold, amelyen ma az Artemis-program emberes küldetései zajlanak."
+      ],
+      "content": "A bolygók születése nem békés folyamat, hanem gigantikus roncsderbi, ahol a világűrben száguldó égitestek hatalmas energiával ütköznek össze. Ez olyan, mintha kétszáz tonnás óriási teherautók száguldanának frontálisan egy kietlen pályán, totális pusztítást hagyva maguk után. A NASA által közzétett adatok szerint a Föld korai történetében egy Theia elnevezésű, Mars nagyságú objektum csapódott bele a még teljesen csecsemőkorban lévő bolygónkba.\n\nAz ütközés során felszabaduló energia szinte hihetetlen méreteket öltött: hatalmas mennyiségű kőzet zúzódott porrá és párolgott el azonnal, miközben olvadékok millió tonnái repültek ki a kozmikus térbe. A becsapódás helyén maradt törmelék egy része gravitációs pályára állt a Föld körül, és idővel összeállt azzá a gömbbé, amit ma Holdként ismerünk.\n\nEz a holdbéli kapocs teszi most lehetővé, hogy a NASA Artemis-programja emberes küldetésekkel térjen vissza a Hold felszínére. Az ott szerzett tapasztalatok nemcsak a bázisok kiépítését szolgálják, hanem közvetlen felkészülést jelentenek a jövőbeli, még távolibb marsutazásokra is.",
+      "content_format": "markdown",
+      "body": [
+        "A bolygók születése nem békés folyamat, hanem gigantikus roncsderbi, ahol a világűrben száguldó égitestek hatalmas energiával ütköznek össze. Ez olyan, mintha kétszáz tonnás óriási teherautók száguldanának frontálisan egy kietlen pályán, totális pusztítást hagyva maguk után. A NASA által közzétett adatok szerint a Föld korai történetében egy Theia elnevezésű, Mars nagyságú objektum csapódott bele a még teljesen csecsemőkorban lévő bolygónkba.",
+        "Az ütközés során felszabaduló energia szinte hihetetlen méreteket öltött: hatalmas mennyiségű kőzet zúzódott porrá és párolgott el azonnal, miközben olvadékok millió tonnái repültek ki a kozmikus térbe. A becsapódás helyén maradt törmelék egy része gravitációs pályára állt a Föld körül, és idővel összeállt azzá a gömbbé, amit ma Holdként ismerünk.",
+        "Ez a holdbéli kapocs teszi most lehetővé, hogy a NASA Artemis-programja emberes küldetésekkel térjen vissza a Hold felszínére. Az ott szerzett tapasztalatok nemcsak a bázisok kiépítését szolgálják, hanem közvetlen felkészülést jelentenek a jövőbeli, még távolibb marsutazásokra is."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 176,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 798,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Caption: During cryogenic testing, the mirrors will be subjected to temperatures dipping to 24 Kelvins, permitting engineers to measure in extreme detail how the shape of each mirror changes as it coo",
+        "credit": "NASA/MSFC/David Higginbotham/Emmett Given / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Mirror37.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/",
+          "title": "NASA’s Webb Provides Crash Course on Planet-Shattering Collisions",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-01T20:45:55+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.87,
+      "title_options": [
+        "Hogyan zúzzák szét a bolygók egymást?",
+        "Ilyen, amikor egy Mars-méretű test csapódik a Földbe",
+        "Titokzatos bolygóütközések nyomait kutatja a Webb űrtávcső"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Caption: During cryogenic testing, the mirrors will be subjected to temperatures dipping to 24 Kelvins, permitting engineers to measure in extreme detail how the shape of each mirror changes as it coo",
+          "credit": "NASA/MSFC/David Higginbotham/Emmett Given / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Mirror37.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_%2830108124923%29.jpg/1280px-James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_%2830108124923%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1799,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "The primary mirror of NASA's James Webb Space Telescope consisting of 18 hexagonal mirrors looks like a giant puzzle piece standing in the massive clean room of NASA's Goddard Space Flight Center in G",
+          "credit": "Chris Gunn / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_(30108124923).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1280px-FullMoon2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1140,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Full Moon photograph taken 10-22-2010 from Madison, Alabama, USA. Photographed with a Celestron 9.25 Schmidt-Cassegrain telescope. Acquired with a Canon EOS Rebel T1i (EOS 500D), 20 images stacked to",
+          "credit": "Gregory H. Revera / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Mercury%2C_Venus_and_the_Moon_Align.jpg/1280px-Mercury%2C_Venus_and_the_Moon_Align.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1774,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "A conjunction of Mercury and Venus, aligned above the Moon, as seen from the Paranal Observatory.",
+          "credit": "ESO/Y. Beletsky / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mercury,_Venus_and_the_Moon_Align.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/1280px-OSIRIS_Mars_true_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1200,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "True color image of Mars taken by the OSIRIS instrument on the ESA Rosetta spacecraft during its February 2007 flyby of the planet. The image was generated using the OSIRIS orange (red), green, and bl",
+          "credit": "ESA &amp; MPS for OSIRIS Team MPS/UPD/LAM/IAA/RSSD/INTA/UPM/DASP/IDA, CC BY-SA 3 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0 igo",
+          "source_url": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Shy_Albatross_with_Mars_bar_0A2A0034.jpg/1280px-Shy_Albatross_with_Mars_bar_0A2A0034.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Shy Albatross (Thalassarche cauta) with Mars bar, near Eaglehawk Neck, Tasmania, Australia",
+          "credit": "JJ Harrison / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Shy_Albatross_with_Mars_bar_0A2A0034.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Antares Rocket Launch",
+          "credit": "NASA Goddard Photo and Video / nasa",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/24662369@N07/8674655959"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1200,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "The April 12 launch at Pad 39A of STS-1, just seconds past 7 a.m., carries astronauts John Young and Robert Crippen into an Earth orbital mission scheduled to last for 54 hours, ending with unpowered",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_launching.jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "NASA’s Webb Provides Crash Course on Planet-Shattering Collisions",
+          "link": "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/",
+          "summary": "In the early history of our solar system, scientists theorize that a Mars-sized object called Theia smashed into the infant Earth, vaporizing massive amounts of rock and blasting it into space. Some of that material coalesced into the Moon, where NASA’s Artemis program is returning humans, preparing for Mars, and shaping the future of space […]",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": 5.87
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/univerzum/2026-10-01-hogyan-zuzzak-szet-a-bolygok-egymast/",
+      "seo": {
+        "meta_title": "Hogyan zúzzák szét a bolygók egymást?",
+        "meta_description": "Az űrkutatás legújabb megfigyelései rávilágítanak arra, hogyan formálták a naprendszer hajnalát a kataklizmikus bolygóütközések. A NASA friss elemzései a Föld m",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-01-hogyan-zuzzak-szet-a-bolygok-egymast/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "d184af18197f4824a5697c8aa3f8c05ea5e9fc9c2a2826e5bff98712c1f1181c",
+      "pipeline_run_id": "36909127434",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T20:45:55+02:00",
+      "updated_at": "2026-10-01T20:45:55+02:00",
+      "published_at": "2026-10-01T20:45:55+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-01T18:46:23+00:00",
+        "msg_ids": [
+          860,
+          861,
+          862,
+          863,
+          864,
+          865,
+          866,
+          867,
+          868,
+          869
+        ],
+        "control_id": 870
+      }
+    },
+    {
+      "id": "5ddf4234-129f-59f2-8cb8-895bbda0bd09",
+      "slug": "2026-10-01-miert-remegett-fodor-zsoka-keze",
+      "status": "pending",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Fodor Zsóka",
+        "életrajz",
+        "Magdi anyus",
+        "könyvbemutató",
+        "bulvár"
+      ],
+      "title": "Miért remegett Fodor Zsóka keze?",
+      "subtitle": null,
+      "lead": "Megjelent a 84 éves színésznő, Fodor Zsóka Erzsikétől Anyusig című életrajzi kötete, amelynek elkészítésére a mesterséges intelligencia véleménye is ösztönözte. A Barátok közt egykori sztárja a televíziós sikerek mellett a jelenlegi színházi szerepeiről is mesélt.",
+      "key_points": [
+        "Fodor Zsóka megjelentette Erzsikétől Anyusig című életrajzi könyvét.",
+        "A mesterséges intelligencia elemzése győzte meg a kiadót a kötet létjogosultságáról.",
+        "A színésznő jelenleg négy színházi darabban játszik aktívan."
+      ],
+      "content": "Évtizedeken át tartó győzködés után végre elérkezett a pillanat: kézbe vehetik az olvasók Fodor Zsóka életrajzi kötetét, amely az Erzsikétől Anyusig címet kapta. A 84 éves színésznő az RTL Reggeli műsorában mutatta be a nem mindennapi módon született könyvet, amelynek ötlete már évek óta formálódott a fejében. A Barátok közt forgatásainak idején is folyamatosan ösztönözték egy saját kötet elkészítésére, ám ő egészen idáig várni akart a megvalósítással.\n\nA kiadó meglepő eszközt hívott segítségül, hogy eloszlassa a kételyeket: megkérdezték a mesterséges intelligenciát a színésznő népszerűségéről. Az AI válasza szerint a művésznő könyvéből több ezer példány is eladhatatlanul nem maradhat, ami végleg meggyőzte a döntéshozókat. A kötet végül úgy jött létre, hogy a színésznő három alkalommal, 2-3 órán keresztül mesélt az életéről a kiadónak, aki telefonnal rögzítette a mondanivalóját. Zsóka elmondása szerint a könyv csupa optimista történést tartalmaz a múltjából.\n\nA kötet címe szándékosan utal arra az ikonikus karakterre, amely alapjaiban határozta meg a televíziós karrierjét. Magdi anyus szerepét harminc évvel ezelőtt hálával köszöni a sorsnak, mert mint fogalmazott, az igazi élete azután kezdődött, hogy csatlakozott a népszerű napi sorozathoz. Az egy évtizeddel későbbi önkéntes távozását egyáltalán nem bánta meg, mivel elsősorban színházi színésznek vallja magát, és azóta is folyamatosan a deszkákon áll.\n\nA vándoréletet élő művész jelenleg négy különböző darabban játszik aktívan, az ötödik bemutatója pedig 2027 februárjában várható. A könyvbemutató előtt annyira izgult, hogy mint mesélte, amikor dedikált egy barátjának, a keze jobban remegett, mint bármelyik színházi premierje előtt.",
+      "content_format": "markdown",
+      "body": [
+        "Évtizedeken át tartó győzködés után végre elérkezett a pillanat: kézbe vehetik az olvasók Fodor Zsóka életrajzi kötetét, amely az Erzsikétől Anyusig címet kapta. A 84 éves színésznő az RTL Reggeli műsorában mutatta be a nem mindennapi módon született könyvet, amelynek ötlete már évek óta formálódott a fejében. A Barátok közt forgatásainak idején is folyamatosan ösztönözték egy saját kötet elkészítésére, ám ő egészen idáig várni akart a megvalósítással.",
+        "A kiadó meglepő eszközt hívott segítségül, hogy eloszlassa a kételyeket: megkérdezték a mesterséges intelligenciát a színésznő népszerűségéről. Az AI válasza szerint a művésznő könyvéből több ezer példány is eladhatatlanul nem maradhat, ami végleg meggyőzte a döntéshozókat. A kötet végül úgy jött létre, hogy a színésznő három alkalommal, 2-3 órán keresztül mesélt az életéről a kiadónak, aki telefonnal rögzítette a mondanivalóját. Zsóka elmondása szerint a könyv csupa optimista történést tartalmaz a múltjából.",
+        "A kötet címe szándékosan utal arra az ikonikus karakterre, amely alapjaiban határozta meg a televíziós karrierjét. Magdi anyus szerepét harminc évvel ezelőtt hálával köszöni a sorsnak, mert mint fogalmazott, az igazi élete azután kezdődött, hogy csatlakozott a népszerű napi sorozathoz. Az egy évtizeddel későbbi önkéntes távozását egyáltalán nem bánta meg, mivel elsősorban színházi színésznek vallja magát, és azóta is folyamatosan a deszkákon áll.",
+        "A vándoréletet élő művész jelenleg négy különböző darabban játszik aktívan, az ötödik bemutatója pedig 2027 februárjában várható. A könyvbemutató előtt annyira izgult, hogy mint mesélte, amikor dedikált egy barátjának, a keze jobban remegett, mint bármelyik színházi premierje előtt."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 275,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Zuborny%C3%A1k_Zolt%C3%A1n%2C_P%C3%A1sztor_Tibor_and_Sz%C5%91ke_Zolt%C3%A1n.JPG/1280px-Zuborny%C3%A1k_Zolt%C3%A1n%2C_P%C3%A1sztor_Tibor_and_Sz%C5%91ke_Zolt%C3%A1n.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Zubornyák Zoltán (Schneider Ludwig), Pásztor Tibor (Schneider Róbert) és Szőke Zoltán (Berényi Miklós) a Barátok közt című televíziós sorozat 20. születésnapjára készített különleges epizód felvételek",
+        "credit": "Zoltán Zubornyák / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Zuborny%C3%A1k_Zolt%C3%A1n,_P%C3%A1sztor_Tibor_and_Sz%C5%91ke_Zolt%C3%A1n.JPG"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/fodor-zsoka-konyv-magdi-anyus-baratok-kozt/xfwn25b",
+          "title": "„Megkérdezték az AI-t” – így győzték meg Fodor Zsókát, hogy megírja élete történetét",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T20:46:38+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.85,
+      "title_options": [
+        "Miért remegett Fodor Zsóka keze?",
+        "Így született meg Fodor Zsóka életrajza"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Zuborny%C3%A1k_Zolt%C3%A1n%2C_P%C3%A1sztor_Tibor_and_Sz%C5%91ke_Zolt%C3%A1n.JPG/1280px-Zuborny%C3%A1k_Zolt%C3%A1n%2C_P%C3%A1sztor_Tibor_and_Sz%C5%91ke_Zolt%C3%A1n.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Zubornyák Zoltán (Schneider Ludwig), Pásztor Tibor (Schneider Róbert) és Szőke Zoltán (Berényi Miklós) a Barátok közt című televíziós sorozat 20. születésnapjára készített különleges epizód felvételek",
+          "credit": "Zoltán Zubornyák / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Zuborny%C3%A1k_Zolt%C3%A1n,_P%C3%A1sztor_Tibor_and_Sz%C5%91ke_Zolt%C3%A1n.JPG"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/RTL_Klub_Reggeli.jpg/1280px-RTL_Klub_Reggeli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Beszélgetés az RTL Klub Reggeli c. műsorában",
+          "credit": "Balogha3 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:RTL_Klub_Reggeli.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/2172/2053816509_d19673f307_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Arcade (Pantages) Theatre stage",
+          "credit": "laasB / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/97807252@N00/2053816509"
+        },
+        {
+          "url": "https://live.staticflickr.com/4176/34540653542_7de72d04c4_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Israel-05684 - Theatre Stage",
+          "credit": "archer10 (Dennis) / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/22490717@N02/34540653542"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Main_stage_in_Nowy_Theatre_in_Zabrze%2C_June_2021.jpg/1280px-Main_stage_in_Nowy_Theatre_in_Zabrze%2C_June_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Main stage in Nowy Theatre in Zabrze, June 2021",
+          "credit": "MichalPL / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Main_stage_in_Nowy_Theatre_in_Zabrze,_June_2021.jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "„Megkérdezték az AI-t” – így győzték meg Fodor Zsókát, hogy megírja élete történetét",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/fodor-zsoka-konyv-magdi-anyus-baratok-kozt/xfwn25b",
+          "summary": "Évtizedeken át tartó győzködés után végre elérkezett a pillanat: megjelent a népszerű színésznő, Fodor Zsóka életrajzi kötete, amely az Erzsikétől Anyusig címet kapta. Az ikonikus karakterének, Magdi anyusnak hálával tartozó színésznő nyíltan mesélt a kiadás hátteréről, a sorozatból való távozásáról és a jelenlegi színházi sikereiről is.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 5.85
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/fodor-zsoka-konyv-magdi-anyus-baratok-kozt/xfwn25b"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/bulvar/2026-10-01-miert-remegett-fodor-zsoka-keze/",
+      "seo": {
+        "meta_title": "Miért remegett Fodor Zsóka keze?",
+        "meta_description": "Megjelent a 84 éves színésznő, Fodor Zsóka Erzsikétől Anyusig című életrajzi kötete, amelynek elkészítésére a mesterséges intelligencia véleménye is ösztönözte.",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-01-miert-remegett-fodor-zsoka-keze/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Zuborny%C3%A1k_Zolt%C3%A1n%2C_P%C3%A1sztor_Tibor_and_Sz%C5%91ke_Zolt%C3%A1n.JPG/1280px-Zuborny%C3%A1k_Zolt%C3%A1n%2C_P%C3%A1sztor_Tibor_and_Sz%C5%91ke_Zolt%C3%A1n.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "279d0b64ec0c902dfff5267307bdf34e944e9ef764af7f3b288603eff956992d",
+      "pipeline_run_id": "36909127434",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T20:46:38+02:00",
+      "updated_at": "2026-10-01T20:46:38+02:00",
+      "published_at": "2026-10-01T20:46:38+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-01T18:47:07+00:00",
+        "msg_ids": [
+          871,
+          872,
+          873,
+          874,
+          875,
+          876,
+          877
+        ],
+        "control_id": 878
+      }
+    },
+    {
+      "id": "46c00d26-77bd-5e81-be50-f9841f08f248",
+      "slug": "2026-10-01-miert-olyan-nehez-lebontani-az-autoriter-jogot",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "jogállamiság",
+        "politika",
+        "alkotmányjog",
+        "demokrácia"
+      ],
+      "title": "Miért olyan nehéz lebontani az autoriter jogot?",
+      "subtitle": null,
+      "lead": "A 2026-os magyarországi kormányváltás után is látszik, hogy az Orbán-rendszer által kiépített autoriter jogrendet rendkívül nehéz felszámolni. A qubit.hu elemzése szerint a politikai vezetők a jogot használták fel arra, hogy kivonják hatalmukat a jogállami korlátok alól.",
+      "key_points": [
+        "A választók meghatározó többséggel leváltották az Orbán-kormányt 2026-ban.",
+        "Az autoriter jog elveszítette autonómiáját, és a politika fegyverévé vált.",
+        "A liberális jogrend válsága teremtett utat az autoriter rendszerek előretörésének.",
+        "A korlátlan hatalom elkerülésének eszméje a második világháború után gyökerezett le."
+      ],
+      "content": "2026-ban jelentős politikai változások zajlottak le Magyarországon, amikor a választók meghatározó többséggel leváltották az Orbán-kormányt. A gyors politikai fordulat ellenére azonban a mindennapokban továbbra is velünk él az a jogrend, amelyet az előző rendszer épített ki, igazolva, hogy egy autoriter rendszert korántsem olyan könnyű lebontani, mint kormányt váltani.\n\nEnnek a jelenségnek a hátterében az úgynevezett autoriter jog áll, amely szembehelyezkedik a felvilágosodás óta kibontakozó normatív keretekkel. Ebben a rendszerben a jog elveszítette autonómiáját, és olyan eszközzé vált, amellyel a politikai vezetők kivonják a hatalmukat a jogállami korlátok alól.\n\nA kortárs autoriter berendezkedések előretörése a liberális jogrend elbizonytalanodásából fakad. Megrendült ugyanis a hit abban, hogy a második világháború után létrejött liberális alkotmányos és nemzetközi jogi rend képes összetartani a világot, valamint megakadályozni egy újabb világégést.\n\nA folyamat mélyebb megértéséhez a német alkotmányjogász, Carl Schmitt által használt katechón fogalmat hívják segítségül, amely a katasztrófát feltartóztató erőt jelöli. A liberális intézmények egykor ugyanezzel a katechontikus küldetéssel léptek fel, ám amikor ez az ígéret meggyengült, megnyílt a tér az új katechónként tetszelgő vezetők előtt.",
+      "content_format": "markdown",
+      "body": [
+        "2026-ban jelentős politikai változások zajlottak le Magyarországon, amikor a választók meghatározó többséggel leváltották az Orbán-kormányt. A gyors politikai fordulat ellenére azonban a mindennapokban továbbra is velünk él az a jogrend, amelyet az előző rendszer épített ki, igazolva, hogy egy autoriter rendszert korántsem olyan könnyű lebontani, mint kormányt váltani.",
+        "Ennek a jelenségnek a hátterében az úgynevezett autoriter jog áll, amely szembehelyezkedik a felvilágosodás óta kibontakozó normatív keretekkel. Ebben a rendszerben a jog elveszítette autonómiáját, és olyan eszközzé vált, amellyel a politikai vezetők kivonják a hatalmukat a jogállami korlátok alól.",
+        "A kortárs autoriter berendezkedések előretörése a liberális jogrend elbizonytalanodásából fakad. Megrendült ugyanis a hit abban, hogy a második világháború után létrejött liberális alkotmányos és nemzetközi jogi rend képes összetartani a világot, valamint megakadályozni egy újabb világégést.",
+        "A folyamat mélyebb megértéséhez a német alkotmányjogász, Carl Schmitt által használt katechón fogalmat hívják segítségül, amely a katasztrófát feltartóztató erőt jelöli. A liberális intézmények egykor ugyanezzel a katechontikus küldetéssel léptek fel, ám amikor ez az ígéret meggyengült, megnyílt a tér az új katechónként tetszelgő vezetők előtt."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 211,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Viktor_Orb%C3%A1n_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1690,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Viktor Orbán in 2018.",
+        "credit": "European People's Party / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Orb%C3%A1n_2018.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://qubit.hu/2026/10/01/az-autoriter-jogot-nehezebb-felszamolni-mint-kormanyt-valtani-de-korantsem-lehetetlen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "Az autoriter jogot nehezebb felszámolni, mint kormányt váltani, de korántsem lehetetlen",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T20:47:23+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.79,
+      "title_options": [
+        "Miért olyan nehéz lebontani az autoriter jogot?",
+        "Így vált a jog a hatalom fegyverévé",
+        "Ezért marad velünk a rendszer a váltás után is"
+      ],
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Viktor_Orb%C3%A1n_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1690,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Viktor Orbán in 2018.",
+          "credit": "European People's Party / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Orb%C3%A1n_2018.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Viktor_Orb%C3%A1n_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1702,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "(Budapeste - Hungria, 17/02/2022) Presidente da República Jair Bolsonaro cumprimenta o Primeiro-Ministro da Hungria, Viktor Mihály Orbán.\n\nFoto: Alan Santos/PR",
+          "credit": "Palácio do Planalto from Brasilia, Brasil / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Orb%C3%A1n_2022.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "View from Buda Castle towards the Northern west Budapest",
+          "credit": "Jakub Hałun / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:20190502_View_from_Buda_Castle_1059_2025_DxO.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "View from Buda Castle towards the Northern west Budapest as of May 2014.",
+          "credit": "Perituss / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:View_from_Buda_Castle_2014_01.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/4031/4289726649_2d622fe46e_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Courtroom",
+          "credit": "☺ Lee J Haywood / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/45034206@N06/4289726649"
+        },
+        {
+          "url": "https://live.staticflickr.com/7301/26682691294_385a8a19c4_b.jpg",
+          "width": 1024,
+          "height": 682,
+          "kind": "photo",
+          "alt": "Court Gavel - Judge's Gavel - Courtroom",
+          "credit": "weiss_paarz_photos / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/141290938@N03/26682691294"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Beverley_Guildhall_Courtroom.jpg/1280px-Beverley_Guildhall_Courtroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Here is an hdr photograph taken from the courtroom inside Beverley Guildhall.  Located in Beverley, East Riding of Yorkshire, England.",
+          "credit": "Michael D Beckwith / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Beverley_Guildhall_Courtroom.jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "Az autoriter jogot nehezebb felszámolni, mint kormányt váltani, de korántsem lehetetlen",
+          "link": "https://qubit.hu/2026/10/01/az-autoriter-jogot-nehezebb-felszamolni-mint-kormanyt-valtani-de-korantsem-lehetetlen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "summary": "Az autoriter politika a liberális demokrácia válságára a rend és a biztonság ígéretével válaszol, a jogot pedig a hatalom korlátjából ellenségeket gyártó politikai fegyverré teszi. Korszakunk egyik fő dilemmája így az, hogy miként védhető meg és állítható helyre a demokrácia saját jogállami elveinek feladása nélkül.",
+          "source": "qubit.hu",
+          "related": null,
+          "hot_score": 5.79
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://qubit.hu/2026/10/01/az-autoriter-jogot-nehezebb-felszamolni-mint-kormanyt-valtani-de-korantsem-lehetetlen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/tech/2026-10-01-miert-olyan-nehez-lebontani-az-autoriter-jogot/",
+      "seo": {
+        "meta_title": "Miért olyan nehéz lebontani az autoriter jogot?",
+        "meta_description": "A 2026-os magyarországi kormányváltás után is látszik, hogy az Orbán-rendszer által kiépített autoriter jogrendet rendkívül nehéz felszámolni. A qubit.hu elemzé",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-01-miert-olyan-nehez-lebontani-az-autoriter-jogot/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Viktor_Orb%C3%A1n_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "fde6d177caa0e4fd14f934c97efdeec92a8a1483d77ee50b4531a6e429771b4e",
+      "pipeline_run_id": "36909127434",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T20:47:23+02:00",
+      "updated_at": "2026-10-01T20:47:23+02:00",
+      "published_at": "2026-10-01T20:47:23+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-01T18:47:46+00:00",
+        "msg_ids": [
+          879,
+          880,
+          881,
+          882,
+          883,
+          884,
+          885,
+          886,
+          887
+        ],
+        "control_id": 888
+      }
     }
   ]
 }
