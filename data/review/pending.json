@@ -1679,46 +1679,90 @@
           "source_url": "https://commons.wikimedia.org/wiki/File:20190502_View_from_Buda_Castle_1059_2025_DxO.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Karmelita_-_Prime_Minister%27s_Office_%2811%29.jpg/1280px-Karmelita_-_Prime_Minister%27s_Office_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 675,
+          "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": "View from Buda Castle towards the Northern west Budapest as of May 2014.",
-          "credit": "Perituss / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:View_from_Buda_Castle_2014_01.jpg"
+          "alt": "Former Prime Minister's Office of Viktor Orbán, former Castle Theater, former Carmelite monastery in Szímház (Theater) Street, Budapest District I",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Karmelita_-_Prime_Minister%27s_Office_(11).jpg"
         },
         {
-          "url": "https://live.staticflickr.com/3192/2511758704_636e3aec91_b.jpg",
-          "width": 1024,
-          "height": 683,
-          "kind": "photo",
-          "alt": "Japanese Government Buildings (Night)",
-          "credit": "Guwashi999 / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/16877319@N07/2511758704"
-        },
-        {
-          "url": "https://live.staticflickr.com/65535/52537195741_a223489857_b.jpg",
-          "width": 1024,
-          "height": 695,
-          "kind": "photo",
-          "alt": "Former Government Buildings, Hargreaves Street, Bendigo, Victoria, Australia",
-          "credit": "Stuart Smith. / flickr",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://www.flickr.com/photos/127349327@N05/52537195741"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Federico_Degetau_Federal_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Carmelite_church_Budapest-monastery.JPG/1280px-Carmelite_church_Budapest-monastery.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 842,
-          "kind": "graphic",
+          "height": 900,
+          "kind": "photo",
           "pos": "center",
-          "alt": "Federico Degetau Federal Building (Hato Rey). Built in 2012 and helping protect federal government offices and occupants in Puerto Rico, while preserving the Modern aesthetic, Wausau Window and Wall S",
-          "credit": "Carol M. Highsmith / Wikimedia Commons",
+          "alt": "Carmelite monastery in Budapest",
+          "credit": "Kmiki87 / Wikimedia Commons",
           "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Federico_Degetau_Federal_Building.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Carmelite_church_Budapest-monastery.JPG"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Hungarian_government_debt-2004-.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 770,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Hungarian Government debt 2004-",
+          "credit": "Ato 01 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hungarian_government_debt-2004-.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Hungarian_government_debt_since_1990.png/1280px-Hungarian_government_debt_since_1990.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 851,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Hungarian Government debt 1990- (in thousand million hungarian Forint) (in hungarian Forint, in foreign currency and alltogether)",
+          "credit": "Ato 01 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hungarian_government_debt_since_1990.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1024,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Ministry of Finance (Hungary)",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Ministry_of_Finance_%28Hungary%29_%289%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Ministry of Finance (Hungary)",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary)_(9).jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/4120/4744808669_ee0104efcd_b.jpg",
+          "width": 1024,
+          "height": 681,
+          "kind": "photo",
+          "alt": "The Spanish Crown Prince, H.R.H. The Prince of Asturias, calling for a new global partnership, at the 2010 Horasis Global India Business Meeting",
+          "credit": "Horasis / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/50021861@N06/4744808669"
+        },
+        {
+          "url": "https://live.staticflickr.com/8369/8434513189_a9bd2df707_b.jpg",
+          "width": 1024,
+          "height": 640,
+          "kind": "photo",
+          "alt": "TriCounty Council for Southern Maryland's Business Meeting",
+          "credit": "MDGovpics / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/64018555@N03/8434513189"
         }
       ],
       "story": [
@@ -1799,12 +1843,36 @@
           283,
           284,
           285,
-          286
+          286,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322
         ],
-        "control_id": 287
+        "control_id": 323
       },
       "live": true,
-      "image_queries": []
+      "image_queries": [
+        "Hungarian Parliament Building",
+        "Karmelita Monastery Budapest",
+        "Hungarian government",
+        "Ministry of Finance Hungary",
+        "business meeting",
+        "government office",
+        "economy graph"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5b/Federico_Degetau_Federal_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/3192/2511758704_636e3aec91_b.jpg",
+        "https://live.staticflickr.com/65535/52537195741_a223489857_b.jpg"
+      ]
     },
     {
       "id": "1b99d207-36aa-597b-8b60-6a58ffc87c37",
