@@ -4722,7 +4722,8 @@
           494,
           495
         ],
-        "control_id": 496
+        "control_id": 496,
+        "title_prompt_id": 564
       },
       "live": true,
       "image_queries": [
