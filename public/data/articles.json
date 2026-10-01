@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01T13:53:47+02:00",
+  "updated_at": "2026-10-01T13:55:13+02:00",
   "articles": [
     {
       "id": "8689d8be-bcaf-56bc-9e52-6b1c6ba4c4d6",
@@ -244,17 +244,7 @@
       "reading_time_min": 2,
       "word_count": 225,
       "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/The_Cosby_Show_%28Carsey-Werner_Television%29_logo.svg/1280px-The_Cosby_Show_%28Carsey-Werner_Television%29_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 644,
-        "kind": "graphic",
-        "pos": "center",
-        "alt": "Official logo of the NBC Network's sitcom The Cosby Show",
-        "credit": "Carsey-Werner Television / Wikimedia Commons",
-        "license": "Public domain",
-        "source_url": "https://commons.wikimedia.org/wiki/File:The_Cosby_Show_(Carsey-Werner_Television)_logo.svg"
-      },
+      "hero_image": null,
       "inline_images": [],
       "sources": [
         {
@@ -286,7 +276,7 @@
         "meta_title": "Kiesett a Celeb vagyokból a transznemű influenszer",
         "meta_description": "Szalai Vivien szépségápolási influenszer a szerdai adásban esett ki a Celeb vagyok, ments ki innen! című műsorból, miután a feladatok során békák és madárpókok ",
         "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-01-kiesett-a-celeb-vagyokbol-a-transznemu-influenszer/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/The_Cosby_Show_%28Carsey-Werner_Television%29_logo.svg/1280px-The_Cosby_Show_%28Carsey-Werner_Television%29_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": null,
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -304,7 +294,7 @@
       "pipeline_run_id": "36848233390",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-01T12:53:40+02:00",
-      "updated_at": "2026-10-01T12:53:40+02:00",
+      "updated_at": "2026-10-01T13:55:13+02:00",
       "published_at": "2026-10-01T12:53:40+02:00",
       "expires_at": null
     },
