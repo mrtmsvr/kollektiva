@@ -7974,7 +7974,7 @@
     {
       "id": "60f91f1e-07ac-5f11-b204-02e5f25276e6",
       "slug": "2026-10-01-hogyan-zuzzak-szet-a-bolygok-egymast",
-      "status": "pending",
+      "status": "published",
       "category": "univerzum",
       "subcategory": null,
       "tags": [
@@ -8004,15 +8004,14 @@
       "word_count": 176,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 798,
+        "url": "https://live.staticflickr.com/8023/7309213060_d585413262_b.jpg",
+        "width": 1024,
+        "height": 576,
         "kind": "photo",
-        "pos": "center",
-        "alt": "Caption: During cryogenic testing, the mirrors will be subjected to temperatures dipping to 24 Kelvins, permitting engineers to measure in extreme detail how the shape of each mirror changes as it coo",
-        "credit": "NASA/MSFC/David Higginbotham/Emmett Given / Wikimedia Commons",
-        "license": "Public domain",
-        "source_url": "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Mirror37.jpg"
+        "alt": "NASA's Hubble Shows Milky Way is Destined for Head-On Collision",
+        "credit": "NASA Goddard Photo and Video / nasa",
+        "license": "CC BY 2.0",
+        "source_url": "https://www.flickr.com/photos/24662369@N07/7309213060"
       },
       "inline_images": [],
       "sources": [
@@ -8148,7 +8147,7 @@
         "meta_title": "Hogyan zúzzák szét a bolygók egymást?",
         "meta_description": "Az űrkutatás legújabb megfigyelései rávilágítanak arra, hogyan formálták a naprendszer hajnalát a kataklizmikus bolygóütközések. A NASA friss elemzései a Föld m",
         "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-01-hogyan-zuzzak-szet-a-bolygok-egymast/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://live.staticflickr.com/8023/7309213060_d585413262_b.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8165,9 +8164,9 @@
       "dedupe_hash": "d184af18197f4824a5697c8aa3f8c05ea5e9fc9c2a2826e5bff98712c1f1181c",
       "pipeline_run_id": "36909127434",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T20:45:55+02:00",
-      "updated_at": "2026-10-01T20:45:55+02:00",
-      "published_at": "2026-10-01T20:45:55+02:00",
+      "created_at": "2026-10-01T20:53:32+02:00",
+      "updated_at": "2026-10-01T20:53:32+02:00",
+      "published_at": "2026-10-01T20:53:32+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -8213,7 +8212,8 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1280px-FullMoon2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "5ddf4234-129f-59f2-8cb8-895bbda0bd09",
