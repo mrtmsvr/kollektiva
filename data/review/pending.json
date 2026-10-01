@@ -2476,57 +2476,92 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg/1280px-Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/WJBK_studios_Southfield_Michigan.JPG/1280px-WJBK_studios_Southfield_Michigan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 751,
+          "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "Tesvisio 1957-1965, the first television channel in Finland. Music show for juvenile audience under way. Presenter Antti Einiö on the left, music producer and composer Jaakko Salo in the middle. Finni",
-          "credit": "Yle Archives -  Yle Elävä arkisto from Yleisradio, Finland / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_(29388489672).jpg"
+          "alt": "WJBK-TV2 studios, 16550 West Nine Mile Road, Southfield, Michigan.",
+          "credit": "Dwight Burdette / Wikimedia Commons",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:WJBK_studios_Southfield_Michigan.JPG"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829462950066%29.jpg/1280px-Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829462950066%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/YLE_radiotalo_Lappeenranta.JPG/1280px-YLE_radiotalo_Lappeenranta.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 906,
+          "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "Tesvisio, 1957-1965, the first television channel in Finland. Music show for juvenile audience under way. Finnish Broadcasting Company bought Tamvisio in 1964 and Tesvisio in 1965 and together the cha",
-          "credit": "Yle Archives - Yle Elävä arkisto from Yleisradio, Finland / Wikimedia Commons",
+          "alt": "Yle radiotalo building in Lappeenranta Fortress, housing the studio of Etelä-Karjalan Radio and some TV2 programs.",
+          "credit": "MKFI / Wikimedia Commons",
           "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_(29462950066).jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:YLE_radiotalo_Lappeenranta.JPG"
         },
         {
-          "url": "https://live.staticflickr.com/5330/7432171056_48b21b5bc9_b.jpg",
-          "width": 1024,
-          "height": 682,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Wedding_couple_%281293933%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1678,
           "kind": "photo",
-          "alt": "Television Studio",
-          "credit": "futureshape / flickr",
+          "pos": "top",
+          "alt": "Abstract: Wedding couple",
+          "credit": "Percy Benzie Abery / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Wedding_couple_(1293933).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Wedding_couple_%281294004%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1685,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Abstract: Wedding couple",
+          "credit": "Percy Benzie Abery / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Wedding_couple_(1294004).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Woman_crying_in_bathroom.jpg/1280px-Woman_crying_in_bathroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1803,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Sexual assault is defined as intentional sexual behavior, characterized by the use of force, physical threat or abuse of authority; or when the victim does not or cannot consent. Because of the jarrin",
+          "credit": "U.S. Air Force photo illustration by Airman 1st Class Kenna Jackson / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Woman_crying_in_bathroom.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Statue_of_crying_woman_by_World_War_victim_memorial_in_Ocmanice%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg/1280px-Statue_of_crying_woman_by_World_War_victim_memorial_in_Ocmanice%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Statue of crying woman by World War victim memorial in Ocmanice, Třebíč District.",
+          "credit": "Jiří Sedláček - Frettie / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Statue_of_crying_woman_by_World_War_victim_memorial_in_Ocmanice,_T%C5%99eb%C3%AD%C4%8D_District.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Eko_Rio_Bravo_12_-_vintage_acoustic_guitar_in_living_room._%282021-08-29_11.30.17_by_Nenad_Stojkovic%29.jpg/1280px-Eko_Rio_Bravo_12_-_vintage_acoustic_guitar_in_living_room._%282021-08-29_11.30.17_by_Nenad_Stojkovic%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1798,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Eko Rio Bravo 12 - vintage acoustic guitar in living room. (2021-08-29 11.30.17 by Nenad Stojkovic)",
+          "credit": "Nenad Stojkovic / Wikimedia Commons",
           "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/55231259@N00/7432171056"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Eko_Rio_Bravo_12_-_vintage_acoustic_guitar_in_living_room._(2021-08-29_11.30.17_by_Nenad_Stojkovic).jpg"
         },
         {
-          "url": "https://live.staticflickr.com/4023/4297510020_3aa8807692_b.jpg",
-          "width": 1024,
-          "height": 768,
-          "kind": "photo",
-          "alt": "Former Tyne Tees Television Studio, City Road",
-          "credit": "Draco2008 / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/23448975@N04/4297510020"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/ABC-TV_studio_at_Sandy_Bay_Road%2C_Hobart_%28AB713-1-8232%29.jpg/1280px-ABC-TV_studio_at_Sandy_Bay_Road%2C_Hobart_%28AB713-1-8232%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/La_Chiquita_living_room.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 953,
-          "kind": "photo",
+          "height": 780,
+          "kind": "graphic",
           "pos": "center",
-          "alt": "ABC-TV studio at Sandy Bay Road, Hobart (AB713-1-8232).jpg",
-          "credit": "Education Department (TA63) / Wikimedia Commons",
+          "alt": "La Chiquita living room",
+          "credit": "Doubleday / Wikimedia Commons",
           "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:ABC-TV_studio_at_Sandy_Bay_Road,_Hobart_(AB713-1-8232).jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:La_Chiquita_living_room.png"
         }
       ],
       "story": [
@@ -2616,10 +2651,35 @@
           339,
           340,
           341,
-          342
+          342,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384
         ],
-        "control_id": 343
-      }
+        "control_id": 385
+      },
+      "image_queries": [
+        "TV2 studio",
+        "wedding couple",
+        "crying woman",
+        "psychology session",
+        "living room argument",
+        "sad couple",
+        "relationship conflict",
+        "emotional stress"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg/1280px-Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/ABC-TV_studio_at_Sandy_Bay_Road%2C_Hobart_%28AB713-1-8232%29.jpg/1280px-ABC-TV_studio_at_Sandy_Bay_Road%2C_Hobart_%28AB713-1-8232%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829462950066%29.jpg/1280px-Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829462950066%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/5330/7432171056_48b21b5bc9_b.jpg",
+        "https://live.staticflickr.com/4023/4297510020_3aa8807692_b.jpg"
+      ]
     },
     {
       "id": "b280525b-357b-5d8f-a16f-06f381b33c93",
