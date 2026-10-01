@@ -7510,7 +7510,7 @@
       "published_at": "2026-10-01T18:38:45+02:00",
       "expires_at": null,
       "review": {
-        "title": 0,
+        "title": 1,
         "image": 3,
         "sent_at": "2026-10-01T16:39:17+00:00",
         "msg_ids": [
