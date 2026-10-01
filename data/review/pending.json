@@ -6339,90 +6339,92 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Submarine_cable_cross-section.svg/1280px-Submarine_cable_cross-section.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Meta_Headquarters_Sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 1008,
-          "kind": "graphic",
-          "pos": "center",
-          "alt": "Cross-section of a submarine communications cable.",
-          "credit": "Mysid / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Submarine_cable_cross-section.svg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Submarine_cable_repeater_SVG.svg/1280px-Submarine_cable_repeater_SVG.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 693,
-          "kind": "graphic",
-          "pos": "center",
-          "alt": "Diagram of a submarine cable repeater. Manual convertion from PNG to SVG.",
-          "credit": "Watanabe; Osamu, Harald82 (talk) / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Submarine_cable_repeater_SVG.svg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/UA_fiber-optic_FPV_drone_01.webp/1280px-UA_fiber-optic_FPV_drone_01.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 749,
+          "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": "Ukrainian FPV drone with fiber-optic communication channel",
-          "credit": "АрміяІнформ / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:UA_fiber-optic_FPV_drone_01.webp"
+          "alt": "Entrance sign at Meta's headquarters complex in Menlo Park, California",
+          "credit": "Nokia621 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Meta_Headquarters_Sign.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/UA_fiber-optic_FPV_drone_02.webp/1280px-UA_fiber-optic_FPV_drone_02.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Meta_Platforms_Headquarters_Menlo_Park_California.jpg/1280px-Meta_Platforms_Headquarters_Menlo_Park_California.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "Ukrainian FPV drone with fiber-optic communication channel",
-          "credit": "АрміяІнформ / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:UA_fiber-optic_FPV_drone_02.webp"
+          "alt": "Entrance to Meta Platforms headquarters complex in Menlo Park, California",
+          "credit": "LPS.1 / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Meta_Platforms_Headquarters_Menlo_Park_California.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/USNavy_air-cushioned_landing_craft_about_to_dock_aboard_USS_Iwo_Jima-2025.jpg/1280px-USNavy_air-cushioned_landing_craft_about_to_dock_aboard_USS_Iwo_Jima-2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Submarine_cable_cross-section_cs.svg/1280px-Submarine_cable_cross-section_cs.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 825,
-          "kind": "photo",
+          "height": 969,
+          "kind": "graphic",
           "pos": "center",
-          "alt": "ATLANTIC OCEAN (May 14, 2025) Sailors assigned to Assault Craft Unit 4 prepare to receive the landing craft air cushion to dock aboard the Wasp-class amphibious assault ship USS Iwo Jima (LHD 7), as p",
-          "credit": "SN Andrew Eggert, USN / Wikimedia Commons",
+          "alt": "Cross-section of a submarine communications cable.",
+          "credit": "Mysid\n\nCredits: cs:User:Oldrich.kucina, cs:User:-xfi- / Wikimedia Commons",
           "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:USNavy_air-cushioned_landing_craft_about_to_dock_aboard_USS_Iwo_Jima-2025.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Submarine_cable_cross-section_cs.svg"
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Atlantic_Ocean_and_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/EB1911_Telegraph_-_submarine_cable_-_intermediate_type.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 1600,
+          "height": 1186,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Technical drawing of a cross-section of a submarine telegraphic cable. a is the core; h is a thick coating of wet jute, yarn or hemp, forming a soft bed for the sheath. This cable is intermediate betw",
+          "credit": "Harry Robert Kempe / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:EB1911_Telegraph_-_submarine_cable_-_intermediate_type.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Optical_fiber_connectors-optical_patch_cable-01ASD.jpg/1280px-Optical_fiber_connectors-optical_patch_cable-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1127,
           "kind": "photo",
           "pos": "top",
-          "alt": "Atlantic ocean and sunset photo",
-          "credit": "Rich Flight22 / Wikimedia Commons",
+          "alt": "Fiber optic cable splice at the Feldkircher Hut (Naturfreunde) in Vorarlberg, Austria for drinking water supply. Optical fiber connectors.",
+          "credit": "Asurnipal / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Optical_fiber_connectors-optical_patch_cable-01ASD.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Optical_fiber_cable-06ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1336,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Optical fiber cable for signal transmission for burial in the ground. White maincores = empty cores, red and green maincores each with 12 signal single cores. In the middle the \"cablesoul\".",
+          "credit": "Asurnipal / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Optical_fiber_cable-06ASD.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Atlantic_Ocean_off_the_coast_of_Nantucket.jpg/1280px-Atlantic_Ocean_off_the_coast_of_Nantucket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 801,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Atlantic Ocean off the coast of Nantucket",
+          "credit": "Andywallxyz / Wikimedia Commons",
           "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Atlantic_Ocean_and_sunset.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Atlantic_Ocean_off_the_coast_of_Nantucket.jpg"
         },
         {
-          "url": "https://live.staticflickr.com/8832/17998442310_876f5ea835_b.jpg",
-          "width": 1024,
-          "height": 683,
-          "kind": "photo",
-          "alt": "Cruise Ship in Open Ocean Water",
-          "credit": "Image Catalog / flickr",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Atlantic_Ocean.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1200,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "North and South Atlantic Ocean",
+          "credit": "CIA / Wikimedia Commons",
           "license": "Public domain",
-          "source_url": "https://www.flickr.com/photos/132795455@N08/17998442310"
-        },
-        {
-          "url": "https://live.staticflickr.com/5703/20821947622_10ef7168d0_b.jpg",
-          "width": 1024,
-          "height": 640,
-          "kind": "photo",
-          "alt": "Turquoise Ocean Water by Beach",
-          "credit": "Image Catalog / flickr",
-          "license": "Public domain",
-          "source_url": "https://www.flickr.com/photos/132795455@N08/20821947622"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Atlantic_Ocean.png"
         }
       ],
       "story": [
@@ -6490,10 +6492,38 @@
           652,
           653,
           654,
-          655
+          655,
+          669,
+          670,
+          671,
+          672,
+          673,
+          674,
+          675,
+          676
         ],
-        "control_id": 656
-      }
+        "control_id": 677
+      },
+      "image_queries": [
+        "Meta headquarters",
+        "submarine communications cable",
+        "fiber optic cable",
+        "Atlantic Ocean",
+        "NEC corporation",
+        "underwater cable",
+        "fiber optics",
+        "server room"
+      ],
+      "images_seen": [
+        "https://live.staticflickr.com/5703/20821947622_10ef7168d0_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Submarine_cable_repeater_SVG.svg/1280px-Submarine_cable_repeater_SVG.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Submarine_cable_cross-section.svg/1280px-Submarine_cable_cross-section.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/USNavy_air-cushioned_landing_craft_about_to_dock_aboard_USS_Iwo_Jima-2025.jpg/1280px-USNavy_air-cushioned_landing_craft_about_to_dock_aboard_USS_Iwo_Jima-2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/a/ad/Atlantic_Ocean_and_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/UA_fiber-optic_FPV_drone_02.webp/1280px-UA_fiber-optic_FPV_drone_02.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/UA_fiber-optic_FPV_drone_01.webp/1280px-UA_fiber-optic_FPV_drone_01.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/8832/17998442310_876f5ea835_b.jpg"
+      ]
     }
   ]
 }
