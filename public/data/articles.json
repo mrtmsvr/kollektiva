@@ -1,7 +1,439 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01T11:00:06+02:00",
+  "updated_at": "2026-10-01T12:53:42+02:00",
   "articles": [
+    {
+      "id": "8689d8be-bcaf-56bc-9e52-6b1c6ba4c4d6",
+      "slug": "2026-10-01-igy-dolt-ossze-az-aranykonvoj-ugy",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "aranykonvoj",
+        "TEK",
+        "ügyészség",
+        "belpolitika",
+        "Alkotmányvédelmi Hivatal"
+      ],
+      "title": "Így dőlt össze az aranykonvoj-ügy",
+      "subtitle": null,
+      "lead": "Nyilvánosságra hozott dokumentumok szerint politikai utasításra, a kampányhajrában hajtották végre az ukrán pénzszállítók elleni TEK-es akciót. Az ügyben indult nyomozás során már magas rangú tisztségviselőket is gyanúsítottként hallgattak ki.",
+      "key_points": [
+        "Március 5-én a TEK látványos akcióval fogta el az ukrán pénzszállítókat a választási kampány időszakában.",
+        "A Fővárosi Nyomozó Ügyészség április 27. óta jogellenes fogvatartás miatt nyomoz az ügyben.",
+        "A gyanúsítottak között van Hajdu János, a TEK volt vezetője és Szathmáry István, az Alkotmányvédelmi Hivatal ezredese is.",
+        "A lemondott főügyész, Fürcht Pál nyílt levele szerint a miniszterelnök személyesen adta ki a feladatot a titkosszolgálatnak."
+      ],
+      "content": "Komoly jogi aggályok övezték a március 5-i kampányhajrában végrehajtott TEK-es akciót, amely során ukrán pénzszállítókat kapcsoltak le és tartottak fogva. A Fővárosi Nyomozó Ügyészség április 27-e óta folytat eljárást jogellenes fogvatartás bűntette és más bűncselekmények miatt. Az ügyészség és az Alkotmányvédelmi Hivatal június 22-i egyeztetéséről készült hivatalos feljegyzés szerint a hatóságok már nyáron vizsgálták az iratok jogszerűségét.\n\nA nyomozás során több gyanúsítottat is megneveztek az érintettek körében. A gyanúsítottak listáján szerepel Hajdu János, a TEK volt vezetője – aki jelenleg a Fidesz biztonsági igazgatója –, valamint Szathmáry István ezredes, az Alkotmányvédelmi Hivatal jogi főosztályvezetője. Utóbbi ellen közokirat-hamisítás gyanúja miatt folyik eljárás, mivel a feltételezések szerint ő intézte a X. kerületi rendőrkapitányságon az előállított ukrán állampolgárok beutazási és tartózkodási tilalmát.\n\nAz ügy politikai szálai is felszínre kerültek a nyár folyamán távozott vezető hatósági személyek nyilatkozataiból. Fürcht Pál, aki a nyáron köszönött el a Központi Nyomozó Főügyészség élétől, kedden közzétett nyílt levelében úgy fogalmazott, hogy a bizonyítékok alapján 2026. március 3-án Orbán Viktor miniszterelnök adta ki a feladatot a titkosszolgálatnak a pénzszállítók elfogására. A volt főügyész szerint a nyomozó ügyészek már májusban arra jutottak, hogy egy politikailag motivált ügyről van szó.\n\nA fejlemények a parlamentben is éreztették hatásukat, ahol a legfőbbügyész-jelölt személye is összefonódott az üggyel. Szathmáry Zoltán legfőbbügyész-jelöltet – aki a gyanúsított titkosszolgálati ezredes testvére – a Tisza-többség elutasította, így Baka András államfő most új jelöltet keres a posztra. Közben a letartóztatások és politikai viták közepette más korrupciós ügyek also rázták meg a közéletet: harminc napra letartóztatták Seszták Miklós KDNP-s országgyűlési képviselőt egy Volánbuszhoz kapcsolódó vesztegetési eljárásban.",
+      "content_format": "markdown",
+      "body": [
+        "Komoly jogi aggályok övezték a március 5-i kampányhajrában végrehajtott TEK-es akciót, amely során ukrán pénzszállítókat kapcsoltak le és tartottak fogva. A Fővárosi Nyomozó Ügyészség április 27-e óta folytat eljárást jogellenes fogvatartás bűntette és más bűncselekmények miatt. Az ügyészség és az Alkotmányvédelmi Hivatal június 22-i egyeztetéséről készült hivatalos feljegyzés szerint a hatóságok már nyáron vizsgálták az iratok jogszerűségét.",
+        "A nyomozás során több gyanúsítottat is megneveztek az érintettek körében. A gyanúsítottak listáján szerepel Hajdu János, a TEK volt vezetője – aki jelenleg a Fidesz biztonsági igazgatója –, valamint Szathmáry István ezredes, az Alkotmányvédelmi Hivatal jogi főosztályvezetője. Utóbbi ellen közokirat-hamisítás gyanúja miatt folyik eljárás, mivel a feltételezések szerint ő intézte a X. kerületi rendőrkapitányságon az előállított ukrán állampolgárok beutazási és tartózkodási tilalmát.",
+        "Az ügy politikai szálai is felszínre kerültek a nyár folyamán távozott vezető hatósági személyek nyilatkozataiból. Fürcht Pál, aki a nyáron köszönött el a Központi Nyomozó Főügyészség élétől, kedden közzétett nyílt levelében úgy fogalmazott, hogy a bizonyítékok alapján 2026. március 3-án Orbán Viktor miniszterelnök adta ki a feladatot a titkosszolgálatnak a pénzszállítók elfogására. A volt főügyész szerint a nyomozó ügyészek már májusban arra jutottak, hogy egy politikailag motivált ügyről van szó.",
+        "A fejlemények a parlamentben is éreztették hatásukat, ahol a legfőbbügyész-jelölt személye is összefonódott az üggyel. Szathmáry Zoltán legfőbbügyész-jelöltet – aki a gyanúsított titkosszolgálati ezredes testvére – a Tisza-többség elutasította, így Baka András államfő most új jelöltet keres a posztra. Közben a letartóztatások és politikai viták közepette más korrupciós ügyek also rázták meg a közéletet: harminc napra letartóztatták Seszták Miklós KDNP-s országgyűlési képviselőt egy Volánbuszhoz kapcsolódó vesztegetési eljárásban."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 292,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Vladimir_Putin_and_Viktor_Orb%C3%A1n_%282016-02-17%29_11.jpg/1280px-Vladimir_Putin_and_Viktor_Orb%C3%A1n_%282016-02-17%29_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 740,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Встреча Президента России Владимира Путина с Премьер-министром Венгрии Виктором Орбаном",
+        "credit": "Пресс-службы Президента Российской Федерации / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Viktor_Orb%C3%A1n_(2016-02-17)_11.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261001_aranykonvoj-ukran-penzszallitok-fogva-tartas-szathmary-dokumentum",
+          "title": "Mindenki tudhatta, hogy Orbán döntött az ukrán pénzszállítók elfogásáról, csak az okozott gondot, hogyan tegyék papíron jogszerűvé a fogvatartásuk minden percét",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T12:20:50+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-01T12:53:42+02:00"
+      },
+      "hot_score": 5.88,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261001_aranykonvoj-ukran-penzszallitok-fogva-tartas-szathmary-dokumentum"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/kozelet/2026-10-01-igy-dolt-ossze-az-aranykonvoj-ugy/",
+      "seo": {
+        "meta_title": "Így dőlt össze az aranykonvoj-ügy",
+        "meta_description": "Nyilvánosságra hozott dokumentumok szerint politikai utasításra, a kampányhajrában hajtották végre az ukrán pénzszállítók elleni TEK-es akciót. Az ügyben indult",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-01-igy-dolt-ossze-az-aranykonvoj-ugy/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Vladimir_Putin_and_Viktor_Orb%C3%A1n_%282016-02-17%29_11.jpg/1280px-Vladimir_Putin_and_Viktor_Orb%C3%A1n_%282016-02-17%29_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "94c60679-ed80-5134-905b-10b867edbc52",
+        "f56b9961-0ced-5cf9-960d-6a0cdd4b02b1"
+      ],
+      "see_also": [
+        {
+          "title": "Így telt Orbán Viktor londoni útja a letartóztatások árnyékában",
+          "url": "/kozelet/2026-09-30-igy-telt-orban-viktor-londoni-utja-a-letartoztatasok-arnyekaban/",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "11 milliárdos vesztegetési gyanú: letartóztatták Seszták Miklóst",
+          "url": "/kozelet/2026-09-30-11-milliardos-vesztegetesi-gyanu-letartoztattak-sesztak-miklost/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "a79385ab1a4cf309c47bd7ebd75497b9386975e1674d2cdb989048e7bb60b4b6",
+      "pipeline_run_id": "36848233390",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T12:53:42+02:00",
+      "updated_at": "2026-10-01T12:53:42+02:00",
+      "published_at": "2026-10-01T12:53:42+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "17b6b11f-da29-5ecf-8b63-8e8501fbd6b8",
+      "slug": "2026-10-01-izomepites-edzes-nelkul-ezt-hozta-a-kutatas",
+      "status": "published",
+      "category": "eletmod",
+      "subcategory": null,
+      "tags": [
+        "kreatin",
+        "izomépítés",
+        "egészség",
+        "kutatás",
+        "táplálkozás"
+      ],
+      "title": "Izomépítés edzés nélkül? Ezt hozta a kutatás",
+      "subtitle": null,
+      "lead": "Egy új, tizenkét hetes kutatás szerint a kreatinfogyasztás edzés nélkül is hozzájárulhatott a középkorúak izomtömegének és erejének növekedéséhez. A vizsgálat eredményei fontos szempontokkal szolgálhatnak az öregedéssel járó izomvesztés elleni küzdelemhez.",
+      "key_points": [
+        "A résztvevők edzés nélkül is nagyjából 1,1 kilogramm sovány szövetet nyertek.",
+        "A mozgással kombinált kreatinfogyasztás még nagyobb erőnövekedést eredményezett.",
+        "A napi tíz grammos adag eléréséhez ötnél-tíz font húst vagy halat kellene megenni."
+      ],
+      "content": "A Journal of the International Society of Sports Nutrition szaklapban megjelent tizenkét hetes vizsgálat során a kutatók azt vizsgálták, hogyan befolyásolja a kreatin a negyvenöt és hatvanöt év közötti felnőttek izomzatát. A kutatást Dr. Richard Kreider, a Texas A&M Egyetem professzora és az ottani edzés- és sporttáplálkozási laboratórium igazgatója vezette, aki már több mint három évtizede kutatja ezt a vegyületet.\n\nA vizsgálatban hatvannégy egészséges felnőtt vett részt, akik vagy egy strukturált edzés- és étrendi programhoz csatlakoztak, vagy a nem edző csoportban maradtak. A résztvevők naponta tíz gramm kreatin-monohidrátot vagy placebót kaptak.\n\nAzok a résztvevők, akik nem követtek edzésprogramot, a kreatinfogyasztás hatására nagyjából 2,4 font sovány szövetet gyűjtöttek tizenkét hét alatt, miközben a fekvenyomó és lábnyomó erejük is nőtt. A mérsékelt kalóriadeficites étrendet és heti háromszori ellenállásos, valamint aerob edzést követő csoportban a kreatint szedők közel három font sovány szövetet építettek fel, és emellett a testzsírjuk is nagyobb mértékben csökkent, mint a placebót szedőknek.\n\nA szervezet maga is előállítja a kreatint, és megtalálható olyan élelmiszerekben is, mint a hús vagy a hal, azonban a szükséges napi tíz grammos mennyiség étkezéssel történő bevitele jelentős mennyiségű hús elfogyasztását tenné szükségessé. Egy kétezer-huszonötös elemzés során Kreider és kutatótársai hatszáznyolcvanöt klinikai vizsgálatot tekintettek át, és nem találtak jelentős eltérést a mellékhatások arányában a kreatint szedők és a placebót kapók között.",
+      "content_format": "markdown",
+      "body": [
+        "A Journal of the International Society of Sports Nutrition szaklapban megjelent tizenkét hetes vizsgálat során a kutatók azt vizsgálták, hogyan befolyásolja a kreatin a negyvenöt és hatvanöt év közötti felnőttek izomzatát. A kutatást Dr. Richard Kreider, a Texas A&M Egyetem professzora és az ottani edzés- és sporttáplálkozási laboratórium igazgatója vezette, aki már több mint három évtizede kutatja ezt a vegyületet.",
+        "A vizsgálatban hatvannégy egészséges felnőtt vett részt, akik vagy egy strukturált edzés- és étrendi programhoz csatlakoztak, vagy a nem edző csoportban maradtak. A résztvevők naponta tíz gramm kreatin-monohidrátot vagy placebót kaptak.",
+        "Azok a résztvevők, akik nem követtek edzésprogramot, a kreatinfogyasztás hatására nagyjából 2,4 font sovány szövetet gyűjtöttek tizenkét hét alatt, miközben a fekvenyomó és lábnyomó erejük is nőtt. A mérsékelt kalóriadeficites étrendet és heti háromszori ellenállásos, valamint aerob edzést követő csoportban a kreatint szedők közel három font sovány szövetet építettek fel, és emellett a testzsírjuk is nagyobb mértékben csökkent, mint a placebót szedőknek.",
+        "A szervezet maga is előállítja a kreatint, és megtalálható olyan élelmiszerekben is, mint a hús vagy a hal, azonban a szükséges napi tíz grammos mennyiség étkezéssel történő bevitele jelentős mennyiségű hús elfogyasztását tenné szükségessé. Egy kétezer-huszonötös elemzés során Kreider és kutatótársai hatszáznyolcvanöt klinikai vizsgálatot tekintettek át, és nem találtak jelentős eltérést a mellékhatások arányában a kreatint szedők és a placebót kapók között."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 249,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Creatine_monohydrate_supplement.jpg/1280px-Creatine_monohydrate_supplement.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1598,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Container of creatine monohydrate supplement",
+        "credit": "Apinanaivot / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Creatine_monohydrate_supplement.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260928100547.htm",
+          "title": "Creatine may help build muscle even without exercise, researchers find",
+          "publisher": "sciencedaily.com",
+          "license": null,
+          "accessed_at": "2026-10-01T12:20:04+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-01T12:53:41+02:00"
+      },
+      "hot_score": 5.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.sciencedaily.com/releases/2026/09/260928100547.htm"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/eletmod/2026-10-01-izomepites-edzes-nelkul-ezt-hozta-a-kutatas/",
+      "seo": {
+        "meta_title": "Izomépítés edzés nélkül? Ezt hozta a kutatás",
+        "meta_description": "Egy új, tizenkét hetes kutatás szerint a kreatinfogyasztás edzés nélkül is hozzájárulhatott a középkorúak izomtömegének és erejének növekedéséhez. A vizsgálat e",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-01-izomepites-edzes-nelkul-ezt-hozta-a-kutatas/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Creatine_monohydrate_supplement.jpg/1280px-Creatine_monohydrate_supplement.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "5447fa9a907a3f721bbdb717074e34a464f325e74372f50278d5c4c8565cd23d",
+      "pipeline_run_id": "36848233390",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T12:53:41+02:00",
+      "updated_at": "2026-10-01T12:53:41+02:00",
+      "published_at": "2026-10-01T12:53:41+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "4a220c12-9890-5021-ba23-0ecba40ddda2",
+      "slug": "2026-10-01-kiesett-a-celeb-vagyokbol-a-transznemu-influenszer",
+      "status": "published",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Szalai Vivien",
+        "Celeb vagyok ments ki innen",
+        "influenszer",
+        "bulvár"
+      ],
+      "title": "Kiesett a Celeb vagyokból a transznemű influenszer",
+      "subtitle": null,
+      "lead": "Szalai Vivien szépségápolási influenszer a szerdai adásban esett ki a Celeb vagyok, ments ki innen! című műsorból, miután a feladatok során békák és madárpókok is megmászták. A közösségi oldalakon összesen több mint 235 ezer követővel rendelkező szereplő higgadtan kezeli a transzneműsége miatt kapott kritikákat.",
+      "key_points": [
+        "Szalai Vivien a szerdai adásban búcsúzott a Celeb vagyok, ments ki innen! szereplőjeként.",
+        "A TikTokon 125 ezer, az Instagramon 110 ezer követővel büszkélkedő influenszer nehéz döntés után vállalta a műsort.",
+        "A produkció során madárpók és békák is szerepeltek a feladatokban.",
+        "A Best magazinnak adott nyilatkozata szerint a negatív kommentek nem törik meg a mindennapjait."
+      ],
+      "content": "Szalai Vivien szépségápolási influenszer a TikTokon több mint 125 ezres, míg az Instagramon több mint 110 ezres követőtáborral rendelkezik, szélesebb körben pedig most a Celeb vagyok, ments ki innen! című televíziós műsorban mutatkozott be. A show korábbi évadai alapján komoly fizikai és mentális kihívásokra számíthatott, ezért kezdetben nem volt biztos abban, hogy igent mond a felkérésre.\n\nVégül barátai és ismerősei tanácsára – akik korábban szintén szerepeltek a produkcióban – vállalta a megmérettetést. A kaland során madárpók mászott a fejére, és békák ugráltak a lábán, a szerdai adásban azonban végül búcsúznia kellett a versenytől.\n\nA műsorral járó fokozott médiafigyelem a kritikák és támadások számának növekedését is hozta magával, ám az influenszer elmondása szerint hozzászokott az előítéletekhez. A Best magazinnak úgy fogalmazott, hogy a bántó visszajelzések nem befolyásolják az alvását vagy a mindennapi életét, hiszen attól még nem lesz drágább a kenyér.\n\nHosszú fejlődési folyamat eredménye, hogy ma már képes elfogadni, ha valaki nem tolerálja őt. Hozzátette, hogy korábban lelkibb alkat volt, de ma már teljesen természetesnek tartja, hogy nem kötelező mindenkiről ugyanazt gondolni, és el lehet kerülni azokat, akiknek az ingerküszöbét megüti a személyisége.",
+      "content_format": "markdown",
+      "body": [
+        "Szalai Vivien szépségápolási influenszer a TikTokon több mint 125 ezres, míg az Instagramon több mint 110 ezres követőtáborral rendelkezik, szélesebb körben pedig most a Celeb vagyok, ments ki innen! című televíziós műsorban mutatkozott be. A show korábbi évadai alapján komoly fizikai és mentális kihívásokra számíthatott, ezért kezdetben nem volt biztos abban, hogy igent mond a felkérésre.",
+        "Végül barátai és ismerősei tanácsára – akik korábban szintén szerepeltek a produkcióban – vállalta a megmérettetést. A kaland során madárpók mászott a fejére, és békák ugráltak a lábán, a szerdai adásban azonban végül búcsúznia kellett a versenytől.",
+        "A műsorral járó fokozott médiafigyelem a kritikák és támadások számának növekedését is hozta magával, ám az influenszer elmondása szerint hozzászokott az előítéletekhez. A Best magazinnak úgy fogalmazott, hogy a bántó visszajelzések nem befolyásolják az alvását vagy a mindennapi életét, hiszen attól még nem lesz drágább a kenyér.",
+        "Hosszú fejlődési folyamat eredménye, hogy ma már képes elfogadni, ha valaki nem tolerálja őt. Hozzátette, hogy korábban lelkibb alkat volt, de ma már teljesen természetesnek tartja, hogy nem kötelező mindenkiről ugyanazt gondolni, és el lehet kerülni azokat, akiknek az ingerküszöbét megüti a személyisége."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 225,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/The_Cosby_Show_%28Carsey-Werner_Television%29_logo.svg/1280px-The_Cosby_Show_%28Carsey-Werner_Television%29_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 644,
+        "kind": "graphic",
+        "pos": "center",
+        "alt": "Official logo of the NBC Network's sitcom The Cosby Show",
+        "credit": "Carsey-Werner Television / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:The_Cosby_Show_(Carsey-Werner_Television)_logo.svg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/szalai-vivien-transznemu-celeb-vagyok-ments-ki-innen/6b72bl3",
+          "title": "Szalai Vivient rengetegen támadják a transzneműsége miatt, így kezeli: \"Nem lesz drágább a kenyér\"",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T12:19:11+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-01T12:53:40+02:00"
+      },
+      "hot_score": 6.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/szalai-vivien-transznemu-celeb-vagyok-ments-ki-innen/6b72bl3"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/bulvar/2026-10-01-kiesett-a-celeb-vagyokbol-a-transznemu-influenszer/",
+      "seo": {
+        "meta_title": "Kiesett a Celeb vagyokból a transznemű influenszer",
+        "meta_description": "Szalai Vivien szépségápolási influenszer a szerdai adásban esett ki a Celeb vagyok, ments ki innen! című műsorból, miután a feladatok során békák és madárpókok ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-01-kiesett-a-celeb-vagyokbol-a-transznemu-influenszer/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/The_Cosby_Show_%28Carsey-Werner_Television%29_logo.svg/1280px-The_Cosby_Show_%28Carsey-Werner_Television%29_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "78551214b7e659565fad62e28cf19a266c01b9322e6f4e4939edf01cb215ac97",
+      "pipeline_run_id": "36848233390",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T12:53:40+02:00",
+      "updated_at": "2026-10-01T12:53:40+02:00",
+      "published_at": "2026-10-01T12:53:40+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "a98aec1b-fa6a-595b-8d14-8c77df19389c",
+      "slug": "2026-10-01-kilencmilliard-forintert-feszulnek-egymasnak-a-budapesti-keruletek",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "Budapest",
+        "önkormányzat",
+        "parkolás",
+        "gazdaság",
+        "Karácsony Gergely"
+      ],
+      "title": "Kilencmilliárd forintért feszülnek egymásnak a budapesti kerületek",
+      "subtitle": null,
+      "lead": "Hat budapesti kerületi polgármester tiltakozik a Fővárosi Önkormányzat azon terve ellen, amely központosítaná a parkolási bevételeket. A városvezetők szerint ez kilencmilliárd forintos forráselvonást jelentene, ami veszélyeztetné a helyi fejlesztéseket és a köztisztasági feladatokat.",
+      "key_points": [
+        "Hat budapesti polgármester követeli a parkolási bevételek elvonásáról szóló terv törlését.",
+        "A tervezett módosítás összesen 9 milliárd forintos kiesést okozna az érintett kerületeknek.",
+        "A városvezetők szerint az utak fenntartása továbbra is náluk maradna, miközben a bevételeket a főváros kapná."
+      ],
+      "content": "Hat budapesti kerület – a VI., a VII., a VIII., a IX., a XIII. és a XVI. – polgármestere közös nyilatkozatban fordult a nyilvánossághoz a Fővárosi Közfejlesztések Tanácsa csütörtöki ülése előtt. Baranyi Krisztina, Niedermüller Péter, Pikó András, Rózsa András, Soproni Tamás és Tóth József azt követelik, hogy a döntéshozók vegyék ki a készülő megállapodásból azt a szakaszt, amely a kerületi utcákban beszedett parkolási díjakat a Fővárosi Önkormányzathoz irányítaná.\n\nA tiltakozó városvezetők számításai szerint a parkolás az általuk vezetett hat kerületben összesen 9 milliárd forintos eredményt hoz. Kifogásolják, hogy a bevételek elvonása ellenére az utak felújításának, karbantartásának, takarításának és üzemeltetésének terhe továbbra is a kerületeknél maradna. Hasonlatuk szerint ez olyan, mintha valaki egy idegen lakás kiadásából származó lakbért tenné zsebre, miközben a fenntartási költségeket a tulajdonos fizeti.\n\nA polgármesterek rámutattak, hogy a pénz elvonása közvetlenül érintené a helyi közterületek zöldítését, a köztisztaságot, valamint a szociális és közbiztonsági feladatokat. Ezenfelül nehezményezik, hogy a költségvetésüket alapjaiban érintő tárgyalásokba érdemben nem vonták be őket, és a Fővárosi Önkormányzat a fejük fölött döntött.\n\nAz ügyben érintett polgármesterek személyesen is szembesítették Karácsony Gergely főpolgármestert a tervezettel az utcán, ahol határozott választ vártak tőle a bevételek sorsáról. Pikó András bejelentése szerint a vitás intézkedés miatt az érintett önkormányzatok felfüggesztik tagságukat a Budapesti Önkormányzatok Szövetségében, és a kilépést sem zárják ki.\n\nAmennyiben a csütörtöki egyeztetésen nem törlik a vitatott rendelkezést, a kerületek parlamenti eszközökhöz folyamodnak az érintett országgyűlési képviselők útján, emellett jogi lépéseket helyeztek kilátásba. Közlésük szerint az Alkotmánybíróságnál és uniós fórumokon is megvédik önkormányzataik érdekeit.",
+      "content_format": "markdown",
+      "body": [
+        "Hat budapesti kerület – a VI., a VII., a VIII., a IX., a XIII. és a XVI. – polgármestere közös nyilatkozatban fordult a nyilvánossághoz a Fővárosi Közfejlesztések Tanácsa csütörtöki ülése előtt. Baranyi Krisztina, Niedermüller Péter, Pikó András, Rózsa András, Soproni Tamás és Tóth József azt követelik, hogy a döntéshozók vegyék ki a készülő megállapodásból azt a szakaszt, amely a kerületi utcákban beszedett parkolási díjakat a Fővárosi Önkormányzathoz irányítaná.",
+        "A tiltakozó városvezetők számításai szerint a parkolás az általuk vezetett hat kerületben összesen 9 milliárd forintos eredményt hoz. Kifogásolják, hogy a bevételek elvonása ellenére az utak felújításának, karbantartásának, takarításának és üzemeltetésének terhe továbbra is a kerületeknél maradna. Hasonlatuk szerint ez olyan, mintha valaki egy idegen lakás kiadásából származó lakbért tenné zsebre, miközben a fenntartási költségeket a tulajdonos fizeti.",
+        "A polgármesterek rámutattak, hogy a pénz elvonása közvetlenül érintené a helyi közterületek zöldítését, a köztisztaságot, valamint a szociális és közbiztonsági feladatokat. Ezenfelül nehezményezik, hogy a költségvetésüket alapjaiban érintő tárgyalásokba érdemben nem vonták be őket, és a Fővárosi Önkormányzat a fejük fölött döntött.",
+        "Az ügyben érintett polgármesterek személyesen is szembesítették Karácsony Gergely főpolgármestert a tervezettel az utcán, ahol határozott választ vártak tőle a bevételek sorsáról. Pikó András bejelentése szerint a vitás intézkedés miatt az érintett önkormányzatok felfüggesztik tagságukat a Budapesti Önkormányzatok Szövetségében, és a kilépést sem zárják ki.",
+        "Amennyiben a csütörtöki egyeztetésen nem törlik a vitatott rendelkezést, a kerületek parlamenti eszközökhöz folyamodnak az érintett országgyűlési képviselők útján, emellett jogi lépéseket helyeztek kilátásba. Közlésük szerint az Alkotmánybíróságnál és uniós fórumokon is megvédik önkormányzataik érdekeit."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 279,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Kar%C3%A1csony_Gergely_-_portrait.jpg/1280px-Kar%C3%A1csony_Gergely_-_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1593,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Karácsony Gergely. Taken on the 28th of March, 2016. Kertem, Budapest, Hungary.",
+        "credit": "Elekes Andor / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kar%C3%A1csony_Gergely_-_portrait.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261001/magyar-karacsony-egyeztetes-polgarmesterek-kovetelik-a-parkolasi-terv-torleset-866608",
+          "title": "Magyar-Karácsony-egyeztetés: polgármesterek követelik a parkolási terv törlését",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T12:18:15+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/fovarosi-kozfejlesztesek-tanacs-keruletek-fovaros?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "„Ennyire kell a pénz, hogy elárulod a kerületeket?” – szembesítették Karácsony Gergelyt: a polgármesterek nem engedik át szó nélkül a milliárdos bevételt",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T12:18:15+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-01T12:53:39+02:00"
+      },
+      "hot_score": 9.83,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261001/magyar-karacsony-egyeztetes-polgarmesterek-kovetelik-a-parkolasi-terv-torleset-866608",
+          "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/fovarosi-kozfejlesztesek-tanacs-keruletek-fovaros?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/penzvilag/2026-10-01-kilencmilliard-forintert-feszulnek-egymasnak-a-budapesti-keruletek/",
+      "seo": {
+        "meta_title": "Kilencmilliárd forintért feszülnek egymásnak a budapesti ker",
+        "meta_description": "Hat budapesti kerületi polgármester tiltakozik a Fővárosi Önkormányzat azon terve ellen, amely központosítaná a parkolási bevételeket. A városvezetők szerint ez",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-01-kilencmilliard-forintert-feszulnek-egymasnak-a-budapesti-keruletek/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Kar%C3%A1csony_Gergely_-_portrait.jpg/1280px-Kar%C3%A1csony_Gergely_-_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "47814d47-fabd-5006-a676-0af9c4384d79",
+        "b280525b-357b-5d8f-a16f-06f381b33c93",
+        "94c60679-ed80-5134-905b-10b867edbc52"
+      ],
+      "see_also": [
+        {
+          "title": "Százmilliárdos pénzügyi terhet hagyott maga után a Láng Negyed beruházása",
+          "url": "/penzvilag/2026-09-30-szazmilliardos-penzugyi-terhet-hagyott-maga-utan-a-lang-negyed-beruha/",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "Végre megmentik a budapesti Planetáriumot?",
+          "url": "/kozelet/2026-10-01-vegre-megmentik-a-budapesti-planetariumot/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Így telt Orbán Viktor londoni útja a letartóztatások árnyékában",
+          "url": "/kozelet/2026-09-30-igy-telt-orban-viktor-londoni-utja-a-letartoztatasok-arnyekaban/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": "47814d47-fabd-5006-a676-0af9c4384d79",
+      "dedupe_hash": "84f400565ea9631dbcc53e9cd8ca0070bcebc8bc47c057384b84b78ab72577b7",
+      "pipeline_run_id": "36848233390",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T12:53:39+02:00",
+      "updated_at": "2026-10-01T12:53:39+02:00",
+      "published_at": "2026-10-01T12:53:39+02:00",
+      "expires_at": null
+    },
     {
       "id": "3cfd2358-057b-562c-937e-cd15d4b4d6b8",
       "slug": "2026-10-01-arnyek-vetult-a-brit-legitamaszpontra",
