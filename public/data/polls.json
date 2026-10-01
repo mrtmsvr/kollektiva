@@ -1,0 +1,20 @@
+{
+  "updated_at": "2026-10-01T12:53:46+02:00",
+  "polls": [
+    {
+      "id": "859467cbdfa5",
+      "date": "2026-10-01",
+      "question": "Igazságos-e a parkolási bevételek fővárosi központosítása?",
+      "options": [
+        "Igen, a fővárosnak kell kezelnie",
+        "Nem, a kerületeknél kell maradniuk",
+        "Nem tudom / nincs véleményem"
+      ],
+      "article_url": "/penzvilag/2026-10-01-kilencmilliard-forintert-feszulnek-egymasnak-a-budapesti-keruletek/",
+      "article_title": "Kilencmilliárd forintért feszülnek egymásnak a budapesti kerületek",
+      "category": "penzvilag",
+      "created_at": "2026-10-01T12:53:46+02:00",
+      "closes_at": "2026-10-08T12:53:46+02:00"
+    }
+  ]
+}
