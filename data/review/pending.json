@@ -4554,68 +4554,91 @@
           "source_url": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Viktor_Orb%C3%A1n_(2016-02-17)_11.jpg"
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Viktor_Orb%C3%A1n_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Armored_Cash-in-Transit_Route_Truck_delta_1.jpg/1280px-Armored_Cash-in-Transit_Route_Truck_delta_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1702,
-          "kind": "graphic",
-          "pos": "center",
-          "alt": "(Budapeste - Hungria, 17/02/2022) Presidente da República Jair Bolsonaro cumprimenta o Primeiro-Ministro da Hungria, Viktor Mihály Orbán.\n\nFoto: Alan Santos/PR",
-          "credit": "Palácio do Planalto from Brasilia, Brasil / Wikimedia Commons",
-          "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Orb%C3%A1n_2022.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/%C3%93buda%2C_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg/1280px-%C3%93buda%2C_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
+          "height": 676,
           "kind": "photo",
           "pos": "center",
-          "alt": "Budapest Districts II and III Courthouse in Óbuda, Budapest",
-          "credit": "Pasztilla aka Attila Terbócs / Wikimedia Commons",
+          "alt": "Armored cash-in-transit van",
+          "credit": "Lynx-extra / Wikimedia Commons",
           "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:%C3%93buda,_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Armored_Cash-in-Transit_Route_Truck_delta_1.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Fortuna_Stra%C3%9Fe_4%2C_Nasenschild%2C_2022_Budapest.jpg/1280px-Fortuna_Stra%C3%9Fe_4%2C_Nasenschild%2C_2022_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Rend%C5%91rs%C3%A9g_rendfokozatai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 878,
+          "height": 1847,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Hungarian Royal Police insignia",
+          "credit": "Antal Miklós / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rend%C5%91rs%C3%A9g_rendfokozatai.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Hungarian_police_cars_in_Szeged.jpg/1280px-Hungarian_police_cars_in_Szeged.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 649,
           "kind": "photo",
           "pos": "center",
-          "alt": "Iron sign horse and dragon at Fortuna Alley corner. - One storey corner building, former Fortuna Hotel. Built in 1784 using three Middle Ages houses. Former graphic art school, courthouse, inn, Since",
+          "alt": "Hungarian police cars in Szeged",
+          "credit": "Materialhun / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hungarian_police_cars_in_Szeged.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/H%C3%ADrdetm%C3%A9ny._R%C3%B6gt%C3%B6nb%C3%ADr%C3%A1skod%C3%A1s_kiterjeszt%C3%A9s%C3%A9nek_elrendel%C3%A9se_1944-04-04_Fortepan_72654.jpg/1280px-H%C3%ADrdetm%C3%A9ny._R%C3%B6gt%C3%B6nb%C3%ADr%C3%A1skod%C3%A1s_kiterjeszt%C3%A9s%C3%A9nek_elrendel%C3%A9se_1944-04-04_Fortepan_72654.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 896,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Decree about Immediately judgment / every robbery shall be punished with death! ordered by President of the Royal courthouse of Budapest, 1944-04-04.",
+          "credit": "FOTO:Fortepan — ID 72654: Adományozó/Donor: Lissák Tivadar. / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:H%C3%ADrdetm%C3%A9ny._R%C3%B6gt%C3%B6nb%C3%ADr%C3%A1skod%C3%A1s_kiterjeszt%C3%A9s%C3%A9nek_elrendel%C3%A9se_1944-04-04_Fortepan_72654.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Fortuna_Stra%C3%9Fe_4%2C_Mitte%2C_2022_Budapest.jpg/1280px-Fortuna_Stra%C3%9Fe_4%2C_Mitte%2C_2022_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1601,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "One storey corner building, former Fortuna Hotel. Built in 1784 using three Middle Ages houses. Former graphic art school (1850s), courthouse (till 1945), inn, Since 1966 till 2005 hospitality museum",
           "credit": "Globetrotter19 / Wikimedia Commons",
           "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Fortuna_Stra%C3%9Fe_4,_Nasenschild,_2022_Budapest.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fortuna_Stra%C3%9Fe_4,_Mitte,_2022_Budapest.jpg"
         },
         {
-          "url": "https://live.staticflickr.com/4094/4806884545_5cba17ed74_b.jpg",
-          "width": 1024,
-          "height": 736,
-          "kind": "photo",
-          "alt": "Delaware State Police Car",
-          "credit": "Lee Cannon / flickr",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://www.flickr.com/photos/9763931@N04/4806884545"
-        },
-        {
-          "url": "https://live.staticflickr.com/8027/6957209494_69f23c08e6_b.jpg",
-          "width": 1024,
-          "height": 753,
-          "kind": "photo",
-          "alt": "Cumbria police car",
-          "credit": "28704869 / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/78170556@N08/6957209494"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Swedish_police_car_with_lights_on.jpg/1280px-Swedish_police_car_with_lights_on.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Secret_Service_agent_trainees_practice_executing_a_search_warrant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 803,
+          "height": 1399,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Secret Service agent trainees practice executing a search warrant.",
+          "credit": "U.S. Secret Service / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Secret_Service_agent_trainees_practice_executing_a_search_warrant.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Secret_Service_agents_conducting_investigations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 570,
           "kind": "photo",
           "pos": "center",
-          "alt": "Photo of a Swedish police car with emergency lights activated, driving on Hornsgatan towards Zinkensdamm",
-          "credit": "ThibautRe / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Swedish_police_car_with_lights_on.jpg"
+          "alt": "Secret Service agents conducting investigations",
+          "credit": "U.S. Secret Service / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Secret_Service_agents_conducting_investigations.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/8022/7520924236_6704211b66_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Oshkosh Police Tactical Unit IMG_0032",
+          "credit": "popo.uw23 / flickr",
+          "license": "Public domain",
+          "source_url": "https://www.flickr.com/photos/10511576@N00/7520924236"
         }
       ],
       "story": [
@@ -4688,11 +4711,39 @@
           477,
           478,
           479,
-          480
+          480,
+          487,
+          488,
+          489,
+          490,
+          491,
+          492,
+          493,
+          494,
+          495
         ],
-        "control_id": 481
+        "control_id": 496
       },
-      "live": true
+      "live": true,
+      "image_queries": [
+        "TEK armored vehicle",
+        "cash-in-transit truck",
+        "Hungarian police",
+        "Budapest courthouse",
+        "secret service agent",
+        "police tactical unit",
+        "courtroom document",
+        "political investigation"
+      ],
+      "images_seen": [
+        "https://live.staticflickr.com/8027/6957209494_69f23c08e6_b.jpg",
+        "https://live.staticflickr.com/4094/4806884545_5cba17ed74_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/%C3%93buda%2C_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg/1280px-%C3%93buda%2C_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/a/a3/Viktor_Orb%C3%A1n_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Fortuna_Stra%C3%9Fe_4%2C_Nasenschild%2C_2022_Budapest.jpg/1280px-Fortuna_Stra%C3%9Fe_4%2C_Nasenschild%2C_2022_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Swedish_police_car_with_lights_on.jpg/1280px-Swedish_police_car_with_lights_on.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Vladimir_Putin_and_Viktor_Orb%C3%A1n_%282016-02-17%29_11.jpg/1280px-Vladimir_Putin_and_Viktor_Orb%C3%A1n_%282016-02-17%29_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     }
   ]
 }
