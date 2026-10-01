@@ -8425,7 +8425,7 @@
     {
       "id": "bc66e724-0b42-5d62-a3df-30267ccd57cc",
       "slug": "2026-10-01-kockazatos-gazdasagi-fordulatot-erlel-moszkva",
-      "status": "pending",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -8456,15 +8456,15 @@
       "word_count": 165,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Vladimir_Putin_taking_the_Presidential_Oath%2C_7_May_2000.jpg/1280px-Vladimir_Putin_taking_the_Presidential_Oath%2C_7_May_2000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Moscow_Skyline.jpg/1280px-Moscow_Skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 1800,
+        "height": 900,
         "kind": "photo",
-        "pos": "top",
-        "alt": "The inauguration was held in the St Andrew Hall of the Grand Kremlin Palace.",
-        "credit": "Presidential Press and Information Office / Wikimedia Commons",
-        "license": "CC BY 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_taking_the_Presidential_Oath,_7_May_2000.jpg"
+        "pos": "center",
+        "alt": "Integration of urban landscape architecture and modern architecture based on the architecture of the city of Moscow",
+        "credit": "Mia Primavera / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Moscow_Skyline.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -8602,7 +8602,7 @@
         "meta_title": "Kockázatos gazdasági fordulatot érlel Moszkva?",
         "meta_description": "Az orosz vezetés figyelmeztetést küldött Budapestnek a gazdasági együttműködés jövőjéről, miközben a nemzetközi energiapiacokon is komoly korlátozások léptek él",
         "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-01-kockazatos-gazdasagi-fordulatot-erlel-moszkva/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Vladimir_Putin_taking_the_Presidential_Oath%2C_7_May_2000.jpg/1280px-Vladimir_Putin_taking_the_Presidential_Oath%2C_7_May_2000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Moscow_Skyline.jpg/1280px-Moscow_Skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8639,9 +8639,9 @@
       "dedupe_hash": "ac81650e05df1a68ebd20d58e765e13633764c2274bde8c5acc08d3b1d6e8527",
       "pipeline_run_id": "36923287538",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T22:40:45+02:00",
-      "updated_at": "2026-10-01T22:40:45+02:00",
-      "published_at": "2026-10-01T22:40:45+02:00",
+      "created_at": "2026-10-01T22:45:30+02:00",
+      "updated_at": "2026-10-01T22:45:30+02:00",
+      "published_at": "2026-10-01T22:45:30+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -8736,7 +8736,8 @@
         "https://upload.wikimedia.org/wikipedia/commons/6/63/Meeting_with_members_of_Valdai_Club_%282009-09-15%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Ministry_of_Foreign_Affairs_of_Russia_Building.jpg/1280px-Ministry_of_Foreign_Affairs_of_Russia_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Dmitry_Peskov_portrait.jpg/1280px-Dmitry_Peskov_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "4a3a5f30-ef2f-5c76-adeb-bd6d881bb444",
