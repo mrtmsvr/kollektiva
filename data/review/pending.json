@@ -4453,7 +4453,7 @@
       "published_at": "2026-10-01T12:53:41+02:00",
       "expires_at": null,
       "review": {
-        "title": 0,
+        "title": 2,
         "image": 0,
         "sent_at": "2026-10-01T10:20:35+00:00",
         "msg_ids": [
@@ -4700,7 +4700,7 @@
       "expires_at": null,
       "review": {
         "title": 2,
-        "image": 0,
+        "image": 6,
         "sent_at": "2026-10-01T10:21:18+00:00",
         "msg_ids": [
           472,
