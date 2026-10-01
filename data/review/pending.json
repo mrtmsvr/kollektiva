@@ -5004,7 +5004,7 @@
     {
       "id": "6b5d437b-1a89-5531-9756-593d69d09b77",
       "slug": "2026-10-01-nevunkon-szolit-a-szallodai-robot",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -5035,15 +5035,14 @@
       "word_count": 249,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Gare_de_Lyon-Part-Dieu%2C_h%C3%B4tels_Accor_de_nuit.jpg/1280px-Gare_de_Lyon-Part-Dieu%2C_h%C3%B4tels_Accor_de_nuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 675,
+        "url": "https://live.staticflickr.com/2408/2466357253_03622550a9_b.jpg",
+        "width": 1024,
+        "height": 683,
         "kind": "photo",
-        "pos": "center",
-        "alt": "Gare de Lyon-Part-Dieu, hôtels Accor de nuit",
-        "credit": "TCY / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Gare_de_Lyon-Part-Dieu,_h%C3%B4tels_Accor_de_nuit.jpg"
+        "alt": "Fairmont Hotel Lobby",
+        "credit": "Pargon / flickr",
+        "license": "CC BY 2.0",
+        "source_url": "https://www.flickr.com/photos/24539921@N08/2466357253"
       },
       "inline_images": [],
       "sources": [
@@ -5179,7 +5178,7 @@
         "meta_title": "Nevünkön szólít a szállodai robot",
         "meta_description": "Megkezdte működését az ALL Concierge nevű, mesterséges intelligencián alapuló szolgáltatás, amely ötvennyolcszáz szállodában segíti a vendégeket a tervezéstől a",
         "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-01-nevunkon-szolit-a-szallodai-robot/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Gare_de_Lyon-Part-Dieu%2C_h%C3%B4tels_Accor_de_nuit.jpg/1280px-Gare_de_Lyon-Part-Dieu%2C_h%C3%B4tels_Accor_de_nuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://live.staticflickr.com/2408/2466357253_03622550a9_b.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -5204,9 +5203,9 @@
       "dedupe_hash": "743a085533b6ecfb73f97e62cf2f90f0f456cd383429c2e69d58d8952f75d922",
       "pipeline_run_id": "36861986596",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T14:31:36+02:00",
-      "updated_at": "2026-10-01T14:31:36+02:00",
-      "published_at": "2026-10-01T14:31:36+02:00",
+      "created_at": "2026-10-01T14:42:37+02:00",
+      "updated_at": "2026-10-01T14:42:37+02:00",
+      "published_at": "2026-10-01T14:42:37+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -5225,7 +5224,8 @@
           528
         ],
         "control_id": 529
-      }
+      },
+      "live": true
     },
     {
       "id": "755a35f5-be09-590a-afad-f71de3357b1b",
