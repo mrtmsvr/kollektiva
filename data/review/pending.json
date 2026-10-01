@@ -8382,7 +8382,7 @@
       "expires_at": null,
       "review": {
         "title": 1,
-        "image": 0,
+        "image": -1,
         "sent_at": "2026-10-01T18:47:07+00:00",
         "msg_ids": [
           871,
