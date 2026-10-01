@@ -8742,7 +8742,7 @@
     {
       "id": "4a3a5f30-ef2f-5c76-adeb-bd6d881bb444",
       "slug": "2026-10-01-mit-rejt-az-oktoberi-egbolt",
-      "status": "pending",
+      "status": "published",
       "category": "univerzum",
       "subcategory": null,
       "tags": [
@@ -8773,15 +8773,15 @@
       "word_count": 169,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg/1280px-Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/M45-Les_Pl%C3%A9iades_Hamois_le_28-12-2024-Luc_Viatour.jpg/1280px-M45-Les_Pl%C3%A9iades_Hamois_le_28-12-2024-Luc_Viatour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 900,
+        "height": 802,
         "kind": "photo",
         "pos": "center",
-        "alt": "A swing high above Saturn by NASA's Cassini spacecraft revealed this stately view of the golden-hued planet and its main rings. The view is in natural color, as human eyes would have seen it. This mos",
-        "credit": "NASA/JPL-Caltech/SSI/Cornell / Wikimedia Commons",
-        "license": "Public domain",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10,_2013.jpg"
+        "alt": "Astrophotography image of Messier 45 (The Pleiades).\nAcquisition Details\nLocation: Hamois, Belgium (Bortle 4 Sky)\nIntegration: 5 hours total (50 x 360s)\nCalibration: 50 Flats, 50 Darks, 50 Bias\nEquipm",
+        "credit": "Lviatour / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:M45-Les_Pl%C3%A9iades_Hamois_le_28-12-2024-Luc_Viatour.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -8917,7 +8917,7 @@
         "meta_title": "Mit rejt az októberi égbolt?",
         "meta_description": "Az őszi éjszakák beköszöntével látványos csillagászati jelenségek váltják egymást, amelyeket szabad szemmel is könnyen megfigyelhetünk. A NASA friss előrejelzés",
         "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-01-mit-rejt-az-oktoberi-egbolt/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg/1280px-Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/M45-Les_Pl%C3%A9iades_Hamois_le_28-12-2024-Luc_Viatour.jpg/1280px-M45-Les_Pl%C3%A9iades_Hamois_le_28-12-2024-Luc_Viatour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8934,9 +8934,9 @@
       "dedupe_hash": "2765e7482e6d5861c3cfcf7dd3edbbe4d024018451882d1db70900feb4b55f3b",
       "pipeline_run_id": "36923287538",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T22:42:49+02:00",
-      "updated_at": "2026-10-01T22:42:49+02:00",
-      "published_at": "2026-10-01T22:42:49+02:00",
+      "created_at": "2026-10-01T22:45:42+02:00",
+      "updated_at": "2026-10-01T22:45:42+02:00",
+      "published_at": "2026-10-01T22:45:42+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -8955,7 +8955,8 @@
           967
         ],
         "control_id": 968
-      }
+      },
+      "live": true
     },
     {
       "id": "74e92860-e064-5d6d-a395-9f3217a22bc6",

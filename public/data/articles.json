@@ -1,7 +1,104 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01T22:45:30+02:00",
+  "updated_at": "2026-10-01T22:45:42+02:00",
   "articles": [
+    {
+      "id": "4a3a5f30-ef2f-5c76-adeb-bd6d881bb444",
+      "slug": "2026-10-01-mit-rejt-az-oktoberi-egbolt",
+      "status": "published",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "csillagászat",
+        "Szaturnusz",
+        "meteorraj",
+        "NASA",
+        "Hold"
+      ],
+      "title": "Mit rejt az októberi égbolt?",
+      "subtitle": null,
+      "lead": "Az őszi éjszakák beköszöntével látványos csillagászati jelenségek váltják egymást, amelyeket szabad szemmel is könnyen megfigyelhetünk. A NASA friss előrejelzése szerint októberben a bolygók állása és a hullócsillagok is főszerepet kapnak.",
+      "key_points": [
+        "A Szaturnusz szembenállásba kerül a Nappal, így különösen fényesen ragyog.",
+        "Az Orionidák meteorraj darabjai húznak el az éjszakai égbolton.",
+        "A Hold a Fiastyúk, azaz a Hét Nővér közelében halad el."
+      ],
+      "content": "Októberben a csillagászat kedvelői számos izgalmas látványosságra számíthatnak a friss űrkutatási tájékoztatók szerint. Érdemes figyelni az eget, hiszen egyszerre több ritka együttállás és égi vándor is feltűnik a sötétedő órákban.\n\nA hónap egyik kiemelt eseménye, amikor a Szaturnusz a Földhöz képest pontosan a Nappal ellentétes oldalra kerül. Ekkor a bolygó teljes fényességében ragyog, és már egy kisebb távcsővel vagy akár jobb binokulárral is jól kivehetők a jellegzetes gyűrűi.\n\nNem kell messzire menni a lenyűgöző látványért, hiszen a Hold is különleges társaságot kap. Az égitest vándorlása során szorosan elhalad a Fiastyúk, vagyis a hét legfényesebb csillagáról elnevezett Hét Nővér nyílthalmaz mellett, ami szabad szemmel is szemet gyönyörködtető kontrasztot nyújt.\n\nAz őszi estéket a hullócsillagok rajongói is élvezhetik, ugyanis tetőzik az Orionidák meteorraj. Ilyenkor a Föld légkörébe csapódó apró szemcsék fényes csíkokat húznak az égboltra, megkoronázva a hűvös, tiszta októberi éjszakákat.",
+      "content_format": "markdown",
+      "body": [
+        "Októberben a csillagászat kedvelői számos izgalmas látványosságra számíthatnak a friss űrkutatási tájékoztatók szerint. Érdemes figyelni az eget, hiszen egyszerre több ritka együttállás és égi vándor is feltűnik a sötétedő órákban.",
+        "A hónap egyik kiemelt eseménye, amikor a Szaturnusz a Földhöz képest pontosan a Nappal ellentétes oldalra kerül. Ekkor a bolygó teljes fényességében ragyog, és már egy kisebb távcsővel vagy akár jobb binokulárral is jól kivehetők a jellegzetes gyűrűi.",
+        "Nem kell messzire menni a lenyűgöző látványért, hiszen a Hold is különleges társaságot kap. Az égitest vándorlása során szorosan elhalad a Fiastyúk, vagyis a hét legfényesebb csillagáról elnevezett Hét Nővér nyílthalmaz mellett, ami szabad szemmel is szemet gyönyörködtető kontrasztot nyújt.",
+        "Az őszi estéket a hullócsillagok rajongói is élvezhetik, ugyanis tetőzik az Orionidák meteorraj. Ilyenkor a Föld légkörébe csapódó apró szemcsék fényes csíkokat húznak az égboltra, megkoronázva a hűvös, tiszta októberi éjszakákat."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 169,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/M45-Les_Pl%C3%A9iades_Hamois_le_28-12-2024-Luc_Viatour.jpg/1280px-M45-Les_Pl%C3%A9iades_Hamois_le_28-12-2024-Luc_Viatour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 802,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Astrophotography image of Messier 45 (The Pleiades).\nAcquisition Details\nLocation: Hamois, Belgium (Bortle 4 Sky)\nIntegration: 5 hours total (50 x 360s)\nCalibration: 50 Flats, 50 Darks, 50 Bias\nEquipm",
+        "credit": "Lviatour / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:M45-Les_Pl%C3%A9iades_Hamois_le_28-12-2024-Luc_Viatour.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+          "title": "What’s Up: October 2026 Skywatching Tips from NASA",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-01T22:42:49+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-01T22:45:42+02:00"
+      },
+      "hot_score": 5.83,
+      "category_meta": {
+        "source_links": [
+          "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/univerzum/2026-10-01-mit-rejt-az-oktoberi-egbolt/",
+      "seo": {
+        "meta_title": "Mit rejt az októberi égbolt?",
+        "meta_description": "Az őszi éjszakák beköszöntével látványos csillagászati jelenségek váltják egymást, amelyeket szabad szemmel is könnyen megfigyelhetünk. A NASA friss előrejelzés",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-01-mit-rejt-az-oktoberi-egbolt/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/M45-Les_Pl%C3%A9iades_Hamois_le_28-12-2024-Luc_Viatour.jpg/1280px-M45-Les_Pl%C3%A9iades_Hamois_le_28-12-2024-Luc_Viatour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "2765e7482e6d5861c3cfcf7dd3edbbe4d024018451882d1db70900feb4b55f3b",
+      "pipeline_run_id": "36923287538",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T22:45:42+02:00",
+      "updated_at": "2026-10-01T22:45:42+02:00",
+      "published_at": "2026-10-01T22:45:42+02:00",
+      "expires_at": null
+    },
     {
       "id": "bc66e724-0b42-5d62-a3df-30267ccd57cc",
       "slug": "2026-10-01-kockazatos-gazdasagi-fordulatot-erlel-moszkva",
