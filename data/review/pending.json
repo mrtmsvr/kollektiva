@@ -5228,9 +5228,9 @@
       "live": true
     },
     {
-      "id": "755a35f5-be09-590a-afad-f71de3357b1b",
-      "slug": "2026-10-01-hirtelen-tavozasok-raztak-meg-a-nav-vezeteset",
-      "status": "pending",
+      "id": "a161612a-8125-55c6-80a9-6edf491310e4",
+      "slug": "2026-10-01-komoly-szemelycserek-tortentek-a-nemzeti-ado-es-vamhivatalnal",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -5240,7 +5240,7 @@
         "belföld",
         "közélet"
       ],
-      "title": "Hirtelen távozások rázták meg a NAV vezetését",
+      "title": "Komoly személycserék történtek a Nemzeti Adó és Vámhivatalnál",
       "subtitle": null,
       "lead": "Váratlanul megszűnt Tamásné Czinege Csilla adószakmai elnökhelyettes, valamint a NAV bűnügyi főigazgatójának és helyettesének a vezetői megbízatása. A Pénzügyminisztérium és az adóhatóság egyszerre hajtotta végre a magas rangú vezetőcseréket a szervezet élén.",
       "key_points": [
@@ -5261,17 +5261,7 @@
       "reading_time_min": 2,
       "word_count": 301,
       "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 900,
-        "kind": "photo",
-        "pos": "center",
-        "alt": "Budapest, Dózsa György út, Nemzeti Adó- és Vámhivatal székház",
-        "credit": "12akd / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt,_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg"
-      },
+      "hero_image": null,
       "inline_images": [],
       "sources": [
         {
@@ -5401,12 +5391,12 @@
       },
       "date": "2026-10-01",
       "date_label": "október 1.",
-      "url": "/kozelet/2026-10-01-hirtelen-tavozasok-raztak-meg-a-nav-vezeteset/",
+      "url": "/kozelet/2026-10-01-komoly-szemelycserek-tortentek-a-nemzeti-ado-es-vamhivatalnal/",
       "seo": {
-        "meta_title": "Hirtelen távozások rázták meg a NAV vezetését",
+        "meta_title": "Komoly személycserék történtek a Nemzeti Adó és Vámhivatalná",
         "meta_description": "Váratlanul megszűnt Tamásné Czinege Csilla adószakmai elnökhelyettes, valamint a NAV bűnügyi főigazgatójának és helyettesének a vezetői megbízatása. A Pénzügymi",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-01-hirtelen-tavozasok-raztak-meg-a-nav-vezeteset/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-01-komoly-szemelycserek-tortentek-a-nemzeti-ado-es-vamhivatalnal/",
+        "og_image": null,
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -5423,9 +5413,9 @@
       "dedupe_hash": "342886c1377074405c5163fb9299fb99e83baca15d60f13b6ed0b52366d72c33",
       "pipeline_run_id": "36861986596",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T14:33:21+02:00",
-      "updated_at": "2026-10-01T14:33:21+02:00",
-      "published_at": "2026-10-01T14:33:21+02:00",
+      "created_at": "2026-10-01T14:55:03+02:00",
+      "updated_at": "2026-10-01T14:55:03+02:00",
+      "published_at": "2026-10-01T14:55:03+02:00",
       "expires_at": null,
       "review": {
         "title": 2,
@@ -5560,7 +5550,8 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Budapest%2C_Budai_V%C3%A1r%2C_vissza%C3%A9p%C3%ADtett_P%C3%A9nz%C3%BCgyminiszt%C3%A9rium%2C_11.jpg/1280px-Budapest%2C_Budai_V%C3%A1r%2C_vissza%C3%A9p%C3%ADtett_P%C3%A9nz%C3%BCgyminiszt%C3%A9rium%2C_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Slave_Tax_Document_New_Orleans_-_03.jpg/1280px-Slave_Tax_Document_New_Orleans_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Building_of_the_former_Ministry_of_Transport_and_Communication._Monument_ID_826_Now_Stamp_Museum_and_the_Tax_Authority_offices_-_Budapest%2C_VII._Dob_St_75-81.%2C_H%C3%A1rsfa_St_47.%2C_Csengery_J%C3%A1nos_St_14-16.JPG/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     }
   ]
 }
