@@ -2859,9 +2859,9 @@
       "live": true
     },
     {
-      "id": "8a4cf92b-7de3-5a82-86c8-3b07acca115c",
-      "slug": "2026-10-01-hogyan-mentettek-meg-az-utasok-a-zuhano-gepet",
-      "status": "pending",
+      "id": "e9615ea6-a9ac-5d66-9874-0091933d2b4a",
+      "slug": "2026-10-01-drama-a-levegoben-kessel-tamadt-a-pilota",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -2871,7 +2871,7 @@
         "légiközlekedés",
         "terrorizmus"
       ],
-      "title": "Hogyan mentették meg az utasok a zuhanó gépet?",
+      "title": "Dráma a levegőben: késsel támadt a pilóta",
       "subtitle": null,
       "lead": "Szaúd-arábiai kényszerleszállást hajtott végre egy Tel-Avivba tartó utasszállító, miután a fedélzeten a pilóták egymásnak estek. Az eset során a gép percek alatt több ezer métert süllyedt.",
       "key_points": [
@@ -2892,15 +2892,14 @@
       "word_count": 244,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Benjamin_Netanjahu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "width": 1200,
-        "height": 1784,
+        "url": "https://live.staticflickr.com/2303/2214767441_536cc6658d_b.jpg",
+        "width": 1024,
+        "height": 768,
         "kind": "photo",
-        "pos": "top",
-        "alt": "Prime Minister of Israel Benjamin Netanyahu, 11 April 2013",
-        "credit": "Dragan Tatic / Wikimedia Commons",
+        "alt": "airplane interior",
+        "credit": "kalleboo / flickr",
         "license": "CC BY 2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Benjamin_Netanjahu.jpg"
+        "source_url": "https://www.flickr.com/photos/82365211@N00/2214767441"
       },
       "inline_images": [],
       "sources": [
@@ -3077,12 +3076,12 @@
       },
       "date": "2026-10-01",
       "date_label": "október 1.",
-      "url": "/vilag/2026-10-01-hogyan-mentettek-meg-az-utasok-a-zuhano-gepet/",
+      "url": "/vilag/2026-10-01-drama-a-levegoben-kessel-tamadt-a-pilota/",
       "seo": {
-        "meta_title": "Hogyan mentették meg az utasok a zuhanó gépet?",
+        "meta_title": "Dráma a levegőben: késsel támadt a pilóta",
         "meta_description": "Szaúd-arábiai kényszerleszállást hajtott végre egy Tel-Avivba tartó utasszállító, miután a fedélzeten a pilóták egymásnak estek. Az eset során a gép percek alat",
-        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-01-hogyan-mentettek-meg-az-utasok-a-zuhano-gepet/",
-        "og_image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Benjamin_Netanjahu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-01-drama-a-levegoben-kessel-tamadt-a-pilota/",
+        "og_image": "https://live.staticflickr.com/2303/2214767441_536cc6658d_b.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -3107,9 +3106,9 @@
       "dedupe_hash": "d2ae0ea6c26713b17ccc86a87a9822535c937df600b2286e5475c5bff33ed5fd",
       "pipeline_run_id": "36825054317",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T08:31:39+02:00",
-      "updated_at": "2026-10-01T08:31:39+02:00",
-      "published_at": "2026-10-01T08:31:39+02:00",
+      "created_at": "2026-10-01T08:37:40+02:00",
+      "updated_at": "2026-10-01T08:37:40+02:00",
+      "published_at": "2026-10-01T08:37:40+02:00",
       "expires_at": null,
       "review": {
         "title": 1,
@@ -3128,7 +3127,8 @@
           364
         ],
         "control_id": 365
-      }
+      },
+      "live": true
     },
     {
       "id": "de69dbfe-9d47-5deb-88d8-c9b132e0a1c8",
