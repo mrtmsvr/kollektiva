@@ -1,7 +1,132 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01T16:37:20+02:00",
+  "updated_at": "2026-10-01T16:37:25+02:00",
   "articles": [
+    {
+      "id": "deace6cd-b7b0-5bc4-8834-59314216a55e",
+      "slug": "2026-10-01-foldet-atfogo-adatforradalom-jon-a-petal-kabelrendszer",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "Meta",
+        "optikai kábel",
+        "internet",
+        "technológia",
+        "adatközpont"
+      ],
+      "title": "Földet átfogó adatforradalom: jön a Petal kábelrendszer",
+      "subtitle": null,
+      "lead": "Az Egyesült Államokat és Franciaországot összekötő, Petal névre keresztelt tenger alatti kábel építését jelentette be a Meta. Az új technológia a korábbiaknál nagyságrenddel nagyobb adatátviteli sebességet ígér.",
+      "key_points": [
+        "A Meta 7000 kilométeres tenger alatti optikai kábelt fektet le az USA és Franciaország közé.",
+        "A Petal nevű rendszer elérheti a másodpercenkénti 1 Pbps (petabit) sebességet.",
+        "A projekt a tervek szerint 2029-ben állhat szolgálatba a transzatlanti hálózaton."
+      ],
+      "content": "Ambiciózus bejelentést tett a Meta: olyan új optikai kábelt fektet le az óceán fenekén az Egyesült Államok és Franciaország között, amely a vállalat saját számításai szerint elegendő hálózati kapacitást biztosít ahhoz, hogy a bolygó lakosságának 75 százaléka egyszerre streamelhessen zenét. Ez a Petal nevű fejlesztés megkétszerezi az ugyancsak a Meta nevéhez fűződő, Spanyolországot az USA-val összekötő, 0,5 Pbps-os Anjana kábelrendszer átviteli képességét.\n\nA Tom’s Hardware szakportál beszámolója szerint míg az Anjana 24 szálpárt használ a 480 terabit másodpercenkénti sebesség eléréséhez, addig az új Petal már 48 szálpárt és egy kétmagos száloptikás megoldást alkalmaz. Ez utóbbi azt jelenti, hogy két optikai magot helyeznek el egyetlen szálban, így ugyanazon a fizikai útvonalon két külön átviteli csatorna alakítható ki anélkül, hogy duplázni kellene a fizikai infrastruktúrát vagy a felhasznált energiát.\n\nA hatalmas távolságok leküzdése komoly mérnöki kihívást jelent, mivel a fényjel gyengül a több ezer kilométeres út során. A NEC és a Sumitomo Electric közreműködésével készülő rendszerben a kétmagos szál jelét speciális erősítőegységek választják szét két hagyományos, egymagos útra a jelerősítés idejére, majd a folyamat után visszaterelik a fő ágba. A tervek szerint körülbelül 100 ilyen jelerősítőre lesz szükség a minőségromlás elkerüléséhez.\n\nA Petal mögött álló technológiai váltást a felhőszolgáltatások, a videóstreaming, valamint a mesterséges intelligencia adatközpontjai által generált óriási adathalmazok növekvő igényei indokolják. Bár a hálózat egyelőre tervezési fázisban van, a kivitelezés végén, 2029-ben történő üzembe helyezésével a terabites korszak után megérkezhet a petabites világ a transzatlanti kommunikációban.",
+      "content_format": "markdown",
+      "body": [
+        "Ambiciózus bejelentést tett a Meta: olyan új optikai kábelt fektet le az óceán fenekén az Egyesült Államok és Franciaország között, amely a vállalat saját számításai szerint elegendő hálózati kapacitást biztosít ahhoz, hogy a bolygó lakosságának 75 százaléka egyszerre streamelhessen zenét. Ez a Petal nevű fejlesztés megkétszerezi az ugyancsak a Meta nevéhez fűződő, Spanyolországot az USA-val összekötő, 0,5 Pbps-os Anjana kábelrendszer átviteli képességét.",
+        "A Tom’s Hardware szakportál beszámolója szerint míg az Anjana 24 szálpárt használ a 480 terabit másodpercenkénti sebesség eléréséhez, addig az új Petal már 48 szálpárt és egy kétmagos száloptikás megoldást alkalmaz. Ez utóbbi azt jelenti, hogy két optikai magot helyeznek el egyetlen szálban, így ugyanazon a fizikai útvonalon két külön átviteli csatorna alakítható ki anélkül, hogy duplázni kellene a fizikai infrastruktúrát vagy a felhasznált energiát.",
+        "A hatalmas távolságok leküzdése komoly mérnöki kihívást jelent, mivel a fényjel gyengül a több ezer kilométeres út során. A NEC és a Sumitomo Electric közreműködésével készülő rendszerben a kétmagos szál jelét speciális erősítőegységek választják szét két hagyományos, egymagos útra a jelerősítés idejére, majd a folyamat után visszaterelik a fő ágba. A tervek szerint körülbelül 100 ilyen jelerősítőre lesz szükség a minőségromlás elkerüléséhez.",
+        "A Petal mögött álló technológiai váltást a felhőszolgáltatások, a videóstreaming, valamint a mesterséges intelligencia adatközpontjai által generált óriási adathalmazok növekvő igényei indokolják. Bár a hálózat egyelőre tervezési fázisban van, a kivitelezés végén, 2029-ben történő üzembe helyezésével a terabites korszak után megérkezhet a petabites világ a transzatlanti kommunikációban."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 268,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Atlantic_Ocean.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1200,
+        "kind": "graphic",
+        "pos": "center",
+        "alt": "North and South Atlantic Ocean",
+        "credit": "CIA / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Atlantic_Ocean.png"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261001_egy-pbps-atviteli-sebessegu-teneger-alatti-kabel-a-metatol",
+          "title": "7000 km-es kábelt fektetnek le az óceán mélyén, hasítani fog az 1 Pbps gyors internet",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T16:33:25+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-01T16:37:25+02:00"
+      },
+      "hot_score": 5.87,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261001_egy-pbps-atviteli-sebessegu-teneger-alatti-kabel-a-metatol"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/tech/2026-10-01-foldet-atfogo-adatforradalom-jon-a-petal-kabelrendszer/",
+      "seo": {
+        "meta_title": "Földet átfogó adatforradalom: jön a Petal kábelrendszer",
+        "meta_description": "Az Egyesült Államokat és Franciaországot összekötő, Petal névre keresztelt tenger alatti kábel építését jelentette be a Meta. Az új technológia a korábbiaknál n",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-01-foldet-atfogo-adatforradalom-jon-a-petal-kabelrendszer/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Atlantic_Ocean.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "1b99d207-36aa-597b-8b60-6a58ffc87c37"
+      ],
+      "see_also": [
+        {
+          "title": "Így épül ki a holdi 5G hálózat",
+          "url": "/univerzum/2026-10-01-5g-a-holdon-ezt-hozza-az-uj-halozat/",
+          "date": "2026-10-01"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "b8857698210bbbb5b9292511ab801e1f6c40d3b17390a10584467c2cbb457fb0",
+      "pipeline_run_id": "36876886244",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T16:37:25+02:00",
+      "updated_at": "2026-10-01T16:37:25+02:00",
+      "published_at": "2026-10-01T16:37:25+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "Meta headquarters",
+        "submarine communications cable",
+        "fiber optic cable",
+        "Atlantic Ocean",
+        "NEC corporation",
+        "underwater cable",
+        "fiber optics",
+        "server room"
+      ],
+      "images_seen": [
+        "https://live.staticflickr.com/5703/20821947622_10ef7168d0_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Submarine_cable_repeater_SVG.svg/1280px-Submarine_cable_repeater_SVG.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Submarine_cable_cross-section.svg/1280px-Submarine_cable_cross-section.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/USNavy_air-cushioned_landing_craft_about_to_dock_aboard_USS_Iwo_Jima-2025.jpg/1280px-USNavy_air-cushioned_landing_craft_about_to_dock_aboard_USS_Iwo_Jima-2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/a/ad/Atlantic_Ocean_and_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/UA_fiber-optic_FPV_drone_02.webp/1280px-UA_fiber-optic_FPV_drone_02.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/UA_fiber-optic_FPV_drone_01.webp/1280px-UA_fiber-optic_FPV_drone_01.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/8832/17998442310_876f5ea835_b.jpg"
+      ]
+    },
     {
       "id": "49a1742d-6794-5749-87f0-3131bc9920fb",
       "slug": "2026-10-01-megallapodas-szuletett-penzt-kap-a-fovaros",
