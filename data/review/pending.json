@@ -5298,92 +5298,90 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Ministry_of_Finance_%28Hungary%29_%289%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Sz%C3%A1sz_Domokos_%C3%A9s_Ferenc_J%C3%B3zsef_1899-3.jpg/1280px-Sz%C3%A1sz_Domokos_%C3%A9s_Ferenc_J%C3%B3zsef_1899-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1079,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Domokos Szász with Franz Joseph I of Austria and Dezső Bánffy",
+          "credit": "Unknown authorUnknown author / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Sz%C3%A1sz_Domokos_%C3%A9s_Ferenc_J%C3%B3zsef_1899-3.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Zeyk_Domokos_eml%C3%A9kt%C3%A1bla_a_Sz%C3%A9chenyi_Egyetem_%28akkor_%C3%93v%C3%A1ri_Egyetem%29_fal%C3%A1n%2C_2017_Mosonmagyar%C3%B3v%C3%A1r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
           "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": "Ministry of Finance (Hungary)",
-          "credit": "Elekes Andor / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary)_(9).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Ministry_of_Finance_%28Hungary%29_%288%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Ministry of Finance (Hungary)",
-          "credit": "Elekes Andor / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary)_(8).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Biarritz_2014.jpg/1280px-Biarritz_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Kossuth Lajos tér, 18 (Biarritz house) in Budapest as of May 2014.",
-          "credit": "Perituss / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Biarritz_2014.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Budapest%2C_Kossuth_Lajos_t%C3%A9r%2C_metr%C3%B3_2.jpg/1280px-Budapest%2C_Kossuth_Lajos_t%C3%A9r%2C_metr%C3%B3_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Kossuth Lajos square on Budapest metro line 2",
-          "credit": "Random photos 2000 / Wikimedia Commons",
+          "alt": ": Plaque of Domokos Zeyk (freedom fighter captain in 1848-49) next to the plaque of Ferenc Wathay (poet) on the wall at the west gate tower on the campus of Faculty of Agricultural and Food Science o",
+          "credit": "Globetrotter19 / Wikimedia Commons",
           "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_Kossuth_Lajos_t%C3%A9r,_metr%C3%B3_2.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Zeyk_Domokos_eml%C3%A9kt%C3%A1bla_a_Sz%C3%A9chenyi_Egyetem_(akkor_%C3%93v%C3%A1ri_Egyetem)_fal%C3%A1n,_2017_Mosonmagyar%C3%B3v%C3%A1r.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Retro_Hungarian_Police_Car_3.jpg/1280px-Retro_Hungarian_Police_Car_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/K%C3%A1d%C3%A1r_J%C3%A1nos_fortepan_66090.jpg/1280px-K%C3%A1d%C3%A1r_J%C3%A1nos_fortepan_66090.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 568,
+          "height": 1104,
           "kind": "photo",
-          "pos": "center",
-          "alt": "Retro Hungarian Police Car 3",
-          "credit": "CONTRERAS Roberto / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Retro_Hungarian_Police_Car_3.jpg"
+          "pos": "top",
+          "alt": "MAGYARORSZÁG, BALATON ZÁNKA Úttörőváros (később Gyermek és Ifjúsági Centrum), a telep átadási ünnepsége. Szűcs Istvánné, a Magyar Úttörők Szövetsége főtitkára, középen Kádár János MSZMP első titkár, m",
+          "credit": "FOTO:Fortepan — ID 66090: / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:K%C3%A1d%C3%A1r_J%C3%A1nos_fortepan_66090.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Retro_Hungarian_Police_Car_1.jpg/1280px-Retro_Hungarian_Police_Car_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 568,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Retro Hungarian Police Car 1",
-          "credit": "CONTRERAS Roberto / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Retro_Hungarian_Police_Car_1.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Budapest_Holl%C3%B3_street_sign.jpg/1280px-Budapest_Holl%C3%B3_street_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Ministry_of_Finance%2C_SE_corner%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg/1280px-Ministry_of_Finance%2C_SE_corner%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 1600,
           "kind": "photo",
           "pos": "top",
-          "alt": "Holló utca sign in Budapest",
-          "credit": "EWilson (Volunteer) / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Holl%C3%B3_street_sign.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Street_sign_of_L%C3%B3r%C3%A1nt_Way._-_Budapest%2C_XII._district..JPG/1280px-Street_sign_of_L%C3%B3r%C3%A1nt_Way._-_Budapest%2C_XII._district..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Budapest, XII. kerület. Istenhegy. Lóránt út. Utcatábla.",
+          "alt": ": Part of Budapest World Heritage Site. Former bank building now Ministry of Finance. Southeast corner detail. Sleet or snow. - 2-3-4 József nádor Square, Lipótváros neighborhood, District V of Budap",
           "credit": "Globetrotter19 / Wikimedia Commons",
           "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Street_sign_of_L%C3%B3r%C3%A1nt_Way._-_Budapest,_XII._district..JPG"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance,_SE_corner,_2019_Lip%C3%B3tv%C3%A1ros.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Ministry_of_Finance%2C_SW_gate%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg/1280px-Ministry_of_Finance%2C_SW_gate%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": ": Part of Budapest World Heritage Site. Former bank building now Ministry of Finance. Southwest gate/portal with 3+3 relief and two bronze?, round, wall lanterns - 2-3-4 József nádor Square, Lipótvár",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance,_SW_gate,_2019_Lip%C3%B3tv%C3%A1ros.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/4857/31250998767_b6f0bdc187_b.jpg",
+          "width": 1024,
+          "height": 706,
+          "kind": "photo",
+          "alt": "Several Documents Signed on Fringes of Special CARICOM Meeting",
+          "credit": "pmobarbados / flickr",
+          "license": "Public domain",
+          "source_url": "https://www.flickr.com/photos/141562286@N04/31250998767"
+        },
+        {
+          "url": "https://live.staticflickr.com/4839/44372960830_21f6056321_b.jpg",
+          "width": 1024,
+          "height": 554,
+          "kind": "photo",
+          "alt": "Several Documents Signed on Fringes of Special CARICOM Meeting",
+          "credit": "pmobarbados / flickr",
+          "license": "Public domain",
+          "source_url": "https://www.flickr.com/photos/141562286@N04/44372960830"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Reagan_and_Gorbachev_signing.jpg/1280px-Reagan_and_Gorbachev_signing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 740,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "President Reagan (1911–2004) and  General Secretary Gorbachev (1931–2022) signing the  INF Treaty in the East Room of the White House on 8 December 1987",
+          "credit": "White House Photographic Office / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Reagan_and_Gorbachev_signing.jpg"
         }
       ],
       "story": [
@@ -5431,7 +5429,7 @@
       "expires_at": null,
       "review": {
         "title": 2,
-        "image": -1,
+        "image": 0,
         "sent_at": "2026-10-01T12:34:08+00:00",
         "msg_ids": [
           530,
@@ -5459,9 +5457,17 @@
           576,
           577,
           578,
-          579
+          579,
+          582,
+          583,
+          584,
+          585,
+          586,
+          587,
+          588,
+          589
         ],
-        "control_id": 580,
+        "control_id": 590,
         "title_prompt_id": 569,
         "custom_title": "Komoly személycserék történtek a Nemzeti Adó és Vámhivatalnál"
       },
@@ -5479,25 +5485,41 @@
         "Budapest street sign",
         "resignation letter",
         "empty office desk",
-        "business handshake"
+        "business handshake",
+        "Tamásné Czinege Csilla",
+        "Domokos Ferenc",
+        "Szűcs Gábor László",
+        "Rózsáné Sádt Mónika",
+        "Hungarian Ministry of Finance building",
+        "document signing",
+        "empty chair",
+        "press conference microphone"
       ],
       "images_seen": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ministry_of_Finance_%28Hungary%29_%282%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://live.staticflickr.com/7728/18159454855_813e02f001_b.jpg",
         "https://live.staticflickr.com/2880/9569863543_25b4aed497_b.jpg",
         "https://live.staticflickr.com/7128/6984657584_561f45afca_b.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Budapest%2C_Budai_V%C3%A1r%2C_vissza%C3%A9p%C3%ADtett_P%C3%A9nz%C3%BCgyminiszt%C3%A9rium%2C_11.jpg/1280px-Budapest%2C_Budai_V%C3%A1r%2C_vissza%C3%A9p%C3%ADtett_P%C3%A9nz%C3%BCgyminiszt%C3%A9rium%2C_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Street_sign_of_L%C3%B3r%C3%A1nt_Way._-_Budapest%2C_XII._district..JPG/1280px-Street_sign_of_L%C3%B3r%C3%A1nt_Way._-_Budapest%2C_XII._district..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL2ZydGF4X3JldHVybl9jb250cm9sX3RheC1pbWFnZS1reWJha2g2ci5qcGc.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Building_of_the_former_Ministry_of_Transport_and_Communication._Monument_ID_826_Now_Stamp_Museum_and_the_Tax_Authority_offices_-_Budapest%2C_VII._Dob_St_75-81.%2C_H%C3%A1rsfa_St_47.%2C_Csengery_J%C3%A1nos_St_14-16.JPG/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Finanzamt-wedding_osloer-str-36-37_2023-09-17.png/1280px-Finanzamt-wedding_osloer-str-36-37_2023-09-17.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Ministry_of_Finance_%28Hungary%29_%289%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Budapest%2C_Kossuth_Lajos_t%C3%A9r%2C_metr%C3%B3_2.jpg/1280px-Budapest%2C_Kossuth_Lajos_t%C3%A9r%2C_metr%C3%B3_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ministry_of_Finance_%28Hungary%29_%282%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Budapest_Holl%C3%B3_street_sign.jpg/1280px-Budapest_Holl%C3%B3_street_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Budapest%2C_Budai_V%C3%A1r%2C_vissza%C3%A9p%C3%ADtett_P%C3%A9nz%C3%BCgyminiszt%C3%A9rium%2C_2.jpg/1280px-Budapest%2C_Budai_V%C3%A1r%2C_vissza%C3%A9p%C3%ADtett_P%C3%A9nz%C3%BCgyminiszt%C3%A9rium%2C_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/6/6e/Skatteskrapan_%28old_Tax_Authority_Building%29_2009_Stockholm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z5.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z2.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Slave_Tax_Document_New_Orleans_-_03.jpg/1280px-Slave_Tax_Document_New_Orleans_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Budapest%2C_Budai_V%C3%A1r%2C_vissza%C3%A9p%C3%ADtett_P%C3%A9nz%C3%BCgyminiszt%C3%A9rium%2C_11.jpg/1280px-Budapest%2C_Budai_V%C3%A1r%2C_vissza%C3%A9p%C3%ADtett_P%C3%A9nz%C3%BCgyminiszt%C3%A9rium%2C_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Finanzamt-wedding_osloer-str-36-37_2023-09-17.png/1280px-Finanzamt-wedding_osloer-str-36-37_2023-09-17.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6e/Skatteskrapan_%28old_Tax_Authority_Building%29_2009_Stockholm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Ministry_of_Finance_%28Hungary%29_%288%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Biarritz_2014.jpg/1280px-Biarritz_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Retro_Hungarian_Police_Car_3.jpg/1280px-Retro_Hungarian_Police_Car_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Retro_Hungarian_Police_Car_1.jpg/1280px-Retro_Hungarian_Police_Car_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z2.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
     }
   ]
