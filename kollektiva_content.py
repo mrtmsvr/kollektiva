@@ -87,6 +87,8 @@ class Config:
     openai_model: str
     gemini_key: str
     gemini_model: str
+    groq_key: str
+    groq_model: str
     output_dir: Path
     events_file: Path
     timezone: str
@@ -104,6 +106,8 @@ class Config:
             openai_model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
             gemini_key=os.getenv("GEMINI_API_KEY", ""),
             gemini_model=os.getenv("GEMINI_MODEL", "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash"),
+            groq_key=os.getenv("GROQ_API_KEY", ""),
+            groq_model=os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"),
             output_dir=(BASE_DIR / os.getenv("OUTPUT_DIR", "public/data")).resolve(),
             events_file=(BASE_DIR / os.getenv("RETRO_EVENTS_FILE", "data/retro_events.json")).resolve(),
             timezone=os.getenv("SITE_TIMEZONE", "Europe/Budapest"),
@@ -181,7 +185,7 @@ class AIClient:
         p = cfg.provider
         if p == "auto":
             p = ("anthropic" if cfg.anthropic_key else "gemini" if cfg.gemini_key
-                 else "openai" if cfg.openai_key else "mock")
+                 else "openai" if cfg.openai_key else "groq" if cfg.groq_key else "mock")
         if p == "gemini" and not cfg.gemini_key:
             log.warning("AI_PROVIDER=gemini, de nincs GEMINI_API_KEY – mock mód.")
             p = "mock"
@@ -206,10 +210,42 @@ class AIClient:
             return f"ai:openai:{self.cfg.openai_model}"
         if self.provider == "gemini":
             return f"ai:gemini:{self.cfg.gemini_model}"
+        if self.provider == "groq":
+            return f"ai:groq:{self.cfg.groq_model}"
         return "fallback"
 
-    def complete(self, system: str, prompt: str, max_tokens: int = 4000) -> str:
+    def _groq(self, system: str, prompt: str, max_tokens: int) -> str:
+        """Groq (ingyenes, gyors, OpenAI-kompatibilis): tartalék, ha a fő modell keretet/hibát ad, és a kis
+        feladatok (duplikáció, képkulcsszó, szavazás) gyors végrehajtója, hogy a fő keret a cikkírásra maradjon."""
         c = self.cfg
+        data = post_json("https://api.groq.com/openai/v1/chat/completions", {"Authorization": f"Bearer {c.groq_key}"},
+                         {"model": c.groq_model, "max_tokens": min(max_tokens, 8000),
+                          "response_format": {"type": "json_object"},
+                          "messages": [{"role": "system", "content": system}, {"role": "user", "content": prompt}]},
+                         c.http_timeout, 2)
+        return data["choices"][0]["message"]["content"]
+
+    def complete(self, system: str, prompt: str, max_tokens: int = 4000, light: bool = False) -> str:
+        """light=True: rövid segédfeladat – ha van Groq-kulcs, azzal megy (a fő modell kerete megmarad).
+        Ha a fő modell hibát ad (pl. elfogyott a napi keret), Groq-kal próbálja újra."""
+        groq = bool(self.cfg.groq_key) and self.provider != "groq"
+        if light and groq:
+            try:
+                return self._groq(system, prompt, max_tokens)
+            except Exception as e:  # noqa: BLE001
+                log.warning("Groq (segédfeladat) sikertelen, fő modell jön: %s", str(e)[:200])
+        try:
+            return self._complete_main(system, prompt, max_tokens)
+        except Exception as e:  # noqa: BLE001
+            if not groq:
+                raise
+            log.warning("Fő AI sikertelen (%s) – Groq tartalékkal próbálom.", str(e)[:200])
+            return self._groq(system, prompt, max_tokens)
+
+    def _complete_main(self, system: str, prompt: str, max_tokens: int) -> str:
+        c = self.cfg
+        if self.provider == "groq":
+            return self._groq(system, prompt, max_tokens)
         if self.provider == "anthropic":
             data = post_json(
                 "https://api.anthropic.com/v1/messages",
@@ -251,8 +287,8 @@ class AIClient:
             raise last or AIError("Nincs megadott Gemini modell")
         raise AIError("Mock módban nincs AI hívás")
 
-    def complete_json(self, system: str, prompt: str, max_tokens: int = 4000) -> dict:
-        text = self.complete(system, prompt, max_tokens)
+    def complete_json(self, system: str, prompt: str, max_tokens: int = 4000, light: bool = False) -> dict:
+        text = self.complete(system, prompt, max_tokens, light)
         return extract_json(text)
 
 
@@ -1660,8 +1696,39 @@ def related_story(a: dict, b: dict) -> bool:
     return a["source"] != b["source"] and shared >= 2 and shared / max(1, min(len(a["kw"]), len(b["kw"]))) >= 0.2
 
 
+def jina_text(url: str, timeout: int, limit: int = 4000) -> str:
+    """Jina Reader (r.jina.ai): bármely oldalt tiszta szöveggé alakít – akkor kell, ha a közvetlen letöltés
+    üres (JavaScriptes oldal, átirányítás, tiltás). Kulcs nélkül is megy (percenként ~20 kérés); JINA_API_KEY-jel több."""
+    if os.getenv("JINA_READER", "true").lower() not in ("1", "true", "yes"):
+        return ""
+    headers = {"User-Agent": "KollektivaBot/1.0", "Accept": "text/plain", "X-Return-Format": "text"}
+    if os.getenv("JINA_API_KEY"):
+        headers["Authorization"] = f"Bearer {os.getenv('JINA_API_KEY')}"
+    try:
+        with urllib.request.urlopen(urllib.request.Request("https://r.jina.ai/" + url, headers=headers),
+                                    timeout=min(timeout, 40)) as resp:
+            raw = resp.read(400_000).decode("utf-8", "ignore")
+    except (urllib.error.URLError, TimeoutError, OSError, ValueError):
+        return ""
+    paras = []
+    for line in raw.splitlines():
+        t = re.sub(r"!?\[([^\]]*)\]\([^)]*\)", r"\1", line).strip(" #*>-\t")
+        if len(t) >= 80 and not re.search(r"cookie|feliratkoz|előfizet|hírlevél|Minden jog fenntartva|^URL Source|^Title:", t, re.I):
+            paras.append(t)
+    return "\n".join(paras)[:limit]
+
+
 def fetch_article_text(url: str, timeout: int, limit: int = 4000) -> str:
-    """A forráscikk bekezdései (csak háttérnek a tényekhez – a szöveget nem vesszük át)."""
+    """A forráscikk bekezdései (csak háttérnek a tényekhez – a szöveget nem vesszük át).
+    Ha a közvetlen letöltés kevés szöveget ad, a Jina Readerrel próbálja."""
+    direct = _fetch_article_text_direct(url, timeout, limit)
+    if len(direct) >= 600:
+        return direct
+    via_jina = jina_text(url, timeout, limit)
+    return via_jina if len(via_jina) > len(direct) else direct
+
+
+def _fetch_article_text_direct(url: str, timeout: int, limit: int = 4000) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; KollektivaBot/1.0)",
                                                "Accept": "text/html"})
     try:
@@ -1763,7 +1830,7 @@ def same_story_as_recent(ai: "AIClient", group: list, recent_titles: list) -> bo
               + "\n\nUgyanarról a konkrét eseményről/ügyről szól az új hír, mint valamelyik megírt cikk? Ha csak a téma "
                 "hasonló (pl. két külön egészségügyi hír), az NEM ugyanaz. JSON: {\"same\": true/false, \"which\": sorszám vagy null}")
     try:
-        raw = ai.complete_json(DUP_SYSTEM, prompt, 150)
+        raw = ai.complete_json(DUP_SYSTEM, prompt, 150, light=True)
     except (AIError, ValueError, TypeError, KeyError) as e:
         log.warning("Duplikáció-ellenőrzés kimaradt: %s", e)
         return False
