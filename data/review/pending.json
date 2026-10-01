@@ -5268,7 +5268,7 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z5.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 900,
           "kind": "photo",
@@ -5276,10 +5276,10 @@
           "alt": "Budapest, Dózsa György út, Nemzeti Adó- és Vámhivatal székház",
           "credit": "12akd / Wikimedia Commons",
           "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt,_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt,_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z5.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z2.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 900,
           "kind": "photo",
@@ -5287,71 +5287,71 @@
           "alt": "Budapest, Dózsa György út, Nemzeti Adó- és Vámhivatal székház",
           "credit": "12akd / Wikimedia Commons",
           "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt,_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt,_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z2.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Budapest%2C_Budai_V%C3%A1r%2C_vissza%C3%A9p%C3%ADtett_P%C3%A9nz%C3%BCgyminiszt%C3%A9rium%2C_2.jpg/1280px-Budapest%2C_Budai_V%C3%A1r%2C_vissza%C3%A9p%C3%ADtett_P%C3%A9nz%C3%BCgyminiszt%C3%A9rium%2C_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1024,
+          "height": 900,
           "kind": "photo",
-          "pos": "top",
-          "alt": "Ministry of Finance (Hungary)",
-          "credit": "Elekes Andor / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary).jpg"
+          "pos": "center",
+          "alt": "Budapest, Budai Vár, visszaépített Pénzügyminisztérium",
+          "credit": "Random photos 1989 / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_Budai_V%C3%A1r,_vissza%C3%A9p%C3%ADtett_P%C3%A9nz%C3%BCgyminiszt%C3%A9rium,_2.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ministry_of_Finance_%28Hungary%29_%282%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Budapest%2C_Budai_V%C3%A1r%2C_vissza%C3%A9p%C3%ADtett_P%C3%A9nz%C3%BCgyminiszt%C3%A9rium%2C_11.jpg/1280px-Budapest%2C_Budai_V%C3%A1r%2C_vissza%C3%A9p%C3%ADtett_P%C3%A9nz%C3%BCgyminiszt%C3%A9rium%2C_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1027,
+          "height": 900,
           "kind": "photo",
-          "pos": "top",
-          "alt": "Ministry of Finance (Hungary)",
-          "credit": "Elekes Andor / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary)_(2).jpg"
+          "pos": "center",
+          "alt": "Budapest, Budai Vár, visszaépített Pénzügyminisztérium",
+          "credit": "Random photos 1989 / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_Budai_V%C3%A1r,_vissza%C3%A9p%C3%ADtett_P%C3%A9nz%C3%BCgyminiszt%C3%A9rium,_11.jpg"
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Skatteskrapan_%28old_Tax_Authority_Building%29_2009_Stockholm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Building_of_the_former_Ministry_of_Transport_and_Communication._Monument_ID_826_Now_Stamp_Museum_and_the_Tax_Authority_offices_-_Budapest%2C_VII._Dob_St_75-81.%2C_H%C3%A1rsfa_St_47.%2C_Csengery_J%C3%A1nos_St_14-16.JPG/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1613,
+          "height": 900,
           "kind": "photo",
-          "pos": "top",
-          "alt": "The Old Scotscraper Gamla Skatteskrapan on Goth StreetPlace: Stockholm, Sweden",
-          "credit": "Jacob Truedson Demitz for Ristesson / Wikimedia Commons",
+          "pos": "center",
+          "alt": "A volt Közlekedési, (Építési) és Hírközlési Minisztérium épülete. Műemlék ID 826 Ősmagyar harcosok a Hársfa utca sarkán. Rimanóczy Gyula építész. 1937-39. - Budapest, VII. kerület, Dob utca 75-81 = Há",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Building_of_the_former_Ministry_of_Transport_and_Communication._Monument_ID_826_Now_Stamp_Museum_and_the_Tax_Authority_offices_-_Budapest,_VII._Dob_St_75-81.,_H%C3%A1rsfa_St_47.,_Csengery_J%C3%A1nos_St_14-16.JPG"
+        },
+        {
+          "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL2ZydGF4X3JldHVybl9jb250cm9sX3RheC1pbWFnZS1reWJha2g2ci5qcGc.jpg",
+          "width": 4000,
+          "height": 2667,
+          "kind": "photo",
+          "alt": "German tax document",
+          "credit": "ismeretlen szerző / rawpixel",
           "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Skatteskrapan_(old_Tax_Authority_Building)_2009_Stockholm.jpg"
+          "source_url": "https://www.rawpixel.com/image/6017838/photo-image-paper-public-domain-office"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Finanzamt-wedding_osloer-str-36-37_2023-09-17.png/1280px-Finanzamt-wedding_osloer-str-36-37_2023-09-17.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 929,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "The Finanzamt Wedding (tax authority building) at Osloer Straße 36-37, Berlin-Mitte. Designed 1966–67 by Rainer G. Rümmler.",
-          "credit": "Babewyn / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Finanzamt-wedding_osloer-str-36-37_2023-09-17.png"
-        },
-        {
-          "url": "https://live.staticflickr.com/2880/9569863543_25b4aed497_b.jpg",
+          "url": "https://live.staticflickr.com/7128/6984657584_561f45afca_b.jpg",
           "width": 1024,
           "height": 768,
           "kind": "photo",
-          "alt": "Office Buildings",
-          "credit": "oatsy40 / flickr",
+          "alt": "Filing Taxes - 1040 Form",
+          "credit": "Philip Taylor PT / flickr",
           "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/68089229@N06/9569863543"
+          "source_url": "https://www.flickr.com/photos/9731367@N02/6984657584"
         },
         {
-          "url": "https://live.staticflickr.com/7728/18159454855_813e02f001_b.jpg",
-          "width": 1024,
-          "height": 819,
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Slave_Tax_Document_New_Orleans_-_03.jpg/1280px-Slave_Tax_Document_New_Orleans_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 614,
           "kind": "photo",
-          "alt": "Steel office building",
-          "credit": "SteelMaster Buildings / flickr",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://www.flickr.com/photos/35055618@N07/18159454855"
+          "pos": "center",
+          "alt": "Reciept for payment of $1  tax on slave, New Orleans, 1833",
+          "credit": "City Treasury, New Orleans / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Slave_Tax_Document_New_Orleans_-_03.jpg"
         }
       ],
       "story": [
@@ -5411,11 +5411,38 @@
           536,
           537,
           538,
-          539
+          539,
+          543,
+          544,
+          545,
+          546,
+          547,
+          548,
+          549,
+          550
         ],
-        "control_id": 540,
+        "control_id": 551,
         "title_prompt_id": 541
-      }
+      },
+      "image_queries": [
+        "Nemzeti Adó- és Vámhivatal",
+        "Pénzügyminisztérium Budapest",
+        "Hungarian tax authority building",
+        "tax office interior Hungary",
+        "tax document",
+        "office desk",
+        "business meeting"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ministry_of_Finance_%28Hungary%29_%282%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/7728/18159454855_813e02f001_b.jpg",
+        "https://live.staticflickr.com/2880/9569863543_25b4aed497_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Finanzamt-wedding_osloer-str-36-37_2023-09-17.png/1280px-Finanzamt-wedding_osloer-str-36-37_2023-09-17.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6e/Skatteskrapan_%28old_Tax_Authority_Building%29_2009_Stockholm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg/1280px-Budapest%2C_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Nemzeti_Ad%C3%B3-_%C3%A9s_V%C3%A1mhivatal_sz%C3%A9kh%C3%A1z4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     }
   ]
 }
