@@ -8959,7 +8959,7 @@
     {
       "id": "74e92860-e064-5d6d-a395-9f3217a22bc6",
       "slug": "2026-10-01-minden-tizenharmadik-fiatal-ereiben-ott-rejlik-a-baj",
-      "status": "pending",
+      "status": "published",
       "category": "eletmod",
       "subcategory": null,
       "tags": [
@@ -8989,15 +8989,15 @@
       "word_count": 354,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Rigshospitalet_Copenhagen_2005-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Infers_group_arting_health_2018_street_art_graffiti_cardiovascular_disease_hypertension_funded_by_welcome_5112x4368.jpg/1280px-Infers_group_arting_health_2018_street_art_graffiti_cardiovascular_disease_hypertension_funded_by_welcome_5112x4368.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 804,
+        "height": 1025,
         "kind": "photo",
-        "pos": "center",
-        "alt": "Rigshospitalet in Copenhagen, Denmark. Taken November 12, 2005, by Henrik Jessen.\n\nThe largest hospital in Denmark. The picture shows the main entrance and the 16 storeyed central building completed i",
-        "credit": "No machine-readable author provided. Heje assumed (based on copyright claims). / Wikimedia Commons",
-        "license": "CC BY 2.5",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Rigshospitalet_Copenhagen_2005-11.jpg"
+        "pos": "top",
+        "alt": "The man in the image is bent over in pain and clutching his heart,\nshowing the agony of not taking care of our hearts. The blue colour\nrepresents the mood of the topic – cold.\nThe exaggerated heart re",
+        "credit": "James-Alex Matthews, Infers Group / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Infers_group_arting_health_2018_street_art_graffiti_cardiovascular_disease_hypertension_funded_by_welcome_5112x4368.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -9133,7 +9133,7 @@
         "meta_title": "Minden tizenharmadik fiatal ereiben ott rejlik a baj",
         "meta_description": "A tizennyolc és huszonkilenc év közötti korosztály mintegy hét százalékánál már kimutathatók a rejtett érrendszeri lerakódások, jóllehet ők maguk teljesen egész",
         "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-01-minden-tizenharmadik-fiatal-ereiben-ott-rejlik-a-baj/",
-        "og_image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Rigshospitalet_Copenhagen_2005-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Infers_group_arting_health_2018_street_art_graffiti_cardiovascular_disease_hypertension_funded_by_welcome_5112x4368.jpg/1280px-Infers_group_arting_health_2018_street_art_graffiti_cardiovascular_disease_hypertension_funded_by_welcome_5112x4368.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -9150,9 +9150,9 @@
       "dedupe_hash": "22beea4eaee56afc829ec7fbb06267aa6673a17046bcfd7bae14cef54c3fa9ae",
       "pipeline_run_id": "36923287538",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T22:43:44+02:00",
-      "updated_at": "2026-10-01T22:43:44+02:00",
-      "published_at": "2026-10-01T22:43:44+02:00",
+      "created_at": "2026-10-01T22:45:17+02:00",
+      "updated_at": "2026-10-01T22:45:17+02:00",
+      "published_at": "2026-10-01T22:45:17+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -9171,7 +9171,8 @@
           988
         ],
         "control_id": 989
-      }
+      },
+      "live": true
     }
   ]
 }
