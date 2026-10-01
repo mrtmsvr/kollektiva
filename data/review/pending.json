@@ -4750,7 +4750,7 @@
     {
       "id": "3196c298-0cfe-5c09-be03-d5df3428ec10",
       "slug": "2026-10-01-szaz-dollar-felett-az-olajar-a-tozsdeken",
-      "status": "pending",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -4781,15 +4781,14 @@
       "word_count": 276,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 798,
+        "url": "https://live.staticflickr.com/8767/28358183642_27c29665be_b.jpg",
+        "width": 1024,
+        "height": 683,
         "kind": "photo",
-        "pos": "center",
-        "alt": "Budapest's Stock Exchange Palace in Szabadság tér.",
-        "credit": "Illustratedjc / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace.jpg"
+        "alt": "3D Increasing Oil Prices",
+        "credit": "ccPixs.com / flickr",
+        "license": "CC BY 2.0",
+        "source_url": "https://www.flickr.com/photos/86530412@N02/28358183642"
       },
       "inline_images": [],
       "sources": [
@@ -4925,7 +4924,7 @@
         "meta_title": "Száz dollár felett az olajár a tőzsdéken",
         "meta_description": "Megingottak a globális piacok, miután a brent hordónkénti ára átlépte a száz dolláros határt a kínai exportfelfüggesztési hírek hatására. Eközben az amerikai ál",
         "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-01-szaz-dollar-felett-az-olajar-a-tozsdeken/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://live.staticflickr.com/8767/28358183642_27c29665be_b.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -4950,9 +4949,9 @@
       "dedupe_hash": "d58d32a97913edefadc56123d38a4f996c26208c3629295362bc16d223712f6b",
       "pipeline_run_id": "36861986596",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T14:28:59+02:00",
-      "updated_at": "2026-10-01T14:28:59+02:00",
-      "published_at": "2026-10-01T14:28:59+02:00",
+      "created_at": "2026-10-01T14:40:24+02:00",
+      "updated_at": "2026-10-01T14:40:24+02:00",
+      "published_at": "2026-10-01T14:40:24+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -4999,7 +4998,8 @@
         "https://live.staticflickr.com/7312/9677861633_cc1d703f56_b.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Budapest_Stock_Exchange_Palace_%2806%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/USMC-120203-M-OB827-005.jpg/1280px-USMC-120203-M-OB827-005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "6b5d437b-1a89-5531-9756-593d69d09b77",

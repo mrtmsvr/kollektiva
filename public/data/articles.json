@@ -1,7 +1,131 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01T14:39:14+02:00",
+  "updated_at": "2026-10-01T14:40:24+02:00",
   "articles": [
+    {
+      "id": "3196c298-0cfe-5c09-be03-d5df3428ec10",
+      "slug": "2026-10-01-szaz-dollar-felett-az-olajar-a-tozsdeken",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "tőzsde",
+        "olajár",
+        "gazdaság",
+        "Mol",
+        "BUX"
+      ],
+      "title": "Száz dollár felett az olajár a tőzsdéken",
+      "subtitle": null,
+      "lead": "Megingottak a globális piacok, miután a brent hordónkénti ára átlépte a száz dolláros határt a kínai exportfelfüggesztési hírek hatására. Eközben az amerikai államkötvényhozamok több évtizedes csúcsra szöktek, ami az európai és a hazai részvényeket is lefelé húzta.",
+      "key_points": [
+        "A brent típusú olaj ára 100 dollár fölé emelkedett a kínai finomítók lépései nyomán.",
+        "Az amerikai 10 éves államkötvényhozam több mint 20 éves csúcsot ért el.",
+        "A BUX index is gyengült, amiben a hazai tőzsdei óriás, az OTP szerepe volt a legjelentősebb.",
+        "A Mol közben felmondta az Alteóra vonatkozó részvénycserés tranzakciót."
+      ],
+      "content": "A szerdai kereskedési nap hátrányosan érintette a globális tőzsdéket, különösen az energiaszektor és a bankpapírok piacát. A Portfolio híradása szerint a brent olaj ára 2,7 százalékos drágulással ismét 100 dollár fölé kúszott, miután piaci információk szerint a kínai finomítók leállíthatják az októberi üzemanyag-exportot a belföldi ellátás biztonsága érdekében. Ezzel párhuzamosan a WTI olaj is 2,6 százalékos pluszban zárt, miközben az amerikai 10 éves államkötvényhozam több mint két évtizedes csúcsra emelkedett.\n\nAz európai parketteken délelőtt komolyabb esés alakult ki a bankpapírok vezetésével, bár délutánra némileg enyhültek a veszteségek. A német DAX csupán 0,1 százalékos mínuszba korrigált vissza, a brit FTSE-100 index 1,2 százalékos, a francia CAC-40 pedig 0,6 százalékos esést mutatott. A budapesti BUX index szintén lefelé tartott, a nap folyamán 1,3 százalékos mínuszban is járt, amiben meghatározó szerepet játszott az OTP 2,7 százalékos esése is, mielőtt a papír valamelyest szépített.\n\nA hazai nagyvállalatok körében más fronton is történt változás, ugyanis a Mol Nyrt. bejelentette: kútba esett a Waberer's-részesedés és az Alteo papírok cseréjére tervezett tranzakció. Az áprilisban megállapodott üzlet keretében a Mol közel 40 százalékra növelte volna részesedését az Alteóban a Waberer'sben lévő 15 százalékos pakettjéért cserébe, ám a hatósági jóváhagyások hiánya miatt a vállalat végül a szerződések felmondása mellett döntött. A 4iG Csoport háza táján is akadt hír, hiszen a Moody's Ratings Ba1 besorolást adott a cég távközlési portfólióját összefogó holdingnak, pozitív kilátások mellett.",
+      "content_format": "markdown",
+      "body": [
+        "A szerdai kereskedési nap hátrányosan érintette a globális tőzsdéket, különösen az energiaszektor és a bankpapírok piacát. A Portfolio híradása szerint a brent olaj ára 2,7 százalékos drágulással ismét 100 dollár fölé kúszott, miután piaci információk szerint a kínai finomítók leállíthatják az októberi üzemanyag-exportot a belföldi ellátás biztonsága érdekében. Ezzel párhuzamosan a WTI olaj is 2,6 százalékos pluszban zárt, miközben az amerikai 10 éves államkötvényhozam több mint két évtizedes csúcsra emelkedett.",
+        "Az európai parketteken délelőtt komolyabb esés alakult ki a bankpapírok vezetésével, bár délutánra némileg enyhültek a veszteségek. A német DAX csupán 0,1 százalékos mínuszba korrigált vissza, a brit FTSE-100 index 1,2 százalékos, a francia CAC-40 pedig 0,6 százalékos esést mutatott. A budapesti BUX index szintén lefelé tartott, a nap folyamán 1,3 százalékos mínuszban is járt, amiben meghatározó szerepet játszott az OTP 2,7 százalékos esése is, mielőtt a papír valamelyest szépített.",
+        "A hazai nagyvállalatok körében más fronton is történt változás, ugyanis a Mol Nyrt. bejelentette: kútba esett a Waberer's-részesedés és az Alteo papírok cseréjére tervezett tranzakció. Az áprilisban megállapodott üzlet keretében a Mol közel 40 százalékra növelte volna részesedését az Alteóban a Waberer'sben lévő 15 százalékos pakettjéért cserébe, ám a hatósági jóváhagyások hiánya miatt a vállalat végül a szerződések felmondása mellett döntött. A 4iG Csoport háza táján is akadt hír, hiszen a Moody's Ratings Ba1 besorolást adott a cég távközlési portfólióját összefogó holdingnak, pozitív kilátások mellett."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 276,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://live.staticflickr.com/8767/28358183642_27c29665be_b.jpg",
+        "width": 1024,
+        "height": 683,
+        "kind": "photo",
+        "alt": "3D Increasing Oil Prices",
+        "credit": "ccPixs.com / flickr",
+        "license": "CC BY 2.0",
+        "source_url": "https://www.flickr.com/photos/86530412@N02/28358183642"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/uzlet/20261001/szepitenek-az-europai-tozsdek-merseklodnek-az-esesek-866508",
+          "title": "Szépítenek az európai tőzsdék, mérséklődnek az esések",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-01T14:28:59+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-01T14:40:24+02:00"
+      },
+      "hot_score": 6.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/uzlet/20261001/szepitenek-az-europai-tozsdek-merseklodnek-az-esesek-866508"
+        ]
+      },
+      "date": "2026-10-01",
+      "date_label": "október 1.",
+      "url": "/penzvilag/2026-10-01-szaz-dollar-felett-az-olajar-a-tozsdeken/",
+      "seo": {
+        "meta_title": "Száz dollár felett az olajár a tőzsdéken",
+        "meta_description": "Megingottak a globális piacok, miután a brent hordónkénti ára átlépte a száz dolláros határt a kínai exportfelfüggesztési hírek hatására. Eközben az amerikai ál",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-01-szaz-dollar-felett-az-olajar-a-tozsdeken/",
+        "og_image": "https://live.staticflickr.com/8767/28358183642_27c29665be_b.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "9728c2d8-7373-5c63-8a99-b84e32bf0fb8"
+      ],
+      "see_also": [
+        {
+          "title": "Váratlan fordulat: erősödéssel zárta a reggelt a forint",
+          "url": "/penzvilag/2026-09-30-varatlan-fordulat-erosodessel-zarta-a-reggelt-a-forint/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "d58d32a97913edefadc56123d38a4f996c26208c3629295362bc16d223712f6b",
+      "pipeline_run_id": "36861986596",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-01T14:40:24+02:00",
+      "updated_at": "2026-10-01T14:40:24+02:00",
+      "published_at": "2026-10-01T14:40:24+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "BUX index",
+        "Mol Nyrt",
+        "OTP Bank",
+        "London Stock Exchange",
+        "New York Stock Exchange",
+        "falling stock market",
+        "crude oil barrels",
+        "financial trading floor"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/OTP_Bank%2C_2018_Sashalom.jpg/1280px-OTP_Bank%2C_2018_Sashalom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/4124/4845905314_8b4ce58572_b.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b2/Portraits_of_WAAF_Servicewomen_Based_at_RAF_Watnall%2C_Headquarters_of_No._12_Group_Royal_Air_Force_Fighter_Command_during_the_Second_World_War_HU91762.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/OTP_Bank%2C_Pozsonyi_Stra%C3%9Fe%2C_2021_Budapest.jpg/1280px-OTP_Bank%2C_Pozsonyi_Stra%C3%9Fe%2C_2021_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/7312/9677861633_cc1d703f56_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Budapest_Stock_Exchange_Palace_%2806%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/USMC-120203-M-OB827-005.jpg/1280px-USMC-120203-M-OB827-005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
+    },
     {
       "id": "8689d8be-bcaf-56bc-9e52-6b1c6ba4c4d6",
       "slug": "2026-10-01-igy-dolt-ossze-az-aranykonvoj-ugy",
