@@ -2109,7 +2109,7 @@
     {
       "id": "e3720ddc-88e8-5018-9454-6b6fdaed57f9",
       "slug": "2026-10-01-mi-rejtozik-a-fekete-lyukak-hatarain-tul",
-      "status": "pending",
+      "status": "published",
       "category": "univerzum",
       "subcategory": "olvasnivalo",
       "tags": [
@@ -2146,15 +2146,15 @@
       "word_count": 510,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Apparent_image_of_the_accretion_disks_of_a_black_hole_-_Hat.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Black_hole_-_Messier_87.jpg/1280px-Black_hole_-_Messier_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 574,
+        "height": 699,
         "kind": "photo",
         "pos": "center",
-        "alt": "Accretion disks light passing above a black hole, thus constituting the \"hat\". In this example, the radii of the accretion disks are 3rs, 4rs, 5rs, 6rs, 7rs and 8rs, with respect to an observer standi",
-        "credit": "Cornelius Fyla / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Apparent_image_of_the_accretion_disks_of_a_black_hole_-_Hat.png"
+        "alt": "The Event Horizon Telescope (EHT) — a planet-scale array of eight ground-based radio telescopes forged through international collaboration — was designed to capture images of a black hole. In coordina",
+        "credit": "Event Horizon Telescope / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -2344,7 +2344,7 @@
         "meta_title": "Mi rejtőzik a fekete lyukak határain túl?",
         "meta_description": "A fekete lyukak a téridő olyan tartományai, ahonnan az erős gravitáció miatt még a fény sem tud távozni, ám a belsejükben zajló fizikai folyamatok máig lázban t",
         "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-01-mi-rejtozik-a-fekete-lyukak-hatarain-tul/",
-        "og_image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Apparent_image_of_the_accretion_disks_of_a_black_hole_-_Hat.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Black_hole_-_Messier_87.jpg/1280px-Black_hole_-_Messier_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "Article"
       },
@@ -2359,9 +2359,9 @@
       "dedupe_hash": "2928c0b2a8281f23824a9ddcb669d7ba918ee816eba3527b8bf96c41fdf03e80",
       "pipeline_run_id": "36818722855",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T07:13:50+02:00",
-      "updated_at": "2026-10-01T07:13:50+02:00",
-      "published_at": null,
+      "created_at": "2026-10-01T10:09:37+02:00",
+      "updated_at": "2026-10-01T10:09:37+02:00",
+      "published_at": "2026-10-01T10:09:37+02:00",
       "expires_at": null,
       "schedule": {
         "earliest": "2026-10-01T09:13:18+02:00",
@@ -2384,7 +2384,8 @@
           311
         ],
         "control_id": 312
-      }
+      },
+      "live": true
     },
     {
       "id": "b280525b-357b-5d8f-a16f-06f381b33c93",
