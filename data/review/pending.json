@@ -9179,7 +9179,7 @@
     {
       "id": "26d5ba58-79ef-57b7-bbf6-c06de344f292",
       "slug": "2026-10-02-csaladi-agon-erkezik-az-uj-megasztar-versenyzo",
-      "status": "pending",
+      "status": "published",
       "category": "bulvar",
       "subcategory": null,
       "tags": [
@@ -9388,9 +9388,9 @@
       "dedupe_hash": "a35bfe21efba710d7f5e5ced4e9451db96e9316a287acedb65f293070b4c9f15",
       "pipeline_run_id": "36962872003",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T06:03:56+02:00",
-      "updated_at": "2026-10-02T06:03:56+02:00",
-      "published_at": "2026-10-02T06:03:56+02:00",
+      "created_at": "2026-10-02T06:42:04+02:00",
+      "updated_at": "2026-10-02T06:42:04+02:00",
+      "published_at": "2026-10-02T06:42:04+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -9409,12 +9409,13 @@
           1012
         ],
         "control_id": 1013
-      }
+      },
+      "live": true
     },
     {
       "id": "0b0e5816-77aa-56fe-809f-7f33a825be0c",
       "slug": "2026-10-02-120-ezer-forintra-emelik-a-minimalnyugdijat",
-      "status": "pending",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -9615,9 +9616,9 @@
       "dedupe_hash": "23f043c1632f39abaca32651c0297f4d25426f3b7b6b38f2120f3ac8ebd5e342",
       "pipeline_run_id": "36962872003",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T06:06:52+02:00",
-      "updated_at": "2026-10-02T06:06:52+02:00",
-      "published_at": "2026-10-02T06:06:52+02:00",
+      "created_at": "2026-10-02T06:42:04+02:00",
+      "updated_at": "2026-10-02T06:42:04+02:00",
+      "published_at": "2026-10-02T06:42:04+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -9635,12 +9636,13 @@
           1022
         ],
         "control_id": 1023
-      }
+      },
+      "live": true
     },
     {
       "id": "46e17fc6-8aae-5ec2-9695-695a7e933497",
       "slug": "2026-10-02-igy-kolt-el-1-4-milliard-dollart-a-nasa",
-      "status": "pending",
+      "status": "published",
       "category": "univerzum",
       "subcategory": null,
       "tags": [
@@ -9809,9 +9811,9 @@
       "dedupe_hash": "1610a9532065857699b163c33cd6890b43b8cb46e4a3c17764ec73a120a4a9e8",
       "pipeline_run_id": "36962872003",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T06:07:35+02:00",
-      "updated_at": "2026-10-02T06:07:35+02:00",
-      "published_at": "2026-10-02T06:07:35+02:00",
+      "created_at": "2026-10-02T06:42:05+02:00",
+      "updated_at": "2026-10-02T06:42:05+02:00",
+      "published_at": "2026-10-02T06:42:05+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -9828,12 +9830,13 @@
           1031
         ],
         "control_id": 1032
-      }
+      },
+      "live": true
     },
     {
       "id": "7d054cd3-9288-5a5a-af86-6652d490db70",
       "slug": "2026-10-02-grimm-mesektol-a-fegyverekig-ezt-kinalja-a-multishoot",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -10025,9 +10028,9 @@
       "dedupe_hash": "66f08f857946386f5261837063159b432b2c7943b5534eb7aabcdfc53e947d31",
       "pipeline_run_id": "36962872003",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T06:08:16+02:00",
-      "updated_at": "2026-10-02T06:08:16+02:00",
-      "published_at": "2026-10-02T06:08:16+02:00",
+      "created_at": "2026-10-02T06:42:06+02:00",
+      "updated_at": "2026-10-02T06:42:06+02:00",
+      "published_at": "2026-10-02T06:42:06+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -10046,7 +10049,8 @@
           1042
         ],
         "control_id": 1043
-      }
+      },
+      "live": true
     }
   ]
 }

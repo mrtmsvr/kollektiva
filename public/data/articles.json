@@ -1,7 +1,422 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01T22:45:42+02:00",
+  "updated_at": "2026-10-02T06:42:06+02:00",
   "articles": [
+    {
+      "id": "7d054cd3-9288-5a5a-af86-6652d490db70",
+      "slug": "2026-10-02-grimm-mesektol-a-fegyverekig-ezt-kinalja-a-multishoot",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Multishoot",
+        "Orbán Áron",
+        "fegyverkereskedelem",
+        "lövészet",
+        "üzlet"
+      ],
+      "title": "Grimm-meséktől a fegyverekig: ezt kínálja a Multishoot",
+      "subtitle": null,
+      "lead": "Mesefigurákról elnevezett, éles lőfegyvereket használó élménylövészeti csomagokat kínál a lakosságnak egy fegyverkereskedő cég, amelynek vezetője az elmúlt időszakban veszteséges évet zárt.",
+      "key_points": [
+        "A Multishoot Zrt. kínálatában mesefigurák nevét viselő élménylövészeti csomagok szerepelnek.",
+        "A csomagok ára 16 500 és 39 500 forint között mozog a lövésszámtól és a fegyverek típusától függően.",
+        "A cég vezérigazgatója és 2024 vége óta tulajdonosa Orbán Áron."
+      ],
+      "content": "Vérpezsdítő élménylövészetet és közösségi élményt hirdet honlapján a Multishoot Zrt., amelynek élménycsomagjait gyerekkorunk klasszikus Grimm-mesehősei, valamint Hófehérke és a hét törpe szereplői után nevezték el. A fegyverkereskedéssel, lakossági harcászattal, építőipari szakmunkákkal és követelésbehajtással is foglalkozó vállalkozás kínálatában hét különböző csomag található, amelyek ára fejenként 16 500 forinttól 39 500 forintig terjed.\n\nA hvg.hu beszámolója szerint a Kuka fantázianevű csomagban Kalasnyikovval lőhetnek az érdeklődők, míg a Morgó csomag már nagy kaliberű mesterlövészfegyvereket tartalmaz. Ez utóbbiban két lövés adható le egy svájci-német gyökerű, amerikai SIG Sauer SSG 3000-es puskával, valamint egyetlen lövés a magyar tervezésű és gyártású GM-6 Lynx félautomata nagykaliberű puskával. A kínálatban szerepel továbbá a Hófehérke nevű óradíjas opció, a Vadász, a Herceg, a Modern mostoha, valamint a 90 lövést biztosító Páros csomag és a vadnyugati elemeket is tartalmazó Winnetou csomag.\n\nA vállalkozás élén 2022 óta vezérigazgatóként, 2024 vége óta pedig tulajdonosként jelen lévő Orbán Áron korábban egy másik orvos-vállalkozótól vette át a cég részvényeit. A zámolyi lőtér mindössze nyolc kilométerre fekszik az édesapja, idősebb Orbán Győző gánti kőbányájától.\n\nA cég pénzügyi eredményei az utóbbi időben jelentős visszaesést mutattak. Míg korábban előfordult, hogy 271 millió forintos bevétel mellett 55 millió forintos profitot ért el a vállalkozás, a 2023-as évben mindössze 54,7 millió forintos bevételt könyvelhettek el, amihez 51 millió forintos veszteség társult.",
+      "content_format": "markdown",
+      "body": [
+        "Vérpezsdítő élménylövészetet és közösségi élményt hirdet honlapján a Multishoot Zrt., amelynek élménycsomagjait gyerekkorunk klasszikus Grimm-mesehősei, valamint Hófehérke és a hét törpe szereplői után nevezték el. A fegyverkereskedéssel, lakossági harcászattal, építőipari szakmunkákkal és követelésbehajtással is foglalkozó vállalkozás kínálatában hét különböző csomag található, amelyek ára fejenként 16 500 forinttól 39 500 forintig terjed.",
+        "A hvg.hu beszámolója szerint a Kuka fantázianevű csomagban Kalasnyikovval lőhetnek az érdeklődők, míg a Morgó csomag már nagy kaliberű mesterlövészfegyvereket tartalmaz. Ez utóbbiban két lövés adható le egy svájci-német gyökerű, amerikai SIG Sauer SSG 3000-es puskával, valamint egyetlen lövés a magyar tervezésű és gyártású GM-6 Lynx félautomata nagykaliberű puskával. A kínálatban szerepel továbbá a Hófehérke nevű óradíjas opció, a Vadász, a Herceg, a Modern mostoha, valamint a 90 lövést biztosító Páros csomag és a vadnyugati elemeket is tartalmazó Winnetou csomag.",
+        "A vállalkozás élén 2022 óta vezérigazgatóként, 2024 vége óta pedig tulajdonosként jelen lévő Orbán Áron korábban egy másik orvos-vállalkozótól vette át a cég részvényeit. A zámolyi lőtér mindössze nyolc kilométerre fekszik az édesapja, idősebb Orbán Győző gánti kőbányájától.",
+        "A cég pénzügyi eredményei az utóbbi időben jelentős visszaesést mutattak. Míg korábban előfordult, hogy 271 millió forintos bevétel mellett 55 millió forintos profitot ért el a vállalkozás, a 2023-as évben mindössze 54,7 millió forintos bevételt könyvelhettek el, amihez 51 millió forintos veszteség társult."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 241,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Viktor_Orb%C3%A1n_2023.jpg/1280px-Viktor_Orb%C3%A1n_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1666,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Santiago Abascal se reúne con Viktor Orbán y Eduardo Bolsonaro en ocasión de la asistencia de la jura como presidente de Argentina de Javier Milei en Buenos Aires.",
+        "credit": "Vox España / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Orb%C3%A1n_2023.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261002_hapci-tudor-hofeherke-loveszeti-elmenycsomagok-orban-aron-multishoot",
+          "title": "Hapci, Hófehérke és Modern mostoha – ilyen lövészeti élménycsomagokat kínál Orbán Viktor öccsének cége",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T06:08:16+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-02T06:42:06+02:00"
+      },
+      "hot_score": 5.75,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261002_hapci-tudor-hofeherke-loveszeti-elmenycsomagok-orban-aron-multishoot"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/kozelet/2026-10-02-grimm-mesektol-a-fegyverekig-ezt-kinalja-a-multishoot/",
+      "seo": {
+        "meta_title": "Grimm-meséktől a fegyverekig: ezt kínálja a Multishoot",
+        "meta_description": "Mesefigurákról elnevezett, éles lőfegyvereket használó élménylövészeti csomagokat kínál a lakosságnak egy fegyverkereskedő cég, amelynek vezetője az elmúlt idős",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-02-grimm-mesektol-a-fegyverekig-ezt-kinalja-a-multishoot/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Viktor_Orb%C3%A1n_2023.jpg/1280px-Viktor_Orb%C3%A1n_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "66f08f857946386f5261837063159b432b2c7943b5534eb7aabcdfc53e947d31",
+      "pipeline_run_id": "36962872003",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T06:42:06+02:00",
+      "updated_at": "2026-10-02T06:42:06+02:00",
+      "published_at": "2026-10-02T06:42:06+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "46e17fc6-8aae-5ec2-9695-695a7e933497",
+      "slug": "2026-10-02-igy-kolt-el-1-4-milliard-dollart-a-nasa",
+      "status": "published",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "űrkutatás",
+        "logisztika",
+        "pénzügyek"
+      ],
+      "title": "Így költ el 1,4 milliárd dollárt a NASA",
+      "subtitle": null,
+      "lead": "Tizenhat céggel kötött új, átfogó logisztikai megállapodást a NASA, hogy hatékonyabban kezelje erőforrásait és eszközeit. Az 1,4 milliárd dolláros keretösszegű program egységesíti a beszerzéseket és a szállítási műveleteket.",
+      "key_points": [
+        "A NASA 16 céggel szerződött le az Enterprise Logistics Support Services keretén belül.",
+        "A program teljes keretösszege 1,4 milliárd dollárra rúg.",
+        "Az új megállapodások célja a költségek és az erőforrások hatékonyabb menedzselése."
+      ],
+      "content": "Új alapokra helyezi háttérműveleteit az amerikai űrügynökség, miután tizenhat különböző vállalkozással írt alá átfogó beszerzési megállapodásokat. Ez a pénzügyi és szervezeti hálózat olyan, mint amikor egy hatalmas multinacionális vállalat egyetlen kézbe vonja az összes gyárának logisztikáját, szállítmányozását és alkatrész-ellátását ahelyett, hogy minden telephely külön-külön szerződne.\n\nAz Enterprise Logistics Support Services névre hallgató keretrendszer pontosan a belső működés racionalizálását célozza. A nasa.gov által közzétett adatok alapján a program átfogja a berendezések és ingatlanok kezelését, a terméktámogatást, a repülési hardverek fenntartását, valamint az exportkontrollt és a költözési műveleteket is.\n\nAz 1,4 milliárd dolláros keretösszegű megállapodások legfőbb feladata, hogy egységesítsék a követelményeket és javítsák a jelentéstételi rendszereket. A jövőben ezeknek a háttérfolyamatoknak köszönhetően pontosabban és átláthatóbban követhetők majd az űrmissziókhoz kapcsolódó költségek, valamint az eszközök karbantartási feladatai.",
+      "content_format": "markdown",
+      "body": [
+        "Új alapokra helyezi háttérműveleteit az amerikai űrügynökség, miután tizenhat különböző vállalkozással írt alá átfogó beszerzési megállapodásokat. Ez a pénzügyi és szervezeti hálózat olyan, mint amikor egy hatalmas multinacionális vállalat egyetlen kézbe vonja az összes gyárának logisztikáját, szállítmányozását és alkatrész-ellátását ahelyett, hogy minden telephely külön-külön szerződne.",
+        "Az Enterprise Logistics Support Services névre hallgató keretrendszer pontosan a belső működés racionalizálását célozza. A nasa.gov által közzétett adatok alapján a program átfogja a berendezések és ingatlanok kezelését, a terméktámogatást, a repülési hardverek fenntartását, valamint az exportkontrollt és a költözési műveleteket is.",
+        "Az 1,4 milliárd dolláros keretösszegű megállapodások legfőbb feladata, hogy egységesítsék a követelményeket és javítsák a jelentéstételi rendszereket. A jövőben ezeknek a háttérfolyamatoknak köszönhetően pontosabban és átláthatóbban követhetők majd az űrmissziókhoz kapcsolódó költségek, valamint az eszközök karbantartási feladatai."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 157,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/NASA_Headquarters.jpg/1280px-NASA_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Mary W. Jackson NASA Headquarters in 2026",
+        "credit": "DCAllStar / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NASA_Headquarters.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
+          "title": "NASA Awards Enterprise Logistics Support Services Agreements",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-02T06:07:35+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-02T06:42:05+02:00"
+      },
+      "hot_score": 6.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/univerzum/2026-10-02-igy-kolt-el-1-4-milliard-dollart-a-nasa/",
+      "seo": {
+        "meta_title": "Így költ el 1,4 milliárd dollárt a NASA",
+        "meta_description": "Tizenhat céggel kötött új, átfogó logisztikai megállapodást a NASA, hogy hatékonyabban kezelje erőforrásait és eszközeit. Az 1,4 milliárd dolláros keretösszegű ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-02-igy-kolt-el-1-4-milliard-dollart-a-nasa/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/NASA_Headquarters.jpg/1280px-NASA_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "1610a9532065857699b163c33cd6890b43b8cb46e4a3c17764ec73a120a4a9e8",
+      "pipeline_run_id": "36962872003",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T06:42:05+02:00",
+      "updated_at": "2026-10-02T06:42:05+02:00",
+      "published_at": "2026-10-02T06:42:05+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "0b0e5816-77aa-56fe-809f-7f33a825be0c",
+      "slug": "2026-10-02-120-ezer-forintra-emelik-a-minimalnyugdijat",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "nyugdíjemelés",
+        "költségvetés",
+        "szociális ellátások",
+        "inflációkövetés",
+        "gazdaság"
+      ],
+      "title": "120 ezer forintra emelik a minimálnyugdíjat",
+      "subtitle": null,
+      "lead": "Több mint 700 ezer embert érintő, a jövő évi költségvetésből 123 milliárd forintot igénylő nyugdíj- és ellátásemelési programot jelentett be Kármán András. A csomag részeként 2027. január 1-jétől jelentősen emelkedik a régóta változatlan öregségi nyugdíjminimum.",
+      "key_points": [
+        "A 2008 óta változatlan, 28 500 forintos öregségi nyugdíjminimum 120 ezer forintra nő 2027-től.",
+        "Az intézkedéscsomag több mint 700 ezer ember helyzetén javít a jövő évi költségvetés terhére.",
+        "A sávos emelések és az új árvaellátási szabályok a legkiszolgáltatottabb csoportokat segítik.",
+        "A jogszabály garantálja az inflációkövetést, megakadályozva a jövőbeli elértéktelenedést."
+      ],
+      "content": "Jelentős változások jönnek a magyar szociális ellátórendszerben, miután részleteket hoztak nyilvánosságra egy több mint 700 ezer embert érintő nyugdíj- és ellátásemelési programról. A jövő évi költségvetésből 123 milliárd forintot igénylő intézkedéscsomag legfontosabb eleme, hogy a 2008 óta változatlan, 28 500 forintos öregségi nyugdíjminimumot 2027. január 1-jétől 120 ezer forintra emelik.\n\nA minimálnyugdíj jelentős emelése mellett a sávos növelések és a kapcsolódó járadékok is a legkiszolgáltatottabb csoportok helyzetét hivatottak javítani. Az új szabályozás ráadásul biztosítja az inflációkövetést is, ami megakadályozza, hogy az eddigiekhez hasonló elértéktelenedés forduljon elő a jövőben. A csomag részeként újdonságként módosítják az árvaellátás összegét, valamint az időskorúak ellátását is.\n\nKözben a gazdaság és a politika más területein is fontos átrendeződések zajlanak: a Honvédelmi Minisztérium a szolnoki különleges erők laktanyájának felújítása során végrehajtott racionalizálással 2,5 milliárd forintot takarított meg azzal, hogy egy korábbi nagyvállalati tender helyett helyi kis- és középvállalkozásokat vont be a kivitelezésbe.",
+      "content_format": "markdown",
+      "body": [
+        "Jelentős változások jönnek a magyar szociális ellátórendszerben, miután részleteket hoztak nyilvánosságra egy több mint 700 ezer embert érintő nyugdíj- és ellátásemelési programról. A jövő évi költségvetésből 123 milliárd forintot igénylő intézkedéscsomag legfontosabb eleme, hogy a 2008 óta változatlan, 28 500 forintos öregségi nyugdíjminimumot 2027. január 1-jétől 120 ezer forintra emelik.",
+        "A minimálnyugdíj jelentős emelése mellett a sávos növelések és a kapcsolódó járadékok is a legkiszolgáltatottabb csoportok helyzetét hivatottak javítani. Az új szabályozás ráadásul biztosítja az inflációkövetést is, ami megakadályozza, hogy az eddigiekhez hasonló elértéktelenedés forduljon elő a jövőben. A csomag részeként újdonságként módosítják az árvaellátás összegét, valamint az időskorúak ellátását is.",
+        "Közben a gazdaság és a politika más területein is fontos átrendeződések zajlanak: a Honvédelmi Minisztérium a szolnoki különleges erők laktanyájának felújítása során végrehajtott racionalizálással 2,5 milliárd forintot takarított meg azzal, hogy egy korábbi nagyvállalati tender helyett helyi kis- és középvállalkozásokat vont be a kivitelezésbe."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 183,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1024,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Ministry of Finance (Hungary)",
+        "credit": "Elekes Andor / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary).jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261001/tisza-kormany-ujra-egy-asztalhoz-ult-magyar-peter-es-karacsony-gergely-hanko-balazst-letartoztattak-kosa-lajost-beideztek-866504",
+          "title": "Tisza-kormány: újra egy asztalhoz ült Magyar Péter és Karácsony Gergely - Hankó Balázst letartóztatták, Kósa Lajost beidézték",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T06:06:52+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-02T06:42:04+02:00"
+      },
+      "hot_score": 6.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261001/tisza-kormany-ujra-egy-asztalhoz-ult-magyar-peter-es-karacsony-gergely-hanko-balazst-letartoztattak-kosa-lajost-beideztek-866504"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/penzvilag/2026-10-02-120-ezer-forintra-emelik-a-minimalnyugdijat/",
+      "seo": {
+        "meta_title": "120 ezer forintra emelik a minimálnyugdíjat",
+        "meta_description": "Több mint 700 ezer embert érintő, a jövő évi költségvetésből 123 milliárd forintot igénylő nyugdíj- és ellátásemelési programot jelentett be Kármán András. A cs",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-02-120-ezer-forintra-emelik-a-minimalnyugdijat/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "49a1742d-6794-5749-87f0-3131bc9920fb",
+        "b280525b-357b-5d8f-a16f-06f381b33c93",
+        "94c60679-ed80-5134-905b-10b867edbc52"
+      ],
+      "see_also": [
+        {
+          "title": "Megállapodás született: pénzt kap a főváros",
+          "url": "/penzvilag/2026-10-01-megallapodas-szuletett-penzt-kap-a-fovaros/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Végre megmentik a budapesti Planetáriumot?",
+          "url": "/kozelet/2026-10-01-vegre-megmentik-a-budapesti-planetariumot/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Így telt Orbán Viktor londoni útja a letartóztatások árnyékában",
+          "url": "/kozelet/2026-09-30-igy-telt-orban-viktor-londoni-utja-a-letartoztatasok-arnyekaban/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": "49a1742d-6794-5749-87f0-3131bc9920fb",
+      "dedupe_hash": "23f043c1632f39abaca32651c0297f4d25426f3b7b6b38f2120f3ac8ebd5e342",
+      "pipeline_run_id": "36962872003",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T06:42:04+02:00",
+      "updated_at": "2026-10-02T06:42:04+02:00",
+      "published_at": "2026-10-02T06:42:04+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "26d5ba58-79ef-57b7-bbf6-c06de344f292",
+      "slug": "2026-10-02-csaladi-agon-erkezik-az-uj-megasztar-versenyzo",
+      "status": "published",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Megasztár",
+        "TV2",
+        "Patai Anna",
+        "zene",
+        "bulvár"
+      ],
+      "title": "Családi ágon érkezik az új Megasztár-versenyző",
+      "subtitle": null,
+      "lead": "Tizenhat év telt el azóta, hogy Patai Annát megismerte az ország a Megasztárban, most pedig a nővére is szerencsét próbál a tehetségkutatóban. A Blikk beszámolója szerint a családi támogatás ezúttal sem marad el, hiszen a sógora kísérte el a válogatóra.",
+      "key_points": [
+        "Patai Anna nővére, a 32 éves Budainé Patai Katalin szerepel a Megasztár 9. évadában.",
+        "A versenyzőt a sógora, Budai Izmán bátorította a jelentkezésre.",
+        "Patai Anna 2010-ben, 11 évesen az 5. helyezést érte el a műsor 5. szériájában."
+      ],
+      "content": "## Meglepetés a tehetségkutatóban\n\nA 32 éves Budainé Patai Katalin szempillastylistként dolgozik a mindennapokban, de régóta vonzza az éneklés világa, bár eddig nem épített zenei karriert. A TV2 képernyőjén látható műsorba a 30 éves üzletvezető-helyettes sógora, Budai Izmán kísérte el Békésből, aki maga is zenél.\n\n– Előszeretettel buzdítom a környezetemben élőket arra, hogy eljöjjenek egy ilyen tehetségkutatóba. Őt is folyamatosan noszogattam, hogy „figyelj, tehetséges vagy, ezt nem kéne hagyni kárba veszni, igenis próbáld meg”. Aztán a fülénél fogva beültettem a kocsiba, így csöppentem mindebbe bele én is – mesélte Katalin a produkció műsorvezetőinek, Ördög Nórinak és Lékai-Kiss Ramónának.\n\n## A zenei múlt és a folytatás\n\nKatalin húga, Patai Anna 2010-ben, mindössze 11 évesen tűnt fel a Megasztár ötödik évadában, ahol ötödik helyezést ért el, valamint a legjobb női énekesként egy zenei ösztöndíjat is átvehetett. A tehetségkutató után több saját dala megjelent, 2016-ban szerepelt A Dal című műsorban, emellett olyan színházi produkciókban és musicalekben is játszott, mint a Mary Poppins, a Macskafogó, a Bőröndmesék vagy a Jégvarázs.\n\n– Én nem szoktam énekelni, én a konyhából jövök – nyilatkozta mosolyogva az idősebbik Patai lány, aki most konkrét céllal érkezett a TV2 stúdiójába. – Visszajelzést szeretnék kapni azzal kapcsolatban, van-e itt helyem, illetve ezen a pályán van-e keresnivalóm! – tette hozzá.",
+      "content_format": "markdown",
+      "body": [
+        "## Meglepetés a tehetségkutatóban",
+        "A 32 éves Budainé Patai Katalin szempillastylistként dolgozik a mindennapokban, de régóta vonzza az éneklés világa, bár eddig nem épített zenei karriert. A TV2 képernyőjén látható műsorba a 30 éves üzletvezető-helyettes sógora, Budai Izmán kísérte el Békésből, aki maga is zenél.",
+        "– Előszeretettel buzdítom a környezetemben élőket arra, hogy eljöjjenek egy ilyen tehetségkutatóba. Őt is folyamatosan noszogattam, hogy „figyelj, tehetséges vagy, ezt nem kéne hagyni kárba veszni, igenis próbáld meg”. Aztán a fülénél fogva beültettem a kocsiba, így csöppentem mindebbe bele én is – mesélte Katalin a produkció műsorvezetőinek, Ördög Nórinak és Lékai-Kiss Ramónának.",
+        "## A zenei múlt és a folytatás",
+        "Katalin húga, Patai Anna 2010-ben, mindössze 11 évesen tűnt fel a Megasztár ötödik évadában, ahol ötödik helyezést ért el, valamint a legjobb női énekesként egy zenei ösztöndíjat is átvehetett. A tehetségkutató után több saját dala megjelent, 2016-ban szerepelt A Dal című műsorban, emellett olyan színházi produkciókban és musicalekben is játszott, mint a Mary Poppins, a Macskafogó, a Bőröndmesék vagy a Jégvarázs.",
+        "– Én nem szoktam énekelni, én a konyhából jövök – nyilatkozta mosolyogva az idősebbik Patai lány, aki most konkrét céllal érkezett a TV2 stúdiójába. – Visszajelzést szeretnék kapni azzal kapcsolatban, van-e itt helyem, illetve ezen a pályán van-e keresnivalóm! – tette hozzá."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 246,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Megalog%C3%B3HU.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1025,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Megasztár logó",
+        "credit": "Megasztárfan / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Megalog%C3%B3HU.png"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/patai-anna-testver-megasztar-valogato/srwx148",
+          "title": "Váratlan fordulat a Megasztárban: Patai Anna után 16 évvel a nővére is megméretteti magát a tehetségkutatóban",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T06:03:56+02:00"
+        },
+        {
+          "url": "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/gaspar-laci-es-felesege-visszaultek-iskolapadba",
+          "title": "Gáspár Laci és felesége visszaültek az iskolapadba",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T06:03:56+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-02T06:42:04+02:00"
+      },
+      "hot_score": 6.61,
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/patai-anna-testver-megasztar-valogato/srwx148"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/bulvar/2026-10-02-csaladi-agon-erkezik-az-uj-megasztar-versenyzo/",
+      "seo": {
+        "meta_title": "Családi ágon érkezik az új Megasztár-versenyző",
+        "meta_description": "Tizenhat év telt el azóta, hogy Patai Annát megismerte az ország a Megasztárban, most pedig a nővére is szerencsét próbál a tehetségkutatóban. A Blikk beszámoló",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-02-csaladi-agon-erkezik-az-uj-megasztar-versenyzo/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Megalog%C3%B3HU.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "a35bfe21efba710d7f5e5ced4e9451db96e9316a287acedb65f293070b4c9f15",
+      "pipeline_run_id": "36962872003",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T06:42:04+02:00",
+      "updated_at": "2026-10-02T06:42:04+02:00",
+      "published_at": "2026-10-02T06:42:04+02:00",
+      "expires_at": null
+    },
     {
       "id": "4a3a5f30-ef2f-5c76-adeb-bd6d881bb444",
       "slug": "2026-10-01-mit-rejt-az-oktoberi-egbolt",
