@@ -1,7 +1,105 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T22:17:38+02:00",
+  "updated_at": "2026-10-02T22:18:08+02:00",
   "articles": [
+    {
+      "id": "0a162dd3-459c-542a-a0e7-22ccba6d1ab0",
+      "slug": "2026-10-02-ezert-ultettek-le-a-fideszes-exminisztert",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Seszták Miklós",
+        "Kisvárda",
+        "Magyar Péter",
+        "korrupció",
+        "Volánbusz"
+      ],
+      "title": "Ezért ültették le a fideszes exminisztert?",
+      "subtitle": null,
+      "lead": "Magyar Péter szabolcsi országjárásán a helyiek Seszták Miklós letartóztatásáról és a környék elmúlt éveiről beszéltek. A volt minisztert túlárazott Volánbusz-beszerzésekkel és milliárdos kenőpénzekkel gyanúsítják.",
+      "key_points": [
+        "Seszták Miklóst letartóztatták a túlárazott Volánbusz-beszerzések ügyében.",
+        "A gyanú szerint 11 milliárd forint kenőpénz vándorolt a politikushoz.",
+        "A helyiek vegyesen élik meg a NER kisvárdai erős emberének bukását.",
+        "A tiszás választási győzelem óta sokan a félelem enyhülését, mások a status quo fennállását tapasztalják."
+      ],
+      "content": "Magyar Péter pénteki szabolcsi országjárásán a résztvevők leginkább Seszták Miklós letartóztatásáról és a helyi közéleti hangulatról beszélgettek. A volt nemzeti fejlesztési miniszter és fideszes országgyűlési képviselő ügye azután kapott országos visszhangot, hogy a Központi Nyomozó Főügyészség őrizetbe vette, a bíróság pedig elrendelte a letartóztatását.\n\nA hatóságok gyanúja szerint a politikushoz köthető ügyekben túlárazott Volánbusz-beszerzések zajlottak, amelyek során tizenegymilliárd forint kenőpénz áramlott. Seszták 2010 óta képviselte a kisvárdai központú választókerületet, idén azonban alulmaradt a Tisza Párt jelöltjével, Dicső Viktóriával szemben.\n\nA fórumra érkező helyiek és a szomszédos településekről utazók eltérően ítélik meg a várost az elmúlt másfél évtizedben formáló beruházásokat. – Van lówellness, meg le van térkövezve minden, de ettől még hatalmas a szegénység – fogalmazott egy helyi középkorú férfi, aki szerint a hivatalosan fejlesztésekre szánt forrásokból a képviselő körei profitáltak.\n\nA lakosok tapasztalatai megoszlanak arról is, hogy a tavaszi országgyűlési váltás óta szabadabban beszélnek-e a politikáról a kistelepüléseken. Míg egyesek a félelem enyhüléséről számoltak be, addig egy környékbeli vízszerelő és egy falusi Tisza Sziget alapítója szerint a mindennapi kiszolgáltatottság és a fideszes vezetés alatt megszokott légkör továbbra is jelen van a megyében.",
+      "content_format": "markdown",
+      "body": [
+        "Magyar Péter pénteki szabolcsi országjárásán a résztvevők leginkább Seszták Miklós letartóztatásáról és a helyi közéleti hangulatról beszélgettek. A volt nemzeti fejlesztési miniszter és fideszes országgyűlési képviselő ügye azután kapott országos visszhangot, hogy a Központi Nyomozó Főügyészség őrizetbe vette, a bíróság pedig elrendelte a letartóztatását.",
+        "A hatóságok gyanúja szerint a politikushoz köthető ügyekben túlárazott Volánbusz-beszerzések zajlottak, amelyek során tizenegymilliárd forint kenőpénz áramlott. Seszták 2010 óta képviselte a kisvárdai központú választókerületet, idén azonban alulmaradt a Tisza Párt jelöltjével, Dicső Viktóriával szemben.",
+        "A fórumra érkező helyiek és a szomszédos településekről utazók eltérően ítélik meg a várost az elmúlt másfél évtizedben formáló beruházásokat. – Van lówellness, meg le van térkövezve minden, de ettől még hatalmas a szegénység – fogalmazott egy helyi középkorú férfi, aki szerint a hivatalosan fejlesztésekre szánt forrásokból a képviselő körei profitáltak.",
+        "A lakosok tapasztalatai megoszlanak arról is, hogy a tavaszi országgyűlési váltás óta szabadabban beszélnek-e a politikáról a kistelepüléseken. Míg egyesek a félelem enyhüléséről számoltak be, addig egy környékbeli vízszerelő és egy falusi Tisza Sziget alapítója szerint a mindennapi kiszolgáltatottság és a fideszes vezetés alatt megszokott légkör továbbra is jelen van a megyében."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 207,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Seszt%C3%A1k_Mikl%C3%B3s_miniszter.jpg/1280px-Seszt%C3%A1k_Mikl%C3%B3s_miniszter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1803,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Seszták Miklós nemzeti fejlesztési miniszter",
+        "credit": "ismeretlen szerző / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Seszt%C3%A1k_Mikl%C3%B3s_miniszter.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261002_magyar-peter-sesztak-mikllos-orszagjaras-kisvarda-riport",
+          "title": "„Elsőnek jó volt a Seszták, Hankó meg másodiknak” – Kisvárdán mindenkinek van ötlete arra, melyik fideszes menjen legközelebb börtönbe",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T21:47:18+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-02T22:18:08+02:00"
+      },
+      "hot_score": 5.79,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261002_magyar-peter-sesztak-mikllos-orszagjaras-kisvarda-riport"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/kozelet/2026-10-02-ezert-ultettek-le-a-fideszes-exminisztert/",
+      "seo": {
+        "meta_title": "Ezért ültették le a fideszes exminisztert?",
+        "meta_description": "Magyar Péter szabolcsi országjárásán a helyiek Seszták Miklós letartóztatásáról és a környék elmúlt éveiről beszéltek. A volt minisztert túlárazott Volánbusz-be",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-02-ezert-ultettek-le-a-fideszes-exminisztert/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Seszt%C3%A1k_Mikl%C3%B3s_miniszter.jpg/1280px-Seszt%C3%A1k_Mikl%C3%B3s_miniszter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "5c7643befadf5987ab3c7d68d941bb6f8fd6766ce8bcfc7f785c072d44b9fb2e",
+      "pipeline_run_id": "37056048304",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T22:18:08+02:00",
+      "updated_at": "2026-10-02T22:18:08+02:00",
+      "published_at": "2026-10-02T22:18:08+02:00",
+      "expires_at": null
+    },
     {
       "id": "83b9fd9f-3fda-520d-9520-684caf278fd5",
       "slug": "2026-10-02-rejtelyes-es-riaszto-eset-razta-meg-a-walesi-partokat",

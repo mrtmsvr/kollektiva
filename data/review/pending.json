@@ -15971,9 +15971,9 @@
       "live": true
     },
     {
-      "id": "9df79218-ba71-52f3-86e4-11e96a8a5611",
-      "slug": "2026-10-02-tizenegy-milliard-forint-es-a-kisvardai-hangulat",
-      "status": "pending",
+      "id": "0a162dd3-459c-542a-a0e7-22ccba6d1ab0",
+      "slug": "2026-10-02-ezert-ultettek-le-a-fideszes-exminisztert",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -15983,7 +15983,7 @@
         "korrupció",
         "Volánbusz"
       ],
-      "title": "Tizenegy milliárd forint és a kisvárdai hangulat",
+      "title": "Ezért ültették le a fideszes exminisztert?",
       "subtitle": null,
       "lead": "Magyar Péter szabolcsi országjárásán a helyiek Seszták Miklós letartóztatásáról és a környék elmúlt éveiről beszéltek. A volt minisztert túlárazott Volánbusz-beszerzésekkel és milliárdos kenőpénzekkel gyanúsítják.",
       "key_points": [
@@ -16144,11 +16144,11 @@
       },
       "date": "2026-10-02",
       "date_label": "október 2.",
-      "url": "/kozelet/2026-10-02-tizenegy-milliard-forint-es-a-kisvardai-hangulat/",
+      "url": "/kozelet/2026-10-02-ezert-ultettek-le-a-fideszes-exminisztert/",
       "seo": {
-        "meta_title": "Tizenegy milliárd forint és a kisvárdai hangulat",
+        "meta_title": "Ezért ültették le a fideszes exminisztert?",
         "meta_description": "Magyar Péter szabolcsi országjárásán a helyiek Seszták Miklós letartóztatásáról és a környék elmúlt éveiről beszéltek. A volt minisztert túlárazott Volánbusz-be",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-02-tizenegy-milliard-forint-es-a-kisvardai-hangulat/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-02-ezert-ultettek-le-a-fideszes-exminisztert/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Seszt%C3%A1k_Mikl%C3%B3s_miniszter.jpg/1280px-Seszt%C3%A1k_Mikl%C3%B3s_miniszter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -16166,9 +16166,9 @@
       "dedupe_hash": "5c7643befadf5987ab3c7d68d941bb6f8fd6766ce8bcfc7f785c072d44b9fb2e",
       "pipeline_run_id": "37056048304",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T21:47:18+02:00",
-      "updated_at": "2026-10-02T21:47:18+02:00",
-      "published_at": "2026-10-02T21:47:18+02:00",
+      "created_at": "2026-10-02T22:18:08+02:00",
+      "updated_at": "2026-10-02T22:18:08+02:00",
+      "published_at": "2026-10-02T22:18:08+02:00",
       "expires_at": null,
       "review": {
         "title": 1,
@@ -16187,7 +16187,8 @@
           1767
         ],
         "control_id": 1768
-      }
+      },
+      "live": true
     }
   ]
 }
