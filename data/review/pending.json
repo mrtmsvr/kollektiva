@@ -14851,6 +14851,915 @@
         "control_id": 1632
       },
       "live": true
+    },
+    {
+      "id": "f6d90b87-83d8-59ea-8f4a-78410203cfed",
+      "slug": "2026-10-02-igy-utkoznek-a-fiatal-bolygok",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "csillagászat",
+        "James Webb űrtávcső",
+        "HUN-REN CSFK",
+        "bolygókeletkezés"
+      ],
+      "title": "Így ütköznek a fiatal bolygók",
+      "subtitle": null,
+      "lead": "A James Webb-űrtávcső segítségével magyar csillagászok is vizsgálták azokat a ritka, extrém törmelékkorongokat, amelyekben Hold- és Mars-méretű égitestek ütköznek össze. Ezek a kataklizmikus folyamatok magyarázatot nyújtanak a saját Naprendszerünk korai fejlődésére is.",
+      "key_points": [
+        "Magyar kutatók is részt vettek a James Webb-űrtávcső legújabb bolygókeletkezési kutatásában.",
+        "A vizsgált extrém törmelékkorongok két csoportra oszthatók ütközési típusuk szerint.",
+        "Az eredmények segítenek megérteni a Föld és a Hold egykori kialakulását."
+      ],
+      "content": "Ahogy korábban megírtuk, az űrkutatás legfrissebb megfigyelései rávilágítanak arra, hogy a bolygók katasztrofális ütközései alapvetően formálták a Naprendszer hajnalát. Ezt a vonalat továbbvivve egy nemzetközi kutatócsoport a James Webb-űrtávcső közép-infravörös spektrométerével huszonegy olyan extrém törmelékkorongot elemzett, amelyekben Hold- és Mars-méretű objektumok csapódnak egymásba, hatalmas mennyiségű forró port keltve. A munkálatokban a HUN-REN Csillagászati és Földtudományi Kutatóközpont Konkoly Thege Miklós Csillagászati Intézetének munkatársai, így Moór Attila, Kóspál Ágnes és Ábrahám Péter is közreműködtek.\n\nA valaha végzett legnagyobb ilyen felmérés során derült fény arra, hogy a rendszerek két fő kategóriába sorolhatók. A szilícium-dioxidban gazdag korongokban, amelyek kizárólag 300 millió évnél fiatalabb csillagok körül fordulnak elő, Mars-méretű testek nagyenergiájú becsapódásai zajlanak. Ezzel szemben a szilícium-dioxidban szegény, idősebb rendszerekben Hold-méretű égitestek súroló ütközései történnek.\n\nKate Su, a boulderi Űrtudományi Intézet kutatója által vezetett csapat munkája azért jelentős, mert a bolygócsírák közvetlenül nem tanulmányozhatók. A műszerek segítségével azonban kimutathatók azok az apró porszemcsék, amelyek mérete és összetétele pontosan elárulja a létrehozó ütközés típusát. A The Astrophysical Journal szaklapban közölt adatok közvetlen párhuzamot mutatnak a Naprendszer múltjával is.\n\nA szilícium-dioxidban gazdag korongok kora egybeesik azzal a tudományos becsléssel, amely szerint a Hold egy Mars-nagyságú égitest és a fiatal Föld ütközéséből jött létre nagyjából 100 millió évvel a Naprendszer keletkezése után. Az idősebb rendszerek vizsgálata pedig a késői intenzív bombázás hipotézisét támaszthatja alá, amikor a gázóriások gravitációs hatása megzavarta a kisebb testek pályáját. Az elkövetkező időszakban ezek az adatok segíthetnek összeállítani a bolygórendszerek fejlődésének átfogó képét.",
+      "content_format": "markdown",
+      "body": [
+        "Ahogy korábban megírtuk, az űrkutatás legfrissebb megfigyelései rávilágítanak arra, hogy a bolygók katasztrofális ütközései alapvetően formálták a Naprendszer hajnalát. Ezt a vonalat továbbvivve egy nemzetközi kutatócsoport a James Webb-űrtávcső közép-infravörös spektrométerével huszonegy olyan extrém törmelékkorongot elemzett, amelyekben Hold- és Mars-méretű objektumok csapódnak egymásba, hatalmas mennyiségű forró port keltve. A munkálatokban a HUN-REN Csillagászati és Földtudományi Kutatóközpont Konkoly Thege Miklós Csillagászati Intézetének munkatársai, így Moór Attila, Kóspál Ágnes és Ábrahám Péter is közreműködtek.",
+        "A valaha végzett legnagyobb ilyen felmérés során derült fény arra, hogy a rendszerek két fő kategóriába sorolhatók. A szilícium-dioxidban gazdag korongokban, amelyek kizárólag 300 millió évnél fiatalabb csillagok körül fordulnak elő, Mars-méretű testek nagyenergiájú becsapódásai zajlanak. Ezzel szemben a szilícium-dioxidban szegény, idősebb rendszerekben Hold-méretű égitestek súroló ütközései történnek.",
+        "Kate Su, a boulderi Űrtudományi Intézet kutatója által vezetett csapat munkája azért jelentős, mert a bolygócsírák közvetlenül nem tanulmányozhatók. A műszerek segítségével azonban kimutathatók azok az apró porszemcsék, amelyek mérete és összetétele pontosan elárulja a létrehozó ütközés típusát. A The Astrophysical Journal szaklapban közölt adatok közvetlen párhuzamot mutatnak a Naprendszer múltjával is.",
+        "A szilícium-dioxidban gazdag korongok kora egybeesik azzal a tudományos becsléssel, amely szerint a Hold egy Mars-nagyságú égitest és a fiatal Föld ütközéséből jött létre nagyjából 100 millió évvel a Naprendszer keletkezése után. Az idősebb rendszerek vizsgálata pedig a késői intenzív bombázás hipotézisét támaszthatja alá, amikor a gázóriások gravitációs hatása megzavarta a kisebb testek pályáját. Az elkövetkező időszakban ezek az adatok segíthetnek összeállítani a bolygórendszerek fejlődésének átfogó képét."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 283,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 798,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Caption: During cryogenic testing, the mirrors will be subjected to temperatures dipping to 24 Kelvins, permitting engineers to measure in extreme detail how the shape of each mirror changes as it coo",
+        "credit": "NASA/MSFC/David Higginbotham/Emmett Given / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Mirror37.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261002_extrem-tormelekkorongok-vizsgalata-magyar-kutatok-james-webb-urteleszkop",
+          "title": "Tudja, mik azok az extrém törmelékkorongok? Épp ezt vizsgálták magyar csillagászok is",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T19:40:00+02:00"
+        },
+        {
+          "url": "https://qubit.hu/2026/10/02/kataklizmikus-bolygoutkozesek-maradvanyait-figyeltek-meg-magyar-csillagaszok-a-james-webb-urtavcsovel?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "Kataklizmikus bolygóütközések maradványait figyelték meg magyar csillagászok a James Webb űrtávcsővel",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T19:40:00+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 9.62,
+      "title_options": [
+        "Így ütköznek a fiatal bolygók",
+        "Kiderült, hogyan fejlődtek a bolygók",
+        "Mars méretű testek csapódtak össze"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Caption: During cryogenic testing, the mirrors will be subjected to temperatures dipping to 24 Kelvins, permitting engineers to measure in extreme detail how the shape of each mirror changes as it coo",
+          "credit": "NASA/MSFC/David Higginbotham/Emmett Given / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Mirror37.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_%2830108124923%29.jpg/1280px-James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_%2830108124923%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1799,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "The primary mirror of NASA's James Webb Space Telescope consisting of 18 hexagonal mirrors looks like a giant puzzle piece standing in the massive clean room of NASA's Goddard Space Flight Center in G",
+          "credit": "Chris Gunn / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_(30108124923).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Solar_observation_during_the_Regional_Astronomy_Camp_in_Brod%2C_Dragash%2C_Kosovo_08.jpg/1280px-Solar_observation_during_the_Regional_Astronomy_Camp_in_Brod%2C_Dragash%2C_Kosovo_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Participants observing the Sun during the Regional Astronomy Camp in Brod, Dragash, Kosovo, using H-alpha solar telescopes and solar viewing glasses. The image shows a daytime solar observation sessio",
+          "credit": "Astroclubkosova / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Solar_observation_during_the_Regional_Astronomy_Camp_in_Brod,_Dragash,_Kosovo_08.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Astronomy_magazine_January_2020_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1564,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "January 2020 cover of Astronomy magazine",
+          "credit": "Cover produced by Astronomy magazine/Kalmbach Media / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Astronomy_magazine_January_2020_cover.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Antares Rocket Launch",
+          "credit": "NASA Goddard Photo and Video / nasa",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/24662369@N07/8674655959"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1200,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "The April 12 launch at Pad 39A of STS-1, just seconds past 7 a.m., carries astronauts John Young and Robert Crippen into an Earth orbital mission scheduled to last for 54 hours, ending with unpowered",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_launching.jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "Tudja, mik azok az extrém törmelékkorongok? Épp ezt vizsgálták magyar csillagászok is",
+          "link": "https://hvg.hu/tudomany/20261002_extrem-tormelekkorongok-vizsgalata-magyar-kutatok-james-webb-urteleszkop",
+          "summary": "Egy nemzetközi kutatócsoport a James Webb-űrtávcsővel az úgynevezett extrém törmelékkorongokat vizsgálta, a munkában a HUN-REN Csillagászati és Földtudományi Kutatóközpont (CSFK) Konkoly Thege Miklós Csillagászati Intézet munkatársai is részt vettek.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 9.62
+        },
+        {
+          "title": "Kataklizmikus bolygóütközések maradványait figyelték meg magyar csillagászok a James Webb űrtávcsővel",
+          "link": "https://qubit.hu/2026/10/02/kataklizmikus-bolygoutkozesek-maradvanyait-figyeltek-meg-magyar-csillagaszok-a-james-webb-urtavcsovel?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "summary": "Moór Attila, Kóspál Ágnes és Ábrahám Péter kollégáikkal fiatal csillagok körüli extrém törmelékkorongokat vizsgáltak, amik segíthetnek jobban megérteni a bolygókeletkezés során lezajló folyamatokat.",
+          "source": "qubit.hu",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261002_extrem-tormelekkorongok-vizsgalata-magyar-kutatok-james-webb-urteleszkop",
+          "https://qubit.hu/2026/10/02/kataklizmikus-bolygoutkozesek-maradvanyait-figyeltek-meg-magyar-csillagaszok-a-james-webb-urtavcsovel?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/tech/2026-10-02-igy-utkoznek-a-fiatal-bolygok/",
+      "seo": {
+        "meta_title": "Így ütköznek a fiatal bolygók",
+        "meta_description": "A James Webb-űrtávcső segítségével magyar csillagászok is vizsgálták azokat a ritka, extrém törmelékkorongokat, amelyekben Hold- és Mars-méretű égitestek ütközn",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-02-igy-utkoznek-a-fiatal-bolygok/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "60f91f1e-07ac-5f11-b204-02e5f25276e6",
+        "74e92860-e064-5d6d-a395-9f3217a22bc6",
+        "de2f4597-1b3b-51b4-b882-20dcc7a5cd6d"
+      ],
+      "see_also": [
+        {
+          "title": "Hogyan zúzzák szét a bolygók egymást?",
+          "url": "/univerzum/2026-10-01-hogyan-zuzzak-szet-a-bolygok-egymast/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Minden tizenharmadik fiatal ereiben ott rejlik a baj",
+          "url": "/eletmod/2026-10-01-minden-tizenharmadik-fiatal-ereiben-ott-rejlik-a-baj/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Rengeteg küldetést készít elő a NASA",
+          "url": "/univerzum/2026-09-30-rengeteg-kuldetest-keszit-elo-a-nasa/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": "60f91f1e-07ac-5f11-b204-02e5f25276e6",
+      "dedupe_hash": "cd43ac3cecca77b166409c2da6592d3fad4b5ceb164e2b2ea89a9fd66fd7f5ce",
+      "pipeline_run_id": "37042147706",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T19:40:00+02:00",
+      "updated_at": "2026-10-02T19:40:00+02:00",
+      "published_at": "2026-10-02T19:40:00+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-02T17:40:54+00:00",
+        "msg_ids": [
+          1653,
+          1654,
+          1655,
+          1656,
+          1657,
+          1658,
+          1659,
+          1660
+        ],
+        "control_id": 1661
+      }
+    },
+    {
+      "id": "6edea31b-7664-5c63-bc16-b1e9f049c642",
+      "slug": "2026-10-02-tizmilliard-dollart-bukott-ukrajna-az-egyik-legfontosabb-utvonalon",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "Ukrajna",
+        "agrárexport",
+        "gazdaság",
+        "Európai Unió",
+        "mezőgazdaság"
+      ],
+      "title": "Tízmilliárd dollárt bukott Ukrajna az egyik legfontosabb útvonalon",
+      "subtitle": null,
+      "lead": "A fekete-tengeri kikötők orosz blokádja miatt az ukrán agrárexport a korábbi mennyiség felére esett vissza, ami mintegy 10 milliárd dolláros kiesést okoz a jelenlegi gazdasági évben. A nehézségek komoly kihívást jelentenek az ország gazdaságának, miközben az EU milliárdos támogatásokkal próbálja fenntartani a működést.",
+      "key_points": [
+        "A jelenlegi gazdasági évben körülbelül 30 millió tonna mezőgazdasági termék ragadt bent az országban.",
+        "Szeptemberben a tervezett kivitel mindössze 46 százalékát sikerült teljesíteni.",
+        "Az Európai Bizottság pénteken 2,9 milliárd eurós támogatást folyósított Ukrajnának a költségvetés stabilizálására.",
+        "A szárazföldi útvonalak, a vasút és a Dunán zajló szállítás maximális kapacitása sem pótolja a tengeri kikötőket."
+      ],
+      "content": "Az Interfax-Ukrajina hírügynökség beszámolója szerint a korábbi időszak felét sem éri el az ukrán agrárexport a fekete-tengeri kikötők orosz blokádja miatt. Tarasz Viszockij agrárminiszter pénteki tájékoztatásából kiderült, hogy a mélyebb vizű fekete-tengeri kikötők hiánya miatt a termelők csupán a szántföldeken megtermelt javak kevesebb mint felét képesek eljuttatni a külpiacokra. A kiesés volumene hatalmas: mintegy 30 millió tonna mezőgazdasági termék rekedt bent az országban, aminek becsült értéke eléri a 10 milliárd dollárt.\n\nA statisztikák szerint szeptemberben összesen 2,4 millió tonna árut sikerült hajóra, vonatra vagy teherautóra rakodni, ami a tervezett kivitel 46 százaléka. Ezen belül a gabonafélékből 1,4 millió tonna – a tervezett mennyiség 38 százaléka –, az olajos magvakból 444 ezer tonna, azaz 83 százalék hagyta el az országot. Az étolaj kivitele 311 ezer tonnát (64 százalék), míg az olajpogácsa 280 ezer tonnát (46 százalék) tett ki. A szállítási arányok szeptember 20. óta gyakorlatilag stagnálnak, ami igazolja a korábbi előrejelzéseket, miszerint a jelenlegi alternatív útvonalakkal a 45-50 százalékos arány jelenti az objektív maximumot.\n\nA logisztikai nehézségek áthidalására a szárazföldi és folyami folyosókat használják a kereskedők. Szeptemberben a vasúti kivitel 993 ezer tonnát (41 százalék) ért el, a Dunán 1,3 millió tonnát (54 százalék) szállítottak, míg közúton mindössze 120 ezer tonna, vagyis a kivitel 5 százaléka ment át. Bár az augusztusi adatokhoz képest a vasúti és a dunai volument sikerült növelni, a tengeri kapuk részleges hiánya tartósan korlátozza a gazdasági teljesítményt.\n\nEgy másik fejlemény kapcsán az Európai Bizottság pénteken 2,9 milliárd eurót folyósított Ukrajnának, hogy segítsen fedezni a finanszírozási szükségleteket és fenntartsa a közigazgatás működését. Ursula von der Leyen, az Európai Bizottság elnöke a támogatás alkalmából kiemelte, hogy a pénzösszeg – amelyből 800 millió euró az Ukrajna-eszköz keretében érkezik – hozzájárul a pénzügyi stabilitáshoz és az újjáépítést megalapozó beruházásokhoz. A kifizetés feltétele volt, hogy az ország több stratégiai ágazatban – így a mezőgazdaságban, az igazságszolgáltatásban és az energiapiacon – sikeresen végrehajtsa a brüsszeli elvárásokhoz kötött reformokat.",
+      "content_format": "markdown",
+      "body": [
+        "Az Interfax-Ukrajina hírügynökség beszámolója szerint a korábbi időszak felét sem éri el az ukrán agrárexport a fekete-tengeri kikötők orosz blokádja miatt. Tarasz Viszockij agrárminiszter pénteki tájékoztatásából kiderült, hogy a mélyebb vizű fekete-tengeri kikötők hiánya miatt a termelők csupán a szántföldeken megtermelt javak kevesebb mint felét képesek eljuttatni a külpiacokra. A kiesés volumene hatalmas: mintegy 30 millió tonna mezőgazdasági termék rekedt bent az országban, aminek becsült értéke eléri a 10 milliárd dollárt.",
+        "A statisztikák szerint szeptemberben összesen 2,4 millió tonna árut sikerült hajóra, vonatra vagy teherautóra rakodni, ami a tervezett kivitel 46 százaléka. Ezen belül a gabonafélékből 1,4 millió tonna – a tervezett mennyiség 38 százaléka –, az olajos magvakból 444 ezer tonna, azaz 83 százalék hagyta el az országot. Az étolaj kivitele 311 ezer tonnát (64 százalék), míg az olajpogácsa 280 ezer tonnát (46 százalék) tett ki. A szállítási arányok szeptember 20. óta gyakorlatilag stagnálnak, ami igazolja a korábbi előrejelzéseket, miszerint a jelenlegi alternatív útvonalakkal a 45-50 százalékos arány jelenti az objektív maximumot.",
+        "A logisztikai nehézségek áthidalására a szárazföldi és folyami folyosókat használják a kereskedők. Szeptemberben a vasúti kivitel 993 ezer tonnát (41 százalék) ért el, a Dunán 1,3 millió tonnát (54 százalék) szállítottak, míg közúton mindössze 120 ezer tonna, vagyis a kivitel 5 százaléka ment át. Bár az augusztusi adatokhoz képest a vasúti és a dunai volument sikerült növelni, a tengeri kapuk részleges hiánya tartósan korlátozza a gazdasági teljesítményt.",
+        "Egy másik fejlemény kapcsán az Európai Bizottság pénteken 2,9 milliárd eurót folyósított Ukrajnának, hogy segítsen fedezni a finanszírozási szükségleteket és fenntartsa a közigazgatás működését. Ursula von der Leyen, az Európai Bizottság elnöke a támogatás alkalmából kiemelte, hogy a pénzösszeg – amelyből 800 millió euró az Ukrajna-eszköz keretében érkezik – hozzájárul a pénzügyi stabilitáshoz és az újjáépítést megalapozó beruházásokhoz. A kifizetés feltétele volt, hogy az ország több stratégiai ágazatban – így a mezőgazdaságban, az igazságszolgáltatásban és az energiapiacon – sikeresen végrehajtsa a brüsszeli elvárásokhoz kötött reformokat."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 362,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Black_Sea_port_at_Batumi%2C_Georgia.jpg/1280px-Black_Sea_port_at_Batumi%2C_Georgia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Black Sea port at Batumi, Georgia",
+        "credit": "Andrew Milligan sumo / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Black_Sea_port_at_Batumi,_Georgia.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/global/20261002/bekovetkezett-amitol-tartottak-10-milliard-dollartol-esett-el-ukrajna-az-orosz-blokad-miatt-867046",
+          "title": "Bekövetkezett, amitől tartottak: 10 milliárd dollártól esett el Ukrajna az orosz blokád miatt",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T19:41:29+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/nemzetkozi-gazdasag/2026/10/ukrajna-eu-segely-reformok?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Ursula von der Leyen szerint jól haladnak az ukrán reformok - át is utaltak ma nekik 2,9 milliárd eurót",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T19:41:29+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.67,
+      "title_options": [
+        "Tízmilliárd dollárt bukott Ukrajna az egyik legfontosabb útvonalon",
+        "Ilyen súlyos károkat okozott a fekete-tengeri blokád",
+        "Nem tudják eladni a gabonát: megvannak a legfrissebb adatok"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Black_Sea_port_at_Batumi%2C_Georgia.jpg/1280px-Black_Sea_port_at_Batumi%2C_Georgia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Black Sea port at Batumi, Georgia",
+          "credit": "Andrew Milligan sumo / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Black_Sea_port_at_Batumi,_Georgia.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Beach_and_Port_at_St_Anastasia_Island%2C_Black_Sea%2C_Bulgaria.jpg/1280px-Beach_and_Port_at_St_Anastasia_Island%2C_Black_Sea%2C_Bulgaria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Beach and Port at St Anastasia Island, Black Sea, Bulgaria. The Burgas city skyline is visible on the horizon.",
+          "credit": "5ko / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Beach_and_Port_at_St_Anastasia_Island,_Black_Sea,_Bulgaria.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/2017-09-24_Ursula_von_der_Leyen_by_Sandro_Halank.jpg/1280px-2017-09-24_Ursula_von_der_Leyen_by_Sandro_Halank.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1646,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Bundesverteidigungsminsterin Ursula von der Leyen auf der Wahlparty der CDU zur Bundestagswahl 2017 im Konrad-Adenauer-Haus",
+          "credit": "Sandro Halank, Wikimedia Commons / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:2017-09-24_Ursula_von_der_Leyen_by_Sandro_Halank.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/AC_SO_Karlspreisverleihung_2026_14._Mai_Kr%C3%B6nungssaal_Ursula_von_der_Leyen_I.jpg/1280px-AC_SO_Karlspreisverleihung_2026_14._Mai_Kr%C3%B6nungssaal_Ursula_von_der_Leyen_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Ursula von der Leyen während der Karlspreisverleihung 2026",
+          "credit": "Grunpfnul / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:AC_SO_Karlspreisverleihung_2026_14._Mai_Kr%C3%B6nungssaal_Ursula_von_der_Leyen_I.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Pavilion_%22Agriculture%22_%28former_Ukrainian_SSR%29_2.jpg/1280px-Pavilion_%22Agriculture%22_%28former_Ukrainian_SSR%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Павильон «Земледелие» (бывший Украинской ССР): проспект Мира, 119, строение 58, Останкинский, Северо-Восточный округ, Москва",
+          "credit": "Osazemen / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Pavilion_%22Agriculture%22_(former_Ukrainian_SSR)_2.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Pavilion_%22Agriculture%22_%28former_Ukrainian_SSR%29_1.jpg/1280px-Pavilion_%22Agriculture%22_%28former_Ukrainian_SSR%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Павильон «Земледелие» (бывший Украинской ССР): проспект Мира, 119, строение 58, Останкинский, Северо-Восточный округ, Москва",
+          "credit": "Osazemen / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Pavilion_%22Agriculture%22_(former_Ukrainian_SSR)_1.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/1646/25379306163_7438e79938_b.jpg",
+          "width": 1024,
+          "height": 649,
+          "kind": "photo",
+          "alt": "Cargo Ship Going Under the Bridge of the Americas",
+          "credit": "chumlee10 / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/39819915@N05/25379306163"
+        },
+        {
+          "url": "https://live.staticflickr.com/2820/34111016826_98fa042a65_b.jpg",
+          "width": 1024,
+          "height": 636,
+          "kind": "photo",
+          "alt": "Cargo Ship",
+          "credit": "szeke / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/43355249@N00/34111016826"
+        }
+      ],
+      "story": [
+        {
+          "title": "Bekövetkezett, amitől tartottak: 10 milliárd dollártól esett el Ukrajna az orosz blokád miatt",
+          "link": "https://www.portfolio.hu/global/20261002/bekovetkezett-amitol-tartottak-10-milliard-dollartol-esett-el-ukrajna-az-orosz-blokad-miatt-867046",
+          "summary": "A korábbi időszak felét sem éri el az ukrán agrárexport a fekete-tengeri kikötők orosz blokádja miatt szeptember végi, október eleji adatok szerint - közölte Tarasz Viszockij agrárminiszter pénteken újságíróknak az Interfax-Ukrajina hírügynökség beszámolója szerint.",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.67
+        },
+        {
+          "title": "Ursula von der Leyen szerint jól haladnak az ukrán reformok - át is utaltak ma nekik 2,9 milliárd eurót",
+          "link": "https://www.vg.hu/nemzetkozi-gazdasag/2026/10/ukrajna-eu-segely-reformok?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "summary": "Ukrajna így további 2,9 milliárd eurót kapott ma az EU-tól.",
+          "source": "vg.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/global/20261002/bekovetkezett-amitol-tartottak-10-milliard-dollartol-esett-el-ukrajna-az-orosz-blokad-miatt-867046"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/penzvilag/2026-10-02-tizmilliard-dollart-bukott-ukrajna-az-egyik-legfontosabb-utvonalon/",
+      "seo": {
+        "meta_title": "Tízmilliárd dollárt bukott Ukrajna az egyik legfontosabb útv",
+        "meta_description": "A fekete-tengeri kikötők orosz blokádja miatt az ukrán agrárexport a korábbi mennyiség felére esett vissza, ami mintegy 10 milliárd dolláros kiesést okoz a jele",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-02-tizmilliard-dollart-bukott-ukrajna-az-egyik-legfontosabb-utvonalon/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Black_Sea_port_at_Batumi%2C_Georgia.jpg/1280px-Black_Sea_port_at_Batumi%2C_Georgia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "dd6378219feb13092f2c143f14b1ad79f167a7e70e6d49e23957171e33da9a8c",
+      "pipeline_run_id": "37042147706",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T19:41:29+02:00",
+      "updated_at": "2026-10-02T19:41:29+02:00",
+      "published_at": "2026-10-02T19:41:29+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-02T17:42:04+00:00",
+        "msg_ids": [
+          1662,
+          1663,
+          1664,
+          1665,
+          1666,
+          1667,
+          1668,
+          1669,
+          1670,
+          1671
+        ],
+        "control_id": 1672
+      }
+    },
+    {
+      "id": "b5a6486b-8656-5913-8f0b-876d4353fbbc",
+      "slug": "2026-10-02-vadalkut-kothetnek-a-letartoztatott-exminiszterek",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "korrupció",
+        "Seszták Miklós",
+        "belföld",
+        "nyomozás",
+        "NVVH"
+      ],
+      "title": "Vádalkut köthetnek a letartóztatott exminiszterek?",
+      "subtitle": null,
+      "lead": "Akár vádalkut is köthetnek a hatóságokkal a korrupciós bűncselekménnyel gyanúsított, letartóztatásban lévő volt kormányzati tisztségviselők. Újabb részletek láttak napvilágot a Volánbuszhoz kapcsolódó, milliárdos tételeket érintő eljárásról.",
+      "key_points": [
+        "Seszták Miklóst harminc napra letartóztatta a bíróság egy tizenegymilliárdos vesztegetési ügyben.",
+        "A gyanúsítottak körében felmerült a vádalku lehetősége a hvg.hu podcastműsorának elemzése szerint.",
+        "A védőügyvéd korábban titkos megfigyelésekről számolt be a mentelmi jog felfüggesztése előtt.",
+        "Az ügyben érintettként Hankó Balázs neve is felmerült a hatósági eljárások kapcsán."
+      ],
+      "content": "Újabb fejlemények láttak napvilágot a tizenegymilliárd forintos vesztegetési gyanú miatt elrendelt kényszerintézkedések ügyében, miután a bíróság harminc napra letartóztatta Seszták Miklós KDNP-s országgyűlési képviselőt, a harmadik Orbán-kormány volt nemzeti fejlesztési miniszterét. A Volánbuszhoz kapcsolódó korrupciós gyanúkat vizsgáló eljárásban a gyanúsítottak számára reális opcióvá válhat a vádalku megkötése – derült ki a hvg.hu Fülke című podcastjából.\n\nAz elmúlt napokban a védelem részéről is érkeztek vitatott állítások: a letartóztatott politikus ügyvédje, Papp Gábor arról beszélt, hogy ügyfelét és őket magukat is titokban megfigyelték még a mentelmi jog hivatalos felfüggesztése előtt. A jogi képviselő aggályosnak nevezte a hatóságok eljárási lépéseit, míg a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) vezetője, Unger Anna határozottan visszautasította a jogsértésre vonatkozó vádakat.\n\nA folyamatban lévő ügy jelentőségét az adja, hogy a fideszes politikusok érintettsége mellett a gazdasági szereplők és a vagyonvisszaszerzési mechanizmusok átláthatósága is fókuszba került. A hatóságok vizsgálják a vesztegetési láncolat részleteit, miközben a közbeszédben a rendszerváltás óta nem látott lépésekről és az intézményi függetlenségről szóló viták élénkültek meg.",
+      "content_format": "markdown",
+      "body": [
+        "Újabb fejlemények láttak napvilágot a tizenegymilliárd forintos vesztegetési gyanú miatt elrendelt kényszerintézkedések ügyében, miután a bíróság harminc napra letartóztatta Seszták Miklós KDNP-s országgyűlési képviselőt, a harmadik Orbán-kormány volt nemzeti fejlesztési miniszterét. A Volánbuszhoz kapcsolódó korrupciós gyanúkat vizsgáló eljárásban a gyanúsítottak számára reális opcióvá válhat a vádalku megkötése – derült ki a hvg.hu Fülke című podcastjából.",
+        "Az elmúlt napokban a védelem részéről is érkeztek vitatott állítások: a letartóztatott politikus ügyvédje, Papp Gábor arról beszélt, hogy ügyfelét és őket magukat is titokban megfigyelték még a mentelmi jog hivatalos felfüggesztése előtt. A jogi képviselő aggályosnak nevezte a hatóságok eljárási lépéseit, míg a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) vezetője, Unger Anna határozottan visszautasította a jogsértésre vonatkozó vádakat.",
+        "A folyamatban lévő ügy jelentőségét az adja, hogy a fideszes politikusok érintettsége mellett a gazdasági szereplők és a vagyonvisszaszerzési mechanizmusok átláthatósága is fókuszba került. A hatóságok vizsgálják a vesztegetési láncolat részleteit, miközben a közbeszédben a rendszerváltás óta nem látott lépésekről és az intézményi függetlenségről szóló viták élénkültek meg."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 190,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/%C3%93buda%2C_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg/1280px-%C3%93buda%2C_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Budapest Districts II and III Courthouse in Óbuda, Budapest",
+        "credit": "Pasztilla aka Attila Terbócs / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%C3%93buda,_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261002_akar-vadalkut-is-kothetnek-a-letartoztatott-ner-miniszterek-fulke",
+          "title": "Akár vádalkut is köthetnek a letartóztatott NER-miniszterek – Fülke",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T19:42:30+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Vádalkut köthetnek a letartóztatott exminiszterek?",
+        "Újabb fordulat a milliárdos korrupciós ügyben",
+        "Börtönben a NER egykori miniszterei – jöhet a vádalku?"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/%C3%93buda%2C_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg/1280px-%C3%93buda%2C_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest Districts II and III Courthouse in Óbuda, Budapest",
+          "credit": "Pasztilla aka Attila Terbócs / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:%C3%93buda,_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Fortuna_Stra%C3%9Fe_4%2C_Nasenschild%2C_2022_Budapest.jpg/1280px-Fortuna_Stra%C3%9Fe_4%2C_Nasenschild%2C_2022_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 878,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Iron sign horse and dragon at Fortuna Alley corner. - One storey corner building, former Fortuna Hotel. Built in 1784 using three Middle Ages houses. Former graphic art school, courthouse, inn, Since",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fortuna_Stra%C3%9Fe_4,_Nasenschild,_2022_Budapest.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Vol%C3%A1nbusz_Opel%2C_bus_station%2C_2020_S%C3%A1rospatak.jpg/1280px-Vol%C3%A1nbusz_Opel%2C_bus_station%2C_2020_S%C3%A1rospatak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": ": Volánbusz Opel repair? van at bus station - Csokonai Street, Downtown, Sárospatak, Borsod-Abaúj-Zemplén County, Hungary.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Vol%C3%A1nbusz_Opel,_bus_station,_2020_S%C3%A1rospatak.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Vol%C3%A1nbusz_Ikarus_66_nostalgia-bus%2C_Andr%C3%A1ssy_Avenue%2C_2018_Ter%C3%A9zv%C3%A1ros.jpg/1280px-Vol%C3%A1nbusz_Ikarus_66_nostalgia-bus%2C_Andr%C3%A1ssy_Avenue%2C_2018_Ter%C3%A9zv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": ": Volánbusz Ikarus 66 nostalgia-bus (service). Engine: Csepel D 614.12, 8275 cm3, 145 HP; made: 1972, Budapest, Mátyásföld; weight 9300/15000kg; seats: 38+1; consumption 23-26 liter / 100km. Exhibite",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Vol%C3%A1nbusz_Ikarus_66_nostalgia-bus,_Andr%C3%A1ssy_Avenue,_2018_Ter%C3%A9zv%C3%A1ros.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/4031/4289726649_2d622fe46e_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Courtroom",
+          "credit": "☺ Lee J Haywood / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/45034206@N06/4289726649"
+        },
+        {
+          "url": "https://live.staticflickr.com/2814/9841767075_357d73c5c3_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Chartist courtroom 1",
+          "credit": "siaronj / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/59489479@N08/9841767075"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Beverley_Guildhall_Courtroom.jpg/1280px-Beverley_Guildhall_Courtroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Here is an hdr photograph taken from the courtroom inside Beverley Guildhall.  Located in Beverley, East Riding of Yorkshire, England.",
+          "credit": "Michael D Beckwith / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Beverley_Guildhall_Courtroom.jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "Akár vádalkut is köthetnek a letartóztatott NER-miniszterek – Fülke",
+          "link": "https://hvg.hu/itthon/20261002_akar-vadalkut-is-kothetnek-a-letartoztatott-ner-miniszterek-fulke",
+          "summary": "Seszták Miklóst és Hankó Balázst letartóztatták. Ez most akkor a rendszerváltás, vagy tényleg igaza van a Fidesznek, amikor önkényt emleget? Miért vonta magához az Unger Anna vezette NVVH Orbán Áron látszólag piti ügyét? Mi lehetett Orbán Viktor valódi szerepe az aranykonvojügyben? Hogyan lehet kifehéríteni a gazdaságot, hogy elérjük a valódi rendszerváltást? Kacskovics Mihály Béla vendége Szabó Yvette, a HVG vezető szerkesztője.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261002_akar-vadalkut-is-kothetnek-a-letartoztatott-ner-miniszterek-fulke"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/kozelet/2026-10-02-vadalkut-kothetnek-a-letartoztatott-exminiszterek/",
+      "seo": {
+        "meta_title": "Vádalkut köthetnek a letartóztatott exminiszterek?",
+        "meta_description": "Akár vádalkut is köthetnek a hatóságokkal a korrupciós bűncselekménnyel gyanúsított, letartóztatásban lévő volt kormányzati tisztségviselők. Újabb részletek lát",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-02-vadalkut-kothetnek-a-letartoztatott-exminiszterek/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/%C3%93buda%2C_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg/1280px-%C3%93buda%2C_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "f56b9961-0ced-5cf9-960d-6a0cdd4b02b1",
+        "d175dfc4-cc8d-5dec-9114-714cd54e2297",
+        "86fab367-0e3a-5110-8751-055aa62bd9a1"
+      ],
+      "see_also": [
+        {
+          "title": "11 milliárdos vesztegetési gyanú: letartóztatták Seszták Miklóst",
+          "url": "/kozelet/2026-09-30-11-milliardos-vesztegetesi-gyanu-letartoztattak-sesztak-miklost/",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "Hogyan gondolkodik a ChatGPT?",
+          "url": "/tech/2026-10-02-hogyan-gondolkodik-a-chatgpt/",
+          "date": "2026-10-02"
+        },
+        {
+          "title": "Titkos megfigyelésről beszél Seszták ügyvédje",
+          "url": "/kozelet/2026-10-01-megfigyelesi-botrany-sesztak-miklos-ugyeben/",
+          "date": "2026-10-01"
+        }
+      ],
+      "thread_id": "f56b9961-0ced-5cf9-960d-6a0cdd4b02b1",
+      "dedupe_hash": "541d3d72f4bc31300c1c1c45819ffa112393800f734043287e47d6422db0a890",
+      "pipeline_run_id": "37042147706",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T19:42:30+02:00",
+      "updated_at": "2026-10-02T19:42:30+02:00",
+      "published_at": "2026-10-02T19:42:30+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-02T17:44:12+00:00",
+        "msg_ids": [
+          1673,
+          1674,
+          1675,
+          1676,
+          1677,
+          1678,
+          1679,
+          1680,
+          1681
+        ],
+        "control_id": 1682
+      }
+    },
+    {
+      "id": "48952a86-33aa-56a5-9dc7-1768152de0e1",
+      "slug": "2026-10-02-ezert-kellett-magyarazkodnia-hobonak-a-temetesen",
+      "status": "pending",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Hobo",
+        "Deák Bill Gyula",
+        "zene",
+        "bulvár",
+        "gyász"
+      ],
+      "title": "Ezért kellett magyarázkodnia Hobónak a temetésen",
+      "subtitle": null,
+      "lead": "Földes László Hobo a Blikknek adott interjúban tisztázta, miért hagyta el korábban Deák Bill Gyula temetését. A Kossuth-díjas zenész friss térdműtétje és a szertartás körülményei miatt nem tudott végig ott lenni barátja búcsúztatásán.",
+      "key_points": [
+        "Hobo friss térdműtétje és rehabilitációja miatt nehezen gyalogol.",
+        "A zenész idő előtt elhagyta a ravatalozót, amit egyesek a sajtóban élesen bíráltak.",
+        "A két művész öt évtizedes zenei és baráti kapcsolatot tudhat maga mögött.",
+        "Hobo mélyen elítélte a búcsúztatást övező szenzációhajhászást."
+      ],
+      "content": "Földes László Hobo Kossuth-díjas művész a Blikknek nyilatkozva tisztázta azokat a támadásokat, amelyek amiatt érték, mert elhagyta Deák Bill Gyula temetését a szertartás vége előtt. A zenész megdöbbenéssel fogadta a kritikákat, hiszen halálhíre után azonnal nekrológgal és két televíziós interjúval emlékezett meg zenésztársáról.\n\nA legendás előadók pályája öt évtizeden át fonódott össze, amelynek során Deák Bill Gyula – akit a magyar blueskirályként is emlegetnek – öt évig a Hobo Blues Band tagja volt. A közös munka kitörölhetetlen nyomot hagyott a magyar rocktörténeten, hiszen olyan lemezeken énekelt, mint a Hobo Blues Band albumai, valamint a Póka Egonnal közösen írt szólólemezek, a Rossz vér és a Bűnön, börtönön bánaton túl.\n\nA búcsúztatón való részvételt nehezítette Hobo fizikai állapota, ugyanis nemrégiben a jobb térdét műtötték, és jelenleg is rehabilitáció alatt áll. Piliscsabáról érkezve Szabó Attila segítségével jutott el a ravatalozóig, ám a lábfájdalma és a tömeg miatt érezte, hogy nem tudja végigállni az órákat.\n\nA helyszínen lerótta tiszteletét, elhelyezte a virágot, és beszélt a gyászoló családdal, köztük a zenész fiával, Tomival, valamint Koltay Gábor filmrendezővel és Koltay Gergellyel. Az útközben érkező interjúfelkéréseket elutasította, mivel nem tartotta illendőnek a temetési szertartás alatt, ennek ellenére a sajtóban mégis kritikák érték a távozása miatt.",
+      "content_format": "markdown",
+      "body": [
+        "Földes László Hobo Kossuth-díjas művész a Blikknek nyilatkozva tisztázta azokat a támadásokat, amelyek amiatt érték, mert elhagyta Deák Bill Gyula temetését a szertartás vége előtt. A zenész megdöbbenéssel fogadta a kritikákat, hiszen halálhíre után azonnal nekrológgal és két televíziós interjúval emlékezett meg zenésztársáról.",
+        "A legendás előadók pályája öt évtizeden át fonódott össze, amelynek során Deák Bill Gyula – akit a magyar blueskirályként is emlegetnek – öt évig a Hobo Blues Band tagja volt. A közös munka kitörölhetetlen nyomot hagyott a magyar rocktörténeten, hiszen olyan lemezeken énekelt, mint a Hobo Blues Band albumai, valamint a Póka Egonnal közösen írt szólólemezek, a Rossz vér és a Bűnön, börtönön bánaton túl.",
+        "A búcsúztatón való részvételt nehezítette Hobo fizikai állapota, ugyanis nemrégiben a jobb térdét műtötték, és jelenleg is rehabilitáció alatt áll. Piliscsabáról érkezve Szabó Attila segítségével jutott el a ravatalozóig, ám a lábfájdalma és a tömeg miatt érezte, hogy nem tudja végigállni az órákat.",
+        "A helyszínen lerótta tiszteletét, elhelyezte a virágot, és beszélt a gyászoló családdal, köztük a zenész fiával, Tomival, valamint Koltay Gábor filmrendezővel és Koltay Gergellyel. Az útközben érkező interjúfelkéréseket elutasította, mivel nem tartotta illendőnek a temetési szertartás alatt, ennek ellenére a sajtóban mégis kritikák érték a távozása miatt."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 231,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/F%C3%B6ldes_L%C3%A1szl%C3%B3_%28Hobo%29_arck%C3%A9p.jpg/1280px-F%C3%B6ldes_L%C3%A1szl%C3%B3_%28Hobo%29_arck%C3%A9p.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1479,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Földes László (Hobo) arcképe",
+        "credit": "Tamás Díner / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:F%C3%B6ldes_L%C3%A1szl%C3%B3_(Hobo)_arck%C3%A9p.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/hobo-temetes-deak-bill-gyula/msv13dr",
+          "title": "Hobo elárulta, miért hagyta ott Deák Bill Gyula temetését: Bizonyos „újseggírók” kikezdtek",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T19:44:28+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.97,
+      "title_options": [
+        "Ezért kellett magyarázkodnia Hobónak a temetésen",
+        "Megszólalt Hobo a temetési botrányról",
+        "Nem bírta végigállni Deák Bill búcsúztatását"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/F%C3%B6ldes_L%C3%A1szl%C3%B3_%28Hobo%29_arck%C3%A9p.jpg/1280px-F%C3%B6ldes_L%C3%A1szl%C3%B3_%28Hobo%29_arck%C3%A9p.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1479,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Földes László (Hobo) arcképe",
+          "credit": "Tamás Díner / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:F%C3%B6ldes_L%C3%A1szl%C3%B3_(Hobo)_arck%C3%A9p.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/F%C3%B6ldes_L%C3%A1szl%C3%B3_%28Hobo%29.jpg/1280px-F%C3%B6ldes_L%C3%A1szl%C3%B3_%28Hobo%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1813,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Földes László  a Tabánban",
+          "credit": "Klippiti / Wikimedia Commons",
+          "license": "CC BY 2.5",
+          "source_url": "https://commons.wikimedia.org/wiki/File:F%C3%B6ldes_L%C3%A1szl%C3%B3_(Hobo).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Deak_Bill_Gyula_2009_06_27_Kobanya.jpg/1280px-Deak_Bill_Gyula_2009_06_27_Kobanya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1286,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Hungarian Blues musicians, Portait of Deak Bill - Concert in Budapest, X. Kobanya-city - 2009",
+          "credit": "Takkk / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Deak_Bill_Gyula_2009_06_27_Kobanya.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/De%C3%A1k_Bill_Gyula_%28Nyugat.hu%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Deák Bill Gyula (Budapest, 1948. november 8. –) Artisjus-díjas magyar blues-énekes.",
+          "credit": "Nyugat.hu / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:De%C3%A1k_Bill_Gyula_(Nyugat.hu).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Budapest%2C_the_M%C3%BCpa_%E2%80%93_Nemzeti_Sz%C3%ADnh%C3%A1z_H%C3%89V_station.jpg/1280px-Budapest%2C_the_M%C3%BCpa_%E2%80%93_Nemzeti_Sz%C3%ADnh%C3%A1z_H%C3%89V_station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Budapest, the Müpa – Nemzeti Színház HÉV station",
+          "credit": "Dguendel / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_the_M%C3%BCpa_%E2%80%93_Nemzeti_Sz%C3%ADnh%C3%A1z_H%C3%89V_station.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Nemzeti_Sz%C3%ADnh%C3%A1z_1900.jpg/1280px-Nemzeti_Sz%C3%ADnh%C3%A1z_1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 783,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Nemzeti Színház képeslapon, Budapest",
+          "credit": "Edgar Schmidt (publisher) / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Nemzeti_Sz%C3%ADnh%C3%A1z_1900.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/2172/2053816509_d19673f307_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Arcade (Pantages) Theatre stage",
+          "credit": "laasB / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/97807252@N00/2053816509"
+        },
+        {
+          "url": "https://live.staticflickr.com/4176/34540653542_7de72d04c4_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Israel-05684 - Theatre Stage",
+          "credit": "archer10 (Dennis) / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/22490717@N02/34540653542"
+        }
+      ],
+      "story": [
+        {
+          "title": "Hobo elárulta, miért hagyta ott Deák Bill Gyula temetését: Bizonyos „újseggírók” kikezdtek",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/hobo-temetes-deak-bill-gyula/msv13dr",
+          "summary": "Valóban magyarázkodni kell? Aligha szorul „védőbeszédre” Hobo, ám úgy tűnik, vannak akik magyarázatot várnak tőle, miért nem volt ott végig barátja, zenésztársa, Deák Bill Gyula temetésén. A Kossuth-díjas művész most a Blikknek megrázó és őszinte nyilatkozatban tisztázza a történteket, a friss műtétje körülményeit, valamint a blueskirályhoz fűződő, öt évtizedes, eltéphetetlen kötelékét.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 5.97
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/hobo-temetes-deak-bill-gyula/msv13dr"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/bulvar/2026-10-02-ezert-kellett-magyarazkodnia-hobonak-a-temetesen/",
+      "seo": {
+        "meta_title": "Ezért kellett magyarázkodnia Hobónak a temetésen",
+        "meta_description": "Földes László Hobo a Blikknek adott interjúban tisztázta, miért hagyta el korábban Deák Bill Gyula temetését. A Kossuth-díjas zenész friss térdműtétje és a szer",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-02-ezert-kellett-magyarazkodnia-hobonak-a-temetesen/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/F%C3%B6ldes_L%C3%A1szl%C3%B3_%28Hobo%29_arck%C3%A9p.jpg/1280px-F%C3%B6ldes_L%C3%A1szl%C3%B3_%28Hobo%29_arck%C3%A9p.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "4154c6cd3dc3b2cd8b6d3bcd689f429c00e8067d9418d25df6924b3e3d7dadda",
+      "pipeline_run_id": "37042147706",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T19:44:28+02:00",
+      "updated_at": "2026-10-02T19:44:28+02:00",
+      "published_at": "2026-10-02T19:44:28+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-02T17:48:17+00:00",
+        "msg_ids": [
+          1683,
+          1684,
+          1685,
+          1686,
+          1687,
+          1688,
+          1689,
+          1690,
+          1691,
+          1692
+        ],
+        "control_id": 1693
+      }
     }
   ]
 }
