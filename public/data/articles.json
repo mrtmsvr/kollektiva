@@ -1,7 +1,124 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T20:12:15+02:00",
+  "updated_at": "2026-10-02T20:14:25+02:00",
   "articles": [
+    {
+      "id": "b5a6486b-8656-5913-8f0b-876d4353fbbc",
+      "slug": "2026-10-02-vadalkut-kothetnek-a-letartoztatott-exminiszterek",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "korrupció",
+        "Seszták Miklós",
+        "belföld",
+        "nyomozás",
+        "NVVH"
+      ],
+      "title": "Vádalkut köthetnek a letartóztatott exminiszterek?",
+      "subtitle": null,
+      "lead": "Akár vádalkut is köthetnek a hatóságokkal a korrupciós bűncselekménnyel gyanúsított, letartóztatásban lévő volt kormányzati tisztségviselők. Újabb részletek láttak napvilágot a Volánbuszhoz kapcsolódó, milliárdos tételeket érintő eljárásról.",
+      "key_points": [
+        "Seszták Miklóst harminc napra letartóztatta a bíróság egy tizenegymilliárdos vesztegetési ügyben.",
+        "A gyanúsítottak körében felmerült a vádalku lehetősége a hvg.hu podcastműsorának elemzése szerint.",
+        "A védőügyvéd korábban titkos megfigyelésekről számolt be a mentelmi jog felfüggesztése előtt.",
+        "Az ügyben érintettként Hankó Balázs neve is felmerült a hatósági eljárások kapcsán."
+      ],
+      "content": "Újabb fejlemények láttak napvilágot a tizenegymilliárd forintos vesztegetési gyanú miatt elrendelt kényszerintézkedések ügyében, miután a bíróság harminc napra letartóztatta Seszták Miklós KDNP-s országgyűlési képviselőt, a harmadik Orbán-kormány volt nemzeti fejlesztési miniszterét. A Volánbuszhoz kapcsolódó korrupciós gyanúkat vizsgáló eljárásban a gyanúsítottak számára reális opcióvá válhat a vádalku megkötése – derült ki a hvg.hu Fülke című podcastjából.\n\nAz elmúlt napokban a védelem részéről is érkeztek vitatott állítások: a letartóztatott politikus ügyvédje, Papp Gábor arról beszélt, hogy ügyfelét és őket magukat is titokban megfigyelték még a mentelmi jog hivatalos felfüggesztése előtt. A jogi képviselő aggályosnak nevezte a hatóságok eljárási lépéseit, míg a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) vezetője, Unger Anna határozottan visszautasította a jogsértésre vonatkozó vádakat.\n\nA folyamatban lévő ügy jelentőségét az adja, hogy a fideszes politikusok érintettsége mellett a gazdasági szereplők és a vagyonvisszaszerzési mechanizmusok átláthatósága is fókuszba került. A hatóságok vizsgálják a vesztegetési láncolat részleteit, miközben a közbeszédben a rendszerváltás óta nem látott lépésekről és az intézményi függetlenségről szóló viták élénkültek meg.",
+      "content_format": "markdown",
+      "body": [
+        "Újabb fejlemények láttak napvilágot a tizenegymilliárd forintos vesztegetési gyanú miatt elrendelt kényszerintézkedések ügyében, miután a bíróság harminc napra letartóztatta Seszták Miklós KDNP-s országgyűlési képviselőt, a harmadik Orbán-kormány volt nemzeti fejlesztési miniszterét. A Volánbuszhoz kapcsolódó korrupciós gyanúkat vizsgáló eljárásban a gyanúsítottak számára reális opcióvá válhat a vádalku megkötése – derült ki a hvg.hu Fülke című podcastjából.",
+        "Az elmúlt napokban a védelem részéről is érkeztek vitatott állítások: a letartóztatott politikus ügyvédje, Papp Gábor arról beszélt, hogy ügyfelét és őket magukat is titokban megfigyelték még a mentelmi jog hivatalos felfüggesztése előtt. A jogi képviselő aggályosnak nevezte a hatóságok eljárási lépéseit, míg a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) vezetője, Unger Anna határozottan visszautasította a jogsértésre vonatkozó vádakat.",
+        "A folyamatban lévő ügy jelentőségét az adja, hogy a fideszes politikusok érintettsége mellett a gazdasági szereplők és a vagyonvisszaszerzési mechanizmusok átláthatósága is fókuszba került. A hatóságok vizsgálják a vesztegetési láncolat részleteit, miközben a közbeszédben a rendszerváltás óta nem látott lépésekről és az intézményi függetlenségről szóló viták élénkültek meg."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 190,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/%C3%93buda%2C_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg/1280px-%C3%93buda%2C_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Budapest Districts II and III Courthouse in Óbuda, Budapest",
+        "credit": "Pasztilla aka Attila Terbócs / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%C3%93buda,_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261002_akar-vadalkut-is-kothetnek-a-letartoztatott-ner-miniszterek-fulke",
+          "title": "Akár vádalkut is köthetnek a letartóztatott NER-miniszterek – Fülke",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T19:42:30+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-02T20:14:24+02:00"
+      },
+      "hot_score": 6.0,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261002_akar-vadalkut-is-kothetnek-a-letartoztatott-ner-miniszterek-fulke"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/kozelet/2026-10-02-vadalkut-kothetnek-a-letartoztatott-exminiszterek/",
+      "seo": {
+        "meta_title": "Vádalkut köthetnek a letartóztatott exminiszterek?",
+        "meta_description": "Akár vádalkut is köthetnek a hatóságokkal a korrupciós bűncselekménnyel gyanúsított, letartóztatásban lévő volt kormányzati tisztségviselők. Újabb részletek lát",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-02-vadalkut-kothetnek-a-letartoztatott-exminiszterek/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/%C3%93buda%2C_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg/1280px-%C3%93buda%2C_II._%C3%A9s_III._Ker%C3%BCleti_B%C3%ADr%C3%B3s%C3%A1g_2021_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "f56b9961-0ced-5cf9-960d-6a0cdd4b02b1",
+        "d175dfc4-cc8d-5dec-9114-714cd54e2297",
+        "86fab367-0e3a-5110-8751-055aa62bd9a1"
+      ],
+      "see_also": [
+        {
+          "title": "11 milliárdos vesztegetési gyanú: letartóztatták Seszták Miklóst",
+          "url": "/kozelet/2026-09-30-11-milliardos-vesztegetesi-gyanu-letartoztattak-sesztak-miklost/",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "Hogyan gondolkodik a ChatGPT?",
+          "url": "/tech/2026-10-02-hogyan-gondolkodik-a-chatgpt/",
+          "date": "2026-10-02"
+        },
+        {
+          "title": "Titkos megfigyelésről beszél Seszták ügyvédje",
+          "url": "/kozelet/2026-10-01-megfigyelesi-botrany-sesztak-miklos-ugyeben/",
+          "date": "2026-10-01"
+        }
+      ],
+      "thread_id": "f56b9961-0ced-5cf9-960d-6a0cdd4b02b1",
+      "dedupe_hash": "541d3d72f4bc31300c1c1c45819ffa112393800f734043287e47d6422db0a890",
+      "pipeline_run_id": "37042147706",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T20:14:24+02:00",
+      "updated_at": "2026-10-02T20:14:24+02:00",
+      "published_at": "2026-10-02T20:14:24+02:00",
+      "expires_at": null
+    },
     {
       "id": "6edea31b-7664-5c63-bc16-b1e9f049c642",
       "slug": "2026-10-02-tizmilliard-dollart-bukott-ukrajna-az-egyik-legfontosabb-utvonalon",
