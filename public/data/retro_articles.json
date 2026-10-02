@@ -1,7 +1,107 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T00:18:52+02:00",
+  "updated_at": "2026-10-03T00:07:57+02:00",
   "articles": [
+    {
+      "id": "815a67bf-08ee-5c24-b7dc-a0972a65cb7b",
+      "slug": "2026-10-03-amikor-sinead-o-connor-atirta-a-televiziozas-es-a-poptortenelem-szaba",
+      "status": "published",
+      "category": "retro",
+      "subcategory": null,
+      "tags": [
+        "Sinéad O'Connor",
+        "Saturday Night Live",
+        "zene",
+        "történelem",
+        "1992"
+      ],
+      "title": "Amikor Sinéad O'Connor átírta a televíziózás és a poptörténelem szabályait",
+      "subtitle": null,
+      "lead": "1992. október 3-án az amerikai televíziózás egyik legmegrázóbb pillanata zajlott le a Saturday Night Live műsorában. Az ír énekesnő, Sinéad O'Connor a kamerák előtt tépte szét II. János Pál pápa fényképét, hogy tüntessen a Katolikus Egyház ellen.",
+      "content": "> Egyetlen mozdulat elég volt ahhoz, hogy egy élő tévéműsor zenei betétje mélyreható társadalmi vitát indítson el.\n\nAz est, amely örökre beégett a poptörténelembe, 1992. október 3-án történt, amikor Sinéad O'Connor az amerikai Saturday Night Live (SNL) nevű élő televíziós show-műsor zenei vendégeként lépett színpadra. Az ír énekesnő-dalszerző nem csupán zenei produkcióval készült az estre, hanem egy olyan radikális kiállással, amely azonnal megosztotta a nyilvánosságot.\n\nA fellépés során Bob Marley 1976-os „War” című dalát adta elő, ám a zenei előadás hamarosan határozott politikai és vallási tiltakozássá alakult. O'Connor a dal közepén elővett egy fényképet, amelyen II. János Pál pápa szerepelt, majd a kamerák előtt darabokra tépte azt.\n\nA szimbolikus és megalkuvást nem ismerő mozdulatot egyértelmű üzenettel zárta: a kamerába nézve kiejtette a „harcolj a valódi ellenség ellen” szavakat, majd a papírdarabokat a földre dobta. Ezzel a cselekedettel a Katolikus Egyház ellen emelt szót, miközben kiállt a gyermekbélés, az emberi jogok, a rasszizmus és a nők jogai mellett.\n\nSinéad Marie Bernadette O'Connor – aki később a Shuhada' Sadaqat nevet is viselte – pályafutása során sosem rejtette véka alá a véleményét. Zenei sikerei és slágerlemezei mellett közéleti aktivitásáról, spirituális útjáról, valamint a mentális egészséggel kapcsolatos küzdelmeiről is ismert volt, szókimondó imázsa pedig védjegyévé vált.\n\nAz 1992-es televíziós incidens mély nyomot hagyott a Grammy-díjas ír művész karrierjében és a köztudatban is. Az élő adásban bemutatott tiltakozás nemcsak a televíziózás történetének egyik legbotrányosabb pillanata maradt, hanem egy olyan bátor, bár sokak számára megbotránkoztató gesztus is, amely máig hűen mutatja O'Connor kompromisszummentes művészetszemléletét.",
+      "content_format": "markdown",
+      "body": [
+        "Az est, amely örökre beégett a poptörténelembe, 1992. október 3-án történt, amikor Sinéad O'Connor az amerikai Saturday Night Live (SNL) nevű élő televíziós show-műsor zenei vendégeként lépett színpadra. Az ír énekesnő-dalszerző nem csupán zenei produkcióval készült az estre, hanem egy olyan radikális kiállással, amely azonnal megosztotta a nyilvánosságot.",
+        "A fellépés során Bob Marley 1976-os „War” című dalát adta elő, ám a zenei előadás hamarosan határozott politikai és vallási tiltakozássá alakult. O'Connor a dal közepén elővett egy fényképet, amelyen II. János Pál pápa szerepelt, majd a kamerák előtt darabokra tépte azt.",
+        "A szimbolikus és megalkuvást nem ismerő mozdulatot egyértelmű üzenettel zárta: a kamerába nézve kiejtette a „harcolj a valódi ellenség ellen” szavakat, majd a papírdarabokat a földre dobta. Ezzel a cselekedettel a Katolikus Egyház ellen emelt szót, miközben kiállt a gyermekbélés, az emberi jogok, a rasszizmus és a nők jogai mellett.",
+        "Sinéad Marie Bernadette O'Connor – aki később a Shuhada' Sadaqat nevet is viselte – pályafutása során sosem rejtette véka alá a véleményét. Zenei sikerei és slágerlemezei mellett közéleti aktivitásáról, spirituális útjáról, valamint a mentális egészséggel kapcsolatos küzdelmeiről is ismert volt, szókimondó imázsa pedig védjegyévé vált.",
+        "Az 1992-es televíziós incidens mély nyomot hagyott a Grammy-díjas ír művész karrierjében és a köztudatban is. Az élő adásban bemutatott tiltakozás nemcsak a televíziózás történetének egyik legbotrányosabb pillanata maradt, hanem egy olyan bátor, bár sokak számára megbotránkoztató gesztus is, amely máig hűen mutatja O'Connor kompromisszummentes művészetszemléletét."
+      ],
+      "pull_quote": "Egyetlen mozdulat elég volt ahhoz, hogy egy élő tévéműsor zenei betétje mélyreható társadalmi vitát indítson el.",
+      "reading_time_min": 2,
+      "word_count": 278,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sin%C3%A9ad_O'Connor",
+          "title": "Sinéad O'Connor",
+          "publisher": "Wikipedia",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-03T00:07:57+02:00"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sin%C3%A9ad_O'Connor_on_Saturday_Night_Live",
+          "title": "Sinéad O'Connor on Saturday Night Live",
+          "publisher": "Wikipedia",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-03T00:07:57+02:00"
+        },
+        {
+          "url": "https://hu.wikipedia.org/wiki/Sin%C3%A9ad_O%E2%80%99Connor",
+          "title": "Sinéad O’Connor",
+          "publisher": "Wikipédia",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-03T00:07:57+02:00"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2007/feb/20/gender.music",
+          "title": "The Guardian",
+          "publisher": "The Guardian",
+          "license": null,
+          "accessed_at": "2026-10-03T00:07:57+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "retro-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "event_year": 1992,
+        "event_date": "10-03",
+        "event_title": "Sinéad O'Connor  tore up a photograph of Pope John Paul II on live television"
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/retro/2026-10-03-amikor-sinead-o-connor-atirta-a-televiziozas-es-a-poptortenelem-szaba/",
+      "seo": {
+        "meta_title": "Amikor Sinéad O'Connor átírta a televíziózás és a poptörténe",
+        "meta_description": "1992. október 3-án az amerikai televíziózás egyik legmegrázóbb pillanata zajlott le a Saturday Night Live műsorában. Az ír énekesnő, Sinéad O'Connor a kamerák e",
+        "canonical_url": "https://xn--kollektva-m5a.hu/retro/2026-10-03-amikor-sinead-o-connor-atirta-a-televiziozas-es-a-poptortenelem-szaba/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "Article"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "64a6e5ce00753483a120ca606d56192cb6a72a05fc94d3827a01e3c4dbef11dd",
+      "pipeline_run_id": "37070717467",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T00:07:57+02:00",
+      "updated_at": "2026-10-03T00:07:57+02:00",
+      "published_at": "2026-10-03T00:07:57+02:00",
+      "expires_at": null
+    },
     {
       "id": "8007ae8e-3c62-5501-be7c-055ca33aa32a",
       "slug": "2026-10-02-a-krimi-alku-amelyert-halalbuntetes-jart-a-livadiai-szerzodes-kudarca",
