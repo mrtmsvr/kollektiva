@@ -9969,7 +9969,7 @@
     {
       "id": "d175dfc4-cc8d-5dec-9114-714cd54e2297",
       "slug": "2026-10-02-hogyan-gondolkodik-a-chatgpt",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": "olvasnivalo",
       "tags": [
@@ -10223,9 +10223,9 @@
       "dedupe_hash": "917bcd3f813210ad00341d4189a50198bab2552410c0fef4b6da2395876330d9",
       "pipeline_run_id": "36968073407",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T07:15:50+02:00",
-      "updated_at": "2026-10-02T07:15:50+02:00",
-      "published_at": null,
+      "created_at": "2026-10-02T10:05:19+02:00",
+      "updated_at": "2026-10-02T10:05:19+02:00",
+      "published_at": "2026-10-02T10:05:19+02:00",
       "expires_at": null,
       "schedule": {
         "earliest": "2026-10-02T09:14:57+02:00",
@@ -10249,7 +10249,8 @@
           1108
         ],
         "control_id": 1109
-      }
+      },
+      "live": true
     },
     {
       "id": "234a392f-f1c5-57d6-bc18-fbf12e0d129e",
