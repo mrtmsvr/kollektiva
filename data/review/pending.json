@@ -10757,90 +10757,92 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Boris_Pistorius_%282019%29_%28cropped%29.jpg/1280px-Boris_Pistorius_%282019%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Boris_Pistorius_Samuel_Paparo_July_2024.jpg/1280px-Boris_Pistorius_Samuel_Paparo_July_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1638,
+          "height": 1600,
           "kind": "photo",
           "pos": "top",
-          "alt": "Boris Pistorius, Minister of the Interior and Sport of Lower Saxony since February 2013, Federal Minister of Defense of the Federal Republic of Germany from January 19, 2023.",
-          "credit": "Daniel Biskup / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Boris_Pistorius_(2019)_(cropped).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/2018-02-28_Boris_Pistorius-6241.jpg/1280px-2018-02-28_Boris_Pistorius-6241.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 795,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Boris Pistorius am 28. Februar 2018 im Plenum des Niedersächsischen Landtages.",
-          "credit": "Olaf Kosinsky / Wikimedia Commons",
-          "license": "CC BY-SA 3.0 de",
-          "source_url": "https://commons.wikimedia.org/wiki/File:2018-02-28_Boris_Pistorius-6241.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/84%2B35_German_Army_Sikorsky_CH-53G_Super_Stallion_ILA_Berlin_2016_21.jpg/1280px-84%2B35_German_Army_Sikorsky_CH-53G_Super_Stallion_ILA_Berlin_2016_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 704,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "German Army Sikorsky CH-53G Super Stallion (reg. 84+35, sn V65-33) at ILA Berlin Air Show 2016.",
-          "credit": "Julian Herzog (Website) / Wikimedia Commons",
+          "alt": "Boris Pistorius and Samuel Paparo in Honolulu, HI, July 2024.jpg",
+          "credit": "McNam / Wikimedia Commons",
           "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:84%2B35_German_Army_Sikorsky_CH-53G_Super_Stallion_ILA_Berlin_2016_21.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Boris_Pistorius_Samuel_Paparo_July_2024.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Soldiers_of_the_Imperial_German_Army_entering_burning_%C5%A0iauliai_in_1915.jpg/1280px-Soldiers_of_the_Imperial_German_Army_entering_burning_%C5%A0iauliai_in_1915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Boris_Pistorius_2023.jpg/1280px-Boris_Pistorius_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 780,
+          "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "Soldiers of the Imperial German Army entering burning Šiauliai in 1915.",
+          "alt": "Verteidigungsminister Pistorius anlässlich des Feierlichen Gelöbnisses zum 20. Juli (2023)",
+          "credit": "Dr. Frank Gaeth / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Boris_Pistorius_2023.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Challenger2-Bergen-Hohne-Training-Area_cropped.jpg/1280px-Challenger2-Bergen-Hohne-Training-Area_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 898,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The 2nd Royal Tank Regiment (2 RTR Badger) of the British Army with the MBT Challenger 2 during live fire training exercises in 2004 on Bergen-Hohne Training Area (Lower Saxony, Germany).",
+          "credit": "Fiorellino / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Challenger2-Bergen-Hohne-Training-Area_cropped.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/RSDG-Bergen-Hohne-Training-Area-3.jpg/1280px-RSDG-Bergen-Hohne-Training-Area-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 898,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The Royal Scots Dragoon Guards (SCOTS DG, Squadron C) of the British Army with the MBT Challenger 2 during live fire training exercises in 2004 on Bergen-Hohne Training Area  (Range SB 7B) (Lower Saxo",
+          "credit": "Fiorellino / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:RSDG-Bergen-Hohne-Training-Area-3.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_Dawn_in_Vilnius%2C_1917.png/1280px-Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_Dawn_in_Vilnius%2C_1917.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1898,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Soldiers of the Imperial German Army near the Gate of Dawn in Vilnius in 1917.",
           "credit": "Unknown authorUnknown author / Wikimedia Commons",
           "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Soldiers_of_the_Imperial_German_Army_entering_burning_%C5%A0iauliai_in_1915.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_Dawn_in_Vilnius,_1917.png"
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/UA_military_FPV_drones_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_the_Monastery_of_the_Holy_Trinity_in_Vilnius%2C_1917.png/1280px-Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_the_Monastery_of_the_Holy_Trinity_in_Vilnius%2C_1917.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 900,
+          "height": 761,
           "kind": "photo",
           "pos": "center",
-          "alt": "Ukrainian loitering munitions made from FPV drones",
-          "credit": "АрміяInform / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:UA_military_FPV_drones_01.jpg"
+          "alt": "Soldiers of the Imperial German Army near the Gate of the Monastery of the Holy Trinity in Vilnius in 1917.",
+          "credit": "Unknown authorUnknown author / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_the_Monastery_of_the_Holy_Trinity_in_Vilnius,_1917.png"
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/UA_military_FPV_drones_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/UAV_Pegaz.jpg/1280px-UAV_Pegaz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 900,
+          "height": 559,
           "kind": "photo",
           "pos": "center",
-          "alt": "Ukrainian loitering munitions made from FPV drones",
-          "credit": "АрміяInform / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:UA_military_FPV_drones_02.jpg"
+          "alt": "Serbian tactical UAV Pegaz on display at \"Partner 2011\" military fair.",
+          "credit": "Srđan Popović / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:UAV_Pegaz.jpg"
         },
         {
-          "url": "https://live.staticflickr.com/5128/5346499274_467bdabce0_b.jpg",
-          "width": 1024,
-          "height": 793,
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/UAV_Vrabac.jpg/1280px-UAV_Vrabac.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 613,
           "kind": "photo",
-          "alt": "VP Biden tours Kabul Military Training Center [Image 4 of 4]",
-          "credit": "DVIDSHUB / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/28650594@N03/5346499274"
-        },
-        {
-          "url": "https://live.staticflickr.com/5217/5383304285_ce9427c525_b.jpg",
-          "width": 1024,
-          "height": 681,
-          "kind": "photo",
-          "alt": "Kabul Military Training Center puts Afghan soliders through their paces",
-          "credit": "Georgia National Guard / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/40994485@N04/5383304285"
+          "pos": "center",
+          "alt": "Serbia lightn UAV Vrabac on display at \"Partner 2011\" military fair.",
+          "credit": "Srđan Popović / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:UAV_Vrabac.jpg"
         }
       ],
       "story": [
@@ -10900,10 +10902,38 @@
           1134,
           1135,
           1136,
-          1137
+          1137,
+          1162,
+          1163,
+          1164,
+          1165,
+          1166,
+          1167,
+          1168,
+          1169
         ],
-        "control_id": 1138
-      }
+        "control_id": 1170
+      },
+      "image_queries": [
+        "Bundeswehr drone",
+        "Boris Pistorius",
+        "Bergen military training area",
+        "German Army",
+        "military UAV",
+        "military drone",
+        "soldier with tablet",
+        "military technology"
+      ],
+      "images_seen": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/4a/UA_military_FPV_drones_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://live.staticflickr.com/5128/5346499274_467bdabce0_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/2018-02-28_Boris_Pistorius-6241.jpg/1280px-2018-02-28_Boris_Pistorius-6241.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/2/26/UA_military_FPV_drones_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Boris_Pistorius_%282019%29_%28cropped%29.jpg/1280px-Boris_Pistorius_%282019%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/5217/5383304285_ce9427c525_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/84%2B35_German_Army_Sikorsky_CH-53G_Super_Stallion_ILA_Berlin_2016_21.jpg/1280px-84%2B35_German_Army_Sikorsky_CH-53G_Super_Stallion_ILA_Berlin_2016_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Soldiers_of_the_Imperial_German_Army_entering_burning_%C5%A0iauliai_in_1915.jpg/1280px-Soldiers_of_the_Imperial_German_Army_entering_burning_%C5%A0iauliai_in_1915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     }
   ]
 }
