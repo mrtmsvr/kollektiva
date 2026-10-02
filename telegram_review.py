@@ -146,8 +146,10 @@ def _control(art: dict) -> tuple:
     imgs = art.get("image_options") or []
     ti, ii = rv.get("title", 0), rv.get("image", 0 if imgs else -1)
     mark = lambda ok: "✓ " if ok else ""  # noqa: E731
-    rows = [[{"text": f"{mark(not rv.get('custom_title') and ti == i)}Cím {i + 1}", "callback_data": f"{sid}|t|{i}"}
-             for i in range(len(opts))]]
+    cb_from = art.get("clickbait_from", len(opts))
+    tb = [{"text": f"{mark(not rv.get('custom_title') and ti == i)}{'🔥 ' if i >= cb_from else 'Cím '}{i + 1}",
+           "callback_data": f"{sid}|t|{i}"} for i in range(len(opts))]
+    rows = [tb[k:k + 3] for k in range(0, len(tb), 3)]
     btns = [{"text": f"{mark(ii == i)}Kép {i + 1}", "callback_data": f"{sid}|i|{i}"} for i in range(len(imgs))]
     btns.append({"text": f"{mark(ii == -1)}Nincs kép", "callback_data": f"{sid}|i|-1"})
     rows += [btns[k:k + 4] for k in range(0, len(btns), 4)]
@@ -181,7 +183,8 @@ def send_article(_out_dir: Optional[Path], art: dict) -> None:
             f"{art.get('reading_time_min', 1)} perc"
             + (f" · +{len(art['inline_images'])} kép a szövegben" if art.get("inline_images") else "")
             + "\n\n<b>Címjavaslatok</b>\n"
-            + "\n".join(f"{i + 1}) {E(t)}" for i, t in enumerate(titles))
+            + "\n".join(f"{'🔥 ' if i >= art.get('clickbait_from', len(titles)) else ''}{i + 1}) {E(t)}"
+                        for i, t in enumerate(titles))
             + f"\n\n<i>{E(art.get('lead'))}</i>")
     if art.get("key_points"):
         head += "\n\n<b>Röviden</b>\n" + "\n".join("• " + E(k) for k in art["key_points"])
@@ -380,7 +383,9 @@ HELP = ("Szia! Ide küldöm az új Kollektíva-cikkeket jóváhagyásra.\n\n"
         "• Kint lévő cikknél (🟢): cím/kép csere, 🔁 Újraírás (ugyanazon a linken), 🗑 Törlés\n"
         "• ✅ Rendben: jelzés, hogy megnézted – 48 óráig még módosíthatod\n"
         "• ✏️ Saját cím: a gomb után írd be (vagy válaszolj „cím: …”)\n"
-        "• /torles <link vagy címrészlet> – kint lévő cikk leszedése bármikor\n• /lista – függő és kint lévő cikkek")
+        "• /torles <link vagy címrészlet> – kint lévő cikk leszedése bármikor\n"
+        "• Küldj egy linket vagy „téma: …” üzenetet (pl. „téma: MNB kamatdöntés”) → megírom róla a cikket\n"
+        "• /szavazas – nyitott szavazások, leszedés gombbal\n• 🔥 címek: a legkattintósabb változatok\n• /lista – függő és kint lévő cikkek")
 
 
 def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -> int:
@@ -444,17 +449,57 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": (
                         "Használat: /torles <link vagy címrészlet>" if not hits else
                         f"{len(hits)} cikk illik rá, pontosíts:\n" + "\n".join("• " + a["title"] for a in hits[:8]))})
+            elif text.startswith("/szavazas") or text.startswith("/szavazás"):
+                pl = [x for x in kc.read_json(out_dir / "polls.json", {"polls": []}).get("polls", [])
+                      if (x.get("closes_at") or "") > datetime.now(tz).isoformat()]
+                if not pl:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": "Nincs nyitott szavazás."})
+                for x in pl[:5]:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": f"🗳 {x['question']}\n({x.get('article_title', '')})",
+                                       "reply_markup": {"inline_keyboard": [[{"text": "🗑 Szavazás leszedése",
+                                                                             "callback_data": f"pdel|{x['id']}"}]]}})
             elif text.startswith("/lista"):
                 lines = [f"{'🟢' if a.get('live') else '⏳'} {kc.SECTIONS.get(a['category'], {}).get('name', '')}: "
                          f"{_chosen_title(a)}" for a in pending]
                 tg("sendMessage", {"chat_id": st["chat_id"], "text": "\n".join(lines) or "Nincs függő cikk."})
             elif text.startswith("/"):
                 tg("sendMessage", {"chat_id": st["chat_id"], "text": HELP})
+            elif text and not rep and not re.search(r"https?://|^(téma|tema|cikk)\s*:", text, re.I):
+                tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": m["message_id"],
+                                   "text": "Cikket linkből vagy témából tudok írni: küldj egy linket, vagy írd így: „téma: MNB kamatdöntés”."})
+            elif text and not rep:
+                # link vagy téma → cikk erről (jóváhagyásra jön, mint a többi)
+                text = re.sub(r"(?i)^(téma|tema|cikk)\s*:\s*", "", text).strip()
+                tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": m["message_id"],
+                                   "text": "✍️ Megírom erről a cikket, 1–2 perc…"})
+                try:
+                    live_arts = kc.read_json(out_dir / "articles.json", {"articles": []}).get("articles", [])
+                    new = kc.build_on_demand(ai or kc.AIClient(kc.Config.from_env()), text, tz, live_arts)
+                except Exception as e:  # noqa: BLE001
+                    log.warning("Kérésre írt cikk sikertelen: %s", e)
+                    new = None
+                if new:
+                    pending.append(new)
+                    send_article(out_dir, new)
+                else:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": m["message_id"],
+                                       "text": "Ebből most nem sikerült cikket írni (nem találtam elég forrást). Próbáld linkkel."})
         elif "callback_query" in u:
             q = u["callback_query"]
             if (q.get("message") or {}).get("chat", {}).get("id") != st.get("chat_id"):
                 continue
             parts = (q.get("data") or "").split("|")
+            if parts[0] == "pdel":
+                ppath = out_dir / "polls.json"
+                pdata = kc.read_json(ppath, {"polls": []})
+                left = [x for x in pdata.get("polls", []) if x.get("id") != parts[1]]
+                if len(left) != len(pdata.get("polls", [])):
+                    kc.write_json_atomic(ppath, {**pdata, "polls": left})
+                    published += 1
+                tg("editMessageText", {"chat_id": st["chat_id"], "message_id": q["message"]["message_id"],
+                                       "text": "🗑 A szavazás lekerült az oldalról (1–2 perc)."})
+                tg("answerCallbackQuery", {"callback_query_id": q["id"]})
+                continue
             if parts[0] == "del":
                 msg_id = q["message"]["message_id"]
                 if parts[1] == "x":
