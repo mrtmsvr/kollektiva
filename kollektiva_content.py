@@ -1053,6 +1053,7 @@ body{margin:0;background:var(--night);color:var(--parch);font:17px/1.75 Manrope,
 a{color:var(--parch)}a:hover{color:var(--brass)}
 header,main,footer{max-width:720px;margin:0 auto;padding:0 20px}
 .share{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase;margin-right:6px}.share a,.share button{font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.share a:hover,.share button:hover{border-color:var(--brass);color:var(--brass)}.share .sh-native{background:var(--brass);color:#0E1024;border-color:var(--brass)}
+.hdr-r{display:flex;align-items:center;gap:10px}.srch{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid var(--line);border-radius:999px;color:var(--parch)}.srch:hover{color:var(--brass);border-color:var(--brass)}
 .gpref{text-align:center;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)}.gpref a{color:var(--brass);text-decoration:none}.gpref a:hover{color:var(--parch)}.gpref b{color:var(--brass);font-weight:400}
 header{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;border-bottom:1px solid var(--line);position:relative}
 .menu summary{list-style:none;cursor:pointer;color:var(--dusk);font-size:14px;padding:6px 12px;border:1px solid var(--line);border-radius:999px}
@@ -1079,6 +1080,7 @@ h2{font:600 28px/1.25 "Cormorant Garamond",Georgia,serif;margin:0 0 6px}
 .meta{color:var(--dusk);font-size:14px}
 .lead{font-size:20px;line-height:1.6;color:var(--parch)}
 blockquote{margin:32px 0;padding-left:18px;border-left:2px solid var(--brass);font:italic 24px/1.4 "Cormorant Garamond",Georgia,serif}
+blockquote.q{color:var(--parch)}blockquote cite{display:block;margin-top:8px;font:600 13px/1.4 Manrope,system-ui,sans-serif;font-style:normal;letter-spacing:.04em;color:var(--brass)}
 article p{color:rgba(236,230,216,.88)}
 .box{margin:40px 0;padding:18px 20px;background:var(--vault);border:1px solid var(--line);border-radius:12px;font-size:14px;color:var(--dusk)}
 .box a{color:var(--parch)}.seealso b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.seealso ul{margin:8px 0 0;padding-left:18px}.seealso span{color:var(--dusk)}
@@ -1169,7 +1171,7 @@ def _page(title: str, description: str, canonical: str, body: str, head_extra: s
 </head>
 <body>
 {LOADER_HTML}
-<header><a class="logo" href="/" aria-label="{SITE_NAME} – főoldal">{LOGO_SVG}<span>{SITE_NAME}<b>.</b></span></a><details class="menu"><summary aria-label="Rovatok">Rovatok ☰</summary><nav>{NAV_LINKS}</nav></details></header>{GPREF_HTML}
+<header><a class="logo" href="/" aria-label="{SITE_NAME} – főoldal">{LOGO_SVG}<span>{SITE_NAME}<b>.</b></span></a><span class="hdr-r"><a class="srch" href="/?kereses" aria-label="Keresés a cikkek között"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a><details class="menu"><summary aria-label="Rovatok">Rovatok ☰</summary><nav>{NAV_LINKS}</nav></details></span></header>{GPREF_HTML}
 <main>
 {body}
 </main>
@@ -1277,7 +1279,10 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
     for im in a.get("inline_images") or []:
         if im.get("url"):
             inline.setdefault(int(im.get("after", 0)), []).append(im)
+    q = a.get("quote") if isinstance(a.get("quote"), dict) else None
+    qhtml = (f'<blockquote class="q">„{E(q["text"])}”<cite>– {E(q["who"])}</cite></blockquote>') if q else ""
     paras = "\n".join(_para(p) + "".join(_figure(im, a["title"], caption=im.get("caption", "")) for im in inline.get(i, []))
+                      + (qhtml if q and q.get("after") == i else "")
                       for i, p in enumerate(a.get("body", [])))
     kp = [k for k in a.get("key_points") or [] if k]
     keypoints = (f'<div class="keypoints"><p>Röviden</p><ul>{"".join(f"<li>{E(k)}</li>" for k in kp)}</ul></div>'
@@ -1863,6 +1868,35 @@ def related_past(articles: list, story: list, limit: int = 3, days: int = 45) ->
             for n, _, a in scored[:limit]]
 
 
+def _fold(t: str) -> str:
+    return re.sub(r"[^a-z0-9 ]", "", re.sub(r"\s+", " ", (t or "").lower().translate(
+        str.maketrans("áéíóöőúüű", "aeiooouuu")))).strip()
+
+
+def checked_quote(q, story: list, n_paras: int) -> Optional[dict]:
+    """Kiemelt idézet csak ellenőrzötten: a megszólaló neve szerepeljen a forrásokban, és magyar forrásnál az idézet
+    eleje betű szerint is (idegen nyelvű forrásnál fordítás, ott a név elég). Különben inkább nincs idézet."""
+    if not isinstance(q, dict):
+        return None
+    text = str(q.get("text") or "").strip().strip("„”\"“ ")
+    who = str(q.get("who") or "").strip()
+    if not (20 <= len(text) <= 320 and who):
+        return None
+    src = " ".join(f"{s.get('title', '')} {s.get('summary') or ''} {s.get('fulltext') or ''}" for s in story)
+    fsrc, ftext = _fold(src), _fold(text)
+    names = [_fold(w) for w in re.findall(r"\b[A-ZÁÉÍÓÖŐÚÜŰ][\wáéíóöőúüű.-]{2,}", who)]
+    if not names or not any(n and n in fsrc for n in names):
+        return None  # a megszólaló neve nem szerepel a forrásokban
+    hungarian = len(re.findall(r"[őűáé]", src.lower())) > len(src) / 200
+    if hungarian and ftext[:28] not in fsrc:
+        return None
+    try:
+        after = max(0, min(int(q.get("after", 1)), n_paras - 2))
+    except (TypeError, ValueError):
+        after = 1
+    return {"text": text, "who": who, "after": after}
+
+
 def section_prompt(section: dict, story: list, d: date, context: Optional[list] = None,
                    past: Optional[list] = None) -> str:
     src = "\n\n".join(f"[{i + 1}]{' [KAPCSOLÓDÓ]' if s.get('related') else ''} {s['source']} – {s['title']}\n{s['summary']}"
@@ -1926,9 +1960,13 @@ esemény külön blokkban szerepeljen, a blokk első bekezdése „## Rövid alc
   Elemei: {{"after": annak a bekezdésnek a sorszáma (0-tól), ami után jöjjön, "query": pontos angol név vagy
   tulajdonnév a Wikimedia Commonshoz (pl. "USS Gerald R. Ford", "Keleti railway station"), "caption": rövid magyar
   képaláírás}}. Ha nincs ilyen, üres tömb.
+- "quote": ha a forrásokban egy szereplő SZÓ SZERINTI, idézőjeles mondata szerepel, ami a cikk lényegéhez tartozik,
+  azt kiemelt idézetként add meg: {{"text": "az idézet (magyar forrásnál betű szerint, idegen nyelvűnél hű
+  fordításban)", "who": "név, rövid szerep (pl. Orbán Viktor miniszterelnök)", "after": bekezdés sorszáma (0-tól)}}.
+  SOHA ne találj ki és ne fogalmazz át idézetet; ha nincs valódi idézet, legyen null.
 
 Kizárólag ezt a JSON-t add vissza:
-{{"title": "...", "title_options": ["...", "..."], "lead": "...", "key_points": ["...", "...", "..."], "body": ["...", "..."], "tags": ["..."], "image_query": "...", "image_query_alt": ["..."], "image_generic": "...", "inline_images": []}}"""
+{{"title": "...", "title_options": ["...", "..."], "lead": "...", "key_points": ["...", "...", "..."], "body": ["...", "..."], "tags": ["..."], "image_query": "...", "image_query_alt": ["..."], "image_generic": "...", "inline_images": [], "quote": null}}"""
 
 
 def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, story: list,
@@ -1966,6 +2004,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
     image = image_options[0] if image_options else None
     inline_images = find_inline_images(raw, len(art["body"]), ai.cfg.http_timeout,
                                        (avoid_images or set()) | {im["url"] for im in image_options})
+    quote = checked_quote(raw.get("quote"), story, len(art["body"]))
     title_options = [art["title"]]
     for t in raw.get("title_options") or []:
         t = str(t).strip()
@@ -1984,7 +2023,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         "key_points": [str(k).strip() for k in (raw.get("key_points") or []) if str(k).strip()][:4],
         "content": to_markdown(art), "content_format": "markdown", "body": art["body"], "pull_quote": None,
         "reading_time_min": reading_time(full_text), "word_count": len(re.findall(r"\w+", full_text)),
-        "locale": "hu-HU", "hero_image": image, "inline_images": inline_images, "sources": sources,
+        "locale": "hu-HU", "hero_image": image, "inline_images": inline_images, "sources": sources, "quote": quote,
         "authorship": {"mode": "ai_generated", "byline": "Kollektíva szerkesztőség", "model": ai.label.split(":", 2)[-1],
                        "prompt_version": "section-v2", "reviewed_by": None, "reviewed_at": None},
         "hot_score": story[0].get("hot_score", 0),
