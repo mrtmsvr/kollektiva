@@ -9493,7 +9493,7 @@
           "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary).jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Ministry_of_Finance_%28Hungary%29_%289%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Ministry_of_Finance_%28Hungary%29_%2810%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 900,
           "kind": "photo",
@@ -9501,60 +9501,82 @@
           "alt": "Ministry of Finance (Hungary)",
           "credit": "Elekes Andor / Wikimedia Commons",
           "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary)_(9).jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary)_(10).jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Ministry_of_Finance_%28Hungary%29_%283%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 798,
+          "height": 1018,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Ministry of Finance (Hungary)",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary)_(3).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Andr%C3%A1s_K%C3%A1rm%C3%A1n_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "András Kármán",
+          "credit": "Whaka / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Andr%C3%A1s_K%C3%A1rm%C3%A1n_(cropped).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Karmanandras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 799,
           "kind": "photo",
           "pos": "center",
-          "alt": "View from Buda Castle towards the Northern west Budapest",
-          "credit": "Jakub Hałun / Wikimedia Commons",
+          "alt": "Kármán András",
+          "credit": "Whaka / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Karmanandras.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/100_Forint_Comemmorative_Army_Front.jpg/1280px-100_Forint_Comemmorative_Army_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The forint was released on 2023 May 22 as a comemmoration of the Hungarian Army.",
+          "credit": "ByRussia45 / Wikimedia Commons",
           "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:20190502_View_from_Buda_Castle_1059_2025_DxO.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:100_Forint_Comemmorative_Army_Front.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/50_Forint_Comemmorative_Ambulance_Front.jpg/1280px-50_Forint_Comemmorative_Ambulance_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 675,
+          "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": "View from Buda Castle towards the Northern west Budapest as of May 2014.",
-          "credit": "Perituss / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:View_from_Buda_Castle_2014_01.jpg"
+          "alt": "The coin was released on 2023 May 9 as a comemmoration of the establishment of the Hungarian Ambulance Services.",
+          "credit": "ByRussia45 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:50_Forint_Comemmorative_Ambulance_Front.jpg"
         },
         {
-          "url": "https://live.staticflickr.com/5132/5474825330_4470fa5928_b.jpg",
+          "url": "https://live.staticflickr.com/4135/4798548219_ae88903d41_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "",
+          "credit": "eflon / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/23094783@N03/4798548219"
+        },
+        {
+          "url": "https://live.staticflickr.com/7116/7477302038_f0cb3cd6ca_b.jpg",
           "width": 1024,
           "height": 768,
           "kind": "photo",
-          "alt": "Calculator and Money",
-          "credit": "Images_of_Money / flickr",
+          "alt": "The Three Amigos",
+          "credit": "Public Places / flickr",
           "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/59937401@N07/5474825330"
-        },
-        {
-          "url": "https://live.staticflickr.com/5016/5474761220_345e33882e_b.jpg",
-          "width": 1024,
-          "height": 819,
-          "kind": "photo",
-          "alt": "Money and Calculator",
-          "credit": "Images_of_Money / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/59937401@N07/5474761220"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/World%27s_First_Computer%2C_the_Electronic_Numerical_Integrator_and_Calculator_%28ENIAC%29.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 852,
-          "kind": "graphic",
-          "pos": "center",
-          "alt": "National Archives Identifier: 594262\nLocal Identifier: 306-PSE-79-120\nRecord Group 306: Records of the U.S. Information Agency, 1900 - 2003\nSeries: Master File Photographs of U.S. and Foreign Personal",
-          "credit": "International Communications Agency. Press and Publications Service. Publication / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:World%27s_First_Computer,_the_Electronic_Numerical_Integrator_and_Calculator_(ENIAC).gif"
+          "source_url": "https://www.flickr.com/photos/78019868@N05/7477302038"
         }
       ],
       "story": [
@@ -9633,11 +9655,38 @@
           1019,
           1020,
           1021,
-          1022
+          1022,
+          1061,
+          1062,
+          1063,
+          1064,
+          1065,
+          1066,
+          1067,
+          1068,
+          1069
         ],
-        "control_id": 1023
+        "control_id": 1070
       },
-      "live": true
+      "live": true,
+      "image_queries": [
+        "Hungarian Parliament Building",
+        "Ministry of Finance Hungary",
+        "Kármán András",
+        "Hungarian forint",
+        "elderly people resting",
+        "senior citizen counting money",
+        "pensioner portrait"
+      ],
+      "images_seen": [
+        "https://live.staticflickr.com/5016/5474761220_345e33882e_b.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/17/World%27s_First_Computer%2C_the_Electronic_Numerical_Integrator_and_Calculator_%28ENIAC%29.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/5132/5474825330_4470fa5928_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Ministry_of_Finance_%28Hungary%29_%289%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "46e17fc6-8aae-5ec2-9695-695a7e933497",
