@@ -784,9 +784,147 @@ def find_images(specific: list, generic: list, timeout: int, avoid: Optional[set
     for q in generic:
         q = str(q or "").strip()[:40]
         if q and len(out) < limit:
+            add(pexels_images(q, timeout, seen, limit=2))
             add(openverse_images(q, timeout, seen, limit=2))
             if len(out) < limit:
                 add(commons_search_images(q, timeout, strict=False, avoid=seen, limit=1))
+    return out
+
+
+# ---------------------------------------------------------------------------
+# Képminőség: Pexels (prémium ingyenes fotók), AI-ellenőrzés (illik-e a kép), generált illusztráció
+# ---------------------------------------------------------------------------
+
+def pexels_images(query: str, timeout: int, avoid: Optional[set] = None, limit: int = 3) -> list:
+    """Pexels: jó minőségű, szabadon használható fotók általános témákra (PEXELS_API_KEY kell, ingyenes)."""
+    key = os.getenv("PEXELS_API_KEY", "").strip()
+    if not key or not query:
+        return []
+    req = urllib.request.Request(f"https://api.pexels.com/v1/search?per_page=8&orientation=landscape&query={_q(query)}",
+                                 headers={"Authorization": key, "User-Agent": "KollektivaBot/1.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+    except (urllib.error.URLError, TimeoutError, OSError, ValueError):
+        return []
+    out = []
+    for p in data.get("photos") or []:
+        url = (p.get("src") or {}).get("large2x") or (p.get("src") or {}).get("large")
+        if not url or (avoid and url in avoid):
+            continue
+        out.append({"url": url, "width": p.get("width"), "height": p.get("height"), "kind": "photo",
+                    "alt": (p.get("alt") or "")[:200], "credit": f"{(p.get('photographer') or 'ismeretlen')[:80]} / Pexels",
+                    "license": "Pexels License", "source_url": p.get("url") or url})
+        if len(out) >= limit:
+            break
+    return out
+
+
+VISION_SYSTEM = ("Képszerkesztő vagy egy magyar hírmagazinnál. Szigorúan pontozod, hogy a képek mennyire illenek a "
+                 "cikkhez. Csak JSON-t adsz vissza.")
+
+
+def _thumb_b64(url: str, timeout: int) -> Optional[str]:
+    import base64
+    u = re.sub(r"/(\d{3,4})px-", "/480px-", url) if "upload.wikimedia.org" in url else url
+    try:
+        req = urllib.request.Request(u, headers={"User-Agent": WIKI_UA["User-Agent"]})
+        with urllib.request.urlopen(req, timeout=min(timeout, 30)) as resp:
+            raw = resp.read(900_000)
+            ctype = resp.headers.get("Content-Type", "image/jpeg").split(";")[0]
+    except (urllib.error.URLError, TimeoutError, OSError, ValueError):
+        return None
+    if not ctype.startswith("image/") or len(raw) < 2000:
+        return None
+    return f"data:{ctype};base64," + base64.b64encode(raw).decode()
+
+
+def vision_rank(ai: "AIClient", title: str, lead: str, images: list, min_score: int = 5) -> list:
+    """AI-szem: a Gemini megnézi a képjelölteket, és kidobja, ami nem illik a cikkhez (pl. bulvárcikkhez egy
+    idegen ember, közéleti cikkhez egy random épület). Hibánál/kulcs nélkül változatlanul visszaadja a listát."""
+    c = ai.cfg
+    if (not images or not c.gemini_key or ai.provider == "mock"
+            or os.getenv("VISION_CHECK", "true").lower() not in ("1", "true", "yes")):
+        return images
+    parts, kept = [], []
+    for im in images[:8]:
+        if im.get("generated"):
+            continue
+        b64 = _thumb_b64(im["url"], c.http_timeout)
+        if b64:
+            kept.append(im)
+            parts.append({"type": "image_url", "image_url": {"url": b64}})
+    if not kept:
+        return images
+    prompt = (f"Cikk címe: {title}\nBevezető: {lead}\n\nA következő {len(kept)} kép a cikk főképe lehetne. Pontozd 0–10-ig "
+              "mindegyiket: 10 = pontosan azt mutatja, akiről/amiről a cikk szól (vagy nagyon kifejező hangulatkép); "
+              "0 = nincs köze hozzá, félrevezető (pl. másik ember, másik ország, logó helyett random tárgy), rossz minőségű "
+              "vagy szöveges/diagram. Ha a cikk konkrét személyről szól, más ember képe max. 2 pont. "
+              'JSON: {"scores": [szám, ...]} – pontosan ' + str(len(kept)) + " szám, a képek sorrendjében.")
+    models = [m.strip() for m in c.gemini_model.split(",") if m.strip()]
+    for model in models[:2]:
+        try:
+            data = post_json("https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+                             {"Authorization": f"Bearer {c.gemini_key}"},
+                             {"model": model, "max_tokens": 300, "response_format": {"type": "json_object"},
+                              "messages": [{"role": "system", "content": VISION_SYSTEM},
+                                           {"role": "user", "content": [{"type": "text", "text": prompt}, *parts]}]},
+                             c.http_timeout, 2)
+            scores = extract_json(data["choices"][0]["message"]["content"]).get("scores") or []
+            break
+        except Exception as e:  # noqa: BLE001
+            log.warning("Képellenőrzés (AI) sikertelen (%s): %s", model, str(e)[:160])
+            scores = []
+    if len(scores) != len(kept):
+        return images
+    ranked = sorted(((float(s), im) for s, im in zip(scores, kept) if float(s) >= min_score), key=lambda x: -x[0])
+    log.info("Képellenőrzés: %d/%d kép maradt (pontok: %s)", len(ranked), len(kept), scores)
+    for s, im in ranked:
+        im["vision_score"] = s
+    return [im for _, im in ranked]
+
+
+GEN_SYSTEM = ("Art director vagy. Egy magyar hírmagazin cikkéhez írsz angol nyelvű képgenerálási promptot. "
+              "Csak JSON-t adsz vissza.")
+
+
+def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: int = 2) -> list:
+    """Saját illusztráció a Cloudflare Workers AI-jal (FLUX, ingyenes napi keret): szerkesztőségi grafika, NEM fotó
+    valós személyről (valódi embert nem generálunk le). Kell: CF_ACCOUNT_ID + CF_AI_TOKEN. A kép a repóba kerül."""
+    import base64
+    acct, token = os.getenv("CF_ACCOUNT_ID", "").strip(), os.getenv("CF_AI_TOKEN", "").strip()
+    if not acct or not token:
+        return []
+    try:
+        raw = ai.complete_json(GEN_SYSTEM, f"Cikk: {title}\n{lead}\n\nÍrj {n} eltérő promptot egy szerkesztőségi illusztrációhoz: "
+                               "konkrét, a témát jól mutató jelenet vagy szimbolikus kompozíció; stílus: modern editorial "
+                               "illustration, rich detail, cinematic light, muted navy and warm gold palette; TILOS: felismerhető "
+                               "valós személy arca, logó, felirat/szöveg, zászló-torzítás. "
+                               'JSON: {"prompts": ["...", "..."]}', 600, light=True)
+        prompts = [str(p)[:900] for p in raw.get("prompts") or [] if str(p).strip()][:n]
+    except (AIError, ValueError, TypeError, KeyError) as e:
+        log.warning("Illusztráció-prompt sikertelen: %s", e)
+        return []
+    out_dir = BASE_DIR / "public" / "img" / "gen"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out = []
+    for i, p in enumerate(prompts):
+        try:
+            data = post_json(f"https://api.cloudflare.com/client/v4/accounts/{acct}/ai/run/@cf/black-forest-labs/flux-1-schnell",
+                             {"Authorization": f"Bearer {token}"},
+                             {"prompt": p + ", no text, no watermark, 16:9 composition", "steps": 8},
+                             ai.cfg.http_timeout, 2)
+            img = base64.b64decode((data.get("result") or {}).get("image") or "")
+        except Exception as e:  # noqa: BLE001
+            log.warning("Illusztráció generálása sikertelen: %s", str(e)[:200])
+            continue
+        if len(img) < 5000:
+            continue
+        name = f"{re.sub(r'[^a-z0-9]', '', tag.lower())[:10]}-{int(time.time())}-{i}.jpg"
+        (out_dir / name).write_bytes(img)
+        out.append({"url": f"{SITE_URL}/public/img/gen/{name}", "local": str(out_dir / name), "kind": "photo",
+                    "alt": title[:200], "credit": "Kollektíva illusztráció", "license": "saját (generált illusztráció)",
+                    "source_url": f"{SITE_URL}/info/#impresszum", "generated": True})
     return out
 
 
@@ -1371,15 +1509,28 @@ INFO_BODY = """
 <p class="kicker">Információ</p>
 <h1>A Kollektíváról</h1>
 <p class="lead">Független online magazin: közélet, világ, pénz, tech, életmód, kultúra, univerzum – és egy kis retro.</p>
-<nav class="box"><a href="#impresszum">Impresszum</a> · <a href="#adatkezeles">Adatkezelési tájékoztató</a> ·
+<nav class="box"><a href="#rolunk">Rólunk</a> · <a href="#impresszum">Impresszum</a> · <a href="#adatkezeles">Adatkezelési tájékoztató</a> ·
 <a href="#sutik">Sütik</a> · <a href="#hirdetes">Hirdetési ajánlat</a></nav>
 <article>
+<h2 id="rolunk">Rólunk</h2>
+<p>A Kollektíva egy budapesti egyetemista ötletéből született – két előadás, egy szakdolgozat és sok-sok kávé között.
+A kiindulópont egy egyszerű bosszúság volt: miért kell ma öt helyről összeolvasni egy hírt ahhoz, hogy értsük,
+mi történt, és mi köze hozzá a mi hétköznapjainknak?</p>
+<p>Ezért csináljuk azt az újságot, amit mi magunk is szívesen olvasnánk: gyors, de nem felszínes; érthető, de nem
+lekezelő; és nem mondja meg, mit gondolj – csak segít, hogy legyen miből. A fontos hírek mellett tudományról, pénzről,
+technológiáról és életmódról is írunk, olyan cikkeket, amik egy hét múlva is megérik az olvasást.</p>
+<p>Nincs mögöttünk médiacég, befektető vagy párt. Kis csapat vagyunk, ezért a modern technológiát hívjuk segítségül,
+hogy gyorsak lehessünk – de minden cikk alján ott vannak a források, hogy bárki utánanézhessen.
+Ha hibát találsz, szólj, kijavítjuk.</p>
+<p>Ha tetszik, amit csinálunk, a legtöbbet azzal segítesz, ha megosztod egy cikkünket, vagy feliratkozol a heti
+hírlevélre. Egy egyetemista projektnek minden új olvasó számít. Köszönjük, hogy itt vagy!</p>
+
 <h2 id="impresszum">Impresszum</h2>
 <p>Kiadó és szerkesztő: Kollektíva szerkesztőség.<br>Webcím: kollektíva.hu<br>
 Tárhelyszolgáltató: Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, USA – cloudflare.com</p>
 <p>Cikkeink nyilvános forrásokra (hazai és nemzetközi sajtó, hivatalos közlemények) épülnek; a felhasznált
-forrásokat minden cikk alján feltüntetjük. A képek szabad licencű forrásokból (Wikimedia Commons, Openverse)
-származnak, a szerző és a licenc a kép melletti ⓘ jelre kattintva látható. A horoszkóp szórakoztató célú tartalom.</p>
+forrásokat minden cikk alján feltüntetjük. A képek szabad licencű forrásokból (Wikimedia Commons, Openverse, Pexels)
+származnak, vagy saját illusztrációk; a szerző és a licenc a kép melletti ⓘ jelre kattintva látható. A horoszkóp szórakoztató célú tartalom.</p>
 
 <h2 id="adatkezeles">Adatkezelési tájékoztató</h2>
 <p><b>Milyen adatot kezelünk?</b> Csak azt, amit te adsz meg: a hírlevélre való feliratkozáskor az e-mail
@@ -1856,7 +2007,8 @@ def same_story_as_recent(ai: "AIClient", group: list, recent_titles: list) -> bo
     prompt = (f"ÚJ HÍR (több forrás címe és kivonata):\n{cand}\n\nMÁR MEGÍRT CIKKEINK (az elmúlt órákból):\n"
               + "\n".join(f"{i + 1}. {t}" for i, t in enumerate(recent_titles[-40:]))
               + "\n\nUgyanarról a konkrét eseményről/ügyről szól az új hír, mint valamelyik megírt cikk? Ha csak a téma "
-                "hasonló (pl. két külön egészségügyi hír), az NEM ugyanaz. JSON: {\"same\": true/false, \"which\": sorszám vagy null}")
+                "hasonló (pl. két külön egészségügyi hír), az NEM ugyanaz. Ha ugyanannak az ügynek ÚJ fejleménye (új "
+                "nyilatkozat, döntés, letartóztatás, reakció, adat), az sem ugyanaz – arról új cikk kell. JSON: {\"same\": true/false, \"which\": sorszám vagy null}")
     try:
         raw = ai.complete_json(DUP_SYSTEM, prompt, 150, light=True)
     except (AIError, ValueError, TypeError, KeyError) as e:
@@ -1894,6 +2046,11 @@ def build_on_demand(ai: "AIClient", text: str, tz: ZoneInfo, articles: list) -> 
         host = re.sub(r"^www\.", "", urllib.parse.urlparse(url).netloc)
         story = [{"title": title or text[:120], "link": url, "summary": body[:600], "source": host,
                   "published": now, "categories": [], "fulltext": body}]
+        if title:  # további források ugyanerről (más kiadók), hogy ne egyetlen cikkből dolgozzunk
+            kw0 = _keywords(title)
+            more = fetch_feed("https://news.google.com/rss/search?q=" + urllib.parse.quote(" ".join(list(kw0)[:6]) or title[:80])
+                              + "&hl=hu&gl=HU&ceid=HU:hu", ai.cfg.http_timeout)
+            story += [it for it in more if it.get("link") != url and len(kw0 & _keywords(it.get("title", ""))) >= 2][:3]
     else:
         q = urllib.parse.quote(text.strip()[:120])
         items = fetch_feed(f"https://news.google.com/rss/search?q={q}&hl=hu&gl=HU&ceid=HU:hu", ai.cfg.http_timeout)
@@ -2102,6 +2259,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
     image_options = find_images([raw.get("image_query"), *(raw.get("image_query_alt") or [])][:5],
                                 (generic if isinstance(generic, list) else [generic])[:2], ai.cfg.http_timeout,
                                 avoid_images, limit=IMAGE_OPTIONS)
+    image_options = vision_rank(ai, art["title"], art["lead"], image_options)
     image = image_options[0] if image_options else None
     inline_images = find_inline_images(raw, len(art["body"]), ai.cfg.http_timeout,
                                        (avoid_images or set()) | {im["url"] for im in image_options})
