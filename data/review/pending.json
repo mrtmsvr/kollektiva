@@ -10504,79 +10504,92 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg/1280px-Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Balázs Hankó",
-          "credit": "Elekes Andor / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Hank%C3%B3_Bal%C3%A1zs_(4).jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hank%C3%B3_Bal%C3%A1zs_in_2025_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 1749,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Balázs HANKÓ",
-          "credit": "Elekes Andor / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Hank%C3%B3_Bal%C3%A1zs_in_2025_01.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/P%C3%A9cs_%2899%29.jpg/1280px-P%C3%A9cs_%2899%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Pécs. Central Europe.",
-          "credit": "Elekes Andor / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:P%C3%A9cs_(99).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/P%C3%A9cs_%28148%29.jpg/1280px-P%C3%A9cs_%28148%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 779,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Pécs, Central Europe.",
-          "credit": "Elekes Andor / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:P%C3%A9cs_(148).jpg"
-        },
-        {
-          "url": "https://live.staticflickr.com/4031/4289726649_2d622fe46e_b.jpg",
-          "width": 1024,
-          "height": 768,
-          "kind": "photo",
-          "alt": "Courtroom",
-          "credit": "☺ Lee J Haywood / flickr",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://www.flickr.com/photos/45034206@N06/4289726649"
-        },
-        {
-          "url": "https://live.staticflickr.com/54/117048243_7cc6bb0b87_b.jpg",
-          "width": 1024,
-          "height": 683,
-          "kind": "photo",
-          "alt": "Courtroom One Gavel",
-          "credit": "Joe Gratz / flickr",
-          "license": "Public domain",
-          "source_url": "https://www.flickr.com/photos/63126465@N00/117048243"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Beverley_Guildhall_Courtroom.jpg/1280px-Beverley_Guildhall_Courtroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_%281872%29%2C_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg/1280px-Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_%281872%29%2C_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "Here is an hdr photograph taken from the courtroom inside Beverley Guildhall.  Located in Beverley, East Riding of Yorkshire, England.",
-          "credit": "Michael D Beckwith / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Beverley_Guildhall_Courtroom.jpg"
+          "alt": "Building of the Directorate of the National Cultural Fund of Hungary",
+          "credit": "RHerczeg / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_(1872),_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Griffmadaras_kapu%2C_Gyulai_P%C3%A1l_utca_13%2C_2017_Palotanegyed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": ": Gate decorated with Griffins. Listed, ecclectic cornerhouse, built to Antal Gottgeb by Antal Gottgeb in 1872. Now the National Cultural Fund of Hungary located here. - 13 Gyulai Pál street, Palotan",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Griffmadaras_kapu,_Gyulai_P%C3%A1l_utca_13,_2017_Palotanegyed.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Szilv%C3%A1sszentm%C3%A1rton%2C_Reservoir%2C_Somogy2.jpg/1280px-Szilv%C3%A1sszentm%C3%A1rton%2C_Reservoir%2C_Somogy2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Szilvásszentmárton, Somogy County",
+          "credit": "Kalyob / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Szilv%C3%A1sszentm%C3%A1rton,_Reservoir,_Somogy2.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d%2C_2016_Hungary.jpg/1280px-V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d%2C_2016_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": ": Várhegy Hill observation tower from the Cemetery. - Kisfaludy Street, Fonyód, Somogy County, Hungary.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d,_2016_Hungary.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Hungary_-_Baranya_Megyei_Rendorseg_%28Baranya_County_Police%29_%286656014051%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1529,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Part of my collection of European  Law enforcement patches.",
+          "credit": "Dave Conner from Inverness, Scotland / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hungary_-_Baranya_Megyei_Rendorseg_(Baranya_County_Police)_(6656014051).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Baranya_Flag%28HUNGARY%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 600,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Flag of the County Baranya in Hungary",
+          "credit": "AlexR.L. / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Baranya_Flag(HUNGARY).png"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Siklos_Castle_Nr001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Siklósi vár nyugati oldala",
+          "credit": "Takkk at Hungarian Wikipedia / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Siklos_Castle_Nr001.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Siklos_Castle%2C_Summer_Theater_auditorium.jpg/1280px-Siklos_Castle%2C_Summer_Theater_auditorium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Hungary, Baranya County, Siklós city, Siklos Castle, Summer Theater auditorium. 2009.",
+          "credit": "Takkk / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Siklos_Castle,_Summer_Theater_auditorium.jpg"
         }
       ],
       "story": [
@@ -10643,10 +10656,37 @@
           1123,
           1124,
           1125,
-          1126
+          1126,
+          1151,
+          1152,
+          1153,
+          1154,
+          1155,
+          1156,
+          1157,
+          1158
         ],
-        "control_id": 1127
-      }
+        "control_id": 1159
+      },
+      "image_queries": [
+        "National Cultural Fund Hungary",
+        "Somogy county landscape",
+        "Baranya county Hungary",
+        "Pecs Hungary architecture",
+        "Siklos castle",
+        "financial audit documents",
+        "hungarian currency banknotes",
+        "empty conference room"
+      ],
+      "images_seen": [
+        "https://live.staticflickr.com/4031/4289726649_2d622fe46e_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg/1280px-Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hank%C3%B3_Bal%C3%A1zs_in_2025_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://live.staticflickr.com/54/117048243_7cc6bb0b87_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/P%C3%A9cs_%28148%29.jpg/1280px-P%C3%A9cs_%28148%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Beverley_Guildhall_Courtroom.jpg/1280px-Beverley_Guildhall_Courtroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/P%C3%A9cs_%2899%29.jpg/1280px-P%C3%A9cs_%2899%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "64c21da6-f065-583d-87a1-d7e4ac42f97f",
