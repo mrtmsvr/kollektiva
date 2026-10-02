@@ -14567,7 +14567,7 @@
     {
       "id": "0622f6b5-d68d-5c59-a140-ec3ac3fa950a",
       "slug": "2026-10-02-fel-ora-alatt-elkeszul-a-vegleges-fogpotlas",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -14597,15 +14597,14 @@
       "word_count": 231,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/3D_printing_of_face_shields.jpg/1280px-3D_printing_of_face_shields.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 800,
+        "url": "https://live.staticflickr.com/968/28368615508_3dd464f9e7_b.jpg",
+        "width": 1024,
+        "height": 725,
         "kind": "photo",
-        "pos": "center",
-        "alt": "3D printing of face shields in Kadaň, Chomutov District, Ústí nad Labem Region, Czechia",
-        "credit": "Jan Beránek / Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:3D_printing_of_face_shields.jpg"
+        "alt": "Surgery in the Rail Dental Clinic",
+        "credit": "Queensland State Archives / flickr",
+        "license": "Public domain",
+        "source_url": "https://www.flickr.com/photos/60455048@N02/28368615508"
       },
       "inline_images": [],
       "sources": [
@@ -14741,7 +14740,7 @@
         "meta_title": "Fél óra alatt elkészül a végleges fogpótlás",
         "meta_description": "A Texasi Egyetem kutatói olyan új eljárást fejlesztettek ki, amely harminc perc alá csökkenti a cirkónium-dioxid fogpótlások gyártási idejét. Az innovációnak kö",
         "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-02-fel-ora-alatt-elkeszul-a-vegleges-fogpotlas/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/3D_printing_of_face_shields.jpg/1280px-3D_printing_of_face_shields.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://live.staticflickr.com/968/28368615508_3dd464f9e7_b.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -14766,9 +14765,9 @@
       "dedupe_hash": "25985f5b52cbe50fb6bc51133ff69b1a05b0feb0a2869270208ca1aec0e89b55",
       "pipeline_run_id": "37014810278",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T15:45:31+02:00",
-      "updated_at": "2026-10-02T15:45:31+02:00",
-      "published_at": "2026-10-02T15:45:31+02:00",
+      "created_at": "2026-10-02T15:50:02+02:00",
+      "updated_at": "2026-10-02T15:50:02+02:00",
+      "published_at": "2026-10-02T15:50:02+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -14787,7 +14786,8 @@
           1502
         ],
         "control_id": 1503
-      }
+      },
+      "live": true
     }
   ]
 }
