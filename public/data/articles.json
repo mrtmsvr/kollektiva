@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T08:59:45+02:00",
+  "updated_at": "2026-10-02T09:04:06+02:00",
   "articles": [
     {
       "id": "64c21da6-f065-583d-87a1-d7e4ac42f97f",
@@ -34,7 +34,17 @@
       "reading_time_min": 1,
       "word_count": 162,
       "locale": "hu-HU",
-      "hero_image": null,
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/PGZ-19R_and_PGZ-19RA_Orlik_short-range_unmanned_aerial_vehicle_at_MSPO_2026_in_Kielce.jpg/1280px-PGZ-19R_and_PGZ-19RA_Orlik_short-range_unmanned_aerial_vehicle_at_MSPO_2026_in_Kielce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "PGZ-19R/PGZ-19RA Orlik short-range unmanned aerial vehicle at MSPO 2026 in Kielce.",
+        "credit": "Krzysztof Popławski / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:PGZ-19R_and_PGZ-19RA_Orlik_short-range_unmanned_aerial_vehicle_at_MSPO_2026_in_Kielce.jpg"
+      },
       "inline_images": [],
       "sources": [
         {
@@ -66,7 +76,7 @@
         "meta_title": "Miért állít fel drónezredet Németország?",
         "meta_description": "Jövőre az első önálló drónezredét hozza létre a német hadsereg az ukrajnai harctéri tapasztalatok alapján. A döntés a szárazföldi hadviselés átalakulását jelzi,",
         "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-02-miert-allit-fel-dronezredet-nemetorszag/",
-        "og_image": null,
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/PGZ-19R_and_PGZ-19RA_Orlik_short-range_unmanned_aerial_vehicle_at_MSPO_2026_in_Kielce.jpg/1280px-PGZ-19R_and_PGZ-19RA_Orlik_short-range_unmanned_aerial_vehicle_at_MSPO_2026_in_Kielce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -84,7 +94,7 @@
       "pipeline_run_id": "36971570166",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-02T08:35:02+02:00",
-      "updated_at": "2026-10-02T08:59:45+02:00",
+      "updated_at": "2026-10-02T09:04:06+02:00",
       "published_at": "2026-10-02T08:35:02+02:00",
       "expires_at": null,
       "image_queries": [
