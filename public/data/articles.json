@@ -1,7 +1,150 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T13:50:38+02:00",
+  "updated_at": "2026-10-02T13:54:30+02:00",
   "articles": [
+    {
+      "id": "a3bb8794-fae6-56bc-a1c5-c1ec147506db",
+      "slug": "2026-10-02-ingyen-moziszeanszot-indit-a-nasa",
+      "status": "published",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "űrkutatás",
+        "dokumentumfilm",
+        "tudomány"
+      ],
+      "title": "Ingyen moziszeánszot indít a NASA",
+      "subtitle": null,
+      "lead": "Elérhetővé vált az űrkutató szervezet saját, ingyenesen nézhető dokumentumfilm-gyűjteménye regisztráció és előfizetés nélkül. Az online platformon olyan izgalmas témák szerepelnek, mint az úttörő kutatások vagy a kozmikus hajnal.",
+      "key_points": [
+        "Ingyenesen és előfizetés nélkül nézhetők a NASA+-on a dokumentumfilmek.",
+        "A felületen tematikus gyűjtemények érhetők el az űr felfedezéséről.",
+        "A nézők az exobolygók világába és a csillagászat rejtelmeibe nyerhetnek betekintést."
+      ],
+      "content": "Új, előfizetést nem igénylő streamingfelületet indított a NASA, amelyen keresztül bárki követheti a világűr kutatásának kulisszatitkait. Ez olyan, mintha a tudomány saját, házon belüli tévécsatornát kapna, ahol a popcornt csak nekünk kell bekészíteni a fotel mellé.\n\nA kínálatban szerepelnek a Naprendszer határait átlépő küldetések, a távoli csillaghalmazok születését bemutató filmek és az exobolygók világa is. A platform célja, hogy a tudományos ismeretterjesztés még közelebb kerüljön a nagyközönséghez.\n\nAz online videótár segítségével az érdeklődők otthonról nyerhetnek bepillantást abba a munkába, amelyet a szakemberek a jövő űrutazásainak előkészítéséért végeznek.",
+      "content_format": "markdown",
+      "body": [
+        "Új, előfizetést nem igénylő streamingfelületet indított a NASA, amelyen keresztül bárki követheti a világűr kutatásának kulisszatitkait. Ez olyan, mintha a tudomány saját, házon belüli tévécsatornát kapna, ahol a popcornt csak nekünk kell bekészíteni a fotel mellé.",
+        "A kínálatban szerepelnek a Naprendszer határait átlépő küldetések, a távoli csillaghalmazok születését bemutató filmek és az exobolygók világa is. A platform célja, hogy a tudományos ismeretterjesztés még közelebb kerüljön a nagyközönséghez.",
+        "Az online videótár segítségével az érdeklődők otthonról nyerhetnek bepillantást abba a munkába, amelyet a szakemberek a jövő űrutazásainak előkészítéséért végeznek."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 116,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/NASA%2B_website_screenshot.png/1280px-NASA%2B_website_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 675,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Screenshot of the streaming service NASA+.",
+        "credit": "NASA / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NASA%2B_website_screenshot.png"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/solar-system/10-things-movie-night/",
+          "title": "10 Things: Movie Night",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-02T13:47:39+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-02T13:54:30+02:00"
+      },
+      "hot_score": 5.84,
+      "category_meta": {
+        "source_links": [
+          "https://science.nasa.gov/solar-system/10-things-movie-night/"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/univerzum/2026-10-02-ingyen-moziszeanszot-indit-a-nasa/",
+      "seo": {
+        "meta_title": "Ingyen moziszeánszot indít a NASA",
+        "meta_description": "Elérhetővé vált az űrkutató szervezet saját, ingyenesen nézhető dokumentumfilm-gyűjteménye regisztráció és előfizetés nélkül. Az online platformon olyan izgalma",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-02-ingyen-moziszeanszot-indit-a-nasa/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/NASA%2B_website_screenshot.png/1280px-NASA%2B_website_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "8e9b7009f190c530303eaed366fa86efb42680524243baf615f884d44d7e95df",
+      "pipeline_run_id": "37002618952",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T13:54:30+02:00",
+      "updated_at": "2026-10-02T13:54:30+02:00",
+      "published_at": "2026-10-02T13:54:30+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "NASA headquarters building",
+        "NASA logo",
+        "NASA administration building Washington",
+        "NASA TV studio",
+        "streaming on laptop",
+        "living room movie night",
+        "space documentary",
+        "NASA Goddard Space Flight Center",
+        "Jet Propulsion Laboratory",
+        "Hubble Space Telescope",
+        "James Webb Space Telescope",
+        "television screen",
+        "living room couch",
+        "popcorn bowl",
+        "NASA Plus streaming service",
+        "Exoplanet exploration animation",
+        "Solar System outer planets",
+        "Cosmic dawn astronomy",
+        "home cinema evening",
+        "watching documentary"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/UGC_1810_and_UGC_1813_in_Arp_273_%28captured_by_the_Hubble_Space_Telescope%29.jpg/1280px-UGC_1810_and_UGC_1813_in_Arp_273_%28captured_by_the_Hubble_Space_Telescope%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/People_streaming_NPR_coverage_of_Obama_acceptance_speech_at_DNC_on_laptop_%282810855640%29.jpg/1280px-People_streaming_NPR_coverage_of_Obama_acceptance_speech_at_DNC_on_laptop_%282810855640%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_%2830108124923%29.jpg/1280px-James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_%2830108124923%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Tarantula_Nebula_by_JWST.jpg/1280px-Tarantula_Nebula_by_JWST.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Mars_Exploration_Rover_at_the_Evergreen_Aviation_%26_Space_Museum_1540_%286586616235%29.jpg/1280px-Mars_Exploration_Rover_at_the_Evergreen_Aviation_%26_Space_Museum_1540_%286586616235%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/7208/6829108346_d0d1e425ce_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/1280px-Crab_Nebula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Grand_star-forming_region_R136_in_NGC_2070_%28captured_by_the_Hubble_Space_Telescope%29.jpg/1280px-Grand_star-forming_region_R136_in_NGC_2070_%28captured_by_the_Hubble_Space_Telescope%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/NASA_Day_on_the_Hill_%28NHQ202509160012%29.jpg/1280px-NASA_Day_on_the_Hill_%28NHQ202509160012%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250002%29.jpg/1280px-Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250002%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/ISS-32_American_EVA_b3_Aki_Hoshide.jpg/1280px-ISS-32_American_EVA_b3_Aki_Hoshide.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Vitino%2C_Deep_space_exploration_radio_telescope%2C_Crimea.jpg/1280px-Vitino%2C_Deep_space_exploration_radio_telescope%2C_Crimea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/1280px-Bruce_McCandless_II_during_EVA_in_1984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1280px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg/1280px-Katherine_Johnson_at_NASA%2C_in_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Site_du_JPL_en_Californie.jpg/1280px-Site_du_JPL_en_Californie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Jet_Propulsion_Laboratory_spin_test.jpg/1280px-Jet_Propulsion_Laboratory_spin_test.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/3273/2328453152_aa2c260234_b.jpg",
+        "https://live.staticflickr.com/109/309823305_eb9f42e8d0_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250001%29.jpg/1280px-Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/NASA_Day_on_the_Hill_%28NHQ202509160022%29.jpg/1280px-NASA_Day_on_the_Hill_%28NHQ202509160022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
+    },
     {
       "id": "7acc63fe-1bbc-59e6-9f1c-3ad50d66c8f1",
       "slug": "2026-10-02-het-szazalekkal-zuhant-a-gazolaj-ara-europaban",
