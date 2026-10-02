@@ -9718,58 +9718,89 @@
           "source_url": "https://commons.wikimedia.org/wiki/File:NASA_Headquarters.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/NASA_HQ_Building_2.jpg/1280px-NASA_HQ_Building_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1280px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 944,
+          "height": 927,
           "kind": "photo",
           "pos": "center",
-          "alt": "NASA Headquarters at 300 E Street SW in Washington D.C.",
+          "alt": "NASA Headquarters at 300 E Street SW in Washington D.C.\nDeutsch:  NASA Hauptsitz auf der 300 E Street SW in Washington D.C.\n中文：​位于美国华盛顿300 E Street SW的美国国家航空航天局(NASA)总部大楼\nБеларуская:  Штаб-кватэра NAS",
           "credit": "NASA / Wikimedia Commons",
           "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_HQ_Building_2.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_HQ_Building.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Truman_and_Webb_at_NASA_Headquarters_-_GPN-2000-001546.jpg/1280px-Truman_and_Webb_at_NASA_Headquarters_-_GPN-2000-001546.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1200,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "The April 12 launch at Pad 39A of STS-1, just seconds past 7 a.m., carries astronauts John Young and Robert Crippen into an Earth orbital mission scheduled to last for 54 hours, ending with unpowered",
-          "credit": "NASA / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_launching.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/SES-10_Launch_-_world%27s_first_reflight_of_an_orbital_class_rocket_%2833361035200%29.jpg/1280px-SES-10_Launch_-_world%27s_first_reflight_of_an_orbital_class_rocket_%2833361035200%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 794,
+          "height": 960,
           "kind": "photo",
           "pos": "center",
-          "alt": "SES-10 Launch by Falcon 9 Flight 32, world's first reflight of an orbital class rocket, from Pad 39A, Kennedy Space Center, Cape Canaveral, Florida.",
-          "credit": "SpaceX / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:SES-10_Launch_-_world%27s_first_reflight_of_an_orbital_class_rocket_(33361035200).jpg"
+          "alt": "On November 3, 1961, former President Harry S. Truman visited newly opened NASA Headquarters, Washington D.C., accompanied by former NASA Administrator James E. Webb. He was presented with a collectio",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Truman_and_Webb_at_NASA_Headquarters_-_GPN-2000-001546.jpg"
         },
         {
-          "url": "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/STS-129_ExPRESS_Logistics_Carrier_9.jpg/1280px-STS-129_ExPRESS_Logistics_Carrier_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 840,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "CAPE CANAVERAL, Fla. – In NASA Kennedy Space Center's Space Station Processing Facility, STS-129 Mission Specialist Robert Satcher becomes familiar with equipment installed on the Express Logistics Ca",
+          "credit": "NASA/Jim Grossmann / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:STS-129_ExPRESS_Logistics_Carrier_9.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/STS-129_ExPRESS_Logistics_Carrier_8.jpg/1280px-STS-129_ExPRESS_Logistics_Carrier_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 803,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "CAPE CANAVERAL, Fla. – Members of the STS-129 crew spend time in NASA Kennedy Space Center's Space Station Processing Facility looking over the payloads installed on the Express Logistics Carrier, or",
+          "credit": "NASA/Jim Grossmann / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:STS-129_ExPRESS_Logistics_Carrier_8.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/5317/5911641067_60a17b161f_b.jpg",
           "width": 1024,
-          "height": 683,
+          "height": 685,
           "kind": "photo",
-          "alt": "Antares Rocket Launch",
-          "credit": "NASA Goddard Photo and Video / nasa",
+          "alt": "Robotic Refueling Mission",
+          "credit": "NASA Goddard Space Flight Center / flickr",
           "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/24662369@N07/8674655959"
+          "source_url": "https://www.flickr.com/photos/35278629@N08/5911641067"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/CRS-9_mission_%2828348649546%29.jpg/1280px-CRS-9_mission_%2828348649546%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://live.staticflickr.com/3766/11237052854_3f627c1855_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "A child-friendly space in the Central African Republic",
+          "credit": "DFID - UK Department for International Development / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/14214150@N02/11237052854"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Defense_Logistics_Agency_Director_Army_Lt_%28240918-D-HE260-1026%29.jpg/1280px-Defense_Logistics_Agency_Director_Army_Lt_%28240918-D-HE260-1026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "The starting and landing CRS-9 Falcon 9 rocket is seen in this long exposure.",
-          "credit": "SpaceX / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:CRS-9_mission_(28348649546).jpg"
+          "alt": "Defense Logistics Agency Director Army Lt. Gen. Mark Simerly and the Space Force’s chief operations officer, Lt. Gen. DeAnna Burt, signed an interagency agreement Sept. 18, 2024, at the Air, Space and",
+          "credit": "DoD Photo by Chris Lynch / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Defense_Logistics_Agency_Director_Army_Lt_(240918-D-HE260-1026).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sunlon_Oriental_Food_Supply_Chain_Management_Corporation_%2820220707150045%29.jpg",
+          "width": 3869,
+          "height": 2580,
+          "kind": "photo",
+          "alt": "Sunlon Oriental Food Supply Chain Management Corporation (20220707150045)",
+          "credit": "N509FZ / wikimedia",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/w/index.php?curid=120185524"
         }
       ],
       "story": [
@@ -9827,11 +9858,37 @@
           1028,
           1029,
           1030,
-          1031
+          1031,
+          1049,
+          1050,
+          1051,
+          1052,
+          1053,
+          1054,
+          1055,
+          1056,
+          1057
         ],
-        "control_id": 1032
+        "control_id": 1058
       },
-      "live": true
+      "live": true,
+      "image_queries": [
+        "NASA logo",
+        "NASA insignia",
+        "NASA headquarters",
+        "NASA logistics",
+        "space agency logistics",
+        "supply chain management",
+        "business contract signing"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/SES-10_Launch_-_world%27s_first_reflight_of_an_orbital_class_rocket_%2833361035200%29.jpg/1280px-SES-10_Launch_-_world%27s_first_reflight_of_an_orbital_class_rocket_%2833361035200%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/CRS-9_mission_%2828348649546%29.jpg/1280px-CRS-9_mission_%2828348649546%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/NASA_HQ_Building_2.jpg/1280px-NASA_HQ_Building_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/NASA_Headquarters.jpg/1280px-NASA_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg"
+      ]
     },
     {
       "id": "7d054cd3-9288-5a5a-af86-6652d490db70",
