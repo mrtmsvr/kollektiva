@@ -13326,9 +13326,9 @@
       }
     },
     {
-      "id": "b7cdff79-6ab0-5817-a240-ca0cd69338a1",
-      "slug": "2026-10-02-hogyan-lett-egy-marketingesbol-sztoikus-guru",
-      "status": "pending",
+      "id": "2450f417-df39-58d4-b931-a90860e68816",
+      "slug": "2026-10-02-amerikai-sikerkonyv-forgatja-fel-a-sztoicizmust",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -13338,7 +13338,7 @@
         "filozófia",
         "Ryan Holiday"
       ],
-      "title": "Hogyan lett egy marketingesből sztoikus guru?",
+      "title": "Amerikai sikerkönyv forgatja fel a sztoicizmust",
       "subtitle": null,
       "lead": "Megjelent magyarul Ryan Holiday amerikai marketinges sikerkönyve, amely az igazságosság sztoikus erényén keresztül ígér teljesebb életet. A kötet a New York Times bestsellerlistájának élén végzett, jóllehet a klasszikus ókori filozófiához kevés köze van.",
       "key_points": [
@@ -13497,11 +13497,11 @@
       },
       "date": "2026-10-02",
       "date_label": "október 2.",
-      "url": "/tech/2026-10-02-hogyan-lett-egy-marketingesbol-sztoikus-guru/",
+      "url": "/tech/2026-10-02-amerikai-sikerkonyv-forgatja-fel-a-sztoicizmust/",
       "seo": {
-        "meta_title": "Hogyan lett egy marketingesből sztoikus guru?",
+        "meta_title": "Amerikai sikerkönyv forgatja fel a sztoicizmust",
         "meta_description": "Megjelent magyarul Ryan Holiday amerikai marketinges sikerkönyve, amely az igazságosság sztoikus erényén keresztül ígér teljesebb életet. A kötet a New York Tim",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-02-hogyan-lett-egy-marketingesbol-sztoikus-guru/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-02-amerikai-sikerkonyv-forgatja-fel-a-sztoicizmust/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/RyanHoliday.jpg/1280px-RyanHoliday.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -13519,9 +13519,9 @@
       "dedupe_hash": "4260ba8897851bc9cf4de944c10c623e6ba53082f6fa185cec83036a575e6fa9",
       "pipeline_run_id": "37002618952",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T13:46:58+02:00",
-      "updated_at": "2026-10-02T13:46:58+02:00",
-      "published_at": "2026-10-02T13:46:58+02:00",
+      "created_at": "2026-10-02T13:48:29+02:00",
+      "updated_at": "2026-10-02T13:48:29+02:00",
+      "published_at": "2026-10-02T13:48:29+02:00",
       "expires_at": null,
       "review": {
         "title": 1,
@@ -13540,7 +13540,8 @@
           1413
         ],
         "control_id": 1414
-      }
+      },
+      "live": true
     },
     {
       "id": "a3bb8794-fae6-56bc-a1c5-c1ec147506db",

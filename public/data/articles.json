@@ -1,7 +1,103 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T13:44:02+02:00",
+  "updated_at": "2026-10-02T13:48:29+02:00",
   "articles": [
+    {
+      "id": "2450f417-df39-58d4-b931-a90860e68816",
+      "slug": "2026-10-02-amerikai-sikerkonyv-forgatja-fel-a-sztoicizmust",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "sztoicizmus",
+        "könyv",
+        "bestseller",
+        "filozófia",
+        "Ryan Holiday"
+      ],
+      "title": "Amerikai sikerkönyv forgatja fel a sztoicizmust",
+      "subtitle": null,
+      "lead": "Megjelent magyarul Ryan Holiday amerikai marketinges sikerkönyve, amely az igazságosság sztoikus erényén keresztül ígér teljesebb életet. A kötet a New York Times bestsellerlistájának élén végzett, jóllehet a klasszikus ókori filozófiához kevés köze van.",
+      "key_points": [
+        "Ryan Holiday Dönts jól és jókor című kötete magyarul is elérhetővé vált.",
+        "A New York Times bestsellerlistáját vezető mű a sztoikus erényeket amerikai példákon keresztül mutatja be.",
+        "A könyvben szereplő hősök közt elnökök, sportolók és polgárjogi harcosok is találhatók."
+      ],
+      "content": "Harry S. Truman egykori amerikai elnök, Frank Robinson baseballjátékos és Thomas Clarkson angol diák is szerepel a kötetben mint olyan személy, aki a sztoikusok által fontosnak tartott erényeket testesítette meg. Az üzenet az Egyesült Államokban rendkívül népszerűvé vált, a kiadványt pedig Dr. Edith Eva Eger is méltatta.\n\nRyan Holiday elsősorban marketingesként és önsegítő könyvek szerzőjeként ismert, aki az ókori bölcsességet a mai olvasók számára próbálja átültetni. A műben említett példák szinte kizárólag az Egyesült Államokhoz kötődnek, így Seneca vagy Marcus Aurelius eszméi helyett inkább sportolók és elnökök jelennek meg a sztoikus hősök szerepében.\n\nA kötet alapvető üzenetei, mint a tisztesség vagy a megbocsátás, nehezen vitathatók, ugyanakkor a példák sokak szerint távol állnak az eredeti sztoikus gondolatoktól. A kiadvány a gyakorlatias, amerikai szemléletmódot helyezi előtérbe a római császárok elvontabb elmélkedéseivel szemben.",
+      "content_format": "markdown",
+      "body": [
+        "Harry S. Truman egykori amerikai elnök, Frank Robinson baseballjátékos és Thomas Clarkson angol diák is szerepel a kötetben mint olyan személy, aki a sztoikusok által fontosnak tartott erényeket testesítette meg. Az üzenet az Egyesült Államokban rendkívül népszerűvé vált, a kiadványt pedig Dr. Edith Eva Eger is méltatta.",
+        "Ryan Holiday elsősorban marketingesként és önsegítő könyvek szerzőjeként ismert, aki az ókori bölcsességet a mai olvasók számára próbálja átültetni. A műben említett példák szinte kizárólag az Egyesült Államokhoz kötődnek, így Seneca vagy Marcus Aurelius eszméi helyett inkább sportolók és elnökök jelennek meg a sztoikus hősök szerepében.",
+        "A kötet alapvető üzenetei, mint a tisztesség vagy a megbocsátás, nehezen vitathatók, ugyanakkor a példák sokak szerint távol állnak az eredeti sztoikus gondolatoktól. A kiadvány a gyakorlatias, amerikai szemléletmódot helyezi előtérbe a római császárok elvontabb elmélkedéseivel szemben."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 163,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/RyanHoliday.jpg/1280px-RyanHoliday.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 797,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Photo of author Ryan Holiday",
+        "credit": "Luiz Berengue / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:RyanHoliday.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://qubit.hu/2026/10/02/hogyan-legyunk-sztoikusok-hat-ne-igy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "Hogyan legyünk sztoikusok? Hát ne így!",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T13:46:58+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-02T13:48:29+02:00"
+      },
+      "hot_score": 5.87,
+      "category_meta": {
+        "source_links": [
+          "https://qubit.hu/2026/10/02/hogyan-legyunk-sztoikusok-hat-ne-igy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/tech/2026-10-02-amerikai-sikerkonyv-forgatja-fel-a-sztoicizmust/",
+      "seo": {
+        "meta_title": "Amerikai sikerkönyv forgatja fel a sztoicizmust",
+        "meta_description": "Megjelent magyarul Ryan Holiday amerikai marketinges sikerkönyve, amely az igazságosság sztoikus erényén keresztül ígér teljesebb életet. A kötet a New York Tim",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-02-amerikai-sikerkonyv-forgatja-fel-a-sztoicizmust/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/RyanHoliday.jpg/1280px-RyanHoliday.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "4260ba8897851bc9cf4de944c10c623e6ba53082f6fa185cec83036a575e6fa9",
+      "pipeline_run_id": "37002618952",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T13:48:29+02:00",
+      "updated_at": "2026-10-02T13:48:29+02:00",
+      "published_at": "2026-10-02T13:48:29+02:00",
+      "expires_at": null
+    },
     {
       "id": "83639ddc-34e0-5c32-97eb-0137ed96e4c1",
       "slug": "2026-10-02-hetvenmilliardos-kerdesek-varnak-szijjarto-peterre",
