@@ -10504,92 +10504,90 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_%281872%29%2C_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg/1280px-Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_%281872%29%2C_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Garay_ter_1_in_Szekszard_%281%29.jpg/1280px-Garay_ter_1_in_Szekszard_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1093,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Building at Garay tér 1 (seen from Széchenyi utca) in Szekszárd, Tolna County, Hungary",
+          "credit": "Tournasol7 / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Garay_ter_1_in_Szekszard_(1).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/MAV_99_55_9482_102-8%2C_Szekszard_railway_station%2C_2016_Szekszard.jpg/1280px-MAV_99_55_9482_102-8%2C_Szekszard_railway_station%2C_2016_Szekszard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": ":  Track maintenance vehicle (road number UDJ-102) at work, Szekszárd railway station.- Pollack Street, Szekszárd, Tolna County, Hungary.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:MAV_99_55_9482_102-8,_Szekszard_railway_station,_2016_Szekszard.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/View_Landscape_Kerkafalva_Zala.jpg/1280px-View_Landscape_Kerkafalva_Zala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "Building of the Directorate of the National Cultural Fund of Hungary",
-          "credit": "RHerczeg / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_(1872),_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg"
+          "alt": "Kerkafalva Landscape Zala County",
+          "credit": "Nxr-at / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:View_Landscape_Kerkafalva_Zala.jpg"
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Griffmadaras_kapu%2C_Gyulai_P%C3%A1l_utca_13%2C_2017_Palotanegyed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Kukoricaf%C3%B6ld%2C_Botfa%2C_Zalaegerszeg%2C_2008_Zala_megye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 1600,
-          "kind": "photo",
-          "pos": "top",
-          "alt": ": Gate decorated with Griffins. Listed, ecclectic cornerhouse, built to Antal Gottgeb by Antal Gottgeb in 1872. Now the National Cultural Fund of Hungary located here. - 13 Gyulai Pál street, Palotan",
-          "credit": "Globetrotter19 / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Griffmadaras_kapu,_Gyulai_P%C3%A1l_utca_13,_2017_Palotanegyed.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Szilv%C3%A1sszentm%C3%A1rton%2C_Reservoir%2C_Somogy2.jpg/1280px-Szilv%C3%A1sszentm%C3%A1rton%2C_Reservoir%2C_Somogy2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
+          "height": 725,
           "kind": "photo",
           "pos": "center",
-          "alt": "Szilvásszentmárton, Somogy County",
-          "credit": "Kalyob / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Szilv%C3%A1sszentm%C3%A1rton,_Reservoir,_Somogy2.jpg"
+          "alt": "Cornfield, Botfa, Zalaegerszeg, Zala county, Hungary",
+          "credit": "Pilgab / Wikimedia Commons",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Kukoricaf%C3%B6ld,_Botfa,_Zalaegerszeg,_2008_Zala_megye.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d%2C_2016_Hungary.jpg/1280px-V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d%2C_2016_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/CoA_of_Tolna_County_by_Zsuzsa_Stekly%2C_2016_Szekszard.jpg/1280px-CoA_of_Tolna_County_by_Zsuzsa_Stekly%2C_2016_Szekszard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 1600,
           "kind": "photo",
           "pos": "top",
-          "alt": ": Várhegy Hill observation tower from the Cemetery. - Kisfaludy Street, Fonyód, Somogy County, Hungary.",
+          "alt": "CoA of Tolna County by Zsuzsa Stekly. - 11-13 Szent István Square, Szekszárd, Tolna County, Hungary.",
           "credit": "Globetrotter19 / Wikimedia Commons",
           "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d,_2016_Hungary.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:CoA_of_Tolna_County_by_Zsuzsa_Stekly,_2016_Szekszard.jpg"
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Hungary_-_Baranya_Megyei_Rendorseg_%28Baranya_County_Police%29_%286656014051%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Restaurant._-_Tam%C3%A1si%2C_Tolna_County%2C_Hungary.JPG/1280px-Restaurant._-_Tam%C3%A1si%2C_Tolna_County%2C_Hungary.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1529,
+          "height": 1600,
           "kind": "photo",
           "pos": "top",
-          "alt": "Part of my collection of European  Law enforcement patches.",
-          "credit": "Dave Conner from Inverness, Scotland / Wikimedia Commons",
+          "alt": "Tamasi Bath. - Tamási, Tolna County, Hungary",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Restaurant._-_Tam%C3%A1si,_Tolna_County,_Hungary.JPG"
+        },
+        {
+          "url": "https://live.staticflickr.com/8332/8373310466_66fc78dc45_b.jpg",
+          "width": 1024,
+          "height": 680,
+          "kind": "photo",
+          "alt": "i was counting money (or: the dawn of capitalism)",
+          "credit": "Yoni Lerner / flickr",
           "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Hungary_-_Baranya_Megyei_Rendorseg_(Baranya_County_Police)_(6656014051).jpg"
+          "source_url": "https://www.flickr.com/photos/25570425@N07/8373310466"
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Baranya_Flag%28HUNGARY%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 600,
-          "kind": "graphic",
-          "pos": "center",
-          "alt": "Flag of the County Baranya in Hungary",
-          "credit": "AlexR.L. / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Baranya_Flag(HUNGARY).png"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Siklos_Castle_Nr001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 1600,
+          "url": "https://live.staticflickr.com/628/22058345734_5feb8e1098_b.jpg",
+          "width": 1024,
+          "height": 769,
           "kind": "photo",
-          "pos": "top",
-          "alt": "Siklósi vár nyugati oldala",
-          "credit": "Takkk at Hungarian Wikipedia / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Siklos_Castle_Nr001.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Siklos_Castle%2C_Summer_Theater_auditorium.jpg/1280px-Siklos_Castle%2C_Summer_Theater_auditorium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Hungary, Baranya County, Siklós city, Siklos Castle, Summer Theater auditorium. 2009.",
-          "credit": "Takkk / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Siklos_Castle,_Summer_Theater_auditorium.jpg"
+          "alt": "People in India: Counting money",
+          "credit": "Romtomtom / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/84901326@N00/22058345734"
         }
       ],
       "story": [
@@ -10664,9 +10662,17 @@
           1155,
           1156,
           1157,
-          1158
+          1158,
+          1184,
+          1185,
+          1186,
+          1187,
+          1188,
+          1189,
+          1190,
+          1191
         ],
-        "control_id": 1159
+        "control_id": 1192
       },
       "image_queries": [
         "National Cultural Fund Hungary",
@@ -10676,16 +10682,31 @@
         "Siklos castle",
         "financial audit documents",
         "hungarian currency banknotes",
-        "empty conference room"
+        "empty conference room",
+        "Ortoilos Hungary",
+        "Szekszard Hungary",
+        "Zala county landscape",
+        "Tolna county Hungary",
+        "financial corruption concept",
+        "counting money",
+        "business handshake"
       ],
       "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Szilv%C3%A1sszentm%C3%A1rton%2C_Reservoir%2C_Somogy2.jpg/1280px-Szilv%C3%A1sszentm%C3%A1rton%2C_Reservoir%2C_Somogy2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/9/90/Siklos_Castle_Nr001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d%2C_2016_Hungary.jpg/1280px-V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d%2C_2016_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://live.staticflickr.com/4031/4289726649_2d622fe46e_b.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg/1280px-Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Beverley_Guildhall_Courtroom.jpg/1280px-Beverley_Guildhall_Courtroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hank%C3%B3_Bal%C3%A1zs_in_2025_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "https://live.staticflickr.com/54/117048243_7cc6bb0b87_b.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/P%C3%A9cs_%28148%29.jpg/1280px-P%C3%A9cs_%28148%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Beverley_Guildhall_Courtroom.jpg/1280px-Beverley_Guildhall_Courtroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/P%C3%A9cs_%2899%29.jpg/1280px-P%C3%A9cs_%2899%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Siklos_Castle%2C_Summer_Theater_auditorium.jpg/1280px-Siklos_Castle%2C_Summer_Theater_auditorium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/a/ac/Baranya_Flag%28HUNGARY%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://upload.wikimedia.org/wikipedia/commons/6/64/Hungary_-_Baranya_Megyei_Rendorseg_%28Baranya_County_Police%29_%286656014051%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://upload.wikimedia.org/wikipedia/commons/1/16/Griffmadaras_kapu%2C_Gyulai_P%C3%A1l_utca_13%2C_2017_Palotanegyed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/P%C3%A9cs_%2899%29.jpg/1280px-P%C3%A9cs_%2899%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_%281872%29%2C_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg/1280px-Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_%281872%29%2C_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
     },
     {
@@ -10757,92 +10778,92 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Boris_Pistorius_Samuel_Paparo_July_2024.jpg/1280px-Boris_Pistorius_Samuel_Paparo_July_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1600,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Boris Pistorius and Samuel Paparo in Honolulu, HI, July 2024.jpg",
-          "credit": "McNam / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Boris_Pistorius_Samuel_Paparo_July_2024.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Boris_Pistorius_2023.jpg/1280px-Boris_Pistorius_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/FAC_Defence_20May2025_Christian_Freuding.jpg/1280px-FAC_Defence_20May2025_Christian_Freuding.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "Verteidigungsminister Pistorius anlässlich des Feierlichen Gelöbnisses zum 20. Juli (2023)",
-          "credit": "Dr. Frank Gaeth / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Boris_Pistorius_2023.jpg"
+          "alt": "Photos: The Chancellery of the Prime Minister / PAP S.A.",
+          "credit": "Polish presidency of the Council of the EU 2025 / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:FAC_Defence_20May2025_Christian_Freuding.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Challenger2-Bergen-Hohne-Training-Area_cropped.jpg/1280px-Challenger2-Bergen-Hohne-Training-Area_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Christian_Freuding_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 898,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "The 2nd Royal Tank Regiment (2 RTR Badger) of the British Army with the MBT Challenger 2 during live fire training exercises in 2004 on Bergen-Hohne Training Area (Lower Saxony, Germany).",
-          "credit": "Fiorellino / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Challenger2-Bergen-Hohne-Training-Area_cropped.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/RSDG-Bergen-Hohne-Training-Area-3.jpg/1280px-RSDG-Bergen-Hohne-Training-Area-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 898,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "The Royal Scots Dragoon Guards (SCOTS DG, Squadron C) of the British Army with the MBT Challenger 2 during live fire training exercises in 2004 on Bergen-Hohne Training Area  (Range SB 7B) (Lower Saxo",
-          "credit": "Fiorellino / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:RSDG-Bergen-Hohne-Training-Area-3.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_Dawn_in_Vilnius%2C_1917.png/1280px-Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_Dawn_in_Vilnius%2C_1917.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1898,
+          "height": 1482,
           "kind": "photo",
           "pos": "top",
-          "alt": "Soldiers of the Imperial German Army near the Gate of Dawn in Vilnius in 1917.",
-          "credit": "Unknown authorUnknown author / Wikimedia Commons",
+          "alt": "Major General of the Bundeswehr Christian Freuding at the Foreign Affairs Council and Foreign Affairs Council (Defence) of the European Union.",
+          "credit": "Polish presidency of the Council of the EU 2025 / Wikimedia Commons",
           "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_Dawn_in_Vilnius,_1917.png"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Christian_Freuding_(cropped).jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_the_Monastery_of_the_Holy_Trinity_in_Vilnius%2C_1917.png/1280px-Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_the_Monastery_of_the_Holy_Trinity_in_Vilnius%2C_1917.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/U.S._Army_Chinook_in_Freedom_Shield_2026.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 761,
+          "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "Soldiers of the Imperial German Army near the Gate of the Monastery of the Holy Trinity in Vilnius in 1917.",
-          "credit": "Unknown authorUnknown author / Wikimedia Commons",
+          "alt": "A U.S. Army CH-47 Chinook participating in a wet gap crossing exercise during Freedom Shield 2026 in South Korea.",
+          "credit": "03.13.2026\nPhoto by Cpl. Yoon Hyeok Choi \n\n2nd Infantry Division/ROK-U.S. Combin / Wikimedia Commons",
           "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_the_Monastery_of_the_Holy_Trinity_in_Vilnius,_1917.png"
+          "source_url": "https://commons.wikimedia.org/wiki/File:U.S._Army_Chinook_in_Freedom_Shield_2026.webp"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/UAV_Pegaz.jpg/1280px-UAV_Pegaz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Stinger_Live_Fire_conducted_at_Daecheon_Range_for_Freedom_Shield_2026_%289575044%29.jpg/1280px-Stinger_Live_Fire_conducted_at_Daecheon_Range_for_Freedom_Shield_2026_%289575044%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 559,
+          "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "Serbian tactical UAV Pegaz on display at \"Partner 2011\" military fair.",
-          "credit": "Srđan Popović / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:UAV_Pegaz.jpg"
+          "alt": "U.S. Marines assigned to 3D Low Altitude Air Defense Battalion and 12th Littoral Anti-Air Battalion conduct a Stinger live-fire exercise for Freedom Shield at the Daecheon Range, South Korea, on March",
+          "credit": "U.S. Army EIGHTHARMY by Spc. Jakaiyah Rumedon / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Stinger_Live_Fire_conducted_at_Daecheon_Range_for_Freedom_Shield_2026_(9575044).jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/UAV_Vrabac.jpg/1280px-UAV_Vrabac.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/U_S_Army_Europe_and_Africa_Best_Drone_Warfighter_Competition_%289436358%29.jpg/1280px-U_S_Army_Europe_and_Africa_Best_Drone_Warfighter_Competition_%289436358%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 613,
+          "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "Serbia lightn UAV Vrabac on display at \"Partner 2011\" military fair.",
-          "credit": "Srđan Popović / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:UAV_Vrabac.jpg"
+          "alt": "7th Army Training Command hosts the first U.S. Army Europe and Africa Best Drone Warfighter Competition, Dec. 8-10, 2025, in Grafenwoehr Training Area, Germany. The multinational competition assesses",
+          "credit": "U.S. Army photo by Sgt. Nathanial Johnson / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:U_S_Army_Europe_and_Africa_Best_Drone_Warfighter_Competition_(9436358).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/U_S_Army_Europe_and_Africa_Best_Drone_Warfighter_Competition_%289430662%29.jpg/1280px-U_S_Army_Europe_and_Africa_Best_Drone_Warfighter_Competition_%289430662%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "7th Army Training Command hosts the first U.S. Army Europe and Africa Best Drone Warfighter Competition, Dec. 8-10, 2025, in Grafenwoehr Training Area, Germany. The multinational competition assesses",
+          "credit": "U.S. Army photo by Staff Sgt. Dylan Bailey / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:U_S_Army_Europe_and_Africa_Best_Drone_Warfighter_Competition_(9430662).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Exterior_of_Net_Control_Station_Military_Auxiliary_Radio_System_Vietnam_located_at_the_Long_Binh.jpg/1280px-Exterior_of_Net_Control_Station_Military_Auxiliary_Radio_System_Vietnam_located_at_the_Long_Binh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 936,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Exterior of Net Control Station Military Auxiliary Radio System (MARS) Vietnam located at the Long Binh Signal Complex and a transmitting tower (under construction) which is operated by C Company, 69t",
+          "credit": "SP5 Henry Schnitzler / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Net_Control_Station_Military_Auxiliary_Radio_System_Vietnam_located_at_the_Long_Binh.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Navesink_Military_Reservation%2C_Fire_Control_Station_1.jpg/1280px-Navesink_Military_Reservation%2C_Fire_Control_Station_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Fire Control Station at the Navesink Military Reservation.",
+          "credit": "Zeete / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Navesink_Military_Reservation,_Fire_Control_Station_1.jpg"
         }
       ],
       "story": [
@@ -10910,9 +10931,17 @@
           1166,
           1167,
           1168,
-          1169
+          1169,
+          1174,
+          1175,
+          1176,
+          1177,
+          1178,
+          1179,
+          1180,
+          1181
         ],
-        "control_id": 1170
+        "control_id": 1182
       },
       "image_queries": [
         "Bundeswehr drone",
@@ -10922,16 +10951,32 @@
         "military UAV",
         "military drone",
         "soldier with tablet",
-        "military technology"
+        "military technology",
+        "Christian Freuding",
+        "Freedom Shield 2026",
+        "German Army drone",
+        "military control station",
+        "reconnaissance drone",
+        "military training field",
+        "soldiers observing tablet",
+        "army command tent"
       ],
       "images_seen": [
-        "https://upload.wikimedia.org/wikipedia/commons/4/4a/UA_military_FPV_drones_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://live.staticflickr.com/5128/5346499274_467bdabce0_b.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/2018-02-28_Boris_Pistorius-6241.jpg/1280px-2018-02-28_Boris_Pistorius-6241.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/2/26/UA_military_FPV_drones_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Boris_Pistorius_%282019%29_%28cropped%29.jpg/1280px-Boris_Pistorius_%282019%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Boris_Pistorius_Samuel_Paparo_July_2024.jpg/1280px-Boris_Pistorius_Samuel_Paparo_July_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://live.staticflickr.com/5217/5383304285_ce9427c525_b.jpg",
+        "https://live.staticflickr.com/5128/5346499274_467bdabce0_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Boris_Pistorius_2023.jpg/1280px-Boris_Pistorius_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Boris_Pistorius_%282019%29_%28cropped%29.jpg/1280px-Boris_Pistorius_%282019%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4a/UA_military_FPV_drones_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://upload.wikimedia.org/wikipedia/commons/2/26/UA_military_FPV_drones_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/RSDG-Bergen-Hohne-Training-Area-3.jpg/1280px-RSDG-Bergen-Hohne-Training-Area-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_Dawn_in_Vilnius%2C_1917.png/1280px-Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_Dawn_in_Vilnius%2C_1917.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/84%2B35_German_Army_Sikorsky_CH-53G_Super_Stallion_ILA_Berlin_2016_21.jpg/1280px-84%2B35_German_Army_Sikorsky_CH-53G_Super_Stallion_ILA_Berlin_2016_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_the_Monastery_of_the_Holy_Trinity_in_Vilnius%2C_1917.png/1280px-Soldiers_of_the_Imperial_German_Army_near_the_Gate_of_the_Monastery_of_the_Holy_Trinity_in_Vilnius%2C_1917.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Challenger2-Bergen-Hohne-Training-Area_cropped.jpg/1280px-Challenger2-Bergen-Hohne-Training-Area_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/UAV_Vrabac.jpg/1280px-UAV_Vrabac.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/2018-02-28_Boris_Pistorius-6241.jpg/1280px-2018-02-28_Boris_Pistorius-6241.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/UAV_Pegaz.jpg/1280px-UAV_Pegaz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Soldiers_of_the_Imperial_German_Army_entering_burning_%C5%A0iauliai_in_1915.jpg/1280px-Soldiers_of_the_Imperial_German_Army_entering_burning_%C5%A0iauliai_in_1915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
     }
