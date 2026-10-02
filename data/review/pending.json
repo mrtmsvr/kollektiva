@@ -13613,91 +13613,89 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1280px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 927,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "NASA Headquarters at 300 E Street SW in Washington D.C.\nDeutsch:  NASA Hauptsitz auf der 300 E Street SW in Washington D.C.\n中文：​位于美国华盛顿300 E Street SW的美国国家航空航天局(NASA)总部大楼\nБеларуская:  Штаб-кватэра NAS",
-          "credit": "NASA / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_HQ_Building.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg/1280px-Katherine_Johnson_at_NASA%2C_in_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1513,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Katherine Johnson, NASA employée, mathematician and physicist, in 1966",
-          "credit": "Adam Cuerden / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_at_NASA,_in_1966.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Mars_Exploration_Rover_at_the_Evergreen_Aviation_%26_Space_Museum_1540_%286586616235%29.jpg/1280px-Mars_Exploration_Rover_at_the_Evergreen_Aviation_%26_Space_Museum_1540_%286586616235%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250001%29.jpg/1280px-Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "IMG_1540",
-          "credit": "Clemens Vasters from Viersen, Germany / Wikimedia Commons",
+          "alt": "The Mary W. Jackson NASA Headquarters sign is installed ahead of the building naming ceremony, Thursday, Feb. 25, 2021, at NASA Headquarters in Washington, DC. Mary W. Jackson, the first African Ameri",
+          "credit": "NASA Headquarters / NASA/Joel Kowsky / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mary_W_Jackson_NASA_Headquarters_Sign_Installation_(NHQ202102250001).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250002%29.jpg/1280px-Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250002%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 758,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The Mary W. Jackson NASA Headquarters sign is installed ahead of the building naming ceremony, Thursday, Feb. 25, 2021, at NASA Headquarters in Washington, DC. Mary W. Jackson, the first African Ameri",
+          "credit": "NASA Headquarters / NASA/Joel Kowsky / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mary_W_Jackson_NASA_Headquarters_Sign_Installation_(NHQ202102250002).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/NASA_Day_on_the_Hill_%28NHQ202509160012%29.jpg/1280px-NASA_Day_on_the_Hill_%28NHQ202509160012%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 747,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "NASA astronaut Butch Wilmore speaks with attendees of NASA’s Day on the Hill, Tuesday, Sept. 16, 2025, at the Hart Senate Office Building in Washington. Photo Credit: (NASA/Joel Kowsky)",
+          "credit": "NASA Headquarters / NASA/Joel Kowsky / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_Day_on_the_Hill_(NHQ202509160012).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/NASA_Day_on_the_Hill_%28NHQ202509160022%29.jpg/1280px-NASA_Day_on_the_Hill_%28NHQ202509160022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 750,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "NASA astronaut Nick Hague speaks with attendees of NASA’s Day on the Hill, Tuesday, Sept. 16, 2025, at the Hart Senate Office Building in Washington. Photo Credit: (NASA/Joel Kowsky)",
+          "credit": "NASA Headquarters / NASA/Joel Kowsky / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_Day_on_the_Hill_(NHQ202509160022).jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/3273/2328453152_aa2c260234_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Streaming presentation",
+          "credit": "rob.wall / flickr",
           "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Mars_Exploration_Rover_at_the_Evergreen_Aviation_%26_Space_Museum_1540_(6586616235).jpg"
+          "source_url": "https://www.flickr.com/photos/49503072941@N01/2328453152"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Vitino%2C_Deep_space_exploration_radio_telescope%2C_Crimea.jpg/1280px-Vitino%2C_Deep_space_exploration_radio_telescope%2C_Crimea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://live.staticflickr.com/109/309823305_eb9f42e8d0_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "DR1 live, fuld skærm i super kvalitet",
+          "credit": "@boetter / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/47854931@N00/309823305"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/People_streaming_NPR_coverage_of_Obama_acceptance_speech_at_DNC_on_laptop_%282810855640%29.jpg/1280px-People_streaming_NPR_coverage_of_Obama_acceptance_speech_at_DNC_on_laptop_%282810855640%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 800,
+          "height": 725,
           "kind": "photo",
           "pos": "center",
-          "alt": "Saturn-MS. Deep space exploration ground control radar and radio telescope. Evpatoria Center for Deep Space Communications and Exploration. Vitino, Crimea.",
-          "credit": "Vyacheslav Argenberg / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Vitino,_Deep_space_exploration_radio_telescope,_Crimea.jpg"
+          "alt": "Jill, Harvey and I stream the Obama speech on NPR",
+          "credit": "Valerie Hinojosa from Washington DC, USA / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:People_streaming_NPR_coverage_of_Obama_acceptance_speech_at_DNC_on_laptop_(2810855640).jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/1280px-Bruce_McCandless_II_during_EVA_in_1984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1200,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Mission: STS-41-B\nFilm Type: 70 mm\nTitle: Views of the extravehicular activity during STS 41-B\nDescription: Astronaut Bruce McCandless II, mission specialist, participates in a extra-vehicular activi",
-          "credit": "NASA / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/ISS-32_American_EVA_b3_Aki_Hoshide.jpg/1280px-ISS-32_American_EVA_b3_Aki_Hoshide.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 797,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Japan Aerospace Exploration Agency astronaut Akihiko Hoshide, Expedition 32 flight engineer, uses a digital still camera to make a photo of his helmet visor during the mission's third session of extra",
-          "credit": "NASA / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:ISS-32_American_EVA_b3_Aki_Hoshide.jpg"
-        },
-        {
-          "url": "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg",
+          "url": "https://live.staticflickr.com/7208/6829108346_d0d1e425ce_b.jpg",
           "width": 1024,
           "height": 683,
           "kind": "photo",
-          "alt": "Antares Rocket Launch",
-          "credit": "NASA Goddard Photo and Video / nasa",
+          "alt": "Home movie night",
+          "credit": "Citizen 4474 / flickr",
           "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/24662369@N07/8674655959"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1200,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "The April 12 launch at Pad 39A of STS-1, just seconds past 7 a.m., carries astronauts John Young and Robert Crippen into an Earth orbital mission scheduled to last for 54 hours, ending with unpowered",
-          "credit": "NASA / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_launching.jpg"
+          "source_url": "https://www.flickr.com/photos/8590349@N05/6829108346"
         }
       ],
       "story": [
@@ -13757,10 +13755,37 @@
           1421,
           1422,
           1423,
-          1424
+          1424,
+          1429,
+          1430,
+          1431,
+          1432,
+          1433,
+          1434,
+          1435,
+          1436
         ],
-        "control_id": 1425
-      }
+        "control_id": 1437
+      },
+      "image_queries": [
+        "NASA headquarters building",
+        "NASA logo",
+        "NASA administration building Washington",
+        "NASA TV studio",
+        "streaming on laptop",
+        "living room movie night",
+        "space documentary"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg/1280px-Katherine_Johnson_at_NASA%2C_in_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Mars_Exploration_Rover_at_the_Evergreen_Aviation_%26_Space_Museum_1540_%286586616235%29.jpg/1280px-Mars_Exploration_Rover_at_the_Evergreen_Aviation_%26_Space_Museum_1540_%286586616235%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/ISS-32_American_EVA_b3_Aki_Hoshide.jpg/1280px-ISS-32_American_EVA_b3_Aki_Hoshide.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Vitino%2C_Deep_space_exploration_radio_telescope%2C_Crimea.jpg/1280px-Vitino%2C_Deep_space_exploration_radio_telescope%2C_Crimea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/1280px-Bruce_McCandless_II_during_EVA_in_1984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1280px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     }
   ]
 }
