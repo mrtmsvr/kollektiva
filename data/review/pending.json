@@ -13836,9 +13836,9 @@
       "live": true
     },
     {
-      "id": "a3106062-4985-5afe-bdda-b87de744d13a",
-      "slug": "2026-10-02-lazadnak-a-polgarmesterek-a-parkolasi-milliardok-miatt",
-      "status": "pending",
+      "id": "43729cd9-3ced-5943-81b1-c197efef8824",
+      "slug": "2026-10-02-egyseges-parkolas-ossztuz-zudul-karacsony-gergelyre",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -13848,7 +13848,7 @@
         "önkormányzat",
         "útfelújítás"
       ],
-      "title": "Lázadnak a polgármesterek a parkolási milliárdok miatt",
+      "title": "Egységes parkolás: össztűz zúdul Karácsony Gergelyre",
       "subtitle": null,
       "lead": "Pártállástól függetlenül fordultak szembe a budapesti kerületvezetők Karácsony Gergellyel, miután a Fővárosi Közfejlesztések Tanácsa döntött a parkolási bevételek központosításáról. A polgármesterek szerint a városházi útalap terve nem oldja meg a főváros gondjait, miközben a helyi kerületektől kulcsfontosságú forrásokat von el.",
       "key_points": [
@@ -13871,15 +13871,15 @@
       "word_count": 358,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Kar%C3%A1csony_Gergely_-_portrait.jpg/1280px-Kar%C3%A1csony_Gergely_-_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Budapest_road_sign_P8230406_%2814934337770%29.jpg/1280px-Budapest_road_sign_P8230406_%2814934337770%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 1593,
+        "height": 797,
         "kind": "photo",
-        "pos": "top",
-        "alt": "Karácsony Gergely. Taken on the 28th of March, 2016. Kertem, Budapest, Hungary.",
-        "credit": "Elekes Andor / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Kar%C3%A1csony_Gergely_-_portrait.jpg"
+        "pos": "center",
+        "alt": "OLYMPUS DIGITAL CAMERA",
+        "credit": "Davide Rizzo from Pieve a Nievole (Tuscany), Planet Earth ('ntil now) / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_road_sign_P8230406_(14934337770).jpg"
       },
       "inline_images": [],
       "sources": [
@@ -14010,12 +14010,12 @@
       },
       "date": "2026-10-02",
       "date_label": "október 2.",
-      "url": "/kozelet/2026-10-02-lazadnak-a-polgarmesterek-a-parkolasi-milliardok-miatt/",
+      "url": "/kozelet/2026-10-02-egyseges-parkolas-ossztuz-zudul-karacsony-gergelyre/",
       "seo": {
-        "meta_title": "Lázadnak a polgármesterek a parkolási milliárdok miatt",
+        "meta_title": "Egységes parkolás: össztűz zúdul Karácsony Gergelyre",
         "meta_description": "Pártállástól függetlenül fordultak szembe a budapesti kerületvezetők Karácsony Gergellyel, miután a Fővárosi Közfejlesztések Tanácsa döntött a parkolási bevétel",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-02-lazadnak-a-polgarmesterek-a-parkolasi-milliardok-miatt/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Kar%C3%A1csony_Gergely_-_portrait.jpg/1280px-Kar%C3%A1csony_Gergely_-_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-02-egyseges-parkolas-ossztuz-zudul-karacsony-gergelyre/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Budapest_road_sign_P8230406_%2814934337770%29.jpg/1280px-Budapest_road_sign_P8230406_%2814934337770%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -14046,9 +14046,9 @@
       "dedupe_hash": "576b8e726f083cc4cbe736bb22fae6cfa4834cdc7f7e9573c947071c0ee2bee3",
       "pipeline_run_id": "37014810278",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T15:43:15+02:00",
-      "updated_at": "2026-10-02T15:43:15+02:00",
-      "published_at": "2026-10-02T15:43:15+02:00",
+      "created_at": "2026-10-02T15:55:46+02:00",
+      "updated_at": "2026-10-02T15:55:46+02:00",
+      "published_at": "2026-10-02T15:55:46+02:00",
       "expires_at": null,
       "review": {
         "title": 1,
@@ -14094,7 +14094,8 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Pik%C3%B3_Andr%C3%A1s.jpg/1280px-Pik%C3%B3_Andr%C3%A1s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Baranyi_Krisztina_%28cropped%29_2.jpg/1280px-Baranyi_Krisztina_%28cropped%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Kar%C3%A1csony_Gergely_-_portrait.jpg/1280px-Kar%C3%A1csony_Gergely_-_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "971ced7a-f1ad-5cb3-802e-38cbe66bbc00",
