@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T12:22:48+02:00",
+  "updated_at": "2026-10-02T13:44:02+02:00",
   "articles": [
     {
       "id": "83639ddc-34e0-5c32-97eb-0137ed96e4c1",
@@ -341,15 +341,14 @@
       "word_count": 257,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Hudson_Yards_Real_Estate_Development_Update-_April_16%2C_2015_%2816992354740%29.jpg/1280px-Hudson_Yards_Real_Estate_Development_Update-_April_16%2C_2015_%2816992354740%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 799,
+        "url": "https://live.staticflickr.com/7385/11295891426_608ba24410_b.jpg",
+        "width": 1024,
+        "height": 768,
         "kind": "photo",
-        "pos": "center",
-        "alt": "Work is progressing over LIRR West Side Yards as part of the Hudson Yards Real Estate Development. Photo: Metropolitan Transportation Authority / Patrick Cashin",
-        "credit": "Metropolitan Transportation Authority of the State of New York / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Hudson_Yards_Real_Estate_Development_Update-_April_16,_2015_(16992354740).jpg"
+        "alt": "2007.08 - 'View over the long construction site' of the new metro tunnel under the city-center of Amsterdam,Prinsengracht / Vijzelgracht in the old city; Dutch photo + geotag - urban photography by Fo",
+        "credit": "Amsterdam free photos & pictures of the Dutch city / flickr",
+        "license": "Public domain",
+        "source_url": "https://www.flickr.com/photos/104736837@N03/11295891426"
       },
       "inline_images": [],
       "sources": [
@@ -382,7 +381,7 @@
         "meta_title": "Mit kezd a kormány az építési szabályokkal?",
         "meta_description": "Kiszámíthatóbb szabályozást sürgettek az ingatlanfejlesztők az Országos Urbanisztikai Konferencián, miközben az állami vezetés a kiemelő rendeletek átalakításár",
         "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-02-mit-kezd-a-kormany-az-epitesi-szabalyokkal/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Hudson_Yards_Real_Estate_Development_Update-_April_16%2C_2015_%2816992354740%29.jpg/1280px-Hudson_Yards_Real_Estate_Development_Update-_April_16%2C_2015_%2816992354740%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://live.staticflickr.com/7385/11295891426_608ba24410_b.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -408,7 +407,7 @@
       "pipeline_run_id": "36992001051",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-02T11:53:34+02:00",
-      "updated_at": "2026-10-02T11:53:34+02:00",
+      "updated_at": "2026-10-02T13:44:02+02:00",
       "published_at": "2026-10-02T11:53:34+02:00",
       "expires_at": null,
       "image_queries": [
