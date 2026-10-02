@@ -13613,92 +13613,91 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_%2830108124923%29.jpg/1280px-James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_%2830108124923%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/NASA%2B_website_screenshot.png/1280px-NASA%2B_website_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1799,
+          "height": 675,
           "kind": "photo",
-          "pos": "top",
-          "alt": "The primary mirror of NASA's James Webb Space Telescope consisting of 18 hexagonal mirrors looks like a giant puzzle piece standing in the massive clean room of NASA's Goddard Space Flight Center in G",
-          "credit": "Chris Gunn / Wikimedia Commons",
+          "pos": "center",
+          "alt": "Screenshot of the streaming service NASA+.",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NASA%2B_website_screenshot.png"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/NASA_%2B_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 271,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Logo for the streaming service NASA+.",
+          "credit": "National Aeronautics and Space Administration (NASA) / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_%2B_logo.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Hubble%27s_Decade-Long_Views_of_the_Outer_Solar_System_Planets_%282024-010%29.png/1280px-Hubble%27s_Decade-Long_Views_of_the_Outer_Solar_System_Planets_%282024-010%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "This is a montage of Hubble Space Telescope views of our solar system's four giant outer planets: Jupiter, Saturn, Uranus, and Neptune, each shown in enhanced color. The images were taken over nearly",
+          "credit": "Science NASA, ESA, Amy Simon (NASA-GSFC), Michael H. Wong (UC Berkeley) Image Pr / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hubble%27s_Decade-Long_Views_of_the_Outer_Solar_System_Planets_(2024-010).png"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Solar_system_orrery_outer_planets.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Animation of the solar system showing the motions of the outer four planets, starting on previous Neptune perihelion and ending on WED, 03 SEP 2042 AT 10:17 EST (15:17 UTC) (Neptune at perihelion). Ea",
+          "credit": "Datumizer / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Solar_system_orrery_outer_planets.webp"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Cosmic_Dawn-_The_Untold_Story_of_the_James_Webb_Space_Telescope_%28SVS14834_-_Cosmic_Dawn_Thumbnail%29.png/1280px-Cosmic_Dawn-_The_Untold_Story_of_the_James_Webb_Space_Telescope_%28SVS14834_-_Cosmic_Dawn_Thumbnail%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Cosmic Dawn: The Untold Story of the James Webb Space Telescope Full Film",
+          "credit": "NASA's Scientific Visualization Studio - eMITS/James Tralie, eMITS/Michael McCla / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Cosmic_Dawn-_The_Untold_Story_of_the_James_Webb_Space_Telescope_(SVS14834_-_Cosmic_Dawn_Thumbnail).png"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Cosmic_Dawn-_The_Untold_Story_of_the_James_Webb_Space_Telescope_%28SVS14834%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Cosmic Dawn Virtual Backgrounds",
+          "credit": "NASA's Scientific Visualization Studio - eMITS/James Tralie, eMITS/Michael McCla / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Cosmic_Dawn-_The_Untold_Story_of_the_James_Webb_Space_Telescope_(SVS14834).jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/5202/5378333486_d97bc41ecb_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Workspace @ Nottingham Flat",
+          "credit": "David Wellbeloved / flickr",
           "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_(30108124923).jpg"
+          "source_url": "https://www.flickr.com/photos/35339157@N00/5378333486"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/1280px-Crab_Nebula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Home_Bargains%2C_Oakwood%2C_Leeds_%2817th_May_2018%29.jpg/1280px-Home_Bargains%2C_Oakwood%2C_Leeds_%2817th_May_2018%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1200,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "This is a mosaic image, one of the largest ever taken by NASA's Hubble Space Telescope, of the Crab Nebula, a six-light-year-wide expanding remnant of a star's supernova explosion. Japanese and Chines",
-          "credit": "NASA, ESA, J. Hester and A. Loll (Arizona State University) / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Crab_Nebula.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Site_du_JPL_en_Californie.jpg/1280px-Site_du_JPL_en_Californie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 938,
+          "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": "The Jet Propulsion Laboratory in the upper Arroyo Seco and San Gabriel Mountains foothills, of Pasadena and Altadena, Southern California.",
-          "credit": "NASA / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Site_du_JPL_en_Californie.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Jet_Propulsion_Laboratory_spin_test.jpg/1280px-Jet_Propulsion_Laboratory_spin_test.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 942,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Ranger block 3 spin test\n8/11/1964\n\nIn August 1964, this test fixture was used by the Spacecraft Design Section at NASA's Jet Propulsion Laboratory in Pasadena, Calif., to study spin stabilization of",
-          "credit": "NASA / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Jet_Propulsion_Laboratory_spin_test.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Grand_star-forming_region_R136_in_NGC_2070_%28captured_by_the_Hubble_Space_Telescope%29.jpg/1280px-Grand_star-forming_region_R136_in_NGC_2070_%28captured_by_the_Hubble_Space_Telescope%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1226,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "A Hubble Space Telescope image of the R136 super star cluster, near the center of the 30 Doradus Nebula, also known as the Tarantula Nebula or NGC 2070. (Converted to JPG from the source TIFF file)",
-          "credit": "NASA, ESA, F. Paresce (INAF-IASF, Bologna, Italy), R. O'Connell (University of V / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Grand_star-forming_region_R136_in_NGC_2070_(captured_by_the_Hubble_Space_Telescope).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/UGC_1810_and_UGC_1813_in_Arp_273_%28captured_by_the_Hubble_Space_Telescope%29.jpg/1280px-UGC_1810_and_UGC_1813_in_Arp_273_%28captured_by_the_Hubble_Space_Telescope%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1216,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "This Hubble Space Telescope image shows a group of interacting galaxies called Arp 273. The larger of the spiral galaxies, known as UGC 1810, has a disk that is tidally distorted into a rose-like shap",
-          "credit": "NASA, ESA, and the Hubble Heritage Team (STScI/AURA) / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:UGC_1810_and_UGC_1813_in_Arp_273_(captured_by_the_Hubble_Space_Telescope).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 798,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Caption: During cryogenic testing, the mirrors will be subjected to temperatures dipping to 24 Kelvins, permitting engineers to measure in extreme detail how the shape of each mirror changes as it coo",
-          "credit": "NASA/MSFC/David Higginbotham/Emmett Given / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Mirror37.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Tarantula_Nebula_by_JWST.jpg/1280px-Tarantula_Nebula_by_JWST.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 694,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "The James Webb Space Telescope reveals details of the structure and composition of the Tarantula Nebula, as well as dozens of background galaxies.\nStellar nursery 30 Doradus gets its nickname of the T",
-          "credit": "NASA, ESA, CSA, STScI, Webb ERO Production Team / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Tarantula_Nebula_by_JWST.jpg"
+          "alt": "Home Bargains, Oakwood, Leeds, West Yorkshire.  Until recently this was the Co-op, before that Somerfield, before that Safeway and I believe a cinema before that.  Taken on the evening of Thursday the",
+          "credit": "Mtaylor848 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Home_Bargains,_Oakwood,_Leeds_(17th_May_2018).jpg"
         }
       ],
       "story": [
@@ -13774,9 +13773,17 @@
           1444,
           1445,
           1446,
-          1447
+          1447,
+          1451,
+          1452,
+          1453,
+          1454,
+          1455,
+          1456,
+          1457,
+          1458
         ],
-        "control_id": 1448
+        "control_id": 1459
       },
       "image_queries": [
         "NASA headquarters building",
@@ -13792,25 +13799,39 @@
         "James Webb Space Telescope",
         "television screen",
         "living room couch",
-        "popcorn bowl"
+        "popcorn bowl",
+        "NASA Plus streaming service",
+        "Exoplanet exploration animation",
+        "Solar System outer planets",
+        "Cosmic dawn astronomy",
+        "home cinema evening",
+        "watching documentary"
       ],
       "images_seen": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg/1280px-Katherine_Johnson_at_NASA%2C_in_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/UGC_1810_and_UGC_1813_in_Arp_273_%28captured_by_the_Hubble_Space_Telescope%29.jpg/1280px-UGC_1810_and_UGC_1813_in_Arp_273_%28captured_by_the_Hubble_Space_Telescope%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/People_streaming_NPR_coverage_of_Obama_acceptance_speech_at_DNC_on_laptop_%282810855640%29.jpg/1280px-People_streaming_NPR_coverage_of_Obama_acceptance_speech_at_DNC_on_laptop_%282810855640%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_%2830108124923%29.jpg/1280px-James_Webb_Space_Telescope_Mirrors_Will_Piece_Together_Cosmic_Puzzles_%2830108124923%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Tarantula_Nebula_by_JWST.jpg/1280px-Tarantula_Nebula_by_JWST.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Mars_Exploration_Rover_at_the_Evergreen_Aviation_%26_Space_Museum_1540_%286586616235%29.jpg/1280px-Mars_Exploration_Rover_at_the_Evergreen_Aviation_%26_Space_Museum_1540_%286586616235%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250001%29.jpg/1280px-Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://live.staticflickr.com/7208/6829108346_d0d1e425ce_b.jpg",
-        "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg",
-        "https://live.staticflickr.com/3273/2328453152_aa2c260234_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/1280px-Crab_Nebula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Grand_star-forming_region_R136_in_NGC_2070_%28captured_by_the_Hubble_Space_Telescope%29.jpg/1280px-Grand_star-forming_region_R136_in_NGC_2070_%28captured_by_the_Hubble_Space_Telescope%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/NASA_Day_on_the_Hill_%28NHQ202509160012%29.jpg/1280px-NASA_Day_on_the_Hill_%28NHQ202509160012%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250002%29.jpg/1280px-Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250002%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/ISS-32_American_EVA_b3_Aki_Hoshide.jpg/1280px-ISS-32_American_EVA_b3_Aki_Hoshide.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/NASA_Day_on_the_Hill_%28NHQ202509160022%29.jpg/1280px-NASA_Day_on_the_Hill_%28NHQ202509160022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/People_streaming_NPR_coverage_of_Obama_acceptance_speech_at_DNC_on_laptop_%282810855640%29.jpg/1280px-People_streaming_NPR_coverage_of_Obama_acceptance_speech_at_DNC_on_laptop_%282810855640%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Vitino%2C_Deep_space_exploration_radio_telescope%2C_Crimea.jpg/1280px-Vitino%2C_Deep_space_exploration_radio_telescope%2C_Crimea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/1280px-Bruce_McCandless_II_during_EVA_in_1984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1280px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://live.staticflickr.com/109/309823305_eb9f42e8d0_b.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg/1280px-Katherine_Johnson_at_NASA%2C_in_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Site_du_JPL_en_Californie.jpg/1280px-Site_du_JPL_en_Californie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Jet_Propulsion_Laboratory_spin_test.jpg/1280px-Jet_Propulsion_Laboratory_spin_test.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/3273/2328453152_aa2c260234_b.jpg",
+        "https://live.staticflickr.com/109/309823305_eb9f42e8d0_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250001%29.jpg/1280px-Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/NASA_Day_on_the_Hill_%28NHQ202509160022%29.jpg/1280px-NASA_Day_on_the_Hill_%28NHQ202509160022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
     }
   ]
