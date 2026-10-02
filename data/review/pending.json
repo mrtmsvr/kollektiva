@@ -12843,6 +12843,921 @@
         "control_id": 1355
       },
       "live": true
+    },
+    {
+      "id": "7acc63fe-1bbc-59e6-9f1c-3ad50d66c8f1",
+      "slug": "2026-10-02-het-szazalekkal-zuhant-a-gazolaj-ara-europaban",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "gázolaj",
+        "üzemanyagár",
+        "Európai Unió",
+        "Donald Trump",
+        "gazdaság"
+      ],
+      "title": "Hét százalékkal zuhant a gázolaj ára Európában",
+      "subtitle": null,
+      "lead": "Hét százalékkal esett a gázolaj ára Európában, miután a tagállamok ötvenmillió hordónyi üzemanyag felszabadításáról tárgyalnak. A piaci fordulat az amerikai politikai nyomásra és a készletek megnyitására adott azonnali válasz.",
+      "key_points": [
+        "Meredeken, mintegy 7 százalékkal esett a gázolaj ára a kontinensen az európai tervek hírére.",
+        "Donald Trump amerikai elnök százmillió hordó piacra dobását követelte, különben exporttilalommal fenyegetőzött.",
+        "A G7-országok vezetői rendkívüli egyeztetéseket tartanak a globális üzemanyag-ellátás stabilizálásáról."
+      ],
+      "content": "Meredeken, mintegy 7 százalékkal esett a gázolaj ára Európában, miután kiszivárgott, hogy az uniós tagállamok ötvenmillió hordónyi készlet felszabadítását mérlegelik a stratégiai tartalékokból. A Financial Times értesülései szerint a lépés hátterében Donald Trump amerikai elnök határozott nyomásgyakorlása áll, aki legalább százmillió hordó piacra dobását követelte az európai vezetőktől, ellenkező esetben az amerikai gázolajexport teljes betiltását helyezte kilátásba a novemberi félidős kongresszusi választások előtt.\n\nA piaci szereplők már a pénteki G7-egyeztetés előtt reagáltak a francia ellenjavaslatra, amely ötvenmillió hordó kibocsátásáról szól. Az energiaügyi illetékesek péntek reggeli válságülésén a résztvevők közül többen aggodalmukat fejezték ki a Washingtonból érkező feltételek miatt, míg az IEA vezetője, Fatih Birol arra emlékeztetett, hogy a korábbi, márciusi négyszázmillió hordós összehangolt tartaléklehívás vállalásait egyes európai országok még nem teljesítették teljesen.\n\nA globális finomítói kapacitásokat egyszerre több krízis is feszültség alatt tartja: az iráni háború, az orosz–ukrán konfliktus, valamint Kína azon döntése, hogy a legnagyobb finomítók októberre nem kaptak exportkvótát. Az Egyesült Királyságban pénteken először lépte át a gázolaj literenkénti ára a 2 fontot, míg a hordónkénti ár mindhárom főbb globális piacán átlépte a 200 dolláros lélektani határt.\n\nKözben a tőkepiacokon kedvezőbb folyamatok indultak el a hírre: az Euro Stoxx 50, a francia CAC 40 és a német DAX egyaránt több mint 1 százalékos emelkedést mutatott, és az amerikai határidős részvényindexek is erősödtek. A G7-országok vezetői a pénteki nap folyamán telefonos egyeztetéseken véglegesítik a koordinált válaszlépéseket, míg az uniós energiaunió munkacsoportja délután tovább tárgyal a közös európai válaszon.",
+      "content_format": "markdown",
+      "body": [
+        "Meredeken, mintegy 7 százalékkal esett a gázolaj ára Európában, miután kiszivárgott, hogy az uniós tagállamok ötvenmillió hordónyi készlet felszabadítását mérlegelik a stratégiai tartalékokból. A Financial Times értesülései szerint a lépés hátterében Donald Trump amerikai elnök határozott nyomásgyakorlása áll, aki legalább százmillió hordó piacra dobását követelte az európai vezetőktől, ellenkező esetben az amerikai gázolajexport teljes betiltását helyezte kilátásba a novemberi félidős kongresszusi választások előtt.",
+        "A piaci szereplők már a pénteki G7-egyeztetés előtt reagáltak a francia ellenjavaslatra, amely ötvenmillió hordó kibocsátásáról szól. Az energiaügyi illetékesek péntek reggeli válságülésén a résztvevők közül többen aggodalmukat fejezték ki a Washingtonból érkező feltételek miatt, míg az IEA vezetője, Fatih Birol arra emlékeztetett, hogy a korábbi, márciusi négyszázmillió hordós összehangolt tartaléklehívás vállalásait egyes európai országok még nem teljesítették teljesen.",
+        "A globális finomítói kapacitásokat egyszerre több krízis is feszültség alatt tartja: az iráni háború, az orosz–ukrán konfliktus, valamint Kína azon döntése, hogy a legnagyobb finomítók októberre nem kaptak exportkvótát. Az Egyesült Királyságban pénteken először lépte át a gázolaj literenkénti ára a 2 fontot, míg a hordónkénti ár mindhárom főbb globális piacán átlépte a 200 dolláros lélektani határt.",
+        "Közben a tőkepiacokon kedvezőbb folyamatok indultak el a hírre: az Euro Stoxx 50, a francia CAC 40 és a német DAX egyaránt több mint 1 százalékos emelkedést mutatott, és az amerikai határidős részvényindexek is erősödtek. A G7-országok vezetői a pénteki nap folyamán telefonos egyeztetéseken véglegesítik a koordinált válaszlépéseket, míg az uniós energiaunió munkacsoportja délután tovább tárgyal a közös európai válaszon."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 271,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Kim_Jong-un_and_Donald_Trump_impersonators.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 911,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Howard X and Dennis Alan, impersonators of Kim Jong-un and Donald Trump during the 2018 North Korea–United States summit in Singapore",
+        "credit": "Basile Morin / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kim_Jong-un_and_Donald_Trump_impersonators.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/global/20261002/kiszivargott-a-titkos-forgatokonyv-azonnal-zuhanni-kezdett-a-dizel-ara-866942",
+          "title": "Kiszivárgott a titkos forgatókönyv - azonnal zuhanni kezdett a dízel ára",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T13:44:46+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/nemzetkozi-gazdasag/2026/10/olaj-nyersolaj-hordo-energiarak-olajpiac?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Áttörés? Elképesztő mennyiségű olajat és dízelt engednének a piacra a tartalékokból – a francia terv hírére zuhant az olajár",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T13:44:46+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 7.0,
+      "title_options": [
+        "Hét százalékkal zuhant a gázolaj ára Európában",
+        "Ilyen olcsóbb dízelre számíthatunk a tartalékok miatt",
+        "Megszólaltak a diplomaták: ez történt a gázolaj ár পুড়ে"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1520,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017.  (Official White House Photo by Shealah Craighead)",
+          "credit": "Shealeah Craighead / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Donald_Trump_official_portrait_%28cropped%29.jpg/1280px-Donald_Trump_official_portrait_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1655,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
+          "credit": "Shealeah Craighead / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait_(cropped).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Fatih_Birol_in_2023_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1446,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Am 16.01.2023 traf Außenminister Alexander Schallenberg den Exekutivdirektor der Internationalen Energie-Agentur Fatih Birol in Paris. Foto: BMEIA/Gruber",
+          "credit": "Bundesministerium für europäische und internationale Angelegenheiten / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fatih_Birol_in_2023_(cropped).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Fatih_Birol_%2801112600%29_%286394081239%29.jpg/1280px-Fatih_Birol_%2801112600%29_%286394081239%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 796,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Mr. Fatih Birol, IAE Chief Economist answers to questions given by attendees at the Joint IAEA – IEA (International Energy Agency) Seminar on the World Energy Outlook 2011. IAEA Vienna, Austria, 24 No",
+          "credit": "IAEA Imagebank / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fatih_Birol_(01112600)_(6394081239).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/G-7_Economic_Summit_Leaders_at_Venice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 846,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "in 1980, members of the G7 Economic Summit being held in Venice posed for a photo. The G7 countries were Canada, France, Germany, Italy, Japan, the United Kingdom, and the United States, as well as th",
+          "credit": "Unknown authorUnknown author\n\n(Jimmy Carter Presidential Library) / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:G-7_Economic_Summit_Leaders_at_Venice.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/G7_Summit_Special_Vigilance_2023_at_Kyoto_Station.jpg/1280px-G7_Summit_Special_Vigilance_2023_at_Kyoto_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "G7 Summit Special Vigilance May 2023 at Kyoto Station",
+          "credit": "Mr.ちゅらさん / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:G7_Summit_Special_Vigilance_2023_at_Kyoto_Station.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Indices_Financial_Times.jpg/1280px-Indices_Financial_Times.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Indices Financial Times",
+          "credit": "DonSpencer1 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Indices_Financial_Times.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Financial_Times_2015_Summer_Party_hosted_by_FT_Editor_Lionel_Barber_at_the_Mondrian_Hotel_in_London_%2819100967431%29.jpg/1280px-Financial_Times_2015_Summer_Party_hosted_by_FT_Editor_Lionel_Barber_at_the_Mondrian_Hotel_in_London_%2819100967431%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "George Parker, Ed Milliband and Natalie Bennett",
+          "credit": "Financial Times / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Financial_Times_2015_Summer_Party_hosted_by_FT_Editor_Lionel_Barber_at_the_Mondrian_Hotel_in_London_(19100967431).jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "Kiszivárgott a titkos forgatókönyv - azonnal zuhanni kezdett a dízel ára",
+          "link": "https://www.portfolio.hu/global/20261002/kiszivargott-a-titkos-forgatokonyv-azonnal-zuhanni-kezdett-a-dizel-ara-866942",
+          "summary": "Meredeken, mintegy 7 százalékkal esett a gázolaj ára Európában, miután kiszivárgott, hogy az EU-tagállamok 50 millió hordónyi gázolaj felszabadítását mérlegelik a stratégiai tartalékokból - írja a Financial Times. A lépés hátterében Donald Trump nyomásgyakorlása áll, aki legalább 100 millió hordó piacra dobását követelte Európától, ellenkező esetben az amerikai gázolajexport betiltásával fenyegetőzött.",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 7.0
+        },
+        {
+          "title": "Áttörés? Elképesztő mennyiségű olajat és dízelt engednének a piacra a tartalékokból – a francia terv hírére zuhant az olajár",
+          "link": "https://www.vg.hu/nemzetkozi-gazdasag/2026/10/olaj-nyersolaj-hordo-energiarak-olajpiac?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "summary": "Franciaország százmillió hordónyi stratégiai készlet felszabadításával fékezné az üzemanyagárak emelkedését. Olaj és dízel kerülhet a piacra, a javaslat hírére pedig máris estek a nyersolajárak.",
+          "source": "vg.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/global/20261002/kiszivargott-a-titkos-forgatokonyv-azonnal-zuhanni-kezdett-a-dizel-ara-866942"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/penzvilag/2026-10-02-het-szazalekkal-zuhant-a-gazolaj-ara-europaban/",
+      "seo": {
+        "meta_title": "Hét százalékkal zuhant a gázolaj ára Európában",
+        "meta_description": "Hét százalékkal esett a gázolaj ára Európában, miután a tagállamok ötvenmillió hordónyi üzemanyag felszabadításáról tárgyalnak. A piaci fordulat az amerikai pol",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-02-het-szazalekkal-zuhant-a-gazolaj-ara-europaban/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Kim_Jong-un_and_Donald_Trump_impersonators.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "718ae6db-a6e3-5f13-8f70-43c54e1d4de5",
+        "702fff07-1b46-5e60-8dec-83b605d8a922"
+      ],
+      "see_also": [
+        {
+          "title": "Nagyot esett az OTP és a Mol",
+          "url": "/penzvilag/2026-10-01-nagyot-esett-az-otp-es-a-mol/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Összeverekedtek a pilóták egy utasszállító repülőgép fedélzetén",
+          "url": "/vilag/2026-09-30-osszeverekedtek-a-pilotak-egy-utasszallito-repulogep-fedelzeten/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": "9728c2d8-7373-5c63-8a99-b84e32bf0fb8",
+      "dedupe_hash": "af42a33f80c4191a9e156563a273d40fc01f8456de5aff0f4d2e3a1d72b72760",
+      "pipeline_run_id": "37002618952",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T13:44:46+02:00",
+      "updated_at": "2026-10-02T13:44:46+02:00",
+      "published_at": "2026-10-02T13:44:46+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-02T11:45:19+00:00",
+        "msg_ids": [
+          1371,
+          1372,
+          1373,
+          1374,
+          1375,
+          1376,
+          1377,
+          1378,
+          1379,
+          1380,
+          1394,
+          1395,
+          1396,
+          1397,
+          1398,
+          1399,
+          1400,
+          1401
+        ],
+        "control_id": 1402
+      },
+      "image_queries": [
+        "Donald Trump",
+        "Fatih Birol",
+        "G7 summit",
+        "Financial Times",
+        "Euro Stoxx 50",
+        "oil refinery",
+        "fuel pump",
+        "oil well"
+      ],
+      "images_seen": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/0f/European_Union_-_Egypt_Locator.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://live.staticflickr.com/7312/9677861633_cc1d703f56_b.jpg",
+        "https://live.staticflickr.com/4124/4845905314_8b4ce58572_b.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/12/Financial_Times_1888_front_page.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://upload.wikimedia.org/wikipedia/commons/1/1c/Kim_Jong-un_and_Donald_Trump_impersonators.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://upload.wikimedia.org/wikipedia/commons/2/29/Reda%C3%A7%C3%A3o_do_Financial_Times%2C_Londres.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/January_2025_Official_Presidential_Portrait_of_Donald_J._Trump.jpg/1280px-January_2025_Official_Presidential_Portrait_of_Donald_J._Trump.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/4/46/European_Union_Georgia_Locator_2013_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      ]
+    },
+    {
+      "id": "aad5c312-6f73-52a8-8d5f-1d463f09f75d",
+      "slug": "2026-10-02-ujabb-nehez-vizsgalat-elott-all-a-fitneszkiralyno",
+      "status": "pending",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Rubint Réka",
+        "Schobert Norbert",
+        "egészség",
+        "bulvár"
+      ],
+      "title": "Újabb nehéz vizsgálat előtt áll a fitneszkirálynő",
+      "subtitle": null,
+      "lead": "Újabb fontos egészségügyi ellenőrzésen esett át a lágyrészszarkómával küzdő Rubint Réka, aki nyíltan beszélt a gyógyulásért vívott harcáról. A fitneszedző pozitív üzenettel és egy saját magát is lelkileg támogató mantrával fordult a követőihez.",
+      "key_points": [
+        "Rubint Réka évek óta lágyrészszarkómával harcol.",
+        "A legutóbbi ellenőrzés előtt PET-CT vizsgálatnak vetette alá magát.",
+        "A Schobert család korábban meghirdetett szentendrei ingatlana kapcsán is újdonság látott napvilágot."
+      ],
+      "content": "Rubint Réka fitneszedző a napokban egy újabb jelentős diagnosztikai vizsgálaton, PET-CT-n vett részt, amely a modern onkológia egyik legfontosabb eszköze a teljes test áttéteinek feltérképezésére. A közösségi oldalán megosztott bejegyzésében úgy fogalmazott, hogy a vizsgálat előtt is bízik a gyógyulásban, és soha nem adja fel a küzdelmet.\n\nA hír kapcsán érdemes felidézni, hogy a ritka és agresszív daganatos betegséggel, lágyrészszarkómával folytatott harc során az elmúlt években kemoterápiás, sugárkezelési és sebészeti beavatkozásokon is átesett, köztük egy júniusi májműtéten, valamint külföldi immunterápiákon.\n\nKözben egy másik ügyben is változás történt a család körül: Schobert Norbert elismerte, hogy valóban szeretnék eladni a korábban meghirdetett, 1,2 milliárd forintos szentendrei luxusvillájukat, amelynek hirdetése korábban felkeltette a nyilvánosság figyelmét.",
+      "content_format": "markdown",
+      "body": [
+        "Rubint Réka fitneszedző a napokban egy újabb jelentős diagnosztikai vizsgálaton, PET-CT-n vett részt, amely a modern onkológia egyik legfontosabb eszköze a teljes test áttéteinek feltérképezésére. A közösségi oldalán megosztott bejegyzésében úgy fogalmazott, hogy a vizsgálat előtt is bízik a gyógyulásban, és soha nem adja fel a küzdelmet.",
+        "A hír kapcsán érdemes felidézni, hogy a ritka és agresszív daganatos betegséggel, lágyrészszarkómával folytatott harc során az elmúlt években kemoterápiás, sugárkezelési és sebészeti beavatkozásokon is átesett, köztük egy júniusi májműtéten, valamint külföldi immunterápiákon.",
+        "Közben egy másik ügyben is változás történt a család körül: Schobert Norbert elismerte, hogy valóban szeretnék eladni a korábban meghirdetett, 1,2 milliárd forintos szentendrei luxusvillájukat, amelynek hirdetése korábban felkeltette a nyilvánosság figyelmét."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 148,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Reka_Rubint_768x1024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Rubint Rékáról készült életnagyságú olajfestmény Schobert Norbert és Rubint Réka tulajdonában van 2015 november 13 napja óta, a 24.hu cikke szerint.",
+        "credit": "Angyalisziget1 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Reka_Rubint_768x1024.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/rubint-reka-pet-ct-vizsgalat-rak/e40h744",
+          "title": "\"Készen álljak és ne féljek\" – Újabb fontos vizsgálatnak vetette alá magát a rákkal küzdő Rubint Réka: ez tartja benne a lelket – fotó",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T13:45:40+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Újabb nehéz vizsgálat előtt áll a fitneszkirálynő",
+        "Így küzd a ritka betegséggel Rubint Réka",
+        "Nem adja fel a harcot a népszerű edző"
+      ],
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Reka_Rubint_768x1024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Rubint Rékáról készült életnagyságú olajfestmény Schobert Norbert és Rubint Réka tulajdonában van 2015 november 13 napja óta, a 24.hu cikke szerint.",
+          "credit": "Angyalisziget1 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Reka_Rubint_768x1024.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/R%C3%A9kaRubint2019.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1483,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "A screenshot of a YouTube video news report featuring Réka Rubint, uploaded and created by the Tolnatàj Television channel.",
+          "credit": "Tolnatáj Television / Wikimedia Commons",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:R%C3%A9kaRubint2019.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Main_Entrance_of_the_National_Institute_of_Oncology._-_R%C3%A1th_Gy%C3%B6rgy_u._7-9._Budapest_12.JPG/1280px-Main_Entrance_of_the_National_Institute_of_Oncology._-_R%C3%A1th_Gy%C3%B6rgy_u._7-9._Budapest_12.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Onkologiai Intézet Főbejárata. - Magyarország, Budapest XII. kerület, Krisztinaváros városrész, Kékgolyó utca",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Main_Entrance_of_the_National_Institute_of_Oncology._-_R%C3%A1th_Gy%C3%B6rgy_u._7-9._Budapest_12.JPG"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Orsz%C3%A1gos_Onkol%C3%B3giai_Int%C3%A9zet%2C_2-es_%C3%A9p%C3%BClet%2C_2018_Krisztinav%C3%A1ros.jpg/1280px-Orsz%C3%A1gos_Onkol%C3%B3giai_Int%C3%A9zet%2C_2-es_%C3%A9p%C3%BClet%2C_2018_Krisztinav%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 898,
+          "kind": "photo",
+          "pos": "center",
+          "alt": ": National Institute of Oncology, Bldg. 2. and skyway (Radiotherapy departments, Neptun and Primus III. treatment centers) -  Ráth György street, Krisztinaváros neighborhood, 12nd district of Budapes",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Orsz%C3%A1gos_Onkol%C3%B3giai_Int%C3%A9zet,_2-es_%C3%A9p%C3%BClet,_2018_Krisztinav%C3%A1ros.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/2925/14227241632_fd7808db81_b.jpg",
+          "width": 1024,
+          "height": 777,
+          "kind": "photo",
+          "alt": "GN08956 Medical checkup at Thebarton primary school",
+          "credit": "South Australian History Network / flickr",
+          "license": "Public domain",
+          "source_url": "https://www.flickr.com/photos/59809888@N06/14227241632"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Child_receiving_a_medical_checkup_in_a_clinic_with_a_doctor_using_a_stethoscope.jpg",
+          "width": 6048,
+          "height": 4032,
+          "kind": "photo",
+          "alt": "Child receiving a medical checkup in a clinic with a doctor using a stethoscope",
+          "credit": "Shixart1985 / wikimedia",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/w/index.php?curid=194674108"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Free_medical_checkup_camp.JPG/1280px-Free_medical_checkup_camp.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Activity of lakulishdham Ashram",
+          "credit": "Brahmcharini shivaniji / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Free_medical_checkup_camp.JPG"
+        }
+      ],
+      "story": [
+        {
+          "title": "\"Készen álljak és ne féljek\" – Újabb fontos vizsgálatnak vetette alá magát a rákkal küzdő Rubint Réka: ez tartja benne a lelket – fotó",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/rubint-reka-pet-ct-vizsgalat-rak/e40h744",
+          "summary": "Rubint Réka pár hónappal ezelőtt állt vallotta be, hogy évek óta egy rendkívül ritka daganatos betegséggel, lágyrészszarkómával harcol. Az elmúlt években komoly kemoterápiás és sugárkezeléseken esett át. Bár az elsődleges daganat méretét sikerült jelentősen lecsökkenteni, a betegség később áttéteket képzett, és júniusban májműtéten esett át. A fitneszlady nem adja fel, bizakodva osztott meg posztot egy újabb vizsgálatról.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/rubint-reka-pet-ct-vizsgalat-rak/e40h744"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/bulvar/2026-10-02-ujabb-nehez-vizsgalat-elott-all-a-fitneszkiralyno/",
+      "seo": {
+        "meta_title": "Újabb nehéz vizsgálat előtt áll a fitneszkirálynő",
+        "meta_description": "Újabb fontos egészségügyi ellenőrzésen esett át a lágyrészszarkómával küzdő Rubint Réka, aki nyíltan beszélt a gyógyulásért vívott harcáról. A fitneszedző pozit",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-02-ujabb-nehez-vizsgalat-elott-all-a-fitneszkiralyno/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Reka_Rubint_768x1024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "37ac7f651845f8dd95dee6d4e935bd6e3ace42f0ee3a0c187fe766849fdca235",
+      "pipeline_run_id": "37002618952",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T13:45:40+02:00",
+      "updated_at": "2026-10-02T13:45:40+02:00",
+      "published_at": "2026-10-02T13:45:40+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-02T11:46:23+00:00",
+        "msg_ids": [
+          1384,
+          1385,
+          1386,
+          1387,
+          1388,
+          1389,
+          1390,
+          1391,
+          1392
+        ],
+        "control_id": 1393
+      }
+    },
+    {
+      "id": "b7cdff79-6ab0-5817-a240-ca0cd69338a1",
+      "slug": "2026-10-02-hogyan-lett-egy-marketingesbol-sztoikus-guru",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "sztoicizmus",
+        "könyv",
+        "bestseller",
+        "filozófia",
+        "Ryan Holiday"
+      ],
+      "title": "Hogyan lett egy marketingesből sztoikus guru?",
+      "subtitle": null,
+      "lead": "Megjelent magyarul Ryan Holiday amerikai marketinges sikerkönyve, amely az igazságosság sztoikus erényén keresztül ígér teljesebb életet. A kötet a New York Times bestsellerlistájának élén végzett, jóllehet a klasszikus ókori filozófiához kevés köze van.",
+      "key_points": [
+        "Ryan Holiday Dönts jól és jókor című kötete magyarul is elérhetővé vált.",
+        "A New York Times bestsellerlistáját vezető mű a sztoikus erényeket amerikai példákon keresztül mutatja be.",
+        "A könyvben szereplő hősök közt elnökök, sportolók és polgárjogi harcosok is találhatók."
+      ],
+      "content": "Harry S. Truman egykori amerikai elnök, Frank Robinson baseballjátékos és Thomas Clarkson angol diák is szerepel a kötetben mint olyan személy, aki a sztoikusok által fontosnak tartott erényeket testesítette meg. Az üzenet az Egyesült Államokban rendkívül népszerűvé vált, a kiadványt pedig Dr. Edith Eva Eger is méltatta.\n\nRyan Holiday elsősorban marketingesként és önsegítő könyvek szerzőjeként ismert, aki az ókori bölcsességet a mai olvasók számára próbálja átültetni. A műben említett példák szinte kizárólag az Egyesült Államokhoz kötődnek, így Seneca vagy Marcus Aurelius eszméi helyett inkább sportolók és elnökök jelennek meg a sztoikus hősök szerepében.\n\nA kötet alapvető üzenetei, mint a tisztesség vagy a megbocsátás, nehezen vitathatók, ugyanakkor a példák sokak szerint távol állnak az eredeti sztoikus gondolatoktól. A kiadvány a gyakorlatias, amerikai szemléletmódot helyezi előtérbe a római császárok elvontabb elmélkedéseivel szemben.",
+      "content_format": "markdown",
+      "body": [
+        "Harry S. Truman egykori amerikai elnök, Frank Robinson baseballjátékos és Thomas Clarkson angol diák is szerepel a kötetben mint olyan személy, aki a sztoikusok által fontosnak tartott erényeket testesítette meg. Az üzenet az Egyesült Államokban rendkívül népszerűvé vált, a kiadványt pedig Dr. Edith Eva Eger is méltatta.",
+        "Ryan Holiday elsősorban marketingesként és önsegítő könyvek szerzőjeként ismert, aki az ókori bölcsességet a mai olvasók számára próbálja átültetni. A műben említett példák szinte kizárólag az Egyesült Államokhoz kötődnek, így Seneca vagy Marcus Aurelius eszméi helyett inkább sportolók és elnökök jelennek meg a sztoikus hősök szerepében.",
+        "A kötet alapvető üzenetei, mint a tisztesség vagy a megbocsátás, nehezen vitathatók, ugyanakkor a példák sokak szerint távol állnak az eredeti sztoikus gondolatoktól. A kiadvány a gyakorlatias, amerikai szemléletmódot helyezi előtérbe a római császárok elvontabb elmélkedéseivel szemben."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 163,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/RyanHoliday.jpg/1280px-RyanHoliday.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 797,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Photo of author Ryan Holiday",
+        "credit": "Luiz Berengue / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:RyanHoliday.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://qubit.hu/2026/10/02/hogyan-legyunk-sztoikusok-hat-ne-igy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "Hogyan legyünk sztoikusok? Hát ne így!",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T13:46:58+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.87,
+      "title_options": [
+        "Hogyan lett egy marketingesből sztoikus guru?",
+        "Amerikai sikerkönyv forgatja fel a sztoicizmust",
+        "Ezért veszik ezt a filozófiai kötetet mint a cukrot"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/RyanHoliday.jpg/1280px-RyanHoliday.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 797,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Photo of author Ryan Holiday",
+          "credit": "Luiz Berengue / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:RyanHoliday.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/RyanHoliday_%28cropped%29.jpg/1280px-RyanHoliday_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1468,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Photo of author Ryan Holiday",
+          "credit": "Luiz Berengue / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:RyanHoliday_(cropped).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Marcus_Aurelius_Arch_Tripoli_Libya.jpg/1280px-Marcus_Aurelius_Arch_Tripoli_Libya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Marcus Aurelius Arch in Tripoli, Libya, built in 163 CE.",
+          "credit": "Daniel and Kate Pett / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Marcus_Aurelius_Arch_Tripoli_Libya.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Marcus_Aurelius_Capitoline_Hill_September_2015-1.jpg/1280px-Marcus_Aurelius_Capitoline_Hill_September_2015-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1685,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Replica of the equestrian statue of Marcus Aurelius in the Capitoline Hill, Rome",
+          "credit": "Alvesgaspar / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Marcus_Aurelius_Capitoline_Hill_September_2015-1.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/What_Happened_%28Number_1_New_York_Times_Bestseller%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1811,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "What Happened (#1 New York Times Bestseller)",
+          "credit": "Simon &amp; Schuster / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:What_Happened_(Number_1_New_York_Times_Bestseller).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/ASOIAF_2011_NYT_Bestseller_List.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 665,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "New York Times Best Sellers List - Weekly Graphic for A Song of Ice and Fire from April 7, 2011 (airing of the Game of Thrones pilot episode) through July 31, 2011 (publication of A Dance With Dragons",
+          "credit": "Sgeureka / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:ASOIAF_2011_NYT_Bestseller_List.png"
+        },
+        {
+          "url": "https://live.staticflickr.com/110/252531717_bae4b74645_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Leather book cover",
+          "credit": "Dmitry Djouce / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/46721940@N00/252531717"
+        },
+        {
+          "url": "https://live.staticflickr.com/5087/5284639715_30284f49a8_b.jpg",
+          "width": 1024,
+          "height": 680,
+          "kind": "photo",
+          "alt": "Light indigo book cover with fake skin texture",
+          "credit": "Horia Varlan / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/10361931@N06/5284639715"
+        }
+      ],
+      "story": [
+        {
+          "title": "Hogyan legyünk sztoikusok? Hát ne így!",
+          "link": "https://qubit.hu/2026/10/02/hogyan-legyunk-sztoikusok-hat-ne-igy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "summary": "Ryan Holiday amerikai marketinges magyarul frissen megjelent besztszellere azt ígéri, hogy az igazságosság sztoikus erényén keresztül segít egy jobb és teljesebb élet elérésében. Hogy erre jó-e, az kérdés, de az biztos, hogy a sztoikusokhoz nincs sok köze a kötetnek, cserébe van benne baseballjátékos, több amerikai elnök és polgárjogi harcos is.",
+          "source": "qubit.hu",
+          "related": null,
+          "hot_score": 5.87
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://qubit.hu/2026/10/02/hogyan-legyunk-sztoikusok-hat-ne-igy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/tech/2026-10-02-hogyan-lett-egy-marketingesbol-sztoikus-guru/",
+      "seo": {
+        "meta_title": "Hogyan lett egy marketingesből sztoikus guru?",
+        "meta_description": "Megjelent magyarul Ryan Holiday amerikai marketinges sikerkönyve, amely az igazságosság sztoikus erényén keresztül ígér teljesebb életet. A kötet a New York Tim",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-02-hogyan-lett-egy-marketingesbol-sztoikus-guru/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/RyanHoliday.jpg/1280px-RyanHoliday.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "4260ba8897851bc9cf4de944c10c623e6ba53082f6fa185cec83036a575e6fa9",
+      "pipeline_run_id": "37002618952",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T13:46:58+02:00",
+      "updated_at": "2026-10-02T13:46:58+02:00",
+      "published_at": "2026-10-02T13:46:58+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 1,
+        "image": 0,
+        "sent_at": "2026-10-02T11:47:22+00:00",
+        "msg_ids": [
+          1404,
+          1405,
+          1406,
+          1407,
+          1408,
+          1409,
+          1410,
+          1411,
+          1412,
+          1413
+        ],
+        "control_id": 1414
+      }
+    },
+    {
+      "id": "a3bb8794-fae6-56bc-a1c5-c1ec147506db",
+      "slug": "2026-10-02-ingyen-moziszeanszot-indit-a-nasa",
+      "status": "pending",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "űrkutatás",
+        "dokumentumfilm",
+        "tudomány"
+      ],
+      "title": "Ingyen moziszeánszot indít a NASA",
+      "subtitle": null,
+      "lead": "Elérhetővé vált az űrkutató szervezet saját, ingyenesen nézhető dokumentumfilm-gyűjteménye regisztráció és előfizetés nélkül. Az online platformon olyan izgalmas témák szerepelnek, mint az úttörő kutatások vagy a kozmikus hajnal.",
+      "key_points": [
+        "Ingyenesen és előfizetés nélkül nézhetők a NASA+-on a dokumentumfilmek.",
+        "A felületen tematikus gyűjtemények érhetők el az űr felfedezéséről.",
+        "A nézők az exobolygók világába és a csillagászat rejtelmeibe nyerhetnek betekintést."
+      ],
+      "content": "Új, előfizetést nem igénylő streamingfelületet indított a NASA, amelyen keresztül bárki követheti a világűr kutatásának kulisszatitkait. Ez olyan, mintha a tudomány saját, házon belüli tévécsatornát kapna, ahol a popcornt csak nekünk kell bekészíteni a fotel mellé.\n\nA kínálatban szerepelnek a Naprendszer határait átlépő küldetések, a távoli csillaghalmazok születését bemutató filmek és az exobolygók világa is. A platform célja, hogy a tudományos ismeretterjesztés még közelebb kerüljön a nagyközönséghez.\n\nAz online videótár segítségével az érdeklődők otthonról nyerhetnek bepillantást abba a munkába, amelyet a szakemberek a jövő űrutazásainak előkészítéséért végeznek.",
+      "content_format": "markdown",
+      "body": [
+        "Új, előfizetést nem igénylő streamingfelületet indított a NASA, amelyen keresztül bárki követheti a világűr kutatásának kulisszatitkait. Ez olyan, mintha a tudomány saját, házon belüli tévécsatornát kapna, ahol a popcornt csak nekünk kell bekészíteni a fotel mellé.",
+        "A kínálatban szerepelnek a Naprendszer határait átlépő küldetések, a távoli csillaghalmazok születését bemutató filmek és az exobolygók világa is. A platform célja, hogy a tudományos ismeretterjesztés még közelebb kerüljön a nagyközönséghez.",
+        "Az online videótár segítségével az érdeklődők otthonról nyerhetnek bepillantást abba a munkába, amelyet a szakemberek a jövő űrutazásainak előkészítéséért végeznek."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 116,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1280px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 927,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "NASA Headquarters at 300 E Street SW in Washington D.C.\nDeutsch:  NASA Hauptsitz auf der 300 E Street SW in Washington D.C.\n中文：​位于美国华盛顿300 E Street SW的美国国家航空航天局(NASA)总部大楼\nБеларуская:  Штаб-кватэра NAS",
+        "credit": "NASA / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NASA_HQ_Building.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/solar-system/10-things-movie-night/",
+          "title": "10 Things: Movie Night",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-02T13:47:39+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.84,
+      "title_options": [
+        "Ingyen moziszeánszot indít a NASA",
+        "Mostantól bárki nézheti a NASA filmjeit",
+        "Elindult a űrügynökség ingyenes streamingje"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1280px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 927,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "NASA Headquarters at 300 E Street SW in Washington D.C.\nDeutsch:  NASA Hauptsitz auf der 300 E Street SW in Washington D.C.\n中文：​位于美国华盛顿300 E Street SW的美国国家航空航天局(NASA)总部大楼\nБеларуская:  Штаб-кватэра NAS",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_HQ_Building.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg/1280px-Katherine_Johnson_at_NASA%2C_in_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1513,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Katherine Johnson, NASA employée, mathematician and physicist, in 1966",
+          "credit": "Adam Cuerden / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_at_NASA,_in_1966.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Mars_Exploration_Rover_at_the_Evergreen_Aviation_%26_Space_Museum_1540_%286586616235%29.jpg/1280px-Mars_Exploration_Rover_at_the_Evergreen_Aviation_%26_Space_Museum_1540_%286586616235%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "IMG_1540",
+          "credit": "Clemens Vasters from Viersen, Germany / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mars_Exploration_Rover_at_the_Evergreen_Aviation_%26_Space_Museum_1540_(6586616235).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Vitino%2C_Deep_space_exploration_radio_telescope%2C_Crimea.jpg/1280px-Vitino%2C_Deep_space_exploration_radio_telescope%2C_Crimea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Saturn-MS. Deep space exploration ground control radar and radio telescope. Evpatoria Center for Deep Space Communications and Exploration. Vitino, Crimea.",
+          "credit": "Vyacheslav Argenberg / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Vitino,_Deep_space_exploration_radio_telescope,_Crimea.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/1280px-Bruce_McCandless_II_during_EVA_in_1984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1200,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Mission: STS-41-B\nFilm Type: 70 mm\nTitle: Views of the extravehicular activity during STS 41-B\nDescription: Astronaut Bruce McCandless II, mission specialist, participates in a extra-vehicular activi",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/ISS-32_American_EVA_b3_Aki_Hoshide.jpg/1280px-ISS-32_American_EVA_b3_Aki_Hoshide.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 797,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Japan Aerospace Exploration Agency astronaut Akihiko Hoshide, Expedition 32 flight engineer, uses a digital still camera to make a photo of his helmet visor during the mission's third session of extra",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:ISS-32_American_EVA_b3_Aki_Hoshide.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Antares Rocket Launch",
+          "credit": "NASA Goddard Photo and Video / nasa",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/24662369@N07/8674655959"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1200,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "The April 12 launch at Pad 39A of STS-1, just seconds past 7 a.m., carries astronauts John Young and Robert Crippen into an Earth orbital mission scheduled to last for 54 hours, ending with unpowered",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_launching.jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "10 Things: Movie Night",
+          "link": "https://science.nasa.gov/solar-system/10-things-movie-night/",
+          "summary": "Join Us for Movie Night with NASA NASA’s mission is to pioneer the future in space exploration and scientific discovery. NASA+ documentaries allow you to come along for the ride. It’s free. It’s on demand. And no subscription is required. Grab some popcorn and come along for the journey. Other Worlds: Europa Cosmic Dawn Planetary […]",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": 5.84
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://science.nasa.gov/solar-system/10-things-movie-night/"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/univerzum/2026-10-02-ingyen-moziszeanszot-indit-a-nasa/",
+      "seo": {
+        "meta_title": "Ingyen moziszeánszot indít a NASA",
+        "meta_description": "Elérhetővé vált az űrkutató szervezet saját, ingyenesen nézhető dokumentumfilm-gyűjteménye regisztráció és előfizetés nélkül. Az online platformon olyan izgalma",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-02-ingyen-moziszeanszot-indit-a-nasa/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1280px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "8e9b7009f190c530303eaed366fa86efb42680524243baf615f884d44d7e95df",
+      "pipeline_run_id": "37002618952",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T13:47:39+02:00",
+      "updated_at": "2026-10-02T13:47:39+02:00",
+      "published_at": "2026-10-02T13:47:39+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-02T11:48:04+00:00",
+        "msg_ids": [
+          1415,
+          1416,
+          1417,
+          1418,
+          1419,
+          1420,
+          1421,
+          1422,
+          1423,
+          1424
+        ],
+        "control_id": 1425
+      }
     }
   ]
 }
