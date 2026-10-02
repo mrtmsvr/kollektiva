@@ -1,7 +1,112 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T20:10:57+02:00",
+  "updated_at": "2026-10-02T20:12:15+02:00",
   "articles": [
+    {
+      "id": "6edea31b-7664-5c63-bc16-b1e9f049c642",
+      "slug": "2026-10-02-tizmilliard-dollart-bukott-ukrajna-az-egyik-legfontosabb-utvonalon",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "Ukrajna",
+        "agrárexport",
+        "gazdaság",
+        "Európai Unió",
+        "mezőgazdaság"
+      ],
+      "title": "Tízmilliárd dollárt bukott Ukrajna az egyik legfontosabb útvonalon",
+      "subtitle": null,
+      "lead": "A fekete-tengeri kikötők orosz blokádja miatt az ukrán agrárexport a korábbi mennyiség felére esett vissza, ami mintegy 10 milliárd dolláros kiesést okoz a jelenlegi gazdasági évben. A nehézségek komoly kihívást jelentenek az ország gazdaságának, miközben az EU milliárdos támogatásokkal próbálja fenntartani a működést.",
+      "key_points": [
+        "A jelenlegi gazdasági évben körülbelül 30 millió tonna mezőgazdasági termék ragadt bent az országban.",
+        "Szeptemberben a tervezett kivitel mindössze 46 százalékát sikerült teljesíteni.",
+        "Az Európai Bizottság pénteken 2,9 milliárd eurós támogatást folyósított Ukrajnának a költségvetés stabilizálására.",
+        "A szárazföldi útvonalak, a vasút és a Dunán zajló szállítás maximális kapacitása sem pótolja a tengeri kikötőket."
+      ],
+      "content": "Az Interfax-Ukrajina hírügynökség beszámolója szerint a korábbi időszak felét sem éri el az ukrán agrárexport a fekete-tengeri kikötők orosz blokádja miatt. Tarasz Viszockij agrárminiszter pénteki tájékoztatásából kiderült, hogy a mélyebb vizű fekete-tengeri kikötők hiánya miatt a termelők csupán a szántföldeken megtermelt javak kevesebb mint felét képesek eljuttatni a külpiacokra. A kiesés volumene hatalmas: mintegy 30 millió tonna mezőgazdasági termék rekedt bent az országban, aminek becsült értéke eléri a 10 milliárd dollárt.\n\nA statisztikák szerint szeptemberben összesen 2,4 millió tonna árut sikerült hajóra, vonatra vagy teherautóra rakodni, ami a tervezett kivitel 46 százaléka. Ezen belül a gabonafélékből 1,4 millió tonna – a tervezett mennyiség 38 százaléka –, az olajos magvakból 444 ezer tonna, azaz 83 százalék hagyta el az országot. Az étolaj kivitele 311 ezer tonnát (64 százalék), míg az olajpogácsa 280 ezer tonnát (46 százalék) tett ki. A szállítási arányok szeptember 20. óta gyakorlatilag stagnálnak, ami igazolja a korábbi előrejelzéseket, miszerint a jelenlegi alternatív útvonalakkal a 45-50 százalékos arány jelenti az objektív maximumot.\n\nA logisztikai nehézségek áthidalására a szárazföldi és folyami folyosókat használják a kereskedők. Szeptemberben a vasúti kivitel 993 ezer tonnát (41 százalék) ért el, a Dunán 1,3 millió tonnát (54 százalék) szállítottak, míg közúton mindössze 120 ezer tonna, vagyis a kivitel 5 százaléka ment át. Bár az augusztusi adatokhoz képest a vasúti és a dunai volument sikerült növelni, a tengeri kapuk részleges hiánya tartósan korlátozza a gazdasági teljesítményt.\n\nEgy másik fejlemény kapcsán az Európai Bizottság pénteken 2,9 milliárd eurót folyósított Ukrajnának, hogy segítsen fedezni a finanszírozási szükségleteket és fenntartsa a közigazgatás működését. Ursula von der Leyen, az Európai Bizottság elnöke a támogatás alkalmából kiemelte, hogy a pénzösszeg – amelyből 800 millió euró az Ukrajna-eszköz keretében érkezik – hozzájárul a pénzügyi stabilitáshoz és az újjáépítést megalapozó beruházásokhoz. A kifizetés feltétele volt, hogy az ország több stratégiai ágazatban – így a mezőgazdaságban, az igazságszolgáltatásban és az energiapiacon – sikeresen végrehajtsa a brüsszeli elvárásokhoz kötött reformokat.",
+      "content_format": "markdown",
+      "body": [
+        "Az Interfax-Ukrajina hírügynökség beszámolója szerint a korábbi időszak felét sem éri el az ukrán agrárexport a fekete-tengeri kikötők orosz blokádja miatt. Tarasz Viszockij agrárminiszter pénteki tájékoztatásából kiderült, hogy a mélyebb vizű fekete-tengeri kikötők hiánya miatt a termelők csupán a szántföldeken megtermelt javak kevesebb mint felét képesek eljuttatni a külpiacokra. A kiesés volumene hatalmas: mintegy 30 millió tonna mezőgazdasági termék rekedt bent az országban, aminek becsült értéke eléri a 10 milliárd dollárt.",
+        "A statisztikák szerint szeptemberben összesen 2,4 millió tonna árut sikerült hajóra, vonatra vagy teherautóra rakodni, ami a tervezett kivitel 46 százaléka. Ezen belül a gabonafélékből 1,4 millió tonna – a tervezett mennyiség 38 százaléka –, az olajos magvakból 444 ezer tonna, azaz 83 százalék hagyta el az országot. Az étolaj kivitele 311 ezer tonnát (64 százalék), míg az olajpogácsa 280 ezer tonnát (46 százalék) tett ki. A szállítási arányok szeptember 20. óta gyakorlatilag stagnálnak, ami igazolja a korábbi előrejelzéseket, miszerint a jelenlegi alternatív útvonalakkal a 45-50 százalékos arány jelenti az objektív maximumot.",
+        "A logisztikai nehézségek áthidalására a szárazföldi és folyami folyosókat használják a kereskedők. Szeptemberben a vasúti kivitel 993 ezer tonnát (41 százalék) ért el, a Dunán 1,3 millió tonnát (54 százalék) szállítottak, míg közúton mindössze 120 ezer tonna, vagyis a kivitel 5 százaléka ment át. Bár az augusztusi adatokhoz képest a vasúti és a dunai volument sikerült növelni, a tengeri kapuk részleges hiánya tartósan korlátozza a gazdasági teljesítményt.",
+        "Egy másik fejlemény kapcsán az Európai Bizottság pénteken 2,9 milliárd eurót folyósított Ukrajnának, hogy segítsen fedezni a finanszírozási szükségleteket és fenntartsa a közigazgatás működését. Ursula von der Leyen, az Európai Bizottság elnöke a támogatás alkalmából kiemelte, hogy a pénzösszeg – amelyből 800 millió euró az Ukrajna-eszköz keretében érkezik – hozzájárul a pénzügyi stabilitáshoz és az újjáépítést megalapozó beruházásokhoz. A kifizetés feltétele volt, hogy az ország több stratégiai ágazatban – így a mezőgazdaságban, az igazságszolgáltatásban és az energiapiacon – sikeresen végrehajtsa a brüsszeli elvárásokhoz kötött reformokat."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 362,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Black_Sea_port_at_Batumi%2C_Georgia.jpg/1280px-Black_Sea_port_at_Batumi%2C_Georgia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Black Sea port at Batumi, Georgia",
+        "credit": "Andrew Milligan sumo / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Black_Sea_port_at_Batumi,_Georgia.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/global/20261002/bekovetkezett-amitol-tartottak-10-milliard-dollartol-esett-el-ukrajna-az-orosz-blokad-miatt-867046",
+          "title": "Bekövetkezett, amitől tartottak: 10 milliárd dollártól esett el Ukrajna az orosz blokád miatt",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T19:41:29+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/nemzetkozi-gazdasag/2026/10/ukrajna-eu-segely-reformok?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Ursula von der Leyen szerint jól haladnak az ukrán reformok - át is utaltak ma nekik 2,9 milliárd eurót",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T19:41:29+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-02T20:12:15+02:00"
+      },
+      "hot_score": 6.67,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/global/20261002/bekovetkezett-amitol-tartottak-10-milliard-dollartol-esett-el-ukrajna-az-orosz-blokad-miatt-867046"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/penzvilag/2026-10-02-tizmilliard-dollart-bukott-ukrajna-az-egyik-legfontosabb-utvonalon/",
+      "seo": {
+        "meta_title": "Tízmilliárd dollárt bukott Ukrajna az egyik legfontosabb útv",
+        "meta_description": "A fekete-tengeri kikötők orosz blokádja miatt az ukrán agrárexport a korábbi mennyiség felére esett vissza, ami mintegy 10 milliárd dolláros kiesést okoz a jele",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-02-tizmilliard-dollart-bukott-ukrajna-az-egyik-legfontosabb-utvonalon/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Black_Sea_port_at_Batumi%2C_Georgia.jpg/1280px-Black_Sea_port_at_Batumi%2C_Georgia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "dd6378219feb13092f2c143f14b1ad79f167a7e70e6d49e23957171e33da9a8c",
+      "pipeline_run_id": "37042147706",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T20:12:15+02:00",
+      "updated_at": "2026-10-02T20:12:15+02:00",
+      "published_at": "2026-10-02T20:12:15+02:00",
+      "expires_at": null
+    },
     {
       "id": "f6d90b87-83d8-59ea-8f4a-78410203cfed",
       "slug": "2026-10-02-igy-utkoznek-a-fiatal-bolygok",
