@@ -15745,7 +15745,7 @@
       "expires_at": null,
       "review": {
         "title": 1,
-        "image": 0,
+        "image": 1,
         "sent_at": "2026-10-02T19:46:22+00:00",
         "msg_ids": [
           1737,
