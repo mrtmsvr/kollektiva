@@ -14053,7 +14053,7 @@
       "published_at": "2026-10-02T15:43:15+02:00",
       "expires_at": null,
       "review": {
-        "title": 0,
+        "title": 1,
         "image": 0,
         "sent_at": "2026-10-02T13:43:42+00:00",
         "msg_ids": [
