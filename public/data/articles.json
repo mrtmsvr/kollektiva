@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T20:52:42+02:00",
+  "updated_at": "2026-10-02T20:53:59+02:00",
   "articles": [
     {
       "id": "48952a86-33aa-56a5-9dc7-1768152de0e1",
@@ -124,14 +124,14 @@
       "word_count": 190,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://live.staticflickr.com/2814/9841767075_357d73c5c3_b.jpg",
+        "url": "https://live.staticflickr.com/3392/3256155178_cca1df0ae1_b.jpg",
         "width": 1024,
         "height": 768,
         "kind": "photo",
-        "alt": "Chartist courtroom 1",
-        "credit": "siaronj / flickr",
+        "alt": "Prison Bars",
+        "credit": "wwarby / flickr",
         "license": "CC BY 2.0",
-        "source_url": "https://www.flickr.com/photos/59489479@N08/9841767075"
+        "source_url": "https://www.flickr.com/photos/26782864@N00/3256155178"
       },
       "inline_images": [],
       "sources": [
@@ -164,7 +164,7 @@
         "meta_title": "Börtönben a NER egykori miniszterei – jöhet a vádalku?",
         "meta_description": "Akár vádalkut is köthetnek a hatóságokkal a korrupciós bűncselekménnyel gyanúsított, letartóztatásban lévő volt kormányzati tisztségviselők. Újabb részletek lát",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-02-vadalkut-kothetnek-a-letartoztatott-exminiszterek/",
-        "og_image": "https://live.staticflickr.com/2814/9841767075_357d73c5c3_b.jpg",
+        "og_image": "https://live.staticflickr.com/3392/3256155178_cca1df0ae1_b.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -202,7 +202,7 @@
       "pipeline_run_id": "37042147706",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-02T20:14:24+02:00",
-      "updated_at": "2026-10-02T20:52:42+02:00",
+      "updated_at": "2026-10-02T20:53:59+02:00",
       "published_at": "2026-10-02T20:14:24+02:00",
       "expires_at": null
     },
