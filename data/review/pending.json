@@ -9175,6 +9175,878 @@
         "control_id": 989
       },
       "live": true
+    },
+    {
+      "id": "26d5ba58-79ef-57b7-bbf6-c06de344f292",
+      "slug": "2026-10-02-csaladi-agon-erkezik-az-uj-megasztar-versenyzo",
+      "status": "pending",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Megasztár",
+        "TV2",
+        "Patai Anna",
+        "zene",
+        "bulvár"
+      ],
+      "title": "Családi ágon érkezik az új Megasztár-versenyző",
+      "subtitle": null,
+      "lead": "Tizenhat év telt el azóta, hogy Patai Annát megismerte az ország a Megasztárban, most pedig a nővére is szerencsét próbál a tehetségkutatóban. A Blikk beszámolója szerint a családi támogatás ezúttal sem marad el, hiszen a sógora kísérte el a válogatóra.",
+      "key_points": [
+        "Patai Anna nővére, a 32 éves Budainé Patai Katalin szerepel a Megasztár 9. évadában.",
+        "A versenyzőt a sógora, Budai Izmán bátorította a jelentkezésre.",
+        "Patai Anna 2010-ben, 11 évesen az 5. helyezést érte el a műsor 5. szériájában."
+      ],
+      "content": "## Meglepetés a tehetségkutatóban\n\nA 32 éves Budainé Patai Katalin szempillastylistként dolgozik a mindennapokban, de régóta vonzza az éneklés világa, bár eddig nem épített zenei karriert. A TV2 képernyőjén látható műsorba a 30 éves üzletvezető-helyettes sógora, Budai Izmán kísérte el Békésből, aki maga is zenél.\n\n– Előszeretettel buzdítom a környezetemben élőket arra, hogy eljöjjenek egy ilyen tehetségkutatóba. Őt is folyamatosan noszogattam, hogy „figyelj, tehetséges vagy, ezt nem kéne hagyni kárba veszni, igenis próbáld meg”. Aztán a fülénél fogva beültettem a kocsiba, így csöppentem mindebbe bele én is – mesélte Katalin a produkció műsorvezetőinek, Ördög Nórinak és Lékai-Kiss Ramónának.\n\n## A zenei múlt és a folytatás\n\nKatalin húga, Patai Anna 2010-ben, mindössze 11 évesen tűnt fel a Megasztár ötödik évadában, ahol ötödik helyezést ért el, valamint a legjobb női énekesként egy zenei ösztöndíjat is átvehetett. A tehetségkutató után több saját dala megjelent, 2016-ban szerepelt A Dal című műsorban, emellett olyan színházi produkciókban és musicalekben is játszott, mint a Mary Poppins, a Macskafogó, a Bőröndmesék vagy a Jégvarázs.\n\n– Én nem szoktam énekelni, én a konyhából jövök – nyilatkozta mosolyogva az idősebbik Patai lány, aki most konkrét céllal érkezett a TV2 stúdiójába. – Visszajelzést szeretnék kapni azzal kapcsolatban, van-e itt helyem, illetve ezen a pályán van-e keresnivalóm! – tette hozzá.",
+      "content_format": "markdown",
+      "body": [
+        "## Meglepetés a tehetségkutatóban",
+        "A 32 éves Budainé Patai Katalin szempillastylistként dolgozik a mindennapokban, de régóta vonzza az éneklés világa, bár eddig nem épített zenei karriert. A TV2 képernyőjén látható műsorba a 30 éves üzletvezető-helyettes sógora, Budai Izmán kísérte el Békésből, aki maga is zenél.",
+        "– Előszeretettel buzdítom a környezetemben élőket arra, hogy eljöjjenek egy ilyen tehetségkutatóba. Őt is folyamatosan noszogattam, hogy „figyelj, tehetséges vagy, ezt nem kéne hagyni kárba veszni, igenis próbáld meg”. Aztán a fülénél fogva beültettem a kocsiba, így csöppentem mindebbe bele én is – mesélte Katalin a produkció műsorvezetőinek, Ördög Nórinak és Lékai-Kiss Ramónának.",
+        "## A zenei múlt és a folytatás",
+        "Katalin húga, Patai Anna 2010-ben, mindössze 11 évesen tűnt fel a Megasztár ötödik évadában, ahol ötödik helyezést ért el, valamint a legjobb női énekesként egy zenei ösztöndíjat is átvehetett. A tehetségkutató után több saját dala megjelent, 2016-ban szerepelt A Dal című műsorban, emellett olyan színházi produkciókban és musicalekben is játszott, mint a Mary Poppins, a Macskafogó, a Bőröndmesék vagy a Jégvarázs.",
+        "– Én nem szoktam énekelni, én a konyhából jövök – nyilatkozta mosolyogva az idősebbik Patai lány, aki most konkrét céllal érkezett a TV2 stúdiójába. – Visszajelzést szeretnék kapni azzal kapcsolatban, van-e itt helyem, illetve ezen a pályán van-e keresnivalóm! – tette hozzá."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 246,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Megalog%C3%B3HU.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1025,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Megasztár logó",
+        "credit": "Megasztárfan / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Megalog%C3%B3HU.png"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/patai-anna-testver-megasztar-valogato/srwx148",
+          "title": "Váratlan fordulat a Megasztárban: Patai Anna után 16 évvel a nővére is megméretteti magát a tehetségkutatóban",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T06:03:56+02:00"
+        },
+        {
+          "url": "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/gaspar-laci-es-felesege-visszaultek-iskolapadba",
+          "title": "Gáspár Laci és felesége visszaültek az iskolapadba",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T06:03:56+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.61,
+      "title_options": [
+        "Családi ágon érkezik az új Megasztár-versenyző",
+        "Ismerős arc tér vissza a Megasztár színpadára",
+        "A sógoráért indult el a TV2 sikerműsorába"
+      ],
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Megalog%C3%B3HU.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1025,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Megasztár logó",
+          "credit": "Megasztárfan / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Megalog%C3%B3HU.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg/1280px-Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 751,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Tesvisio 1957-1965, the first television channel in Finland. Music show for juvenile audience under way. Presenter Antti Einiö on the left, music producer and composer Jaakko Salo in the middle. Finni",
+          "credit": "Yle Archives -  Yle Elävä arkisto from Yleisradio, Finland / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_(29388489672).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829462950066%29.jpg/1280px-Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829462950066%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 906,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Tesvisio, 1957-1965, the first television channel in Finland. Music show for juvenile audience under way. Finnish Broadcasting Company bought Tamvisio in 1964 and Tesvisio in 1965 and together the cha",
+          "credit": "Yle Archives - Yle Elävä arkisto from Yleisradio, Finland / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_(29462950066).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Bird_singing_competition_-_Paramaribo_%2823102523433%29.jpg/1280px-Bird_singing_competition_-_Paramaribo_%2823102523433%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Bird singing competition - Paramaribo",
+          "credit": "Dan Sloan / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bird_singing_competition_-_Paramaribo_(23102523433).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Bird_singing_competition_-_Paramaribo_%2823703596556%29.jpg/1280px-Bird_singing_competition_-_Paramaribo_%2823703596556%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Bird singing competition - Paramaribo",
+          "credit": "Dan Sloan / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bird_singing_competition_-_Paramaribo_(23703596556).jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/2172/2053816509_d19673f307_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Arcade (Pantages) Theatre stage",
+          "credit": "laasB / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/97807252@N00/2053816509"
+        },
+        {
+          "url": "https://live.staticflickr.com/4176/34540653542_7de72d04c4_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Israel-05684 - Theatre Stage",
+          "credit": "archer10 (Dennis) / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/22490717@N02/34540653542"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Main_stage_in_Nowy_Theatre_in_Zabrze%2C_June_2021.jpg/1280px-Main_stage_in_Nowy_Theatre_in_Zabrze%2C_June_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Main stage in Nowy Theatre in Zabrze, June 2021",
+          "credit": "MichalPL / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Main_stage_in_Nowy_Theatre_in_Zabrze,_June_2021.jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "Váratlan fordulat a Megasztárban: Patai Anna után 16 évvel a nővére is megméretteti magát a tehetségkutatóban",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/patai-anna-testver-megasztar-valogato/srwx148",
+          "summary": "Patai Annát egy ország ismerte és szerette meg a Megasztár 5. évadából. Most, a tehetségkutató 9. évadában Anna nővére is szerencsét próbál, hátha sikerül a húga nyomdokaiba lépnie. Erősítésként magával hozza a sógorát is, aki „szintén zenész”.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 6.61
+        },
+        {
+          "title": "Gáspár Laci és felesége visszaültek az iskolapadba",
+          "link": "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/gaspar-laci-es-felesege-visszaultek-iskolapadba",
+          "summary": "A zenész és párja most továbbképzi magát.",
+          "source": "borsonline.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/patai-anna-testver-megasztar-valogato/srwx148"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/bulvar/2026-10-02-csaladi-agon-erkezik-az-uj-megasztar-versenyzo/",
+      "seo": {
+        "meta_title": "Családi ágon érkezik az új Megasztár-versenyző",
+        "meta_description": "Tizenhat év telt el azóta, hogy Patai Annát megismerte az ország a Megasztárban, most pedig a nővére is szerencsét próbál a tehetségkutatóban. A Blikk beszámoló",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-02-csaladi-agon-erkezik-az-uj-megasztar-versenyzo/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Megalog%C3%B3HU.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "a35bfe21efba710d7f5e5ced4e9451db96e9316a287acedb65f293070b4c9f15",
+      "pipeline_run_id": "36962872003",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T06:03:56+02:00",
+      "updated_at": "2026-10-02T06:03:56+02:00",
+      "published_at": "2026-10-02T06:03:56+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-02T04:06:02+00:00",
+        "msg_ids": [
+          1003,
+          1004,
+          1005,
+          1006,
+          1007,
+          1008,
+          1009,
+          1010,
+          1011,
+          1012
+        ],
+        "control_id": 1013
+      }
+    },
+    {
+      "id": "0b0e5816-77aa-56fe-809f-7f33a825be0c",
+      "slug": "2026-10-02-120-ezer-forintra-emelik-a-minimalnyugdijat",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "nyugdíjemelés",
+        "költségvetés",
+        "szociális ellátások",
+        "inflációkövetés",
+        "gazdaság"
+      ],
+      "title": "120 ezer forintra emelik a minimálnyugdíjat",
+      "subtitle": null,
+      "lead": "Több mint 700 ezer embert érintő, a jövő évi költségvetésből 123 milliárd forintot igénylő nyugdíj- és ellátásemelési programot jelentett be Kármán András. A csomag részeként 2027. január 1-jétől jelentősen emelkedik a régóta változatlan öregségi nyugdíjminimum.",
+      "key_points": [
+        "A 2008 óta változatlan, 28 500 forintos öregségi nyugdíjminimum 120 ezer forintra nő 2027-től.",
+        "Az intézkedéscsomag több mint 700 ezer ember helyzetén javít a jövő évi költségvetés terhére.",
+        "A sávos emelések és az új árvaellátási szabályok a legkiszolgáltatottabb csoportokat segítik.",
+        "A jogszabály garantálja az inflációkövetést, megakadályozva a jövőbeli elértéktelenedést."
+      ],
+      "content": "Jelentős változások jönnek a magyar szociális ellátórendszerben, miután részleteket hoztak nyilvánosságra egy több mint 700 ezer embert érintő nyugdíj- és ellátásemelési programról. A jövő évi költségvetésből 123 milliárd forintot igénylő intézkedéscsomag legfontosabb eleme, hogy a 2008 óta változatlan, 28 500 forintos öregségi nyugdíjminimumot 2027. január 1-jétől 120 ezer forintra emelik.\n\nA minimálnyugdíj jelentős emelése mellett a sávos növelések és a kapcsolódó járadékok is a legkiszolgáltatottabb csoportok helyzetét hivatottak javítani. Az új szabályozás ráadásul biztosítja az inflációkövetést is, ami megakadályozza, hogy az eddigiekhez hasonló elértéktelenedés forduljon elő a jövőben. A csomag részeként újdonságként módosítják az árvaellátás összegét, valamint az időskorúak ellátását is.\n\nKözben a gazdaság és a politika más területein is fontos átrendeződések zajlanak: a Honvédelmi Minisztérium a szolnoki különleges erők laktanyájának felújítása során végrehajtott racionalizálással 2,5 milliárd forintot takarított meg azzal, hogy egy korábbi nagyvállalati tender helyett helyi kis- és középvállalkozásokat vont be a kivitelezésbe.",
+      "content_format": "markdown",
+      "body": [
+        "Jelentős változások jönnek a magyar szociális ellátórendszerben, miután részleteket hoztak nyilvánosságra egy több mint 700 ezer embert érintő nyugdíj- és ellátásemelési programról. A jövő évi költségvetésből 123 milliárd forintot igénylő intézkedéscsomag legfontosabb eleme, hogy a 2008 óta változatlan, 28 500 forintos öregségi nyugdíjminimumot 2027. január 1-jétől 120 ezer forintra emelik.",
+        "A minimálnyugdíj jelentős emelése mellett a sávos növelések és a kapcsolódó járadékok is a legkiszolgáltatottabb csoportok helyzetét hivatottak javítani. Az új szabályozás ráadásul biztosítja az inflációkövetést is, ami megakadályozza, hogy az eddigiekhez hasonló elértéktelenedés forduljon elő a jövőben. A csomag részeként újdonságként módosítják az árvaellátás összegét, valamint az időskorúak ellátását is.",
+        "Közben a gazdaság és a politika más területein is fontos átrendeződések zajlanak: a Honvédelmi Minisztérium a szolnoki különleges erők laktanyájának felújítása során végrehajtott racionalizálással 2,5 milliárd forintot takarított meg azzal, hogy egy korábbi nagyvállalati tender helyett helyi kis- és középvállalkozásokat vont be a kivitelezésbe."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 183,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1024,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Ministry of Finance (Hungary)",
+        "credit": "Elekes Andor / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary).jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261001/tisza-kormany-ujra-egy-asztalhoz-ult-magyar-peter-es-karacsony-gergely-hanko-balazst-letartoztattak-kosa-lajost-beideztek-866504",
+          "title": "Tisza-kormány: újra egy asztalhoz ült Magyar Péter és Karácsony Gergely - Hankó Balázst letartóztatták, Kósa Lajost beidézték",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T06:06:52+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "120 ezer forintra emelik a minimálnyugdíjat",
+        "Jelentős nyugdíjemelést jelentett be a kormány",
+        "Így változnak a szociális juttatások 2027-től"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1024,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Ministry of Finance (Hungary)",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Ministry_of_Finance_%28Hungary%29_%289%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Ministry of Finance (Hungary)",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary)_(9).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "View from Buda Castle towards the Northern west Budapest",
+          "credit": "Jakub Hałun / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:20190502_View_from_Buda_Castle_1059_2025_DxO.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "View from Buda Castle towards the Northern west Budapest as of May 2014.",
+          "credit": "Perituss / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:View_from_Buda_Castle_2014_01.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/5132/5474825330_4470fa5928_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Calculator and Money",
+          "credit": "Images_of_Money / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/59937401@N07/5474825330"
+        },
+        {
+          "url": "https://live.staticflickr.com/5016/5474761220_345e33882e_b.jpg",
+          "width": 1024,
+          "height": 819,
+          "kind": "photo",
+          "alt": "Money and Calculator",
+          "credit": "Images_of_Money / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/59937401@N07/5474761220"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/World%27s_First_Computer%2C_the_Electronic_Numerical_Integrator_and_Calculator_%28ENIAC%29.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 852,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "National Archives Identifier: 594262\nLocal Identifier: 306-PSE-79-120\nRecord Group 306: Records of the U.S. Information Agency, 1900 - 2003\nSeries: Master File Photographs of U.S. and Foreign Personal",
+          "credit": "International Communications Agency. Press and Publications Service. Publication / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:World%27s_First_Computer,_the_Electronic_Numerical_Integrator_and_Calculator_(ENIAC).gif"
+        }
+      ],
+      "story": [
+        {
+          "title": "Tisza-kormány: újra egy asztalhoz ült Magyar Péter és Karácsony Gergely - Hankó Balázst letartóztatták, Kósa Lajost beidézték",
+          "link": "https://www.portfolio.hu/gazdasag/20261001/tisza-kormany-ujra-egy-asztalhoz-ult-magyar-peter-es-karacsony-gergely-hanko-balazst-letartoztattak-kosa-lajost-beideztek-866504",
+          "summary": "Fontos megállapodások születtek Magyar Péter a kormány és Budapest vezetésének mai egyeztetésén, amelyet külön hírfolyamban is követünk a Portfolio-n. A hosszú szünet után újrainduló Fővárosi Közfejlesztések Tanácsa kibővített jogkörökkel próbál keretet adni az együttműködésnek, de csütörtökön több korábban bejelentett szervezeti változás is hatályba lép. Közben Hankó Balázs volt kulturális minisztert előzetesen egy hónapra fogságra ítélték, Bánki Eriket és Kósa Lajost pedig a Parlament vizsgálóbizottsága idézte be. Jelentős, több mint 700 ezer embert érintő nyugdíj- és ellátásemelési programo",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261001/tisza-kormany-ujra-egy-asztalhoz-ult-magyar-peter-es-karacsony-gergely-hanko-balazst-letartoztattak-kosa-lajost-beideztek-866504"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/penzvilag/2026-10-02-120-ezer-forintra-emelik-a-minimalnyugdijat/",
+      "seo": {
+        "meta_title": "120 ezer forintra emelik a minimálnyugdíjat",
+        "meta_description": "Több mint 700 ezer embert érintő, a jövő évi költségvetésből 123 milliárd forintot igénylő nyugdíj- és ellátásemelési programot jelentett be Kármán András. A cs",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-02-120-ezer-forintra-emelik-a-minimalnyugdijat/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "49a1742d-6794-5749-87f0-3131bc9920fb",
+        "b280525b-357b-5d8f-a16f-06f381b33c93",
+        "94c60679-ed80-5134-905b-10b867edbc52"
+      ],
+      "see_also": [
+        {
+          "title": "Megállapodás született: pénzt kap a főváros",
+          "url": "/penzvilag/2026-10-01-megallapodas-szuletett-penzt-kap-a-fovaros/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Végre megmentik a budapesti Planetáriumot?",
+          "url": "/kozelet/2026-10-01-vegre-megmentik-a-budapesti-planetariumot/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Így telt Orbán Viktor londoni útja a letartóztatások árnyékában",
+          "url": "/kozelet/2026-09-30-igy-telt-orban-viktor-londoni-utja-a-letartoztatasok-arnyekaban/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": "49a1742d-6794-5749-87f0-3131bc9920fb",
+      "dedupe_hash": "23f043c1632f39abaca32651c0297f4d25426f3b7b6b38f2120f3ac8ebd5e342",
+      "pipeline_run_id": "36962872003",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T06:06:52+02:00",
+      "updated_at": "2026-10-02T06:06:52+02:00",
+      "published_at": "2026-10-02T06:06:52+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-02T04:07:18+00:00",
+        "msg_ids": [
+          1014,
+          1015,
+          1016,
+          1017,
+          1018,
+          1019,
+          1020,
+          1021,
+          1022
+        ],
+        "control_id": 1023
+      }
+    },
+    {
+      "id": "46e17fc6-8aae-5ec2-9695-695a7e933497",
+      "slug": "2026-10-02-igy-kolt-el-1-4-milliard-dollart-a-nasa",
+      "status": "pending",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "űrkutatás",
+        "logisztika",
+        "pénzügyek"
+      ],
+      "title": "Így költ el 1,4 milliárd dollárt a NASA",
+      "subtitle": null,
+      "lead": "Tizenhat céggel kötött új, átfogó logisztikai megállapodást a NASA, hogy hatékonyabban kezelje erőforrásait és eszközeit. Az 1,4 milliárd dolláros keretösszegű program egységesíti a beszerzéseket és a szállítási műveleteket.",
+      "key_points": [
+        "A NASA 16 céggel szerződött le az Enterprise Logistics Support Services keretén belül.",
+        "A program teljes keretösszege 1,4 milliárd dollárra rúg.",
+        "Az új megállapodások célja a költségek és az erőforrások hatékonyabb menedzselése."
+      ],
+      "content": "Új alapokra helyezi háttérműveleteit az amerikai űrügynökség, miután tizenhat különböző vállalkozással írt alá átfogó beszerzési megállapodásokat. Ez a pénzügyi és szervezeti hálózat olyan, mint amikor egy hatalmas multinacionális vállalat egyetlen kézbe vonja az összes gyárának logisztikáját, szállítmányozását és alkatrész-ellátását ahelyett, hogy minden telephely külön-külön szerződne.\n\nAz Enterprise Logistics Support Services névre hallgató keretrendszer pontosan a belső működés racionalizálását célozza. A nasa.gov által közzétett adatok alapján a program átfogja a berendezések és ingatlanok kezelését, a terméktámogatást, a repülési hardverek fenntartását, valamint az exportkontrollt és a költözési műveleteket is.\n\nAz 1,4 milliárd dolláros keretösszegű megállapodások legfőbb feladata, hogy egységesítsék a követelményeket és javítsák a jelentéstételi rendszereket. A jövőben ezeknek a háttérfolyamatoknak köszönhetően pontosabban és átláthatóbban követhetők majd az űrmissziókhoz kapcsolódó költségek, valamint az eszközök karbantartási feladatai.",
+      "content_format": "markdown",
+      "body": [
+        "Új alapokra helyezi háttérműveleteit az amerikai űrügynökség, miután tizenhat különböző vállalkozással írt alá átfogó beszerzési megállapodásokat. Ez a pénzügyi és szervezeti hálózat olyan, mint amikor egy hatalmas multinacionális vállalat egyetlen kézbe vonja az összes gyárának logisztikáját, szállítmányozását és alkatrész-ellátását ahelyett, hogy minden telephely külön-külön szerződne.",
+        "Az Enterprise Logistics Support Services névre hallgató keretrendszer pontosan a belső működés racionalizálását célozza. A nasa.gov által közzétett adatok alapján a program átfogja a berendezések és ingatlanok kezelését, a terméktámogatást, a repülési hardverek fenntartását, valamint az exportkontrollt és a költözési műveleteket is.",
+        "Az 1,4 milliárd dolláros keretösszegű megállapodások legfőbb feladata, hogy egységesítsék a követelményeket és javítsák a jelentéstételi rendszereket. A jövőben ezeknek a háttérfolyamatoknak köszönhetően pontosabban és átláthatóbban követhetők majd az űrmissziókhoz kapcsolódó költségek, valamint az eszközök karbantartási feladatai."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 157,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/NASA_Headquarters.jpg/1280px-NASA_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Mary W. Jackson NASA Headquarters in 2026",
+        "credit": "DCAllStar / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NASA_Headquarters.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
+          "title": "NASA Awards Enterprise Logistics Support Services Agreements",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-02T06:07:35+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Így költ el 1,4 milliárd dollárt a NASA",
+        "Új logisztikai szerződéseket kötött a NASA",
+        "Komoly átalakításba kezdett az űrhivatal"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/NASA_Headquarters.jpg/1280px-NASA_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Mary W. Jackson NASA Headquarters in 2026",
+          "credit": "DCAllStar / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_Headquarters.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/NASA_HQ_Building_2.jpg/1280px-NASA_HQ_Building_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 944,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "NASA Headquarters at 300 E Street SW in Washington D.C.",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_HQ_Building_2.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1200,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "The April 12 launch at Pad 39A of STS-1, just seconds past 7 a.m., carries astronauts John Young and Robert Crippen into an Earth orbital mission scheduled to last for 54 hours, ending with unpowered",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_launching.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/SES-10_Launch_-_world%27s_first_reflight_of_an_orbital_class_rocket_%2833361035200%29.jpg/1280px-SES-10_Launch_-_world%27s_first_reflight_of_an_orbital_class_rocket_%2833361035200%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 794,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "SES-10 Launch by Falcon 9 Flight 32, world's first reflight of an orbital class rocket, from Pad 39A, Kennedy Space Center, Cape Canaveral, Florida.",
+          "credit": "SpaceX / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:SES-10_Launch_-_world%27s_first_reflight_of_an_orbital_class_rocket_(33361035200).jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Antares Rocket Launch",
+          "credit": "NASA Goddard Photo and Video / nasa",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/24662369@N07/8674655959"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/CRS-9_mission_%2828348649546%29.jpg/1280px-CRS-9_mission_%2828348649546%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The starting and landing CRS-9 Falcon 9 rocket is seen in this long exposure.",
+          "credit": "SpaceX / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:CRS-9_mission_(28348649546).jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "NASA Awards Enterprise Logistics Support Services Agreements",
+          "link": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
+          "summary": "NASA selected 16 companies to provide Enterprise Logistics Support Services under new agreements that will standardize requirements, improve reporting, and streamline the management of costs and resources. The $1.4 billion blanket purchase agreements will support equipment and property management, transportation, disposal, product support, flight hardware support operations, equipment maintenance and repair, export control, move operations, […]",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/univerzum/2026-10-02-igy-kolt-el-1-4-milliard-dollart-a-nasa/",
+      "seo": {
+        "meta_title": "Így költ el 1,4 milliárd dollárt a NASA",
+        "meta_description": "Tizenhat céggel kötött új, átfogó logisztikai megállapodást a NASA, hogy hatékonyabban kezelje erőforrásait és eszközeit. Az 1,4 milliárd dolláros keretösszegű ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-02-igy-kolt-el-1-4-milliard-dollart-a-nasa/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/NASA_Headquarters.jpg/1280px-NASA_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "1610a9532065857699b163c33cd6890b43b8cb46e4a3c17764ec73a120a4a9e8",
+      "pipeline_run_id": "36962872003",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T06:07:35+02:00",
+      "updated_at": "2026-10-02T06:07:35+02:00",
+      "published_at": "2026-10-02T06:07:35+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-02T04:08:00+00:00",
+        "msg_ids": [
+          1024,
+          1025,
+          1026,
+          1027,
+          1028,
+          1029,
+          1030,
+          1031
+        ],
+        "control_id": 1032
+      }
+    },
+    {
+      "id": "7d054cd3-9288-5a5a-af86-6652d490db70",
+      "slug": "2026-10-02-grimm-mesektol-a-fegyverekig-ezt-kinalja-a-multishoot",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Multishoot",
+        "Orbán Áron",
+        "fegyverkereskedelem",
+        "lövészet",
+        "üzlet"
+      ],
+      "title": "Grimm-meséktől a fegyverekig: ezt kínálja a Multishoot",
+      "subtitle": null,
+      "lead": "Mesefigurákról elnevezett, éles lőfegyvereket használó élménylövészeti csomagokat kínál a lakosságnak egy fegyverkereskedő cég, amelynek vezetője az elmúlt időszakban veszteséges évet zárt.",
+      "key_points": [
+        "A Multishoot Zrt. kínálatában mesefigurák nevét viselő élménylövészeti csomagok szerepelnek.",
+        "A csomagok ára 16 500 és 39 500 forint között mozog a lövésszámtól és a fegyverek típusától függően.",
+        "A cég vezérigazgatója és 2024 vége óta tulajdonosa Orbán Áron."
+      ],
+      "content": "Vérpezsdítő élménylövészetet és közösségi élményt hirdet honlapján a Multishoot Zrt., amelynek élménycsomagjait gyerekkorunk klasszikus Grimm-mesehősei, valamint Hófehérke és a hét törpe szereplői után nevezték el. A fegyverkereskedéssel, lakossági harcászattal, építőipari szakmunkákkal és követelésbehajtással is foglalkozó vállalkozás kínálatában hét különböző csomag található, amelyek ára fejenként 16 500 forinttól 39 500 forintig terjed.\n\nA hvg.hu beszámolója szerint a Kuka fantázianevű csomagban Kalasnyikovval lőhetnek az érdeklődők, míg a Morgó csomag már nagy kaliberű mesterlövészfegyvereket tartalmaz. Ez utóbbiban két lövés adható le egy svájci-német gyökerű, amerikai SIG Sauer SSG 3000-es puskával, valamint egyetlen lövés a magyar tervezésű és gyártású GM-6 Lynx félautomata nagykaliberű puskával. A kínálatban szerepel továbbá a Hófehérke nevű óradíjas opció, a Vadász, a Herceg, a Modern mostoha, valamint a 90 lövést biztosító Páros csomag és a vadnyugati elemeket is tartalmazó Winnetou csomag.\n\nA vállalkozás élén 2022 óta vezérigazgatóként, 2024 vége óta pedig tulajdonosként jelen lévő Orbán Áron korábban egy másik orvos-vállalkozótól vette át a cég részvényeit. A zámolyi lőtér mindössze nyolc kilométerre fekszik az édesapja, idősebb Orbán Győző gánti kőbányájától.\n\nA cég pénzügyi eredményei az utóbbi időben jelentős visszaesést mutattak. Míg korábban előfordult, hogy 271 millió forintos bevétel mellett 55 millió forintos profitot ért el a vállalkozás, a 2023-as évben mindössze 54,7 millió forintos bevételt könyvelhettek el, amihez 51 millió forintos veszteség társult.",
+      "content_format": "markdown",
+      "body": [
+        "Vérpezsdítő élménylövészetet és közösségi élményt hirdet honlapján a Multishoot Zrt., amelynek élménycsomagjait gyerekkorunk klasszikus Grimm-mesehősei, valamint Hófehérke és a hét törpe szereplői után nevezték el. A fegyverkereskedéssel, lakossági harcászattal, építőipari szakmunkákkal és követelésbehajtással is foglalkozó vállalkozás kínálatában hét különböző csomag található, amelyek ára fejenként 16 500 forinttól 39 500 forintig terjed.",
+        "A hvg.hu beszámolója szerint a Kuka fantázianevű csomagban Kalasnyikovval lőhetnek az érdeklődők, míg a Morgó csomag már nagy kaliberű mesterlövészfegyvereket tartalmaz. Ez utóbbiban két lövés adható le egy svájci-német gyökerű, amerikai SIG Sauer SSG 3000-es puskával, valamint egyetlen lövés a magyar tervezésű és gyártású GM-6 Lynx félautomata nagykaliberű puskával. A kínálatban szerepel továbbá a Hófehérke nevű óradíjas opció, a Vadász, a Herceg, a Modern mostoha, valamint a 90 lövést biztosító Páros csomag és a vadnyugati elemeket is tartalmazó Winnetou csomag.",
+        "A vállalkozás élén 2022 óta vezérigazgatóként, 2024 vége óta pedig tulajdonosként jelen lévő Orbán Áron korábban egy másik orvos-vállalkozótól vette át a cég részvényeit. A zámolyi lőtér mindössze nyolc kilométerre fekszik az édesapja, idősebb Orbán Győző gánti kőbányájától.",
+        "A cég pénzügyi eredményei az utóbbi időben jelentős visszaesést mutattak. Míg korábban előfordult, hogy 271 millió forintos bevétel mellett 55 millió forintos profitot ért el a vállalkozás, a 2023-as évben mindössze 54,7 millió forintos bevételt könyvelhettek el, amihez 51 millió forintos veszteség társult."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 241,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Viktor_Orb%C3%A1n_2023.jpg/1280px-Viktor_Orb%C3%A1n_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1666,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Santiago Abascal se reúne con Viktor Orbán y Eduardo Bolsonaro en ocasión de la asistencia de la jura como presidente de Argentina de Javier Milei en Buenos Aires.",
+        "credit": "Vox España / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Orb%C3%A1n_2023.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261002_hapci-tudor-hofeherke-loveszeti-elmenycsomagok-orban-aron-multishoot",
+          "title": "Hapci, Hófehérke és Modern mostoha – ilyen lövészeti élménycsomagokat kínál Orbán Viktor öccsének cége",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T06:08:16+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.75,
+      "title_options": [
+        "Grimm-meséktől a fegyverekig: ezt kínálja a Multishoot",
+        "Hófehérke és Kalasnyikov: éleslövészetet hirdet a Multishoot",
+        "Mesefigurákról nevezte el fegyveres csomagjait a Multishoot Zrt."
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Viktor_Orb%C3%A1n_2023.jpg/1280px-Viktor_Orb%C3%A1n_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1666,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Santiago Abascal se reúne con Viktor Orbán y Eduardo Bolsonaro en ocasión de la asistencia de la jura como presidente de Argentina de Javier Milei en Buenos Aires.",
+          "credit": "Vox España / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Orb%C3%A1n_2023.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Vladimir_Putin_and_Viktor_Orb%C3%A1n_%282016-02-17%29_11.jpg/1280px-Vladimir_Putin_and_Viktor_Orb%C3%A1n_%282016-02-17%29_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 740,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Встреча Президента России Владимира Путина с Премьер-министром Венгрии Виктором Орбаном",
+          "credit": "Пресс-службы Президента Российской Федерации / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Viktor_Orb%C3%A1n_(2016-02-17)_11.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Modded_Kalashnikov_Rifle_of_the_Norman_Brigade.jpg/1280px-Modded_Kalashnikov_Rifle_of_the_Norman_Brigade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 898,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A modded Kalashnikov Rifle of the Norman Brigade",
+          "credit": "Norman Brigade / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Modded_Kalashnikov_Rifle_of_the_Norman_Brigade.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/AL-2_assault_rifle_-_Kalashnikov_museum.jpg/1280px-AL-2_assault_rifle_-_Kalashnikov_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1999,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "M. T. Kalashnikov museum and exhibition small arms complex.",
+          "credit": "Лапоть / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:AL-2_assault_rifle_-_Kalashnikov_museum.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/M24-Sniper-Weapon-System.jpg/1280px-M24-Sniper-Weapon-System.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 704,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "M24 Sniper Weapon System\nM24 Rifle\nPrimary function: Anti-personnel.\nLength: 1092  mm (43 in.)\nCaliber: 7.62x51 mm NATO.\nMaximum effective range: 800 meters.\nAccuracy: 0.5 MOA (with IMI 118LR 175gr Ma",
+          "credit": "User:MathKnight, User:Bukvoed and PEO Soldier, US Army website / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:M24-Sniper-Weapon-System.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/T108_sniper_rifle.jpg/1280px-T108_sniper_rifle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 890,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "T108 sniper at TADTE 2023",
+          "credit": "Tony kang peppy / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:T108_sniper_rifle.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/743/22658251753_e9a456226b_b.jpg",
+          "width": 1024,
+          "height": 685,
+          "kind": "photo",
+          "alt": "Shooting range, Moulton Parkway at Valencia, Laguna Hills, Feb. 1970",
+          "credit": "Orange County Archives / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/30346812@N07/22658251753"
+        },
+        {
+          "url": "https://live.staticflickr.com/3124/2603183935_2b104bda78_b.jpg",
+          "width": 1024,
+          "height": 681,
+          "kind": "photo",
+          "alt": "Meari Shooting Range. Pyongyang, North Korea.",
+          "credit": "(stephan) / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/82992618@N00/2603183935"
+        }
+      ],
+      "story": [
+        {
+          "title": "Hapci, Hófehérke és Modern mostoha – ilyen lövészeti élménycsomagokat kínál Orbán Viktor öccsének cége",
+          "link": "https://hvg.hu/itthon/20261002_hapci-tudor-hofeherke-loveszeti-elmenycsomagok-orban-aron-multishoot",
+          "summary": "„Vérpezsdítő élménylövészet, ahol minden lövés önbizalmat, motivációt és adrenalint ad” – hirdeti Orbán Áron fegyverkereskedő cége, a Multishoot Zrt. „közösségi élményt” kínáló honlapja. A Kuka csomagban Kalasnyikovval lehet lőni, a Páros csomag pedig alighanem az éleslövészet szerelmeseinek szól.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.75
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261002_hapci-tudor-hofeherke-loveszeti-elmenycsomagok-orban-aron-multishoot"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/kozelet/2026-10-02-grimm-mesektol-a-fegyverekig-ezt-kinalja-a-multishoot/",
+      "seo": {
+        "meta_title": "Grimm-meséktől a fegyverekig: ezt kínálja a Multishoot",
+        "meta_description": "Mesefigurákról elnevezett, éles lőfegyvereket használó élménylövészeti csomagokat kínál a lakosságnak egy fegyverkereskedő cég, amelynek vezetője az elmúlt idős",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-02-grimm-mesektol-a-fegyverekig-ezt-kinalja-a-multishoot/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Viktor_Orb%C3%A1n_2023.jpg/1280px-Viktor_Orb%C3%A1n_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "66f08f857946386f5261837063159b432b2c7943b5534eb7aabcdfc53e947d31",
+      "pipeline_run_id": "36962872003",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T06:08:16+02:00",
+      "updated_at": "2026-10-02T06:08:16+02:00",
+      "published_at": "2026-10-02T06:08:16+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-02T04:08:44+00:00",
+        "msg_ids": [
+          1033,
+          1034,
+          1035,
+          1036,
+          1037,
+          1038,
+          1039,
+          1040,
+          1041,
+          1042
+        ],
+        "control_id": 1043
+      }
     }
   ]
 }
