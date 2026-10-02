@@ -1,7 +1,104 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T06:57:04+02:00",
+  "updated_at": "2026-10-02T08:08:23+02:00",
   "articles": [
+    {
+      "id": "234a392f-f1c5-57d6-bc18-fbf12e0d129e",
+      "slug": "2026-10-02-miert-ul-az-alkotmanybirosag-a-legkenyesebb-torvenyeken",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Alkotmánybíróság",
+        "normakontroll",
+        "törvények",
+        "Közélet",
+        "parlament"
+      ],
+      "title": "Miért ül az Alkotmánybíróság a legkényesebb törvényeken?",
+      "subtitle": null,
+      "lead": "Hét friss, vitatott törvény utólagos normakontroll-kérelme várakozik az Alkotmánybíróságon, miközben a testületnél az egyedi panaszok ügyében is hatalmas a lemaradás. Az Alaptörvény-ellenesnek ítélt jogszabályok ügyében az idő múlásával egyre nehezebb lenne érdemi jogi lépéseket tenni.",
+      "key_points": [
+        "Hét utólagos normakontroll-kérelem vár arra, hogy az Alkotmánybíróság napirendre tűzze.",
+        "A vitatott jogszabályok érintik az NVVH-t, a kekvákat, a közmédiát és a választójogot is.",
+        "A testületnél az egyedi panaszokból is óriási a hátralék, a legrégebbi 2015-ös.",
+        "Czine Ágnes elnökhelyettes vezetésével a bírák közt éles ellentétek feszülnek."
+      ],
+      "content": "Az ellenzéki képviselők által benyújtott hét utólagos normakontroll-kérelem jelenleg hiába szerepel az Alkotmánybíróság asztalán, a testület jövő heti napirendjén ehelyett egyedi panaszok, így közterület-használati és földforgalmi ügyek szerepelnek. A Fidesz és a KDNP képviselői által Alaptörvény-ellenesnek ítélt jogszabályok sorában szerepel a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatalról (NVVH), az Országgyűlés vizsgálóbizottságairól, a kekvákról, a közmédiáról, a politikai kommunikációról, a plakáteltávolításról és a passzív választójog korlátozásáról szóló törvény, valamint az Alkotmánybíróság új tagjának megválasztását lehetővé tévő jogszabály is.\n\nMivel ezek nem magát az Alaptörvény 16. és 17. módosítását érintik, az Alkotmánybíróság elméletben vizsgálhatná őket, hiszen a Fidesz-többségű Alaptörvény-módosítások tartalmi vizsgálatát tiltó szabályai ezekre közvetlenül nem vonatkoznak. A gyakorlatban azonban az idő múlásával a megsemmisítésük egyre inkább fikcióvá válik, mivel a kekva-alapítványok – a felsőoktatást fenntartókat leszámítva – megszűntek, az NVVH, az új Médiatanács, a Független Közmédia Testület és a vizsgálóbizottságok pedig már megalakultak és működni kezdtek. Ha az Alkotmánybíróság hetek vagy hónapok múlva mégis megsemmisítené ezeket, az elképesztő jogi káoszt eredményezne.\n\nA testület jelenlegi tizenöt bírája közül tízet még a Fidesz-többségű parlament választott meg, nyolcat ráadásul ellenzéki támogatás nélkül. Az augusztusi visszautasító végzésekhez fűzött különvélemények rávilágítottak az alkotmánybírák közötti éles ellentétekre, hiszen mérlegelniük kell azt is, milyen következményekkel járna egy elsöprő választási győzelmet aratott párt elfogadott programján alapuló törvények hirtelen semmissé nyilvánítása. Az Alkotmánybíróság ráadásul máskor sem sieti el a döntéseket: a friss kérelmek mellett hat olyan, régen értelmét vesztett normakontroll-kérelem is hever elbírálatlanul, amelyet az előző két ciklus baloldali ellenzéki képviselői nyújtottak be.\n\nAz egyedi panaszok terén is óriási a lemaradás, hiszen kizárólag 2026-ban 403 új panasz érkezett, miközben a legrégibb, a 637. sorszámú panasz még 2015-ös, amellyel kapcsolatban a testület 2016-ban kétszer, 2020-ban pedig egyszer tárgyalt, de végül soha nem hozott döntést. Ugyancsak ezen a héten adtak igazat egy újságíró ügyében, aki még 2018-ban fordult a testülethez, miután külföldi menekültnek kiadva magát jutott információhoz, amiért a bíróság elítélte; az ő ügyét 2019-ben, 2020-ban és 2021-ben is csak félbehagyták, mielőtt most megszületett volna a határozat. Az Alkotmánybíróság élén egyelőre Czine Ágnes elnökhelyettes áll a régiek közül, noha már megszületett a törvény arról, hogy az alkotmánybírák maguk választják meg a vezetőjüket, és Orosz Árpád is novemberben lép hivatalba új tagként.",
+      "content_format": "markdown",
+      "body": [
+        "Az ellenzéki képviselők által benyújtott hét utólagos normakontroll-kérelem jelenleg hiába szerepel az Alkotmánybíróság asztalán, a testület jövő heti napirendjén ehelyett egyedi panaszok, így közterület-használati és földforgalmi ügyek szerepelnek. A Fidesz és a KDNP képviselői által Alaptörvény-ellenesnek ítélt jogszabályok sorában szerepel a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatalról (NVVH), az Országgyűlés vizsgálóbizottságairól, a kekvákról, a közmédiáról, a politikai kommunikációról, a plakáteltávolításról és a passzív választójog korlátozásáról szóló törvény, valamint az Alkotmánybíróság új tagjának megválasztását lehetővé tévő jogszabály is.",
+        "Mivel ezek nem magát az Alaptörvény 16. és 17. módosítását érintik, az Alkotmánybíróság elméletben vizsgálhatná őket, hiszen a Fidesz-többségű Alaptörvény-módosítások tartalmi vizsgálatát tiltó szabályai ezekre közvetlenül nem vonatkoznak. A gyakorlatban azonban az idő múlásával a megsemmisítésük egyre inkább fikcióvá válik, mivel a kekva-alapítványok – a felsőoktatást fenntartókat leszámítva – megszűntek, az NVVH, az új Médiatanács, a Független Közmédia Testület és a vizsgálóbizottságok pedig már megalakultak és működni kezdtek. Ha az Alkotmánybíróság hetek vagy hónapok múlva mégis megsemmisítené ezeket, az elképesztő jogi káoszt eredményezne.",
+        "A testület jelenlegi tizenöt bírája közül tízet még a Fidesz-többségű parlament választott meg, nyolcat ráadásul ellenzéki támogatás nélkül. Az augusztusi visszautasító végzésekhez fűzött különvélemények rávilágítottak az alkotmánybírák közötti éles ellentétekre, hiszen mérlegelniük kell azt is, milyen következményekkel járna egy elsöprő választási győzelmet aratott párt elfogadott programján alapuló törvények hirtelen semmissé nyilvánítása. Az Alkotmánybíróság ráadásul máskor sem sieti el a döntéseket: a friss kérelmek mellett hat olyan, régen értelmét vesztett normakontroll-kérelem is hever elbírálatlanul, amelyet az előző két ciklus baloldali ellenzéki képviselői nyújtottak be.",
+        "Az egyedi panaszok terén is óriási a lemaradás, hiszen kizárólag 2026-ban 403 új panasz érkezett, miközben a legrégibb, a 637. sorszámú panasz még 2015-ös, amellyel kapcsolatban a testület 2016-ban kétszer, 2020-ban pedig egyszer tárgyalt, de végül soha nem hozott döntést. Ugyancsak ezen a héten adtak igazat egy újságíró ügyében, aki még 2018-ban fordult a testülethez, miután külföldi menekültnek kiadva magát jutott információhoz, amiért a bíróság elítélte; az ő ügyét 2019-ben, 2020-ban és 2021-ben is csak félbehagyták, mielőtt most megszületett volna a határozat. Az Alkotmánybíróság élén egyelőre Czine Ágnes elnökhelyettes áll a régiek közül, noha már megszületett a törvény arról, hogy az alkotmánybírák maguk választják meg a vezetőjüket, és Orosz Árpád is novemberben lép hivatalba új tagként."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 3,
+      "word_count": 409,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://live.staticflickr.com/54/117048243_7cc6bb0b87_b.jpg",
+        "width": 1024,
+        "height": 683,
+        "kind": "photo",
+        "alt": "Courtroom One Gavel",
+        "credit": "Joe Gratz / flickr",
+        "license": "Public domain",
+        "source_url": "https://www.flickr.com/photos/63126465@N00/117048243"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261002_alkotmanybirosag-napirend-targyalas-nvvh-kekva-ciklus-korlatozas-alaptorveny-panasz-fidesz-kdnp",
+          "title": "Az Alkotmánybíróság nem foglalkozik a kényes ügyekkel",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T08:01:45+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-02T08:08:23+02:00"
+      },
+      "hot_score": 5.64,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261002_alkotmanybirosag-napirend-targyalas-nvvh-kekva-ciklus-korlatozas-alaptorveny-panasz-fidesz-kdnp"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/kozelet/2026-10-02-miert-ul-az-alkotmanybirosag-a-legkenyesebb-torvenyeken/",
+      "seo": {
+        "meta_title": "Miért ül az Alkotmánybíróság a legkényesebb törvényeken?",
+        "meta_description": "Hét friss, vitatott törvény utólagos normakontroll-kérelme várakozik az Alkotmánybíróságon, miközben a testületnél az egyedi panaszok ügyében is hatalmas a lema",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-02-miert-ul-az-alkotmanybirosag-a-legkenyesebb-torvenyeken/",
+        "og_image": "https://live.staticflickr.com/54/117048243_7cc6bb0b87_b.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "c0d84c47fb8af73005e7a5d32a7ded08a3e991a9e64f6db723a394fd842d57a3",
+      "pipeline_run_id": "36971570166",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T08:08:23+02:00",
+      "updated_at": "2026-10-02T08:08:23+02:00",
+      "published_at": "2026-10-02T08:08:23+02:00",
+      "expires_at": null
+    },
     {
       "id": "46e17fc6-8aae-5ec2-9695-695a7e933497",
       "slug": "2026-10-02-igy-kolt-el-1-4-milliard-dollart-a-nasa",
