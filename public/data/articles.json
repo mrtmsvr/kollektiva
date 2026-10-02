@@ -1,7 +1,127 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T10:38:42+02:00",
+  "updated_at": "2026-10-02T11:53:34+02:00",
   "articles": [
+    {
+      "id": "472e2f4a-14e8-598c-a11c-ecba810b9723",
+      "slug": "2026-10-02-mit-kezd-a-kormany-az-epitesi-szabalyokkal",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "ingatlanpiac",
+        "gazdaság",
+        "urbanisztika",
+        "építőipar"
+      ],
+      "title": "Mit kezd a kormány az építési szabályokkal?",
+      "subtitle": null,
+      "lead": "Kiszámíthatóbb szabályozást sürgettek az ingatlanfejlesztők az Országos Urbanisztikai Konferencián, miközben az állami vezetés a kiemelő rendeletek átalakításáról beszélt. A szakemberek szerint a jelenlegi piaci viszonyok és a magas kamatok miatt komoly kihívásokkal néz szembe az ágazat.",
+      "key_points": [
+        "Az ingatlanfejlesztők kiszámíthatóbb és stabilabb szabályozást követelnek.",
+        "Szemerey Samu államtitkár szerint a kiemelő rendeletek eddig gyakran rombolták a tervezhetőséget.",
+        "A magas kamatkörnyezet miatt a magánfejlesztők jelenleg nem tudnak érdemben bérlakásépítésbe kezdeni."
+      ],
+      "content": "Október 1-jén az Északi Járműjavítóban rendezték meg az Országos Urbanisztikai Konferenciát, ahol a hazai ingatlanfejlesztési piac aktuális kihívásait vitatták meg a szakemberek. A plenáris kerekasztal-beszélgetésen részt vett Szemerey Samu építészeti és magasépítési beruházásokért felelős államtitkár, országos főépítész, Erő Zoltán budapesti főépítész, Pikó András józsefvárosi polgármester, Hüse István, az Indotek Group ingatlanfejlesztési vezetője, valamint Németh Péter Balázs, a Forestay Group vezérigazgatója. A beszélgetést Gulyás Veronika, a Portfolio újságírója moderálta.\n\nNémeth Péter Balázs a konferencián hangsúlyozta, hogy az építőiparban az elmúlt évek tapasztalatai alapján a kiszámíthatóság lenne a legfontosabb tényező, ami feleslegessé tenné a folyamatos állami beavatkozásokat. Hozzátette, hogy a jogbiztonság hiánya miatt a cégek nehezen tudnak előre tervezni, hiszen minden évben új szabályokhoz kell alkalmazkodniuk. Hüse István arra hívta fel a figyelmet, hogy a magánszféra számára a hosszú eljárási idejű projektek közvetlen tőkeköltséget jelentenek, ami végül a végfelhasználói árakban is megmutatkozik.\n\nSzemerey Samu államtitkár elismerte, hogy az elmúlt években alig lehetett valódi piaci viszonyokról beszélni a fejlesztési piacon, és a kiemelt beruházások rendszere sokszor éppen a tervezhetőséget rombolta. Ugyanakkor jelezte, hogy a kiemelő rendeletek eszközét a jövőben is megtartanák, de teljesen más logikával: olyan minőségi elvárásrendszert és piaci versenyt szeretnének elérni, amely a szigorúbb állami beruházási normákhoz igazodik. A résztvevők egyetértettek abban is, hogy a jelenlegi kamatkörnyezetben a magánfejlesztők számára nem reális cél az új bérlakások építésébe való érdemi beszállás.",
+      "content_format": "markdown",
+      "body": [
+        "Október 1-jén az Északi Járműjavítóban rendezték meg az Országos Urbanisztikai Konferenciát, ahol a hazai ingatlanfejlesztési piac aktuális kihívásait vitatták meg a szakemberek. A plenáris kerekasztal-beszélgetésen részt vett Szemerey Samu építészeti és magasépítési beruházásokért felelős államtitkár, országos főépítész, Erő Zoltán budapesti főépítész, Pikó András józsefvárosi polgármester, Hüse István, az Indotek Group ingatlanfejlesztési vezetője, valamint Németh Péter Balázs, a Forestay Group vezérigazgatója. A beszélgetést Gulyás Veronika, a Portfolio újságírója moderálta.",
+        "Németh Péter Balázs a konferencián hangsúlyozta, hogy az építőiparban az elmúlt évek tapasztalatai alapján a kiszámíthatóság lenne a legfontosabb tényező, ami feleslegessé tenné a folyamatos állami beavatkozásokat. Hozzátette, hogy a jogbiztonság hiánya miatt a cégek nehezen tudnak előre tervezni, hiszen minden évben új szabályokhoz kell alkalmazkodniuk. Hüse István arra hívta fel a figyelmet, hogy a magánszféra számára a hosszú eljárási idejű projektek közvetlen tőkeköltséget jelentenek, ami végül a végfelhasználói árakban is megmutatkozik.",
+        "Szemerey Samu államtitkár elismerte, hogy az elmúlt években alig lehetett valódi piaci viszonyokról beszélni a fejlesztési piacon, és a kiemelt beruházások rendszere sokszor éppen a tervezhetőséget rombolta. Ugyanakkor jelezte, hogy a kiemelő rendeletek eszközét a jövőben is megtartanák, de teljesen más logikával: olyan minőségi elvárásrendszert és piaci versenyt szeretnének elérni, amely a szigorúbb állami beruházási normákhoz igazodik. A résztvevők egyetértettek abban is, hogy a jelenlegi kamatkörnyezetben a magánfejlesztők számára nem reális cél az új bérlakások építésébe való érdemi beszállás."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 257,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Hudson_Yards_Real_Estate_Development_Update-_April_16%2C_2015_%2816992354740%29.jpg/1280px-Hudson_Yards_Real_Estate_Development_Update-_April_16%2C_2015_%2816992354740%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 799,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Work is progressing over LIRR West Side Yards as part of the Hudson Yards Real Estate Development. Photo: Metropolitan Transportation Authority / Patrick Cashin",
+        "credit": "Metropolitan Transportation Authority of the State of New York / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hudson_Yards_Real_Estate_Development_Update-_April_16,_2015_(16992354740).jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/ingatlan/20261002/foepitesz-a-kiemelo-rendeletekrol-olyan-erzesem-volt-mintha-egy-csapat-alkoholistat-hallgatnek-arrol-hogyan-kellene-leszokni-866890",
+          "title": "Főépítész a kiemelő rendeletekről: \"Olyan érzésem volt, mintha egy csapat alkoholistát hallgatnék arról, hogyan kellene leszokni\"",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T11:49:55+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-02T11:53:34+02:00"
+      },
+      "hot_score": 6.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/ingatlan/20261002/foepitesz-a-kiemelo-rendeletekrol-olyan-erzesem-volt-mintha-egy-csapat-alkoholistat-hallgatnek-arrol-hogyan-kellene-leszokni-866890"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/penzvilag/2026-10-02-mit-kezd-a-kormany-az-epitesi-szabalyokkal/",
+      "seo": {
+        "meta_title": "Mit kezd a kormány az építési szabályokkal?",
+        "meta_description": "Kiszámíthatóbb szabályozást sürgettek az ingatlanfejlesztők az Országos Urbanisztikai Konferencián, miközben az állami vezetés a kiemelő rendeletek átalakításár",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-02-mit-kezd-a-kormany-az-epitesi-szabalyokkal/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Hudson_Yards_Real_Estate_Development_Update-_April_16%2C_2015_%2816992354740%29.jpg/1280px-Hudson_Yards_Real_Estate_Development_Update-_April_16%2C_2015_%2816992354740%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "cd6e6e94-0b83-5baf-befb-e6ea3968e37d"
+      ],
+      "see_also": [
+        {
+          "title": "Új szabályok jönnek a kulturális támogatásoknál",
+          "url": "/kultura/2026-10-01-uj-szabalyok-jonnek-a-kulturalis-tamogatasoknal/",
+          "date": "2026-10-01"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "ff8891c979b557fc7c2faf5fef27917167a70eb98a6f0ffa142fe6d7186e4647",
+      "pipeline_run_id": "36992001051",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T11:53:34+02:00",
+      "updated_at": "2026-10-02T11:53:34+02:00",
+      "published_at": "2026-10-02T11:53:34+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "Northern Railway Repair Shop Budapest",
+        "Orszagos Urbanisztikai Konferencia",
+        "construction workers Budapest",
+        "real estate development site",
+        "construction site",
+        "workers building",
+        "urban development"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Modern_architecture_build.jpg/1280px-Modern_architecture_build.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/174/426923507_6b0d48c04f_b.jpg",
+        "https://live.staticflickr.com/5494/10860448526_2de277155e_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Sustainable_Urban_Mobility_Planning_Cycle.png/1280px-The_Sustainable_Urban_Mobility_Planning_Cycle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
+    },
     {
       "id": "c0f7409b-5437-5a6b-9c1d-7977e88b8914",
       "slug": "2026-10-02-attorte-a-pentagon-a-legfobb-urtabut",
