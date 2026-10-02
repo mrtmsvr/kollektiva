@@ -14052,7 +14052,7 @@
       "expires_at": null,
       "review": {
         "title": 1,
-        "image": 0,
+        "image": 4,
         "sent_at": "2026-10-02T13:43:42+00:00",
         "msg_ids": [
           1463,
