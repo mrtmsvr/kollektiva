@@ -10437,7 +10437,7 @@
     {
       "id": "71a402ee-75b4-59c9-b9a1-a8a77047eca2",
       "slug": "2026-10-02-tobb-szazmillio-aramlott-fideszes-kulturalis-korokhoz",
-      "status": "pending",
+      "status": "published",
       "category": "kultura",
       "subcategory": null,
       "tags": [
@@ -10468,15 +10468,15 @@
       "word_count": 320,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg/1280px-Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Money-2180330_1920.jpg/1280px-Money-2180330_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 900,
+        "height": 800,
         "kind": "photo",
         "pos": "center",
-        "alt": "Balázs Hankó",
-        "credit": "Elekes Andor / Wikimedia Commons",
-        "license": "CC BY 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Hank%C3%B3_Bal%C3%A1zs_(4).jpg"
+        "alt": "Money",
+        "credit": "kschneider2991 / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Money-2180330_1920.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -10612,7 +10612,7 @@
         "meta_title": "Több százmillió áramlott fideszes kulturális körökhöz",
         "meta_description": "A kampányt megelőzően több mint 610 millió forint érkezett a Nemzeti Kulturális Alapból dunántúli, kormánypárti körökhöz köthető szervezetekhez. A támogatások e",
         "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-02-tobb-szazmillio-aramlott-fideszes-kulturalis-korokhoz/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg/1280px-Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Money-2180330_1920.jpg/1280px-Money-2180330_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -10637,9 +10637,9 @@
       "dedupe_hash": "34a690b65bc01cb9612f0894b93b9710150935933f1156508cf1271f2063da3e",
       "pipeline_run_id": "36971570166",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T08:02:46+02:00",
-      "updated_at": "2026-10-02T08:02:46+02:00",
-      "published_at": "2026-10-02T08:02:46+02:00",
+      "created_at": "2026-10-02T08:29:59+02:00",
+      "updated_at": "2026-10-02T08:29:59+02:00",
+      "published_at": "2026-10-02T08:29:59+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -10730,7 +10730,8 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d%2C_2016_Hungary.jpg/1280px-V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d%2C_2016_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/View_Landscape_Kerkafalva_Zala.jpg/1280px-View_Landscape_Kerkafalva_Zala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://live.staticflickr.com/54/117048243_7cc6bb0b87_b.jpg"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "64c21da6-f065-583d-87a1-d7e4ac42f97f",

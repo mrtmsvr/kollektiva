@@ -1,7 +1,161 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T08:08:23+02:00",
+  "updated_at": "2026-10-02T08:29:59+02:00",
   "articles": [
+    {
+      "id": "71a402ee-75b4-59c9-b9a1-a8a77047eca2",
+      "slug": "2026-10-02-tobb-szazmillio-aramlott-fideszes-kulturalis-korokhoz",
+      "status": "published",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Kultúra",
+        "Közpénz",
+        "Nemzeti Kulturális Alap",
+        "Dunántúl"
+      ],
+      "title": "Több százmillió áramlott fideszes kulturális körökhöz",
+      "subtitle": null,
+      "lead": "A kampányt megelőzően több mint 610 millió forint érkezett a Nemzeti Kulturális Alapból dunántúli, kormánypárti körökhöz köthető szervezetekhez. A támogatások eloszlását részletesen feltárta a sajtó, miközben az intézményrendszer felső vezetését is elérte a hatósági vizsgálat.",
+      "key_points": [
+        "Somogy, Tolna, Baranya és Zala vármegyében több mint 610 millió forint támogatást azonosítottak fideszes szervezeteknél.",
+        "A Somogy vármegyei 193 millióból 60 milliót kaptak őrtilosi szervezetek.",
+        "Baranya vármegyében 182 millió forint jutott a kormánypárti körökhöz tartozó egyesületeknek.",
+        "Tolna vármegyében 125 millió forintot osztottak szét, Zala vármegyében pedig 112,5 millió forint ment el hasonló címeken."
+      ],
+      "content": "A Nemzeti Kulturális Alap forrásaiból a dunántúli Somogy, Tolna, Baranya és Zala vármegyében összesen több mint 610 millió forint vándorolt olyan egyesületekhez, alapítványokhoz és cégekhez, amelyek vezetőségében kormánypárti politikusok ülnek, vagy egyértelműen köthetők a Fideszhez. A vizsgálat olyan szervezeteket vett górcső alá, amelyek rendezvényein rendszeresen feltűnnek politikusok, vagy éppen kampánytevékenységekben vesznek részt.\n\nSomogy vármegyében 193 millió forintnyi támogatást regisztráltak, amelyből 60 millió forint két őrtilosi szervezethez került, amelyek Kelei Zita fideszes jelölthöz köthetők. Baranya vármegyében 182 millió forint áramlott a kormánypárti kötődésű körökhöz, a vármegyei rekorder pedig a Siklóson tevékenykedő Bohár Ervin önkormányzati képviselőhöz tartozó Várunkért és Városunkért Egyesület, valamint a Tenkes Hagyományőrző Alapítvány lett negyven-negyven millió forinttal. Szécsi Máté pécsi fideszes alelnök ugyancsak negyvenmillió forintot kapott közösségépítő programokra, amit azóta visszafizetett.\n\nTolna vármegyében 125 millió forint támogatást osztottak ki, aminek a zömét két nagyobb, egyenként 45 millió forintos tétel tette ki. Az egyik kedvezményezett a Zsikó Event Rendezvényszervező Kft. volt, amelynek tulajdonosa Zsikó Zoltán, a vármegyei önkormányzat fideszes alelnöke, a másik pedig a Tolnaikum Turisztikai Egyesület Móra Viktória szekszárdi képviselő vezetésével; a sajtóhírek szerint ezeket az összegeket szintén visszafizették az érintettek. Zala vármegyében 112,5 millió forint jutott a fideszes szervezeteknek, ebből a legtöbbet, közel negyvenmillió forintot a keszthelyi Civil Pódium Egyesület kapta, amely rendezvényfotókat oszt meg a korábbi polgármesterrel, Nagy Bálinttal.\n\nA 2021 és 2026 közötti időszakban az NKA-ból összesen 100,7 milliárd forint támogatást ítéltek oda, amelyből 13,8 milliárd forint egyedi miniszteri döntéseken keresztül, míg 19,1 milliárd forint a Kiemelt Kulturális Programok Ideiglenes Kollégiumán keresztül érkezett. Ez utóbbi kollégium működése kapcsán csütörtökön letartóztatták Hankó Balázs volt kulturális és innovációs minisztert és Varga-Bajusz Veronika volt államtitkárt, mivel a gyanú szerint a támogatások egy részéről Hankó maga döntött ténylegesen.",
+      "content_format": "markdown",
+      "body": [
+        "A Nemzeti Kulturális Alap forrásaiból a dunántúli Somogy, Tolna, Baranya és Zala vármegyében összesen több mint 610 millió forint vándorolt olyan egyesületekhez, alapítványokhoz és cégekhez, amelyek vezetőségében kormánypárti politikusok ülnek, vagy egyértelműen köthetők a Fideszhez. A vizsgálat olyan szervezeteket vett górcső alá, amelyek rendezvényein rendszeresen feltűnnek politikusok, vagy éppen kampánytevékenységekben vesznek részt.",
+        "Somogy vármegyében 193 millió forintnyi támogatást regisztráltak, amelyből 60 millió forint két őrtilosi szervezethez került, amelyek Kelei Zita fideszes jelölthöz köthetők. Baranya vármegyében 182 millió forint áramlott a kormánypárti kötődésű körökhöz, a vármegyei rekorder pedig a Siklóson tevékenykedő Bohár Ervin önkormányzati képviselőhöz tartozó Várunkért és Városunkért Egyesület, valamint a Tenkes Hagyományőrző Alapítvány lett negyven-negyven millió forinttal. Szécsi Máté pécsi fideszes alelnök ugyancsak negyvenmillió forintot kapott közösségépítő programokra, amit azóta visszafizetett.",
+        "Tolna vármegyében 125 millió forint támogatást osztottak ki, aminek a zömét két nagyobb, egyenként 45 millió forintos tétel tette ki. Az egyik kedvezményezett a Zsikó Event Rendezvényszervező Kft. volt, amelynek tulajdonosa Zsikó Zoltán, a vármegyei önkormányzat fideszes alelnöke, a másik pedig a Tolnaikum Turisztikai Egyesület Móra Viktória szekszárdi képviselő vezetésével; a sajtóhírek szerint ezeket az összegeket szintén visszafizették az érintettek. Zala vármegyében 112,5 millió forint jutott a fideszes szervezeteknek, ebből a legtöbbet, közel negyvenmillió forintot a keszthelyi Civil Pódium Egyesület kapta, amely rendezvényfotókat oszt meg a korábbi polgármesterrel, Nagy Bálinttal.",
+        "A 2021 és 2026 közötti időszakban az NKA-ból összesen 100,7 milliárd forint támogatást ítéltek oda, amelyből 13,8 milliárd forint egyedi miniszteri döntéseken keresztül, míg 19,1 milliárd forint a Kiemelt Kulturális Programok Ideiglenes Kollégiumán keresztül érkezett. Ez utóbbi kollégium működése kapcsán csütörtökön letartóztatták Hankó Balázs volt kulturális és innovációs minisztert és Varga-Bajusz Veronika volt államtitkárt, mivel a gyanú szerint a támogatások egy részéről Hankó maga döntött ténylegesen."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 320,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Money-2180330_1920.jpg/1280px-Money-2180330_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Money",
+        "credit": "kschneider2991 / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Money-2180330_1920.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261002_hanko-balazs-nemzeti-kulturalis-alap-nka-tamogatas-hanko-balazs-dunantul-600-millio-fidesz",
+          "title": "A Dunántúli fideszes szervezeteknek több mint 600 millió forint NKA-támogatás jutott",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T08:02:46+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-02T08:29:59+02:00"
+      },
+      "hot_score": 5.3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261002_hanko-balazs-nemzeti-kulturalis-alap-nka-tamogatas-hanko-balazs-dunantul-600-millio-fidesz"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/kultura/2026-10-02-tobb-szazmillio-aramlott-fideszes-kulturalis-korokhoz/",
+      "seo": {
+        "meta_title": "Több százmillió áramlott fideszes kulturális körökhöz",
+        "meta_description": "A kampányt megelőzően több mint 610 millió forint érkezett a Nemzeti Kulturális Alapból dunántúli, kormánypárti körökhöz köthető szervezetekhez. A támogatások e",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-02-tobb-szazmillio-aramlott-fideszes-kulturalis-korokhoz/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Money-2180330_1920.jpg/1280px-Money-2180330_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "ac36a6e3-10e9-5ea9-8d16-556167c9496c"
+      ],
+      "see_also": [
+        {
+          "title": "Magyarország hamarosan csatlakozhat az Európai Ügyészséghez",
+          "url": "/penzvilag/2026-09-29-magyarorszag-hamarosan-csatlakozhat-az-europai-ugyeszseghez/",
+          "date": "2026-09-29"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "34a690b65bc01cb9612f0894b93b9710150935933f1156508cf1271f2063da3e",
+      "pipeline_run_id": "36971570166",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T08:29:59+02:00",
+      "updated_at": "2026-10-02T08:29:59+02:00",
+      "published_at": "2026-10-02T08:29:59+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "National Cultural Fund Hungary",
+        "Somogy county landscape",
+        "Baranya county Hungary",
+        "Pecs Hungary architecture",
+        "Siklos castle",
+        "financial audit documents",
+        "hungarian currency banknotes",
+        "empty conference room",
+        "Ortoilos Hungary",
+        "Szekszard Hungary",
+        "Zala county landscape",
+        "Tolna county Hungary",
+        "financial corruption concept",
+        "counting money",
+        "business handshake",
+        "Hungarian Forint banknotes",
+        "Transdanubia landscape Hungary",
+        "local government building Hungary",
+        "regional cultural center Hungary",
+        "stack of money",
+        "financial document",
+        "empty desk"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/P%C3%A9cs_%28148%29.jpg/1280px-P%C3%A9cs_%28148%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Garay_ter_1_in_Szekszard_%281%29.jpg/1280px-Garay_ter_1_in_Szekszard_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg/1280px-Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Restaurant._-_Tam%C3%A1si%2C_Tolna_County%2C_Hungary.JPG/1280px-Restaurant._-_Tam%C3%A1si%2C_Tolna_County%2C_Hungary.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Szilv%C3%A1sszentm%C3%A1rton%2C_Reservoir%2C_Somogy2.jpg/1280px-Szilv%C3%A1sszentm%C3%A1rton%2C_Reservoir%2C_Somogy2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/1/16/Griffmadaras_kapu%2C_Gyulai_P%C3%A1l_utca_13%2C_2017_Palotanegyed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Siklos_Castle%2C_Summer_Theater_auditorium.jpg/1280px-Siklos_Castle%2C_Summer_Theater_auditorium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_%281872%29%2C_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg/1280px-Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_%281872%29%2C_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hank%C3%B3_Bal%C3%A1zs_in_2025_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/CoA_of_Tolna_County_by_Zsuzsa_Stekly%2C_2016_Szekszard.jpg/1280px-CoA_of_Tolna_County_by_Zsuzsa_Stekly%2C_2016_Szekszard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/6/64/Hungary_-_Baranya_Megyei_Rendorseg_%28Baranya_County_Police%29_%286656014051%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://upload.wikimedia.org/wikipedia/commons/9/90/Siklos_Castle_Nr001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://live.staticflickr.com/628/22058345734_5feb8e1098_b.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/39/Kukoricaf%C3%B6ld%2C_Botfa%2C_Zalaegerszeg%2C_2008_Zala_megye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://upload.wikimedia.org/wikipedia/commons/a/ac/Baranya_Flag%28HUNGARY%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Beverley_Guildhall_Courtroom.jpg/1280px-Beverley_Guildhall_Courtroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/MAV_99_55_9482_102-8%2C_Szekszard_railway_station%2C_2016_Szekszard.jpg/1280px-MAV_99_55_9482_102-8%2C_Szekszard_railway_station%2C_2016_Szekszard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/8332/8373310466_66fc78dc45_b.jpg",
+        "https://live.staticflickr.com/4031/4289726649_2d622fe46e_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/P%C3%A9cs_%2899%29.jpg/1280px-P%C3%A9cs_%2899%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d%2C_2016_Hungary.jpg/1280px-V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d%2C_2016_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/View_Landscape_Kerkafalva_Zala.jpg/1280px-View_Landscape_Kerkafalva_Zala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/54/117048243_7cc6bb0b87_b.jpg"
+      ]
+    },
     {
       "id": "234a392f-f1c5-57d6-bc18-fbf12e0d129e",
       "slug": "2026-10-02-miert-ul-az-alkotmanybirosag-a-legkenyesebb-torvenyeken",
