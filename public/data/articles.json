@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T06:49:22+02:00",
+  "updated_at": "2026-10-02T06:50:23+02:00",
   "articles": [
     {
       "id": "7d054cd3-9288-5a5a-af86-6652d490db70",
@@ -228,15 +228,14 @@
       "word_count": 183,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 1024,
+        "url": "https://live.staticflickr.com/7116/7477302038_f0cb3cd6ca_b.jpg",
+        "width": 1024,
+        "height": 768,
         "kind": "photo",
-        "pos": "top",
-        "alt": "Ministry of Finance (Hungary)",
-        "credit": "Elekes Andor / Wikimedia Commons",
-        "license": "CC BY 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary).jpg"
+        "alt": "The Three Amigos",
+        "credit": "Public Places / flickr",
+        "license": "CC BY 2.0",
+        "source_url": "https://www.flickr.com/photos/78019868@N05/7477302038"
       },
       "inline_images": [],
       "sources": [
@@ -269,7 +268,7 @@
         "meta_title": "Jelentős nyugdíjemelést jelentett be a kormány",
         "meta_description": "Több mint 700 ezer embert érintő, a jövő évi költségvetésből 123 milliárd forintot igénylő nyugdíj- és ellátásemelési programot jelentett be Kármán András. A cs",
         "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-02-120-ezer-forintra-emelik-a-minimalnyugdijat/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://live.staticflickr.com/7116/7477302038_f0cb3cd6ca_b.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -307,7 +306,7 @@
       "pipeline_run_id": "36962872003",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-02T06:42:04+02:00",
-      "updated_at": "2026-10-02T06:49:22+02:00",
+      "updated_at": "2026-10-02T06:50:23+02:00",
       "published_at": "2026-10-02T06:42:04+02:00",
       "expires_at": null
     },
