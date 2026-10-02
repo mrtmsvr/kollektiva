@@ -1052,7 +1052,7 @@ PAGE_CSS = """
 body{margin:0;background:var(--night);color:var(--parch);font:17px/1.75 Manrope,system-ui,-apple-system,"Segoe UI",sans-serif}
 a{color:var(--parch)}a:hover{color:var(--brass)}
 header,main,footer{max-width:720px;margin:0 auto;padding:0 20px}
-.share{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase;margin-right:6px}.share a,.share button{font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.share a:hover,.share button:hover{border-color:var(--brass);color:var(--brass)}.share .sh-native{background:var(--brass);color:#0E1024;border-color:var(--brass)}
+.share{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share .sh-main{display:inline-flex;align-items:center;gap:8px;font:600 14px/1 Manrope,system-ui,sans-serif;color:#0E1024;background:var(--brass);border:0;border-radius:999px;padding:11px 18px;cursor:pointer}.sh-pop{display:flex;flex-wrap:wrap;gap:8px}.sh-pop[hidden]{display:none}.sh-pop a,.sh-pop button{font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.sh-pop a:hover,.sh-pop button:hover{border-color:var(--brass);color:var(--brass)}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}.tags a{font-size:12px;color:var(--dusk);border:1px solid var(--line);border-radius:999px;padding:4px 10px;text-decoration:none}.tags a:hover{color:var(--brass);border-color:var(--brass)}.poll b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.poll h3{margin:6px 0 12px;font:600 22px/1.3 "Cormorant Garamond",Georgia,serif}.poll button{display:block;width:100%;text-align:left;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--parch);font:15px Manrope,system-ui,sans-serif;cursor:pointer}.poll button:hover{border-color:var(--brass)}.poll .pr{position:relative;overflow:hidden;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;display:flex;justify-content:space-between;gap:10px}.poll .pr.me{border-color:var(--brass)}.poll .pr span{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.15)}.poll .pr em,.poll .pr strong{position:relative;font-style:normal}.poll small{color:var(--dusk)}
 .hdr-r{display:flex;align-items:center;gap:10px}.srch{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid var(--line);border-radius:999px;color:var(--parch)}.srch:hover{color:var(--brass);border-color:var(--brass)}
 .gpref{text-align:center;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)}.gpref a{color:var(--brass);text-decoration:none}.gpref a:hover{color:var(--parch)}.gpref b{color:var(--brass);font-weight:400}
 header{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;border-bottom:1px solid var(--line);position:relative}
@@ -1257,19 +1257,31 @@ def _figure(img: dict, alt: str, eager: bool = False, caption: str = "") -> str:
 
 
 def _share_html(url: str, title: str) -> str:
-    """Megosztás-sáv a cikk alján: telefonon a rendszer saját megosztója, mellette Facebook, WhatsApp, X, link másolása."""
+    """Egyetlen „Megosztás” gomb: telefonon a rendszer saját megosztója (minden alkalmazás egy helyen),
+    gépen egy kis lenyíló: Facebook, WhatsApp, X, link másolása."""
     u, t = urllib.parse.quote(url, safe=""), urllib.parse.quote(title, safe="")
-    return (f'<div class="share" data-url="{E(url)}" data-title="{E(title)}"><b>Oszd meg</b>'
-            '<button type="button" class="sh-native" hidden>Megosztás…</button>'
+    return (f'<div class="share" data-url="{E(url)}" data-title="{E(title)}">'
+            '<button type="button" class="sh-main"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" '
+            'stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+            '<path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg>'
+            'Megosztás</button><span class="sh-pop" hidden>'
             f'<a href="https://www.facebook.com/sharer/sharer.php?u={u}" target="_blank" rel="noopener">Facebook</a>'
             f'<a href="https://wa.me/?text={t}%20{u}" target="_blank" rel="noopener">WhatsApp</a>'
             f'<a href="https://x.com/intent/post?url={u}&text={t}" target="_blank" rel="noopener">X</a>'
-            '<button type="button" class="sh-copy">Link másolása</button></div>'
-            "<script>(function(){var d=document.currentScript.previousElementSibling,n=d.querySelector('.sh-native'),"
-            "c=d.querySelector('.sh-copy'),u=d.dataset.url,t=d.dataset.title;if(navigator.share){n.hidden=false;"
-            "n.onclick=function(){navigator.share({title:t,url:u}).catch(function(){})}}c.onclick=function(){"
+            '<button type="button" class="sh-copy">Link másolása</button></span></div>'
+            "<script>(function(){var d=document.currentScript.previousElementSibling,m=d.querySelector('.sh-main'),"
+            "p=d.querySelector('.sh-pop'),c=d.querySelector('.sh-copy'),u=d.dataset.url,t=d.dataset.title;"
+            "m.onclick=function(){if(navigator.share&&matchMedia('(pointer:coarse)').matches){navigator.share({title:t,url:u})"
+            ".catch(function(){})}else{p.hidden=!p.hidden}};c.onclick=function(){"
             "(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(function(){c.textContent='Másolva ✓'},"
             "function(){prompt('A cikk linkje:',u)})}})();</script>")
+
+
+def _tags_html(tags: list) -> str:
+    """Kulcsszavak a cikk tetején – kattintásra a keresőben az összes kapcsolódó cikk."""
+    tags = [str(x).strip() for x in tags or [] if str(x).strip()][:6]
+    return ('<p class="tags">' + "".join(f'<a href="/?kereses={E(urllib.parse.quote(x))}">{E(x)}</a>' for x in tags)
+            + '</p>') if tags else ""
 
 
 def render_article_page(a: dict, related: Optional[list] = None) -> str:
@@ -1303,12 +1315,23 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
 <p class="kicker">{E(section["kicker"])}{(" · " + E(str(year))) if year else ""}</p>
 <h1>{E(a["title"])}</h1>
 <p class="meta">{E(a["authorship"]["byline"])} · <time datetime="{E(published)}">{E(published.replace("-", ". "))}.</time> · {a.get("reading_time_min", 1)} perc olvasás</p>
+{_tags_html(a.get("tags"))}
 <p class="lead">{E(a["lead"])}</p>
 {figure}
 {keypoints}
 {quote}
 {paras}
 </article>
+<div id="artPoll" class="box poll" hidden></div><script>/* A nap kérdése a cikkben is, ha erre a cikkre mutat (szavazatok: /api/poll, Cloudflare D1). */
+(function(){{var box=document.getElementById('artPoll');if(!box)return;
+function e(v){{return String(v==null?'':v).replace(/[&<>"']/g,function(c){{return{{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}}[c]}})}}
+fetch('/public/data/polls.json',{{cache:'no-cache'}}).then(function(r){{return r.json()}}).then(function(d){{
+var p=(d.polls||[]).filter(function(x){{return x.article_url===location.pathname&&Date.parse(x.closes_at)>Date.now()}})[0];if(!p)return;
+function show(r){{var t=r.total||0;box.innerHTML='<b>A nap kérdése</b><h3>'+e(p.question)+'</h3>'+p.options.map(function(o,i){{var pc=t?Math.round(100*(r.counts[i]||0)/t):0;
+return '<div class="pr'+(r.voted===i?' me':'')+'"><span style="width:'+pc+'%"></span><em>'+e(o)+(r.voted===i?' ✓':'')+'</em><strong>'+pc+'%</strong></div>'}}).join('')+'<small>'+(t>=200?t+' szavazat · ':'')+(r.closed?'lezárult':'a szavazás nyitva')+'</small>';box.hidden=false}}
+function ask(){{box.innerHTML='<b>A nap kérdése</b><h3>'+e(p.question)+'</h3>'+p.options.map(function(o,i){{return '<button type="button" data-i="'+i+'">'+e(o)+'</button>'}}).join('')+'<small>Szavazz, és utána látod az eredményt.</small>';box.hidden=false;
+box.querySelectorAll('button').forEach(function(b){{b.onclick=function(){{fetch('/api/poll',{{method:'POST',headers:{{'Content-Type':'application/json'}},body:JSON.stringify({{id:p.id,option:+b.dataset.i}})}}).then(function(r){{return r.json()}}).then(function(r){{if(r.counts)show(r)}})}}}})}}
+fetch('/api/poll?id='+encodeURIComponent(p.id)).then(function(r){{return r.json()}}).then(function(r){{if(!r.ok)return;(r.voted!==null||r.closed)?show(r):ask()}})}}).catch(function(){{}})}})();</script>
 {_share_html(a["seo"]["canonical_url"], a["title"])}
 {see_also}
 <details class="box"><summary>Források ({len(a.get("sources", []))})</summary><ul>{sources or "<li>—</li>"}</ul></details>
@@ -1845,6 +1868,66 @@ def same_story_as_recent(ai: "AIClient", group: list, recent_titles: list) -> bo
     return False
 
 
+ON_DEMAND_SYSTEM = "Hírszerkesztő vagy. Egy hírt a megfelelő rovatba sorolsz. Csak JSON-t adsz vissza."
+
+
+def build_on_demand(ai: "AIClient", text: str, tz: ZoneInfo, articles: list) -> Optional[dict]:
+    """A szerkesztő Telegramon küld egy linket vagy témát → a robot cikket ír róla (jóváhagyásra).
+    Link: a cikk szövege a forrás; téma: a Google Hírek friss találatai (max. 4 forrás)."""
+    now = datetime.now(tz)
+    url = (re.search(r"https?://\S+", text) or [None])[0]
+    story = []
+    if url:
+        body = fetch_article_text(url, ai.cfg.http_timeout, 6000)
+        title = ""
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; KollektivaBot/1.0)"})
+            with urllib.request.urlopen(req, timeout=ai.cfg.http_timeout) as resp:
+                head = resp.read(200_000).decode("utf-8", "ignore")
+            m = (re.search(r'<meta[^>]+property=["\']og:title["\'][^>]+content=["\']([^"\']+)', head, re.I)
+                 or re.search(r"<title[^>]*>(.*?)</title>", head, re.I | re.S))
+            title = html.unescape(m.group(1)).strip() if m else ""
+        except (urllib.error.URLError, TimeoutError, OSError, ValueError):
+            pass
+        if not body and not title:
+            return None
+        host = re.sub(r"^www\.", "", urllib.parse.urlparse(url).netloc)
+        story = [{"title": title or text[:120], "link": url, "summary": body[:600], "source": host,
+                  "published": now, "categories": [], "fulltext": body}]
+    else:
+        q = urllib.parse.quote(text.strip()[:120])
+        items = fetch_feed(f"https://news.google.com/rss/search?q={q}&hl=hu&gl=HU&ceid=HU:hu", ai.cfg.http_timeout)
+        story = items[:4]
+        if not story:
+            return None
+    for s in story:
+        s["kw"] = _keywords(s["title"] + " " + (s.get("summary") or "")[:200])
+    try:
+        sec = ai.complete_json(ON_DEMAND_SYSTEM, "Rovatok: " + ", ".join(f"{k} ({v['name']})" for k, v in SECTIONS.items())
+                               + f"\n\nHír: {story[0]['title']}\n{(story[0].get('summary') or '')[:400]}\n\n"
+                               + 'Melyik rovatba való? JSON: {"section": "rovat azonosító"}', 100, light=True).get("section")
+    except (AIError, ValueError, TypeError, KeyError):
+        sec = None
+    section = SECTIONS.get(sec) or SECTIONS.get("kozelet") or next(iter(SECTIONS.values()))
+    recent_imgs = {(a.get("hero_image") or {}).get("url") for a in articles[:60]} - {None}
+    art = build_section_article(ai, section, now.date(), tz, story, recent_imgs, related_past(articles, story))
+    if art:
+        art["status"] = "pending"
+        art["requested"] = True
+        art["hot_score"] = max(art.get("hot_score") or 0, 5)
+    return art
+
+
+def _proper_keys(text: str) -> set:
+    """Tulajdonnevek (nagybetűs szavak, nem mondatkezdők) kulcsai: személy, hely, intézmény, márka."""
+    out = set()
+    for m in re.finditer(r"(?<![.!?:–]\s)(?<!^)\b([A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüű]{3,})", text.strip()):
+        w = m.group(1).lower()
+        if w not in STOPWORDS:
+            out.add(w[:7])
+    return out
+
+
 def related_past(articles: list, story: list, limit: int = 3, days: int = 45) -> list:
     """„Belső memória”: a korábbi saját cikkeink közül azok, amelyek ugyanarról az ügyről/szereplőről szóltak
     (legalább 3 közös kulcsszó). Ezek háttérként mennek a cikkíráshoz, és „Korábban írtuk” linkként a cikk alá."""
@@ -1853,15 +1936,29 @@ def related_past(articles: list, story: list, limit: int = 3, days: int = 45) ->
         kw |= s.get("kw") or _keywords(s.get("title", "") + " " + (s.get("summary") or "")[:200])
     links = {s.get("link") for s in story}
     cutoff = (datetime.now() - timedelta(days=days)).date().isoformat()
+    pool = [a for a in articles if a.get("status") == "published" and (a.get("date") or "") >= cutoff
+            and not links & set(a.get("category_meta", {}).get("source_links", []))]
+    akw = [(a, _keywords(a.get("title", "") + " " + (a.get("lead") or ""))) for a in pool]
+    names = set()
+    for s_ in story[:3]:
+        names |= _proper_keys(s_.get("title", "") + ". " + (s_.get("summary") or "")[:300])
+    df: dict = {}
+    for _, ks in akw:
+        for k in ks:
+            df[k] = df.get(k, 0) + 1
+    n_docs = max(len(akw), 1)
+
+    def weight(k: str) -> float:  # ritka szó = erős kapcsolat, gyakori szó = gyenge
+        f = df.get(k, 0) / n_docs
+        return 1.0 if f <= 0.03 else 0.6 if f <= 0.08 else 0.25
     scored = []
-    for a in articles:
-        if a.get("status") != "published" or (a.get("date") or "") < cutoff:
-            continue
-        if links & set(a.get("category_meta", {}).get("source_links", [])):
-            continue
-        common = kw & _keywords(a.get("title", "") + " " + (a.get("lead") or ""))
-        if len(common) >= 3:
-            scored.append((len(common), a.get("date", ""), a))
+    for a, ks in akw:
+        common = kw & ks
+        w = round(sum(weight(k) for k in common), 2)
+        # kell legalább egy közös tulajdonnév (személy, hely, intézmény) – különben csak a téma hasonló
+        shared_names = names & _proper_keys(a.get("title", "") + ". " + (a.get("lead") or ""))
+        if len(common) >= 3 and w >= 2.4 and shared_names:
+            scored.append((w, a.get("date", ""), a))
     scored.sort(key=lambda x: (x[0], x[1]), reverse=True)  # legtöbb közös szó, azon belül a legfrissebb
     return [{"id": a.get("id"), "title": a.get("title"), "lead": a.get("lead"), "url": a.get("url"),
              "date": a.get("date"), "score": n, "thread_id": a.get("thread_id") or a.get("id")}
@@ -1904,7 +2001,7 @@ def section_prompt(section: dict, story: list, d: date, context: Optional[list] 
                       for i, s in enumerate(story))
     bg = "\n".join(f"- {c}" for c in (context or []))
     bg_block = f"\nHáttér a szereplőkhöz (magyar Wikipédia – csak magyarázatra, ha tényleg ugyanarról van szó):\n{bg}\n" if bg else ""
-    if past and max(p.get("score", 0) for p in past) >= 4:
+    if past and max(p.get("score", 0) for p in past) >= 3.5:
         bg_block += ("\nFOLYTATÁS: ez egy folyamatban lévő ügy ÚJ fejleménye, amelyről korábban már írtunk. A cikk az ÚJ "
                      "fejleményről szóljon (a cím is ezt tükrözze); az előzményeket legfeljebb egy rövid bekezdésben "
                      "foglald össze, és ne ismételd meg a korábbi cikkek tartalmát.\n")
@@ -1928,7 +2025,11 @@ esemény külön blokkban szerepeljen, a blokk első bekezdése „## Rövid alc
 Írj ebből egy eredeti, magyar nyelvű magazincikket:
 - "title": RÖVID (max. 7 szó), közepesen clickbait cím: kíváncsiságot keltő fordulat, meglepő szám vagy kérdés
   (pl. „Ezért drágul…”, „Kiderült, mi…”, „X forintot…”) – de legyen igaz, ne ijesztgessen és ne túlozzon
+  Ha a téma engedi (politikai húzások, abszurd helyzetek, bulvár), a cím lehet ironikus/szarkasztikus is – de
+  tragédiánál, áldozatoknál, betegségnél SOHA.
 - "title_options": 2 további, eltérő stílusú címváltozat (ugyanazokkal a szabályokkal), tömbként
+- "clickbait_titles": 3 további cím, ami a lehető legkattintósabb (erős érzelem, rejtély, „ezt nem fogod elhinni”
+  hatás, kérdés, szám) – de továbbra is IGAZ, nem állít olyat, ami nincs a cikkben, és nem sértő
 - "lead": 2 mondatos bevezető: mi történt és miért fontos
 - "key_points": 3–5 rövid, egymondatos pont a lényegről („Röviden” doboz)
 - "body": bekezdések tömbje. A HOSSZ A TARTALOMHOZ IGAZODJON: egyszerű hírnél 300–450 szó elég; ha a téma
@@ -2010,6 +2111,12 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         t = str(t).strip()
         if t and t not in title_options and not title_too_similar(t, story):
             title_options.append(t)
+    title_options = title_options[:3]
+    clickbait_from = len(title_options)  # innentől a 🔥 „maximum clickbait” címek (Telegramon külön jelölve)
+    for t in raw.get("clickbait_titles") or []:
+        t = str(t).strip()
+        if t and t not in title_options and not title_too_similar(t, story) and len(title_options) < clickbait_from + 3:
+            title_options.append(t)
     now_iso = now.isoformat(timespec="seconds")
     slug = slugify(f"{d.isoformat()}-{art['title']}")
     sources = normalize_sources([{"url": s["link"], "title": s["title"], "publisher": s["source"]} for s in story], now_iso)
@@ -2027,7 +2134,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         "authorship": {"mode": "ai_generated", "byline": "Kollektíva szerkesztőség", "model": ai.label.split(":", 2)[-1],
                        "prompt_version": "section-v2", "reviewed_by": None, "reviewed_at": None},
         "hot_score": story[0].get("hot_score", 0),
-        "title_options": title_options[:3], "image_options": image_options,
+        "title_options": title_options, "clickbait_from": clickbait_from, "image_options": image_options,
         "story": [{k: s.get(k) for k in ("title", "link", "summary", "source", "related", "hot_score")} for s in story],
         "category_meta": {"source_links": [s["link"] for s in story if not s.get("related")]},
         "date": d.isoformat(), "date_label": f"{HU_MONTHS[d.month - 1]} {d.day}.",
@@ -2039,7 +2146,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
                          "sponsor_name": None, "affiliate_links": False},
         "related_ids": [p["id"] for p in past or [] if p.get("id")],
         "see_also": [{"title": p["title"], "url": p["url"], "date": p.get("date")} for p in past or [] if p.get("url")],
-        "thread_id": next((p["thread_id"] for p in past or [] if p.get("score", 0) >= 4 and p.get("thread_id")), None),
+        "thread_id": next((p["thread_id"] for p in past or [] if p.get("score", 0) >= 3.5 and p.get("thread_id")), None),
         "dedupe_hash": hashlib.sha256(f"{section['id']}|{story[0]['link']}".encode()).hexdigest(),
         "pipeline_run_id": os.getenv("GITHUB_RUN_ID"), "generator": ai.label,
         "created_at": now_iso, "updated_at": now_iso, "published_at": now_iso if status == "published" else None,
