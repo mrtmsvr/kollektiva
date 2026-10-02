@@ -69,4 +69,14 @@ def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: boo
     if dry_run:
         return 1
     kc.write_json_atomic(path, {"updated_at": now.isoformat(timespec="seconds"), "polls": [poll] + polls[:29]})
+    try:  # értesítés Telegramon, leszedés gombbal
+        import telegram_review as tr
+        chat = tr.load_state().get("chat_id") if os.getenv("TELEGRAM_BOT_TOKEN") else None
+        if chat:
+            tr.tg("sendMessage", {"chat_id": chat, "text": f"🗳 Új szavazás kint: {q}\n" + " / ".join(opts)
+                                  + f"\n(cikk: {art['title']})",
+                                  "reply_markup": {"inline_keyboard": [[{"text": "🗑 Szavazás leszedése",
+                                                                        "callback_data": f"pdel|{poll['id']}"}]]}})
+    except Exception as e:  # noqa: BLE001
+        log.warning("Szavazás-értesítés kimaradt: %s", e)
     return 1
