@@ -12075,68 +12075,90 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Ongjerth_k%C3%A9p_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 798,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "View from Buda Castle towards the Northern west Budapest",
-          "credit": "Jakub Hałun / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:20190502_View_from_Buda_Castle_1059_2025_DxO.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 675,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "View from Buda Castle towards the Northern west Budapest as of May 2014.",
-          "credit": "Perituss / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:View_from_Buda_Castle_2014_01.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Sustainable_Urban_Mobility_Planning_Cycle.png/1280px-The_Sustainable_Urban_Mobility_Planning_Cycle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1336,
+          "height": 1459,
           "kind": "photo",
           "pos": "top",
-          "alt": "The Sustainable Urban Mobility Planning Cycle\npreparation\ngoal setting\nelaboration\nimplementation\n\nTransformative Urban Mobility Initiative (TUMI)",
-          "credit": "Transformative Urban Mobility Initiative (TUMI) / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:The_Sustainable_Urban_Mobility_Planning_Cycle.png"
+          "alt": "Országos Urbanisztikai Konferencia a Danubius Hotel Gellért szállóban, a MUT szervezésében.",
+          "credit": "Ongjerth / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ongjerth_k%C3%A9p_2.jpg"
         },
         {
-          "url": "https://live.staticflickr.com/174/426923507_6b0d48c04f_b.jpg",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Plaque_to_Hungarian_National_Federation_of_Construction_Workers_at_68_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Budapest.jpg/1280px-Plaque_to_Hungarian_National_Federation_of_Construction_Workers_at_68_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "MÉMOSZ - Magyarországi Építőmunkások Országos Szövetségének emléktáblája az egykori munkásmozgalmi székházon amely 1909-ben Messinger Alajos tervei alapján épült. -  Budapest, Erzsébetváros, Ligetváro",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Plaque_to_Hungarian_National_Federation_of_Construction_Workers_at_68_D%C3%B3zsa_Gy%C3%B6rgy_%C3%BAt,_Budapest.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Construction_Girl_by_Makrisz_Agamemnon%2C_2016_%C3%9Ajbuda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": ": Feneketlen-tó (Bottomless lake) Park. Construction Girl (Social worker girl) by Makrisz Agamemnon in 1961. - Budapest District IX, Budapest.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Construction_Girl_by_Makrisz_Agamemnon,_2016_%C3%9Ajbuda.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Hudson_Yards_Real_Estate_Development_Update-_April_16%2C_2015_%2816992354740%29.jpg/1280px-Hudson_Yards_Real_Estate_Development_Update-_April_16%2C_2015_%2816992354740%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 799,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Work is progressing over LIRR West Side Yards as part of the Hudson Yards Real Estate Development. Photo: Metropolitan Transportation Authority / Patrick Cashin",
+          "credit": "Metropolitan Transportation Authority of the State of New York / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hudson_Yards_Real_Estate_Development_Update-_April_16,_2015_(16992354740).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/SITE_OF_REAL_ESTATE_DEVELOPMENT_ON_HYLAN_BOULEVARD%2C_STATEN_ISLAND_-_NARA_-_547912.jpg/1280px-SITE_OF_REAL_ESTATE_DEVELOPMENT_ON_HYLAN_BOULEVARD%2C_STATEN_ISLAND_-_NARA_-_547912.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 804,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "",
+          "credit": "Arthur Tress / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:SITE_OF_REAL_ESTATE_DEVELOPMENT_ON_HYLAN_BOULEVARD,_STATEN_ISLAND_-_NARA_-_547912.jpg"
+        },
+        {
+          "url": "https://live.staticflickr.com/7385/11295891426_608ba24410_b.jpg",
           "width": 1024,
           "height": 768,
           "kind": "photo",
-          "alt": "modern architecture in Asakusa Tokyo Japan",
-          "credit": "Retinafunk / flickr",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://www.flickr.com/photos/59328597@N00/426923507"
-        },
-        {
-          "url": "https://live.staticflickr.com/5494/10860448526_2de277155e_b.jpg",
-          "width": 1024,
-          "height": 683,
-          "kind": "photo",
-          "alt": "2011.04 - 'Urban modern architecture', entrance & reflectionsof a residential block built in the 1980's in the district Kinkerbuurt / Oud-West; photos of Amsterdam city; urban photographer Fons Heijns",
+          "alt": "2007.08 - 'View over the long construction site' of the new metro tunnel under the city-center of Amsterdam,Prinsengracht / Vijzelgracht in the old city; Dutch photo + geotag - urban photography by Fo",
           "credit": "Amsterdam free photos & pictures of the Dutch city / flickr",
           "license": "Public domain",
-          "source_url": "https://www.flickr.com/photos/104736837@N03/10860448526"
+          "source_url": "https://www.flickr.com/photos/104736837@N03/11295891426"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Modern_architecture_build.jpg/1280px-Modern_architecture_build.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://live.staticflickr.com/3768/10573619244_8c4aaf6584_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "2007.08 - 'View over the construction site' - civil engineering for the underground tunnel - with the characteristic iron sheet pilings; location on the North side of Amsterdam city; Dutch city photo ",
+          "credit": "Amsterdam free photos & pictures of the Dutch city / flickr",
+          "license": "Public domain",
+          "source_url": "https://www.flickr.com/photos/104736837@N03/10573619244"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Drilling_rig_at_a_construction_site_in_Tuntorp.jpg/1280px-Drilling_rig_at_a_construction_site_in_Tuntorp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 1800,
           "kind": "photo",
           "pos": "top",
-          "alt": "Modern architecture",
-          "credit": "Unknown authorUnknown author / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Modern_architecture_build.jpg"
+          "alt": "Epiroc SmartRoc T40 surface drill rig from Vestfold Fjellboring AS, drilling blast holes for dynamite into granite rocks at a construction site for a new house in Tuntorp, Brastad, Lysekil Municipalit",
+          "credit": "W.carter / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Drilling_rig_at_a_construction_site_in_Tuntorp.jpg"
         }
       ],
       "story": [
@@ -12202,10 +12224,35 @@
           1325,
           1326,
           1327,
-          1328
+          1328,
+          1357,
+          1358,
+          1359,
+          1360,
+          1361,
+          1362,
+          1363,
+          1364
         ],
-        "control_id": 1329
-      }
+        "control_id": 1365
+      },
+      "image_queries": [
+        "Northern Railway Repair Shop Budapest",
+        "Orszagos Urbanisztikai Konferencia",
+        "construction workers Budapest",
+        "real estate development site",
+        "construction site",
+        "workers building",
+        "urban development"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Modern_architecture_build.jpg/1280px-Modern_architecture_build.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/174/426923507_6b0d48c04f_b.jpg",
+        "https://live.staticflickr.com/5494/10860448526_2de277155e_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Sustainable_Urban_Mobility_Planning_Cycle.png/1280px-The_Sustainable_Urban_Mobility_Planning_Cycle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "e952a48b-4276-5d3a-a8ac-3fc17f66a555",
