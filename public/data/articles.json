@@ -1,7 +1,102 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T13:48:29+02:00",
+  "updated_at": "2026-10-02T13:50:27+02:00",
   "articles": [
+    {
+      "id": "aad5c312-6f73-52a8-8d5f-1d463f09f75d",
+      "slug": "2026-10-02-ujabb-nehez-vizsgalat-elott-all-a-fitneszkiralyno",
+      "status": "published",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Rubint Réka",
+        "Schobert Norbert",
+        "egészség",
+        "bulvár"
+      ],
+      "title": "Újabb nehéz vizsgálat előtt áll a fitneszkirálynő",
+      "subtitle": null,
+      "lead": "Újabb fontos egészségügyi ellenőrzésen esett át a lágyrészszarkómával küzdő Rubint Réka, aki nyíltan beszélt a gyógyulásért vívott harcáról. A fitneszedző pozitív üzenettel és egy saját magát is lelkileg támogató mantrával fordult a követőihez.",
+      "key_points": [
+        "Rubint Réka évek óta lágyrészszarkómával harcol.",
+        "A legutóbbi ellenőrzés előtt PET-CT vizsgálatnak vetette alá magát.",
+        "A Schobert család korábban meghirdetett szentendrei ingatlana kapcsán is újdonság látott napvilágot."
+      ],
+      "content": "Rubint Réka fitneszedző a napokban egy újabb jelentős diagnosztikai vizsgálaton, PET-CT-n vett részt, amely a modern onkológia egyik legfontosabb eszköze a teljes test áttéteinek feltérképezésére. A közösségi oldalán megosztott bejegyzésében úgy fogalmazott, hogy a vizsgálat előtt is bízik a gyógyulásban, és soha nem adja fel a küzdelmet.\n\nA hír kapcsán érdemes felidézni, hogy a ritka és agresszív daganatos betegséggel, lágyrészszarkómával folytatott harc során az elmúlt években kemoterápiás, sugárkezelési és sebészeti beavatkozásokon is átesett, köztük egy júniusi májműtéten, valamint külföldi immunterápiákon.\n\nKözben egy másik ügyben is változás történt a család körül: Schobert Norbert elismerte, hogy valóban szeretnék eladni a korábban meghirdetett, 1,2 milliárd forintos szentendrei luxusvillájukat, amelynek hirdetése korábban felkeltette a nyilvánosság figyelmét.",
+      "content_format": "markdown",
+      "body": [
+        "Rubint Réka fitneszedző a napokban egy újabb jelentős diagnosztikai vizsgálaton, PET-CT-n vett részt, amely a modern onkológia egyik legfontosabb eszköze a teljes test áttéteinek feltérképezésére. A közösségi oldalán megosztott bejegyzésében úgy fogalmazott, hogy a vizsgálat előtt is bízik a gyógyulásban, és soha nem adja fel a küzdelmet.",
+        "A hír kapcsán érdemes felidézni, hogy a ritka és agresszív daganatos betegséggel, lágyrészszarkómával folytatott harc során az elmúlt években kemoterápiás, sugárkezelési és sebészeti beavatkozásokon is átesett, köztük egy júniusi májműtéten, valamint külföldi immunterápiákon.",
+        "Közben egy másik ügyben is változás történt a család körül: Schobert Norbert elismerte, hogy valóban szeretnék eladni a korábban meghirdetett, 1,2 milliárd forintos szentendrei luxusvillájukat, amelynek hirdetése korábban felkeltette a nyilvánosság figyelmét."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 148,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Reka_Rubint_768x1024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Rubint Rékáról készült életnagyságú olajfestmény Schobert Norbert és Rubint Réka tulajdonában van 2015 november 13 napja óta, a 24.hu cikke szerint.",
+        "credit": "Angyalisziget1 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Reka_Rubint_768x1024.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/rubint-reka-pet-ct-vizsgalat-rak/e40h744",
+          "title": "\"Készen álljak és ne féljek\" – Újabb fontos vizsgálatnak vetette alá magát a rákkal küzdő Rubint Réka: ez tartja benne a lelket – fotó",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T13:45:40+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-02T13:50:27+02:00"
+      },
+      "hot_score": 6.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/rubint-reka-pet-ct-vizsgalat-rak/e40h744"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/bulvar/2026-10-02-ujabb-nehez-vizsgalat-elott-all-a-fitneszkiralyno/",
+      "seo": {
+        "meta_title": "Újabb nehéz vizsgálat előtt áll a fitneszkirálynő",
+        "meta_description": "Újabb fontos egészségügyi ellenőrzésen esett át a lágyrészszarkómával küzdő Rubint Réka, aki nyíltan beszélt a gyógyulásért vívott harcáról. A fitneszedző pozit",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-02-ujabb-nehez-vizsgalat-elott-all-a-fitneszkiralyno/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Reka_Rubint_768x1024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "37ac7f651845f8dd95dee6d4e935bd6e3ace42f0ee3a0c187fe766849fdca235",
+      "pipeline_run_id": "37002618952",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T13:50:27+02:00",
+      "updated_at": "2026-10-02T13:50:27+02:00",
+      "published_at": "2026-10-02T13:50:27+02:00",
+      "expires_at": null
+    },
     {
       "id": "2450f417-df39-58d4-b931-a90860e68816",
       "slug": "2026-10-02-amerikai-sikerkonyv-forgatja-fel-a-sztoicizmust",
