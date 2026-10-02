@@ -10504,90 +10504,90 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Garay_ter_1_in_Szekszard_%281%29.jpg/1280px-Garay_ter_1_in_Szekszard_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Six_Hungarian_forint_banknotes_-_DPLA_-_50c1922bcaee8d769c07d36977907f49_%28page_8%29.jpg/1280px-Six_Hungarian_forint_banknotes_-_DPLA_-_50c1922bcaee8d769c07d36977907f49_%28page_8%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1093,
+          "height": 845,
           "kind": "photo",
-          "pos": "top",
-          "alt": "Building at Garay tér 1 (seen from Széchenyi utca) in Szekszárd, Tolna County, Hungary",
-          "credit": "Tournasol7 / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Garay_ter_1_in_Szekszard_(1).jpg"
+          "pos": "center",
+          "alt": "Six Hungarian forint banknotes, in denominations of one, two (2 notes), five, ten, and one hundred.",
+          "credit": "Magyar Kereskedelmi Bank / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Six_Hungarian_forint_banknotes_-_DPLA_-_50c1922bcaee8d769c07d36977907f49_(page_8).jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/MAV_99_55_9482_102-8%2C_Szekszard_railway_station%2C_2016_Szekszard.jpg/1280px-MAV_99_55_9482_102-8%2C_Szekszard_railway_station%2C_2016_Szekszard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Six_Hungarian_forint_banknotes_-_DPLA_-_50c1922bcaee8d769c07d36977907f49_%28page_2%29.jpg/1280px-Six_Hungarian_forint_banknotes_-_DPLA_-_50c1922bcaee8d769c07d36977907f49_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 841,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Six Hungarian forint banknotes, in denominations of one, two (2 notes), five, ten, and one hundred.",
+          "credit": "Magyar Kereskedelmi Bank / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Six_Hungarian_forint_banknotes_-_DPLA_-_50c1922bcaee8d769c07d36977907f49_(page_2).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Ring_sculpture_detail%2C_church%2C_B%C3%A9la_Square%2C_2016_Szekszard.jpg/1280px-Ring_sculpture_detail%2C_church%2C_B%C3%A9la_Square%2C_2016_Szekszard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": ":  Track maintenance vehicle (road number UDJ-102) at work, Szekszárd railway station.- Pollack Street, Szekszárd, Tolna County, Hungary.",
+          "alt": "'Garden Ring' sculpture. The ring symbolizes loyalty of the binding in/to the city. A church is on the focus, surrounded by a typical landscape of Transdanubia (arable land, crops etc.). The sculptur",
           "credit": "Globetrotter19 / Wikimedia Commons",
           "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:MAV_99_55_9482_102-8,_Szekszard_railway_station,_2016_Szekszard.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ring_sculpture_detail,_church,_B%C3%A9la_Square,_2016_Szekszard.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/View_Landscape_Kerkafalva_Zala.jpg/1280px-View_Landscape_Kerkafalva_Zala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Ring_sculpture_detail%2C_north%2C_B%C3%A9la_Square%2C_2016_Szekszard.jpg/1280px-Ring_sculpture_detail%2C_north%2C_B%C3%A9la_Square%2C_2016_Szekszard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": ": 'Garden Ring' sculpture. The ring symbolizes loyalty of the binding in/to the city. A church is on the focus, surrounded by a typical landscape of Transdanubia (arable land, crops etc.). The sculpt",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ring_sculpture_detail,_north,_B%C3%A9la_Square,_2016_Szekszard.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Building_of_the_Local_Government_of_Buda%C3%B6rs._%28City_Hall%29_Limestone._%282005%29_-_Buda%C3%B6rs%2C_Szabads%C3%A1g_Rd_134.JPG/1280px-Building_of_the_Local_Government_of_Buda%C3%B6rs._%28City_Hall%29_Limestone._%282005%29_-_Buda%C3%B6rs%2C_Szabads%C3%A1g_Rd_134.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budaörs Város Önkormányzata. Mészkő. (2005). Városköszöntő szobor (Bajnok Béla, 1987). - Budaörs, Szabadság út 134",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Building_of_the_Local_Government_of_Buda%C3%B6rs._(City_Hall)_Limestone._(2005)_-_Buda%C3%B6rs,_Szabads%C3%A1g_Rd_134.JPG"
+        },
+        {
+          "url": "https://live.staticflickr.com/6093/6355364425_4c898f97f3_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Stack of Money",
+          "credit": "401(K) 2013 / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/68751915@N05/6355364425"
+        },
+        {
+          "url": "https://live.staticflickr.com/5507/9677860245_f3b5683924_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Stack of Money",
+          "credit": "ota_photos / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/101332430@N03/9677860245"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Money-2180330_1920.jpg/1280px-Money-2180330_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "Kerkafalva Landscape Zala County",
-          "credit": "Nxr-at / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:View_Landscape_Kerkafalva_Zala.jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Kukoricaf%C3%B6ld%2C_Botfa%2C_Zalaegerszeg%2C_2008_Zala_megye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 725,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Cornfield, Botfa, Zalaegerszeg, Zala county, Hungary",
-          "credit": "Pilgab / Wikimedia Commons",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Kukoricaf%C3%B6ld,_Botfa,_Zalaegerszeg,_2008_Zala_megye.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/CoA_of_Tolna_County_by_Zsuzsa_Stekly%2C_2016_Szekszard.jpg/1280px-CoA_of_Tolna_County_by_Zsuzsa_Stekly%2C_2016_Szekszard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1600,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "CoA of Tolna County by Zsuzsa Stekly. - 11-13 Szent István Square, Szekszárd, Tolna County, Hungary.",
-          "credit": "Globetrotter19 / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:CoA_of_Tolna_County_by_Zsuzsa_Stekly,_2016_Szekszard.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Restaurant._-_Tam%C3%A1si%2C_Tolna_County%2C_Hungary.JPG/1280px-Restaurant._-_Tam%C3%A1si%2C_Tolna_County%2C_Hungary.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1600,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Tamasi Bath. - Tamási, Tolna County, Hungary",
-          "credit": "Globetrotter19 / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Restaurant._-_Tam%C3%A1si,_Tolna_County,_Hungary.JPG"
-        },
-        {
-          "url": "https://live.staticflickr.com/8332/8373310466_66fc78dc45_b.jpg",
-          "width": 1024,
-          "height": 680,
-          "kind": "photo",
-          "alt": "i was counting money (or: the dawn of capitalism)",
-          "credit": "Yoni Lerner / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/25570425@N07/8373310466"
-        },
-        {
-          "url": "https://live.staticflickr.com/628/22058345734_5feb8e1098_b.jpg",
-          "width": 1024,
-          "height": 769,
-          "kind": "photo",
-          "alt": "People in India: Counting money",
-          "credit": "Romtomtom / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/84901326@N00/22058345734"
+          "alt": "Money",
+          "credit": "kschneider2991 / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Money-2180330_1920.jpg"
         }
       ],
       "story": [
@@ -10670,9 +10670,17 @@
           1188,
           1189,
           1190,
-          1191
+          1191,
+          1196,
+          1197,
+          1198,
+          1199,
+          1200,
+          1201,
+          1202,
+          1203
         ],
-        "control_id": 1192
+        "control_id": 1204
       },
       "image_queries": [
         "National Cultural Fund Hungary",
@@ -10689,24 +10697,39 @@
         "Tolna county Hungary",
         "financial corruption concept",
         "counting money",
-        "business handshake"
+        "business handshake",
+        "Hungarian Forint banknotes",
+        "Transdanubia landscape Hungary",
+        "local government building Hungary",
+        "regional cultural center Hungary",
+        "stack of money",
+        "financial document",
+        "empty desk"
       ],
       "images_seen": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Szilv%C3%A1sszentm%C3%A1rton%2C_Reservoir%2C_Somogy2.jpg/1280px-Szilv%C3%A1sszentm%C3%A1rton%2C_Reservoir%2C_Somogy2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/9/90/Siklos_Castle_Nr001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d%2C_2016_Hungary.jpg/1280px-V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d%2C_2016_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://live.staticflickr.com/4031/4289726649_2d622fe46e_b.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg/1280px-Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Beverley_Guildhall_Courtroom.jpg/1280px-Beverley_Guildhall_Courtroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hank%C3%B3_Bal%C3%A1zs_in_2025_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://live.staticflickr.com/54/117048243_7cc6bb0b87_b.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/P%C3%A9cs_%28148%29.jpg/1280px-P%C3%A9cs_%28148%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Siklos_Castle%2C_Summer_Theater_auditorium.jpg/1280px-Siklos_Castle%2C_Summer_Theater_auditorium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/a/ac/Baranya_Flag%28HUNGARY%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://upload.wikimedia.org/wikipedia/commons/6/64/Hungary_-_Baranya_Megyei_Rendorseg_%28Baranya_County_Police%29_%286656014051%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Garay_ter_1_in_Szekszard_%281%29.jpg/1280px-Garay_ter_1_in_Szekszard_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg/1280px-Hank%C3%B3_Bal%C3%A1zs_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Restaurant._-_Tam%C3%A1si%2C_Tolna_County%2C_Hungary.JPG/1280px-Restaurant._-_Tam%C3%A1si%2C_Tolna_County%2C_Hungary.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Szilv%C3%A1sszentm%C3%A1rton%2C_Reservoir%2C_Somogy2.jpg/1280px-Szilv%C3%A1sszentm%C3%A1rton%2C_Reservoir%2C_Somogy2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://upload.wikimedia.org/wikipedia/commons/1/16/Griffmadaras_kapu%2C_Gyulai_P%C3%A1l_utca_13%2C_2017_Palotanegyed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Siklos_Castle%2C_Summer_Theater_auditorium.jpg/1280px-Siklos_Castle%2C_Summer_Theater_auditorium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_%281872%29%2C_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg/1280px-Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_%281872%29%2C_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hank%C3%B3_Bal%C3%A1zs_in_2025_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/CoA_of_Tolna_County_by_Zsuzsa_Stekly%2C_2016_Szekszard.jpg/1280px-CoA_of_Tolna_County_by_Zsuzsa_Stekly%2C_2016_Szekszard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/6/64/Hungary_-_Baranya_Megyei_Rendorseg_%28Baranya_County_Police%29_%286656014051%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://upload.wikimedia.org/wikipedia/commons/9/90/Siklos_Castle_Nr001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://live.staticflickr.com/628/22058345734_5feb8e1098_b.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/39/Kukoricaf%C3%B6ld%2C_Botfa%2C_Zalaegerszeg%2C_2008_Zala_megye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://upload.wikimedia.org/wikipedia/commons/a/ac/Baranya_Flag%28HUNGARY%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Beverley_Guildhall_Courtroom.jpg/1280px-Beverley_Guildhall_Courtroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/MAV_99_55_9482_102-8%2C_Szekszard_railway_station%2C_2016_Szekszard.jpg/1280px-MAV_99_55_9482_102-8%2C_Szekszard_railway_station%2C_2016_Szekszard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/8332/8373310466_66fc78dc45_b.jpg",
+        "https://live.staticflickr.com/4031/4289726649_2d622fe46e_b.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/P%C3%A9cs_%2899%29.jpg/1280px-P%C3%A9cs_%2899%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_%281872%29%2C_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg/1280px-Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_%281872%29%2C_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d%2C_2016_Hungary.jpg/1280px-V%C3%A1rhegy_Hill_observation_tower_in_Fony%C3%B3d%2C_2016_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/View_Landscape_Kerkafalva_Zala.jpg/1280px-View_Landscape_Kerkafalva_Zala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/54/117048243_7cc6bb0b87_b.jpg"
       ]
     },
     {
