@@ -1,7 +1,102 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T12:21:25+02:00",
+  "updated_at": "2026-10-02T12:21:54+02:00",
   "articles": [
+    {
+      "id": "b5f5555c-cdf2-54c3-b304-74416e8f2416",
+      "slug": "2026-10-02-tobbet-fogyaszt-a-google-maps",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "Google Maps",
+        "navigáció",
+        "technológia",
+        "autózás"
+      ],
+      "title": "Többet fogyaszt a Google Maps?",
+      "subtitle": null,
+      "lead": "Megváltoztatta útvonaltervezési algoritmusát a Google Maps, ami miatt a sofőrök a vártnál később érkezhetnek meg céljukhoz. A szoftver ugyanis a leggyorsabb helyett az üzemanyag-takarékos útvonalakat részesíti előnyben.",
+      "key_points": [
+        "A Google Térkép algoritmusa az üzemanyag-fogyasztás minimalizálását helyezi előtérbe.",
+        "Az üzemanyag-takarékos útvonalakat egy kis levél ikon jelöli a kijelzőn.",
+        "A hosszabb menetidőt okozó alapbeállítás Androidon és iPhone-on is kikapcsolható."
+      ],
+      "content": "Környezetvédelmi szempontból figyelemre méltó módosítást vezetett be a Google Térkép, ám ez komoly meglepetést tartogat az autósok számára. A szoftver útvonaltervezési algoritmusa az egyenletes gyorsulású, állandó sebességű és minimális fékezésű útvonalakat részesíti előnyben, hogy takarékoskodjon az üzemanyaggal. A Tom’s Guide szaklap elemzése szerint a rendszer a domborzatot, a megállások számát és a sebességhatárokat is figyelembe veszi a legkedvezőbbnek ítélt nyomvonal kiválasztásához.\n\nEz a megközelítés ugyan elméletben csökkenti a motor terhelését és pénzt takarít meg a benzinen, a gyakorlatban azonban akár tíz-tizenöt perccel is megnövelheti az utazási időt. A Google rendszere alapértelmezés szerint azt feltételezi, hogy a felhasználónak az üzemanyag megóvása fontosabb a gyorsaságnál, ami a rohanó hétköznapokban nem mindig felel meg a valóságnak. Az üzemanyag-takarékos útvonalakat a képernyőn egy apró zöld levél ikon jelzi az úti cél mellett.\n\nA funkciót a felhasználók manuálisan is felülbírálhatják mind az androidos, mind az iOS rendszerű készülékeken. Ehhez meg kell nyitni a térképalkalmazást, a Profil menüponton keresztül a Beállításokba kell lépni, majd a Navigáció fülön kikapcsolni az üzemanyag-takarékos útvonalak preferálását. Aki nem szeretné teljesen kikapcsolni a funkciót, az indítás előtt az útvonalak áttekintésével maga is eldöntheti, hogy a gyorsabb vagy a zöldebb opciót választja-e.",
+      "content_format": "markdown",
+      "body": [
+        "Környezetvédelmi szempontból figyelemre méltó módosítást vezetett be a Google Térkép, ám ez komoly meglepetést tartogat az autósok számára. A szoftver útvonaltervezési algoritmusa az egyenletes gyorsulású, állandó sebességű és minimális fékezésű útvonalakat részesíti előnyben, hogy takarékoskodjon az üzemanyaggal. A Tom’s Guide szaklap elemzése szerint a rendszer a domborzatot, a megállások számát és a sebességhatárokat is figyelembe veszi a legkedvezőbbnek ítélt nyomvonal kiválasztásához.",
+        "Ez a megközelítés ugyan elméletben csökkenti a motor terhelését és pénzt takarít meg a benzinen, a gyakorlatban azonban akár tíz-tizenöt perccel is megnövelheti az utazási időt. A Google rendszere alapértelmezés szerint azt feltételezi, hogy a felhasználónak az üzemanyag megóvása fontosabb a gyorsaságnál, ami a rohanó hétköznapokban nem mindig felel meg a valóságnak. Az üzemanyag-takarékos útvonalakat a képernyőn egy apró zöld levél ikon jelzi az úti cél mellett.",
+        "A funkciót a felhasználók manuálisan is felülbírálhatják mind az androidos, mind az iOS rendszerű készülékeken. Ehhez meg kell nyitni a térképalkalmazást, a Profil menüponton keresztül a Beállításokba kell lépni, majd a Navigáció fülön kikapcsolni az üzemanyag-takarékos útvonalak preferálását. Aki nem szeretné teljesen kikapcsolni a funkciót, az indítás előtt az útvonalak áttekintésével maga is eldöntheti, hogy a gyorsabb vagy a zöldebb opciót választja-e."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 223,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Google-Maps-Backpack-NYC.png/1280px-Google-Maps-Backpack-NYC.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1500,
+        "kind": "graphic",
+        "pos": "center",
+        "alt": "Google Maps Street View Trekker backpack unit being implemented on the sidewalk of the Hudson River Greenway in New York City",
+        "credit": "Andrew Henkelman / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Google-Maps-Backpack-NYC.png"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261002_uzemanyagtakarekos-beallitas-kikapcsolasa-a-google-mapsben",
+          "title": "Van egy eldugott beállítás a Google Mapsben, próbálja csak meg kikapcsolni",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T11:51:27+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-02T12:21:54+02:00"
+      },
+      "hot_score": 5.87,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261002_uzemanyagtakarekos-beallitas-kikapcsolasa-a-google-mapsben"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/tech/2026-10-02-tobbet-fogyaszt-a-google-maps/",
+      "seo": {
+        "meta_title": "Többet fogyaszt a Google Maps?",
+        "meta_description": "Megváltoztatta útvonaltervezési algoritmusát a Google Maps, ami miatt a sofőrök a vártnál később érkezhetnek meg céljukhoz. A szoftver ugyanis a leggyorsabb hel",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-02-tobbet-fogyaszt-a-google-maps/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Google-Maps-Backpack-NYC.png/1280px-Google-Maps-Backpack-NYC.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "48f26aa9575ec7b0dd841903bebbac83483cda7f66cba1783f96d6c061c1fa6b",
+      "pipeline_run_id": "36992001051",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T12:21:54+02:00",
+      "updated_at": "2026-10-02T12:21:54+02:00",
+      "published_at": "2026-10-02T12:21:54+02:00",
+      "expires_at": null
+    },
     {
       "id": "e952a48b-4276-5d3a-a8ac-3fc17f66a555",
       "slug": "2026-10-02-ezert-villantott-kockahasat-kulcsar-edina",
