@@ -14168,90 +14168,92 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Budapest_Stock_Exchange_Palace_%2806%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/200_Forint_Pet%C5%91fi_Comemmorative.jpg/1280px-200_Forint_Pet%C5%91fi_Comemmorative.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 800,
+          "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": "Budapest Stock Exchange Palace at Szabadság tér.",
-          "credit": "Vasyatka1 / Wikimedia Commons",
+          "alt": "The new comemmorative forint was released on 2023 April 11,on the day of literacy.",
+          "credit": "ByRussia45 / Wikimedia Commons",
           "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace_(06).jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:200_Forint_Pet%C5%91fi_Comemmorative.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Budapest_Stock_Exchange_Palace_%2804%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2804%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Pothole_cover_with_forint_coin_design.jpg/1280px-Pothole_cover_with_forint_coin_design.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1800,
+          "height": 1225,
           "kind": "photo",
           "pos": "top",
-          "alt": "Budapest Stock Exchange Palace at Szabadság tér.",
-          "credit": "Vasyatka1 / Wikimedia Commons",
+          "alt": "Pothole cover decorated with image of obsolete 1 forint coin. Miskolc, Hungary. This area of downtown Miskolc was nicknamed \"Forint\" in the mid-20th century. The coin was designed by István Iván in 19",
+          "credit": "Alensha / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Pothole_cover_with_forint_coin_design.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Federal_Reserve_Police_car.jpg/1280px-Federal_Reserve_Police_car.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 712,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Federal reserve police car, St. Louis, MO",
+          "credit": "Daniel Schwen / Wikimedia Commons",
           "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace_(04).jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Federal_Reserve_Police_car.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Federal_Reserve_Board_%28Board_of_Governors_of_the_Federal_Reserve_System%29_open_meeting%2C_July_2023.jpg/1280px-Federal_Reserve_Board_%28Board_of_Governors_of_the_Federal_Reserve_System%29_open_meeting%2C_July_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Federal-Reserve-Bank-of-Chicago.jpg/1280px-Federal-Reserve-Bank-of-Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 799,
+          "height": 1600,
           "kind": "photo",
-          "pos": "center",
-          "alt": "The Board of Governors discusses proposed rules to implement the Basel III endgame agreement for large banks and adjustments to the surcharge for U.S. global systemically important banks. \nOpen Board",
-          "credit": "Federalreserve / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Federal_Reserve_Board_(Board_of_Governors_of_the_Federal_Reserve_System)_open_meeting,_July_2023.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Federal_Reserve_Board_%28Board_of_Governors_of_the_Federal_Reserve_System%29_open_meeting%2C_October_2023.jpg/1280px-Federal_Reserve_Board_%28Board_of_Governors_of_the_Federal_Reserve_System%29_open_meeting%2C_October_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Board members listen to staff present at an open meeting on proposed revisions to the Board’s debit interchange fee cap: www.federalreserve.gov/aboutthefed/boardmeetings/20231025...",
-          "credit": "Federalreserve / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Federal_Reserve_Board_(Board_of_Governors_of_the_Federal_Reserve_System)_open_meeting,_October_2023.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/100_Forint_Comemmorative_Army_Front.jpg/1280px-100_Forint_Comemmorative_Army_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "The forint was released on 2023 May 22 as a comemmoration of the Hungarian Army.",
-          "credit": "ByRussia45 / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:100_Forint_Comemmorative_Army_Front.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/50_Forint_Comemmorative_Ambulance_Front.jpg/1280px-50_Forint_Comemmorative_Ambulance_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "The coin was released on 2023 May 9 as a comemmoration of the establishment of the Hungarian Ambulance Services.",
-          "credit": "ByRussia45 / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:50_Forint_Comemmorative_Ambulance_Front.jpg"
-        },
-        {
-          "url": "https://live.staticflickr.com/4124/4845905314_8b4ce58572_b.jpg",
-          "width": 1024,
-          "height": 763,
-          "kind": "photo",
-          "alt": "Stock market",
-          "credit": "Manu Manohar Photography / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/32833136@N04/4845905314"
-        },
-        {
-          "url": "https://live.staticflickr.com/7312/9677861633_cc1d703f56_b.jpg",
-          "width": 1024,
-          "height": 683,
-          "kind": "photo",
-          "alt": "Analyzing Stock Market",
-          "credit": "ota_photos / flickr",
+          "pos": "top",
+          "alt": "Federal Reserve Bank of Chicago as seen from LaSalle Street. The Chicago Board of Trade is partly visible in the background.",
+          "credit": "Warren LeMay from Chicago, IL, United States / Wikimedia Commons",
           "license": "CC BY-SA 2.0",
-          "source_url": "https://www.flickr.com/photos/101332430@N03/9677861633"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Federal-Reserve-Bank-of-Chicago.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/US_Dollar_B26039099H.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1200,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "US Dollar B26039099H",
+          "credit": "Fumikas Sagisavas / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:US_Dollar_B26039099H.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/100_%28US%29_Dollar_Bill.jpg/1280px-100_%28US%29_Dollar_Bill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Image showing 100 USD",
+          "credit": "Chioma Mbakwe (Tinuke) / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:100_(US)_Dollar_Bill.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/New_York_City_%28New_York%2C_USA%29%2C_Wall_Street_--_2012_--_6614.jpg/1280px-New_York_City_%28New_York%2C_USA%29%2C_Wall_Street_--_2012_--_6614.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 933,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "New York Stock Exchange in New York City, New York, USA",
+          "credit": "Dietmar Rabich / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:New_York_City_(New_York,_USA),_Wall_Street_--_2012_--_6614.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Wall_Street_by_Paul_Strand%2C_1915.jpg/1280px-Wall_Street_by_Paul_Strand%2C_1915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 944,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Paul Strand took this photograph from the steps of the New York Federal Hall during morning rush hour. The recently completed building of white marble at 23 Wall Street (on the southeast corner of Wal",
+          "credit": "Paul Strand / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Wall_Street_by_Paul_Strand,_1915.jpg"
         }
       ],
       "story": [
@@ -14325,10 +14327,38 @@
           1480,
           1481,
           1482,
-          1483
+          1483,
+          1516,
+          1517,
+          1518,
+          1519,
+          1520,
+          1521,
+          1522,
+          1523
         ],
-        "control_id": 1484
-      }
+        "control_id": 1524
+      },
+      "image_queries": [
+        "Hungarian forint",
+        "Federal Reserve",
+        "US dollar",
+        "Wall Street",
+        "Budapest Stock Exchange",
+        "currency exchange",
+        "financial charts",
+        "stock market trading"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/50_Forint_Comemmorative_Ambulance_Front.jpg/1280px-50_Forint_Comemmorative_Ambulance_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Budapest_Stock_Exchange_Palace_%2806%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Budapest_Stock_Exchange_Palace_%2804%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2804%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Federal_Reserve_Board_%28Board_of_Governors_of_the_Federal_Reserve_System%29_open_meeting%2C_July_2023.jpg/1280px-Federal_Reserve_Board_%28Board_of_Governors_of_the_Federal_Reserve_System%29_open_meeting%2C_July_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://live.staticflickr.com/7312/9677861633_cc1d703f56_b.jpg",
+        "https://live.staticflickr.com/4124/4845905314_8b4ce58572_b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/100_Forint_Comemmorative_Army_Front.jpg/1280px-100_Forint_Comemmorative_Army_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Federal_Reserve_Board_%28Board_of_Governors_of_the_Federal_Reserve_System%29_open_meeting%2C_October_2023.jpg/1280px-Federal_Reserve_Board_%28Board_of_Governors_of_the_Federal_Reserve_System%29_open_meeting%2C_October_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "95f2e8b0-79a8-5188-9fe0-bdbcdf609f16",
