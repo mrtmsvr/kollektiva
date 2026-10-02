@@ -1,6 +1,22 @@
 {
-  "updated_at": "2026-10-01T12:53:46+02:00",
+  "updated_at": "2026-10-02T10:03:31+02:00",
   "polls": [
+    {
+      "id": "ead46ba5c99b",
+      "date": "2026-10-02",
+      "question": "Hogyan értékeli a nyugdíjminimum 120 ezer forintra emelését?",
+      "options": [
+        "Megfelelő és elégséges lépés",
+        "Előrelépés, de még mindig kevés",
+        "Túl nagy teher a költségvetésnek",
+        "Nincs véleményem"
+      ],
+      "article_url": "/penzvilag/2026-10-02-120-ezer-forintra-emelik-a-minimalnyugdijat/",
+      "article_title": "Jelentős nyugdíjemelést jelentett be a kormány",
+      "category": "penzvilag",
+      "created_at": "2026-10-02T10:03:31+02:00",
+      "closes_at": "2026-10-09T10:03:31+02:00"
+    },
     {
       "id": "859467cbdfa5",
       "date": "2026-10-01",
