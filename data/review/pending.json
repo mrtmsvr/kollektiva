@@ -14099,7 +14099,7 @@
     {
       "id": "971ced7a-f1ad-5cb3-802e-38cbe66bbc00",
       "slug": "2026-10-02-mit-keres-a-forint-368-alatt",
-      "status": "pending",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -14131,17 +14131,7 @@
       "reading_time_min": 2,
       "word_count": 266,
       "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Budapest_Stock_Exchange_Palace_%2806%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 800,
-        "kind": "photo",
-        "pos": "center",
-        "alt": "Budapest Stock Exchange Palace at Szabadság tér.",
-        "credit": "Vasyatka1 / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace_(06).jpg"
-      },
+      "hero_image": null,
       "inline_images": [],
       "sources": [
         {
@@ -14277,7 +14267,7 @@
         "meta_title": "Mit keres a forint 368 alatt?",
         "meta_description": "A gyengülő amerikai munkaerőpiaci adatok és az olajárak esése egyszerre mozdította meg a devizapiacokat, átmenetileg kedvezőbb helyzetbe hozva a forintot. A bef",
         "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-02-mit-keres-a-forint-368-alatt/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Budapest_Stock_Exchange_Palace_%2806%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": null,
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -14308,9 +14298,9 @@
       "dedupe_hash": "9e5705b00cd31ddb571c93ff4316f4fa0af1b578669e6a274a0e914d70757cc6",
       "pipeline_run_id": "37014810278",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T15:44:05+02:00",
-      "updated_at": "2026-10-02T15:44:05+02:00",
-      "published_at": "2026-10-02T15:44:05+02:00",
+      "created_at": "2026-10-02T15:55:19+02:00",
+      "updated_at": "2026-10-02T15:55:19+02:00",
+      "published_at": "2026-10-02T15:55:19+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -14475,7 +14465,8 @@
         "https://live.staticflickr.com/3287/2979032807_d97716e9c4_b.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/12_March_2025_-_Washington%2C_DC_-_US_Secretary_of_Labor_Lori_M._Chavez-DeRemer_arrives_at_the_US_Department_of_Labor_and_greets_staff_-_3.jpg/1280px-12_March_2025_-_Washington%2C_DC_-_US_Secretary_of_Labor_Lori_M._Chavez-DeRemer_arrives_at_the_US_Department_of_Labor_and_greets_staff_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Federal_Reserve_Board_%28Board_of_Governors_of_the_Federal_Reserve_System%29_open_meeting%2C_October_2023.jpg/1280px-Federal_Reserve_Board_%28Board_of_Governors_of_the_Federal_Reserve_System%29_open_meeting%2C_October_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "7cd8bc04-951a-5bbc-b1f9-384a5d4c02dc",
