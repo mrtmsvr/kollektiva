@@ -12645,7 +12645,7 @@
     {
       "id": "83639ddc-34e0-5c32-97eb-0137ed96e4c1",
       "slug": "2026-10-02-hetvenmilliardos-kerdesek-varnak-szijjarto-peterre",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -12823,9 +12823,9 @@
       "dedupe_hash": "912ca9951ad098dfb6abd0db41714d0fffc8da65a643234bd2addcd0c7c51a33",
       "pipeline_run_id": "36992001051",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T11:52:13+02:00",
-      "updated_at": "2026-10-02T11:52:13+02:00",
-      "published_at": "2026-10-02T11:52:13+02:00",
+      "created_at": "2026-10-02T12:22:48+02:00",
+      "updated_at": "2026-10-02T12:22:48+02:00",
+      "published_at": "2026-10-02T12:22:48+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -12841,7 +12841,8 @@
           1354
         ],
         "control_id": 1355
-      }
+      },
+      "live": true
     }
   ]
 }
