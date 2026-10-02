@@ -15292,7 +15292,7 @@
     {
       "id": "e9bdfa62-6d8e-5e5b-816b-1e893208b382",
       "slug": "2026-10-02-magyar-peter-az-arresstop-kivezeteset-surgeti",
-      "status": "pending",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -15524,9 +15524,9 @@
       "dedupe_hash": "00f3fd8e1b88a1c5ebfed644e19530b1e2063b8f5daa5305e52784f58c1ceec1",
       "pipeline_run_id": "37056048304",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T21:44:36+02:00",
-      "updated_at": "2026-10-02T21:44:36+02:00",
-      "published_at": "2026-10-02T21:44:36+02:00",
+      "created_at": "2026-10-02T22:17:36+02:00",
+      "updated_at": "2026-10-02T22:17:36+02:00",
+      "published_at": "2026-10-02T22:17:36+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -15544,12 +15544,13 @@
           1735
         ],
         "control_id": 1736
-      }
+      },
+      "live": true
     },
     {
       "id": "acb21854-8b77-59b2-8d0d-6ecbd8d5aeb8",
       "slug": "2026-10-02-hogyan-latjak-a-szel-utjat-a-nasa-mernokei",
-      "status": "pending",
+      "status": "published",
       "category": "univerzum",
       "subcategory": null,
       "tags": [
@@ -15578,15 +15579,15 @@
       "word_count": 144,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/NASA_Langley%2C_Hampton_-_2-23-24_01.jpg/1280px-NASA_Langley%2C_Hampton_-_2-23-24_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/NASA_Langley_Research_Center_entrance_%282017%29.jpg/1280px-NASA_Langley_Research_Center_entrance_%282017%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 800,
+        "height": 691,
         "kind": "photo",
         "pos": "center",
-        "alt": "Please note that these photos are for personal use only. If posting to social media or sharing the photos, the following byline must be used: Official Photo by Austin Stevens, Office of Governor Glenn",
-        "credit": "Virginia Office of the Governor / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:NASA_Langley,_Hampton_-_2-23-24_01.jpg"
+        "alt": "Entrance to NASA's Langley Research Center in Virginia, United States.",
+        "credit": "NASA Langley / David C. Bowman / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NASA_Langley_Research_Center_entrance_(2017).jpg"
       },
       "inline_images": [],
       "sources": [
@@ -15722,7 +15723,7 @@
         "meta_title": "Hogyan látják a szél útját a NASA mérnökei?",
         "meta_description": "Úttörő vizsgálatsorozat kezdődött a NASA langley-i kutatóközpontjában, ahol egy különleges festék segítségével elemzik a modellek körüli légáramlást. Ez a techn",
         "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-02-hogyan-latjak-a-szel-utjat-a-nasa-mernokei/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/NASA_Langley%2C_Hampton_-_2-23-24_01.jpg/1280px-NASA_Langley%2C_Hampton_-_2-23-24_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/NASA_Langley_Research_Center_entrance_%282017%29.jpg/1280px-NASA_Langley_Research_Center_entrance_%282017%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -15739,9 +15740,9 @@
       "dedupe_hash": "b8e6647deaf3b74fa0689e07a0129e2300bf2481c370d7b1e73a8f6ac9339a04",
       "pipeline_run_id": "37056048304",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T21:45:55+02:00",
-      "updated_at": "2026-10-02T21:45:55+02:00",
-      "published_at": "2026-10-02T21:45:55+02:00",
+      "created_at": "2026-10-02T22:17:37+02:00",
+      "updated_at": "2026-10-02T22:17:37+02:00",
+      "published_at": "2026-10-02T22:17:37+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -15760,12 +15761,13 @@
           1746
         ],
         "control_id": 1747
-      }
+      },
+      "live": true
     },
     {
       "id": "83b9fd9f-3fda-520d-9520-684caf278fd5",
       "slug": "2026-10-02-rejtelyes-es-riaszto-eset-razta-meg-a-walesi-partokat",
-      "status": "pending",
+      "status": "published",
       "category": "bulvar",
       "subcategory": null,
       "tags": [
@@ -15945,9 +15947,9 @@
       "dedupe_hash": "488ce928256ca8f8c40916d3339b684819ca75509e1b8fcea94e2a9e191c24e9",
       "pipeline_run_id": "37056048304",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T21:46:38+02:00",
-      "updated_at": "2026-10-02T21:46:38+02:00",
-      "published_at": "2026-10-02T21:46:38+02:00",
+      "created_at": "2026-10-02T22:17:38+02:00",
+      "updated_at": "2026-10-02T22:17:38+02:00",
+      "published_at": "2026-10-02T22:17:38+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -15965,7 +15967,8 @@
           1756
         ],
         "control_id": 1757
-      }
+      },
+      "live": true
     },
     {
       "id": "9df79218-ba71-52f3-86e4-11e96a8a5611",

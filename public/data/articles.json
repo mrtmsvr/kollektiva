@@ -1,7 +1,330 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T20:58:24+02:00",
+  "updated_at": "2026-10-02T22:17:38+02:00",
   "articles": [
+    {
+      "id": "83b9fd9f-3fda-520d-9520-684caf278fd5",
+      "slug": "2026-10-02-rejtelyes-es-riaszto-eset-razta-meg-a-walesi-partokat",
+      "status": "published",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Wales",
+        "rendőrség",
+        "hírek",
+        "nyomozás"
+      ],
+      "title": "Rejtélyes és riasztó eset rázta meg a walesi partokat",
+      "subtitle": null,
+      "lead": "Megrázó felfedezést tett egy járókelő vasárnap délután a walesi partvidéken, ahol egy újszülött holttestére bukkantak a hatóságok. Az észak-walesi rendőrség azonnali kutatást indított az édesanya felkutatására, akinek az egészségéért és biztonságáért komolyan aggódnak a szakemberek.",
+      "key_points": [
+        "Egy újszülött holttestét találták meg vasárnap délután az észak-walesi partoknál.",
+        "A rendőrség és a helyi egészségügyi hatóságok nagy erőkkel keresik az ismeretlen édesanyát.",
+        "A hatóságok arra kérnek mindenkit, hogy aki információval rendelkezik, jelentkezzen a 101-es számon."
+      ],
+      "content": "Vasárnap nem sokkal délután 5 óra előtt egy járókelő döbbenetes felfedezést tett a Menai-szoros partján, a bangori Siliwen Road közelében, ahol egy újszülött földi maradványaira bukkantak. Az észak-walesi rendőrség közlése szerint az eset után nagyszabású keresés indult az édesanya felkutatására, akit a hatóságok rendkívül kiszolgáltatott állapotban sejtenek.\n\nA North Wales Live beszámolója alapján Dr. Brian Rodgers igazságügyi patológus végzi el a csecsemő holttestének boncolását. Fiona Giraud, a Betsi Cadwaladr Egyetemi Egészségügyi Testület szülészeti és nőgyógyászati szolgáltatásainak igazgatója hangsúlyozta, hogy az édesanya jelenlegi egészsége és biztonsága élvez abszolút prioritást, és valószínűleg amiatt nem mer segítséget kérni, mert attól fél, hogy felfedi a kilétét.\n\n- Beszélhet egészségügyi szakemberrel, fordulhat egy rendőrhöz, vagy személyesen is felkereshet egy rendőrőrsöt - emelte ki a hatósági képviselő, aki arra kéri a barátokat, családtagokat, szomszédokat és munkatársakat is, hogy értesítsék a nyomozókat, ha az elmúlt hónapokban valaki szokatlanul viselkedett, vagy várandós lehetett.\n\nBangor lakói a következő napokban a megszokottnál több rendőrrel találkozhatnak a környéken a helyszíni vizsgálatok miatt. Az információval rendelkezők a 101-es telefonszámon, az Operation Melex műveletre hivatkozva érhetik el a hatóságokat, amelyek a lakosság számára egy külön online felületet is létrehoztak a Mirror beszámolója szerint.",
+      "content_format": "markdown",
+      "body": [
+        "Vasárnap nem sokkal délután 5 óra előtt egy járókelő döbbenetes felfedezést tett a Menai-szoros partján, a bangori Siliwen Road közelében, ahol egy újszülött földi maradványaira bukkantak. Az észak-walesi rendőrség közlése szerint az eset után nagyszabású keresés indult az édesanya felkutatására, akit a hatóságok rendkívül kiszolgáltatott állapotban sejtenek.",
+        "A North Wales Live beszámolója alapján Dr. Brian Rodgers igazságügyi patológus végzi el a csecsemő holttestének boncolását. Fiona Giraud, a Betsi Cadwaladr Egyetemi Egészségügyi Testület szülészeti és nőgyógyászati szolgáltatásainak igazgatója hangsúlyozta, hogy az édesanya jelenlegi egészsége és biztonsága élvez abszolút prioritást, és valószínűleg amiatt nem mer segítséget kérni, mert attól fél, hogy felfedi a kilétét.",
+        "- Beszélhet egészségügyi szakemberrel, fordulhat egy rendőrhöz, vagy személyesen is felkereshet egy rendőrőrsöt - emelte ki a hatósági képviselő, aki arra kéri a barátokat, családtagokat, szomszédokat és munkatársakat is, hogy értesítsék a nyomozókat, ha az elmúlt hónapokban valaki szokatlanul viselkedett, vagy várandós lehetett.",
+        "Bangor lakói a következő napokban a megszokottnál több rendőrrel találkozhatnak a környéken a helyszíni vizsgálatok miatt. Az információval rendelkezők a 101-es telefonszámon, az Operation Melex műveletre hivatkozva érhetik el a hatóságokat, amelyek a lakosság számára egy külön online felületet is létrehoztak a Mirror beszámolója szerint."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 227,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Panorama_Bangor_03_977.png/1280px-Panorama_Bangor_03_977.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Panorama of Bangor, North Wales, UK.",
+        "credit": "IJA / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Panorama_Bangor_03_977.png"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://borsonline.origo.hu/kek-hirek/2026/10/ujszulott-holttest-rendorseg-vizpart-anya",
+          "title": "Felfoghatatlan tragédia: holtan találtak egy újszülöttet a vízparton – a rendőrség nagy erőkkel keresi az anyát",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T21:46:38+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-02T22:17:38+02:00"
+      },
+      "hot_score": 5.8,
+      "category_meta": {
+        "source_links": [
+          "https://borsonline.origo.hu/kek-hirek/2026/10/ujszulott-holttest-rendorseg-vizpart-anya"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/bulvar/2026-10-02-rejtelyes-es-riaszto-eset-razta-meg-a-walesi-partokat/",
+      "seo": {
+        "meta_title": "Rejtélyes és riasztó eset rázta meg a walesi partokat",
+        "meta_description": "Megrázó felfedezést tett egy járókelő vasárnap délután a walesi partvidéken, ahol egy újszülött holttestére bukkantak a hatóságok. Az észak-walesi rendőrség azo",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-02-rejtelyes-es-riaszto-eset-razta-meg-a-walesi-partokat/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Panorama_Bangor_03_977.png/1280px-Panorama_Bangor_03_977.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "488ce928256ca8f8c40916d3339b684819ca75509e1b8fcea94e2a9e191c24e9",
+      "pipeline_run_id": "37056048304",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T22:17:38+02:00",
+      "updated_at": "2026-10-02T22:17:38+02:00",
+      "published_at": "2026-10-02T22:17:38+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "acb21854-8b77-59b2-8d0d-6ecbd8d5aeb8",
+      "slug": "2026-10-02-hogyan-latjak-a-szel-utjat-a-nasa-mernokei",
+      "status": "published",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "repülés",
+        "kutatás",
+        "technológia"
+      ],
+      "title": "Hogyan látják a szél útját a NASA mérnökei?",
+      "subtitle": null,
+      "lead": "Úttörő vizsgálatsorozat kezdődött a NASA langley-i kutatóközpontjában, ahol egy különleges festék segítségével elemzik a modellek körüli légáramlást. Ez a technológia új alapokra helyezheti a jövőbeli repülőgép-technológiák tervezését.",
+      "key_points": [
+        "A NASA Langley Kutatóközpontban újszerű szélcsatorna-vizsgálatok indultak.",
+        "A mérésekhez úgynevezett instabil nyomásérzékeny festéket használnak a mérnökök.",
+        "A kísérletek helyszíne a Transonic Dynamics Tunnel nevű berendezés volt."
+      ],
+      "content": "A Virginia állambeli Hamptonban található NASA Langley Kutatóközpontban úttörő teszteket hajtottak végre, amelyek új lehetőségeket nyitnak a jövő légi járműveinek tervezésében. Olyan vizsgálatsorozatot indítottak el, amely korábban még soha nem látott módon térképezi fel a repülőgépek körüli légáramlás fizikai jellemzőit.\n\nA kutatók a Transonic Dynamics Tunnel elnevezésű szélcsatornában egy standard modellen tesztelték a technikát. A mérések során úgynevezett instabil nyomásérzékeny festéket alkalmaztak, amely a felületre nehezedő nyomásváltozások vizuális követésével segít megérteni a levegő viselkedését.\n\nEz a megközelítés olyan, mintha a láthatatlan levegőt egy pillanat alatt színes, áramló mintázatokká változtatnánk, pontosan mutatva meg, hol ébrednek a legnagyobb erők a szárnyakon. A mostani mérések közvetlenül hozzájárulnak ahhoz, hogy a jövőben még hatékonyabb és biztonságosabb repülési technológiák szülessenek.",
+      "content_format": "markdown",
+      "body": [
+        "A Virginia állambeli Hamptonban található NASA Langley Kutatóközpontban úttörő teszteket hajtottak végre, amelyek új lehetőségeket nyitnak a jövő légi járműveinek tervezésében. Olyan vizsgálatsorozatot indítottak el, amely korábban még soha nem látott módon térképezi fel a repülőgépek körüli légáramlás fizikai jellemzőit.",
+        "A kutatók a Transonic Dynamics Tunnel elnevezésű szélcsatornában egy standard modellen tesztelték a technikát. A mérések során úgynevezett instabil nyomásérzékeny festéket alkalmaztak, amely a felületre nehezedő nyomásváltozások vizuális követésével segít megérteni a levegő viselkedését.",
+        "Ez a megközelítés olyan, mintha a láthatatlan levegőt egy pillanat alatt színes, áramló mintázatokká változtatnánk, pontosan mutatva meg, hol ébrednek a legnagyobb erők a szárnyakon. A mostani mérések közvetlenül hozzájárulnak ahhoz, hogy a jövőben még hatékonyabb és biztonságosabb repülési technológiák szülessenek."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 144,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/NASA_Langley_Research_Center_entrance_%282017%29.jpg/1280px-NASA_Langley_Research_Center_entrance_%282017%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 691,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Entrance to NASA's Langley Research Center in Virginia, United States.",
+        "credit": "NASA Langley / David C. Bowman / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NASA_Langley_Research_Center_entrance_(2017).jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+          "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-02T21:45:55+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-02T22:17:37+02:00"
+      },
+      "hot_score": 5.94,
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/univerzum/2026-10-02-hogyan-latjak-a-szel-utjat-a-nasa-mernokei/",
+      "seo": {
+        "meta_title": "Hogyan látják a szél útját a NASA mérnökei?",
+        "meta_description": "Úttörő vizsgálatsorozat kezdődött a NASA langley-i kutatóközpontjában, ahol egy különleges festék segítségével elemzik a modellek körüli légáramlást. Ez a techn",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-02-hogyan-latjak-a-szel-utjat-a-nasa-mernokei/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/NASA_Langley_Research_Center_entrance_%282017%29.jpg/1280px-NASA_Langley_Research_Center_entrance_%282017%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "b8e6647deaf3b74fa0689e07a0129e2300bf2481c370d7b1e73a8f6ac9339a04",
+      "pipeline_run_id": "37056048304",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T22:17:37+02:00",
+      "updated_at": "2026-10-02T22:17:37+02:00",
+      "published_at": "2026-10-02T22:17:37+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "e9bdfa62-6d8e-5e5b-816b-1e893208b382",
+      "slug": "2026-10-02-magyar-peter-az-arresstop-kivezeteset-surgeti",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "árrésstop",
+        "infláció",
+        "kiskereskedelem",
+        "gazdaság",
+        "élelmiszerárak"
+      ],
+      "title": "Magyar Péter az árrésstop kivezetését sürgeti",
+      "subtitle": null,
+      "lead": "Komoly gazdasági fordulat körvonalazódik a hazai élelmiszer-kereskedelemben, miután a kormányfő bejelentette az árrésstop esetleges kivezetését. A döntést a megváltozott inflációs környezet és a piaci szereplők jelzései indokolják.",
+      "key_points": [
+        "A miniszterelnök szerint meg kell fontolni az árrésstop kivezetését.",
+        "Augusztusban 1,3 százalékra mérséklődött az éves infláció.",
+        "Az élelmiszerek ára éves alapon 1,4 százalékkal csökkent.",
+        "A kamarával és a kereskedelmi láncokkal egyeztetnek a döntésről."
+      ],
+      "content": "A kiskereskedelmi árkorlátozás felülvizsgálatát helyezte kilátásba a kormány a piaci szereplők jelzései alapján. Az intézkedést, amely a 100 milliárd forint feletti árbevételű láncoknál legfeljebb 10 százalékos árrést engedett, a mezőgazdaság és a kisebb üzletek terheinek növekedése miatt vizsgálják újra. A szabályozás bevezetése óta a piaci környezet jelentősen átalakult, ami új alapokra helyezheti a boltok működését.\n\nA Központi Statisztikai Hivatal friss adatai szerint az inflációs nyomás tartósan alacsony szintre süllyedt: augusztusban 1,3 százalékos volt az éves drágulás. Ezzel párhuzamosan az élelmiszerek árai éves alapon 1,4 százalékkal csökkentek, júliushoz képest pedig átlagosan 0,2 százalékkal estek vissza a bolti árak, ami megteremtheti a korlátozások kivezetésének gazdasági alapját.\n\nA Magyar Kereskedelmi és Iparkamara (MKIK) már szeptember közepén sürgette a szabály felülvizsgálatát, arra hivatkozva, hogy a tartós árszabályozás torzítja a versenyt. Emellett a Joint Venture Szövetség (JVSZ) is úgy véli, hogy az erős forintárfolyam és a visszafogott infláció mellett időszerűvé vált a rendszer kivezetése. A tervezett lépésről a kamarákkal és a láncokkal folytatott egyeztetések után határoznak.\n\nKözben Kisvárdán egy másik, helyi jelentőségű gazdasági és agrárhelyzetet is érintő fórum zajlott, ahol a térség nehézségeiről tárgyaltak. Az aszály és a fegyveres konfliktusok gazdasági hatásai mellett a helyi foglalkoztatási kérdések is terítékre kerültek, amelyek szintén befolyásolják a hazai mezőgazdaság kilátásait.",
+      "content_format": "markdown",
+      "body": [
+        "A kiskereskedelmi árkorlátozás felülvizsgálatát helyezte kilátásba a kormány a piaci szereplők jelzései alapján. Az intézkedést, amely a 100 milliárd forint feletti árbevételű láncoknál legfeljebb 10 százalékos árrést engedett, a mezőgazdaság és a kisebb üzletek terheinek növekedése miatt vizsgálják újra. A szabályozás bevezetése óta a piaci környezet jelentősen átalakult, ami új alapokra helyezheti a boltok működését.",
+        "A Központi Statisztikai Hivatal friss adatai szerint az inflációs nyomás tartósan alacsony szintre süllyedt: augusztusban 1,3 százalékos volt az éves drágulás. Ezzel párhuzamosan az élelmiszerek árai éves alapon 1,4 százalékkal csökkentek, júliushoz képest pedig átlagosan 0,2 százalékkal estek vissza a bolti árak, ami megteremtheti a korlátozások kivezetésének gazdasági alapját.",
+        "A Magyar Kereskedelmi és Iparkamara (MKIK) már szeptember közepén sürgette a szabály felülvizsgálatát, arra hivatkozva, hogy a tartós árszabályozás torzítja a versenyt. Emellett a Joint Venture Szövetség (JVSZ) is úgy véli, hogy az erős forintárfolyam és a visszafogott infláció mellett időszerűvé vált a rendszer kivezetése. A tervezett lépésről a kamarákkal és a láncokkal folytatott egyeztetések után határoznak.",
+        "Közben Kisvárdán egy másik, helyi jelentőségű gazdasági és agrárhelyzetet is érintő fórum zajlott, ahol a térség nehézségeiről tárgyaltak. Az aszály és a fegyveres konfliktusok gazdasági hatásai mellett a helyi foglalkoztatási kérdések is terítékre kerültek, amelyek szintén befolyásolják a hazai mezőgazdaság kilátásait."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 233,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Peter-Magyar-portrait-2026.jpg/1280px-Peter-Magyar-portrait-2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1599,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "High-resolution, freely reusable close-up portrait of Hungarian politician Péter Magyar, taken on 15 March 2026 during a national day demonstration at Heroes’ Square in Budapest, Hungary. The photogra",
+        "credit": "Norbert Banhalmi / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Peter-Magyar-portrait-2026.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261002/nagy-valtozas-johet-a-boltokban-magyar-peter-szerint-meg-kell-fontolni-az-arresstop-kivezeteset-867072",
+          "title": "Nagy változás jöhet a boltokban, Magyar Péter szerint meg kell fontolni az árrésstop kivezetését",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T21:44:36+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/arresstop-kivezetese-magyar-peter-lidl-tesco-kisboltok?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Megtörtént, erre várt a Tisza-kormánytól a Lidl, az Aldi, a Tesco és a Spar: Magyar Péter hatalmas bejelentést tett a boltoknak, készülhetnek a vásárlók – küszöbön az árrésstop kivezetése",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T21:44:36+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/kozelet/2026/10/magyar-peter-orszagjaras-kisvarda-sesztak-miklos-elo?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "800 milliárdos agrárkár, árstopok és várólisták: Magyar Péter Kisvárdán vázolta a terveit",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T21:44:36+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-02T22:17:36+02:00"
+      },
+      "hot_score": 8.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261002/nagy-valtozas-johet-a-boltokban-magyar-peter-szerint-meg-kell-fontolni-az-arresstop-kivezeteset-867072"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/penzvilag/2026-10-02-magyar-peter-az-arresstop-kivezeteset-surgeti/",
+      "seo": {
+        "meta_title": "Magyar Péter az árrésstop kivezetését sürgeti",
+        "meta_description": "Komoly gazdasági fordulat körvonalazódik a hazai élelmiszer-kereskedelemben, miután a kormányfő bejelentette az árrésstop esetleges kivezetését. A döntést a meg",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-02-magyar-peter-az-arresstop-kivezeteset-surgeti/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Peter-Magyar-portrait-2026.jpg/1280px-Peter-Magyar-portrait-2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "47814d47-fabd-5006-a676-0af9c4384d79",
+        "b5a6486b-8656-5913-8f0b-876d4353fbbc",
+        "83639ddc-34e0-5c32-97eb-0137ed96e4c1"
+      ],
+      "see_also": [
+        {
+          "title": "Százmilliárdos pénzügyi terhet hagyott maga után a Láng Negyed beruházása",
+          "url": "/penzvilag/2026-09-30-szazmilliardos-penzugyi-terhet-hagyott-maga-utan-a-lang-negyed-beruha/",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "Börtönben a NER egykori miniszterei – jöhet a vádalku?",
+          "url": "/kozelet/2026-10-02-vadalkut-kothetnek-a-letartoztatott-exminiszterek/",
+          "date": "2026-10-02"
+        },
+        {
+          "title": "Hetvenmilliárdos kérdések várnak Szijjártó Péterre",
+          "url": "/kozelet/2026-10-02-hetvenmilliardos-kerdesek-varnak-szijjarto-peterre/",
+          "date": "2026-10-02"
+        }
+      ],
+      "thread_id": "47814d47-fabd-5006-a676-0af9c4384d79",
+      "dedupe_hash": "00f3fd8e1b88a1c5ebfed644e19530b1e2063b8f5daa5305e52784f58c1ceec1",
+      "pipeline_run_id": "37056048304",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T22:17:36+02:00",
+      "updated_at": "2026-10-02T22:17:36+02:00",
+      "published_at": "2026-10-02T22:17:36+02:00",
+      "expires_at": null
+    },
     {
       "id": "48952a86-33aa-56a5-9dc7-1768152de0e1",
       "slug": "2026-10-02-ezert-kellett-magyarazkodnia-hobonak-a-temetesen",
