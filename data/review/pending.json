@@ -14876,9 +14876,9 @@
       "live": true
     },
     {
-      "id": "90cd8306-8ba5-581b-bfc7-9aa5974b0a8d",
-      "slug": "2026-10-02-szazmillio-hordo-olajjal-avatkoznak-be-a-nagyhatalmak",
-      "status": "pending",
+      "id": "1324eba3-16ba-57bc-a6ff-c196984c7ff1",
+      "slug": "2026-10-02-strategiai-keszleteket-nyitnak-meg-a-g7-orszagok",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -14888,7 +14888,7 @@
         "gazdaság",
         "energia"
       ],
-      "title": "Százmillió hordó olajjal avatkoznak be a nagyhatalmak",
+      "title": "Stratégiai készleteket nyitnak meg a G7-országok",
       "subtitle": null,
       "lead": "Akár százmillió hordónyi stratégiai kőolaj- és dízelkészlet piacra bocsátásáról állapodtak meg a G7-országok az üzemanyagárak mérséklése érdekében. A Nemzetközi Energiaügynökség által koordinált lépés négy hónap alatt valósul meg, különös tekintettel a dízellátásra.",
       "key_points": [
@@ -14910,15 +14910,15 @@
       "word_count": 259,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Emmanuel_Macron_par_Claude_Truong-Ngoc_avril_2015.jpg/1280px-Emmanuel_Macron_par_Claude_Truong-Ngoc_avril_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Suncor_Energy_-_Crude_Oil_Storage_Tank_Farm_-_Wyoming_%2852210918732%29.jpg/1280px-Suncor_Energy_-_Crude_Oil_Storage_Tank_Farm_-_Wyoming_%2852210918732%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 1800,
+        "height": 766,
         "kind": "photo",
-        "pos": "top",
-        "alt": "Emmanuel Macron, né le 21 décembre 1977 à Amiens, est un haut fonctionnaire et homme politique français.\n\nAncien secrétaire général adjoint au cabinet du président de la République française,  ministr",
-        "credit": "Photo Claude TRUONG-NGOC / Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Emmanuel_Macron_par_Claude_Truong-Ngoc_avril_2015.jpg"
+        "pos": "center",
+        "alt": "Suncor Energy crude oil storage tank farm near Guernsey, Wyoming.",
+        "credit": "Tony Webster / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Suncor_Energy_-_Crude_Oil_Storage_Tank_Farm_-_Wyoming_(52210918732).jpg"
       },
       "inline_images": [],
       "sources": [
@@ -15064,12 +15064,12 @@
       },
       "date": "2026-10-02",
       "date_label": "október 2.",
-      "url": "/penzvilag/2026-10-02-szazmillio-hordo-olajjal-avatkoznak-be-a-nagyhatalmak/",
+      "url": "/penzvilag/2026-10-02-strategiai-keszleteket-nyitnak-meg-a-g7-orszagok/",
       "seo": {
-        "meta_title": "Százmillió hordó olajjal avatkoznak be a nagyhatalmak",
+        "meta_title": "Stratégiai készleteket nyitnak meg a G7-országok",
         "meta_description": "Akár százmillió hordónyi stratégiai kőolaj- és dízelkészlet piacra bocsátásáról állapodtak meg a G7-országok az üzemanyagárak mérséklése érdekében. A Nemzetközi",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-02-szazmillio-hordo-olajjal-avatkoznak-be-a-nagyhatalmak/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Emmanuel_Macron_par_Claude_Truong-Ngoc_avril_2015.jpg/1280px-Emmanuel_Macron_par_Claude_Truong-Ngoc_avril_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-02-strategiai-keszleteket-nyitnak-meg-a-g7-orszagok/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Suncor_Energy_-_Crude_Oil_Storage_Tank_Farm_-_Wyoming_%2852210918732%29.jpg/1280px-Suncor_Energy_-_Crude_Oil_Storage_Tank_Farm_-_Wyoming_%2852210918732%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -15106,9 +15106,9 @@
       "dedupe_hash": "9e0433c66deea7348bbe4cfd637271ec3247c3516a54a4e6267b2b484908a6aa",
       "pipeline_run_id": "37028504852",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T17:40:54+02:00",
-      "updated_at": "2026-10-02T17:40:54+02:00",
-      "published_at": "2026-10-02T17:40:54+02:00",
+      "created_at": "2026-10-02T18:00:17+02:00",
+      "updated_at": "2026-10-02T18:00:17+02:00",
+      "published_at": "2026-10-02T18:00:17+02:00",
       "expires_at": null,
       "review": {
         "title": 2,
@@ -15177,7 +15177,8 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/IEA_International_Energy_Agency_Map.png/1280px-IEA_International_Energy_Agency_Map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://upload.wikimedia.org/wikipedia/commons/d/d2/Emmanuel_Macron_June_2022_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/International_Energy_Agency_Family_Map_-_2023.png/1280px-International_Energy_Agency_Family_Map_-_2023.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "502e4c54-2a79-5ef5-9b79-9ea1e89fb79c",
