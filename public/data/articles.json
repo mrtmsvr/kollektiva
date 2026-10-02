@@ -1,7 +1,102 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T15:50:02+02:00",
+  "updated_at": "2026-10-02T15:50:05+02:00",
   "articles": [
+    {
+      "id": "7cd8bc04-951a-5bbc-b1f9-384a5d4c02dc",
+      "slug": "2026-10-02-ilyen-rendetlenseggel-kuzd-berki-mazsi-otthon",
+      "status": "published",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Berki Mazsi",
+        "Sztárbox",
+        "bulvár",
+        "költözés"
+      ],
+      "title": "Ilyen rendetlenséggel küzd Berki Mazsi otthon",
+      "subtitle": null,
+      "lead": "Katona Renáta, ismertebb nevén Berki Mazsi a közelmúltban kénytelen volt az összes fiatalkori emlékét egyetlen helyiségbe zsúfolni. Az influenszer a költözés mellett a mindennapi teendőit és az időbeosztását is teljesen átalakította.",
+      "key_points": [
+        "Berki Mazsi a tizenkilenc éves kora óta gyűjtött holmijait eddig egy raktárban tárolta.",
+        "A korábbi raktárból el kellett költöznie, így a dobozok egyetlen szobába kerültek.",
+        "Az anyuka a közösségi oldalak helyett a családjára és a kislányára fókuszál.",
+        "A Sztárbox 2023-as női könnyűsúlyú bajnoki övét megnyerő híresség az orrát is megműtteti a sportág miatt."
+      ],
+      "content": "Katona Renáta, aki a Sztárbox 2023-as évadában női könnyűsúlyú bajnoki címet szerzett, jelentős változásokon ment keresztül az elmúlt időszakban. A korábban a közösségi médiában aktívan szereplő influenszer a nyári hónapokban szinte teljesen eltűnt a nyilvánosság elől, hogy a családjára és a kislányára fordíthassa az idejét. A mindennapi teendők rendezése érdekében a tárgyait is alaposan átválogatta.\n\nA történet hátterében egy költözés áll, amely során az édesanya szembesült a fiatalkora óta felhalmozott holmijaival. Az RTL Reggeli műsorában elmondása szerint tizenkilenc éves kora óta gyűltek a dolgai, amelyeket eddig egy raktárban tartott, ám onnan most ki kellett költöznie. Ennek következtében az egész addigi életét dobozokba zárva egyetlen szobába tornyosította otthon.\n\nA mindennapokban eddig sokszor kapkodó híresség rájött, hogy a közösségi oldalak fenntartása óriási energiát emészt fel, miközben nehezen mond nemet a felkérésekre. A prioritások átértékelésében a sport is segített neki, miután Túrós Arnold edző irányításával, kőkemény felkészülés után megnyerte a tavalyi évad bokszmeccseit. Azóta az élete egyre strukturáltabbá válik, miközben a ringben szerzett sérülések miatt egy orvosi beavatkozás is vár rá.",
+      "content_format": "markdown",
+      "body": [
+        "Katona Renáta, aki a Sztárbox 2023-as évadában női könnyűsúlyú bajnoki címet szerzett, jelentős változásokon ment keresztül az elmúlt időszakban. A korábban a közösségi médiában aktívan szereplő influenszer a nyári hónapokban szinte teljesen eltűnt a nyilvánosság elől, hogy a családjára és a kislányára fordíthassa az idejét. A mindennapi teendők rendezése érdekében a tárgyait is alaposan átválogatta.",
+        "A történet hátterében egy költözés áll, amely során az édesanya szembesült a fiatalkora óta felhalmozott holmijaival. Az RTL Reggeli műsorában elmondása szerint tizenkilenc éves kora óta gyűltek a dolgai, amelyeket eddig egy raktárban tartott, ám onnan most ki kellett költöznie. Ennek következtében az egész addigi életét dobozokba zárva egyetlen szobába tornyosította otthon.",
+        "A mindennapokban eddig sokszor kapkodó híresség rájött, hogy a közösségi oldalak fenntartása óriási energiát emészt fel, miközben nehezen mond nemet a felkérésekre. A prioritások átértékelésében a sport is segített neki, miután Túrós Arnold edző irányításával, kőkemény felkészülés után megnyerte a tavalyi évad bokszmeccseit. Azóta az élete egyre strukturáltabbá válik, miközben a ringben szerzett sérülések miatt egy orvosi beavatkozás is vár rá."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 200,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://live.staticflickr.com/4093/4758670232_fbe0eb6163_b.jpg",
+        "width": 1024,
+        "height": 576,
+        "kind": "photo",
+        "alt": "Cardboard Box City",
+        "credit": "James Nash (aka Cirrus) / flickr",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://www.flickr.com/photos/86318165@N00/4758670232"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/berki-mazsi-koltozes-rendszerezes-pakolas/t27p0vc",
+          "title": "„El kellett költöznöm” – Berki Mazsi az egész életét egyetlen szobába zsúfolta",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-02T15:44:48+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-02T15:50:05+02:00"
+      },
+      "hot_score": 6.0,
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/berki-mazsi-koltozes-rendszerezes-pakolas/t27p0vc"
+        ]
+      },
+      "date": "2026-10-02",
+      "date_label": "október 2.",
+      "url": "/bulvar/2026-10-02-ilyen-rendetlenseggel-kuzd-berki-mazsi-otthon/",
+      "seo": {
+        "meta_title": "Ilyen rendetlenséggel küzd Berki Mazsi otthon",
+        "meta_description": "Katona Renáta, ismertebb nevén Berki Mazsi a közelmúltban kénytelen volt az összes fiatalkori emlékét egyetlen helyiségbe zsúfolni. Az influenszer a költözés me",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-02-ilyen-rendetlenseggel-kuzd-berki-mazsi-otthon/",
+        "og_image": "https://live.staticflickr.com/4093/4758670232_fbe0eb6163_b.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "05597bb83609bb698b30e5b28c86bb2f20103b335a4343b8be4d293e72951c6c",
+      "pipeline_run_id": "37014810278",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-02T15:50:05+02:00",
+      "updated_at": "2026-10-02T15:50:05+02:00",
+      "published_at": "2026-10-02T15:50:05+02:00",
+      "expires_at": null
+    },
     {
       "id": "0622f6b5-d68d-5c59-a140-ec3ac3fa950a",
       "slug": "2026-10-02-fel-ora-alatt-elkeszul-a-vegleges-fogpotlas",

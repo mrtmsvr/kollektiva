@@ -14384,9 +14384,9 @@
       ]
     },
     {
-      "id": "95f2e8b0-79a8-5188-9fe0-bdbcdf609f16",
-      "slug": "2026-10-02-egyetlen-szobaba-zsufolta-az-eletet-berki-mazsi",
-      "status": "pending",
+      "id": "7cd8bc04-951a-5bbc-b1f9-384a5d4c02dc",
+      "slug": "2026-10-02-ilyen-rendetlenseggel-kuzd-berki-mazsi-otthon",
+      "status": "published",
       "category": "bulvar",
       "subcategory": null,
       "tags": [
@@ -14395,7 +14395,7 @@
         "bulvár",
         "költözés"
       ],
-      "title": "Egyetlen szobába zsúfolta az életét Berki Mazsi",
+      "title": "Ilyen rendetlenséggel küzd Berki Mazsi otthon",
       "subtitle": null,
       "lead": "Katona Renáta, ismertebb nevén Berki Mazsi a közelmúltban kénytelen volt az összes fiatalkori emlékét egyetlen helyiségbe zsúfolni. Az influenszer a költözés mellett a mindennapi teendőit és az időbeosztását is teljesen átalakította.",
       "key_points": [
@@ -14416,15 +14416,14 @@
       "word_count": 200,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Set-up_of_a_boxing_Ring.jpg/1280px-Set-up_of_a_boxing_Ring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 568,
+        "url": "https://live.staticflickr.com/4093/4758670232_fbe0eb6163_b.jpg",
+        "width": 1024,
+        "height": 576,
         "kind": "photo",
-        "pos": "center",
-        "alt": "Set-up of a boxing Ring at MTN Arena Lugogo on Games day 25th May 2024",
-        "credit": "Micheal Kaluba / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Set-up_of_a_boxing_Ring.jpg"
+        "alt": "Cardboard Box City",
+        "credit": "James Nash (aka Cirrus) / flickr",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://www.flickr.com/photos/86318165@N00/4758670232"
       },
       "inline_images": [],
       "sources": [
@@ -14522,12 +14521,12 @@
       },
       "date": "2026-10-02",
       "date_label": "október 2.",
-      "url": "/bulvar/2026-10-02-egyetlen-szobaba-zsufolta-az-eletet-berki-mazsi/",
+      "url": "/bulvar/2026-10-02-ilyen-rendetlenseggel-kuzd-berki-mazsi-otthon/",
       "seo": {
-        "meta_title": "Egyetlen szobába zsúfolta az életét Berki Mazsi",
+        "meta_title": "Ilyen rendetlenséggel küzd Berki Mazsi otthon",
         "meta_description": "Katona Renáta, ismertebb nevén Berki Mazsi a közelmúltban kénytelen volt az összes fiatalkori emlékét egyetlen helyiségbe zsúfolni. Az influenszer a költözés me",
-        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-02-egyetlen-szobaba-zsufolta-az-eletet-berki-mazsi/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Set-up_of_a_boxing_Ring.jpg/1280px-Set-up_of_a_boxing_Ring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-02-ilyen-rendetlenseggel-kuzd-berki-mazsi-otthon/",
+        "og_image": "https://live.staticflickr.com/4093/4758670232_fbe0eb6163_b.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -14544,9 +14543,9 @@
       "dedupe_hash": "05597bb83609bb698b30e5b28c86bb2f20103b335a4343b8be4d293e72951c6c",
       "pipeline_run_id": "37014810278",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T15:44:48+02:00",
-      "updated_at": "2026-10-02T15:44:48+02:00",
-      "published_at": "2026-10-02T15:44:48+02:00",
+      "created_at": "2026-10-02T15:50:05+02:00",
+      "updated_at": "2026-10-02T15:50:05+02:00",
+      "published_at": "2026-10-02T15:50:05+02:00",
       "expires_at": null,
       "review": {
         "title": 1,
@@ -14562,7 +14561,8 @@
           1491
         ],
         "control_id": 1492
-      }
+      },
+      "live": true
     },
     {
       "id": "0622f6b5-d68d-5c59-a140-ec3ac3fa950a",
