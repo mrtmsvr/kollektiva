@@ -15929,7 +15929,32 @@
         "Menlevelet kapott a szökésben lévő politikus – itt vannak a megdöbbentő részletek!"
       ],
       "clickbait_from": 3,
-      "image_options": [],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/MarcinRomanowski.jpg/1280px-MarcinRomanowski.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Marcin Romanowski, prawnik i urzędnik państwowy.",
+          "credit": "Mylosz / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:MarcinRomanowski.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Marcin_Romanowski_in_2025.jpg/1280px-Marcin_Romanowski_in_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1604,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Marcin Romanowski in 2025",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Marcin_Romanowski_in_2025.jpg",
+          "vision_score": 10.0
+        }
+      ],
       "story": [
         {
           "title": "Tovább bonyolódik Marcin Romanowski ügye",
@@ -15983,14 +16008,26 @@
       "expires_at": null,
       "review": {
         "title": 5,
-        "image": -1,
+        "image": 0,
         "sent_at": "2026-10-03T09:50:16+00:00",
         "msg_ids": [
           2018,
-          2019
+          2019,
+          2024,
+          2025
         ],
-        "control_id": 2020
-      }
+        "control_id": 2026
+      },
+      "image_queries": [
+        "Marcin Romanowski",
+        "Warsaw court",
+        "Ministry of Justice Poland",
+        "Warsaw cityscape",
+        "courtroom",
+        "polish flag",
+        "legal documents"
+      ],
+      "images_seen": []
     }
   ]
 }
