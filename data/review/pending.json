@@ -16193,7 +16193,7 @@
     {
       "id": "d71cd0e9-d841-5b44-8e60-06b591129a85",
       "slug": "2026-10-03-24-milliardos-brusszeli-penzre-hajt-a-kormany",
-      "status": "pending",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -16368,9 +16368,9 @@
       "dedupe_hash": "fe67731122dd68b3d36b5940224407a7d5d80d4f8f56728e76f844b6d0ee57ac",
       "pipeline_run_id": "37095100296",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T06:01:14+02:00",
-      "updated_at": "2026-10-03T06:01:14+02:00",
-      "published_at": "2026-10-03T06:01:14+02:00",
+      "created_at": "2026-10-03T06:38:28+02:00",
+      "updated_at": "2026-10-03T06:38:28+02:00",
+      "published_at": "2026-10-03T06:38:28+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -16385,12 +16385,13 @@
           1778
         ],
         "control_id": 1779
-      }
+      },
+      "live": true
     },
     {
       "id": "314d730a-1f0e-5ee0-9729-a791c8b70ac4",
       "slug": "2026-10-03-ezert-olvassa-hobo-szinte-mindig-a-svejk-konyvet",
-      "status": "pending",
+      "status": "published",
       "category": "bulvar",
       "subcategory": null,
       "tags": [
@@ -16525,9 +16526,9 @@
       "dedupe_hash": "6d2917ac395bf8cc658b2bf462a7cdbfad1ed8f0f4ed310e106a5263f807b738",
       "pipeline_run_id": "37095100296",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T06:02:39+02:00",
-      "updated_at": "2026-10-03T06:02:39+02:00",
-      "published_at": "2026-10-03T06:02:39+02:00",
+      "created_at": "2026-10-03T06:38:29+02:00",
+      "updated_at": "2026-10-03T06:38:29+02:00",
+      "published_at": "2026-10-03T06:38:29+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -16540,12 +16541,13 @@
           1783
         ],
         "control_id": 1784
-      }
+      },
+      "live": true
     },
     {
       "id": "50f60a7a-d175-5836-a38f-fdf96b9043ad",
       "slug": "2026-10-03-hazaternek-a-nemzetkozi-urallomas-kutatoi",
-      "status": "pending",
+      "status": "published",
       "category": "univerzum",
       "subcategory": null,
       "tags": [
@@ -16688,9 +16690,9 @@
       "dedupe_hash": "60e39a24f51692f9ce8bdefe5460f628cea470fe3238f6f34f9aeae8c0db0639",
       "pipeline_run_id": "37095100296",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T06:03:32+02:00",
-      "updated_at": "2026-10-03T06:03:32+02:00",
-      "published_at": "2026-10-03T06:03:32+02:00",
+      "created_at": "2026-10-03T06:38:30+02:00",
+      "updated_at": "2026-10-03T06:38:30+02:00",
+      "published_at": "2026-10-03T06:38:30+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -16703,12 +16705,13 @@
           1788
         ],
         "control_id": 1789
-      }
+      },
+      "live": true
     },
     {
       "id": "5ce25ce2-2395-5861-b25b-30a6c8f0268e",
       "slug": "2026-10-03-ot-alvastipus-letezik-a-friss-kutatas-szerint",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -16859,9 +16862,9 @@
       "dedupe_hash": "f10165368f4e54bad4d1b7023b57995d9a6bd868ba0e5b482f84488338484a01",
       "pipeline_run_id": "37095100296",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T06:04:26+02:00",
-      "updated_at": "2026-10-03T06:04:26+02:00",
-      "published_at": "2026-10-03T06:04:26+02:00",
+      "created_at": "2026-10-03T06:38:31+02:00",
+      "updated_at": "2026-10-03T06:38:31+02:00",
+      "published_at": "2026-10-03T06:38:31+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -16875,7 +16878,8 @@
           1794
         ],
         "control_id": 1795
-      }
+      },
+      "live": true
     }
   ]
 }
