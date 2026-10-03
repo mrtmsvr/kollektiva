@@ -226,6 +226,7 @@ def build_article(ai: "kc.AIClient", topic: dict, d: date, tz: ZoneInfo, avoid_i
     image_options = kc.find_images([raw.get("image_query"), *(raw.get("image_query_alt") or []), *topic.get("images", [])][:6],
                                    (generic if isinstance(generic, list) else [generic])[:2], ai.cfg.http_timeout,
                                    avoid_images, limit=kc.IMAGE_OPTIONS)
+    image_options = kc.vision_rank(ai, art["title"], art["lead"], image_options)
     image = image_options[0] if image_options else None
     inline_images = kc.find_inline_images(raw, len(art["body"]), ai.cfg.http_timeout,
                                           (avoid_images or set()) | {im["url"] for im in image_options})
@@ -308,9 +309,55 @@ def is_due(art: dict, articles: list, now: datetime) -> bool:
 # Napi futás
 # ---------------------------------------------------------------------------
 
-def next_topic(done: list) -> Optional[dict]:
+TOPIC_GEN_SYSTEM = ("Egy magyar online magazin főszerkesztője vagy. Időtálló, kattintásra érdemes „olvasnivaló” "
+                    "témákat tervezel. Csak JSON-t adsz vissza.")
+
+
+def refill_topics(ai: "kc.AIClient", topics: list, n: int = 12) -> list:
+    """Ha kevés téma maradt, az AI újakat tervez (rovatonként vegyesen, ajánlókkal), és a listához fűzi őket."""
+    if not ai or not ai.enabled:
+        return []
+    have = "; ".join(t.get("topic", "") for t in topics[-60:])
+    prompt = (f"Eddigi témáink (ezeket NE ismételd): {have}\n\nTervezz {n} új, időtálló témát a következő rovatokba vegyesen: "
+              "eletmod (egészség, táplálkozás, sport, pszichológia), univerzum (csillagászat, fizika), tech, penzvilag "
+              "(személyes pénzügyek, gazdaság), kultura (köztük 3–4 film-, sorozat- vagy könyvajánló, ill. „könyv röviden”). "
+              "Elemek: {\"id\": \"rovid-kotojeles-azonosito\", \"section\": \"rovat\", \"topic\": \"magyar cím-ötlet\", "
+              "\"angle\": \"mire kíváncsi az olvasó\", \"wiki_hu\": [\"magyar Wikipédia-szócikk címe\"], "
+              "\"wiki_en\": [\"angol szócikk címe\"], \"images\": [\"angol képkereső kifejezés\"], "
+              "\"science\": {\"db\": \"epmc\" (orvosi/élettudomány) vagy \"openalex\" (minden más), \"q\": \"rövid angol keresőkifejezés\"} "
+              "– ajánlóknál a science legyen null}. JSON: {\"topics\": [...]}")
+    try:
+        raw = ai.complete_json(TOPIC_GEN_SYSTEM, prompt, 5000)
+    except (kc.AIError, ValueError, TypeError, KeyError) as e:
+        log.warning("Új témák tervezése sikertelen: %s", e)
+        return []
+    ids = {t.get("id") for t in topics}
+    new = []
+    for t in raw.get("topics") or []:
+        if not isinstance(t, dict) or not t.get("topic") or t.get("section") not in kc.SECTIONS:
+            continue
+        t["id"] = kc.slugify(str(t.get("id") or t["topic"]))[:40]
+        if t["id"] in ids:
+            continue
+        if not isinstance(t.get("science"), dict):
+            t.pop("science", None)
+        t["auto"] = True
+        ids.add(t["id"])
+        new.append(t)
+    if new:
+        all_t = topics + new
+        lines = ['{"topics": ['] + [json.dumps(x, ensure_ascii=False) + (',' if i < len(all_t) - 1 else '')
+                                     for i, x in enumerate(all_t)] + [']}']
+        TOPICS_FILE.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        log.info("Off-topic: %d új témát terveztem.", len(new))
+    return new
+
+
+def next_topic(done: list, ai: Optional["kc.AIClient"] = None) -> Optional[dict]:
     topics = kc.read_json(TOPICS_FILE, {"topics": []}).get("topics", [])
     fresh = [t for t in topics if t.get("id") not in set(done)]
+    if len(fresh) < 5:  # fogyóban a lista → az AI újakat tervez
+        fresh += refill_topics(ai, topics)
     if not fresh:
         return None
     # rovatok váltakozzanak: amelyikből legrégebben volt, az jön
@@ -343,7 +390,7 @@ def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: boo
     if runs.get("last_offtopic_date") == d.isoformat() or not 7 <= now.hour <= 20:
         return 0
     done = runs.get("offtopic_done", [])
-    topic = next_topic(done)
+    topic = next_topic(done, ai)
     if not topic:
         log.info("Off-topic: elfogyott a témalista.")
         return 0
