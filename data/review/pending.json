@@ -15448,9 +15448,9 @@
       "live": true
     },
     {
-      "id": "b2ded515-7dce-51bc-b804-1c54974a53f1",
-      "slug": "2026-10-03-negyszeresere-emelkedhet-a-minimalnyugdij-2027-ben",
-      "status": "pending",
+      "id": "526d6001-ea67-5d92-83c0-e2c656f5c07a",
+      "slug": "2026-10-03-radikalisan-atalakul-a-nyugdijrendszer",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -15460,7 +15460,7 @@
         "szociális politika",
         "Erdőbénye"
       ],
-      "title": "Négyszeresére emelkedhet a minimálnyugdíj 2027-ben",
+      "title": "Radikálisan átalakul a nyugdíjrendszer!",
       "subtitle": null,
       "lead": "Jelentős szociális intézkedéssorozatot és a nyugdíjminimum négyszeresére növelését jelentette be Kármán András pénzügyminiszter. A kormány a legkiszolgáltatottabb rétegek megsegítését tűzte ki célul.",
       "key_points": [
@@ -15562,11 +15562,11 @@
       },
       "date": "2026-10-03",
       "date_label": "október 3.",
-      "url": "/kozelet/2026-10-03-negyszeresere-emelkedhet-a-minimalnyugdij-2027-ben/",
+      "url": "/kozelet/2026-10-03-radikalisan-atalakul-a-nyugdijrendszer/",
       "seo": {
-        "meta_title": "Négyszeresére emelkedhet a minimálnyugdíj 2027-ben",
+        "meta_title": "Radikálisan átalakul a nyugdíjrendszer!",
         "meta_description": "Jelentős szociális intézkedéssorozatot és a nyugdíjminimum négyszeresére növelését jelentette be Kármán András pénzügyminiszter. A kormány a legkiszolgáltatotta",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-03-negyszeresere-emelkedhet-a-minimalnyugdij-2027-ben/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-03-radikalisan-atalakul-a-nyugdijrendszer/",
         "og_image": null,
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -15598,9 +15598,9 @@
       "dedupe_hash": "a9f421158a63bc112096753c8de0c604c8a0ea221f3dd4728f7af58cc8f8bbd0",
       "pipeline_run_id": "37114118077",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T11:45:48+02:00",
-      "updated_at": "2026-10-03T11:45:48+02:00",
-      "published_at": "2026-10-03T11:45:48+02:00",
+      "created_at": "2026-10-03T12:16:50+02:00",
+      "updated_at": "2026-10-03T12:16:50+02:00",
+      "published_at": "2026-10-03T12:16:50+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -15612,7 +15612,8 @@
         ],
         "control_id": 2010,
         "custom_title": "Radikálisan átalakul a nyugdíjrendszer!"
-      }
+      },
+      "live": true
     },
     {
       "id": "68203ee2-1f90-57b7-a28b-e5511ff41e1a",
