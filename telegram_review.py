@@ -161,15 +161,14 @@ def _control(art: dict) -> tuple:
     rows.append([{"text": "✅ Rendben" if live else "✅ Kirakom", "callback_data": f"{sid}|ok"},
                  {"text": "🗑 Törlés" if live else "🗑 Elvetem", "callback_data": f"{sid}|no"}])
     img_txt = f"{ii + 1}. kép" if ii >= 0 and imgs else "nincs kép"
-    auto = f"\nHa nem döntesz, {AUTO_PUBLISH_MIN} perc múlva magától kikerül." if MODE == "hybrid" else ""
-    if art.get("schedule") and MODE == "hybrid":
-        dl = str(art["schedule"].get("deadline", ""))[11:16]
-        auto = f"\n🗓 Saját anyag: ha nem döntesz, egy csendesebb időszakban kerül ki (legkésőbb {dl})."
-    state = (f"🟢 <b>Kint van</b> – {kc.SITE_URL}{art.get('url', '')}\nA cím- és képcsere 1–2 percen belül él."
-             if live else "⏳ <b>Jóváhagyásra vár</b> – válaszd ki a címet és a képet, majd: ✅ Kirakom." + auto)
-    text = (f"{state}\n{E(kc.SECTIONS.get(art['category'], {}).get('name', art['category']))}\n"
-            f"Cím: <b>{E(_chosen_title(art))}</b>\nKép: {img_txt}\n\n"
-            "Nem jó egyik kép sem? 🔄 Új képek – vagy válaszolj erre: /k mit keressek")
+    auto = f" (magától: {AUTO_PUBLISH_MIN} perc)" if MODE == "hybrid" else ""
+    if art.get("hold"):
+        auto = " (magától nem kerül ki)"
+    elif art.get("schedule") and MODE == "hybrid":
+        auto = f" (magától: legkésőbb {str(art['schedule'].get('deadline', ''))[11:16]})"
+    state = f"🟢 <b>Kint van</b> – {kc.SITE_URL}{art.get('url', '')}" if live else "⏳ <b>Vár</b>" + auto
+    text = (f"{state} · {E(kc.SECTIONS.get(art['category'], {}).get('name', art['category']))}\n"
+            f"<b>{E(_chosen_title(art))}</b> · {img_txt}")
     return text, {"inline_keyboard": rows}
 
 
@@ -402,24 +401,15 @@ def _age_min(art: dict) -> float:
 # Beérkezett válaszok feldolgozása
 # ---------------------------------------------------------------------------
 
-HELP = ("Szia! Ide küldöm az új Kollektíva-cikkeket jóváhagyásra.\n\n"
-        "• Cím 1–3 / Kép 1–N / Nincs kép: csak kiválasztás (a ✓ jelzi, mi van kiválasztva)\n"
-        "• 🔄 Új képek: újakat keres – vagy válaszolj a cikkre: /k mit keressek\n"
-        "• Saját cím: ✏️ gomb, vagy válaszolj a cikkre: /c az új cím\n"
-        "• Előtag nélküli válasznál megkérdezem: cím legyen, vagy képet keressek\n"
-        "• ✅ Kirakom: azonnal kikerül (1–2 perc); ha " + str(AUTO_PUBLISH_MIN) + " percen belül nem döntesz, magától\n"
-        "• 🗓 Saját (időzített) anyag: csendesebb időszakban kerül ki, legkésőbb este\n"
-        "• Kint lévő cikknél (🟢): cím/kép csere, 🗑 Törlés; ✅ Rendben – 48 óráig még módosítható\n\n"
-        "Parancsok (rövid / hosszú):\n"
-        "/k /kep <mit> – válaszként egy cikkre: új képek erre\n"
-        "/c /cim <új cím> – válaszként egy cikkre: saját cím\n"
-        "/u /ujrairas – válaszként egy cikkre: újraírja (kint lévőnél ugyanazon a linken)\n"
-        "/v /vissza <link vagy címrészlet> – leveszi az oldalról és ide küldi javításra\n"
-        "/t /torles <link vagy címrészlet> – kint lévő cikk végleges leszedése\n"
-        "/l /lista – függő és kint lévő cikkek\n"
-        "/szavazas – nyitott szavazások, leszedés gombbal\n"
-        "/keret – mai AI- és képgenerálási használat a napi ingyenes kerethez képest\n"
-        "• Link vagy „téma: …” üzenet → megírom róla a cikket\n• 🔥 címek: a legkattintósabb változatok")
+HELP = ("Parancsok (rövid / hosszú):\n"
+        "/k /kep <mit> – új képek (válaszként a cikkre)\n"
+        "/c /cim <cím> – saját cím (válaszként)\n"
+        "/u /ujrairas – újraírás (válaszként)\n"
+        "/v /vissza <link|cím> – levétel javításra\n"
+        "/t /torles <link|cím> – leszedés\n"
+        "/kn – kép nélküli cikkek képválasztásra\n"
+        "/l /lista · /szavazas · /keret\n"
+        "Link vagy „téma: …” → cikk róla")
 
 
 def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -> int:
@@ -539,6 +529,22 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                         published += 1
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": f"✏️ Cím beállítva: {arg[:140]}",
                                        "reply_to_message_id": m["message_id"]})
+                    changed = True
+            elif re.match(r"(?i)/(kn|kepnelkul|képnélkül)\b", text):
+                # a kint lévő, kép nélküli cikkek (utolsó 7 nap, max. 8) ide jönnek képválasztásra; kint maradnak,
+                # a kiválasztott kép 1–2 percen belül él
+                live_arts = kc.read_json(out_dir / "articles.json", {"articles": []}).get("articles", [])
+                since = (datetime.now(tz) - timedelta(days=7)).date().isoformat()
+                ids_p = {p.get("id") for p in pending}
+                todo = [a for a in live_arts if not a.get("hero_image") and (a.get("date") or "") >= since
+                        and a.get("id") not in ids_p][:8]
+                tg("sendMessage", {"chat_id": st["chat_id"], "text": f"🖼 {len(todo)} kép nélküli cikk jön, képjelöltekkel." if todo
+                                   else "Nincs kép nélküli cikk az elmúlt 7 napból."})
+                for a in todo:
+                    item = {**a, "live": True, "title_options": [a["title"]], "clickbait_from": 1, "image_options": []}
+                    send_article(out_dir, item)
+                    pending.append(item)
+                    _refresh_images(st["chat_id"], item, ai)
                     changed = True
             elif re.match(r"(?i)/(keret|limit)\b", text):
                 tg("sendMessage", {"chat_id": st["chat_id"], "text": kc.usage_report()})
@@ -742,9 +748,9 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": "Az újraírás most nem sikerült, próbáld később."})
             if q:
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": note})
-    # ingyenes keretek: ha valamelyik fogyóban van, naponta egyszer szólunk
+    # ingyenes keretek: figyelmeztetés csak USAGE_ALERTS=1 esetén (alapból ki; állapot: /keret)
     alert, today_s = kc.usage_alert(), datetime.now(tz).date().isoformat()
-    if alert and st.get("usage_warned") != today_s and st.get("chat_id"):
+    if os.getenv("USAGE_ALERTS") == "1" and alert and st.get("usage_warned") != today_s and st.get("chat_id"):
         tg("sendMessage", {"chat_id": st["chat_id"], "text": alert})
         st["usage_warned"] = today_s
         changed = True
