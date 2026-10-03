@@ -180,7 +180,7 @@ def post_json(url: str, headers: dict, payload: dict, timeout: int, retries: int
 # ---------------------------------------------------------------------------
 # Ingyenes keretek figyelése: minden AI-hívást és képgenerálást napi bontásban számolunk
 # (data/usage_<workflow>.json – workflow-nként külön fájl, hogy a párhuzamos robotok ne ütközzenek a gitben).
-# A napi keretek a szolgáltatók ingyenes szintjéhez igazíthatók (env), a Telegram 80%-nál szól, /keret: állapot.
+# A napi keretek a szolgáltatók ingyenes szintjéhez igazíthatók (env), a Telegram 95%-nál szól, /keret: állapot.
 # ---------------------------------------------------------------------------
 USAGE_LIMITS = {"gemini": ("Gemini (cikkírás)", "GEMINI_DAILY_LIMIT", 250), "groq": ("Groq (segédfeladatok, tartalék)", "GROQ_DAILY_LIMIT", 1000),
                 "cf_image": ("Cloudflare képgenerálás", "CF_IMAGE_DAILY_LIMIT", 80)}
@@ -228,7 +228,7 @@ def usage_alert() -> Optional[str]:
     t = usage_today()
     for k, (name, env, default) in USAGE_LIMITS.items():
         lim = int(os.getenv(env, str(default)))
-        if t.get(k, 0) >= 0.8 * lim or t.get(k + "_hiba", 0) >= 10:
+        if t.get(k, 0) >= 0.95 * lim or t.get(k + "_hiba", 0) >= 10:
             return f"⚠️ Figyelem: a(z) {name} napi kerete fogyóban vagy hibázik (/keret). Ma kevesebb cikk készülhet."
     return None
 
@@ -920,6 +920,38 @@ def _thumb_b64(url: str, timeout: int) -> Optional[str]:
     return f"data:{ctype};base64," + base64.b64encode(raw).decode()
 
 
+def more_images(ai: "AIClient", art: dict, avoid: set, want: int = 3) -> list:
+    """Tartalék képkeresés: ha a szigorú keresés semmit (vagy alig valamit) talált, az AI a cikkből angol kulcsszavakat
+    ad csökkenő fontossági sorrendben (konkrét személy/hely/tárgy → téma → hangulat), és ezeken megy végig."""
+    try:
+        r = ai.complete_json("Képszerkesztő vagy. Csak JSON-t adsz vissza.",
+                             f"Cikk: {art['title']}\n{art.get('lead', '')}\nCímkék: {', '.join(art.get('tags') or [])}\n\n"
+                             "Adj 6 angol képkereső kifejezést csökkenő fontossági sorrendben: előbb a konkrét szereplő, hely, "
+                             "tárgy, aztán a téma, végül egy hangulatkép. JSON: {\"q\": [\"...\"]}", 300, light=True)
+        queries = [str(x).strip()[:60] for x in r.get("q") or [] if str(x).strip()][:6]
+    except (AIError, ValueError, TypeError, KeyError):
+        queries = []
+    out, seen = [], set(avoid)
+    for q in queries:
+        found = find_images([q], [], CFG_TIMEOUT, seen, limit=4)
+        seen |= {im["url"] for im in found}
+        out += vision_rank(ai, art["title"], art.get("lead", ""), found, min_score=4)
+        if len(out) >= want:
+            break
+    if out:
+        log.info("Tartalék képkeresés: %d kép (%s)", len(out), ", ".join(queries[:3]))
+    return out[:want]
+
+
+CFG_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "20"))
+
+
+def _clean_title(t: str) -> str:
+    """Cím: nincs pont a végén (kérdő- és felkiáltójel maradhat)."""
+    t = str(t).strip()
+    return t[:-1].rstrip() if t.endswith(".") and not t.endswith("...") else t
+
+
 def vision_rank(ai: "AIClient", title: str, lead: str, images: list, min_score: int = 5) -> list:
     """AI-szem: a Gemini megnézi a képjelölteket, és kidobja, ami nem illik a cikkhez (pl. bulvárcikkhez egy
     idegen ember, közéleti cikkhez egy random épület). Hibánál/kulcs nélkül változatlanul visszaadja a listát."""
@@ -991,6 +1023,9 @@ def localize_image(img: Optional[dict], timeout: int = 20) -> Optional[dict]:
     return {**img, "url": f"{SITE_URL}/public/img/px/{name}", "local": str(out_dir / name)}
 
 
+LAST_GEN_ERROR = ""
+
+
 def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: int = 2) -> list:
     """Saját illusztráció a Cloudflare Workers AI-jal (FLUX, ingyenes napi keret): szerkesztőségi grafika, NEM fotó
     valós személyről (valódi embert nem generálunk le). Kell: CF_ACCOUNT_ID + CF_AI_TOKEN. A kép a repóba kerül."""
@@ -1019,7 +1054,9 @@ def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: in
                              ai.cfg.http_timeout, 2)
             img = base64.b64decode((data.get("result") or {}).get("image") or "")
         except Exception as e:  # noqa: BLE001
-            log.warning("Illusztráció generálása sikertelen: %s", str(e)[:200])
+            global LAST_GEN_ERROR
+            LAST_GEN_ERROR = str(e)[:300]
+            log.warning("Illusztráció generálása sikertelen: %s", LAST_GEN_ERROR)
             continue
         if len(img) < 5000:
             continue
@@ -1419,7 +1456,7 @@ def _page(title: str, description: str, canonical: str, body: str, head_extra: s
 </main>
 <footer>© {datetime.now().year} {SITE_NAME}<br><a href="/">Főoldal</a>{NAV_LINKS}<a href="/feed.xml">RSS</a><br><a href="/info/#impresszum">Impresszum</a><a href="/info/#adatkezeles">Adatkezelés</a><a href="/info/#sutik">Sütik</a><a href="/info/#hirdetes">Hirdetés</a>{GPREF_FOOT}</footer>
 {NEW_TOAST_HTML}
-<script src="/poll-widget.js" defer></script>
+<script src="/poll-widget.js?v=3" defer></script>
 </body>
 </html>
 """
@@ -1604,7 +1641,7 @@ function e(v){{return String(v==null?'':v).replace(/[&<>"']/g,function(c){{retur
 fetch('/public/data/polls.json',{{cache:'no-cache'}}).then(function(r){{return r.json()}}).then(function(d){{
 var p=(d.polls||[]).filter(function(x){{return x.article_url===location.pathname&&Date.parse(x.closes_at)>Date.now()}})[0];if(!p)return;
 function show(r){{var t=r.total||0;box.innerHTML='<b>A nap kérdése</b><h3>'+e(p.question)+'</h3>'+p.options.map(function(o,i){{var pc=t?Math.round(100*(r.counts[i]||0)/t):0;
-return '<div class="pr'+(r.voted===i?' me':'')+'"><span style="width:'+pc+'%"></span><em>'+e(o)+(r.voted===i?' ✓':'')+'</em><strong>'+pc+'%</strong></div>'}}).join('')+'<small>'+(r.closed?'lezárult':'<span class="dot"></span>nyitva')+(t>=200?' · '+t+' szavazat':'')+' · nem reprezentatív</small><p><a class="pbtn" href="/szavazasok/">Korábbi szavazások</a></p>';box.hidden=false}}
+return '<div class="pr'+(r.voted===i?' me':'')+'"><span style="width:'+pc+'%"></span><em>'+e(o)+(r.voted===i?' ✓':'')+'</em><strong>'+pc+'%</strong></div>'}}).join('')+'<small>'+(r.closed?'lezárult':'<span class="dot"></span>nyitva')+(t>=200?' · '+t+' szavazat':'')+'</small><p><a class="pbtn" href="/szavazasok/">Korábbi szavazások</a></p>';box.hidden=false}}
 function ask(){{box.innerHTML='<b>A nap kérdése</b><h3>'+e(p.question)+'</h3>'+p.options.map(function(o,i){{return '<button type="button" data-i="'+i+'">'+e(o)+'</button>'}}).join('')+'<small>Szavazz, és utána látod az eredményt.</small>';box.hidden=false;
 box.querySelectorAll('button').forEach(function(b){{b.onclick=function(){{fetch('/api/poll',{{method:'POST',headers:{{'Content-Type':'application/json'}},body:JSON.stringify({{id:p.id,option:+b.dataset.i}})}}).then(function(r){{return r.json()}}).then(function(r){{if(r.counts)show(r)}})}}}})}}
 fetch('/api/poll?id='+encodeURIComponent(p.id)).then(function(r){{return r.json()}}).then(function(r){{if(!r.ok)return;(r.voted!==null||r.closed)?show(r):ask()}})}}).catch(function(){{}})}})();</script>
@@ -1851,11 +1888,11 @@ SECTIONS = {
     },
     "tech": {
         "voice": "közérthető, kíváncsi tech-újságíró: a szakszavakat egy félmondatban elmagyarázza, túlzó hype nélkül",
-        "id": "tech", "name": "Tech / Jövő", "kicker": "Tech / Jövő",
-        "tagline": "Mesterséges intelligencia, eszközök és a digitális élet változásai.",
-        "focus": "technológia, mesterséges intelligencia, digitális eszközök, tudomány gyakorlati hatásai",
+        "id": "tech", "name": "Tech & Tudomány", "kicker": "Tech & Tudomány",
+        "tagline": "Mesterséges intelligencia, tudomány és űrkutatás – érthetően.",
+        "focus": "technológia, mesterséges intelligencia, digitális eszközök, tudomány, csillagászat és űrkutatás",
         "feeds": [("https://telex.hu/rss", r"Techtud", None), ("https://qubit.hu/feed", None, None),
-                  ("https://hvg.hu/rss", r"Tech|Tudomány", None)],
+                  ("https://hvg.hu/rss", r"Tech|Tudomány", None), ("https://www.nasa.gov/feed/", None, None)],
     },
     "eletmod": {
         "voice": "barátságos, tudományosan megalapozott: a kutatási eredményt a helyén kezeli (egy vizsgálat nem bizonyíték), praktikus",
@@ -1884,6 +1921,7 @@ SECTIONS = {
     },
     "univerzum": {
         "voice": "lelkes ismeretterjesztő: léptékeket érzékeltet hétköznapi hasonlatokkal (pl. „ez olyan, mintha…”)",
+        "legacy": True,  # beolvadt a Tech & Tudományba: új cikk nem készül ide, a régiek oldalai megmaradnak
         "id": "univerzum", "name": "Univerzum", "kicker": "Univerzum",
         "tagline": "Csillagászat és űrkutatás, érthetően.",
         "focus": "csillagászat, űrkutatás, bolygók, űrmissziók",
@@ -1892,8 +1930,9 @@ SECTIONS = {
                   ("https://telex.hu/rss", r"Techtud", r"űr|NASA|ESA|bolygó|csillag|galaxis|Hold|Mars|teleszkóp|rakéta")],
     },
 }
+ACTIVE_SECTIONS = {k: v for k, v in SECTIONS.items() if not v.get("legacy")}
 NAV_LINKS = " ".join(f'<a href="/{sid}/">{html.escape(sec["name"])}</a>'
-                     for sid, sec in [*SECTIONS.items(), ("retro", RETRO_SECTION)])
+                     for sid, sec in [*ACTIVE_SECTIONS.items(), ("retro", RETRO_SECTION)])
 MENU_HTML = ('<b class="mh">Rovatok</b><div class="mg">' + NAV_LINKS + '</div><hr>'
              '<a href="/?kereses">Keresés</a><a href="/#hirlevel">Heti hírlevél</a><a href="/#horoszkop">Horoszkóp</a>'
              '<a href="/szavazasok/">Szavazások</a><a href="/?belepes=1">Fiókom, mentett cikkek</a>'
@@ -2244,9 +2283,9 @@ ON_DEMAND_SYSTEM = "Hírszerkesztő vagy. Egy hírt a megfelelő rovatba sorolsz
 SECTION_RULES = (
     "Szabályok: ha a hír lényege kormány, párt, politikus, hatóság, bíróság vagy közpénz (akár kulturális, egészségügyi "
     "vagy gazdasági témában is) → kozelet (külföldi politikánál vilag). Árak, árfolyam, tőzsde, cégek, bérek, adók hatása "
-    "a pénztárcára → penzvilag. Egészség, alvás, táplálkozás, mozgás, lelki egészség (akár kutatás is) → eletmod. "
-    "Könyv, film, sorozat, zene, filozófia, művészet → kultura. Űr és csillagászat → univerzum. Eszközök, MI, internet, "
-    "szoftver → tech. Sztárok, hírességek, tévéműsorok, celeb-magánélet → bulvar; ismert szereplő nélküli bűnügy vagy "
+    "a pénztárcára, vásárlás, akciók → penzvilag. Egészség, sport, edzés, alvás, táplálkozás, lelki egészség (akár "
+    "kutatás is) → eletmod – ajándék, divat, lakberendezés NEM életmód. Könyv, film, sorozat, zene, filozófia, művészet, "
+    "hagyományok → kultura. Eszközök, MI, internet, szoftver, tudomány, űr és csillagászat → tech. Sztárok, hírességek, tévéműsorok, celeb-magánélet → bulvar; ismert szereplő nélküli bűnügy vagy "
     "furcsa eset külföldön → vilag, itthon → kozelet.")
 
 
@@ -2255,12 +2294,12 @@ def pick_section(ai: "AIClient", story: list, default: Optional[dict] = None) ->
     if not story:
         return default
     try:
-        sec = ai.complete_json(ON_DEMAND_SYSTEM, "Rovatok: " + "; ".join(f"{k} = {v['name']}: {v['focus']}" for k, v in SECTIONS.items())
+        sec = ai.complete_json(ON_DEMAND_SYSTEM, "Rovatok: " + "; ".join(f"{k} = {v['name']}: {v['focus']}" for k, v in SECTIONS.items() if not v.get("legacy"))
                                + f"\n\n{SECTION_RULES}\n\nHír: {story[0]['title']}\n{(story[0].get('summary') or '')[:400]}\n\n"
                                + 'Melyik rovatba való? JSON: {"section": "rovat azonosító"}', 100, light=True).get("section")
     except (AIError, ValueError, TypeError, KeyError, AttributeError):
         sec = None
-    return SECTIONS.get(sec) or default
+    return (SECTIONS.get(sec) if not SECTIONS.get(sec, {}).get("legacy") else SECTIONS["tech"]) or default
 
 
 def build_on_demand(ai: "AIClient", text: str, tz: ZoneInfo, articles: list) -> Optional[dict]:
@@ -2400,7 +2439,30 @@ def headline_examples(timeout: int) -> list:
             items = fetch_feed(url, timeout)[: (10 if name == "444" else 4)]
             out += [f"{name}: {it['title']}" for it in items if it.get("title")]
         _HEADLINES = out
+        log.info("Címminta: %d friss cím a nagy lapoktól (%s)", len(out), ", ".join(sorted({o.split(':')[0] for o in out})) or "egy sem")
     return _HEADLINES
+
+
+CONTEXT_FILE = BASE_DIR / "data" / "context_hu.json"
+CONTEXT_PAGES = ["Magyarország miniszterelnöke", "Magyarország kormánya", "Magyarország köztársasági elnöke",
+                 "Magyarország Országgyűlése"]
+
+
+def current_context(timeout: int = 15) -> str:
+    """Napi egyszer frissülő háttér a magyar Wikipédiából: kik töltik be most a legfontosabb tisztségeket.
+    Az AI tudása egy adott dátumnál lezárul, ezért enélkül elavult tisztséget írhatna (pl. volt miniszterelnököt)."""
+    c = read_json(CONTEXT_FILE, {})
+    today = date.today().isoformat()
+    if c.get("date") != today:
+        parts = []
+        for t in CONTEXT_PAGES:
+            data = http_get_json(f"https://hu.wikipedia.org/api/rest_v1/page/summary/{_q(t)}", timeout)
+            if data and data.get("extract"):
+                parts.append(f"{data.get('title', t)}: {data['extract'][:700]}")
+        if parts:
+            c = {"date": today, "text": "\n".join(parts)}
+            write_json_atomic(CONTEXT_FILE, c)
+    return c.get("text", "")
 
 
 def section_prompt(section: dict, story: list, d: date, context: Optional[list] = None,
@@ -2418,6 +2480,12 @@ def section_prompt(section: dict, story: list, d: date, context: Optional[list] 
         bg_block += ("\nKorábbi cikkeink ugyanebben az ügyben (előzményként használhatod – pl. „ahogy korábban megírtuk” –, "
                      "de csak ha tényleg ugyanarról szól; új tényt ne találj ki belőlük):\n"
                      + "\n".join(f"- {p['date']}: {p['title']} – {p.get('lead') or ''}" for p in past) + "\n")
+    if section.get("id") in ("kozelet", "vilag", "penzvilag"):
+        ctx = current_context()
+        if ctx:
+            bg_block += ("\nAKTUÁLIS HÁTTÉR (magyar Wikipédia, napi frissítés) – a tisztségeknél (ki a miniszterelnök, ki van "
+                         "kormányon, ki az ellenzék) ehhez és a forrásokhoz igazodj, NE a saját emlékeidhez, mert azok elavultak "
+                         "lehetnek:\n" + ctx + "\n")
     if examples:
         bg_block += ("\nCÍMSTÍLUS – így címeznek ma a nagy magyar lapok (csak stílusminta: ritmus, csavar, irónia, "
                      "kattintásra csábító fordulat; a címeiket NE másold, a tényeiket ne vedd át):\n"
@@ -2447,7 +2515,10 @@ esemény külön blokkban szerepeljen, a blokk első bekezdése „## Rövid alc
 - "title_options": 2 további, eltérő stílusú címváltozat (ugyanazokkal a szabályokkal), tömbként
 - "clickbait_titles": 3 további cím, ami a lehető legkattintósabb (erős érzelem, rejtély, „ezt nem fogod elhinni”
   hatás, kérdés, szám, csípős irónia, mint a 444 címei) – de továbbra is IGAZ, nem állít olyat, ami nincs a
-  cikkben, és nem sértő
+  cikkben, és nem sértő. TILOS az olcsó, bármire ráhúzható sablon („Ezt nem hinnéd el”, „Nem fogod elhinni”,
+  „Döbbenetes”, „Sokkoló”, „Mindenki erről beszél”): a kíváncsiságot a sztori konkrét, meglepő részlete keltse.
+  Bűnügynél, tragédiánál, áldozatoknál nincs clickbait-poén.
+- Írásjel a címek végén: pont SOHA; kérdőjel csak valódi kérdésnél, felkiáltójel csak ritkán
 - "lead": 2 mondatos bevezető: mi történt és miért fontos
 - "key_points": 3–5 rövid, egymondatos pont a lényegről („Röviden” doboz)
 - "body": bekezdések tömbje. A HOSSZ A TARTALOMHOZ IGAZODJON: egyszerű hírnél 300–450 szó elég; ha a téma
@@ -2528,6 +2599,8 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
                                 (generic if isinstance(generic, list) else [generic])[:2], ai.cfg.http_timeout,
                                 avoid_images, limit=IMAGE_OPTIONS)
     image_options = vision_rank(ai, art["title"], art["lead"], image_options)
+    if len(image_options) < 2:
+        image_options += more_images(ai, art, (avoid_images or set()) | {im["url"] for im in image_options})
     image = image_options[0] if image_options else None
     inline_images = find_inline_images(raw, len(art["body"]), ai.cfg.http_timeout,
                                        (avoid_images or set()) | {im["url"] for im in image_options})
@@ -2537,12 +2610,13 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         t = str(t).strip()
         if t and t not in title_options and not title_too_similar(t, story):
             title_options.append(t)
-    title_options = title_options[:3]
+    title_options = [_clean_title(t) for t in title_options[:3]]
+    art["title"] = title_options[0]
     clickbait_from = len(title_options)  # innentől a 🔥 „maximum clickbait” címek (Telegramon külön jelölve)
     for t in raw.get("clickbait_titles") or []:
         t = str(t).strip()
         if t and t not in title_options and not title_too_similar(t, story) and len(title_options) < clickbait_from + 3:
-            title_options.append(t)
+            title_options.append(_clean_title(t))
     now_iso = now.isoformat(timespec="seconds")
     slug = slugify(f"{d.isoformat()}-{art['title']}")
     sources = normalize_sources([{"url": s["link"], "title": s["title"], "publisher": s["source"]} for s in story], now_iso)
@@ -2609,7 +2683,7 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
                      if (a.get("created_at") or "") >= (now - timedelta(hours=followup_h)).isoformat() and a.get("title")]
     recent_kw = [_keywords(a.get("title", "") + " " + " ".join(s.get("title", "") for s in a.get("sources", [])))
                  for a in articles_all if (a.get("created_at") or "") >= (now - timedelta(hours=followup_h)).isoformat()]
-    wanted = [x.strip() for x in os.getenv("SECTION_IDS", ",".join(SECTIONS)).split(",") if x.strip() in SECTIONS]
+    wanted = [x.strip() for x in os.getenv("SECTION_IDS", ",".join(ACTIVE_SECTIONS)).split(",") if x.strip() in ACTIVE_SECTIONS]
     max_run = int(os.getenv("MAX_ARTICLES_PER_RUN", "2"))
     # Napi keret (ingyenes AI-kvóta + Cloudflare-buildek): a napi cikkszám nem lépheti túl a DAILY_ARTICLE_LIMIT-et,
     # és a keret egyenletesen oszlik el a nap futásai között (ne fogyjon el délelőtt).
@@ -2630,8 +2704,8 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
             kw = group[0]["kw"]
             if any(len(kw & rk) >= 4 for rk in recent_kw):
                 continue  # ugyanerről a témáról már írtunk az elmúlt néhány órában
-            # minőség a mennyiség helyett: nincs „minden rovatba kell egy” kényszer, és rovatonként napi plafon van
-            cap = int(os.getenv(f"DAILY_MAX_{sid.upper()}", "2" if sid == "bulvar" else "4"))
+            # nincs „minden rovatba kell egy” kényszer (gyenge töltelékcikk); jó témából annyi jöhet, amennyi van (bulvár max. 3)
+            cap = int(os.getenv(f"DAILY_MAX_{sid.upper()}", "3" if sid == "bulvar" else "99"))
             if today >= cap:
                 continue
             cands.append((group[0]["hot_score"], sid, group))
