@@ -111,7 +111,7 @@ def openalex_papers(q: str, timeout: int, n: int = 5) -> list:
     flt = f"title.search:{q},has_abstract:true,from_publication_date:2010-01-01,type:article|review"
     data = kc.http_get_json(f"{OPENALEX_URL}?filter={urllib.parse.quote(flt)}&sort=cited_by_count:desc&per-page={n + 3}"
                             "&select=title,publication_year,doi,id,cited_by_count,primary_location,abstract_inverted_index"
-                            "&mailto=szerkesztoseg@kollektiva.hu", timeout) or {}
+                            "&mailto=szerkesztoseg@xn--kollektva-m5a.hu", timeout) or {}
     out = []
     for r in data.get("results") or []:
         inv = r.get("abstract_inverted_index") or {}
