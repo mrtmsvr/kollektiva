@@ -159,12 +159,15 @@ def post_json(url: str, headers: dict, payload: dict, timeout: int, retries: int
     last_err: Optional[Exception] = None
     for attempt in range(1, retries + 1):
         req = urllib.request.Request(url, data=body, method="POST",
-                                     headers={"Content-Type": "application/json", **headers})
+                                     headers={"Content-Type": "application/json",
+                                              "User-Agent": "KollektivaBot/1.0 (+https://kollektiva.hu)", **headers})
         try:
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return json.loads(resp.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
             detail = e.read().decode("utf-8", "replace")[:300]
+            if "<html" in detail.lower():  # HTML hibaoldal (pl. Cloudflare-botvédelem) – ne a nyers HTML-t adjuk tovább
+                detail = "a szolgáltató HTML hibaoldalt adott (botvédelem vagy hibás végpont/jogosultság)"
             last_err = AIError(f"HTTP {e.code}: {detail}")
             if e.code not in (408, 429, 500, 502, 503, 504, 529):
                 break  # kliens hiba (pl. rossz kulcs) – nincs értelme újrapróbálni
@@ -1456,7 +1459,7 @@ def _page(title: str, description: str, canonical: str, body: str, head_extra: s
 </main>
 <footer>© {datetime.now().year} {SITE_NAME}<br><a href="/">Főoldal</a>{NAV_LINKS}<a href="/feed.xml">RSS</a><br><a href="/info/#impresszum">Impresszum</a><a href="/info/#adatkezeles">Adatkezelés</a><a href="/info/#sutik">Sütik</a><a href="/info/#hirdetes">Hirdetés</a>{GPREF_FOOT}</footer>
 {NEW_TOAST_HTML}
-<script src="/poll-widget.js?v=3" defer></script>
+<script src="/poll-widget.js?v=4" defer></script>
 </body>
 </html>
 """
@@ -2598,8 +2601,9 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
     image_options = find_images([raw.get("image_query"), *(raw.get("image_query_alt") or [])][:5],
                                 (generic if isinstance(generic, list) else [generic])[:2], ai.cfg.http_timeout,
                                 avoid_images, limit=IMAGE_OPTIONS)
-    image_options = vision_rank(ai, art["title"], art["lead"], image_options)
-    if len(image_options) < 2:
+    strict = section["id"] == "bulvar"  # celebhírnél csak nagyon illő kép (különben inkább a rovat grafikája)
+    image_options = vision_rank(ai, art["title"], art["lead"], image_options, min_score=7 if strict else 5)
+    if len(image_options) < 2 and not strict:
         image_options += more_images(ai, art, (avoid_images or set()) | {im["url"] for im in image_options})
     image = image_options[0] if image_options else None
     inline_images = find_inline_images(raw, len(art["body"]), ai.cfg.http_timeout,
@@ -2704,8 +2708,8 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
             kw = group[0]["kw"]
             if any(len(kw & rk) >= 4 for rk in recent_kw):
                 continue  # ugyanerről a témáról már írtunk az elmúlt néhány órában
-            # nincs „minden rovatba kell egy” kényszer (gyenge töltelékcikk); jó témából annyi jöhet, amennyi van (bulvár max. 3)
-            cap = int(os.getenv(f"DAILY_MAX_{sid.upper()}", "3" if sid == "bulvar" else "99"))
+            # nincs „minden rovatba kell egy” kényszer (gyenge töltelékcikk); jó témából annyi jöhet, amennyi van (bulvár max. 6)
+            cap = int(os.getenv(f"DAILY_MAX_{sid.upper()}", "6" if sid == "bulvar" else "99"))
             if today >= cap:
                 continue
             cands.append((group[0]["hot_score"], sid, group))
