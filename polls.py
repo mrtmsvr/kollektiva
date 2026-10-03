@@ -30,7 +30,7 @@ POLL_SYSTEM = (
     "MÓDSZERTAN: egy kérdés egyetlen dologra kérdezzen (ne legyen kettős kérdés), konkrét döntésre vagy helyzetre; "
     "csak olyan témát válassz, amiben az emberek tényleg megoszlanak; a pro és kontra válaszok száma és erőssége "
     "legyen azonos, egy köztes válasz belefér; ne legyen értékítéletet sugalló szó a kérdésben; a „Nem tudom” mindig "
-    "az utolsó. Tegezve kérdezz (pl. „Szerinted…”, „Te mit gondolsz…”), ne magázva. "
+    "az utolsó. Magázva vagy személytelenül kérdezz (pl. „Ön szerint…”, „Hogyan értékeli…”), ne tegezve. "
     "Csak érvényes JSON-t adsz vissza."
 )
 
