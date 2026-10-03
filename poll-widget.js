@@ -79,7 +79,7 @@
       }
       (st.voted !== null || st.closed) ? show(st) : ask();
       function appear() { if (!tab.classList.contains('off') || box.classList.contains('on')) return; tab.classList.remove('off'); setTimeout(function () { tab.classList.add('wig'); }, 400); }
-      setTimeout(appear, MOBILE ? 2500 : 1500);  // gépen 1,5, mobilon 2,5 mp után jön elő
+      setTimeout(appear, 500);  // fél mp után jön elő (gépen és mobilon is)
       // amíg meg nem nyitják, időnként újra megrándul (max. 5-ször), hogy feltűnjön
       var wigs = 0, wigT = setInterval(function () {
         if (box.classList.contains('on') || tab.classList.contains('off') || ++wigs > 5) { if (wigs > 5) clearInterval(wigT); return; }
