@@ -198,9 +198,15 @@
     <div class="rounded-2xl border border-line bg-vault/60 p-5 sm:p-7">
       <p class="text-[12px] uppercase tracking-[0.18em] text-brass">A nap kérdése</p>
       <h2 id="pollQ" class="mt-2 font-display text-[26px] font-semibold leading-tight sm:text-[32px]"></h2>
-      <a id="pollArt" class="mt-1 inline-block text-[14px] text-dusk underline decoration-line underline-offset-2 hover:text-parch"></a>
+      <p class="mt-1 text-[14px] text-dusk">Mondd el te is, mit gondolsz – szavazás után látod, hogyan szavaztak a többiek.</p>
       <div id="pollOpts" class="mt-5 grid gap-2.5 sm:grid-cols-2"></div>
-      <div class="mt-3 flex flex-wrap items-center justify-between gap-2"><p id="pollMeta" class="text-[13px] text-dusk"></p><a href="/szavazasok/" class="text-[13px] text-dusk underline decoration-line underline-offset-2 hover:text-parch">Korábbi kérdések és eredmények →</a></div>
+      <div class="mt-4 flex flex-wrap items-center justify-between gap-3">
+        <p id="pollMeta" class="flex items-center gap-2 text-[13px] text-dusk"></p>
+        <div class="flex flex-wrap gap-2">
+          <a id="pollArt" class="rounded-full border border-line px-4 py-2 text-[13px] font-semibold text-parch transition hover:border-brass">A cikk elolvasása</a>
+          <a href="/szavazasok/" class="rounded-full bg-brass px-4 py-2 text-[13px] font-semibold text-night transition hover:bg-[#D8B46B]">Korábbi szavazások</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -767,27 +773,22 @@ async function loadPoll() {
   if (!poll) return;
   const box = $('pollOpts');
   $('pollQ').textContent = poll.question;
-  $('pollArt').textContent = 'A cikk: ' + poll.article_title; $('pollArt').href = poll.article_url;
+  $('pollArt').href = poll.article_url; $('pollArt').title = poll.article_title;
+  const status = r => r.closed ? 'lezárult' : '<span class="inline-block h-2 w-2 rounded-full bg-[#3FBF6F] shadow-[0_0_0_3px_rgba(63,191,111,.2)]"></span>nyitva';
   const show = r => {
     const total = r.total || 0;
-    if (total < 100) {  // kevés szavazatból a százalék félrevezető
-      const best = (r.counts || []).reduce((b, c, i, a) => c > a[b] ? i : b, 0);
-      box.innerHTML = `<p class="text-[15px] text-parch sm:col-span-2">${r.voted !== null ? 'Köszi, megkaptuk a szavazatod! ' : ''}${r.closed ? 'Lezárult. A legtöbben ezt választották: <b>' + esc(poll.options[best]) + '</b>' : 'Az eredményt a szavazás lezárulása után mutatjuk.'}</p>`;
-      $('pollMeta').textContent = 'Nem reprezentatív – olvasóink véleménye.';
-      return;
-    }
     box.innerHTML = poll.options.map((o, i) => {
       const pct = total ? Math.round(100 * (r.counts[i] || 0) / total) : 0;
       return `<div class="relative overflow-hidden rounded-xl border ${r.voted === i ? 'border-brass' : 'border-line'} px-4 py-3">
         <div class="absolute inset-y-0 left-0 bg-brass/15" style="width:${pct}%"></div>
         <div class="relative flex justify-between gap-3 text-[15px]"><span>${esc(o)}${r.voted === i ? ' ✓' : ''}</span><b>${pct}%</b></div></div>`;
     }).join('');
-    $('pollMeta').textContent = (total >= 1000 ? `${total} szavazat · ` : '') + (r.closed ? 'lezárult' : 'a szavazás nyitva');
+    $('pollMeta').innerHTML = status(r) + (total >= 200 ? ` · ${total} szavazat` : '') + ' · nem reprezentatív';
   };
   const ask = () => {
     box.innerHTML = poll.options.map((o, i) =>
       `<button type="button" data-i="${i}" class="rounded-xl border border-line px-4 py-3 text-left text-[15px] transition hover:border-brass">${esc(o)}</button>`).join('');
-    $('pollMeta').textContent = 'Szavazz, és utána látod az eredményt.';
+    $('pollMeta').innerHTML = status({}) + ' · szavazz, és utána látod az eredményt';
     box.querySelectorAll('button').forEach(b => b.addEventListener('click', async () => {
       box.querySelectorAll('button').forEach(x => x.disabled = true);
       try {
