@@ -1,0 +1,33 @@
+name: Főoldal CSS (Tailwind)
+
+# A főoldal stílusa előre lefordított Tailwind (tw.css). Ha az index.html (vagy a szavazás-fül, a config) változik,
+# ez újrafordítja és feltölti – így nem kell a böngészőben fordítani (gyorsabb, nem akad a keringő hold).
+on:
+  push:
+    branches: [main]
+    paths: ["index.html", "poll-widget.js", "tailwind.config.js", "tw-input.css"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  css:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Fordítás
+        run: npx -y tailwindcss@3 -c tailwind.config.js -i tw-input.css -o tw.css --minify
+      - name: Feltöltés (csak ha változott)
+        run: |
+          git add tw.css
+          git diff --cached --quiet && exit 0
+          git config user.name "kollektiva-bot"
+          git config user.email "bot@kollektiva.hu"
+          git commit -q -m "Főoldal CSS újrafordítva"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q && exit 0; sleep 5; done
+          exit 1
