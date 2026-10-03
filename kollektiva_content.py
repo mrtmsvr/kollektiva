@@ -2042,6 +2042,27 @@ def same_story_as_recent(ai: "AIClient", group: list, recent_titles: list) -> bo
 
 ON_DEMAND_SYSTEM = "Hírszerkesztő vagy. Egy hírt a megfelelő rovatba sorolsz. Csak JSON-t adsz vissza."
 
+SECTION_RULES = (
+    "Szabályok: ha a hír lényege kormány, párt, politikus, hatóság, bíróság vagy közpénz (akár kulturális, egészségügyi "
+    "vagy gazdasági témában is) → kozelet (külföldi politikánál vilag). Árak, árfolyam, tőzsde, cégek, bérek, adók hatása "
+    "a pénztárcára → penzvilag. Egészség, alvás, táplálkozás, mozgás, lelki egészség (akár kutatás is) → eletmod. "
+    "Könyv, film, sorozat, zene, filozófia, művészet → kultura. Űr és csillagászat → univerzum. Eszközök, MI, internet, "
+    "szoftver → tech. Sztárok, hírességek, tévéműsorok, celeb-magánélet → bulvar; ismert szereplő nélküli bűnügy vagy "
+    "furcsa eset külföldön → vilag, itthon → kozelet.")
+
+
+def pick_section(ai: "AIClient", story: list, default: Optional[dict] = None) -> Optional[dict]:
+    """A hír tartalma alapján választ rovatot (a forrás-feed rovata csak kiindulás; pl. a Techtud alvás-kutatása → életmód)."""
+    if not story:
+        return default
+    try:
+        sec = ai.complete_json(ON_DEMAND_SYSTEM, "Rovatok: " + "; ".join(f"{k} = {v['name']}: {v['focus']}" for k, v in SECTIONS.items())
+                               + f"\n\n{SECTION_RULES}\n\nHír: {story[0]['title']}\n{(story[0].get('summary') or '')[:400]}\n\n"
+                               + 'Melyik rovatba való? JSON: {"section": "rovat azonosító"}', 100, light=True).get("section")
+    except (AIError, ValueError, TypeError, KeyError, AttributeError):
+        sec = None
+    return SECTIONS.get(sec) or default
+
 
 def build_on_demand(ai: "AIClient", text: str, tz: ZoneInfo, articles: list) -> Optional[dict]:
     """A szerkesztő Telegramon küld egy linket vagy témát → a robot cikket ír róla (jóváhagyásra).
@@ -2079,13 +2100,7 @@ def build_on_demand(ai: "AIClient", text: str, tz: ZoneInfo, articles: list) -> 
             return None
     for s in story:
         s["kw"] = _keywords(s["title"] + " " + (s.get("summary") or "")[:200])
-    try:
-        sec = ai.complete_json(ON_DEMAND_SYSTEM, "Rovatok: " + ", ".join(f"{k} ({v['name']})" for k, v in SECTIONS.items())
-                               + f"\n\nHír: {story[0]['title']}\n{(story[0].get('summary') or '')[:400]}\n\n"
-                               + 'Melyik rovatba való? JSON: {"section": "rovat azonosító"}', 100, light=True).get("section")
-    except (AIError, ValueError, TypeError, KeyError):
-        sec = None
-    section = SECTIONS.get(sec) or SECTIONS.get("kozelet") or next(iter(SECTIONS.values()))
+    section = pick_section(ai, story, SECTIONS.get("kozelet") or next(iter(SECTIONS.values())))
     recent_imgs = {(a.get("hero_image") or {}).get("url") for a in articles[:60]} - {None}
     art = build_section_article(ai, section, now.date(), tz, story, recent_imgs, related_past(articles, story))
     if art:
@@ -2250,6 +2265,11 @@ Kizárólag ezt a JSON-t add vissza:
 def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, story: list,
                           avoid_images: Optional[set] = None, past: Optional[list] = None) -> Optional[dict]:
     now = datetime.now(tz)
+    if ai and getattr(ai, "enabled", True):
+        better = pick_section(ai, story, section)
+        if better and better["id"] != section["id"]:
+            log.info("Rovat-javítás: %s → %s (%s)", section["id"], better["id"], story[0].get("title", "")[:80])
+            section = better
     for s in story[:4]:
         s["fulltext"] = fetch_article_text(s["link"], ai.cfg.http_timeout)
     try:
