@@ -27,6 +27,10 @@ POLL_SYSTEM = (
     "rövid, érthető, semleges – nem sugalmaz választ, nem sértő, nem pártpolitikai hovatartozásra kérdez rá, nem "
     "személyeskedik; a válaszlehetőségek kiegyensúlyozottak, egymást kizárók, és lefedik a fő álláspontokat "
     "(lehet köztük „Nem tudom / nincs véleményem”). Bűnügyben nem kérdezhetsz rá valaki bűnösségére. "
+    "MÓDSZERTAN: egy kérdés egyetlen dologra kérdezzen (ne legyen kettős kérdés), konkrét döntésre vagy helyzetre; "
+    "csak olyan témát válassz, amiben az emberek tényleg megoszlanak; a pro és kontra válaszok száma és erőssége "
+    "legyen azonos, egy köztes válasz belefér; ne legyen értékítéletet sugalló szó a kérdésben; a „Nem tudom” mindig "
+    "az utolsó. Tegezve kérdezz (pl. „Szerinted…”, „Te mit gondolsz…”), ne magázva. "
     "Csak érvényes JSON-t adsz vissza."
 )
 
