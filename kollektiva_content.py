@@ -1438,6 +1438,9 @@ def _figure(img: dict, alt: str, eager: bool = False, caption: str = "") -> str:
             f'target="_blank">{E(img.get("credit", ""))}</a>, {E(img.get("license", ""))}</details></figcaption></figure>')
 
 
+GOOGLE_CLIENT_ID = "1014482488754-j1k6m2otl4cma3iaec2639i2nbji0p06.apps.googleusercontent.com"
+
+
 def _share_html(url: str, title: str) -> str:
     """Egyetlen „Megosztás” gomb: a rendszer saját megosztója (telefonon és a legtöbb gépi böngészőben is);
     ahol nincs ilyen (pl. Firefox), ott egy kis lenyíló: Facebook, WhatsApp, X, link másolása."""
@@ -1460,15 +1463,32 @@ def _share_html(url: str, title: str) -> str:
             ".catch(function(){})}else{p.hidden=!p.hidden}};c.onclick=function(){"
             "(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(function(){c.textContent='Másolva ✓'},"
             "function(){prompt('A cikk linkje:',u)})};"
-            # Mentés: Google-belépéshez kötve (a fiók munkamenete a főoldalon jön létre, /api/saved – D1)
-            "var s=d.querySelector('.sh-save'),U=null;try{U=JSON.parse(localStorage.getItem('kollektiva_user')||'null')}catch(e){}"
-            "var H=U&&U.session?{'Content-Type':'application/json',Authorization:'Bearer '+U.session}:null,"
-            "pa=new URL(u,location.href).pathname,q='/api/saved?url='+encodeURIComponent(pa);"
+            # Mentés: Google-belépéshez kötve (/api/saved – D1). Ha nincs belépve, itt helyben nyílik a Google-belépés.
+            "var s=d.querySelector('.sh-save'),U=null,K='kollektiva_user';try{U=JSON.parse(localStorage.getItem(K)||'null')}catch(e){}"
+            "var H=null,pa=new URL(u,location.href).pathname,q='/api/saved?url='+encodeURIComponent(pa);"
+            "function hd(){H=U&&U.session?{'Content-Type':'application/json',Authorization:'Bearer '+U.session}:null}hd();"
             "function st(on){s.dataset.on=on?'1':'';s.lastChild.textContent=on?'Mentve':'Mentés'}"
+            "function toast(m){var x=document.createElement('div');x.textContent=m;x.style.cssText='position:fixed;left:50%;top:14px;"
+            "transform:translateX(-50%);z-index:80;max-width:calc(100vw - 32px);background:#C9A45C;color:#0E1024;border-radius:999px;"
+            "padding:9px 16px;font:600 13px Manrope,system-ui,sans-serif;box-shadow:0 6px 20px rgba(0,0,0,.4)';"
+            "document.body.appendChild(x);setTimeout(function(){x.remove()},5000)}"
+            "function save(on){st(on);return fetch(on?'/api/saved':q,{method:on?'POST':'DELETE',headers:H,"
+            "body:on?JSON.stringify({url:pa,title:t}):undefined}).then(function(r){if(r.status==401){st(!on);U=null;hd();login()}})"
+            ".catch(function(){st(!on)})}"
+            "function gis(){return window.google&&google.accounts?Promise.resolve():new Promise(function(ok,no){"
+            "var x=document.createElement('script');x.src='https://accounts.google.com/gsi/client';x.onload=ok;x.onerror=no;"
+            "document.head.appendChild(x)})}"
+            "function login(){toast('A cikk mentéséhez jelentkezz be a Google-fiókoddal');gis().then(function(){"
+            "google.accounts.oauth2.initTokenClient({client_id:'" + GOOGLE_CLIENT_ID + "',scope:'openid email profile',"
+            "callback:function(rp){if(!rp||!rp.access_token)return;fetch('/api/login',{method:'POST',"
+            "headers:{'Content-Type':'application/json'},body:JSON.stringify({access_token:rp.access_token})})"
+            ".then(function(r){return r.json()}).then(function(j){if(!j.ok||!j.session)throw 0;"
+            "U=Object.assign({},j.user,{session:j.session});try{localStorage.setItem(K,JSON.stringify(U))}catch(e){}"
+            "hd();save(true);toast('Elmentve – a főoldalon a nevedre kattintva találod')})"
+            ".catch(function(){toast('A belépés nem sikerült, próbáld újra')})}}).requestAccessToken()})"
+            ".catch(function(){toast('A Google-belépés most nem érhető el')})}"
             "if(H)fetch(q,{headers:H}).then(function(r){return r.json()}).then(function(j){st(j.saved)}).catch(function(){});"
-            "s.onclick=function(){if(!H){location.href='/?belepes=1';return}var on=!s.dataset.on;st(on);"
-            "fetch(on?'/api/saved':q,{method:on?'POST':'DELETE',headers:H,body:on?JSON.stringify({url:pa,title:t}):undefined})"
-            ".then(function(r){if(r.status==401){st(!on);location.href='/?belepes=1'}}).catch(function(){st(!on)})}"
+            "s.onclick=function(){if(!H){login();return}save(!s.dataset.on)}"
             "})();</script>")
 
 
