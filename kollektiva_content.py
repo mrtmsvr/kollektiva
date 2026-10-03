@@ -910,6 +910,28 @@ GEN_SYSTEM = ("Art director vagy. Egy magyar hírmagazin cikkéhez írsz angol n
               "Csak JSON-t adsz vissza.")
 
 
+def localize_image(img: Optional[dict], timeout: int = 20) -> Optional[dict]:
+    """Pixabay-kép: a feltételek szerint nem linkelhetjük tartósan az ő szerverükről, ezért kirakáskor
+    letöltjük a repóba (public/img/px/), és onnan szolgáljuk ki. Más képeken nem változtat."""
+    if not img or img.get("local") or "pixabay.com" not in str(img.get("url", "")):
+        return img
+    import hashlib
+    try:
+        req = urllib.request.Request(img["url"], headers=WIKI_UA)
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            data = resp.read()
+    except (urllib.error.URLError, TimeoutError, OSError) as e:
+        log.warning("Pixabay-kép letöltése sikertelen: %s", e)
+        return img
+    if len(data) < 5000:
+        return img
+    out_dir = BASE_DIR / "public" / "img" / "px"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    name = hashlib.sha1(img["url"].encode()).hexdigest()[:16] + ".jpg"
+    (out_dir / name).write_bytes(data)
+    return {**img, "url": f"{SITE_URL}/public/img/px/{name}", "local": str(out_dir / name)}
+
+
 def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: int = 2) -> list:
     """Saját illusztráció a Cloudflare Workers AI-jal (FLUX, ingyenes napi keret): szerkesztőségi grafika, NEM fotó
     valós személyről (valódi embert nem generálunk le). Kell: CF_ACCOUNT_ID + CF_AI_TOKEN. A kép a repóba kerül."""
@@ -1417,8 +1439,8 @@ def _figure(img: dict, alt: str, eager: bool = False, caption: str = "") -> str:
 
 
 def _share_html(url: str, title: str) -> str:
-    """Egyetlen „Megosztás” gomb: telefonon a rendszer saját megosztója (minden alkalmazás egy helyen),
-    gépen egy kis lenyíló: Facebook, WhatsApp, X, link másolása."""
+    """Egyetlen „Megosztás” gomb: a rendszer saját megosztója (telefonon és a legtöbb gépi böngészőben is);
+    ahol nincs ilyen (pl. Firefox), ott egy kis lenyíló: Facebook, WhatsApp, X, link másolása."""
     u, t = urllib.parse.quote(url, safe=""), urllib.parse.quote(title, safe="")
     return (f'<div class="share" data-url="{E(url)}" data-title="{E(title)}">'
             '<button type="button" class="sh-main"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" '
@@ -1431,7 +1453,7 @@ def _share_html(url: str, title: str) -> str:
             '<button type="button" class="sh-copy">Link másolása</button></span></div>'
             "<script>(function(){var d=document.currentScript.previousElementSibling,m=d.querySelector('.sh-main'),"
             "p=d.querySelector('.sh-pop'),c=d.querySelector('.sh-copy'),u=d.dataset.url,t=d.dataset.title;"
-            "m.onclick=function(){if(navigator.share&&matchMedia('(pointer:coarse)').matches){navigator.share({title:t,url:u})"
+            "m.onclick=function(){if(navigator.share){navigator.share({title:t,url:u})"
             ".catch(function(){})}else{p.hidden=!p.hidden}};c.onclick=function(){"
             "(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(function(){c.textContent='Másolva ✓'},"
             "function(){prompt('A cikk linkje:',u)})}})();</script>")
@@ -1536,8 +1558,8 @@ INFO_BODY = """
 <article>
 <h2 id="rolunk">Rólunk</h2>
 <p>A Kollektíva egy budapesti egyetemista ötletéből született – két előadás, egy szakdolgozat és sok-sok kávé között.
-A kiindulópont egy egyszerű bosszúság volt: miért olyan nehéz ma gyorsan, érthetően és felesleges harsányság
-nélkül megtudni, mi történik körülöttünk?</p>
+A kiindulópont egy egyszerű bosszúság volt: miért olyan nehéz ma úgy elolvasni egy hírt, hogy közben ne akarják
+megmondani, mit gondoljunk róla?</p>
 <p>Ezért csináljuk azt az újságot, amit mi magunk is szívesen olvasnánk: gyors, de nem felszínes; érthető, de nem
 lekezelő; és nem mondja meg, mit gondolj – csak segít, hogy legyen miből. A fontos hírek mellett tudományról, pénzről,
 technológiáról és életmódról is írunk, olyan cikkeket, amik egy hét múlva is megérik az olvasást.</p>
