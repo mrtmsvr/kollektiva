@@ -177,6 +177,62 @@ def post_json(url: str, headers: dict, payload: dict, timeout: int, retries: int
     raise last_err or AIError("Ismeretlen hiba")
 
 
+# ---------------------------------------------------------------------------
+# Ingyenes keretek figyelése: minden AI-hívást és képgenerálást napi bontásban számolunk
+# (data/usage_<workflow>.json – workflow-nként külön fájl, hogy a párhuzamos robotok ne ütközzenek a gitben).
+# A napi keretek a szolgáltatók ingyenes szintjéhez igazíthatók (env), a Telegram 80%-nál szól, /keret: állapot.
+# ---------------------------------------------------------------------------
+USAGE_LIMITS = {"gemini": ("Gemini (cikkírás)", "GEMINI_DAILY_LIMIT", 250), "groq": ("Groq (segédfeladatok, tartalék)", "GROQ_DAILY_LIMIT", 1000),
+                "cf_image": ("Cloudflare képgenerálás", "CF_IMAGE_DAILY_LIMIT", 80)}
+
+
+def _usage_file() -> Path:
+    wf = re.sub(r"[^a-z0-9]+", "-", os.getenv("GITHUB_WORKFLOW", "local").lower()).strip("-") or "local"
+    return BASE_DIR / "data" / f"usage_{wf}.json"
+
+
+def note_usage(kind: str, ok: bool = True) -> None:
+    try:
+        day = datetime.now(ZoneInfo("Europe/Budapest")).date().isoformat()
+        path = _usage_file()
+        u = read_json(path, {})
+        k = kind if ok else kind + "_hiba"
+        u.setdefault(day, {})[k] = u.get(day, {}).get(k, 0) + 1
+        for old in sorted(u)[:-14]:
+            u.pop(old, None)
+        write_json_atomic(path, u)
+    except Exception:  # noqa: BLE001 – a számlálás soha ne akassza meg a robotot
+        pass
+
+
+def usage_today() -> dict:
+    day = datetime.now(ZoneInfo("Europe/Budapest")).date().isoformat()
+    tot: dict = {}
+    for f in (BASE_DIR / "data").glob("usage_*.json"):
+        for k, v in read_json(f, {}).get(day, {}).items():
+            tot[k] = tot.get(k, 0) + v
+    return tot
+
+
+def usage_report() -> str:
+    t = usage_today()
+    lines = ["📊 Mai használat az ingyenes kerethez képest:"]
+    for k, (name, env, default) in USAGE_LIMITS.items():
+        lim = int(os.getenv(env, str(default)))
+        lines.append(f"• {name}: {t.get(k, 0)} / {lim}" + (f" (hibás: {t[k + '_hiba']})" if t.get(k + "_hiba") else ""))
+    lines.append("A Cloudflare-buildeket (havi 500) a robot magától osztja be; a GitHub Actions nyilvános repónál ingyenes.")
+    return "\n".join(lines)
+
+
+def usage_alert() -> Optional[str]:
+    t = usage_today()
+    for k, (name, env, default) in USAGE_LIMITS.items():
+        lim = int(os.getenv(env, str(default)))
+        if t.get(k, 0) >= 0.8 * lim or t.get(k + "_hiba", 0) >= 10:
+            return f"⚠️ Figyelem: a(z) {name} napi kerete fogyóban vagy hibázik (/keret). Ma kevesebb cikk készülhet."
+    return None
+
+
 class AIClient:
     """Egységes felület Anthropic és OpenAI felé. `provider` = 'mock' esetén nincs hívás."""
 
@@ -223,6 +279,7 @@ class AIClient:
                           "response_format": {"type": "json_object"},
                           "messages": [{"role": "system", "content": system}, {"role": "user", "content": prompt}]},
                          c.http_timeout, 2)
+        note_usage("groq")
         return data["choices"][0]["message"]["content"]
 
     def complete(self, system: str, prompt: str, max_tokens: int = 4000, light: bool = False) -> str:
@@ -280,8 +337,10 @@ class AIClient:
                          "messages": [{"role": "system", "content": system},
                                       {"role": "user", "content": prompt}]},
                         c.http_timeout, c.http_retries)
+                    note_usage("gemini")
                     return data["choices"][0]["message"]["content"]
                 except Exception as e:  # noqa: BLE001 – következő modell
+                    note_usage("gemini", ok=False)
                     log.warning("Gemini modell sikertelen (%s): %s", model, str(e)[:200])
                     last = e
             raise last or AIError("Nincs megadott Gemini modell")
@@ -964,6 +1023,7 @@ def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: in
             continue
         if len(img) < 5000:
             continue
+        note_usage("cf_image")
         name = f"{re.sub(r'[^a-z0-9]', '', tag.lower())[:10]}-{int(time.time())}-{i}.jpg"
         (out_dir / name).write_bytes(img)
         out.append({"url": f"{SITE_URL}/public/img/gen/{name}", "local": str(out_dir / name), "kind": "photo",
@@ -1234,7 +1294,7 @@ PAGE_CSS = """
 body{margin:0;background:var(--night);color:var(--parch);font:17px/1.75 Manrope,system-ui,-apple-system,"Segoe UI",sans-serif}
 a{color:var(--parch)}a:hover{color:var(--brass)}
 header,main,footer{max-width:720px;margin:0 auto;padding:0 20px}
-.share{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share .sh-main{display:inline-flex;align-items:center;gap:8px;font:600 14px/1 Manrope,system-ui,sans-serif;color:#0E1024;background:var(--brass);border:0;border-radius:999px;padding:11px 18px;cursor:pointer}.sh-pop{display:flex;flex-wrap:wrap;gap:8px}.sh-pop[hidden]{display:none}.share .sh-save,.sh-pop a,.sh-pop button{display:inline-flex;align-items:center;gap:6px;font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.share .sh-save:hover,.share .sh-save[data-on="1"],.sh-pop a:hover,.sh-pop button:hover{border-color:var(--brass);color:var(--brass)}.share .sh-save[data-on="1"] svg{fill:currentColor}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}.tags a{font-size:12px;color:var(--dusk);border:1px solid var(--line);border-radius:999px;padding:4px 10px;text-decoration:none}.tags a:hover{color:var(--brass);border-color:var(--brass)}.poll b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.poll h3{margin:6px 0 12px;font:600 22px/1.3 "Cormorant Garamond",Georgia,serif}.poll button{display:block;width:100%;text-align:left;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--parch);font:15px Manrope,system-ui,sans-serif;cursor:pointer}.poll button:hover{border-color:var(--brass)}.poll .pr{position:relative;overflow:hidden;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;display:flex;justify-content:space-between;gap:10px}.poll .pr.me{border-color:var(--brass)}.poll .pr span{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.15)}.poll .pr em,.poll .pr strong{position:relative;font-style:normal}.poll small{color:var(--dusk)}
+.share{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share .sh-main{display:inline-flex;align-items:center;gap:8px;font:600 14px/1 Manrope,system-ui,sans-serif;color:#0E1024;background:var(--brass);border:0;border-radius:999px;padding:11px 18px;cursor:pointer}.sh-pop{display:flex;flex-wrap:wrap;gap:8px}.sh-pop[hidden]{display:none}.share .sh-save,.sh-pop a,.sh-pop button{display:inline-flex;align-items:center;gap:6px;font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.share .sh-save:hover,.share .sh-save[data-on="1"],.sh-pop a:hover,.sh-pop button:hover{border-color:var(--brass);color:var(--brass)}.share .sh-save[data-on="1"] svg{fill:currentColor}.share .sh-main:hover,.share .sh-main:focus,.share .sh-main:active{color:#0E1024;background:#D8B46B}.share .sh-main:active,.share .sh-save:active{transform:scale(.96)}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#3FBF6F;box-shadow:0 0 0 3px rgba(63,191,111,.2);margin-right:6px;vertical-align:middle}.pbtn{display:inline-block;margin-top:12px;background:var(--brass);color:#0E1024!important;font:600 13px/1 Manrope,system-ui,sans-serif;border-radius:999px;padding:9px 14px;text-decoration:none}.pbtn:hover{background:#D8B46B}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}.tags a{font-size:12px;color:var(--dusk);border:1px solid var(--line);border-radius:999px;padding:4px 10px;text-decoration:none}.tags a:hover{color:var(--brass);border-color:var(--brass)}.poll b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.poll h3{margin:6px 0 12px;font:600 22px/1.3 "Cormorant Garamond",Georgia,serif}.poll button{display:block;width:100%;text-align:left;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--parch);font:15px Manrope,system-ui,sans-serif;cursor:pointer}.poll button:hover{border-color:var(--brass)}.poll .pr{position:relative;overflow:hidden;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;display:flex;justify-content:space-between;gap:10px}.poll .pr.me{border-color:var(--brass)}.poll .pr span{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.15)}.poll .pr em,.poll .pr strong{position:relative;font-style:normal}.poll small{color:var(--dusk)}
 .hdr-r{display:flex;align-items:center;gap:10px}.srch{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid var(--line);border-radius:999px;color:var(--parch)}.srch:hover{color:var(--brass);border-color:var(--brass)}
 .gpref{text-align:center;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)}.gpref a{color:var(--brass);text-decoration:none}.gpref a:hover{color:var(--parch)}.gpref b{color:var(--brass);font-weight:400}
 header{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;border-bottom:1px solid var(--line);position:relative}
@@ -1543,8 +1603,8 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
 function e(v){{return String(v==null?'':v).replace(/[&<>"']/g,function(c){{return{{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}}[c]}})}}
 fetch('/public/data/polls.json',{{cache:'no-cache'}}).then(function(r){{return r.json()}}).then(function(d){{
 var p=(d.polls||[]).filter(function(x){{return x.article_url===location.pathname&&Date.parse(x.closes_at)>Date.now()}})[0];if(!p)return;
-function show(r){{var t=r.total||0;if(t<100){{var bi=0;(r.counts||[]).forEach(function(c,i){{if(c>r.counts[bi])bi=i}});box.innerHTML='<b>A nap kérdése</b><h3>'+e(p.question)+'</h3><p>'+(r.voted!==null?'Köszi, megkaptuk a szavazatod! ':'')+(r.closed?'Lezárult. A legtöbben ezt választották: <strong>'+e(p.options[bi])+'</strong>':'Az eredményt a szavazás lezárulása után mutatjuk.')+'</p><small>Nem reprezentatív – olvasóink véleménye.</small>';box.hidden=false;return}}box.innerHTML='<b>A nap kérdése</b><h3>'+e(p.question)+'</h3>'+p.options.map(function(o,i){{var pc=t?Math.round(100*(r.counts[i]||0)/t):0;
-return '<div class="pr'+(r.voted===i?' me':'')+'"><span style="width:'+pc+'%"></span><em>'+e(o)+(r.voted===i?' ✓':'')+'</em><strong>'+pc+'%</strong></div>'}}).join('')+'<small>'+(t>=1000?t+' szavazat · ':'')+(r.closed?'lezárult':'a szavazás nyitva')+'</small>';box.hidden=false}}
+function show(r){{var t=r.total||0;box.innerHTML='<b>A nap kérdése</b><h3>'+e(p.question)+'</h3>'+p.options.map(function(o,i){{var pc=t?Math.round(100*(r.counts[i]||0)/t):0;
+return '<div class="pr'+(r.voted===i?' me':'')+'"><span style="width:'+pc+'%"></span><em>'+e(o)+(r.voted===i?' ✓':'')+'</em><strong>'+pc+'%</strong></div>'}}).join('')+'<small>'+(r.closed?'lezárult':'<span class="dot"></span>nyitva')+(t>=200?' · '+t+' szavazat':'')+' · nem reprezentatív</small><p><a class="pbtn" href="/szavazasok/">Korábbi szavazások</a></p>';box.hidden=false}}
 function ask(){{box.innerHTML='<b>A nap kérdése</b><h3>'+e(p.question)+'</h3>'+p.options.map(function(o,i){{return '<button type="button" data-i="'+i+'">'+e(o)+'</button>'}}).join('')+'<small>Szavazz, és utána látod az eredményt.</small>';box.hidden=false;
 box.querySelectorAll('button').forEach(function(b){{b.onclick=function(){{fetch('/api/poll',{{method:'POST',headers:{{'Content-Type':'application/json'}},body:JSON.stringify({{id:p.id,option:+b.dataset.i}})}}).then(function(r){{return r.json()}}).then(function(r){{if(r.counts)show(r)}})}}}})}}
 fetch('/api/poll?id='+encodeURIComponent(p.id)).then(function(r){{return r.json()}}).then(function(r){{if(!r.ok)return;(r.voted!==null||r.closed)?show(r):ask()}})}}).catch(function(){{}})}})();</script>
@@ -1655,9 +1715,9 @@ fetch('/public/data/polls.json',{cache:'no-cache'}).then(function(r){return r.js
 L.innerHTML=ps.map(function(p){return '<div class="box poll" id="p'+E(p.id)+'"><b>'+E(p.date)+'</b><h3>'+E(p.question)+'</h3><p><a href="'+E(p.article_url)+'">A cikk: '+E(p.article_title)+'</a></p><div class="res"><small>Betöltés…</small></div></div>'}).join('');
 ps.forEach(function(p){fetch('/api/poll?id='+encodeURIComponent(p.id)).then(function(r){return r.json()}).then(function(r){var el=document.querySelector('#p'+p.id+' .res');if(!r.ok){el.innerHTML='';return}
 if(!r.closed&&r.voted===null){el.innerHTML='<small>Még nyitva – <a href="'+E(p.article_url)+'">szavazz a cikknél</a>, utána látod az eredményt.</small>';return}
-var t=r.total||0;if(t<100){var bi=0;(r.counts||[]).forEach(function(c,i){if(c>r.counts[bi])bi=i});el.innerHTML='<small>'+(r.closed?'Lezárult. A legtöbben ezt választották: <strong>'+E(p.options[bi])+'</strong>':'Nyitva – az eredményt a lezárás után mutatjuk.')+'</small>';return}
+var t=r.total||0;if(t<30){el.innerHTML='<small>'+(r.closed?'Lezárult':'Nyitva')+' · még kevés szavazat érkezett ahhoz, hogy az eredmény sokat mondjon.</small>';return}
 el.innerHTML=p.options.map(function(o,i){var c=r.counts[i]||0,pc=Math.round(100*c/t);return '<div class="pr'+(r.voted===i?' me':'')+'"><span style="width:'+pc+'%"></span><em>'+E(o)+'</em><strong>'+pc+'%</strong></div>'}).join('')
-+'<small>'+(t>=1000?t+' szavazat · ':'')+(r.closed?'lezárult':'nyitva')+'</small>'}).catch(function(){})})}).catch(function(){L.innerHTML='<p>A szavazások most nem tölthetők be.</p>'})})();</script>"""
++'<small>'+(t>=200?t+' szavazat · ':'')+(r.closed?'lezárult':'<span class="dot"></span>nyitva')+'</small>'}).catch(function(){})})}).catch(function(){L.innerHTML='<p>A szavazások most nem tölthetők be.</p>'})})();</script>"""
 
 
 def build_polls_page(public: Path) -> None:
@@ -2553,7 +2613,7 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
     max_run = int(os.getenv("MAX_ARTICLES_PER_RUN", "2"))
     # Napi keret (ingyenes AI-kvóta + Cloudflare-buildek): a napi cikkszám nem lépheti túl a DAILY_ARTICLE_LIMIT-et,
     # és a keret egyenletesen oszlik el a nap futásai között (ne fogyjon el délelőtt).
-    daily_limit = int(os.getenv("DAILY_ARTICLE_LIMIT", "16"))
+    daily_limit = int(os.getenv("DAILY_ARTICLE_LIMIT", "12"))
     made_today = sum(1 for a in articles_all if a.get("date") == d.isoformat() and a.get("category") in SECTIONS)
     runs_left = max(1, (22 - now.hour) // 2 + 1)  # hátralévő kétórás futások ma (kb. 22 óráig)
     max_run = max(0, min(max_run, daily_limit - made_today, -(-(daily_limit - made_today) // runs_left)))
@@ -2570,8 +2630,11 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
             kw = group[0]["kw"]
             if any(len(kw & rk) >= 4 for rk in recent_kw):
                 continue  # ugyanerről a témáról már írtunk az elmúlt néhány órában
-            bonus = 3 if today == 0 else 0  # minden rovatban legyen legalább egy friss cikk naponta
-            cands.append((group[0]["hot_score"] + bonus, sid, group))
+            # minőség a mennyiség helyett: nincs „minden rovatba kell egy” kényszer, és rovatonként napi plafon van
+            cap = int(os.getenv(f"DAILY_MAX_{sid.upper()}", "2" if sid == "bulvar" else "4"))
+            if today >= cap:
+                continue
+            cands.append((group[0]["hot_score"], sid, group))
     cands.sort(key=lambda x: -x[0])
     made, per_section, made_public = 0, {}, 0
     for score, sid, group in cands:
