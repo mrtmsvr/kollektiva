@@ -320,7 +320,7 @@ def publish(art: dict, tz: ZoneInfo) -> dict:
     title = _chosen_title({**art, "review": rv})
     imgs = art.get("image_options") or []
     ii = rv.get("image", 0 if imgs else -1)
-    art["hero_image"] = imgs[ii] if 0 <= ii < len(imgs) else None
+    art["hero_image"] = kc.localize_image(imgs[ii] if 0 <= ii < len(imgs) else None)
     cat = art["category"]
     if title != art["title"]:
         art["title"] = title
@@ -355,7 +355,7 @@ def _apply_live(out_dir: Path, art: dict, tz: ZoneInfo, remove: bool = False, co
         imgs = art.get("image_options") or []
         ii = rv.get("image", 0 if imgs else -1)
         cur["title"] = _chosen_title(art)
-        cur["hero_image"] = imgs[ii] if 0 <= ii < len(imgs) else None
+        cur["hero_image"] = kc.localize_image(imgs[ii] if 0 <= ii < len(imgs) else None)
         if content:
             for k in ("lead", "key_points", "body", "content", "tags", "word_count", "reading_time_min", "sources"):
                 if k in art:
