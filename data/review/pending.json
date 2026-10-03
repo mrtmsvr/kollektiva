@@ -16206,9 +16206,9 @@
       "live": true
     },
     {
-      "id": "3b62dc9f-997c-50cf-9f46-28163dd53274",
-      "slug": "2026-10-03-mobilvasarlasbol-lett-rendorsegi-ugy-egy-budapesti-plazaban",
-      "status": "pending",
+      "id": "77dc6695-0c50-520f-b8cc-41ae880889f3",
+      "slug": "2026-10-03-ezt-nem-hinned-el-foldre-tepertek-ket-not-egy-plazaban",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -16218,7 +16218,7 @@
         "hatósági intézkedés",
         "bűnügy"
       ],
-      "title": "Mobilvásárlásból lett rendőrségi ügy egy budapesti plázában",
+      "title": "Ezt nem hinnéd el: földre tepertek két nőt egy plázában!",
       "subtitle": null,
       "lead": "Augusztus elején egy budapesti bevásárlóközpontban történt incidens miatt nyomoznak, ahol egy mobilvásárlás végül rendőri intézkedésbe és kölcsönös eljárásokba torkollott. Az eset pontos körülményeit és a túlzottnak vélt erőszak vádját jelenleg hivatalos szervek vizsgálják.",
       "key_points": [
@@ -16287,11 +16287,11 @@
       },
       "date": "2026-10-03",
       "date_label": "október 3.",
-      "url": "/kozelet/2026-10-03-mobilvasarlasbol-lett-rendorsegi-ugy-egy-budapesti-plazaban/",
+      "url": "/kozelet/2026-10-03-ezt-nem-hinned-el-foldre-tepertek-ket-not-egy-plazaban/",
       "seo": {
-        "meta_title": "Mobilvásárlásból lett rendőrségi ügy egy budapesti plázában",
+        "meta_title": "Ezt nem hinnéd el: földre tepertek két nőt egy plázában!",
         "meta_description": "Augusztus elején egy budapesti bevásárlóközpontban történt incidens miatt nyomoznak, ahol egy mobilvásárlás végül rendőri intézkedésbe és kölcsönös eljárásokba ",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-03-mobilvasarlasbol-lett-rendorsegi-ugy-egy-budapesti-plazaban/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-03-ezt-nem-hinned-el-foldre-tepertek-ket-not-egy-plazaban/",
         "og_image": null,
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -16309,9 +16309,9 @@
       "dedupe_hash": "a41bde727bb098cd93b78a39e5d1e4cbbfc63e65eff7d8eef0f473028a587345",
       "pipeline_run_id": "37101181821",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T07:52:58+02:00",
-      "updated_at": "2026-10-03T07:52:58+02:00",
-      "published_at": "2026-10-03T07:52:58+02:00",
+      "created_at": "2026-10-03T08:35:52+02:00",
+      "updated_at": "2026-10-03T08:35:52+02:00",
+      "published_at": "2026-10-03T08:35:52+02:00",
       "expires_at": null,
       "review": {
         "title": 3,
@@ -16324,12 +16324,13 @@
         ],
         "control_id": 1914,
         "title_prompt_id": 1936
-      }
+      },
+      "live": true
     },
     {
-      "id": "d00ebb80-51ff-5d32-9a3b-c0e52e2ad99f",
-      "slug": "2026-10-03-megindult-a-forint-hol-allnak-most-a-szamok",
-      "status": "pending",
+      "id": "5fe18648-7d88-56cb-8cb2-5711abf78f4f",
+      "slug": "2026-10-03-itt-vannak-a-friss-arfolyamok-fordulat-a-piacon",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -16339,7 +16340,7 @@
         "gazdaság",
         "infláció"
       ],
-      "title": "Megindult a forint: hol állnak most a számok?",
+      "title": "Itt vannak a friss árfolyamok: fordulat a piacon!",
       "subtitle": null,
       "lead": "A kedvezőtlen nemzetközi munkaerőpiaci adatok és az olajárak esése nyomán erősödéssel fejezte be a hetet a forint a vezető devizákkal szemben. A piaci folyamatok közvetlenül befolyásolják az inflációs várakozásokat és a lakossági pénzügyeket is.",
       "key_points": [
@@ -16361,7 +16362,7 @@
       "word_count": 305,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://pixabay.com/get/g727c642000c91fbf24f72c19ff546687887f75a8c090cacb19eb40e03d1791f7cccfad7cfab534ab93b1c6b226d335e2aac146405f8c030135284e0d9dfce89b_1280.jpg",
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/62953a063ecda94b.jpg",
         "width": 4608,
         "height": 3456,
         "kind": "photo",
@@ -16369,7 +16370,8 @@
         "credit": "Pexels / Pixabay",
         "license": "Pixabay License",
         "source_url": "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
-        "vision_score": 9.0
+        "vision_score": 9.0,
+        "local": "/home/runner/work/kollektiva/kollektiva/public/img/px/62953a063ecda94b.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -16465,12 +16467,12 @@
       },
       "date": "2026-10-03",
       "date_label": "október 3.",
-      "url": "/penzvilag/2026-10-03-megindult-a-forint-hol-allnak-most-a-szamok/",
+      "url": "/penzvilag/2026-10-03-itt-vannak-a-friss-arfolyamok-fordulat-a-piacon/",
       "seo": {
-        "meta_title": "Megindult a forint: hol állnak most a számok?",
+        "meta_title": "Itt vannak a friss árfolyamok: fordulat a piacon!",
         "meta_description": "A kedvezőtlen nemzetközi munkaerőpiaci adatok és az olajárak esése nyomán erősödéssel fejezte be a hetet a forint a vezető devizákkal szemben. A piaci folyamato",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-03-megindult-a-forint-hol-allnak-most-a-szamok/",
-        "og_image": "https://pixabay.com/get/g727c642000c91fbf24f72c19ff546687887f75a8c090cacb19eb40e03d1791f7cccfad7cfab534ab93b1c6b226d335e2aac146405f8c030135284e0d9dfce89b_1280.jpg",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-03-itt-vannak-a-friss-arfolyamok-fordulat-a-piacon/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/62953a063ecda94b.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -16487,9 +16489,9 @@
       "dedupe_hash": "46a094b09460e9f7dfee05dc8ad2eb4d35b2db58c37c555efc698da63ed3568a",
       "pipeline_run_id": "37101181821",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T07:54:00+02:00",
-      "updated_at": "2026-10-03T07:54:00+02:00",
-      "published_at": "2026-10-03T07:54:00+02:00",
+      "created_at": "2026-10-03T08:35:53+02:00",
+      "updated_at": "2026-10-03T08:35:53+02:00",
+      "published_at": "2026-10-03T08:35:53+02:00",
       "expires_at": null,
       "review": {
         "title": 5,
@@ -16504,7 +16506,8 @@
           1920
         ],
         "control_id": 1921
-      }
+      },
+      "live": true
     }
   ]
 }
