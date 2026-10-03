@@ -1543,8 +1543,8 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
 function e(v){{return String(v==null?'':v).replace(/[&<>"']/g,function(c){{return{{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}}[c]}})}}
 fetch('/public/data/polls.json',{{cache:'no-cache'}}).then(function(r){{return r.json()}}).then(function(d){{
 var p=(d.polls||[]).filter(function(x){{return x.article_url===location.pathname&&Date.parse(x.closes_at)>Date.now()}})[0];if(!p)return;
-function show(r){{var t=r.total||0;box.innerHTML='<b>A nap kérdése</b><h3>'+e(p.question)+'</h3>'+p.options.map(function(o,i){{var pc=t?Math.round(100*(r.counts[i]||0)/t):0;
-return '<div class="pr'+(r.voted===i?' me':'')+'"><span style="width:'+pc+'%"></span><em>'+e(o)+(r.voted===i?' ✓':'')+'</em><strong>'+pc+'%</strong></div>'}}).join('')+'<small>'+(t>=200?t+' szavazat · ':'')+(r.closed?'lezárult':'a szavazás nyitva')+'</small>';box.hidden=false}}
+function show(r){{var t=r.total||0;if(t<100){{var bi=0;(r.counts||[]).forEach(function(c,i){{if(c>r.counts[bi])bi=i}});box.innerHTML='<b>A nap kérdése</b><h3>'+e(p.question)+'</h3><p>'+(r.voted!==null?'Köszi, megkaptuk a szavazatod! ':'')+(r.closed?'Lezárult. A legtöbben ezt választották: <strong>'+e(p.options[bi])+'</strong>':'Az eredményt a szavazás lezárulása után mutatjuk.')+'</p><small>Nem reprezentatív – olvasóink véleménye.</small>';box.hidden=false;return}}box.innerHTML='<b>A nap kérdése</b><h3>'+e(p.question)+'</h3>'+p.options.map(function(o,i){{var pc=t?Math.round(100*(r.counts[i]||0)/t):0;
+return '<div class="pr'+(r.voted===i?' me':'')+'"><span style="width:'+pc+'%"></span><em>'+e(o)+(r.voted===i?' ✓':'')+'</em><strong>'+pc+'%</strong></div>'}}).join('')+'<small>'+(t>=1000?t+' szavazat · ':'')+(r.closed?'lezárult':'a szavazás nyitva')+'</small>';box.hidden=false}}
 function ask(){{box.innerHTML='<b>A nap kérdése</b><h3>'+e(p.question)+'</h3>'+p.options.map(function(o,i){{return '<button type="button" data-i="'+i+'">'+e(o)+'</button>'}}).join('')+'<small>Szavazz, és utána látod az eredményt.</small>';box.hidden=false;
 box.querySelectorAll('button').forEach(function(b){{b.onclick=function(){{fetch('/api/poll',{{method:'POST',headers:{{'Content-Type':'application/json'}},body:JSON.stringify({{id:p.id,option:+b.dataset.i}})}}).then(function(r){{return r.json()}}).then(function(r){{if(r.counts)show(r)}})}}}})}}
 fetch('/api/poll?id='+encodeURIComponent(p.id)).then(function(r){{return r.json()}}).then(function(r){{if(!r.ok)return;(r.voted!==null||r.closed)?show(r):ask()}})}}).catch(function(){{}})}})();</script>
@@ -1655,9 +1655,9 @@ fetch('/public/data/polls.json',{cache:'no-cache'}).then(function(r){return r.js
 L.innerHTML=ps.map(function(p){return '<div class="box poll" id="p'+E(p.id)+'"><b>'+E(p.date)+'</b><h3>'+E(p.question)+'</h3><p><a href="'+E(p.article_url)+'">A cikk: '+E(p.article_title)+'</a></p><div class="res"><small>Betöltés…</small></div></div>'}).join('');
 ps.forEach(function(p){fetch('/api/poll?id='+encodeURIComponent(p.id)).then(function(r){return r.json()}).then(function(r){var el=document.querySelector('#p'+p.id+' .res');if(!r.ok){el.innerHTML='';return}
 if(!r.closed&&r.voted===null){el.innerHTML='<small>Még nyitva – <a href="'+E(p.article_url)+'">szavazz a cikknél</a>, utána látod az eredményt.</small>';return}
-var t=r.total||0;if(t<30){el.innerHTML='<small>'+(r.closed?'Lezárult':'Nyitva')+' · még kevés szavazat érkezett ahhoz, hogy az eredmény sokat mondjon.</small>';return}
+var t=r.total||0;if(t<100){var bi=0;(r.counts||[]).forEach(function(c,i){if(c>r.counts[bi])bi=i});el.innerHTML='<small>'+(r.closed?'Lezárult. A legtöbben ezt választották: <strong>'+E(p.options[bi])+'</strong>':'Nyitva – az eredményt a lezárás után mutatjuk.')+'</small>';return}
 el.innerHTML=p.options.map(function(o,i){var c=r.counts[i]||0,pc=Math.round(100*c/t);return '<div class="pr'+(r.voted===i?' me':'')+'"><span style="width:'+pc+'%"></span><em>'+E(o)+'</em><strong>'+pc+'%</strong></div>'}).join('')
-+'<small>'+(t>=200?t+' szavazat · ':'')+(r.closed?'lezárult':'nyitva')+'</small>'}).catch(function(){})})}).catch(function(){L.innerHTML='<p>A szavazások most nem tölthetők be.</p>'})})();</script>"""
++'<small>'+(t>=1000?t+' szavazat · ':'')+(r.closed?'lezárult':'nyitva')+'</small>'}).catch(function(){})})}).catch(function(){L.innerHTML='<p>A szavazások most nem tölthetők be.</p>'})})();</script>"""
 
 
 def build_polls_page(public: Path) -> None:
