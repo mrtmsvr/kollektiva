@@ -15165,40 +15165,92 @@
           "vision_score": 8.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Entrance_of_departures_area_of_the_Budapest_Ferenc_Liszt_International_Airport_%28BUD%29.jpg/1280px-Entrance_of_departures_area_of_the_Budapest_Ferenc_Liszt_International_Airport_%28BUD%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Budapest_Ferenc_Liszt_International_Airport_%2830855473093%29.jpg/1280px-Budapest_Ferenc_Liszt_International_Airport_%2830855473093%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest Ferenc Liszt International Airport 2, Budapest (Hungary)",
+          "credit": "Jorge Franganillo from Barcelona, Spain / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Ferenc_Liszt_International_Airport_(30855473093).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Ferenc_Liszt_International_Airport_Budapest.jpg/1280px-Ferenc_Liszt_International_Airport_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Ferenc Liszt International Airport Budapest Terminal 2 architecture and passengers around.",
+          "credit": "DavidivardiIL / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ferenc_Liszt_International_Airport_Budapest.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg/1280px-European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "European Commission headquarters located in the Berlaymont building in the European quarters in Brussels, Belgium.\nEuropean Commission is the executive branch of the European Union (EU).",
+          "credit": "Ank Kumar / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:European_Commission_headquarters,_The_Berlaymont_Building,_Brussels,_Belgium_(_Ank_Kumar,_Infosys_Limited_).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/European_Commission_building_%40_Brussels_%288177616130%29.jpg/1280px-European_Commission_building_%40_Brussels_%288177616130%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": "Entrance of departures area of the Budapest Ferenc Liszt International Airport (BUD)",
-          "credit": "TravelPhotosNL / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Entrance_of_departures_area_of_the_Budapest_Ferenc_Liszt_International_Airport_(BUD).jpg",
-          "vision_score": 8.0
+          "alt": "European Commission building @ Brussels",
+          "credit": "Guilhem Vellut from Annecy, France / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:European_Commission_building_@_Brussels_(8177616130).jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Balatonszentgy%C3%B6rgy_railway_station_2.JPG/1280px-Balatonszentgy%C3%B6rgy_railway_station_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Shanghai_railway_station_high_speed_train-20150519-RM-110555.jpg/1280px-Shanghai_railway_station_high_speed_train-20150519-RM-110555.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 798,
+          "height": 914,
           "kind": "photo",
           "pos": "center",
-          "alt": "Balatonszentgyörgy railway station",
-          "credit": "Ppntori / Wikimedia Commons",
+          "alt": "China Railways CRH380B at Shanghai Hongqiao Station",
+          "credit": "Ermell / Wikimedia Commons",
           "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Balatonszentgy%C3%B6rgy_railway_station_2.JPG",
-          "vision_score": 6.0
+          "source_url": "https://commons.wikimedia.org/wiki/File:Shanghai_railway_station_high_speed_train-20150519-RM-110555.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Balatonszentgy%C3%B6rgy_railway_station_3.JPG/1280px-Balatonszentgy%C3%B6rgy_railway_station_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/High-speed_train_at_platform_in_Milano_Stazione_Centrale.jpg/1280px-High-speed_train_at_platform_in_Milano_Stazione_Centrale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 798,
+          "height": 849,
           "kind": "photo",
           "pos": "center",
-          "alt": "Balatonszentgyörgy railway station",
-          "credit": "Ppntori / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Balatonszentgy%C3%B6rgy_railway_station_3.JPG",
-          "vision_score": 6.0
+          "alt": "An ETR 500 Frecciarossa high-speed train waits at a platform in Milano Centrale station.",
+          "credit": "Daniel Case / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:High-speed_train_at_platform_in_Milano_Stazione_Centrale.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/A_Magyar_Kereskedelmi_K%C3%B6zl%C3%B6ny_m%C5%B1veinek_rekl%C3%A1mja2.jpg/1280px-A_Magyar_Kereskedelmi_K%C3%B6zl%C3%B6ny_m%C5%B1veinek_rekl%C3%A1mja2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1467,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "A Magyar Kereskedelmi Közlöny műveinek reklámja (1910-es évek)",
+          "credit": "Saját készítésű szkennel képek 19. század végi/20. század eleji könyvekről, köny / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:A_Magyar_Kereskedelmi_K%C3%B6zl%C3%B6ny_m%C5%B1veinek_rekl%C3%A1mja2.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/A_Magyar_Kereskedelmi_K%C3%B6zl%C3%B6ny_m%C5%B1veinek_rekl%C3%A1mja_1.jpg/1280px-A_Magyar_Kereskedelmi_K%C3%B6zl%C3%B6ny_m%C5%B1veinek_rekl%C3%A1mja_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1483,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "A Magyar Kereskedelmi Közlöny műveinek reklámja (1910-es évek)",
+          "credit": "Saját készítésű szkennel képek 19. század végi/20. század eleji könyvekről, köny / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:A_Magyar_Kereskedelmi_K%C3%B6zl%C3%B6ny_m%C5%B1veinek_rekl%C3%A1mja_1.jpg"
         }
       ],
       "story": [
@@ -15246,7 +15298,7 @@
       "expires_at": null,
       "review": {
         "title": 0,
-        "image": -1,
+        "image": 0,
         "sent_at": "2026-10-03T04:02:22+00:00",
         "msg_ids": [
           1773,
@@ -15254,11 +15306,35 @@
           1775,
           1776,
           1777,
-          1778
+          1778,
+          1801,
+          1802,
+          1803,
+          1804,
+          1805,
+          1806,
+          1807,
+          1808,
+          1809
         ],
-        "control_id": 1779
+        "control_id": 1810
       },
-      "live": true
+      "live": true,
+      "image_queries": [
+        "Budapest Ferenc Liszt International Airport",
+        "European Commission building Brussels",
+        "high-speed train station",
+        "Magyar Közlöny",
+        "EU flag and European Commission",
+        "railway infrastructure development",
+        "airplane on airport tarmac"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Balatonszentgy%C3%B6rgy_railway_station_2.JPG/1280px-Balatonszentgy%C3%B6rgy_railway_station_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Balatonszentgy%C3%B6rgy_railway_station_3.JPG/1280px-Balatonszentgy%C3%B6rgy_railway_station_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Entrance_of_departures_area_of_the_Budapest_Ferenc_Liszt_International_Airport_%28BUD%29.jpg/1280px-Entrance_of_departures_area_of_the_Budapest_Ferenc_Liszt_International_Airport_%28BUD%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Budapest_Liszt_Ferenc_nemzetk%C3%B6zi_rep%C3%BCl%C5%91t%C3%A9r%2C_l%C3%A9gifelv%C3%A9tel.jpg/1280px-Budapest_Liszt_Ferenc_nemzetk%C3%B6zi_rep%C3%BCl%C5%91t%C3%A9r%2C_l%C3%A9gifelv%C3%A9tel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "314d730a-1f0e-5ee0-9729-a791c8b70ac4",
