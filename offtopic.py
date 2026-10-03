@@ -220,6 +220,8 @@ def occasion_tag(topic: dict) -> str:
 def build_article(ai: "kc.AIClient", topic: dict, d: date, tz: ZoneInfo, avoid_images: Optional[set] = None,
                   sources: Optional[list] = None) -> Optional[dict]:
     section = kc.SECTIONS.get(topic.get("section")) or kc.SECTIONS["eletmod"]
+    if section.get("legacy"):  # az Univerzum beolvadt a Tech & Tudományba
+        section = kc.SECTIONS["tech"]
     sources = sources or gather(topic, ai.cfg.http_timeout)
     if not sources:
         log.warning("Off-topic: nincs forrásanyag ehhez: %s", topic.get("topic"))
@@ -334,7 +336,7 @@ def refill_topics(ai: "kc.AIClient", topics: list, n: int = 12) -> list:
         return []
     have = "; ".join(t.get("topic", "") for t in topics[-60:] if not t.get("occasion"))
     prompt = (f"Eddigi témáink (ezeket NE ismételd): {have}\n\nTervezz {n} új, időtálló témát a következő rovatokba vegyesen: "
-              "eletmod (egészség, táplálkozás, sport, pszichológia), univerzum (csillagászat, fizika), tech, penzvilag "
+              "eletmod (CSAK egészség, táplálkozás, sport, edzés, alvás, pszichológia), tech (technológia, tudomány, csillagászat, fizika), penzvilag "
               "(személyes pénzügyek, gazdaság), kultura (köztük 3–4 film-, sorozat- vagy könyvajánló, ill. „könyv röviden”). "
               "Elemek: {\"id\": \"rovid-kotojeles-azonosito\", \"section\": \"rovat\", \"topic\": \"magyar cím-ötlet\", "
               "\"angle\": \"mire kíváncsi az olvasó\", \"wiki_hu\": [\"magyar Wikipédia-szócikk címe\"], "
@@ -391,7 +393,9 @@ def plan_seasonal(ai: Optional["kc.AIClient"], d: date, topics: list) -> list:
                   f"Tervezz hozzá {n} cikktémát, változatosan ezekből: ajánló (film, könyv, program), ajándék- vagy "
                   "receptötletek, eredettörténet / hagyomány, „X dolog, amit nem tudtál róla”, gyakorlati tippek "
                   "(„így kerüld el…”, „így készülj…”). Csak olyat, ami tényekre épülhet (Wikipédia, tudomány), kitalált "
-                  "termék vagy ár nélkül. Rovat: eletmod, kultura, penzvilag, tech vagy univerzum. "
+                  "termék vagy ár nélkül. Rovat: kultura (hagyomány, eredet, ajánló, program), penzvilag (ajándék, vásárlás, "
+                  "spórolás), eletmod (CSAK egészség, étkezés, sport, alvás, lelki egészség – ajándék, divat NEM ide), tech "
+                  "(tudomány, csillagászat). "
                   'Elemek: {"id": "rovid-kotojeles-azonosito", "section": "rovat", "topic": "magyar cím-ötlet", '
                   '"angle": "mire kíváncsi az olvasó", "when": "elotte" (készülődés, ötletek – a napok előtte) vagy '
                   '"napjan" (eredet, hagyomány, köszöntő – aznap), "wiki_hu": ["magyar Wikipédia-szócikk"], '
@@ -410,8 +414,11 @@ def plan_seasonal(ai: Optional["kc.AIClient"], d: date, topics: list) -> list:
             if t["id"] in ids:
                 continue
             on_day = str(t.pop("when", "")).startswith("nap")
+            # nagy ünnep (karácsony, húsvét…): a készülődős anyag hetekkel előtte is jó; kisebb, egynapos jeles
+            # napnál (pl. október 6.) csak előző nap vagy aznap van értelme – akkor keresnek rá
+            early = cal.lead_days(o) if o["major"] else 1
             t.update({"occasion": o["id"], "auto": True,
-                      "publish_from": (o["date"] if on_day else o["date"] - timedelta(days=cal.lead_days(o))).isoformat(),
+                      "publish_from": (o["date"] if on_day else o["date"] - timedelta(days=early)).isoformat(),
                       "publish_by": (o["date"] + timedelta(days=1 if on_day else 0)).isoformat()})
             if not isinstance(t.get("science"), dict):
                 t.pop("science", None)
