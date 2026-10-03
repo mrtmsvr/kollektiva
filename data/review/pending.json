@@ -15618,7 +15618,7 @@
     {
       "id": "68203ee2-1f90-57b7-a28b-e5511ff41e1a",
       "slug": "2026-10-03-madonna-megjelenese-sokkolta-a-vma-kozonseget",
-      "status": "pending",
+      "status": "published",
       "category": "bulvar",
       "subcategory": null,
       "tags": [
@@ -15714,9 +15714,9 @@
       "dedupe_hash": "37269191b5f3cdc74ef73c7d1b1be76587c0204e5a23babfbc543a48a2dd6950",
       "pipeline_run_id": "37114118077",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T11:47:06+02:00",
-      "updated_at": "2026-10-03T11:47:06+02:00",
-      "published_at": "2026-10-03T11:47:06+02:00",
+      "created_at": "2026-10-03T12:18:09+02:00",
+      "updated_at": "2026-10-03T12:18:09+02:00",
+      "published_at": "2026-10-03T12:18:09+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -15727,7 +15727,8 @@
           2013
         ],
         "control_id": 2014
-      }
+      },
+      "live": true
     },
     {
       "id": "5eefb95e-4dc4-52f9-9d1d-c835868adc8b",
