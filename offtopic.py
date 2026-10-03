@@ -29,6 +29,7 @@ from pathlib import Path
 from typing import Optional
 from zoneinfo import ZoneInfo
 
+import calendar_hu as cal
 import kollektiva_content as kc
 
 log = logging.getLogger("kollektiva.offtopic")
@@ -318,7 +319,7 @@ def refill_topics(ai: "kc.AIClient", topics: list, n: int = 12) -> list:
     """Ha kevés téma maradt, az AI újakat tervez (rovatonként vegyesen, ajánlókkal), és a listához fűzi őket."""
     if not ai or not ai.enabled:
         return []
-    have = "; ".join(t.get("topic", "") for t in topics[-60:])
+    have = "; ".join(t.get("topic", "") for t in topics[-60:] if not t.get("occasion"))
     prompt = (f"Eddigi témáink (ezeket NE ismételd): {have}\n\nTervezz {n} új, időtálló témát a következő rovatokba vegyesen: "
               "eletmod (egészség, táplálkozás, sport, pszichológia), univerzum (csillagászat, fizika), tech, penzvilag "
               "(személyes pénzügyek, gazdaság), kultura (köztük 3–4 film-, sorozat- vagy könyvajánló, ill. „könyv röviden”). "
@@ -346,17 +347,85 @@ def refill_topics(ai: "kc.AIClient", topics: list, n: int = 12) -> list:
         ids.add(t["id"])
         new.append(t)
     if new:
-        all_t = topics + new
-        lines = ['{"topics": ['] + [json.dumps(x, ensure_ascii=False) + (',' if i < len(all_t) - 1 else '')
-                                     for i, x in enumerate(all_t)] + [']}']
-        TOPICS_FILE.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        _write_topics(topics + new)
         log.info("Off-topic: %d új témát terveztem.", len(new))
     return new
 
 
+SEASON_SYSTEM = ("Egy magyar online magazin főszerkesztője vagy. Az év jeles napjaihoz, ünnepköreihez tervezel "
+                 "olvasnivalót, amire az emberek ilyenkor tényleg rákeresnek. Csak JSON-t adsz vissza.")
+
+
+def _write_topics(all_t: list) -> None:
+    lines = ['{"topics": ['] + [json.dumps(x, ensure_ascii=False) + (',' if i < len(all_t) - 1 else '')
+                                 for i, x in enumerate(all_t)] + [']}']
+    TOPICS_FILE.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def plan_seasonal(ai: Optional["kc.AIClient"], d: date, topics: list) -> list:
+    """Az év körforgása: ha egy jeles nap belép az előkészítési ablakba (nagy ünnep: 3 hét, kisebb: 10 nap), az AI
+    tematikus témákat tervez hozzá (ajánló, ajándékötlet, eredettörténet, „X dolog, amit nem tudtál”, gyakorlati
+    tipp), a megfelelő napokra időzítve. Jeles naponként egyszer fut."""
+    if not ai or not ai.enabled:
+        return []
+    have = {t.get("occasion") for t in topics if t.get("occasion")}
+    new = []
+    for o in cal.upcoming(d, 25):
+        if o["id"] in have or o["days"] > cal.lead_days(o):
+            continue
+        n = 4 if o["major"] else 2
+        prompt = (f"Mai dátum: {d.isoformat()}. {cal.where_are_we(d)}\n\nJeles nap: {o['name']} ({o['date'].isoformat()}).\n"
+                  f"Tervezz hozzá {n} cikktémát, változatosan ezekből: ajánló (film, könyv, program), ajándék- vagy "
+                  "receptötletek, eredettörténet / hagyomány, „X dolog, amit nem tudtál róla”, gyakorlati tippek "
+                  "(„így kerüld el…”, „így készülj…”). Csak olyat, ami tényekre épülhet (Wikipédia, tudomány), kitalált "
+                  "termék vagy ár nélkül. Rovat: eletmod, kultura, penzvilag, tech vagy univerzum. "
+                  'Elemek: {"id": "rovid-kotojeles-azonosito", "section": "rovat", "topic": "magyar cím-ötlet", '
+                  '"angle": "mire kíváncsi az olvasó", "when": "elotte" (készülődés, ötletek – a napok előtte) vagy '
+                  '"napjan" (eredet, hagyomány, köszöntő – aznap), "wiki_hu": ["magyar Wikipédia-szócikk"], '
+                  '"wiki_en": ["angol szócikk"], "images": ["angol képkereső kifejezés"], '
+                  '"science": {"db": "epmc" vagy "openalex", "q": "rövid angol keresés"} vagy null}. JSON: {"topics": [...]}')
+        try:
+            raw = ai.complete_json(SEASON_SYSTEM, prompt, 3000)
+        except (kc.AIError, ValueError, TypeError, KeyError) as e:
+            log.warning("Ünnepi témák tervezése sikertelen (%s): %s", o["id"], e)
+            continue
+        ids = {t.get("id") for t in topics + new}
+        for t in raw.get("topics") or []:
+            if not isinstance(t, dict) or not t.get("topic") or t.get("section") not in kc.SECTIONS:
+                continue
+            t["id"] = kc.slugify(f"{o['key']}-{t.get('id') or t['topic']}")[:48] + f"-{o['date'].year}"
+            if t["id"] in ids:
+                continue
+            on_day = str(t.pop("when", "")).startswith("nap")
+            t.update({"occasion": o["id"], "auto": True,
+                      "publish_from": (o["date"] if on_day else o["date"] - timedelta(days=cal.lead_days(o))).isoformat(),
+                      "publish_by": (o["date"] + timedelta(days=1 if on_day else 0)).isoformat()})
+            if not isinstance(t.get("science"), dict):
+                t.pop("science", None)
+            ids.add(t["id"])
+            new.append(t)
+        if not any(t.get("occasion") == o["id"] for t in new):  # ne próbálja minden futásnál újra
+            new.append({"id": f"{o['id']}-ures", "occasion": o["id"], "topic": "", "section": "", "skip": True})
+    if new:
+        _write_topics(topics + new)
+        log.info("Év körforgása: %d ünnepi téma (%s).", len([t for t in new if not t.get("skip")]),
+                 ", ".join(sorted({t["occasion"] for t in new})))
+    return new
+
+
+def next_seasonal(done: list, ai: Optional["kc.AIClient"], d: date) -> Optional[dict]:
+    """A ma esedékes ünnepi téma (ha van): amelyiknek az ablaka ma nyitva, a leghamarabb lejáró előre."""
+    topics = kc.read_json(TOPICS_FILE, {"topics": []}).get("topics", [])
+    topics += plan_seasonal(ai, d, topics)
+    today = d.isoformat()
+    cands = [t for t in topics if t.get("occasion") and not t.get("skip") and t.get("id") not in set(done)
+             and t.get("publish_from", "") <= today <= t.get("publish_by", "")]
+    return sorted(cands, key=lambda t: t["publish_by"])[0] if cands else None
+
+
 def next_topic(done: list, ai: Optional["kc.AIClient"] = None) -> Optional[dict]:
     topics = kc.read_json(TOPICS_FILE, {"topics": []}).get("topics", [])
-    fresh = [t for t in topics if t.get("id") not in set(done)]
+    fresh = [t for t in topics if t.get("id") not in set(done) and not t.get("occasion")]
     if len(fresh) < 5:  # fogyóban a lista → az AI újakat tervez
         fresh += refill_topics(ai, topics)
     if not fresh:
@@ -388,10 +457,19 @@ def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: boo
         return 0
     now = datetime.now(tz)
     runs = kc.read_json(RUNS_FILE, {})
-    if runs.get("last_offtopic_date") == d.isoformat() or not 7 <= now.hour <= 20:
+    if not 7 <= now.hour <= 20:
         return 0
     done = runs.get("offtopic_done", [])
-    topic = next_topic(done, ai)
+    slot = "last_offtopic_date"
+    if runs.get("last_offtopic_date") == d.isoformat():
+        # a napi időtálló anyag már megvolt → ha van esedékes ünnepi téma, az jön (naponta egy)
+        if runs.get("last_seasonal_date") == d.isoformat():
+            return 0
+        topic, slot = next_seasonal(done, ai, d), "last_seasonal_date"
+        if not topic:
+            return 0
+    else:
+        topic = next_topic(done, ai)
     if not topic:
         log.info("Off-topic: elfogyott a témalista.")
         return 0
@@ -400,7 +478,7 @@ def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: boo
     art = build_article(ai, topic, d, tz, avoid)
     # a témát akkor is lezárjuk, ha nem sikerült (ne próbálkozzon vele minden futásnál)
     if not dry_run:
-        kc.write_json_atomic(RUNS_FILE, {**kc.read_json(RUNS_FILE, {}), "last_offtopic_date": d.isoformat(),
+        kc.write_json_atomic(RUNS_FILE, {**kc.read_json(RUNS_FILE, {}), slot: d.isoformat(),
                                          "offtopic_done": done + [topic["id"]]})
     if not art:
         return 0
