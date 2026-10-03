@@ -22,7 +22,7 @@
 body{margin:0;background:var(--night);color:var(--parch);font:17px/1.75 Manrope,system-ui,-apple-system,"Segoe UI",sans-serif}
 a{color:var(--parch)}a:hover{color:var(--brass)}
 header,main,footer{max-width:720px;margin:0 auto;padding:0 20px}
-.share{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share .sh-main{display:inline-flex;align-items:center;gap:8px;font:600 14px/1 Manrope,system-ui,sans-serif;color:#0E1024;background:var(--brass);border:0;border-radius:999px;padding:11px 18px;cursor:pointer}.sh-pop{display:flex;flex-wrap:wrap;gap:8px}.sh-pop[hidden]{display:none}.sh-pop a,.sh-pop button{font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.sh-pop a:hover,.sh-pop button:hover{border-color:var(--brass);color:var(--brass)}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}.tags a{font-size:12px;color:var(--dusk);border:1px solid var(--line);border-radius:999px;padding:4px 10px;text-decoration:none}.tags a:hover{color:var(--brass);border-color:var(--brass)}.poll b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.poll h3{margin:6px 0 12px;font:600 22px/1.3 "Cormorant Garamond",Georgia,serif}.poll button{display:block;width:100%;text-align:left;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--parch);font:15px Manrope,system-ui,sans-serif;cursor:pointer}.poll button:hover{border-color:var(--brass)}.poll .pr{position:relative;overflow:hidden;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;display:flex;justify-content:space-between;gap:10px}.poll .pr.me{border-color:var(--brass)}.poll .pr span{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.15)}.poll .pr em,.poll .pr strong{position:relative;font-style:normal}.poll small{color:var(--dusk)}
+.share{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share .sh-main{display:inline-flex;align-items:center;gap:8px;font:600 14px/1 Manrope,system-ui,sans-serif;color:#0E1024;background:var(--brass);border:0;border-radius:999px;padding:11px 18px;cursor:pointer}.sh-pop{display:flex;flex-wrap:wrap;gap:8px}.sh-pop[hidden]{display:none}.share .sh-save,.sh-pop a,.sh-pop button{display:inline-flex;align-items:center;gap:6px;font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.share .sh-save:hover,.share .sh-save[data-on="1"],.sh-pop a:hover,.sh-pop button:hover{border-color:var(--brass);color:var(--brass)}.share .sh-save[data-on="1"] svg{fill:currentColor}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}.tags a{font-size:12px;color:var(--dusk);border:1px solid var(--line);border-radius:999px;padding:4px 10px;text-decoration:none}.tags a:hover{color:var(--brass);border-color:var(--brass)}.poll b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.poll h3{margin:6px 0 12px;font:600 22px/1.3 "Cormorant Garamond",Georgia,serif}.poll button{display:block;width:100%;text-align:left;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--parch);font:15px Manrope,system-ui,sans-serif;cursor:pointer}.poll button:hover{border-color:var(--brass)}.poll .pr{position:relative;overflow:hidden;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;display:flex;justify-content:space-between;gap:10px}.poll .pr.me{border-color:var(--brass)}.poll .pr span{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.15)}.poll .pr em,.poll .pr strong{position:relative;font-style:normal}.poll small{color:var(--dusk)}
 .hdr-r{display:flex;align-items:center;gap:10px}.srch{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid var(--line);border-radius:999px;color:var(--parch)}.srch:hover{color:var(--brass);border-color:var(--brass)}
 .gpref{text-align:center;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)}.gpref a{color:var(--brass);text-decoration:none}.gpref a:hover{color:var(--parch)}.gpref b{color:var(--brass);font-weight:400}
 header{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;border-bottom:1px solid var(--line);position:relative}
@@ -94,18 +94,19 @@ footer{margin-top:60px;padding-top:24px;padding-bottom:40px;border-top:1px solid
 <a href="#sutik">Sütik</a> · <a href="#hirdetes">Hirdetési ajánlat</a></nav>
 <article>
 <h2 id="rolunk">Rólunk</h2>
-<p>A Kollektíva egy budapesti egyetemista ötletéből született – két előadás, egy szakdolgozat és sok-sok kávé között.
-A kiindulópont egy egyszerű bosszúság volt: miért olyan nehéz ma úgy elolvasni egy hírt, hogy közben ne akarják
-megmondani, mit gondoljunk róla?</p>
+<p>A Kollektíva egy budapesti egyetemista fejéből pattant ki – két előadás, egy szakdolgozat és rengeteg kávé között.
+Az egész egy hétköznapi bosszúsággal kezdődött: miért kapunk ma minden hír mellé egy adag véleményt is, amit senki
+nem kért?</p>
 <p>Ezért csináljuk azt az újságot, amit mi magunk is szívesen olvasnánk: gyors, de nem felszínes; érthető, de nem
-lekezelő; és nem mondja meg, mit gondolj – csak segít, hogy legyen miből. A fontos hírek mellett tudományról, pénzről,
+lekezelő; és nem mondja meg, mit gondolj – csak segít, hogy legyen miből. A napi hírek mellett tudományról, pénzről,
 technológiáról és életmódról is írunk, olyan cikkeket, amik egy hét múlva is megérik az olvasást.</p>
-<p>Nincs mögöttünk médiacég, befektető vagy párt – csak egy kis csapat és sok lelkesedés.</p>
-<p>Ha tetszik, amit csinálunk, a legtöbbet azzal segítesz, ha megosztod egy cikkünket, vagy feliratkozol a heti
-hírlevélre. Egy egyetemista projektnek minden új olvasó számít. Köszönjük, hogy itt vagy!</p>
+<p>Nincs mögöttünk médiacég, befektető vagy párt – csak egy kis csapat, sok lelkesedés és hiteles források.</p>
+<p>Ha tetszik, amit csinálunk, oszd meg egy cikkünket, vagy iratkozz fel a heti hírlevélre. Hamarosan egy kávéval
+is támogathatsz minket – elvégre innen indult minden. Köszönjük, hogy itt vagy!</p>
 
 <h2 id="impresszum">Impresszum</h2>
 <p>Kiadó és szerkesztő: Kollektíva szerkesztőség.<br>Webcím: kollektíva.hu<br>
+Kapcsolat: <a href="mailto:x.tmsvr@gmail.com">x.tmsvr@gmail.com</a><br>
 Tárhelyszolgáltató: Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, USA – cloudflare.com</p>
 <p>Cikkeink nyilvános forrásokra (hazai és nemzetközi sajtó, hivatalos közlemények) épülnek; a felhasznált
 forrásokat minden cikk alján feltüntetjük. A képek szabad licencű forrásokból (Wikimedia Commons, Openverse, Pexels, Pixabay)
