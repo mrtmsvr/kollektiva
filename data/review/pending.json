@@ -15882,7 +15882,7 @@
       "expires_at": null,
       "review": {
         "title": 0,
-        "image": 0,
+        "image": -1,
         "sent_at": "2026-10-03T09:49:18+00:00",
         "msg_ids": [
           2015,
