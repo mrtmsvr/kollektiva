@@ -16046,9 +16046,9 @@
       "live": true
     },
     {
-      "id": "c9c795e4-7086-5a2c-859b-2141ffa49207",
-      "slug": "2026-10-03-igy-lett-egy-csaladi-menekulesbol-vilagsiker",
-      "status": "pending",
+      "id": "94c2ff59-54e5-525a-9a1f-6b2fea71dd6e",
+      "slug": "2026-10-03-tyukolban-kezdodott-zurichben-vegzodott-ime-a-magyar-arisztokratak-dr",
+      "status": "published",
       "category": "kultura",
       "subcategory": null,
       "tags": [
@@ -16058,7 +16058,7 @@
         "regény",
         "történelem"
       ],
-      "title": "Így lett egy családi menekülésből világsiker",
+      "title": "Tyúkólban kezdődött, Zürichben végződött: íme a magyar arisztokraták drámája",
       "subtitle": null,
       "lead": "A most zajló Budapesti Nemzetközi Könyvfesztivál vendége a svájci író, Nelio Biedermann, aki saját nagyszülei és híres felmenői viharos sorsáról írt világsikerű regényt Lázár címmel. A kötet a XX. századi magyar arisztokrácia megpróbáltatásait, a kitelepítéseket és a menekülés drámáját dolgozza fel.",
       "key_points": [
@@ -16079,16 +16079,16 @@
       "word_count": 224,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/K%C3%B6nyvfesztiv%C3%A1l_2012_%2826%29.JPG/1280px-K%C3%B6nyvfesztiv%C3%A1l_2012_%2826%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 900,
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/252cb7988a2693cf.jpg",
+        "width": 4418,
+        "height": 3155,
         "kind": "photo",
-        "pos": "center",
-        "alt": "A felvételek 2012. április hó 21 –én, szombaton készültek Budapesten, a XIX. Budapesti Nemzetközi Könyvfesztiválon (2012. április 19 –22). A fesztivál díszvendége Claudio Magris volt. A fesztivál szom",
-        "credit": "Derzsi Elekes Andor / Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6nyvfesztiv%C3%A1l_2012_(26).JPG",
-        "vision_score": 8.0
+        "alt": "bible, book, pages, open, reading, open bible, bible reading, bible study, chapters, psalms, religion, faith, bible, bible, bible, bible, bible, book",
+        "credit": "Pexels / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/bible-book-pages-open-reading-1868070/",
+        "vision_score": 5.0,
+        "local": "/home/runner/work/kollektiva/kollektiva/public/img/px/252cb7988a2693cf.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -16165,12 +16165,12 @@
       },
       "date": "2026-10-03",
       "date_label": "október 3.",
-      "url": "/kultura/2026-10-03-igy-lett-egy-csaladi-menekulesbol-vilagsiker/",
+      "url": "/kultura/2026-10-03-tyukolban-kezdodott-zurichben-vegzodott-ime-a-magyar-arisztokratak-dr/",
       "seo": {
-        "meta_title": "Így lett egy családi menekülésből világsiker",
+        "meta_title": "Tyúkólban kezdődött, Zürichben végződött: íme a magyar arisz",
         "meta_description": "A most zajló Budapesti Nemzetközi Könyvfesztivál vendége a svájci író, Nelio Biedermann, aki saját nagyszülei és híres felmenői viharos sorsáról írt világsikerű",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-03-igy-lett-egy-csaladi-menekulesbol-vilagsiker/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/K%C3%B6nyvfesztiv%C3%A1l_2012_%2826%29.JPG/1280px-K%C3%B6nyvfesztiv%C3%A1l_2012_%2826%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-03-tyukolban-kezdodott-zurichben-vegzodott-ime-a-magyar-arisztokratak-dr/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/252cb7988a2693cf.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -16187,9 +16187,9 @@
       "dedupe_hash": "c0855c6cbaa5d2a8a0729588243e91824ef90747be5e7a4e0c6f30f11c1aac94",
       "pipeline_run_id": "37101181821",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T07:52:00+02:00",
-      "updated_at": "2026-10-03T07:52:00+02:00",
-      "published_at": "2026-10-03T07:52:00+02:00",
+      "created_at": "2026-10-03T08:01:05+02:00",
+      "updated_at": "2026-10-03T08:01:05+02:00",
+      "published_at": "2026-10-03T08:01:05+02:00",
       "expires_at": null,
       "review": {
         "title": 4,
@@ -16202,7 +16202,8 @@
           1909
         ],
         "control_id": 1910
-      }
+      },
+      "live": true
     },
     {
       "id": "3b62dc9f-997c-50cf-9f46-28163dd53274",
