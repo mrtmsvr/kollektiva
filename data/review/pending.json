@@ -16193,7 +16193,7 @@
       "expires_at": null,
       "review": {
         "title": 4,
-        "image": 0,
+        "image": 1,
         "sent_at": "2026-10-03T05:52:42+00:00",
         "msg_ids": [
           1906,
