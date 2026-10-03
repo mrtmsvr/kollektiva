@@ -154,6 +154,7 @@ def _control(art: dict) -> tuple:
     btns.append({"text": f"{mark(ii == -1)}Nincs kép", "callback_data": f"{sid}|i|-1"})
     rows += [btns[k:k + 4] for k in range(0, len(btns), 4)]
     rows.append([{"text": "🔄 Új képek", "callback_data": f"{sid}|img"},
+                 {"text": "🎨 Grafika", "callback_data": f"{sid}|gen"},
                  {"text": "✏️ Saját cím", "callback_data": f"{sid}|ct"}])
     live = art.get("live")
     rows.append([{"text": "✅ Rendben" if live else "✅ Kirakom", "callback_data": f"{sid}|ok"},
@@ -202,9 +203,36 @@ def send_article(_out_dir: Optional[Path], art: dict) -> None:
     art["review"].update({"msg_ids": [i for i in ids if i], "control_id": ctl})
 
 
+def _send_photo_file(chat: int, path: str, caption: str) -> dict:
+    """Helyi kép feltöltése (multipart) – a generált illusztráció még nincs kint az oldalon."""
+    token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
+    if not token or not os.path.exists(path):
+        return {}
+    bnd = uuid.uuid4().hex
+    body = (f"--{bnd}\r\nContent-Disposition: form-data; name=\"chat_id\"\r\n\r\n{chat}\r\n"
+            f"--{bnd}\r\nContent-Disposition: form-data; name=\"caption\"\r\n\r\n{caption}\r\n"
+            f"--{bnd}\r\nContent-Disposition: form-data; name=\"photo\"; filename=\"kep.jpg\"\r\n"
+            "Content-Type: image/jpeg\r\n\r\n").encode() + open(path, "rb").read() + f"\r\n--{bnd}--\r\n".encode()
+    req = urllib.request.Request(f"https://api.telegram.org/bot{token}/sendPhoto", data=body,
+                                 headers={"Content-Type": f"multipart/form-data; boundary={bnd}"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.loads(r.read())
+    except (urllib.error.URLError, TimeoutError, OSError, ValueError) as e:
+        log.warning("Telegram képfeltöltés: %s", e)
+        return {}
+
+
 def _send_images(chat: int, imgs: list, note: str = "") -> list:
     """Képjelöltek albumban (max. 10); ha a Telegram valamelyiket nem tudja letölteni, egyenként."""
     imgs = imgs[:10]
+    if any(im.get("local") for im in imgs):  # generált képek: egyenként, feltöltéssel
+        out = []
+        for i, im in enumerate(imgs):
+            capt = (f"{i + 1}. kép{note if i == 0 else ''} – {im.get('credit', '')}")[:200]
+            r = _send_photo_file(chat, im["local"], capt) if im.get("local") else tg("sendPhoto", {"chat_id": chat, "photo": im["url"], "caption": capt})
+            out.append(_mid(r) if r.get("ok") else None)
+        return out
     cap = lambda i, im: (f"{i + 1}. kép{note if i == 0 else ''} – {im.get('credit', '')}")[:200]  # noqa: E731
     if len(imgs) >= 2:
         media = [{"type": "photo", "media": im["url"], "caption": cap(i, im)} for i, im in enumerate(imgs)]
@@ -251,6 +279,7 @@ def _new_images(art: dict, ai, hint: str = "") -> list:
     if hint and not specific:
         specific = [hint[:60]]
     found = kc.find_images(specific, generic, kc.Config.from_env().http_timeout, seen, limit=8)
+    found = kc.vision_rank(ai, _chosen_title(art), art.get("lead", ""), found)
     art["image_queries"] = (used + specific + generic)[-30:]
     return found
 
@@ -536,6 +565,26 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 if art.get("live"):
                     _apply_live(out_dir, art, tz)
                     published += 1
+            elif act == "gen":
+                tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Grafikát készítek (kb. 30 mp)…"})
+                q = None
+                gen = kc.generate_illustration(ai or kc.AIClient(kc.Config.from_env()), _chosen_title(art),
+                                               art.get("lead", ""), art["id"])
+                if gen:
+                    art["image_options"] = gen + [im for im in art.get("image_options") or [] if not im.get("generated")]
+                    art["review"]["image"] = 0
+                    ids = _send_images(st["chat_id"], gen, " (generált grafika)")
+                    art["review"]["msg_ids"] = (art["review"].get("msg_ids") or []) + [i for i in ids if i]
+                    tg("deleteMessage", {"chat_id": st["chat_id"], "message_id": art["review"].get("control_id")})
+                    text_, kb_ = _control(art)
+                    art["review"]["control_id"] = _mid(tg("sendMessage", {"chat_id": st["chat_id"], "text": text_,
+                                                                          "parse_mode": "HTML", "reply_markup": kb_}))
+                    if art.get("live"):
+                        _apply_live(out_dir, art, tz)
+                        published += 1
+                else:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": "A grafika most nem készült el "
+                                       "(kell hozzá: CF_ACCOUNT_ID és CF_AI_TOKEN a GitHub secretek közt)."})
             elif act == "img":
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Új képeket keresek…"})
                 q = None
