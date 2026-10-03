@@ -1767,11 +1767,49 @@ def build_polls_page(public: Path) -> None:
                                         f"{SITE_URL}/szavazasok/", POLLS_BODY), encoding="utf-8")
 
 
+QUIZ_BODY = """<article>
+<p class="kicker">A hét kvíze</p>
+<h1 id="qzT">Mennyire követted a hetet?</h1>
+<p id="qzS">Nyolc kérdés a hét híreiből. Válassz, és rögtön kiderül, eltaláltad-e – minden kérdés alatt ott a cikk is.</p>
+<div id="qz"><p>Betöltés…</p></div>
+<div id="qzEnd" class="box qzend" hidden></div>
+<div id="qzOld"></div>
+</article>
+<style>.qzq{margin:22px 0;padding:18px 20px;background:var(--vault);border:1px solid var(--line);border-radius:12px}.qzq b{color:var(--brass);font-size:12px;letter-spacing:.12em;text-transform:uppercase}.qzq h3{margin:6px 0 12px;font:600 21px/1.3 "Cormorant Garamond",Georgia,serif;color:var(--parch)}.qzq button{display:block;width:100%;text-align:left;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--parch);font:15px Manrope,system-ui,sans-serif;cursor:pointer}.qzq button:hover:not([disabled]){border-color:var(--brass)}.qzq button[disabled]{cursor:default}.qzq button.ok{border-color:#3FBF6F;background:rgba(63,191,111,.12)}.qzq button.bad{border-color:#B3261E;background:rgba(179,38,30,.14)}.qzq .ex{margin:10px 0 0;font-size:14px;color:var(--dusk)}.qzq .ex a{color:var(--brass)}.qzend{text-align:center}.qzend strong{display:block;font:600 44px/1 "Cormorant Garamond",Georgia,serif;color:var(--brass);margin:6px 0}.qzend p{color:var(--parch);margin:6px 0 12px}.qzend button{font:600 14px/1 Manrope,system-ui,sans-serif;color:#0E1024;background:var(--brass);border:0;border-radius:999px;padding:11px 18px;cursor:pointer}#qzOld a{display:inline-block;margin:4px 8px 4px 0;font-size:13px;color:var(--dusk);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none}#qzOld a:hover{color:var(--brass);border-color:var(--brass)}</style>
+<script>(function(){var Q=document.getElementById('qz'),END=document.getElementById('qzEnd'),E=function(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
+function get(u){return fetch(u,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()})}
+get('/public/data/quizzes.json').catch(function(){return get('/data/quizzes.json')}).then(function(d){var all=(d&&d.quizzes)||[];if(!all.length){Q.innerHTML='<p>Az első kvíz szombaton érkezik.</p>';return}
+var want=new URLSearchParams(location.search).get('id'),z=all.filter(function(x){return x.id===want})[0]||all[0],K='kqz_'+z.id,ans={};
+try{ans=JSON.parse(localStorage.getItem(K)||'{}')||{}}catch(e){ans={}}
+document.getElementById('qzT').textContent=z.title||'Mennyire követted a hetet?';
+document.getElementById('qzS').textContent=z.questions.length+' kérdés a hét híreiből ('+z.week.replace('-W','. év ')+'. hét). Válassz, és rögtön kiderül, eltaláltad-e.';
+Q.innerHTML=z.questions.map(function(q,i){return '<div class="qzq" data-i="'+i+'"><b>'+(i+1)+' / '+z.questions.length+'</b><h3>'+E(q.question)+'</h3>'+q.options.map(function(o,j){return '<button type="button" data-j="'+j+'">'+E(o)+'</button>'}).join('')+'<p class="ex" hidden></p></div>'}).join('');
+function mark(i,j){var q=z.questions[i],box=Q.querySelector('.qzq[data-i="'+i+'"]');box.querySelectorAll('button').forEach(function(b,k){b.disabled=true;if(k===q.correct)b.classList.add('ok');else if(k===j)b.classList.add('bad')});
+var ex=box.querySelector('.ex');ex.hidden=false;ex.innerHTML=(j===q.correct?'✓ Eltaláltad. ':'✗ Nem ez volt. ')+E(q.explain)+' <a href="'+E(q.article_url)+'">A cikk →</a>'}
+function done(){var n=z.questions.length,got=0,k=0;for(var i in ans){k++;if(ans[i]===z.questions[i].correct)got++}if(k<n)return;
+var v=got===n?'Hibátlan – te mindent tudsz a hétről.':got>=n*.75?'Nagyon jó, alig maradt le valami.':got>=n/2?'Nem rossz, de pár hír elkerülte a figyelmed.':'Ez a hét kicsit elszaladt melletted – a cikkek segítenek.';
+END.hidden=false;END.innerHTML='<b style="color:var(--brass);font-size:12px;letter-spacing:.12em;text-transform:uppercase">Eredményed</b><strong>'+got+' / '+n+'</strong><p>'+v+'</p><button type="button" id="qzSh">Megosztom</button>';
+document.getElementById('qzSh').onclick=function(){var t=got+'/'+n+' pontot értem el a Kollektíva heti hírkvízén. Neked mennyi lesz?',u=location.origin+'/kviz/?id='+z.id;
+if(navigator.share)navigator.share({title:'A hét kvíze – Kollektíva',text:t,url:u}).catch(function(){});else if(navigator.clipboard)navigator.clipboard.writeText(t+' '+u).then(function(){document.getElementById('qzSh').textContent='Link kimásolva ✓'})}}
+for(var i in ans)if(z.questions[i])mark(+i,ans[i]);done();
+Q.addEventListener('click',function(e){var b=e.target.closest('button[data-j]');if(!b||b.disabled)return;var i=+b.closest('.qzq').dataset.i,j=+b.dataset.j;ans[i]=j;try{localStorage.setItem(K,JSON.stringify(ans))}catch(e){}mark(i,j);done()});
+var old=all.filter(function(x){return x.id!==z.id}).slice(0,12);if(old.length)document.getElementById('qzOld').innerHTML='<p class="kicker" style="margin-top:32px">Korábbi kvízek</p>'+old.map(function(x){return '<a href="/kviz/?id='+E(x.id)+'">'+E(x.week.replace('-W','/'))+'. hét</a>'}).join('')
+}).catch(function(){Q.innerHTML='<p>A kvíz most nem tölthető be.</p>'})})();</script>"""
+
+
+def build_quiz_page(public: Path) -> None:
+    d = public / "kviz"
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "index.html").write_text(_page(f"A hét kvíze – {SITE_NAME}", "Heti hírkvíz: mennyire követted a hét híreit?",
+                                        f"{SITE_URL}/kviz/", QUIZ_BODY), encoding="utf-8")
+
+
 def build_static_site(output_dir: Path, tz: ZoneInfo) -> None:
     """A publikált cikkekből (retro + rovatok) statikus oldalakat, sitemapeket és RSS-t generál a public/ alá."""
     public = output_dir.parent  # public/data -> public
     build_info_page(public)
     build_polls_page(public)
+    build_quiz_page(public)
     pool = (read_json(output_dir / "retro_articles.json", {"articles": []}).get("articles", [])
             + read_json(output_dir / "articles.json", {"articles": []}).get("articles", []))
     articles = [a for a in pool if a.get("status") == "published" and a.get("slug") and a.get("seo")]
@@ -1804,6 +1842,7 @@ def build_static_site(output_dir: Path, tz: ZoneInfo) -> None:
     now = datetime.now(tz)
     urls = [(f"{SITE_URL}/", now.date().isoformat())]
     urls += [(f"{SITE_URL}/{sid}/", now.date().isoformat()) for sid in by_section]
+    urls += [(f"{SITE_URL}/kviz/", now.date().isoformat()), (f"{SITE_URL}/szavazasok/", now.date().isoformat())]
     urls += [(a["seo"]["canonical_url"], (a.get("updated_at") or a["date"])[:10]) for a in articles]
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -1938,7 +1977,7 @@ NAV_LINKS = " ".join(f'<a href="/{sid}/">{html.escape(sec["name"])}</a>'
                      for sid, sec in [*ACTIVE_SECTIONS.items(), ("retro", RETRO_SECTION)])
 MENU_HTML = ('<b class="mh">Rovatok</b><div class="mg">' + NAV_LINKS + '</div><hr>'
              '<a href="/?kereses">Keresés</a><a href="/#hirlevel">Heti hírlevél</a><a href="/#horoszkop">Horoszkóp</a>'
-             '<a href="/szavazasok/">Szavazások</a><a href="/?belepes=1">Fiókom, mentett cikkek</a>'
+             '<a href="/kviz/">A hét kvíze</a><a href="/szavazasok/">Szavazások</a><a href="/?belepes=1">Fiókom, mentett cikkek</a>'
              '<a href="/info/#rolunk">Rólunk</a><a href="/info/">Információ, impresszum</a>')
 SPONSORED = re.compile(r"PR-cikk|Támogatott|Szponzor|Hirdetés|Közlemény|partner", re.I)
 STOPWORDS = set("""a az és is egy hogy nem de már még meg el ki be le fel van volt lesz lett mint
@@ -2879,6 +2918,8 @@ def main(argv: Optional[list] = None) -> int:
             offtopic.run(ai, target, tz, cfg.output_dir, args.dry_run)
             import polls
             polls.run(ai, target, tz, cfg.output_dir, args.dry_run)
+            import quiz
+            quiz.run(ai, target, tz, cfg.output_dir, args.dry_run)
         except Exception as e:  # noqa: BLE001 – a saját cikk hibája ne állítsa meg a robotot
             log.exception("Off-topic cikk kimaradt: %s", e)
 
