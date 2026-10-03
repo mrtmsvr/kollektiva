@@ -3,7 +3,7 @@ name: Kollektíva robot
 # Egyetlen robot, 5 percenként indul (a GitHub ezt néha 10–20 percre nyújtja):
 #  1. ha esedékes (kb. kétóránként, 6–22 óra között), új rovatcikkek -> Telegramra jóváhagyásra
 #     (éjfél után a napi horoszkóp és retro cikk is itt készül)
-#  2. kb. 10 percig folyamatosan figyeli a Telegram-gombnyomásokat, és azonnal kirakja / módosítja a cikket;
+#  2. kb. 25 percig folyamatosan figyeli a Telegram-gombnyomásokat, és azonnal kirakja / módosítja a cikket;
 #     ha AUTO_PUBLISH_MIN percen belül nincs döntés, magától kikerül
 #  3. minden változás mentése; Cloudflare-build csak a havi keret szerint (scripts/commit.sh)
 on:
@@ -21,7 +21,7 @@ permissions:
 jobs:
   robot:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -61,8 +61,8 @@ jobs:
         run: python scripts/newsletter.py || true
       - name: Mentés
         run: bash scripts/commit.sh "Tartalom"
-      - name: Telegram-gombnyomások figyelése (kb. 10 perc)
-        run: python telegram_review.py --loop 600
+      - name: Telegram-gombnyomások figyelése (kb. 25 perc – a következő kör addig sorban áll, így szinte folyamatos)
+        run: python telegram_review.py --loop 1500
       - name: Mentés (maradék)
         if: always()
         run: bash scripts/commit.sh "Jóváhagyás"
