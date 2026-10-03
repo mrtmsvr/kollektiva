@@ -1536,14 +1536,12 @@ INFO_BODY = """
 <article>
 <h2 id="rolunk">Rólunk</h2>
 <p>A Kollektíva egy budapesti egyetemista ötletéből született – két előadás, egy szakdolgozat és sok-sok kávé között.
-A kiindulópont egy egyszerű bosszúság volt: miért kell ma öt helyről összeolvasni egy hírt ahhoz, hogy értsük,
-mi történt, és mi köze hozzá a mi hétköznapjainknak?</p>
+A kiindulópont egy egyszerű bosszúság volt: miért olyan nehéz ma gyorsan, érthetően és felesleges harsányság
+nélkül megtudni, mi történik körülöttünk?</p>
 <p>Ezért csináljuk azt az újságot, amit mi magunk is szívesen olvasnánk: gyors, de nem felszínes; érthető, de nem
 lekezelő; és nem mondja meg, mit gondolj – csak segít, hogy legyen miből. A fontos hírek mellett tudományról, pénzről,
 technológiáról és életmódról is írunk, olyan cikkeket, amik egy hét múlva is megérik az olvasást.</p>
-<p>Nincs mögöttünk médiacég, befektető vagy párt. Kis csapat vagyunk, ezért a modern technológiát hívjuk segítségül,
-hogy gyorsak lehessünk – de minden cikk alján ott vannak a források, hogy bárki utánanézhessen.
-Ha hibát találsz, szólj, kijavítjuk.</p>
+<p>Nincs mögöttünk médiacég, befektető vagy párt – csak egy kis csapat és sok lelkesedés.</p>
 <p>Ha tetszik, amit csinálunk, a legtöbbet azzal segítesz, ha megosztod egy cikkünket, vagy feliratkozol a heti
 hírlevélre. Egy egyetemista projektnek minden új olvasó számít. Köszönjük, hogy itt vagy!</p>
 
