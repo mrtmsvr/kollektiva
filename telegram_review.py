@@ -602,6 +602,17 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
             if (q.get("message") or {}).get("chat", {}).get("id") != st.get("chat_id"):
                 continue
             parts = (q.get("data") or "").split("|")
+            if parts[0] == "qdel":
+                qpath = out_dir / "quizzes.json"
+                qdata = kc.read_json(qpath, {"quizzes": []})
+                left = [x for x in qdata.get("quizzes", []) if x.get("id") != parts[1]]
+                if len(left) != len(qdata.get("quizzes", [])):
+                    kc.write_json_atomic(qpath, {**qdata, "quizzes": left})
+                    published += 1
+                tg("editMessageText", {"chat_id": st["chat_id"], "message_id": q["message"]["message_id"],
+                                       "text": "🗑 A kvíz lekerült az oldalról (1–2 perc)."})
+                tg("answerCallbackQuery", {"callback_query_id": q["id"]})
+                continue
             if parts[0] == "pdel":
                 ppath = out_dir / "polls.json"
                 pdata = kc.read_json(ppath, {"polls": []})
