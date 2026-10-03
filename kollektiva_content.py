@@ -1570,15 +1570,15 @@ INFO_BODY = """
 <a href="#sutik">Sütik</a> · <a href="#hirdetes">Hirdetési ajánlat</a></nav>
 <article>
 <h2 id="rolunk">Rólunk</h2>
-<p>A Kollektíva egy budapesti egyetemista ötletéből született – két előadás, egy szakdolgozat és sok-sok kávé között.
-A kiindulópont egy egyszerű bosszúság volt: miért olyan nehéz ma úgy elolvasni egy hírt, hogy közben ne akarják
-megmondani, mit gondoljunk róla?</p>
+<p>A Kollektíva egy budapesti egyetemista fejéből pattant ki – két előadás, egy szakdolgozat és rengeteg kávé között.
+Az egész egy hétköznapi bosszúsággal kezdődött: miért kapunk ma minden hír mellé egy adag véleményt is, amit senki
+nem kért?</p>
 <p>Ezért csináljuk azt az újságot, amit mi magunk is szívesen olvasnánk: gyors, de nem felszínes; érthető, de nem
 lekezelő; és nem mondja meg, mit gondolj – csak segít, hogy legyen miből. A napi hírek mellett tudományról, pénzről,
 technológiáról és életmódról is írunk, olyan cikkeket, amik egy hét múlva is megérik az olvasást.</p>
-<p>Nincs mögöttünk médiacég, befektető vagy párt – csak egy kis csapat és sok lelkesedés.</p>
-<p>Ha tetszik, amit csinálunk, a legtöbbet azzal segítesz, ha megosztod egy cikkünket, vagy feliratkozol a heti
-hírlevélre. Egy egyetemista projektnek minden új olvasó számít. Köszönjük, hogy itt vagy!</p>
+<p>Nincs mögöttünk médiacég, befektető vagy párt – csak egy kis csapat, sok lelkesedés és hiteles források.</p>
+<p>Ha tetszik, amit csinálunk, oszd meg egy cikkünket, vagy iratkozz fel a heti hírlevélre. Hamarosan egy kávéval
+is támogathatsz minket – elvégre innen indult minden. Köszönjük, hogy itt vagy!</p>
 
 <h2 id="impresszum">Impresszum</h2>
 <p>Kiadó és szerkesztő: Kollektíva szerkesztőség.<br>Webcím: kollektíva.hu<br>
@@ -1857,8 +1857,9 @@ REVIEW_SYSTEM = (
     "Szigorú magyar lektor és tényellenőr vagy egy hírportálnál. Egy kész cikket kapsz a forrásaival. Mondatonként "
     "keresd: (1) értelmetlen, logikailag zavaros vagy félreérthető mondat; (2) a forrásoknak ellentmondó vagy azokban "
     "nem szereplő állítás (szám, név, dátum, helyszín, ki mit tett); (3) egymásnak ellentmondó részek; (4) magyartalan, "
-    "tükörfordított mondat; (5) olyan cím, amiből nem derül ki egyértelműen, kiről/miről és hol szól a hír, vagy régi, "
-    "kitalált történetnek hathat. Csak valódi hibát jelölj, ami jó, azt hagyd. Csak JSON-t adsz vissza.")
+    "tükörfordított mondat; (5) félrevezető cím: hamisat állít, vagy régi/kitalált (sci-fi) történetnek hathat. A "
+    "kíváncsiságkeltő, a poént le nem lövő clickbait cím JÓ, azt ne cseréld. Csak valódi hibát jelölj, ami jó, azt "
+    "hagyd. Csak JSON-t adsz vissza.")
 
 
 def critical_review(ai: "AIClient", raw: dict, story: list) -> dict:
@@ -1871,7 +1872,7 @@ def critical_review(ai: "AIClient", raw: dict, story: list) -> dict:
     prompt = (f"FORRÁSOK:\n{src or '(nincs megadva)'}\n\nCIKK (JSON):\n{json.dumps(art, ensure_ascii=False)}\n\n"
               'Válasz JSON: {"fixes": [{"old": "a hibás részlet PONTOSAN úgy, ahogy a cikkben áll (egy mondat vagy '
               'mondatrész)", "new": "a javított változat (ha törlendő: üres)", "why": "röviden a hiba"}], '
-              '"title_ok": true vagy false, "better_title": "ha a cím nem jó: konkrét, egyértelmű, max. 9 szavas új '
+              '"title_ok": true vagy false, "better_title": "ha a cím félrevezető: ütős, igaz, max. 9 szavas új '
               'cím, különben üres"}')
     try:
         r = ai.complete_json(REVIEW_SYSTEM, prompt, 3000)
@@ -2274,8 +2275,26 @@ def checked_quote(q, story: list, n_paras: int) -> Optional[dict]:
     return {"text": text, "who": who, "after": after}
 
 
+HEADLINE_FEEDS = [("444", "https://444.hu/feed"), ("Telex", "https://telex.hu/rss"),
+                  ("Index", "https://index.hu/24ora/rss/"), ("24.hu", "https://24.hu/feed/"), ("HVG", "https://hvg.hu/rss")]
+_HEADLINES: Optional[list] = None
+
+
+def headline_examples(timeout: int) -> list:
+    """A nagy magyar lapok friss címei stílusmintának (futásonként egyszer letöltve; a 444-ből több, mert annak
+    a csípős, ironikus clickbait-stílusa a legjobb minta). Csak a cím ritmusát/csavarját tanulja belőle az AI."""
+    global _HEADLINES
+    if _HEADLINES is None:
+        out = []
+        for name, url in HEADLINE_FEEDS:
+            items = fetch_feed(url, timeout)[: (10 if name == "444" else 4)]
+            out += [f"{name}: {it['title']}" for it in items if it.get("title")]
+        _HEADLINES = out
+    return _HEADLINES
+
+
 def section_prompt(section: dict, story: list, d: date, context: Optional[list] = None,
-                   past: Optional[list] = None) -> str:
+                   past: Optional[list] = None, examples: Optional[list] = None) -> str:
     src = "\n\n".join(f"[{i + 1}]{' [KAPCSOLÓDÓ]' if s.get('related') else ''} {s['source']} – {s['title']}\n{s['summary']}"
                       + (f"\nRészletek a cikkből:\n{s['fulltext']}" if s.get("fulltext") else "")
                       for i, s in enumerate(story))
@@ -2289,6 +2308,10 @@ def section_prompt(section: dict, story: list, d: date, context: Optional[list] 
         bg_block += ("\nKorábbi cikkeink ugyanebben az ügyben (előzményként használhatod – pl. „ahogy korábban megírtuk” –, "
                      "de csak ha tényleg ugyanarról szól; új tényt ne találj ki belőlük):\n"
                      + "\n".join(f"- {p['date']}: {p['title']} – {p.get('lead') or ''}" for p in past) + "\n")
+    if examples:
+        bg_block += ("\nCÍMSTÍLUS – így címeznek ma a nagy magyar lapok (csak stílusminta: ritmus, csavar, irónia, "
+                     "kattintásra csábító fordulat; a címeiket NE másold, a tényeiket ne vedd át):\n"
+                     + "\n".join(f"- {e}" for e in examples) + "\n")
     return f"""Rovat: {section['name']} ({section['focus']}). Dátum: {hu_date(d)}.
 A rovat hangja: {section.get('voice', 'természetes, újságírói')}.
 
@@ -2303,17 +2326,17 @@ jelezze (pl. „Tech-körkép: …”, „A nap legérdekesebb űrhírei”), a 
 esemény külön blokkban szerepeljen, a blokk első bekezdése „## Rövid alcím” sorral kezdődjön.
 
 Írj ebből egy eredeti, magyar nyelvű magazincikket:
-- "title": RÖVID (max. 9 szó), KONKRÉT és MERÉSZ cím. Első olvasásra derüljön ki belőle, KI vagy MI és HOL
-  (ország, város, szereplő, intézmény neve – pl. „Ukrajna”, „Orbán”, „MNB”, „Tesla”), és hogy ez MOST történt.
-  TILOS az elvont, általánosító, sci-fi- vagy mesehangulatú cím, ami régi vagy kitalált történetnek hathat.
-  Rossz minta: „Robotok fordították meg a fronthelyzetet”. Jó minta: „Ukrán harci robotok törték át az orosz
-  vonalakat”. Erős ige, határozott állítás, kíváncsiságot keltő fordulat, meglepő szám vagy kérdés – de legyen
-  igaz, pártpolitikailag semleges, ne ijesztgessen és ne túlozzon
+- "title": RÖVID (max. 9 szó), ütős, kattintásra csábító cím: csavar, irónia, kíváncsiságot keltő fordulat,
+  meglepő szám vagy kérdés. A poént NEM kell lelőni (nem kell minden részletnek benne lennie), de legyen benne
+  egy konkrét elem (szereplő, ország, szám, tárgy), hogy ne hasson elvontnak. TILOS a sci-fi- vagy mesehangulatú,
+  általánosító cím, amiről azt hihetné az olvasó, hogy régi vagy kitalált történet (rossz: „Robotok fordították
+  meg a fronthelyzetet”; jobb: „Robotokkal törték át az ukránok az orosz vonalat”). Legyen igaz,
+  pártpolitikailag semleges, ne ijesztgessen
   Ha a téma engedi (politikai húzások, abszurd helyzetek, bulvár), a cím lehet ironikus/szarkasztikus is – de
   tragédiánál, áldozatoknál, betegségnél SOHA.
 - "title_options": 2 további, eltérő stílusú címváltozat (ugyanazokkal a szabályokkal), tömbként
 - "clickbait_titles": 3 további cím, ami a lehető legkattintósabb (erős érzelem, rejtély, „ezt nem fogod elhinni”
-  hatás, kérdés, szám) – de továbbra is IGAZ, KONKRÉT (szereplő/ország a címben), nem állít olyat, ami nincs a
+  hatás, kérdés, szám, csípős irónia, mint a 444 címei) – de továbbra is IGAZ, nem állít olyat, ami nincs a
   cikkben, és nem sértő
 - "lead": 2 mondatos bevezető: mi történt és miért fontos
 - "key_points": 3–5 rövid, egymondatos pont a lényegről („Röviden” doboz)
@@ -2367,7 +2390,8 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         s["fulltext"] = fetch_article_text(s["link"], ai.cfg.http_timeout)
     try:
         context = wiki_context(story, ai.cfg.http_timeout)
-        raw = ai.complete_json(SECTION_SYSTEM, section_prompt(section, story, d, context, past), 4000)
+        raw = ai.complete_json(SECTION_SYSTEM, section_prompt(section, story, d, context, past,
+                                                                   headline_examples(ai.cfg.http_timeout)), 4000)
         validate_retro(raw)
         raw = editorial_polish(ai, raw)
         raw = critical_review(ai, raw, story)
