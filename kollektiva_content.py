@@ -1240,8 +1240,8 @@ header,main,footer{max-width:720px;margin:0 auto;padding:0 20px}
 header{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;border-bottom:1px solid var(--line);position:relative}
 .menu summary{list-style:none;cursor:pointer;color:var(--dusk);font-size:14px;padding:6px 12px;border:1px solid var(--line);border-radius:999px}
 .menu summary::-webkit-details-marker{display:none}
-.menu[open] nav{position:absolute;right:20px;top:58px;z-index:10;display:flex;flex-direction:column;gap:10px;min-width:220px;padding:16px 18px;background:var(--vault);border:1px solid var(--line);border-radius:12px}
-.menu nav a{color:var(--parch)}
+.menu[open] nav{position:absolute;right:20px;top:58px;z-index:60;display:flex;flex-direction:column;gap:10px;min-width:280px;max-height:calc(100vh - 90px);overflow:auto;padding:16px 18px;background:var(--vault);border:1px solid var(--line);border-radius:12px}
+.menu nav a{color:var(--parch)}.menu nav .mh{color:var(--brass);font-size:11px;letter-spacing:.16em;text-transform:uppercase}.menu nav .mg{display:grid;grid-template-columns:1fr 1fr;gap:8px 18px}.menu nav hr{width:100%;border:0;border-top:1px solid var(--line);margin:4px 0}
 .keypoints{margin:28px 0;padding:16px 20px;border-left:2px solid var(--brass);background:var(--vault);border-radius:0 12px 12px 0}
 .keypoints p{margin:0 0 6px;color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}
 .keypoints ul{margin:0;padding-left:18px}
@@ -1299,7 +1299,7 @@ GPREF_HTML = (f'\n<div class="gpref"><a href="{_GPREF_URL}" target="_blank" rel=
 GPREF_FOOT = (f'<br><a href="{_GPREF_URL}" target="_blank" rel="noopener">★ Kollektíva kedvenc forrásként a Google-ben</a>'
               if GPREF_ON else "")
 
-NEW_TOAST_HTML = r"""<div id="knew" role="status" aria-live="polite" style="position:fixed;left:50%;bottom:14px;transform:translate(-50%,180%);transition:transform .35s ease;z-index:60;max-width:min(420px,calc(100vw - 32px));display:flex;align-items:center;gap:8px;background:#B3261E;color:#fff;border-radius:999px;padding:5px 6px 5px 12px;box-shadow:0 6px 20px rgba(0,0,0,.4);font:600 12px/1.3 Manrope,system-ui,sans-serif"><span style="flex:none;width:6px;height:6px;border-radius:50%;background:#fff;animation:knp 1.2s infinite"></span><a id="knewA" href="/" style="color:#fff;text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"></a><button type="button" aria-label="Bezár" onclick="document.getElementById('knew').style.transform='translate(-50%,180%)'" style="flex:none;background:rgba(255,255,255,.18);border:0;color:#fff;border-radius:50%;width:20px;height:20px;cursor:pointer;font-size:13px;line-height:1">×</button></div>
+NEW_TOAST_HTML = r"""<div id="knew" role="status" aria-live="polite" style="position:fixed;left:50%;top:14px;transform:translate(-50%,-180%);transition:transform .35s ease;z-index:60;max-width:min(420px,calc(100vw - 32px));display:flex;align-items:center;gap:8px;background:#B3261E;color:#fff;border-radius:999px;padding:5px 6px 5px 12px;box-shadow:0 6px 20px rgba(0,0,0,.4);font:600 12px/1.3 Manrope,system-ui,sans-serif"><span style="flex:none;width:6px;height:6px;border-radius:50%;background:#fff;animation:knp 1.2s infinite"></span><a id="knewA" href="/" style="color:#fff;text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"></a><button type="button" aria-label="Bezár" onclick="document.getElementById('knew').style.transform='translate(-50%,-180%)'" style="flex:none;background:rgba(255,255,255,.18);border:0;color:#fff;border-radius:50%;width:20px;height:20px;cursor:pointer;font-size:13px;line-height:1">×</button></div>
 <style>@keyframes knp{50%{opacity:.25}}</style>
 <script>/* Új cikk értesítő: ha az oldalon tartózkodás közben új cikk kerül ki, alul egy piros sáv jelzi. */
 (function(){var N={kozelet:'Közélet',vilag:'Világ',penzvilag:'Pénzvilág',tech:'Tech',eletmod:'Életmód',kultura:'Kultúra',univerzum:'Univerzum',bulvar:'Bulvár'};
@@ -1309,7 +1309,7 @@ function check(){if(document.hidden)return;get().then(function(d){var arts=(d.ar
 if(!known){known={};arts.forEach(function(x){known[x.id]=1});return}
 var fresh=arts.filter(function(x){return !known[x.id]&&x.url!==location.pathname});arts.forEach(function(x){known[x.id]=1});
 if(!fresh.length)return;var n=fresh[0];a.href=n.url;a.textContent='ÚJ · '+(N[n.category]||'Friss')+' · '+n.title+(fresh.length>1?'  (+'+(fresh.length-1)+')':'');
-box.style.transform='translate(-50%,0)';clearTimeout(t);t=setTimeout(function(){box.style.transform='translate(-50%,180%)'},/\/(kozelet|vilag|penzvilag|tech|eletmod|kultura|univerzum|bulvar|retro)\/./.test(location.pathname)?2500:6000)}).catch(function(){})}
+box.style.transform='translate(-50%,0)';clearTimeout(t);t=setTimeout(function(){box.style.transform='translate(-50%,-180%)'},/\/(kozelet|vilag|penzvilag|tech|eletmod|kultura|univerzum|bulvar|retro)\/./.test(location.pathname)?2500:6000)}).catch(function(){})}
 check();setInterval(check,90000);document.addEventListener('visibilitychange',check)})();</script>"""
 
 LOADER_HTML = r"""<div id="kload" class="on" aria-hidden="true"><svg viewBox="-480 -340 960 680"><defs><clipPath id="klFront"><rect x="-520" y="-220" width="1040" height="220"/></clipPath></defs><g transform="translate(-20 60) rotate(-24)"><ellipse rx="430" ry="130" fill="none" stroke="#2A2D52" stroke-width="14"/><circle r="38" fill="#C9A45C" stroke="#0E1024" stroke-width="11"><animateMotion dur="1.1s" repeatCount="indefinite" path="M430,0 a430,130 0 1,1 -860,0 a430,130 0 1,1 860,0"/></circle></g><path transform="translate(-344.3,311.6) scale(1,-1)" fill="#ECE6D8" d="M109.3255615234375 81V544Q109.3255615234375 573 103.91302490234375 587.5Q98.50048828125 602 82.03790283203125 607.5Q65.5753173828125 613 33.3751220703125 613Q30.650146484375 613 30.650146484375 619.0Q30.650146484375 625 33.3751220703125 625Q58.8250732421875 625 90.13751220703125 623.5Q121.449951171875 622 156.349853515625 622Q193.5247802734375 622 224.69970703125 623.5Q255.8746337890625 625 280.3245849609375 625Q283.049560546875 625 283.049560546875 619.0Q283.049560546875 613 280.3245849609375 613Q248.1243896484375 613 232.0242919921875 607.0Q215.9241943359375 601 210.149169921875 586.0Q204.3741455078125 571 204.3741455078125 542V81Q204.3741455078125 52 209.649169921875 37.0Q214.9241943359375 22 231.16180419921875 17.0Q247.3994140625 12 280.3245849609375 12Q283.7745361328125 12 283.7745361328125 6.0Q283.7745361328125 0 280.3245849609375 0Q254.8746337890625 0 224.19970703125 1.0Q193.5247802734375 2 156.349853515625 2Q121.449951171875 2 89.2750244140625 1.0Q57.10009765625 0 31.650146484375 0Q29.650146484375 0 29.650146484375 6.0Q29.650146484375 12 31.650146484375 12Q64.5753173828125 12 81.1754150390625 17.0Q97.7755126953125 22 103.550537109375 37.0Q109.3255615234375 52 109.3255615234375 81ZM368.650146484375 145 224.2244873046875 335.2254638671875 293.7735595703125 399.29931640625 444.29833984375 200.1749267578125Q485.49853515625 144.0748291015625 514.0111694335938 108.2998046875Q542.5238037109375 72.5247802734375 561.9863891601562 52.43731689453125Q581.448974609375 32.349853515625 596.2740478515625 23.76239013671875Q611.09912109375 15.1749267578125 625.149169921875 13.58746337890625Q639.19921875 12 656.0242919921875 12Q659.0242919921875 12 659.0242919921875 6.0Q659.0242919921875 0 656.0242919921875 0Q611.749267578125 0 584.749267578125 0.0Q557.749267578125 0 544.0242919921875 0Q531.2244873046875 0 522.0121459960938 -0.86248779296875Q512.7998046875 -1.7249755859375 505.6248779296875 -1.7249755859375Q492.349853515625 -1.7249755859375 482.89990234375 3.2750244140625Q473.449951171875 8.2750244140625 460.7750244140625 23.2750244140625Q448.10009765625 38.2750244140625 426.650146484375 67.2750244140625Q405.2001953125 96.2750244140625 368.650146484375 145ZM143.449951171875 267.90087890625 401.1749267578125 529.70068359375Q438.449951171875 566.9757080078125 430.3250732421875 589.9878540039062Q422.2001953125 613 371.3751220703125 613Q368.650146484375 613 368.650146484375 619.0Q368.650146484375 625 371.3751220703125 625Q397.550048828125 625 424.58746337890625 623.5Q451.6248779296875 622 495.9747314453125 622Q540.949462890625 622 567.1618041992188 623.5Q593.3741455078125 625 617.7239990234375 625Q620.7239990234375 625 620.7239990234375 619.0Q620.7239990234375 613 617.7239990234375 613Q575.0242919921875 613 522.7745361328125 589.9378051757812Q470.5247802734375 566.8756103515625 426.349853515625 523.70068359375L169.6248779296875 266.0009765625Z"/><path d="M-412.8,234.9 A430,130 -24 0 1 372.8,-114.9" fill="none" stroke="#0E1024" stroke-width="40"/><path d="M-412.8,234.9 A430,130 -24 0 1 372.8,-114.9" fill="none" stroke="#ECE6D8" stroke-width="16" stroke-linecap="round" opacity=".85"/><g transform="translate(-20 60) rotate(-24)" clip-path="url(#klFront)"><circle r="38" fill="#C9A45C" stroke="#0E1024" stroke-width="11"><animateMotion dur="1.1s" repeatCount="indefinite" path="M430,0 a430,130 0 1,1 -860,0 a430,130 0 1,1 860,0"/></circle></g></svg></div>
@@ -1353,12 +1353,13 @@ def _page(title: str, description: str, canonical: str, body: str, head_extra: s
 </head>
 <body>
 {LOADER_HTML}
-<header><a class="logo" href="/" aria-label="{SITE_NAME} – főoldal">{LOGO_SVG}<span>{SITE_NAME}<b>.</b></span></a><span class="hdr-r"><a class="srch" href="/?kereses" aria-label="Keresés a cikkek között"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a><details class="menu"><summary aria-label="Rovatok">Rovatok ☰</summary><nav>{NAV_LINKS}</nav></details></span></header>{GPREF_HTML}
+<header><a class="logo" href="/" aria-label="{SITE_NAME} – főoldal">{LOGO_SVG}<span>{SITE_NAME}<b>.</b></span></a><span class="hdr-r"><a class="srch" href="/?kereses" aria-label="Keresés a cikkek között"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a><details class="menu"><summary aria-label="Menü">☰ Menü</summary><nav>{MENU_HTML}</nav></details></span></header>{GPREF_HTML}
 <main>
 {body}
 </main>
 <footer>© {datetime.now().year} {SITE_NAME}<br><a href="/">Főoldal</a>{NAV_LINKS}<a href="/feed.xml">RSS</a><br><a href="/info/#impresszum">Impresszum</a><a href="/info/#adatkezeles">Adatkezelés</a><a href="/info/#sutik">Sütik</a><a href="/info/#hirdetes">Hirdetés</a>{GPREF_FOOT}</footer>
 {NEW_TOAST_HTML}
+<script src="/poll-widget.js" defer></script>
 </body>
 </html>
 """
@@ -1642,10 +1643,35 @@ def build_info_page(public: Path) -> None:
                                         f"{SITE_URL}/info/", INFO_BODY), encoding="utf-8")
 
 
+POLLS_BODY = """<article>
+<p class="kicker">Olvasói szavazások</p>
+<h1>A nap kérdései</h1>
+<p>Minden nap egy kérdés a nap egyik fontos ügyéről; egy szavazás 7 napig van nyitva. Az eredmény a Kollektíva
+olvasóinak véleményét mutatja – nem reprezentatív közvélemény-kutatás. Nyitott kérdésnél az eredményt a szavazás után látod.</p>
+<div id="plist"><p>Betöltés…</p></div>
+</article>
+<script>(function(){var L=document.getElementById('plist'),E=function(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
+fetch('/public/data/polls.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(d){var ps=(d.polls||[]);if(!ps.length){L.innerHTML='<p>Még nincs szavazás.</p>';return}
+L.innerHTML=ps.map(function(p){return '<div class="box poll" id="p'+E(p.id)+'"><b>'+E(p.date)+'</b><h3>'+E(p.question)+'</h3><p><a href="'+E(p.article_url)+'">A cikk: '+E(p.article_title)+'</a></p><div class="res"><small>Betöltés…</small></div></div>'}).join('');
+ps.forEach(function(p){fetch('/api/poll?id='+encodeURIComponent(p.id)).then(function(r){return r.json()}).then(function(r){var el=document.querySelector('#p'+p.id+' .res');if(!r.ok){el.innerHTML='';return}
+if(!r.closed&&r.voted===null){el.innerHTML='<small>Még nyitva – <a href="'+E(p.article_url)+'">szavazz a cikknél</a>, utána látod az eredményt.</small>';return}
+var t=r.total||0;if(t<30){el.innerHTML='<small>'+(r.closed?'Lezárult':'Nyitva')+' · még kevés szavazat érkezett ahhoz, hogy az eredmény sokat mondjon.</small>';return}
+el.innerHTML=p.options.map(function(o,i){var c=r.counts[i]||0,pc=Math.round(100*c/t);return '<div class="pr'+(r.voted===i?' me':'')+'"><span style="width:'+pc+'%"></span><em>'+E(o)+'</em><strong>'+pc+'%</strong></div>'}).join('')
++'<small>'+(t>=200?t+' szavazat · ':'')+(r.closed?'lezárult':'nyitva')+'</small>'}).catch(function(){})})}).catch(function(){L.innerHTML='<p>A szavazások most nem tölthetők be.</p>'})})();</script>"""
+
+
+def build_polls_page(public: Path) -> None:
+    d = public / "szavazasok"
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "index.html").write_text(_page(f"A nap kérdései – {SITE_NAME}", "Olvasói szavazások és eredményeik.",
+                                        f"{SITE_URL}/szavazasok/", POLLS_BODY), encoding="utf-8")
+
+
 def build_static_site(output_dir: Path, tz: ZoneInfo) -> None:
     """A publikált cikkekből (retro + rovatok) statikus oldalakat, sitemapeket és RSS-t generál a public/ alá."""
     public = output_dir.parent  # public/data -> public
     build_info_page(public)
+    build_polls_page(public)
     pool = (read_json(output_dir / "retro_articles.json", {"articles": []}).get("articles", [])
             + read_json(output_dir / "articles.json", {"articles": []}).get("articles", []))
     articles = [a for a in pool if a.get("status") == "published" and a.get("slug") and a.get("seo")]
@@ -1808,6 +1834,10 @@ SECTIONS = {
 }
 NAV_LINKS = " ".join(f'<a href="/{sid}/">{html.escape(sec["name"])}</a>'
                      for sid, sec in [*SECTIONS.items(), ("retro", RETRO_SECTION)])
+MENU_HTML = ('<b class="mh">Rovatok</b><div class="mg">' + NAV_LINKS + '</div><hr>'
+             '<a href="/?kereses">Keresés</a><a href="/#hirlevel">Heti hírlevél</a><a href="/#horoszkop">Horoszkóp</a>'
+             '<a href="/szavazasok/">Szavazások</a><a href="/?belepes=1">Fiókom, mentett cikkek</a>'
+             '<a href="/info/#rolunk">Rólunk</a><a href="/info/">Információ, impresszum</a>')
 SPONSORED = re.compile(r"PR-cikk|Támogatott|Szponzor|Hirdetés|Közlemény|partner", re.I)
 STOPWORDS = set("""a az és is egy hogy nem de már még meg el ki be le fel van volt lesz lett mint
 csak ez azt ezt itt ott mit mi ami aki akik kell után alatt miatt szerint között új több nagy the of and
