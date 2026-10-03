@@ -204,6 +204,19 @@ Kizárólag ezt a JSON-t add vissza:
 {{"title": "...", "title_options": ["...", "..."], "lead": "...", "key_points": ["..."], "body": ["..."], "tags": ["..."], "image_query": "...", "image_query_alt": ["..."], "image_generic": "...", "inline_images": []}}"""
 
 
+def occasion_tag(topic: dict) -> str:
+    """Ünnepi anyag címkéje (pl. „Advent”, „Mikulás”) – a cikk tetején kattintható, összegyűjti a témát."""
+    occ = topic.get("occasion") or ""
+    if not occ:
+        return ""
+    try:
+        o = next(o for o in cal.occasions(int(occ.rsplit("-", 1)[1])) if o["id"] == occ)
+    except (StopIteration, ValueError, IndexError):
+        return ""
+    name = o["name"].split(",")[0]
+    return "Advent" if o["key"].startswith("advent") else name
+
+
 def build_article(ai: "kc.AIClient", topic: dict, d: date, tz: ZoneInfo, avoid_images: Optional[set] = None,
                   sources: Optional[list] = None) -> Optional[dict]:
     section = kc.SECTIONS.get(topic.get("section")) or kc.SECTIONS["eletmod"]
@@ -246,7 +259,7 @@ def build_article(ai: "kc.AIClient", topic: dict, d: date, tz: ZoneInfo, avoid_i
     return {
         "id": str(uuid.uuid5(uuid.NAMESPACE_URL, f"{kc.SITE_URL}/{sid}/{slug}")),
         "slug": slug, "status": "pending", "category": sid, "subcategory": "olvasnivalo",
-        "tags": art["tags"], "title": art["title"], "subtitle": None, "lead": art["lead"],
+        "tags": ([occasion_tag(topic)] if occasion_tag(topic) else []) + art["tags"][:5], "title": art["title"], "subtitle": None, "lead": art["lead"],
         "key_points": [str(k).strip() for k in (raw.get("key_points") or []) if str(k).strip()][:5],
         "content": kc.to_markdown(art), "content_format": "markdown", "body": art["body"], "pull_quote": None,
         "reading_time_min": kc.reading_time(full_text), "word_count": len(re.findall(r"\w+", full_text)),
