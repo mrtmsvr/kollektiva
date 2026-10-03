@@ -154,8 +154,9 @@ def _control(art: dict) -> tuple:
     btns.append({"text": f"{mark(ii == -1)}Nincs kép", "callback_data": f"{sid}|i|-1"})
     rows += [btns[k:k + 4] for k in range(0, len(btns), 4)]
     rows.append([{"text": "🔄 Új képek", "callback_data": f"{sid}|img"},
-                 {"text": "🎨 Grafika", "callback_data": f"{sid}|gen"},
-                 {"text": "✏️ Saját cím", "callback_data": f"{sid}|ct"}])
+                 {"text": "🎨 Grafika", "callback_data": f"{sid}|gen"}])
+    rows.append([{"text": "✏️ Saját cím", "callback_data": f"{sid}|ct"},
+                 {"text": "📄 Teljes szöveg", "callback_data": f"{sid}|txt"}])
     live = art.get("live")
     rows.append([{"text": "✅ Rendben" if live else "✅ Kirakom", "callback_data": f"{sid}|ok"},
                  {"text": "🔁 Újraírás", "callback_data": f"{sid}|rw"},
@@ -193,8 +194,7 @@ def send_article(_out_dir: Optional[Path], art: dict) -> None:
         f'<a href="{html.escape(s["url"])}">{E(s.get("publisher") or "forrás")}</a>' for s in art.get("sources", []))
     ids = [_mid(tg("sendMessage", {"chat_id": chat, "text": head[:4000], "parse_mode": "HTML",
                                    "disable_web_page_preview": True}))]
-    for part in _chunks("\n\n".join(art.get("body", []))):
-        ids.append(_mid(tg("sendMessage", {"chat_id": chat, "text": part})))
+    # a teljes szöveget nem küldjük el (elég a „Röviden”); kérésre: 📄 Teljes szöveg gomb
     imgs = art.get("image_options") or []
     ids += _send_images(chat, imgs)
     art["review"] = {"title": 0, "image": 0 if imgs else -1, "sent_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
@@ -585,6 +585,12 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 else:
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": "A grafika most nem készült el "
                                        "(kell hozzá: CF_ACCOUNT_ID és CF_AI_TOKEN a GitHub secretek közt)."})
+            elif act == "txt":
+                note = "Teljes szöveg alább"
+                for part in _chunks("\n\n".join(art.get("body", []))):
+                    mid = _mid(tg("sendMessage", {"chat_id": st["chat_id"], "text": part}))
+                    if mid:
+                        art["review"].setdefault("msg_ids", []).append(mid)
             elif act == "img":
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Új képeket keresek…"})
                 q = None
