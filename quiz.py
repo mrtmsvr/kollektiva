@@ -91,7 +91,7 @@ def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: boo
     data = kc.read_json(path, {"quizzes": []})
     quizzes = data.get("quizzes", [])
     week = _week_id(d)
-    if not force and (d.weekday() != QUIZ_DAY or not 8 <= now.hour <= 21 or any(q.get("week") == week for q in quizzes)):
+    if not force and (d.weekday() < QUIZ_DAY or not 8 <= now.hour <= 21 or any(q.get("week") == week for q in quizzes)):
         return 0
     articles = kc.read_json(output_dir / "articles.json", {"articles": []}).get("articles", [])
     cands = _candidates(articles, d)
