@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-03T06:58:57+02:00",
+  "updated_at": "2026-10-03T07:00:57+02:00",
   "articles": [
     {
       "id": "5ce25ce2-2395-5861-b25b-30a6c8f0268e",
@@ -1136,130 +1136,6 @@
       "created_at": "2026-10-02T20:12:15+02:00",
       "updated_at": "2026-10-02T20:58:24+02:00",
       "published_at": "2026-10-02T20:12:15+02:00",
-      "expires_at": null
-    },
-    {
-      "id": "f6d90b87-83d8-59ea-8f4a-78410203cfed",
-      "slug": "2026-10-02-igy-utkoznek-a-fiatal-bolygok",
-      "status": "published",
-      "category": "tech",
-      "subcategory": null,
-      "tags": [
-        "csillagászat",
-        "James Webb űrtávcső",
-        "HUN-REN CSFK",
-        "bolygókeletkezés"
-      ],
-      "title": "Mars méretű testek csapódtak össze",
-      "subtitle": null,
-      "lead": "A James Webb-űrtávcső segítségével magyar csillagászok is vizsgálták azokat a ritka, extrém törmelékkorongokat, amelyekben Hold- és Mars-méretű égitestek ütköznek össze. Ezek a kataklizmikus folyamatok magyarázatot nyújtanak a saját Naprendszerünk korai fejlődésére is.",
-      "key_points": [
-        "Magyar kutatók is részt vettek a James Webb-űrtávcső legújabb bolygókeletkezési kutatásában.",
-        "A vizsgált extrém törmelékkorongok két csoportra oszthatók ütközési típusuk szerint.",
-        "Az eredmények segítenek megérteni a Föld és a Hold egykori kialakulását."
-      ],
-      "content": "Ahogy korábban megírtuk, az űrkutatás legfrissebb megfigyelései rávilágítanak arra, hogy a bolygók katasztrofális ütközései alapvetően formálták a Naprendszer hajnalát. Ezt a vonalat továbbvivve egy nemzetközi kutatócsoport a James Webb-űrtávcső közép-infravörös spektrométerével huszonegy olyan extrém törmelékkorongot elemzett, amelyekben Hold- és Mars-méretű objektumok csapódnak egymásba, hatalmas mennyiségű forró port keltve. A munkálatokban a HUN-REN Csillagászati és Földtudományi Kutatóközpont Konkoly Thege Miklós Csillagászati Intézetének munkatársai, így Moór Attila, Kóspál Ágnes és Ábrahám Péter is közreműködtek.\n\nA valaha végzett legnagyobb ilyen felmérés során derült fény arra, hogy a rendszerek két fő kategóriába sorolhatók. A szilícium-dioxidban gazdag korongokban, amelyek kizárólag 300 millió évnél fiatalabb csillagok körül fordulnak elő, Mars-méretű testek nagyenergiájú becsapódásai zajlanak. Ezzel szemben a szilícium-dioxidban szegény, idősebb rendszerekben Hold-méretű égitestek súroló ütközései történnek.\n\nKate Su, a boulderi Űrtudományi Intézet kutatója által vezetett csapat munkája azért jelentős, mert a bolygócsírák közvetlenül nem tanulmányozhatók. A műszerek segítségével azonban kimutathatók azok az apró porszemcsék, amelyek mérete és összetétele pontosan elárulja a létrehozó ütközés típusát. A The Astrophysical Journal szaklapban közölt adatok közvetlen párhuzamot mutatnak a Naprendszer múltjával is.\n\nA szilícium-dioxidban gazdag korongok kora egybeesik azzal a tudományos becsléssel, amely szerint a Hold egy Mars-nagyságú égitest és a fiatal Föld ütközéséből jött létre nagyjából 100 millió évvel a Naprendszer keletkezése után. Az idősebb rendszerek vizsgálata pedig a késői intenzív bombázás hipotézisét támaszthatja alá, amikor a gázóriások gravitációs hatása megzavarta a kisebb testek pályáját. Az elkövetkező időszakban ezek az adatok segíthetnek összeállítani a bolygórendszerek fejlődésének átfogó képét.",
-      "content_format": "markdown",
-      "body": [
-        "Ahogy korábban megírtuk, az űrkutatás legfrissebb megfigyelései rávilágítanak arra, hogy a bolygók katasztrofális ütközései alapvetően formálták a Naprendszer hajnalát. Ezt a vonalat továbbvivve egy nemzetközi kutatócsoport a James Webb-űrtávcső közép-infravörös spektrométerével huszonegy olyan extrém törmelékkorongot elemzett, amelyekben Hold- és Mars-méretű objektumok csapódnak egymásba, hatalmas mennyiségű forró port keltve. A munkálatokban a HUN-REN Csillagászati és Földtudományi Kutatóközpont Konkoly Thege Miklós Csillagászati Intézetének munkatársai, így Moór Attila, Kóspál Ágnes és Ábrahám Péter is közreműködtek.",
-        "A valaha végzett legnagyobb ilyen felmérés során derült fény arra, hogy a rendszerek két fő kategóriába sorolhatók. A szilícium-dioxidban gazdag korongokban, amelyek kizárólag 300 millió évnél fiatalabb csillagok körül fordulnak elő, Mars-méretű testek nagyenergiájú becsapódásai zajlanak. Ezzel szemben a szilícium-dioxidban szegény, idősebb rendszerekben Hold-méretű égitestek súroló ütközései történnek.",
-        "Kate Su, a boulderi Űrtudományi Intézet kutatója által vezetett csapat munkája azért jelentős, mert a bolygócsírák közvetlenül nem tanulmányozhatók. A műszerek segítségével azonban kimutathatók azok az apró porszemcsék, amelyek mérete és összetétele pontosan elárulja a létrehozó ütközés típusát. A The Astrophysical Journal szaklapban közölt adatok közvetlen párhuzamot mutatnak a Naprendszer múltjával is.",
-        "A szilícium-dioxidban gazdag korongok kora egybeesik azzal a tudományos becsléssel, amely szerint a Hold egy Mars-nagyságú égitest és a fiatal Föld ütközéséből jött létre nagyjából 100 millió évvel a Naprendszer keletkezése után. Az idősebb rendszerek vizsgálata pedig a késői intenzív bombázás hipotézisét támaszthatja alá, amikor a gázóriások gravitációs hatása megzavarta a kisebb testek pályáját. Az elkövetkező időszakban ezek az adatok segíthetnek összeállítani a bolygórendszerek fejlődésének átfogó képét."
-      ],
-      "pull_quote": null,
-      "reading_time_min": 2,
-      "word_count": 283,
-      "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 798,
-        "kind": "photo",
-        "pos": "center",
-        "alt": "Caption: During cryogenic testing, the mirrors will be subjected to temperatures dipping to 24 Kelvins, permitting engineers to measure in extreme detail how the shape of each mirror changes as it coo",
-        "credit": "NASA/MSFC/David Higginbotham/Emmett Given / Wikimedia Commons",
-        "license": "Public domain",
-        "source_url": "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Mirror37.jpg"
-      },
-      "inline_images": [],
-      "sources": [
-        {
-          "url": "https://hvg.hu/tudomany/20261002_extrem-tormelekkorongok-vizsgalata-magyar-kutatok-james-webb-urteleszkop",
-          "title": "Tudja, mik azok az extrém törmelékkorongok? Épp ezt vizsgálták magyar csillagászok is",
-          "publisher": "hvg.hu",
-          "license": null,
-          "accessed_at": "2026-10-02T19:40:00+02:00"
-        },
-        {
-          "url": "https://qubit.hu/2026/10/02/kataklizmikus-bolygoutkozesek-maradvanyait-figyeltek-meg-magyar-csillagaszok-a-james-webb-urtavcsovel?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-          "title": "Kataklizmikus bolygóütközések maradványait figyelték meg magyar csillagászok a James Webb űrtávcsővel",
-          "publisher": "qubit.hu",
-          "license": null,
-          "accessed_at": "2026-10-02T19:40:00+02:00"
-        }
-      ],
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v2",
-        "reviewed_by": null,
-        "reviewed_at": "2026-10-02T20:10:56+02:00"
-      },
-      "hot_score": 9.62,
-      "category_meta": {
-        "source_links": [
-          "https://hvg.hu/tudomany/20261002_extrem-tormelekkorongok-vizsgalata-magyar-kutatok-james-webb-urteleszkop",
-          "https://qubit.hu/2026/10/02/kataklizmikus-bolygoutkozesek-maradvanyait-figyeltek-meg-magyar-csillagaszok-a-james-webb-urtavcsovel?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
-        ]
-      },
-      "date": "2026-10-02",
-      "date_label": "október 2.",
-      "url": "/tech/2026-10-02-igy-utkoznek-a-fiatal-bolygok/",
-      "seo": {
-        "meta_title": "Mars méretű testek csapódtak össze",
-        "meta_description": "A James Webb-űrtávcső segítségével magyar csillagászok is vizsgálták azokat a ritka, extrém törmelékkorongokat, amelyekben Hold- és Mars-méretű égitestek ütközn",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-02-igy-utkoznek-a-fiatal-bolygok/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/1280px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [
-        "60f91f1e-07ac-5f11-b204-02e5f25276e6",
-        "74e92860-e064-5d6d-a395-9f3217a22bc6",
-        "de2f4597-1b3b-51b4-b882-20dcc7a5cd6d"
-      ],
-      "see_also": [
-        {
-          "title": "Hogyan zúzzák szét a bolygók egymást?",
-          "url": "/univerzum/2026-10-01-hogyan-zuzzak-szet-a-bolygok-egymast/",
-          "date": "2026-10-01"
-        },
-        {
-          "title": "Minden tizenharmadik fiatal ereiben ott rejlik a baj",
-          "url": "/eletmod/2026-10-01-minden-tizenharmadik-fiatal-ereiben-ott-rejlik-a-baj/",
-          "date": "2026-10-01"
-        },
-        {
-          "title": "Rengeteg küldetést készít elő a NASA",
-          "url": "/univerzum/2026-09-30-rengeteg-kuldetest-keszit-elo-a-nasa/",
-          "date": "2026-09-30"
-        }
-      ],
-      "thread_id": "60f91f1e-07ac-5f11-b204-02e5f25276e6",
-      "dedupe_hash": "cd43ac3cecca77b166409c2da6592d3fad4b5ceb164e2b2ea89a9fd66fd7f5ce",
-      "pipeline_run_id": "37042147706",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T20:10:56+02:00",
-      "updated_at": "2026-10-02T20:52:18+02:00",
-      "published_at": "2026-10-02T20:10:56+02:00",
       "expires_at": null
     },
     {
