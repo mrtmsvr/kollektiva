@@ -1,6 +1,8 @@
 // Cloudflare Pages Function: POST /api/login  – Google-belépés ellenőrzése.
 // A böngésző a Google-tól kapott access tokent küldi; itt ellenőrizzük, hogy a mi alkalmazásunknak szól,
 // lekérjük a nevet/e-mailt/képet, és a Brevóban a „Kollektíva fiókok” listára tesszük (hírlevélre NEM iratkoztat).
+import { ensureTables } from './saved.js';
+
 const CLIENT_ID = '1014482488754-j1k6m2otl4cma3iaec2639i2nbji0p06.apps.googleusercontent.com';
 const ACCOUNTS_LIST = 'Kollektíva fiókok';
 const NEWSLETTER_LIST = 'Kollektíva hírlevél';
@@ -48,5 +50,15 @@ export async function onRequestPost({ request, env }) {
       if (!r.ok && r.status !== 204) await brevo(env, '/contacts', { method: 'POST', body: JSON.stringify(base) });
     } catch (e) { /* a belépés ettől még sikeres */ }
   }
-  return json({ ok: true, user });
+  // munkamenet a mentett cikkekhez (D1) – a böngésző a user mellett tárolja
+  let session = null;
+  if (env.DB) {
+    try {
+      await ensureTables(env);
+      session = [...crypto.getRandomValues(new Uint8Array(24))].map(b => b.toString(16).padStart(2, '0')).join('');
+      await env.DB.prepare('INSERT INTO sessions (token, email, created_at) VALUES (?, ?, ?)')
+        .bind(session, user.email, new Date().toISOString()).run();
+    } catch (e) { session = null; }
+  }
+  return json({ ok: true, user, session });
 }
