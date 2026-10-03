@@ -1234,7 +1234,7 @@ PAGE_CSS = """
 body{margin:0;background:var(--night);color:var(--parch);font:17px/1.75 Manrope,system-ui,-apple-system,"Segoe UI",sans-serif}
 a{color:var(--parch)}a:hover{color:var(--brass)}
 header,main,footer{max-width:720px;margin:0 auto;padding:0 20px}
-.share{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share .sh-main{display:inline-flex;align-items:center;gap:8px;font:600 14px/1 Manrope,system-ui,sans-serif;color:#0E1024;background:var(--brass);border:0;border-radius:999px;padding:11px 18px;cursor:pointer}.sh-pop{display:flex;flex-wrap:wrap;gap:8px}.sh-pop[hidden]{display:none}.sh-pop a,.sh-pop button{font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.sh-pop a:hover,.sh-pop button:hover{border-color:var(--brass);color:var(--brass)}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}.tags a{font-size:12px;color:var(--dusk);border:1px solid var(--line);border-radius:999px;padding:4px 10px;text-decoration:none}.tags a:hover{color:var(--brass);border-color:var(--brass)}.poll b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.poll h3{margin:6px 0 12px;font:600 22px/1.3 "Cormorant Garamond",Georgia,serif}.poll button{display:block;width:100%;text-align:left;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--parch);font:15px Manrope,system-ui,sans-serif;cursor:pointer}.poll button:hover{border-color:var(--brass)}.poll .pr{position:relative;overflow:hidden;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;display:flex;justify-content:space-between;gap:10px}.poll .pr.me{border-color:var(--brass)}.poll .pr span{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.15)}.poll .pr em,.poll .pr strong{position:relative;font-style:normal}.poll small{color:var(--dusk)}
+.share{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share .sh-main{display:inline-flex;align-items:center;gap:8px;font:600 14px/1 Manrope,system-ui,sans-serif;color:#0E1024;background:var(--brass);border:0;border-radius:999px;padding:11px 18px;cursor:pointer}.sh-pop{display:flex;flex-wrap:wrap;gap:8px}.sh-pop[hidden]{display:none}.share .sh-save,.sh-pop a,.sh-pop button{display:inline-flex;align-items:center;gap:6px;font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.share .sh-save:hover,.share .sh-save[data-on="1"],.sh-pop a:hover,.sh-pop button:hover{border-color:var(--brass);color:var(--brass)}.share .sh-save[data-on="1"] svg{fill:currentColor}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}.tags a{font-size:12px;color:var(--dusk);border:1px solid var(--line);border-radius:999px;padding:4px 10px;text-decoration:none}.tags a:hover{color:var(--brass);border-color:var(--brass)}.poll b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.poll h3{margin:6px 0 12px;font:600 22px/1.3 "Cormorant Garamond",Georgia,serif}.poll button{display:block;width:100%;text-align:left;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--parch);font:15px Manrope,system-ui,sans-serif;cursor:pointer}.poll button:hover{border-color:var(--brass)}.poll .pr{position:relative;overflow:hidden;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;display:flex;justify-content:space-between;gap:10px}.poll .pr.me{border-color:var(--brass)}.poll .pr span{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.15)}.poll .pr em,.poll .pr strong{position:relative;font-style:normal}.poll small{color:var(--dusk)}
 .hdr-r{display:flex;align-items:center;gap:10px}.srch{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid var(--line);border-radius:999px;color:var(--parch)}.srch:hover{color:var(--brass);border-color:var(--brass)}
 .gpref{text-align:center;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)}.gpref a{color:var(--brass);text-decoration:none}.gpref a:hover{color:var(--parch)}.gpref b{color:var(--brass);font-weight:400}
 header{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;border-bottom:1px solid var(--line);position:relative}
@@ -1446,7 +1446,10 @@ def _share_html(url: str, title: str) -> str:
             '<button type="button" class="sh-main"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" '
             'stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
             '<path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg>'
-            'Megosztás</button><span class="sh-pop" hidden>'
+            'Megosztás</button><button type="button" class="sh-save" title="Mentés a fiókodba (Google-belépéssel)">'
+            '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" '
+            'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>'
+            '<span>Mentés</span></button><span class="sh-pop" hidden>'
             f'<a href="https://www.facebook.com/sharer/sharer.php?u={u}" target="_blank" rel="noopener">Facebook</a>'
             f'<a href="https://wa.me/?text={t}%20{u}" target="_blank" rel="noopener">WhatsApp</a>'
             f'<a href="https://x.com/intent/post?url={u}&text={t}" target="_blank" rel="noopener">X</a>'
@@ -1456,7 +1459,17 @@ def _share_html(url: str, title: str) -> str:
             "m.onclick=function(){if(navigator.share){navigator.share({title:t,url:u})"
             ".catch(function(){})}else{p.hidden=!p.hidden}};c.onclick=function(){"
             "(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(function(){c.textContent='Másolva ✓'},"
-            "function(){prompt('A cikk linkje:',u)})}})();</script>")
+            "function(){prompt('A cikk linkje:',u)})};"
+            # Mentés: Google-belépéshez kötve (a fiók munkamenete a főoldalon jön létre, /api/saved – D1)
+            "var s=d.querySelector('.sh-save'),U=null;try{U=JSON.parse(localStorage.getItem('kollektiva_user')||'null')}catch(e){}"
+            "var H=U&&U.session?{'Content-Type':'application/json',Authorization:'Bearer '+U.session}:null,"
+            "pa=new URL(u,location.href).pathname,q='/api/saved?url='+encodeURIComponent(pa);"
+            "function st(on){s.dataset.on=on?'1':'';s.lastChild.textContent=on?'Mentve':'Mentés'}"
+            "if(H)fetch(q,{headers:H}).then(function(r){return r.json()}).then(function(j){st(j.saved)}).catch(function(){});"
+            "s.onclick=function(){if(!H){location.href='/?belepes=1';return}var on=!s.dataset.on;st(on);"
+            "fetch(on?'/api/saved':q,{method:on?'POST':'DELETE',headers:H,body:on?JSON.stringify({url:pa,title:t}):undefined})"
+            ".then(function(r){if(r.status==401){st(!on);location.href='/?belepes=1'}}).catch(function(){st(!on)})}"
+            "})();</script>")
 
 
 def _tags_html(tags: list) -> str:
@@ -1561,7 +1574,7 @@ INFO_BODY = """
 A kiindulópont egy egyszerű bosszúság volt: miért olyan nehéz ma úgy elolvasni egy hírt, hogy közben ne akarják
 megmondani, mit gondoljunk róla?</p>
 <p>Ezért csináljuk azt az újságot, amit mi magunk is szívesen olvasnánk: gyors, de nem felszínes; érthető, de nem
-lekezelő; és nem mondja meg, mit gondolj – csak segít, hogy legyen miből. A fontos hírek mellett tudományról, pénzről,
+lekezelő; és nem mondja meg, mit gondolj – csak segít, hogy legyen miből. A napi hírek mellett tudományról, pénzről,
 technológiáról és életmódról is írunk, olyan cikkeket, amik egy hét múlva is megérik az olvasást.</p>
 <p>Nincs mögöttünk médiacég, befektető vagy párt – csak egy kis csapat és sok lelkesedés.</p>
 <p>Ha tetszik, amit csinálunk, a legtöbbet azzal segítesz, ha megosztod egy cikkünket, vagy feliratkozol a heti
@@ -1569,6 +1582,7 @@ hírlevélre. Egy egyetemista projektnek minden új olvasó számít. Köszönj�
 
 <h2 id="impresszum">Impresszum</h2>
 <p>Kiadó és szerkesztő: Kollektíva szerkesztőség.<br>Webcím: kollektíva.hu<br>
+Kapcsolat: <a href="mailto:x.tmsvr@gmail.com">x.tmsvr@gmail.com</a><br>
 Tárhelyszolgáltató: Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, USA – cloudflare.com</p>
 <p>Cikkeink nyilvános forrásokra (hazai és nemzetközi sajtó, hivatalos közlemények) épülnek; a felhasznált
 forrásokat minden cikk alján feltüntetjük. A képek szabad licencű forrásokból (Wikimedia Commons, Openverse, Pexels, Pixabay)
@@ -1837,6 +1851,58 @@ def editorial_polish(ai: "AIClient", raw: dict) -> dict:
     if _odd_words(raw):
         log.warning("Gyanús szavak maradtak a cikkben: %s", ", ".join(_odd_words(raw)[:10]))
     return raw
+
+
+REVIEW_SYSTEM = (
+    "Szigorú magyar lektor és tényellenőr vagy egy hírportálnál. Egy kész cikket kapsz a forrásaival. Mondatonként "
+    "keresd: (1) értelmetlen, logikailag zavaros vagy félreérthető mondat; (2) a forrásoknak ellentmondó vagy azokban "
+    "nem szereplő állítás (szám, név, dátum, helyszín, ki mit tett); (3) egymásnak ellentmondó részek; (4) magyartalan, "
+    "tükörfordított mondat; (5) olyan cím, amiből nem derül ki egyértelműen, kiről/miről és hol szól a hír, vagy régi, "
+    "kitalált történetnek hathat. Csak valódi hibát jelölj, ami jó, azt hagyd. Csak JSON-t adsz vissza.")
+
+
+def critical_review(ai: "AIClient", raw: dict, story: list) -> dict:
+    """Harmadik kör: kritikus lektor + tényellenőrzés a forrásokkal szemben; a hibás mondatokat kicseréli
+    (vagy törli), a homályos címet konkrétra cseréli. Hiba esetén az eredeti marad."""
+    src = "\n\n".join(f"[{i + 1}] {s.get('title', '')}\n"
+                       f"{(s.get('fulltext') or s.get('summary') or s.get('text') or s.get('extract') or '')[:1800]}"
+                       for i, s in enumerate((story or [])[:4]))
+    art = {k: raw.get(k) for k in ("title", "lead", "key_points", "body")}
+    prompt = (f"FORRÁSOK:\n{src or '(nincs megadva)'}\n\nCIKK (JSON):\n{json.dumps(art, ensure_ascii=False)}\n\n"
+              'Válasz JSON: {"fixes": [{"old": "a hibás részlet PONTOSAN úgy, ahogy a cikkben áll (egy mondat vagy '
+              'mondatrész)", "new": "a javított változat (ha törlendő: üres)", "why": "röviden a hiba"}], '
+              '"title_ok": true vagy false, "better_title": "ha a cím nem jó: konkrét, egyértelmű, max. 9 szavas új '
+              'cím, különben üres"}')
+    try:
+        r = ai.complete_json(REVIEW_SYSTEM, prompt, 3000)
+    except (AIError, ValueError, TypeError, KeyError) as e:
+        log.warning("Lektorálás kimaradt: %s", e)
+        return raw
+    fixes = [f for f in (r.get("fixes") or []) if isinstance(f, dict) and len(str(f.get("old", "")).strip()) >= 8][:12]
+    done = []
+
+    def fix(t: str) -> str:
+        for f in fixes:
+            old, new = str(f["old"]).strip(), str(f.get("new") or "").strip()
+            if old in t:
+                t = t.replace(old, new, 1)
+                done.append(f.get("why") or "javítás")
+        return re.sub(r"[ \t]{2,}", " ", t).strip()
+
+    out = dict(raw)
+    out["lead"] = fix(str(raw.get("lead") or ""))
+    out["key_points"] = [x for x in (fix(str(k)) for k in raw.get("key_points") or []) if x]
+    out["body"] = [x for x in (fix(str(p)) for p in raw.get("body") or []) if x]
+    if len(out["body"]) < max(3, len(raw.get("body") or []) - 2) or not out["lead"]:
+        out = dict(raw)  # túl sokat vágott volna ki – maradjon az eredeti
+        done = []
+    bt = str(r.get("better_title") or "").strip().strip('"„”')
+    if r.get("title_ok") is False and 10 < len(bt) < 110:
+        out["title"] = bt
+        done.append("homályos cím → " + bt)
+    if done:
+        log.info("Lektor: %d javítás (%s)", len(done), "; ".join(map(str, done))[:300])
+    return out
 
 
 def wiki_context(story: list, timeout: int, limit: int = 3) -> list:
@@ -2237,13 +2303,18 @@ jelezze (pl. „Tech-körkép: …”, „A nap legérdekesebb űrhírei”), a 
 esemény külön blokkban szerepeljen, a blokk első bekezdése „## Rövid alcím” sorral kezdődjön.
 
 Írj ebből egy eredeti, magyar nyelvű magazincikket:
-- "title": RÖVID (max. 7 szó), közepesen clickbait cím: kíváncsiságot keltő fordulat, meglepő szám vagy kérdés
-  (pl. „Ezért drágul…”, „Kiderült, mi…”, „X forintot…”) – de legyen igaz, ne ijesztgessen és ne túlozzon
+- "title": RÖVID (max. 9 szó), KONKRÉT és MERÉSZ cím. Első olvasásra derüljön ki belőle, KI vagy MI és HOL
+  (ország, város, szereplő, intézmény neve – pl. „Ukrajna”, „Orbán”, „MNB”, „Tesla”), és hogy ez MOST történt.
+  TILOS az elvont, általánosító, sci-fi- vagy mesehangulatú cím, ami régi vagy kitalált történetnek hathat.
+  Rossz minta: „Robotok fordították meg a fronthelyzetet”. Jó minta: „Ukrán harci robotok törték át az orosz
+  vonalakat”. Erős ige, határozott állítás, kíváncsiságot keltő fordulat, meglepő szám vagy kérdés – de legyen
+  igaz, pártpolitikailag semleges, ne ijesztgessen és ne túlozzon
   Ha a téma engedi (politikai húzások, abszurd helyzetek, bulvár), a cím lehet ironikus/szarkasztikus is – de
   tragédiánál, áldozatoknál, betegségnél SOHA.
 - "title_options": 2 további, eltérő stílusú címváltozat (ugyanazokkal a szabályokkal), tömbként
 - "clickbait_titles": 3 további cím, ami a lehető legkattintósabb (erős érzelem, rejtély, „ezt nem fogod elhinni”
-  hatás, kérdés, szám) – de továbbra is IGAZ, nem állít olyat, ami nincs a cikkben, és nem sértő
+  hatás, kérdés, szám) – de továbbra is IGAZ, KONKRÉT (szereplő/ország a címben), nem állít olyat, ami nincs a
+  cikkben, és nem sértő
 - "lead": 2 mondatos bevezető: mi történt és miért fontos
 - "key_points": 3–5 rövid, egymondatos pont a lényegről („Röviden” doboz)
 - "body": bekezdések tömbje. A HOSSZ A TARTALOMHOZ IGAZODJON: egyszerű hírnél 300–450 szó elég; ha a téma
@@ -2299,6 +2370,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         raw = ai.complete_json(SECTION_SYSTEM, section_prompt(section, story, d, context, past), 4000)
         validate_retro(raw)
         raw = editorial_polish(ai, raw)
+        raw = critical_review(ai, raw, story)
         if title_too_similar(str(raw.get("title", "")), story):
             try:
                 alt = ai.complete_json(SECTION_SYSTEM, (
