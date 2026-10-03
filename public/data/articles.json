@@ -1,7 +1,109 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-03T10:16:10+02:00",
+  "updated_at": "2026-10-03T10:17:41+02:00",
   "articles": [
+    {
+      "id": "773443b0-446e-58e0-ab6a-ccec1ea04bc7",
+      "slug": "2026-10-03-az-ozempic-tronfosztoja-lehet-az-uj-zsiregeto-molekula",
+      "status": "published",
+      "category": "eletmod",
+      "subcategory": null,
+      "tags": [
+        "egészség",
+        "fogyás",
+        "kutatás",
+        "anyagcsere",
+        "orvostudomány"
+      ],
+      "title": "Az Ozempic trónfosztója lehet az új zsírégető molekula",
+      "subtitle": null,
+      "lead": "Amerikai kutatók egy új, TOFA nevű vegyületet teszteltek egereken, amely közvetlenül a sejtek energiatermelését fokozva égeti a zsírt. Az új módszer nemcsak a túlsúly, de a zsírmáj ellen is hatásosnak bizonyult az állatkísérletekben.",
+      "key_points": [
+        "A szemaglutid hatóanyagú Ozempic sikeres, ám olyan mellékhatásokkal jár, mint az izomvesztés vagy a visszahízás.",
+        "Az új TOFA molekula a sejteken belül blokkolja a zsírelőállító enzimeket, és serkenti az energiafelhasználást.",
+        "A hím egereken végzett kísérletekben 18 százalékkal nőtt az energiafelhasználás, miközben az izomtömeg megmaradt.",
+        "A vegyület a vércukorszintet is rendezte, és mérsékelte a zsírmájbetegség tüneteit."
+      ],
+      "content": "A szemaglutid hatóanyagú Ozempic világszerte komoly áttörést hozott a fogyókúrázóknak, ám a kezelés gyakran kellemetlen kísérőjelenségekkel – például izomvesztéssel, gyomorproblémákkal és a szer elhagyása utáni visszahízással – jár. Ezen a téren hozhat áttörést egy amerikai kutatócsoport által vizsgált új hatóanyag, amely teljesen más mechanizmussal avatkozik be az anyagcserébe.\n\nA TOFA (5-tetradeciloxi-2-furosav) nevű multifunkcionális kis molekula nem az étvágyat csökkentő agyi központokra hat, hanem közvetlenül a sejtekben avatkozik be. Egyrészt blokkolja azokat az enzimeket, amelyeket a szervezet a zsír előállításához használ, így visszafogja az új zsír termelődését; másrészt aktivál olyan molekuláris kapcsolókat, amelyek a zsír energiatermeléséért felelős géneket szabályozzák.\n\nA hím egereken végzett tesztek során a TOFA-t szájon át, naponta kétszer adagolták, ami egy százkilós ember esetében nagyjából napi 500 és 1600 milligramm közötti dózisnak felelne meg. A speciális anyagcsere-kamrákban vizsgált állatok szobahőmérsékleten és meleg környezetben is több energiát égettek el kezeletlen társaiknál, energiafelhasználásuk pedig körülbelül 18 százalékkal nőtt anélkül, hogy testhőmérsékletük veszélyesen megemelkedett volna.\n\nA laboratóriumi eredmények azt is mutatták, hogy a vegyület kedvezően befolyásolta a vércukorszintet, valamint négy hét alatt jelentősen csökkentette a májzsírt, a gyulladásos markereket és a hegesedést a kifejezetten májbetegséget kiváltó étrenden tartott egereknél. Amikor a TOFA-t meglévő készítményekkel kombinálták a 24 napos kísérletben, a zsírtömeg csökkenése még kifejezettebbé vált, miközben az izomtömeg minden esetben sértetlen maradt.\n\nBár az eddigi laboratóriumi tapasztalatok rendkívül biztatóak, a szakemberek hangsúlyozzák, hogy a humán tesztek még hátravannak, és az állatkísérletes eredmények nem ültethetők át automatikusan az emberi szervezetre.",
+      "content_format": "markdown",
+      "body": [
+        "A szemaglutid hatóanyagú Ozempic világszerte komoly áttörést hozott a fogyókúrázóknak, ám a kezelés gyakran kellemetlen kísérőjelenségekkel – például izomvesztéssel, gyomorproblémákkal és a szer elhagyása utáni visszahízással – jár. Ezen a téren hozhat áttörést egy amerikai kutatócsoport által vizsgált új hatóanyag, amely teljesen más mechanizmussal avatkozik be az anyagcserébe.",
+        "A TOFA (5-tetradeciloxi-2-furosav) nevű multifunkcionális kis molekula nem az étvágyat csökkentő agyi központokra hat, hanem közvetlenül a sejtekben avatkozik be. Egyrészt blokkolja azokat az enzimeket, amelyeket a szervezet a zsír előállításához használ, így visszafogja az új zsír termelődését; másrészt aktivál olyan molekuláris kapcsolókat, amelyek a zsír energiatermeléséért felelős géneket szabályozzák.",
+        "A hím egereken végzett tesztek során a TOFA-t szájon át, naponta kétszer adagolták, ami egy százkilós ember esetében nagyjából napi 500 és 1600 milligramm közötti dózisnak felelne meg. A speciális anyagcsere-kamrákban vizsgált állatok szobahőmérsékleten és meleg környezetben is több energiát égettek el kezeletlen társaiknál, energiafelhasználásuk pedig körülbelül 18 százalékkal nőtt anélkül, hogy testhőmérsékletük veszélyesen megemelkedett volna.",
+        "A laboratóriumi eredmények azt is mutatták, hogy a vegyület kedvezően befolyásolta a vércukorszintet, valamint négy hét alatt jelentősen csökkentette a májzsírt, a gyulladásos markereket és a hegesedést a kifejezetten májbetegséget kiváltó étrenden tartott egereknél. Amikor a TOFA-t meglévő készítményekkel kombinálták a 24 napos kísérletben, a zsírtömeg csökkenése még kifejezettebbé vált, miközben az izomtömeg minden esetben sértetlen maradt.",
+        "Bár az eddigi laboratóriumi tapasztalatok rendkívül biztatóak, a szakemberek hangsúlyozzák, hogy a humán tesztek még hátravannak, és az állatkísérletes eredmények nem ültethetők át automatikusan az emberi szervezetre."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 275,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Lab_mouse_mg_3263.jpg/1280px-Lab_mouse_mg_3263.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Laboratory mouse",
+        "credit": "Rama / Wikimedia Commons",
+        "license": "CC BY-SA 2.0 fr",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Lab_mouse_mg_3263.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261003_tofa-igeretes-allatkiserletek-egy-uj-molekula-ozempic-kivaltasa",
+          "title": "Az Ozempic lassan már boomer, a TOFA lesz az új fogyasztó csodaszer?",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T09:46:40+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-03T10:17:41+02:00"
+      },
+      "hot_score": 5.87,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261003_tofa-igeretes-allatkiserletek-egy-uj-molekula-ozempic-kivaltasa"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/eletmod/2026-10-03-az-ozempic-tronfosztoja-lehet-az-uj-zsiregeto-molekula/",
+      "seo": {
+        "meta_title": "Az Ozempic trónfosztója lehet az új zsírégető molekula",
+        "meta_description": "Amerikai kutatók egy új, TOFA nevű vegyületet teszteltek egereken, amely közvetlenül a sejtek energiatermelését fokozva égeti a zsírt. Az új módszer nemcsak a t",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-03-az-ozempic-tronfosztoja-lehet-az-uj-zsiregeto-molekula/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Lab_mouse_mg_3263.jpg/1280px-Lab_mouse_mg_3263.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "c009ece8ab5156b4a9a11b5ebdf515eb7edbf113fa6215cb920bba5591aa933a",
+      "pipeline_run_id": "37107224089",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T10:17:41+02:00",
+      "updated_at": "2026-10-03T10:17:41+02:00",
+      "published_at": "2026-10-03T10:17:41+02:00",
+      "expires_at": null
+    },
     {
       "id": "9e2d733a-018d-573e-9161-224c3e35b882",
       "slug": "2026-10-03-a-postas-is-tudja-ebbol-keresett-jol-a-felfedezo",
