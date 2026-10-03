@@ -214,6 +214,7 @@ def build_article(ai: "kc.AIClient", topic: dict, d: date, tz: ZoneInfo, avoid_i
         raw = ai.complete_json(OFFTOPIC_SYSTEM, offtopic_prompt(topic, section, sources, d), 6000)
         kc.validate_retro(raw)
         raw = kc.editorial_polish(ai, raw)
+        raw = kc.critical_review(ai, raw, sources)
         art = kc.validate_retro(raw)
     except (kc.AIError, ValueError, TypeError, KeyError) as e:
         log.error("Off-topic cikkírás sikertelen (%s): %s", topic.get("id"), e)
