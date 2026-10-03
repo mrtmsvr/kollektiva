@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-03T10:34:49+02:00",
+  "updated_at": "2026-10-03T10:36:07+02:00",
   "articles": [
     {
       "id": "773443b0-446e-58e0-ab6a-ccec1ea04bc7",
@@ -102,99 +102,6 @@
       "created_at": "2026-10-03T10:17:41+02:00",
       "updated_at": "2026-10-03T10:34:49+02:00",
       "published_at": "2026-10-03T10:17:41+02:00",
-      "expires_at": null
-    },
-    {
-      "id": "9e2d733a-018d-573e-9161-224c3e35b882",
-      "slug": "2026-10-03-a-postas-is-tudja-ebbol-keresett-jol-a-felfedezo",
-      "status": "published",
-      "category": "bulvar",
-      "subcategory": null,
-      "tags": [
-        "Szendrő Péter",
-        "A legjobb ajánlat",
-        "RTL",
-        "építész",
-        "bulvár"
-      ],
-      "title": "A postás is tudja: ebből keresett jól a Felfedező",
-      "subtitle": null,
-      "lead": "Dr. Szendrő Péter építészmérnök, akit az RTL műtárgykereső show-jának Felfedezőjeként ismertek meg a nézők, korábban divatmodellként egészítette ki az ösztöndíját. A Blikk beszámolója szerint a rendszeres tévés szereplés mellett a múltjának is köszönheti jelenlegi ismertségét.",
-      "key_points": [
-        "Szendrő Pétert egy éve ismerte meg az ország az RTL műsorából.",
-        "Egyetemistaként divat- és sportmárkák arcaként, valamint kifutókon modellkedett.",
-        "Közel ötven budapesti vendéglátóhelyet tervezett, saját stúdiója is van.",
-        "Szabadidejében előszeretettel gyűjt youngtimer autókat és retró tárgyakat."
-      ],
-      "content": "Dr. Szendrő Péter építészmérnök és belsőépítész egy éve robbant be a köztudatba az RTL A legjobb ajánlat című műsorának Felfedezőjeként. A hivatását tekintve nem véletlen a választása, hiszen édesanyja, Font Erzsébet szintén építészmérnök, édesapja pedig gépészmérnök, így a családi indíttatás alapvetően határozta meg a pályáját. A képernyős jelenlét mára teljesen áthatja a mindennapjait: mint azt a Blikknek elmesélte, egy temetésen a sírásó és a virágos is felismerte, a postás pedig azóta rendszeresen a műsor címével köszönti.\n\nA mérnöki pálya mellett Péter korábban más területen też kipróbálta magát. Egyetemista évei alatt divat- és sportmárkák felkérésére modellkedett, reklámfilmekben és kifutókon szerepelt. Ebből a munkából származó jövedelméből finanszírozta utazásait, a nyelvtanulást és a sporteszközeit, mielőtt végleg a tervezőasztal mellett kötött volna ki.\n\nA tervezés és a televíziós szereplések mellett szenvedélyes gyűjtő is: előszeretettel keresi a huszadik század második felének tárgyait, youngtimer autókat, motorokat és órákat. A retró tárgyak iránti rajongása még gyerekkorából ered, amikor szüleivel rendszeresen járt bolhapiacokra.",
-      "content_format": "markdown",
-      "body": [
-        "Dr. Szendrő Péter építészmérnök és belsőépítész egy éve robbant be a köztudatba az RTL A legjobb ajánlat című műsorának Felfedezőjeként. A hivatását tekintve nem véletlen a választása, hiszen édesanyja, Font Erzsébet szintén építészmérnök, édesapja pedig gépészmérnök, így a családi indíttatás alapvetően határozta meg a pályáját. A képernyős jelenlét mára teljesen áthatja a mindennapjait: mint azt a Blikknek elmesélte, egy temetésen a sírásó és a virágos is felismerte, a postás pedig azóta rendszeresen a műsor címével köszönti.",
-        "A mérnöki pálya mellett Péter korábban más területen też kipróbálta magát. Egyetemista évei alatt divat- és sportmárkák felkérésére modellkedett, reklámfilmekben és kifutókon szerepelt. Ebből a munkából származó jövedelméből finanszírozta utazásait, a nyelvtanulást és a sporteszközeit, mielőtt végleg a tervezőasztal mellett kötött volna ki.",
-        "A tervezés és a televíziós szereplések mellett szenvedélyes gyűjtő is: előszeretettel keresi a huszadik század második felének tárgyait, youngtimer autókat, motorokat és órákat. A retró tárgyak iránti rajongása még gyerekkorából ered, amikor szüleivel rendszeresen járt bolhapiacokra."
-      ],
-      "pull_quote": null,
-      "reading_time_min": 1,
-      "word_count": 191,
-      "locale": "hu-HU",
-      "hero_image": null,
-      "inline_images": [],
-      "sources": [
-        {
-          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/szendro-peter-a-legjobb-ajanlat-modellkedes-epitesz/r01rhhb",
-          "title": "Nem fogja kitalálni, miből élt A legjobb ajánlat Felfedezője, Szendrő Péter: durván jól keresett ezzel a munkával",
-          "publisher": "blikk.hu",
-          "license": null,
-          "accessed_at": "2026-10-03T09:45:09+02:00"
-        }
-      ],
-      "quote": {
-        "text": "Én ezt párhuzamos univerzumként élem meg, mert az ismerőseim nagy része keveset néz tévét, akik meg néznek, azok sem nagyon szokták mondani, hogy láttak.",
-        "who": "Dr. Szendrő Péter, építész, az RTL Felfedezője",
-        "after": 0
-      },
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v2",
-        "reviewed_by": null,
-        "reviewed_at": "2026-10-03T10:16:10+02:00"
-      },
-      "hot_score": 5.92,
-      "clickbait_from": 3,
-      "category_meta": {
-        "source_links": [
-          "https://www.blikk.hu/sztarvilag/hazai-sztarok/szendro-peter-a-legjobb-ajanlat-modellkedes-epitesz/r01rhhb"
-        ]
-      },
-      "date": "2026-10-03",
-      "date_label": "október 3.",
-      "url": "/bulvar/2026-10-03-a-postas-is-tudja-ebbol-keresett-jol-a-felfedezo/",
-      "seo": {
-        "meta_title": "A postás is tudja: ebből keresett jól a Felfedező",
-        "meta_description": "Dr. Szendrő Péter építészmérnök, akit az RTL műtárgykereső show-jának Felfedezőjeként ismertek meg a nézők, korábban divatmodellként egészítette ki az ösztöndíj",
-        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-03-a-postas-is-tudja-ebbol-keresett-jol-a-felfedezo/",
-        "og_image": null,
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [],
-      "see_also": [],
-      "thread_id": null,
-      "dedupe_hash": "8e2adef94d0b8aa807a4f07916eb906f29d72828496993187a29d11208ac440a",
-      "pipeline_run_id": "37107224089",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T10:16:10+02:00",
-      "updated_at": "2026-10-03T10:16:10+02:00",
-      "published_at": "2026-10-03T10:16:10+02:00",
       "expires_at": null
     },
     {
