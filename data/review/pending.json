@@ -1,1008 +1,6 @@
 {
   "articles": [
     {
-      "id": "92bcc6d5-1071-5cc1-abfe-242cdbc7d5c8",
-      "slug": "2026-10-01-120-ezer-forint-lesz-a-nyugdijminimum",
-      "status": "published",
-      "category": "penzvilag",
-      "subcategory": null,
-      "tags": [
-        "nyugdíj",
-        "nyugdíjminimum",
-        "gazdaság",
-        "szociális juttatások",
-        "költségvetés"
-      ],
-      "title": "120 ezer forint lesz a nyugdíjminimum",
-      "subtitle": null,
-      "lead": "Több mint 700 ezer embert érintő, 123 milliárd forintos szociális és nyugdíjemelési csomagot jelentettek be, amely radikálisan átalakítja a legalacsonyabb ellátások rendszerét 2027 januárjától. A reform legfőbb eleme, hogy a tizennyolc éve változatlan, havi 28 500 forintos öregségi nyugdíjminimum 120 ezer forintra emelkedik.",
-      "key_points": [
-        "A 2008 óta változatlan nyugdíjminimum 120 ezer forintra nő 2027 januárjától.",
-        "A 146 ezer forint alatti ellátásokra sávos emelési rendszert vezetnek be.",
-        "Az árvaellátás, a rokkantsági támogatások és az időskorúak járadéka is növekszik.",
-        "A program összesen több mint 700 ezer magyar állampolgárt érint."
-      ],
-      "content": "Az idősek világnapján ismertetett intézkedéscsomag célja a legkiszolgáltatottabb társadalmi csoportok felzárkóztatása, miután az öregségi nyugdíjminimum 2008 óta havi 28 500 forinton stagnált. Kármán András pénzügyminiszter bejelentése szerint a jövő évi költségvetésből 123 milliárd forintot biztosítanak a programra, amelynek révén a minimumösszeg a jövőben minden év januárjában automatikusan követi majd az inflációt.\n\nAzok számára, akiknek a juttatása eléri a jelenlegi minimumot, de továbbra is alacsony – vagyis nem haladja meg a 146 ezer forintot –, sávos korrekciós rendszert dolgoztak ki. A januári inflációkövető emelést követően a 108 ezer forint alatti összegeket egységesen 120 ezer forintra kerekítik, míg a 108 ezer és 146 ezer forint közötti sávokban sávosan csökkenő, 6 és 12 ezer forint közötti pluszjuttatásokat építenek be. A rendszer úgy lett kialakítva, hogy megmaradjanak az igazságosságot szavatoló különbségek azok javára, akik hosszabb szolgálati idővel vagy magasabb járulékfizetéssel rendelkeznek.\n\nA szociális transzferek körében is jelentős változások lépnek életbe ugyanezen a napon. Az árvaellátás minimuma az eddigi 50 ezer forintról 60 ezer forintra emelkedik, míg a megváltozott munkaképességű személyek rokkantsági és rehabilitációs juttatásai 10 százalékkal növekednek, a 65 év felettiek esetében pedig a támogatás nem lehet alacsonyabb a 120 ezer forintos új minimumhatárnál.\n\nAzok a személyek sem maradnak támogatás nélkül, akiknek nem gyűlt össze a törvényes nyugdíjhoz szükséges szolgálati idejük. Az időskorúak járadékának összeghatárait a duplájára emelik: a 75 év feletti egyedülállóknál 118 ezer forintra, a házastárssal élőknél 75 ezer forintra, a 75 év alatti egyedülállóknál pedig 88 ezer forintra nő a plafon. A teljes intézkedéssorozat 455 ezer kisnyugdíjast, 238 ezer megváltozott munkaképességű embert és 8500 járadékost érint, a kifizetések pedig külön kérelmezés nélkül, automatikusan történnek.",
-      "content_format": "markdown",
-      "body": [
-        "Az idősek világnapján ismertetett intézkedéscsomag célja a legkiszolgáltatottabb társadalmi csoportok felzárkóztatása, miután az öregségi nyugdíjminimum 2008 óta havi 28 500 forinton stagnált. Kármán András pénzügyminiszter bejelentése szerint a jövő évi költségvetésből 123 milliárd forintot biztosítanak a programra, amelynek révén a minimumösszeg a jövőben minden év januárjában automatikusan követi majd az inflációt.",
-        "Azok számára, akiknek a juttatása eléri a jelenlegi minimumot, de továbbra is alacsony – vagyis nem haladja meg a 146 ezer forintot –, sávos korrekciós rendszert dolgoztak ki. A januári inflációkövető emelést követően a 108 ezer forint alatti összegeket egységesen 120 ezer forintra kerekítik, míg a 108 ezer és 146 ezer forint közötti sávokban sávosan csökkenő, 6 és 12 ezer forint közötti pluszjuttatásokat építenek be. A rendszer úgy lett kialakítva, hogy megmaradjanak az igazságosságot szavatoló különbségek azok javára, akik hosszabb szolgálati idővel vagy magasabb járulékfizetéssel rendelkeznek.",
-        "A szociális transzferek körében is jelentős változások lépnek életbe ugyanezen a napon. Az árvaellátás minimuma az eddigi 50 ezer forintról 60 ezer forintra emelkedik, míg a megváltozott munkaképességű személyek rokkantsági és rehabilitációs juttatásai 10 százalékkal növekednek, a 65 év felettiek esetében pedig a támogatás nem lehet alacsonyabb a 120 ezer forintos új minimumhatárnál.",
-        "Azok a személyek sem maradnak támogatás nélkül, akiknek nem gyűlt össze a törvényes nyugdíjhoz szükséges szolgálati idejük. Az időskorúak járadékának összeghatárait a duplájára emelik: a 75 év feletti egyedülállóknál 118 ezer forintra, a házastárssal élőknél 75 ezer forintra, a 75 év alatti egyedülállóknál pedig 88 ezer forintra nő a plafon. A teljes intézkedéssorozat 455 ezer kisnyugdíjast, 238 ezer megváltozott munkaképességű embert és 8500 járadékost érint, a kifizetések pedig külön kérelmezés nélkül, automatikusan történnek."
-      ],
-      "pull_quote": null,
-      "reading_time_min": 2,
-      "word_count": 304,
-      "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Elderly_Man_Soaks_Up_the_Sun_along_the_Danube_-_Pest_Side_-_Budapest_-_Hungary.jpg/1280px-Elderly_Man_Soaks_Up_the_Sun_along_the_Danube_-_Pest_Side_-_Budapest_-_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 1600,
-        "kind": "photo",
-        "pos": "top",
-        "alt": "Elderly Man Soaks Up the Sun along the Danube - Pest Side - Budapest - Hungary",
-        "credit": "Adam Jones, Ph.D. / Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Elderly_Man_Soaks_Up_the_Sun_along_the_Danube_-_Pest_Side_-_Budapest_-_Hungary.jpg"
-      },
-      "inline_images": [],
-      "sources": [
-        {
-          "url": "https://www.portfolio.hu/gazdasag/20261001/ujabb-reszleteket-jelentett-be-karman-andras-a-nyugdijemelesrol-mas-szocialis-juttatasokhoz-is-hozzanyul-a-kormany-866738",
-          "title": "Újabb részleteket jelentett be Kármán András a nyugdíjemelésről, más szociális juttatásokhoz is hozzányúl a kormány",
-          "publisher": "portfolio.hu",
-          "license": null,
-          "accessed_at": "2026-10-01T18:36:03+02:00"
-        },
-        {
-          "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/karman-andras-tisza-kormany-nyugdijemeles-reszletek?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
-          "title": "Kármán András bejelentette a Tisza-kormány nyugdíjemelését, itt vannak a pontos részletek: nekik emelik meg a pénzüket 2027. januártól – \"Összesen több mint 700 ezer ember\"",
-          "publisher": "vg.hu",
-          "license": null,
-          "accessed_at": "2026-10-01T18:36:03+02:00"
-        }
-      ],
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v2",
-        "reviewed_by": null,
-        "reviewed_at": null
-      },
-      "hot_score": 7.0,
-      "title_options": [
-        "120 ezer forint lesz a nyugdíjminimum",
-        "Jelentős nyugdíjemelést jelentettek be",
-        "Így alakul át a kisnyugdíjasok helyzete"
-      ],
-      "image_options": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Elderly_Man_Soaks_Up_the_Sun_along_the_Danube_-_Pest_Side_-_Budapest_-_Hungary.jpg/1280px-Elderly_Man_Soaks_Up_the_Sun_along_the_Danube_-_Pest_Side_-_Budapest_-_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1600,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Elderly Man Soaks Up the Sun along the Danube - Pest Side - Budapest - Hungary",
-          "credit": "Adam Jones, Ph.D. / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Elderly_Man_Soaks_Up_the_Sun_along_the_Danube_-_Pest_Side_-_Budapest_-_Hungary.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/AN_ELDERLY_COUPLE_IN_THE_BACKYARD_OF_THEIR_HOME._%D7%96%D7%95%D7%92_%D7%A7%D7%A9%D7%99%D7%A9%D7%99%D7%9D_%D7%91%D7%97%D7%A6%D7%A8_%D7%91%D7%99%D7%AA%D7%9D.D21-087.jpg/1280px-AN_ELDERLY_COUPLE_IN_THE_BACKYARD_OF_THEIR_HOME._%D7%96%D7%95%D7%92_%D7%A7%D7%A9%D7%99%D7%A9%D7%99%D7%9D_%D7%91%D7%97%D7%A6%D7%A8_%D7%91%D7%99%D7%AA%D7%9D.D21-087.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "AN ELDERLY COUPLE IN THE BACKYARD OF THEIR HOME. זוג קשישים בחצר ביתם.",
-          "credit": "Zoltan Kluger / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:AN_ELDERLY_COUPLE_IN_THE_BACKYARD_OF_THEIR_HOME._%D7%96%D7%95%D7%92_%D7%A7%D7%A9%D7%99%D7%A9%D7%99%D7%9D_%D7%91%D7%97%D7%A6%D7%A8_%D7%91%D7%99%D7%AA%D7%9D.D21-087.jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Hungary_Miskolczi_300_Korona_Judaica_Ghetto_Currency_Banknote_%281924%29_Bisco5_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 561,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "This Banknote was issued for 300 Korona by the Miskolczi Orthodox Izraelita Hitkozseg in 1924. This Currency was used within the Jewish Ghetto because of the economic restrictions imposed by the gover",
-          "credit": "Miskolczi. / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Hungary_Miskolczi_300_Korona_Judaica_Ghetto_Currency_Banknote_(1924)_Bisco5_02.jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Hungary_Miskolczi_300_Korona_Judaica_Ghetto_Currency_Banknote_%281924%29_Bisco5_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 570,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "This Banknote was issued for 300 Korona by the Miskolczi Orthodox Izraelita Hitkozseg in 1924. This Currency was used within the Jewish Ghetto because of the economic restrictions imposed by the gover",
-          "credit": "Miskolczi. / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Hungary_Miskolczi_300_Korona_Judaica_Ghetto_Currency_Banknote_(1924)_Bisco5_01.jpg"
-        },
-        {
-          "url": "https://live.staticflickr.com/64/208270292_70bf7baf7a_b.jpg",
-          "width": 1024,
-          "height": 768,
-          "kind": "photo",
-          "alt": "Senior Citizen Roast",
-          "credit": "fodwyer / flickr",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://www.flickr.com/photos/57412091@N00/208270292"
-        },
-        {
-          "url": "https://live.staticflickr.com/7613/16579274018_c456fec4e5_b.jpg",
-          "width": 1024,
-          "height": 817,
-          "kind": "photo",
-          "alt": "Senior Citizen Fair at Seattle Center, 1973",
-          "credit": "Seattle Municipal Archives / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/24256351@N04/16579274018"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Senior_Citizens_Center%2C_Blackduck%2C_Minnesota.jpg/1280px-Senior_Citizens_Center%2C_Blackduck%2C_Minnesota.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Senior Citizens Center \nBlackduck, Minnesota",
-          "credit": "Myotus / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Senior_Citizens_Center,_Blackduck,_Minnesota.jpg"
-        },
-        {
-          "url": "https://live.staticflickr.com/123/417523617_bc637108ca_b.jpg",
-          "width": 1024,
-          "height": 768,
-          "kind": "photo",
-          "alt": "Kmart Shopping Cart",
-          "credit": "akeg / flickr",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://www.flickr.com/photos/88583398@N00/417523617"
-        }
-      ],
-      "story": [
-        {
-          "title": "Újabb részleteket jelentett be Kármán András a nyugdíjemelésről, más szociális juttatásokhoz is hozzányúl a kormány",
-          "link": "https://www.portfolio.hu/gazdasag/20261001/ujabb-reszleteket-jelentett-be-karman-andras-a-nyugdijemelesrol-mas-szocialis-juttatasokhoz-is-hozzanyul-a-kormany-866738",
-          "summary": "Jelentős, több mint 700 ezer embert érintő nyugdíj- és ellátásemelési programot jelentett be Kármán András. A jövő évi költségvetésből 123 milliárd forintot igénylő intézkedéscsomag legfontosabb eleme, hogy a 2008 óta változatlan, 28 500 forintos öregségi nyugdíjminimumot 2027. január elsejétől 120 ezer forintra emelik, miközben a sávos emelések és a kapcsolódó járadékok növelése a legkiszolgáltatottabb csoportok helyzetén javít. A jogszabály ráadásul biztosítja az inflációkövetést, vagyis megakadályozza, hogy a mostanihoz hasonló elértéktelenedés újból előforduljon. Újdonság az árvaellátás ös",
-          "source": "portfolio.hu",
-          "related": null,
-          "hot_score": 7.0
-        },
-        {
-          "title": "Kármán András bejelentette a Tisza-kormány nyugdíjemelését, itt vannak a pontos részletek: nekik emelik meg a pénzüket 2027. januártól – \"Összesen több mint 700 ezer ember\"",
-          "link": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/karman-andras-tisza-kormany-nyugdijemeles-reszletek?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
-          "summary": "Új szintre emelné a legalacsonyabb nyugdíjak támogatását a TISZA-kormány 2027 januárjától.",
-          "source": "vg.hu",
-          "related": true,
-          "hot_score": null
-        }
-      ],
-      "category_meta": {
-        "source_links": [
-          "https://www.portfolio.hu/gazdasag/20261001/ujabb-reszleteket-jelentett-be-karman-andras-a-nyugdijemelesrol-mas-szocialis-juttatasokhoz-is-hozzanyul-a-kormany-866738"
-        ]
-      },
-      "date": "2026-10-01",
-      "date_label": "október 1.",
-      "url": "/penzvilag/2026-10-01-120-ezer-forint-lesz-a-nyugdijminimum/",
-      "seo": {
-        "meta_title": "120 ezer forint lesz a nyugdíjminimum",
-        "meta_description": "Több mint 700 ezer embert érintő, 123 milliárd forintos szociális és nyugdíjemelési csomagot jelentettek be, amely radikálisan átalakítja a legalacsonyabb ellát",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-01-120-ezer-forint-lesz-a-nyugdijminimum/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Elderly_Man_Soaks_Up_the_Sun_along_the_Danube_-_Pest_Side_-_Budapest_-_Hungary.jpg/1280px-Elderly_Man_Soaks_Up_the_Sun_along_the_Danube_-_Pest_Side_-_Budapest_-_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [
-        "49a1742d-6794-5749-87f0-3131bc9920fb",
-        "5902150d-1a9a-5b6c-be2f-45790288c4e6",
-        "1a09daec-5dcc-5474-b1f5-d7968f63420d"
-      ],
-      "see_also": [
-        {
-          "title": "Megállapodás született: pénzt kap a főváros",
-          "url": "/penzvilag/2026-10-01-megallapodas-szuletett-penzt-kap-a-fovaros/",
-          "date": "2026-10-01"
-        },
-        {
-          "title": "Új hatalmi központot hozott létre a kormány",
-          "url": "/penzvilag/2026-10-01-uj-hatalmi-kozpontot-hozott-letre-a-kormany/",
-          "date": "2026-10-01"
-        },
-        {
-          "title": "182 milliárd forintból újul meg a villamoshálózat",
-          "url": "/penzvilag/2026-09-30-182-milliard-forintbol-ujul-meg-a-villamoshalozat/",
-          "date": "2026-09-30"
-        }
-      ],
-      "thread_id": "49a1742d-6794-5749-87f0-3131bc9920fb",
-      "dedupe_hash": "8ea3dab1c3029ccde0fc1a98ee1e87e9be39447fa2e93b62cbad61183c53e7b6",
-      "pipeline_run_id": "36893141296",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T18:39:36+02:00",
-      "updated_at": "2026-10-01T18:39:36+02:00",
-      "published_at": "2026-10-01T18:39:36+02:00",
-      "expires_at": null,
-      "review": {
-        "title": 0,
-        "image": 0,
-        "sent_at": "2026-10-01T16:36:32+00:00",
-        "msg_ids": [
-          681,
-          682,
-          683,
-          684,
-          685,
-          686,
-          687,
-          688,
-          689,
-          715,
-          716,
-          717,
-          718,
-          719,
-          720,
-          721,
-          722
-        ],
-        "control_id": 723
-      },
-      "image_queries": [
-        "elderly hungarian people",
-        "hungarian pensioner shopping market",
-        "elderly woman with shopping trolley",
-        "hungarian currency banknote",
-        "senior citizen",
-        "shopping cart",
-        "pensioner"
-      ],
-      "images_seen": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/200_Forint_Pet%C5%91fi_Comemmorative.jpg/1280px-200_Forint_Pet%C5%91fi_Comemmorative.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/8/88/Karmanandras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://live.staticflickr.com/4124/4845905314_8b4ce58572_b.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/50_Forint_Comemmorative_Ambulance_Front.jpg/1280px-50_Forint_Comemmorative_Ambulance_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Andr%C3%A1s_K%C3%A1rm%C3%A1n_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://live.staticflickr.com/7312/9677861633_cc1d703f56_b.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Pennsylvania_New_York_Central_Transportation_Company_Stock_Certificate_13_Shares.jpg/1280px-Pennsylvania_New_York_Central_Transportation_Company_Stock_Certificate_13_Shares.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ],
-      "live": true
-    },
-    {
-      "id": "e27f60ac-f58b-5011-8837-115a967f9e80",
-      "slug": "2026-10-01-felfoghatatlan-tragedia-tiz-ev-alatt-ketszer-ozvegyult-meg-toni-braxt",
-      "status": "published",
-      "category": "bulvar",
-      "subcategory": null,
-      "tags": [
-        "Trina Braxton",
-        "Toni Braxton",
-        "gyász",
-        "valóságshow",
-        "zene"
-      ],
-      "title": "Felfoghatatlan tragédia: tíz év alatt kétszer özvegyült meg Toni Braxton testvére",
-      "subtitle": null,
-      "lead": "Trina Braxton valóságshow-sztár gyászol, miután 58 éves korában elhunyt a férje, akivel 2019-ben kötött házasságot. A sors kegyetlensége, hogy az énekesnő húga alig tíz évvel korábban az első házastársát is elveszítette.",
-      "key_points": [
-        "Ötvennyolc éves korában elhunyt Von Scales, Trina Braxton férje.",
-        "A házaspár 2019-ben mondta ki az igent, esküvőjüket a televízió is bemutatta.",
-        "Az elhunyt férfi korábban szívproblémákkal küzdött, halála csütörtök hajnalban történt Atlantában.",
-        "Trina Braxton első férje, Gabe Solis 2018-ban, mindössze 43 évesen hunyt el rák következtében."
-      ],
-      "content": "## Megrendítő veszteség Atlantában\n\nGyászba borult a Braxton család, miután csütörtök hajnali 2 óra körül elhunyt Von Scales, a világhírű énekesnő, Toni Braxton testvérének, Trina Braxtonnak a férje. A férfi 58 éves volt, és bár a halál pontos oka hivatalosan még nem ismert, a hírek szerint korábban szívproblémákkal küzdött atlantai otthonában. A család szóvivője hivatalos közleményben erősítette meg a hírt, amelyben megértést és a magánélet tiszteletben tartását kérték a nyilvánosságtól ebben a nehéz időszakban.\n\nTrina és Von 2019-ben kötötték össze az életüket, kapcsolatuk mérföldköveit pedig a rajongók a The Braxtons című családi valóságshow epizódjaiban is láthatták. A frigyre azonban árnyékot vetett a múlt, hiszen alig egy évvel azelőtt került rá sor, hogy Trina előző férje tragikus hirtelenséggel elhunyt volna.\n\n## Egy évtized alatt két társat veszített el\n\nTrina Braxton számára a mostani tragédia különösen fájdalmas emlékeket idéz fel, ugyanis alig egy bő évtized leforgása alatt a második olyan meghatározó férfit veszítette el az életében, akivel házasságban élt. Első férje, Gabe Solis 2018. december 20-án, mindössze 43 évesen vesztette életét texasi otthonában. Solis a nyilvánosság elől eltitkolva vívott hosszú harcot a rákkal, így távozása hatalmas sokkot okozott szeretteinek és a művészvilágnak.\n\nA pár kapcsolata egyébként rendkívül viharos volt: 2003-as esküvőjük után mindennapjaikat a Braxton Family Values című műsorban követhették a nézők. Bár 2015-ben hivatalosan elváltak, a kapcsolatuk nem szakadt meg végleg; televíziós terápiás szereplésekkel próbálták feldolgozni a múltbeli sérelmeket, aminek köszönhetően barátok maradtak egészen Solis 2018-as haláláig. A mostani gyászhír hallatán a rajongók tömegesen fejezik ki támogatásukat a közösségi oldalakon a nehéz helyzetbe került valóságshow-sztárnak.",
-      "content_format": "markdown",
-      "body": [
-        "## Megrendítő veszteség Atlantában",
-        "Gyászba borult a Braxton család, miután csütörtök hajnali 2 óra körül elhunyt Von Scales, a világhírű énekesnő, Toni Braxton testvérének, Trina Braxtonnak a férje. A férfi 58 éves volt, és bár a halál pontos oka hivatalosan még nem ismert, a hírek szerint korábban szívproblémákkal küzdött atlantai otthonában. A család szóvivője hivatalos közleményben erősítette meg a hírt, amelyben megértést és a magánélet tiszteletben tartását kérték a nyilvánosságtól ebben a nehéz időszakban.",
-        "Trina és Von 2019-ben kötötték össze az életüket, kapcsolatuk mérföldköveit pedig a rajongók a The Braxtons című családi valóságshow epizódjaiban is láthatták. A frigyre azonban árnyékot vetett a múlt, hiszen alig egy évvel azelőtt került rá sor, hogy Trina előző férje tragikus hirtelenséggel elhunyt volna.",
-        "## Egy évtized alatt két társat veszített el",
-        "Trina Braxton számára a mostani tragédia különösen fájdalmas emlékeket idéz fel, ugyanis alig egy bő évtized leforgása alatt a második olyan meghatározó férfit veszítette el az életében, akivel házasságban élt. Első férje, Gabe Solis 2018. december 20-án, mindössze 43 évesen vesztette életét texasi otthonában. Solis a nyilvánosság elől eltitkolva vívott hosszú harcot a rákkal, így távozása hatalmas sokkot okozott szeretteinek és a művészvilágnak.",
-        "A pár kapcsolata egyébként rendkívül viharos volt: 2003-as esküvőjük után mindennapjaikat a Braxton Family Values című műsorban követhették a nézők. Bár 2015-ben hivatalosan elváltak, a kapcsolatuk nem szakadt meg végleg; televíziós terápiás szereplésekkel próbálták feldolgozni a múltbeli sérelmeket, aminek köszönhetően barátok maradtak egészen Solis 2018-as haláláig. A mostani gyászhír hallatán a rajongók tömegesen fejezik ki támogatásukat a közösségi oldalakon a nehéz helyzetbe került valóságshow-sztárnak."
-      ],
-      "pull_quote": null,
-      "reading_time_min": 2,
-      "word_count": 291,
-      "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://live.staticflickr.com/4108/5065288597_ebd4083641_b.jpg",
-        "width": 1024,
-        "height": 680,
-        "kind": "photo",
-        "alt": "burning candle",
-        "credit": "S@veOurSm:)e / flickr",
-        "license": "CC BY-SA 2.0",
-        "source_url": "https://www.flickr.com/photos/10581453@N02/5065288597"
-      },
-      "inline_images": [],
-      "sources": [
-        {
-          "url": "https://www.blikk.hu/sztarvilag/nemzetkozi-sztarok/trina-braxton-ferje-elhunyt-von-scales/hvzk1ws",
-          "title": "Újabb megrendítő tragédia: alig 10 évvel a volt férje halála után a jelenlegi hitvesét is elveszítette Toni Braxton húga",
-          "publisher": "blikk.hu",
-          "license": null,
-          "accessed_at": "2026-10-01T18:36:48+02:00"
-        },
-        {
-          "url": "https://borsonline.origo.hu/kulfoldi-sztarhirek/2026/09/chad-lowe-szinesz-kislanya-meghalt",
-          "title": "Szörnyű tragédia: meghalt a világhírű színész 13 éves kislánya",
-          "publisher": "borsonline.hu",
-          "license": null,
-          "accessed_at": "2026-10-01T18:36:48+02:00"
-        }
-      ],
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v2",
-        "reviewed_by": null,
-        "reviewed_at": null
-      },
-      "hot_score": 6.61,
-      "title_options": [
-        "Kettős gyász: alig egy évtized alatt két férjét is elveszítette az énekesnő húga",
-        "Felfoghatatlan tragédia: tíz év alatt kétszer özvegyült meg Toni Braxton testvére",
-        "Újabb súlyos veszteség rázta meg a Grammy-díjas énekesnő családját"
-      ],
-      "image_options": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Trina_Braxton_at_the_2025_National_Urban_League_Conference.jpg/1280px-Trina_Braxton_at_the_2025_National_Urban_League_Conference.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1800,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Trina Braxton at the 2025 National Urban League Conference.",
-          "credit": "Danielle G. Campbell / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Trina_Braxton_at_the_2025_National_Urban_League_Conference.jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Screenshot_of_Trina_Braxton_from_%22Sister_Circle_-_Chatting_with_the_Cast_of_Twenties_on_BET_-_TVONE%22.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 1350,
-          "kind": "graphic",
-          "pos": "center",
-          "alt": "Screenshot of Trina Braxton from \"Sister Circle - Chatting with the Cast of Twenties on BET - TVONE.\" Braxton was one of the hosts of \"Sister Circle\" while it was on air.",
-          "credit": "Sister Circle TV / Wikimedia Commons",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Screenshot_of_Trina_Braxton_from_%22Sister_Circle_-_Chatting_with_the_Cast_of_Twenties_on_BET_-_TVONE%22.png"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Toni_Braxton_2%2C_2013.jpg/1280px-Toni_Braxton_2%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1492,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Toni Braxton at the The Heart Truth Red Dress Collection Fashion Show 2013.",
-          "credit": "The Heart Truth / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Toni_Braxton_2,_2013.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Toni_Braxton_2009_2_cropped.jpg/1280px-Toni_Braxton_2009_2_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1602,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Toni Braxton at the 2009 American Music Awards Red Carpet",
-          "credit": "Toni_Braxton_2009_2.jpg: burningkarma\nderivative work:   — Luchesar • T/C / Wikimedia Commons",
-          "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Toni_Braxton_2009_2_cropped.jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Gabe_Solis_at_the_1996_Olympics_photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 819,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Gabe Solis at the 1996 Olympics photo Don Ramey Logan",
-          "credit": "WPPilot / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Gabe_Solis_at_the_1996_Olympics_photo_Don_Ramey_Logan.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Gabe_Rivera.jpg/1280px-Gabe_Rivera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "(CC) Brian Solis, www.briansolis.com and bub.blicio.us. Feel free to use this picture. Please credit as shown.",
-          "credit": "Brian Solis / Wikimedia Commons",
-          "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Gabe_Rivera.jpg"
-        },
-        {
-          "url": "https://live.staticflickr.com/4108/5065288597_ebd4083641_b.jpg",
-          "width": 1024,
-          "height": 680,
-          "kind": "photo",
-          "alt": "burning candle",
-          "credit": "S@veOurSm:)e / flickr",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://www.flickr.com/photos/10581453@N02/5065288597"
-        },
-        {
-          "url": "https://live.staticflickr.com/8691/16669341423_f2746fd981_b.jpg",
-          "width": 1024,
-          "height": 683,
-          "kind": "photo",
-          "alt": "Burning candles",
-          "credit": "Kitty Terwolbeck / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/59800091@N04/16669341423"
-        }
-      ],
-      "story": [
-        {
-          "title": "Újabb megrendítő tragédia: alig 10 évvel a volt férje halála után a jelenlegi hitvesét is elveszítette Toni Braxton húga",
-          "link": "https://www.blikk.hu/sztarvilag/nemzetkozi-sztarok/trina-braxton-ferje-elhunyt-von-scales/hvzk1ws",
-          "summary": "Szörnyű veszteség érte Trina Braxtont, a világhírű énekesnő, Toni Braxton húgát. A valóságshow-sztár férje, Von Scales 58 éves korában elhunyt. A sors kegyetlensége, hogy Trina alig tíz évvel ezelőtt veszítette el korábbi férjét, Gabe Solist.",
-          "source": "blikk.hu",
-          "related": null,
-          "hot_score": 6.61
-        },
-        {
-          "title": "Szörnyű tragédia: meghalt a világhírű színész 13 éves kislánya",
-          "link": "https://borsonline.origo.hu/kulfoldi-sztarhirek/2026/09/chad-lowe-szinesz-kislanya-meghalt",
-          "summary": "Felfoghatatlan tragédia érte Chad Lowe családját: a színész mindössze 13 éves lánya, Fiona elhunyt. A gyászoló szülők szívszorító közleményben búcsúztak gyermeküktől, akit életük fényének neveztek. Fiona alig néhány héttel 14. születésnapja előtt halt meg.",
-          "source": "borsonline.hu",
-          "related": true,
-          "hot_score": null
-        }
-      ],
-      "category_meta": {
-        "source_links": [
-          "https://www.blikk.hu/sztarvilag/nemzetkozi-sztarok/trina-braxton-ferje-elhunyt-von-scales/hvzk1ws"
-        ]
-      },
-      "date": "2026-10-01",
-      "date_label": "október 1.",
-      "url": "/bulvar/2026-10-01-felfoghatatlan-tragedia-tiz-ev-alatt-ketszer-ozvegyult-meg-toni-braxt/",
-      "seo": {
-        "meta_title": "Felfoghatatlan tragédia: tíz év alatt kétszer özvegyült meg ",
-        "meta_description": "Trina Braxton valóságshow-sztár gyászol, miután 58 éves korában elhunyt a férje, akivel 2019-ben kötött házasságot. A sors kegyetlensége, hogy az énekesnő húga ",
-        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-01-felfoghatatlan-tragedia-tiz-ev-alatt-ketszer-ozvegyult-meg-toni-braxt/",
-        "og_image": "https://live.staticflickr.com/4108/5065288597_ebd4083641_b.jpg",
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [
-        "ceb68079-3911-503c-8747-b90f80746457",
-        "b1e181b7-dc96-529d-9d6c-0cb0a076c8c6"
-      ],
-      "see_also": [
-        {
-          "title": "Harmadszor is megnősült Jim Carrey",
-          "url": "/bulvar/2026-10-01-harmadszor-is-megnosult-jim-carrey/",
-          "date": "2026-10-01"
-        },
-        {
-          "title": "Gyászol a hazai cirkuszvilág: elhunyt a Recirquel művésze",
-          "url": "/kultura/2026-09-30-gyaszol-a-hazai-cirkuszvilag-elhunyt-a-recirquel-muvesze/",
-          "date": "2026-09-30"
-        }
-      ],
-      "thread_id": null,
-      "dedupe_hash": "e09940732012d7d1c9e812c68dea1acc34e07e2a787c3d15675d26da417f899e",
-      "pipeline_run_id": "36893141296",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T18:40:16+02:00",
-      "updated_at": "2026-10-01T18:40:16+02:00",
-      "published_at": "2026-10-01T18:40:16+02:00",
-      "expires_at": null,
-      "review": {
-        "title": 1,
-        "image": 6,
-        "sent_at": "2026-10-01T16:37:28+00:00",
-        "msg_ids": [
-          691,
-          692,
-          693,
-          694,
-          695,
-          696,
-          697,
-          698,
-          699,
-          700,
-          736,
-          737,
-          738,
-          739,
-          740,
-          741,
-          742,
-          743
-        ],
-        "control_id": 744
-      },
-      "image_queries": [
-        "Trina Braxton",
-        "Toni Braxton",
-        "Von Scales",
-        "Gabe Solis",
-        "The Braxtons",
-        "burning candle",
-        "mourning",
-        "funeral wreath"
-      ],
-      "images_seen": [
-        "https://upload.wikimedia.org/wikipedia/commons/d/da/R%26B_Singer_Luca_Dayz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://live.staticflickr.com/172/443339673_7c919de332_b.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Disability_Day_of_Mourning_1.png/1280px-Disability_Day_of_Mourning_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/The_Public_Library_in_Atlanta%2C_Illinois.jpg/1280px-The_Public_Library_in_Atlanta%2C_Illinois.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5f/Atlanta_Montage_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://upload.wikimedia.org/wikipedia/commons/5/56/Toni_Braxton_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://upload.wikimedia.org/wikipedia/commons/f/fe/Singer_Jun17.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://upload.wikimedia.org/wikipedia/commons/f/fe/Toni_Braxton_press_photo_2015.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
-      ],
-      "live": true
-    },
-    {
-      "id": "d3941b01-28a3-581a-b6cc-75db2e4a0c68",
-      "slug": "2026-10-01-kilottek-a-spacex-crew-13-missziot",
-      "status": "published",
-      "category": "univerzum",
-      "subcategory": null,
-      "tags": [
-        "űrkutatás",
-        "SpaceX",
-        "NASA",
-        "Nemzetközi Űrállomás"
-      ],
-      "title": "Kilőtték a SpaceX Crew-13 missziót",
-      "subtitle": null,
-      "lead": "Csütörtök délelőtt útnak indult a SpaceX Crew-13 küldetése a floridai Cape Canaveral Space Force Stationről, hogy négyfős legénységgel tudományos expedíciót hajtson végre a Nemzetközi Űrállomáson. Az utazás ismét rávilágít az Egyesült Államok meghatározó szerepére a humán űrrepülésben, valamint a kereskedelmi partnerségek erejére.",
-      "key_points": [
-        "Négy űrhajós indult el csütörtök délelőtt a floridai űrbázisról.",
-        "A küldetés célja egy tudományos expedíció megvalósítása a Nemzetközi Űrállomáson.",
-        "A kilövést a Space Launch Complex 40 indítóállásról hajtották végre."
-      ],
-      "content": "A NASA és a SpaceX legújabb közös küldetése, a Crew-13 csütörtök délelőtt 11 óra 10 perckor emelkedett a magasba a floridai Cape Canaveral Space Force Station területén található Space Launch Complex 40 indítóállásról. Olyan ez, mintha egy óriásrepülőgép indulna menetrend szerinti járatra, csak éppen a célállomás nem egy másik kontinens, hanem a Föld felszíne felett több száz kilométeres magasságban keringő laboratórium.\n\nA fedélzeten tartózkodó négy űrhajós feladata, hogy a Nemzetközi Űrállomáson – amely az űrkutatás egyik legnagyobb és legdrágább közös beruházása – különböző tudományos kísérleteket végezzen. Az alacsony Föld körüli pályán keringő állomás fenntartásában jelenleg számos nemzet vesz részt az Egyesült Államok mellett, többek között több európai ország, Japán és Kanada is, így a mostani expedíció is a nemzetközi együttműködés szerves része.\n\nAz űrutazás során a legénység tagjai olyan kutatásokon dolgoznak majd, amelyek a hosszú távú űrrepülések kihívásaira keresnek megoldásokat. A technológiai fejlesztések és a kereskedelmi partnerekkel közös programok abban is segítenek, hogy az emberiség tartósan megvethesse a lábát a Földön túli térségekben, miközben a mindennapi földi életünket is segítő adatokkal gazdagítják a tudományt.",
-      "content_format": "markdown",
-      "body": [
-        "A NASA és a SpaceX legújabb közös küldetése, a Crew-13 csütörtök délelőtt 11 óra 10 perckor emelkedett a magasba a floridai Cape Canaveral Space Force Station területén található Space Launch Complex 40 indítóállásról. Olyan ez, mintha egy óriásrepülőgép indulna menetrend szerinti járatra, csak éppen a célállomás nem egy másik kontinens, hanem a Föld felszíne felett több száz kilométeres magasságban keringő laboratórium.",
-        "A fedélzeten tartózkodó négy űrhajós feladata, hogy a Nemzetközi Űrállomáson – amely az űrkutatás egyik legnagyobb és legdrágább közös beruházása – különböző tudományos kísérleteket végezzen. Az alacsony Föld körüli pályán keringő állomás fenntartásában jelenleg számos nemzet vesz részt az Egyesült Államok mellett, többek között több európai ország, Japán és Kanada is, így a mostani expedíció is a nemzetközi együttműködés szerves része.",
-        "Az űrutazás során a legénység tagjai olyan kutatásokon dolgoznak majd, amelyek a hosszú távú űrrepülések kihívásaira keresnek megoldásokat. A technológiai fejlesztések és a kereskedelmi partnerekkel közös programok abban is segítenek, hogy az emberiség tartósan megvethesse a lábát a Földön túli térségekben, miközben a mindennapi földi életünket is segítő adatokkal gazdagítják a tudományt."
-      ],
-      "pull_quote": null,
-      "reading_time_min": 2,
-      "word_count": 216,
-      "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/First_NASA_ISINGLASS_rocket_launch.jpg/1280px-First_NASA_ISINGLASS_rocket_launch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 1800,
-        "kind": "photo",
-        "pos": "top",
-        "alt": "A Black Brant IX sounding rocket launches from the Poker Flat Research Range in Alaska at 5:14 a.m. EST, Feb. 22, 2017. This is the first of two launches planned in NASA's In Situ and Groundbased Low",
-        "credit": "NASA / Wikimedia Commons",
-        "license": "Public domain",
-        "source_url": "https://commons.wikimedia.org/wiki/File:First_NASA_ISINGLASS_rocket_launch.jpg"
-      },
-      "inline_images": [],
-      "sources": [
-        {
-          "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
-          "title": "NASA’s SpaceX Crew-13 Launches to International Space Station",
-          "publisher": "nasa.gov",
-          "license": null,
-          "accessed_at": "2026-10-01T18:37:45+02:00"
-        }
-      ],
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v2",
-        "reviewed_by": null,
-        "reviewed_at": null
-      },
-      "hot_score": 5.94,
-      "title_options": [
-        "Újabb űrutazók indultak a Nemzetközi Űrállomásra",
-        "Kilőtték a SpaceX Crew-13 missziót",
-        "Négyen indultak a világűrbe Floridából"
-      ],
-      "image_options": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Iridium-1_Launch_%2832312419215%29.jpg/1280px-Iridium-1_Launch_%2832312419215%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1800,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "SpaceX’s Falcon 9 Full Thrust rocket lifts off from Vandenberg Air Force Base SLC-4E with the first ten Iridium NEXT communication satellites.",
-          "credit": "SpaceX / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Iridium-1_Launch_(32312419215).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/SpaceX_Starbase_launch_facility_%2851438071556%29.jpg/1280px-SpaceX_Starbase_launch_facility_%2851438071556%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "View from across the bay. From left to right: Starship booster, Starship SN20, cryogenic tank bank, \"Mechzilla\" launch tower.",
-          "credit": "Lars Plougmann from United States / Wikimedia Commons",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:SpaceX_Starbase_launch_facility_(51438071556).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/1280px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 797,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "The International Space Station is featured in this image photographed by an STS-134 crew member on the space shuttle Endeavour after the station and shuttle began their post-undocking relative separa",
-          "credit": "NASA / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:STS-134_International_Space_Station_after_undocking.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/ISS_March_2009.jpg/1280px-ISS_March_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 904,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "The International Space Station as seen from the departing Space Shuttle Discovery during STS-119. In view are the four pairs of solar arrays mounted along the newly-completed Integrated Truss Structu",
-          "credit": "National Aeronautics and Space Administration (Q23548) / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:ISS_March_2009.jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cape_canaveral_crop2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 1224,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Orbital imagery of the Cape Canaveral Space Force Station (formerly, Cape Canaveral Air Force Station). This is the original, unannotated version of Cape canaveral crop.jpg.",
-          "credit": "This media: Soumya-8974 ; Original work: Soerfm, NASA;  Subject work of original / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Cape_canaveral_crop2.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/First_Guardian_Arena_lifts_off_at_Cape_Canaveral_Space_Force_Station_%288161236%29.jpg/1280px-First_Guardian_Arena_lifts_off_at_Cape_Canaveral_Space_Force_Station_%288161236%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 798,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "U.S. Space Force Spc3 Kevin Capone, Guardian Arena participant, tours the Cape Canaveral Space Force Museum at Cape Canaveral Space Force Station, Florida, Dec. 10, 2023. Teams of five members, consis",
-          "credit": "U.S. Space Force photo by Airman 1st Class Spencer Contreras / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:First_Guardian_Arena_lifts_off_at_Cape_Canaveral_Space_Force_Station_(8161236).jpg"
-        },
-        {
-          "url": "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg",
-          "width": 1024,
-          "height": 683,
-          "kind": "photo",
-          "alt": "Antares Rocket Launch",
-          "credit": "NASA Goddard Photo and Video / nasa",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/24662369@N07/8674655959"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/First_NASA_ISINGLASS_rocket_launch.jpg/1280px-First_NASA_ISINGLASS_rocket_launch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1800,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "A Black Brant IX sounding rocket launches from the Poker Flat Research Range in Alaska at 5:14 a.m. EST, Feb. 22, 2017. This is the first of two launches planned in NASA's In Situ and Groundbased Low",
-          "credit": "NASA / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:First_NASA_ISINGLASS_rocket_launch.jpg"
-        }
-      ],
-      "story": [
-        {
-          "title": "NASA’s SpaceX Crew-13 Launches to International Space Station",
-          "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
-          "summary": "Four crew members of NASA’s SpaceX Crew-13 mission launched at 11:10 a.m. EDT Thursday from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida for a science expedition aboard the International Space Station. “Crew-13 is another demonstration of America’s unmatched capability in human spaceflight and the strength of our commercial partnerships,” said […]",
-          "source": "nasa.gov",
-          "related": null,
-          "hot_score": 5.94
-        }
-      ],
-      "category_meta": {
-        "source_links": [
-          "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/"
-        ]
-      },
-      "date": "2026-10-01",
-      "date_label": "október 1.",
-      "url": "/univerzum/2026-10-01-kilottek-a-spacex-crew-13-missziot/",
-      "seo": {
-        "meta_title": "Kilőtték a SpaceX Crew-13 missziót",
-        "meta_description": "Csütörtök délelőtt útnak indult a SpaceX Crew-13 küldetése a floridai Cape Canaveral Space Force Stationről, hogy négyfős legénységgel tudományos expedíciót haj",
-        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-01-kilottek-a-spacex-crew-13-missziot/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/First_NASA_ISINGLASS_rocket_launch.jpg/1280px-First_NASA_ISINGLASS_rocket_launch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [
-        "bc508689-2caf-5fe9-b190-f2d774f0145d"
-      ],
-      "see_also": [
-        {
-          "title": "Újabb mérföldkövek az űrkutatásban: indulásra kész a Crew-13 és fejlődik a Starliner",
-          "url": "/univerzum/2026-09-29-ujabb-merfoldkovek-az-urkutatasban-indulasra-kesz-a-crew-13-es-fejlod/",
-          "date": "2026-09-29"
-        }
-      ],
-      "thread_id": null,
-      "dedupe_hash": "b630dc2d29f2922c3ed213992f0425897acf2ddd197c415cf27faedc85dcd9e5",
-      "pipeline_run_id": "36893141296",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T18:40:36+02:00",
-      "updated_at": "2026-10-01T18:40:36+02:00",
-      "published_at": "2026-10-01T18:40:36+02:00",
-      "expires_at": null,
-      "review": {
-        "title": 1,
-        "image": 7,
-        "sent_at": "2026-10-01T16:38:11+00:00",
-        "msg_ids": [
-          703,
-          704,
-          705,
-          706,
-          707,
-          708,
-          709,
-          710,
-          711,
-          712
-        ],
-        "control_id": 713
-      },
-      "live": true
-    },
-    {
-      "id": "5d978366-c4dc-5c1f-8527-5aff1880eb24",
-      "slug": "2026-10-01-ez-az-etrend-lassithatja-az-agy-oregedeset",
-      "status": "published",
-      "category": "eletmod",
-      "subcategory": null,
-      "tags": [
-        "egészség",
-        "táplálkozás",
-        "agy",
-        "kutatás",
-        "életmód"
-      ],
-      "title": "Ez az étrend lassíthatja az agy öregedését",
-      "subtitle": null,
-      "lead": "A mediterrán és a vérnyomáscsökkentő étrend elemeit ötvöző MIND-diéta szoros összefüggést mutat a lassabb agyi öregedéssel és a kisebb szövetvesztéssel. A Journal of Neurology Neurosurgery & Psychiatry szaklapban közölt kutatás szerint a helyes táplálkozás éveikkel késleltetheti a szellemi hanyatlást.",
-      "key_points": [
-        "A MIND-diéta szorosabb követése lassabb szürkeállomány-vesztési ütemmel járt együtt.",
-        "A bogyós gyümölcsök és a szárnyasok fogyasztása kifejezetten kedvező hatásúnak bizonyult.",
-        "Az édességek és a sült gyorsételek ezzel szemben nagyobb szövetvesztéssel és zsugorodással mutattak kapcsolatot."
-      ],
-      "content": "A szellemi frissesség megőrzésében kulcsszerepet játszó szürkeállomány és az agykamrák méretváltozását vizsgálták kutatók egy 1647 fős, középkorú és idősebb résztvevőket bevonó vizsgálatban. Az alanyok átlagéletkora 60 év volt a Framingham Heart Study Offspring kohóból, és a résztvevők rendszeres egészségügyi értékelésen, valamint időközönként agyi MRI-vizsgálaton estek át 1999 és 2019 között. Az étrendi szokásokat legalább egy étrendi kérdőívvel mérték fel az 1991 és 2001 közötti időszakban, miközben a kezdeti mérésekkor egyiküknél sem állapítottak meg stroke-ot vagy demenciát.\n\nAz eredmények alapján a legmagasabb pontszámot elérő, vagyis a MIND-diétát leginkább követő embereknél lassabban csökkent a memóriáért, a tanulásért és a döntéshozatalért felelős szürkeállomány mennyisége. Minden hármas pontszámnövekedés 0,279 köbcentiméterrel lassabb éves szürkeállomány-vesztést eredményezett, ami a szakemberek számítása szerint húszszázalékos csökkenést és 2,5 évnyi késleltetett agyi öregedést jelent. Hasonló folyamat rajzolódott ki a folyadékkal teli agykamrák tágulásánál is, ahol ugyancsak mérsékeltebb növekedést mértek a diétát szigorúbbak követők körében.\n\nA MIND jelölésű táplálkozási forma a zöld leveles zöldségeket, egyéb zöldségeket, bogyós gyümölcsöket, olajos magvakat, teljes kiőrlésű gabonákat, halat, hüvelyeseket, olívaolajat és a szárnyasokat helyezi előtérbe, miközben mérsékelt borfogyasztást enged meg. Ezzel szemben határozottan javasolja a vaj, a margarin, a sajt, a vörös húsok, a sütemények, az édességek és a sült gyorsételek visszaszorítását. A kutatás adatai szerint a bogyós gyümölcsök és a szárnyasok fogyasztása összefüggött a kamrák lassabb tágulásával, míg az édességek és a gyorsételek a hippocampus zsugorodásához kapcsolódtak.\n\nA magasabb pontszámot elérő csoport tagjai körében jellemzőbb volt a felsőfokú végzettség, emellett ritkábban dohányoztak, és kevesebbeknél fordult elő elhízás vagy 2-es típusú cukorbetegség, magas vérnyomás, illetve kardiovaszkuláris megbetegedés. A kutatók megállapítása szerint a diétában szereplő, antioxidánsokban gazdag élelmiszerek és a minőségi fehérjék csökkenthetik az oxidatív stresszt, ezáltal mérsékelve az idegsejtek károsodását.",
-      "content_format": "markdown",
-      "body": [
-        "A szellemi frissesség megőrzésében kulcsszerepet játszó szürkeállomány és az agykamrák méretváltozását vizsgálták kutatók egy 1647 fős, középkorú és idősebb résztvevőket bevonó vizsgálatban. Az alanyok átlagéletkora 60 év volt a Framingham Heart Study Offspring kohóból, és a résztvevők rendszeres egészségügyi értékelésen, valamint időközönként agyi MRI-vizsgálaton estek át 1999 és 2019 között. Az étrendi szokásokat legalább egy étrendi kérdőívvel mérték fel az 1991 és 2001 közötti időszakban, miközben a kezdeti mérésekkor egyiküknél sem állapítottak meg stroke-ot vagy demenciát.",
-        "Az eredmények alapján a legmagasabb pontszámot elérő, vagyis a MIND-diétát leginkább követő embereknél lassabban csökkent a memóriáért, a tanulásért és a döntéshozatalért felelős szürkeállomány mennyisége. Minden hármas pontszámnövekedés 0,279 köbcentiméterrel lassabb éves szürkeállomány-vesztést eredményezett, ami a szakemberek számítása szerint húszszázalékos csökkenést és 2,5 évnyi késleltetett agyi öregedést jelent. Hasonló folyamat rajzolódott ki a folyadékkal teli agykamrák tágulásánál is, ahol ugyancsak mérsékeltebb növekedést mértek a diétát szigorúbbak követők körében.",
-        "A MIND jelölésű táplálkozási forma a zöld leveles zöldségeket, egyéb zöldségeket, bogyós gyümölcsöket, olajos magvakat, teljes kiőrlésű gabonákat, halat, hüvelyeseket, olívaolajat és a szárnyasokat helyezi előtérbe, miközben mérsékelt borfogyasztást enged meg. Ezzel szemben határozottan javasolja a vaj, a margarin, a sajt, a vörös húsok, a sütemények, az édességek és a sült gyorsételek visszaszorítását. A kutatás adatai szerint a bogyós gyümölcsök és a szárnyasok fogyasztása összefüggött a kamrák lassabb tágulásával, míg az édességek és a gyorsételek a hippocampus zsugorodásához kapcsolódtak.",
-        "A magasabb pontszámot elérő csoport tagjai körében jellemzőbb volt a felsőfokú végzettség, emellett ritkábban dohányoztak, és kevesebbeknél fordult elő elhízás vagy 2-es típusú cukorbetegség, magas vérnyomás, illetve kardiovaszkuláris megbetegedés. A kutatók megállapítása szerint a diétában szereplő, antioxidánsokban gazdag élelmiszerek és a minőségi fehérjék csökkenthetik az oxidatív stresszt, ezáltal mérsékelve az idegsejtek károsodását."
-      ],
-      "pull_quote": null,
-      "reading_time_min": 2,
-      "word_count": 321,
-      "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/DIETA_MEDITERRANEA_ITALIA.JPG/1280px-DIETA_MEDITERRANEA_ITALIA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 832,
-        "kind": "photo",
-        "pos": "center",
-        "alt": "mediterranean diet foods",
-        "credit": "G.steph.rocket / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:DIETA_MEDITERRANEA_ITALIA.JPG"
-      },
-      "inline_images": [],
-      "sources": [
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/09/260930225503.htm",
-          "title": "This diet may slow brain aging by 2.5 years",
-          "publisher": "sciencedaily.com",
-          "license": null,
-          "accessed_at": "2026-10-01T18:38:45+02:00"
-        }
-      ],
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v2",
-        "reviewed_by": null,
-        "reviewed_at": null
-      },
-      "hot_score": 5.84,
-      "title_options": [
-        "Két és fél évet fiatalíthat az agyunkon ez a diéta",
-        "Ez az étrend lassíthatja az agy öregedését",
-        "Így óvhatja meg szürkeállományát a megfelelő étrenddel"
-      ],
-      "image_options": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Sagittal_MRI_scan_of_brain_of_patient_with_Chiari_malformation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 1344,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "A T2-weighted sagittal MRI scan, from a patient with Chiari-like symptomatology, demonstrating tonsillar herniation less than 3 mm",
-          "credit": "Raymond F Sekula Jr, Peter J Jannetta, Kenneth F Casey, Edward M Marchan, L Kath / Wikimedia Commons",
-          "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Sagittal_MRI_scan_of_brain_of_patient_with_Chiari_malformation.jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/CT_scan_and_MRI_brain_image_of_basal_ganglia_at_CKD_and_AKI_patient.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 1882,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "a) CT-brain showing bilateral symmetrical hypodensity in the basal ganglia.\nb) MRI Brain axial FLAIR sequence.\n\nc) MRI brain coronal T2 sequences both showing bilateral symmetrical swollen lentiform n",
-          "credit": "author of article (Mansoor, S., De Klerk, L., Lineen, J. et al.) / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:CT_scan_and_MRI_brain_image_of_basal_ganglia_at_CKD_and_AKI_patient.png"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Ready_to_eat_diet_healthy_and_tasty_food.jpg/1280px-Ready_to_eat_diet_healthy_and_tasty_food.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 675,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "preparing veg diet food",
-          "credit": "ProgramwarriorAbhi / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ready_to_eat_diet_healthy_and_tasty_food.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/DIETA_MEDITERRANEA_ITALIA.JPG/1280px-DIETA_MEDITERRANEA_ITALIA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 832,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "mediterranean diet foods",
-          "credit": "G.steph.rocket / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:DIETA_MEDITERRANEA_ITALIA.JPG"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/DASH_and_Mediterranean_diet_score_and_health_and_GHG_emissions.jpg/1280px-DASH_and_Mediterranean_diet_score_and_health_and_GHG_emissions.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 2037,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "\"Average daily greenhouse gas emissions (GHGE), Healthy Eating Index (HEI), and Alternate Healthy Eating Index (AHEI) by DASH and Mediterranean diet score among omnivores.1 (A) GHGE in kg CO2-eq/1000",
-          "credit": "Authors of the study: Keelia O'Malley, Amelia Willits-Smith, Donald Rose / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:DASH_and_Mediterranean_diet_score_and_health_and_GHG_emissions.jpg"
-        },
-        {
-          "url": "https://live.staticflickr.com/8232/8498827162_b861d386a3_b.jpg",
-          "width": 1024,
-          "height": 680,
-          "kind": "photo",
-          "alt": "Healthy food pantry options",
-          "credit": "Salvation Army USA West / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/36323811@N07/8498827162"
-        },
-        {
-          "url": "https://live.staticflickr.com/8090/8497722761_b49f10201d_b.jpg",
-          "width": 1024,
-          "height": 680,
-          "kind": "photo",
-          "alt": "Healthy food pantry options",
-          "credit": "Salvation Army USA West / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/36323811@N07/8497722761"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Healthy_Food_-_Colourful_Fruit_and_Veg_-_50191699151.jpg/1280px-Healthy_Food_-_Colourful_Fruit_and_Veg_-_50191699151.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "A selection of  healthy and colourful fruit and vegetables including garlic, peppers, turmeric, avocado and blueberries.\nImage created by Formulate Health and distributed under Creative Commons. We we",
-          "credit": "formulatehealth / Wikimedia Commons",
-          "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Healthy_Food_-_Colourful_Fruit_and_Veg_-_50191699151.jpg"
-        }
-      ],
-      "story": [
-        {
-          "title": "This diet may slow brain aging by 2.5 years",
-          "link": "https://www.sciencedaily.com/releases/2026/09/260930225503.htm",
-          "summary": "People who followed the MIND diet more closely showed slower brain shrinkage and less grey matter loss over time, with the strongest differences equivalent to about 2.5 years of delayed brain aging. Berries and poultry were linked with healthier brain changes, while sweets and fried fast foods were associated with greater tissue loss.",
-          "source": "sciencedaily.com",
-          "related": null,
-          "hot_score": 5.84
-        }
-      ],
-      "category_meta": {
-        "source_links": [
-          "https://www.sciencedaily.com/releases/2026/09/260930225503.htm"
-        ]
-      },
-      "date": "2026-10-01",
-      "date_label": "október 1.",
-      "url": "/eletmod/2026-10-01-ez-az-etrend-lassithatja-az-agy-oregedeset/",
-      "seo": {
-        "meta_title": "Ez az étrend lassíthatja az agy öregedését",
-        "meta_description": "A mediterrán és a vérnyomáscsökkentő étrend elemeit ötvöző MIND-diéta szoros összefüggést mutat a lassabb agyi öregedéssel és a kisebb szövetvesztéssel. A Journ",
-        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-01-ez-az-etrend-lassithatja-az-agy-oregedeset/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/DIETA_MEDITERRANEA_ITALIA.JPG/1280px-DIETA_MEDITERRANEA_ITALIA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [],
-      "see_also": [],
-      "thread_id": null,
-      "dedupe_hash": "8b35a9f0c318c48b7996a46342587970a8d8ac6e8f952b5662c967d559ea9a34",
-      "pipeline_run_id": "36893141296",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-01T18:40:06+02:00",
-      "updated_at": "2026-10-01T18:40:06+02:00",
-      "published_at": "2026-10-01T18:40:06+02:00",
-      "expires_at": null,
-      "review": {
-        "title": 1,
-        "image": 3,
-        "sent_at": "2026-10-01T16:39:17+00:00",
-        "msg_ids": [
-          725,
-          726,
-          727,
-          728,
-          729,
-          730,
-          731,
-          732,
-          733,
-          734
-        ],
-        "control_id": 735
-      },
-      "live": true
-    },
-    {
       "id": "718ae6db-a6e3-5f13-8f70-43c54e1d4de5",
       "slug": "2026-10-01-nagyot-esett-az-otp-es-a-mol",
       "status": "published",
@@ -12942,7 +11940,7 @@
     {
       "id": "81d78cb5-d05e-5c9d-9b91-17d403841128",
       "slug": "2026-10-03-ujjaelesztheto-a-hatterbe-szorult-magyar-konnyuipar",
-      "status": "pending",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -13102,9 +12100,9 @@
       "dedupe_hash": "0b74afdd2e8602f810aa29aa76de751a914d9dac4b9e7682d9bf1eee2c8de3a1",
       "pipeline_run_id": "37129983490",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T16:34:28+02:00",
-      "updated_at": "2026-10-03T16:34:28+02:00",
-      "published_at": "2026-10-03T16:34:28+02:00",
+      "created_at": "2026-10-03T20:37:00+02:00",
+      "updated_at": "2026-10-03T20:37:00+02:00",
+      "published_at": "2026-10-03T20:37:00+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -13118,12 +12116,13 @@
           2063
         ],
         "control_id": 2064
-      }
+      },
+      "live": true
     },
     {
       "id": "d7c4d669-f429-5259-9fca-4db58546b670",
       "slug": "2026-10-03-amikor-egy-muveszettortenesz-vakul-meg-megerkezett-a-mommy-blue",
-      "status": "pending",
+      "status": "published",
       "category": "kultura",
       "subcategory": null,
       "tags": [
@@ -13224,9 +12223,9 @@
       "dedupe_hash": "e54683d6e954db9bedb6c95a71e0ce0505237f533cf6fd56cafa8b9decdbe435",
       "pipeline_run_id": "37129983490",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T16:35:34+02:00",
-      "updated_at": "2026-10-03T16:35:34+02:00",
-      "published_at": "2026-10-03T16:35:34+02:00",
+      "created_at": "2026-10-03T20:37:01+02:00",
+      "updated_at": "2026-10-03T20:37:01+02:00",
+      "published_at": "2026-10-03T20:37:01+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -13237,12 +12236,13 @@
           2066
         ],
         "control_id": 2067
-      }
+      },
+      "live": true
     },
     {
-      "id": "58076366-0121-5f0b-b53c-91a445a57037",
-      "slug": "2026-10-03-a-c-vitamin-csokkentheti-a-halalozast-egy-ritka-verbetegsegnel",
-      "status": "pending",
+      "id": "661f76a2-a166-55fb-8fad-6e8542aecc7c",
+      "slug": "2026-10-03-meglepo-osszefuggest-talaltak-a-c-vitamin-es-a-rakos-verbetegsegek-ko",
+      "status": "published",
       "category": "eletmod",
       "subcategory": null,
       "tags": [
@@ -13252,7 +12252,7 @@
         "vérbetegség",
         "klinikai vizsgálat"
       ],
-      "title": "A C-vitamin csökkentheti a halálozást egy ritka vérbetegségnél",
+      "title": "Meglepő összefüggést találtak a C-vitamin és a rákos vérbetegségek között",
       "subtitle": null,
       "lead": "Egy új, nemzetközi klinikai vizsgálat szerint a napi C-vitamin-pótlás összefüggésbe hozható a gyulladások csökkenésével és a súlyos szövődmények ritkulásával korai stádiumú vérbetegségekben. A kutatók ugyanakkor hangsúlyozzák, hogy a túlélési adatok kedvező alakulását még nagyobb vizsgálatokban kell igazolni.",
       "key_points": [
@@ -13274,16 +12274,16 @@
       "word_count": 241,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Ascorbic_acid_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "width": 1200,
-        "height": 678,
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/9dbc6ac3129185ab.jpg",
+        "width": 6000,
+        "height": 3550,
         "kind": "photo",
-        "pos": "center",
-        "alt": "Ascorbic acid",
-        "credit": "Chemicalinterest / Wikimedia Commons",
-        "license": "Public domain",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Ascorbic_acid_(2).JPG",
-        "vision_score": 8.0
+        "alt": "lime, citrus fruit, angry, green, vitamins, limes, fruit, citrus, fresh, healthy, fruity, vitamin c, vitaminhaltig, lime, lime, lime, lime, lime, fruit, fruit, fruit",
+        "credit": "congerdesign / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/lime-citrus-fruit-angry-green-2133091/",
+        "vision_score": 5.0,
+        "local": "/home/runner/work/kollektiva/kollektiva/public/img/px/9dbc6ac3129185ab.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -13383,12 +12383,12 @@
       },
       "date": "2026-10-03",
       "date_label": "október 3.",
-      "url": "/eletmod/2026-10-03-a-c-vitamin-csokkentheti-a-halalozast-egy-ritka-verbetegsegnel/",
+      "url": "/eletmod/2026-10-03-meglepo-osszefuggest-talaltak-a-c-vitamin-es-a-rakos-verbetegsegek-ko/",
       "seo": {
-        "meta_title": "A C-vitamin csökkentheti a halálozást egy ritka vérbetegségn",
+        "meta_title": "Meglepő összefüggést találtak a C-vitamin és a rákos vérbete",
         "meta_description": "Egy új, nemzetközi klinikai vizsgálat szerint a napi C-vitamin-pótlás összefüggésbe hozható a gyulladások csökkenésével és a súlyos szövődmények ritkulásával ko",
-        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-03-a-c-vitamin-csokkentheti-a-halalozast-egy-ritka-verbetegsegnel/",
-        "og_image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Ascorbic_acid_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-03-meglepo-osszefuggest-talaltak-a-c-vitamin-es-a-rakos-verbetegsegek-ko/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/9dbc6ac3129185ab.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -13405,9 +12405,9 @@
       "dedupe_hash": "e7a0cb443cdbf2a48ed5c42cd1a8509d22681462d19221c04f7f98e31f212100",
       "pipeline_run_id": "37129983490",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T16:36:56+02:00",
-      "updated_at": "2026-10-03T16:36:56+02:00",
-      "published_at": "2026-10-03T16:36:56+02:00",
+      "created_at": "2026-10-03T20:37:02+02:00",
+      "updated_at": "2026-10-03T20:37:02+02:00",
+      "published_at": "2026-10-03T20:37:02+02:00",
       "expires_at": null,
       "review": {
         "title": 1,
@@ -13421,12 +12421,13 @@
           2072
         ],
         "control_id": 2073
-      }
+      },
+      "live": true
     },
     {
       "id": "ca959cb3-debd-5eff-a6b0-c4e3e26e4178",
       "slug": "2026-10-03-a-naprendszer-legizgalmasabb-tajain-kalauzol-a-nasa",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -13606,9 +12607,9 @@
       "dedupe_hash": "3bd017234fa61f33e1567a2c5ac3026d1eb7d98e0aac5309e623cca9fcb23f8e",
       "pipeline_run_id": "37129983490",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T16:37:57+02:00",
-      "updated_at": "2026-10-03T16:37:57+02:00",
-      "published_at": "2026-10-03T16:37:57+02:00",
+      "created_at": "2026-10-03T20:37:03+02:00",
+      "updated_at": "2026-10-03T20:37:03+02:00",
+      "published_at": "2026-10-03T20:37:03+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -13624,7 +12625,8 @@
           2081
         ],
         "control_id": 2082
-      }
+      },
+      "live": true
     }
   ]
 }

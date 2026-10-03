@@ -1,7 +1,400 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-03T13:07:54+02:00",
+  "updated_at": "2026-10-03T20:37:03+02:00",
   "articles": [
+    {
+      "id": "ca959cb3-debd-5eff-a6b0-c4e3e26e4178",
+      "slug": "2026-10-03-a-naprendszer-legizgalmasabb-tajain-kalauzol-a-nasa",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "űrkutatás",
+        "csillagászat",
+        "Mars"
+      ],
+      "title": "A Naprendszer legizgalmasabb tájain kalauzol a NASA",
+      "subtitle": null,
+      "lead": "A NASA aktuális csillagászati archívuma lenyűgöző felvételekkel mutatja be a Mars tájait és a távoli űr rejtélyeit. A friss gyűjtemény a tudományos kutatások legfontosabb mérföldköveit hozza közelebb a nagyközönséghez.",
+      "key_points": [
+        "A NASA hivatalos felületén új marsi és csillagászati képanyagok váltak elérhetővé.",
+        "A közzétett anyagok célja a bolygókutatás és a csillagászat eredményeinek népszerűsítése.",
+        "A gyűjteményben részletes útmutatók és oktatási segédletek is helyet kaptak a csillagászat iránt érdeklődők számára."
+      ],
+      "content": "A Mars felszínén elhelyezkedő Vera Rubin-gerincen készített önarckép és a hozzá tartozó szakmai magyarázatok adják az alapot a legfrissebb űrkutatási válogatáshoz. A NASA portálján naponta frissülő fotógyűjteményben hivatásos csillagászok részletes leírásai kísérik az egyes felvételeket, bemutatva a Naprendszer égitesteit és a távoli galaxisok működését.\n\nA tágabb űrkutatási kitekintés keretében a szakemberek olyan projekteket is szemléltetnek, mint a Nemzetközi Űrállomás élete, a különböző Mars-missziók, valamint a James Webb és a Hubble űrtávcsövek megfigyelései. Ezek az eszközök alapvetően formálják át a kozmoszról alkotott eddigi ismereteinket, és segítenek megérteni a csillagkeletkezés folyamatait.\n\nAz érdeklődők számára a tudományos adatok böngészése mellett oktatási források és különféle interaktív 3D-s erőforrások is elérhetők a hivatalos oldalon. Az űrügynökség ezzel a szemléletformáló tevékenységgel igyekszik közelebb hozni a bolygókutatást és a csillagászatot a mindennapok embereihez, mélyebb betekintést nyújtva a világűr fizikai jelenségeibe.",
+      "content_format": "markdown",
+      "body": [
+        "A Mars felszínén elhelyezkedő Vera Rubin-gerincen készített önarckép és a hozzá tartozó szakmai magyarázatok adják az alapot a legfrissebb űrkutatási válogatáshoz. A NASA portálján naponta frissülő fotógyűjteményben hivatásos csillagászok részletes leírásai kísérik az egyes felvételeket, bemutatva a Naprendszer égitesteit és a távoli galaxisok működését.",
+        "A tágabb űrkutatási kitekintés keretében a szakemberek olyan projekteket is szemléltetnek, mint a Nemzetközi Űrállomás élete, a különböző Mars-missziók, valamint a James Webb és a Hubble űrtávcsövek megfigyelései. Ezek az eszközök alapvetően formálják át a kozmoszról alkotott eddigi ismereteinket, és segítenek megérteni a csillagkeletkezés folyamatait.",
+        "Az érdeklődők számára a tudományos adatok böngészése mellett oktatási források és különféle interaktív 3D-s erőforrások is elérhetők a hivatalos oldalon. Az űrügynökség ezzel a szemléletformáló tevékenységgel igyekszik közelebb hozni a bolygókutatást és a csillagászatot a mindennapok embereihez, mélyebb betekintést nyújtva a világűr fizikai jelenségeibe."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 165,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Grand_star-forming_region_R136_in_NGC_2070_%28captured_by_the_Hubble_Space_Telescope%29.jpg/1280px-Grand_star-forming_region_R136_in_NGC_2070_%28captured_by_the_Hubble_Space_Telescope%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1226,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "A Hubble Space Telescope image of the R136 super star cluster, near the center of the 30 Doradus Nebula, also known as the Tarantula Nebula or NGC 2070. (Converted to JPG from the source TIFF file)",
+        "credit": "NASA, ESA, F. Paresce (INAF-IASF, Bologna, Italy), R. O'Connell (University of V / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Grand_star-forming_region_R136_in_NGC_2070_(captured_by_the_Hubble_Space_Telescope).jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/",
+          "title": "APOD: 2026 October 3 – Selfie at Vera Rubin Ridge",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-03T16:37:57+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-03T20:37:03+02:00"
+      },
+      "hot_score": 5.87,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/tech/2026-10-03-a-naprendszer-legizgalmasabb-tajain-kalauzol-a-nasa/",
+      "seo": {
+        "meta_title": "A Naprendszer legizgalmasabb tájain kalauzol a NASA",
+        "meta_description": "A NASA aktuális csillagászati archívuma lenyűgöző felvételekkel mutatja be a Mars tájait és a távoli űr rejtélyeit. A friss gyűjtemény a tudományos kutatások le",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-03-a-naprendszer-legizgalmasabb-tajain-kalauzol-a-nasa/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Grand_star-forming_region_R136_in_NGC_2070_%28captured_by_the_Hubble_Space_Telescope%29.jpg/1280px-Grand_star-forming_region_R136_in_NGC_2070_%28captured_by_the_Hubble_Space_Telescope%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "3bd017234fa61f33e1567a2c5ac3026d1eb7d98e0aac5309e623cca9fcb23f8e",
+      "pipeline_run_id": "37129983490",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T20:37:03+02:00",
+      "updated_at": "2026-10-03T20:37:03+02:00",
+      "published_at": "2026-10-03T20:37:03+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "661f76a2-a166-55fb-8fad-6e8542aecc7c",
+      "slug": "2026-10-03-meglepo-osszefuggest-talaltak-a-c-vitamin-es-a-rakos-verbetegsegek-ko",
+      "status": "published",
+      "category": "eletmod",
+      "subcategory": null,
+      "tags": [
+        "C-vitamin",
+        "egészség",
+        "kutatás",
+        "vérbetegség",
+        "klinikai vizsgálat"
+      ],
+      "title": "Meglepő összefüggést találtak a C-vitamin és a rákos vérbetegségek között",
+      "subtitle": null,
+      "lead": "Egy új, nemzetközi klinikai vizsgálat szerint a napi C-vitamin-pótlás összefüggésbe hozható a gyulladások csökkenésével és a súlyos szövődmények ritkulásával korai stádiumú vérbetegségekben. A kutatók ugyanakkor hangsúlyozzák, hogy a túlélési adatok kedvező alakulását még nagyobb vizsgálatokban kell igazolni.",
+      "key_points": [
+        "A dániai és amerikai kutatók által végzett EVITA vizsgálatban 109 résztvevő vett részt.",
+        "A C-vitamin nem lassította közvetlenül a rosszindulatú sejtek növekedését, de mérsékelte a gyulladásos jeleket.",
+        "A placebót kapó csoportban 24 haláleset történt, míg a C-vitamint szedők körében 11.",
+        "A szakemberek szerint a megfigyelés biztató, de újabb, nagyobb klinikai vizsgálatokra van szükség a biztos következtetésekhez."
+      ],
+      "content": "A C-vitamin nemcsak az immunrendszer működését támogathatja, hanem sejtszinten is fontos folyamatokat befolyásolhat. A Wiley által kiadott CANCER folyóiratban közölt, véletlenszerű besorolású, kettős vak, placebokontrollált EVITA-vizsgálat során 109 olyan dániai és egyesült államokbeli résztvevőt vizsgáltak, akik rákos elváltozásra hajlamos vérbetegséggel vagy alacsony kockázatú vérrákkal éltek.\n\nA kutatók azt vizsgálták, hogy a napi 1000 milligramm orális C-vitamin lassítja-e a kóros sejtek szaporodását a 12 hónapos kezelés alatt. A sejtnövekedés ütemében nem tapasztaltak különbséget a hatóanyagot és a placebót kapó csoportok között, azonban a C-vitamin-csoport tagjainál kedvező változások mutatkoztak a gyulladásos folyamatokban.\n\nA C-vitamin fokozhatja a sejtekben található TET-enzimek aktivitását, amelyek a gének ki- és bekapcsolását szabályozzák; ezeknek az enzimeknek a csökkent működése gyakran megfigyelhető vérbetegségekben. A vizsgálat során a vitaminnal kezelt résztvevőknél ritkábban fordult elő vérszegénység, tüdőgyulladás, akut ízületi gyulladás és belső vérzés, bár a gyomor-bélrendszeri panaszok gyakoribbnak bizonyultak náluk.\n\nA közel hároméves medián követési időszak alatt összesen 35 résztvevő hunyt el a teljes vizsgált populációból, közülük 24-en a placebocsoportban, 11-en pedig a C-vitamint szedők csoportjában voltak. Ezt a feltáró jellegű eredményt a kutatók óvatos optimizmussal fogadták, hangsúlyozva, hogy a lehetséges terápiás előnyök alátámasztásához elengedhetetlen egy nagyobb fázisú klinikai vizsgálat lefolytatása.",
+      "content_format": "markdown",
+      "body": [
+        "A C-vitamin nemcsak az immunrendszer működését támogathatja, hanem sejtszinten is fontos folyamatokat befolyásolhat. A Wiley által kiadott CANCER folyóiratban közölt, véletlenszerű besorolású, kettős vak, placebokontrollált EVITA-vizsgálat során 109 olyan dániai és egyesült államokbeli résztvevőt vizsgáltak, akik rákos elváltozásra hajlamos vérbetegséggel vagy alacsony kockázatú vérrákkal éltek.",
+        "A kutatók azt vizsgálták, hogy a napi 1000 milligramm orális C-vitamin lassítja-e a kóros sejtek szaporodását a 12 hónapos kezelés alatt. A sejtnövekedés ütemében nem tapasztaltak különbséget a hatóanyagot és a placebót kapó csoportok között, azonban a C-vitamin-csoport tagjainál kedvező változások mutatkoztak a gyulladásos folyamatokban.",
+        "A C-vitamin fokozhatja a sejtekben található TET-enzimek aktivitását, amelyek a gének ki- és bekapcsolását szabályozzák; ezeknek az enzimeknek a csökkent működése gyakran megfigyelhető vérbetegségekben. A vizsgálat során a vitaminnal kezelt résztvevőknél ritkábban fordult elő vérszegénység, tüdőgyulladás, akut ízületi gyulladás és belső vérzés, bár a gyomor-bélrendszeri panaszok gyakoribbnak bizonyultak náluk.",
+        "A közel hároméves medián követési időszak alatt összesen 35 résztvevő hunyt el a teljes vizsgált populációból, közülük 24-en a placebocsoportban, 11-en pedig a C-vitamint szedők csoportjában voltak. Ezt a feltáró jellegű eredményt a kutatók óvatos optimizmussal fogadták, hangsúlyozva, hogy a lehetséges terápiás előnyök alátámasztásához elengedhetetlen egy nagyobb fázisú klinikai vizsgálat lefolytatása."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 241,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/9dbc6ac3129185ab.jpg",
+        "width": 6000,
+        "height": 3550,
+        "kind": "photo",
+        "alt": "lime, citrus fruit, angry, green, vitamins, limes, fruit, citrus, fresh, healthy, fruity, vitamin c, vitaminhaltig, lime, lime, lime, lime, lime, fruit, fruit, fruit",
+        "credit": "congerdesign / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/lime-citrus-fruit-angry-green-2133091/",
+        "vision_score": 5.0,
+        "local": "/home/runner/work/kollektiva/kollektiva/public/img/px/9dbc6ac3129185ab.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260930225454.htm",
+          "title": "Vitamin C linked to fewer deaths in blood disorder trial",
+          "publisher": "sciencedaily.com",
+          "license": null,
+          "accessed_at": "2026-10-03T16:36:56+02:00"
+        }
+      ],
+      "quote": {
+        "text": "A EVITA trial gives us a strong rationale to continue exploring if and how vitamin C might benefit people with certain pre-cancer or early-stage blood cancers. More work is needed but we are cautiously optimistic that these findings could inform future strategies to intercept leukemia development",
+        "who": "Peter A. Jones, a Van Andel Intézet kutatója",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-03T20:37:02+02:00"
+      },
+      "hot_score": 5.97,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.sciencedaily.com/releases/2026/09/260930225454.htm"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/eletmod/2026-10-03-meglepo-osszefuggest-talaltak-a-c-vitamin-es-a-rakos-verbetegsegek-ko/",
+      "seo": {
+        "meta_title": "Meglepő összefüggést találtak a C-vitamin és a rákos vérbete",
+        "meta_description": "Egy új, nemzetközi klinikai vizsgálat szerint a napi C-vitamin-pótlás összefüggésbe hozható a gyulladások csökkenésével és a súlyos szövődmények ritkulásával ko",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-03-meglepo-osszefuggest-talaltak-a-c-vitamin-es-a-rakos-verbetegsegek-ko/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/9dbc6ac3129185ab.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "e7a0cb443cdbf2a48ed5c42cd1a8509d22681462d19221c04f7f98e31f212100",
+      "pipeline_run_id": "37129983490",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T20:37:02+02:00",
+      "updated_at": "2026-10-03T20:37:02+02:00",
+      "published_at": "2026-10-03T20:37:02+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "d7c4d669-f429-5259-9fca-4db58546b670",
+      "slug": "2026-10-03-amikor-egy-muveszettortenesz-vakul-meg-megerkezett-a-mommy-blue",
+      "status": "published",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Mommy Blue",
+        "Für Anikó",
+        "Vilmányi Benett",
+        "magyar film",
+        "CineFest"
+      ],
+      "title": "Amikor egy művészettörténész vakul meg: megérkezett a Mommy Blue",
+      "subtitle": null,
+      "lead": "Mayer Bernadette első nagyjátékfilmje, a Mommy Blue egy visszafordíthatatlan családi helyzetet mutat be, amelyben egy látását vesztő anya és felnőtt fia feszül egymásnak. A miskolci CineFesten közönségdíjat nyert alkotásban Für Anikó és Vilmányi Benett játssza a főszerepeket.",
+      "key_points": [
+        "A Mommy Blue Mayer Bernadette első nagyjátékfilmje, amely a Nemzeti Filmintézet Inkubátor Programjában készült.",
+        "A történet alapja a rendező saját tinédzserkori élménye, a forgatókönyvet férjével, Nagy Zoltánnal közösen írták.",
+        "A főszereplő Krisztina (Für Anikó) művészettörténet-tanárként veszíti el a látását 1-es típusú cukorbetegsége miatt.",
+        "A filmben a látás elvesztése és a szerepek felcserülése indítja be a feszültséget az anya és gyermeke (Vilmányi Benett) között."
+      ],
+      "content": "A Mommy Blue anélkül mesél egy nehéz élethelyzetről, hogy túlmagyarázná azt, Mayer Bernadette rendező saját tinédzserkori tapasztalataiból merítve, férjével, Nagy Zoltánnal írta a történetet, amely a Nemzeti Filmintézet Inkubátor Programjának támogatásával valósult meg.\n\nA cselekmény középpontjában Krisztina áll, akit a Jászai Mari-díjas Für Anikó alakít. A művészettörténet-tanárként és osztályfőnökként dolgozó nő 1-es típusú cukorbetegsége következtében fokozatosan elveszíti a látását. Ez a drasztikus változás ráadásul éppen akkor történik meg, amikor felnőtt fia, Máté életében is új fejezet kezdődik újszülött gyermeke érkezésével.\n\nA mindennapokban kezdetben még Máté tárolja a holmijait édesanyja lakásában, és Krisztina is segít a kisbaba körül, ám a helyzet romlásával a szerepek lassan megfordulnak. Az önállóságát féltő anya egyre inkább rászorul a fiára, miközben a Vilmányi Benett által megformált Máténak saját családja és párkapcsolata mellett kell helytállnia. A film különös iróniája, hogy egy olyan ember vakul meg, akinek egész életét a vizualitás és a festmények megértése határozta meg.\n\nA történet egyik legnagyobb erénye, hogy nem kínál egyszerű morális válaszokat, és nincs benne kijelölt hős vagy antihős. Waskovics Andrea szintén feltűnik a filmben, az alakítások természetessége pedig olyan hiteles atmoszférát teremt, amelyben a nézőnek szinte lehetetlen eldönteni, hogy a fiúnak vagy az édesanyjának adjon-e igazat.",
+      "content_format": "markdown",
+      "body": [
+        "A Mommy Blue anélkül mesél egy nehéz élethelyzetről, hogy túlmagyarázná azt, Mayer Bernadette rendező saját tinédzserkori tapasztalataiból merítve, férjével, Nagy Zoltánnal írta a történetet, amely a Nemzeti Filmintézet Inkubátor Programjának támogatásával valósult meg.",
+        "A cselekmény középpontjában Krisztina áll, akit a Jászai Mari-díjas Für Anikó alakít. A művészettörténet-tanárként és osztályfőnökként dolgozó nő 1-es típusú cukorbetegsége következtében fokozatosan elveszíti a látását. Ez a drasztikus változás ráadásul éppen akkor történik meg, amikor felnőtt fia, Máté életében is új fejezet kezdődik újszülött gyermeke érkezésével.",
+        "A mindennapokban kezdetben még Máté tárolja a holmijait édesanyja lakásában, és Krisztina is segít a kisbaba körül, ám a helyzet romlásával a szerepek lassan megfordulnak. Az önállóságát féltő anya egyre inkább rászorul a fiára, miközben a Vilmányi Benett által megformált Máténak saját családja és párkapcsolata mellett kell helytállnia. A film különös iróniája, hogy egy olyan ember vakul meg, akinek egész életét a vizualitás és a festmények megértése határozta meg.",
+        "A történet egyik legnagyobb erénye, hogy nem kínál egyszerű morális válaszokat, és nincs benne kijelölt hős vagy antihős. Waskovics Andrea szintén feltűnik a filmben, az alakítások természetessége pedig olyan hiteles atmoszférát teremt, amelyben a nézőnek szinte lehetetlen eldönteni, hogy a fiúnak vagy az édesanyjának adjon-e igazat."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 236,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/filmklikk/fur-aniko-mommy-blue-film-kritika/wmclc21",
+          "title": "Für Anikó megvakul, Vilmányi Benett pedig durván kiakad: ilyen lett a Mommy Blue",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T16:35:34+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-03T20:37:01+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/filmklikk/fur-aniko-mommy-blue-film-kritika/wmclc21"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/kultura/2026-10-03-amikor-egy-muveszettortenesz-vakul-meg-megerkezett-a-mommy-blue/",
+      "seo": {
+        "meta_title": "Amikor egy művészettörténész vakul meg: megérkezett a Mommy ",
+        "meta_description": "Mayer Bernadette első nagyjátékfilmje, a Mommy Blue egy visszafordíthatatlan családi helyzetet mutat be, amelyben egy látását vesztő anya és felnőtt fia feszül ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-03-amikor-egy-muveszettortenesz-vakul-meg-megerkezett-a-mommy-blue/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "e54683d6e954db9bedb6c95a71e0ce0505237f533cf6fd56cafa8b9decdbe435",
+      "pipeline_run_id": "37129983490",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T20:37:01+02:00",
+      "updated_at": "2026-10-03T20:37:01+02:00",
+      "published_at": "2026-10-03T20:37:01+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "81d78cb5-d05e-5c9d-9b91-17d403841128",
+      "slug": "2026-10-03-ujjaelesztheto-a-hatterbe-szorult-magyar-konnyuipar",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "könnyűipar",
+        "iparpolitika",
+        "gazdaság",
+        "export",
+        "KRTK"
+      ],
+      "title": "Újjáéleszthető a háttérbe szorult magyar könnyűipar?",
+      "subtitle": null,
+      "lead": "A korábban háttérbe szorult magyar könnyűipar újraélesztését sürgetik a kutatók, miközben a szektor ma már alig töredékét adja az ország exportjának és foglalkoztatásának. Az ellátásbiztonság, a helyi gyártókapacitások és a körforgásos gazdaság kihívásai miatt azonban az ágazat stratégiai újragondolása jöhet.",
+      "key_points": [
+        "A könnyűipar egykor a foglalkoztatottak közel negyedét adta Magyarországon.",
+        "A szektor termelésének több mint nyolcvan százaléka ma is exportra megy a KSH 2025-ös adatai szerint.",
+        "A Gazdasági és Energetikai Minisztérium megalakulása új iparstratégia kidolgozását hozhatja magával."
+      ],
+      "content": "Bár a textil-, ruházati-, bőr- és cipőipart magában foglaló könnyűipar ma már nem tartozik Magyarország legnagyobb húzóágazatai közé, jelentősége messze túlmutat a bruttó hazai termékben elfoglalt helyén. Az ELTE Közgazdaság- és Regionális Tudományi Kutatóközpont blogján megjelent elemzés szerint a terület szorosan kapcsolódik a munkahelyekhez, az ellátásbiztonsághoz, a körforgásos megoldásokhoz és a kulturális értékekhez, miközben a geopolitikai változások felértékelik a helyi gyárakat.\n\nA hazai könnyűipar mély gyökerekkel rendelkezik, hiszen már az 1960-as évektől kezdődően bekapcsolódott a nemzetközi ellátási láncokba. A Nemzeti Atlasz adatai alapján 1985-re a foglalkoztatottak 23,5 százalékát és az ország teljes exportjának 10 százalékát biztosította ez a terület. Ezzel szemben mára a feldolgozóiparban dolgozóknak alig több mint 2 százaléka talált itt munkát, az exportértékesítés részesedése pedig 0,9 százalékra esett vissza.\n\nA szektor szereplői hosszú ideje küzdenek az alacsony hozzáadott értékű bérmunkával, a tudásvesztéssel és a munkaerőproblémákkal, miközben a termelés több mint 80 százaléka továbbra is a külső piacokra irányul a Központi Statisztikai Hivatal 2025-ös adatai szerint.\n\nA 2026 áprilisi kormányváltást követően felálló Gazdasági és Energetikai Minisztérium azonban új alapokra helyezheti a hazai iparpolitikát. Dobos Emese kutató elemzése rámutat, hogy a fenntarthatóság, a gyors technológiai váltások és a globális krízisek korában a hagyományos, pusztán a termelékenységre fókuszáló szemléletmód már nem elegendő, így a könnyűipar specifikus problémáira is célzott válaszokat kell találni.",
+      "content_format": "markdown",
+      "body": [
+        "Bár a textil-, ruházati-, bőr- és cipőipart magában foglaló könnyűipar ma már nem tartozik Magyarország legnagyobb húzóágazatai közé, jelentősége messze túlmutat a bruttó hazai termékben elfoglalt helyén. Az ELTE Közgazdaság- és Regionális Tudományi Kutatóközpont blogján megjelent elemzés szerint a terület szorosan kapcsolódik a munkahelyekhez, az ellátásbiztonsághoz, a körforgásos megoldásokhoz és a kulturális értékekhez, miközben a geopolitikai változások felértékelik a helyi gyárakat.",
+        "A hazai könnyűipar mély gyökerekkel rendelkezik, hiszen már az 1960-as évektől kezdődően bekapcsolódott a nemzetközi ellátási láncokba. A Nemzeti Atlasz adatai alapján 1985-re a foglalkoztatottak 23,5 százalékát és az ország teljes exportjának 10 százalékát biztosította ez a terület. Ezzel szemben mára a feldolgozóiparban dolgozóknak alig több mint 2 százaléka talált itt munkát, az exportértékesítés részesedése pedig 0,9 százalékra esett vissza.",
+        "A szektor szereplői hosszú ideje küzdenek az alacsony hozzáadott értékű bérmunkával, a tudásvesztéssel és a munkaerőproblémákkal, miközben a termelés több mint 80 százaléka továbbra is a külső piacokra irányul a Központi Statisztikai Hivatal 2025-ös adatai szerint.",
+        "A 2026 áprilisi kormányváltást követően felálló Gazdasági és Energetikai Minisztérium azonban új alapokra helyezheti a hazai iparpolitikát. Dobos Emese kutató elemzése rámutat, hogy a fenntarthatóság, a gyors technológiai váltások és a globális krízisek korában a hagyományos, pusztán a termelékenységre fókuszáló szemléletmód már nem elegendő, így a könnyűipar specifikus problémáira is célzott válaszokat kell találni."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 256,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Textile_industry_in_Kamyshin_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Текстильная промышленность в Камышине",
+        "credit": "Дмитрий Лобакин / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Textile_industry_in_Kamyshin_001.jpg",
+        "vision_score": 7.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/krtk/20261003/ujjaelesztheto-az-orszag-hatterbe-szorult-iparaga-865782",
+          "title": "Újjáéleszthető az ország háttérbe szorult iparága?",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T16:34:28+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-03T20:37:00+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/krtk/20261003/ujjaelesztheto-az-orszag-hatterbe-szorult-iparaga-865782"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/penzvilag/2026-10-03-ujjaelesztheto-a-hatterbe-szorult-magyar-konnyuipar/",
+      "seo": {
+        "meta_title": "Újjáéleszthető a háttérbe szorult magyar könnyűipar?",
+        "meta_description": "A korábban háttérbe szorult magyar könnyűipar újraélesztését sürgetik a kutatók, miközben a szektor ma már alig töredékét adja az ország exportjának és foglalko",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-03-ujjaelesztheto-a-hatterbe-szorult-magyar-konnyuipar/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Textile_industry_in_Kamyshin_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "0b74afdd2e8602f810aa29aa76de751a914d9dac4b9e7682d9bf1eee2c8de3a1",
+      "pipeline_run_id": "37129983490",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T20:37:00+02:00",
+      "updated_at": "2026-10-03T20:37:00+02:00",
+      "published_at": "2026-10-03T20:37:00+02:00",
+      "expires_at": null
+    },
     {
       "id": "5eefb95e-4dc4-52f9-9d1d-c835868adc8b",
       "slug": "2026-10-03-stadion-es-lowellness-igy-bucsuzott-kisvarda-a-lekoszono-exminisztert",
