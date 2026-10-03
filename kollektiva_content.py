@@ -785,6 +785,7 @@ def find_images(specific: list, generic: list, timeout: int, avoid: Optional[set
         q = str(q or "").strip()[:40]
         if q and len(out) < limit:
             add(pexels_images(q, timeout, seen, limit=2))
+            add(pixabay_images(q, timeout, seen, limit=2))
             add(openverse_images(q, timeout, seen, limit=2))
             if len(out) < limit:
                 add(commons_search_images(q, timeout, strict=False, avoid=seen, limit=1))
@@ -815,6 +816,27 @@ def pexels_images(query: str, timeout: int, avoid: Optional[set] = None, limit: 
         out.append({"url": url, "width": p.get("width"), "height": p.get("height"), "kind": "photo",
                     "alt": (p.get("alt") or "")[:200], "credit": f"{(p.get('photographer') or 'ismeretlen')[:80]} / Pexels",
                     "license": "Pexels License", "source_url": p.get("url") or url})
+        if len(out) >= limit:
+            break
+    return out
+
+
+def pixabay_images(query: str, timeout: int, avoid: Optional[set] = None, limit: int = 3) -> list:
+    """Pixabay: ingyenes, szabadon (kereskedelmi célra is) használható fotók (PIXABAY_API_KEY, pixabay.com/api/docs)."""
+    key = os.getenv("PIXABAY_API_KEY", "").strip()
+    if not key or not query:
+        return []
+    url = (f"https://pixabay.com/api/?key={urllib.parse.quote(key)}&q={urllib.parse.quote(query)}&image_type=photo"
+           "&orientation=horizontal&safesearch=true&per_page=10&min_width=1200")
+    data = http_get_json(url, timeout) or {}
+    out = []
+    for h in data.get("hits") or []:
+        img = h.get("largeImageURL") or h.get("webformatURL")
+        if not img or (avoid and img in avoid):
+            continue
+        out.append({"url": img, "width": h.get("imageWidth"), "height": h.get("imageHeight"), "kind": "photo",
+                    "alt": (h.get("tags") or "")[:200], "credit": f"{(h.get('user') or 'ismeretlen')[:80]} / Pixabay",
+                    "license": "Pixabay License", "source_url": h.get("pageURL") or img})
         if len(out) >= limit:
             break
     return out
@@ -1529,7 +1551,7 @@ hírlevélre. Egy egyetemista projektnek minden új olvasó számít. Köszönj�
 <p>Kiadó és szerkesztő: Kollektíva szerkesztőség.<br>Webcím: kollektíva.hu<br>
 Tárhelyszolgáltató: Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, USA – cloudflare.com</p>
 <p>Cikkeink nyilvános forrásokra (hazai és nemzetközi sajtó, hivatalos közlemények) épülnek; a felhasznált
-forrásokat minden cikk alján feltüntetjük. A képek szabad licencű forrásokból (Wikimedia Commons, Openverse, Pexels)
+forrásokat minden cikk alján feltüntetjük. A képek szabad licencű forrásokból (Wikimedia Commons, Openverse, Pexels, Pixabay)
 származnak, vagy saját illusztrációk; a szerző és a licenc a kép melletti ⓘ jelre kattintva látható. A horoszkóp szórakoztató célú tartalom.</p>
 
 <h2 id="adatkezeles">Adatkezelési tájékoztató</h2>
