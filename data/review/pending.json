@@ -16579,90 +16579,40 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg/1280px-SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/DAVINCI_Venus_mission_atmospheric_probe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 575,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "This image shows a sequence of photographs by NASA's SDO spacecraft, taken in the extreme ultraviolet spectrum (171 Angstroms), and stitched together to show Venus's path across the face of the Sun.",
-          "credit": "NASA/SDO, AIA / Wikimedia Commons",
-          "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Arrival_of_the_Pioneer_Venus_spacecraft_at_Venus_%28ARC-1978-AC78-0238%29.jpg/1280px-Arrival_of_the_Pioneer_Venus_spacecraft_at_Venus_%28ARC-1978-AC78-0238%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 902,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "An artist concept of the Pioneer Venus Multiprobe approaching Venus is shown here shortly after the probes' release. Top to bottom: night probe, day probe, sounder probe, North probe, followed by the",
-          "credit": "NASA/Rick Guidice / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Arrival_of_the_Pioneer_Venus_spacecraft_at_Venus_(ARC-1978-AC78-0238).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1280px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 927,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "NASA Headquarters at 300 E Street SW in Washington D.C.\nDeutsch:  NASA Hauptsitz auf der 300 E Street SW in Washington D.C.\n中文：​位于美国华盛顿300 E Street SW的美国国家航空航天局(NASA)总部大楼\nБеларуская:  Штаб-кватэра NAS",
-          "credit": "NASA / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_HQ_Building.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg/1280px-Katherine_Johnson_at_NASA%2C_in_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1513,
+          "height": 1800,
           "kind": "photo",
           "pos": "top",
-          "alt": "Katherine Johnson, NASA employée, mathematician and physicist, in 1966",
-          "credit": "Adam Cuerden / Wikimedia Commons",
+          "alt": "Artist's conception of DAVINCI probe. DAVINCI: Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging. During its 63-minute descent, DAVINCI would collect and return measurements o",
+          "credit": "NASA's Goddard Space Flight Center / Wikimedia Commons",
           "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_at_NASA,_in_1966.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:DAVINCI_Venus_mission_atmospheric_probe.jpg",
+          "vision_score": 9.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/What%27s_Up_in_the_Solar_System%2C_active_space_probes_2020-04.png/1280px-What%27s_Up_in_the_Solar_System%2C_active_space_probes_2020-04.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Thermal_Vacuum_Test_Chamber_A_with_Door_Open.jpg/1280px-Thermal_Vacuum_Test_Chamber_A_with_Door_Open.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 897,
+          "height": 1500,
           "kind": "photo",
-          "pos": "center",
-          "alt": "A diagram of active space missions traveling beyond Earth orbit, April 2020.",
-          "credit": "Olaf Frohn / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:What%27s_Up_in_the_Solar_System,_active_space_probes_2020-04.png"
+          "pos": "top",
+          "alt": "View of Thermal Vacuum Test Chamber A (with its door open) in Building 32 at NASA Johnson Space Center.",
+          "credit": "NASA Johnson Space Center / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Thermal_Vacuum_Test_Chamber_A_with_Door_Open.jpg",
+          "vision_score": 6.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/What%27s_Up_in_the_Solar_System%2C_active_space_probes_2020-05.png/1280px-What%27s_Up_in_the_Solar_System%2C_active_space_probes_2020-05.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Thermal_Vacuum_Test_Chamber_A_with_Door_Closed.jpg/1280px-Thermal_Vacuum_Test_Chamber_A_with_Door_Closed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 897,
+          "height": 1500,
           "kind": "photo",
-          "pos": "center",
-          "alt": "A diagram of active space missions traveling beyond Earth orbit, May 2020.",
-          "credit": "Olaf Frohn / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:What%27s_Up_in_the_Solar_System,_active_space_probes_2020-05.png"
-        },
-        {
-          "url": "https://pixabay.com/get/gfa2950bab9c16aa6e099ccbeb3b6f8c699672a41cabd39a1b8f96bf20fae71cf903986b0aaec22af04caf28a4b4fec31_1280.jpg",
-          "width": 3000,
-          "height": 2007,
-          "kind": "photo",
-          "alt": "rocket launch, rocket, take off, space shuttle, rocketship, space shuttle launch, nasa launch, space travel, john f kennedy space center, cape canaveral, florida, usa, rocket launch, rocket, rocket, r",
-          "credit": "WikiImages / Pixabay",
-          "license": "Pixabay License",
-          "source_url": "https://pixabay.com/photos/rocket-launch-rocket-take-off-67643/"
-        },
-        {
-          "url": "https://pixabay.com/get/g872643b9f23d2c70846934fac365b5b361ae9d3049f8df9e1ba39ea0f9a3aca272632fecd52b22dc0faf587888b4a534_1280.jpg",
-          "width": 3000,
-          "height": 1996,
-          "kind": "photo",
-          "alt": "rocket launch, rocket, take off, space shuttle, rocketship, space shuttle launch, nasa launch, space travel, john f kennedy space center, cape canaveral, florida, usa, rocket launch, rocket, rocket, r",
-          "credit": "WikiImages / Pixabay",
-          "license": "Pixabay License",
-          "source_url": "https://pixabay.com/photos/rocket-launch-rocket-take-off-67646/"
+          "pos": "top",
+          "alt": "View of Thermal Vacuum Test Chamber A (with its door closed) in Building 32 at NASA Johnson Space Center.",
+          "credit": "NASA Johnson Space Center / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Thermal_Vacuum_Test_Chamber_A_with_Door_Closed.jpg",
+          "vision_score": 6.0
         }
       ],
       "story": [
@@ -16722,12 +16672,33 @@
           1928,
           1929,
           1930,
-          1931
+          1931,
+          1941,
+          1942,
+          1943
         ],
-        "control_id": 1932,
+        "control_id": 1944,
         "title_prompt_id": 1937,
         "custom_title": "Jóga labda méretű eszköz állt ellen a pokoli hőségnek."
-      }
+      },
+      "image_queries": [
+        "NASA DAVINCI spacecraft",
+        "Venus atmosphere probe",
+        "thermal test chamber",
+        "yoga ball",
+        "extreme heat",
+        "laboratory testing"
+      ],
+      "images_seen": [
+        "https://pixabay.com/get/gfa2950bab9c16aa6e099ccbeb3b6f8c699672a41cabd39a1b8f96bf20fae71cf903986b0aaec22af04caf28a4b4fec31_1280.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1280px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg/1280px-Katherine_Johnson_at_NASA%2C_in_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg/1280px-SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Arrival_of_the_Pioneer_Venus_spacecraft_at_Venus_%28ARC-1978-AC78-0238%29.jpg/1280px-Arrival_of_the_Pioneer_Venus_spacecraft_at_Venus_%28ARC-1978-AC78-0238%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://pixabay.com/get/g872643b9f23d2c70846934fac365b5b361ae9d3049f8df9e1ba39ea0f9a3aca272632fecd52b22dc0faf587888b4a534_1280.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/What%27s_Up_in_the_Solar_System%2C_active_space_probes_2020-04.png/1280px-What%27s_Up_in_the_Solar_System%2C_active_space_probes_2020-04.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/What%27s_Up_in_the_Solar_System%2C_active_space_probes_2020-05.png/1280px-What%27s_Up_in_the_Solar_System%2C_active_space_probes_2020-05.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     }
   ]
 }
