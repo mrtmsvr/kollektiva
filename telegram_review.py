@@ -162,7 +162,7 @@ def _control(art: dict) -> tuple:
                  {"text": "🗑 Törlés" if live else "🗑 Elvetem", "callback_data": f"{sid}|no"}])
     img_txt = f"{ii + 1}. kép" if ii >= 0 and imgs else "nincs kép"
     auto = f" (magától: {AUTO_PUBLISH_MIN} perc)" if MODE == "hybrid" else ""
-    if art.get("hold"):
+    if art.get("hold") or art.get("category") == "bulvar":
         auto = " (magától nem kerül ki)"
     elif art.get("schedule") and MODE == "hybrid":
         auto = f" (magától: legkésőbb {str(art['schedule'].get('deadline', ''))[11:16]})"
@@ -759,7 +759,7 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
         import offtopic
         now_local = datetime.now(tz)
         live_articles = kc.read_json(out_dir / "articles.json", {"articles": []}).get("articles", [])
-        for a in [a for a in pending if not a.get("live") and not a.get("hold")]:
+        for a in [a for a in pending if not a.get("live") and not a.get("hold") and a.get("category") != "bulvar"]:
             if a.get("schedule"):
                 if not offtopic.is_due(a, live_articles, now_local):
                     continue
