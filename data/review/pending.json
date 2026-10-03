@@ -15791,7 +15791,32 @@
         "Itt tart most a kisvárdai politikus nagyszabású korrupciós ügye!"
       ],
       "clickbait_from": 3,
-      "image_options": [],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Peter-Magyar-portrait-2026.jpg/1280px-Peter-Magyar-portrait-2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1599,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "High-resolution, freely reusable close-up portrait of Hungarian politician Péter Magyar, taken on 15 March 2026 during a national day demonstration at Heroes’ Square in Budapest, Hungary. The photogra",
+          "credit": "Norbert Banhalmi / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Peter-Magyar-portrait-2026.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Magyar_P%C3%A9ter_2024._%C3%A1prilis-%C3%A1n.jpg/1280px-Magyar_P%C3%A9ter_2024._%C3%A1prilis-%C3%A1n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Magyar Péter 2024. április-án",
+          "credit": "B. Molnár Béla / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Magyar_P%C3%A9ter_2024._%C3%A1prilis-%C3%A1n.jpg",
+          "vision_score": 10.0
+        }
+      ],
       "story": [
         {
           "title": "„Ne csak a kicsiket büntessék meg, a nagyokat is” – mit gondolnak a kisvárdaiak Seszták Miklósról?",
@@ -15857,14 +15882,26 @@
       "expires_at": null,
       "review": {
         "title": 0,
-        "image": -1,
+        "image": 0,
         "sent_at": "2026-10-03T09:49:18+00:00",
         "msg_ids": [
           2015,
-          2016
+          2016,
+          2030,
+          2031
         ],
-        "control_id": 2017
-      }
+        "control_id": 2032
+      },
+      "image_queries": [
+        "Kisvárda stadium",
+        "Volánbusz bus",
+        "Magyar Péter",
+        "Seszták Miklós",
+        "horse wellness",
+        "luxury spa",
+        "police handcuffs"
+      ],
+      "images_seen": []
     }
   ]
 }
