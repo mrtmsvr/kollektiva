@@ -99,8 +99,9 @@ def upcoming(d: date, horizon: int = 25) -> list:
 
 
 def lead_days(o: dict) -> int:
-    """Ennyi nappal előtte kezdünk róla írni (nagy ünnep: 3 hét, kisebb: 10 nap)."""
-    return 21 if o["major"] else 10
+    """Ennyi nappal előtte tervezzük meg a témákat (nagy ünnep: 3 hét, kisebb: 4 nap – az utóbbiak cikkei aznap vagy
+    előző este jelennek meg)."""
+    return 21 if o["major"] else 4
 
 
 def where_are_we(d: date) -> str:
