@@ -363,7 +363,6 @@
         <ul class="mt-8 space-y-3 text-[15px] text-parch/85">
           <li class="flex gap-3"><span class="text-brass" aria-hidden="true">✓</span>A hét legfontosabb ügyei témánként – itthon, világ, pénz, tudomány – pár mondatban, érthetően</li>
           <li class="flex gap-3"><span class="text-brass" aria-hidden="true">✓</span>A hét száma: egy adat, ami sokat elmond a hétről</li>
-          <li class="flex gap-3"><span class="text-brass" aria-hidden="true">✓</span>Ekkor történt: egy retro sztori a hét napjaiból</li>
           <li class="flex gap-3"><span class="text-brass" aria-hidden="true">✓</span>5 perc olvasás, heti egyszer, spam nélkül</li>
         </ul>
       </div>
@@ -771,13 +770,19 @@ async function loadPoll() {
   $('pollArt').textContent = 'A cikk: ' + poll.article_title; $('pollArt').href = poll.article_url;
   const show = r => {
     const total = r.total || 0;
+    if (total < 100) {  // kevés szavazatból a százalék félrevezető
+      const best = (r.counts || []).reduce((b, c, i, a) => c > a[b] ? i : b, 0);
+      box.innerHTML = `<p class="text-[15px] text-parch sm:col-span-2">${r.voted !== null ? 'Köszi, megkaptuk a szavazatod! ' : ''}${r.closed ? 'Lezárult. A legtöbben ezt választották: <b>' + esc(poll.options[best]) + '</b>' : 'Az eredményt a szavazás lezárulása után mutatjuk.'}</p>`;
+      $('pollMeta').textContent = 'Nem reprezentatív – olvasóink véleménye.';
+      return;
+    }
     box.innerHTML = poll.options.map((o, i) => {
       const pct = total ? Math.round(100 * (r.counts[i] || 0) / total) : 0;
       return `<div class="relative overflow-hidden rounded-xl border ${r.voted === i ? 'border-brass' : 'border-line'} px-4 py-3">
         <div class="absolute inset-y-0 left-0 bg-brass/15" style="width:${pct}%"></div>
         <div class="relative flex justify-between gap-3 text-[15px]"><span>${esc(o)}${r.voted === i ? ' ✓' : ''}</span><b>${pct}%</b></div></div>`;
     }).join('');
-    $('pollMeta').textContent = (total >= 200 ? `${total} szavazat · ` : '') + (r.closed ? 'lezárult' : 'a szavazás nyitva');
+    $('pollMeta').textContent = (total >= 1000 ? `${total} szavazat · ` : '') + (r.closed ? 'lezárult' : 'a szavazás nyitva');
   };
   const ask = () => {
     box.innerHTML = poll.options.map((o, i) =>
