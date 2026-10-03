@@ -12627,6 +12627,717 @@
         "control_id": 2082
       },
       "live": true
+    },
+    {
+      "id": "a20063ce-cf06-5fb2-a509-259c4fbfe748",
+      "slug": "2026-10-03-fiatal-magyar-bankar-vesztette-eletet-egy-kijevi-drontamadasban",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "OTP Bank",
+        "Kijev",
+        "dróntámadás",
+        "orosz-ukrán háború",
+        "tragédia"
+      ],
+      "title": "Fiatal magyar bankár vesztette életét egy kijevi dróntámadásban",
+      "subtitle": null,
+      "lead": "Életét vesztette az OTP Bank Ukraine 26 éves munkatársa egy Kijevet ért orosz dróntámadásban. A tragédia rávilágít arra, hogy a civil lakosságot és a mindennapi infrastruktúrát súlyosan érintik az ukrajnai fegyveres konfliktus mindennapjai.",
+      "key_points": [
+        "Egy orosz drón csapódott be közvetlenül a 26 éves Jelizaveta Devdjuk kijevi lakásának ablakába október 2-án.",
+        "Az áldozat az OTP Bank Ukraine Európejszke nevű fiókjában dolgozott ügyfélszolgálati szakértőként 2022 ősze óta.",
+        "A pénzintézet vezetői és munkatársai megrendüléssel búcsúztak a tehetséges fiatal nőtől, és támogatást ígértek a családjának."
+      ],
+      "content": "Október 2-án halálos kimenetelű dróntámadás érte Kijev Darnickij kerületét, ahol egy lakóépület ablakába csapódott be egy robbanóeszköz. A légitámadás következtében életét vesztette Jelizaveta Devdjuk, az OTP Bank Ukraine 26 éves ügyfélszolgálati szakértője, aki 2022 őszén csatlakozott a pénzintézet ukrajnai csapatához.\n\nA tragikus hírt Kuhárszki András, az OTP Bank digitális banki területének ügyvezető igazgatója hozta nyilvánosságra közösségi oldalán, majd a bank hivatalosan is megerősítette a sajtónak. A munkatársak emlékezete szerint a fiatal nő felelősségteljes, tehetséges és elhivatott szakember volt, akit az ügyfelek és a kollégák is nagyra becsültek.\n\nA fővárost és környékét az elmúlt időszakban sűrűn érték hasonló légicsapások, amelyek az energetikai hálózatot és a polgári infrastruktúrát célozzák. Szeptember végén egy kijevi piaci becsapódás következtében is vesztették el életek, a mostani események pedig a pénzszolgáltató szektor mindennapi működésére is közvetlen, tragikus hatással vannak.",
+      "content_format": "markdown",
+      "body": [
+        "Október 2-án halálos kimenetelű dróntámadás érte Kijev Darnickij kerületét, ahol egy lakóépület ablakába csapódott be egy robbanóeszköz. A légitámadás következtében életét vesztette Jelizaveta Devdjuk, az OTP Bank Ukraine 26 éves ügyfélszolgálati szakértője, aki 2022 őszén csatlakozott a pénzintézet ukrajnai csapatához.",
+        "A tragikus hírt Kuhárszki András, az OTP Bank digitális banki területének ügyvezető igazgatója hozta nyilvánosságra közösségi oldalán, majd a bank hivatalosan is megerősítette a sajtónak. A munkatársak emlékezete szerint a fiatal nő felelősségteljes, tehetséges és elhivatott szakember volt, akit az ügyfelek és a kollégák is nagyra becsültek.",
+        "A fővárost és környékét az elmúlt időszakban sűrűn érték hasonló légicsapások, amelyek az energetikai hálózatot és a polgári infrastruktúrát célozzák. Szeptember végén egy kijevi piaci becsapódás következtében is vesztették el életek, a mostani események pedig a pénzszolgáltató szektor mindennapi működésére is közvetlen, tragikus hatással vannak."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 166,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Kyiv_%28245751127%29.jpeg/1280px-Kyiv_%28245751127%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "500px provided description: ???? ? 14 ????? [#landscape ,#city ,#winter ,#street ,#buildings ,#roof ,#cityscape ,#building ,#day ,#house-top ,#Ukraine ,#Kyiv]",
+        "credit": "Pavel M / Wikimedia Commons",
+        "license": "CC BY 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kyiv_(245751127).jpeg",
+        "vision_score": 5.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.vg.hu/nemzetkozi-gazdasag/2026/10/otp-munkatars-halal-kijev-drontamadas-orosz-haboru?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Tragédia Kijevben: meghalt egy magyar bank fiatal dolgozója az orosz dróntámadásban",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T20:37:19+02:00"
+        },
+        {
+          "url": "https://www.portfolio.hu/global/20261003/orosz-drontamadasban-vesztette-eletet-az-otp-egyik-kijevi-alkalmazottja-867130",
+          "title": "Orosz dróntámadásban vesztette életét az OTP egyik kijevi alkalmazottja",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T20:37:19+02:00"
+        },
+        {
+          "url": "https://www.portfolio.hu/global/20261003/ismet-fontos-hidat-ert-orosz-legicsapas-kijevben-az-ukranok-volgogradnal-talaltak-el-az-egyik-legnagyobb-orosz-olajfinomitot-haborus-hireink-szombaton-867084",
+          "title": "Ismét fontos hidat ért orosz légicsapás Kijevben, az ukránok Volgográdnál találták el az egyik legnagyobb orosz olajfinomítót - Háborús híreink szombaton",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T20:37:19+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 10.15,
+      "title_options": [
+        "Fiatal magyar bankár vesztette életét egy kijevi dróntámadásban",
+        "Drón csapódott be egy kijevi lakásba: meghalt az OTP egyik munkatársa",
+        "Tragédia Kijevben: harminc év alatti magyar bank dolgozó életét követelte a háború",
+        "Otthonában érte a halál az OTP fiatal kijevi munkatársát",
+        "Dróncsapás pusztított Kijevben: életét vesztette a magyar bank munkatársa",
+        "Gyászol a pénzintézet: orosz drón végezte be a fiatal bankár életét"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Kyiv_%28245751127%29.jpeg/1280px-Kyiv_%28245751127%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "500px provided description: ???? ? 14 ????? [#landscape ,#city ,#winter ,#street ,#buildings ,#roof ,#cityscape ,#building ,#day ,#house-top ,#Ukraine ,#Kyiv]",
+          "credit": "Pavel M / Wikimedia Commons",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Kyiv_(245751127).jpeg",
+          "vision_score": 5.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Kyiv_after_Russian_drone_attack%2C_2022-10-17_%2854%29.jpg/1280px-Kyiv_after_Russian_drone_attack%2C_2022-10-17_%2854%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Kyiv after Russian attack with Iranian drones on 17 October 2022. A historical house of late 19th — early 20th century was destroyed, 5 people were killed (articles: 1, 2).",
+          "credit": "Main Directorate of the State Emergency Service of Ukraine in Kyiv / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Kyiv_after_Russian_drone_attack,_2022-10-17_(54).jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Kyiv_after_Russian_drone_attack%2C_2022-10-17_%2884%29.webp/1280px-Kyiv_after_Russian_drone_attack%2C_2022-10-17_%2884%29.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Kyiv after Russian attack with Iranian drones on 17 October 2022. A historical house of late 19th — early 20th century was destroyed, 5 people were killed (articles: 1, 2).",
+          "credit": "Main Directorate of the State Emergency Service of Ukraine in Kyiv / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Kyiv_after_Russian_drone_attack,_2022-10-17_(84).webp",
+          "vision_score": 7.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Tragédia Kijevben: meghalt egy magyar bank fiatal dolgozója az orosz dróntámadásban",
+          "link": "https://www.vg.hu/nemzetkozi-gazdasag/2026/10/otp-munkatars-halal-kijev-drontamadas-orosz-haboru?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "summary": "Az OTP egyik mindössze 26 éves munkatársa vesztette életét.",
+          "source": "vg.hu",
+          "related": null,
+          "hot_score": 10.15
+        },
+        {
+          "title": "Orosz dróntámadásban vesztette életét az OTP egyik kijevi alkalmazottja",
+          "link": "https://www.portfolio.hu/global/20261003/orosz-drontamadasban-vesztette-eletet-az-otp-egyik-kijevi-alkalmazottja-867130",
+          "summary": "Az OTP Bank a Telexnek megerősítette, hogy egy Kijevet ért orosz dróntámadásban meghalt ukrajnai leányvállalatuk egyik alkalmazottja.",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": null
+        },
+        {
+          "title": "Ismét fontos hidat ért orosz légicsapás Kijevben, az ukránok Volgográdnál találták el az egyik legnagyobb orosz olajfinomítót - Háborús híreink szombaton",
+          "link": "https://www.portfolio.hu/global/20261003/ismet-fontos-hidat-ert-orosz-legicsapas-kijevben-az-ukranok-volgogradnal-talaltak-el-az-egyik-legnagyobb-orosz-olajfinomitot-haborus-hireink-szombaton-867084",
+          "summary": "Orosz légicsapás rongálta meg szombatra virradóra a kijevi Északi Hidat, miután a várost napok óta szünet nélkül érik támadások, amelyek az energetikai infrastruktúrát is célozzák. Az ukrán válaszcsapások sem maradnak el: a kelet-európai ország először vetette be éles körülmények között saját fejlesztésű, FP-7 típusú ballisztikus rakétáját, pénteken pedig sikeres támadást hajtott végre az egyik legnagyobb orosz olajfinomítóval szemben Volgográdban. A New York Times által pénteken bemutatott állítólagos orosz terv szerint eközben Putyin akár ezer rakétával és drónnal próbálná megsemmisíteni Ukr",
+          "source": "portfolio.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.vg.hu/nemzetkozi-gazdasag/2026/10/otp-munkatars-halal-kijev-drontamadas-orosz-haboru?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "https://www.portfolio.hu/global/20261003/orosz-drontamadasban-vesztette-eletet-az-otp-egyik-kijevi-alkalmazottja-867130"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/vilag/2026-10-03-fiatal-magyar-bankar-vesztette-eletet-egy-kijevi-drontamadasban/",
+      "seo": {
+        "meta_title": "Fiatal magyar bankár vesztette életét egy kijevi dróntámadás",
+        "meta_description": "Életét vesztette az OTP Bank Ukraine 26 éves munkatársa egy Kijevet ért orosz dróntámadásban. A tragédia rávilágít arra, hogy a civil lakosságot és a mindennapi",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-03-fiatal-magyar-bankar-vesztette-eletet-egy-kijevi-drontamadasban/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Kyiv_%28245751127%29.jpeg/1280px-Kyiv_%28245751127%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "1eaf7f51c9f5f7db3e84d956b26db2804617480bd57c08fae5937a677dbf8901",
+      "pipeline_run_id": "37144852953",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T20:37:19+02:00",
+      "updated_at": "2026-10-03T20:37:19+02:00",
+      "published_at": "2026-10-03T20:37:19+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-03T18:39:02+00:00",
+        "msg_ids": [
+          2094,
+          2095,
+          2096,
+          2097
+        ],
+        "control_id": 2098
+      }
+    },
+    {
+      "id": "cffa745f-1355-5a46-9f47-c2da1d9cc790",
+      "slug": "2026-10-03-ketszaz-meteres-korben-zartak-le-a-margit-sziget-pesti-oldalat-egy-ro",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Margit-sziget",
+        "tűzszerészek",
+        "Budapest",
+        "második világháború",
+        "Magyar Honvédség"
+      ],
+      "title": "Kétszáz méteres körben zárták le a Margit-sziget pesti oldalát egy robbanótest miatt",
+      "subtitle": null,
+      "lead": "Járókelők bukkantak második világháborús robbanótestekre Budapesten, a Margit-szigetnél és a Szabadság hídnál szombaton. A tűzszerészeti munkálatok idejére a rendőrség lezárta és kiürítette az érintett fővárosi területeket.",
+      "key_points": [
+        "A Margit-sziget pesti oldalán egy nyolc centis, sérült gyújtószerkezetű légvédelmi repeszgránátot és három stabilizátorszárnyat találtak.",
+        "A rendőrség a Hajós Alfréd sétány 1. számtól számított kétszáz méteres körzetben zárta le és ürítette ki a területet.",
+        "Ezzel párhuzamosan a Szabadság hídnál is előkerült egy második világháborús páncéltörő lőszer a Duna-parton.",
+        "A katonai tűzszerészek mindkét helyszínről elszállították a veszélyes eszközöket a Magyar Honvédség központi gyűjtőhelyére."
+      ],
+      "content": "Szombaton napközben több fővárosi helyszínen is második világháborús robbanótestekre figyeltek fel a sétálók. A Magyar Honvédség tűzszerészügyeletének tájékoztatása szerint a Margit-sziget pesti oldalán előkerült eszközhöz a rendőrséget riasztották, amely azonnal intézkedett a biztonsági zóna kijelöléséről.\n\nA tűzszerészművelet biztonságos lebonyolítása érdekében a hatóságok a Hajós Alfréd sétány 1. szám körüli területet kétszáz méteres sugarú körben lezárták, valamint kiürítették. A szombat este nyolc órakor kiadott hivatalos összegzés szerint a szakemberek egy sérült gyújtószerkezetű, nyolc centiméteres légvédelmi repeszgránátot, valamint három darab stabilizátorszárnyat találtak a helyszínen, amelyeket a katonák elszállítottak a megsemmisítésük előtt.\n\nEgy másik bejelentés alapján ugyanezen a napon a Szabadság hídtól nagyjából száz méterre, a Duna-parton is előkerült egy második világháborús eszköz. A Duna-parti helyszínen egy páncéltörő lőszert találtak a járókelők, ami miatt a rendőrség ott is száz méteres sugarú körben lezárta a területet, érintve a sétálóutat és egy közelben állomásozó hajót is; az intézkedés ötven embert érintett, akiket felszólítottak a terület elhagyására.\n\nA fővárosi építkezések, part menti munkálatok vagy a Duna alacsonyabb vízállása idején rendszeresen előfordulnak hasonló világháborús robbanótestek. A katonai tűzszerészek a margitszigeti gránátot elszállították, majd megsemmisítik, a Szabadság hídnál talált páncéltörő lőszert pedig a Magyar Honvédség központi gyűjtőhelyére szállították.",
+      "content_format": "markdown",
+      "body": [
+        "Szombaton napközben több fővárosi helyszínen is második világháborús robbanótestekre figyeltek fel a sétálók. A Magyar Honvédség tűzszerészügyeletének tájékoztatása szerint a Margit-sziget pesti oldalán előkerült eszközhöz a rendőrséget riasztották, amely azonnal intézkedett a biztonsági zóna kijelöléséről.",
+        "A tűzszerészművelet biztonságos lebonyolítása érdekében a hatóságok a Hajós Alfréd sétány 1. szám körüli területet kétszáz méteres sugarú körben lezárták, valamint kiürítették. A szombat este nyolc órakor kiadott hivatalos összegzés szerint a szakemberek egy sérült gyújtószerkezetű, nyolc centiméteres légvédelmi repeszgránátot, valamint három darab stabilizátorszárnyat találtak a helyszínen, amelyeket a katonák elszállítottak a megsemmisítésük előtt.",
+        "Egy másik bejelentés alapján ugyanezen a napon a Szabadság hídtól nagyjából száz méterre, a Duna-parton is előkerült egy második világháborús eszköz. A Duna-parti helyszínen egy páncéltörő lőszert találtak a járókelők, ami miatt a rendőrség ott is száz méteres sugarú körben lezárta a területet, érintve a sétálóutat és egy közelben állomásozó hajót is; az intézkedés ötven embert érintett, akiket felszólítottak a terület elhagyására.",
+        "A fővárosi építkezések, part menti munkálatok vagy a Duna alacsonyabb vízállása idején rendszeresen előfordulnak hasonló világháborús robbanótestek. A katonai tűzszerészek a margitszigeti gránátot elszállították, majd megsemmisítik, a Szabadság hídnál talált páncéltörő lőszert pedig a Magyar Honvédség központi gyűjtőhelyére szállították."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 220,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Budapest%2C_Margit-sziget%2C_sz%C3%B6k%C5%91k%C3%BAt.jpg/1280px-Budapest%2C_Margit-sziget%2C_sz%C3%B6k%C5%91k%C3%BAt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Budapest, Margit-sziget, szökőkút",
+        "credit": "Christo / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_Margit-sziget,_sz%C3%B6k%C5%91k%C3%BAt.jpg",
+        "vision_score": 4.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261003_margitsziget-robbanotest-katasztrofavedelem-tuzszereszek",
+          "title": "Robbanótestet találtak a Margit-szigetnél, kiürítették a környéket",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T20:39:19+02:00"
+        },
+        {
+          "url": "https://hvg.hu/itthon/20261003_vilaghaborus-robbanotest-szabadsag-hid",
+          "title": "Világháborús robbanótestet találtak a Szabadság hídnál",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T20:39:19+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.23,
+      "title_options": [
+        "Kétszáz méteres körben zárták le a Margit-sziget pesti oldalát egy robbanótest miatt",
+        "Második világháborús lőszerek kerületek elő szombaton Budapesten",
+        "Tűzszerészek akcióztak a Margit-szigetnél és a Szabadság hídnál",
+        "Nem mindennapi szombat: világháborús fegyverekre bukkantak a fővárosi Duna-parton",
+        "Földből előkerült veszély: lezárták a Margit-sziget egy részét",
+        "Mi került elő a sétálók lába alól a Margit-szigetnél és a Szabadság hídnál?"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Budapest%2C_Margit-sziget%2C_sz%C3%B6k%C5%91k%C3%BAt.jpg/1280px-Budapest%2C_Margit-sziget%2C_sz%C3%B6k%C5%91k%C3%BAt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest, Margit-sziget, szökőkút",
+          "credit": "Christo / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_Margit-sziget,_sz%C3%B6k%C5%91k%C3%BAt.jpg",
+          "vision_score": 4.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/1._Kampfmittelbeseitigungs-_und_Flussflottille-Regiment%2C_Andros_Robot%2C_Tag_der_Feuerwehr%2C_2024_Stadtw%C3%A4ldchen.jpg/1280px-1._Kampfmittelbeseitigungs-_und_Flussflottille-Regiment%2C_Andros_Robot%2C_Tag_der_Feuerwehr%2C_2024_Stadtw%C3%A4ldchen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Hungarian Defense Forces Land Command, 1st Explosive Ordnance Disposal and River Flotilla Regiment, Bomb squad tent  Andros robot, bomb disposal - Photo taken on the 11th National Police and Firefigh",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:1._Kampfmittelbeseitigungs-_und_Flussflottille-Regiment,_Andros_Robot,_Tag_der_Feuerwehr,_2024_Stadtw%C3%A4ldchen.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Ludovika_Festival%2C_Unimog_U_4000%2C_2024_J%C3%B3zsefv%C3%A1ros.jpg/1280px-Ludovika_Festival%2C_Unimog_U_4000%2C_2024_J%C3%B3zsefv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Hungarian Defense Forces Land Command, 1st Explosive Ordnance Disposal and River Flotilla Regiment, Bomb squad Unimog U 4000 military truck. Photo taken on Ludovika Festival of the National Universit",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ludovika_Festival,_Unimog_U_4000,_2024_J%C3%B3zsefv%C3%A1ros.jpg",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Robbanótestet találtak a Margit-szigetnél, kiürítették a környéket",
+          "link": "https://hvg.hu/itthon/20261003_margitsziget-robbanotest-katasztrofavedelem-tuzszereszek",
+          "summary": "Járókelők bukkantak egy vélhetően második világháborús robbanótestre a sziget pesti oldalán.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 6.23
+        },
+        {
+          "title": "Világháborús robbanótestet találtak a Szabadság hídnál",
+          "link": "https://hvg.hu/itthon/20261003_vilaghaborus-robbanotest-szabadsag-hid",
+          "summary": "Az eszközre járókelők találtak rá.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261003_margitsziget-robbanotest-katasztrofavedelem-tuzszereszek",
+          "https://hvg.hu/itthon/20261003_vilaghaborus-robbanotest-szabadsag-hid"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/kozelet/2026-10-03-ketszaz-meteres-korben-zartak-le-a-margit-sziget-pesti-oldalat-egy-ro/",
+      "seo": {
+        "meta_title": "Kétszáz méteres körben zárták le a Margit-sziget pesti oldal",
+        "meta_description": "Járókelők bukkantak második világháborús robbanótestekre Budapesten, a Margit-szigetnél és a Szabadság hídnál szombaton. A tűzszerészeti munkálatok idejére a re",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-03-ketszaz-meteres-korben-zartak-le-a-margit-sziget-pesti-oldalat-egy-ro/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Budapest%2C_Margit-sziget%2C_sz%C3%B6k%C5%91k%C3%BAt.jpg/1280px-Budapest%2C_Margit-sziget%2C_sz%C3%B6k%C5%91k%C3%BAt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "2b94e9ff8afe902f9a00e46a725a535d1faff5848c7f44e36a0ade7e4ce6b362",
+      "pipeline_run_id": "37144852953",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T20:39:19+02:00",
+      "updated_at": "2026-10-03T20:39:19+02:00",
+      "published_at": "2026-10-03T20:39:19+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-03T18:40:42+00:00",
+        "msg_ids": [
+          2099,
+          2100,
+          2101,
+          2102
+        ],
+        "control_id": 2103
+      }
+    },
+    {
+      "id": "e56bff30-a9f8-5892-98d4-3f1bccf2ee89",
+      "slug": "2026-10-03-zold-fennyel-jeloli-a-disney-a-decemberi-marvel-roham-elotti-kotelezo",
+      "status": "pending",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Marvel",
+        "Disney Plus",
+        "Bosszúállók Doomsday",
+        "filmpremier",
+        "streaming"
+      ],
+      "title": "Zöld fénnyel jelöli a Disney a decemberi Marvel-roham előtti kötelező köröket",
+      "subtitle": null,
+      "lead": "A Disney Plus zöld fénnyel és egy külön gyűjteménnyel hangolja a nézőket a decemberi Bosszúállók-film premierjére. A streamingoldal pontosan kijelölte, mely korábbi alkotásokat érdemes újra elővenni az Ítéletnap előtt.",
+      "key_points": [
+        "Zöld keretet kaptak a legfontosabb Marvel-filmek és sorozatok a Disney Pluson.",
+        "A Countdown to Avengers: Doomsday csomag több tucat meghatározó címet gyűjt össze.",
+        "A Bosszúállók: Végjáték szeptember 25-én visszatért a mozikba is Doomsday-extrákkal."
+      ],
+      "content": "Aki az elmúlt napokban belépett a Disney Plus felületére, szokatlan vizuális elemekkel találkozhatott a filmek és sorozatok borítóin. A streamingoldal külön, „Countdown to Avengers: Doomsday” névre keresztelt gyűjteményt hozott létre, amelynek darabjait jellegzetes zöldes fény veszi körül, jelezve azok kiemelt fontosságát a közelgő premierek szempontjából.\n\nA hivatalos válogatásba nemcsak a Marvel-moziverzum korábbi Bosszúállók-fejezetei kerültek be, hanem számos más meghatározó darab is. A nézők az alábbi címekkel készülhetnek a decemberi nagy találkozásra:\n\n- Az első X-Men és az X-Men 2\n\n- Amerika Kapitány: Az első bosszúálló, valamint a Szép új világ\n\n- A Bosszúállók, a Végtelen háború és a Végjáték\n\n- A Loki sorozat és a Shang-Chi és a Tíz Gyűrű legendája\n\n- Pókember: Nincs hazaút és Fekete Párduc: Wakanda, légy áldott\n\n- Deadpool és Rozsomák, valamint a Doctor Strange az őrület multiverzumában\n\n- Mennydörgők* (Az új Bosszúállók) és A Fantasztikus 4-es: Első lépések\n\nNem ez az egyetlen lépés, amellyel a stúdió a mozikba csábítja a közönséget. Szeptember 25-én az Endgame: Encore keretében a mozik műsorára tűzték a Bosszúállók: Végjáték című filmet is, amelynek vetítéseihez kifejezetten a Doomsday-hez kapcsolódó új anyagokat is csatoltak a készítők.\n\nA várt Bosszúállók: Doomsday – amelyet a magyar címekben Ítéletnapként vagy Doctor Doom ébredéseként is emlegetnek – több különböző Marvel-univerzum szereplőit hozza majd össze a vásznon. A háttérből ismerős lehet Fátum Doktor, a képregényekből és a Fantasztikus Négyes történeteiből ismert legendás főellenség, akit Stan Lee és Jack Kirby alkotott meg még 1962 júliusában.",
+      "content_format": "markdown",
+      "body": [
+        "Aki az elmúlt napokban belépett a Disney Plus felületére, szokatlan vizuális elemekkel találkozhatott a filmek és sorozatok borítóin. A streamingoldal külön, „Countdown to Avengers: Doomsday” névre keresztelt gyűjteményt hozott létre, amelynek darabjait jellegzetes zöldes fény veszi körül, jelezve azok kiemelt fontosságát a közelgő premierek szempontjából.",
+        "A hivatalos válogatásba nemcsak a Marvel-moziverzum korábbi Bosszúállók-fejezetei kerültek be, hanem számos más meghatározó darab is. A nézők az alábbi címekkel készülhetnek a decemberi nagy találkozásra:",
+        "- Az első X-Men és az X-Men 2",
+        "- Amerika Kapitány: Az első bosszúálló, valamint a Szép új világ",
+        "- A Bosszúállók, a Végtelen háború és a Végjáték",
+        "- A Loki sorozat és a Shang-Chi és a Tíz Gyűrű legendája",
+        "- Pókember: Nincs hazaút és Fekete Párduc: Wakanda, légy áldott",
+        "- Deadpool és Rozsomák, valamint a Doctor Strange az őrület multiverzumában",
+        "- Mennydörgők* (Az új Bosszúállók) és A Fantasztikus 4-es: Első lépések",
+        "Nem ez az egyetlen lépés, amellyel a stúdió a mozikba csábítja a közönséget. Szeptember 25-én az Endgame: Encore keretében a mozik műsorára tűzték a Bosszúállók: Végjáték című filmet is, amelynek vetítéseihez kifejezetten a Doomsday-hez kapcsolódó új anyagokat is csatoltak a készítők.",
+        "A várt Bosszúállók: Doomsday – amelyet a magyar címekben Ítéletnapként vagy Doctor Doom ébredéseként is emlegetnek – több különböző Marvel-univerzum szereplőit hozza majd össze a vásznon. A háttérből ismerős lehet Fátum Doktor, a képregényekből és a Fantasztikus Négyes történeteiből ismert legendás főellenség, akit Stan Lee és Jack Kirby alkotott meg még 1962 júliusában."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 267,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Avengers_Doomsday_Logo.png/1280px-Avengers_Doomsday_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 500,
+        "kind": "graphic",
+        "pos": "center",
+        "alt": "Logo de Avengers Doomsday.",
+        "credit": "Marvel / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Avengers_Doomsday_Logo.png",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/filmklikk/marvel-doomsday-filmek-iteletnap-doctor-doom-ebredese-amiket-meg-kell-nezni-elotte/dtk8l32",
+          "title": "A Marvel már készül a Doomsdayre, a Disney Plus pedig mutatja, mit nézz meg az Ítéletnap, avagy a Doctor Doom ébredése előtt",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T20:40:58+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Zöld fénnyel jelöli a Disney a decemberi Marvel-roham előtti kötelező köröket",
+        "Ítéletnap előtt zöld utat kaptak a klasszikus Marvel-filmek a Disney Pluson",
+        "Decemberben érkezik a Bosszúállók legújabb fejezete, de addig is zöld lámpa ég a képernyőkön",
+        "Ilyen még nem volt a Disney Pluson: zöld fény jelezi a legfontosabb Marvel-filmeket",
+        "Ezt a filmcsomagot nézd meg december 18. előtt, ha érteni akarod a Doctor Doomot",
+        "Titokzatos zöld jelzések bukkantak fel a Disney Plus kínálatában"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Avengers_Doomsday_Logo.png/1280px-Avengers_Doomsday_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 500,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Logo de Avengers Doomsday.",
+          "credit": "Marvel / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Avengers_Doomsday_Logo.png",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Oggetti_del_Marvel_Cinematic_Universe_esposti_a_Levante_For_2024%2C_Bari.jpg/1280px-Oggetti_del_Marvel_Cinematic_Universe_esposti_a_Levante_For_2024%2C_Bari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "oggetti del Marvel Cinematic Universe esposti a Levante For 2024, Bari",
+          "credit": "Mickey83 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Oggetti_del_Marvel_Cinematic_Universe_esposti_a_Levante_For_2024,_Bari.jpg",
+          "vision_score": 6.0
+        }
+      ],
+      "story": [
+        {
+          "title": "A Marvel már készül a Doomsdayre, a Disney Plus pedig mutatja, mit nézz meg az Ítéletnap, avagy a Doctor Doom ébredése előtt",
+          "link": "https://www.blikk.hu/sztarvilag/filmklikk/marvel-doomsday-filmek-iteletnap-doctor-doom-ebredese-amiket-meg-kell-nezni-elotte/dtk8l32",
+          "summary": "Ha valaki mostanában belépett a Disney Plusra, könnyen lehet, hogy feltűnt neki valami szokatlan. Bizonyos Marvel-filmek és sorozatok kiemelést kaptak, a borítóik körül pedig zöldes fény jelzi, hogy ezek most valamiért fontosabbak a többinél. Nem véletlenül: a szolgáltató külön „Countdown to Avengers: Doomsday” gyűjteményt is létrehozott, vagyis a Marvel már konkrétan összeállította a nézőknek azt a csomagot, amellyel rá lehet hangolódni és vissza lehet számolni a decemberben érkező új Bosszúállók-film premierjéig.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/filmklikk/marvel-doomsday-filmek-iteletnap-doctor-doom-ebredese-amiket-meg-kell-nezni-elotte/dtk8l32"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/kultura/2026-10-03-zold-fennyel-jeloli-a-disney-a-decemberi-marvel-roham-elotti-kotelezo/",
+      "seo": {
+        "meta_title": "Zöld fénnyel jelöli a Disney a decemberi Marvel-roham előtti",
+        "meta_description": "A Disney Plus zöld fénnyel és egy külön gyűjteménnyel hangolja a nézőket a decemberi Bosszúállók-film premierjére. A streamingoldal pontosan kijelölte, mely kor",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-03-zold-fennyel-jeloli-a-disney-a-decemberi-marvel-roham-elotti-kotelezo/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Avengers_Doomsday_Logo.png/1280px-Avengers_Doomsday_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "966a6003beb9e6e6acbdafff184ad4eff2f3ea31a14e70886fbe5773ffe3ad42",
+      "pipeline_run_id": "37144852953",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T20:40:58+02:00",
+      "updated_at": "2026-10-03T20:40:58+02:00",
+      "published_at": "2026-10-03T20:40:58+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-03T18:41:51+00:00",
+        "msg_ids": [
+          2104,
+          2105,
+          2106
+        ],
+        "control_id": 2107
+      }
+    },
+    {
+      "id": "5b0a3a86-b62f-5b98-b57e-5e0ef180e5f7",
+      "slug": "2026-10-03-az-elso-olyan-felho-amely-mar-a-nato-nak-is-eleg-biztonsagos",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "Amazon Web Services",
+        "NATO",
+        "felhőszolgáltatás",
+        "kiberbiztonság",
+        "technológia"
+      ],
+      "title": "Az első olyan felhő, amely már a NATO-nak is elég biztonságos",
+      "subtitle": null,
+      "lead": "Teljes körű katonai minősítést kapott az Amazon Web Services felhőszolgáltató a NATO-tól, így a rendszer már a szigorúan védett adatok tárolására is használható a szövetség területén. Az új szabvány jelentősen felgyorsíthatja a védelmi szféra digitális átállását, és csökkentheti a bürokratikus terheket.",
+      "key_points": [
+        "Az Amazon Web Services elsőként kapta meg a NATO Restricted akkreditációt a felhőszolgáltatók közül.",
+        "A minősítés a katonai szövetség valamennyi tagállamára kiterjed.",
+        "A rendszerek a spanyol Nemzeti Kriptográfiai Központ értékelése alapján feleltek meg a D32 műszaki irányelvnek."
+      ],
+      "content": "Történelmi mérföldkőhöz érkezett a katonai szövetség informatikája, miután az Amazon Web Services – az Amazon internetes alapú, hatalmas számítási kapacitást nyújtó szolgáltatása – megszerezte a NATO Restricted szintű információk kezelését lehetővé tevő akkreditációt. Ezzel a globális techóriás lett az első olyan felhőszolgáltató a piacon, amely a szövetség valamennyi tagállamára kiterjedő jóváhagyással bír a minősített adatok tárolására.\n\nA mindössze néhány éve még elképzelhetetlennek tűnő lépés alapvetően változtatja meg a védelmi szektor működését. A Nemzeti Kriptográfiai Központ spanyolországi szervezete alaposan átvizsgálta a technológiát, és igazolta, hogy az megfelel a NATO D32 jelzésű műszaki irányelvének, amely a nyilvános felhőben történő kezelés biztonsági követelményeit határozza meg.\n\nA gyakorlatban az egységes tanúsítvány megszerzése azt jelenti, hogy az egyes tagországoknak nem kell külön-külön, hosszú és költséges vizsgálatokat lefolytatniuk a saját nemzeti rendszereikben. Az AWS infrastruktúrája jelenleg globálisan több mint 15 ezer kormányzati intézménynek nyújt digitális hátteret, és a friss minősítés révén a katonai szervezetek is könnyebben csatlakozhatnak a modern technológiai megoldásokhoz.",
+      "content_format": "markdown",
+      "body": [
+        "Történelmi mérföldkőhöz érkezett a katonai szövetség informatikája, miután az Amazon Web Services – az Amazon internetes alapú, hatalmas számítási kapacitást nyújtó szolgáltatása – megszerezte a NATO Restricted szintű információk kezelését lehetővé tevő akkreditációt. Ezzel a globális techóriás lett az első olyan felhőszolgáltató a piacon, amely a szövetség valamennyi tagállamára kiterjedő jóváhagyással bír a minősített adatok tárolására.",
+        "A mindössze néhány éve még elképzelhetetlennek tűnő lépés alapvetően változtatja meg a védelmi szektor működését. A Nemzeti Kriptográfiai Központ spanyolországi szervezete alaposan átvizsgálta a technológiát, és igazolta, hogy az megfelel a NATO D32 jelzésű műszaki irányelvének, amely a nyilvános felhőben történő kezelés biztonsági követelményeit határozza meg.",
+        "A gyakorlatban az egységes tanúsítvány megszerzése azt jelenti, hogy az egyes tagországoknak nem kell külön-külön, hosszú és költséges vizsgálatokat lefolytatniuk a saját nemzeti rendszereikben. Az AWS infrastruktúrája jelenleg globálisan több mint 15 ezer kormányzati intézménynek nyújt digitális hátteret, és a friss minősítés révén a katonai szervezetek is könnyebben csatlakozhatnak a modern technológiai megoldásokhoz."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 196,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/New_HQ_NATO_7.jpg/1280px-New_HQ_NATO_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "NATO Headquarters in Brussels.",
+        "credit": "Swadim / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:New_HQ_NATO_7.jpg",
+        "vision_score": 9.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261003_aws-adatkozpontok-nato-akkreditacio",
+          "title": "Itt az első NATO-biztos felhő",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T20:42:07+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.85,
+      "title_options": [
+        "Az első olyan felhő, amely már a NATO-nak is elég biztonságos",
+        "Amazon-siker: megvan a katonai szövetség első hivatalos felhője",
+        "Titkos adatok a neten: zöld utat kapott a NATO új rendszere",
+        "Mostantól bárhol használhatják a legféltettebb katonai adatokat a felhőben",
+        "Minden eddigi biztonsági akadályt elhárított az Amazon a katonai szövetségben",
+        "Olyan minősítést kapott a techóriás, amilyenre eddig még nem volt példa"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/New_HQ_NATO_7.jpg/1280px-New_HQ_NATO_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "NATO Headquarters in Brussels.",
+          "credit": "Swadim / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:New_HQ_NATO_7.jpg",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Brussels_NATO_Headquarters.jpg/1280px-Brussels_NATO_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 642,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "NATO Headquarters in Brussels.",
+          "credit": "Ad Meskens / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Brussels_NATO_Headquarters.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/gbef1c2bf178be090c26841bc46f0a64f3a26969c3f02f1c36ebbe79062560b716bf684a2cb0389146bc77ad376c4c639842cd7b3693b36fbbddff7d832ff93a2_1280.jpg",
+          "width": 4000,
+          "height": 1400,
+          "kind": "photo",
+          "alt": "server, space, the server room, dark, led, shining, mystical, template, artificially, neon, gray, basement, cellar, fog, flash, hardware, computer, data, to process, coloured, garish, tube, cold, ligh",
+          "credit": "Schäferle / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/server-space-the-server-room-dark-2160321/",
+          "vision_score": 6.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Itt az első NATO-biztos felhő",
+          "link": "https://hvg.hu/tudomany/20261003_aws-adatkozpontok-nato-akkreditacio",
+          "summary": "A NATO valamennyi tagállamára kiterjedő NATO Restricted (NR) akkreditációt kapott az Amazon Web Services (AWS) felhőszolgáltató. Az érintett szolgáltatások így már minősített információk kezelésére is használhatók a NATO-tagállamokban működő AWS-régiókban. A vállalat szerint a döntés a védelmi szektor felhőhasználatát is felgyorsíthatja.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.85
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261003_aws-adatkozpontok-nato-akkreditacio"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/tech/2026-10-03-az-elso-olyan-felho-amely-mar-a-nato-nak-is-eleg-biztonsagos/",
+      "seo": {
+        "meta_title": "Az első olyan felhő, amely már a NATO-nak is elég biztonságo",
+        "meta_description": "Teljes körű katonai minősítést kapott az Amazon Web Services felhőszolgáltató a NATO-tól, így a rendszer már a szigorúan védett adatok tárolására is használható",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-03-az-elso-olyan-felho-amely-mar-a-nato-nak-is-eleg-biztonsagos/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/New_HQ_NATO_7.jpg/1280px-New_HQ_NATO_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "48d61e44cc240f643db965ec1d6a042ea6fb5dd07761ad8fd95823388adde05e",
+      "pipeline_run_id": "37144852953",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T20:42:07+02:00",
+      "updated_at": "2026-10-03T20:42:07+02:00",
+      "published_at": "2026-10-03T20:42:07+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-03T18:42:56+00:00",
+        "msg_ids": [
+          2108,
+          2109,
+          2110,
+          2111
+        ],
+        "control_id": 2112
+      }
     }
   ]
 }
