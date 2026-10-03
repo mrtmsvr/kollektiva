@@ -445,14 +445,19 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                                                           [a.get("review", {}).get("control_id"),
                                                            a.get("review", {}).get("title_prompt_id")])), None)
                 is_title = art and (rep == art["review"].get("title_prompt_id") or re.match(r"(?i)cím\s*:", text))
-                if art and not is_title and re.search(r"(?i)\bk[eé]p", text):
-                    hint = re.sub(r"(?i)^\s*k[eé]p(ek)?\s*:\s*", "", text)[:120]
+                if art and not is_title and re.match(r"(?i)\s*k[eé]p(ek|et)?\b\s*:?", text):
+                    hint = re.sub(r"(?i)^\s*k[eé]p(ek|et)?\s*:?\s*", "", text)[:120]
                     note = _refresh_images(st["chat_id"], art, ai, hint)
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": f"🔄 {note}.", "reply_to_message_id": m["message_id"]})
                 elif art and not is_title:
+                    # nem egyértelmű (nincs „cím:” / „kép:” előtag): rákérdezünk két gombbal
+                    st.setdefault("choices", {})[str(m["message_id"])] = {"aid": art["id"], "text": text[:140]}
+                    st["choices"] = dict(list(st["choices"].items())[-20:])
                     tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": m["message_id"],
-                                       "text": "Ezt nem állítottam be címnek. Saját cím: ✏️ gomb (vagy „cím: …”); "
-                                               "más képek: 🔄 gomb (vagy „kép: mit keressek”)."})
+                                       "text": f"Mi legyen ezzel: „{text[:140]}”?",
+                                       "reply_markup": {"inline_keyboard": [[
+                                           {"text": "✏️ Legyen ez a cím", "callback_data": f"ch|t|{m['message_id']}"},
+                                           {"text": "🖼 Képet keressek erre", "callback_data": f"ch|i|{m['message_id']}"}]]}})
                 elif art:
                     text = re.sub(r"(?i)^\s*cím\s*:\s*", "", text).strip()
                     art["review"]["custom_title"] = text[:140]
@@ -527,6 +532,27 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                     published += 1
                 tg("editMessageText", {"chat_id": st["chat_id"], "message_id": q["message"]["message_id"],
                                        "text": "🗑 A szavazás lekerült az oldalról (1–2 perc)."})
+                tg("answerCallbackQuery", {"callback_query_id": q["id"]})
+                continue
+            if parts[0] == "ch" and len(parts) == 3:
+                c = st.get("choices", {}).pop(parts[2], None)
+                art = c and next((a for a in pending if a["id"] == c["aid"]), None)
+                msg_id = q["message"]["message_id"]
+                if not art:
+                    tg("editMessageText", {"chat_id": st["chat_id"], "message_id": msg_id, "text": "Ez a cikk már nincs függőben."})
+                elif parts[1] == "t":
+                    art["review"]["custom_title"] = c["text"]
+                    _refresh_control(st["chat_id"], art)
+                    if art.get("live"):
+                        _apply_live(out_dir, art, tz)
+                        published += 1
+                    tg("editMessageText", {"chat_id": st["chat_id"], "message_id": msg_id, "text": f"✏️ Cím beállítva: {c['text']}"})
+                else:
+                    tg("editMessageText", {"chat_id": st["chat_id"], "message_id": msg_id, "text": f"🖼 Képet keresek: {c['text']}…"})
+                    tg("answerCallbackQuery", {"callback_query_id": q["id"]})
+                    note = _refresh_images(st["chat_id"], art, ai, c["text"][:120])
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": f"🔄 {note}."})
+                    continue
                 tg("answerCallbackQuery", {"callback_query_id": q["id"]})
                 continue
             if parts[0] == "del":
