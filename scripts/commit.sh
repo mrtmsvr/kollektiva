@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Kollektíva robot – mentés és feltöltés a Cloudflare build-keret figyelésével.
-# Havi keret: BUILD_BUDGET (alap 470 a 500-ból), a hónap napjaira egyenletesen elosztva. Ha elfogyott a
+# Havi keret: BUILD_BUDGET (alap 470 a 500-ból); a még megmaradt buildek a hónap hátralévő napjaira elosztva. Ha elfogyott a
 # mai rész, a változás elmentődik [CF-Pages-Skip]-pel, és a következő szabad alkalommal kerül ki az oldalra.
 # Két kirakás között legalább MIN_DEPLOY_GAP_MIN perc (alap 8), hogy a sok gombnyomás ne egyenként építsen.
 set -u
@@ -17,15 +17,18 @@ if [ "$site_changed" = 1 ] || [ -f "$FLAG" ]; then
   day=$(date -u +%-d)
   dim=$(date -u -d "$month_start +1 month -1 day" +%-d)
   used=$(git log HEAD --since="${month_start}T00:00:00Z" --format=%s | grep -vc 'CF-Pages-Skip' || true)
-  allowed=$(( ${BUILD_BUDGET:-470} * day / dim ))
+  bot_today=$(git log HEAD --since="$(date -u +%F)T00:00:00Z" --author='kollektiva-bot' --format=%s | grep -vc 'CF-Pages-Skip' || true)
+  left=$(( dim - day + 1 ))
+  # a havi keretből még megmaradt buildek egyenletesen elosztva a hónap hátralévő napjaira (csak a robot mai kirakásai számítanak)
+  allowed=$(( (${BUILD_BUDGET:-470} - ${used:-0} + ${bot_today:-0}) / left ))
   last=$(git log HEAD -1 --format=%ct --invert-grep --grep='CF-Pages-Skip' 2>/dev/null || echo 0)
   gap=$(( $(date +%s) - ${last:-0} ))
   if [ "$gap" -lt $(( ${MIN_DEPLOY_GAP_MIN:-8} * 60 )) ]; then
     echo "Az előző kirakás óta csak ${gap} mp telt el – ez a változás a következő körrel kerül ki."; touch "$FLAG"
-  elif [ "${used:-0}" -lt "$allowed" ]; then
+  elif [ "${bot_today:-0}" -lt "$allowed" ] && [ "${used:-0}" -lt "${BUILD_BUDGET:-470}" ]; then
     deploy=1; rm -f "$FLAG"
   else
-    echo "Build-keret: ${used}/${allowed} – a változás később kerül ki."; touch "$FLAG"
+    echo "Build-keret: ma ${bot_today}/${allowed} (hónap: ${used}/${BUILD_BUDGET:-470}) – a változás később kerül ki."; touch "$FLAG"
   fi
   git add -A data/
 fi
