@@ -1,5 +1,5 @@
 {
-  "offset": 391604213,
+  "offset": 391604214,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -25,7 +25,8 @@
     "https://hu.wikipedia.org/wiki/V%C3%A9csey_K%C3%A1roly",
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/szendro-peter-a-legjobb-ajanlat-modellkedes-epitesz/r01rhhb",
     "https://hvg.hu/itthon/20261002_rendorseg-bantalmazas-budapest-plaza",
-    "https://hvg.hu/vilag/20261003_marcin-romanowski-lengyel-birosag-menlevel"
+    "https://hvg.hu/vilag/20261003_marcin-romanowski-lengyel-birosag-menlevel",
+    "https://www.blikk.hu/sztarvilag/nemzetkozi-sztarok/mi-tortent-a-68-eves-madonna-testevel-a-vma-szinpadan/33efzbt"
   ],
   "usage_warned": "2026-10-03"
 }
