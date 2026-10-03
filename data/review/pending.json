@@ -15781,6 +15781,922 @@
         "control_id": 1921
       },
       "live": true
+    },
+    {
+      "id": "adb46f56-26e4-5df1-91ca-9dc163920c07",
+      "slug": "2026-10-03-a-volt-szerb-elnok-az-utolso-pillanatban-orban-helyett-ficot-valaszto",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Szerbia",
+        "Alekszandar Vucsics",
+        "Orbán Viktor",
+        "Robert Fico",
+        "választások"
+      ],
+      "title": "A volt szerb elnök az utolsó pillanatban Orbán helyett Ficót választotta",
+      "subtitle": null,
+      "lead": "Az elnöki tisztségéről nemrég lemondott Alekszandar Vucsics szombat este Belgrádban tart választási nagygyűlést, ahol az eredetileg várt magyar vendég helyett végül Robert Fico szlovák miniszterelnök lép fel. A HVG belgrádi forrásai szerint a változás hátterében az áll, hogy Pozsonyban az utolsó pillanatban elhárult a kormányválság.",
+      "key_points": [
+        "A Hvg.hu információi szerint Vucsics a szombat esti nagygyűlésre Orbán Viktort is meghívta.",
+        "Miután a szlovák kormányválság elhárult, Robert Fico mégis vállalta az utat, így ő lett a rendezvény fő vendége.",
+        "A legfrissebb közvélemény-kutatások szerint az egyetemi diákok mozgalma vezeti a népszerűségi rangsort Szerbiában."
+      ],
+      "content": "Szombat este Belgrádban tart választási nagygyűlést Alekszandar Vucsics, aki múlt vasárnap mondott le az elnöki tisztségről, hogy egy előrehozott választáson ismét miniszterelnök lehessen.\n\nA HVG belgrádi forrásai szerint a nagygyűlésre külföldi meglepetésvendéget hívtak, és egy ideig úgy tűnt, a felszólaló Orbán Viktor volt miniszterelnök lesz. A volt szerb elnök eredetileg Robert Ficót kérte fel, ám miután néhány napja kis híján felbomlott a pozsonyi kormánykoalíció, a szlovák miniszterelnök jelezte, hogy nem tud elutazni. Vucsics emiatt szerdán Orbán Viktort kereste meg, aki igent mondott a felkérésre.\n\nA helyzet azonban az utolsó pillanatban megváltozott: Ficóéknak sikerült elhárítaniuk a válságot, így a pozsonyi kormányfő közölte, hogy mégis ellátogat Belgrádba. A hirtelen fordulat miatt egyelőre bizonytalan, hogy a volt magyar miniszterelnök elutazik-e Szerbiába, de az már bizonyos, hogy a nagygyűlés fő vendége Fico lesz.",
+      "content_format": "markdown",
+      "body": [
+        "Szombat este Belgrádban tart választási nagygyűlést Alekszandar Vucsics, aki múlt vasárnap mondott le az elnöki tisztségről, hogy egy előrehozott választáson ismét miniszterelnök lehessen.",
+        "A HVG belgrádi forrásai szerint a nagygyűlésre külföldi meglepetésvendéget hívtak, és egy ideig úgy tűnt, a felszólaló Orbán Viktor volt miniszterelnök lesz. A volt szerb elnök eredetileg Robert Ficót kérte fel, ám miután néhány napja kis híján felbomlott a pozsonyi kormánykoalíció, a szlovák miniszterelnök jelezte, hogy nem tud elutazni. Vucsics emiatt szerdán Orbán Viktort kereste meg, aki igent mondott a felkérésre.",
+        "A helyzet azonban az utolsó pillanatban megváltozott: Ficóéknak sikerült elhárítaniuk a válságot, így a pozsonyi kormányfő közölte, hogy mégis ellátogat Belgrádba. A hirtelen fordulat miatt egyelőre bizonytalan, hogy a volt magyar miniszterelnök elutazik-e Szerbiába, de az már bizonyos, hogy a nagygyűlés fő vendége Fico lesz."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 175,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Aleksandar_Vu%C4%8Di%C4%87_%282024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1598,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Serbian Prime Minister Miloš Vučević, German Chancellor Olaf Scholz, Serbian President Aleksandar Vučić and Maroš Šefčovič, Executive Vice-President of the European Commission for the European Green D",
+        "credit": "Oliver Bunic - European Commission / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aleksandar_Vu%C4%8Di%C4%87_(2024).jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/360/20261003_alekszandar-vucsics-orban-viktor-nagygyules-robert-fico",
+          "title": "A volt szerb elnök lecserélte Orbán Viktort",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T09:42:33+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.84,
+      "title_options": [
+        "A volt szerb elnök az utolsó pillanatban Orbán helyett Ficót választotta",
+        "Belgrádi nagygyűlés: Orbán helyett mégis Fico érkezik",
+        "Megmenekült a pozsonyi koalíció, oda az Orbán-féle szerb kampányszerep",
+        "Nem fogod elhinni, ki váltotta fel Orbánt a szerb kampányfinisben!",
+        "Az utolsó pillanatban tették lapátra a magyar kormányfőt Belgrádban?",
+        "Drámai fordulat a szerb választás előtt: ez mindenkit meglepett!"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Aleksandar_Vu%C4%8Di%C4%87_%282024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1598,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Serbian Prime Minister Miloš Vučević, German Chancellor Olaf Scholz, Serbian President Aleksandar Vučić and Maroš Šefčovič, Executive Vice-President of the European Commission for the European Green D",
+          "credit": "Oliver Bunic - European Commission / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Aleksandar_Vu%C4%8Di%C4%87_(2024).jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Aleksandar_Vu%C4%8Di%C4%87_2019_%28cropped%29.jpg/1280px-Aleksandar_Vu%C4%8Di%C4%87_2019_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1599,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Aleksandar Vučić in 2019",
+          "credit": "duma.gov.ru / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Aleksandar_Vu%C4%8Di%C4%87_2019_(cropped).jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Robert_Fico%2C_Nov_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1643,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Visit of Robert Fico, Slovak Prime Minister, to the European Commission",
+          "credit": "European Commission (Lukasz Kobus) / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Robert_Fico,_Nov_2023.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Robert_fico_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1800,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Portrait of Prime Minister Robert Fico",
+          "credit": "Samsvk / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Robert_fico_portrait.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Church_of_Saint_Sava_%28Belgrade%2C_Serbia%29.jpg/1280px-Church_of_Saint_Sava_%28Belgrade%2C_Serbia%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Church of Saint Sava (Belgrade, Serbia) with the monument to Karađorđe, leader of first Serbian uprising against the Turks",
+          "credit": "Petar Milošević / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Church_of_Saint_Sava_(Belgrade,_Serbia).jpg",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "A volt szerb elnök lecserélte Orbán Viktort",
+          "link": "https://hvg.hu/360/20261003_alekszandar-vucsics-orban-viktor-nagygyules-robert-fico",
+          "summary": "Szombat este Belgrádban tart választási nagygyűlést az elnöki tisztségről nemrég lemondott Alekszandar Vucsics. A gyűlésre külföldi „meglepetésvendéget” is hívtak, egy ideig úgy tűnt, hogy a fellépő Orbán Viktor volt miniszterelnök lesz, ám a legújabb hírek szerint mégis egy hivatalban lévő kormányfőre, Robert Ficóra esett a választás.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.84
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/360/20261003_alekszandar-vucsics-orban-viktor-nagygyules-robert-fico"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/vilag/2026-10-03-a-volt-szerb-elnok-az-utolso-pillanatban-orban-helyett-ficot-valaszto/",
+      "seo": {
+        "meta_title": "A volt szerb elnök az utolsó pillanatban Orbán helyett Ficót",
+        "meta_description": "Az elnöki tisztségéről nemrég lemondott Alekszandar Vucsics szombat este Belgrádban tart választási nagygyűlést, ahol az eredetileg várt magyar vendég helyett v",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-03-a-volt-szerb-elnok-az-utolso-pillanatban-orban-helyett-ficot-valaszto/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Aleksandar_Vu%C4%8Di%C4%87_%282024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "665c74d3d3c19919f89d11b8e9be734b618b0842ec5bf063f232b2eb763bc796",
+      "pipeline_run_id": "37107224089",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T09:42:33+02:00",
+      "updated_at": "2026-10-03T09:42:33+02:00",
+      "published_at": "2026-10-03T09:42:33+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 1,
+        "image": 0,
+        "sent_at": "2026-10-03T07:43:48+00:00",
+        "msg_ids": [
+          1950,
+          1951,
+          1952,
+          1953,
+          1954,
+          1955
+        ],
+        "control_id": 1956
+      }
+    },
+    {
+      "id": "c36d7945-7dc5-50ec-89f7-7ef6d261ecd8",
+      "slug": "2026-10-03-hetvegen-dol-el-az-arresstop-sorsa-kisvarda-utan",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Magyar Péter",
+        "árrésstop",
+        "kormányülés",
+        "gazdaság",
+        "elszámoltatás"
+      ],
+      "title": "Hétvégén dől el az árrésstop sorsa Kisvárda után",
+      "subtitle": null,
+      "lead": "Egész hétvégén Erdőbényén ülésezik a kormány, ahol a miniszterelnök bejelentése szerint napirendre kerül az árrésstop esetleges kivezetése. Az intézkedés sorsáról a kialakult piaci feszültségek és a kedvező inflációs környezet miatt döntenek.",
+      "key_points": [
+        "A kormány egész hétvégén kihelyezett ülést tart Erdőbényén.",
+        "A miniszterelnök pénteki kisvárdai bejelentése alapján megfontolják az árrésstop kivezetését.",
+        "A döntést az 1,7 százalékos infláció és a piaci szereplők jelzései indokolják.",
+        "A Miniszterelnökség feljelentést tett egy közpénz-ügyben, miközben a Századvég létszámleépítésbe kezdett."
+      ],
+      "content": "Magyar Péter miniszterelnök péntek este Kisvárdán jelölte ki a gazdasági viták új irányát, amikor arról beszélt, hogy az eredetileg az áremelkedések fékezésére bevezetett árrésstop mára többet árt, mint amennyit használ. A kormányfő szerint az intézkedés nehéz helyzetbe hozta a hazai agráriumot – különösen az alacsony felvásárlási árak miatt nehézséggel küzdő almatermesztőket –, miközben a kiskereskedelmi láncok a veszteségek csökkentése érdekében olcsóbb, külföldi termékeket hoznak be.\n\nA Portfolio beszámolója szerint a kabinet egész hétvégén Erdőbényén tanácskozik, ahol a minisztertársak beszámolói mellett dönthetnek az élelmiszeripari szereplőkkel és a kereskedelmi láncokkal egyeztetett lépésekről. Kármán András pénzügyminiszter videós nyilatkozatában hozzátette, hogy a szegénység enyhítésére megnégyszerezték a nyugdíjminimumot, valamint csökkentették a tűzifa és a gyógyszerek áfáját.\n\nA gazdasági témák mellett a belpolitikai elszámoltatási eljárások is folytatódnak: a Miniszterelnökség feljelentést tett az Alapjogokért Központot működtető cég ellen 410 millió forintnyi közpénz miatt, a Századvég pedig elvesztette állami megbízásait, így létszámleépítésbe kezdett.",
+      "content_format": "markdown",
+      "body": [
+        "Magyar Péter miniszterelnök péntek este Kisvárdán jelölte ki a gazdasági viták új irányát, amikor arról beszélt, hogy az eredetileg az áremelkedések fékezésére bevezetett árrésstop mára többet árt, mint amennyit használ. A kormányfő szerint az intézkedés nehéz helyzetbe hozta a hazai agráriumot – különösen az alacsony felvásárlási árak miatt nehézséggel küzdő almatermesztőket –, miközben a kiskereskedelmi láncok a veszteségek csökkentése érdekében olcsóbb, külföldi termékeket hoznak be.",
+        "A Portfolio beszámolója szerint a kabinet egész hétvégén Erdőbényén tanácskozik, ahol a minisztertársak beszámolói mellett dönthetnek az élelmiszeripari szereplőkkel és a kereskedelmi láncokkal egyeztetett lépésekről. Kármán András pénzügyminiszter videós nyilatkozatában hozzátette, hogy a szegénység enyhítésére megnégyszerezték a nyugdíjminimumot, valamint csökkentették a tűzifa és a gyógyszerek áfáját.",
+        "A gazdasági témák mellett a belpolitikai elszámoltatási eljárások is folytatódnak: a Miniszterelnökség feljelentést tett az Alapjogokért Központot működtető cég ellen 410 millió forintnyi közpénz miatt, a Századvég pedig elvesztette állami megbízásait, így létszámleépítésbe kezdett."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 174,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG/1280px-Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Erdőbénye, látkép",
+        "credit": "Zerind / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Erd%C5%91b%C3%A9nye,_l%C3%A1tk%C3%A9p.JPG",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261003/tisza-kormany-egesz-hetvegen-ulesezik-a-kormany-fontolora-veszik-az-arresstop-kivezeteset-867082",
+          "title": "Tisza-kormány: egész hétvégén ülésezik a kormány, fontolóra veszik az árrésstop kivezetését",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T09:44:04+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/arresstop-kivezetese-magyar-peter-lidl-tesco-kisboltok?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Megtörtént, erre várt a Tisza-kormánytól a Lidl, az Aldi, a Tesco és a Spar: Magyar Péter hatalmas bejelentést tett a boltoknak, készülhetnek a vásárlók – küszöbön az árrésstop kivezetése",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T09:44:04+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 7.0,
+      "title_options": [
+        "Hétvégén dől el az árrésstop sorsa Kisvárda után",
+        "Új gazdasági fejezet: még a hétvégén kivezethetik az árrésstopot",
+        "Megfontolják az árrésstop kivezetését a kormányülésen",
+        "Itt a bejelentés: erre vártak a boltok, azonnal reagálnak a vásárlók?",
+        "Ezt nem hagyják annyiban: egész hétvégén erről egyeztet a kormány",
+        "Vége az árrésstopnak? Hatalmas fordulat jöhet a boltokban"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG/1280px-Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Erdőbénye, látkép",
+          "credit": "Zerind / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Erd%C5%91b%C3%A9nye,_l%C3%A1tk%C3%A9p.JPG",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Tisza-kormány: egész hétvégén ülésezik a kormány, fontolóra veszik az árrésstop kivezetését",
+          "link": "https://www.portfolio.hu/gazdasag/20261003/tisza-kormany-egesz-hetvegen-ulesezik-a-kormany-fontolora-veszik-az-arresstop-kivezeteset-867082",
+          "summary": "Egész hétvégén ülésezik a kormány, amely után több fontos bejelentés is várható, akár az árrésstop kivezetéséről is. A kormányfő péntek este Kisvárdán arról beszélt, hogy megfontolják az intézkedés kivezetését, mivel már többet árt, mint amennyit használ. Újabb fejlemények érkeztek eközben közben az elszámoltatási eljárásokról is: a Miniszterelnökség feljelentést tett az Alapjogokért Központot működtető cég ellen 410 millió forintnyi közpénz miatt, a Századvég pedig elvesztette állami megbízásait és létszámleépítésbe kezdett.",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 7.0
+        },
+        {
+          "title": "Megtörtént, erre várt a Tisza-kormánytól a Lidl, az Aldi, a Tesco és a Spar: Magyar Péter hatalmas bejelentést tett a boltoknak, készülhetnek a vásárlók – küszöbön az árrésstop kivezetése",
+          "link": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/arresstop-kivezetese-magyar-peter-lidl-tesco-kisboltok?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "summary": "A miniszterelnök az 1,7 százalékos inflációra és több élelmiszer árának csökkenésére hivatkozva azt mondta, meg kell fontolni az árrésstop kivezetését.",
+          "source": "vg.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261003/tisza-kormany-egesz-hetvegen-ulesezik-a-kormany-fontolora-veszik-az-arresstop-kivezeteset-867082"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/kozelet/2026-10-03-hetvegen-dol-el-az-arresstop-sorsa-kisvarda-utan/",
+      "seo": {
+        "meta_title": "Hétvégén dől el az árrésstop sorsa Kisvárda után",
+        "meta_description": "Egész hétvégén Erdőbényén ülésezik a kormány, ahol a miniszterelnök bejelentése szerint napirendre kerül az árrésstop esetleges kivezetése. Az intézkedés sorsár",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-03-hetvegen-dol-el-az-arresstop-sorsa-kisvarda-utan/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG/1280px-Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "e9bdfa62-6d8e-5e5b-816b-1e893208b382",
+        "0a162dd3-459c-542a-a0e7-22ccba6d1ab0"
+      ],
+      "see_also": [
+        {
+          "title": "Magyar Péter az árrésstop kivezetését sürgeti",
+          "url": "/penzvilag/2026-10-02-magyar-peter-az-arresstop-kivezeteset-surgeti/",
+          "date": "2026-10-02"
+        },
+        {
+          "title": "Ezért ültették le a fideszes exminisztert?",
+          "url": "/kozelet/2026-10-02-ezert-ultettek-le-a-fideszes-exminisztert/",
+          "date": "2026-10-02"
+        }
+      ],
+      "thread_id": "47814d47-fabd-5006-a676-0af9c4384d79",
+      "dedupe_hash": "0c72c9181491e9d46687fb9c526ca3675067bd0cd81655d50d5fbacb50ef7a8a",
+      "pipeline_run_id": "37107224089",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T09:44:04+02:00",
+      "updated_at": "2026-10-03T09:44:04+02:00",
+      "published_at": "2026-10-03T09:44:04+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-03T07:44:54+00:00",
+        "msg_ids": [
+          1957,
+          1958
+        ],
+        "control_id": 1959
+      }
+    },
+    {
+      "id": "9e2d733a-018d-573e-9161-224c3e35b882",
+      "slug": "2026-10-03-a-postas-is-tudja-ebbol-keresett-jol-a-felfedezo",
+      "status": "pending",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Szendrő Péter",
+        "A legjobb ajánlat",
+        "RTL",
+        "építész",
+        "bulvár"
+      ],
+      "title": "A postás is tudja: ebből keresett jól a Felfedező",
+      "subtitle": null,
+      "lead": "Dr. Szendrő Péter építészmérnök, akit az RTL műtárgykereső show-jának Felfedezőjeként ismertek meg a nézők, korábban divatmodellként egészítette ki az ösztöndíját. A Blikk beszámolója szerint a rendszeres tévés szereplés mellett a múltjának is köszönheti jelenlegi ismertségét.",
+      "key_points": [
+        "Szendrő Pétert egy éve ismerte meg az ország az RTL műsorából.",
+        "Egyetemistaként divat- és sportmárkák arcaként, valamint kifutókon modellkedett.",
+        "Közel ötven budapesti vendéglátóhelyet tervezett, saját stúdiója is van.",
+        "Szabadidejében előszeretettel gyűjt youngtimer autókat és retró tárgyakat."
+      ],
+      "content": "Dr. Szendrő Péter építészmérnök és belsőépítész egy éve robbant be a köztudatba az RTL A legjobb ajánlat című műsorának Felfedezőjeként. A hivatását tekintve nem véletlen a választása, hiszen édesanyja, Font Erzsébet szintén építészmérnök, édesapja pedig gépészmérnök, így a családi indíttatás alapvetően határozta meg a pályáját. A képernyős jelenlét mára teljesen áthatja a mindennapjait: mint azt a Blikknek elmesélte, egy temetésen a sírásó és a virágos is felismerte, a postás pedig azóta rendszeresen a műsor címével köszönti.\n\nA mérnöki pálya mellett Péter korábban más területen też kipróbálta magát. Egyetemista évei alatt divat- és sportmárkák felkérésére modellkedett, reklámfilmekben és kifutókon szerepelt. Ebből a munkából származó jövedelméből finanszírozta utazásait, a nyelvtanulást és a sporteszközeit, mielőtt végleg a tervezőasztal mellett kötött volna ki.\n\nA tervezés és a televíziós szereplések mellett szenvedélyes gyűjtő is: előszeretettel keresi a huszadik század második felének tárgyait, youngtimer autókat, motorokat és órákat. A retró tárgyak iránti rajongása még gyerekkorából ered, amikor szüleivel rendszeresen járt bolhapiacokra.",
+      "content_format": "markdown",
+      "body": [
+        "Dr. Szendrő Péter építészmérnök és belsőépítész egy éve robbant be a köztudatba az RTL A legjobb ajánlat című műsorának Felfedezőjeként. A hivatását tekintve nem véletlen a választása, hiszen édesanyja, Font Erzsébet szintén építészmérnök, édesapja pedig gépészmérnök, így a családi indíttatás alapvetően határozta meg a pályáját. A képernyős jelenlét mára teljesen áthatja a mindennapjait: mint azt a Blikknek elmesélte, egy temetésen a sírásó és a virágos is felismerte, a postás pedig azóta rendszeresen a műsor címével köszönti.",
+        "A mérnöki pálya mellett Péter korábban más területen też kipróbálta magát. Egyetemista évei alatt divat- és sportmárkák felkérésére modellkedett, reklámfilmekben és kifutókon szerepelt. Ebből a munkából származó jövedelméből finanszírozta utazásait, a nyelvtanulást és a sporteszközeit, mielőtt végleg a tervezőasztal mellett kötött volna ki.",
+        "A tervezés és a televíziós szereplések mellett szenvedélyes gyűjtő is: előszeretettel keresi a huszadik század második felének tárgyait, youngtimer autókat, motorokat és órákat. A retró tárgyak iránti rajongása még gyerekkorából ered, amikor szüleivel rendszeresen járt bolhapiacokra."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 191,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/szendro-peter-a-legjobb-ajanlat-modellkedes-epitesz/r01rhhb",
+          "title": "Nem fogja kitalálni, miből élt A legjobb ajánlat Felfedezője, Szendrő Péter: durván jól keresett ezzel a munkával",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T09:45:09+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Én ezt párhuzamos univerzumként élem meg, mert az ismerőseim nagy része keveset néz tévét, akik meg néznek, azok sem nagyon szokták mondani, hogy láttak.",
+        "who": "Dr. Szendrő Péter, építész, az RTL Felfedezője",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.92,
+      "title_options": [
+        "A postás is tudja: ebből keresett jól a Felfedező",
+        "A sírásó is felismerte a képernyőről az RTL sztárját",
+        "Nem esett messze az alma: építészektől tanult a tévés",
+        "Elképesztő, mit csinált egyetemistaként a legújabb tévés felfedezett!",
+        "Nem hiszed el, milyen becenévvel köszönti a postás a képernyős sztárt!",
+        "Ebből a brutálisan jól fizető munkából indult a népszerű építész karrierje"
+      ],
+      "clickbait_from": 3,
+      "image_options": [],
+      "story": [
+        {
+          "title": "Nem fogja kitalálni, miből élt A legjobb ajánlat Felfedezője, Szendrő Péter: durván jól keresett ezzel a munkával",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/szendro-peter-a-legjobb-ajanlat-modellkedes-epitesz/r01rhhb",
+          "summary": "Dr. Szendrő Pétert egy éve ismerte meg a nagyérdemű az RTL A legjobb ajánlat Felfedezőjeként. Az építészmérnök, belsőépítész szakmaválasztása koránt sem a véletlen műve, hiszen édesanyja is építész, aki Péter stúdiójának névválasztását is inspirálta. A mindig humoros, szenvedélyes gyűjtő számára újdonság, hogy naponta szerepel a tévében, de ez nem megterhelő számára.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 5.92
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/szendro-peter-a-legjobb-ajanlat-modellkedes-epitesz/r01rhhb"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/bulvar/2026-10-03-a-postas-is-tudja-ebbol-keresett-jol-a-felfedezo/",
+      "seo": {
+        "meta_title": "A postás is tudja: ebből keresett jól a Felfedező",
+        "meta_description": "Dr. Szendrő Péter építészmérnök, akit az RTL műtárgykereső show-jának Felfedezőjeként ismertek meg a nézők, korábban divatmodellként egészítette ki az ösztöndíj",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-03-a-postas-is-tudja-ebbol-keresett-jol-a-felfedezo/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "8e2adef94d0b8aa807a4f07916eb906f29d72828496993187a29d11208ac440a",
+      "pipeline_run_id": "37107224089",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T09:45:09+02:00",
+      "updated_at": "2026-10-03T09:45:09+02:00",
+      "published_at": "2026-10-03T09:45:09+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": -1,
+        "sent_at": "2026-10-03T07:45:59+00:00",
+        "msg_ids": [
+          1960,
+          1961
+        ],
+        "control_id": 1962
+      }
+    },
+    {
+      "id": "773443b0-446e-58e0-ab6a-ccec1ea04bc7",
+      "slug": "2026-10-03-az-ozempic-tronfosztoja-lehet-az-uj-zsiregeto-molekula",
+      "status": "pending",
+      "category": "eletmod",
+      "subcategory": null,
+      "tags": [
+        "egészség",
+        "fogyás",
+        "kutatás",
+        "anyagcsere",
+        "orvostudomány"
+      ],
+      "title": "Az Ozempic trónfosztója lehet az új zsírégető molekula",
+      "subtitle": null,
+      "lead": "Amerikai kutatók egy új, TOFA nevű vegyületet teszteltek egereken, amely közvetlenül a sejtek energiatermelését fokozva égeti a zsírt. Az új módszer nemcsak a túlsúly, de a zsírmáj ellen is hatásosnak bizonyult az állatkísérletekben.",
+      "key_points": [
+        "A szemaglutid hatóanyagú Ozempic sikeres, ám olyan mellékhatásokkal jár, mint az izomvesztés vagy a visszahízás.",
+        "Az új TOFA molekula a sejteken belül blokkolja a zsírelőállító enzimeket, és serkenti az energiafelhasználást.",
+        "A hím egereken végzett kísérletekben 18 százalékkal nőtt az energiafelhasználás, miközben az izomtömeg megmaradt.",
+        "A vegyület a vércukorszintet is rendezte, és mérsékelte a zsírmájbetegség tüneteit."
+      ],
+      "content": "A szemaglutid hatóanyagú Ozempic világszerte komoly áttörést hozott a fogyókúrázóknak, ám a kezelés gyakran kellemetlen kísérőjelenségekkel – például izomvesztéssel, gyomorproblémákkal és a szer elhagyása utáni visszahízással – jár. Ezen a téren hozhat áttörést egy amerikai kutatócsoport által vizsgált új hatóanyag, amely teljesen más mechanizmussal avatkozik be az anyagcserébe.\n\nA TOFA (5-tetradeciloxi-2-furosav) nevű multifunkcionális kis molekula nem az étvágyat csökkentő agyi központokra hat, hanem közvetlenül a sejtekben avatkozik be. Egyrészt blokkolja azokat az enzimeket, amelyeket a szervezet a zsír előállításához használ, így visszafogja az új zsír termelődését; másrészt aktivál olyan molekuláris kapcsolókat, amelyek a zsír energiatermeléséért felelős géneket szabályozzák.\n\nA hím egereken végzett tesztek során a TOFA-t szájon át, naponta kétszer adagolták, ami egy százkilós ember esetében nagyjából napi 500 és 1600 milligramm közötti dózisnak felelne meg. A speciális anyagcsere-kamrákban vizsgált állatok szobahőmérsékleten és meleg környezetben is több energiát égettek el kezeletlen társaiknál, energiafelhasználásuk pedig körülbelül 18 százalékkal nőtt anélkül, hogy testhőmérsékletük veszélyesen megemelkedett volna.\n\nA laboratóriumi eredmények azt is mutatták, hogy a vegyület kedvezően befolyásolta a vércukorszintet, valamint négy hét alatt jelentősen csökkentette a májzsírt, a gyulladásos markereket és a hegesedést a kifejezetten májbetegséget kiváltó étrenden tartott egereknél. Amikor a TOFA-t meglévő készítményekkel kombinálták a 24 napos kísérletben, a zsírtömeg csökkenése még kifejezettebbé vált, miközben az izomtömeg minden esetben sértetlen maradt.\n\nBár az eddigi laboratóriumi tapasztalatok rendkívül biztatóak, a szakemberek hangsúlyozzák, hogy a humán tesztek még hátravannak, és az állatkísérletes eredmények nem ültethetők át automatikusan az emberi szervezetre.",
+      "content_format": "markdown",
+      "body": [
+        "A szemaglutid hatóanyagú Ozempic világszerte komoly áttörést hozott a fogyókúrázóknak, ám a kezelés gyakran kellemetlen kísérőjelenségekkel – például izomvesztéssel, gyomorproblémákkal és a szer elhagyása utáni visszahízással – jár. Ezen a téren hozhat áttörést egy amerikai kutatócsoport által vizsgált új hatóanyag, amely teljesen más mechanizmussal avatkozik be az anyagcserébe.",
+        "A TOFA (5-tetradeciloxi-2-furosav) nevű multifunkcionális kis molekula nem az étvágyat csökkentő agyi központokra hat, hanem közvetlenül a sejtekben avatkozik be. Egyrészt blokkolja azokat az enzimeket, amelyeket a szervezet a zsír előállításához használ, így visszafogja az új zsír termelődését; másrészt aktivál olyan molekuláris kapcsolókat, amelyek a zsír energiatermeléséért felelős géneket szabályozzák.",
+        "A hím egereken végzett tesztek során a TOFA-t szájon át, naponta kétszer adagolták, ami egy százkilós ember esetében nagyjából napi 500 és 1600 milligramm közötti dózisnak felelne meg. A speciális anyagcsere-kamrákban vizsgált állatok szobahőmérsékleten és meleg környezetben is több energiát égettek el kezeletlen társaiknál, energiafelhasználásuk pedig körülbelül 18 százalékkal nőtt anélkül, hogy testhőmérsékletük veszélyesen megemelkedett volna.",
+        "A laboratóriumi eredmények azt is mutatták, hogy a vegyület kedvezően befolyásolta a vércukorszintet, valamint négy hét alatt jelentősen csökkentette a májzsírt, a gyulladásos markereket és a hegesedést a kifejezetten májbetegséget kiváltó étrenden tartott egereknél. Amikor a TOFA-t meglévő készítményekkel kombinálták a 24 napos kísérletben, a zsírtömeg csökkenése még kifejezettebbé vált, miközben az izomtömeg minden esetben sértetlen maradt.",
+        "Bár az eddigi laboratóriumi tapasztalatok rendkívül biztatóak, a szakemberek hangsúlyozzák, hogy a humán tesztek még hátravannak, és az állatkísérletes eredmények nem ültethetők át automatikusan az emberi szervezetre."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 275,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Lab_mouse_mg_3263.jpg/1280px-Lab_mouse_mg_3263.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Laboratory mouse",
+        "credit": "Rama / Wikimedia Commons",
+        "license": "CC BY-SA 2.0 fr",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Lab_mouse_mg_3263.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261003_tofa-igeretes-allatkiserletek-egy-uj-molekula-ozempic-kivaltasa",
+          "title": "Az Ozempic lassan már boomer, a TOFA lesz az új fogyasztó csodaszer?",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T09:46:40+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.87,
+      "title_options": [
+        "Az Ozempic trónfosztója lehet az új zsírégető molekula",
+        "Komoly kihívót kapott az elhízás elleni csodaszer",
+        "Nem az agyat csapja be: így működik a legújabb fogyasztási módszer",
+        "Ezt a molekulát vizsgálják most a kutatók az Ozempic helyett!",
+        "Elképesztő eredményeket hozott a kísérleti zsírégető szer!",
+        "Vége a jojó-effektusnak? Új korszak jöhet a fogyásban!"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Lab_mouse_mg_3263.jpg/1280px-Lab_mouse_mg_3263.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Laboratory mouse",
+          "credit": "Rama / Wikimedia Commons",
+          "license": "CC BY-SA 2.0 fr",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Lab_mouse_mg_3263.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Researcher_holding_a_lab_mouse_-_Crimean_Federal_University_-_ANDY7392.jpg/1280px-Researcher_holding_a_lab_mouse_-_Crimean_Federal_University_-_ANDY7392.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1801,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Students of the V.I. Vernadsky Crimean Federal University carry out experiments on laboratory mice",
+          "credit": "Andrey Chernogorodov / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Researcher_holding_a_lab_mouse_-_Crimean_Federal_University_-_ANDY7392.jpg",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://pixabay.com/get/gd8629242a3cde7fad2b63c057bf68c3522fb094914022defe8abf99ff4cb420763eef11320653ef9be05505830757cfa4ab231e8bca4c01d777f777432a2c6ce_1280.jpg",
+          "width": 5443,
+          "height": 3629,
+          "kind": "photo",
+          "alt": "analysis, biochemistry, biologist, biology, biotechnology, chemistry, clinic, clinical, equipment, experiment, laboratory devices, laboratory, lenses, medical, medicine, microbiology, microscope, opti",
+          "credit": "Kost9n4 / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/analysis-biochemistry-biologist-2030265/",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Az Ozempic lassan már boomer, a TOFA lesz az új fogyasztó csodaszer?",
+          "link": "https://hvg.hu/tudomany/20261003_tofa-igeretes-allatkiserletek-egy-uj-molekula-ozempic-kivaltasa",
+          "summary": "Igazi sikertörténet a szemaglutid hatóanyagú Ozempicé, azonban most feltűnt egy ígéretes alternatíva, kevesebb mellékhatással, igaz, egyelőre még csak állatkísérletekben. A TOFA nevű vegyület más elven működik, másképpen hat a szervezetben, de hatékonyabbnak tűnik korábbi társánál. Egy kicsit azért még várni kell rá, hogy biztonságosnak ítéljék.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.87
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261003_tofa-igeretes-allatkiserletek-egy-uj-molekula-ozempic-kivaltasa"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/eletmod/2026-10-03-az-ozempic-tronfosztoja-lehet-az-uj-zsiregeto-molekula/",
+      "seo": {
+        "meta_title": "Az Ozempic trónfosztója lehet az új zsírégető molekula",
+        "meta_description": "Amerikai kutatók egy új, TOFA nevű vegyületet teszteltek egereken, amely közvetlenül a sejtek energiatermelését fokozva égeti a zsírt. Az új módszer nemcsak a t",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-03-az-ozempic-tronfosztoja-lehet-az-uj-zsiregeto-molekula/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Lab_mouse_mg_3263.jpg/1280px-Lab_mouse_mg_3263.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "c009ece8ab5156b4a9a11b5ebdf515eb7edbf113fa6215cb920bba5591aa933a",
+      "pipeline_run_id": "37107224089",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T09:46:40+02:00",
+      "updated_at": "2026-10-03T09:46:40+02:00",
+      "published_at": "2026-10-03T09:46:40+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-03T07:47:28+00:00",
+        "msg_ids": [
+          1963,
+          1964,
+          1965,
+          1966
+        ],
+        "control_id": 1967
+      }
+    },
+    {
+      "id": "e871c76a-85ad-5de0-9923-1f779c9844be",
+      "slug": "2026-10-03-ot-meglepo-teny-az-aradi-vertanukrol",
+      "status": "pending",
+      "category": "kultura",
+      "subcategory": "olvasnivalo",
+      "tags": [
+        "aradi vértanúk",
+        "1848",
+        "magyar történelem",
+        "október 6",
+        "szabadságharc"
+      ],
+      "title": "Öt meglepő tény az aradi vértanúkról",
+      "subtitle": null,
+      "lead": "Október 6-a a magyar nemzeti gyásznap, ám a tizenhárom honvédtiszt tragédiája sokkal összetettebb történetet rejt, mint amit a tankönyvekből megszoktunk. A korabeli dokumentumok és kutatások olyan részleteket tárnak fel, amelyek árnyalják a jól ismert emlékezetet.",
+      "key_points": [
+        "A nemzeti emlékezet tizenhárom vértanút őrzött meg, holott a szabadságharc végén tizenhatan voltak.",
+        "A fegyverletétel helyszíne tudatos diplomáciai üzenet volt a győztes nagyhatalmak felé.",
+        "Nem mindenkit ítéltek kötél általi halálra: négyen kegyelemből golyó általi kivégzést kaptak.",
+        "Vécsey Károly születési helyét és dátumát is évtizedekig tévesen őrizték a levéltárak."
+      ],
+      "content": "## A tizenhatból lett tizenhárom tiszt\n\nA köztudatban szilárdan él az aradi tizenhármak képe, ám a történeti valóság ennél árnyaltabb. Bár ezen honvédtisztek száma tizenhat, a nemzeti emlékezet elsősorban az 1849. október 6-án kivégzett tizenhárom honvédtisztet nevezi így. A tisztek mindegyike aktív vagy az osztrák Császári-Királyi Hadseregből kilépett katonatiszt volt, akik a szabadságharc végén altábornagyi, vezérőrnagyi vagy ezredesi rendfokozatot viseltek. Lázár Vilmos ezredest például azért sorolták a tábornokok közé, mert önálló seregtestet irányított, noha a győztesek egyikük tábornoki rendfokozatát sem ismerték el hivatalosan. A vértanúk között Kiss Ernő honvéd altábornagy volt a rangidős, aki korábban császári ezredesként szolgált, míg a többiek alacsonyabb tiszti fokozatokat viseltek a közös hadseregben.\n\nUgyanezen a napon végezték ki Pesten az első felelős magyar miniszterelnököt, Batthyány Lajost is. Az időzítés nem a véletlen műve volt: szándékosan az 1848-as harmadik bécsi forradalom és Theodor Baillet von Latour császári hadügyminiszter meggyilkolásának első évfordulójára időzítették a kivégzéseket, hogy ezzel is jelezzék a szabadságharc végleges vérbe fojtását.\n\n## A fegyverletétel, ami provokációnak számított\n\nA magyar sereg Világos közelében, a várostól mintegy tizenöt kilométerre északra fekvő csigérszőllősi mezőn tette le a fegyvert az orosz csapatoknak. Görgey Artúr lovassági tábornok vezérkari főnökével, Frolov tábornokkal tárgyalta meg a fegyverletétel pontos idejét és körülményeit, amely augusztus 13-án, délután 3 órakor történt meg Pankotán túl, a Csiger-patak mentén. Ez a lépés komoly diplomáciai sértés volt a császári oldal számára.\n\n- Ha a császári csapatoknak adják meg magukat, annak üzenete a szabadságharc feltétel nélküli megadása lett volna.\n- Az oroszok előtti fegyverletétel ezzel szemben azt üzente, hogy két nagyhatalom fegyveres erejével szemben egyszerűen nem lehetett tovább folytatni a harcot.\n- Ivan Fjodorovics Paszkevics orosz fővezér augusztus 16-án mégis megbocsátásra biztatta Ferenc Józsefet egy levélben.\n\nAz osztrák minisztertanács azonban másként döntött: augusztus 27-ei határozatukban Julius Jacob von Haynau táborszernagyra bírták a legvétkesebbek kijelölését. Miután az oroszok – korábbi ígéretüket megszegve – átadták a foglyokat, az osztrákok a katonákat megillető golyó általi halál helyett kötél általi halált írtak elő a tábornokok számára.\n\n## Kegyelem golyó által és egy különleges hangfelvétel\n\nA hadbíróságot Karl Ernst törzshadbíró vezette, az ítéleteket pedig Haynaúnak kellett jóváhagynia. Valamennyi tábornokot kötél általi halálra ítélték – még azt a Dessewffy Arisztidot is, akinek korábban szabad elvonulást ígértek. Haynau azonban négy halálra ítélt büntetését különleges kegyelemből a katonához méltó lőpor és golyó általi halálra változtatta.\n\nKiss Ernő altábornagy azért részesült ebben, mert a szabadságharc alatt ténylegesen nem harcolt a császári haderő ellen; Dessewffy Arisztid és Lázár Vilmos a császári csapatok előtt tette le a fegyvert; Schweidel József pedig azért kapta ezt a kegyelmet, mert a schwechati csatán kívül adminisztratív feladatokat látott el, ráadásul Pest városparancsnokaként jó szolgálatot tett a fegyverbe vert osztrák tiszteknek.\n\nAz aradi emlékezés kultúrtörténeti szempontból is tartogat érdekességeket. Az 1890. október 6-i aradi megemlékezésen a torinói száműzetésben élő Kossuth Lajos hangját is hallhatta a közönség. Egy fonográfhengerekre rögzített ünnepi beszédet juttattak el Aradra, amelyben Kossuth ezeket a sorokat mondta: „…nem borúlhatok le a magyar Golgota porába…”.\n\n## Rejtélyek Vécsey Károly származása körül\n\nA vértanúk sorában kiemelt helyet foglal el gróf Vécsey Károly honvéd vezérőrnagy, akinek életrajza máig tartogat levéltári rejtélyeket. Bár a lexikonok és történelemkönyvek hosszú ideig úgy tartották, hogy Pesten született 1807 és 1809 között, a születési bejegyzése egyik pesti plébánián sem volt fellelhető. Egy bécsi hadmérnöki akadémiáról szóló monográfia adott új nyomot, amely szerint Vécsey az oroszországi Rzeczniówban látta meg a napvilágot 1803. november 24-én.\n\nA helyi római katolikus plébániahivatal anyakönyvében végül megtalálták az eredeti bejegyzést, amely megcáfolta a korábbi évtizedek téves adatait. Gyermekkorát Solton és Feleden töltötte, ahol leginkább német és szlovák hatások érték, hiszen édesanyja nem beszélt magyarul, apja is csak ritkán. Családi háttere ellenére a Theresianumban tanult, majd a császári sereg után a honvéd huszárok kiváló parancsnoka lett, katonai kötelességét pedig végig pontosan teljesítette.\n\n## Milyen arcot mutattak a halál árnyékában?\n\nAz ítélethirdetés pillanatairól hiteles szemtanúi beszámolók maradtak fenn. Gáspár András tábornok, akit tíz év várfogságra ítéltek (és aki később kegyelmet kapva magas kort ért meg), így emlékezett vissza társai magatartására: „Olyan büszkén fogadták a halálos ítéletet, mintha csupa dicséretet olvastak volna fel előttük. A kihallgatásoknál, amikor még remélték, hogy javítanak sorsukon, talán szelídeknek mutatkoztak, de most…”\n\nEz a méltóság és a katonai fegyelem határozta meg a tizenhárom vértanú utolsó óráit. Az 1849. október 6-án meghozott ítéletek végrehajtása olyan történelmi sebet ejtett a nemzeten, amely az évtizedek múlásával is a magyar kollektív emlékezet meghatározó részévé vált. A száraz tények mögött meghúzódó emberi sorsok ma is arra emlékeztetnek, hogy a szabadságért hozott áldozatokat nem a legendák, hanem a dokumentált valóság tartja fenn.",
+      "content_format": "markdown",
+      "body": [
+        "## A tizenhatból lett tizenhárom tiszt",
+        "A köztudatban szilárdan él az aradi tizenhármak képe, ám a történeti valóság ennél árnyaltabb. Bár ezen honvédtisztek száma tizenhat, a nemzeti emlékezet elsősorban az 1849. október 6-án kivégzett tizenhárom honvédtisztet nevezi így. A tisztek mindegyike aktív vagy az osztrák Császári-Királyi Hadseregből kilépett katonatiszt volt, akik a szabadságharc végén altábornagyi, vezérőrnagyi vagy ezredesi rendfokozatot viseltek. Lázár Vilmos ezredest például azért sorolták a tábornokok közé, mert önálló seregtestet irányított, noha a győztesek egyikük tábornoki rendfokozatát sem ismerték el hivatalosan. A vértanúk között Kiss Ernő honvéd altábornagy volt a rangidős, aki korábban császári ezredesként szolgált, míg a többiek alacsonyabb tiszti fokozatokat viseltek a közös hadseregben.",
+        "Ugyanezen a napon végezték ki Pesten az első felelős magyar miniszterelnököt, Batthyány Lajost is. Az időzítés nem a véletlen műve volt: szándékosan az 1848-as harmadik bécsi forradalom és Theodor Baillet von Latour császári hadügyminiszter meggyilkolásának első évfordulójára időzítették a kivégzéseket, hogy ezzel is jelezzék a szabadságharc végleges vérbe fojtását.",
+        "## A fegyverletétel, ami provokációnak számított",
+        "A magyar sereg Világos közelében, a várostól mintegy tizenöt kilométerre északra fekvő csigérszőllősi mezőn tette le a fegyvert az orosz csapatoknak. Görgey Artúr lovassági tábornok vezérkari főnökével, Frolov tábornokkal tárgyalta meg a fegyverletétel pontos idejét és körülményeit, amely augusztus 13-án, délután 3 órakor történt meg Pankotán túl, a Csiger-patak mentén. Ez a lépés komoly diplomáciai sértés volt a császári oldal számára.",
+        "- Ha a császári csapatoknak adják meg magukat, annak üzenete a szabadságharc feltétel nélküli megadása lett volna.\n- Az oroszok előtti fegyverletétel ezzel szemben azt üzente, hogy két nagyhatalom fegyveres erejével szemben egyszerűen nem lehetett tovább folytatni a harcot.\n- Ivan Fjodorovics Paszkevics orosz fővezér augusztus 16-án mégis megbocsátásra biztatta Ferenc Józsefet egy levélben.",
+        "Az osztrák minisztertanács azonban másként döntött: augusztus 27-ei határozatukban Julius Jacob von Haynau táborszernagyra bírták a legvétkesebbek kijelölését. Miután az oroszok – korábbi ígéretüket megszegve – átadták a foglyokat, az osztrákok a katonákat megillető golyó általi halál helyett kötél általi halált írtak elő a tábornokok számára.",
+        "## Kegyelem golyó által és egy különleges hangfelvétel",
+        "A hadbíróságot Karl Ernst törzshadbíró vezette, az ítéleteket pedig Haynaúnak kellett jóváhagynia. Valamennyi tábornokot kötél általi halálra ítélték – még azt a Dessewffy Arisztidot is, akinek korábban szabad elvonulást ígértek. Haynau azonban négy halálra ítélt büntetését különleges kegyelemből a katonához méltó lőpor és golyó általi halálra változtatta.",
+        "Kiss Ernő altábornagy azért részesült ebben, mert a szabadságharc alatt ténylegesen nem harcolt a császári haderő ellen; Dessewffy Arisztid és Lázár Vilmos a császári csapatok előtt tette le a fegyvert; Schweidel József pedig azért kapta ezt a kegyelmet, mert a schwechati csatán kívül adminisztratív feladatokat látott el, ráadásul Pest városparancsnokaként jó szolgálatot tett a fegyverbe vert osztrák tiszteknek.",
+        "Az aradi emlékezés kultúrtörténeti szempontból is tartogat érdekességeket. Az 1890. október 6-i aradi megemlékezésen a torinói száműzetésben élő Kossuth Lajos hangját is hallhatta a közönség. Egy fonográfhengerekre rögzített ünnepi beszédet juttattak el Aradra, amelyben Kossuth ezeket a sorokat mondta: „…nem borúlhatok le a magyar Golgota porába…”.",
+        "## Rejtélyek Vécsey Károly származása körül",
+        "A vértanúk sorában kiemelt helyet foglal el gróf Vécsey Károly honvéd vezérőrnagy, akinek életrajza máig tartogat levéltári rejtélyeket. Bár a lexikonok és történelemkönyvek hosszú ideig úgy tartották, hogy Pesten született 1807 és 1809 között, a születési bejegyzése egyik pesti plébánián sem volt fellelhető. Egy bécsi hadmérnöki akadémiáról szóló monográfia adott új nyomot, amely szerint Vécsey az oroszországi Rzeczniówban látta meg a napvilágot 1803. november 24-én.",
+        "A helyi római katolikus plébániahivatal anyakönyvében végül megtalálták az eredeti bejegyzést, amely megcáfolta a korábbi évtizedek téves adatait. Gyermekkorát Solton és Feleden töltötte, ahol leginkább német és szlovák hatások érték, hiszen édesanyja nem beszélt magyarul, apja is csak ritkán. Családi háttere ellenére a Theresianumban tanult, majd a császári sereg után a honvéd huszárok kiváló parancsnoka lett, katonai kötelességét pedig végig pontosan teljesítette.",
+        "## Milyen arcot mutattak a halál árnyékában?",
+        "Az ítélethirdetés pillanatairól hiteles szemtanúi beszámolók maradtak fenn. Gáspár András tábornok, akit tíz év várfogságra ítéltek (és aki később kegyelmet kapva magas kort ért meg), így emlékezett vissza társai magatartására: „Olyan büszkén fogadták a halálos ítéletet, mintha csupa dicséretet olvastak volna fel előttük. A kihallgatásoknál, amikor még remélték, hogy javítanak sorsukon, talán szelídeknek mutatkoztak, de most…”",
+        "Ez a méltóság és a katonai fegyelem határozta meg a tizenhárom vértanú utolsó óráit. Az 1849. október 6-án meghozott ítéletek végrehajtása olyan történelmi sebet ejtett a nemzeten, amely az évtizedek múlásával is a magyar kollektív emlékezet meghatározó részévé vált. A száraz tények mögött meghúzódó emberi sorsok ma is arra emlékeztetnek, hogy a szabadságért hozott áldozatokat nem a legendák, hanem a dokumentált valóság tartja fenn."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 4,
+      "word_count": 778,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Brass%C3%B3i_Stra%C3%9Fe%2C_Trianon-Denkmal%2C_Arad%2C_2025_%C3%93zd.jpg/1280px-Brass%C3%B3i_Stra%C3%9Fe%2C_Trianon-Denkmal%2C_Arad%2C_2025_%C3%93zd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1575,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Trianon memorial in the Brassói Road Park. In an area of about 150-200 sqm, within a gravel spread shaped like Greater Hungary, there are approximately 2-meter-high wooden posts with wooden boards di",
+        "credit": "Globetrotter19 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Brass%C3%B3i_Stra%C3%9Fe,_Trianon-Denkmal,_Arad,_2025_%C3%93zd.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hu.wikipedia.org/wiki/Aradi_v%C3%A9rtan%C3%BAk",
+          "title": "Aradi vértanúk",
+          "publisher": "Wikipédia (hu)",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-03T09:48:27+02:00"
+        },
+        {
+          "url": "https://hu.wikipedia.org/wiki/V%C3%A9csey_K%C3%A1roly",
+          "title": "Vécsey Károly",
+          "publisher": "Wikipédia (hu)",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-03T09:48:27+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "offtopic-v2-science",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 0,
+      "offtopic": true,
+      "offtopic_topic": {
+        "id": "oktober6-aradi-vertanuk-kevesbe-ismert-reszletei-2026",
+        "section": "kultura",
+        "topic": "5 dolog az aradi vértanúkról, amit ritkán hallani a töriórákon",
+        "angle": "X dolog, amit nem tudtál róla",
+        "wiki_hu": [
+          "Aradi vértanúk",
+          "Az aradi vértanúk pere"
+        ],
+        "wiki_en": [
+          "Martyrs of Arad"
+        ],
+        "images": [
+          "Arad Memorial Martyrs Hungary history",
+          "Aradi vertanuk emlekmu"
+        ],
+        "science": {
+          "db": "openalex",
+          "q": "Hungarian Revolution 1848 Martyrs of Arad history"
+        },
+        "occasion": "oktober6-2026",
+        "auto": true,
+        "publish_from": "2026-09-26",
+        "publish_by": "2026-10-06"
+      },
+      "science_based": false,
+      "title_options": [
+        "Öt meglepő tény az aradi vértanúkról",
+        "Mit nem meséltek a töriórán az aradi vértanúkról?",
+        "Aradi tizenhármak: titkok, tévhitek és egy elfeledett hang"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Brass%C3%B3i_Stra%C3%9Fe%2C_Trianon-Denkmal%2C_Arad%2C_2025_%C3%93zd.jpg/1280px-Brass%C3%B3i_Stra%C3%9Fe%2C_Trianon-Denkmal%2C_Arad%2C_2025_%C3%93zd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1575,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Trianon memorial in the Brassói Road Park. In an area of about 150-200 sqm, within a gravel spread shaped like Greater Hungary, there are approximately 2-meter-high wooden posts with wooden boards di",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Brass%C3%B3i_Stra%C3%9Fe,_Trianon-Denkmal,_Arad,_2025_%C3%93zd.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/T%C3%B6r%C3%B6kbecse_Leiningen_szobor_avat%C3%A1s_1911-39.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 2074,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Statue to Leiningen, Törökbecse, Vojvodina (then Austria-Hungary). The original inscription reads: Count Charles Leiningen-Westerburg, General of the home-defend army, who for the freedom of his new h",
+          "credit": "Gyula Jelfy / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:T%C3%B6r%C3%B6kbecse_Leiningen_szobor_avat%C3%A1s_1911-39.JPG"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Aradi_v%C3%A9rtan%C3%BAk_eml%C3%A9km%C5%B1ve_Aradon.jpg/1280px-Aradi_v%C3%A9rtan%C3%BAk_eml%C3%A9km%C5%B1ve_Aradon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Aradi vértanúk emlékműve Aradon",
+          "credit": "Tóth Ildikó / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Aradi_v%C3%A9rtan%C3%BAk_eml%C3%A9km%C5%B1ve_Aradon.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Aradi_v%C3%A9rtan%C3%BAk_eml%C3%A9km%C5%B1ve%2C_T%C3%B6rtel.jpg/1280px-Aradi_v%C3%A9rtan%C3%BAk_eml%C3%A9km%C5%B1ve%2C_T%C3%B6rtel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1594,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Török Tamás fafaragó által 2005-ben készített emlékmű a törteli temetőben",
+          "credit": "DnetSvg / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Aradi_v%C3%A9rtan%C3%BAk_eml%C3%A9km%C5%B1ve,_T%C3%B6rtel.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/The_Workers%27_Newspaper_in_the_days_of_the_Hungarian_revolution_1848.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1983,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "",
+          "credit": "Unknown authorUnknown author / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:The_Workers%27_Newspaper_in_the_days_of_the_Hungarian_revolution_1848.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Hungarian_Revolution_of_1848_%28montage%29.png/1280px-Hungarian_Revolution_of_1848_%28montage%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1500,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Az 1848–49-es forradalom eseményei (fentről balról jobba): forradalmi tömeg a Nemzeti Múzeumnál; Pető a Nemzeti Dalt szavalja; az országgyűlés megnyitója; Kossuth Lajos és Görgey Artúr 1849 tavaszán;",
+          "credit": "Imoti95 / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hungarian_Revolution_of_1848_(montage).png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/The_Busts_of_the_thirteen_martyrs_of_Arad_%28right_group%29_in_the_courtyard_of_the_Museum_of_Military_History._-_Arpad_Toth_Promenade_40%2C_Buda_Castle_Quarter%2C_Budapest.JPG/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A tízenhárom aradi vértanú mellszobor (jobb csoport) az udvaron. Hadtörténeti Múzeum. - Budapest, I. kerület, Várnegyed, Polgárváros/Polgárnegyed, Tóth Árpád sétány 40 Tóth Árpád sétány 40.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:The_Busts_of_the_thirteen_martyrs_of_Arad_(right_group)_in_the_courtyard_of_the_Museum_of_Military_History._-_Arpad_Toth_Promenade_40,_Buda_Castle_Quarter,_Budapest.JPG"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/October_6th_memorial_%281948%29%2C_Aradi_vertanuk_tere%2C_2016_Dunakeszi.jpg/1280px-October_6th_memorial_%281948%29%2C_Aradi_vertanuk_tere%2C_2016_Dunakeszi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": ": October 6th memorial by Istvan Demeter -  Aradi vertanuk Square, Dunakeszi, Pest County, Hungary.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:October_6th_memorial_(1948),_Aradi_vertanuk_tere,_2016_Dunakeszi.jpg"
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hu.wikipedia.org/wiki/Aradi_v%C3%A9rtan%C3%BAk",
+          "https://hu.wikipedia.org/wiki/V%C3%A9csey_K%C3%A1roly"
+        ],
+        "offtopic_id": "oktober6-aradi-vertanuk-kevesbe-ismert-reszletei-2026"
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/kultura/2026-10-03-ot-meglepo-teny-az-aradi-vertanukrol/",
+      "seo": {
+        "meta_title": "Öt meglepő tény az aradi vértanúkról",
+        "meta_description": "Október 6-a a magyar nemzeti gyásznap, ám a tizenhárom honvédtiszt tragédiája sokkal összetettebb történetet rejt, mint amit a tankönyvekből megszoktunk. A kora",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-03-ot-meglepo-teny-az-aradi-vertanukrol/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Brass%C3%B3i_Stra%C3%9Fe%2C_Trianon-Denkmal%2C_Arad%2C_2025_%C3%93zd.jpg/1280px-Brass%C3%B3i_Stra%C3%9Fe%2C_Trianon-Denkmal%2C_Arad%2C_2025_%C3%93zd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "Article"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "1ce8e0d4cf9083bac2bf91569814afea9f83a4db258e74a03a6011e037b99dea",
+      "pipeline_run_id": "37107224089",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T09:48:27+02:00",
+      "updated_at": "2026-10-03T09:48:27+02:00",
+      "published_at": null,
+      "expires_at": null,
+      "schedule": {
+        "earliest": "2026-10-03T11:47:38+02:00",
+        "deadline": "2026-10-03T21:30:00+02:00"
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-03T07:48:32+00:00",
+        "msg_ids": [
+          1968,
+          1969,
+          1970,
+          1971,
+          1972,
+          1973,
+          1974,
+          1975,
+          1976
+        ],
+        "control_id": 1977
+      }
     }
   ]
 }
