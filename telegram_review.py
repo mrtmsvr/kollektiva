@@ -16,8 +16,8 @@ Egy cikkhez ezt kapod:
   3. a képjelöltek számozva (max. 10)
   4. vezérlőüzenet gombokkal:  Cím 1–3 · Kép 1–N / Nincs kép · 🔄 Új képek · ✏️ Saját cím ·
      ✅ Kirakom · 🔁 Újraírás · 🗑 Elvetem
-Új képek: a gomb eldobja a mostani jelölteket és újakat keres; válaszban („kép: hadihajó”) megadhatod, mit keressen.
-Saját cím: a ✏️ gomb után írd be (vagy válaszolj „cím: …” formában).
+Új képek: a gomb eldobja a mostani jelölteket és újakat keres; válaszban (/k hadihajó) megadhatod, mit keressen.
+Saját cím: a ✏️ gomb után írd be (vagy válaszolj: /c az új cím).
 
 Futtatás: `python telegram_review.py --loop 600` (GitHub Actions) – kb. 10 percig figyeli a gombnyomásokat,
 és azonnal feldolgozza őket (a változás a mentés után 1–2 perccel él az oldalon). Az első üzenet, amit a botnak írsz, összeköti a botot veled (chat ID).
@@ -169,7 +169,7 @@ def _control(art: dict) -> tuple:
              if live else "⏳ <b>Jóváhagyásra vár</b> – válaszd ki a címet és a képet, majd: ✅ Kirakom." + auto)
     text = (f"{state}\n{E(kc.SECTIONS.get(art['category'], {}).get('name', art['category']))}\n"
             f"Cím: <b>{E(_chosen_title(art))}</b>\nKép: {img_txt}\n\n"
-            "Nem jó egyik kép sem? 🔄 Új képek – vagy válaszolj erre: „kép: mit keressek”.")
+            "Nem jó egyik kép sem? 🔄 Új képek – vagy válaszolj erre: /k mit keressek")
     return text, {"inline_keyboard": rows}
 
 
@@ -288,7 +288,7 @@ def _refresh_images(chat: int, art: dict, ai, hint: str = "") -> str:
     new = _new_images(art, ai, hint)
     if not new:
         tg("sendMessage", {"chat_id": chat, "reply_to_message_id": art["review"].get("control_id"),
-                           "text": "Nem találtam új, illő képet. Írd meg válaszban, mit keressek (pl. „kép: hadihajó”)."})
+                           "text": "Nem találtam új, illő képet. Írd meg válaszban, mit keressek (pl. /k hadihajó)."})
         return "Nincs új kép"
     art["images_seen"] = list({*(art.get("images_seen") or []), *(im["url"] for im in art.get("image_options") or [])})[-60:]
     keep = [art["hero_image"]] if art.get("live") and art.get("hero_image") else []
@@ -404,13 +404,15 @@ def _age_min(art: dict) -> float:
 
 HELP = ("Szia! Ide küldöm az új Kollektíva-cikkeket jóváhagyásra.\n\n"
         "• Cím 1–3 / Kép 1–N / Nincs kép: csak kiválasztás (a ✓ jelzi, mi van kiválasztva)\n"
-        "• 🔄 Új képek: újakat keres – vagy válaszolj a cikkre: „K: mit keressek” (hosszan: „Kép: …”)\n"
-        "• Saját cím: ✏️ gomb, vagy válaszolj a cikkre: „C: az új cím” (hosszan: „Cím: …”)\n"
+        "• 🔄 Új képek: újakat keres – vagy válaszolj a cikkre: /k mit keressek\n"
+        "• Saját cím: ✏️ gomb, vagy válaszolj a cikkre: /c az új cím\n"
         "• Előtag nélküli válasznál megkérdezem: cím legyen, vagy képet keressek\n"
         "• ✅ Kirakom: azonnal kikerül (1–2 perc); ha " + str(AUTO_PUBLISH_MIN) + " percen belül nem döntesz, magától\n"
         "• 🗓 Saját (időzített) anyag: csendesebb időszakban kerül ki, legkésőbb este\n"
         "• Kint lévő cikknél (🟢): cím/kép csere, 🗑 Törlés; ✅ Rendben – 48 óráig még módosítható\n\n"
         "Parancsok (rövid / hosszú):\n"
+        "/k /kep <mit> – válaszként egy cikkre: új képek erre\n"
+        "/c /cim <új cím> – válaszként egy cikkre: saját cím\n"
         "/u /ujrairas – válaszként egy cikkre: újraírja (kint lévőnél ugyanazon a linken)\n"
         "/v /vissza <link vagy címrészlet> – leveszi az oldalról és ide küldi javításra\n"
         "/t /torles <link vagy címrészlet> – kint lévő cikk végleges leszedése\n"
@@ -447,13 +449,9 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 art = next((a for a in pending if rep in (a.get("review", {}).get("msg_ids", []) +
                                                           [a.get("review", {}).get("control_id"),
                                                            a.get("review", {}).get("title_prompt_id")])), None)
-                is_title = art and (rep == art["review"].get("title_prompt_id") or re.match(r"(?i)\s*(cím|c)\s*:", text))
-                if art and not is_title and re.match(r"(?i)\s*(k[eé]p(ek|et)?\b\s*:?|k\s*:)", text):
-                    hint = re.sub(r"(?i)^\s*(k[eé]p(ek|et)?\s*:?|k\s*:)\s*", "", text)[:120]
-                    note = _refresh_images(st["chat_id"], art, ai, hint)
-                    tg("sendMessage", {"chat_id": st["chat_id"], "text": f"🔄 {note}.", "reply_to_message_id": m["message_id"]})
-                elif art and not is_title:
-                    # nem egyértelmű (nincs „cím:” / „kép:” előtag): rákérdezünk két gombbal
+                is_title = art and rep == art["review"].get("title_prompt_id")
+                if art and not is_title:
+                    # nem egyértelmű (sima válasz, nem /k vagy /c parancs): rákérdezünk két gombbal
                     st.setdefault("choices", {})[str(m["message_id"])] = {"aid": art["id"], "text": text[:140]}
                     st["choices"] = dict(list(st["choices"].items())[-20:])
                     tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": m["message_id"],
@@ -462,7 +460,6 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                                            {"text": "✏️ Legyen ez a cím", "callback_data": f"ch|t|{m['message_id']}"},
                                            {"text": "🖼 Képet keressek erre", "callback_data": f"ch|i|{m['message_id']}"}]]}})
                 elif art:
-                    text = re.sub(r"(?i)^\s*(cím|c)\s*:\s*", "", text).strip()
                     art["review"]["custom_title"] = text[:140]
                     _refresh_control(st["chat_id"], art)
                     if art.get("live"):
@@ -516,6 +513,32 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                                        "Javítsd lent (cím, kép, /u újraírás), majd ✅ Kirakom – addig nem kerül ki magától."})
                     send_article(out_dir, back)
                     pending.append(back)
+                    changed = True
+            elif re.match(r"(?i)/(k|kep|kép|c|cim|cím)\b", text):
+                # válaszként egy cikkre: /k <mit keressek> = új képek, /c <új cím> = saját cím
+                cmd, _, arg = text.partition(" ")
+                arg = arg.strip()
+                art = rep and next((a for a in pending if rep in (a.get("review", {}).get("msg_ids", []) +
+                                                                  [a.get("review", {}).get("control_id"),
+                                                                   a.get("review", {}).get("title_prompt_id")])), None)
+                if not art:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": m["message_id"],
+                                       "text": "Válaszolj a cikk valamelyik üzenetére: /k <mit keressek> (új képek) vagy /c <új cím>."})
+                elif cmd.lower() in ("/k", "/kep", "/kép"):
+                    note = _refresh_images(st["chat_id"], art, ai, arg[:120])
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": f"🔄 {note}.", "reply_to_message_id": m["message_id"]})
+                    changed = True
+                elif not arg:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": m["message_id"],
+                                       "text": "Írd a parancs után az új címet, pl.: /c Megszavazták a nyugdíjemelést"})
+                else:
+                    art["review"]["custom_title"] = arg[:140]
+                    _refresh_control(st["chat_id"], art)
+                    if art.get("live"):
+                        _apply_live(out_dir, art, tz)
+                        published += 1
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": f"✏️ Cím beállítva: {arg[:140]}",
+                                       "reply_to_message_id": m["message_id"]})
                     changed = True
             elif re.match(r"(?i)/(keret|limit)\b", text):
                 tg("sendMessage", {"chat_id": st["chat_id"], "text": kc.usage_report()})
@@ -659,8 +682,9 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                         _apply_live(out_dir, art, tz)
                         published += 1
                 else:
-                    tg("sendMessage", {"chat_id": st["chat_id"], "text": "A grafika most nem készült el "
-                                       "(kell hozzá: CF_ACCOUNT_ID és CF_AI_TOKEN a GitHub secretek közt)."})
+                    why = kc.LAST_GEN_ERROR or ("hiányzik a CF_ACCOUNT_ID vagy a CF_AI_TOKEN" if not (os.getenv("CF_ACCOUNT_ID")
+                                                 and os.getenv("CF_AI_TOKEN")) else "a képleíró AI-hívás nem sikerült")
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": f"A grafika most nem készült el. Ok: {why}"})
             elif act == "txt":
                 note = "Teljes szöveg alább"
                 for part in _chunks("\n\n".join(art.get("body", []))):
