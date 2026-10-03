@@ -15579,16 +15579,92 @@
           "vision_score": 9.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/CRS-20_Dragon%E2%80%93Enhanced.jpg/1280px-CRS-20_Dragon%E2%80%93Enhanced.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/The_four_members_of_NASA%27s_SpaceX_Crew-12_mission_to_the_International_Space_Station_%28jsc2026e004045%29.jpg/1280px-The_four_members_of_NASA%27s_SpaceX_Crew-12_mission_to_the_International_Space_Station_%28jsc2026e004045%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 800,
+          "height": 960,
           "kind": "photo",
           "pos": "center",
-          "alt": "SpaceX CRS-20 mission. The SpaceX Dragon resupply ship is pictured approaching the International Space Station as both spacecraft were soaring 267 miles above the African nation of Namibia.",
-          "credit": "Original:  NASA Johnson Space Center\nDerivative work:  Nythar / Wikimedia Commons",
+          "alt": "jsc2026e004045 (Oct. 17, 2025) --- The four members of NASA's SpaceX Crew-12 mission to the International Space Station pose together for an official crew portrait. From left are, Roscosmos cosmonaut",
+          "credit": "NASA Johnson Space Center / Wikimedia Commons",
           "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:CRS-20_Dragon%E2%80%93Enhanced.jpg",
-          "vision_score": 9.0
+          "source_url": "https://commons.wikimedia.org/wiki/File:The_four_members_of_NASA%27s_SpaceX_Crew-12_mission_to_the_International_Space_Station_(jsc2026e004045).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/NASA%E2%80%99s_SpaceX_Crew-12_Preflight.jpg/1280px-NASA%E2%80%99s_SpaceX_Crew-12_Preflight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 894,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A SpaceX Falcon 9 rocket with the company's Dragon spacecraft on top is seen on the launch pad at sunset at Space Launch Complex 40 as preparations continue for the Crew-12 mission, Tuesday, Feb. 10,",
+          "credit": "NASA/Aubrey Gemignani / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NASA%E2%80%99s_SpaceX_Crew-12_Preflight.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_%2842828603210%29_%28cropped%29.jpg/1280px-Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_%2842828603210%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 821,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "iss056e162175 (Sept. 12, 2018) --- Cameras outside the International Space Station captured a stark and sobering view of Hurricane Florence the morning of Sept. 12 as it churned across the Atlantic in",
+          "credit": "NASA/Goddard Space Flight Center / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_(42828603210)_(cropped).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/ISS_March_2009.jpg/1280px-ISS_March_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 904,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The International Space Station as seen from the departing Space Shuttle Discovery during STS-119. In view are the four pairs of solar arrays mounted along the newly-completed Integrated Truss Structu",
+          "credit": "National Aeronautics and Space Administration (Q23548) / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:ISS_March_2009.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cape_canaveral_crop2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1224,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Orbital imagery of the Cape Canaveral Space Force Station (formerly, Cape Canaveral Air Force Station). This is the original, unannotated version of Cape canaveral crop.jpg.",
+          "credit": "This media: Soumya-8974 ; Original work: Soerfm, NASA;  Subject work of original / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Cape_canaveral_crop2.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/First_Guardian_Arena_lifts_off_at_Cape_Canaveral_Space_Force_Station_%288161236%29.jpg/1280px-First_Guardian_Arena_lifts_off_at_Cape_Canaveral_Space_Force_Station_%288161236%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "U.S. Space Force Spc3 Kevin Capone, Guardian Arena participant, tours the Cape Canaveral Space Force Museum at Cape Canaveral Space Force Station, Florida, Dec. 10, 2023. Teams of five members, consis",
+          "credit": "U.S. Space Force photo by Airman 1st Class Spencer Contreras / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:First_Guardian_Arena_lifts_off_at_Cape_Canaveral_Space_Force_Station_(8161236).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/NASA_astronaut_Leland_D._Melvin_with_his_dogs_Jake_and_Scout.jpg/1280px-NASA_astronaut_Leland_D._Melvin_with_his_dogs_Jake_and_Scout.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 960,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Leland's now-famous NASA portrait featuring his two rescue dogs, Jake and Scout, whom he secretly smuggled into NASA for the photoshoot.",
+          "credit": "Robert Markowitz / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_astronaut_Leland_D._Melvin_with_his_dogs_Jake_and_Scout.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/NASA_Astronaut_Group_5.jpg/1280px-NASA_Astronaut_Group_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 950,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The fifth group of NASA astronauts, also known as the \"Original 19\". \nBack row, from left to right: John L. Swigert Jr., William R. Pogue, Ronald E. Evans Jr., Paul J. Weitz, James B. Irwin, Gerald P.",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_Astronaut_Group_5.jpg"
         }
       ],
       "story": [
@@ -15644,17 +15720,40 @@
       "expires_at": null,
       "review": {
         "title": 1,
-        "image": 1,
+        "image": 0,
         "sent_at": "2026-10-03T04:04:10+00:00",
         "msg_ids": [
           1785,
           1786,
           1787,
-          1788
+          1788,
+          1813,
+          1814,
+          1815,
+          1816,
+          1817,
+          1818,
+          1819,
+          1820,
+          1821
         ],
-        "control_id": 1789
+        "control_id": 1822
       },
-      "live": true
+      "live": true,
+      "image_queries": [
+        "SpaceX Crew-12",
+        "International Space Station",
+        "Cape Canaveral Space Force Station",
+        "NASA astronaut",
+        "SpaceX Dragon spacecraft",
+        "astronaut in space",
+        "space station interior",
+        "rocket launch pad"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/1280px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/CRS-20_Dragon%E2%80%93Enhanced.jpg/1280px-CRS-20_Dragon%E2%80%93Enhanced.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "5ce25ce2-2395-5861-b25b-30a6c8f0268e",
