@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-03T10:25:20+02:00",
+  "updated_at": "2026-10-03T10:34:49+02:00",
   "articles": [
     {
       "id": "773443b0-446e-58e0-ab6a-ccec1ea04bc7",
@@ -38,16 +38,16 @@
       "word_count": 275,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Lab_mouse_mg_3263.jpg/1280px-Lab_mouse_mg_3263.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 800,
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/ac56d8fb4d0cb1c2.jpg",
+        "width": 5443,
+        "height": 3629,
         "kind": "photo",
-        "pos": "center",
-        "alt": "Laboratory mouse",
-        "credit": "Rama / Wikimedia Commons",
-        "license": "CC BY-SA 2.0 fr",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Lab_mouse_mg_3263.jpg",
-        "vision_score": 10.0
+        "alt": "analysis, biochemistry, biologist, biology, biotechnology, chemistry, clinic, clinical, equipment, experiment, laboratory devices, laboratory, lenses, medical, medicine, microbiology, microscope, opti",
+        "credit": "Kost9n4 / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/analysis-biochemistry-biologist-2030265/",
+        "vision_score": 5.0,
+        "local": "/home/runner/work/kollektiva/kollektiva/public/img/px/ac56d8fb4d0cb1c2.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -82,7 +82,7 @@
         "meta_title": "Az Ozempic trónfosztója lehet az új zsírégető molekula",
         "meta_description": "Amerikai kutatók egy új, TOFA nevű vegyületet teszteltek egereken, amely közvetlenül a sejtek energiatermelését fokozva égeti a zsírt. Az új módszer nemcsak a t",
         "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-03-az-ozempic-tronfosztoja-lehet-az-uj-zsiregeto-molekula/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Lab_mouse_mg_3263.jpg/1280px-Lab_mouse_mg_3263.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/ac56d8fb4d0cb1c2.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -100,7 +100,7 @@
       "pipeline_run_id": "37107224089",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-03T10:17:41+02:00",
-      "updated_at": "2026-10-03T10:17:41+02:00",
+      "updated_at": "2026-10-03T10:34:49+02:00",
       "published_at": "2026-10-03T10:17:41+02:00",
       "expires_at": null
     },

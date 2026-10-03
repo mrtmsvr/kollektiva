@@ -1,6 +1,5 @@
 {
   "last_sections": "2026-10-03T09:42:23+02:00",
-  "last_offtopic_date": "2026-10-03",
   "offtopic_done": [
     "koffein",
     "fekete-lyuk",
@@ -8,5 +7,8 @@
     "inflacio",
     "oktober6-aradi-vertanuk-kevesbe-ismert-reszletei-2026"
   ],
-  "last_seasonal_date": "2026-10-03"
+  "last_seasonal_date": "2026-10-03",
+  "offtopic_rerolls": {
+    "2026-10-03": 1
+  }
 }
