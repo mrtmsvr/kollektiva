@@ -5,10 +5,12 @@
     "fekete-lyuk",
     "mi-hogyan-mukodik",
     "inflacio",
-    "oktober6-aradi-vertanuk-kevesbe-ismert-reszletei-2026"
+    "oktober6-aradi-vertanuk-kevesbe-ismert-reszletei-2026",
+    "alvas"
   ],
   "last_seasonal_date": "2026-10-03",
   "offtopic_rerolls": {
     "2026-10-03": 1
-  }
+  },
+  "last_offtopic_date": "2026-10-03"
 }
