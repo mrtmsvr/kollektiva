@@ -15810,9 +15810,9 @@
       "live": true
     },
     {
-      "id": "66109481-b637-5f27-b188-b99234ede914",
-      "slug": "2026-10-03-miert-olvad-el-a-penzed-mikozben-dolgozol",
-      "status": "pending",
+      "id": "1e3ed25d-6cf1-5bb0-aa21-4e280881441a",
+      "slug": "2026-10-03-hogyan-falja-fel-a-dragulas-a-megtakaritasaidat",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": "olvasnivalo",
       "tags": [
@@ -15822,7 +15822,7 @@
         "vásárlóerő",
         "statisztika"
       ],
-      "title": "Miért olvad el a pénzed, miközben dolgozol?",
+      "title": "Hogyan falja fel a drágulás a megtakarításaidat?",
       "subtitle": null,
       "lead": "Az infláció nem csupán egy elvont gazdasági szakszó, hanem a mindennapi vásárlóerőnk csendes apadása. A legfrissebb kutatások alapján megvizsgáltuk, hogyan mérik ezt a folyamatot, miért érezzük ennyire fájdalmasan, és mi alakítja a várakozásainkat.",
       "key_points": [
@@ -15853,14 +15853,14 @@
       "word_count": 495,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://live.staticflickr.com/3085/2694368964_da77204809_b.jpg",
+        "url": "https://live.staticflickr.com/5309/5734854387_f7bd428ec9_b.jpg",
         "width": 1024,
-        "height": 768,
+        "height": 767,
         "kind": "photo",
-        "alt": "250 Million Dollars",
-        "credit": "ZeroOne / flickr",
-        "license": "CC BY-SA 2.0",
-        "source_url": "https://www.flickr.com/photos/70591690@N00/2694368964"
+        "alt": "the shrinking dollar",
+        "credit": "frankieleon / flickr",
+        "license": "CC BY 2.0",
+        "source_url": "https://www.flickr.com/photos/23307937@N04/5734854387"
       },
       "inline_images": [
         {
@@ -16002,12 +16002,12 @@
       },
       "date": "2026-10-03",
       "date_label": "október 3.",
-      "url": "/penzvilag/2026-10-03-miert-olvad-el-a-penzed-mikozben-dolgozol/",
+      "url": "/penzvilag/2026-10-03-hogyan-falja-fel-a-dragulas-a-megtakaritasaidat/",
       "seo": {
-        "meta_title": "Miért olvad el a pénzed, miközben dolgozol?",
+        "meta_title": "Hogyan falja fel a drágulás a megtakarításaidat?",
         "meta_description": "Az infláció nem csupán egy elvont gazdasági szakszó, hanem a mindennapi vásárlóerőnk csendes apadása. A legfrissebb kutatások alapján megvizsgáltuk, hogyan méri",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-03-miert-olvad-el-a-penzed-mikozben-dolgozol/",
-        "og_image": "https://live.staticflickr.com/3085/2694368964_da77204809_b.jpg",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-03-hogyan-falja-fel-a-dragulas-a-megtakaritasaidat/",
+        "og_image": "https://live.staticflickr.com/5309/5734854387_f7bd428ec9_b.jpg",
         "noindex": false,
         "schema_type": "Article"
       },
@@ -16022,9 +16022,9 @@
       "dedupe_hash": "fdeeec3f8d4cc3fb58feab1512ff5bb6572c4b0a6e2c4e278eadb04b22935729",
       "pipeline_run_id": "37098765535",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T07:07:26+02:00",
-      "updated_at": "2026-10-03T07:07:26+02:00",
-      "published_at": null,
+      "created_at": "2026-10-03T07:08:00+02:00",
+      "updated_at": "2026-10-03T07:08:00+02:00",
+      "published_at": "2026-10-03T07:08:00+02:00",
       "expires_at": null,
       "schedule": {
         "earliest": "2026-10-03T09:06:57+02:00",
@@ -16042,7 +16042,8 @@
           1890
         ],
         "control_id": 1891
-      }
+      },
+      "live": true
     }
   ]
 }
