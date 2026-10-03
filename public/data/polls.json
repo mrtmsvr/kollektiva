@@ -1,6 +1,21 @@
 {
-  "updated_at": "2026-10-02T10:03:31+02:00",
+  "updated_at": "2026-10-03T10:16:15+02:00",
   "polls": [
+    {
+      "id": "9b5a2fddbaba",
+      "date": "2026-10-03",
+      "question": "Szerinted itt az ideje az árrésstop kivezetésének?",
+      "options": [
+        "Igen, mielőbb ki kell vezetni.",
+        "Nem, még szükség van rá.",
+        "Nem tudom / nincs véleményem."
+      ],
+      "article_url": "/kozelet/2026-10-03-hetvegen-dol-el-az-arresstop-sorsa-kisvarda-utan/",
+      "article_title": "Hétvégén dől el az árrésstop sorsa Kisvárda után",
+      "category": "kozelet",
+      "created_at": "2026-10-03T10:16:15+02:00",
+      "closes_at": "2026-10-10T10:16:15+02:00"
+    },
     {
       "id": "ead46ba5c99b",
       "date": "2026-10-02",
