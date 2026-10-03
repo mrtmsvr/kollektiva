@@ -16250,7 +16250,7 @@
       "expires_at": null,
       "requested": true,
       "review": {
-        "title": 1,
+        "title": 0,
         "image": 0,
         "sent_at": "2026-10-03T05:43:00+00:00",
         "msg_ids": [
@@ -16266,6 +16266,686 @@
           1903
         ],
         "control_id": 1904
+      }
+    },
+    {
+      "id": "c9c795e4-7086-5a2c-859b-2141ffa49207",
+      "slug": "2026-10-03-igy-lett-egy-csaladi-menekulesbol-vilagsiker",
+      "status": "pending",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Budapesti Nemzetközi Könyvfesztivál",
+        "Nelio Biedermann",
+        "irodalom",
+        "regény",
+        "történelem"
+      ],
+      "title": "Így lett egy családi menekülésből világsiker",
+      "subtitle": null,
+      "lead": "A most zajló Budapesti Nemzetközi Könyvfesztivál vendége a svájci író, Nelio Biedermann, aki saját nagyszülei és híres felmenői viharos sorsáról írt világsikerű regényt Lázár címmel. A kötet a XX. századi magyar arisztokrácia megpróbáltatásait, a kitelepítéseket és a menekülés drámáját dolgozza fel.",
+      "key_points": [
+        "Nelio Biedermann svájci író a Budapesti Nemzetközi Könyvfesztivál vendége.",
+        "A Lázár című regény alapját saját nagyszülei és tágabb rokonsága XX. századi története adta.",
+        "A szerző felmenői között olyan történelmi személyiségek is megtalálhatók, mint Wekerle Sándor miniszterelnök."
+      ],
+      "content": "A Budapesti Nemzetközi Könyvfesztivál egyik legizgalmasabb vendége a mindössze 23 éves svájci szerző, Nelio Biedermann, aki Lázár című kötetével hódította meg a nemzetközi olvasóközönséget. A regény lapjain saját családjának rendkívüli, a politika és a gazdaság csúcsaitól az ellenállásig ívelő múltja éled újjá.\n\nA történetben fiktív formában megjelenő menekülés hátterében valós családi tragédiák állnak. A könyv egyik jelenetében a Lázár család két tagja Jugoszláviába érve egy vendéglő melletti tyúkólban kénytelen átvészelni a nehéz órákat, ahol egy fiatal házaspár osztja meg velük a helyet. A férfi egész nap csemegeuborkát keresett várandós feleségének, miközben mindketten Zürichbe készültek.\n\nEz a fiatal pár a valóságban a szerző nagyszüleit, Biedermann Lászlót és Sárközy Nicolette-et takarja, akik első gyermeküket – a későbbi szerző nagynénjét – várva indultak neki az ismeretlennek egy olyan országba, ahol senkit sem ismertek.\n\nA XX. századi történelmi viharok bőséges alapanyagot szolgáltattak a kötethez, hiszen a Biedermann család tagjai testközelből élték át a két világháború közötti gazdasági jólétet, majd az 1950-es évek kíméletlen kitelepítéseit is. A tágabb rokonsági szálak pedig még messzebbre mutatnak, a felmenők között találjuk Wekerle Sándor egykori miniszterelnököt és a pénzügyminiszterként dolgozó fiát is.",
+      "content_format": "markdown",
+      "body": [
+        "A Budapesti Nemzetközi Könyvfesztivál egyik legizgalmasabb vendége a mindössze 23 éves svájci szerző, Nelio Biedermann, aki Lázár című kötetével hódította meg a nemzetközi olvasóközönséget. A regény lapjain saját családjának rendkívüli, a politika és a gazdaság csúcsaitól az ellenállásig ívelő múltja éled újjá.",
+        "A történetben fiktív formában megjelenő menekülés hátterében valós családi tragédiák állnak. A könyv egyik jelenetében a Lázár család két tagja Jugoszláviába érve egy vendéglő melletti tyúkólban kénytelen átvészelni a nehéz órákat, ahol egy fiatal házaspár osztja meg velük a helyet. A férfi egész nap csemegeuborkát keresett várandós feleségének, miközben mindketten Zürichbe készültek.",
+        "Ez a fiatal pár a valóságban a szerző nagyszüleit, Biedermann Lászlót és Sárközy Nicolette-et takarja, akik első gyermeküket – a későbbi szerző nagynénjét – várva indultak neki az ismeretlennek egy olyan országba, ahol senkit sem ismertek.",
+        "A XX. századi történelmi viharok bőséges alapanyagot szolgáltattak a kötethez, hiszen a Biedermann család tagjai testközelből élték át a két világháború közötti gazdasági jólétet, majd az 1950-es évek kíméletlen kitelepítéseit is. A tágabb rokonsági szálak pedig még messzebbre mutatnak, a felmenők között találjuk Wekerle Sándor egykori miniszterelnököt és a pénzügyminiszterként dolgozó fiát is."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 224,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/K%C3%B6nyvfesztiv%C3%A1l_2012_%2826%29.JPG/1280px-K%C3%B6nyvfesztiv%C3%A1l_2012_%2826%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "A felvételek 2012. április hó 21 –én, szombaton készültek Budapesten, a XIX. Budapesti Nemzetközi Könyvfesztiválon (2012. április 19 –22). A fesztivál díszvendége Claudio Magris volt. A fesztivál szom",
+        "credit": "Derzsi Elekes Andor / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6nyvfesztiv%C3%A1l_2012_(26).JPG",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/360/20261002_hvg-nelio-biedermann-iro-csalad-torteneleme-magyarorszag-svajc-konyvfesztival",
+          "title": "A politika és a gazdaság csúcsaitól az ellenállásig és az internálásig – a Biedermann család élete kész regény, és még meg is írták",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T07:52:00+02:00"
+        }
+      ],
+      "quote": {
+        "text": "hogy még meg sem született gyermekükkel elmenekültek egy olyan országba, ahol senkit sem ismertek. Ők is Svájcba készültek, Zürichbe.",
+        "who": "Nelio Biedermann író",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.47,
+      "title_options": [
+        "Így lett egy családi menekülésből világsiker",
+        "Dramatikus múltból épült fel a Könyvfesztivál regénye",
+        "A 23 éves svájci író, aki magyar gyökerekből merített",
+        "Elképesztő családi titok: ezt a regényt olvassa most az egész világ",
+        "Tyúkólban kezdődött, Zürichben végződött: íme a magyar arisztokraták drámája",
+        "Nem fogod elhinni, milyen viharos múltról írt a fiatal svájci tehetség"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/K%C3%B6nyvfesztiv%C3%A1l_2012_%2826%29.JPG/1280px-K%C3%B6nyvfesztiv%C3%A1l_2012_%2826%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A felvételek 2012. április hó 21 –én, szombaton készültek Budapesten, a XIX. Budapesti Nemzetközi Könyvfesztiválon (2012. április 19 –22). A fesztivál díszvendége Claudio Magris volt. A fesztivál szom",
+          "credit": "Derzsi Elekes Andor / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6nyvfesztiv%C3%A1l_2012_(26).JPG",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/g4a831d28435f4dc86d043fcf5a29dfffe12d39cc5ff7877b8cba95acbff8c96320e9f5d2faccb087dfe501757938c53694b33f4eb7b282321d8726c717a65782_1280.jpg",
+          "width": 4418,
+          "height": 3155,
+          "kind": "photo",
+          "alt": "bible, book, pages, open, reading, open bible, bible reading, bible study, chapters, psalms, religion, faith, bible, bible, bible, bible, bible, book",
+          "credit": "Pexels / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/bible-book-pages-open-reading-1868070/",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "A politika és a gazdaság csúcsaitól az ellenállásig és az internálásig – a Biedermann család élete kész regény, és még meg is írták",
+          "link": "https://hvg.hu/360/20261002_hvg-nelio-biedermann-iro-csalad-torteneleme-magyarorszag-svajc-konyvfesztival",
+          "summary": "A most zajló Budapesti Nemzetközi Könyvfesztivál vendége a svájci Nelio Biedermann, aki magyar arisztokrata családja rendkívüli történetéből merített 23 évesen írt, világsikerű regényéhez.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.47
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/360/20261002_hvg-nelio-biedermann-iro-csalad-torteneleme-magyarorszag-svajc-konyvfesztival"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/kultura/2026-10-03-igy-lett-egy-csaladi-menekulesbol-vilagsiker/",
+      "seo": {
+        "meta_title": "Így lett egy családi menekülésből világsiker",
+        "meta_description": "A most zajló Budapesti Nemzetközi Könyvfesztivál vendége a svájci író, Nelio Biedermann, aki saját nagyszülei és híres felmenői viharos sorsáról írt világsikerű",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-03-igy-lett-egy-csaladi-menekulesbol-vilagsiker/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/K%C3%B6nyvfesztiv%C3%A1l_2012_%2826%29.JPG/1280px-K%C3%B6nyvfesztiv%C3%A1l_2012_%2826%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "c0855c6cbaa5d2a8a0729588243e91824ef90747be5e7a4e0c6f30f11c1aac94",
+      "pipeline_run_id": "37101181821",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T07:52:00+02:00",
+      "updated_at": "2026-10-03T07:52:00+02:00",
+      "published_at": "2026-10-03T07:52:00+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-03T05:52:42+00:00",
+        "msg_ids": [
+          1906,
+          1907,
+          1908,
+          1909
+        ],
+        "control_id": 1910
+      }
+    },
+    {
+      "id": "3b62dc9f-997c-50cf-9f46-28163dd53274",
+      "slug": "2026-10-03-mobilvasarlasbol-lett-rendorsegi-ugy-egy-budapesti-plazaban",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "rendőrség",
+        "pláza",
+        "Budapest",
+        "hatósági intézkedés",
+        "bűnügy"
+      ],
+      "title": "Mobilvásárlásból lett rendőrségi ügy egy budapesti plázában",
+      "subtitle": null,
+      "lead": "Augusztus elején egy budapesti bevásárlóközpontban történt incidens miatt nyomoznak, ahol egy mobilvásárlás végül rendőri intézkedésbe és kölcsönös eljárásokba torkollott. Az eset pontos körülményeit és a túlzottnak vélt erőszak vádját jelenleg hivatalos szervek vizsgálják.",
+      "key_points": [
+        "Egy elhúzódó mobilvásárlás miatt hívott rendőrt az eladó egy budapesti plázában még augusztus elején.",
+        "A helyszínen intézkedő rendőrök a nőt és az édesanyját is a földre kényszerítették, majd előállították őket.",
+        "A felek egymás ellen indítottak eljárást: a rendőrök bántalmazás, a két nő pedig hatósági személy elleni erőszak miatt.",
+        "Az ügyben eddig egyetlen érintettet sem hallgattak ki gyanúsítottként."
+      ],
+      "content": "Augusztus elején egy szokványosnak induló mobilvásárlás fajult el annyira egy budapesti bevásárlóközpontban, hogy az üzlet eladója végül a hatóságok segítségét kérte. A helyszínre érkező rendőrök intézkedés alá vonták a vásárlót, akivel az édesanyja is ott tartózkodott. Az RTL Híradó beszámolója szerint a feszült helyzetben a fiatal nőt a földre lökték, húzták-vonták, és közben – állítása szerint – végig megalázó módon beszéltek vele.\n\nAz édesanya mobiltelefonjával rögzítette a lánya bilincselésének pillanatait, nem sokkal később azonban ő maga is a földre került, és mindkét nőt előállították a rendőrök. Az ügyben a képviselőjük úgy nyilatkozott, hogy a hatóság emberei túlzott erőszakot alkalmaztak. Meglátása szerint a karok hátracsavarása kizárólag akkor lenne indokolt, ha a szembenállók részéről fizikai ellenállás vagy támadás merülne fel, ám állítása szerint ilyen magatartás nem történt, így az intézkedés mértéke messze túllépte a jogos testi kényszer kereteit.\n\nA történtek következtében mindkét oldalon jogi lépések történtek, így jelenleg kettős eljárás fut az ügyben. A rendőrökkel szemben bántalmazás gyanúja, míg a két nővel szemben hatósági személy elleni erőszak miatt kezdeményeztek eljárást. A hatóságok tájékoztatása alapján azonban az ügy lefolyása eddig nem jutott el abba a stádiumba, hogy bárkit is gyanúsítottként hallgattak volna ki.\n\nAz ilyen jellegű esetek rávilágítanak arra, milyen vékony határ húzódik egy hivatalos intézkedés és a kényszerítő eszközök jogszerű alkalmazása között. A mindennapi állampolgár számára ez azt jelenti, hogy egy félresikerült kereskedelmi ügylet is könnyen átfordulhat olyan jogi vitába, amelynek tisztázása hónapokat vehet igénybe az igazságszolgáltatás szervei számára.",
+      "content_format": "markdown",
+      "body": [
+        "Augusztus elején egy szokványosnak induló mobilvásárlás fajult el annyira egy budapesti bevásárlóközpontban, hogy az üzlet eladója végül a hatóságok segítségét kérte. A helyszínre érkező rendőrök intézkedés alá vonták a vásárlót, akivel az édesanyja is ott tartózkodott. Az RTL Híradó beszámolója szerint a feszült helyzetben a fiatal nőt a földre lökték, húzták-vonták, és közben – állítása szerint – végig megalázó módon beszéltek vele.",
+        "Az édesanya mobiltelefonjával rögzítette a lánya bilincselésének pillanatait, nem sokkal később azonban ő maga is a földre került, és mindkét nőt előállították a rendőrök. Az ügyben a képviselőjük úgy nyilatkozott, hogy a hatóság emberei túlzott erőszakot alkalmaztak. Meglátása szerint a karok hátracsavarása kizárólag akkor lenne indokolt, ha a szembenállók részéről fizikai ellenállás vagy támadás merülne fel, ám állítása szerint ilyen magatartás nem történt, így az intézkedés mértéke messze túllépte a jogos testi kényszer kereteit.",
+        "A történtek következtében mindkét oldalon jogi lépések történtek, így jelenleg kettős eljárás fut az ügyben. A rendőrökkel szemben bántalmazás gyanúja, míg a két nővel szemben hatósági személy elleni erőszak miatt kezdeményeztek eljárást. A hatóságok tájékoztatása alapján azonban az ügy lefolyása eddig nem jutott el abba a stádiumba, hogy bárkit is gyanúsítottként hallgattak volna ki.",
+        "Az ilyen jellegű esetek rávilágítanak arra, milyen vékony határ húzódik egy hivatalos intézkedés és a kényszerítő eszközök jogszerű alkalmazása között. A mindennapi állampolgár számára ez azt jelenti, hogy egy félresikerült kereskedelmi ügylet is könnyen átfordulhat olyan jogi vitába, amelynek tisztázása hónapokat vehet igénybe az igazságszolgáltatás szervei számára."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 269,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261002_rendorseg-bantalmazas-budapest-plaza",
+          "title": "Rendőrök bántalmazhattak egy nőt egy budapesti plázában",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T07:52:58+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.26,
+      "title_options": [
+        "Mobilvásárlásból lett rendőrségi ügy egy budapesti plázában",
+        "Bilincs és földre vitel: mi történt egy fővárosi plázában?",
+        "Elszabadult indulatok egy telefonvásárlás miatt",
+        "Ezt nem hinnéd el: földre tepertek két nőt egy plázában!",
+        "Miért hívták a zsarukat egy egyszerű mobilvásárláshoz?",
+        "Sokkoló részletek a budapesti plázában történt rendőri intézkedésről!"
+      ],
+      "clickbait_from": 3,
+      "image_options": [],
+      "story": [
+        {
+          "title": "Rendőrök bántalmazhattak egy nőt egy budapesti plázában",
+          "link": "https://hvg.hu/itthon/20261002_rendorseg-bantalmazas-budapest-plaza",
+          "summary": "A rendőrök ellen bántalmazás, két nővel szemben pedig hatósági személy elleni erőszak miatt indult eljárás",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.26
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261002_rendorseg-bantalmazas-budapest-plaza"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/kozelet/2026-10-03-mobilvasarlasbol-lett-rendorsegi-ugy-egy-budapesti-plazaban/",
+      "seo": {
+        "meta_title": "Mobilvásárlásból lett rendőrségi ügy egy budapesti plázában",
+        "meta_description": "Augusztus elején egy budapesti bevásárlóközpontban történt incidens miatt nyomoznak, ahol egy mobilvásárlás végül rendőri intézkedésbe és kölcsönös eljárásokba ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-03-mobilvasarlasbol-lett-rendorsegi-ugy-egy-budapesti-plazaban/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "a41bde727bb098cd93b78a39e5d1e4cbbfc63e65eff7d8eef0f473028a587345",
+      "pipeline_run_id": "37101181821",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T07:52:58+02:00",
+      "updated_at": "2026-10-03T07:52:58+02:00",
+      "published_at": "2026-10-03T07:52:58+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": -1,
+        "sent_at": "2026-10-03T05:53:42+00:00",
+        "msg_ids": [
+          1911,
+          1912,
+          1913
+        ],
+        "control_id": 1914
+      }
+    },
+    {
+      "id": "d00ebb80-51ff-5d32-9a3b-c0e52e2ad99f",
+      "slug": "2026-10-03-megindult-a-forint-hol-allnak-most-a-szamok",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "forint",
+        "árfolyam",
+        "devizapiac",
+        "gazdaság",
+        "infláció"
+      ],
+      "title": "Megindult a forint: hol állnak most a számok?",
+      "subtitle": null,
+      "lead": "A kedvezőtlen nemzetközi munkaerőpiaci adatok és az olajárak esése nyomán erősödéssel fejezte be a hetet a forint a vezető devizákkal szemben. A piaci folyamatok közvetlenül befolyásolják az inflációs várakozásokat és a lakossági pénzügyeket is.",
+      "key_points": [
+        "Az euróval szemben 368 körüli szinten, a dollárral szemben pedig 327 alatt is járt a forint pénteken.",
+        "A G7-országok 100 millió hordónyi olajkészlet piacra dobásáról döntöttek az üzemanyagárak megfékezésére.",
+        "Az Egyesült Államokban szeptemberben csupán 29 ezer új munkahely létesült, ami jócskán elmarad a vártatoktól."
+      ],
+      "content": "Ismét erősödni tudott a magyar fizetőeszköz a pénteki kereskedésben, miután az euróval szemben a 368-as szint közelébe, a dollárral szemben pedig a 327-es szint alá mérséklődtek a jegyzések. A nap folyamán ugyan voltak nagyobb kilengések, az euróval szembeni árfolyam 367 és 369 között mozgott, de a hét végére kitartott a forint ereje.\n\nA devizapiaci mozgások hátterében nagyrészt a tengerentúli fejlemények állnak. Szeptemberben az Egyesült Államokban mindössze 29 ezer új munkahelyet teremtettek a nem-mezőgazdasági szektorban, ami jelentősen elmarad az előző havi 133 ezertől és a szakértők által várt 90 ezertől is. A munkanélküliségi ráta 4,2 százalékra emelkedett, míg a nominális bérek növekedése 3 százalékra lassult.\n\nA gyengülő munkaerőpiaci adatok csökkentik az inflációs nyomást, ami miatt a jegybanki kamatvárakozások is mérséklődhetnek. Ezzel párhuzamosan a G7-országok megállapodása nyomán akár 100 millió hordónyi kőolaj- és dízelkészlet szabadulhat fel a piacon az üzemanyagárak mérséklése érdekében, maga az olaj árfolyama pedig több mint 3 százalékkal esett.\n\nAz orosz gazdaság területén is történtek változások: augusztusban 0,8 százalékkal nőtt az ország GDP-je éves összevetésben a júliusi 0,6 százalékos bővülés után, bár az első nyolc hónap összesített növekedése továbbra is 0,6 százalékon stagnál a gazdaságfejlesztési minisztérium jelentése szerint. Philip Jefferson alelnök és más amerikai jegybanki döntéshozók jelzései alapján pedig a Fed nem siet az újabb kamatemeléssel, hanem kivárja a beérkező adatok értékelését.\n\nAz Államadósság-kezelő Központ szeptember végére az éves nettó kibocsátási tervének 94,4 százalékát teljesítette, miközben a kincstári likviditás történelmi csúcsot ért el az év első kilenc hónapjában. A lakossági megtakarítások terén is átrendeződés látható a fix kamatozású állampapírok javára, ami biztonságot nyújthat a kisbefektetőknek a bizonytalanabb pénzpiaci környezetben.",
+      "content_format": "markdown",
+      "body": [
+        "Ismét erősödni tudott a magyar fizetőeszköz a pénteki kereskedésben, miután az euróval szemben a 368-as szint közelébe, a dollárral szemben pedig a 327-es szint alá mérséklődtek a jegyzések. A nap folyamán ugyan voltak nagyobb kilengések, az euróval szembeni árfolyam 367 és 369 között mozgott, de a hét végére kitartott a forint ereje.",
+        "A devizapiaci mozgások hátterében nagyrészt a tengerentúli fejlemények állnak. Szeptemberben az Egyesült Államokban mindössze 29 ezer új munkahelyet teremtettek a nem-mezőgazdasági szektorban, ami jelentősen elmarad az előző havi 133 ezertől és a szakértők által várt 90 ezertől is. A munkanélküliségi ráta 4,2 százalékra emelkedett, míg a nominális bérek növekedése 3 százalékra lassult.",
+        "A gyengülő munkaerőpiaci adatok csökkentik az inflációs nyomást, ami miatt a jegybanki kamatvárakozások is mérséklődhetnek. Ezzel párhuzamosan a G7-országok megállapodása nyomán akár 100 millió hordónyi kőolaj- és dízelkészlet szabadulhat fel a piacon az üzemanyagárak mérséklése érdekében, maga az olaj árfolyama pedig több mint 3 százalékkal esett.",
+        "Az orosz gazdaság területén is történtek változások: augusztusban 0,8 százalékkal nőtt az ország GDP-je éves összevetésben a júliusi 0,6 százalékos bővülés után, bár az első nyolc hónap összesített növekedése továbbra is 0,6 százalékon stagnál a gazdaságfejlesztési minisztérium jelentése szerint. Philip Jefferson alelnök és más amerikai jegybanki döntéshozók jelzései alapján pedig a Fed nem siet az újabb kamatemeléssel, hanem kivárja a beérkező adatok értékelését.",
+        "Az Államadósság-kezelő Központ szeptember végére az éves nettó kibocsátási tervének 94,4 százalékát teljesítette, miközben a kincstári likviditás történelmi csúcsot ért el az év első kilenc hónapjában. A lakossági megtakarítások terén is átrendeződés látható a fix kamatozású állampapírok javára, ami biztonságot nyújthat a kisbefektetőknek a bizonytalanabb pénzpiaci környezetben."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 305,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://pixabay.com/get/g727c642000c91fbf24f72c19ff546687887f75a8c090cacb19eb40e03d1791f7cccfad7cfab534ab93b1c6b226d335e2aac146405f8c030135284e0d9dfce89b_1280.jpg",
+        "width": 4608,
+        "height": 3456,
+        "kind": "photo",
+        "alt": "blur, chart, computer, data, finance, graph, growth, line graph, stock exchange, stock market, technology, trading, data, finance, finance, graph, stock market, stock market, stock market, stock marke",
+        "credit": "Pexels / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
+        "vision_score": 9.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/deviza/20261002/megvan-az-irany-megindult-a-forint-866808",
+          "title": "Megvan az irány, megindult a forint",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T07:54:00+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Megindult a forint: hol állnak most a számok?",
+        "Váratlan fordulat: erősödéssel nyitott a forint",
+        "Így reagált a hazai fizetőeszköz a nemzetközi hírekre",
+        "Ezt a pénztárcád is megérezheti: megindult a forint!",
+        "Hihetetlen adatok érkeztek: ezért erősödik a magyar deviza?",
+        "Itt vannak a friss árfolyamok: fordulat a piacon!"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://pixabay.com/get/g727c642000c91fbf24f72c19ff546687887f75a8c090cacb19eb40e03d1791f7cccfad7cfab534ab93b1c6b226d335e2aac146405f8c030135284e0d9dfce89b_1280.jpg",
+          "width": 4608,
+          "height": 3456,
+          "kind": "photo",
+          "alt": "blur, chart, computer, data, finance, graph, growth, line graph, stock exchange, stock market, technology, trading, data, finance, finance, graph, stock market, stock market, stock market, stock marke",
+          "credit": "Pexels / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://pixabay.com/get/gdf8d0bdc57a5db5db83318b64c6594b84360481e6d1b9df8c38616f5eafb2fd4f85f3cb96c54c8a4d68cf1b9a3e40f55a937ae8da537adb9e0426f77a02a9b2c_1280.jpg",
+          "width": 5812,
+          "height": 3875,
+          "kind": "photo",
+          "alt": "stock, trading, monitor, business, finance, exchange, investment, market, trade, data, graph, economy, financial, currency, chart, information, technology, profit, forex, rate, foreign exchange, analy",
+          "credit": "3844328 / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/stock-trading-monitor-business-1863880/",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/100_Forint_Comemmorative_Army_Front.jpg/1280px-100_Forint_Comemmorative_Army_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The forint was released on 2023 May 22 as a comemmoration of the Hungarian Army.",
+          "credit": "ByRussia45 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:100_Forint_Comemmorative_Army_Front.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/50_Forint_Comemmorative_Ambulance_Front.jpg/1280px-50_Forint_Comemmorative_Ambulance_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The coin was released on 2023 May 9 as a comemmoration of the establishment of the Hungarian Ambulance Services.",
+          "credit": "ByRussia45 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:50_Forint_Comemmorative_Ambulance_Front.jpg",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Megvan az irány, megindult a forint",
+          "link": "https://www.portfolio.hu/deviza/20261002/megvan-az-irany-megindult-a-forint-866808",
+          "summary": "Az elmúlt hetek meghatározó fejleménye a devizapiacokon a dollár markáns erősödése, amelyet az erős amerikai gazdaság, a szigorodó monetáris politika és az energiaválság egyaránt táplál. A dollárindex tegnap közel 0,6%-ot emelkedett. A mai nap a forint egyelőre tartja magát, miközben az euróövezeti infláció a vártnál nagyobb lett, az amerikai munkaerőpiac pedig meglepően nagyot lassult szeptemberben.",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/deviza/20261002/megvan-az-irany-megindult-a-forint-866808"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/penzvilag/2026-10-03-megindult-a-forint-hol-allnak-most-a-szamok/",
+      "seo": {
+        "meta_title": "Megindult a forint: hol állnak most a számok?",
+        "meta_description": "A kedvezőtlen nemzetközi munkaerőpiaci adatok és az olajárak esése nyomán erősödéssel fejezte be a hetet a forint a vezető devizákkal szemben. A piaci folyamato",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-03-megindult-a-forint-hol-allnak-most-a-szamok/",
+        "og_image": "https://pixabay.com/get/g727c642000c91fbf24f72c19ff546687887f75a8c090cacb19eb40e03d1791f7cccfad7cfab534ab93b1c6b226d335e2aac146405f8c030135284e0d9dfce89b_1280.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "46a094b09460e9f7dfee05dc8ad2eb4d35b2db58c37c555efc698da63ed3568a",
+      "pipeline_run_id": "37101181821",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T07:54:00+02:00",
+      "updated_at": "2026-10-03T07:54:00+02:00",
+      "published_at": "2026-10-03T07:54:00+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-03T05:54:40+00:00",
+        "msg_ids": [
+          1915,
+          1916,
+          1917,
+          1918,
+          1919,
+          1920
+        ],
+        "control_id": 1921
+      }
+    },
+    {
+      "id": "4812af30-26e5-5d05-abcf-62fc10d4d2a5",
+      "slug": "2026-10-03-hatalmas-hos-szuletett-465-celsius-fokot-birt-a-venusz-szonda",
+      "status": "pending",
+      "category": "univerzum",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "Vénusz",
+        "űrkutatás",
+        "DAVINCI"
+      ],
+      "title": "Hatalmas hős született: 465 Celsius-fokot bírt a Vénusz-szonda",
+      "subtitle": null,
+      "lead": "Sikeresen teljesítette a komoly hőterhelési vizsgát a NASA készülő DAVINCI űrszondájának mérnöki egysége, amelynek ellen kell állnia a Vénusz legfelső rétegeinek. A jógilabda méretű, gömb alakú szerkezetet egy kerámiabélésű, perzselt falú kamrában tesztelték.",
+      "key_points": [
+        "A DAVINCI-program célja a Vénusz mély atmoszférájának és nemesgáz-összetételének vizsgálata.",
+        "A mérnöki egységet egy speciális, kerámiabélésű kamrában hevítették.",
+        "A hőmérsékletet fokozatosan emelték fel a hatalmas, 465 Celsius-fokos értékre."
+      ],
+      "content": "Az amerikai űrkutatási hivatal szakemberei komoly akadályt hárítottak el azzal, hogy sikeresen felkészítették a DAVINCI-küldetés (Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging) szerkezetét a rendkívüli környezeti kihívásokra. A fejlesztés alatt álló jármű mérete nagyjából egy nagyobb jógilabdához hasonlítható, ám a feladata sokkal komolyabb annál, mint hogy a nappaliban gurulgasson: a Naprendszer egyik legforróbb bolygójának légkörébe kell majd hatolnia.\n\nA vizsgálat során a mérnökök olyan kerámiabélésű kamrát használtak, amelynek falait előzetesen komoly hőhatások értek. Ebben a zárt térben szabályozott módon növelték a hőmérsékletet, amíg az el nem érte a lenyűgöző 869 Fahrenheit-fokot, vagyis a 465 Celsius-fokot. Ez a környezet hűen modellezi azokat a pokoli viszonyokat, amelyek a szondára várnak majd a küldetés éles szakaszában.\n\nA Vénusz felszíne és sűrű légköre olyan extrém körülményeket tartogat, amelyek azonnal megsemmisítenének egy hagyományos anyagokból épített űreszközt. A mostani teszt igazolta, hogy a szerkezeti egységek képesek ellenállni a rendkívüli hőterhelésnek, ami kulcsfontosságú lépés a jövőbeli bolygókutató missziók sikeréhez.",
+      "content_format": "markdown",
+      "body": [
+        "Az amerikai űrkutatási hivatal szakemberei komoly akadályt hárítottak el azzal, hogy sikeresen felkészítették a DAVINCI-küldetés (Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging) szerkezetét a rendkívüli környezeti kihívásokra. A fejlesztés alatt álló jármű mérete nagyjából egy nagyobb jógilabdához hasonlítható, ám a feladata sokkal komolyabb annál, mint hogy a nappaliban gurulgasson: a Naprendszer egyik legforróbb bolygójának légkörébe kell majd hatolnia.",
+        "A vizsgálat során a mérnökök olyan kerámiabélésű kamrát használtak, amelynek falait előzetesen komoly hőhatások értek. Ebben a zárt térben szabályozott módon növelték a hőmérsékletet, amíg az el nem érte a lenyűgöző 869 Fahrenheit-fokot, vagyis a 465 Celsius-fokot. Ez a környezet hűen modellezi azokat a pokoli viszonyokat, amelyek a szondára várnak majd a küldetés éles szakaszában.",
+        "A Vénusz felszíne és sűrű légköre olyan extrém körülményeket tartogat, amelyek azonnal megsemmisítenének egy hagyományos anyagokból épített űreszközt. A mostani teszt igazolta, hogy a szerkezeti egységek képesek ellenállni a rendkívüli hőterhelésnek, ami kulcsfontosságú lépés a jövőbeli bolygókutató missziók sikeréhez."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 191,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg/1280px-SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 575,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "This image shows a sequence of photographs by NASA's SDO spacecraft, taken in the extreme ultraviolet spectrum (171 Angstroms), and stitched together to show Venus's path across the face of the Sun.",
+        "credit": "NASA/SDO, AIA / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/image-article/nasas-davinci-probe-can-stand-the-heat/",
+          "title": "NASA’s DAVINCI Probe Can Stand the Heat",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-03T07:54:56+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.91,
+      "title_options": [
+        "Hatalmas hős született: 465 Celsius-fokot bírt a Vénusz-szonda",
+        "Így izzott a tűzforró Vénuszra készülő jármű",
+        "Jógablabda méretű eszköz állta ellen a pokoli hőségnek",
+        "Ezt a brutális hősokkot semmisülés nélkül túlélték!",
+        "Elképesztő teszt: ekkora forróságot bír a jövő űrszondája",
+        "Nem fogod elhinni, milyen pokoli hőmérsékletre készítik fel a Vénusz-kutatót!"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg/1280px-SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 575,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "This image shows a sequence of photographs by NASA's SDO spacecraft, taken in the extreme ultraviolet spectrum (171 Angstroms), and stitched together to show Venus's path across the face of the Sun.",
+          "credit": "NASA/SDO, AIA / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Arrival_of_the_Pioneer_Venus_spacecraft_at_Venus_%28ARC-1978-AC78-0238%29.jpg/1280px-Arrival_of_the_Pioneer_Venus_spacecraft_at_Venus_%28ARC-1978-AC78-0238%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 902,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "An artist concept of the Pioneer Venus Multiprobe approaching Venus is shown here shortly after the probes' release. Top to bottom: night probe, day probe, sounder probe, North probe, followed by the",
+          "credit": "NASA/Rick Guidice / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Arrival_of_the_Pioneer_Venus_spacecraft_at_Venus_(ARC-1978-AC78-0238).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1280px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 927,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "NASA Headquarters at 300 E Street SW in Washington D.C.\nDeutsch:  NASA Hauptsitz auf der 300 E Street SW in Washington D.C.\n中文：​位于美国华盛顿300 E Street SW的美国国家航空航天局(NASA)总部大楼\nБеларуская:  Штаб-кватэра NAS",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_HQ_Building.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg/1280px-Katherine_Johnson_at_NASA%2C_in_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1513,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Katherine Johnson, NASA employée, mathematician and physicist, in 1966",
+          "credit": "Adam Cuerden / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_at_NASA,_in_1966.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/What%27s_Up_in_the_Solar_System%2C_active_space_probes_2020-04.png/1280px-What%27s_Up_in_the_Solar_System%2C_active_space_probes_2020-04.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 897,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A diagram of active space missions traveling beyond Earth orbit, April 2020.",
+          "credit": "Olaf Frohn / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:What%27s_Up_in_the_Solar_System,_active_space_probes_2020-04.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/What%27s_Up_in_the_Solar_System%2C_active_space_probes_2020-05.png/1280px-What%27s_Up_in_the_Solar_System%2C_active_space_probes_2020-05.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 897,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A diagram of active space missions traveling beyond Earth orbit, May 2020.",
+          "credit": "Olaf Frohn / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:What%27s_Up_in_the_Solar_System,_active_space_probes_2020-05.png"
+        },
+        {
+          "url": "https://pixabay.com/get/gfa2950bab9c16aa6e099ccbeb3b6f8c699672a41cabd39a1b8f96bf20fae71cf903986b0aaec22af04caf28a4b4fec31_1280.jpg",
+          "width": 3000,
+          "height": 2007,
+          "kind": "photo",
+          "alt": "rocket launch, rocket, take off, space shuttle, rocketship, space shuttle launch, nasa launch, space travel, john f kennedy space center, cape canaveral, florida, usa, rocket launch, rocket, rocket, r",
+          "credit": "WikiImages / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/rocket-launch-rocket-take-off-67643/"
+        },
+        {
+          "url": "https://pixabay.com/get/g872643b9f23d2c70846934fac365b5b361ae9d3049f8df9e1ba39ea0f9a3aca272632fecd52b22dc0faf587888b4a534_1280.jpg",
+          "width": 3000,
+          "height": 1996,
+          "kind": "photo",
+          "alt": "rocket launch, rocket, take off, space shuttle, rocketship, space shuttle launch, nasa launch, space travel, john f kennedy space center, cape canaveral, florida, usa, rocket launch, rocket, rocket, r",
+          "credit": "WikiImages / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/rocket-launch-rocket-take-off-67646/"
+        }
+      ],
+      "story": [
+        {
+          "title": "NASA’s DAVINCI Probe Can Stand the Heat",
+          "link": "https://www.nasa.gov/image-article/nasas-davinci-probe-can-stand-the-heat/",
+          "summary": "The engineering development unit for NASA’s DAVINCI (Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging) probe is photographed prior to a major thermal evaluation. The DAVINCI team put the yoga ball-sized vessel into a ceramic-lined chamber with heat-scorched walls and ratcheted up the temperature to 869 F, or 465 C, over the course […]",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": 5.91
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/image-article/nasas-davinci-probe-can-stand-the-heat/"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/univerzum/2026-10-03-hatalmas-hos-szuletett-465-celsius-fokot-birt-a-venusz-szonda/",
+      "seo": {
+        "meta_title": "Hatalmas hős született: 465 Celsius-fokot bírt a Vénusz-szon",
+        "meta_description": "Sikeresen teljesítette a komoly hőterhelési vizsgát a NASA készülő DAVINCI űrszondájának mérnöki egysége, amelynek ellen kell állnia a Vénusz legfelső rétegeine",
+        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-03-hatalmas-hos-szuletett-465-celsius-fokot-birt-a-venusz-szonda/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg/1280px-SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "d804041ea8697a68ffff51c5eb2e624910a1144f4d81b2c1bb331c747d1b77d1",
+      "pipeline_run_id": "37101181821",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T07:54:56+02:00",
+      "updated_at": "2026-10-03T07:54:56+02:00",
+      "published_at": "2026-10-03T07:54:56+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-03T05:55:37+00:00",
+        "msg_ids": [
+          1922,
+          1923,
+          1924,
+          1925,
+          1926,
+          1927,
+          1928,
+          1929,
+          1930,
+          1931
+        ],
+        "control_id": 1932
       }
     }
   ]
