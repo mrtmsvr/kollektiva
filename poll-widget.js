@@ -33,11 +33,12 @@
     + '@keyframes kpww{0%,100%{transform:translateX(0) rotate(0)}20%{transform:translateX(6px) rotate(-4deg)}40%{transform:translateX(0) rotate(3deg)}60%{transform:translateX(4px) rotate(-2deg)}80%{transform:translateX(0) rotate(1deg)}}'
     + '#kpw-tab svg{width:24px;height:auto}#kpw-tab i{width:8px;height:8px;border-radius:50%;background:#B3261E;animation:kpwp 1.4s infinite}'
     + '@keyframes kpwp{50%{transform:scale(1.6);opacity:.45}}'
+    + '@media (max-width:1023px){#kpw-tab{padding:7px 5px 8px;gap:5px;font-size:9px;letter-spacing:.14em}#kpw-tab svg{width:15px}#kpw-tab i{width:6px;height:6px}}'
     + '#kpw{position:fixed;left:0;top:50%;z-index:56;width:min(350px,calc(100vw - 28px));max-height:calc(100vh - 40px);overflow:auto;transform:translate(-110%,-50%);transition:transform .35s ease;background:#171A36;color:#ECE6D8;border:1px solid #2A2D52;border-left:0;border-radius:0 16px 16px 0;padding:16px 18px 16px;box-shadow:0 12px 40px rgba(0,0,0,.55);font:15px/1.45 Manrope,system-ui,sans-serif}'
     + '#kpw.on{transform:translate(0,-50%)}#kpw .h{display:flex;justify-content:space-between;align-items:center;gap:10px}'
     + '#kpw .h b{color:#C9A45C;font-size:11px;letter-spacing:.16em;text-transform:uppercase}'
     + '#kpw .x{background:transparent;border:1px solid #2A2D52;color:#9492B3;border-radius:999px;width:28px;height:28px;cursor:pointer;font-size:16px;line-height:1}#kpw .x:hover{color:#C9A45C;border-color:#C9A45C}'
-    + '#kpw h3{margin:8px 0 4px;font:600 22px/1.2 "Cormorant Garamond",Georgia,serif}#kpw .sub{margin:0 0 6px;color:#9492B3;font-size:12.5px;line-height:1.4}'
+    + '#kpw h3{margin:8px 0 4px;font:600 22px/1.2 "Cormorant Garamond",Georgia,serif}#kpw .sub{display:inline-block;margin:0 0 6px;color:#9492B3;font-size:13px;line-height:1.4;text-decoration:underline;text-underline-offset:2px}#kpw .sub:hover{color:#ECE6D8}'
     + '#kpw .o{display:block;width:100%;text-align:left;margin:7px 0;padding:10px 13px;border:1px solid #2A2D52;border-radius:12px;background:transparent;color:#ECE6D8;font:14px Manrope,system-ui,sans-serif;cursor:pointer}#kpw .o:hover{border-color:#C9A45C}'
     + '#kpw .r{position:relative;overflow:hidden;margin:7px 0;padding:10px 13px;border:1px solid #2A2D52;border-radius:12px;display:flex;justify-content:space-between;gap:10px;font-size:14px}#kpw .r.me{border-color:#C9A45C}'
     + '#kpw .r s{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.16);text-decoration:none}#kpw .r em,#kpw .r strong{position:relative;font-style:normal}'
@@ -60,10 +61,10 @@
       document.body.appendChild(tab); document.body.appendChild(box);
       function head() {
         return '<div class="h"><b>A nap kérdése</b><button type="button" class="x" aria-label="Bezár">×</button></div><h3>' + esc(poll.question) + '</h3>'
-          + '<p class="sub">Mondd el te is, mit gondolsz – szavazás után látod, hogyan szavaztak a többiek.</p>';
+          + '<a class="sub" href="' + esc(poll.article_url) + '">A cikk: ' + esc(poll.article_title) + '</a>';
       }
       function foot(meta) {
-        return '<p class="m">' + meta + '</p><div class="ft"><a class="b2" href="' + esc(poll.article_url) + '">A cikk elolvasása</a><a class="b1" href="/szavazasok/">Korábbi szavazások</a></div>';
+        return '<p class="m">' + meta + '</p><div class="ft"><a class="b2" href="/szavazasok/">Korábbi szavazások</a><a class="b1" href="' + esc(poll.article_url) + '">Cikk</a></div>';
       }
       function status(r) { return r.closed ? 'lezárult' : '<span class="dot"></span>nyitva'; }
       function show(r) {
@@ -71,7 +72,7 @@
         box.innerHTML = head() + poll.options.map(function (o, i) {
           var p = t ? Math.round(100 * (r.counts[i] || 0) / t) : 0;
           return '<div class="r' + (r.voted === i ? ' me' : '') + '"><s style="width:' + p + '%"></s><em>' + esc(o) + (r.voted === i ? ' ✓' : '') + '</em><strong>' + p + '%</strong></div>';
-        }).join('') + foot(status(r) + (t >= 200 ? ' · ' + t + ' szavazat' : '') + ' · nem reprezentatív');
+        }).join('') + foot(status(r) + (t >= 200 ? ' · ' + t + ' szavazat' : ''));
       }
       function ask() {
         box.innerHTML = head() + poll.options.map(function (o, i) { return '<button type="button" class="o" data-i="' + i + '">' + esc(o) + '</button>'; }).join('')
@@ -79,13 +80,24 @@
       }
       (st.voted !== null || st.closed) ? show(st) : ask();
       function appear() { if (!tab.classList.contains('off') || box.classList.contains('on')) return; tab.classList.remove('off'); setTimeout(function () { tab.classList.add('wig'); }, 400); }
-      if (HOME && MOBILE) {  // mobilon a főoldalon: csak kis görgetés után jön elő (ne lógjon bele a kiemelt hírbe)
-        var onScroll = function () { if (scrollY > 320) { appear(); removeEventListener('scroll', onScroll); } };
+      var sec = HOME && document.getElementById('szavazas');
+      if (HOME) {
+        // a főoldalon a 3. szekció maga a szavazás: a fül csak akkor jön elő, ha már túlgörgettél rajta
+        // (mobilon legalább egy kis görgetés után, hogy ne lógjon bele a kiemelt hírbe)
+        var onScroll = function () {
+          var below = sec && !sec.classList.contains('hidden') ? sec.getBoundingClientRect().bottom < 0 : scrollY > 320;
+          if (below) { appear(); removeEventListener('scroll', onScroll); }
+        };
         addEventListener('scroll', onScroll, { passive: true });
       } else {
         setTimeout(appear, 1200);
       }
-      function open() { box.classList.add('on'); tab.classList.add('off'); tab.classList.remove('wig'); var i = tab.querySelector('i'); if (i) i.remove(); }
+      // amíg meg nem nyitják, időnként újra megrándul (max. 5-ször), hogy feltűnjön
+      var wigs = 0, wigT = setInterval(function () {
+        if (box.classList.contains('on') || tab.classList.contains('off') || ++wigs > 5) { if (wigs > 5) clearInterval(wigT); return; }
+        tab.classList.remove('wig'); void tab.offsetWidth; tab.classList.add('wig');
+      }, 12000);
+      function open() { box.classList.add('on'); tab.classList.add('off'); tab.classList.remove('wig'); clearInterval(wigT); var i = tab.querySelector('i'); if (i) i.remove(); }
       function close() { box.classList.remove('on'); tab.classList.remove('off'); }
       tab.addEventListener('click', open);
       // bárhová máshová kattintva visszahúzódik – és ilyenkor a kattintás nem nyit meg semmi mást
