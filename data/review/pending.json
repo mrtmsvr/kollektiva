@@ -15585,7 +15585,7 @@
     {
       "id": "de8d7b1c-cfd7-5d06-b56c-0b5baa8bdfa2",
       "slug": "2026-10-03-mit-rejt-a-sotetseg-az-alvas-biologiaja",
-      "status": "pending",
+      "status": "published",
       "category": "eletmod",
       "subcategory": "olvasnivalo",
       "tags": [
@@ -15787,9 +15787,9 @@
       "dedupe_hash": "c69226f22b5ae9962900b90dd65422c5737b923caebe5a02fd062dcb6fdcbaa4",
       "pipeline_run_id": "37110140301",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T10:36:03+02:00",
-      "updated_at": "2026-10-03T10:36:03+02:00",
-      "published_at": null,
+      "created_at": "2026-10-03T10:36:55+02:00",
+      "updated_at": "2026-10-03T10:36:55+02:00",
+      "published_at": "2026-10-03T10:36:55+02:00",
       "expires_at": null,
       "schedule": {
         "earliest": "2026-10-03T12:34:52+02:00",
@@ -15806,7 +15806,8 @@
           1988
         ],
         "control_id": 1989
-      }
+      },
+      "live": true
     }
   ]
 }
