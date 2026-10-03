@@ -15733,7 +15733,7 @@
     {
       "id": "5eefb95e-4dc4-52f9-9d1d-c835868adc8b",
       "slug": "2026-10-03-stadion-es-lowellness-igy-bucsuzott-kisvarda-a-lekoszono-exminisztert",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -15878,9 +15878,9 @@
       "dedupe_hash": "6badba1958992905ec1a4b20dc2e1bc13049a72e5c17adf3ae363df1eea6a0d2",
       "pipeline_run_id": "37114118077",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-03T11:48:38+02:00",
-      "updated_at": "2026-10-03T11:48:38+02:00",
-      "published_at": "2026-10-03T11:48:38+02:00",
+      "created_at": "2026-10-03T12:19:28+02:00",
+      "updated_at": "2026-10-03T12:19:28+02:00",
+      "published_at": "2026-10-03T12:19:28+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -15903,7 +15903,8 @@
         "luxury spa",
         "police handcuffs"
       ],
-      "images_seen": []
+      "images_seen": [],
+      "live": true
     }
   ]
 }
