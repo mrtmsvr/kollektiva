@@ -15643,7 +15643,7 @@
       "published_at": "2026-10-03T06:38:30+02:00",
       "expires_at": null,
       "review": {
-        "title": 0,
+        "title": 1,
         "image": 1,
         "sent_at": "2026-10-03T04:04:10+00:00",
         "msg_ids": [
