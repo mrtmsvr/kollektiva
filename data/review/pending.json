@@ -15400,7 +15400,17 @@
         ],
         "control_id": 1959
       },
-      "live": true
+      "live": true,
+      "image_queries": [
+        "Kisvárda",
+        "Erdőbénye",
+        "Hungarian Parliament",
+        "apple orchard",
+        "grocery store",
+        "inflation",
+        "agriculture market",
+        "political meeting"
+      ]
     },
     {
       "id": "773443b0-446e-58e0-ab6a-ccec1ea04bc7",
