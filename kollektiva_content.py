@@ -160,7 +160,7 @@ def post_json(url: str, headers: dict, payload: dict, timeout: int, retries: int
     for attempt in range(1, retries + 1):
         req = urllib.request.Request(url, data=body, method="POST",
                                      headers={"Content-Type": "application/json",
-                                              "User-Agent": "KollektivaBot/1.0 (+https://kollektiva.hu)", **headers})
+                                              "User-Agent": "KollektivaBot/1.0 (+https://xn--kollektva-m5a.hu)", **headers})
         try:
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return json.loads(resp.read().decode("utf-8"))
@@ -588,7 +588,7 @@ WIKI_EXCLUDE = re.compile(
     r"execut|stampede|hostage|suicide|rape|assassinat|explosion|crash|died|dies|death)\w*", re.I)
 
 
-WIKI_UA = {"User-Agent": "KollektivaBot/1.0 (https://kollektiva.hu; bot@kollektiva.hu)", "Accept": "application/json"}
+WIKI_UA = {"User-Agent": "KollektivaBot/1.0 (https://xn--kollektva-m5a.hu; szerkesztoseg@xn--kollektva-m5a.hu)", "Accept": "application/json"}
 
 # Megbízható külső források (a Wikipédia-cikkek hivatkozásaiból válogatva)
 TRUSTED_SOURCES = {
@@ -1077,7 +1077,7 @@ def wiki_onthisday_event(d: date, http_timeout: int) -> Optional[dict]:
     A tények a Wikipédiából jönnek (esemény + cikkkivonat), az AI csak megfogalmaz."""
     url = f"https://en.wikipedia.org/api/rest_v1/feed/onthisday/selected/{d.month:02d}/{d.day:02d}"
     req = urllib.request.Request(url, headers={
-        "User-Agent": "KollektivaBot/1.0 (https://kollektiva.hu; bot@kollektiva.hu)",
+        "User-Agent": "KollektivaBot/1.0 (https://xn--kollektva-m5a.hu; szerkesztoseg@xn--kollektva-m5a.hu)",
         "Accept": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=http_timeout) as resp:
