@@ -1,7 +1,320 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-03T08:35:53+02:00",
+  "updated_at": "2026-10-03T10:16:10+02:00",
   "articles": [
+    {
+      "id": "9e2d733a-018d-573e-9161-224c3e35b882",
+      "slug": "2026-10-03-a-postas-is-tudja-ebbol-keresett-jol-a-felfedezo",
+      "status": "published",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Szendrő Péter",
+        "A legjobb ajánlat",
+        "RTL",
+        "építész",
+        "bulvár"
+      ],
+      "title": "A postás is tudja: ebből keresett jól a Felfedező",
+      "subtitle": null,
+      "lead": "Dr. Szendrő Péter építészmérnök, akit az RTL műtárgykereső show-jának Felfedezőjeként ismertek meg a nézők, korábban divatmodellként egészítette ki az ösztöndíját. A Blikk beszámolója szerint a rendszeres tévés szereplés mellett a múltjának is köszönheti jelenlegi ismertségét.",
+      "key_points": [
+        "Szendrő Pétert egy éve ismerte meg az ország az RTL műsorából.",
+        "Egyetemistaként divat- és sportmárkák arcaként, valamint kifutókon modellkedett.",
+        "Közel ötven budapesti vendéglátóhelyet tervezett, saját stúdiója is van.",
+        "Szabadidejében előszeretettel gyűjt youngtimer autókat és retró tárgyakat."
+      ],
+      "content": "Dr. Szendrő Péter építészmérnök és belsőépítész egy éve robbant be a köztudatba az RTL A legjobb ajánlat című műsorának Felfedezőjeként. A hivatását tekintve nem véletlen a választása, hiszen édesanyja, Font Erzsébet szintén építészmérnök, édesapja pedig gépészmérnök, így a családi indíttatás alapvetően határozta meg a pályáját. A képernyős jelenlét mára teljesen áthatja a mindennapjait: mint azt a Blikknek elmesélte, egy temetésen a sírásó és a virágos is felismerte, a postás pedig azóta rendszeresen a műsor címével köszönti.\n\nA mérnöki pálya mellett Péter korábban más területen też kipróbálta magát. Egyetemista évei alatt divat- és sportmárkák felkérésére modellkedett, reklámfilmekben és kifutókon szerepelt. Ebből a munkából származó jövedelméből finanszírozta utazásait, a nyelvtanulást és a sporteszközeit, mielőtt végleg a tervezőasztal mellett kötött volna ki.\n\nA tervezés és a televíziós szereplések mellett szenvedélyes gyűjtő is: előszeretettel keresi a huszadik század második felének tárgyait, youngtimer autókat, motorokat és órákat. A retró tárgyak iránti rajongása még gyerekkorából ered, amikor szüleivel rendszeresen járt bolhapiacokra.",
+      "content_format": "markdown",
+      "body": [
+        "Dr. Szendrő Péter építészmérnök és belsőépítész egy éve robbant be a köztudatba az RTL A legjobb ajánlat című műsorának Felfedezőjeként. A hivatását tekintve nem véletlen a választása, hiszen édesanyja, Font Erzsébet szintén építészmérnök, édesapja pedig gépészmérnök, így a családi indíttatás alapvetően határozta meg a pályáját. A képernyős jelenlét mára teljesen áthatja a mindennapjait: mint azt a Blikknek elmesélte, egy temetésen a sírásó és a virágos is felismerte, a postás pedig azóta rendszeresen a műsor címével köszönti.",
+        "A mérnöki pálya mellett Péter korábban más területen też kipróbálta magát. Egyetemista évei alatt divat- és sportmárkák felkérésére modellkedett, reklámfilmekben és kifutókon szerepelt. Ebből a munkából származó jövedelméből finanszírozta utazásait, a nyelvtanulást és a sporteszközeit, mielőtt végleg a tervezőasztal mellett kötött volna ki.",
+        "A tervezés és a televíziós szereplések mellett szenvedélyes gyűjtő is: előszeretettel keresi a huszadik század második felének tárgyait, youngtimer autókat, motorokat és órákat. A retró tárgyak iránti rajongása még gyerekkorából ered, amikor szüleivel rendszeresen járt bolhapiacokra."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 191,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/szendro-peter-a-legjobb-ajanlat-modellkedes-epitesz/r01rhhb",
+          "title": "Nem fogja kitalálni, miből élt A legjobb ajánlat Felfedezője, Szendrő Péter: durván jól keresett ezzel a munkával",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T09:45:09+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Én ezt párhuzamos univerzumként élem meg, mert az ismerőseim nagy része keveset néz tévét, akik meg néznek, azok sem nagyon szokták mondani, hogy láttak.",
+        "who": "Dr. Szendrő Péter, építész, az RTL Felfedezője",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-03T10:16:10+02:00"
+      },
+      "hot_score": 5.92,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/szendro-peter-a-legjobb-ajanlat-modellkedes-epitesz/r01rhhb"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/bulvar/2026-10-03-a-postas-is-tudja-ebbol-keresett-jol-a-felfedezo/",
+      "seo": {
+        "meta_title": "A postás is tudja: ebből keresett jól a Felfedező",
+        "meta_description": "Dr. Szendrő Péter építészmérnök, akit az RTL műtárgykereső show-jának Felfedezőjeként ismertek meg a nézők, korábban divatmodellként egészítette ki az ösztöndíj",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-03-a-postas-is-tudja-ebbol-keresett-jol-a-felfedezo/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "8e2adef94d0b8aa807a4f07916eb906f29d72828496993187a29d11208ac440a",
+      "pipeline_run_id": "37107224089",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T10:16:10+02:00",
+      "updated_at": "2026-10-03T10:16:10+02:00",
+      "published_at": "2026-10-03T10:16:10+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "c36d7945-7dc5-50ec-89f7-7ef6d261ecd8",
+      "slug": "2026-10-03-hetvegen-dol-el-az-arresstop-sorsa-kisvarda-utan",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Magyar Péter",
+        "árrésstop",
+        "kormányülés",
+        "gazdaság",
+        "elszámoltatás"
+      ],
+      "title": "Hétvégén dől el az árrésstop sorsa Kisvárda után",
+      "subtitle": null,
+      "lead": "Egész hétvégén Erdőbényén ülésezik a kormány, ahol a miniszterelnök bejelentése szerint napirendre kerül az árrésstop esetleges kivezetése. Az intézkedés sorsáról a kialakult piaci feszültségek és a kedvező inflációs környezet miatt döntenek.",
+      "key_points": [
+        "A kormány egész hétvégén kihelyezett ülést tart Erdőbényén.",
+        "A miniszterelnök pénteki kisvárdai bejelentése alapján megfontolják az árrésstop kivezetését.",
+        "A döntést az 1,7 százalékos infláció és a piaci szereplők jelzései indokolják.",
+        "A Miniszterelnökség feljelentést tett egy közpénz-ügyben, miközben a Századvég létszámleépítésbe kezdett."
+      ],
+      "content": "Magyar Péter miniszterelnök péntek este Kisvárdán jelölte ki a gazdasági viták új irányát, amikor arról beszélt, hogy az eredetileg az áremelkedések fékezésére bevezetett árrésstop mára többet árt, mint amennyit használ. A kormányfő szerint az intézkedés nehéz helyzetbe hozta a hazai agráriumot – különösen az alacsony felvásárlási árak miatt nehézséggel küzdő almatermesztőket –, miközben a kiskereskedelmi láncok a veszteségek csökkentése érdekében olcsóbb, külföldi termékeket hoznak be.\n\nA Portfolio beszámolója szerint a kabinet egész hétvégén Erdőbényén tanácskozik, ahol a minisztertársak beszámolói mellett dönthetnek az élelmiszeripari szereplőkkel és a kereskedelmi láncokkal egyeztetett lépésekről. Kármán András pénzügyminiszter videós nyilatkozatában hozzátette, hogy a szegénység enyhítésére megnégyszerezték a nyugdíjminimumot, valamint csökkentették a tűzifa és a gyógyszerek áfáját.\n\nA gazdasági témák mellett a belpolitikai elszámoltatási eljárások is folytatódnak: a Miniszterelnökség feljelentést tett az Alapjogokért Központot működtető cég ellen 410 millió forintnyi közpénz miatt, a Századvég pedig elvesztette állami megbízásait, így létszámleépítésbe kezdett.",
+      "content_format": "markdown",
+      "body": [
+        "Magyar Péter miniszterelnök péntek este Kisvárdán jelölte ki a gazdasági viták új irányát, amikor arról beszélt, hogy az eredetileg az áremelkedések fékezésére bevezetett árrésstop mára többet árt, mint amennyit használ. A kormányfő szerint az intézkedés nehéz helyzetbe hozta a hazai agráriumot – különösen az alacsony felvásárlási árak miatt nehézséggel küzdő almatermesztőket –, miközben a kiskereskedelmi láncok a veszteségek csökkentése érdekében olcsóbb, külföldi termékeket hoznak be.",
+        "A Portfolio beszámolója szerint a kabinet egész hétvégén Erdőbényén tanácskozik, ahol a minisztertársak beszámolói mellett dönthetnek az élelmiszeripari szereplőkkel és a kereskedelmi láncokkal egyeztetett lépésekről. Kármán András pénzügyminiszter videós nyilatkozatában hozzátette, hogy a szegénység enyhítésére megnégyszerezték a nyugdíjminimumot, valamint csökkentették a tűzifa és a gyógyszerek áfáját.",
+        "A gazdasági témák mellett a belpolitikai elszámoltatási eljárások is folytatódnak: a Miniszterelnökség feljelentést tett az Alapjogokért Központot működtető cég ellen 410 millió forintnyi közpénz miatt, a Századvég pedig elvesztette állami megbízásait, így létszámleépítésbe kezdett."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 174,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG/1280px-Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Erdőbénye, látkép",
+        "credit": "Zerind / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Erd%C5%91b%C3%A9nye,_l%C3%A1tk%C3%A9p.JPG",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261003/tisza-kormany-egesz-hetvegen-ulesezik-a-kormany-fontolora-veszik-az-arresstop-kivezeteset-867082",
+          "title": "Tisza-kormány: egész hétvégén ülésezik a kormány, fontolóra veszik az árrésstop kivezetését",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T09:44:04+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/arresstop-kivezetese-magyar-peter-lidl-tesco-kisboltok?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Megtörtént, erre várt a Tisza-kormánytól a Lidl, az Aldi, a Tesco és a Spar: Magyar Péter hatalmas bejelentést tett a boltoknak, készülhetnek a vásárlók – küszöbön az árrésstop kivezetése",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T09:44:04+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-03T10:16:09+02:00"
+      },
+      "hot_score": 7.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261003/tisza-kormany-egesz-hetvegen-ulesezik-a-kormany-fontolora-veszik-az-arresstop-kivezeteset-867082"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/kozelet/2026-10-03-hetvegen-dol-el-az-arresstop-sorsa-kisvarda-utan/",
+      "seo": {
+        "meta_title": "Hétvégén dől el az árrésstop sorsa Kisvárda után",
+        "meta_description": "Egész hétvégén Erdőbényén ülésezik a kormány, ahol a miniszterelnök bejelentése szerint napirendre kerül az árrésstop esetleges kivezetése. Az intézkedés sorsár",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-03-hetvegen-dol-el-az-arresstop-sorsa-kisvarda-utan/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG/1280px-Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "e9bdfa62-6d8e-5e5b-816b-1e893208b382",
+        "0a162dd3-459c-542a-a0e7-22ccba6d1ab0"
+      ],
+      "see_also": [
+        {
+          "title": "Magyar Péter az árrésstop kivezetését sürgeti",
+          "url": "/penzvilag/2026-10-02-magyar-peter-az-arresstop-kivezeteset-surgeti/",
+          "date": "2026-10-02"
+        },
+        {
+          "title": "Ezért ültették le a fideszes exminisztert?",
+          "url": "/kozelet/2026-10-02-ezert-ultettek-le-a-fideszes-exminisztert/",
+          "date": "2026-10-02"
+        }
+      ],
+      "thread_id": "47814d47-fabd-5006-a676-0af9c4384d79",
+      "dedupe_hash": "0c72c9181491e9d46687fb9c526ca3675067bd0cd81655d50d5fbacb50ef7a8a",
+      "pipeline_run_id": "37107224089",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T10:16:09+02:00",
+      "updated_at": "2026-10-03T10:16:09+02:00",
+      "published_at": "2026-10-03T10:16:09+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "588e068d-77fb-5ed9-897e-29dc08b31a44",
+      "slug": "2026-10-03-megmenekult-a-pozsonyi-koalicio-oda-az-orban-fele-szerb-kampanyszerep",
+      "status": "published",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Szerbia",
+        "Alekszandar Vucsics",
+        "Orbán Viktor",
+        "Robert Fico",
+        "választások"
+      ],
+      "title": "Megmenekült a pozsonyi koalíció, oda az Orbán-féle szerb kampányszerep",
+      "subtitle": null,
+      "lead": "Az elnöki tisztségéről nemrég lemondott Alekszandar Vucsics szombat este Belgrádban tart választási nagygyűlést, ahol az eredetileg várt magyar vendég helyett végül Robert Fico szlovák miniszterelnök lép fel. A HVG belgrádi forrásai szerint a változás hátterében az áll, hogy Pozsonyban az utolsó pillanatban elhárult a kormányválság.",
+      "key_points": [
+        "A Hvg.hu információi szerint Vucsics a szombat esti nagygyűlésre Orbán Viktort is meghívta.",
+        "Miután a szlovák kormányválság elhárult, Robert Fico mégis vállalta az utat, így ő lett a rendezvény fő vendége.",
+        "A legfrissebb közvélemény-kutatások szerint az egyetemi diákok mozgalma vezeti a népszerűségi rangsort Szerbiában."
+      ],
+      "content": "Szombat este Belgrádban tart választási nagygyűlést Alekszandar Vucsics, aki múlt vasárnap mondott le az elnöki tisztségről, hogy egy előrehozott választáson ismét miniszterelnök lehessen.\n\nA HVG belgrádi forrásai szerint a nagygyűlésre külföldi meglepetésvendéget hívtak, és egy ideig úgy tűnt, a felszólaló Orbán Viktor volt miniszterelnök lesz. A volt szerb elnök eredetileg Robert Ficót kérte fel, ám miután néhány napja kis híján felbomlott a pozsonyi kormánykoalíció, a szlovák miniszterelnök jelezte, hogy nem tud elutazni. Vucsics emiatt szerdán Orbán Viktort kereste meg, aki igent mondott a felkérésre.\n\nA helyzet azonban az utolsó pillanatban megváltozott: Ficóéknak sikerült elhárítaniuk a válságot, így a pozsonyi kormányfő közölte, hogy mégis ellátogat Belgrádba. A hirtelen fordulat miatt egyelőre bizonytalan, hogy a volt magyar miniszterelnök elutazik-e Szerbiába, de az már bizonyos, hogy a nagygyűlés fő vendége Fico lesz.",
+      "content_format": "markdown",
+      "body": [
+        "Szombat este Belgrádban tart választási nagygyűlést Alekszandar Vucsics, aki múlt vasárnap mondott le az elnöki tisztségről, hogy egy előrehozott választáson ismét miniszterelnök lehessen.",
+        "A HVG belgrádi forrásai szerint a nagygyűlésre külföldi meglepetésvendéget hívtak, és egy ideig úgy tűnt, a felszólaló Orbán Viktor volt miniszterelnök lesz. A volt szerb elnök eredetileg Robert Ficót kérte fel, ám miután néhány napja kis híján felbomlott a pozsonyi kormánykoalíció, a szlovák miniszterelnök jelezte, hogy nem tud elutazni. Vucsics emiatt szerdán Orbán Viktort kereste meg, aki igent mondott a felkérésre.",
+        "A helyzet azonban az utolsó pillanatban megváltozott: Ficóéknak sikerült elhárítaniuk a válságot, így a pozsonyi kormányfő közölte, hogy mégis ellátogat Belgrádba. A hirtelen fordulat miatt egyelőre bizonytalan, hogy a volt magyar miniszterelnök elutazik-e Szerbiába, de az már bizonyos, hogy a nagygyűlés fő vendége Fico lesz."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 175,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Aleksandar_Vu%C4%8Di%C4%87_%282024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1598,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Serbian Prime Minister Miloš Vučević, German Chancellor Olaf Scholz, Serbian President Aleksandar Vučić and Maroš Šefčovič, Executive Vice-President of the European Commission for the European Green D",
+        "credit": "Oliver Bunic - European Commission / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aleksandar_Vu%C4%8Di%C4%87_(2024).jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/360/20261003_alekszandar-vucsics-orban-viktor-nagygyules-robert-fico",
+          "title": "A volt szerb elnök lecserélte Orbán Viktort",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-03T09:42:33+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-03T10:16:08+02:00"
+      },
+      "hot_score": 5.84,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/360/20261003_alekszandar-vucsics-orban-viktor-nagygyules-robert-fico"
+        ]
+      },
+      "date": "2026-10-03",
+      "date_label": "október 3.",
+      "url": "/vilag/2026-10-03-megmenekult-a-pozsonyi-koalicio-oda-az-orban-fele-szerb-kampanyszerep/",
+      "seo": {
+        "meta_title": "Megmenekült a pozsonyi koalíció, oda az Orbán-féle szerb kam",
+        "meta_description": "Az elnöki tisztségéről nemrég lemondott Alekszandar Vucsics szombat este Belgrádban tart választási nagygyűlést, ahol az eredetileg várt magyar vendég helyett v",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-03-megmenekult-a-pozsonyi-koalicio-oda-az-orban-fele-szerb-kampanyszerep/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Aleksandar_Vu%C4%8Di%C4%87_%282024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "665c74d3d3c19919f89d11b8e9be734b618b0842ec5bf063f232b2eb763bc796",
+      "pipeline_run_id": "37107224089",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-03T10:16:08+02:00",
+      "updated_at": "2026-10-03T10:16:08+02:00",
+      "published_at": "2026-10-03T10:16:08+02:00",
+      "expires_at": null
+    },
     {
       "id": "5fe18648-7d88-56cb-8cb2-5711abf78f4f",
       "slug": "2026-10-03-itt-vannak-a-friss-arfolyamok-fordulat-a-piacon",
