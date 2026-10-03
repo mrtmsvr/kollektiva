@@ -152,8 +152,8 @@
         <p class="shrink-0 text-[13px] text-dusk"><span id="todayLabel"></span></p>
       </div>
       <a id="featLink" href="#retro" class="group relative block">
-        <h1 id="featTitle" class="mt-3 font-display text-[38px] font-semibold leading-[1.04] tracking-tight text-parch transition-colors group-hover:text-brass sm:text-[54px] lg:text-[62px]">&nbsp;</h1>
-        <p id="featLead" class="mt-3 max-w-xl text-[16px] leading-relaxed text-dusk line-clamp-2 sm:text-[18px]"></p>
+        <h1 id="featTitle" class="mt-3 min-h-[3.12em] lg:min-h-[2.08em] font-display text-[38px] font-semibold leading-[1.04] tracking-tight text-parch transition-colors group-hover:text-brass sm:text-[54px] lg:text-[62px]">&nbsp;</h1>
+        <p id="featLead" class="mt-3 min-h-[3.25em] max-w-xl text-[16px] leading-relaxed text-dusk line-clamp-2 sm:text-[18px]"></p>
       </a>
       <div class="relative mt-5 flex flex-wrap items-center gap-3">
         <a href="#friss" class="rounded-full border border-line px-5 py-2.5 text-[14px] text-parch transition hover:border-brass/70">Még több</a>
@@ -169,7 +169,7 @@
 </section>
 
 <!-- ============ TOP TÉMÁK / HOT TOPIC (articles.json-ból töltődik) ============ -->
-<section id="friss" class="hidden border-b border-line/70">
+<section id="friss" class="border-b border-line/70" style="min-height:100vh">
   <div class="mx-auto max-w-7xl px-5 py-10 lg:px-8 lg:py-14">
     <div class="flex items-end justify-between gap-4">
       <h2 class="font-display text-[34px] font-semibold leading-tight sm:text-[44px]">Top témák</h2>
@@ -491,6 +491,7 @@ const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt
 const meter = n => { const v = Math.min(5, Math.max(1, Math.round(Number(n) || 3))); return '●'.repeat(v) + '○'.repeat(5 - v); };
 const todayISO = () => new Intl.DateTimeFormat('sv-SE', { timeZone: SITE_TZ }).format(new Date()); // ÉÉÉÉ-HH-NN
 const $ = id => document.getElementById(id);
+setTimeout(() => { const f = $('friss'); if (f && f.style.minHeight) f.style.display = 'none'; }, 9000);
 
 function signFromDate(month, day) {
   return SIGNS.find(s => {
@@ -499,6 +500,7 @@ function signFromDate(month, day) {
     return (month === fm && day >= fd) || (month === tm && day <= td) || month > fm || month < tm;
   });
 }
+let currentSign = null;  // a kiválasztott csillagjegy csak erre a látogatásra él
 function store(key, val) {
   try { if (val !== undefined) localStorage.setItem(key, val); return localStorage.getItem(key); }
   catch (e) { return null; }
@@ -710,7 +712,7 @@ function selectSign(id, scroll) {
   $('panelExtra').textContent = extra;
   $('panelExtra').classList.toggle('hidden', !extra);
   const panel = $('signPanel'); panel.classList.remove('hidden');
-  store('kollektiva_sign', id);
+  currentSign = id;
   renderToday();
   if (scroll) panel.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
 }
@@ -809,8 +811,7 @@ async function loadHoroscope() {
     horoscopeData = fallbackHoroscope();
     setHoroscopeStatus('');
   }
-  const saved = store('kollektiva_sign');
-  if (saved) selectSign(saved, false);
+  try { localStorage.removeItem('kollektiva_sign'); } catch (e) { /* privát mód */ }
 }
 
 /* =====================================================================
@@ -834,7 +835,7 @@ function renderFeatured(f) {
 
 function renderToday() {
   if (!$('todayList')) return;
-  const saved = SIGNS.find(s => s.id === store('kollektiva_sign'));
+  const saved = SIGNS.find(s => s.id === currentSign);
   const h = saved ? (horoscopeData[saved.id] || {}) : null;
   const items = [
     { label: 'Horoszkóp', href: '#horoszkop',
@@ -979,7 +980,10 @@ loadRetro();
     const score = a => (a.hot_score || 0) * (W[a.category] || 1);
     const hot = (a, b) => day(b).localeCompare(day(a)) || score(b) - score(a) || String(b.created_at || '').localeCompare(String(a.created_at || ''));
     // kiemelt hír: bulvár és saját (off-topic) anyag nem lehet, ha van komoly hír
-    const top = arts.filter(a => a.category !== 'bulvar' && !a.offtopic).sort(hot)[0] || arts.slice().sort(hot)[0];
+    const pool = arts.filter(a => a.category !== 'bulvar' && !a.offtopic).sort(hot);
+    const best = pool[0] || arts.slice().sort(hot)[0];
+    // lehetőleg képes cikk legyen kiemelve (gépen ott a kép is); csak ugyanarról a napról, hogy friss maradjon
+    const top = best && (pool.find(a => a.hero_image && a.hero_image.url && day(a) === day(best)) || best);
     if (top) { window.__hotFeatured = true; renderFeatured({ kicker: NAMES[top.category] || 'Friss', title: top.title, lead: top.lead, meta: `${top.date_label || ''} · ${top.reading_time_min || 1} perc olvasás · Kollektíva szerkesztőség`, href: top.url, img: top.hero_image }); }
     // „Új” jelölés: a 4 órán belül megjelent cikkek címe előtt kis piros felirat
     const isNew = a => { const t = Date.parse(a.published_at || a.created_at || ''); return t && Date.now() - t < 4 * 3600e3 && Date.now() >= t
@@ -1001,7 +1005,7 @@ loadRetro();
         <span><span class="block text-[11px] uppercase tracking-[0.16em] text-brass">${esc(NAMES[a.category] || '')}</span>
         <span class="mt-1 block text-[17px] font-semibold leading-snug text-parch group-hover:text-brass">${isNew(a)}${esc(a.title)}</span>
         <span class="mt-1 block text-[12px] text-dusk">${esc(a.date_label || '')}</span></span></a></li>`).join('');
-      $('friss').classList.remove('hidden');
+      $('friss').style.minHeight = ''; $('friss').style.display = '';
     }
     ['kozelet', 'vilag', 'penzvilag', 'tech', 'eletmod', 'kultura', 'univerzum', 'bulvar'].forEach(id => {
       const card = document.getElementById(id); if (!card) return;
