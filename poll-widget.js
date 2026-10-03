@@ -21,7 +21,26 @@
     + '#kpw .r{position:relative;overflow:hidden;margin:7px 0;padding:10px 13px;border:1px solid #2A2D52;border-radius:12px;display:flex;justify-content:space-between;gap:10px;font-size:14px}#kpw .r.me{border-color:#C9A45C}'
     + '#kpw .r s{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.16);text-decoration:none}#kpw .r em,#kpw .r strong{position:relative;font-style:normal}'
     + '#kpw .m{margin:8px 0 0;color:#9492B3;font-size:12px}#kpw .ft{display:flex;justify-content:space-between;gap:10px;margin-top:10px;padding-top:10px;border-top:1px solid #2A2D52}';
+  var MIN = 100;  // ennyi szavazat alatt nem mutatunk százalékot
+  function top(r) { var b = 0; (r.counts || []).forEach(function (c, i) { if (c > r.counts[b]) b = i; }); return b; }
+  function seenGet() { try { return JSON.parse(localStorage.getItem('kpw_seen') || '[]'); } catch (e) { return []; } }
+  function notifyClosed(polls) {
+    // aki szavazott egy azóta (3 napon belül) lezárult kérdésre, annak egyszer szólunk: nézd meg, mi lett
+    var seen = seenGet(), now = Date.now();
+    var recent = polls.filter(function (p) { var c = Date.parse(p.closes_at); return c < now && now - c < 3 * 864e5 && seen.indexOf(p.id) < 0; });
+    recent.slice(0, 3).forEach(function (p) {
+      fetch('/api/poll?id=' + encodeURIComponent(p.id)).then(function (r) { return r.json(); }).then(function (r) {
+        if (!r.ok || r.voted === null) return;
+        seen = seenGet(); seen.push(p.id); try { localStorage.setItem('kpw_seen', JSON.stringify(seen.slice(-40))); } catch (e) {}
+        var t = document.createElement('a'); t.href = '/szavazasok/#p' + p.id;
+        t.textContent = 'Lezárult a szavazás, amiben részt vettél: „' + p.question + '” – nézd meg az eredményt →';
+        t.style.cssText = 'position:fixed;left:50%;top:14px;transform:translateX(-50%);z-index:80;max-width:calc(100vw - 32px);background:#C9A45C;color:#0E1024;border-radius:14px;padding:10px 16px;font:600 13px/1.4 Manrope,system-ui,sans-serif;text-decoration:none;box-shadow:0 6px 20px rgba(0,0,0,.4)';
+        document.body.appendChild(t); setTimeout(function () { t.remove(); }, 9000);
+      }).catch(function () {});
+    });
+  }
   getPolls().then(function (d) {
+    notifyClosed((d && d.polls) || []);
     var poll = ((d && d.polls) || []).filter(function (p) { return Date.parse(p.closes_at) > Date.now(); })[0];
     if (!poll || location.pathname === poll.article_url) return;  // a cikkben ott a saját szavazása
     return fetch('/api/poll?id=' + encodeURIComponent(poll.id)).then(function (r) { return r.json(); }).then(function (st) {
@@ -40,10 +59,15 @@
       }
       function show(r) {
         var t = r.total || 0;
+        if (t < MIN) {  // kevés szavazatból a százalék félrevezető: csak az eredmény iránya
+          box.innerHTML = head() + '<p class="m" style="font-size:14px;color:#ECE6D8">' + (r.voted !== null ? 'Köszi, megkaptuk a szavazatod! ' : '')
+            + (r.closed ? 'Lezárult. A legtöbben ezt választották: <b>' + esc(poll.options[top(r)]) + '</b>' : 'Az eredményt a szavazás lezárulása után mutatjuk.') + '</p>' + foot('nem reprezentatív, olvasóink véleménye');
+          return;
+        }
         box.innerHTML = head() + poll.options.map(function (o, i) {
           var p = t ? Math.round(100 * (r.counts[i] || 0) / t) : 0;
           return '<div class="r' + (r.voted === i ? ' me' : '') + '"><s style="width:' + p + '%"></s><em>' + esc(o) + (r.voted === i ? ' ✓' : '') + '</em><strong>' + p + '%</strong></div>';
-        }).join('') + foot((t >= 200 ? t + ' szavazat · ' : '') + (r.closed ? 'lezárult' : 'a szavazás nyitva') + ' · nem reprezentatív, olvasóink véleménye');
+        }).join('') + foot((t >= 1000 ? t + ' szavazat · ' : '') + (r.closed ? 'lezárult' : 'a szavazás nyitva') + ' · nem reprezentatív, olvasóink véleménye');
       }
       function ask() {
         box.innerHTML = head() + poll.options.map(function (o, i) { return '<button type="button" class="o" data-i="' + i + '">' + esc(o) + '</button>'; }).join('')
