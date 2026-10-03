@@ -159,7 +159,6 @@ def _control(art: dict) -> tuple:
                  {"text": "📄 Teljes szöveg", "callback_data": f"{sid}|txt"}])
     live = art.get("live")
     rows.append([{"text": "✅ Rendben" if live else "✅ Kirakom", "callback_data": f"{sid}|ok"},
-                 {"text": "🔁 Újraírás", "callback_data": f"{sid}|rw"},
                  {"text": "🗑 Törlés" if live else "🗑 Elvetem", "callback_data": f"{sid}|no"}])
     img_txt = f"{ii + 1}. kép" if ii >= 0 and imgs else "nincs kép"
     auto = f"\nHa nem döntesz, {AUTO_PUBLISH_MIN} perc múlva magától kikerül." if MODE == "hybrid" else ""
@@ -405,16 +404,20 @@ def _age_min(art: dict) -> float:
 
 HELP = ("Szia! Ide küldöm az új Kollektíva-cikkeket jóváhagyásra.\n\n"
         "• Cím 1–3 / Kép 1–N / Nincs kép: csak kiválasztás (a ✓ jelzi, mi van kiválasztva)\n"
-        "• 🔄 Új képek: eldobja a mostani képjelölteket és újakat keres (válaszban: „kép: mit keressek”)\n"
-        "• ✅ Kirakom: azonnal kikerül az oldalra (1–2 perc)\n"
-        f"• Ha {AUTO_PUBLISH_MIN} percen belül nem döntesz, magától kikerül\n"
-        "• 🗓 Saját (időzített) anyag: csendesebb időszakban kerül ki magától, legkésőbb este\n"
-        "• Kint lévő cikknél (🟢): cím/kép csere, 🔁 Újraírás (ugyanazon a linken), 🗑 Törlés\n"
-        "• ✅ Rendben: jelzés, hogy megnézted – 48 óráig még módosíthatod\n"
-        "• ✏️ Saját cím: a gomb után írd be (vagy válaszolj „cím: …”)\n"
-        "• /torles <link vagy címrészlet> – kint lévő cikk leszedése bármikor\n"
-        "• Küldj egy linket vagy „téma: …” üzenetet (pl. „téma: MNB kamatdöntés”) → megírom róla a cikket\n"
-        "• /szavazas – nyitott szavazások, leszedés gombbal\n• 🔥 címek: a legkattintósabb változatok\n• /lista – függő és kint lévő cikkek")
+        "• 🔄 Új képek: újakat keres – vagy válaszolj a cikkre: „K: mit keressek” (hosszan: „Kép: …”)\n"
+        "• Saját cím: ✏️ gomb, vagy válaszolj a cikkre: „C: az új cím” (hosszan: „Cím: …”)\n"
+        "• Előtag nélküli válasznál megkérdezem: cím legyen, vagy képet keressek\n"
+        "• ✅ Kirakom: azonnal kikerül (1–2 perc); ha " + str(AUTO_PUBLISH_MIN) + " percen belül nem döntesz, magától\n"
+        "• 🗓 Saját (időzített) anyag: csendesebb időszakban kerül ki, legkésőbb este\n"
+        "• Kint lévő cikknél (🟢): cím/kép csere, 🗑 Törlés; ✅ Rendben – 48 óráig még módosítható\n\n"
+        "Parancsok (rövid / hosszú):\n"
+        "/u /ujrairas – válaszként egy cikkre: újraírja (kint lévőnél ugyanazon a linken)\n"
+        "/v /vissza <link vagy címrészlet> – leveszi az oldalról és ide küldi javításra\n"
+        "/t /torles <link vagy címrészlet> – kint lévő cikk végleges leszedése\n"
+        "/l /lista – függő és kint lévő cikkek\n"
+        "/szavazas – nyitott szavazások, leszedés gombbal\n"
+        "/keret – mai AI- és képgenerálási használat a napi ingyenes kerethez képest\n"
+        "• Link vagy „téma: …” üzenet → megírom róla a cikket\n• 🔥 címek: a legkattintósabb változatok")
 
 
 def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -> int:
@@ -444,9 +447,9 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 art = next((a for a in pending if rep in (a.get("review", {}).get("msg_ids", []) +
                                                           [a.get("review", {}).get("control_id"),
                                                            a.get("review", {}).get("title_prompt_id")])), None)
-                is_title = art and (rep == art["review"].get("title_prompt_id") or re.match(r"(?i)cím\s*:", text))
-                if art and not is_title and re.match(r"(?i)\s*k[eé]p(ek|et)?\b\s*:?", text):
-                    hint = re.sub(r"(?i)^\s*k[eé]p(ek|et)?\s*:?\s*", "", text)[:120]
+                is_title = art and (rep == art["review"].get("title_prompt_id") or re.match(r"(?i)\s*(cím|c)\s*:", text))
+                if art and not is_title and re.match(r"(?i)\s*(k[eé]p(ek|et)?\b\s*:?|k\s*:)", text):
+                    hint = re.sub(r"(?i)^\s*(k[eé]p(ek|et)?\s*:?|k\s*:)\s*", "", text)[:120]
                     note = _refresh_images(st["chat_id"], art, ai, hint)
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": f"🔄 {note}.", "reply_to_message_id": m["message_id"]})
                 elif art and not is_title:
@@ -459,7 +462,7 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                                            {"text": "✏️ Legyen ez a cím", "callback_data": f"ch|t|{m['message_id']}"},
                                            {"text": "🖼 Képet keressek erre", "callback_data": f"ch|i|{m['message_id']}"}]]}})
                 elif art:
-                    text = re.sub(r"(?i)^\s*cím\s*:\s*", "", text).strip()
+                    text = re.sub(r"(?i)^\s*(cím|c)\s*:\s*", "", text).strip()
                     art["review"]["custom_title"] = text[:140]
                     _refresh_control(st["chat_id"], art)
                     if art.get("live"):
@@ -469,7 +472,54 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                                        "reply_to_message_id": m["message_id"]})
                 else:
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": "Ez a cikk már nincs függőben."})
-            elif text.startswith("/torles") or text.startswith("/törlés"):
+            elif re.match(r"(?i)/(u|ujrairas|újraírás)\b", text):
+                art = rep and next((a for a in pending if rep in (a.get("review", {}).get("msg_ids", []) +
+                                                                  [a.get("review", {}).get("control_id")])), None)
+                if not art:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": m["message_id"],
+                                       "text": "Az újraíráshoz válaszolj a cikk valamelyik üzenetére ezzel: /u"})
+                else:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": "🔁 Újraírás…", "reply_to_message_id": m["message_id"]})
+                    new = _rewrite(art, ai, tz)
+                    if new and art.get("live"):  # az élő cikk helyben cserélődik, az URL marad
+                        for k in ("id", "slug", "url", "seo", "created_at", "published_at", "status"):
+                            new[k] = art[k]
+                        new["live"] = True
+                        new["review"] = {"title": 0, "image": 0 if new.get("image_options") else -1}
+                        _apply_live(out_dir, new, tz, content=True)
+                        published += 1
+                    if new:
+                        pending[pending.index(art)] = new
+                        send_article(out_dir, new)
+                        changed = True
+                    else:
+                        tg("sendMessage", {"chat_id": st["chat_id"], "text": "Az újraírás most nem sikerült, próbáld később."})
+            elif re.match(r"(?i)/(v|vissza)\b", text):
+                # kint lévő cikk levétele + visszaküldése ide javításra (nem kerül ki magától, csak ✅ Kirakom után)
+                qtxt = text.split(maxsplit=1)[1].strip().lower() if len(text.split(maxsplit=1)) > 1 else ""
+                live_arts = kc.read_json(out_dir / "articles.json", {"articles": []}).get("articles", [])
+                hits = [a for a in live_arts if qtxt and (qtxt in (a.get("url") or "").lower() or qtxt in a.get("title", "").lower())]
+                if len(hits) != 1:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": (
+                        "Használat: /v <link vagy címrészlet> – leveszi az oldalról, és ide küldi javításra" if not hits else
+                        f"{len(hits)} cikk illik rá, pontosíts:\n" + "\n".join("• " + a["title"] for a in hits[:8]))})
+                else:
+                    h = hits[0]
+                    _apply_live(out_dir, h, tz, remove=True)
+                    published += 1
+                    pending[:] = [p for p in pending if p.get("id") != h["id"]]
+                    back = {k: v for k, v in h.items() if k != "live"}
+                    back.update({"status": "needs_review", "hold": True, "title_options": [h["title"]], "clickbait_from": 1,
+                                 "image_options": [h["hero_image"]] if h.get("hero_image") else [],
+                                 "created_at": datetime.now(tz).isoformat(timespec="seconds")})
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": f"⏸ Levettem az oldalról (1–2 perc): {h['title']}\n"
+                                       "Javítsd lent (cím, kép, /u újraírás), majd ✅ Kirakom – addig nem kerül ki magától."})
+                    send_article(out_dir, back)
+                    pending.append(back)
+                    changed = True
+            elif re.match(r"(?i)/(keret|limit)\b", text):
+                tg("sendMessage", {"chat_id": st["chat_id"], "text": kc.usage_report()})
+            elif re.match(r"(?i)/(t|torles|törlés)\b", text):
                 # bármikor (a 48 órás szerkesztési idő után is) leszedhető egy kint lévő cikk: link vagy címrészlet alapján
                 qtxt = text.split(maxsplit=1)[1].strip().lower() if len(text.split(maxsplit=1)) > 1 else ""
                 live_arts = kc.read_json(out_dir / "articles.json", {"articles": []}).get("articles", [])
@@ -492,7 +542,7 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": f"🗳 {x['question']}\n({x.get('article_title', '')})",
                                        "reply_markup": {"inline_keyboard": [[{"text": "🗑 Szavazás leszedése",
                                                                              "callback_data": f"pdel|{x['id']}"}]]}})
-            elif text.startswith("/lista"):
+            elif re.match(r"(?i)/(l|lista)\b", text):
                 lines = [f"{'🟢' if a.get('live') else '⏳'} {kc.SECTIONS.get(a['category'], {}).get('name', '')}: "
                          f"{_chosen_title(a)}" for a in pending]
                 tg("sendMessage", {"chat_id": st["chat_id"], "text": "\n".join(lines) or "Nincs függő cikk."})
@@ -668,12 +718,18 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": "Az újraírás most nem sikerült, próbáld később."})
             if q:
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": note})
+    # ingyenes keretek: ha valamelyik fogyóban van, naponta egyszer szólunk
+    alert, today_s = kc.usage_alert(), datetime.now(tz).date().isoformat()
+    if alert and st.get("usage_warned") != today_s and st.get("chat_id"):
+        tg("sendMessage", {"chat_id": st["chat_id"], "text": alert})
+        st["usage_warned"] = today_s
+        changed = True
     # automatikus kirakás, ha AUTO_PUBLISH_MIN percen belül nem jött döntés
     if MODE == "hybrid":
         import offtopic
         now_local = datetime.now(tz)
         live_articles = kc.read_json(out_dir / "articles.json", {"articles": []}).get("articles", [])
-        for a in [a for a in pending if not a.get("live")]:
+        for a in [a for a in pending if not a.get("live") and not a.get("hold")]:
             if a.get("schedule"):
                 if not offtopic.is_due(a, live_articles, now_local):
                     continue
@@ -713,9 +769,12 @@ def _rewrite(art: dict, ai, tz: ZoneInfo) -> Optional[dict]:
         if new and art.get("schedule"):
             new["schedule"] = art["schedule"]
         return new
-    if not ai.enabled or not art.get("story"):
+    # a visszavett (/v) kint lévő cikknél nincs eltárolt „story”: a forráslistából rakjuk össze
+    src = art.get("story") or [{"title": s.get("title") or "", "link": s["url"], "summary": "", "source": s.get("publisher") or "",
+                                "published": art.get("date"), "categories": []} for s in art.get("sources") or [] if s.get("url")]
+    if not ai.enabled or not src or art.get("category") not in kc.SECTIONS:
         return None
-    story = [dict(s, kw=kc._keywords(s["title"] + " " + (s.get("summary") or "")[:200])) for s in art["story"]]
+    story = [dict(s, kw=kc._keywords(s["title"] + " " + (s.get("summary") or "")[:200])) for s in src]
     new = kc.build_section_article(ai, kc.SECTIONS[art["category"]], date.fromisoformat(art["date"]), tz, story,
                                    {im["url"] for im in art.get("image_options") or []})
     if new:
