@@ -49,7 +49,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Optional
 from zoneinfo import ZoneInfo
@@ -1390,7 +1390,7 @@ PAGE_CSS = """
 body{margin:0;background:var(--night);color:var(--parch);font:17px/1.75 Manrope,system-ui,-apple-system,"Segoe UI",sans-serif}
 a{color:var(--parch)}a:hover{color:var(--brass)}
 header,main,footer{max-width:720px;margin:0 auto;padding:0 20px}
-.share{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share .sh-main{display:inline-flex;align-items:center;gap:8px;font:600 14px/1 Manrope,system-ui,sans-serif;color:#0E1024;background:var(--brass);border:0;border-radius:999px;padding:11px 18px;cursor:pointer}.sh-pop{display:flex;flex-wrap:wrap;gap:8px}.sh-pop[hidden]{display:none}.share .sh-save,.sh-pop a,.sh-pop button{display:inline-flex;align-items:center;gap:6px;font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.share .sh-save:hover,.share .sh-save[data-on="1"],.sh-pop a:hover,.sh-pop button:hover{border-color:var(--brass);color:var(--brass)}.share .sh-save[data-on="1"] svg{fill:currentColor}.share .sh-main:hover,.share .sh-main:focus,.share .sh-main:active{color:#0E1024;background:#D8B46B}.share .sh-main:active,.share .sh-save:active{transform:scale(.96)}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#3FBF6F;box-shadow:0 0 0 3px rgba(63,191,111,.2);margin-right:6px;vertical-align:middle}.pbtn{display:inline-block;margin-top:12px;background:var(--brass);color:#0E1024!important;font:600 13px/1 Manrope,system-ui,sans-serif;border-radius:999px;padding:9px 14px;text-decoration:none}.pbtn:hover{background:#D8B46B}.sh-top{display:inline-flex;align-items:center;gap:6px;vertical-align:middle;margin-left:10px;height:30px;padding:0 12px;border-radius:15px;border:1px solid var(--brass);background:transparent;color:var(--brass);font-family:inherit;font-size:13px;font-weight:600;line-height:1;cursor:pointer}.sh-top:hover{border-color:var(--brass)}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}.tags a{font-size:12px;color:var(--dusk);border:1px solid var(--line);border-radius:999px;padding:4px 10px;text-decoration:none}.tags a:hover{color:var(--brass);border-color:var(--brass)}.poll b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.poll h3{margin:6px 0 12px;font:600 22px/1.3 "Cormorant Garamond",Georgia,serif}.poll button{display:block;width:100%;text-align:left;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--parch);font:15px Manrope,system-ui,sans-serif;cursor:pointer}.poll button:hover{border-color:var(--brass)}.poll .pr{position:relative;overflow:hidden;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;display:flex;justify-content:space-between;gap:10px}.poll .pr.me{border-color:var(--brass)}.poll .pr span{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.15)}.poll .pr em,.poll .pr strong{position:relative;font-style:normal}.poll small{color:var(--dusk)}
+.share{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share .sh-main{display:inline-flex;align-items:center;gap:8px;font:600 14px/1 Manrope,system-ui,sans-serif;color:#0E1024;background:var(--brass);border:0;border-radius:999px;padding:11px 18px;cursor:pointer}.sh-pop{display:flex;flex-wrap:wrap;gap:8px}.sh-pop[hidden]{display:none}.share .sh-save,.sh-pop a,.sh-pop button{display:inline-flex;align-items:center;gap:6px;font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.share .sh-save:hover,.share .sh-save[data-on="1"],.sh-pop a:hover,.sh-pop button:hover{border-color:var(--brass);color:var(--brass)}.share .sh-save[data-on="1"] svg{fill:currentColor}.share .sh-main:hover,.share .sh-main:focus,.share .sh-main:active{color:#0E1024;background:#D8B46B}.share .sh-main:active,.share .sh-save:active{transform:scale(.96)}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#3FBF6F;box-shadow:0 0 0 3px rgba(63,191,111,.2);margin-right:6px;vertical-align:middle}.pbtn{display:inline-block;margin-top:12px;background:var(--brass);color:#0E1024!important;font:600 13px/1 Manrope,system-ui,sans-serif;border-radius:999px;padding:9px 14px;text-decoration:none}.pbtn:hover{background:#D8B46B}.sh-top{float:right;display:inline-flex;align-items:center;justify-content:center;margin:-6px 0 0 10px;width:38px;height:38px;padding:0;border-radius:50%;border:1px solid var(--brass);background:transparent;color:var(--brass);cursor:pointer}.sh-top:hover{border-color:var(--brass)}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}.tags a{font-size:12px;color:var(--dusk);border:1px solid var(--line);border-radius:999px;padding:4px 10px;text-decoration:none}.tags a:hover{color:var(--brass);border-color:var(--brass)}.poll b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.poll h3{margin:6px 0 12px;font:600 22px/1.3 "Cormorant Garamond",Georgia,serif}.poll button{display:block;width:100%;text-align:left;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--parch);font:15px Manrope,system-ui,sans-serif;cursor:pointer}.poll button:hover{border-color:var(--brass)}.poll .pr{position:relative;overflow:hidden;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;display:flex;justify-content:space-between;gap:10px}.poll .pr.me{border-color:var(--brass)}.poll .pr span{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.15)}.poll .pr em,.poll .pr strong{position:relative;font-style:normal}.poll small{color:var(--dusk)}
 .hdr-r{display:flex;align-items:center;gap:10px}.srch{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid var(--line);border-radius:999px;color:var(--parch)}.srch:hover{color:var(--brass);border-color:var(--brass)}
 .gpref{text-align:center;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)}.gpref a{color:var(--brass);text-decoration:none}.gpref a:hover{color:var(--parch)}.gpref b{color:var(--brass);font-weight:400}
 header{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;border-bottom:1px solid var(--line);position:relative}
@@ -1708,7 +1708,7 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
     body = f"""<article>
 <p class="kicker">{E(section["kicker"])}{(" · " + E(str(year))) if year else ""}</p>
 <h1>{E(a["title"])}</h1>
-<p class="meta">{E(a["authorship"]["byline"])} · <time datetime="{E(published)}">{E(published.replace("-", ". "))}.</time> · {a.get("reading_time_min", 1)} perc olvasás<button type="button" class="sh-top" aria-label="Megosztás" title="Megosztás" onclick="var d=document.querySelector('.share');if(navigator.share){{navigator.share({{title:d.dataset.title,url:d.dataset.url}}).catch(function(){{}})}}else{{d.scrollIntoView({{behavior:'smooth',block:'center'}});d.querySelector('.sh-main').click()}}"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg>Megosztás</button></p>
+<p class="meta"><button type="button" class="sh-top" aria-label="Megosztás" title="Megosztás" onclick="var d=document.querySelector('.share');if(navigator.share){{navigator.share({{title:d.dataset.title,url:d.dataset.url}}).catch(function(){{}})}}else{{d.scrollIntoView({{behavior:'smooth',block:'center'}});d.querySelector('.sh-main').click()}}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg></button>{E(a["authorship"]["byline"])} · <time datetime="{E(published)}">{E(published.replace("-", ". "))}.</time> · {a.get("reading_time_min", 1)} perc olvasás</p>
 {_tags_html(a.get("tags"))}
 <p class="lead">{E(a["lead"])}</p>
 {figure}
@@ -2816,6 +2816,33 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
     }
 
 
+SENT_LOG = BASE_DIR / "data" / "review" / "sent_log.json"
+
+
+def _sent_log(hours: float = 36) -> list:
+    """A Telegramra már elküldött témák naplója (cím, kulcsszavak, forráslinkek, képjelöltek). Akkor is véd az
+    újraírás ellen, ha a függő listából a cikk kiesett (elvetés, lejárat, félbeszakadt mentés)."""
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=hours)).isoformat()
+    return [e for e in read_json(SENT_LOG, {"items": []}).get("items", []) if (e.get("t") or "") >= cutoff]
+
+
+def _log_sent(art: dict) -> None:
+    items = _sent_log(72)
+    items.append({"t": datetime.now(timezone.utc).isoformat(timespec="seconds"), "title": art.get("title", ""),
+                  "kw": sorted(_keywords(art.get("title", "") + " " + " ".join(s.get("title", "") for s in art.get("sources", []))))[:40],
+                  "links": art.get("category_meta", {}).get("source_links", []),
+                  "imgs": [im.get("url") for im in art.get("image_options") or [] if im.get("url") and not im.get("generated")][:12]})
+    write_json_atomic(SENT_LOG, {"items": items[-300:]})
+
+
+def _same_images(art: dict, log_items: list) -> Optional[str]:
+    mine = {im.get("url") for im in art.get("image_options") or [] if im.get("url") and not im.get("generated")}
+    for e in log_items:
+        if len(mine & set(e.get("imgs") or [])) >= 2:
+            return e.get("title")
+    return None
+
+
 def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run: bool) -> int:
     """Nincs napi cikkszám-korlát: minden futás (napközben kétóránként) összegyűjti az összes rovat friss
     témáit, forróság szerint rangsorolja, és a legjobb MAX_ARTICLES_PER_RUN (alap: 2) új témáról ír – így a
@@ -2836,6 +2863,9 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
     used_links = {l for a in articles + pending for l in a.get("category_meta", {}).get("source_links", [])}
     if review:
         used_links |= review.rejected_links(output_dir)
+    sent = _sent_log()
+    for e in sent:
+        used_links.update(e.get("links") or [])
     articles_all = articles + [p for p in pending if not p.get("live")]
     now = datetime.now(tz)
     # Ugyanarról az ügyről FOLLOWUP_MIN_H órán belül nem írunk újra; utána egy új fejlemény már „folytatás” lehet
@@ -2845,6 +2875,10 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
                      if (a.get("created_at") or "") >= (now - timedelta(hours=followup_h)).isoformat() and a.get("title")]
     recent_kw = [_keywords(a.get("title", "") + " " + " ".join(s.get("title", "") for s in a.get("sources", [])))
                  for a in articles_all if (a.get("created_at") or "") >= (now - timedelta(hours=followup_h)).isoformat()]
+    # a már elküldött (de a függő listából esetleg kiesett) témák is számítanak
+    recent_sent = [e for e in sent if (e.get("t") or "") >= (datetime.now(timezone.utc) - timedelta(hours=followup_h)).isoformat()]
+    recent_titles += [e["title"] for e in recent_sent if e.get("title")]
+    recent_kw += [set(e.get("kw") or []) for e in recent_sent]
     wanted = [x.strip() for x in os.getenv("SECTION_IDS", ",".join(ACTIVE_SECTIONS)).split(",") if x.strip() in ACTIVE_SECTIONS]
     max_run = int(os.getenv("MAX_ARTICLES_PER_RUN", "2"))
     # Napi keret (ingyenes AI-kvóta + Cloudflare-buildek): a napi cikkszám nem lépheti túl a DAILY_ARTICLE_LIMIT-et,
@@ -2883,6 +2917,14 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
         art = build_section_article(ai, SECTIONS[sid], d, tz, group, recent_imgs, related_past(articles, group))
         if not art:
             continue
+        dup = _same_images(art, sent)
+        if dup:  # ugyanazok a képtalálatok, mint egy nemrég elküldött cikknél → ugyanaz a téma
+            log.info("Kimarad (ugyanaz a téma, mint: %s): %s", dup, art["title"])
+            used_links.update(art["category_meta"]["source_links"])
+            continue
+        if review and not dry_run:
+            _log_sent(art)
+            sent.append({"title": art["title"], "imgs": [im.get("url") for im in art.get("image_options") or [] if not im.get("generated")]})
         used_links.update(art["category_meta"]["source_links"])
         recent_kw.append(group[0]["kw"])
         recent_titles.append(art["title"])
