@@ -9,7 +9,7 @@ folyamat (lektor, tényellenőrzés, idézetellenőrzés, képek) cikket ír, a 
 (hivatalos YouTube-lejátszó – ez jogszerű, és a forrásnak is jó). A cikk Telegramra megy, és CSAK jóváhagyással kerül ki.
 
 Csatornák: data/video_sources.json (Telegramon: /csatorna <YouTube-link vagy @név>, /csatornak).
-Napi keret: VIDEO_DAILY_MAX (alap 3), futásonként legfeljebb 1 videó; óránként egyszer néz rá a csatornákra.
+Napi keret: nincs (VIDEO_DAILY_MAX-szal korlátozható), futásonként legfeljebb 1 videó; óránként egyszer néz rá a csatornákra.
 Csak a VIDEO_MIN_MINUTES-nél (alap 20 perc) hosszabb videók – csatornánként felülírható ("min_minutes"),
 pl. politikusok rövid bejelentéseihez kisebb érték; a shortsok, előzetesek kimaradnak, a többiről a Gemini dönti el,
 hogy van-e benne hír.
@@ -189,7 +189,8 @@ def watch(ai: "kc.AIClient", v: dict) -> Optional[dict]:
               "magyar olvasót érdeklő állítás, bejelentés, vita – reklám, zene, előzetes, általános csevegés: false), "
               "\"topic\": \"egy mondat: miről szól\", \"speakers\": [\"név – szerep\"], \"summary\": \"részletes "
               "magyar összefoglaló 500–1200 szóban, a fontos állításokkal, ki mit mondott, a legjobb szó szerinti "
-              "idézetekkel „...” jelek között\", \"uncertain\": [\"bizonytalanul érthető nevek/számok/mondatok\"]}")
+              "idézetekkel „...” jelek között\", \"uncertain\": [\"bizonytalanul érthető nevek/számok/mondatok\"], \"minutes\": \"a videó teljes hossza percben, egész szám\", "
+              "\"channel\": \"a csatorna / műsor neve\"}")
     body = {"contents": [{"parts": [{"file_data": {"file_uri": v["url"]}, "video_metadata": {"end_offset": "3600s", "fps": 0.1}},
                                     {"text": prompt}]}],
             "systemInstruction": {"parts": [{"text": VIDEO_SYSTEM}]},
@@ -229,7 +230,18 @@ def article_from_video(ai: "kc.AIClient", v: dict, tz: ZoneInfo, articles: list)
     art = kc.build_section_article(ai, section, now.date(), tz, story, recent_imgs, kc.related_past(articles, story))
     if not art:
         return None
-    art.update({"status": "pending", "hold": True, "video": {"id": v["id"], "title": v["title"], "channel": v.get("author", "")},
+    mins = v.get("minutes")
+    if mins is None and str(info.get("minutes") or "").strip().isdigit():
+        mins = int(str(info["minutes"]).strip())
+    if not v.get("author") and info.get("channel"):
+        v["author"] = str(info["channel"])[:60]
+    if mins is None:
+        try:
+            mins = video_minutes(v["id"])
+        except Exception:  # noqa: BLE001
+            mins = None
+    art.update({"status": "pending", "hold": True,
+                "video": {"id": v["id"], "title": v["title"], "channel": v.get("author", ""), "minutes": mins},
                 "hot_score": max(art.get("hot_score") or 0, 5)})
     return art
 
@@ -270,7 +282,7 @@ def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: boo
             cands.append(v)
     save_sources(sources)
     made = 0
-    if cands and done_today < int(os.getenv("VIDEO_DAILY_MAX", "3")):
+    if cands and done_today < int(os.getenv("VIDEO_DAILY_MAX", "999")):
         v = sorted(cands, key=lambda x: x["published"], reverse=True)[0]
         seen.add(v["id"])
         articles = kc.read_json(output_dir / "articles.json", {"articles": []}).get("articles", [])
