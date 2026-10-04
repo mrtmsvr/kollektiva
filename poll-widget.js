@@ -65,7 +65,7 @@
       }
       function foot(meta) {
         return '<p class="m">' + meta + '</p><div class="ft"><a class="b2" href="/szavazasok/">Korábbi szavazások</a>'
-          + (Q ? '<a class="b2 qz" href="/kviz/">A hét kvíze' + (Q.fresh ? '<em class="nw">ÚJ</em>' : '') + '</a>' : '') + '</div>';
+          + (Q ? '<a class="b2 qz" href="/kviz/">Heti kvíz' + (Q.fresh ? '<em class="nw">ÚJ</em>' : '') + '</a>' : '') + '</div>';
       }
       function status(r) { return r.closed ? 'lezárult' : '<span class="dot"></span>nyitva'; }
       function show(r) {
