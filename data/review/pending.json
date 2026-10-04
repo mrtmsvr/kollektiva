@@ -11392,7 +11392,7 @@
     {
       "id": "ddf64240-073c-52f5-96cd-5592f9a545cc",
       "slug": "2026-10-04-migransok-helyett-az-oroszoktol-tartanak-a-lengyel-hataron",
-      "status": "pending",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -11423,15 +11423,15 @@
       "word_count": 179,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Donald_Tusk_%286165309851%29.jpg/1280px-Donald_Tusk_%286165309851%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 800,
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/186ee864cae145e1.jpg",
+        "width": 6000,
+        "height": 4000,
         "kind": "photo",
-        "pos": "center",
-        "alt": "Donald Tusk at the Wyższa Szkoła Bankowa (WSB University), Toruń.",
-        "credit": "Platforma Obywatelska RP / Wikimedia Commons",
-        "license": "CC BY-SA 2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Donald_Tusk_(6165309851).jpg"
+        "alt": "barbed wire, jail, fence, security, barrier, to back up, protection, metal, sharp, dangerous, escape, obstacle",
+        "credit": "manfredrichter / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/barbed-wire-jail-fence-security-9906199/",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/186ee864cae145e1.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -11569,7 +11569,7 @@
         "meta_title": "Migránsok helyett az oroszoktól tartanak a lengyel határon",
         "meta_description": "Az Európai Unió egyik legjobban militarizált övezetévé vált a lengyel-belarusz határ, ahol a kezdeti migrációs nyomás után mára az orosz fenyegetés elleni védek",
         "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-04-migransok-helyett-az-oroszoktol-tartanak-a-lengyel-hataron/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Donald_Tusk_%286165309851%29.jpg/1280px-Donald_Tusk_%286165309851%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/186ee864cae145e1.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -11586,9 +11586,9 @@
       "dedupe_hash": "2d1d81f667d8abfc65ed9ba15cb0f6d3cb08b767c5998c538646d419a50aac98",
       "pipeline_run_id": "37202931029",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-04T14:46:19+02:00",
-      "updated_at": "2026-10-04T14:46:19+02:00",
-      "published_at": "2026-10-04T14:46:19+02:00",
+      "created_at": "2026-10-04T14:52:17+02:00",
+      "updated_at": "2026-10-04T14:52:17+02:00",
+      "published_at": "2026-10-04T14:52:17+02:00",
       "expires_at": null,
       "hold": true,
       "video": {
@@ -11618,7 +11618,8 @@
           2513
         ],
         "control_id": 2514
-      }
+      },
+      "live": true
     }
   ]
 }
