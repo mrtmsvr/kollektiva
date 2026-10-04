@@ -12055,6 +12055,28 @@
       "clickbait_from": 3,
       "image_options": [
         {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/e0e5b1d869-1791104831-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/e0e5b1d869-1791104831-0.jpg",
+          "kind": "photo",
+          "alt": "Brazília választ: a mocsár és a dinasztia árnyékában",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/e0e5b1d869-1791104834-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/e0e5b1d869-1791104834-1.jpg",
+          "kind": "photo",
+          "alt": "Brazília választ: a mocsár és a dinasztia árnyékában",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28estreita%29.jpg/1280px-Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28estreita%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 1679,
@@ -12187,9 +12209,11 @@
           2370,
           2371,
           2372,
-          2373
+          2373,
+          2375,
+          2376
         ],
-        "control_id": 2374
+        "control_id": 2377
       }
     }
   ]
