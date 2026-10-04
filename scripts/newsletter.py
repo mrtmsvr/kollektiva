@@ -71,10 +71,10 @@ def sender() -> dict | None:
     if os.getenv("NEWSLETTER_SENDER_EMAIL"):
         return {"name": "Kollektíva", "email": os.environ["NEWSLETTER_SENDER_EMAIL"]}
     _, data = brevo("/senders")
-    for s in data.get("senders", []):
-        if s.get("active"):
-            return {"name": "Kollektíva", "email": s["email"]}
-    return None
+    act = [s for s in data.get("senders", []) if s.get("active")]
+    # a saját domaines feladó (szerkesztoseg@kollektíva.hu) az első – a Gmailes feladó gyakrabban megy spambe
+    act.sort(key=lambda s: 0 if s.get("email", "").lower().endswith(("@xn--kollektva-m5a.hu", "@kollektíva.hu")) else 1)
+    return {"name": "Kollektíva", "email": act[0]["email"]} if act else None
 
 
 NL_SYSTEM = ("A Kollektíva magyar hírportál heti hírlevelének szerkesztője vagy. A hét cikkeiből érthető, "
