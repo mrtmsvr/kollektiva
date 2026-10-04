@@ -1709,7 +1709,7 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
         f'<li><a href="{E(x["url"])}">{E(x["title"])}</a>' + (f' <span>· {E(str(x.get("date", ""))[5:].replace("-", ". "))}.</span>' if x.get("date") else "")
         + '</li>' for x in sa[:3]) + '</ul></div>') if sa else ""
     body = f"""<article>
-<p class="kicker">{E(section["kicker"])}{(" · " + E(str(year))) if year else ""}{" · ▶ Videó" if v else ""}</p>
+<p class="kicker">{E(section["kicker"])}{(" · " + E(str(year))) if year else ""}{(" · ▶ Videó" + (f" · {E(str(v.get('minutes')))} perc" if v.get("minutes") else "")) if v else ""}</p>
 <h1>{E(a["title"])}</h1>
 <p class="meta">{E(a["authorship"]["byline"])} · <time datetime="{E(published)}">{E(published.replace("-", ". "))}.</time> · {a.get("reading_time_min", 1)} perc olvasás</p>
 <div class="tagrow">{_tags_html(a.get("tags"))}<button type="button" class="sh-top" aria-label="Megosztás" title="Megosztás" onclick="var d=document.querySelector('.share');if(navigator.share){{navigator.share({{title:d.dataset.title,url:d.dataset.url}}).catch(function(){{}})}}else{{d.scrollIntoView({{behavior:'smooth',block:'center'}});d.querySelector('.sh-main').click()}}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg></button></div>
