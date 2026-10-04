@@ -292,6 +292,8 @@ def send_article(_out_dir: Optional[Path], art: dict) -> None:
     except Exception as e:  # noqa: BLE001
         log.warning("Jogi ellenőrzés kimaradt: %s", e)
     kind = "🟢 KINT VAN" if art.get("live") else ("🗓 SAJÁT (időzített)" if art.get("offtopic") else "🆕 ÚJ")
+    if isinstance(art.get("video"), dict) and not art.get("live"):
+        kind = f"🎬 VIDEÓBÓL ({art['video'].get('channel') or 'YouTube'})"
     resent = art.pop("resent", None)
     if resent == "v":
         kind = "♻️ VISSZAVÉVE JAVÍTÁSRA (ugyanaz a cikk, nem új)"
