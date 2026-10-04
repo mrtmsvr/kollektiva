@@ -11083,8 +11083,19 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/5a4acb6ea7-1791128997-1.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/5a4acb6ea7-1791128997-1.jpg",
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/5a4acb6ea7-1791129025-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/5a4acb6ea7-1791129025-0.jpg",
+          "kind": "photo",
+          "alt": "Orbán szerint kulturális bosszú Hankó letartóztatása",
+          "likeness": true,
+          "credit": "AI-generált illusztráció – Kollektíva",
+          "license": "saját (AI-generált illusztráció)",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/5a4acb6ea7-1791129031-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/5a4acb6ea7-1791129031-1.jpg",
           "kind": "photo",
           "alt": "Orbán szerint kulturális bosszú Hankó letartóztatása",
           "likeness": false,
@@ -11202,9 +11213,11 @@
           2588,
           2593,
           2594,
-          2600
+          2600,
+          2604,
+          2605
         ],
-        "control_id": 2601
+        "control_id": 2606
       },
       "image_queries": [
         "Viktor Orbán",
