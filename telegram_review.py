@@ -77,6 +77,74 @@ def tg(method: str, payload: dict, timeout: int = 30) -> dict:
     return {}
 
 
+# ---------------------------------------------------------------------------
+# Azonnali fogadás (webhook): a Telegram a Cloudflare-végpontra (/api/tg) küld, az D1-sorba teszi,
+# visszajelez és elindítja a robotot; a robot innen veszi ki. Ha nincs TG_WEBHOOK_SECRET, marad a régi lekérdezés.
+# ---------------------------------------------------------------------------
+WEBHOOK_SECRET = os.getenv("TG_WEBHOOK_SECRET", "").strip()
+WEBHOOK_URL = f"{kc.SITE_URL}/api/tg"
+ALLOWED_UPDATES = ["message", "callback_query"]
+
+
+def _queue_get(timeout: int = 15) -> Optional[dict]:
+    req = urllib.request.Request(WEBHOOK_URL, headers={"X-Queue-Secret": WEBHOOK_SECRET, "User-Agent": "KollektivaBot/1.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        log.warning("Telegram-sor: HTTP %s", e.code)
+        return {"ok": False, "status": e.code}
+    except (urllib.error.URLError, TimeoutError, OSError, ValueError) as e:
+        log.warning("Telegram-sor: %s", getattr(e, "reason", type(e).__name__))
+        return None
+
+
+def _webhook_on(st: dict) -> bool:
+    """Bekapcsolja a webhookot, ha a Cloudflare-végpont működik; ha elromlott, visszaáll a régi lekérdezésre."""
+    if not WEBHOOK_SECRET:
+        if st.get("webhook"):
+            tg("deleteWebhook", {"drop_pending_updates": False})
+            st.pop("webhook", None)
+        return False
+    if st.get("webhook") == WEBHOOK_URL:
+        return True
+    probe = _queue_get()
+    if not probe or not probe.get("ok"):
+        log.warning("A /api/tg végpont még nem működik (Cloudflare-titkok?) – marad a régi lekérdezés.")
+        return False
+    r = tg("setWebhook", {"url": WEBHOOK_URL, "secret_token": WEBHOOK_SECRET, "allowed_updates": ALLOWED_UPDATES,
+                          "max_connections": 5})
+    if r.get("ok"):
+        st["webhook"] = WEBHOOK_URL
+        st["_webhook_buffer"] = probe.get("result") or []
+        log.info("✔ Telegram webhook bekapcsolva: %s", WEBHOOK_URL)
+        return True
+    return False
+
+
+def _updates(st: dict, wait: int) -> dict:
+    """Új Telegram-frissítések: webhookos módban a Cloudflare-sorból (3 mp-enként néz rá), egyébként getUpdates."""
+    if _webhook_on(st):
+        buf = st.pop("_webhook_buffer", [])
+        if buf:
+            return {"ok": True, "result": buf}
+        end = time.time() + max(0, wait)
+        while True:
+            r = _queue_get()
+            if r and r.get("ok"):
+                if r.get("result"):
+                    return r
+            elif r and r.get("status") in (403, 503):  # a végpont elromlott -> vissza a régi módra
+                tg("deleteWebhook", {"drop_pending_updates": False})
+                st.pop("webhook", None)
+                break
+            if time.time() >= end:
+                return {"ok": True, "result": []}
+            time.sleep(3)
+    return tg("getUpdates", {"offset": st.get("offset", 0), "timeout": wait, "allowed_updates": ALLOWED_UPDATES},
+              timeout=wait + 15)
+
+
 def _mid(resp: dict) -> Optional[int]:
     r = resp.get("result")
     if isinstance(r, list):
@@ -417,9 +485,9 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
     Visszatér: hány változás történt az oldalon (kirakás, csere, törlés)."""
     tz = tz or ZoneInfo("Europe/Budapest")
     st, pending = load_state(), load_pending()
-    resp = tg("getUpdates", {"offset": st.get("offset", 0), "timeout": wait,
-                             "allowed_updates": ["message", "callback_query"]}, timeout=wait + 15)
-    published, changed = 0, False
+    hook_before = st.get("webhook")
+    resp = _updates(st, wait)
+    published, changed = 0, st.get("webhook") != hook_before
     for u in resp.get("result", []):
         st["offset"] = u["update_id"] + 1
         changed = True
