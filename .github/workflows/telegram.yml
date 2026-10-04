@@ -24,6 +24,7 @@ jobs:
     timeout-minutes: 45
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TG_WEBHOOK_SECRET: ${{ secrets.TG_WEBHOOK_SECRET }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
