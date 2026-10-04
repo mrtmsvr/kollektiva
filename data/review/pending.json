@@ -10895,9 +10895,9 @@
       "live": true
     },
     {
-      "id": "ae1ad2fb-fefc-5af8-9c16-8d4ec11ab02e",
-      "slug": "2026-10-04-a-latasat-veszto-edesanya-dramajat-vitte-filmre-a-miskolci-kozonsegdi",
-      "status": "pending",
+      "id": "bd5f6137-5e0b-56e4-bda1-c741a69d0d7f",
+      "slug": "2026-10-04-sotetseg-es-szeretet-igy-keszult-a-mommy-blue-cimu-magyar-film",
+      "status": "published",
       "category": "kultura",
       "subcategory": null,
       "tags": [
@@ -10907,7 +10907,7 @@
         "CineFest",
         "Für Anikó"
       ],
-      "title": "A látását vesztő édesanya drámáját vitte filmre a miskolci közönségdíjas rendező",
+      "title": "Sötétség és szeretet: így készült a Mommy Blue című magyar film",
       "subtitle": null,
       "lead": "Mayer Bernadette rendező első nagyjátékfilmje, a Mommy Blue egy látását vesztő édesanya és felnőtt fia feszült, nehéz kapcsolatát tárja a nézők elé. Az alkotás nemcsak a miskolci CineFesten aratott sikert, hanem egy mélyen személyes, gyermekkori traumát is feldolgoz.",
       "key_points": [
@@ -10929,13 +10929,13 @@
       "word_count": 182,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://xn--kollektva-m5a.hu/public/img/gen/kultura-1791116268-0.jpg",
-        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kultura-1791116268-0.jpg",
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/kultura-1791116271-1.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kultura-1791116271-1.jpg",
         "kind": "photo",
         "alt": "A látását vesztő édesanya drámáját vitte filmre a miskolci közönségdíjas rendező",
-        "likeness": true,
-        "credit": "AI-generált illusztráció – Kollektíva",
-        "license": "saját (AI-generált illusztráció)",
+        "likeness": false,
+        "credit": "Kollektíva illusztráció",
+        "license": "saját grafika",
         "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
         "generated": true
       },
@@ -11013,12 +11013,12 @@
       },
       "date": "2026-10-04",
       "date_label": "október 4.",
-      "url": "/kultura/2026-10-04-a-latasat-veszto-edesanya-dramajat-vitte-filmre-a-miskolci-kozonsegdi/",
+      "url": "/kultura/2026-10-04-sotetseg-es-szeretet-igy-keszult-a-mommy-blue-cimu-magyar-film/",
       "seo": {
-        "meta_title": "A látását vesztő édesanya drámáját vitte filmre a miskolci k",
+        "meta_title": "Sötétség és szeretet: így készült a Mommy Blue című magyar f",
         "meta_description": "Mayer Bernadette rendező első nagyjátékfilmje, a Mommy Blue egy látását vesztő édesanya és felnőtt fia feszült, nehéz kapcsolatát tárja a nézők elé. Az alkotás ",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-04-a-latasat-veszto-edesanya-dramajat-vitte-filmre-a-miskolci-kozonsegdi/",
-        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/kultura-1791116268-0.jpg",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-04-sotetseg-es-szeretet-igy-keszult-a-mommy-blue-cimu-magyar-film/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/kultura-1791116271-1.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -11043,9 +11043,9 @@
       "dedupe_hash": "61bf43ffe32b498ae8e8c1ca7d4bbd57ec203959d47eb1c32dd2555fffe45748",
       "pipeline_run_id": "37201451630",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-04T14:16:28+02:00",
-      "updated_at": "2026-10-04T14:16:28+02:00",
-      "published_at": "2026-10-04T14:16:28+02:00",
+      "created_at": "2026-10-04T14:23:15+02:00",
+      "updated_at": "2026-10-04T14:23:15+02:00",
+      "published_at": "2026-10-04T14:23:15+02:00",
       "expires_at": null,
       "legal": {
         "level": 1,
@@ -11063,7 +11063,8 @@
           2463
         ],
         "control_id": 2464
-      }
+      },
+      "live": true
     },
     {
       "id": "bce1d31b-1841-55c8-bbda-a6f5ac86638d",
