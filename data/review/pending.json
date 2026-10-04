@@ -11137,15 +11137,26 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://pixabay.com/get/g5ed9989c6fa7d85bd14db2332b06e484020bc7ad1b48b3182e9cf8f31618e7d3c7e68220c1a29261cc6d342e50b3658df71e49ebe03e212111ad470df0053486_1280.jpg",
-          "width": 6000,
-          "height": 4000,
+          "url": "https://pixabay.com/get/gc2be809536852631177ebe9ad1d184944a6dd929473d18a2e1059cf94ba7790a7cd23c33769c2af3b2144e5bd4a41f54e257ddfd8b341a7aacee2619395b1615_1280.jpg",
+          "width": 1920,
+          "height": 817,
           "kind": "photo",
-          "alt": "pearl, gold, accessories, jewelry, gem, emerald, china, ancient, qing dynasty, cultural relics, pearl, jewelry, emerald, emerald, emerald, emerald, emerald",
-          "credit": "EVA12_ / Pixabay",
+          "alt": "viking, stone age, bronze, gold, golden, scandinavian, historical, museum, ancient, era, primitive, jewelry, jewels, treasure, display, bracelet, ring, accessory, jewelery, expensive, adornment, preci",
+          "credit": "PublicDomainPictures / Pixabay",
           "license": "Pixabay License",
-          "source_url": "https://pixabay.com/photos/pearl-gold-accessories-jewelry-gem-3443725/",
-          "vision_score": 6.0
+          "source_url": "https://pixabay.com/photos/viking-stone-age-bronze-gold-314861/",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://pixabay.com/get/g50de6d4d7ad3ba0b40dfb2ea4f5e5f5814ae9489a94dc2f7585a737e61a6c7e3883ffbcf491546851d9f4ad49e17afc908fa6655ea53f151c9f4f32e3628be07_1280.jpg",
+          "width": 4608,
+          "height": 3072,
+          "kind": "photo",
+          "alt": "lion head, door knocker, door, gate, metal, ornament, door handle, wrought iron, door, door, door, door, door, gate, metal, metal",
+          "credit": "652234 / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/lion-head-door-knocker-door-gate-3356125/",
+          "vision_score": 5.0
         }
       ],
       "story": [
@@ -11207,9 +11218,11 @@
           2478,
           2495,
           2496,
-          2498
+          2498,
+          2501,
+          2502
         ],
-        "control_id": 2499
+        "control_id": 2503
       },
       "image_queries": [
         "Jan Gerrit Dercksen",
@@ -11220,10 +11233,19 @@
         "Alexandria",
         "ancient jewelry",
         "meteorite iron",
-        "archaeological excavation"
+        "archaeological excavation",
+        "Mycenaean civilization",
+        "Minoan civilization",
+        "Ancient Egypt",
+        "Assyria",
+        "Hittites",
+        "bronze age ring",
+        "ancient jewelry",
+        "meteorite stone"
       ],
       "images_seen": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Ancient_Egyptian_jewelry_beads_and_amulet_Penn_Museum.jpg/1280px-Ancient_Egyptian_jewelry_beads_and_amulet_Penn_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://pixabay.com/get/g5ed9989c6fa7d85bd14db2332b06e484020bc7ad1b48b3182e9cf8f31618e7d3c7e68220c1a29261cc6d342e50b3658df71e49ebe03e212111ad470df0053486_1280.jpg",
         "https://xn--kollektva-m5a.hu/public/img/gen/1e038c5e01-1791117050-1.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Iron_meteorite._Hammersley_Range%2C_Australia-8911.jpg/1280px-Iron_meteorite._Hammersley_Range%2C_Australia-8911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Namibie_Hoba_Meteorite_05.JPG/1280px-Namibie_Hoba_Meteorite_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
