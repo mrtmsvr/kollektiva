@@ -2476,6 +2476,32 @@ def _fold(t: str) -> str:
         str.maketrans("áéíóöőúüű", "aeiooouuu")))).strip()
 
 
+def dedupe_quote(body: list, quote_text: str) -> list:
+    """Kiveszi a szövegből azt a mondatot, ami a kiemelt idézetet ismétli (pl. „…úgy fogalmazott: <idézet>”).
+    Ha a mondat elején körülmény áll (kettőspont előtt), az megmarad: „X a kormányülésről reagált a fejleményekre.”"""
+    qw = {w for w in _fold(quote_text).split() if len(w) > 3}
+    if len(qw) < 4:
+        return body
+    out = []
+    for para in body:
+        if BULLET.match(para.strip()):
+            out.append(para)
+            continue
+        kept = []
+        for sent in re.split(r"(?<=[.!?…])\s+", para.strip()):
+            sw = {w for w in _fold(sent).split() if len(w) > 3}
+            if sw and len(qw & sw) / len(qw) >= 0.5:
+                head = sent.split(":", 1)[0].strip().rstrip(",;–- ") if ":" in sent else ""
+                head = re.sub(r",?\s*(és\s+)?(a\s+\S+\s+oldalán\s+)?úgy fogalmazott$", "", head).strip().rstrip(",")
+                if len(head) > 30:
+                    kept.append(head + ".")
+                continue
+            kept.append(sent)
+        if kept:
+            out.append(" ".join(kept))
+    return out or body
+
+
 def checked_quote(q, story: list, n_paras: int) -> Optional[dict]:
     """Kiemelt idézet csak ellenőrzötten: a megszólaló neve szerepeljen a forrásokban, és magyar forrásnál az idézet
     eleje betű szerint is (idegen nyelvű forrásnál fordítás, ott a név elég). Különben inkább nincs idézet."""
@@ -2629,7 +2655,8 @@ esemény külön blokkban szerepeljen, a blokk első bekezdése „## Rövid alc
 - "quote": ha a forrásokban egy szereplő SZÓ SZERINTI, idézőjeles mondata szerepel, ami a cikk lényegéhez tartozik,
   azt kiemelt idézetként add meg: {{"text": "az idézet (magyar forrásnál betű szerint, idegen nyelvűnél hű
   fordításban)", "who": "név, rövid szerep (pl. Orbán Viktor miniszterelnök)", "after": bekezdés sorszáma (0-tól)}}.
-  SOHA ne találj ki és ne fogalmazz át idézetet; ha nincs valódi idézet, legyen null.
+  SOHA ne találj ki és ne fogalmazz át idézetet; ha nincs valódi idézet, legyen null. Ha adsz idézetet, a "body"
+  NE ismételje meg és ne parafrazálja a tartalmát – a szövegben csak a körülmény álljon (ki, hol, mire reagálva mondta).
 
 Kizárólag ezt a JSON-t add vissza:
 {{"title": "...", "title_options": ["...", "..."], "lead": "...", "key_points": ["...", "...", "..."], "body": ["...", "..."], "tags": ["..."], "image_query": "...", "image_query_alt": ["..."], "image_generic": "...", "inline_images": [], "quote": null}}"""
@@ -2682,6 +2709,9 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
     inline_images = find_inline_images(raw, len(art["body"]), ai.cfg.http_timeout,
                                        (avoid_images or set()) | {im["url"] for im in image_options})
     quote = checked_quote(raw.get("quote"), story, len(art["body"]))
+    if quote:  # ne legyen kétszer ugyanaz: kiemelt idézet + ugyanaz a mondat a szövegben
+        art["body"] = dedupe_quote(art["body"], quote["text"])
+        quote["after"] = max(0, min(quote["after"], len(art["body"]) - 2))
     title_options = [art["title"]]
     for t in raw.get("title_options") or []:
         t = str(t).strip()
