@@ -1,7 +1,107 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T08:01:07+02:00",
+  "updated_at": "2026-10-04T08:09:13+02:00",
   "articles": [
+    {
+      "id": "f36e313d-2e43-589a-a130-71a392207850",
+      "slug": "2026-10-04-kilenc-vadpontban-talaltak-bunosnek-a-nepszeru-enekest",
+      "status": "published",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Caleb Flynn",
+        "American Idol",
+        "bíróság",
+        "gyilkosság",
+        "Egyesült Államok"
+      ],
+      "title": "Elítélték a felesége meggyilkolásával vádolt zenészt",
+      "subtitle": null,
+      "lead": "Felesége meggyilkolásában bűnösnek találták Caleb Flynnt, az American Idol egykori szereplőjét egy ohiói bíróságon. A súlyos ítélet hosszas pereskedés és tanúvallomások után született meg.",
+      "key_points": [
+        "Caleb Flynnt mind a kilenc vádpontban bűnösnek találták a felesége halála kapcsán.",
+        "A gyilkosság február 16-án történt az ohiói Tipp Cityben található otthonukban.",
+        "A férfira életfogytiglani börtönbüntetés is várhat, a büntetését október 5-én szabják ki."
+      ],
+      "content": "Drámai fordulat zárta le az American Idol című amerikai tehetségkutató műsor egykori szereplőjének perét, miután az esküdtszék bűnösnek találta Caleb Flynnt a felesége ellen elkövetett bűncselekményekben. A 40 éves férfi zokogásban tört ki szeptember 29-én, amikor kihirdették az ítéletet, amely szerint mind a kilenc vádpontban elmarasztalták, beleértve a súlyosbított emberölést és a bizonyítékok meghamisítását is.\n\nA vád szerint a férfi február 16-án az ohiói Tipp Cityben lévő otthonukban kétszer tarkón lőtte 37 éves feleségét, Ashley-t, miközben az ágyában aludt, majd a helyszínt úgy rendezte át, mintha betörés történt volna. A tragédia idején a házaspár két lánya is a házban aludt. A férfi korábban mindvégig ártatlannak vallotta magát, és azt állította, hogy egy betörő oltotta ki felesége életét, védői pedig azzal érveltek, hogy a lövések hangjára ébredt fel.\n\nAz eljárás során a vádhatóság bemutatott egy üzenetet is, amelyet Flynn néhány órával a segélyhívó tárcsázása előtt küldött korábbi szeretőjének, Alleigha Botnernek. A 24 éves nő több mint két napon át tanúskodott a bíróságon, és elmondása szerint a „holnap jönnek a tettek” mondatot korábban úgy értelmezte, hogy a férfi a válással kapcsolatos lépésekre utal, ám ma már gyűlöletet érez iránta.\n\nA férfira akár feltételes szabadlábra helyezés nélküli életfogytiglani börtönbüntetés is várhat, a hivatalos büntetéskiszabásra pedig október 5-én kerül sor a bíróságon – írta a Borsonline.",
+      "content_format": "markdown",
+      "body": [
+        "Drámai fordulat zárta le az American Idol című amerikai tehetségkutató műsor egykori szereplőjének perét, miután az esküdtszék bűnösnek találta Caleb Flynnt a felesége ellen elkövetett bűncselekményekben. A 40 éves férfi zokogásban tört ki szeptember 29-én, amikor kihirdették az ítéletet, amely szerint mind a kilenc vádpontban elmarasztalták, beleértve a súlyosbított emberölést és a bizonyítékok meghamisítását is.",
+        "A vád szerint a férfi február 16-án az ohiói Tipp Cityben lévő otthonukban kétszer tarkón lőtte 37 éves feleségét, Ashley-t, miközben az ágyában aludt, majd a helyszínt úgy rendezte át, mintha betörés történt volna. A tragédia idején a házaspár két lánya is a házban aludt. A férfi korábban mindvégig ártatlannak vallotta magát, és azt állította, hogy egy betörő oltotta ki felesége életét, védői pedig azzal érveltek, hogy a lövések hangjára ébredt fel.",
+        "Az eljárás során a vádhatóság bemutatott egy üzenetet is, amelyet Flynn néhány órával a segélyhívó tárcsázása előtt küldött korábbi szeretőjének, Alleigha Botnernek. A 24 éves nő több mint két napon át tanúskodott a bíróságon, és elmondása szerint a „holnap jönnek a tettek” mondatot korábban úgy értelmezte, hogy a férfi a válással kapcsolatos lépésekre utal, ám ma már gyűlöletet érez iránta.",
+        "A férfira akár feltételes szabadlábra helyezés nélküli életfogytiglani börtönbüntetés is várhat, a hivatalos büntetéskiszabásra pedig október 5-én kerül sor a bíróságon – írta a Borsonline."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 239,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/b0cd3769c2e1c738.jpg",
+        "width": 4608,
+        "height": 3456,
+        "kind": "photo",
+        "alt": "judge, hammer, judgement, court, council, crime, law, gavel, auction, tribunal, verdict, brown law, judge, judge, judge, court, court, court, court, law, law, law, law, law, gavel, auction, tribunal",
+        "credit": "Daniel_B_photos / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/judge-hammer-judgement-court-1587300/",
+        "vision_score": 7.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/b0cd3769c2e1c738.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://borsonline.origo.hu/kulfoldi-sztarhirek/2026/10/american-idol-sztar-feleseg-meggyilkossag",
+          "title": "Zokogva hallgatta végig az ítéletet az egykori tévésztár: bűnösnek találták felesége brutális meggyilkolásában",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T08:02:44+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-04T08:06:14+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://borsonline.origo.hu/kulfoldi-sztarhirek/2026/10/american-idol-sztar-feleseg-meggyilkossag"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/bulvar/2026-10-04-kilenc-vadpontban-talaltak-bunosnek-a-nepszeru-enekest/",
+      "seo": {
+        "meta_title": "Elítélték a felesége meggyilkolásával vádolt zenészt",
+        "meta_description": "Felesége meggyilkolásában bűnösnek találták Caleb Flynnt, az American Idol egykori szereplőjét egy ohiói bíróságon. A súlyos ítélet hosszas pereskedés és tanúva",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-04-kilenc-vadpontban-talaltak-bunosnek-a-nepszeru-enekest/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/b0cd3769c2e1c738.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "54fb34094b4285c1b46882ea5cd27647c9f3fae1f4098d57966c3b578f1536d7",
+      "pipeline_run_id": "37181547142",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T08:06:14+02:00",
+      "updated_at": "2026-10-04T08:09:13+02:00",
+      "published_at": "2026-10-04T08:06:14+02:00",
+      "expires_at": null
+    },
     {
       "id": "060a4471-c8bf-57d1-8be0-7a723d067476",
       "slug": "2026-10-04-muholdak-valtjak-fel-a-tererot-a-magyar-egen",

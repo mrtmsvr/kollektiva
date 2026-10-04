@@ -1,0 +1,126 @@
+{
+  "updated_at": "2026-10-04T08:09:54+02:00",
+  "quizzes": [
+    {
+      "id": "118d80d2fe",
+      "week": "2026-W40",
+      "date": "2026-10-04",
+      "title": "Mit tudsz a hét legfontosabb híreiről?",
+      "created_at": "2026-10-04T08:09:54+02:00",
+      "questions": [
+        {
+          "question": "Mekkora összegű kétes szerződés miatt tett feljelentést a Miniszterelnökség?",
+          "options": [
+            "9 milliárd forint",
+            "455 millió forint",
+            "100 millió forint",
+            "11 milliárd forint"
+          ],
+          "correct": 1,
+          "explain": "A Miniszterelnökség 455 millió forintnyi kétes szervezetfejlesztési megbízás miatt tett hivatalos feljelentést.",
+          "article_url": "/kozelet/2026-09-30-szazmilliok-tuntek-el-a-miniszterelnokseg-papirjain/",
+          "article_title": "Százmilliók tűntek el a Miniszterelnökség papírjain",
+          "category": "kozelet"
+        },
+        {
+          "question": "Hány napra rendelte el a bíróság Seszták Miklós letartóztatását?",
+          "options": [
+            "90 napra",
+            "15 napra",
+            "60 napra",
+            "30 napra"
+          ],
+          "correct": 3,
+          "explain": "A Budai Központi Kerületi Bíróság 30 napra rendelte el Seszták Miklós letartóztatását egy korrupciós eljárásban.",
+          "article_url": "/kozelet/2026-09-30-11-milliardos-vesztegetesi-gyanu-letartoztattak-sesztak-miklost/",
+          "article_title": "11 milliárdos vesztegetési gyanú: letartóztatták Seszták Miklóst",
+          "category": "kozelet"
+        },
+        {
+          "question": "Melyik televízió adta le a Hankó Balázzsal készült interjút kedd este?",
+          "options": [
+            "Hír TV",
+            "ATV",
+            "RTL",
+            "TV2"
+          ],
+          "correct": 0,
+          "explain": "A Hír TV adta le kedd este a volt miniszterrel készült beszélgetést, amit még az őrizetbe vétele előtt rögzítettek.",
+          "article_url": "/kozelet/2026-09-30-bortonnel-fenyegettek-az-utcan-a-volt-minisztert/",
+          "article_title": "„Az utca a gyűlölet terepe lett” – megszólalt Hankó Balázs",
+          "category": "kozelet"
+        },
+        {
+          "question": "Miért küldte vissza a Sándor-palota az egészségügyi kamarai módosítást?",
+          "options": [
+            "A tisztségviselő-választás törvényi korlátozását aggályosnak tartotta",
+            "Túl drága volt a megvalósítása",
+            "Meg akarták szüntetni az egész kamarát",
+            "Nem volt benne elég orvos"
+          ],
+          "correct": 0,
+          "explain": "Baka András államfő a célkitűzést támogatta, de a tisztségviselő-választás törvényi korlátozását ellenzi.",
+          "article_url": "/kozelet/2026-09-30-nem-irta-ala-a-sandor-palota-az-egeszsegugyi-kamarai-modositast/",
+          "article_title": "Nem írta alá a Sándor-palota az egészségügyi kamarai módosítást",
+          "category": "kozelet"
+        },
+        {
+          "question": "Melyik cég munkatársa vesztette életét egy kijevi dróntámadásban?",
+          "options": [
+            "Erste Bank",
+            "Unicredit Bank",
+            "OTP Bank Ukraine",
+            "Raiffeisen Bank"
+          ],
+          "correct": 2,
+          "explain": "Az OTP Bank Ukraine 26 éves munkatársa vesztette életét a tragikus kijevi dróntámadásban.",
+          "article_url": "/vilag/2026-10-03-fiatal-magyar-bankar-vesztette-eletet-egy-kijevi-drontamadasban/",
+          "article_title": "Fiatal magyar bankár vesztette életét egy kijevi dróntámadásban",
+          "category": "vilag"
+        },
+        {
+          "question": "Meddig hosszabbította meg Moszkva a dízelolaj kivitelének tilalmát?",
+          "options": [
+            "Az év végéig",
+            "Október végéig",
+            "Jövő tavaszig",
+            "November végéig"
+          ],
+          "correct": 1,
+          "explain": "Az orosz kormány október végéig hosszabbította meg a dízelexport tilalmát a belföldi piac stabilizálására.",
+          "article_url": "/penzvilag/2026-09-30-meghosszabbitottak-a-moszkvai-dizelexport-tilalmat/",
+          "article_title": "Meghosszabbították a moszkvai dízelexport-tilalmat",
+          "category": "penzvilag"
+        },
+        {
+          "question": "Melyik hazai építőipari vállalatnál indult hivatalos csődeljárás?",
+          "options": [
+            "Swietelsky Magyarország",
+            "Strabag Kft.",
+            "Market Építő Zrt.",
+            "Bayer Construct Zrt."
+          ],
+          "correct": 3,
+          "explain": "Hivatalos csődeljárás kezdődött a Bayer Construct Zrt. építőipari vállalatnál, miután a cég maga kezdeményezte.",
+          "article_url": "/penzvilag/2026-09-30-csodeljaras-indult-a-hazai-oriasceg-ellen/",
+          "article_title": "Csődeljárás indult a hazai óriáscég ellen",
+          "category": "penzvilag"
+        },
+        {
+          "question": "Mekkora forráselvonást jelentene a kerületeknek a fővárosi parkolási terv?",
+          "options": [
+            "3 milliárd forint",
+            "15 milliárd forint",
+            "9 milliárd forint",
+            "6 milliárd forint"
+          ],
+          "correct": 2,
+          "explain": "A tervezett módosítás összesen 9 milliárd forintos kiesést okozna a hat tiltakozó kerületnek.",
+          "article_url": "/penzvilag/2026-10-01-kilencmilliard-forintert-feszulnek-egymasnak-a-budapesti-keruletek/",
+          "article_title": "Kilencmilliárd forintért feszülnek egymásnak a budapesti kerületek",
+          "category": "penzvilag"
+        }
+      ]
+    }
+  ]
+}
