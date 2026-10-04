@@ -1833,13 +1833,13 @@ POLLS_BODY = """<article>
 </article>
 <script>(function(){var L=document.getElementById('plist'),E=function(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
 fetch('/public/data/polls.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(d){var ps=(d.polls||[]);if(!ps.length){L.innerHTML='<p>Még nincs szavazás.</p>';return}
-L.innerHTML=ps.map(function(p){return '<div class="box poll" id="p'+E(p.id)+'"><b>'+E(p.date)+' <span class="pst"></span></b><h3><a href="'+E(p.article_url)+'" style="color:inherit;text-decoration:none">'+E(p.question)+'</a></h3><p><a href="'+E(p.article_url)+'">'+E(p.article_title)+'</a></p><div class="res"><small>Betöltés…</small></div></div>'}).join('');
-ps.forEach(function(p){fetch('/api/poll?id='+encodeURIComponent(p.id)).then(function(r){return r.json()}).then(function(r){var el=document.querySelector('#p'+p.id+' .res');if(!r.ok){el.innerHTML='';return}
-document.querySelector('#p'+p.id+' .pst').innerHTML=r.closed?'· <span class="dot" style="background:#E5322B;box-shadow:0 0 0 3px rgba(229,50,43,.2)"></span>lezárult':'· <span class="dot"></span>nyitva';
-if(!r.closed&&r.voted===null){el.innerHTML='<small>Még nyitva – <a href="'+E(p.article_url)+'">szavazz a cikknél</a>, utána látod az eredményt.</small>';return}
-var t=r.total||0;if(t<30){el.innerHTML='<small>'+(r.closed?'Lezárult':'Nyitva')+' · még kevés szavazat érkezett ahhoz, hogy az eredmény sokat mondjon.</small>';return}
-el.innerHTML=p.options.map(function(o,i){var c=r.counts[i]||0,pc=Math.round(100*c/t);return '<div class="pr'+(r.voted===i?' me':'')+'"><span style="width:'+pc+'%"></span><em>'+E(o)+'</em><strong>'+pc+'%</strong></div>'}).join('')
-+'<small>'+(t>=200?t+' szavazat · ':'')+(r.closed?'lezárult':'<span class="dot"></span>nyitva')+'</small>'}).catch(function(){})})}).catch(function(){L.innerHTML='<p>A szavazások most nem tölthetők be.</p>'})})();</script>"""
+L.innerHTML=ps.map(function(p){return '<div class="box poll" id="p'+E(p.id)+'"><small>Betöltés…</small></div>'}).join('');
+ps.forEach(function(p){var box=document.getElementById('p'+p.id),head='<b>'+E(p.date)+'</b><h3><a href="'+E(p.article_url)+'" style="color:inherit;text-decoration:none">'+E(p.question)+'</a></h3>',foot='<p class="pa"><a href="'+E(p.article_url)+'">'+E(p.article_title)+'</a></p>';
+function show(r){var t=r.total||0;box.innerHTML=head+p.options.map(function(o,i){var pc=t?Math.round(100*(r.counts[i]||0)/t):0;return '<div class="pr'+(r.voted===i?' me':'')+'"><span style="width:'+pc+'%"></span><em>'+E(o)+(r.voted===i?' ✓':'')+'</em><strong>'+pc+'%</strong></div>'}).join('')
++'<small>'+(r.closed?'<span class="dot" style="background:#E5322B;box-shadow:0 0 0 3px rgba(229,50,43,.2)"></span>lezárult':'<span class="dot"></span>nyitva')+(t>=200?' · '+t+' szavazat':'')+'</small>'+foot}
+function ask(){box.innerHTML=head+p.options.map(function(o,i){return '<button type="button" data-i="'+i+'">'+E(o)+'</button>'}).join('')+'<small><span class="dot"></span>nyitva · szavazz, és utána látod az eredményt.</small>'+foot;
+box.querySelectorAll('button').forEach(function(b){b.onclick=function(){fetch('/api/poll',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:p.id,option:+b.dataset.i})}).then(function(r){return r.json()}).then(function(r){if(r.counts)show(r)})}})}
+fetch('/api/poll?id='+encodeURIComponent(p.id)).then(function(r){return r.json()}).then(function(r){if(!r.ok){box.innerHTML=head+foot;return}if(!r.closed&&r.voted===null)ask();else show(r)}).catch(function(){box.innerHTML=head+foot})})}).catch(function(){L.innerHTML='<p>A szavazások most nem tölthetők be.</p>'})})();</script>"""
 
 
 def build_polls_page(public: Path) -> None:
