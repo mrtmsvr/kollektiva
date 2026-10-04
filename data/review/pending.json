@@ -10580,6 +10580,786 @@
         "control_id": 2514
       },
       "live": true
+    },
+    {
+      "id": "f3d5f7d0-fc1b-59c0-9925-abfda0d0d000",
+      "slug": "2026-10-04-amikor-egy-randi-rosszabbul-sul-el-mint-egy-hamis-hang",
+      "status": "published",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Sztárban Sztár",
+        "TV2",
+        "Tóth Abigél",
+        "Ádám Szofi",
+        "bulvár"
+      ],
+      "title": "Amikor egy randi rosszabbul sül el, mint egy hamis hang",
+      "subtitle": null,
+      "lead": "A TV2 műsorának kulisszái mögött a versenyzők váratlanul őszintén vallottak a legkínosabb randis élményeikről, miközben a hétvégi adásra készülnek. Tóth Abigél olyan gyomorforgató történetet osztott meg a követőkkel, amelyen még a kollégái is elhűltek.",
+      "key_points": [
+        "Tóth Abigél egy rendkívül kínos első randis élményről mesélt a közösségi médiában.",
+        "Ádám Sofi elárulta, hogyan kezelné a hasonló helyzeteket a kapcsolataiban.",
+        "Mindkét énekesnőre komoly zenei feladat vár a Sztárban Sztár vasárnapi élő adásában."
+      ],
+      "content": "A TV2 sikerműsorának kulisszái mögött a fiatal tehetségek nemcsak a színpadi próbákra fókuszálnak, hanem a rajongók kérdéseire is válaszolnak a közösségi oldalakon. Tóth Abigél és Ádám Sofi a kamerák mögött szoros barátságot ápol, és Frey Timivel kiegészülve nemrég a legkínosabb randis tapasztalataikat is kiteregették.\n\nAbigél egy kifejezetten bizarr emléket idézett fel az első találkozások világából, amikor a kiszemelt partnere rosszul lett az elfogyasztott ételektől. „Lehányták. Elvileg rossz volt a gyomra a kajától” – emlékezett vissza a Megasztár felfedezettje életének egyik legrosszabb randijára, amely után a jelenlévők hatalmas nevetésben törtek ki.\n\nA történetre reagálva Ádám Sofi elmondta, hogy ő egy ilyen szituációban valószínűleg azonnal a gondoskodó anyai szerepet vette volna fel a srác mellett. Sofi hozzátette, hogy vele a randevúkon eddig még nem történtek hasonlóan kellemetlen dolgok, viszont ha valaki nem nyeri el a tetszését, határozottan lezárja a találkozót.\n\nA mókás pillanatok után mindkét énekesnőre éles helyzet vár a TV2 képernyőjén a vasárnapi élő show-ban, hiszen továbbra is versenyben vannak a fődíjért. Sofi vasárnap ismét színpadra lép a TV2-ben, míg Abigél szintén folytatja a versenyét.",
+      "content_format": "markdown",
+      "body": [
+        "A TV2 sikerműsorának kulisszái mögött a fiatal tehetségek nemcsak a színpadi próbákra fókuszálnak, hanem a rajongók kérdéseire is válaszolnak a közösségi oldalakon. Tóth Abigél és Ádám Sofi a kamerák mögött szoros barátságot ápol, és Frey Timivel kiegészülve nemrég a legkínosabb randis tapasztalataikat is kiteregették.",
+        "Abigél egy kifejezetten bizarr emléket idézett fel az első találkozások világából, amikor a kiszemelt partnere rosszul lett az elfogyasztott ételektől. „Lehányták. Elvileg rossz volt a gyomra a kajától” – emlékezett vissza a Megasztár felfedezettje életének egyik legrosszabb randijára, amely után a jelenlévők hatalmas nevetésben törtek ki.",
+        "A történetre reagálva Ádám Sofi elmondta, hogy ő egy ilyen szituációban valószínűleg azonnal a gondoskodó anyai szerepet vette volna fel a srác mellett. Sofi hozzátette, hogy vele a randevúkon eddig még nem történtek hasonlóan kellemetlen dolgok, viszont ha valaki nem nyeri el a tetszését, határozottan lezárja a találkozót.",
+        "A mókás pillanatok után mindkét énekesnőre éles helyzet vár a TV2 képernyőjén a vasárnapi élő show-ban, hiszen továbbra is versenyben vannak a fődíjért. Sofi vasárnap ismét színpadra lép a TV2-ben, míg Abigél szintén folytatja a versenyét."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 209,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/bulvar-1791128062-0.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/bulvar-1791128062-0.jpg",
+        "kind": "photo",
+        "alt": "Amikor egy randi rosszabbul sül el, mint egy hamis hang",
+        "likeness": true,
+        "credit": "AI-generált illusztráció – Kollektíva",
+        "license": "saját (AI-generált illusztráció)",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/sztarban-sztar-toth-abigel-hanyas/dm01mj0",
+          "title": "Gyomorforgató! Lehányták a Sztárban Sztár népszerű énekesnőjét",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T17:33:20+02:00"
+        },
+        {
+          "url": "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/sztarban-sztar-toth-abigel-randi",
+          "title": "Kínos! A Sztárban Sztár énekesnőjét lehányták egy randin",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T17:33:20+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Nekem soha nem volt ciki helyzetem, mert minden szituációból jól tudok kijönni. Maximum én vagyok ciki, de csak olyan volt, amikor nem tetszett a csávó, akkor elkezdtem én is csávósan viselkedni és mondtam, hogy akkor itt a vége a dolognak",
+        "who": "Ádám Sofi, a Sztárban Sztár versenyzője",
+        "after": 2
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 9.87,
+      "title_options": [
+        "Amikor egy randi rosszabbul sül el, mint egy hamis hang",
+        "Lehányt randi és Michael Jackson: így hangolódik a Sztárban Sztár",
+        "Amikor a vacsora nem a gyomorban marad: énekesnők kulisszatitkai",
+        "Elképesztő randisztorival döbbentette meg a többit a TV2 énekesnője",
+        "Nem hinnéd el, mi történt Tóth Abigéllel az első randiján",
+        "Ilyen bizarr élményről még sosem meséltek a Sztárban Sztár szereplői"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/bulvar-1791128062-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/bulvar-1791128062-0.jpg",
+          "kind": "photo",
+          "alt": "Amikor egy randi rosszabbul sül el, mint egy hamis hang",
+          "likeness": true,
+          "credit": "AI-generált illusztráció – Kollektíva",
+          "license": "saját (AI-generált illusztráció)",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/bulvar-1791128064-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/bulvar-1791128064-1.jpg",
+          "kind": "photo",
+          "alt": "Amikor egy randi rosszabbul sül el, mint egy hamis hang",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        }
+      ],
+      "story": [
+        {
+          "title": "Gyomorforgató! Lehányták a Sztárban Sztár népszerű énekesnőjét",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/sztarban-sztar-toth-abigel-hanyas/dm01mj0",
+          "summary": "A TV2 kulisszái mögött a Sztárban Sztár fiatal énekesnői, Tóth Abigél és Ádám Sofi is őszintén vallottak követőiknek a legkínosabb randis tapasztalataikról. Abigél egy gyomorforgató emléket idézett fel, amikor a kiszemeltje egy igencsak kellemetlen „meglepetést” tartogatott a számára. A bizarr történet után a többiek hatalmas nevetésben törtek ki.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 9.87
+        },
+        {
+          "title": "Kínos! A Sztárban Sztár énekesnőjét lehányták egy randin",
+          "link": "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/sztarban-sztar-toth-abigel-randi",
+          "summary": "Ádám Szofi emlékezetes találkozójáról mesélt.",
+          "source": "borsonline.hu",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/sztarban-sztar-toth-abigel-hanyas/dm01mj0",
+          "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/sztarban-sztar-toth-abigel-randi"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/bulvar/2026-10-04-amikor-egy-randi-rosszabbul-sul-el-mint-egy-hamis-hang/",
+      "seo": {
+        "meta_title": "Amikor egy randi rosszabbul sül el, mint egy hamis hang",
+        "meta_description": "A TV2 műsorának kulisszái mögött a versenyzők váratlanul őszintén vallottak a legkínosabb randis élményeikről, miközben a hétvégi adásra készülnek. Tóth Abigél ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-04-amikor-egy-randi-rosszabbul-sul-el-mint-egy-hamis-hang/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/bulvar-1791128062-0.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "033dd752f344718f4493fb98fa554863783716ff9111d668dcc6495b1e0360ad",
+      "pipeline_run_id": "37213402599",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T17:38:41+02:00",
+      "updated_at": "2026-10-04T17:38:41+02:00",
+      "published_at": "2026-10-04T17:38:41+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-04T15:34:36+00:00",
+        "msg_ids": [
+          2518,
+          2519,
+          2520
+        ],
+        "control_id": 2521
+      },
+      "live": true
+    },
+    {
+      "id": "a39c4886-21f7-55c1-840b-3d07c0270013",
+      "slug": "2026-10-04-a-nemet-jarmuipar-lejtojen-tancol-magyarorszag",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "autóipar",
+        "Németország",
+        "BMW",
+        "Mercedes",
+        "Audi"
+      ],
+      "title": "A német járműipar lejtőjén táncol Magyarország?",
+      "subtitle": null,
+      "lead": "Az európai járműipar történetének egyik legsúlyosabb válságát éli át a gyengülő kereslet és a távol-keleti konkurencia miatt, miközben a hazai üzemekben rekordkapacitások épülnek ki. A kettős helyzet komoly gazdasági kihívásokat és lehetőségeket is tartogat Magyarország számára.",
+      "key_points": [
+        "A Volkswagen négy németországi gyár bezárásáról és ötvenezer munkahely leépítéséről döntött.",
+        "A német autógyártók piaci részesedése 37,6 százalékról 35,3 százalékra esett vissza Európában 2021 és 2026 között.",
+        "Magyarországon a németországihoz képest mintegy hetven százalékkal olcsóbb lehet az autógyártás.",
+        "Debrecenben elindult a BMW sorozatgyártása, míg Kecskeméten egymilliárd eurós Mercedes-bővítés zajlik."
+      ],
+      "content": "Az európai autógyártás nehéz időszakon megy keresztül az elmúlt években kibontakozó válság miatt, amelyet a gyengülő belföldi kereslet, az elektromos átállás nehézségei és az amerikai importvámok súlyosbítanak. Az Európai Autógyártók Szövetségének adatai szerint a Volkswagen, a Mercedes és a BMW csoport együttes európai piaci részesedése a 2021-es 37,6 százalékról 2026 első félévére 35,3 százalékra csökkent, miközben a kínai gyártók piaci szelete 1,5 százalékról közel 9 százalékra emelkedett. Ezzel párhuzamosan a Volkswagen újabb negyvenezer-ötvenezer munkahely megszűnéséről és négy németországi üzem bezárásáról határozott, míg a BMW és a Mercedes kínai eladásai harminc százalékkal zuhantak a 2026-os második negyedévben az előző év azonos időszakához képest.\n\nA németországi központú autógyártókat sújtó strukturális gondok ellenére a hazai gazdaság helyzete jelentősen eltér a nyugat-európai trendektől. A Germany Trade and Invest (GTAI) elemzése szerint az európai autóipari válság bizonyos szempontból kedvez a magyarországi gyártókapacitások bővülésének. A járműipar a teljes hazai ipari termelés mintegy negyedét adja, így a német piac problémái korábban a magyar statisztikákban is meglátszottak: a legyártott személyautók száma két év alatt 507 222-ről 411 776-ra esett vissza, a járművek és alkatrészek termelési értéke pedig 2024-ben és 2025-ben is csökkent.\n\nA negatív trend ellenére 2025 végétől új szakasz vette kezdetét a hazai szektorban az alacsony termelési költségeknek és a már kiépült infrastruktúrának köszönhetően. Az Eurostat adatai alapján Magyarországon 2025-ben egy munkaóra átlagos költsége 15,20 euró volt, ami az EU egyik legalacsonyabb értéke, ráadásul a nominális társasági adó kulcsa 9 százalék. Ezzel szemben a német ipari munkaerő óránkénti költsége 49,50 euró körül alakult, a Mercedes számításai szerint pedig mintegy 70 százalékkal olcsóbb Magyarországon autót gyártani, mint Németországban.\n\nA költségelőnyök hatására jelentős beruházások valósulnak meg a hazai helyszíneken, amelyek mentőövet jelentenek az ágazatnak.",
+      "content_format": "markdown",
+      "body": [
+        "Az európai autógyártás nehéz időszakon megy keresztül az elmúlt években kibontakozó válság miatt, amelyet a gyengülő belföldi kereslet, az elektromos átállás nehézségei és az amerikai importvámok súlyosbítanak. Az Európai Autógyártók Szövetségének adatai szerint a Volkswagen, a Mercedes és a BMW csoport együttes európai piaci részesedése a 2021-es 37,6 százalékról 2026 első félévére 35,3 százalékra csökkent, miközben a kínai gyártók piaci szelete 1,5 százalékról közel 9 százalékra emelkedett. Ezzel párhuzamosan a Volkswagen újabb negyvenezer-ötvenezer munkahely megszűnéséről és négy németországi üzem bezárásáról határozott, míg a BMW és a Mercedes kínai eladásai harminc százalékkal zuhantak a 2026-os második negyedévben az előző év azonos időszakához képest.",
+        "A németországi központú autógyártókat sújtó strukturális gondok ellenére a hazai gazdaság helyzete jelentősen eltér a nyugat-európai trendektől. A Germany Trade and Invest (GTAI) elemzése szerint az európai autóipari válság bizonyos szempontból kedvez a magyarországi gyártókapacitások bővülésének. A járműipar a teljes hazai ipari termelés mintegy negyedét adja, így a német piac problémái korábban a magyar statisztikákban is meglátszottak: a legyártott személyautók száma két év alatt 507 222-ről 411 776-ra esett vissza, a járművek és alkatrészek termelési értéke pedig 2024-ben és 2025-ben is csökkent.",
+        "A negatív trend ellenére 2025 végétől új szakasz vette kezdetét a hazai szektorban az alacsony termelési költségeknek és a már kiépült infrastruktúrának köszönhetően. Az Eurostat adatai alapján Magyarországon 2025-ben egy munkaóra átlagos költsége 15,20 euró volt, ami az EU egyik legalacsonyabb értéke, ráadásul a nominális társasági adó kulcsa 9 százalék. Ezzel szemben a német ipari munkaerő óránkénti költsége 49,50 euró körül alakult, a Mercedes számításai szerint pedig mintegy 70 százalékkal olcsóbb Magyarországon autót gyártani, mint Németországban.",
+        "A költségelőnyök hatására jelentős beruházások valósulnak meg a hazai helyszíneken, amelyek mentőövet jelentenek az ágazatnak."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 326,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Mercedes-Benz_plant%2C_2019_Kecskem%C3%A9t.jpg/1280px-Mercedes-Benz_plant%2C_2019_Kecskem%C3%A9t.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 675,
+        "kind": "photo",
+        "pos": "center",
+        "alt": ": Mercedes-Benz Manufacturing Hungary plant from Route 5? across bus window. - Kecskemét, Bács-Kiskun County, Hungary.",
+        "credit": "Globetrotter19 / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_plant,_2019_Kecskem%C3%A9t.jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261004/rossz-hirek-erkeznek-nemetorszagbol-de-miert-nem-erzi-ezt-magyarorszag-866662",
+          "title": "Rossz hírek érkeznek Németországból, de miért nem érzi ezt Magyarország?",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T17:37:37+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/autoipar-nemet-magyarorszag-jarmuipar-bmw-audi-mercedes?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "BMW, Mercedes, Audi: a németek most számolták ki, miért lett Magyarország autóipari nagyhatalom – brutális kapacitás épül, több lehet mentőövnél",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T17:37:37+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 7.0,
+      "title_options": [
+        "A német járműipar lejtőjén táncol Magyarország?",
+        "Negyvenmilliárdos pofon helyett debreceni sorozatgyártás",
+        "Így vált Magyarország európai autóipari nagyhatalommá a válság közepén",
+        "Megszólaltak a számok: ennyivel olcsóbb nálunk autót gyártani, mint Németországban",
+        "Negyvenezer munkahely szűnik meg, de a magyar gyárakban csúcsra pörög a termelés",
+        "Ezt a német autóipari válságot eddig mindenki félreértette Magyarországon"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/a39c488621-1791128516-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/a39c488621-1791128516-0.jpg",
+          "kind": "photo",
+          "alt": "A német járműipar lejtőjén táncol Magyarország?",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/a39c488621-1791128518-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/a39c488621-1791128518-1.jpg",
+          "kind": "photo",
+          "alt": "A német járműipar lejtőjén táncol Magyarország?",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Mercedes-Benz_plant%2C_2019_Kecskem%C3%A9t.jpg/1280px-Mercedes-Benz_plant%2C_2019_Kecskem%C3%A9t.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": ": Mercedes-Benz Manufacturing Hungary plant from Route 5? across bus window. - Kecskemét, Bács-Kiskun County, Hungary.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_plant,_2019_Kecskem%C3%A9t.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Audi_A_4_of_Philharmonic_Orchestra_of_Gy%C5%91r%2C_2017_M%C3%A1t%C3%A9szalka.jpg/1280px-Audi_A_4_of_Philharmonic_Orchestra_of_Gy%C5%91r%2C_2017_M%C3%A1t%C3%A9szalka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Audi A4 donated by Audi Hungaria to Philharmonic Orchestra of Győr for the 50th Anniversary of established. Its stand at the Szatmár Elementary School of Art - Kölcsey Square, Mátészalka, Szabolcs-Sz",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Audi_A_4_of_Philharmonic_Orchestra_of_Gy%C5%91r,_2017_M%C3%A1t%C3%A9szalka.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/BMW_Debrecen_factory%2C_parking_lot.jpg/1280px-BMW_Debrecen_factory%2C_parking_lot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "BMW Debrecen factory (near Kismacs) as seen from the employees' parking lot near Gate 2",
+          "credit": "TrainSimFan / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:BMW_Debrecen_factory,_parking_lot.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Audi_Hung%C3%A1ria_%C3%BAt%2C_k%C3%B6rforgalom_az_Audi_Hungaria_gy%C3%A1rtelep_el%C5%91tt%2C_2018_Gy%C5%91r.jpg/1280px-Audi_Hung%C3%A1ria_%C3%BAt%2C_k%C3%B6rforgalom_az_Audi_Hungaria_gy%C3%A1rtelep_el%C5%91tt%2C_2018_Gy%C5%91r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Audi Hungária Road roundabout at back the Audi Hungaria Plant, G40 (tool factory) hall. - Audi Hungária út, Győr, Győr-Moson-Sopron County, Hungary.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Audi_Hung%C3%A1ria_%C3%BAt,_k%C3%B6rforgalom_az_Audi_Hungaria_gy%C3%A1rtelep_el%C5%91tt,_2018_Gy%C5%91r.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Access_road_to_the_BMW_factory%2C_Debrecen.jpg/1280px-Access_road_to_the_BMW_factory%2C_Debrecen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The new BMW factory at Kismacs (near Debrecen) seen from its access road that links it directly to the M35 motorway; at the moment of taking this photo, the factory was still under construction and it",
+          "credit": "TrainSimFan / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Access_road_to_the_BMW_factory,_Debrecen.jpg",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Rossz hírek érkeznek Németországból, de miért nem érzi ezt Magyarország?",
+          "link": "https://www.portfolio.hu/gazdasag/20261004/rossz-hirek-erkeznek-nemetorszagbol-de-miert-nem-erzi-ezt-magyarorszag-866662",
+          "summary": "A német járműipar válsága immár több éve tart, és egyelőre nem látszik a fordulat. A gyengülő európai kereslet, a kínai gyártók erősödő versenye, az elektromos átállás kihívásai, valamint az újabb leépítési és gyárbezárási tervek egyaránt arra utalnak, hogy Európa egyik legfontosabb iparága nehéz időszakot él át. Mivel a magyar gazdaság a járműiparon keresztül ezer szállal kapcsolódik a német vállalatokhoz, adódik a kérdés: ha a német autóipar valóban bajban van, akkor ez miért nem látszik erősebben Magyarországon, és milyen kockázatokat rejthet a jövő?",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 7.0
+        },
+        {
+          "title": "BMW, Mercedes, Audi: a németek most számolták ki, miért lett Magyarország autóipari nagyhatalom – brutális kapacitás épül, több lehet mentőövnél",
+          "link": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/autoipar-nemet-magyarorszag-jarmuipar-bmw-audi-mercedes?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "summary": "Magyarország akár még győztesen is kikerülhet a nagy európai, németországi autóipari válságból.",
+          "source": "vg.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261004/rossz-hirek-erkeznek-nemetorszagbol-de-miert-nem-erzi-ezt-magyarorszag-866662"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/vilag/2026-10-04-a-nemet-jarmuipar-lejtojen-tancol-magyarorszag/",
+      "seo": {
+        "meta_title": "A német járműipar lejtőjén táncol Magyarország?",
+        "meta_description": "Az európai járműipar történetének egyik legsúlyosabb válságát éli át a gyengülő kereslet és a távol-keleti konkurencia miatt, miközben a hazai üzemekben rekordk",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-04-a-nemet-jarmuipar-lejtojen-tancol-magyarorszag/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Mercedes-Benz_plant%2C_2019_Kecskem%C3%A9t.jpg/1280px-Mercedes-Benz_plant%2C_2019_Kecskem%C3%A9t.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "64c21da6-f065-583d-87a1-d7e4ac42f97f"
+      ],
+      "see_also": [
+        {
+          "title": "Miért állít fel drónezredet Németország?",
+          "url": "/vilag/2026-10-02-miert-allit-fel-dronezredet-nemetorszag/",
+          "date": "2026-10-02"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "4202301ce822f05ed7a758b19e69143dd7153d1ef65234058936da277aff26b4",
+      "pipeline_run_id": "37213402599",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T17:37:37+02:00",
+      "updated_at": "2026-10-04T17:37:37+02:00",
+      "published_at": "2026-10-04T17:37:37+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-04T15:38:40+00:00",
+        "msg_ids": [
+          2562,
+          2563,
+          2564,
+          2565,
+          2566,
+          2567,
+          2579,
+          2580
+        ],
+        "control_id": 2581
+      }
+    },
+    {
+      "id": "5a4acb6e-a78a-50b4-b183-d3a2cb98ab0d",
+      "slug": "2026-10-04-orban-szerint-kulturalis-bosszu-hanko-letartoztatasa",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Hankó Balázs",
+        "Orbán Viktor",
+        "Közélet",
+        "Nemzeti Kulturális Alap",
+        "ügyészség"
+      ],
+      "title": "Orbán szerint kulturális bosszú Hankó letartóztatása",
+      "subtitle": null,
+      "lead": "Hankó Balázs kulturális és innovációs miniszter letartóztatása után Orbán Viktor zárt körben arról beszélt, hogy politikai háború zajlik, míg a volt tárcavezető korábban tagadta a pártpolitikai szempontokat a támogatások elosztásánál. Az ügyészség szerint a Nemzeti Kulturális Alap forrásait a 2026-os kampányra csoportosították át.",
+      "key_points": [
+        "Hankó Balázst különösen jelentős vagyoni hátrányt okozó, bűnszövetségben elkövetett hűtlen kezeléssel gyanúsítják.",
+        "Orbán Viktor szerint a letartóztatás hátterében az SZDSZ kulturális bosszúja áll.",
+        "A volt miniszter korábban azt nyilatkozta, hogy nem a fideszes kötődés volt a szempont a támogatásoknál."
+      ],
+      "content": "Hankó Balázs kulturális és innovációs minisztert hétfő este vették őrizetbe és hallgatták ki az NKA-ügy gyanúsítottjaként, majd csütörtökön a bíróság elrendelte a letartóztatását. Az ügyészség gyanúja szerint a volt tárcavezető részt vett abban a forráselosztási rendszerben, amellyel a Nemzeti Kulturális Alap pénzeit választókerületi lefedettség szerint osztották szét a 2026-os választási kampány költségeinek fedezésére.\n\nEgy zárt körű országjárási rendezvényen Orbán Viktor úgy magyarázta a letartóztatást, hogy az nem gazdasági visszaélés, hanem egy kulturális háború eredménye. A volt miniszterelnök szerint az újkommunisták és liberálisok összefogása áll a történtek mögött, és Hankó volt az első kultuszminiszter, aki nem adott támogatást a számára hazafiatlannak vagy LMBTQ-közegekhez tartozónak ítélt köröknek.\n\nEzzel szemben Hankó Balázs egy korábbi interjúban kifejezetten azt állította, hogy a támogatások odaítélésénél sosem volt szempont a Fideszhez való kötődés. Erre reagálva Magyar Péter vasárnap a közösségi oldalán úgy fogalmazott, hogy a korábbi miniszterelnök saját szavaival döntötte be a letartóztatásban lévő politikus eddigi védekezését.",
+      "content_format": "markdown",
+      "body": [
+        "Hankó Balázs kulturális és innovációs minisztert hétfő este vették őrizetbe és hallgatták ki az NKA-ügy gyanúsítottjaként, majd csütörtökön a bíróság elrendelte a letartóztatását. Az ügyészség gyanúja szerint a volt tárcavezető részt vett abban a forráselosztási rendszerben, amellyel a Nemzeti Kulturális Alap pénzeit választókerületi lefedettség szerint osztották szét a 2026-os választási kampány költségeinek fedezésére.",
+        "Egy zárt körű országjárási rendezvényen Orbán Viktor úgy magyarázta a letartóztatást, hogy az nem gazdasági visszaélés, hanem egy kulturális háború eredménye. A volt miniszterelnök szerint az újkommunisták és liberálisok összefogása áll a történtek mögött, és Hankó volt az első kultuszminiszter, aki nem adott támogatást a számára hazafiatlannak vagy LMBTQ-közegekhez tartozónak ítélt köröknek.",
+        "Ezzel szemben Hankó Balázs egy korábbi interjúban kifejezetten azt állította, hogy a támogatások odaítélésénél sosem volt szempont a Fideszhez való kötődés. Erre reagálva Magyar Péter vasárnap a közösségi oldalán úgy fogalmazott, hogy a korábbi miniszterelnök saját szavaival döntötte be a letartóztatásban lévő politikus eddigi védekezését."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 199,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hank%C3%B3_Bal%C3%A1zs_in_2025_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1749,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Balázs HANKÓ",
+        "credit": "Elekes Andor / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hank%C3%B3_Bal%C3%A1zs_in_2025_01.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261004_hanko-letartoztatas-orban-zart-kor-szdsz-mszp",
+          "title": "Orbán Viktor zárt körben a szöges ellentétét állította annak, mint amiről Hankó Balázs beszélt",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T17:40:38+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Az hogy a keresztény kormány keresztény kultuszminiszterét letartóztatják, az egy kulturális háborúnak az eredménye, nem pedig gazdasági visszaélésé",
+        "who": "Orbán Viktor volt miniszterelnök",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.43,
+      "title_options": [
+        "Orbán szerint kulturális bosszú Hankó letartóztatása",
+        "Kultúrkampf vagy hűtlen kezelés a fideszes milliárdok mögött",
+        "A volt miniszter mást mond, mint Orbán a támogatásokról",
+        "Teljesen mást állít Orbán Viktor és volt minisztere a milliós támogatásokról",
+        "Ezért van börtönben a volt kultuszminiszter Orbán szerint",
+        "Bedőlt a volt miniszter védekezése a milliárdos ügyben"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hank%C3%B3_Bal%C3%A1zs_in_2025_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1749,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Balázs HANKÓ",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hank%C3%B3_Bal%C3%A1zs_in_2025_01.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Viktor_Orb%C3%A1n_2023.jpg/1280px-Viktor_Orb%C3%A1n_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1666,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Santiago Abascal se reúne con Viktor Orbán y Eduardo Bolsonaro en ocasión de la asistencia de la jura como presidente de Argentina de Javier Milei en Buenos Aires.",
+          "credit": "Vox España / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Orb%C3%A1n_2023.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Viktor_Orb%C3%A1n.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1171,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Viktor Orban",
+          "credit": "Romiro / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Orb%C3%A1n.png",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Orbán Viktor zárt körben a szöges ellentétét állította annak, mint amiről Hankó Balázs beszélt",
+          "link": "https://hvg.hu/itthon/20261004_hanko-letartoztatas-orban-zart-kor-szdsz-mszp",
+          "summary": "A volt miniszter kedden még azt magyarázta, hogy nem volt szempont a Fideszhez kötődés, amikor a támogatásokat megítélték. Orbán Viktor ennek pont az ellenkezőjéről beszélt.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.43
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261004_hanko-letartoztatas-orban-zart-kor-szdsz-mszp"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/kozelet/2026-10-04-orban-szerint-kulturalis-bosszu-hanko-letartoztatasa/",
+      "seo": {
+        "meta_title": "Orbán szerint kulturális bosszú Hankó letartóztatása",
+        "meta_description": "Hankó Balázs volt kulturális és innovációs miniszter letartóztatása után Orbán Viktor zárt körben arról beszélt, hogy politikai háború zajlik, míg a volt tárcav",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-04-orban-szerint-kulturalis-bosszu-hanko-letartoztatasa/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hank%C3%B3_Bal%C3%A1zs_in_2025_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "3cfc98c0-2244-5d82-b106-11eefe5c8532"
+      ],
+      "see_also": [
+        {
+          "title": "„Az utca a gyűlölet terepe lett” – megszólalt Hankó Balázs",
+          "url": "/kozelet/2026-09-30-bortonnel-fenyegettek-az-utcan-a-volt-minisztert/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "07b21f91d1fe7f289676a0ef9de41939b389c656737858b7ff25f6d738ce9042",
+      "pipeline_run_id": "37213402599",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T17:40:38+02:00",
+      "updated_at": "2026-10-04T17:40:38+02:00",
+      "published_at": "2026-10-04T17:40:38+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": [],
+        "auto_fixed": [
+          "Eltávolítva a 'volt' jelző Hankó Balázs miniszteri pozíciója elől",
+          "A börtönben ülő politikus kifejezés módosítása a letartóztatásban lévő politikusra"
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-04T15:41:50+00:00",
+        "msg_ids": [
+          2574,
+          2575,
+          2576,
+          2577
+        ],
+        "control_id": 2578
+      }
+    },
+    {
+      "id": "d838342e-3e2b-5220-a6e8-bf9ef87a7a71",
+      "slug": "2026-10-04-aldatlan-allapotok-egy-kaposvari-haziorvosi-rendeloben",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "kaposvár",
+        "egészségügy",
+        "háziorvosi rendelő",
+        "penész",
+        "önkormányzat"
+      ],
+      "title": "Áldatlan állapotok egy kaposvári háziorvosi rendelőben",
+      "subtitle": null,
+      "lead": "Egy kaposvári háziorvosi rendelőben 2023 sseptembere óta súlyos beázási és penészedési problémák nehezítik az egészségügyi ellátást, miközben a fenntartó ígéretei szerint a felújításra csak 2027 második felében kerül sor. A helyzet miatt a falak vizesedtek, az elektromos kapcsolók áramütés-veszélyt rejtettek, a rendelőt pedig maszkban és gyógyszerekkel lehetett csak megközelíteni.",
+      "key_points": [
+        "2023 szeptemberében kezdődtek a súlyos beázások egy kaposvári háziorvosi rendelőben.",
+        "A betegmosdó kapcsolójából is folyt a víz, ami folyamatos áramütés-veszélyt okozott.",
+        "A helyi önkormányzat, a jegyző és az ANTSZ is értesítést kapott az áldatlan állapotokról.",
+        "A hivatalos tájékoztatás szerint a rendelő teljes felújítása a 2027-es év második felében esedékes."
+      ],
+      "content": "Egy éve tartó küzdelemről számolt be a Telex videójában Hajdú Xénia kaposvári háziorvos, akinek rendelőjében 2023 szeptemberében jelentkeztek az első beázási problémák. Az épületben a tartós esőzések és a tető hibái nyomán áldatlan állapotok alakultak ki: a falak penészesedni kezdtek, a kartonszekrények tönkrementek, és a víz utat tört magának a vizesblokkal kapcsolatos elektromos berendezésekhez is.\n\nA helyzet súlyosságát jelzi, hogy a betegmosdó kapcsolója is érintetté vált, így folyamatos áramütés-veszély fenyegetett, a fűtést pedig gázzal és elektromos keringető szivattyúval voltak kénytelenek megoldani. A rendelőben dolgozók és a páciensek egészségvédelme érdekében drasztikus lépésekre volt szükség.\n\n- Por- és penészallergiája miatt a háziorvos gyógyszereket szedett, maszkot viselt, és végül teljesen bezárta a fertőzött helyiséget.\n- A fenntartó egyházi intézmény részéről ugyan végeztek tetőjavítási munkálatokat, a beázást azonban ez sem tudta azonnal megállítani.\n- Az önkormányzatot, a jegyzőt és a helyi ANTSZ-t is hivatalosan értesítették a katasztrofális körülményekről.\n\nA problémákra reagálva Gábor, a kaposvári háziorvosi jegyző a felújítás ütemezéséről elmondta, hogy a falak és a tartószerkezetek nedvességét nem lehet azonnal befedni, meg kell várni a természetes kiszáradási folyamatot. H hozzátette, hogy a távhő végpontjaként is funkcionáló rendelő épületének átfogó felújítását a tervek szerint a 2027-es év második felére ütemezik, így a betegeknek és az orvosnak még hosszabb ideig kell türelmesnek lenniük a mostani körülmények közepette.",
+      "content_format": "markdown",
+      "body": [
+        "Egy éve tartó küzdelemről számolt be a Telex videójában Hajdú Xénia kaposvári háziorvos, akinek rendelőjében 2023 szeptemberében jelentkeztek az első beázási problémák. Az épületben a tartós esőzések és a tető hibái nyomán áldatlan állapotok alakultak ki: a falak penészesedni kezdtek, a kartonszekrények tönkrementek, és a víz utat tört magának a vizesblokkal kapcsolatos elektromos berendezésekhez is.",
+        "A helyzet súlyosságát jelzi, hogy a betegmosdó kapcsolója is érintetté vált, így folyamatos áramütés-veszély fenyegetett, a fűtést pedig gázzal és elektromos keringető szivattyúval voltak kénytelenek megoldani. A rendelőben dolgozók és a páciensek egészségvédelme érdekében drasztikus lépésekre volt szükség.",
+        "- Por- és penészallergiája miatt a háziorvos gyógyszereket szedett, maszkot viselt, és végül teljesen bezárta a fertőzött helyiséget.\n- A fenntartó egyházi intézmény részéről ugyan végeztek tetőjavítási munkálatokat, a beázást azonban ez sem tudta azonnal megállítani.\n- Az önkormányzatot, a jegyzőt és a helyi ANTSZ-t is hivatalosan értesítették a katasztrofális körülményekről.",
+        "A problémákra reagálva Gábor, a kaposvári háziorvosi jegyző a felújítás ütemezéséről elmondta, hogy a falak és a tartószerkezetek nedvességét nem lehet azonnal befedni, meg kell várni a természetes kiszáradási folyamatot. H hozzátette, hogy a távhő végpontjaként is funkcionáló rendelő épületének átfogó felújítását a tervek szerint a 2027-es év második felére ütemezik, így a betegeknek és az orvosnak még hosszabb ideig kell türelmesnek lenniük a mostani körülmények közepette."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 261,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/A_typical_examination_room_and_exam_table_in_a_doctor%27s_office._03.jpg/1280px-A_typical_examination_room_and_exam_table_in_a_doctor%27s_office._03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "A typical examination room and exam table in a doctor's office.",
+        "credit": "Harrison Keely / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_typical_examination_room_and_exam_table_in_a_doctor%27s_office._03.jpg",
+        "vision_score": 6.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=uBgUA4K_ij0",
+          "title": "„Még a betegmosdó kapcsolójából is folyt a víz \" - áldatlan állapotok egy háziorvosi rendelőben",
+          "publisher": "Telex․hu",
+          "license": null,
+          "accessed_at": "2026-10-04T17:42:41+02:00"
+        }
+      ],
+      "quote": {
+        "text": "hirtelen egybe katasztrófa mentesítést bekeztünk, jeleztük az önkormányzatnak, és hát próbáltuk vízmentesíteni.",
+        "who": "Hajdú Xénia háziorvos",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5,
+      "title_options": [
+        "Áldatlan állapotok egy kaposvári háziorvosi rendelőben",
+        "Egy év penész és áramütésveszély egy kaposvári háziorvosi rendelőben",
+        "Meddig kell várni a felújításra egy beázott orvosi rendelőben?",
+        "Elképesztő állapotok uralkodnak egy magyar háziorvosi rendelőben",
+        "Egy évig ázott a rendelő, mire érdemi intézkedés történt"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/A_typical_examination_room_and_exam_table_in_a_doctor%27s_office._03.jpg/1280px-A_typical_examination_room_and_exam_table_in_a_doctor%27s_office._03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A typical examination room and exam table in a doctor's office.",
+          "credit": "Harrison Keely / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:A_typical_examination_room_and_exam_table_in_a_doctor%27s_office._03.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/A_typical_examination_room_and_exam_table_in_a_doctor%27s_office._01.jpg/1280px-A_typical_examination_room_and_exam_table_in_a_doctor%27s_office._01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A typical examination room and exam table in a doctor's office. Franklin, North Carolina, USA",
+          "credit": "Harrison Keely / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:A_typical_examination_room_and_exam_table_in_a_doctor%27s_office._01.jpg",
+          "vision_score": 6.0
+        }
+      ],
+      "story": [
+        {
+          "title": "„Még a betegmosdó kapcsolójából is folyt a víz \" - áldatlan állapotok egy háziorvosi rendelőben",
+          "link": "https://www.youtube.com/watch?v=uBgUA4K_ij0",
+          "summary": "Egy kaposvári háziorvosi rendelőben egy éve tapasztalt súlyos beázási és penészedési problémák, amelyek nehezítik az ellátást.",
+          "source": "Telex․hu",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.youtube.com/watch?v=uBgUA4K_ij0"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/kozelet/2026-10-04-aldatlan-allapotok-egy-kaposvari-haziorvosi-rendeloben/",
+      "seo": {
+        "meta_title": "Áldatlan állapotok egy kaposvári háziorvosi rendelőben",
+        "meta_description": "Egy kaposvári háziorvosi rendelőben 2023 sseptembere óta súlyos beázási és penészedési problémák nehezítik az egészségügyi ellátást, miközben a fenntartó ígéret",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-04-aldatlan-allapotok-egy-kaposvari-haziorvosi-rendeloben/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/A_typical_examination_room_and_exam_table_in_a_doctor%27s_office._03.jpg/1280px-A_typical_examination_room_and_exam_table_in_a_doctor%27s_office._03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "8f5db57c818438a8aff229097a4aa0a993dc63028b9a569144f17997efd36d6b",
+      "pipeline_run_id": "37213402599",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T17:42:41+02:00",
+      "updated_at": "2026-10-04T17:42:41+02:00",
+      "published_at": "2026-10-04T17:42:41+02:00",
+      "expires_at": null,
+      "hold": true,
+      "video": {
+        "id": "uBgUA4K_ij0",
+        "title": "„Még a betegmosdó kapcsolójából is folyt a víz \" - áldatlan állapotok egy háziorvosi rendelőben",
+        "channel": "Telex․hu",
+        "minutes": 16
+      },
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-04T15:43:42+00:00",
+        "msg_ids": [
+          2582,
+          2583,
+          2584
+        ],
+        "control_id": 2585
+      }
     }
   ]
 }
