@@ -1,5 +1,5 @@
 {
-  "offset": 391604380,
+  "offset": 391604381,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -33,7 +33,8 @@
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/valkusz-milan-gwm-celeb-vagyok-ments-ki-innen/bxvyx40",
     "https://hvg.hu/360/20261004_hvg-szentendrei-regi-muvesztelep-centenarium-muveszetmalom",
     "https://hvg.hu/vilag/20261004_friedrich-merz-kijev-latogatas-moszkva-legicsapas",
-    "https://hvg.hu/360/20261004_hvg-ozzy-osbourne-utolso-kenet-konyv-black-sabbath"
+    "https://hvg.hu/360/20261004_hvg-ozzy-osbourne-utolso-kenet-konyv-black-sabbath",
+    "https://www.youtube.com/watch?v=uBgUA4K_ij0"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
