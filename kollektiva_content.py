@@ -1422,7 +1422,7 @@ blockquote.q{color:var(--parch)}blockquote cite{display:block;margin-top:8px;fon
 article p{color:rgba(236,230,216,.88)}
 .box{margin:40px 0;padding:18px 20px;background:var(--vault);border:1px solid var(--line);border-radius:12px;font-size:14px;color:var(--dusk)}
 .box a{color:var(--parch)}.seealso b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.seealso ul{margin:8px 0 0;padding-left:18px}.seealso span{color:var(--dusk)}
-.vid{position:relative;aspect-ratio:16/9;margin:28px 0;border-radius:12px;overflow:hidden;background:var(--vault)}.vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}figure.gen img{max-width:min(100%,560px);margin:0 auto}figure{margin:32px 0}figure img{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;border-radius:12px;background:var(--vault)}
+.vid{position:relative;aspect-ratio:16/9;margin:28px 0;border-radius:12px;overflow:hidden;background:var(--vault)}.vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}figure.hero img{max-height:min(56vh,480px);object-fit:cover;object-position:center 30%}figure{margin:32px 0}figure img{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;border-radius:12px;background:var(--vault)}
 figure.graphic img{max-height:340px;padding:28px;background:#ECE6D8}
 figcaption{margin-top:6px;color:var(--dusk);font-size:12px}figcaption a{color:var(--dusk)}figcaption .cap{font-size:14px;color:rgba(236,230,216,.75)}
 .credit summary{list-style:none;cursor:pointer;display:inline-block;width:22px;height:22px;line-height:22px;text-align:center;border:1px solid var(--line);border-radius:50%;font-size:12px}
@@ -1604,7 +1604,7 @@ def _related_html(related: list) -> str:
 def _figure(img: dict, alt: str, eager: bool = False, caption: str = "") -> str:
     """Kép kredittel (ⓘ); a szövegközi képeknél látható képaláírással."""
     cap = f'<span class="cap">{E(caption)}</span> ' if caption else ""
-    cls = img.get("kind", "photo") + (" gen" if img.get("generated") else "")
+    cls = img.get("kind", "photo") + (" hero" if eager else "")
     return (f'<figure class="{E(cls)}"><img src="{E(img["url"])}" alt="{E(img.get("alt") or alt)}" '
             f'width="{E(str(img.get("width") or ""))}" height="{E(str(img.get("height") or ""))}" '
             f'loading="{"eager" if eager else "lazy"}" decoding="async">'
