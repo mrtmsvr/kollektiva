@@ -12747,39 +12747,27 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/-_ITALY_-_Intesa_Sanpaolo_filiale.JPG/1280px--_ITALY_-_Intesa_Sanpaolo_filiale.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Avezzano_Intesa_Sanpaolo.jpg/1280px-Avezzano_Intesa_Sanpaolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": "Milano, piazzale Istria: filiale Intesa Sanpaolo",
-          "credit": "Pava / Wikimedia Commons",
-          "license": "CC BY-SA 3.0 it",
-          "source_url": "https://commons.wikimedia.org/wiki/File:-_ITALY_-_Intesa_Sanpaolo_filiale.JPG",
-          "vision_score": 9.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Grattacielo_Intesa_Sanpaolo_Torino.jpg/1280px-Grattacielo_Intesa_Sanpaolo_Torino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1800,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Intesa Sanpaolo Skyscraper in Turin Italy",
-          "credit": "Choinowski / Wikimedia Commons",
+          "alt": "Avezzano, Abruzzo, Italia",
+          "credit": "Marica Massaro / Wikimedia Commons",
           "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Grattacielo_Intesa_Sanpaolo_Torino.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Avezzano_Intesa_Sanpaolo.jpg",
           "vision_score": 8.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Palazzo_mezzanotte_Milan_Stock_Exchange.jpg/1280px-Palazzo_mezzanotte_Milan_Stock_Exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Lecce_palazzo_Intesa_Sanpaolo.jpg/1280px-Lecce_palazzo_Intesa_Sanpaolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 845,
+          "height": 1081,
           "kind": "photo",
-          "pos": "center",
-          "alt": "Palazzo Mezzanotte, seat of the Milan Stock Exchange",
-          "credit": "Goldmund100 at it.wikipedia / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Palazzo_mezzanotte_Milan_Stock_Exchange.jpg",
+          "pos": "top",
+          "alt": "Palazzo di Intesa Sanpaolo a Lecce.",
+          "credit": "Saggittarius A / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Lecce_palazzo_Intesa_Sanpaolo.jpg",
           "vision_score": 5.0
         }
       ],
@@ -12827,17 +12815,34 @@
       "published_at": "2026-10-04T08:05:19+02:00",
       "expires_at": null,
       "review": {
-        "title": 0,
+        "title": 1,
         "image": 0,
         "sent_at": "2026-10-04T06:06:12+00:00",
         "msg_ids": [
           2210,
           2211,
           2212,
-          2213
+          2213,
+          2236,
+          2237
         ],
-        "control_id": 2214
-      }
+        "control_id": 2238
+      },
+      "image_queries": [
+        "Intesa Sanpaolo",
+        "Monte dei Paschi di Siena",
+        "Luigi Lovaglio",
+        "Banca Generali",
+        "Banco BPM",
+        "bank building",
+        "financial district",
+        "business meeting"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Grattacielo_Intesa_Sanpaolo_Torino.jpg/1280px-Grattacielo_Intesa_Sanpaolo_Torino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Palazzo_mezzanotte_Milan_Stock_Exchange.jpg/1280px-Palazzo_mezzanotte_Milan_Stock_Exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/-_ITALY_-_Intesa_Sanpaolo_filiale.JPG/1280px--_ITALY_-_Intesa_Sanpaolo_filiale.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "0789d64e-5cf1-5279-be40-f86454221991",
@@ -13195,7 +13200,7 @@
       "expires_at": null,
       "review": {
         "title": 0,
-        "image": 0,
+        "image": 4,
         "sent_at": "2026-10-04T06:09:12+00:00",
         "msg_ids": [
           2224,
