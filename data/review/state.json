@@ -1,5 +1,5 @@
 {
-  "offset": 391604281,
+  "offset": 391604282,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -27,7 +27,8 @@
     "https://hvg.hu/itthon/20261002_rendorseg-bantalmazas-budapest-plaza",
     "https://hvg.hu/vilag/20261003_marcin-romanowski-lengyel-birosag-menlevel",
     "https://www.blikk.hu/sztarvilag/nemzetkozi-sztarok/mi-tortent-a-68-eves-madonna-testevel-a-vma-szinpadan/33efzbt",
-    "https://www.blikk.hu/sztarvilag/hazai-sztarok/megasztar-marics-herceg-csabitas/11mzcct"
+    "https://www.blikk.hu/sztarvilag/hazai-sztarok/megasztar-marics-herceg-csabitas/11mzcct",
+    "https://www.blikk.hu/sztarvilag/hazai-sztarok/heti-hetes-hanko-balazs-kajdi-csaba-cyla-lakatos-laci/z8kzy1e"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
