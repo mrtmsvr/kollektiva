@@ -28,6 +28,7 @@ A token csak a TELEGRAM_BOT_TOKEN környezeti változóból jön, sehova nem ír
 from __future__ import annotations
 
 import copy
+import hashlib
 import html
 import re
 import subprocess
@@ -970,6 +971,8 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
         tg("sendMessage", {"chat_id": st["chat_id"], "text": alert})
         st["usage_warned"] = today_s
         changed = True
+    if published:  # a te gombnyomásod / parancsod: soron kívül kikerül (nem a napi keretből)
+        _deploy_now()
     # automatikus kirakás, ha AUTO_PUBLISH_MIN percen belül nem jött döntés
     if MODE == "hybrid":
         import offtopic
@@ -1049,6 +1052,18 @@ def main(argv: Optional[list] = None) -> int:
     cfg = kc.Config.from_env()
     tz = ZoneInfo(cfg.timezone)
     deadline = time.time() + max(0, args.loop)
+    # ha az oldalsablon (kollektiva_content.py) változott, minden cikkoldal újraépül és soron kívül kikerül
+    try:
+        ver = hashlib.sha1((kc.BASE_DIR / "kollektiva_content.py").read_bytes()).hexdigest()[:12]
+        vf = kc.BASE_DIR / "data" / "site_version"
+        if not vf.exists() or vf.read_text().strip() != ver:
+            kc.build_static_site(cfg.output_dir, tz)
+            vf.write_text(ver)
+            _deploy_now()
+            _save_to_git("Oldalsablon frissítve")
+            log.info("✔ Új oldalsablon: minden oldal újraépítve")
+    except Exception as e:  # noqa: BLE001
+        log.warning("Sablon-ellenőrzés kimaradt: %s", e)
     while True:
         before = (STATE_FILE.read_text() if STATE_FILE.exists() else "", PENDING_FILE.read_text() if PENDING_FILE.exists() else "")
         left = int(deadline - time.time())
