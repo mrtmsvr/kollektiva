@@ -258,6 +258,14 @@ def _control(art: dict) -> tuple:
     return text, {"inline_keyboard": rows}
 
 
+def _drop_old_messages(chat: int, art: dict) -> None:
+    """Egy cikk korábbi Telegram-üzeneteinek törlése (újraküldés előtt), hogy ne látsszon kétszer ugyanaz a cikk."""
+    rv = art.get("review") or {}
+    for mid in (rv.get("msg_ids") or []) + [rv.get("control_id"), rv.get("title_prompt_id")]:
+        if mid:
+            tg("deleteMessage", {"chat_id": chat, "message_id": mid})  # 48 óránál régebbit a Telegram nem enged – nem baj
+
+
 def send_article(_out_dir: Optional[Path], art: dict) -> None:
     chat = load_state().get("chat_id")
     if not chat:
@@ -273,6 +281,11 @@ def send_article(_out_dir: Optional[Path], art: dict) -> None:
     except Exception as e:  # noqa: BLE001
         log.warning("Jogi ellenőrzés kimaradt: %s", e)
     kind = "🟢 KINT VAN" if art.get("live") else ("🗓 SAJÁT (időzített)" if art.get("offtopic") else "🆕 ÚJ")
+    resent = art.pop("resent", None)
+    if resent == "v":
+        kind = "♻️ VISSZAVÉVE JAVÍTÁSRA (ugyanaz a cikk, nem új)"
+    elif resent == "rw":
+        kind = "🔁 ÚJRAÍRT VÁLTOZAT (az előzőt váltja, a régi üzenetek törölve)"
     head = (f"{kind} · <b>{E(sec)}</b> · forróság {art.get('hot_score', 0)} · {len(art.get('sources', []))} forrás · "
             f"{art.get('reading_time_min', 1)} perc"
             + (f" · +{len(art['inline_images'])} kép a szövegben" if art.get("inline_images") else "")
@@ -606,6 +619,8 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                         published += 1
                     if new:
                         pending[pending.index(art)] = new
+                        _drop_old_messages(st["chat_id"], art)
+                        new["resent"] = "rw"
                         send_article(out_dir, new)
                         changed = True
                     else:
@@ -623,8 +638,11 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                     h = hits[0]
                     _apply_live(out_dir, h, tz, remove=True)
                     published += 1
+                    for p in [p for p in pending if p.get("id") == h["id"]]:
+                        _drop_old_messages(st["chat_id"], p)
                     pending[:] = [p for p in pending if p.get("id") != h["id"]]
                     back = {k: v for k, v in h.items() if k != "live"}
+                    back["resent"] = "v"
                     back.update({"status": "needs_review", "hold": True, "title_options": _fresh_titles(ai, h), "clickbait_from": 3,
                                  "image_options": [h["hero_image"]] if h.get("hero_image") else [],
                                  "created_at": datetime.now(tz).isoformat(timespec="seconds")})
@@ -922,8 +940,8 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                     published += 1
                 if new:
                     pending[pending.index(art)] = new
-                    tg("editMessageText", {"chat_id": st["chat_id"], "message_id": art["review"].get("control_id"),
-                                           "text": "🔁 Újraírva – lásd az új változatot lent."})
+                    _drop_old_messages(st["chat_id"], art)
+                    new["resent"] = "rw"
                     send_article(out_dir, new)
                 else:
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": "Az újraírás most nem sikerült, próbáld később."})
