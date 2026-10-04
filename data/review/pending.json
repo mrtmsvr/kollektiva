@@ -10658,6 +10658,825 @@
         "control_id": 2431
       },
       "live": true
+    },
+    {
+      "id": "11e103d5-0c6e-5ac6-bef2-439563c34026",
+      "slug": "2026-10-04-kozel-felmilliard-kelt-el-egy-nobel-dijas-festmenyeert",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "műtárgypiac",
+        "aukció",
+        "Nobel-díj",
+        "befektetés",
+        "Kultúra"
+      ],
+      "title": "Közel félmilliárd kelt el egy Nobel-díjas festményéért",
+      "subtitle": null,
+      "lead": "Több százmillió forintos leütési árak születtek az őszi műtárgy-árveréseken, ahol egy irodalmi Nobel-díjas szerző festménye is elkelt. A rangos aukciósházak hongkongi és londoni rendezvényein a klasszikus és kortárs nyugati, valamint a délkelet-ázsiai mesterművek is hatalmas érdeklődést váltottak ki.",
+      "key_points": [
+        "Rabindranath Tagore női fejet ábrázoló festménye mintegy 1 millió fontért kelt el.",
+        "Egy Basquiat-alkotás csaknem 10 millió dollárt ért meg egy gyűjtőnek Hongkongban.",
+        "Az indiai modern művészet kiemelkedő darabjai is többszörösére növelték becsértéküket."
+      ],
+      "content": "A nemzetközi műtárgypiac az őszi időszak elején komoly árakat hozott Ázsiában és Európában is. A Sotheby’s és a Christie’s aukcióin a huszadik és huszonegyedik századi nyugati, valamint a modern délkelet-ázsiai alkotások iránti kiemelkedő kereslet több kategóriában is áremelkedést eredményezett.\n\nAz indiai polihisztor, irodalmi Nobel-díjas író és zeneszerző, Rabindranath Tagore egyik ritka munkája is új tulajdonosra talált az árverésen. A korabeli indiai festészettől stílusában és technikájában is eltérő, női fejet ábrázoló portréért, amelynek becsértéke 350 ezer font volt, végül mintegy 1 millió fontot, azaz megközelítőleg 430 millió forintot fizettek.\n\nA rendezvényeken más délkelet-ázsiai alkotások is kiemelkedően szerepeltek, miután becsértéküket többszörösen túlszárnyalva keltek el. Bhupen Khakhar indiai pop art művész Sakkozó öregember című nagyméretű vásznáért 3,14 millió fontot adtak a kezdeti 700 ezer fontos becslés helyett, míg az „Indiai Picassóként” ismert Maqbool Fida Husain munkája 2,65 millió fontért kelt el a legfeljebb 600 ezer fontra várt összeg helyett.\n\nA keleti vásárlóerőt tesztelő rendezvények csúcsát egy nyugati műtárgy, egy Basquiat-alkotás jelentette. Az Ancient Scientist elnevezésű mű a Christie’s hongkongi árverésén közel 10 millió dollárért cserélt gazdát, megkoronázva az őszi szezon eddigi legfontosabb műpiaci eseményeit.",
+      "content_format": "markdown",
+      "body": [
+        "A nemzetközi műtárgypiac az őszi időszak elején komoly árakat hozott Ázsiában és Európában is. A Sotheby’s és a Christie’s aukcióin a huszadik és huszonegyedik századi nyugati, valamint a modern délkelet-ázsiai alkotások iránti kiemelkedő kereslet több kategóriában is áremelkedést eredményezett.",
+        "Az indiai polihisztor, irodalmi Nobel-díjas író és zeneszerző, Rabindranath Tagore egyik ritka munkája is új tulajdonosra talált az árverésen. A korabeli indiai festészettől stílusában és technikájában is eltérő, női fejet ábrázoló portréért, amelynek becsértéke 350 ezer font volt, végül mintegy 1 millió fontot, azaz megközelítőleg 430 millió forintot fizettek.",
+        "A rendezvényeken más délkelet-ázsiai alkotások is kiemelkedően szerepeltek, miután becsértéküket többszörösen túlszárnyalva keltek el. Bhupen Khakhar indiai pop art művész Sakkozó öregember című nagyméretű vásznáért 3,14 millió fontot adtak a kezdeti 700 ezer fontos becslés helyett, míg az „Indiai Picassóként” ismert Maqbool Fida Husain munkája 2,65 millió fontért kelt el a legfeljebb 600 ezer fontra várt összeg helyett.",
+        "A keleti vásárlóerőt tesztelő rendezvények csúcsát egy nyugati műtárgy, egy Basquiat-alkotás jelentette. Az Ancient Scientist elnevezésű mű a Christie’s hongkongi árverésén közel 10 millió dollárért cserélt gazdát, megkoronázva az őszi szezon eddigi legfontosabb műpiaci eseményeit."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 231,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Rabindranath_Tagore.jpg/1280px-Rabindranath_Tagore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1670,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "A photographic portrait of Rabindranath Tagore, date unknown.",
+        "credit": "Unknown authorUnknown author / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261004/a-nobel-dijas-iro-festmenyeert-kozel-felmilliard-forintot-fizettek-londonban-866700",
+          "title": "A Nobel-díjas író festményéért közel félmilliárd forintot fizettek Londonban",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T14:15:19+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Közel félmilliárd kelt el egy Nobel-díjas festményéért",
+        "Félmilliárd forintot ért egy Nobel-díjas író portréja Londonban",
+        "Rekordokat döntöttek a nyugati és keleti műtárgyak Hongkongban",
+        "Elképesztő összeget fizettek egy Nobel-díjas író ritka festményéért",
+        "Megdöbbentő árak születtek az ázsiai műtárgy-árveréseken",
+        "Csillagászati összegeket hagytak ott a gyűjtők a legújabb aukciókon"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/11e103d50c-1791116431-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/11e103d50c-1791116431-0.jpg",
+          "kind": "photo",
+          "alt": "Közel félmilliárd kelt el egy Nobel-díjas festményéért",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/11e103d50c-1791116433-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/11e103d50c-1791116433-1.jpg",
+          "kind": "photo",
+          "alt": "Közel félmilliárd kelt el egy Nobel-díjas festményéért",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Rabindranath_Tagore.jpg/1280px-Rabindranath_Tagore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1670,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "A photographic portrait of Rabindranath Tagore, date unknown.",
+          "credit": "Unknown authorUnknown author / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Rabindranath_Tagore_statue_in_Dublin%2C_Ireland_02.jpg/1280px-Rabindranath_Tagore_statue_in_Dublin%2C_Ireland_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1353,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Rabindranath Tagore statue in Dublin, Ireland",
+          "credit": "Satdeep Gill / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore_statue_in_Dublin,_Ireland_02.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Sotheby%27s_%2851921999492%29.jpg/1280px-Sotheby%27s_%2851921999492%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Sotheby's",
+          "credit": "ajay_suresh / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Sotheby%27s_(51921999492).jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/ChristiesNewYork.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The author of this photo is me, David Shankbone. Taken 4 August 2006. Christie's New York Rockefeller Center.  New York City",
+          "credit": "The original uploader was David Shankbone at English Wikipedia. / Wikimedia Commons",
+          "license": "CC BY 2.5",
+          "source_url": "https://commons.wikimedia.org/wiki/File:ChristiesNewYork.JPG",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Hong_Kong_skyscrapers_in_a_night_of_typhoon.jpg/1280px-Hong_Kong_skyscrapers_in_a_night_of_typhoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 797,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Hong Kong skyscrapers in a night of typhoon",
+          "credit": "Wilfredor / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hong_Kong_skyscrapers_in_a_night_of_typhoon.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Hong_Kong_Harbour_Night_2019-06-11.jpg/1280px-Hong_Kong_Harbour_Night_2019-06-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 567,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "50 mpix panorama of Hong Kong's harbour and skyline, as seen from Victoria Peak on a rainy night of June 2019.",
+          "credit": "Benh LIEU SONG (Flickr) / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Harbour_Night_2019-06-11.jpg",
+          "vision_score": 7.0
+        }
+      ],
+      "story": [
+        {
+          "title": "A Nobel-díjas író festményéért közel félmilliárd forintot fizettek Londonban",
+          "link": "https://www.portfolio.hu/gazdasag/20261004/a-nobel-dijas-iro-festmenyeert-kozel-felmilliard-forintot-fizettek-londonban-866700",
+          "summary": "Taroltak a Lewis-kollekció gyöngyszemei Ázsiában. Joe Lewis, a Tottenham hajdani tulajdonosának gyűjteménye tartogatott izgalmakat az őszindításra is azt követően, hogy a nyáron Londonban a Sotheby’s európai rekordot jelentő, 520 millió dollárért kalapált el értékeket belőle. Most Hongkongban a „The Foujita Lexicon” című válogatás írt történelmet egy amúgy is kivételesen sikeres, modern és kortárs műveket felkínáló rendezvényen, amely az ázsiai piacon 2023 óta nem látott összeget fialt. Szeptember utolsó napjaiban a Christie’s is tesztelte a keleti vásárlóerőt: egy nyugati mű, Basquiat alkotás",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261004/a-nobel-dijas-iro-festmenyeert-kozel-felmilliard-forintot-fizettek-londonban-866700"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/penzvilag/2026-10-04-kozel-felmilliard-kelt-el-egy-nobel-dijas-festmenyeert/",
+      "seo": {
+        "meta_title": "Közel félmilliárd kelt el egy Nobel-díjas festményéért",
+        "meta_description": "Több százmillió forintos leütési árak születtek az őszi műtárgy-árveréseken, ahol egy irodalmi Nobel-díjas szerző festménye is elkelt. A rangos aukciósházak hon",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-04-kozel-felmilliard-kelt-el-egy-nobel-dijas-festmenyeert/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Rabindranath_Tagore.jpg/1280px-Rabindranath_Tagore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "0330d8729a0ba6a486f99ef4a5604561328e2d7ba9f34d49bb29c8f238e2c2d0",
+      "pipeline_run_id": "37201451630",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T14:15:19+02:00",
+      "updated_at": "2026-10-04T14:15:19+02:00",
+      "published_at": "2026-10-04T14:15:19+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-04T12:16:19+00:00",
+        "msg_ids": [
+          2453,
+          2454,
+          2455,
+          2456,
+          2457,
+          2458,
+          2459,
+          2480,
+          2481
+        ],
+        "control_id": 2482
+      }
+    },
+    {
+      "id": "ae1ad2fb-fefc-5af8-9c16-8d4ec11ab02e",
+      "slug": "2026-10-04-a-latasat-veszto-edesanya-dramajat-vitte-filmre-a-miskolci-kozonsegdi",
+      "status": "pending",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Mommy Blue",
+        "Mayer Bernadette",
+        "magyar film",
+        "CineFest",
+        "Für Anikó"
+      ],
+      "title": "A látását vesztő édesanya drámáját vitte filmre a miskolci közönségdíjas rendező",
+      "subtitle": null,
+      "lead": "Mayer Bernadette rendező első nagyjátékfilmje, a Mommy Blue egy látását vesztő édesanya és felnőtt fia feszült, nehéz kapcsolatát tárja a nézők elé. Az alkotás nemcsak a miskolci CineFesten aratott sikert, hanem egy mélyen személyes, gyermekkori traumát is feldolgoz.",
+      "key_points": [
+        "Mayer Bernadette rendező édesanyja történetét vitte vászonra a Mommy Blue című filmben.",
+        "A főszerepeket Für Anikó és Vilmányi Benett alakítják.",
+        "Az alkotás a miskolci CineFesten közönségdíjat nyert.",
+        "A történet alapja a rendező saját kamaszkori tapasztalata, amikor látását vesztett édesanyját ápolta."
+      ],
+      "content": "Mérföldkőhöz érkezett a magyar filmgyártás: [ahogy korábban megírtuk](/kultura/2026-10-03-amikor-egy-muveszettortenesz-vakul-meg-megerkezett-a-mommy-blue/), a miskolci CineFesten közönségdíjat nyert Mommy Blue című alkotáshoz egy visszafordíthatatlan családi tragédia szolgált alapul. Mayer Bernadette rendező mindössze tizenhat éves volt, amikor édesanyja harminchat évesen, az egyes típusú cukorbetegség szövődményeként, fél év alatt elveszítette a látását.\n\nA Blikknek adott interjúban az alkotó elmesélte, hogy a mindennapokat a szeretet mellett a félelem és a bűntudat határozta meg. Az egyedülálló édesanya rettegett a vakságtól, ezért egyre jobban kapaszkodott a lányába, miközben a kamaszodó Bernadette a saját életét szerette volna élni.\n\nA filmben Krisztina és Máté viszonyán keresztül jelennek meg ezek a konfliktusok. Az egyik legfeszültebb jelenet közvetlenül a rendező emlékeiből született meg: az előszobában lezajló, tehetetlen dührohamot saját otthoni tapasztalatai alapján írta meg.\n\nA Mommy Blue főbb szerepeiben Für Anikó és Vilmányi Benett látható.",
+      "content_format": "markdown",
+      "body": [
+        "Mérföldkőhöz érkezett a magyar filmgyártás: [ahogy korábban megírtuk](/kultura/2026-10-03-amikor-egy-muveszettortenesz-vakul-meg-megerkezett-a-mommy-blue/), a miskolci CineFesten közönségdíjat nyert Mommy Blue című alkotáshoz egy visszafordíthatatlan családi tragédia szolgált alapul. Mayer Bernadette rendező mindössze tizenhat éves volt, amikor édesanyja harminchat évesen, az egyes típusú cukorbetegség szövődményeként, fél év alatt elveszítette a látását.",
+        "A Blikknek adott interjúban az alkotó elmesélte, hogy a mindennapokat a szeretet mellett a félelem és a bűntudat határozta meg. Az egyedülálló édesanya rettegett a vakságtól, ezért egyre jobban kapaszkodott a lányába, miközben a kamaszodó Bernadette a saját életét szerette volna élni.",
+        "A filmben Krisztina és Máté viszonyán keresztül jelennek meg ezek a konfliktusok. Az egyik legfeszültebb jelenet közvetlenül a rendező emlékeiből született meg: az előszobában lezajló, tehetetlen dührohamot saját otthoni tapasztalatai alapján írta meg.",
+        "A Mommy Blue főbb szerepeiben Für Anikó és Vilmányi Benett látható."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 182,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/kultura-1791116268-0.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kultura-1791116268-0.jpg",
+        "kind": "photo",
+        "alt": "A látását vesztő édesanya drámáját vitte filmre a miskolci közönségdíjas rendező",
+        "likeness": true,
+        "credit": "AI-generált illusztráció – Kollektíva",
+        "license": "saját (AI-generált illusztráció)",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/filmklikk/mayer-bernadette-mommy-blue-csaladi-tortenet/23n3geg",
+          "title": "„Rettegett attól, hogy a sötétben egyedül marad” – édesanyja történetét vitte filmre a Mommy Blue rendezője",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T14:16:28+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Rettegett attól, hogy a sötétben egyedül marad, és szeretett volna belém kapaszkodni. Ami nekem egyre terhesebb lett, miközben rettentően sok keserű érzés volt bennem azzal kapcsolatban, hogy mi történik vele.",
+        "who": "Mayer Bernadette, rendező",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "A látását vesztő édesanya drámáját vitte filmre a miskolci közönségdíjas rendező",
+        "Sötétség és szeretet: így készült a Mommy Blue című magyar film",
+        "Megérkezett a mozikba a Mommy Blue, a látását elveszítő anya története",
+        "Tizenhat évesen veszítette el a látását az édesanyja – ez a film a legnehezebb családi titkokat mutatja meg",
+        "Für Anikó és Vilmányi Benett főszereplésével érkezett meg a hazai mozikba az év egyik legszemélyesebb drámája",
+        "Amikor a gyerekből lesz a szülő: ezért kellett filmre vinni ezt a felkavaró igaz történetet"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/kultura-1791116268-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kultura-1791116268-0.jpg",
+          "kind": "photo",
+          "alt": "A látását vesztő édesanya drámáját vitte filmre a miskolci közönségdíjas rendező",
+          "likeness": true,
+          "credit": "AI-generált illusztráció – Kollektíva",
+          "license": "saját (AI-generált illusztráció)",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/kultura-1791116271-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kultura-1791116271-1.jpg",
+          "kind": "photo",
+          "alt": "A látását vesztő édesanya drámáját vitte filmre a miskolci közönségdíjas rendező",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        }
+      ],
+      "story": [
+        {
+          "title": "„Rettegett attól, hogy a sötétben egyedül marad” – édesanyja történetét vitte filmre a Mommy Blue rendezője",
+          "link": "https://www.blikk.hu/sztarvilag/filmklikk/mayer-bernadette-mommy-blue-csaladi-tortenet/23n3geg",
+          "summary": "Mayer Bernadette mindössze tizenhat éves volt, amikor édesanyja elveszítette a látását. Miközben kamaszként a saját életét szerette volna élni, az édesanyja egyre jobban kapaszkodott belé – ebből a szeretettel, félelemmel és bűntudattal terhelt kapcsolat ihlette első nagyjátékfilmjét, a Mommy Blue-t. A rendező a Blikknek arról is mesélt, hogyan ismerte fel később saját magában az édesanyja viselkedését.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/filmklikk/mayer-bernadette-mommy-blue-csaladi-tortenet/23n3geg"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/kultura/2026-10-04-a-latasat-veszto-edesanya-dramajat-vitte-filmre-a-miskolci-kozonsegdi/",
+      "seo": {
+        "meta_title": "A látását vesztő édesanya drámáját vitte filmre a miskolci k",
+        "meta_description": "Mayer Bernadette rendező első nagyjátékfilmje, a Mommy Blue egy látását vesztő édesanya és felnőtt fia feszült, nehéz kapcsolatát tárja a nézők elé. Az alkotás ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-04-a-latasat-veszto-edesanya-dramajat-vitte-filmre-a-miskolci-kozonsegdi/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/kultura-1791116268-0.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "d7c4d669-f429-5259-9fca-4db58546b670"
+      ],
+      "see_also": [
+        {
+          "title": "Amikor egy művészettörténész vakul meg: megérkezett a Mommy Blue",
+          "url": "/kultura/2026-10-03-amikor-egy-muveszettortenesz-vakul-meg-megerkezett-a-mommy-blue/",
+          "date": "2026-10-03"
+        }
+      ],
+      "thread_id": "d7c4d669-f429-5259-9fca-4db58546b670",
+      "dedupe_hash": "61bf43ffe32b498ae8e8c1ca7d4bbd57ec203959d47eb1c32dd2555fffe45748",
+      "pipeline_run_id": "37201451630",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T14:16:28+02:00",
+      "updated_at": "2026-10-04T14:16:28+02:00",
+      "published_at": "2026-10-04T14:16:28+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 1,
+        "issues": [
+          "🟡 „édesanyja ... az egyes típusú cukorbetegség szövődményeként, fél év alatt elveszítette a látását” – magánszemély egészségügyi adatait közzéteszi → ne említsd a magánszemély egészségügyi állapotát, vagy szerezz beleegyezést"
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 1,
+        "sent_at": "2026-10-04T12:17:54+00:00",
+        "msg_ids": [
+          2461,
+          2462,
+          2463
+        ],
+        "control_id": 2464
+      }
+    },
+    {
+      "id": "f3fa1b59-dd31-5723-a50e-0b8df42646a9",
+      "slug": "2026-10-04-az-europai-verplazma-ellatas-rejtelyes-utja-amerikatol-a-magyar-gyara",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "vérplazma",
+        "egészségügy",
+        "gyógyszerellátás",
+        "OVSZ",
+        "Gödöllő"
+      ],
+      "title": "Az európai vérplazma-ellátás rejtélyes útja Amerikától a magyar gyárakig",
+      "subtitle": null,
+      "lead": "Európa egyre inkább az amerikai vérplazma-importra támaszkodik az életmentő gyógyszerek előállításához, miközben Magyarországon önálló gyűjtőhálózat és feldolgozóüzem is működik. A kész alapanyag útja azonban korántsem vezet automatikusan a hazai kórházakba.",
+      "key_points": [
+        "A vérplazma nemcsak transzfúziókhoz kell, hanem immunglobulinok és véralvadási faktorok alapanyaga is.",
+        "A gödöllői üzem évi 600 ezer literes kapacitással dolgozik, de a feldolgozott anyag nemzetközi láncokba kapcsolódik.",
+        "Az európai gyógyszerhiány miatt több készítménynél is hiányjelzés lépett fel a piaci megfontolások és a kereslet növekedése miatt."
+      ],
+      "content": "A modern gyógyszeripar alapvetően támaszkodik a vér folyékony részére, amelyből életmentő immunglobulinokat és véralvadási faktorokat állítanak elő. Bár a köztudatban a véradás elsősorban a baleseti sérültek kórházi ellátásához kapcsolódik, a plazma jelentős része ipari feldolgozáson megy keresztül, mielőtt gyógyszerré válna. Ez a kettősség azt jelenti, hogy a bőséges hazai gyűjtés nem garantálja azonnal a helyi betegek zavartalan ellátását.\n\nMagyarországon az Országos Vérellátó Szolgálat mellett plazmaközpontok is működnek, Gödöllőn pedig a Kedrion csoporthoz tartozó Human BioPlazma üzem 600 ezer literes plazmafrakcionálási kapacitással rendelkezik. Ez a gyár immunglobulinok és albumin köztes termékeit állítja elő, ám a hazai jelenlét nem jelenti azt, hogy az itt feldolgozott anyag automatikusan a magyar intézményekbe kerülne. A szabályozás annyiban teremt kapcsolatot a donor és a beteg között, hogy az OVSZ által gyűjtött ipari plazmát feldolgozó gyártónak vállalnia kell az indulást az állami egészségbiztosító közbeszerzésén.\n\nA gyűjtés hatékonyságát ráadásul az emberi korlátok is nehezítik, mivel a plazmát a sejtes elemek visszajuttatása miatt akár 365 nap alatt 45 alkalommal is adhatják a donorok.",
+      "content_format": "markdown",
+      "body": [
+        "A modern gyógyszeripar alapvetően támaszkodik a vér folyékony részére, amelyből életmentő immunglobulinokat és véralvadási faktorokat állítanak elő. Bár a köztudatban a véradás elsősorban a baleseti sérültek kórházi ellátásához kapcsolódik, a plazma jelentős része ipari feldolgozáson megy keresztül, mielőtt gyógyszerré válna. Ez a kettősség azt jelenti, hogy a bőséges hazai gyűjtés nem garantálja azonnal a helyi betegek zavartalan ellátását.",
+        "Magyarországon az Országos Vérellátó Szolgálat mellett plazmaközpontok is működnek, Gödöllőn pedig a Kedrion csoporthoz tartozó Human BioPlazma üzem 600 ezer literes plazmafrakcionálási kapacitással rendelkezik. Ez a gyár immunglobulinok és albumin köztes termékeit állítja elő, ám a hazai jelenlét nem jelenti azt, hogy az itt feldolgozott anyag automatikusan a magyar intézményekbe kerülne. A szabályozás annyiban teremt kapcsolatot a donor és a beteg között, hogy az OVSZ által gyűjtött ipari plazmát feldolgozó gyártónak vállalnia kell az indulást az állami egészségbiztosító közbeszerzésén.",
+        "A gyűjtés hatékonyságát ráadásul az emberi korlátok is nehezítik, mivel a plazmát a sejtes elemek visszajuttatása miatt akár 365 nap alatt 45 alkalommal is adhatják a donorok."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 195,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Blood_plasma_donation_3653.JPG/1280px-Blood_plasma_donation_3653.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Blutplasma-Spende: Aus-/Einlass-Kanüle an der Armbeuge",
+        "credit": "ANKAWÜ / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Blood_plasma_donation_3653.JPG",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/elet/20261004_egeszsegugy-verplazma-iranyitott-veradas-pulse",
+          "title": "Európa amerikai vérplazmára szorul, Magyarországon sem garantált az önellátás",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T14:18:04+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.86,
+      "title_options": [
+        "Az európai vérplazma-ellátás rejtélyes útja Amerikától a magyar gyárakig",
+        "Mennyi plazma kell valójában ahhoz, hogy ne olcsó amerikai importból éljen Európa",
+        "A gödöllői gyár és a hiányzó láncszemek: mi történik a magyar vérplazmával",
+        "Így függ egész Európa az amerikai plazmaadományoktól, és ezt teszi Magyarország",
+        "Miért van hiány a gyógyszertárakban, ha egyszer Magyarországon is gyűjtik a plazmát",
+        "A donoroktól a laboratóriumokig: vajon eljut hozzánk az itthon leadott vérplazma"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Blood_plasma_donation_3653.JPG/1280px-Blood_plasma_donation_3653.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Blutplasma-Spende: Aus-/Einlass-Kanüle an der Armbeuge",
+          "credit": "ANKAWÜ / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Blood_plasma_donation_3653.JPG",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Plasma_bag%2C_9_April_2024.jpg/1280px-Plasma_bag%2C_9_April_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 2128,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "My plasma bag from the Dunedin Blood Donor Centre on 9 April 2024",
+          "credit": "Andykatib / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Plasma_bag,_9_April_2024.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://pixabay.com/get/g3a7251d07d25dd6ba3bcdd65a023eda2cbb33ed6bc7345f656b79df7a4597088553886a670c410160e77b829eeb4dc60af9a2e9da710291d0f54577b0bbc96b7_1280.jpg",
+          "width": 3000,
+          "height": 2000,
+          "kind": "photo",
+          "alt": "laboratory, test tubes, healthcare worker, hospital, healthcare professional, medical professional, medical technology, medical, health, medicine, healthcare, laboratory, laboratory, laboratory, labor",
+          "credit": "DarkoStojanovic / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/laboratory-test-tubes-563423/",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/49501365313_97476713ea_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Medical Laboratory",
+          "credit": "ben.dracup / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/186856158@N06/49501365313",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg/1280px-Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 799,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A documentative record of a clinical pathology and medical laboratory environment configured for hematology investigations, routine blood sample analysis, specimen processing, and phlebotomy services.",
+          "credit": "Goleisureintl / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai,_India.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Az_Orsz%C3%A1gos_V%C3%A9rell%C3%A1t%C3%B3_Szolg%C3%A1lat_K%C3%B6zpontja%2C_2018_%C3%9Ajbuda.jpg/1280px-Az_Orsz%C3%A1gos_V%C3%A9rell%C3%A1t%C3%B3_Szolg%C3%A1lat_K%C3%B6zpontja%2C_2018_%C3%9Ajbuda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": ": National Blood Supply Service Center. Blood donor buildin. - 19-21 Karolina út, Kelenföld neighborhood, Újbuda.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Az_Orsz%C3%A1gos_V%C3%A9rell%C3%A1t%C3%B3_Szolg%C3%A1lat_K%C3%B6zpontja,_2018_%C3%9Ajbuda.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://pixabay.com/get/g16f2162aae66bf25746fe53c1118640502d966288d8592984195d310e8a3c2832a336fc83f4b91d1a9e6084389c2c1ac4ab3f942cafa1f37483f14c4191459fc_1280.jpg",
+          "width": 5443,
+          "height": 3629,
+          "kind": "photo",
+          "alt": "analysis, biochemistry, biologist, biology, biotechnology, chemistry, clinic, clinical, equipment, experiment, laboratory devices, laboratory, lenses, medical, medicine, microbiology, microscope, opti",
+          "credit": "Kost9n4 / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/analysis-biochemistry-biologist-2030265/",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Európa amerikai vérplazmára szorul, Magyarországon sem garantált az önellátás",
+          "link": "https://hvg.hu/elet/20261004_egeszsegugy-verplazma-iranyitott-veradas-pulse",
+          "summary": "Egyre több vérplazma kell az életfontosságú gyógyszerekhez, de a gyűjtés nem mindenütt tart lépést a kereslettel. Magyarországon plazmaközpontok és feldolgozóüzem is működik, a betegek ellátása azonban ennél hosszabb láncon múlik. Európának úgy kellene csökkentenie az amerikai függést, hogy közben az adományozók egészségét se veszélyeztesse.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.86
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/elet/20261004_egeszsegugy-verplazma-iranyitott-veradas-pulse"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/kozelet/2026-10-04-az-europai-verplazma-ellatas-rejtelyes-utja-amerikatol-a-magyar-gyara/",
+      "seo": {
+        "meta_title": "Az európai vérplazma-ellátás rejtélyes útja Amerikától a mag",
+        "meta_description": "Európa egyre inkább az amerikai vérplazma-importra támaszkodik az életmentő gyógyszerek előállításához, miközben Magyarországon önálló gyűjtőhálózat és feldolgo",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-04-az-europai-verplazma-ellatas-rejtelyes-utja-amerikatol-a-magyar-gyara/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Blood_plasma_donation_3653.JPG/1280px-Blood_plasma_donation_3653.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "36bf08c1-495a-57b6-ac8c-f17321bb007d"
+      ],
+      "see_also": [
+        {
+          "title": "Mágikus időutazás és kiégés: így hódít a healing fiction",
+          "url": "/kultura/2026-10-04-magikus-idoutazas-es-kieges-igy-hodit-a-healing-fiction/",
+          "date": "2026-10-04"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "ef3ce71a502cac02f46e1179beb0431931120f31ea8d1758607d8d1b185b0b61",
+      "pipeline_run_id": "37201451630",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T14:18:04+02:00",
+      "updated_at": "2026-10-04T14:18:04+02:00",
+      "published_at": "2026-10-04T14:18:04+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-04T12:19:07+00:00",
+        "msg_ids": [
+          2465,
+          2466,
+          2467,
+          2468,
+          2469,
+          2470,
+          2471,
+          2472
+        ],
+        "control_id": 2473
+      }
+    },
+    {
+      "id": "1e038c5e-01e8-5ddc-8efa-25ed53d80434",
+      "slug": "2026-10-04-mar-az-okori-gorogok-is-egi-vasbol-kovacsoltak-gyuruket",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "meteorit",
+        "régészet",
+        "bronzkor",
+        "tudománytörténet",
+        "Görögország"
+      ],
+      "title": "Már az ókori görögök is égi vasból kovácsoltak gyűrűket",
+      "subtitle": null,
+      "lead": "Egy idén augusztusban megjelent tanulmány szerint a mükénéi és minószi elit tagjai már a bronzkorban meteorvasból készült gyűrűket hordtak. A felfedezés arra utal, hogy a térség lakói jóval korábban tisztában voltak az égi eredetű fémek létezésével, mint azt eddig gondolták.",
+      "key_points": [
+        "Kilencvenegy vizsgált bronzkori gyűrűből tizenhárom bizonyult meteorvasból készültnek.",
+        "A szentnek tekintett alapanyag valószínűleg Egyiptomból érkezett a görög szigetvilágba.",
+        "A történelem során a világ szinte minden táján ismerték és tisztelték a kultuszok az égi vasból készült tárgyakat."
+      ],
+      "content": "A minószi és mükénéi elithez tartozó sírokból előkerült, bronzkori leletek első ránézésre átlagosnak tűnnek: nem túl gazdagon díszítettek, méretüket tekintve pedig sem nem óriásiak, sem nem miniatürizáltak. A vizsgált 91 gyűrű közül 13 darab esetében a magas nikkeltartalom mutatta ki egyértelműen, hogy az alapanyaguk a világűrből származó meteorvas, míg további kilenc tárgynál ugyanez valószínűsíthető. Bár a meteoritok felhasználása szinte minden kontinensen ismert volt korábban is, ez az első alkalom, hogy a mai Görögország területén bronzkori meteorvastárgyakat azonosítottak.\n\nA státuszszimbólumnak számító ékszerek alapanyaga a kutatók felmérései szerint Egyiptomból érkezhetett, a sivatagos területeken ugyanis jóval könnyebb volt meteoritot találni, mint a szigetvilágban. A kereskedelem révén terjedő fém szentnek számított ebben a korban: az egyiptomiak például tevéknek is készítettek belőle talizmánt, hogy a karavánok biztosan célba érjenek. Nemcsak a Mediterráneumban becsülték nagyra ezt az alapanyagot, hanem Asszíria fővárosában, Assurban is, ahol az égi vas az adózandó termékek listáján szerepelt Jan Gerrit Dercksen, a Leideni Egyetem történésze szerint.\n\nA leghíresebb hasonló korú tárgy Tutanhamon tőre, amelynek alapanyaga egy Alexandriától 240 kilométerre becsapódott vasmeteoritból származik, és legalább 3300 éves. Victoria Almansa-Villatoro egyiptológus rámutatott, hogy a hettiták időszámításunk előtt 3000 és 2000 között már elkezdték használni a meteoritvasat a mai Törökország területén, sőt gyöngyöket és ékszereket is formáltak belőle. Az egyiptomiak saját hieroglifát is szenteltek az égből érkező fémnek, ami bizonyítja, hogy pontosan tisztában voltak a kövek égi eredetével.\n\nEz a fajta tudatosság nem korlátozódott a Közel-Keletre: Észak-Amerikában a hopi törzs tagjai szintén szentként tiszteltek egy felhőktől származó meteoritot. Az oregoni Clackamas törzs lakói a 14,5 tonnás, égi látogatónak is nevezett Willamette meteoritról tartották úgy, hogy a Holdról érkezett, míg Albertában a Cree és a Blackfoot törzsek ugyancsak ismerték és tisztelték egy 145 kilós vasmeteorit eredetét. Maria Golia amerikai írónő Meteorite: Nature and Culture című könyvében részletesen bemutatja, hogy ezek a közösségek a tudományos műszerek hiányában is pontosan tudták, honnan jöttek a csillagok kövei.\n\nAz ókori egyiptomiak világnézete szerint az égbolt egy hatalmas fémüst volt, a meteoritok pedig ennek a letört darabjai, ami logikus magyarázatot adott a jelenségre. Ez a gyakorlatias és egyben mitikus szemléletmód azonban később évszázadokra feledésbe merült. Az ilyen történetek és hiedelmek ma a geomitológia nevű tudományág alapját képezik, amely a földtörténeti eseményeket próbálja összekötni a fennmaradt mondákkal és emberi emlékekkel.",
+      "content_format": "markdown",
+      "body": [
+        "A minószi és mükénéi elithez tartozó sírokból előkerült, bronzkori leletek első ránézésre átlagosnak tűnnek: nem túl gazdagon díszítettek, méretüket tekintve pedig sem nem óriásiak, sem nem miniatürizáltak. A vizsgált 91 gyűrű közül 13 darab esetében a magas nikkeltartalom mutatta ki egyértelműen, hogy az alapanyaguk a világűrből származó meteorvas, míg további kilenc tárgynál ugyanez valószínűsíthető. Bár a meteoritok felhasználása szinte minden kontinensen ismert volt korábban is, ez az első alkalom, hogy a mai Görögország területén bronzkori meteorvastárgyakat azonosítottak.",
+        "A státuszszimbólumnak számító ékszerek alapanyaga a kutatók felmérései szerint Egyiptomból érkezhetett, a sivatagos területeken ugyanis jóval könnyebb volt meteoritot találni, mint a szigetvilágban. A kereskedelem révén terjedő fém szentnek számított ebben a korban: az egyiptomiak például tevéknek is készítettek belőle talizmánt, hogy a karavánok biztosan célba érjenek. Nemcsak a Mediterráneumban becsülték nagyra ezt az alapanyagot, hanem Asszíria fővárosában, Assurban is, ahol az égi vas az adózandó termékek listáján szerepelt Jan Gerrit Dercksen, a Leideni Egyetem történésze szerint.",
+        "A leghíresebb hasonló korú tárgy Tutanhamon tőre, amelynek alapanyaga egy Alexandriától 240 kilométerre becsapódott vasmeteoritból származik, és legalább 3300 éves. Victoria Almansa-Villatoro egyiptológus rámutatott, hogy a hettiták időszámításunk előtt 3000 és 2000 között már elkezdték használni a meteoritvasat a mai Törökország területén, sőt gyöngyöket és ékszereket is formáltak belőle. Az egyiptomiak saját hieroglifát is szenteltek az égből érkező fémnek, ami bizonyítja, hogy pontosan tisztában voltak a kövek égi eredetével.",
+        "Ez a fajta tudatosság nem korlátozódott a Közel-Keletre: Észak-Amerikában a hopi törzs tagjai szintén szentként tiszteltek egy felhőktől származó meteoritot. Az oregoni Clackamas törzs lakói a 14,5 tonnás, égi látogatónak is nevezett Willamette meteoritról tartották úgy, hogy a Holdról érkezett, míg Albertában a Cree és a Blackfoot törzsek ugyancsak ismerték és tisztelték egy 145 kilós vasmeteorit eredetét. Maria Golia amerikai írónő Meteorite: Nature and Culture című könyvében részletesen bemutatja, hogy ezek a közösségek a tudományos műszerek hiányában is pontosan tudták, honnan jöttek a csillagok kövei.",
+        "Az ókori egyiptomiak világnézete szerint az égbolt egy hatalmas fémüst volt, a meteoritok pedig ennek a letört darabjai, ami logikus magyarázatot adott a jelenségre. Ez a gyakorlatias és egyben mitikus szemléletmód azonban később évszázadokra feledésbe merült. Az ilyen történetek és hiedelmek ma a geomitológia nevű tudományág alapját képezik, amely a földtörténeti eseményeket próbálja összekötni a fennmaradt mondákkal és emberi emlékekkel."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 3,
+      "word_count": 412,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Iron_meteorite._Hammersley_Range%2C_Australia-8911.jpg/1280px-Iron_meteorite._Hammersley_Range%2C_Australia-8911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1072,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Iron meteorite with Widmanstätten pattern - Place of discovery: Hammersley Range, Australia",
+        "credit": "Raimond Spekking / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Iron_meteorite._Hammersley_Range,_Australia-8911.jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://qubit.hu/2026/10/04/a-dinoszauruszok-vegzete-mitoszok-forrasa-varazskardok-anyaga-a-csodalatos-meteorit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "A dinoszauruszok végzete, mítoszok forrása, varázskardok anyaga: a csodálatos meteorit",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T14:19:23+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.47,
+      "title_options": [
+        "Már az ókori görögök is égi vasból kovácsoltak gyűrűket",
+        "Húszevesen meteoritból készült ékszert hordtak a mükénéiek",
+        "Nem a modern tudomány fedezte fel az égi vasat",
+        "Döbbenetes lelet: bronzkori ékszereket találtak, amik a világűrből érkeztek",
+        "Honnan tudták évezredekkel ezelőtt, hogy a meteoritok az égből hullanak?",
+        "A tárgy, amiről senki sem hitte volna, hogy a csillagokból származik"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Iron_meteorite._Hammersley_Range%2C_Australia-8911.jpg/1280px-Iron_meteorite._Hammersley_Range%2C_Australia-8911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1072,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Iron meteorite with Widmanstätten pattern - Place of discovery: Hammersley Range, Australia",
+          "credit": "Raimond Spekking / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Iron_meteorite._Hammersley_Range,_Australia-8911.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Namibie_Hoba_Meteorite_05.JPG/1280px-Namibie_Hoba_Meteorite_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Namibia Meteorite Hoba\nPhotograph taken by: GIRAUD Patrick",
+          "credit": "No machine-readable author provided. Calips assumed (based on copyright claims). / Wikimedia Commons",
+          "license": "CC BY 2.5",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Namibie_Hoba_Meteorite_05.JPG",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://pixabay.com/get/g6c3c4fca7f214169fb0b43ce78d2edae1e8de30ab38f1fa5cef99dc1905a48002f0cb2412e72c77a38b3c04e934afa13_1280.jpg",
+          "width": 4000,
+          "height": 3000,
+          "kind": "photo",
+          "alt": "meteorite, stone, rock, iron meteorite, nickel iron meteorites, shooting star, cosmos, space, stone meteorite, meteorite, meteorite, meteorite, meteorite, meteorite",
+          "credit": "Hans / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/meteorite-stone-rock-iron-meteorite-91891/",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Ancient_Egyptian_jewelry_beads_and_amulet_Penn_Museum.jpg/1280px-Ancient_Egyptian_jewelry_beads_and_amulet_Penn_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Ancient Egyptian jewelry beads and amulet Penn Museum",
+          "credit": "Mary Harrsch / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Egyptian_jewelry_beads_and_amulet_Penn_Museum.jpg",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "A dinoszauruszok végzete, mítoszok forrása, varázskardok anyaga: a csodálatos meteorit",
+          "link": "https://qubit.hu/2026/10/04/a-dinoszauruszok-vegzete-mitoszok-forrasa-varazskardok-anyaga-a-csodalatos-meteorit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "summary": "Az ókori görögök már tudták, hogy honnan jönnek a meteoritok, a középkor viszont nem volt hajlandó tudomást venni róla, hiszen Isten nem hagyná, hogy kő- és vasdarabok kószáljanak az űrben.",
+          "source": "qubit.hu",
+          "related": null,
+          "hot_score": 5.47
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://qubit.hu/2026/10/04/a-dinoszauruszok-vegzete-mitoszok-forrasa-varazskardok-anyaga-a-csodalatos-meteorit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/tech/2026-10-04-mar-az-okori-gorogok-is-egi-vasbol-kovacsoltak-gyuruket/",
+      "seo": {
+        "meta_title": "Már az ókori görögök is égi vasból kovácsoltak gyűrűket",
+        "meta_description": "Egy idén augusztusban megjelent tanulmány szerint a mükénéi és minószi elit tagjai már a bronzkorban meteorvasból készült gyűrűket hordtak. A felfedezés arra ut",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-04-mar-az-okori-gorogok-is-egi-vasbol-kovacsoltak-gyuruket/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Iron_meteorite._Hammersley_Range%2C_Australia-8911.jpg/1280px-Iron_meteorite._Hammersley_Range%2C_Australia-8911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "90eb99e74d8ea6ca1ceb8f608d43eb26b22b42c2553da9720b387a7c02704144",
+      "pipeline_run_id": "37201451630",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T14:19:23+02:00",
+      "updated_at": "2026-10-04T14:19:23+02:00",
+      "published_at": "2026-10-04T14:19:23+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-04T12:20:25+00:00",
+        "msg_ids": [
+          2474,
+          2475,
+          2476,
+          2477,
+          2478
+        ],
+        "control_id": 2479
+      }
     }
   ]
 }
