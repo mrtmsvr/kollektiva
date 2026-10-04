@@ -11598,28 +11598,28 @@
           "vision_score": 8.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG/1280px-Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Tokaj_winemaker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 900,
+          "height": 1806,
           "kind": "photo",
-          "pos": "center",
-          "alt": "Erdőbénye, látkép",
-          "credit": "Zerind / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Erd%C5%91b%C3%A9nye,_l%C3%A1tk%C3%A9p.JPG",
-          "vision_score": 7.0
+          "pos": "top",
+          "alt": "Winemakers from Slovakian Tokaj use wine thief to extract wine from the barrel.",
+          "credit": "Igor.vizner / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Tokaj_winemaker.jpg",
+          "vision_score": 6.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Erd%C5%91b%C3%A9nye_-_panoramio.jpg/1280px-Erd%C5%91b%C3%A9nye_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Wine_Cellar_in_Slovakian_Tokaj.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 900,
+          "height": 796,
           "kind": "photo",
           "pos": "center",
-          "alt": "Erdőbénye",
-          "credit": "Róbert Antalóczi / Wikimedia Commons",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Erd%C5%91b%C3%A9nye_-_panoramio.jpg",
-          "vision_score": 5.0
+          "alt": "A wine cellar in the village of Vinicky, one of the seven classified Tokaj villages in Slovakia.",
+          "credit": "Igor.vizner / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Wine_Cellar_in_Slovakian_Tokaj.jpg",
+          "vision_score": 6.0
         }
       ],
       "story": [
@@ -11697,9 +11697,12 @@
           2133,
           2142,
           2143,
-          2144
+          2144,
+          2169,
+          2170,
+          2171
         ],
-        "control_id": 2145
+        "control_id": 2172
       },
       "image_queries": [
         "Erdőbénye",
@@ -11709,9 +11712,20 @@
         "fuel station",
         "closed petrol station",
         "rural road",
-        "small grocery store"
+        "small grocery store",
+        "Hungarian Parliament Building",
+        "Ministry of Finance Hungary",
+        "Tokaj wine region",
+        "Hungarian currency forint",
+        "cabinet meeting",
+        "economic chart",
+        "pension document"
       ],
-      "images_seen": [],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG/1280px-Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Magyar_Honv%C3%A9ds%C3%A9g%2C_%C5%91rtorony%2C_T%C3%A9glagy%C3%A1rd%C5%B1l%C5%91%2C_2018_K%C5%91b%C3%A1nya.jpg/1280px-Magyar_Honv%C3%A9ds%C3%A9g%2C_%C5%91rtorony%2C_T%C3%A9glagy%C3%A1rd%C5%B1l%C5%91%2C_2018_K%C5%91b%C3%A1nya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Erd%C5%91b%C3%A9nye_-_panoramio.jpg/1280px-Erd%C5%91b%C3%A9nye_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ],
       "live": true
     },
     {
