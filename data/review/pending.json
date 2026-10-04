@@ -11743,7 +11743,7 @@
       "published_at": "2026-10-04T11:03:04+02:00",
       "expires_at": null,
       "review": {
-        "title": 0,
+        "title": 1,
         "image": 0,
         "sent_at": "2026-10-04T08:09:55+00:00",
         "msg_ids": [
