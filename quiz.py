@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Kollektíva – A hét kvíze
+Kollektíva – Heti kvíz
 ========================
 
 Hetente egy 8 kérdéses hírkvíz a hét kint lévő cikkeiből (szombaton készül, 8 és 21 óra között).
