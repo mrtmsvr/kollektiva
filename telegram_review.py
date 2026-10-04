@@ -568,8 +568,22 @@ HELP = ("Parancsok (rövid / hosszú):\n"
         "/t /torles <link|cím> – leszedés\n"
         "/kn – kép nélküli cikkek képválasztásra\n"
         "/csatornak · /csatorna <YouTube-link> – videófigyelés\n"
-        "/l /lista · /szavazas · /keret\n"
+        "/l /lista · /szavazas (állás, létszám) · /keret\n"
         "Link vagy „téma: …” → cikk róla")
+
+
+def _poll_counts(p: dict) -> str:
+    """A szavazás állása az oldal API-jából (D1): létszám + opciónként szavazat és százalék."""
+    try:
+        req = urllib.request.Request(f"{kc.SITE_URL}/api/poll?id={p['id']}", headers={"User-Agent": "Mozilla/5.0 (KollektivaBot)"})
+        r = json.loads(urllib.request.urlopen(req, timeout=15).read().decode("utf-8"))
+    except Exception as e:  # noqa: BLE001
+        return f"(az állás most nem kérhető le: {e})"
+    t = r.get("total") or 0
+    counts = r.get("counts") or []
+    rows = [f"  {o}: {counts[i] if i < len(counts) else 0} ({round(100 * (counts[i] if i < len(counts) else 0) / t) if t else 0}%)"
+            for i, o in enumerate(p.get("options", []))]
+    return f"👥 {t} szavazat\n" + "\n".join(rows)
 
 
 def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -> int:
@@ -789,12 +803,16 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                         "Használat: /torles <link vagy címrészlet>" if not hits else
                         f"{len(hits)} cikk illik rá, pontosíts:\n" + "\n".join("• " + a["title"] for a in hits[:8]))})
             elif text.startswith("/szavazas") or text.startswith("/szavazás"):
-                pl = [x for x in kc.read_json(out_dir / "polls.json", {"polls": []}).get("polls", [])
-                      if (x.get("closes_at") or "") > datetime.now(tz).isoformat()]
+                allp = kc.read_json(out_dir / "polls.json", {"polls": []}).get("polls", [])
+                pl = [x for x in allp if (x.get("closes_at") or "") > datetime.now(tz).isoformat()]
                 if not pl:
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": "Nincs nyitott szavazás."})
+                old = [x for x in allp if x not in pl][:10]
+                if old:  # lezárult szavazások eredménye egy üzenetben (csak neked; az oldalon 200 alatt nem látszik a létszám)
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": "🗳 Lezárult szavazások:\n\n" + "\n\n".join(
+                        f"{x.get('date', '')} · {x['question']}\n{_poll_counts(x)}" for x in old)})
                 for x in pl[:5]:
-                    tg("sendMessage", {"chat_id": st["chat_id"], "text": f"🗳 {x['question']}\n({x.get('article_title', '')})",
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": f"🗳 {x['question']}\n({x.get('article_title', '')})\n{_poll_counts(x)}",
                                        "reply_markup": {"inline_keyboard": [[{"text": "🗑 Szavazás leszedése",
                                                                              "callback_data": f"pdel|{x['id']}"}]]}})
             elif re.match(r"(?i)/(l|lista)\b", text):
