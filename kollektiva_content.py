@@ -1515,7 +1515,7 @@ def _page(title: str, description: str, canonical: str, body: str, head_extra: s
 </main>
 <footer>© {datetime.now().year} {SITE_NAME}<br><a href="/">Főoldal</a>{NAV_LINKS}<a href="/feed.xml">RSS</a><br><a href="/info/#impresszum">Impresszum</a><a href="/info/#adatkezeles">Adatkezelés</a><a href="/info/#sutik">Sütik</a><a href="/info/#hirdetes">Hirdetés</a>{GPREF_FOOT}</footer>
 {NEW_TOAST_HTML}
-<script src="/poll-widget.js?v=7" defer></script>
+<script src="/poll-widget.js?v=8" defer></script>
 </body>
 </html>
 """
@@ -1850,7 +1850,7 @@ def build_polls_page(public: Path) -> None:
 
 
 QUIZ_BODY = """<article>
-<p class="kicker">A hét kvíze</p>
+<p class="kicker">Heti kvíz</p>
 <h1 id="qzT">Mennyire követted a hetet?</h1>
 <p id="qzS">Nyolc kérdés a hét híreiből. Válassz, és rögtön kiderül, eltaláltad-e – minden kérdés alatt ott a cikk is.</p>
 <div id="qz"><p>Betöltés…</p></div>
@@ -1872,7 +1872,7 @@ function done(){var n=z.questions.length,got=0,k=0;for(var i in ans){k++;if(ans[
 var v=got===n?'Hibátlan – te mindent tudsz a hétről.':got>=n*.75?'Nagyon jó, alig maradt le valami.':got>=n/2?'Nem rossz, de pár hír elkerülte a figyelmed.':'Ez a hét kicsit elszaladt melletted – a cikkek segítenek.';
 END.hidden=false;END.innerHTML='<b style="color:var(--brass);font-size:12px;letter-spacing:.12em;text-transform:uppercase">Eredményed</b><strong>'+got+' / '+n+'</strong><p>'+v+'</p><button type="button" id="qzSh">Megosztom</button>';
 document.getElementById('qzSh').onclick=function(){var t=got+'/'+n+' pontot értem el a Kollektíva heti hírkvízén. Neked mennyi lesz?',u=location.origin+'/kviz/?id='+z.id;
-if(navigator.share)navigator.share({title:'A hét kvíze – Kollektíva',text:t,url:u}).catch(function(){});else if(navigator.clipboard)navigator.clipboard.writeText(t+' '+u).then(function(){document.getElementById('qzSh').textContent='Link kimásolva ✓'})}}
+if(navigator.share)navigator.share({title:'Heti kvíz – Kollektíva',text:t,url:u}).catch(function(){});else if(navigator.clipboard)navigator.clipboard.writeText(t+' '+u).then(function(){document.getElementById('qzSh').textContent='Link kimásolva ✓'})}}
 for(var i in ans)if(z.questions[i])mark(+i,ans[i]);done();
 Q.addEventListener('click',function(e){var b=e.target.closest('button[data-j]');if(!b||b.disabled)return;var i=+b.closest('.qzq').dataset.i,j=+b.dataset.j;ans[i]=j;try{localStorage.setItem(K,JSON.stringify(ans))}catch(e){}mark(i,j);done()});
 var old=all.filter(function(x){return x.id!==z.id}).slice(0,12);if(old.length)document.getElementById('qzOld').innerHTML='<p class="kicker" style="margin-top:32px">Korábbi kvízek</p>'+old.map(function(x){return '<a href="/kviz/?id='+E(x.id)+'">'+E(x.week.replace('-W','/'))+'. hét</a>'}).join('')
@@ -1882,7 +1882,7 @@ var old=all.filter(function(x){return x.id!==z.id}).slice(0,12);if(old.length)do
 def build_quiz_page(public: Path) -> None:
     d = public / "kviz"
     d.mkdir(parents=True, exist_ok=True)
-    (d / "index.html").write_text(_page(f"A hét kvíze – {SITE_NAME}", "Heti hírkvíz: mennyire követted a hét híreit?",
+    (d / "index.html").write_text(_page(f"Heti kvíz – {SITE_NAME}", "Heti hírkvíz: mennyire követted a hét híreit?",
                                         f"{SITE_URL}/kviz/", QUIZ_BODY), encoding="utf-8")
 
 
@@ -2059,7 +2059,7 @@ NAV_LINKS = " ".join(f'<a href="/{sid}/">{html.escape(sec["name"])}</a>'
                      for sid, sec in [*ACTIVE_SECTIONS.items(), ("retro", RETRO_SECTION)])
 MENU_HTML = ('<b class="mh">Rovatok</b><div class="mg">' + NAV_LINKS + '</div><hr>'
              '<a href="/?kereses">Keresés</a><a href="/#hirlevel">Heti hírlevél</a><a href="/#horoszkop">Horoszkóp</a>'
-             '<a href="/kviz/">A hét kvíze</a><a href="/szavazasok/">Szavazások</a><a href="/?belepes=1">Fiókom, mentett cikkek</a>'
+             '<a href="/kviz/">Heti kvíz</a><a href="/szavazasok/">Szavazások</a><a href="/?belepes=1">Fiókom, mentett cikkek</a>'
              '<a href="/info/#rolunk">Rólunk</a><a href="/info/">Információ, impresszum</a>')
 SPONSORED = re.compile(r"PR-cikk|Támogatott|Szponzor|Hirdetés|Közlemény|partner", re.I)
 STOPWORDS = set("""a az és is egy hogy nem de már még meg el ki be le fel van volt lesz lett mint
@@ -2436,8 +2436,9 @@ def build_on_demand(ai: "AIClient", text: str, tz: ZoneInfo, articles: list) -> 
     yt = re.search(r"(?:youtube\.com/(?:watch\?v=|live/|shorts/)|youtu\.be/)([\w-]{11})", url or "")
     if yt:  # YouTube-videó: a videó tartalmából (Gemini nézi meg), beágyazott lejátszóval
         import videos
-        return videos.article_from_video(ai, {"id": yt.group(1), "title": text[:120], "url": f"https://www.youtube.com/watch?v={yt.group(1)}",
-                                              "author": "", "description": ""}, tz, articles)
+        # kérésre (linkként küldve) ugyanúgy megírja, mint egy cikklinkből – nem szűr hírértékre
+        return videos.article_from_video(ai, {"id": yt.group(1), "title": "", "url": f"https://www.youtube.com/watch?v={yt.group(1)}",
+                                              "author": "", "description": ""}, tz, articles, force=True)
     story = []
     if url:
         body = fetch_article_text(url, ai.cfg.http_timeout, 6000)
