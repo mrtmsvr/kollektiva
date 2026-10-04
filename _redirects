@@ -11,3 +11,7 @@
 /feed.xml /public/feed.xml 200
 /info/* /public/info/:splat 200
 /bulvar/* /public/bulvar/:splat 200
+/szavazasok/* /public/szavazasok/:splat 200
+/kviz/* /public/kviz/:splat 200
+/szavazasok /public/szavazasok/ 200
+/kviz /public/kviz/ 200
