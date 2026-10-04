@@ -1,796 +1,6 @@
 {
   "articles": [
     {
-      "id": "26d5ba58-79ef-57b7-bbf6-c06de344f292",
-      "slug": "2026-10-02-csaladi-agon-erkezik-az-uj-megasztar-versenyzo",
-      "status": "published",
-      "category": "bulvar",
-      "subcategory": null,
-      "tags": [
-        "Megasztár",
-        "TV2",
-        "Patai Anna",
-        "zene",
-        "bulvár"
-      ],
-      "title": "Családi ágon érkezik az új Megasztár-versenyző",
-      "subtitle": null,
-      "lead": "Tizenhat év telt el azóta, hogy Patai Annát megismerte az ország a Megasztárban, most pedig a nővére is szerencsét próbál a tehetségkutatóban. A Blikk beszámolója szerint a családi támogatás ezúttal sem marad el, hiszen a sógora kísérte el a válogatóra.",
-      "key_points": [
-        "Patai Anna nővére, a 32 éves Budainé Patai Katalin szerepel a Megasztár 9. évadában.",
-        "A versenyzőt a sógora, Budai Izmán bátorította a jelentkezésre.",
-        "Patai Anna 2010-ben, 11 évesen az 5. helyezést érte el a műsor 5. szériájában."
-      ],
-      "content": "## Meglepetés a tehetségkutatóban\n\nA 32 éves Budainé Patai Katalin szempillastylistként dolgozik a mindennapokban, de régóta vonzza az éneklés világa, bár eddig nem épített zenei karriert. A TV2 képernyőjén látható műsorba a 30 éves üzletvezető-helyettes sógora, Budai Izmán kísérte el Békésből, aki maga is zenél.\n\n– Előszeretettel buzdítom a környezetemben élőket arra, hogy eljöjjenek egy ilyen tehetségkutatóba. Őt is folyamatosan noszogattam, hogy „figyelj, tehetséges vagy, ezt nem kéne hagyni kárba veszni, igenis próbáld meg”. Aztán a fülénél fogva beültettem a kocsiba, így csöppentem mindebbe bele én is – mesélte Katalin a produkció műsorvezetőinek, Ördög Nórinak és Lékai-Kiss Ramónának.\n\n## A zenei múlt és a folytatás\n\nKatalin húga, Patai Anna 2010-ben, mindössze 11 évesen tűnt fel a Megasztár ötödik évadában, ahol ötödik helyezést ért el, valamint a legjobb női énekesként egy zenei ösztöndíjat is átvehetett. A tehetségkutató után több saját dala megjelent, 2016-ban szerepelt A Dal című műsorban, emellett olyan színházi produkciókban és musicalekben is játszott, mint a Mary Poppins, a Macskafogó, a Bőröndmesék vagy a Jégvarázs.\n\n– Én nem szoktam énekelni, én a konyhából jövök – nyilatkozta mosolyogva az idősebbik Patai lány, aki most konkrét céllal érkezett a TV2 stúdiójába. – Visszajelzést szeretnék kapni azzal kapcsolatban, van-e itt helyem, illetve ezen a pályán van-e keresnivalóm! – tette hozzá.",
-      "content_format": "markdown",
-      "body": [
-        "## Meglepetés a tehetségkutatóban",
-        "A 32 éves Budainé Patai Katalin szempillastylistként dolgozik a mindennapokban, de régóta vonzza az éneklés világa, bár eddig nem épített zenei karriert. A TV2 képernyőjén látható műsorba a 30 éves üzletvezető-helyettes sógora, Budai Izmán kísérte el Békésből, aki maga is zenél.",
-        "– Előszeretettel buzdítom a környezetemben élőket arra, hogy eljöjjenek egy ilyen tehetségkutatóba. Őt is folyamatosan noszogattam, hogy „figyelj, tehetséges vagy, ezt nem kéne hagyni kárba veszni, igenis próbáld meg”. Aztán a fülénél fogva beültettem a kocsiba, így csöppentem mindebbe bele én is – mesélte Katalin a produkció műsorvezetőinek, Ördög Nórinak és Lékai-Kiss Ramónának.",
-        "## A zenei múlt és a folytatás",
-        "Katalin húga, Patai Anna 2010-ben, mindössze 11 évesen tűnt fel a Megasztár ötödik évadában, ahol ötödik helyezést ért el, valamint a legjobb női énekesként egy zenei ösztöndíjat is átvehetett. A tehetségkutató után több saját dala megjelent, 2016-ban szerepelt A Dal című műsorban, emellett olyan színházi produkciókban és musicalekben is játszott, mint a Mary Poppins, a Macskafogó, a Bőröndmesék vagy a Jégvarázs.",
-        "– Én nem szoktam énekelni, én a konyhából jövök – nyilatkozta mosolyogva az idősebbik Patai lány, aki most konkrét céllal érkezett a TV2 stúdiójába. – Visszajelzést szeretnék kapni azzal kapcsolatban, van-e itt helyem, illetve ezen a pályán van-e keresnivalóm! – tette hozzá."
-      ],
-      "pull_quote": null,
-      "reading_time_min": 2,
-      "word_count": 246,
-      "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Megalog%C3%B3HU.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "width": 1200,
-        "height": 1025,
-        "kind": "photo",
-        "pos": "top",
-        "alt": "Megasztár logó",
-        "credit": "Megasztárfan / Wikimedia Commons",
-        "license": "CC0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Megalog%C3%B3HU.png"
-      },
-      "inline_images": [],
-      "sources": [
-        {
-          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/patai-anna-testver-megasztar-valogato/srwx148",
-          "title": "Váratlan fordulat a Megasztárban: Patai Anna után 16 évvel a nővére is megméretteti magát a tehetségkutatóban",
-          "publisher": "blikk.hu",
-          "license": null,
-          "accessed_at": "2026-10-02T06:03:56+02:00"
-        },
-        {
-          "url": "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/gaspar-laci-es-felesege-visszaultek-iskolapadba",
-          "title": "Gáspár Laci és felesége visszaültek az iskolapadba",
-          "publisher": "borsonline.hu",
-          "license": null,
-          "accessed_at": "2026-10-02T06:03:56+02:00"
-        }
-      ],
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v2",
-        "reviewed_by": null,
-        "reviewed_at": null
-      },
-      "hot_score": 6.61,
-      "title_options": [
-        "Családi ágon érkezik az új Megasztár-versenyző",
-        "Ismerős arc tér vissza a Megasztár színpadára",
-        "A sógoráért indult el a TV2 sikerműsorába"
-      ],
-      "image_options": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Megalog%C3%B3HU.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 1025,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Megasztár logó",
-          "credit": "Megasztárfan / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Megalog%C3%B3HU.png"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg/1280px-Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829388489672%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 751,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Tesvisio 1957-1965, the first television channel in Finland. Music show for juvenile audience under way. Presenter Antti Einiö on the left, music producer and composer Jaakko Salo in the middle. Finni",
-          "credit": "Yle Archives -  Yle Elävä arkisto from Yleisradio, Finland / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_(29388489672).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829462950066%29.jpg/1280px-Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_%2829462950066%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 906,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Tesvisio, 1957-1965, the first television channel in Finland. Music show for juvenile audience under way. Finnish Broadcasting Company bought Tamvisio in 1964 and Tesvisio in 1965 and together the cha",
-          "credit": "Yle Archives - Yle Elävä arkisto from Yleisradio, Finland / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Presenter_Antti_Eini%C3%B6_in_the_Tesvisio_studio_(29462950066).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Bird_singing_competition_-_Paramaribo_%2823102523433%29.jpg/1280px-Bird_singing_competition_-_Paramaribo_%2823102523433%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Bird singing competition - Paramaribo",
-          "credit": "Dan Sloan / Wikimedia Commons",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Bird_singing_competition_-_Paramaribo_(23102523433).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Bird_singing_competition_-_Paramaribo_%2823703596556%29.jpg/1280px-Bird_singing_competition_-_Paramaribo_%2823703596556%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Bird singing competition - Paramaribo",
-          "credit": "Dan Sloan / Wikimedia Commons",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Bird_singing_competition_-_Paramaribo_(23703596556).jpg"
-        },
-        {
-          "url": "https://live.staticflickr.com/2172/2053816509_d19673f307_b.jpg",
-          "width": 1024,
-          "height": 768,
-          "kind": "photo",
-          "alt": "Arcade (Pantages) Theatre stage",
-          "credit": "laasB / flickr",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://www.flickr.com/photos/97807252@N00/2053816509"
-        },
-        {
-          "url": "https://live.staticflickr.com/4176/34540653542_7de72d04c4_b.jpg",
-          "width": 1024,
-          "height": 683,
-          "kind": "photo",
-          "alt": "Israel-05684 - Theatre Stage",
-          "credit": "archer10 (Dennis) / flickr",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://www.flickr.com/photos/22490717@N02/34540653542"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Main_stage_in_Nowy_Theatre_in_Zabrze%2C_June_2021.jpg/1280px-Main_stage_in_Nowy_Theatre_in_Zabrze%2C_June_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Main stage in Nowy Theatre in Zabrze, June 2021",
-          "credit": "MichalPL / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Main_stage_in_Nowy_Theatre_in_Zabrze,_June_2021.jpg"
-        }
-      ],
-      "story": [
-        {
-          "title": "Váratlan fordulat a Megasztárban: Patai Anna után 16 évvel a nővére is megméretteti magát a tehetségkutatóban",
-          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/patai-anna-testver-megasztar-valogato/srwx148",
-          "summary": "Patai Annát egy ország ismerte és szerette meg a Megasztár 5. évadából. Most, a tehetségkutató 9. évadában Anna nővére is szerencsét próbál, hátha sikerül a húga nyomdokaiba lépnie. Erősítésként magával hozza a sógorát is, aki „szintén zenész”.",
-          "source": "blikk.hu",
-          "related": null,
-          "hot_score": 6.61
-        },
-        {
-          "title": "Gáspár Laci és felesége visszaültek az iskolapadba",
-          "link": "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/gaspar-laci-es-felesege-visszaultek-iskolapadba",
-          "summary": "A zenész és párja most továbbképzi magát.",
-          "source": "borsonline.hu",
-          "related": true,
-          "hot_score": null
-        }
-      ],
-      "category_meta": {
-        "source_links": [
-          "https://www.blikk.hu/sztarvilag/hazai-sztarok/patai-anna-testver-megasztar-valogato/srwx148"
-        ]
-      },
-      "date": "2026-10-02",
-      "date_label": "október 2.",
-      "url": "/bulvar/2026-10-02-csaladi-agon-erkezik-az-uj-megasztar-versenyzo/",
-      "seo": {
-        "meta_title": "Családi ágon érkezik az új Megasztár-versenyző",
-        "meta_description": "Tizenhat év telt el azóta, hogy Patai Annát megismerte az ország a Megasztárban, most pedig a nővére is szerencsét próbál a tehetségkutatóban. A Blikk beszámoló",
-        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-02-csaladi-agon-erkezik-az-uj-megasztar-versenyzo/",
-        "og_image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Megalog%C3%B3HU.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [],
-      "see_also": [],
-      "thread_id": null,
-      "dedupe_hash": "a35bfe21efba710d7f5e5ced4e9451db96e9316a287acedb65f293070b4c9f15",
-      "pipeline_run_id": "36962872003",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T06:42:04+02:00",
-      "updated_at": "2026-10-02T06:42:04+02:00",
-      "published_at": "2026-10-02T06:42:04+02:00",
-      "expires_at": null,
-      "review": {
-        "title": 1,
-        "image": 0,
-        "sent_at": "2026-10-02T04:06:02+00:00",
-        "msg_ids": [
-          1003,
-          1004,
-          1005,
-          1006,
-          1007,
-          1008,
-          1009,
-          1010,
-          1011,
-          1012
-        ],
-        "control_id": 1013
-      },
-      "live": true
-    },
-    {
-      "id": "0b0e5816-77aa-56fe-809f-7f33a825be0c",
-      "slug": "2026-10-02-120-ezer-forintra-emelik-a-minimalnyugdijat",
-      "status": "published",
-      "category": "penzvilag",
-      "subcategory": null,
-      "tags": [
-        "nyugdíjemelés",
-        "költségvetés",
-        "szociális ellátások",
-        "inflációkövetés",
-        "gazdaság"
-      ],
-      "title": "120 ezer forintra emelik a minimálnyugdíjat",
-      "subtitle": null,
-      "lead": "Több mint 700 ezer embert érintő, a jövő évi költségvetésből 123 milliárd forintot igénylő nyugdíj- és ellátásemelési programot jelentett be Kármán András. A csomag részeként 2027. január 1-jétől jelentősen emelkedik a régóta változatlan öregségi nyugdíjminimum.",
-      "key_points": [
-        "A 2008 óta változatlan, 28 500 forintos öregségi nyugdíjminimum 120 ezer forintra nő 2027-től.",
-        "Az intézkedéscsomag több mint 700 ezer ember helyzetén javít a jövő évi költségvetés terhére.",
-        "A sávos emelések és az új árvaellátási szabályok a legkiszolgáltatottabb csoportokat segítik.",
-        "A jogszabály garantálja az inflációkövetést, megakadályozva a jövőbeli elértéktelenedést."
-      ],
-      "content": "Jelentős változások jönnek a magyar szociális ellátórendszerben, miután részleteket hoztak nyilvánosságra egy több mint 700 ezer embert érintő nyugdíj- és ellátásemelési programról. A jövő évi költségvetésből 123 milliárd forintot igénylő intézkedéscsomag legfontosabb eleme, hogy a 2008 óta változatlan, 28 500 forintos öregségi nyugdíjminimumot 2027. január 1-jétől 120 ezer forintra emelik.\n\nA minimálnyugdíj jelentős emelése mellett a sávos növelések és a kapcsolódó járadékok is a legkiszolgáltatottabb csoportok helyzetét hivatottak javítani. Az új szabályozás ráadásul biztosítja az inflációkövetést is, ami megakadályozza, hogy az eddigiekhez hasonló elértéktelenedés forduljon elő a jövőben. A csomag részeként újdonságként módosítják az árvaellátás összegét, valamint az időskorúak ellátását is.\n\nKözben a gazdaság és a politika más területein is fontos átrendeződések zajlanak: a Honvédelmi Minisztérium a szolnoki különleges erők laktanyájának felújítása során végrehajtott racionalizálással 2,5 milliárd forintot takarított meg azzal, hogy egy korábbi nagyvállalati tender helyett helyi kis- és középvállalkozásokat vont be a kivitelezésbe.",
-      "content_format": "markdown",
-      "body": [
-        "Jelentős változások jönnek a magyar szociális ellátórendszerben, miután részleteket hoztak nyilvánosságra egy több mint 700 ezer embert érintő nyugdíj- és ellátásemelési programról. A jövő évi költségvetésből 123 milliárd forintot igénylő intézkedéscsomag legfontosabb eleme, hogy a 2008 óta változatlan, 28 500 forintos öregségi nyugdíjminimumot 2027. január 1-jétől 120 ezer forintra emelik.",
-        "A minimálnyugdíj jelentős emelése mellett a sávos növelések és a kapcsolódó járadékok is a legkiszolgáltatottabb csoportok helyzetét hivatottak javítani. Az új szabályozás ráadásul biztosítja az inflációkövetést is, ami megakadályozza, hogy az eddigiekhez hasonló elértéktelenedés forduljon elő a jövőben. A csomag részeként újdonságként módosítják az árvaellátás összegét, valamint az időskorúak ellátását is.",
-        "Közben a gazdaság és a politika más területein is fontos átrendeződések zajlanak: a Honvédelmi Minisztérium a szolnoki különleges erők laktanyájának felújítása során végrehajtott racionalizálással 2,5 milliárd forintot takarított meg azzal, hogy egy korábbi nagyvállalati tender helyett helyi kis- és középvállalkozásokat vont be a kivitelezésbe."
-      ],
-      "pull_quote": null,
-      "reading_time_min": 1,
-      "word_count": 183,
-      "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 1024,
-        "kind": "photo",
-        "pos": "top",
-        "alt": "Ministry of Finance (Hungary)",
-        "credit": "Elekes Andor / Wikimedia Commons",
-        "license": "CC BY 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary).jpg"
-      },
-      "inline_images": [],
-      "sources": [
-        {
-          "url": "https://www.portfolio.hu/gazdasag/20261001/tisza-kormany-ujra-egy-asztalhoz-ult-magyar-peter-es-karacsony-gergely-hanko-balazst-letartoztattak-kosa-lajost-beideztek-866504",
-          "title": "Tisza-kormány: újra egy asztalhoz ült Magyar Péter és Karácsony Gergely - Hankó Balázst letartóztatták, Kósa Lajost beidézték",
-          "publisher": "portfolio.hu",
-          "license": null,
-          "accessed_at": "2026-10-02T06:06:52+02:00"
-        }
-      ],
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v2",
-        "reviewed_by": null,
-        "reviewed_at": null
-      },
-      "hot_score": 6.0,
-      "title_options": [
-        "120 ezer forintra emelik a minimálnyugdíjat",
-        "Jelentős nyugdíjemelést jelentett be a kormány",
-        "Így változnak a szociális juttatások 2027-től"
-      ],
-      "image_options": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1024,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Ministry of Finance (Hungary)",
-          "credit": "Elekes Andor / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Ministry_of_Finance_%28Hungary%29_%2810%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Ministry of Finance (Hungary)",
-          "credit": "Elekes Andor / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary)_(10).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Ministry_of_Finance_%28Hungary%29_%283%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1018,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Ministry of Finance (Hungary)",
-          "credit": "Elekes Andor / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary)_(3).jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Andr%C3%A1s_K%C3%A1rm%C3%A1n_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 1600,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "András Kármán",
-          "credit": "Whaka / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Andr%C3%A1s_K%C3%A1rm%C3%A1n_(cropped).jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Karmanandras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 799,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Kármán András",
-          "credit": "Whaka / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Karmanandras.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/100_Forint_Comemmorative_Army_Front.jpg/1280px-100_Forint_Comemmorative_Army_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "The forint was released on 2023 May 22 as a comemmoration of the Hungarian Army.",
-          "credit": "ByRussia45 / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:100_Forint_Comemmorative_Army_Front.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/50_Forint_Comemmorative_Ambulance_Front.jpg/1280px-50_Forint_Comemmorative_Ambulance_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "The coin was released on 2023 May 9 as a comemmoration of the establishment of the Hungarian Ambulance Services.",
-          "credit": "ByRussia45 / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:50_Forint_Comemmorative_Ambulance_Front.jpg"
-        },
-        {
-          "url": "https://live.staticflickr.com/4135/4798548219_ae88903d41_b.jpg",
-          "width": 1024,
-          "height": 683,
-          "kind": "photo",
-          "alt": "",
-          "credit": "eflon / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/23094783@N03/4798548219"
-        },
-        {
-          "url": "https://live.staticflickr.com/7116/7477302038_f0cb3cd6ca_b.jpg",
-          "width": 1024,
-          "height": 768,
-          "kind": "photo",
-          "alt": "The Three Amigos",
-          "credit": "Public Places / flickr",
-          "license": "CC BY 2.0",
-          "source_url": "https://www.flickr.com/photos/78019868@N05/7477302038"
-        }
-      ],
-      "story": [
-        {
-          "title": "Tisza-kormány: újra egy asztalhoz ült Magyar Péter és Karácsony Gergely - Hankó Balázst letartóztatták, Kósa Lajost beidézték",
-          "link": "https://www.portfolio.hu/gazdasag/20261001/tisza-kormany-ujra-egy-asztalhoz-ult-magyar-peter-es-karacsony-gergely-hanko-balazst-letartoztattak-kosa-lajost-beideztek-866504",
-          "summary": "Fontos megállapodások születtek Magyar Péter a kormány és Budapest vezetésének mai egyeztetésén, amelyet külön hírfolyamban is követünk a Portfolio-n. A hosszú szünet után újrainduló Fővárosi Közfejlesztések Tanácsa kibővített jogkörökkel próbál keretet adni az együttműködésnek, de csütörtökön több korábban bejelentett szervezeti változás is hatályba lép. Közben Hankó Balázs volt kulturális minisztert előzetesen egy hónapra fogságra ítélték, Bánki Eriket és Kósa Lajost pedig a Parlament vizsgálóbizottsága idézte be. Jelentős, több mint 700 ezer embert érintő nyugdíj- és ellátásemelési programo",
-          "source": "portfolio.hu",
-          "related": null,
-          "hot_score": 6.0
-        }
-      ],
-      "category_meta": {
-        "source_links": [
-          "https://www.portfolio.hu/gazdasag/20261001/tisza-kormany-ujra-egy-asztalhoz-ult-magyar-peter-es-karacsony-gergely-hanko-balazst-letartoztattak-kosa-lajost-beideztek-866504"
-        ]
-      },
-      "date": "2026-10-02",
-      "date_label": "október 2.",
-      "url": "/penzvilag/2026-10-02-120-ezer-forintra-emelik-a-minimalnyugdijat/",
-      "seo": {
-        "meta_title": "120 ezer forintra emelik a minimálnyugdíjat",
-        "meta_description": "Több mint 700 ezer embert érintő, a jövő évi költségvetésből 123 milliárd forintot igénylő nyugdíj- és ellátásemelési programot jelentett be Kármán András. A cs",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-02-120-ezer-forintra-emelik-a-minimalnyugdijat/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [
-        "49a1742d-6794-5749-87f0-3131bc9920fb",
-        "b280525b-357b-5d8f-a16f-06f381b33c93",
-        "94c60679-ed80-5134-905b-10b867edbc52"
-      ],
-      "see_also": [
-        {
-          "title": "Megállapodás született: pénzt kap a főváros",
-          "url": "/penzvilag/2026-10-01-megallapodas-szuletett-penzt-kap-a-fovaros/",
-          "date": "2026-10-01"
-        },
-        {
-          "title": "Végre megmentik a budapesti Planetáriumot?",
-          "url": "/kozelet/2026-10-01-vegre-megmentik-a-budapesti-planetariumot/",
-          "date": "2026-10-01"
-        },
-        {
-          "title": "Így telt Orbán Viktor londoni útja a letartóztatások árnyékában",
-          "url": "/kozelet/2026-09-30-igy-telt-orban-viktor-londoni-utja-a-letartoztatasok-arnyekaban/",
-          "date": "2026-09-30"
-        }
-      ],
-      "thread_id": "49a1742d-6794-5749-87f0-3131bc9920fb",
-      "dedupe_hash": "23f043c1632f39abaca32651c0297f4d25426f3b7b6b38f2120f3ac8ebd5e342",
-      "pipeline_run_id": "36962872003",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T06:42:04+02:00",
-      "updated_at": "2026-10-02T06:42:04+02:00",
-      "published_at": "2026-10-02T06:42:04+02:00",
-      "expires_at": null,
-      "review": {
-        "title": 1,
-        "image": 8,
-        "sent_at": "2026-10-02T04:07:18+00:00",
-        "msg_ids": [
-          1014,
-          1015,
-          1016,
-          1017,
-          1018,
-          1019,
-          1020,
-          1021,
-          1022,
-          1061,
-          1062,
-          1063,
-          1064,
-          1065,
-          1066,
-          1067,
-          1068,
-          1069
-        ],
-        "control_id": 1070
-      },
-      "live": true,
-      "image_queries": [
-        "Hungarian Parliament Building",
-        "Ministry of Finance Hungary",
-        "Kármán András",
-        "Hungarian forint",
-        "elderly people resting",
-        "senior citizen counting money",
-        "pensioner portrait"
-      ],
-      "images_seen": [
-        "https://live.staticflickr.com/5016/5474761220_345e33882e_b.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/17/World%27s_First_Computer%2C_the_Electronic_Numerical_Integrator_and_Calculator_%28ENIAC%29.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://live.staticflickr.com/5132/5474825330_4470fa5928_b.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Ministry_of_Finance_%28Hungary%29_%289%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
-    },
-    {
-      "id": "46e17fc6-8aae-5ec2-9695-695a7e933497",
-      "slug": "2026-10-02-igy-kolt-el-1-4-milliard-dollart-a-nasa",
-      "status": "published",
-      "category": "univerzum",
-      "subcategory": null,
-      "tags": [
-        "NASA",
-        "űrkutatás",
-        "logisztika",
-        "pénzügyek"
-      ],
-      "title": "Így költ el 1,4 milliárd dollárt a NASA",
-      "subtitle": null,
-      "lead": "Tizenhat céggel kötött új, átfogó logisztikai megállapodást a NASA, hogy hatékonyabban kezelje erőforrásait és eszközeit. Az 1,4 milliárd dolláros keretösszegű program egységesíti a beszerzéseket és a szállítási műveleteket.",
-      "key_points": [
-        "A NASA 16 céggel szerződött le az Enterprise Logistics Support Services keretén belül.",
-        "A program teljes keretösszege 1,4 milliárd dollárra rúg.",
-        "Az új megállapodások célja a költségek és az erőforrások hatékonyabb menedzselése."
-      ],
-      "content": "Új alapokra helyezi háttérműveleteit az amerikai űrügynökség, miután tizenhat különböző vállalkozással írt alá átfogó beszerzési megállapodásokat. Ez a pénzügyi és szervezeti hálózat olyan, mint amikor egy hatalmas multinacionális vállalat egyetlen kézbe vonja az összes gyárának logisztikáját, szállítmányozását és alkatrész-ellátását ahelyett, hogy minden telephely külön-külön szerződne.\n\nAz Enterprise Logistics Support Services névre hallgató keretrendszer pontosan a belső működés racionalizálását célozza. A nasa.gov által közzétett adatok alapján a program átfogja a berendezések és ingatlanok kezelését, a terméktámogatást, a repülési hardverek fenntartását, valamint az exportkontrollt és a költözési műveleteket is.\n\nAz 1,4 milliárd dolláros keretösszegű megállapodások legfőbb feladata, hogy egységesítsék a követelményeket és javítsák a jelentéstételi rendszereket. A jövőben ezeknek a háttérfolyamatoknak köszönhetően pontosabban és átláthatóbban követhetők majd az űrmissziókhoz kapcsolódó költségek, valamint az eszközök karbantartási feladatai.",
-      "content_format": "markdown",
-      "body": [
-        "Új alapokra helyezi háttérműveleteit az amerikai űrügynökség, miután tizenhat különböző vállalkozással írt alá átfogó beszerzési megállapodásokat. Ez a pénzügyi és szervezeti hálózat olyan, mint amikor egy hatalmas multinacionális vállalat egyetlen kézbe vonja az összes gyárának logisztikáját, szállítmányozását és alkatrész-ellátását ahelyett, hogy minden telephely külön-külön szerződne.",
-        "Az Enterprise Logistics Support Services névre hallgató keretrendszer pontosan a belső működés racionalizálását célozza. A nasa.gov által közzétett adatok alapján a program átfogja a berendezések és ingatlanok kezelését, a terméktámogatást, a repülési hardverek fenntartását, valamint az exportkontrollt és a költözési műveleteket is.",
-        "Az 1,4 milliárd dolláros keretösszegű megállapodások legfőbb feladata, hogy egységesítsék a követelményeket és javítsák a jelentéstételi rendszereket. A jövőben ezeknek a háttérfolyamatoknak köszönhetően pontosabban és átláthatóbban követhetők majd az űrmissziókhoz kapcsolódó költségek, valamint az eszközök karbantartási feladatai."
-      ],
-      "pull_quote": null,
-      "reading_time_min": 1,
-      "word_count": 157,
-      "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/NASA_Headquarters.jpg/1280px-NASA_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 900,
-        "kind": "photo",
-        "pos": "center",
-        "alt": "Mary W. Jackson NASA Headquarters in 2026",
-        "credit": "DCAllStar / Wikimedia Commons",
-        "license": "CC0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:NASA_Headquarters.jpg"
-      },
-      "inline_images": [],
-      "sources": [
-        {
-          "url": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
-          "title": "NASA Awards Enterprise Logistics Support Services Agreements",
-          "publisher": "nasa.gov",
-          "license": null,
-          "accessed_at": "2026-10-02T06:07:35+02:00"
-        }
-      ],
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v2",
-        "reviewed_by": null,
-        "reviewed_at": null
-      },
-      "hot_score": 6.0,
-      "title_options": [
-        "Így költ el 1,4 milliárd dollárt a NASA",
-        "Új logisztikai szerződéseket kötött a NASA",
-        "Komoly átalakításba kezdett az űrhivatal"
-      ],
-      "image_options": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/NASA_Headquarters.jpg/1280px-NASA_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Mary W. Jackson NASA Headquarters in 2026",
-          "credit": "DCAllStar / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_Headquarters.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/A_C-2A_Greyhound%2C_from_Fleet_Logistics_Support_Squadron_Four_Zero_%28VRC-40%29_makes_a_landing_onboard_the_nuclear_powered_aircraft_carrier_USS_ENTERPRISE_%28CVN_65%29_-_DPLA_-_61240813b308489436c54f397547ab30.jpeg/1280px-thumbnail.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 784,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "The original finding aid described this photograph as: Base: Uss Enterprise (CVN 65) Scene Camera Operator: Nicholas H. Griseto, USN Release Status: Released to Public",
-          "credit": "Department of Defense. American Forces Information Service. Defense Visual Infor / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:A_C-2A_Greyhound,_from_Fleet_Logistics_Support_Squadron_Four_Zero_(VRC-40)_makes_a_landing_onboard_the_nuclear_powered_aircraft_carrier_USS_ENTERPRISE_(CVN_65)_-_DPLA_-_61240813b308489436c54f397547ab30.jpeg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250003%29.jpg/1280px-Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250003%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 769,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "The Mary W. Jackson NASA Headquarters sign is installed ahead of the building naming ceremony, Thursday, Feb. 25, 2021, at NASA Headquarters in Washington, DC. Mary W. Jackson, the first African Ameri",
-          "credit": "NASA Headquarters / NASA/Joel Kowsky / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Mary_W_Jackson_NASA_Headquarters_Sign_Installation_(NHQ202102250003).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250002%29.jpg/1280px-Mary_W_Jackson_NASA_Headquarters_Sign_Installation_%28NHQ202102250002%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 758,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "The Mary W. Jackson NASA Headquarters sign is installed ahead of the building naming ceremony, Thursday, Feb. 25, 2021, at NASA Headquarters in Washington, DC. Mary W. Jackson, the first African Ameri",
-          "credit": "NASA Headquarters / NASA/Joel Kowsky / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Mary_W_Jackson_NASA_Headquarters_Sign_Installation_(NHQ202102250002).jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Kennedy_Space_Center_30.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Shuttle Atlantis on Launch pad 39A in background with 3 days until its final launch set for this Firday at 11:26 am EDT",
-          "credit": "Gillfoto / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Kennedy_Space_Center_30.JPG"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/NASA%27s_modified_747_Shuttle_Carrier_Aircraft_is_positioned_under_the_Space_Shuttle_Discovery_to_be_attached_for_their_ferry_flight_to_the_Kennedy_Space_Center_%28ED05-0166-30%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 793,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "NASA's specially modified 747 Shuttle Carrier Aircraft, or SCA, is positioned under the Space Shuttle Discovery to be attached for their ferry flight to the Kennedy Space Center in Florida. After its",
-          "credit": "NASA Armstrong Flight Research Center / NASA/Carla Thomas / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:NASA%27s_modified_747_Shuttle_Carrier_Aircraft_is_positioned_under_the_Space_Shuttle_Discovery_to_be_attached_for_their_ferry_flight_to_the_Kennedy_Space_Center_(ED05-0166-30).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/30_YEAR_SERVICE_PRESENTATION_TO_WILLIAM_MALA_BY_ROBERT_MCKENZIE_REGIONAL_DIRECTOR_FOR_AUDIT_EASTERN_REGION_-_NASA_OFFICE_OF_INSPECTOR_GENERAL_-_NARA_-_17476530.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 944,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Scope and content:  The original finding aid described this as:\nCapture Date: 1/30/1980\nPhotographer: DANIEL LAITY\n\nKeywords: Larsen Scan",
-          "credit": "Unknown authorUnknown author or not provided / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:30_YEAR_SERVICE_PRESENTATION_TO_WILLIAM_MALA_BY_ROBERT_MCKENZIE_REGIONAL_DIRECTOR_FOR_AUDIT_EASTERN_REGION_-_NASA_OFFICE_OF_INSPECTOR_GENERAL_-_NARA_-_17476530.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/30_YEAR_SERVICE_PRESENTATION_TO_WILLIAM_MALA_BY_ROBERT_MCKENZIE_REGIONAL_DIRECTOR_FOR_AUDIT_EASTERN_REGION_-_NASA_OFFICE_OF_INSPECTOR_GENERAL_-_NARA_-_17476529.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 922,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Scope and content:  The original finding aid described this as:\nCapture Date: 1/30/1980\nPhotographer: DANIEL LAITY\n\nKeywords: Larsen Scan",
-          "credit": "Unknown authorUnknown author or not provided / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:30_YEAR_SERVICE_PRESENTATION_TO_WILLIAM_MALA_BY_ROBERT_MCKENZIE_REGIONAL_DIRECTOR_FOR_AUDIT_EASTERN_REGION_-_NASA_OFFICE_OF_INSPECTOR_GENERAL_-_NARA_-_17476529.jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Pantos_Logistics_-_Warehouse_picture.jpg",
-          "width": 1200,
-          "height": 791,
-          "kind": "photo",
-          "alt": "Pantos Logistics - Warehouse picture",
-          "credit": "Romlogistics / wikimedia",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/w/index.php?curid=17284443"
-        }
-      ],
-      "story": [
-        {
-          "title": "NASA Awards Enterprise Logistics Support Services Agreements",
-          "link": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
-          "summary": "NASA selected 16 companies to provide Enterprise Logistics Support Services under new agreements that will standardize requirements, improve reporting, and streamline the management of costs and resources. The $1.4 billion blanket purchase agreements will support equipment and property management, transportation, disposal, product support, flight hardware support operations, equipment maintenance and repair, export control, move operations, […]",
-          "source": "nasa.gov",
-          "related": null,
-          "hot_score": 6.0
-        }
-      ],
-      "category_meta": {
-        "source_links": [
-          "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/"
-        ]
-      },
-      "date": "2026-10-02",
-      "date_label": "október 2.",
-      "url": "/univerzum/2026-10-02-igy-kolt-el-1-4-milliard-dollart-a-nasa/",
-      "seo": {
-        "meta_title": "Így költ el 1,4 milliárd dollárt a NASA",
-        "meta_description": "Tizenhat céggel kötött új, átfogó logisztikai megállapodást a NASA, hogy hatékonyabban kezelje erőforrásait és eszközeit. Az 1,4 milliárd dolláros keretösszegű ",
-        "canonical_url": "https://xn--kollektva-m5a.hu/univerzum/2026-10-02-igy-kolt-el-1-4-milliard-dollart-a-nasa/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/NASA_Headquarters.jpg/1280px-NASA_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [],
-      "see_also": [],
-      "thread_id": null,
-      "dedupe_hash": "1610a9532065857699b163c33cd6890b43b8cb46e4a3c17764ec73a120a4a9e8",
-      "pipeline_run_id": "36962872003",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-02T06:42:05+02:00",
-      "updated_at": "2026-10-02T06:42:05+02:00",
-      "published_at": "2026-10-02T06:42:05+02:00",
-      "expires_at": null,
-      "review": {
-        "title": 0,
-        "image": 5,
-        "sent_at": "2026-10-02T04:08:00+00:00",
-        "msg_ids": [
-          1024,
-          1025,
-          1026,
-          1027,
-          1028,
-          1029,
-          1030,
-          1031,
-          1049,
-          1050,
-          1051,
-          1052,
-          1053,
-          1054,
-          1055,
-          1056,
-          1057,
-          1073,
-          1074,
-          1075,
-          1076,
-          1077,
-          1078,
-          1079,
-          1080,
-          1081
-        ],
-        "control_id": 1082
-      },
-      "live": true,
-      "image_queries": [
-        "NASA logo",
-        "NASA insignia",
-        "NASA headquarters",
-        "NASA logistics",
-        "space agency logistics",
-        "supply chain management",
-        "business contract signing",
-        "Enterprise Logistics Support Services",
-        "NASA headquarters building",
-        "Kennedy Space Center logistics",
-        "NASA administration office",
-        "aerospace supply chain",
-        "logistics warehouse",
-        "business contract",
-        "shipping containers"
-      ],
-      "images_seen": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/SES-10_Launch_-_world%27s_first_reflight_of_an_orbital_class_rocket_%2833361035200%29.jpg/1280px-SES-10_Launch_-_world%27s_first_reflight_of_an_orbital_class_rocket_%2833361035200%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Truman_and_Webb_at_NASA_Headquarters_-_GPN-2000-001546.jpg/1280px-Truman_and_Webb_at_NASA_Headquarters_-_GPN-2000-001546.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/STS-129_ExPRESS_Logistics_Carrier_8.jpg/1280px-STS-129_ExPRESS_Logistics_Carrier_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sunlon_Oriental_Food_Supply_Chain_Management_Corporation_%2820220707150045%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/CRS-9_mission_%2828348649546%29.jpg/1280px-CRS-9_mission_%2828348649546%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1280px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://live.staticflickr.com/5317/5911641067_60a17b161f_b.jpg",
-        "https://live.staticflickr.com/3766/11237052854_3f627c1855_b.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/STS-129_ExPRESS_Logistics_Carrier_9.jpg/1280px-STS-129_ExPRESS_Logistics_Carrier_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/NASA_HQ_Building_2.jpg/1280px-NASA_HQ_Building_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/NASA_Headquarters.jpg/1280px-NASA_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Defense_Logistics_Agency_Director_Army_Lt_%28240918-D-HE260-1026%29.jpg/1280px-Defense_Logistics_Agency_Director_Army_Lt_%28240918-D-HE260-1026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg"
-      ]
-    },
-    {
       "id": "d175dfc4-cc8d-5dec-9114-714cd54e2297",
       "slug": "2026-10-02-hogyan-gondolkodik-a-chatgpt",
       "status": "published",
@@ -11853,7 +11063,7 @@
     {
       "id": "cdb8250d-f4ab-5c50-b537-058c0608a228",
       "slug": "2026-10-04-fejszevel-tamadt-a-masodpilota-a-tel-avivba-tarto-gepen",
-      "status": "pending",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -12046,9 +11256,9 @@
       "dedupe_hash": "c98185ff66fe7f8d4e86120d7d64d27991e95d17822191f7f2b5e8d72787851d",
       "pipeline_run_id": "37176243937",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-04T06:11:11+02:00",
-      "updated_at": "2026-10-04T06:11:11+02:00",
-      "published_at": "2026-10-04T06:11:11+02:00",
+      "created_at": "2026-10-04T07:28:39+02:00",
+      "updated_at": "2026-10-04T07:28:39+02:00",
+      "published_at": "2026-10-04T07:28:39+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -12061,12 +11271,13 @@
           2123
         ],
         "control_id": 2124
-      }
+      },
+      "live": true
     },
     {
-      "id": "8bd4e4af-76fa-5567-aa96-90ddde24cb49",
-      "slug": "2026-10-04-brusszelnel-panaszkodik-a-fidesz-es-kdnp",
-      "status": "pending",
+      "id": "15d395b3-2275-5381-9be4-b2972b949827",
+      "slug": "2026-10-04-brusszelnek-panaszkodik-a-fidesz-es-a-kdnp",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -12076,7 +11287,7 @@
         "Európai Unió",
         "belpolitika"
       ],
-      "title": "Brüsszelnél panaszkodik a Fidesz és KDNP",
+      "title": "Brüsszelnek panaszkodik a Fidesz és a KDNP",
       "subtitle": null,
       "lead": "A Fidesz és a KDNP európai parlamenti képviselőcsoportja hivatalos levélben fordult az Európai Unió illetékes biztosához a Tisza-kormány lépései miatt. Magyar Péter miniszterelnök szombaton szánalmasnak és röhejesnek nevezte a brüsszeli megkeresést.",
       "key_points": [
@@ -12244,11 +11455,11 @@
       },
       "date": "2026-10-04",
       "date_label": "október 4.",
-      "url": "/kozelet/2026-10-04-brusszelnel-panaszkodik-a-fidesz-es-kdnp/",
+      "url": "/kozelet/2026-10-04-brusszelnek-panaszkodik-a-fidesz-es-a-kdnp/",
       "seo": {
-        "meta_title": "Brüsszelnél panaszkodik a Fidesz és KDNP",
+        "meta_title": "Brüsszelnek panaszkodik a Fidesz és a KDNP",
         "meta_description": "A Fidesz és a KDNP európai parlamenti képviselőcsoportja hivatalos levélben fordult az Európai Unió illetékes biztosához a Tisza-kormány lépései miatt. Magyar P",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-04-brusszelnel-panaszkodik-a-fidesz-es-kdnp/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-04-brusszelnek-panaszkodik-a-fidesz-es-a-kdnp/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg/1280px-Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -12266,9 +11477,9 @@
       "dedupe_hash": "c0e5c91cb0d9daafbe4411e402b4335c895e32f209682de05b4986fed1eaaff6",
       "pipeline_run_id": "37176243937",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-04T06:12:22+02:00",
-      "updated_at": "2026-10-04T06:12:22+02:00",
-      "published_at": "2026-10-04T06:12:22+02:00",
+      "created_at": "2026-10-04T07:28:40+02:00",
+      "updated_at": "2026-10-04T07:28:40+02:00",
+      "published_at": "2026-10-04T07:28:40+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
@@ -12282,13 +11493,15 @@
           2129,
           2130
         ],
-        "control_id": 2131
-      }
+        "control_id": 2131,
+        "custom_title": "Brüsszelnek panaszkodik a Fidesz és a KDNP"
+      },
+      "live": true
     },
     {
       "id": "c27145c9-72d1-527e-83b8-b2503870a5a9",
       "slug": "2026-10-04-bezart-benzinkut-mellett-targyal-az-orszag-sorsarol-a-kormany-erdoben",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -12319,7 +11532,18 @@
       "reading_time_min": 2,
       "word_count": 252,
       "locale": "hu-HU",
-      "hero_image": null,
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Magyar_Honv%C3%A9ds%C3%A9g%2C_%C5%91rtorony%2C_T%C3%A9glagy%C3%A1rd%C5%B1l%C5%91%2C_2018_K%C5%91b%C3%A1nya.jpg/1280px-Magyar_Honv%C3%A9ds%C3%A9g%2C_%C5%91rtorony%2C_T%C3%A9glagy%C3%A1rd%C5%B1l%C5%91%2C_2018_K%C5%91b%C3%A1nya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo",
+        "pos": "top",
+        "alt": ": Hungarian Defence Forces (HDF) Material Supply Warehouse Base, watch tower. Artúr Görgei Chemical Protection Information Center. - Jászberényi út, Téglavető street, Téglagyárdűlő neighborhood, 10th",
+        "credit": "Globetrotter19 / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Magyar_Honv%C3%A9ds%C3%A9g,_%C5%91rtorony,_T%C3%A9glagy%C3%A1rd%C5%B1l%C5%91,_2018_K%C5%91b%C3%A1nya.jpg",
+        "vision_score": 8.0
+      },
       "inline_images": [],
       "sources": [
         {
@@ -12360,7 +11584,44 @@
         "Itt dől el a következő hónapok sorsa: gyorstalpalót kapnak a vidéki valóságból a miniszterek"
       ],
       "clickbait_from": 3,
-      "image_options": [],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Magyar_Honv%C3%A9ds%C3%A9g%2C_%C5%91rtorony%2C_T%C3%A9glagy%C3%A1rd%C5%B1l%C5%91%2C_2018_K%C5%91b%C3%A1nya.jpg/1280px-Magyar_Honv%C3%A9ds%C3%A9g%2C_%C5%91rtorony%2C_T%C3%A9glagy%C3%A1rd%C5%B1l%C5%91%2C_2018_K%C5%91b%C3%A1nya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": ": Hungarian Defence Forces (HDF) Material Supply Warehouse Base, watch tower. Artúr Görgei Chemical Protection Information Center. - Jászberényi út, Téglavető street, Téglagyárdűlő neighborhood, 10th",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Magyar_Honv%C3%A9ds%C3%A9g,_%C5%91rtorony,_T%C3%A9glagy%C3%A1rd%C5%B1l%C5%91,_2018_K%C5%91b%C3%A1nya.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG/1280px-Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Erdőbénye, látkép",
+          "credit": "Zerind / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Erd%C5%91b%C3%A9nye,_l%C3%A1tk%C3%A9p.JPG",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Erd%C5%91b%C3%A9nye_-_panoramio.jpg/1280px-Erd%C5%91b%C3%A9nye_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Erdőbénye",
+          "credit": "Róbert Antalóczi / Wikimedia Commons",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Erd%C5%91b%C3%A9nye_-_panoramio.jpg",
+          "vision_score": 5.0
+        }
+      ],
       "story": [
         {
           "title": "Ez még gombócból is sok: árrésstop, költségvetés, aszály – „mindenről is” tárgyal a hétvégén a kormány Erdőbényén, miközben helyben már tankolni is nehéz",
@@ -12392,7 +11653,7 @@
         "meta_title": "Bezárt benzinkút mellett tárgyal az ország sorsáról a kormán",
         "meta_description": "Kétnapos, kihelyezett ülést tart a Magyar Honvédség erdőbényei központjában a kabinet, ahol a gazdasági reformok és a költségvetés mellett a helyben is érezhető",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-04-bezart-benzinkut-mellett-targyal-az-orszag-sorsarol-a-kormany-erdoben/",
-        "og_image": null,
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Magyar_Honv%C3%A9ds%C3%A9g%2C_%C5%91rtorony%2C_T%C3%A9glagy%C3%A1rd%C5%B1l%C5%91%2C_2018_K%C5%91b%C3%A1nya.jpg/1280px-Magyar_Honv%C3%A9ds%C3%A9g%2C_%C5%91rtorony%2C_T%C3%A9glagy%C3%A1rd%C5%B1l%C5%91%2C_2018_K%C5%91b%C3%A1nya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -12423,20 +11684,35 @@
       "dedupe_hash": "ceb9ad5f03ba64c3fac7e3d0748c9af89ab0fdf43ab4fb111f400384ea255e92",
       "pipeline_run_id": "37176243937",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-04T06:13:47+02:00",
-      "updated_at": "2026-10-04T06:13:47+02:00",
-      "published_at": "2026-10-04T06:13:47+02:00",
+      "created_at": "2026-10-04T07:28:41+02:00",
+      "updated_at": "2026-10-04T07:28:41+02:00",
+      "published_at": "2026-10-04T07:28:41+02:00",
       "expires_at": null,
       "review": {
         "title": 0,
-        "image": -1,
+        "image": 0,
         "sent_at": "2026-10-04T04:14:45+00:00",
         "msg_ids": [
           2132,
-          2133
+          2133,
+          2142,
+          2143,
+          2144
         ],
-        "control_id": 2134
-      }
+        "control_id": 2145
+      },
+      "image_queries": [
+        "Erdőbénye",
+        "Borsod-Abaúj-Zemplén",
+        "gas station",
+        "Hungarian Defence Forces",
+        "fuel station",
+        "closed petrol station",
+        "rural road",
+        "small grocery store"
+      ],
+      "images_seen": [],
+      "live": true
     },
     {
       "id": "c070bc13-59e8-5e0e-b2f3-ab1df9c0146e",
@@ -12559,6 +11835,189 @@
           2136
         ],
         "control_id": 2137
+      }
+    },
+    {
+      "id": "060a4471-c8bf-57d1-8be0-7a723d067476",
+      "slug": "2026-10-04-muholdak-valtjak-fel-a-tererot-a-magyar-egen",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "Starlink",
+        "4iG",
+        "SpaceX",
+        "mobilhálózat",
+        "műhold"
+      ],
+      "title": "Műholdak váltják fel a térerőt a magyar égen",
+      "subtitle": null,
+      "lead": "A 4iG Csoport és a SpaceX megállapodást kötött a Starlink Mobile regionális bevezetéséről, amely lehetővé teszi, hogy a mobiltelefonok bázisállomások nélkül, közvetlenül a műholdakkal kommunikáljanak.",
+      "key_points": [
+        "A Direct-to-Device technológia révén a mobilok közvetlenül a műholdakkal teremtnek kapcsolatot.",
+        "A szolgáltatáshoz nem kell speciális készülék, tányérantenna vagy új SIM-kártya.",
+        "Első körben az alapvető kommunikációt biztosítják, később pedig fejlettebb kapcsolat érkezhet."
+      ],
+      "content": "A mindennapi digitális élet eddig szorosan összefonódott a földi bázisállomások meglétével, egy hegyi túrán vagy ritkán lakott vidéken azonban a kapcsolat bármikor megszakadhatott. Ugyancsak veszélybe sodorhatja a hálózatokat egy-egy súlyosabb vihar, árvíz vagy erdőtűz, amely megrongálja a földfelszíni infrastruktúrát. Ezekre a helyzetekre nyújthat alternatívát a Starlink Mobile, amelynek regionális bevezetéséről a 4iG Csoport és a SpaceX kötött megállapodást.\n\nA Direct-to-Device, röviden D2D technológia lényege, hogy a mobiltelefon földi adótorony hiányában közvetlenül egy műholddal létesít kapcsolatot. Az otthoni műholdas internettel ellentétben itt nincs szükség külön tányérantennára, külső egységre vagy speciális terminálra, sőt új SIM-kártya sem kell a használatához a hagyományos, kompatibilis készülékek esetében.\n\nMíg a hagyományos telefonok néhány kilométeren belüli tornyokkal kommunikálnak, a Starlink műholdjai több száz kilométerrel a Föld felett, nagy sebességgel keringenek, így a rendszer lényegében mozgó bázisállomásokat helyez az űrbe. Ez a megoldás nemcsak a lakossági felhasználóknak kedvez egy elhagyatott úton vagy part menti vizeken, hanem a mentési munkálatokat és a kritikus infrastruktúrák működését is segíti katasztrófahelyzetben.\n\nA kültéri használatra tervezett első generáció fő feladata az alapvető üzenetküldés, az adatforgalom és az eseti hanghívás biztosítása ott, ahol más módon nincs térerő.\n\nA kereskedelmi induláshoz a feleknek még el kell végezniük a műszaki integrációt, a tesztelést, valamint be kell szerezniük a szükséges hatósági engedélyeket is.",
+      "content_format": "markdown",
+      "body": [
+        "A mindennapi digitális élet eddig szorosan összefonódott a földi bázisállomások meglétével, egy hegyi túrán vagy ritkán lakott vidéken azonban a kapcsolat bármikor megszakadhatott. Ugyancsak veszélybe sodorhatja a hálózatokat egy-egy súlyosabb vihar, árvíz vagy erdőtűz, amely megrongálja a földfelszíni infrastruktúrát. Ezekre a helyzetekre nyújthat alternatívát a Starlink Mobile, amelynek regionális bevezetéséről a 4iG Csoport és a SpaceX kötött megállapodást.",
+        "A Direct-to-Device, röviden D2D technológia lényege, hogy a mobiltelefon földi adótorony hiányában közvetlenül egy műholddal létesít kapcsolatot. Az otthoni műholdas internettel ellentétben itt nincs szükség külön tányérantennára, külső egységre vagy speciális terminálra, sőt új SIM-kártya sem kell a használatához a hagyományos, kompatibilis készülékek esetében.",
+        "Míg a hagyományos telefonok néhány kilométeren belüli tornyokkal kommunikálnak, a Starlink műholdjai több száz kilométerrel a Föld felett, nagy sebességgel keringenek, így a rendszer lényegében mozgó bázisállomásokat helyez az űrbe. Ez a megoldás nemcsak a lakossági felhasználóknak kedvez egy elhagyatott úton vagy part menti vizeken, hanem a mentési munkálatokat és a kritikus infrastruktúrák működését is segíti katasztrófahelyzetben.",
+        "A kültéri használatra tervezett első generáció fő feladata az alapvető üzenetküldés, az adatforgalom és az eseti hanghívás biztosítása ott, ahol más módon nincs térerő.",
+        "A kereskedelmi induláshoz a feleknek még el kell végezniük a műszaki integrációt, a tesztelést, valamint be kell szerezniük a szükséges hatósági engedélyeket is."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 235,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Starlink_01.webp/1280px-Starlink_01.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 600,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Starlink satellite",
+        "credit": "Wikideas1 / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Starlink_01.webp",
+        "vision_score": 9.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://24.hu/tech/2026/09/30/mobilhalozat-hijan-is-elerhetonek-maradni/?utm_source=facebook&utm_medium=cpc&utm_campaign=2026_Meta_24hu_Traffic_PR_5203&utm_content=0929_4ig-Starlink-PRcikk-40-het_PR&utm_id=6916332849036&utm_term=52584081884840",
+          "title": "Mobilhálózat nélkül is elérhetőnek maradni | 24.hu",
+          "publisher": "24.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T07:27:49+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5,
+      "title_options": [
+        "Műholdak váltják fel a térerőt a magyar égen",
+        "Eltűnhetnek a fehér foltok a mobilhálózaton",
+        "Közvetlenül a világűrből hívhatjuk majd a családot",
+        "Sohasem hittük volna, hogy a mobilunk egyszer közvetlenül a csillagokkal fog beszélgetni",
+        "Így szünteti meg a fekete foltokat a 4iG és a SpaceX",
+        "Elbúcsúzhatunk a térerőproblémáktól egy újszerű űreszköz révén"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Starlink_01.webp/1280px-Starlink_01.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 600,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Starlink satellite",
+          "credit": "Wikideas1 / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Starlink_01.webp",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Starlink_satellites_seen_from_Poland%2C_20241031_1751_2625.jpg/1280px-Starlink_satellites_seen_from_Poland%2C_20241031_1751_2625.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1803,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Starlink satellites seen from the vicinity of Ostrowiec Świętokrzyski in Poland",
+          "credit": "Jakub Hałun / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Starlink_satellites_seen_from_Poland,_20241031_1751_2625.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/SES-10_Launch_-_world%27s_first_reflight_of_an_orbital_class_rocket_%2833361035200%29.jpg/1280px-SES-10_Launch_-_world%27s_first_reflight_of_an_orbital_class_rocket_%2833361035200%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 794,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "SES-10 Launch by Falcon 9 Flight 32, world's first reflight of an orbital class rocket, from Pad 39A, Kennedy Space Center, Cape Canaveral, Florida.",
+          "credit": "SpaceX / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:SES-10_Launch_-_world%27s_first_reflight_of_an_orbital_class_rocket_(33361035200).jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Ares_I-X_launch_08.jpg/1280px-Ares_I-X_launch_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1804,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "CAPE CANAVERAL, Fla. - With more than 12 times the thrust produced by a Boeing 747 jet aircraft, the Constellation Program's Ares I-X test rocket roars off Launch Complex 39B at NASA's Kennedy Space C",
+          "credit": "NASA/Sandra Joseph and Kevin O'Connell / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ares_I-X_launch_08.jpg",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Mobilhálózat nélkül is elérhetőnek maradni | 24.hu",
+          "link": "https://24.hu/tech/2026/09/30/mobilhalozat-hijan-is-elerhetonek-maradni/?utm_source=facebook&utm_medium=cpc&utm_campaign=2026_Meta_24hu_Traffic_PR_5203&utm_content=0929_4ig-Starlink-PRcikk-40-het_PR&utm_id=6916332849036&utm_term=52584081884840",
+          "summary": "A mobiltelefon addig magától értetődő része a mindennapoknak, amíg van térerő. Egy hegyi túrán, ritkán lakott vidéken vagy a parttól távolabb azonban ma is könnyen megszakadhat a kapcsolat. Ugyanez megtörténhet olyan helyen is, ahol normál körülmények között jól működik a hálózat, ha egy vihar, árvíz vagy erdőtűz megrongálja a földi infrastruktúrát.\nEzekben a helyzetekben kínálhat új kapcsolódási lehetőséget a Starlink Mobile, amelynek regionális bevezetéséről a 4iG Csoport és a SpaceX kötött megállapodást. A Direct-to-Device, röviden D2D technológia lehetővé teszi, hogy a mobiltelefon földi b",
+          "source": "24.hu",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://24.hu/tech/2026/09/30/mobilhalozat-hijan-is-elerhetonek-maradni/?utm_source=facebook&utm_medium=cpc&utm_campaign=2026_Meta_24hu_Traffic_PR_5203&utm_content=0929_4ig-Starlink-PRcikk-40-het_PR&utm_id=6916332849036&utm_term=52584081884840"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/tech/2026-10-04-muholdak-valtjak-fel-a-tererot-a-magyar-egen/",
+      "seo": {
+        "meta_title": "Műholdak váltják fel a térerőt a magyar égen",
+        "meta_description": "A 4iG Csoport és a SpaceX megállapodást kötött a Starlink Mobile regionális bevezetéséről, amely lehetővé teszi, hogy a mobiltelefonok bázisállomások nélkül, kö",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-04-muholdak-valtjak-fel-a-tererot-a-magyar-egen/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Starlink_01.webp/1280px-Starlink_01.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "b3bff2f664cfdaddcd2138e50785cca8d3a8d01542b426a58564423c2f3f0f1e",
+      "pipeline_run_id": "37179894813",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T07:27:49+02:00",
+      "updated_at": "2026-10-04T07:27:49+02:00",
+      "published_at": "2026-10-04T07:27:49+02:00",
+      "expires_at": null,
+      "requested": true,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-04T05:28:39+00:00",
+        "msg_ids": [
+          2148,
+          2149,
+          2150,
+          2151,
+          2152
+        ],
+        "control_id": 2153
       }
     }
   ]
