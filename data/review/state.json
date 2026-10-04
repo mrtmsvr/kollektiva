@@ -1,5 +1,5 @@
 {
-  "offset": 391604343,
+  "offset": 391604344,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -31,7 +31,8 @@
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/heti-hetes-hanko-balazs-kajdi-csaba-cyla-lakatos-laci/z8kzy1e",
     "https://science.nasa.gov/image-article/apod-2026-october-4-supernumerary-rainbows-over-new-jersey/",
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/valkusz-milan-gwm-celeb-vagyok-ments-ki-innen/bxvyx40",
-    "https://hvg.hu/360/20261004_hvg-szentendrei-regi-muvesztelep-centenarium-muveszetmalom"
+    "https://hvg.hu/360/20261004_hvg-szentendrei-regi-muvesztelep-centenarium-muveszetmalom",
+    "https://hvg.hu/vilag/20261004_friedrich-merz-kijev-latogatas-moszkva-legicsapas"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
