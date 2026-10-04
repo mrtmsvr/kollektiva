@@ -11083,6 +11083,28 @@
       "clickbait_from": 3,
       "image_options": [
         {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/5a4acb6ea7-1791128841-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/5a4acb6ea7-1791128841-0.jpg",
+          "kind": "photo",
+          "alt": "Orbán szerint kulturális bosszú Hankó letartóztatása",
+          "likeness": true,
+          "credit": "AI-generált illusztráció – Kollektíva",
+          "license": "saját (AI-generált illusztráció)",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/5a4acb6ea7-1791128844-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/5a4acb6ea7-1791128844-1.jpg",
+          "kind": "photo",
+          "alt": "Orbán szerint kulturális bosszú Hankó letartóztatása",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hank%C3%B3_Bal%C3%A1zs_in_2025_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
           "height": 1749,
@@ -11186,9 +11208,11 @@
           2574,
           2575,
           2576,
-          2577
+          2577,
+          2587,
+          2588
         ],
-        "control_id": 2578
+        "control_id": 2589
       },
       "image_queries": [
         "Viktor Orbán",
