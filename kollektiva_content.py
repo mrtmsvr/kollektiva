@@ -1069,17 +1069,19 @@ def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: in
         return []
     try:
         raw = ai.complete_json(GEN_SYSTEM, f"Cikk: {title}\n{lead}\n\nÍrj {n} eltérő promptot egy szerkesztőségi illusztrációhoz: "
-                               "konkrét, a témát jól mutató jelenet vagy szimbolikus kompozíció; stílus: modern editorial "
-                               "illustration, rich detail, cinematic light, muted navy and warm gold palette; TILOS: felismerhető "
-                               "valós személy arca, logó, felirat/szöveg, zászló-torzítás. "
+                               "konkrét, a témát jól mutató jelenet vagy szimbolikus kompozíció. A stílust és a színeket a témához "
+                               "válaszd szabadon (lehet fotószerű, festői, színes grafika, montázs). Lehetnek rajta emberek, arcok, "
+                               "logók, zászlók (pontosan, torzítás nélkül), rövid felirat csak ha nem rontja a képet. Egy dolog "
+                               "kivétel: valós, megnevezett személyt ne próbálj felismerhetően lerajzolni (hamis képnek tűnne) – "
+                               "helyette jellemző helyszín, tárgy, tömeg vagy hátulról/sziluettben ábrázolt alak. "
                                'JSON: {"prompts": ["...", "..."]}', 1400, light=True)
         prompts = [str(p)[:900] for p in raw.get("prompts") or [] if str(p).strip()][:n]
     except Exception as e:  # noqa: BLE001 – AI-hiba esetén egyszerű prompt a címből, a grafika így is elkészül
         log.warning("Illusztráció-prompt sikertelen, egyszerű prompttal megyek: %s", str(e)[:200])
         prompts = []
     if not prompts:
-        base = (f"Modern editorial illustration for a news magazine article titled \"{title}\". Symbolic, conceptual "
-                "composition, rich detail, cinematic light, muted navy and warm gold palette, no recognizable real people")
+        base = (f"Editorial illustration for a news magazine article titled \"{title}\". Expressive, colorful, "
+                "rich detail, cinematic light")
         prompts = [base, base + ", wide establishing view"][:n]
     out_dir = BASE_DIR / "public" / "img" / "gen"
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -1088,7 +1090,7 @@ def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: in
         try:
             data = post_json(f"https://api.cloudflare.com/client/v4/accounts/{acct}/ai/run/@cf/black-forest-labs/flux-1-schnell",
                              {"Authorization": f"Bearer {token}"},
-                             {"prompt": p + ", no text, no watermark, 16:9 composition", "steps": 8},
+                             {"prompt": p + ", no watermark, 16:9 composition", "steps": 8},
                              ai.cfg.http_timeout, 2)
             img = base64.b64decode((data.get("result") or {}).get("image") or "")
         except Exception as e:  # noqa: BLE001
@@ -1104,6 +1106,20 @@ def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: in
                     "alt": title[:200], "credit": "Kollektíva illusztráció", "license": "saját (generált illusztráció)",
                     "source_url": f"{SITE_URL}/info/#impresszum", "generated": True})
     return out
+
+
+def auto_illustration(ai: "AIClient", art: dict, tag: str) -> list:
+    """Ha nem találtunk a cikkhez illő képet: magától generált grafika (AUTO_ILLUSTRATION=false kikapcsolja)."""
+    if os.getenv("AUTO_ILLUSTRATION", "true").lower() not in ("1", "true", "yes"):
+        return []
+    try:
+        gen = generate_illustration(ai, art.get("title", ""), art.get("lead", ""), tag)
+    except Exception as e:  # noqa: BLE001
+        log.warning("Automatikus grafika kimaradt: %s", str(e)[:200])
+        return []
+    if gen:
+        log.info("Nincs illő kép – %d generált grafika készült.", len(gen))
+    return gen
 
 
 def wiki_onthisday_event(d: date, http_timeout: int) -> Optional[dict]:
@@ -2705,6 +2721,8 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
     image_options = vision_rank(ai, art["title"], art["lead"], image_options, min_score=7 if strict else 5)
     if len(image_options) < 2 and not strict:
         image_options += more_images(ai, art, (avoid_images or set()) | {im["url"] for im in image_options})
+    if not image_options:  # nincs illő kép -> saját grafika, hogy a cikk ne kép nélkül menjen jóváhagyásra
+        image_options = auto_illustration(ai, art, section["id"])
     image = image_options[0] if image_options else None
     inline_images = find_inline_images(raw, len(art["body"]), ai.cfg.http_timeout,
                                        (avoid_images or set()) | {im["url"] for im in image_options})
