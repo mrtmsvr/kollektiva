@@ -264,6 +264,14 @@ def send_article(_out_dir: Optional[Path], art: dict) -> None:
         return
     sec = kc.SECTIONS.get(art["category"], {}).get("name", art["category"])
     titles = art.get("title_options") or [art["title"]]
+    legal_txt = ""
+    try:  # jogi ellenőr: kockázatjelzés a cikk alá; magas kockázatnál nem kerül ki magától
+        import legal
+        if "legal" not in art:
+            legal.review(kc.AIClient(kc.Config.from_env()), art)
+        legal_txt = legal.summary(art.get("legal") or {})
+    except Exception as e:  # noqa: BLE001
+        log.warning("Jogi ellenőrzés kimaradt: %s", e)
     kind = "🟢 KINT VAN" if art.get("live") else ("🗓 SAJÁT (időzített)" if art.get("offtopic") else "🆕 ÚJ")
     head = (f"{kind} · <b>{E(sec)}</b> · forróság {art.get('hot_score', 0)} · {len(art.get('sources', []))} forrás · "
             f"{art.get('reading_time_min', 1)} perc"
@@ -276,8 +284,14 @@ def send_article(_out_dir: Optional[Path], art: dict) -> None:
         head += "\n\n<b>Röviden</b>\n" + "\n".join("• " + E(k) for k in art["key_points"])
     head += "\n\n<b>Források:</b> " + ", ".join(
         f'<a href="{html.escape(s["url"])}">{E(s.get("publisher") or "forrás")}</a>' for s in art.get("sources", []))
+    extra = []
+    if legal_txt and len(head) + len(E(legal_txt)) < 3990:
+        head += "\n\n" + E(legal_txt)
+    elif legal_txt:
+        extra.append(E(legal_txt)[:3900])
     ids = [_mid(tg("sendMessage", {"chat_id": chat, "text": head[:4000], "parse_mode": "HTML",
                                    "disable_web_page_preview": True}))]
+    ids += [_mid(tg("sendMessage", {"chat_id": chat, "text": x, "parse_mode": "HTML"})) for x in extra]
     # a teljes szöveget nem küldjük el (elég a „Röviden”); kérésre: 📄 Teljes szöveg gomb
     imgs = art.get("image_options") or []
     ids += _send_images(chat, imgs)
@@ -417,7 +431,7 @@ def publish(art: dict, tz: ZoneInfo) -> dict:
     art.update({"status": "published", "published_at": now_iso, "created_at": now_iso, "updated_at": now_iso})
     art["authorship"]["reviewed_by"] = "szerkesztő (Telegram)"
     art["authorship"]["reviewed_at"] = now_iso
-    for k in ("title_options", "image_options", "story", "offtopic_topic", "schedule"):
+    for k in ("title_options", "image_options", "story", "offtopic_topic", "schedule", "legal"):
         art.pop(k, None)
     return art
 
@@ -487,8 +501,36 @@ def _age_min(art: dict) -> float:
 # Beérkezett válaszok feldolgozása
 # ---------------------------------------------------------------------------
 
+def _make_graphic(chat: int, out_dir: Path, art: dict, ai, tz: ZoneInfo, hint: str = "") -> int:
+    """Grafika a cikkhez (🎨 gomb vagy /g [kérés]); visszaadja, hány élő módosítás történt (0/1)."""
+    lead = art.get("lead", "") + (f"\nA szerkesztő kérése a grafikához: {hint}" if hint else "")
+    try:
+        gen = kc.generate_illustration(ai or kc.AIClient(kc.Config.from_env()), _chosen_title(art), lead, art["id"])
+    except Exception as e:  # noqa: BLE001 – a grafika hibája ne állítsa le a robotot
+        kc.LAST_GEN_ERROR, gen = str(e)[:300], []
+    if not gen:
+        why = kc.LAST_GEN_ERROR or ("hiányzik a CF_ACCOUNT_ID vagy a CF_AI_TOKEN" if not (os.getenv("CF_ACCOUNT_ID")
+                                     and os.getenv("CF_AI_TOKEN")) else "a képleíró AI-hívás nem sikerült")
+        tg("sendMessage", {"chat_id": chat, "text": f"A grafika most nem készült el. Ok: {why}"})
+        return 0
+    art["image_options"] = gen + [im for im in art.get("image_options") or [] if not im.get("generated")]
+    art["review"]["image"] = 0
+    ids = _send_images(chat, gen, " (generált grafika)")
+    art["review"]["msg_ids"] = (art["review"].get("msg_ids") or []) + [i for i in ids if i]
+    tg("deleteMessage", {"chat_id": chat, "message_id": art["review"].get("control_id")})
+    text_, kb_ = _control(art)
+    art["review"]["control_id"] = _mid(tg("sendMessage", {"chat_id": chat, "text": text_,
+                                                          "parse_mode": "HTML", "reply_markup": kb_}))
+    if art.get("live"):
+        _apply_live(out_dir, art, tz)
+        return 1
+    return 0
+
+
 HELP = ("Parancsok (rövid / hosszú):\n"
         "/k /kep <mit> – új képek (válaszként a cikkre)\n"
+        "/g /grafika [mit] – generált grafika (válaszként)\n"
+        "/j /jogi – jogi ellenőrzés újra (válaszként)\n"
         "/c /cim <cím> – saját cím (válaszként)\n"
         "/u /ujrairas – újraírás (válaszként)\n"
         "/v /vissza <link|cím> – levétel javításra\n"
@@ -616,6 +658,34 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                         published += 1
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": f"✏️ Cím beállítva: {arg[:140]}",
                                        "reply_to_message_id": m["message_id"]})
+                    changed = True
+            elif re.match(r"(?i)/(j|jogi)\b", text):
+                # válaszként egy cikkre: jogi ellenőrzés újra (pl. javítás után)
+                art = rep and next((a for a in pending if rep in (a.get("review", {}).get("msg_ids", []) +
+                                                                  [a.get("review", {}).get("control_id")])), None)
+                if not art:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": m["message_id"],
+                                       "text": "Válaszolj a cikk valamelyik üzenetére: /j (jogi ellenőrzés)."})
+                else:
+                    import legal
+                    res = legal.review(ai or kc.AIClient(kc.Config.from_env()), art)
+                    tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": m["message_id"],
+                                       "text": legal.summary(res) or "A jogi ellenőrzés ki van kapcsolva."})
+                    _refresh_control(st["chat_id"], art)
+                    changed = True
+            elif re.match(r"(?i)/(g|grafika)\b", text):
+                # válaszként egy cikkre: /g = generált grafika, /g <mit> = a megadott elképzelés szerint
+                arg = text.split(maxsplit=1)[1].strip() if len(text.split(maxsplit=1)) > 1 else ""
+                art = rep and next((a for a in pending if rep in (a.get("review", {}).get("msg_ids", []) +
+                                                                  [a.get("review", {}).get("control_id"),
+                                                                   a.get("review", {}).get("title_prompt_id")])), None)
+                if not art:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": m["message_id"],
+                                       "text": "Válaszolj a cikk valamelyik üzenetére: /g (grafika) vagy /g <mit rajzoljak>."})
+                else:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": m["message_id"],
+                                       "text": "🎨 Grafikát készítek (kb. 30 mp)…"})
+                    published += _make_graphic(st["chat_id"], out_dir, art, ai, tz, arg[:200])
                     changed = True
             elif re.match(r"(?i)/(kn|kepnelkul|képnélkül)\b", text):
                 # a kint lévő, kép nélküli cikkek (utolsó 7 nap, max. 8) ide jönnek képválasztásra; kint maradnak,
@@ -801,27 +871,7 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
             elif act == "gen":
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Grafikát készítek (kb. 30 mp)…"})
                 q = None
-                try:
-                    gen = kc.generate_illustration(ai or kc.AIClient(kc.Config.from_env()), _chosen_title(art),
-                                                   art.get("lead", ""), art["id"])
-                except Exception as e:  # noqa: BLE001 – a grafika hibája ne állítsa le a robotot
-                    kc.LAST_GEN_ERROR, gen = str(e)[:300], []
-                if gen:
-                    art["image_options"] = gen + [im for im in art.get("image_options") or [] if not im.get("generated")]
-                    art["review"]["image"] = 0
-                    ids = _send_images(st["chat_id"], gen, " (generált grafika)")
-                    art["review"]["msg_ids"] = (art["review"].get("msg_ids") or []) + [i for i in ids if i]
-                    tg("deleteMessage", {"chat_id": st["chat_id"], "message_id": art["review"].get("control_id")})
-                    text_, kb_ = _control(art)
-                    art["review"]["control_id"] = _mid(tg("sendMessage", {"chat_id": st["chat_id"], "text": text_,
-                                                                          "parse_mode": "HTML", "reply_markup": kb_}))
-                    if art.get("live"):
-                        _apply_live(out_dir, art, tz)
-                        published += 1
-                else:
-                    why = kc.LAST_GEN_ERROR or ("hiányzik a CF_ACCOUNT_ID vagy a CF_AI_TOKEN" if not (os.getenv("CF_ACCOUNT_ID")
-                                                 and os.getenv("CF_AI_TOKEN")) else "a képleíró AI-hívás nem sikerült")
-                    tg("sendMessage", {"chat_id": st["chat_id"], "text": f"A grafika most nem készült el. Ok: {why}"})
+                published += _make_graphic(st["chat_id"], out_dir, art, ai, tz)
             elif act == "txt":
                 note = "Teljes szöveg alább"
                 for part in _chunks("\n\n".join(art.get("body", []))):
