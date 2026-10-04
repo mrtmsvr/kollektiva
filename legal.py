@@ -19,6 +19,7 @@ import json
 import logging
 import os
 import re
+from typing import Optional
 
 log = logging.getLogger("kollektiva.legal")
 
@@ -135,8 +136,13 @@ def review(ai, art: dict) -> dict:
 def summary(res: dict) -> str:
     if not res:
         return ""
+    fixed = res.get("auto_fixed")
+    pre = ("⚖️ Jogi ellenőrzés: magától javítottam küldés előtt:\n" + "\n".join("• " + c for c in fixed) + "\n") if fixed else ""
     if not res.get("issues"):
-        return "⚖️ Jogi ellenőrzés: 🟢 nincs jelzés"
+        return (pre + "🟢 javítás után nincs jelzés") if fixed else "⚖️ Jogi ellenőrzés: 🟢 nincs jelzés"
+    if fixed:
+        head = {0: "🟢 alacsony", 1: "🟡 nézd át", 2: "🔴 magas – magától nem kerül ki"}[res.get("level", 0)]
+        return pre + "Maradt: " + head + "\n" + "\n".join(res["issues"])
     head = {0: "🟢 alacsony", 1: "🟡 nézd át", 2: "🔴 magas – magától nem kerül ki"}[res.get("level", 0)]
     return "⚖️ Jogi ellenőrzés: " + head + "\n" + "\n".join(res["issues"])
 
@@ -150,10 +156,10 @@ FIX_SYSTEM = (
 )
 
 
-def fix(ai, art: dict) -> dict:
+def fix(ai, art: dict, issues: Optional[list] = None) -> dict:
     """A jogi jelzések alapján kijavítja a cikket (cím, bevezető, pontok, szöveg). Visszaad: {changes: [...]} vagy {}."""
     res = art.get("legal") or {}
-    issues = res.get("issues") or []
+    issues = issues if issues is not None else (res.get("issues") or [])
     if ai is None or not getattr(ai, "enabled", False) or not issues:
         return {}
     titles = art.get("title_options") or [art.get("title", "")]
@@ -184,3 +190,28 @@ def fix(ai, art: dict) -> dict:
     art["content"] = "\n\n".join(([f"> {art['pull_quote']}"] if art.get("pull_quote") else []) + nb)
     art.pop("legal", None)
     return {"changes": [str(c)[:160] for c in raw.get("changes") or []][:4]}
+
+
+IMAGE_ISSUE = re.compile(r"(?i)\bkép|MI-képmás|licenc")
+
+
+def auto(ai, art: dict) -> dict:
+    """Telegramra küldés előtt: ellenőriz, és ha szöveges jogi gond van, magától kijavítja, majd újraellenőriz.
+    (A képlicenc-jelzést szöveggel nem lehet javítani – az marad jelzésnek.) Az eredményt az art["legal"]-ba írja,
+    a javítás listáját az art["legal"]["auto_fixed"]-be."""
+    orig_hold = art.get("hold")
+    res = review(ai, art)
+    text_issues = [i for i in res.get("issues") or [] if not IMAGE_ISSUE.search(i)]
+    if not text_issues or art.get("live") or os.getenv("LEGAL_AUTOFIX", "true").lower() not in ("1", "true", "yes"):
+        return res
+    done = fix(ai, art, text_issues)
+    if not done:
+        return res
+    if orig_hold:  # a javítás után az eredeti állapotból indulunk (a magas kockázat miatti hold újra eldől)
+        art["hold"] = orig_hold
+    else:
+        art.pop("hold", None)
+    res = review(ai, art)
+    res["auto_fixed"] = done.get("changes") or ["a kifogásolt részek"]
+    art["legal"] = res
+    return res
