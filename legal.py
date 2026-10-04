@@ -15,6 +15,7 @@ Kikapcsolás: LEGAL_CHECK=false.
 """
 from __future__ import annotations
 
+import json
 import logging
 import os
 import re
@@ -138,3 +139,48 @@ def summary(res: dict) -> str:
         return "⚖️ Jogi ellenőrzés: 🟢 nincs jelzés"
     head = {0: "🟢 alacsony", 1: "🟡 nézd át", 2: "🔴 magas – magától nem kerül ki"}[res.get("level", 0)]
     return "⚖️ Jogi ellenőrzés: " + head + "\n" + "\n".join(res["issues"])
+
+
+FIX_SYSTEM = (
+    "Magyar sajtójogi szerkesztő vagy. Egy cikket javítasz a jogi lektor megjegyzései alapján. CSAK a kifogásolt "
+    "részeket módosítod, a lehető legkisebb beavatkozással: forrásmegjelölés („X szerint”, „a … beszámolója alapján”), "
+    "feltételes mód („a gyanú szerint”, „állítólag”), ártatlanság vélelme, magánszemély/kiskorú azonosíthatóságának "
+    "megszüntetése, túlzó egészségügyi állítás tompítása; ami nem igazolható, azt kihagyod. Új tényt nem írsz bele, "
+    "a stílus, a szerkezet és a bekezdések száma marad. Csak érvényes JSON-t adsz vissza."
+)
+
+
+def fix(ai, art: dict) -> dict:
+    """A jogi jelzések alapján kijavítja a cikket (cím, bevezető, pontok, szöveg). Visszaad: {changes: [...]} vagy {}."""
+    res = art.get("legal") or {}
+    issues = res.get("issues") or []
+    if ai is None or not getattr(ai, "enabled", False) or not issues:
+        return {}
+    titles = art.get("title_options") or [art.get("title", "")]
+    body = art.get("body") or []
+    prompt = ("JOGI MEGJEGYZÉSEK:\n" + "\n".join(issues)
+              + "\n\nCIKK (JSON):\n" + json.dumps({"titles": titles, "lead": art.get("lead", ""),
+                                                  "key_points": art.get("key_points") or [], "body": body}, ensure_ascii=False)
+              + "\n\nAdd vissza ugyanebben a szerkezetben a javított változatot: {\"titles\": [...ugyanannyi cím...], "
+                "\"lead\": \"...\", \"key_points\": [...], \"body\": [...ugyanannyi bekezdés...], "
+                "\"changes\": [\"mit javítottál, röviden, max. 4 tétel\"]}")
+    try:
+        raw = ai.complete_json(FIX_SYSTEM, prompt, 4000)
+    except Exception as e:  # noqa: BLE001
+        log.warning("Jogi javítás sikertelen: %s", e)
+        return {}
+    nb = [str(p).strip() for p in raw.get("body") or [] if str(p).strip()]
+    if not nb or len(nb) < max(1, len(body) - 1):
+        return {}  # ha a modell megcsonkítaná a cikket, inkább nem javítunk
+    nt = [str(t).strip() for t in raw.get("titles") or [] if str(t).strip()]
+    if len(nt) == len(titles):
+        art["title_options"] = nt
+        art["title"] = nt[0]
+    art["lead"] = str(raw.get("lead") or art.get("lead", "")).strip()
+    kp = [str(k).strip() for k in raw.get("key_points") or [] if str(k).strip()]
+    if kp:
+        art["key_points"] = kp[:4]
+    art["body"] = nb
+    art["content"] = "\n\n".join(([f"> {art['pull_quote']}"] if art.get("pull_quote") else []) + nb)
+    art.pop("legal", None)
+    return {"changes": [str(c)[:160] for c in raw.get("changes") or []][:4]}
