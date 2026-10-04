@@ -1515,7 +1515,7 @@ def _page(title: str, description: str, canonical: str, body: str, head_extra: s
 </main>
 <footer>© {datetime.now().year} {SITE_NAME}<br><a href="/">Főoldal</a>{NAV_LINKS}<a href="/feed.xml">RSS</a><br><a href="/info/#impresszum">Impresszum</a><a href="/info/#adatkezeles">Adatkezelés</a><a href="/info/#sutik">Sütik</a><a href="/info/#hirdetes">Hirdetés</a>{GPREF_FOOT}</footer>
 {NEW_TOAST_HTML}
-<script src="/poll-widget.js?v=5" defer></script>
+<script src="/poll-widget.js?v=6" defer></script>
 </body>
 </html>
 """
@@ -2901,8 +2901,9 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
         today = sum(1 for a in articles_all if a.get("category") == sid and a.get("date") == d.isoformat())
         for group in pick_story(SECTIONS[sid], used_links, now, ai.cfg.http_timeout):
             kw = group[0]["kw"]
-            if any(len(kw & rk) >= 4 for rk in recent_kw):
-                continue  # ugyanerről a témáról már írtunk az elmúlt néhány órában
+            # ugyanarról a témáról nem zárjuk ki automatikusan: a lenti AI-ellenőrzés dönt – új fejleményről
+            # (pl. folyamatban lévő botrány új nyilatkozata, döntése) írunk, ugyanannak a hírnek az újramondásáról nem
+            group[0]["near_dup"] = any(len(kw & rk) >= 4 for rk in recent_kw)
             # nincs „minden rovatba kell egy” kényszer (gyenge töltelékcikk); jó témából annyi jöhet, amennyi van (bulvár max. 6)
             cap = int(os.getenv(f"DAILY_MAX_{sid.upper()}", "6" if sid == "bulvar" else "99"))
             if today >= cap:
@@ -2921,8 +2922,9 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
         if not art:
             continue
         dup = _same_images(art, sent)
-        if dup:  # ugyanazok a képtalálatok, mint egy nemrég elküldött cikknél → ugyanaz a téma
-            log.info("Kimarad (ugyanaz a téma, mint: %s): %s", dup, art["title"])
+        if dup and same_story_as_recent(ai, [{"title": art["title"], "summary": art.get("lead", "")}], [dup]):
+            # ugyanazok a képtalálatok ÉS az AI szerint nincs új fejlemény → ugyanaz a hír még egyszer
+            log.info("Kimarad (ugyanaz a hír, mint: %s): %s", dup, art["title"])
             used_links.update(art["category_meta"]["source_links"])
             continue
         if review and not dry_run:
