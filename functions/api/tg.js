@@ -4,6 +4,7 @@
 //   • és elindítja a GitHub-robotot (workflow_dispatch), ha épp nem fut – percenként legfeljebb egyszer.
 // GET  /api/tg?take=1  (fejléc: X-Queue-Secret = TG_WEBHOOK_SECRET) <- a robot így veszi ki a sorból.
 // Kell (Cloudflare Pages → Settings → Variables and Secrets): TG_WEBHOOK_SECRET, TELEGRAM_BOT_TOKEN, GH_DISPATCH_TOKEN
+// Titkok felvéve: 2026-10-04.
 // (opcionális: GH_REPO, alap: mrtmsvr/vx9-orrery-lumen-4qk7t-szinter-motor). D1 binding: DB (ugyanaz, mint a szavazásnál).
 const json = (obj, status = 200) => new Response(JSON.stringify(obj), {
   status, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' },
