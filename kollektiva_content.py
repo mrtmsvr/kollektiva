@@ -1785,7 +1785,7 @@ is támogathatsz minket – elvégre innen indult minden. Köszönjük, hogy itt
 
 <h2 id="impresszum">Impresszum</h2>
 <p>Kiadó és szerkesztő: Kollektíva szerkesztőség.<br>Webcím: kollektíva.hu<br>
-Kapcsolat: <a href="mailto:x.tmsvr@gmail.com">x.tmsvr@gmail.com</a><br>
+Kapcsolat: <a href="mailto:szerkesztoseg@xn--kollektva-m5a.hu">szerkesztoseg@kollektíva.hu</a><br>
 Tárhelyszolgáltató: Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, USA – cloudflare.com</p>
 <p>Cikkeink nyilvános forrásokra (hazai és nemzetközi sajtó, hivatalos közlemények) épülnek; a felhasznált
 forrásokat minden cikk alján feltüntetjük. A képek szabad licencű forrásokból (Wikimedia Commons, Openverse, Pexels, Pixabay)
