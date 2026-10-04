@@ -1074,11 +1074,14 @@ def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: in
                                "logók, zászlók (pontosan, torzítás nélkül), rövid felirat csak ha nem rontja a képet. Közszereplő "
                                "(pl. politikus) is szerepelhet a nevével (angolul írd bele, pl. 'Hungarian politician Péter Magyar'), "
                                "de csak semleges, a cikkhez illő helyzetben – megalázó, hamis vagy kompromittáló jelenet nem. "
-                               'JSON: {"prompts": ["...", "..."]}', 1400, light=True)
-        prompts = [str(p)[:900] for p in raw.get("prompts") or [] if str(p).strip()][:n]
+                               "Ha a cikk egy konkrét közszereplőről szól, az ELSŐ prompt próbálja őt felismerhetően ábrázolni (nevével), "
+                               "a MÁSODIK pedig ember nélkül, szimbolikusan mutassa a témát (helyszín, tárgyak). "
+                               'JSON: {"prompts": ["...", "..."], "person": "a közszereplő neve, vagy üres"}', 1400, light=True)
+        prompts = [str(p)[:900] for p in raw.get("prompts") or [] if str(p).strip()][:max(n, 2)]
+        person = str(raw.get("person") or "").strip()
     except Exception as e:  # noqa: BLE001 – AI-hiba esetén egyszerű prompt a címből, a grafika így is elkészül
         log.warning("Illusztráció-prompt sikertelen, egyszerű prompttal megyek: %s", str(e)[:200])
-        prompts = []
+        prompts, person = [], ""
     if not prompts:
         base = (f"Editorial illustration for a news magazine article titled \"{title}\". Expressive, colorful, "
                 "rich detail, cinematic light")
@@ -1102,8 +1105,11 @@ def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: in
         note_usage("cf_image")
         name = f"{re.sub(r'[^a-z0-9]', '', tag.lower())[:10]}-{int(time.time())}-{i}.jpg"
         (out_dir / name).write_bytes(img)
+        likeness = bool(person) and i == 0  # valós személyt ábrázoló kép: kötelező AI-jelölés
         out.append({"url": f"{SITE_URL}/public/img/gen/{name}", "local": str(out_dir / name), "kind": "photo",
-                    "alt": title[:200], "credit": "AI-generált illusztráció – Kollektíva", "license": "saját (AI-generált illusztráció)",
+                    "alt": title[:200], "likeness": likeness,
+                    "credit": "AI-generált illusztráció – Kollektíva" if likeness else "Kollektíva illusztráció",
+                    "license": "saját (AI-generált illusztráció)" if likeness else "saját grafika",
                     "source_url": f"{SITE_URL}/info/#impresszum", "generated": True})
     return out
 
@@ -1416,7 +1422,7 @@ blockquote.q{color:var(--parch)}blockquote cite{display:block;margin-top:8px;fon
 article p{color:rgba(236,230,216,.88)}
 .box{margin:40px 0;padding:18px 20px;background:var(--vault);border:1px solid var(--line);border-radius:12px;font-size:14px;color:var(--dusk)}
 .box a{color:var(--parch)}.seealso b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.seealso ul{margin:8px 0 0;padding-left:18px}.seealso span{color:var(--dusk)}
-figure{margin:32px 0}figure img{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;border-radius:12px;background:var(--vault)}
+.vid{position:relative;aspect-ratio:16/9;margin:28px 0;border-radius:12px;overflow:hidden;background:var(--vault)}.vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}figure.gen img{max-width:min(100%,560px);margin:0 auto}figure{margin:32px 0}figure img{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;border-radius:12px;background:var(--vault)}
 figure.graphic img{max-height:340px;padding:28px;background:#ECE6D8}
 figcaption{margin-top:6px;color:var(--dusk);font-size:12px}figcaption a{color:var(--dusk)}figcaption .cap{font-size:14px;color:rgba(236,230,216,.75)}
 .credit summary{list-style:none;cursor:pointer;display:inline-block;width:22px;height:22px;line-height:22px;text-align:center;border:1px solid var(--line);border-radius:50%;font-size:12px}
@@ -1598,11 +1604,12 @@ def _related_html(related: list) -> str:
 def _figure(img: dict, alt: str, eager: bool = False, caption: str = "") -> str:
     """Kép kredittel (ⓘ); a szövegközi képeknél látható képaláírással."""
     cap = f'<span class="cap">{E(caption)}</span> ' if caption else ""
-    return (f'<figure class="{E(img.get("kind", "photo"))}"><img src="{E(img["url"])}" alt="{E(img.get("alt") or alt)}" '
+    cls = img.get("kind", "photo") + (" gen" if img.get("generated") else "")
+    return (f'<figure class="{E(cls)}"><img src="{E(img["url"])}" alt="{E(img.get("alt") or alt)}" '
             f'width="{E(str(img.get("width") or ""))}" height="{E(str(img.get("height") or ""))}" '
             f'loading="{"eager" if eager else "lazy"}" decoding="async">'
             f'<figcaption>{cap}<details class="credit"><summary title="Képforrás">ⓘ</summary>'
-            f'{"Kép" if img.get("kind") == "graphic" else "Fotó"}: <a href="{E(img.get("source_url") or img["url"])}" rel="noopener" '
+            f'{"Kép" if img.get("kind") == "graphic" or img.get("generated") else "Fotó"}: <a href="{E(img.get("source_url") or img["url"])}" rel="noopener" '
             f'target="_blank">{E(img.get("credit", ""))}</a>, {E(img.get("license", ""))}</details></figcaption></figure>')
 
 
@@ -1690,6 +1697,10 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
     img = a.get("hero_image") or None
     figure = _figure(img, a["title"], eager=True) if img and img.get("url") else ""
     published = (a.get("published_at") or a.get("created_at") or a["date"])[:10]
+    v = a.get("video") if isinstance(a.get("video"), dict) else None
+    video = (f'<div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/{E(v["id"])}" title="{E(v.get("title") or "Videó")}" '
+             'loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+             if v and re.fullmatch(r"[\w-]{11}", str(v.get("id") or "")) else "")
     sa = [x for x in a.get("see_also") or [] if x.get("url")]
     see_also = (f'<div class="box seealso"><b>{"Az ügy előzményei" if a.get("thread_id") else "Korábban írtuk"}</b><ul>' + "".join(
         f'<li><a href="{E(x["url"])}">{E(x["title"])}</a>' + (f' <span>· {E(str(x.get("date", ""))[5:].replace("-", ". "))}.</span>' if x.get("date") else "")
@@ -1702,6 +1713,7 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
 <p class="lead">{E(a["lead"])}</p>
 {figure}
 {keypoints}
+{video}
 {quote}
 {paras}
 </article>
@@ -2416,6 +2428,11 @@ def build_on_demand(ai: "AIClient", text: str, tz: ZoneInfo, articles: list) -> 
     Link: a cikk szövege a forrás; téma: a Google Hírek friss találatai (max. 4 forrás)."""
     now = datetime.now(tz)
     url = (re.search(r"https?://\S+", text) or [None])[0]
+    yt = re.search(r"(?:youtube\.com/(?:watch\?v=|live/|shorts/)|youtu\.be/)([\w-]{11})", url or "")
+    if yt:  # YouTube-videó: a videó tartalmából (Gemini nézi meg), beágyazott lejátszóval
+        import videos
+        return videos.article_from_video(ai, {"id": yt.group(1), "title": text[:120], "url": f"https://www.youtube.com/watch?v={yt.group(1)}",
+                                              "author": "", "description": ""}, tz, articles)
     story = []
     if url:
         body = fetch_article_text(url, ai.cfg.http_timeout, 6000)
@@ -2706,7 +2723,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
             log.info("Rovat-javítás: %s → %s (%s)", section["id"], better["id"], story[0].get("title", "")[:80])
             section = better
     for s in story[:4]:
-        s["fulltext"] = fetch_article_text(s["link"], ai.cfg.http_timeout)
+        s["fulltext"] = s.get("fulltext") or fetch_article_text(s["link"], ai.cfg.http_timeout)
     try:
         context = wiki_context(story, ai.cfg.http_timeout)
         raw = ai.complete_json(SECTION_SYSTEM, section_prompt(section, story, d, context, past,
@@ -3022,6 +3039,8 @@ def main(argv: Optional[list] = None) -> int:
             polls.run(ai, target, tz, cfg.output_dir, args.dry_run)
             import quiz
             quiz.run(ai, target, tz, cfg.output_dir, args.dry_run)
+            import videos
+            videos.run(ai, target, tz, cfg.output_dir, args.dry_run)
         except Exception as e:  # noqa: BLE001 – a saját cikk hibája ne állítsa meg a robotot
             log.exception("Off-topic cikk kimaradt: %s", e)
 
