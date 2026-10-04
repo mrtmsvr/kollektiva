@@ -1,5 +1,5 @@
 {
-  "offset": 391604406,
+  "offset": 391604407,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -36,7 +36,8 @@
     "https://hvg.hu/360/20261004_hvg-ozzy-osbourne-utolso-kenet-konyv-black-sabbath",
     "https://www.youtube.com/watch?v=uBgUA4K_ij0",
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/az-arulok-gyilkossag-a-kastelyban-vasvari-vivien/9ne20sw",
-    "https://www.portfolio.hu/gazdasag/20261004/tisza-kormany-folytatodik-a-maratoni-kormanyules-a-koltsegvetes-es-a-budapest-alku-is-napirenden-867162"
+    "https://www.portfolio.hu/gazdasag/20261004/tisza-kormany-folytatodik-a-maratoni-kormanyules-a-koltsegvetes-es-a-budapest-alku-is-napirenden-867162",
+    "https://www.youtube.com/watch?v=vpnpqadg1Jc"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
