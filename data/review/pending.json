@@ -10714,8 +10714,8 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/c27145c972-1791096068-0.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/c27145c972-1791096068-0.jpg",
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/c27145c972-1791096091-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/c27145c972-1791096091-0.jpg",
           "kind": "photo",
           "alt": "Bezárt benzinkút mellett tárgyal az ország sorsáról a kormány Erdőbényén",
           "credit": "Kollektíva illusztráció",
@@ -10724,8 +10724,8 @@
           "generated": true
         },
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/c27145c972-1791096070-1.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/c27145c972-1791096070-1.jpg",
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/c27145c972-1791096094-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/c27145c972-1791096094-1.jpg",
           "kind": "photo",
           "alt": "Bezárt benzinkút mellett tárgyal az ország sorsáról a kormány Erdőbényén",
           "credit": "Kollektíva illusztráció",
@@ -10929,9 +10929,11 @@
           2194,
           2195,
           2268,
-          2269
+          2269,
+          2271,
+          2272
         ],
-        "control_id": 2270
+        "control_id": 2273
       },
       "image_queries": [
         "Erdőbénye",
