@@ -145,6 +145,24 @@ def _updates(st: dict, wait: int) -> dict:
               timeout=wait + 15)
 
 
+def _fresh_titles(ai, a: dict) -> list:
+    """Visszahívott cikkhez (kép vagy javítás miatt) a mostani cím + 2 új címjavaslat."""
+    out = [a.get("title", "")]
+    try:
+        ai = ai or kc.AIClient(kc.Config.from_env())
+        raw = ai.complete_json("Hírszerkesztő vagy egy magyar online magazinnál. Csak JSON-t adsz vissza.",
+                               f"Cím: {a.get('title', '')}\nBevezető: {a.get('lead', '')}\n\nÍrj 2 új, ütős, de igaz címet "
+                               "(max. 9 szó, pont nélkül a végén, olcsó clickbait-sablonok nélkül). "
+                               'JSON: {"titles": ["...", "..."]}', 300, light=True)
+        for t in raw.get("titles") or []:
+            t = kc._clean_title(str(t).strip())
+            if t and t not in out:
+                out.append(t)
+    except Exception as e:  # noqa: BLE001
+        log.warning("Címjavaslat kimaradt: %s", str(e)[:150])
+    return out[:3]
+
+
 def _mid(resp: dict) -> Optional[int]:
     r = resp.get("result")
     if isinstance(r, list):
@@ -476,6 +494,7 @@ HELP = ("Parancsok (rövid / hosszú):\n"
         "/v /vissza <link|cím> – levétel javításra\n"
         "/t /torles <link|cím> – leszedés\n"
         "/kn – kép nélküli cikkek képválasztásra\n"
+        "/csatornak · /csatorna <YouTube-link> – videófigyelés\n"
         "/l /lista · /szavazas · /keret\n"
         "Link vagy „téma: …” → cikk róla")
 
@@ -564,7 +583,7 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                     published += 1
                     pending[:] = [p for p in pending if p.get("id") != h["id"]]
                     back = {k: v for k, v in h.items() if k != "live"}
-                    back.update({"status": "needs_review", "hold": True, "title_options": [h["title"]], "clickbait_from": 1,
+                    back.update({"status": "needs_review", "hold": True, "title_options": _fresh_titles(ai, h), "clickbait_from": 3,
                                  "image_options": [h["hero_image"]] if h.get("hero_image") else [],
                                  "created_at": datetime.now(tz).isoformat(timespec="seconds")})
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": f"⏸ Levettem az oldalról (1–2 perc): {h['title']}\n"
@@ -609,11 +628,37 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 tg("sendMessage", {"chat_id": st["chat_id"], "text": f"🖼 {len(todo)} kép nélküli cikk jön, képjelöltekkel." if todo
                                    else "Nincs kép nélküli cikk az elmúlt 7 napból."})
                 for a in todo:
-                    item = {**a, "live": True, "title_options": [a["title"]], "clickbait_from": 1, "image_options": []}
+                    item = {**a, "live": True, "title_options": _fresh_titles(ai, a), "clickbait_from": 3, "image_options": []}
                     send_article(out_dir, item)
                     pending.append(item)
                     _refresh_images(st["chat_id"], item, ai)
                     changed = True
+            elif re.match(r"(?i)/(csatornak|csatornák)\b", text):
+                import videos
+                lst = videos.load_sources()
+                tg("sendMessage", {"chat_id": st["chat_id"], "text": "🎬 Figyelt csatornák:\n" + "\n".join(
+                    f"• {x.get('name')}" + (f" (@{x['handle']})" if x.get("handle") else "") for x in lst)
+                    + "\nÚj: /csatorna <YouTube-link vagy @név> · Törlés: /csatorna- <név>"})
+            elif re.match(r"(?i)/csatorna-", text):
+                import videos
+                name = text.split(maxsplit=1)[1].strip().lower() if len(text.split(maxsplit=1)) > 1 else ""
+                lst = videos.load_sources()
+                left = [x for x in lst if name not in (str(x.get("name", "")) + " " + str(x.get("handle", ""))).lower()] if name else lst
+                videos.save_sources(left)
+                changed = True
+                tg("sendMessage", {"chat_id": st["chat_id"], "text": f"🗑 {len(lst) - len(left)} csatorna törölve."})
+            elif re.match(r"(?i)/csatorna\b", text):
+                import videos
+                src = videos.parse_source(text.split(maxsplit=1)[1] if len(text.split(maxsplit=1)) > 1 else "")
+                if src and videos.resolve_channel(src):
+                    lst = videos.load_sources()
+                    if not any(x.get("channel_id") == src["channel_id"] for x in lst):
+                        lst.append(src)
+                        videos.save_sources(lst)
+                        changed = True
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": f"✅ Figyelem: {src['name']} – az új videóiból cikk jön jóváhagyásra."})
+                else:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": "Használat: /csatorna https://www.youtube.com/@csatornanev (vagy @csatornanev)"})
             elif re.match(r"(?i)/(keret|limit)\b", text):
                 tg("sendMessage", {"chat_id": st["chat_id"], "text": kc.usage_report()})
             elif re.match(r"(?i)/(t|torles|törlés)\b", text):
