@@ -1071,9 +1071,9 @@ def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: in
         raw = ai.complete_json(GEN_SYSTEM, f"Cikk: {title}\n{lead}\n\nÍrj {n} eltérő promptot egy szerkesztőségi illusztrációhoz: "
                                "konkrét, a témát jól mutató jelenet vagy szimbolikus kompozíció. A stílust és a színeket a témához "
                                "válaszd szabadon (lehet fotószerű, festői, színes grafika, montázs). Lehetnek rajta emberek, arcok, "
-                               "logók, zászlók (pontosan, torzítás nélkül), rövid felirat csak ha nem rontja a képet. Egy dolog "
-                               "kivétel: valós, megnevezett személyt ne próbálj felismerhetően lerajzolni (hamis képnek tűnne) – "
-                               "helyette jellemző helyszín, tárgy, tömeg vagy hátulról/sziluettben ábrázolt alak. "
+                               "logók, zászlók (pontosan, torzítás nélkül), rövid felirat csak ha nem rontja a képet. Közszereplő "
+                               "(pl. politikus) is szerepelhet a nevével (angolul írd bele, pl. 'Hungarian politician Péter Magyar'), "
+                               "de csak semleges, a cikkhez illő helyzetben – megalázó, hamis vagy kompromittáló jelenet nem. "
                                'JSON: {"prompts": ["...", "..."]}', 1400, light=True)
         prompts = [str(p)[:900] for p in raw.get("prompts") or [] if str(p).strip()][:n]
     except Exception as e:  # noqa: BLE001 – AI-hiba esetén egyszerű prompt a címből, a grafika így is elkészül
@@ -1103,7 +1103,7 @@ def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: in
         name = f"{re.sub(r'[^a-z0-9]', '', tag.lower())[:10]}-{int(time.time())}-{i}.jpg"
         (out_dir / name).write_bytes(img)
         out.append({"url": f"{SITE_URL}/public/img/gen/{name}", "local": str(out_dir / name), "kind": "photo",
-                    "alt": title[:200], "credit": "Kollektíva illusztráció", "license": "saját (generált illusztráció)",
+                    "alt": title[:200], "credit": "AI-generált illusztráció – Kollektíva", "license": "saját (AI-generált illusztráció)",
                     "source_url": f"{SITE_URL}/info/#impresszum", "generated": True})
     return out
 
@@ -1384,7 +1384,7 @@ PAGE_CSS = """
 body{margin:0;background:var(--night);color:var(--parch);font:17px/1.75 Manrope,system-ui,-apple-system,"Segoe UI",sans-serif}
 a{color:var(--parch)}a:hover{color:var(--brass)}
 header,main,footer{max-width:720px;margin:0 auto;padding:0 20px}
-.share{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share .sh-main{display:inline-flex;align-items:center;gap:8px;font:600 14px/1 Manrope,system-ui,sans-serif;color:#0E1024;background:var(--brass);border:0;border-radius:999px;padding:11px 18px;cursor:pointer}.sh-pop{display:flex;flex-wrap:wrap;gap:8px}.sh-pop[hidden]{display:none}.share .sh-save,.sh-pop a,.sh-pop button{display:inline-flex;align-items:center;gap:6px;font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.share .sh-save:hover,.share .sh-save[data-on="1"],.sh-pop a:hover,.sh-pop button:hover{border-color:var(--brass);color:var(--brass)}.share .sh-save[data-on="1"] svg{fill:currentColor}.share .sh-main:hover,.share .sh-main:focus,.share .sh-main:active{color:#0E1024;background:#D8B46B}.share .sh-main:active,.share .sh-save:active{transform:scale(.96)}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#3FBF6F;box-shadow:0 0 0 3px rgba(63,191,111,.2);margin-right:6px;vertical-align:middle}.pbtn{display:inline-block;margin-top:12px;background:var(--brass);color:#0E1024!important;font:600 13px/1 Manrope,system-ui,sans-serif;border-radius:999px;padding:9px 14px;text-decoration:none}.pbtn:hover{background:#D8B46B}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}.tags a{font-size:12px;color:var(--dusk);border:1px solid var(--line);border-radius:999px;padding:4px 10px;text-decoration:none}.tags a:hover{color:var(--brass);border-color:var(--brass)}.poll b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.poll h3{margin:6px 0 12px;font:600 22px/1.3 "Cormorant Garamond",Georgia,serif}.poll button{display:block;width:100%;text-align:left;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--parch);font:15px Manrope,system-ui,sans-serif;cursor:pointer}.poll button:hover{border-color:var(--brass)}.poll .pr{position:relative;overflow:hidden;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;display:flex;justify-content:space-between;gap:10px}.poll .pr.me{border-color:var(--brass)}.poll .pr span{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.15)}.poll .pr em,.poll .pr strong{position:relative;font-style:normal}.poll small{color:var(--dusk)}
+.share{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share .sh-main{display:inline-flex;align-items:center;gap:8px;font:600 14px/1 Manrope,system-ui,sans-serif;color:#0E1024;background:var(--brass);border:0;border-radius:999px;padding:11px 18px;cursor:pointer}.sh-pop{display:flex;flex-wrap:wrap;gap:8px}.sh-pop[hidden]{display:none}.share .sh-save,.sh-pop a,.sh-pop button{display:inline-flex;align-items:center;gap:6px;font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.share .sh-save:hover,.share .sh-save[data-on="1"],.sh-pop a:hover,.sh-pop button:hover{border-color:var(--brass);color:var(--brass)}.share .sh-save[data-on="1"] svg{fill:currentColor}.share .sh-main:hover,.share .sh-main:focus,.share .sh-main:active{color:#0E1024;background:#D8B46B}.share .sh-main:active,.share .sh-save:active{transform:scale(.96)}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#3FBF6F;box-shadow:0 0 0 3px rgba(63,191,111,.2);margin-right:6px;vertical-align:middle}.pbtn{display:inline-block;margin-top:12px;background:var(--brass);color:#0E1024!important;font:600 13px/1 Manrope,system-ui,sans-serif;border-radius:999px;padding:9px 14px;text-decoration:none}.pbtn:hover{background:#D8B46B}.sh-top{display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;margin-left:10px;width:30px;height:30px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--brass);cursor:pointer}.sh-top:hover{border-color:var(--brass)}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}.tags a{font-size:12px;color:var(--dusk);border:1px solid var(--line);border-radius:999px;padding:4px 10px;text-decoration:none}.tags a:hover{color:var(--brass);border-color:var(--brass)}.poll b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.poll h3{margin:6px 0 12px;font:600 22px/1.3 "Cormorant Garamond",Georgia,serif}.poll button{display:block;width:100%;text-align:left;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--parch);font:15px Manrope,system-ui,sans-serif;cursor:pointer}.poll button:hover{border-color:var(--brass)}.poll .pr{position:relative;overflow:hidden;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;display:flex;justify-content:space-between;gap:10px}.poll .pr.me{border-color:var(--brass)}.poll .pr span{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.15)}.poll .pr em,.poll .pr strong{position:relative;font-style:normal}.poll small{color:var(--dusk)}
 .hdr-r{display:flex;align-items:center;gap:10px}.srch{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid var(--line);border-radius:999px;color:var(--parch)}.srch:hover{color:var(--brass);border-color:var(--brass)}
 .gpref{text-align:center;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)}.gpref a{color:var(--brass);text-decoration:none}.gpref a:hover{color:var(--parch)}.gpref b{color:var(--brass);font-weight:400}
 header{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;border-bottom:1px solid var(--line);position:relative}
@@ -1541,6 +1541,23 @@ def _article_jsonld(a: dict) -> str:
 BULLET = re.compile(r"^[-•*]\s+")
 
 
+LINK_MD = re.compile(r"\[([^\]\n]{2,90})\]\((/[a-z0-9/_-]+/|https?://[^\s)]+)\)")
+
+
+def _links(escaped: str) -> str:
+    """[szöveg](url) -> link (a szöveg már HTML-escape-elt); belső link ugyanabban az ablakban, külső újban."""
+    def rep(m):
+        url = m.group(2)
+        ext = url.startswith("http")
+        return (f'<a href="{url}"' + (' target="_blank" rel="noopener"' if ext else "") + f">{m.group(1)}</a>")
+    return LINK_MD.sub(rep, escaped)
+
+
+def strip_bad_links(body: list, allowed: set) -> list:
+    """Csak a megengedett (saját korábbi cikk) linkek maradnak; a többinél a link szövege marad, a link kikerül."""
+    return [LINK_MD.sub(lambda m: m.group(0) if m.group(2) in allowed else m.group(1), str(p)) for p in body]
+
+
 def _para(p: str) -> str:
     """Bekezdés -> HTML; a „- ” kezdetű sorokból felsorolás lesz."""
     if p.startswith("## "):  # alcím (összefoglaló cikkekben eseményenként)
@@ -1549,16 +1566,16 @@ def _para(p: str) -> str:
     lines = [l.strip() for l in p.split("\n") if l.strip()]
     bullets = [l for l in lines if BULLET.match(l)]
     if not bullets:
-        return f"<p>{E(p)}</p>"
+        return f"<p>{_links(E(p))}</p>"
     out, items = [], []
     for l in lines:
         if BULLET.match(l):
-            items.append("<li>" + E(BULLET.sub("", l)) + "</li>")
+            items.append("<li>" + _links(E(BULLET.sub("", l))) + "</li>")
         else:
             if items:
                 out.append("<ul>" + "".join(items) + "</ul>")
                 items = []
-            out.append("<p>" + E(l) + "</p>")
+            out.append("<p>" + _links(E(l)) + "</p>")
     if items:
         out.append("<ul>" + "".join(items) + "</ul>")
     return "".join(out)
@@ -1680,7 +1697,7 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
     body = f"""<article>
 <p class="kicker">{E(section["kicker"])}{(" · " + E(str(year))) if year else ""}</p>
 <h1>{E(a["title"])}</h1>
-<p class="meta">{E(a["authorship"]["byline"])} · <time datetime="{E(published)}">{E(published.replace("-", ". "))}.</time> · {a.get("reading_time_min", 1)} perc olvasás</p>
+<p class="meta">{E(a["authorship"]["byline"])} · <time datetime="{E(published)}">{E(published.replace("-", ". "))}.</time> · {a.get("reading_time_min", 1)} perc olvasás<button type="button" class="sh-top" aria-label="Megosztás" title="Megosztás" onclick="var d=document.querySelector('.share');if(navigator.share){{navigator.share({{title:d.dataset.title,url:d.dataset.url}}).catch(function(){{}})}}else{{d.scrollIntoView({{behavior:'smooth',block:'center'}});d.querySelector('.sh-main').click()}}"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg></button></p>
 {_tags_html(a.get("tags"))}
 <p class="lead">{E(a["lead"])}</p>
 {figure}
@@ -2597,7 +2614,9 @@ def section_prompt(section: dict, story: list, d: date, context: Optional[list] 
     if past:
         bg_block += ("\nKorábbi cikkeink ugyanebben az ügyben (előzményként használhatod – pl. „ahogy korábban megírtuk” –, "
                      "de csak ha tényleg ugyanarról szól; új tényt ne találj ki belőlük):\n"
-                     + "\n".join(f"- {p['date']}: {p['title']} – {p.get('lead') or ''}" for p in past) + "\n")
+                     + "\n".join(f"- {p['date']}: {p['title']} – {p.get('lead') or ''} (link: {p.get('url') or '–'})" for p in past)
+                     + "\nHa a szövegben természetesen adódik (pl. „ahogy korábban megírtuk”), legfeljebb 2 helyen linkelj ezekre "
+                     "markdown formában: [rövid szövegrész](/rovat/cikk/) – CSAK a fent megadott linkeket használd.\n")
     if section.get("id") in ("kozelet", "vilag", "penzvilag"):
         ctx = current_context()
         if ctx:
@@ -2726,6 +2745,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
     image = image_options[0] if image_options else None
     inline_images = find_inline_images(raw, len(art["body"]), ai.cfg.http_timeout,
                                        (avoid_images or set()) | {im["url"] for im in image_options})
+    art["body"] = strip_bad_links(art["body"], {p.get("url") for p in past or [] if p.get("url")})
     quote = checked_quote(raw.get("quote"), story, len(art["body"]))
     if quote:  # ne legyen kétszer ugyanaz: kiemelt idézet + ugyanaz a mondat a szövegben
         art["body"] = dedupe_quote(art["body"], quote["text"])
