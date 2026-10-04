@@ -1,7 +1,120 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T20:51:21+02:00",
+  "updated_at": "2026-10-04T20:52:32+02:00",
   "articles": [
+    {
+      "id": "1ef42d42-b36b-520e-aac0-b8d8ea1e2eef",
+      "slug": "2026-10-04-tombor-andras-birosagra-viszi-a-mathias-corvinus-collegium-felszamola",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Mathias Corvinus Collegium",
+        "Tombor András",
+        "bíróság",
+        "vagyonkezelő alapítvány",
+        "Miniszterelnökség"
+      ],
+      "title": "Tombor András bíróságra viszi a Mathias Corvinus Collegium felszámolását",
+      "subtitle": null,
+      "lead": "Magyar és európai bíróságokhoz fordul az MCC alapítója, miután augusztus végén jogutód nélkül megszűnt a Mathias Corvinus Collegium. Tombor András szerint az intézményt koncepció nélküli sorvadásra ítélték.",
+      "key_points": [
+        "Augusztus 31-ével lezárult a közérdekű vagyonkezelő alapítványok, így az MCC felszámolása is.",
+        "A Miniszterelnökség adatai szerint legalább 1284 milliárd forintnyi vagyon került közvetlen állami ellenőrzés alá.",
+        "Tombor András szerint a vagyon átvételével megbízott zugfelszámoló képtelen volt rendezett módon átvenni az értékeket.",
+        "Az alapító bejelentette, hogy hazai és európai szinten is bíróságon keresnek elégtételt."
+      ],
+      "content": "Hosszas mérlegelést követően szólalt meg a Mathias Corvinus Collegiumot (MCC) létrehozó Tombor András, aki vasárnapi közleményében bírálta az intézmény augusztus végi megszűnését. A felsőoktatási tevékenységet nem végző közérdekű vagyonkezelő alapítványok (kekvák) felszámolása augusztus 31-ével zárult le, mivel a határidőig egyetlen alapítvány sem nyújtott be változásbejegyzési kérelmet a Fővárosi Törvényszékhez.\n\nA Miniszterelnökség tájékoztatása alapján a folyamat nyomán legalább 1284 milliárd forint könyv szerinti értékű közvagyon került vissza a közvetlen állami ellenőrzés alá. Tombor András közleményében sérelmezte, hogy a kormányváltás óta szerinte kizárólag politikai szempontok mentén zajló pusztítás ment végbe az intézmény körül.\n\nAz alapító külön kitért arra, hogy a 485 milliárd forintos állami vagyonjuttatásból időközben 825 milliárd forintra növelt vagyon számbavételével Seszták Miklós korábbi záhonyi zugfelszámolóját bízták meg, aki véleménye szerint képtelen volt a vagyont áttekinteni. Hozzátette azt is, hogy a Miniszterelnökséget vezető miniszter és közvetlen munkatársai korábban többször megerősítették a továbbműködés lehetőségét, ám végül a törvényi határidő lejárta előtt három nappal alaptalan jogi indokokkal tagadták azt meg.\n\nAz MCC alapítója hangsúlyozta, hogy a harmincéves intézmény elsorvasztása a magyar tehetségek esélyeit rombolja szét, ráadásul a legalapvetőbb normákat és alkotmányos alapjogokat sem tartották szem előtt a folyamat során. Emiatt Tombor bejelentette, hogy a jogszabályok megsértése miatt a magyar és az európai bíróságokon keresnek elégtételt.",
+      "content_format": "markdown",
+      "body": [
+        "Hosszas mérlegelést követően szólalt meg a Mathias Corvinus Collegiumot (MCC) létrehozó Tombor András, aki vasárnapi közleményében bírálta az intézmény augusztus végi megszűnését. A felsőoktatási tevékenységet nem végző közérdekű vagyonkezelő alapítványok (kekvák) felszámolása augusztus 31-ével zárult le, mivel a határidőig egyetlen alapítvány sem nyújtott be változásbejegyzési kérelmet a Fővárosi Törvényszékhez.",
+        "A Miniszterelnökség tájékoztatása alapján a folyamat nyomán legalább 1284 milliárd forint könyv szerinti értékű közvagyon került vissza a közvetlen állami ellenőrzés alá. Tombor András közleményében sérelmezte, hogy a kormányváltás óta szerinte kizárólag politikai szempontok mentén zajló pusztítás ment végbe az intézmény körül.",
+        "Az alapító külön kitért arra, hogy a 485 milliárd forintos állami vagyonjuttatásból időközben 825 milliárd forintra növelt vagyon számbavételével Seszták Miklós korábbi záhonyi zugfelszámolóját bízták meg, aki véleménye szerint képtelen volt a vagyont áttekinteni. Hozzátette azt is, hogy a Miniszterelnökséget vezető miniszter és közvetlen munkatársai korábban többször megerősítették a továbbműködés lehetőségét, ám végül a törvényi határidő lejárta előtt három nappal alaptalan jogi indokokkal tagadták azt meg.",
+        "Az MCC alapítója hangsúlyozta, hogy a harmincéves intézmény elsorvasztása a magyar tehetségek esélyeit rombolja szét, ráadásul a legalapvetőbb normákat és alkotmányos alapjogokat sem tartották szem előtt a folyamat során. Emiatt Tombor bejelentette, hogy a jogszabályok megsértése miatt a magyar és az európai bíróságokon keresnek elégtételt."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 230,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/A_F%C5%91v%C3%A1rosi_T%C3%B6rv%C3%A9nysz%C3%A9k_%C3%A9p%C3%BClete13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1381,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "A Fővárosi Törvényszék épülete",
+        "credit": "12akd / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_F%C5%91v%C3%A1rosi_T%C3%B6rv%C3%A9nysz%C3%A9k_%C3%A9p%C3%BClete13.jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261004_tombor-andras-birosag-mcc-alapito",
+          "title": "Magyar és európai bíróságokhoz fordul az MCC alapítója",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T20:21:27+02:00"
+        },
+        {
+          "url": "https://telex.hu/belfold/2026/10/04/mcc-tombor-andras-merlegeles-kozlemeny-felszamolas",
+          "title": "MCC alapítója: Haldoklásra ítélték az intézményt, a magyar és európai bíróságokon keresünk elégtételt",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T20:21:27+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Hosszas mérlegelés után, eddig türelmesen figyelemmel kísérve az eseményeket, a Mathias Corvinus Collegium alapítójaként szeretném megosztani a nyilvánossággal, hogyan látom az alapítvány megszüntetését",
+        "who": "Tombor András, az MCC alapítója",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-04T20:52:32+02:00"
+      },
+      "hot_score": 9.41,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261004_tombor-andras-birosag-mcc-alapito",
+          "https://telex.hu/belfold/2026/10/04/mcc-tombor-andras-merlegeles-kozlemeny-felszamolas"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/kozelet/2026-10-04-tombor-andras-birosagra-viszi-a-mathias-corvinus-collegium-felszamola/",
+      "seo": {
+        "meta_title": "Tombor András bíróságra viszi a Mathias Corvinus Collegium f",
+        "meta_description": "Magyar és európai bíróságokhoz fordul az MCC alapítója, miután augusztus végén jogutód nélkül megszűnt a Mathias Corvinus Collegium. Tombor András szerint az in",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-04-tombor-andras-birosagra-viszi-a-mathias-corvinus-collegium-felszamola/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/8/83/A_F%C5%91v%C3%A1rosi_T%C3%B6rv%C3%A9nysz%C3%A9k_%C3%A9p%C3%BClete13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "a8355ff38b15d5b607a3b00558c47e0bd3a8c9fea6bb9d655708a251fc6c2f01",
+      "pipeline_run_id": "37223991304",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T20:52:32+02:00",
+      "updated_at": "2026-10-04T20:52:32+02:00",
+      "published_at": "2026-10-04T20:52:32+02:00",
+      "expires_at": null
+    },
     {
       "id": "69c33c8d-14d5-5d34-bcc3-3bdb80a6cfb1",
       "slug": "2026-10-04-legiriadok-es-romok-kozt-tett-egymilliardos-igeretet-merz-kijevben",
