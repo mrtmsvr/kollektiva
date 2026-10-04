@@ -12019,6 +12019,303 @@
         ],
         "control_id": 2153
       }
+    },
+    {
+      "id": "60e79302-1017-5e0c-9988-046e4802e160",
+      "slug": "2026-10-04-elhetne-e-ember-a-voros-bolygon",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": "olvasnivalo",
+      "tags": [
+        "Mars",
+        "űrkutatás",
+        "SpaceX",
+        "NASA",
+        "tudomány"
+      ],
+      "title": "Élhetne-e ember a vörös bolygón?",
+      "subtitle": null,
+      "lead": "A Mars régóta lázban tartja az emberiséget, de a sci-fibe illő tervek mögött kőkemény biológiai és fizikai akadályok állnak. A legfrissebb űrkutatási adatok segítségével megnéztük, vajon túlélhetnénk-e egy marsi utazást.",
+      "key_points": [
+        "A marsi utazás legnagyobb kockázatai közé tartozik a kozmikus sugárzás és a csökkent gravitáció.",
+        "A SpaceX tervei szerint a Starship rakéták rakományai alapozhatják meg az önfenntartó emberi jelenlétet.",
+        "A NASA kutatásai szerint a küldetések során jelentős egészségügyi kockázatokkal, például idegrendszeri és érrendszeri terheléssel kell szembenézni."
+      ],
+      "content": "## Rövid alcím: A vörös bolygó csábítása és valósága\n\nA Mars a Naptól számított negyedik bolygóként évezredek óta vonzza a tekintetet. A felszíni gravitáció csupán a földi egyharmada, ami azt jelenti, hogy egy nyolcvan kilogrammos ember a Marson alig harminc kilogrammot mutatna a mérlegen. Az évszázadok során a populáris kultúrában számtalan történet született a marsi életre utaló jelekről, ám a tudomány mai állása szerint a Marson esetlegesen előforduló élet legfeljebb mikroszkopikus szervezetekre korlátozódhat. Nem csoda hát, hogy a kutatók tekintete egyre inkább a gyakorlati megvalósíthatóság felé fordul.\n\n## Rövid alcím: Végtelen űrutazás és a láthatatlan veszélyek\n\nEgy marsi küldetés megtervezésekor a szakembereknek olyan extrém környezeti tényezőkkel kell megküzdeniük, amelyek alapjaiban fenyegetik az emberi szervezetet. A npj Microgravity folyóiratban közzétett, több száz hivatkozással rendelkező, 2020-as tanulmány szerint a legmagasabb prioritású egészségügyi kockázatok közé tartozik a sugárzás, a megváltozott gravitációs mező, a teljes elszigeteltség és a zárt környezet. A PLoS ONE-ban megjelent, 2013-as elemzés rávilágít, hogy a mélyűrbe lépő űrhajósok ki vannak téve a galaktikus kozmikus sugárzásnak, amely nagy energiájú protonokból és nehézionokból áll. A sugárdózis hatására a rákos megbetegedések és a keringési rendszert érintő halálos kockázatok központi becslései átléphetik az öt, illetve a tíz százalékot egy hároméves küldetés során.\n\n## Rövid alcím: Hogyan építhetünk ki marsi bázisokat?\n\nAz emberiség évszázados álma, hogy többbolygós fajjá váljon, új lendületet kapott a magánszektor fejlesztéseitől. A New Space folyóiratban publikált, 2021-es tanulmány részletesen bemutatja, hogyan tehető lehetővé a SpaceX Starship járműveivel a fenntartható emberi jelenlét. A tervek szerint az első, ember nélküli küldetések küldetésenként mintegy száz metrikus tonna rakományt szállítanak a marsi felszínre. Ezek előkészítik a terepet:\n\n- Alapvető infrastruktúra kiépítése és tesztelése a helyszínen.\n\n- Létfontosságú készletek és felszerelések előzetes elhelyezése.\n\n- Vízjég-lelőhelyek feltérképezése a helyi erőforrások későbbi felhasználásához.\n\n- Robotikus előkutatások végzése a biztonságos emberi érkezés érdekében.\n\n## Rövid alcím: Földrengések és a talaj rejtélyei\n\nA bolygó belsejének megismerése legalább ennyire izgalmas feladat. A 2019 óta a Mars felszínén dolgozó InSight űrszonda rendkívül érzékeny szeizmométerrel vizsgálja az úgynevezett marsi rengéseket. Mivel ezek sokkal kisebb energiájúak a földi társaiknál, a hullámok terjedési sebessége pontos képet rajzol a belső rétegekről és a bolygó magjáról. A talajvizsgálatok eközben meglepő felfedezéseket tettek: a marsi kőzettörmelék fizikai tulajdonságai meglepően hasonlítanak az Antarktisz száraz völgyeinek talajához. Lúgos kémhatású, magnéziumot, nátriumot és káliumot is tartalmaz, amelyek elméletileg alkalmassá tennék a növénytermesztésre. A döntő hiányosság azonban az, hogy teljesen mentes a mikrobiális tevékenységhez kötődő szerves humusztól, amely a földi tápanyagkörforgás alapköve.\n\n## Rövid alcím: Az idegrendszer próbája a rideg valóságban\n\nA fizikai és kémiai kihívások mellett a pszichológiai és idegrendszeri terhelés is hatalmas árnyékot vet a küldetésekre. A Journal of Neurophysiology szaklapban megjelent, öt évtizednyi űrkutatási és idegtudományi eredményt összegző tanulmány rámutat, hogy a változó gravitációs gyorsulás felborítja a percepció és a cselekvés finom összhangját. Az űrhajósok akár három éven keresztül kénytelenek elviselni a zsúfoltságot, a Földtől való óriási távolságot és a kozmikus sugárzás idegsejteket károsító hatásait. A tudomány jelenleg ott tart, hogy feltérképezze ezeket a kockázatokat, de a teljes körű védelmi technológiák kifejlesztése még várat magára. Ez a cikk nem helyettesíti az orvosi vagy szakértői véleményt.",
+      "content_format": "markdown",
+      "body": [
+        "## Rövid alcím: A vörös bolygó csábítása és valósága",
+        "A Mars a Naptól számított negyedik bolygóként évezredek óta vonzza a tekintetet. A felszíni gravitáció csupán a földi egyharmada, ami azt jelenti, hogy egy nyolcvan kilogrammos ember a Marson alig harminc kilogrammot mutatna a mérlegen. Az évszázadok során a populáris kultúrában számtalan történet született a marsi életre utaló jelekről, ám a tudomány mai állása szerint a Marson esetlegesen előforduló élet legfeljebb mikroszkopikus szervezetekre korlátozódhat. Nem csoda hát, hogy a kutatók tekintete egyre inkább a gyakorlati megvalósíthatóság felé fordul.",
+        "## Rövid alcím: Végtelen űrutazás és a láthatatlan veszélyek",
+        "Egy marsi küldetés megtervezésekor a szakembereknek olyan extrém környezeti tényezőkkel kell megküzdeniük, amelyek alapjaiban fenyegetik az emberi szervezetet. A npj Microgravity folyóiratban közzétett, több száz hivatkozással rendelkező, 2020-as tanulmány szerint a legmagasabb prioritású egészségügyi kockázatok közé tartozik a sugárzás, a megváltozott gravitációs mező, a teljes elszigeteltség és a zárt környezet. A PLoS ONE-ban megjelent, 2013-as elemzés rávilágít, hogy a mélyűrbe lépő űrhajósok ki vannak téve a galaktikus kozmikus sugárzásnak, amely nagy energiájú protonokból és nehézionokból áll. A sugárdózis hatására a rákos megbetegedések és a keringési rendszert érintő halálos kockázatok központi becslései átléphetik az öt, illetve a tíz százalékot egy hároméves küldetés során.",
+        "## Rövid alcím: Hogyan építhetünk ki marsi bázisokat?",
+        "Az emberiség évszázados álma, hogy többbolygós fajjá váljon, új lendületet kapott a magánszektor fejlesztéseitől. A New Space folyóiratban publikált, 2021-es tanulmány részletesen bemutatja, hogyan tehető lehetővé a SpaceX Starship járműveivel a fenntartható emberi jelenlét. A tervek szerint az első, ember nélküli küldetések küldetésenként mintegy száz metrikus tonna rakományt szállítanak a marsi felszínre. Ezek előkészítik a terepet:",
+        "- Alapvető infrastruktúra kiépítése és tesztelése a helyszínen.",
+        "- Létfontosságú készletek és felszerelések előzetes elhelyezése.",
+        "- Vízjég-lelőhelyek feltérképezése a helyi erőforrások későbbi felhasználásához.",
+        "- Robotikus előkutatások végzése a biztonságos emberi érkezés érdekében.",
+        "## Rövid alcím: Földrengések és a talaj rejtélyei",
+        "A bolygó belsejének megismerése legalább ennyire izgalmas feladat. A 2019 óta a Mars felszínén dolgozó InSight űrszonda rendkívül érzékeny szeizmométerrel vizsgálja az úgynevezett marsi rengéseket. Mivel ezek sokkal kisebb energiájúak a földi társaiknál, a hullámok terjedési sebessége pontos képet rajzol a belső rétegekről és a bolygó magjáról. A talajvizsgálatok eközben meglepő felfedezéseket tettek: a marsi kőzettörmelék fizikai tulajdonságai meglepően hasonlítanak az Antarktisz száraz völgyeinek talajához. Lúgos kémhatású, magnéziumot, nátriumot és káliumot is tartalmaz, amelyek elméletileg alkalmassá tennék a növénytermesztésre. A döntő hiányosság azonban az, hogy teljesen mentes a mikrobiális tevékenységhez kötődő szerves humusztól, amely a földi tápanyagkörforgás alapköve.",
+        "## Rövid alcím: Az idegrendszer próbája a rideg valóságban",
+        "A fizikai és kémiai kihívások mellett a pszichológiai és idegrendszeri terhelés is hatalmas árnyékot vet a küldetésekre. A Journal of Neurophysiology szaklapban megjelent, öt évtizednyi űrkutatási és idegtudományi eredményt összegző tanulmány rámutat, hogy a változó gravitációs gyorsulás felborítja a percepció és a cselekvés finom összhangját. Az űrhajósok akár három éven keresztül kénytelenek elviselni a zsúfoltságot, a Földtől való óriási távolságot és a kozmikus sugárzás idegsejteket károsító hatásait. A tudomány jelenleg ott tart, hogy feltérképezze ezeket a kockázatokat, de a teljes körű védelmi technológiák kifejlesztése még várat magára. Ez a cikk nem helyettesíti az orvosi vagy szakértői véleményt."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 3,
+      "word_count": 534,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Surface_feature_of_Mars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 661,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Surface feature of Mars",
+        "credit": "image:NASA/JPL-Caltech/UArizona  - Mariagat1959 modified image by add color / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Surface_feature_of_Mars.jpg"
+      },
+      "inline_images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/PIA22893_InSight%27s_First_View_of_Mars_with_the_Cover_Off.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1188,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "NASA's InSight spacecraft flipped open the lens cover on its Instrument Context Camera (ICC) on Nov. 30, 2018, and captured this view of Mars. Located below the deck of the InSight lander, the ICC has",
+          "credit": "NASA/JPL-Caltech / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:PIA22893_InSight%27s_First_View_of_Mars_with_the_Cover_Off.jpg",
+          "after": 4,
+          "caption": "Az InSight űrszonda szeizmométere a Mars felszínén."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1038/s41526-020-00124-6",
+          "title": "Red risks for a journey to the red planet: The highest priority human health risks for a mission to Mars",
+          "publisher": "npj Microgravity, 2020",
+          "license": null,
+          "accessed_at": "2026-10-04T07:29:27+02:00"
+        },
+        {
+          "url": "https://doi.org/10.1371/journal.pone.0074988",
+          "title": "How Safe Is Safe Enough? Radiation Risk for a Human Mission to Mars",
+          "publisher": "PLoS ONE, 2013",
+          "license": null,
+          "accessed_at": "2026-10-04T07:29:27+02:00"
+        },
+        {
+          "url": "https://doi.org/10.1152/jn.00476.2019",
+          "title": "Challenges to the central nervous system during human spaceflight missions to Mars",
+          "publisher": "Journal of Neurophysiology, 2020",
+          "license": null,
+          "accessed_at": "2026-10-04T07:29:27+02:00"
+        },
+        {
+          "url": "https://doi.org/10.1089/space.2020.0058",
+          "title": "Mission Architecture Using the SpaceX Starship Vehicle to Enable a Sustained Human Presence on Mars",
+          "publisher": "New Space, 2021",
+          "license": null,
+          "accessed_at": "2026-10-04T07:29:27+02:00"
+        },
+        {
+          "url": "https://doi.org/10.1089/ast.2018.1869",
+          "title": "The BASALT Research Program: Designing and Developing Mission Elements in Support of Human Scientific Exploration of Mars",
+          "publisher": "Astrobiology, 2019",
+          "license": null,
+          "accessed_at": "2026-10-04T07:29:27+02:00"
+        },
+        {
+          "url": "https://hu.wikipedia.org/wiki/Mars_(bolyg%C3%B3)",
+          "title": "Mars (bolygó)",
+          "publisher": "Wikipédia (hu)",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-04T07:29:27+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "offtopic-v2-science",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 0,
+      "offtopic": true,
+      "offtopic_topic": {
+        "id": "mars",
+        "section": "univerzum",
+        "topic": "Élhetne-e ember a Marson?",
+        "angle": "Légkör, sugárzás, víz, a jelenlegi missziók és tervek",
+        "wiki_hu": [
+          "Mars (bolygó)"
+        ],
+        "wiki_en": [
+          "Colonization of Mars"
+        ],
+        "images": [
+          "Mars surface"
+        ],
+        "science": {
+          "db": "openalex",
+          "q": "human mission to Mars"
+        }
+      },
+      "science_based": true,
+      "title_options": [
+        "Élhetne-e ember a vörös bolygón?",
+        "Marsra magyar: milyen kihívások várnak ránk?",
+        "A vörös bolygó meghódításának ára"
+      ],
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Surface_feature_of_Mars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 661,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Surface feature of Mars",
+          "credit": "image:NASA/JPL-Caltech/UArizona  - Mariagat1959 modified image by add color / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Surface_feature_of_Mars.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Surface_of_Terraformed_Mars_no_annotations.jpg/1280px-Surface_of_Terraformed_Mars_no_annotations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 634,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Surface of a terraformed planet Mars. Lambert azimuthal equal-area projection.",
+          "credit": "Pablo Carlos Budassi / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Surface_of_Terraformed_Mars_no_annotations.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Desert_planet_that_is_orbiting_m5_type_red_dwarf_star_1_1_1_1.png/1280px-Desert_planet_that_is_orbiting_m5_type_red_dwarf_star_1_1_1_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Desert planet that is orbiting a M5-type red dwarf star. Light from the star is orangish.",
+          "credit": "Merikanto / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Desert_planet_that_is_orbiting_m5_type_red_dwarf_star_1_1_1_1.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Povray_in_surface_of_desert_planet_1.png/1280px-Povray_in_surface_of_desert_planet_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "In surface of fictional desert planet",
+          "credit": "Merikanto / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Povray_in_surface_of_desert_planet_1.png"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/PIA00576_Martian_Sunrise_at_Utopia_Planitia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 532,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "A Martian sunrise was captured in this Viking 2 Lander picture taken June 14, 1978, at the spacecraft's Utopia Planitia landing site. The data composing this image were acquired just as the Sun peaked",
+          "credit": "NASA/JPL / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:PIA00576_Martian_Sunrise_at_Utopia_Planitia.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/PIA21481_-_Dust_Devil_Passes_Near_Martian_Sand_Dune.gif/1280px-PIA21481_-_Dust_Devil_Passes_Near_Martian_Sand_Dune.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 400,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Beyond a dark sand dune closer to the rover, a Martian dust devil passes in front of the horizon in this sequence of images from NASA's Curiosity Mars rover. The rover's Navigation Camera made this se",
+          "credit": "NASA/JPL-Caltech/TAMU / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:PIA21481_-_Dust_Devil_Passes_Near_Martian_Sand_Dune.gif"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/NASA_Mars_Rover.jpg/1280px-NASA_Mars_Rover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 960,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "An artist's concept portrays a NASA Mars Exploration Rover on the surface of Mars. Rovers Opportunity and Spirit were launched a few weeks apart in 2003 and landed in January 2004 at two sites on Mars",
+          "credit": "NASA/JPL/Cornell University, Maas Digital LLC / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Rover.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Mars_3_surface_transmission.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Result of attempted image transmission from Mars surface by Mars 3, a space probe created by the Soviet Union.",
+          "credit": "Soviet Union / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mars_3_surface_transmission.jpg"
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://doi.org/10.1038/s41526-020-00124-6",
+          "https://doi.org/10.1371/journal.pone.0074988",
+          "https://doi.org/10.1152/jn.00476.2019",
+          "https://doi.org/10.1089/space.2020.0058",
+          "https://doi.org/10.1089/ast.2018.1869",
+          "https://hu.wikipedia.org/wiki/Mars_(bolyg%C3%B3)"
+        ],
+        "offtopic_id": "mars"
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/tech/2026-10-04-elhetne-e-ember-a-voros-bolygon/",
+      "seo": {
+        "meta_title": "Élhetne-e ember a vörös bolygón?",
+        "meta_description": "A Mars régóta lázban tartja az emberiséget, de a sci-fibe illő tervek mögött kőkemény biológiai és fizikai akadályok állnak. A legfrissebb űrkutatási adatok seg",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-04-elhetne-e-ember-a-voros-bolygon/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Surface_feature_of_Mars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "Article"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "56eccc0942588e6a9972d71011cfc8fa26128d3bcef943afb794397970026cf3",
+      "pipeline_run_id": "37179894813",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T07:29:27+02:00",
+      "updated_at": "2026-10-04T07:29:27+02:00",
+      "published_at": null,
+      "expires_at": null,
+      "schedule": {
+        "earliest": "2026-10-04T09:28:44+02:00",
+        "deadline": "2026-10-04T21:30:00+02:00"
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-04T05:29:29+00:00",
+        "msg_ids": [
+          2157,
+          2158,
+          2159,
+          2160,
+          2161,
+          2162,
+          2163,
+          2164,
+          2165
+        ],
+        "control_id": 2166
+      }
     }
   ]
 }
