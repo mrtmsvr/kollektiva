@@ -12673,9 +12673,9 @@
       }
     },
     {
-      "id": "1d30620c-a2e0-51a7-b5cd-42f35f1506f4",
-      "slug": "2026-10-04-tobb-mint-nyolcszazmillio-euroval-emeltek-a-tetet-a-gigabankok-csataj",
-      "status": "pending",
+      "id": "03e1321d-0482-5a6e-8aee-23ad3c815430",
+      "slug": "2026-10-04-nyolcszazmillio-euros-raemelessel-uzent-az-olasz-bankorias",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -12685,7 +12685,7 @@
         "tőzsde",
         "Intesa Sanpaolo"
       ],
-      "title": "Több mint nyolcszázmillió euróval emelték a tétet a gigabankok csatájában",
+      "title": "Nyolcszázmillió eurós ráemeléssel üzent az olasz bankóriás",
       "subtitle": null,
       "lead": "Az Intesa Sanpaolo alaposan megemelte a Monte dei Paschi di Siena felvásárlására tett ajánlatát, miután a célpont vezetése saját ellenstratégiával próbálja védeni a függetlenségét. A júniusban bejelentett, harmincnégymilliárd eurós tranzakció az elmúlt két év legnagyobb szabású olasz bankügylete.",
       "key_points": [
@@ -12705,16 +12705,16 @@
       "word_count": 254,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/-_ITALY_-_Intesa_Sanpaolo_filiale.JPG/1280px--_ITALY_-_Intesa_Sanpaolo_filiale.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 900,
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/4ca11c08d1641c75.jpg",
+        "width": 4004,
+        "height": 2252,
         "kind": "photo",
-        "pos": "center",
-        "alt": "Milano, piazzale Istria: filiale Intesa Sanpaolo",
-        "credit": "Pava / Wikimedia Commons",
-        "license": "CC BY-SA 3.0 it",
-        "source_url": "https://commons.wikimedia.org/wiki/File:-_ITALY_-_Intesa_Sanpaolo_filiale.JPG",
-        "vision_score": 9.0
+        "alt": "money, currency, euro, eurocent, pay, euro banknote, banknote, small, five, coin, euro, euro, euro, euro, euro, coin",
+        "credit": "LubosHouska / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/money-currency-euro-eurocent-pay-1170663/",
+        "vision_score": 8.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/4ca11c08d1641c75.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -12809,12 +12809,12 @@
       },
       "date": "2026-10-04",
       "date_label": "október 4.",
-      "url": "/penzvilag/2026-10-04-tobb-mint-nyolcszazmillio-euroval-emeltek-a-tetet-a-gigabankok-csataj/",
+      "url": "/penzvilag/2026-10-04-nyolcszazmillio-euros-raemelessel-uzent-az-olasz-bankorias/",
       "seo": {
-        "meta_title": "Több mint nyolcszázmillió euróval emelték a tétet a gigabank",
+        "meta_title": "Nyolcszázmillió eurós ráemeléssel üzent az olasz bankóriás",
         "meta_description": "Az Intesa Sanpaolo alaposan megemelte a Monte dei Paschi di Siena felvásárlására tett ajánlatát, miután a célpont vezetése saját ellenstratégiával próbálja véde",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-04-tobb-mint-nyolcszazmillio-euroval-emeltek-a-tetet-a-gigabankok-csataj/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/-_ITALY_-_Intesa_Sanpaolo_filiale.JPG/1280px--_ITALY_-_Intesa_Sanpaolo_filiale.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-04-nyolcszazmillio-euros-raemelessel-uzent-az-olasz-bankorias/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/4ca11c08d1641c75.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -12831,9 +12831,9 @@
       "dedupe_hash": "1ed90415b3f64a8915ff13b397d62c5f84a58154d09c7e28239b709d5cda5169",
       "pipeline_run_id": "37181702317",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-04T08:05:19+02:00",
-      "updated_at": "2026-10-04T08:05:19+02:00",
-      "published_at": "2026-10-04T08:05:19+02:00",
+      "created_at": "2026-10-04T08:15:04+02:00",
+      "updated_at": "2026-10-04T08:15:04+02:00",
+      "published_at": "2026-10-04T08:15:04+02:00",
       "expires_at": null,
       "review": {
         "title": 1,
@@ -12876,7 +12876,8 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Lecce_palazzo_Intesa_Sanpaolo.jpg/1280px-Lecce_palazzo_Intesa_Sanpaolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/-_ITALY_-_Intesa_Sanpaolo_filiale.JPG/1280px--_ITALY_-_Intesa_Sanpaolo_filiale.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Grattacielo_Intesa_Sanpaolo_Torino.jpg/1280px-Grattacielo_Intesa_Sanpaolo_Torino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "4d58d7a1-de03-5abc-84b1-0bb368b86571",

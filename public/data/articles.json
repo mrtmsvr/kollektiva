@@ -1,7 +1,130 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T08:11:36+02:00",
+  "updated_at": "2026-10-04T08:15:04+02:00",
   "articles": [
+    {
+      "id": "03e1321d-0482-5a6e-8aee-23ad3c815430",
+      "slug": "2026-10-04-nyolcszazmillio-euros-raemelessel-uzent-az-olasz-bankorias",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "bank",
+        "felvásárlás",
+        "Olaszország",
+        "tőzsde",
+        "Intesa Sanpaolo"
+      ],
+      "title": "Nyolcszázmillió eurós ráemeléssel üzent az olasz bankóriás",
+      "subtitle": null,
+      "lead": "Az Intesa Sanpaolo alaposan megemelte a Monte dei Paschi di Siena felvásárlására tett ajánlatát, miután a célpont vezetése saját ellenstratégiával próbálja védeni a függetlenségét. A júniusban bejelentett, harmincnégymilliárd eurós tranzakció az elmúlt két év legnagyobb szabású olasz bankügylete.",
+      "key_points": [
+        "Az Intesa Sanpaolo részvényenként 1,25 euróra növelte a készpénzkomponenst az ajánlatában.",
+        "A bankóriás további 800 millió eurós készpénzt helyezett kilátásba a részvényeseknek.",
+        "Az MPS vezérigazgatója október 29-re hívott össze szavazást a rivális felvásárlási tervekről."
+      ],
+      "content": "Újabb fordulat nehezíti az olasz bankszektor eddigi legnagyobb tőzsdei ügyletét, miután a Portfolio beszámolója szerint az Intesa Sanpaolo szombaton tovább javította a Monte dei Paschi di Siena megvásárlására vonatkozó ajánlatát. A korábbi részvényenkénti 1 eurós készpénzes elemet 1,25 euróra tornázták fel, amihez továbbra is 1,6 újonnan kibocsátott Intesa-részvény jár. A lépés értelmében az olasz bankóriás további 800 millió eurónyi készpénzt ígér az MPS részvényesei számára arra az esetre, ha elutasítják a vezetés által kidolgozott ellenajánlatot.\n\nA háttérben az MPS vezérigazgatója, Luigi Lovaglio próbálja keresztüllvinni a saját elképzeléseit, amelyekkel szembehelyezkedne az óriásbank júniusi ajánlatával. Az olasz felvásárlási szabályok alapján a vezető kizárólag a tulajdonosok jóváhagyásával léphet tovább, ezért október 29-re hívott össze részvényesi szavazást a stratégiájáról. A tervek szerint az MPS két különálló, részvénycserés tranzakciót indítana: az egyiket a Banca Generali vagyonkezelőre, a másikat pedig a rivális Banco BPM-re szabnák.\n\nAz Intesa Sanpaolo azonnal jelezte, hogy komoly következményei lesznek a hónap végén esedékes döntésnek. Amennyiben az MPS részvényesei október 29-én bármelyik felvásárlást jóváhagyják, azzal jogalapot teremtenek a rivális ajánlat azonnali visszavonására, amit a bankóriás érvényesíteni is kíván. A befektetők számára ez azt jelenti, hogy a hónap végén nem csupán két különböző üzleti jövőkép között kell választaniuk, hanem közvetlenül döntenek az elmúlt két évben zajló tucatnyi olasz banki tranzakció legnagyobbikának sorsáról is.",
+      "content_format": "markdown",
+      "body": [
+        "Újabb fordulat nehezíti az olasz bankszektor eddigi legnagyobb tőzsdei ügyletét, miután a Portfolio beszámolója szerint az Intesa Sanpaolo szombaton tovább javította a Monte dei Paschi di Siena megvásárlására vonatkozó ajánlatát. A korábbi részvényenkénti 1 eurós készpénzes elemet 1,25 euróra tornázták fel, amihez továbbra is 1,6 újonnan kibocsátott Intesa-részvény jár. A lépés értelmében az olasz bankóriás további 800 millió eurónyi készpénzt ígér az MPS részvényesei számára arra az esetre, ha elutasítják a vezetés által kidolgozott ellenajánlatot.",
+        "A háttérben az MPS vezérigazgatója, Luigi Lovaglio próbálja keresztüllvinni a saját elképzeléseit, amelyekkel szembehelyezkedne az óriásbank júniusi ajánlatával. Az olasz felvásárlási szabályok alapján a vezető kizárólag a tulajdonosok jóváhagyásával léphet tovább, ezért október 29-re hívott össze részvényesi szavazást a stratégiájáról. A tervek szerint az MPS két különálló, részvénycserés tranzakciót indítana: az egyiket a Banca Generali vagyonkezelőre, a másikat pedig a rivális Banco BPM-re szabnák.",
+        "Az Intesa Sanpaolo azonnal jelezte, hogy komoly következményei lesznek a hónap végén esedékes döntésnek. Amennyiben az MPS részvényesei október 29-én bármelyik felvásárlást jóváhagyják, azzal jogalapot teremtenek a rivális ajánlat azonnali visszavonására, amit a bankóriás érvényesíteni is kíván. A befektetők számára ez azt jelenti, hogy a hónap végén nem csupán két különböző üzleti jövőkép között kell választaniuk, hanem közvetlenül döntenek az elmúlt két évben zajló tucatnyi olasz banki tranzakció legnagyobbikának sorsáról is."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 254,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/4ca11c08d1641c75.jpg",
+        "width": 4004,
+        "height": 2252,
+        "kind": "photo",
+        "alt": "money, currency, euro, eurocent, pay, euro banknote, banknote, small, five, coin, euro, euro, euro, euro, euro, coin",
+        "credit": "LubosHouska / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/money-currency-euro-eurocent-pay-1170663/",
+        "vision_score": 8.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/4ca11c08d1641c75.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/bank/20261003/folytatodik-az-olasz-bankfelvasarlasi-haboru-867148",
+          "title": "Folytatódik az olasz bankfelvásárlási háború",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T08:05:19+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-04T08:15:04+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/bank/20261003/folytatodik-az-olasz-bankfelvasarlasi-haboru-867148"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/penzvilag/2026-10-04-nyolcszazmillio-euros-raemelessel-uzent-az-olasz-bankorias/",
+      "seo": {
+        "meta_title": "Nyolcszázmillió eurós ráemeléssel üzent az olasz bankóriás",
+        "meta_description": "Az Intesa Sanpaolo alaposan megemelte a Monte dei Paschi di Siena felvásárlására tett ajánlatát, miután a célpont vezetése saját ellenstratégiával próbálja véde",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-04-nyolcszazmillio-euros-raemelessel-uzent-az-olasz-bankorias/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/4ca11c08d1641c75.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "1ed90415b3f64a8915ff13b397d62c5f84a58154d09c7e28239b709d5cda5169",
+      "pipeline_run_id": "37181702317",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T08:15:04+02:00",
+      "updated_at": "2026-10-04T08:15:04+02:00",
+      "published_at": "2026-10-04T08:15:04+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "Intesa Sanpaolo",
+        "Monte dei Paschi di Siena",
+        "Luigi Lovaglio",
+        "Banca Generali",
+        "Banco BPM",
+        "bank building",
+        "financial district",
+        "business meeting",
+        "Italian Euro banknotes",
+        "Milan stock exchange building",
+        "Rome financial district",
+        "Italian banking headquarters",
+        "euro coins and banknotes",
+        "financial transaction",
+        "business negotiation"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Palazzo_mezzanotte_Milan_Stock_Exchange.jpg/1280px-Palazzo_mezzanotte_Milan_Stock_Exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Avezzano_Intesa_Sanpaolo.jpg/1280px-Avezzano_Intesa_Sanpaolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Lecce_palazzo_Intesa_Sanpaolo.jpg/1280px-Lecce_palazzo_Intesa_Sanpaolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/-_ITALY_-_Intesa_Sanpaolo_filiale.JPG/1280px--_ITALY_-_Intesa_Sanpaolo_filiale.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Grattacielo_Intesa_Sanpaolo_Torino.jpg/1280px-Grattacielo_Intesa_Sanpaolo_Torino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
+    },
     {
       "id": "4d58d7a1-de03-5abc-84b1-0bb368b86571",
       "slug": "2026-10-04-tortenelmi-attorest-hozhat-az-anthropic-mesterseges-intelligenciajana",
