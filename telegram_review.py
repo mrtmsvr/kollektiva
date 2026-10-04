@@ -649,7 +649,11 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 tg("sendMessage", {"chat_id": st["chat_id"], "text": f"🗑 {len(lst) - len(left)} csatorna törölve."})
             elif re.match(r"(?i)/csatorna\b", text):
                 import videos
-                src = videos.parse_source(text.split(maxsplit=1)[1] if len(text.split(maxsplit=1)) > 1 else "")
+                arg = text.split(maxsplit=1)[1] if len(text.split(maxsplit=1)) > 1 else ""
+                src = videos.parse_source(arg)
+                mm = re.search(r"\b(\d{1,3})\s*(?:perc|p|min)\b", arg)
+                if src and mm:  # pl. „/csatorna @valaki 3 perc” – ennél rövidebb videóról nem ír
+                    src["min_minutes"] = int(mm.group(1))
                 if src and videos.resolve_channel(src):
                     lst = videos.load_sources()
                     if not any(x.get("channel_id") == src["channel_id"] for x in lst):
