@@ -12747,28 +12747,49 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Avezzano_Intesa_Sanpaolo.jpg/1280px-Avezzano_Intesa_Sanpaolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
+          "url": "https://pixabay.com/get/g0d9bd071b3c948779141c0541ec6796fd3cd416a4f82fd957a07a091d3346ba513cac19dc88c479715ea61fd1c7826a749e1c6f8e46660e77d03476281e6ba92_1280.jpg",
+          "width": 4004,
+          "height": 2252,
           "kind": "photo",
-          "pos": "center",
-          "alt": "Avezzano, Abruzzo, Italia",
-          "credit": "Marica Massaro / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Avezzano_Intesa_Sanpaolo.jpg",
+          "alt": "money, currency, euro, eurocent, pay, euro banknote, banknote, small, five, coin, euro, euro, euro, euro, euro, coin",
+          "credit": "LubosHouska / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/money-currency-euro-eurocent-pay-1170663/",
           "vision_score": 8.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Lecce_palazzo_Intesa_Sanpaolo.jpg/1280px-Lecce_palazzo_Intesa_Sanpaolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1081,
+          "url": "https://live.staticflickr.com/2819/11817477546_61bcbb8463_b.jpg",
+          "width": 1024,
+          "height": 683,
           "kind": "photo",
-          "pos": "top",
-          "alt": "Palazzo di Intesa Sanpaolo a Lecce.",
-          "credit": "Saggittarius A / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Lecce_palazzo_Intesa_Sanpaolo.jpg",
-          "vision_score": 5.0
+          "alt": "Euro",
+          "credit": "Janitors / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/65265630@N03/11817477546",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://live.staticflickr.com/2888/11816994903_676be209f2_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Latvian Euro",
+          "credit": "Janitors / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/65265630@N03/11816994903",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Euro_coins_and_banknotes_%28cropped%29.jpg/1280px-Euro_coins_and_banknotes_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A picture of some Euro banknotes and various Euro coins.",
+          "credit": "Avij (talk · contribs) / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Euro_coins_and_banknotes_(cropped).jpg",
+          "vision_score": 7.0
         }
       ],
       "story": [
@@ -12824,9 +12845,13 @@
           2212,
           2213,
           2236,
-          2237
+          2237,
+          2241,
+          2242,
+          2243,
+          2244
         ],
-        "control_id": 2238
+        "control_id": 2245
       },
       "image_queries": [
         "Intesa Sanpaolo",
@@ -12836,12 +12861,21 @@
         "Banco BPM",
         "bank building",
         "financial district",
-        "business meeting"
+        "business meeting",
+        "Italian Euro banknotes",
+        "Milan stock exchange building",
+        "Rome financial district",
+        "Italian banking headquarters",
+        "euro coins and banknotes",
+        "financial transaction",
+        "business negotiation"
       ],
       "images_seen": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Grattacielo_Intesa_Sanpaolo_Torino.jpg/1280px-Grattacielo_Intesa_Sanpaolo_Torino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Palazzo_mezzanotte_Milan_Stock_Exchange.jpg/1280px-Palazzo_mezzanotte_Milan_Stock_Exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/-_ITALY_-_Intesa_Sanpaolo_filiale.JPG/1280px--_ITALY_-_Intesa_Sanpaolo_filiale.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Avezzano_Intesa_Sanpaolo.jpg/1280px-Avezzano_Intesa_Sanpaolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Lecce_palazzo_Intesa_Sanpaolo.jpg/1280px-Lecce_palazzo_Intesa_Sanpaolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/-_ITALY_-_Intesa_Sanpaolo_filiale.JPG/1280px--_ITALY_-_Intesa_Sanpaolo_filiale.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Grattacielo_Intesa_Sanpaolo_Torino.jpg/1280px-Grattacielo_Intesa_Sanpaolo_Torino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
     },
     {
