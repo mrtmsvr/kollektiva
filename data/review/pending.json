@@ -11598,28 +11598,86 @@
           "vision_score": 8.0
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Tokaj_winemaker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/German_WW2_bayonet_Wehrmacht_Luftwaffe_handkerchief_etc._Camp_White_Military_Museum%2C_Oregon%2C_US.jpg/1280px-German_WW2_bayonet_Wehrmacht_Luftwaffe_handkerchief_etc._Camp_White_Military_Museum%2C_Oregon%2C_US.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1806,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Winemakers from Slovakian Tokaj use wine thief to extract wine from the barrel.",
-          "credit": "Igor.vizner / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Tokaj_winemaker.jpg",
-          "vision_score": 6.0
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Wine_Cellar_in_Slovakian_Tokaj.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 796,
+          "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "A wine cellar in the village of Vinicky, one of the seven classified Tokaj villages in Slovakia.",
-          "credit": "Igor.vizner / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Wine_Cellar_in_Slovakian_Tokaj.jpg",
-          "vision_score": 6.0
+          "alt": "Close-up of a German WW2 bayonet, a Wehrmacht Luftwaffe handkerchief etc. on display at The Camp White Military Museum. The collections holds countless pieces of war memorabilia and personal stories a",
+          "credit": "Bureau of Land Management Oregon and Washington / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:German_WW2_bayonet_Wehrmacht_Luftwaffe_handkerchief_etc._Camp_White_Military_Museum,_Oregon,_US.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Military_Situation_in_Hungary_between_22.03.1849-09.04.1849.png/1280px-The_Military_Situation_in_Hungary_between_22.03.1849-09.04.1849.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 864,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "On 22 March 1849 the Hungarian troops from Southern Hungary led by General Mór Perczel, started an offensive against the Serbian troops from Bácska, defeating them, and relieving from the north the Hu",
+          "credit": "Sylvain5791 / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:The_Military_Situation_in_Hungary_between_22.03.1849-09.04.1849.png"
+        },
+        {
+          "url": "https://pixabay.com/get/g98d87900a4d5bf6c3054663e751b37f996345d8ffc8e399388e58fa34f2230d04d7cc88dc7cf99cf982f99a13055149f272f53375d860ded382c18fff0dc82e5_1280.jpg",
+          "width": 5504,
+          "height": 3072,
+          "kind": "photo",
+          "alt": "business meeting, handshake, managers, at the negotiating table, business deal, meeting in office, negotiation, collaboration, competition, working group, communication, electric lights, company, agre",
+          "credit": "geralt / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/business-meeting-handshake-managers-10448876/"
+        },
+        {
+          "url": "https://pixabay.com/get/g2517f9070ab7287a71ddf57ea86069b76089e1d253fe18c1457268974f9217e3066dd389db5c042456facd5d1f0cf08e6b41b86150e4e82425814c78772e3041_1280.jpg",
+          "width": 4800,
+          "height": 3584,
+          "kind": "photo",
+          "alt": "handshake, meeting, businesswoman, office, recruitment, diversity, spring environment, meeting room, collaboration, business agreement, professional environment, business growth, career development, e",
+          "credit": "erwinbosman / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/handshake-meeting-businesswoman-10496836/"
+        },
+        {
+          "url": "https://live.staticflickr.com/7351/14090438714_33bec862fe_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Handshake man - women",
+          "credit": "flazingo_photos / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/124247024@N07/14090438714"
+        },
+        {
+          "url": "https://live.staticflickr.com/5198/13903385550_39f7316982_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Handshake - 2 men",
+          "credit": "flazingo_photos / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/124247024@N07/13903385550"
+        },
+        {
+          "url": "https://pixabay.com/get/g13f77003007504bc43cf9466a8eef5bde4f5c82788f0a840223dac82bdab3f0e7d7a4d0cec6c5e339116b8a57cb86282953151909e89e455748129f8aabe70f2_1280.jpg",
+          "width": 5722,
+          "height": 3815,
+          "kind": "photo",
+          "alt": "bricks, chairs, classroom, empty, office, room, tables, wall, brick walls, office, office, office, office, office",
+          "credit": "Pexels / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/bricks-chairs-classroom-empty-2181920/"
+        },
+        {
+          "url": "https://pixabay.com/get/g20d7754a66a38374e6a5b5d4c73087107d9008eb529f361d714f42e8b3c2ff6552df26f003bc177c08b83f2de1e97f688e2fe9dcccaa2bbe8b543f0e71a19dee_1280.jpg",
+          "width": 4213,
+          "height": 2370,
+          "kind": "photo",
+          "alt": "chair, couch, furniture, road, armchair, street, seat, neighborhood, neighborhood street, chair, chair, chair, chair, chair, furniture",
+          "credit": "Pexels / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/chair-couch-furniture-road-1840011/"
         }
       ],
       "story": [
@@ -11700,9 +11758,18 @@
           2144,
           2169,
           2170,
-          2171
+          2171,
+          2175,
+          2176,
+          2177,
+          2178,
+          2179,
+          2180,
+          2181,
+          2182,
+          2183
         ],
-        "control_id": 2172
+        "control_id": 2184
       },
       "image_queries": [
         "Erdőbénye",
@@ -11719,11 +11786,20 @@
         "Hungarian currency forint",
         "cabinet meeting",
         "economic chart",
-        "pension document"
+        "pension document",
+        "Erdőbénye village sign",
+        "Tokaj wine country landscape",
+        "Hungarian military camp",
+        "rural Hungarian village street",
+        "business negotiation meeting",
+        "empty chair",
+        "village landscape"
       ],
       "images_seen": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG/1280px-Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Magyar_Honv%C3%A9ds%C3%A9g%2C_%C5%91rtorony%2C_T%C3%A9glagy%C3%A1rd%C5%B1l%C5%91%2C_2018_K%C5%91b%C3%A1nya.jpg/1280px-Magyar_Honv%C3%A9ds%C3%A9g%2C_%C5%91rtorony%2C_T%C3%A9glagy%C3%A1rd%C5%B1l%C5%91%2C_2018_K%C5%91b%C3%A1nya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/9/92/Wine_Cellar_in_Slovakian_Tokaj.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG/1280px-Erd%C5%91b%C3%A9nye%2C_l%C3%A1tk%C3%A9p.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/9/95/Tokaj_winemaker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Erd%C5%91b%C3%A9nye_-_panoramio.jpg/1280px-Erd%C5%91b%C3%A9nye_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ],
       "live": true
