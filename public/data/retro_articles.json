@@ -1,7 +1,124 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T04:16:18+02:00",
+  "updated_at": "2026-10-05T00:36:27+02:00",
   "articles": [
+    {
+      "id": "fa1a508d-8517-5730-9350-11eb8535ef6e",
+      "slug": "2026-10-05-a-gazdasagi-csapas-amely-megpecsetelte-del-vietnam-sorsat",
+      "status": "published",
+      "category": "retro",
+      "subcategory": null,
+      "tags": [
+        "Dél-Vietnám",
+        "hidegháború",
+        "egyesült államok",
+        "történelem"
+      ],
+      "title": "A gazdasági csapás, amely megpecsételte Dél-Vietnám sorsát",
+      "subtitle": null,
+      "lead": "Az Amerikai Egyesült Államok 1963 októberében drasztikus lépésre szánta el magát: felfüggesztette a dél-vietnámi gazdaság legfontosabb támaszát jelentő kereskedelmi importprogramot. Ezzel a döntéssel Washington világos jelzést küldött a Ngô Đình Diệm elnök vezette rezsimnek a buddhisták elnyomása miatt.",
+      "content": "> A kereskedelmi importprogram felfüggesztése világos jelzés volt Washington részéről: a feltétel nélküli támogatásnak korlátai vannak.\n\nA hidegháborús geopolitikai sakktáblán Dél-Vietnám kiemelt jelentőséggel bírt a Nyugati Blokk számára. Az 1954-es genfi konferenciát követően felosztott ország déli része hivatalosan 1955-ben alakult köztársasággá, fővárosaként Saigonnal. A megalakulásától kezdve komoly belső és külső kihívásokkal küzdő állam fennmaradása szinte teljes egészében az Egyesült Államok folyamatos katonai és gazdasági támogatásától függött.\n\nEnnek a segélyezési rendszernek a gerincét a Commercial Import Program, vagyis a kereskedelmi importprogram alkotta, amely 1955 januárjától kezdve biztosította a gazdasági stabilitást. A CIP nem csupán egyszerű segély volt, hanem egy átfogó gazdasági megállapodás Dél-Vietnám és fő támogatója között, amely hosszú távon meghatározta a dél-vietnámi piac működését és ellátását.\n\nAzonban az 1963-as év komoly politikai feszültségeket hozott a felszínre. A Ngô Đình Diệm elnök kormánya által végrehajtott buddhistaellenes intézkedések és a kibontakozó elnyomás nem maradt válasz nélkül Washingtonban. Az Amerikai Egyesült Államok vezetése úgy ítélte meg, hogy a belső elégedetlenséget szító politika veszélyezteti a közös célokat és a stabilitást.\n\nOktóber 5-én érkezett el a fordulópont, amikor az Egyesült Államok hivatalosan is felfüggesztette ezt a létfontosságú programot. Ez a lépés egyértelmű üzenet volt: Washington nem kívánt feltétel nélkül asszisztálni a belső elnyomáshoz, még egy olyan kulcsfontosságú stratégiai szövetséges esetében sem, mint a dél-vietnámi köztársaság.\n\nA kereskedelmi importprogram története végül messze túlmutatott ezen az 1963-as krízisen. A program – kisebb-nagyobb megszakításokkal és átalakulásokkal – egészen a saigoni kormány bukásáig, 1975-ig fennmaradt. Az amerikai erők 1973-as, a tűzszüneti megállapodást követő kivonulása után azonban Észak-Vietnám inváziója elsöpörte a rendszert.\n\nAz 1975-ös év Dél-Vietnám végét jelentette, miközben a helyét a kommunista ellenőrzés alatt álló Dél-Vietnámi Köztársaság vette át, amelyet egy évvel később Észak-Vietnámmal egyesítve megalapították a Vietnami Szocialista Köztársaságot. Az 1963 októberi felfüggesztés mindezek előzményeként rávilágított arra, hogy a hatalmas amerikai támogatás sem volt korlátlan a hidegháborús szövetségesek belső politikájával szemben.",
+      "content_format": "markdown",
+      "body": [
+        "A hidegháborús geopolitikai sakktáblán Dél-Vietnám kiemelt jelentőséggel bírt a Nyugati Blokk számára. Az 1954-es genfi konferenciát követően felosztott ország déli része hivatalosan 1955-ben alakult köztársasággá, fővárosaként Saigonnal. A megalakulásától kezdve komoly belső és külső kihívásokkal küzdő állam fennmaradása szinte teljes egészében az Egyesült Államok folyamatos katonai és gazdasági támogatásától függött.",
+        "Ennek a segélyezési rendszernek a gerincét a Commercial Import Program, vagyis a kereskedelmi importprogram alkotta, amely 1955 januárjától kezdve biztosította a gazdasági stabilitást. A CIP nem csupán egyszerű segély volt, hanem egy átfogó gazdasági megállapodás Dél-Vietnám és fő támogatója között, amely hosszú távon meghatározta a dél-vietnámi piac működését és ellátását.",
+        "Azonban az 1963-as év komoly politikai feszültségeket hozott a felszínre. A Ngô Đình Diệm elnök kormánya által végrehajtott buddhistaellenes intézkedések és a kibontakozó elnyomás nem maradt válasz nélkül Washingtonban. Az Amerikai Egyesült Államok vezetése úgy ítélte meg, hogy a belső elégedetlenséget szító politika veszélyezteti a közös célokat és a stabilitást.",
+        "Október 5-én érkezett el a fordulópont, amikor az Egyesült Államok hivatalosan is felfüggesztette ezt a létfontosságú programot. Ez a lépés egyértelmű üzenet volt: Washington nem kívánt feltétel nélkül asszisztálni a belső elnyomáshoz, még egy olyan kulcsfontosságú stratégiai szövetséges esetében sem, mint a dél-vietnámi köztársaság.",
+        "A kereskedelmi importprogram története végül messze túlmutatott ezen az 1963-as krízisen. A program – kisebb-nagyobb megszakításokkal és átalakulásokkal – egészen a saigoni kormány bukásáig, 1975-ig fennmaradt. Az amerikai erők 1973-as, a tűzszüneti megállapodást követő kivonulása után azonban Észak-Vietnám inváziója elsöpörte a rendszert.",
+        "Az 1975-ös év Dél-Vietnám végét jelentette, miközben a helyét a kommunista ellenőrzés alatt álló Dél-Vietnámi Köztársaság vette át, amelyet egy évvel később Észak-Vietnámmal egyesítve megalapították a Vietnami Szocialista Köztársaságot. Az 1963 októberi felfüggesztés mindezek előzményeként rávilágított arra, hogy a hatalmas amerikai támogatás sem volt korlátlan a hidegháborús szövetségesek belső politikájával szemben."
+      ],
+      "pull_quote": "A kereskedelmi importprogram felfüggesztése világos jelzés volt Washington részéről: a feltétel nélküli támogatásnak korlátai vannak.",
+      "reading_time_min": 2,
+      "word_count": 341,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Flag_of_South_Vietnam.svg/1280px-Flag_of_South_Vietnam.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "graphic",
+        "pos": "center",
+        "alt": "Flag of South Vietnam (1948–1975)",
+        "credit": "(many, see history) / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Vietnam.svg"
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Commercial_Import_Program",
+          "title": "Commercial Import Program",
+          "publisher": "Wikipedia",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-05T00:36:27+02:00"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/South_Vietnam",
+          "title": "South Vietnam",
+          "publisher": "Wikipedia",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-05T00:36:27+02:00"
+        },
+        {
+          "url": "https://hu.wikipedia.org/wiki/Vietn%C3%A1mi_K%C3%B6zt%C3%A1rsas%C3%A1g",
+          "title": "Vietnámi Köztársaság",
+          "publisher": "Wikipédia",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-05T00:36:27+02:00"
+        },
+        {
+          "url": "https://id.loc.gov/authorities/n96003700",
+          "title": "Library of Congress",
+          "publisher": "Library of Congress",
+          "license": null,
+          "accessed_at": "2026-10-05T00:36:27+02:00"
+        },
+        {
+          "url": "https://www.newyorker.com/news/amy-davidson/madame-nhus-match",
+          "title": "The New Yorker",
+          "publisher": "The New Yorker",
+          "license": null,
+          "accessed_at": "2026-10-05T00:36:27+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "retro-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "event_year": 1963,
+        "event_date": "10-05",
+        "event_title": "The U.S. suspended the Commercial Import Program, its main economic support for South Vietnam, in response to the oppres"
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/retro/2026-10-05-a-gazdasagi-csapas-amely-megpecsetelte-del-vietnam-sorsat/",
+      "seo": {
+        "meta_title": "A gazdasági csapás, amely megpecsételte Dél-Vietnám sorsát",
+        "meta_description": "Az Amerikai Egyesült Államok 1963 októberében drasztikus lépésre szánta el magát: felfüggesztette a dél-vietnámi gazdaság legfontosabb támaszát jelentő keresked",
+        "canonical_url": "https://xn--kollektva-m5a.hu/retro/2026-10-05-a-gazdasagi-csapas-amely-megpecsetelte-del-vietnam-sorsat/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "Article"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "004201761540149021822da43539bfa58ca0bbec84171a286503779b4123e9d3",
+      "pipeline_run_id": "37240510062",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T00:36:27+02:00",
+      "updated_at": "2026-10-05T00:36:27+02:00",
+      "published_at": "2026-10-05T00:36:27+02:00",
+      "expires_at": null
+    },
     {
       "id": "4fdd9933-80eb-5d1e-b58d-52f44efba846",
       "slug": "2026-10-04-a-broodseindei-attores-amikor-megrendult-a-nemet-4-hadsereg-moralja",
