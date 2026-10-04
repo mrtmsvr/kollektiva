@@ -10,6 +10,9 @@ folyamat (lektor, tényellenőrzés, idézetellenőrzés, képek) cikket ír, a 
 
 Csatornák: data/video_sources.json (Telegramon: /csatorna <YouTube-link vagy @név>, /csatornak).
 Napi keret: VIDEO_DAILY_MAX (alap 3), futásonként legfeljebb 1 videó; óránként egyszer néz rá a csatornákra.
+Csak a VIDEO_MIN_MINUTES-nél (alap 20 perc) hosszabb videók – csatornánként felülírható ("min_minutes"),
+pl. politikusok rövid bejelentéseihez kisebb érték; a shortsok, előzetesek kimaradnak, a többiről a Gemini dönti el,
+hogy van-e benne hír.
 """
 from __future__ import annotations
 
@@ -67,6 +70,18 @@ def resolve_channel(src: dict) -> Optional[str]:
     """@név -> csatornaazonosító (UC…), a csatornaoldalból; az eredményt eltároljuk."""
     if src.get("channel_id"):
         return src["channel_id"]
+    if src.get("video"):
+        try:
+            page = _get(f"https://www.youtube.com/watch?v={src['video']}")
+        except (urllib.error.URLError, TimeoutError, OSError):
+            return None
+        m = re.search(r'"channelId":"(UC[\w-]{22})"', page)
+        n = re.search(r'"ownerChannelName":"([^"]+)"', page)
+        if m:
+            src.update({"channel_id": m.group(1), "name": n.group(1) if n else m.group(1)})
+            src.pop("video", None)
+            return m.group(1)
+        return None
     h = str(src.get("handle") or "").lstrip("@")
     if not h:
         return None
@@ -90,6 +105,9 @@ def parse_source(text: str) -> Optional[dict]:
     m = re.search(r"youtube\.com/channel/(UC[\w-]{22})", t)
     if m:
         return {"name": m.group(1), "channel_id": m.group(1)}
+    m = re.search(r"(?:watch\?v=|youtu\.be/|/live/)([\w-]{11})", t)
+    if m:  # videólink: a csatornát a videó oldaláról olvassuk ki
+        return {"name": m.group(1), "video": m.group(1)}
     m = re.search(r"(?:youtube\.com/)?@([\w.\-]+)", t)
     if m:
         return {"name": m.group(1), "handle": m.group(1)}
@@ -118,6 +136,16 @@ def latest_videos(channel_id: str) -> list:
             out.append({"id": vid, "title": title, "published": pub, "description": desc, "author": author,
                         "url": f"https://www.youtube.com/watch?v={vid}"})
     return out
+
+
+def video_minutes(vid: str) -> Optional[int]:
+    """A videó hossza percben (a videóoldalból); ha nem derül ki, None (ilyenkor a Gemini dönt)."""
+    try:
+        page = _get(f"https://www.youtube.com/watch?v={vid}")
+    except (urllib.error.URLError, TimeoutError, OSError):
+        return None
+    m = re.search(r'"lengthSeconds":"(\d+)"', page)
+    return int(m.group(1)) // 60 if m else None
 
 
 def watch(ai: "kc.AIClient", v: dict) -> Optional[dict]:
@@ -203,6 +231,12 @@ def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: boo
             if age > timedelta(hours=36) or SKIP.search(v["title"]):
                 seen.add(v["id"])  # régi vagy nem cikkbe való – többet nem nézzük
                 continue
+            mins = int(src.get("min_minutes", os.getenv("VIDEO_MIN_MINUTES", "20")))
+            dur = video_minutes(v["id"])
+            if dur is not None and dur < mins:
+                seen.add(v["id"])  # túl rövid (rövid klip, részlet) – nem írunk belőle cikket
+                continue
+            v["minutes"] = dur
             cands.append(v)
     save_sources(sources)
     made = 0
