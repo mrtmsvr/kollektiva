@@ -244,6 +244,8 @@ def _control(art: dict) -> tuple:
                  {"text": "🎨 Grafika", "callback_data": f"{sid}|gen"}])
     rows.append([{"text": "✏️ Saját cím", "callback_data": f"{sid}|ct"},
                  {"text": "📄 Teljes szöveg", "callback_data": f"{sid}|txt"}])
+    if (art.get("legal") or {}).get("issues"):
+        rows.append([{"text": "⚖️ Jogi javítás (a jelzések alapján)", "callback_data": f"{sid}|lfix"}])
     live = art.get("live")
     rows.append([{"text": "✅ Rendben" if live else "✅ Kirakom", "callback_data": f"{sid}|ok"},
                  {"text": "🗑 Törlés" if live else "🗑 Elvetem", "callback_data": f"{sid}|no"}])
@@ -294,7 +296,8 @@ def send_article(_out_dir: Optional[Path], art: dict) -> None:
         log.warning("Jogi ellenőrzés kimaradt: %s", e)
     kind = "🟢 KINT VAN" if art.get("live") else ("🗓 SAJÁT (időzített)" if art.get("offtopic") else "🆕 ÚJ")
     if isinstance(art.get("video"), dict) and not art.get("live"):
-        kind = f"🎬 VIDEÓBÓL ({art['video'].get('channel') or 'YouTube'})"
+        _m = art["video"].get("minutes")
+        kind = f"🎬 VIDEÓBÓL ({art['video'].get('channel') or 'YouTube'}{f', {_m} perces videó' if _m else ''})"
     resent = art.pop("resent", None)
     if resent == "v":
         kind = "♻️ VISSZAVÉVE JAVÍTÁSRA (ugyanaz a cikk, nem új)"
@@ -908,6 +911,28 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Grafikát készítek (kb. 30 mp)…"})
                 q = None
                 published += _make_graphic(st["chat_id"], out_dir, art, ai, tz)
+            elif act == "lfix":
+                tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Javítom a jogi jelzések alapján…"})
+                q = None
+                import legal
+                aic = ai or kc.AIClient(kc.Config.from_env())
+                done = legal.fix(aic, art)
+                if not done:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": art["review"].get("control_id"),
+                                       "text": "A jogi javítás most nem sikerült – próbáld újra, vagy /c és /u."})
+                else:
+                    res = legal.review(aic, art)
+                    if art.get("live"):
+                        _apply_live(out_dir, art, tz, content=True)
+                        published += 1
+                    changed = True
+                    tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": art["review"].get("control_id"),
+                                       "text": "⚖️ Javítva:\n" + "\n".join("• " + c for c in done.get("changes") or ["a kifogásolt részek"])
+                                       + "\n\n" + (legal.summary(res) or "") + "\n\n📄 Teljes szöveg gombbal megnézheted."})
+                    tg("deleteMessage", {"chat_id": st["chat_id"], "message_id": art["review"].get("control_id")})
+                    text_, kb_ = _control(art)
+                    art["review"]["control_id"] = _mid(tg("sendMessage", {"chat_id": st["chat_id"], "text": text_,
+                                                                          "parse_mode": "HTML", "reply_markup": kb_}))
             elif act == "txt":
                 note = "Teljes szöveg alább"
                 for part in _chunks("\n\n".join(art.get("body", []))):
