@@ -1,7 +1,122 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T17:38:41+02:00",
+  "updated_at": "2026-10-04T17:43:49+02:00",
   "articles": [
+    {
+      "id": "a39c4886-21f7-55c1-840b-3d07c0270013",
+      "slug": "2026-10-04-a-nemet-jarmuipar-lejtojen-tancol-magyarorszag",
+      "status": "published",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "autóipar",
+        "Németország",
+        "BMW",
+        "Mercedes",
+        "Audi"
+      ],
+      "title": "A német járműipar lejtőjén táncol Magyarország?",
+      "subtitle": null,
+      "lead": "Az európai járműipar történetének egyik legsúlyosabb válságát éli át a gyengülő kereslet és a távol-keleti konkurencia miatt, miközben a hazai üzemekben rekordkapacitások épülnek ki. A kettős helyzet komoly gazdasági kihívásokat és lehetőségeket is tartogat Magyarország számára.",
+      "key_points": [
+        "A Volkswagen négy németországi gyár bezárásáról és ötvenezer munkahely leépítéséről döntött.",
+        "A német autógyártók piaci részesedése 37,6 százalékról 35,3 százalékra esett vissza Európában 2021 és 2026 között.",
+        "Magyarországon a németországihoz képest mintegy hetven százalékkal olcsóbb lehet az autógyártás.",
+        "Debrecenben elindult a BMW sorozatgyártása, míg Kecskeméten egymilliárd eurós Mercedes-bővítés zajlik."
+      ],
+      "content": "Az európai autógyártás nehéz időszakon megy keresztül az elmúlt években kibontakozó válság miatt, amelyet a gyengülő belföldi kereslet, az elektromos átállás nehézségei és az amerikai importvámok súlyosbítanak. Az Európai Autógyártók Szövetségének adatai szerint a Volkswagen, a Mercedes és a BMW csoport együttes európai piaci részesedése a 2021-es 37,6 százalékról 2026 első félévére 35,3 százalékra csökkent, miközben a kínai gyártók piaci szelete 1,5 százalékról közel 9 százalékra emelkedett. Ezzel párhuzamosan a Volkswagen újabb negyvenezer-ötvenezer munkahely megszűnéséről és négy németországi üzem bezárásáról határozott, míg a BMW és a Mercedes kínai eladásai harminc százalékkal zuhantak a 2026-os második negyedévben az előző év azonos időszakához képest.\n\nA németországi központú autógyártókat sújtó strukturális gondok ellenére a hazai gazdaság helyzete jelentősen eltér a nyugat-európai trendektől. A Germany Trade and Invest (GTAI) elemzése szerint az európai autóipari válság bizonyos szempontból kedvez a magyarországi gyártókapacitások bővülésének. A járműipar a teljes hazai ipari termelés mintegy negyedét adja, így a német piac problémái korábban a magyar statisztikákban is meglátszottak: a legyártott személyautók száma két év alatt 507 222-ről 411 776-ra esett vissza, a járművek és alkatrészek termelési értéke pedig 2024-ben és 2025-ben is csökkent.\n\nA negatív trend ellenére 2025 végétől új szakasz vette kezdetét a hazai szektorban az alacsony termelési költségeknek és a már kiépült infrastruktúrának köszönhetően. Az Eurostat adatai alapján Magyarországon 2025-ben egy munkaóra átlagos költsége 15,20 euró volt, ami az EU egyik legalacsonyabb értéke, ráadásul a nominális társasági adó kulcsa 9 százalék. Ezzel szemben a német ipari munkaerő óránkénti költsége 49,50 euró körül alakult, a Mercedes számításai szerint pedig mintegy 70 százalékkal olcsóbb Magyarországon autót gyártani, mint Németországban.\n\nA költségelőnyök hatására jelentős beruházások valósulnak meg a hazai helyszíneken, amelyek mentőövet jelentenek az ágazatnak.",
+      "content_format": "markdown",
+      "body": [
+        "Az európai autógyártás nehéz időszakon megy keresztül az elmúlt években kibontakozó válság miatt, amelyet a gyengülő belföldi kereslet, az elektromos átállás nehézségei és az amerikai importvámok súlyosbítanak. Az Európai Autógyártók Szövetségének adatai szerint a Volkswagen, a Mercedes és a BMW csoport együttes európai piaci részesedése a 2021-es 37,6 százalékról 2026 első félévére 35,3 százalékra csökkent, miközben a kínai gyártók piaci szelete 1,5 százalékról közel 9 százalékra emelkedett. Ezzel párhuzamosan a Volkswagen újabb negyvenezer-ötvenezer munkahely megszűnéséről és négy németországi üzem bezárásáról határozott, míg a BMW és a Mercedes kínai eladásai harminc százalékkal zuhantak a 2026-os második negyedévben az előző év azonos időszakához képest.",
+        "A németországi központú autógyártókat sújtó strukturális gondok ellenére a hazai gazdaság helyzete jelentősen eltér a nyugat-európai trendektől. A Germany Trade and Invest (GTAI) elemzése szerint az európai autóipari válság bizonyos szempontból kedvez a magyarországi gyártókapacitások bővülésének. A járműipar a teljes hazai ipari termelés mintegy negyedét adja, így a német piac problémái korábban a magyar statisztikákban is meglátszottak: a legyártott személyautók száma két év alatt 507 222-ről 411 776-ra esett vissza, a járművek és alkatrészek termelési értéke pedig 2024-ben és 2025-ben is csökkent.",
+        "A negatív trend ellenére 2025 végétől új szakasz vette kezdetét a hazai szektorban az alacsony termelési költségeknek és a már kiépült infrastruktúrának köszönhetően. Az Eurostat adatai alapján Magyarországon 2025-ben egy munkaóra átlagos költsége 15,20 euró volt, ami az EU egyik legalacsonyabb értéke, ráadásul a nominális társasági adó kulcsa 9 százalék. Ezzel szemben a német ipari munkaerő óránkénti költsége 49,50 euró körül alakult, a Mercedes számításai szerint pedig mintegy 70 százalékkal olcsóbb Magyarországon autót gyártani, mint Németországban.",
+        "A költségelőnyök hatására jelentős beruházások valósulnak meg a hazai helyszíneken, amelyek mentőövet jelentenek az ágazatnak."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 326,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/a39c488621-1791128518-1.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/a39c488621-1791128518-1.jpg",
+        "kind": "photo",
+        "alt": "A német járműipar lejtőjén táncol Magyarország?",
+        "likeness": false,
+        "credit": "Kollektíva illusztráció",
+        "license": "saját grafika",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261004/rossz-hirek-erkeznek-nemetorszagbol-de-miert-nem-erzi-ezt-magyarorszag-866662",
+          "title": "Rossz hírek érkeznek Németországból, de miért nem érzi ezt Magyarország?",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T17:37:37+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/autoipar-nemet-magyarorszag-jarmuipar-bmw-audi-mercedes?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "BMW, Mercedes, Audi: a németek most számolták ki, miért lett Magyarország autóipari nagyhatalom – brutális kapacitás épül, több lehet mentőövnél",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T17:37:37+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-04T17:43:49+02:00"
+      },
+      "hot_score": 7.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261004/rossz-hirek-erkeznek-nemetorszagbol-de-miert-nem-erzi-ezt-magyarorszag-866662"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/vilag/2026-10-04-a-nemet-jarmuipar-lejtojen-tancol-magyarorszag/",
+      "seo": {
+        "meta_title": "A német járműipar lejtőjén táncol Magyarország?",
+        "meta_description": "Az európai járműipar történetének egyik legsúlyosabb válságát éli át a gyengülő kereslet és a távol-keleti konkurencia miatt, miközben a hazai üzemekben rekordk",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-04-a-nemet-jarmuipar-lejtojen-tancol-magyarorszag/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/a39c488621-1791128518-1.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "64c21da6-f065-583d-87a1-d7e4ac42f97f"
+      ],
+      "see_also": [
+        {
+          "title": "Miért állít fel drónezredet Németország?",
+          "url": "/vilag/2026-10-02-miert-allit-fel-dronezredet-nemetorszag/",
+          "date": "2026-10-02"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "4202301ce822f05ed7a758b19e69143dd7153d1ef65234058936da277aff26b4",
+      "pipeline_run_id": "37213402599",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T17:43:49+02:00",
+      "updated_at": "2026-10-04T17:43:49+02:00",
+      "published_at": "2026-10-04T17:43:49+02:00",
+      "expires_at": null
+    },
     {
       "id": "f3d5f7d0-fc1b-59c0-9925-abfda0d0d000",
       "slug": "2026-10-04-amikor-egy-randi-rosszabbul-sul-el-mint-egy-hamis-hang",
