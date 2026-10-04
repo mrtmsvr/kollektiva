@@ -244,6 +244,8 @@ def build_article(ai: "kc.AIClient", topic: dict, d: date, tz: ZoneInfo, avoid_i
                                    (generic if isinstance(generic, list) else [generic])[:2], ai.cfg.http_timeout,
                                    avoid_images, limit=kc.IMAGE_OPTIONS)
     image_options = kc.vision_rank(ai, art["title"], art["lead"], image_options)
+    if not image_options:  # nincs illő kép -> saját grafika
+        image_options = kc.auto_illustration(ai, art, "sajat")
     image = image_options[0] if image_options else None
     inline_images = kc.find_inline_images(raw, len(art["body"]), ai.cfg.http_timeout,
                                           (avoid_images or set()) | {im["url"] for im in image_options})
