@@ -184,13 +184,13 @@ def watch(ai: "kc.AIClient", v: dict) -> Optional[dict]:
     if not key:
         return None
     models = [m.strip() for m in (ai.cfg.gemini_model or "").split(",") if m.strip()] or ["gemini-2.5-flash"]
-    prompt = (f"Videó címe: {v['title']}\nCsatorna: {v.get('author', '')}\nLeírás: {v.get('description', '')[:800]}\n\n"
+    prompt = (f"Videó címe: {v.get('title') or '(nem ismert)'}\nCsatorna: {v.get('author', '')}\nLeírás: {v.get('description', '')[:800]}\n\n"
               "Nézd meg a videót, és add vissza JSON-ben: {\"newsworthy\": true/false (van-e benne hírértékű, "
               "magyar olvasót érdeklő állítás, bejelentés, vita – reklám, zene, előzetes, általános csevegés: false), "
               "\"topic\": \"egy mondat: miről szól\", \"speakers\": [\"név – szerep\"], \"summary\": \"részletes "
               "magyar összefoglaló 500–1200 szóban, a fontos állításokkal, ki mit mondott, a legjobb szó szerinti "
               "idézetekkel „...” jelek között\", \"uncertain\": [\"bizonytalanul érthető nevek/számok/mondatok\"], \"minutes\": \"a videó teljes hossza percben, egész szám\", "
-              "\"channel\": \"a csatorna / műsor neve\"}")
+              "\"channel\": \"a csatorna / műsor neve\", \"title\": \"a videó eredeti címe\"}")
     body = {"contents": [{"parts": [{"file_data": {"file_uri": v["url"]}, "video_metadata": {"end_offset": "3600s", "fps": 0.1}},
                                     {"text": prompt}]}],
             "systemInstruction": {"parts": [{"text": VIDEO_SYSTEM}]},
@@ -212,9 +212,15 @@ def watch(ai: "kc.AIClient", v: dict) -> Optional[dict]:
     return None
 
 
-def article_from_video(ai: "kc.AIClient", v: dict, tz: ZoneInfo, articles: list) -> Optional[dict]:
+def article_from_video(ai: "kc.AIClient", v: dict, tz: ZoneInfo, articles: list, force: bool = False) -> Optional[dict]:
+    """force=True: kérésre (Telegramon küldött link) – nem szűr hírértékre, rövidebb videóból is ír."""
     info = watch(ai, v)
-    if not info or not info.get("newsworthy") or len(str(info.get("summary") or "")) < 400:
+    if info and not v.get("title"):
+        v["title"] = str(info.get("title") or info.get("topic") or "Videó")[:150]
+    if info and not v.get("author") and info.get("channel"):
+        v["author"] = str(info["channel"])[:60]
+    if not info or (not force and (not info.get("newsworthy") or len(str(info.get("summary") or "")) < 400)) \
+            or len(str(info.get("summary") or "")) < 150:
         log.info("Videó: nem hírértékű vagy kevés tartalom – %s", v["title"][:80])
         return None
     unsure = [str(u) for u in info.get("uncertain") or [] if str(u).strip()][:10]
