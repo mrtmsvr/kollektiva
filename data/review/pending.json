@@ -12104,6 +12104,754 @@
         "social worker meeting",
         "family counseling session"
       ]
+    },
+    {
+      "id": "b9895e72-6023-5963-b2c2-4dc36f432520",
+      "slug": "2026-10-04-a-piac-brutalis-kamatemelest-araz-de-a-fed-mast-tervez",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "Fed",
+        "kamatpolitika",
+        "befektetés",
+        "infláció",
+        "tőzsde"
+      ],
+      "title": "A piac brutális kamatemelést áraz, de a Fed mást tervez",
+      "subtitle": null,
+      "lead": "A befektetők négy újabb kamatemelést várnak az amerikai jegybanktól a következő egy évben, miközben az intézmény saját előrejelzése csupán egyetlen lépést mutat. Ez az óriási eltérés komoly fordulatot hozhat a részvénypiacokon és az arany árfolyamában is.",
+      "key_points": [
+        "Szeptemberben három év után újra kamatot emelt a Fed, 3,75-4 százalékos szintre.",
+        "A kétéves amerikai hozam alapján a piac 100 bázispontnyi szigorítást áraz egy éven belül.",
+        "A maginfláció augusztusban a vártnál jobban lassult, ami gyengíti a további szigorítás indokait."
+      ],
+      "content": "Szeptemberben a Federal Reserve, az Amerikai Egyesült Államok központi bankja kamatot emelt, amivel a mutató 3,75 és 4 százalék közé emelkedett. A portfólió.hu elemzése szerint a meglepőbb mégsem ez a lépés, hanem az, ahogyan a piac reagált rá: a befektetők sokkal szigorúbb pályát áraznak, mint amiről a jegybank döntéshozói nyíltan beszélnek.\n\nA kétéves amerikai államkötvényhozamok alapján a tőzsdei szereplők nagyjából 100 bázispontnyi, azaz négy újabb kamatemelést várnak a következő tizenkét hónapban. Ezzel szemben a Fed saját előrejelzése mindössze egyetlen további emelést vetít előre, ami jelentős feszültséget teremt a várakozásokban.\n\nSzámos jel mutat arra, hogy a piaci szereplők túlságosan előreszaladtak. Az augusztusi adatok szerint a maginfláció a vártnál nagyobb ütemben lassult, emellett John Williams, a New York-i Fed elnöke a közelmúltban nyíltan kijelentette, hogy a folyamatokban nincs sürgősség.\n\nHa a közeljövőben kiderül, hogy a jegybank valóban nem teljesíti a túlzó piaci elvárásokat, az alapjaiban rendezheti át a részvénypiaci trendeket és az arany árfolyamának alakulását. Egy ilyen fordulat a következő időszak kiemelkedő befektetési lehetőségévé válhat mindazok számára, akik idejében felismerik a valóság és a várakozások közötti rést.",
+      "content_format": "markdown",
+      "body": [
+        "Szeptemberben a Federal Reserve, az Amerikai Egyesült Államok központi bankja kamatot emelt, amivel a mutató 3,75 és 4 százalék közé emelkedett. A portfólió.hu elemzése szerint a meglepőbb mégsem ez a lépés, hanem az, ahogyan a piac reagált rá: a befektetők sokkal szigorúbb pályát áraznak, mint amiről a jegybank döntéshozói nyíltan beszélnek.",
+        "A kétéves amerikai államkötvényhozamok alapján a tőzsdei szereplők nagyjából 100 bázispontnyi, azaz négy újabb kamatemelést várnak a következő tizenkét hónapban. Ezzel szemben a Fed saját előrejelzése mindössze egyetlen további emelést vetít előre, ami jelentős feszültséget teremt a várakozásokban.",
+        "Számos jel mutat arra, hogy a piaci szereplők túlságosan előreszaladtak. Az augusztusi adatok szerint a maginfláció a vártnál nagyobb ütemben lassult, emellett John Williams, a New York-i Fed elnöke a közelmúltban nyíltan kijelentette, hogy a folyamatokban nincs sürgősség.",
+        "Ha a közeljövőben kiderül, hogy a jegybank valóban nem teljesíti a túlzó piaci elvárásokat, az alapjaiban rendezheti át a részvénypiaci trendeket és az arany árfolyamának alakulását. Egy ilyen fordulat a következő időszak kiemelkedő befektetési lehetőségévé válhat mindazok számára, akik idejében felismerik a valóság és a várakozások közötti rést."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 214,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Federal-Reserve-Bank-of-Chicago.jpg/1280px-Federal-Reserve-Bank-of-Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Federal Reserve Bank of Chicago as seen from LaSalle Street. The Chicago Board of Trade is partly visible in the background.",
+        "credit": "Warren LeMay from Chicago, IL, United States / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Federal-Reserve-Bank-of-Chicago.jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261004/a-piac-szigorubb-a-fednel-es-ebbol-lehet-a-kovetkezo-nagy-lehetoseg-866840",
+          "title": "A piac szigorúbb a Fednél, és ebből lehet a következő nagy lehetőség",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T10:06:18+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "A piac brutális kamatemelést áraz, de a Fed mást tervez",
+        "Négy emelést vár a piac, miközben a Fed csak egyre készül",
+        "Félreérti a Wall Street a központi bankot? Így dőlhet el a vagyonunk sorsa",
+        "Hatalmas szakadék tátong a befektetők várakozásai és a Fed valódi tervei között",
+        "Ezt a pénzügyi bakit most nagyon megfizethetik a túlbuzgó tőzsdei spekulánsok",
+        "Teljesen félreárazta a jövőt a piac: itt a következő időszak legnagyobb befektetési csapdája"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Federal-Reserve-Bank-of-Chicago.jpg/1280px-Federal-Reserve-Bank-of-Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Federal Reserve Bank of Chicago as seen from LaSalle Street. The Chicago Board of Trade is partly visible in the background.",
+          "credit": "Warren LeMay from Chicago, IL, United States / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Federal-Reserve-Bank-of-Chicago.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/ga3dfa711d4a5ebf453d8a09584e9e5a936ca21f84a018dbddbf10f6511f782954eeb0eab5cfbbf10e09d5abaab611ebad5c6e34f631b0110cd92cbe77bfc9461_1280.jpg",
+          "width": 4608,
+          "height": 3456,
+          "kind": "photo",
+          "alt": "blur, chart, computer, data, finance, graph, growth, line graph, stock exchange, stock market, technology, trading, data, finance, finance, graph, stock market, stock market, stock market, stock marke",
+          "credit": "Pexels / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://pixabay.com/get/g3d7ac3db888d0dc5737d2d2fd01661bb8978028820e4e296228c392c8d5b06b95b05319296c2f3fc988b397576179aa8e4bdb693822dfe7f56dcfc4b51f6e9fc_1280.jpg",
+          "width": 5812,
+          "height": 3875,
+          "kind": "photo",
+          "alt": "stock, trading, monitor, business, finance, exchange, investment, market, trade, data, graph, economy, financial, currency, chart, information, technology, profit, forex, rate, foreign exchange, analy",
+          "credit": "3844328 / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/stock-trading-monitor-business-1863880/",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/New_York_Stock_Exchange_August_2017_02.jpg/1280px-New_York_Stock_Exchange_August_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 801,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Intersection of Broad Street and Wall Street with New York Stock Exchange and the Federal Hall.\n\n\n\n\n\n\nThis is an image of a place or building that is listed on the National Register of Historic Places",
+          "credit": "Arild Vågen / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_August_2017_02.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/New_York_Stock_Exchange_building%2C_20231002_171816.jpg/1280px-New_York_Stock_Exchange_building%2C_20231002_171816.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "New York Stock Exchange Building",
+          "credit": "Jakub Hałun / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_building,_20231002_171816.jpg",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "A piac szigorúbb a Fednél, és ebből lehet a következő nagy lehetőség",
+          "link": "https://www.portfolio.hu/gazdasag/20261004/a-piac-szigorubb-a-fednel-es-ebbol-lehet-a-kovetkezo-nagy-lehetoseg-866840",
+          "summary": "Általában a legnagyobb lehetőségek akkor jönnek, amikor a piaci várakozások irreálissá válnak és a piac korrigálja ezt a hibáját. Lehet, hogy az amerikai kamatpolitikával kapcsolatban most ilyenr helyzetre bukkantunk. A piac már 4 kamatemelést áraz a következő egy évre, miközben a Fed csak egy emelésben gondolkodik. Ha kiderül, hogy a piacnak nincs igaza, akkor az érinti a részvénypiaci trendeket, de még az arany árfolyamát is.",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261004/a-piac-szigorubb-a-fednel-es-ebbol-lehet-a-kovetkezo-nagy-lehetoseg-866840"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/penzvilag/2026-10-04-a-piac-brutalis-kamatemelest-araz-de-a-fed-mast-tervez/",
+      "seo": {
+        "meta_title": "A piac brutális kamatemelést áraz, de a Fed mást tervez",
+        "meta_description": "A befektetők négy újabb kamatemelést várnak az amerikai jegybanktól a következő egy évben, miközben az intézmény saját előrejelzése csupán egyetlen lépést mutat",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-04-a-piac-brutalis-kamatemelest-araz-de-a-fed-mast-tervez/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Federal-Reserve-Bank-of-Chicago.jpg/1280px-Federal-Reserve-Bank-of-Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "c57d83c0fdfc858aa6898ebbf41498fc5edce772b6a977c890690a6feac67343",
+      "pipeline_run_id": "37186957961",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T10:06:18+02:00",
+      "updated_at": "2026-10-04T10:06:18+02:00",
+      "published_at": "2026-10-04T10:06:18+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-04T08:07:06+00:00",
+        "msg_ids": [
+          2335,
+          2336,
+          2337,
+          2338,
+          2339,
+          2340
+        ],
+        "control_id": 2341
+      }
+    },
+    {
+      "id": "66ec1568-df99-51a3-892c-232e0f3463e0",
+      "slug": "2026-10-04-aranybetuk-es-zongoraszo-itt-szulettek-a-legismertebb-magyar-slagerek",
+      "status": "pending",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Szenes Iván Slágermúzeum",
+        "Budapest",
+        "könnyűzene",
+        "történelem",
+        "kultúra"
+      ],
+      "title": "Aranybetűk és zongoraszó: itt születtek a legismertebb magyar slágerek",
+      "subtitle": null,
+      "lead": "A fővárosi Szenes Iván Slágermúzeum nem csupán egy kiállítóhely, hanem a magyar könnyűzene aranykorának utolsó olyan tere, ahol a dalok születésének helyszínén érezheti magát a látogató. A Szenes Iván téren álló épületben kéziratok, aranylemezek és személyes relikviák őrzik a több mint kétezer slágert jegyző dalszerző emlékét.",
+      "key_points": [
+        "A VIII. kerületi Slágermúzeum Szenes Iván egykori otthonában kapott helyet.",
+        "A zongorán egykor olyan zeneszerzők is játszottak, mint Lehár Ferenc és Kálmán Imre.",
+        "A helyszínen évente tízezrek fordulnak meg a koncerteken és a kiállításon."
+      ],
+      "content": "A főváros VIII. kerületében található Szenes Iván tér három egysége – a Szenes Iván háza, a Szenes SzínHáz és a Slágermúzeum – igazi zenei zarándokhelyként működik, ahová évente tízezren látogatnak el a koncertek és a kiállítások miatt. Az épület homlokzatát aranybetűkkel díszítették, amelyeken a legismertebb szerzemények címei olvashatók, mint például a Nem csak a húszéveseké a világ, a Kislány a zongoránál vagy a Próbálj meg lazítani!\n\nA gyűjtemény nem egy hagyományos, távolságtartó intézmény hangulatát kelti, hanem egykori lakóinak közvetlen világát idézi meg. A vitrinekben a Táncdalfesztivál nagydíjai és a legjobb szövegírónak járó elismerések sorakoznak, a falakon pedig az első magyar aranylemez, az Isten veled, édes Piroskám is látható, emellett egy ötméteres interaktív falon gombnyomással hallgathatók meg a slágerek történetei a szerző saját elbeszélésében.\n\nA lakás egykori vendégköre a magyar zenetörténet legfényesebb korszakát idézi: Szenes Andrea visszaemlékezései szerint gyerekkorában természetes volt, hogy a zongoránál és a szobákban olyan művészek fordultak meg, mint Kovács Kati, Koós János, Korda György, Hofi Géza, Bodrogi Gyula vagy Mary Zsuzsi. A legendás pianínón, amelyen a hagyomány szerint egykor Lehár Ferenc és Kálmán Imre is játszott Szenes Andorral, Szenes Iván édesapjával a zongoránál megfordultak a korszak ismert dallamai.",
+      "content_format": "markdown",
+      "body": [
+        "A főváros VIII. kerületében található Szenes Iván tér három egysége – a Szenes Iván háza, a Szenes SzínHáz és a Slágermúzeum – igazi zenei zarándokhelyként működik, ahová évente tízezren látogatnak el a koncertek és a kiállítások miatt. Az épület homlokzatát aranybetűkkel díszítették, amelyeken a legismertebb szerzemények címei olvashatók, mint például a Nem csak a húszéveseké a világ, a Kislány a zongoránál vagy a Próbálj meg lazítani!",
+        "A gyűjtemény nem egy hagyományos, távolságtartó intézmény hangulatát kelti, hanem egykori lakóinak közvetlen világát idézi meg. A vitrinekben a Táncdalfesztivál nagydíjai és a legjobb szövegírónak járó elismerések sorakoznak, a falakon pedig az első magyar aranylemez, az Isten veled, édes Piroskám is látható, emellett egy ötméteres interaktív falon gombnyomással hallgathatók meg a slágerek történetei a szerző saját elbeszélésében.",
+        "A lakás egykori vendégköre a magyar zenetörténet legfényesebb korszakát idézi: Szenes Andrea visszaemlékezései szerint gyerekkorában természetes volt, hogy a zongoránál és a szobákban olyan művészek fordultak meg, mint Kovács Kati, Koós János, Korda György, Hofi Géza, Bodrogi Gyula vagy Mary Zsuzsi. A legendás pianínón, amelyen a hagyomány szerint egykor Lehár Ferenc és Kálmán Imre is játszott Szenes Andorral, Szenes Iván édesapjával a zongoránál megfordultak a korszak ismert dallamai."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 235,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Szenes_Iv%C3%A1n_Platz_5%2C_Szenes_Schlagermuseum%2C_2023_J%C3%B3zsefv%C3%A1ros.jpg/1280px-Szenes_Iv%C3%A1n_Platz_5%2C_Szenes_Schlagermuseum%2C_2023_J%C3%B3zsefv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "One storey building. On the groundfloor part of the facade is Szenes Iván Schlager Museum inscription, also there is TheaTre inscription on its gate. Note: I could not found evidence about museum or",
+        "credit": "Globetrotter19 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Szenes_Iv%C3%A1n_Platz_5,_Szenes_Schlagermuseum,_2023_J%C3%B3zsefv%C3%A1ros.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/szenes-ivan-slagermuzeum-szenes-andrea-magyar-dal/7ec8m98",
+          "title": "„Nem emléket ápolok, hanem tovább élem azt, ami velünk történt” – Szenes Andrea soha nem hallott történeteket mesélt apjáról",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T10:07:23+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Apám még ma is élhetne, ha rendes ellátást kap",
+        "who": "Szenes Andrea, a Szenes Iván Slágermúzeum vezetője",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Aranybetűk és zongoraszó: itt születtek a legismertebb magyar slágerek",
+        "Slágermúzeum a VIII. kerületben: ahol a zongoránál jártak a zenei legendák",
+        "Kovács Kati az ölében, Lehár Ferenc a zongoránál: így él Szenes Iván öröksége",
+        "A zongora, amelyen a legtöbb magyar szerelmes dal született",
+        "Itt még Koós János is lovagolt: belestünk Szenes Iván egykori otthonába",
+        "Tízezrek zarándokolnak el ide évente: ez Budapest legzeneibb helye"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Szenes_Iv%C3%A1n_Platz_5%2C_Szenes_Schlagermuseum%2C_2023_J%C3%B3zsefv%C3%A1ros.jpg/1280px-Szenes_Iv%C3%A1n_Platz_5%2C_Szenes_Schlagermuseum%2C_2023_J%C3%B3zsefv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "One storey building. On the groundfloor part of the facade is Szenes Iván Schlager Museum inscription, also there is TheaTre inscription on its gate. Note: I could not found evidence about museum or",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Szenes_Iv%C3%A1n_Platz_5,_Szenes_Schlagermuseum,_2023_J%C3%B3zsefv%C3%A1ros.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Szenes_Iv%C3%A1n_Platz_5%2C_2023_J%C3%B3zsefv%C3%A1ros.jpg/1280px-Szenes_Iv%C3%A1n_Platz_5%2C_2023_J%C3%B3zsefv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1601,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "One storey building. On the groundfloor part of the facade is Szenes Iván Schlager Museum inscription, also there is TheaTre inscription on its gate. Note: I could not found evidence about museum or",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Szenes_Iv%C3%A1n_Platz_5,_2023_J%C3%B3zsefv%C3%A1ros.jpg",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://pixabay.com/get/ga379c89b180872deda4b16fa9fd24b616deeebd75f525d7f35b4f53c2d90a38bb3c267300312d2c4e037759bd43e0292080368964f68131602cc2932bd711cec_1280.jpg",
+          "width": 5472,
+          "height": 3648,
+          "kind": "photo",
+          "alt": "piano, sheet music, music, keyboard, piano keys, musical, music score, musical instrument, instrument, classical, stave, chord, harmony, instrumental, melody, pianoforte, pianist, music, music, music,",
+          "credit": "stevepb / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/piano-sheet-music-music-keyboard-1655558/",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/g5f4b35754d88a0a41158068a56aea397a4e86dc4570da7011bc8a3f34e3214ef48a8d767de50d63727200a94bfdd615710ee00ba954aa3bd0d3938bed0c3b6ff_1280.jpg",
+          "width": 4004,
+          "height": 3003,
+          "kind": "photo",
+          "alt": "piano, keys, keyboard, music, piano keyboard, instrument, black, white, piano keys, keyboard instrument, macro, piano, piano, piano, piano, piano",
+          "credit": "Iguanat / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/piano-keys-keyboard-music-2412400/",
+          "vision_score": 7.0
+        }
+      ],
+      "story": [
+        {
+          "title": "„Nem emléket ápolok, hanem tovább élem azt, ami velünk történt” – Szenes Andrea soha nem hallott történeteket mesélt apjáról",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/szenes-ivan-slagermuzeum-szenes-andrea-magyar-dal/7ec8m98",
+          "summary": "Szenes Iván otthonában egymásnak adták a kilincset a magyar zene legendái. Kálmán Imre és Lehár Ferenc még Szenes Iván édesapjához, Szenes Andorhoz járt, később pedig olyan sztárok könyököltek a híres zongorára, mint Kovács Kati, Koós János, Korda György, Hofi Géza vagy Bodrogi Gyula. Szenes Andrea számára ez nem történelemkönyv, hanem gyerekkorának meghatározó élménye. A Szenes Iván Slágermúzeumban ez a világ ma is él: aki belép, szinte ott érzi magát a slágerek születésénél.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/szenes-ivan-slagermuzeum-szenes-andrea-magyar-dal/7ec8m98"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/kultura/2026-10-04-aranybetuk-es-zongoraszo-itt-szulettek-a-legismertebb-magyar-slagerek/",
+      "seo": {
+        "meta_title": "Aranybetűk és zongoraszó: itt születtek a legismertebb magya",
+        "meta_description": "A fővárosi Szenes Iván Slágermúzeum nem csupán egy kiállítóhely, hanem a magyar könnyűzene aranykorának utolsó olyan tere, ahol a dalok születésének helyszínén ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-04-aranybetuk-es-zongoraszo-itt-szulettek-a-legismertebb-magyar-slagerek/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Szenes_Iv%C3%A1n_Platz_5%2C_Szenes_Schlagermuseum%2C_2023_J%C3%B3zsefv%C3%A1ros.jpg/1280px-Szenes_Iv%C3%A1n_Platz_5%2C_Szenes_Schlagermuseum%2C_2023_J%C3%B3zsefv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "530e704de48ece9945d7540185c6aca28ac0178293090f0dd279f27a8c9cc7e8",
+      "pipeline_run_id": "37186957961",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T10:07:23+02:00",
+      "updated_at": "2026-10-04T10:07:23+02:00",
+      "published_at": "2026-10-04T10:07:23+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-04T08:08:24+00:00",
+        "msg_ids": [
+          2342,
+          2343,
+          2344,
+          2345,
+          2346
+        ],
+        "control_id": 2347
+      }
+    },
+    {
+      "id": "de5ecbed-1da5-5a48-bb1c-1fdb2742ec18",
+      "slug": "2026-10-04-nem-kernek-a-lakosok-a-millios-kenopenzbol-hiaba-epulne-adatkozpont",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "adatközpont",
+        "Egyesült Államok",
+        "mesterséges intelligencia",
+        "pénzügyek",
+        "ingatlan"
+      ],
+      "title": "Nem kérnek a lakosok a milliós kenőpénzből, hiába épülne adatközpont",
+      "subtitle": null,
+      "lead": "Fellebbezés helyett háztartásonként tízezer dollárral próbálta megnyerni a pennsylvaniai lakosokat egy logisztikai vállalkozás, ám a gáláns összeg sem csillapította a helyi ellenállást. A feszültség jól mutatja, mekkora társadalmi ára van az Egyesült Államokban gombamód szaporodó adatközpontoknak.",
+      "key_points": [
+        "A NorthPoint Development háztartásonként 10 ezer dollárt fizetne a pennsylvaniai Hazle Township lakóinak az adatközpontért cserébe.",
+        "A 4500 érintett háztartást számláló projekt összköltségéből ez a kompenzáció 45 millió dollárt emésztene fel.",
+        "A helyiek az ingatlanárak esésétől, zajszennyezéstől, valamint a víz- és energiaköltségek növekedésétől tartanak."
+      ],
+      "content": "A Pocono-dombság lábánál fekvő Hazle Township közelében tervezi megépíteni gigantikus, nagyjából 13 négyzetkilométeres adatközpontját a NorthPoint Development nevű ingatlanfejlesztő és logisztikai vállalkozás. Az építtetők korábban elsősorban a helyi önkormányzatnak kínáltak különféle finanszírozási csomagokat, ám most közvetlenül a lakosság meggyőzésére is áldoznának. A tervezett kompenzáció mértéke háztartásonként 10 ezer dollár, ami átszámítva mintegy 3,2 millió forintnak felel meg.\n\nA felajánlott összeg jelentősnek számít a térségben, tekintve, hogy a pennsylvaniai város mediánjövedelme 60 ezer dollár. A 4500 háztartást érintő megállapodás összesen 45 millió dolláros kiadást jelentene a vállalkozás számára. A Wall Street Journal beszámolója szerint azonban a megkérdezett lakosok közül szinte senki sem fogadná örömmel a pénzt, sokan ráadásul nyíltan vesztegetésnek tekintik az ajánlatot.\n\nAz ellenállás hátterében több súlyos probléma áll, amelyek miatt a lakosok aggódnak a beruházás jövőbeli hatásai miatt. - Aggódnak a zajszennyezés, valamint a megemelkedő víz- és energiaköltségek miatt. - Sokan bizalmatlanok a mesterséges intelligenciával és a helyi hatóságokkal szemben. - Tartanak az ingatlanárak csökkenésétől. - Nehezményezik, hogy a felajánlott összeg egyszeri kifizetés, míg az adatközpont jelenléte évtizedekig határozza meg a környéket.\n\nA helyzetet nehezíti, hogy Hazle Township önkormányzata már tavaly elutasította az adatközpont-projektet övezeti besorolási okokra hivatkozva, és ideiglenes építési moratóriumot is hirdetett. Az Egyesült Államokban nem egyedi esetről van szó: a Tom's Hardware adatai alapján 2026 második negyedévében már több tízmilliárd dollárnyi tervezett adatközpont-fejlesztést hiúsított meg a helyi lakosok ellenállása.",
+      "content_format": "markdown",
+      "body": [
+        "A Pocono-dombság lábánál fekvő Hazle Township közelében tervezi megépíteni gigantikus, nagyjából 13 négyzetkilométeres adatközpontját a NorthPoint Development nevű ingatlanfejlesztő és logisztikai vállalkozás. Az építtetők korábban elsősorban a helyi önkormányzatnak kínáltak különféle finanszírozási csomagokat, ám most közvetlenül a lakosság meggyőzésére is áldoznának. A tervezett kompenzáció mértéke háztartásonként 10 ezer dollár, ami átszámítva mintegy 3,2 millió forintnak felel meg.",
+        "A felajánlott összeg jelentősnek számít a térségben, tekintve, hogy a pennsylvaniai város mediánjövedelme 60 ezer dollár. A 4500 háztartást érintő megállapodás összesen 45 millió dolláros kiadást jelentene a vállalkozás számára. A Wall Street Journal beszámolója szerint azonban a megkérdezett lakosok közül szinte senki sem fogadná örömmel a pénzt, sokan ráadásul nyíltan vesztegetésnek tekintik az ajánlatot.",
+        "Az ellenállás hátterében több súlyos probléma áll, amelyek miatt a lakosok aggódnak a beruházás jövőbeli hatásai miatt. - Aggódnak a zajszennyezés, valamint a megemelkedő víz- és energiaköltségek miatt. - Sokan bizalmatlanok a mesterséges intelligenciával és a helyi hatóságokkal szemben. - Tartanak az ingatlanárak csökkenésétől. - Nehezményezik, hogy a felajánlott összeg egyszeri kifizetés, míg az adatközpont jelenléte évtizedekig határozza meg a környéket.",
+        "A helyzetet nehezíti, hogy Hazle Township önkormányzata már tavaly elutasította az adatközpont-projektet övezeti besorolási okokra hivatkozva, és ideiglenes építési moratóriumot is hirdetett. Az Egyesült Államokban nem egyedi esetről van szó: a Tom's Hardware adatai alapján 2026 második negyedévében már több tízmilliárd dollárnyi tervezett adatközpont-fejlesztést hiúsított meg a helyi lakosok ellenállása."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 260,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Virginia Tech - data center",
+        "credit": "Christopher Bowns / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Virginia_Tech_-_data_center.jpg",
+        "vision_score": 7.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261004_amerikai-adatkozpont-epitesi-engedely-tamogatasa-penz-lakosoknak",
+          "title": "Háztartásonként 3,2 milliót fizetne egy adatközpont a helyieknek, hogy támogassák az engedélyeztetést",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T10:08:41+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.74,
+      "title_options": [
+        "Nem kérnek a lakosok a milliós kenőpénzből, hiába épülne adatközpont",
+        "Tízmilliókat ér az amerikaiak békéje a techcégeknek",
+        "Nem kérnek a mesterséges intelligencia millióiból Pennsylvaniában",
+        "Gigászi összeggel akarták megvenni az amerikai kisváros csendjét",
+        "Ekkora pénzt dobtak vissza a lakosok egyetlen adatközpont miatt"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Virginia Tech - data center",
+          "credit": "Christopher Bowns / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Virginia_Tech_-_data_center.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/1280px-BalticServers_data_center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 797,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Server room of BalticServers",
+          "credit": "BalticServers.com / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg",
+          "vision_score": 10.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Háztartásonként 3,2 milliót fizetne egy adatközpont a helyieknek, hogy támogassák az engedélyeztetést",
+          "link": "https://hvg.hu/tudomany/20261004_amerikai-adatkozpont-epitesi-engedely-tamogatasa-penz-lakosoknak",
+          "summary": "Miközben gombamódra szaporodnának az adatközpontok az Egyesült Államokban, egyre nagyobb az ellenállás a helyi lakosok körében. Az ellenszenv olyan nagy, hogy egy pennsylvaniai város lakói inkább visszautasítják a háztartásonkénti nem is olyan kevés, 3,2 millió forintnak megfelelő „kenőpénzt”.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.74
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261004_amerikai-adatkozpont-epitesi-engedely-tamogatasa-penz-lakosoknak"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/penzvilag/2026-10-04-nem-kernek-a-lakosok-a-millios-kenopenzbol-hiaba-epulne-adatkozpont/",
+      "seo": {
+        "meta_title": "Nem kérnek a lakosok a milliós kenőpénzből, hiába épülne ada",
+        "meta_description": "Fellebbezés helyett háztartásonként tízezer dollárral próbálta megnyerni a pennsylvaniai lakosokat egy logisztikai vállalkozás, ám a gáláns összeg sem csillapít",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-04-nem-kernek-a-lakosok-a-millios-kenopenzbol-hiaba-epulne-adatkozpont/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "c8beb338076ad5612ef2f84e7d4b92a1dea30619fc019bf545a1fe702dca2a3e",
+      "pipeline_run_id": "37186957961",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T10:08:41+02:00",
+      "updated_at": "2026-10-04T10:08:41+02:00",
+      "published_at": "2026-10-04T10:08:41+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-04T08:09:55+00:00",
+        "msg_ids": [
+          2348,
+          2349,
+          2350
+        ],
+        "control_id": 2351
+      }
+    },
+    {
+      "id": "36bf08c1-495a-57b6-ac8c-f17321bb007d",
+      "slug": "2026-10-04-magikus-idoutazas-es-kieges-igy-hodit-a-healing-fiction",
+      "status": "pending",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "healing fiction",
+        "irodalom",
+        "kiégés",
+        "mentális egészség",
+        "biblioterápia"
+      ],
+      "title": "Mágikus időutazás és kiégés: így hódít a healing fiction",
+      "subtitle": null,
+      "lead": "A kelet-ázsiai országokból kiindult healing fiction műfaj a kiégés és a stressz feldolgozásában nyújt segítséget az olvasóknak. Az egyszerű nyelvezettel és mágikus elemekkel operáló történetek már Magyarországon is egyre népszerűbbek.",
+      "key_points": [
+        "A healing fiction a mentális segítő hatású irodalom új hulláma.",
+        "A művek egyszerű nyelvezetet és olykor mágikus időutazást használnak.",
+        "A kötetek szoros kapcsolatban állnak a pszichológiával és a biblioterápiával.",
+        "Nem életvezetési tanácsadók, hanem krízisek feldolgozását segítő regények."
+      ],
+      "content": "A mindennapi stressz, a kiégés és a veszteség feldolgozása ma már a könyvesboltok polcain is megjelenik. A Japánból és Dél-Koreából a közelmúltban elindult irányzat, a healing fiction olyan történeteket kínál, amelyek a lélekre is jó hatással lehetnek. A szerzők a súlyos témákat egyszerű nyelvezettel, olykor pedig mágikus időutazással párosítják.\n\nA ma divatos műfaj szoros kapcsolatban áll a pszichológiával és a biblioterápiával. Ez utóbbi módszer a szövegek mélyreható, élményszerű, szakember vezette csoportos feldolgozásával fejleszti az önismeretet és a problémamegoldó képességet. A résztvevők a történetekben szembesülhetnek gondjaikkal, és anélkül találhatnak megoldásokat, hogy saját magukon kellene kísérletezniük.\n\nAz olvasás és a történetmesélés gyógyító ereje évezredes tapasztalatokra épül, amelyeket ez a kortárs ázsiai hullám vonzóan vegyít a modern élet kihívásaival. A kötetek nem kínálnak kész életvezetési tanácsokat, hanem regényekként kísérik végig az olvasót a krízisek, a kiégés és a stressz feldolgozásának folyamatán.",
+      "content_format": "markdown",
+      "body": [
+        "A mindennapi stressz, a kiégés és a veszteség feldolgozása ma már a könyvesboltok polcain is megjelenik. A Japánból és Dél-Koreából a közelmúltban elindult irányzat, a healing fiction olyan történeteket kínál, amelyek a lélekre is jó hatással lehetnek. A szerzők a súlyos témákat egyszerű nyelvezettel, olykor pedig mágikus időutazással párosítják.",
+        "A ma divatos műfaj szoros kapcsolatban áll a pszichológiával és a biblioterápiával. Ez utóbbi módszer a szövegek mélyreható, élményszerű, szakember vezette csoportos feldolgozásával fejleszti az önismeretet és a problémamegoldó képességet. A résztvevők a történetekben szembesülhetnek gondjaikkal, és anélkül találhatnak megoldásokat, hogy saját magukon kellene kísérletezniük.",
+        "Az olvasás és a történetmesélés gyógyító ereje évezredes tapasztalatokra épül, amelyeket ez a kortárs ázsiai hullám vonzóan vegyít a modern élet kihívásaival. A kötetek nem kínálnak kész életvezetési tanácsokat, hanem regényekként kísérik végig az olvasót a krízisek, a kiégés és a stressz feldolgozásának folyamatán."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 170,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Bookstore_%E2%80%9E%C5%9Awiat_ksi%C4%85%C5%BCki%E2%80%9D_in_Tomasz%C3%B3w_Mazowiecki.jpg/1280px-Bookstore_%E2%80%9E%C5%9Awiat_ksi%C4%85%C5%BCki%E2%80%9D_in_Tomasz%C3%B3w_Mazowiecki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 776,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Tomaszów Mazowiecki w województwie łódzkim, PL, EU. Świat Książki – księgarnia, CC0",
+        "credit": "Warszawska róg Szerokiej w Tomaszowie Mazowieckim, w województwie łódzkim, PL, E / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bookstore_%E2%80%9E%C5%9Awiat_ksi%C4%85%C5%BCki%E2%80%9D_in_Tomasz%C3%B3w_Mazowiecki.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/360/20261004_hvg-gyogyito-konyvek-healing-fiction-krizisfeldolgozas-japan-delkorea",
+          "title": "Krízisek, kiégés, stressz – hogyan segít a „healing fiction”, ami már Magyarországon is hódít?",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T10:10:11+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.61,
+      "title_options": [
+        "Mágikus időutazás és kiégés: így hódít a healing fiction",
+        "Új irodalmi hullám: gyógyító regények Ázsiából",
+        "Amikor a könyv polcra teszi a stresszt",
+        "Ezzel a különleges ázsiai módszerrel harcolnak a kiégés ellen",
+        "Így segíthet a könyvespolcod a legsúlyosabb stresszben is",
+        "Megérkezett a könyvpiacra az irodalom, ami pont a lelkedre hat"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Bookstore_%E2%80%9E%C5%9Awiat_ksi%C4%85%C5%BCki%E2%80%9D_in_Tomasz%C3%B3w_Mazowiecki.jpg/1280px-Bookstore_%E2%80%9E%C5%9Awiat_ksi%C4%85%C5%BCki%E2%80%9D_in_Tomasz%C3%B3w_Mazowiecki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 776,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Tomaszów Mazowiecki w województwie łódzkim, PL, EU. Świat Książki – księgarnia, CC0",
+          "credit": "Warszawska róg Szerokiej w Tomaszowie Mazowieckim, w województwie łódzkim, PL, E / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bookstore_%E2%80%9E%C5%9Awiat_ksi%C4%85%C5%BCki%E2%80%9D_in_Tomasz%C3%B3w_Mazowiecki.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/RPI_Bookstore_05.png/1280px-RPI_Bookstore_05.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The bookstore at RPI located in the Student Union",
+          "credit": "RPI2026F1 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:RPI_Bookstore_05.png"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Vincent_van_Gogh_-_Man_Standing%2C_Reading_a_Book_%281882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1800,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "",
+          "credit": "Vincent van Gogh / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Man_Standing,_Reading_a_Book_(1882).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Woman_Reading_a_Book.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 2133,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Woman Reading a Book.",
+          "credit": "Nefrit Lazurit / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Woman_Reading_a_Book.jpg"
+        },
+        {
+          "url": "https://pixabay.com/get/ge696b3a47be1e75cd190e214ee75ad7d0d502e521926ec4113f23e271f04e819452a5814a5f8fd3b0932228027f98800b380d98c503080c5f1fc7b5c21ed84cf_1280.jpg",
+          "width": 4896,
+          "height": 3264,
+          "kind": "photo",
+          "alt": "book, quran, open, pages, open book, open quran, islam, holy, muslim, ramadan, religion, culture, religious, pray, prayer, faith, spiritual, allah, god, belief, spirituality, scripture, black and whit",
+          "credit": "Pexels / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/book-quran-open-pages-open-book-1283468/"
+        },
+        {
+          "url": "https://pixabay.com/get/g82e30fb26808b632c2614d63eeeaae5764f62723ad15ffd6a5369a3bf6f4f30b40ad608a78308a032e8f3a83a2e5ee6b493f234121276215a9b06f97b430fd60_1280.jpg",
+          "width": 4418,
+          "height": 3155,
+          "kind": "photo",
+          "alt": "bible, book, pages, open, reading, open bible, bible reading, bible study, chapters, psalms, religion, faith, bible, bible, bible, bible, bible, book",
+          "credit": "Pexels / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/bible-book-pages-open-reading-1868070/"
+        },
+        {
+          "url": "https://live.staticflickr.com/3021/2936937247_a44e91ca09_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Open book",
+          "credit": "Honou / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/9186550@N08/2936937247"
+        },
+        {
+          "url": "https://live.staticflickr.com/4143/4927865092_fa399b7f5e_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "open book pages",
+          "credit": "Jo Naylor / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/11598937@N08/4927865092"
+        }
+      ],
+      "story": [
+        {
+          "title": "Krízisek, kiégés, stressz – hogyan segít a „healing fiction”, ami már Magyarországon is hódít?",
+          "link": "https://hvg.hu/360/20261004_hvg-gyogyito-konyvek-healing-fiction-krizisfeldolgozas-japan-delkorea",
+          "summary": "A lélekre is jó hatással lehet egy healing fiction regény. A kelet-ázsiai kortárs szerzők a veszteség, az elengedés, a kiégés súlyos témáit egyszerű nyelvezettel, olykor mágikus időutazással párosítják, segítve a műfaj széles körű elterjedését.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.61
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/360/20261004_hvg-gyogyito-konyvek-healing-fiction-krizisfeldolgozas-japan-delkorea"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/kultura/2026-10-04-magikus-idoutazas-es-kieges-igy-hodit-a-healing-fiction/",
+      "seo": {
+        "meta_title": "Mágikus időutazás és kiégés: így hódít a healing fiction",
+        "meta_description": "A kelet-ázsiai országokból kiindult healing fiction műfaj a kiégés és a stressz feldolgozásában nyújt segítséget az olvasóknak. Az egyszerű nyelvezettel és mági",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-04-magikus-idoutazas-es-kieges-igy-hodit-a-healing-fiction/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Bookstore_%E2%80%9E%C5%9Awiat_ksi%C4%85%C5%BCki%E2%80%9D_in_Tomasz%C3%B3w_Mazowiecki.jpg/1280px-Bookstore_%E2%80%9E%C5%9Awiat_ksi%C4%85%C5%BCki%E2%80%9D_in_Tomasz%C3%B3w_Mazowiecki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "f5b4498cc5e971ec810d22d2b60ea3cc32c9afd4a7ca4f0d729828452e37a095",
+      "pipeline_run_id": "37186957961",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T10:10:11+02:00",
+      "updated_at": "2026-10-04T10:10:11+02:00",
+      "published_at": "2026-10-04T10:10:11+02:00",
+      "expires_at": null,
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-04T08:11:07+00:00",
+        "msg_ids": [
+          2352,
+          2353,
+          2354,
+          2355,
+          2356,
+          2357,
+          2358,
+          2359,
+          2360
+        ],
+        "control_id": 2361
+      }
     }
   ]
 }
