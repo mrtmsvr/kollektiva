@@ -12997,9 +12997,9 @@
       }
     },
     {
-      "id": "d0d68679-2600-51d4-9c75-aec9d2921e41",
-      "slug": "2026-10-04-ketszazezer-enzimet-vizsgalt-at-a-mesterseges-intelligencia",
-      "status": "pending",
+      "id": "4d58d7a1-de03-5abc-84b1-0bb368b86571",
+      "slug": "2026-10-04-tortenelmi-attorest-hozhat-az-anthropic-mesterseges-intelligenciajana",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -13009,7 +13009,7 @@
         "DNS",
         "tudomány"
       ],
-      "title": "Kétszázezer enzimet vizsgált át a mesterséges intelligencia",
+      "title": "Történelmi áttörést hozhat az Anthropic mesterséges intelligenciájának legújabb felfedezése",
       "subtitle": null,
       "lead": "Ismeretlen biológiai rendszert azonosítottak bakteriofágokban a kutatók az Anthropic mesterséges intelligenciája, a Claude segítségével. A fejlesztés drasztikusan felgyorsíthatja az élettudományi kutatásokat.",
       "key_points": [
@@ -13030,15 +13030,15 @@
       "word_count": 233,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Bacteriophage_T4_Infection.jpg/1280px-Bacteriophage_T4_Infection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 1606,
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/90bf2695544a6218.jpg",
+        "width": 3072,
+        "height": 2048,
         "kind": "photo",
-        "pos": "top",
-        "alt": "At left, a bacteriophage (red) is injecting its DNA genome (white) into an Escherichia coli cell. At center, the bacteriophage has taken over the cell, destroying the cellular DNA (purple) and forcing",
-        "credit": "DavidGoodsell / Wikimedia Commons",
-        "license": "CC BY 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Bacteriophage_T4_Infection.jpg"
+        "alt": "cyber brain, computer, brain, the internet, web3, 0, blockchain, cyber, artificial intelligence, brain, brain, brain, brain, brain, artificial intelligence, artificial intelligence, artificial intelli",
+        "credit": "DeltaWorks / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/cyber-brain-computer-brain-7633488/",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/90bf2695544a6218.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -13172,12 +13172,12 @@
       },
       "date": "2026-10-04",
       "date_label": "október 4.",
-      "url": "/tech/2026-10-04-ketszazezer-enzimet-vizsgalt-at-a-mesterseges-intelligencia/",
+      "url": "/tech/2026-10-04-tortenelmi-attorest-hozhat-az-anthropic-mesterseges-intelligenciajana/",
       "seo": {
-        "meta_title": "Kétszázezer enzimet vizsgált át a mesterséges intelligencia",
+        "meta_title": "Történelmi áttörést hozhat az Anthropic mesterséges intellig",
         "meta_description": "Ismeretlen biológiai rendszert azonosítottak bakteriofágokban a kutatók az Anthropic mesterséges intelligenciája, a Claude segítségével. A fejlesztés drasztikus",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-04-ketszazezer-enzimet-vizsgalt-at-a-mesterseges-intelligencia/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Bacteriophage_T4_Infection.jpg/1280px-Bacteriophage_T4_Infection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-04-tortenelmi-attorest-hozhat-az-anthropic-mesterseges-intelligenciajana/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/90bf2695544a6218.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -13194,9 +13194,9 @@
       "dedupe_hash": "2a9fe994e35b96abddda45c51e4f78d47031bfea2dbd4a0a124db0e62aab862b",
       "pipeline_run_id": "37181702317",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-04T08:08:30+02:00",
-      "updated_at": "2026-10-04T08:08:30+02:00",
-      "published_at": "2026-10-04T08:08:30+02:00",
+      "created_at": "2026-10-04T08:11:36+02:00",
+      "updated_at": "2026-10-04T08:11:36+02:00",
+      "published_at": "2026-10-04T08:11:36+02:00",
       "expires_at": null,
       "review": {
         "title": 1,
@@ -13214,7 +13214,8 @@
           2232
         ],
         "control_id": 2233
-      }
+      },
+      "live": true
     }
   ]
 }
