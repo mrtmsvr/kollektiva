@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T11:05:02+02:00",
+  "updated_at": "2026-10-04T11:05:43+02:00",
   "articles": [
     {
       "id": "36bf08c1-495a-57b6-ac8c-f17321bb007d",
@@ -36,15 +36,14 @@
       "word_count": 170,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Bookstore_%E2%80%9E%C5%9Awiat_ksi%C4%85%C5%BCki%E2%80%9D_in_Tomasz%C3%B3w_Mazowiecki.jpg/1280px-Bookstore_%E2%80%9E%C5%9Awiat_ksi%C4%85%C5%BCki%E2%80%9D_in_Tomasz%C3%B3w_Mazowiecki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 776,
+        "url": "https://live.staticflickr.com/3021/2936937247_a44e91ca09_b.jpg",
+        "width": 1024,
+        "height": 768,
         "kind": "photo",
-        "pos": "center",
-        "alt": "Tomaszów Mazowiecki w województwie łódzkim, PL, EU. Świat Książki – księgarnia, CC0",
-        "credit": "Warszawska róg Szerokiej w Tomaszowie Mazowieckim, w województwie łódzkim, PL, E / Wikimedia Commons",
-        "license": "Public domain",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Bookstore_%E2%80%9E%C5%9Awiat_ksi%C4%85%C5%BCki%E2%80%9D_in_Tomasz%C3%B3w_Mazowiecki.jpg"
+        "alt": "Open book",
+        "credit": "Honou / flickr",
+        "license": "CC BY 2.0",
+        "source_url": "https://www.flickr.com/photos/9186550@N08/2936937247"
       },
       "inline_images": [],
       "sources": [
@@ -79,7 +78,7 @@
         "meta_title": "Mágikus időutazás és kiégés: így hódít a healing fiction",
         "meta_description": "A kelet-ázsiai országokból kiindult healing fiction műfaj a kiégés és a stressz feldolgozásában nyújt segítséget az olvasóknak. Az egyszerű nyelvezettel és mági",
         "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-04-magikus-idoutazas-es-kieges-igy-hodit-a-healing-fiction/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Bookstore_%E2%80%9E%C5%9Awiat_ksi%C4%85%C5%BCki%E2%80%9D_in_Tomasz%C3%B3w_Mazowiecki.jpg/1280px-Bookstore_%E2%80%9E%C5%9Awiat_ksi%C4%85%C5%BCki%E2%80%9D_in_Tomasz%C3%B3w_Mazowiecki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://live.staticflickr.com/3021/2936937247_a44e91ca09_b.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -97,7 +96,7 @@
       "pipeline_run_id": "37186957961",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-04T11:03:05+02:00",
-      "updated_at": "2026-10-04T11:03:05+02:00",
+      "updated_at": "2026-10-04T11:05:43+02:00",
       "published_at": "2026-10-04T11:03:05+02:00",
       "expires_at": null
     },
