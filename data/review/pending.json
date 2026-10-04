@@ -11747,9 +11747,9 @@
       "live": true
     },
     {
-      "id": "15d395b3-2275-5381-9be4-b2972b949827",
-      "slug": "2026-10-04-brusszelnek-panaszkodik-a-fidesz-es-a-kdnp",
-      "status": "needs_review",
+      "id": "1d92ba89-3227-565f-a65f-636520291f1d",
+      "slug": "2026-10-04-brusszelhez-fordult-ketsegbeeseseben-a-fidesz-kdnp",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -11759,7 +11759,7 @@
         "Magyar Péter",
         "Brüsszel"
       ],
-      "title": "Brüsszelnek panaszkodik a Fidesz és a KDNP",
+      "title": "Brüsszelhez fordult kétségbeesésében a Fidesz-kdnp",
       "subtitle": null,
       "lead": "Levélben fordult az Európai Unió illetékes biztosához a Fidesz és a KDNP európai parlamenti képviselőcsoportja, mert álláspontjuk szerint a Tisza-kormány antidemokratikus lépésekkel és önkényuralmi rendszer kiépítésével veszélyezteti a jogállamiságot. Magyar Péter miniszterelnök mindeközben szánalmasnak és röhejesnek nevezte a brüsszeli akciót.",
       "key_points": [
@@ -11840,11 +11840,11 @@
       },
       "date": "2026-10-04",
       "date_label": "október 4.",
-      "url": "/kozelet/2026-10-04-brusszelnek-panaszkodik-a-fidesz-es-a-kdnp/",
+      "url": "/kozelet/2026-10-04-brusszelhez-fordult-ketsegbeeseseben-a-fidesz-kdnp/",
       "seo": {
-        "meta_title": "Brüsszelnek panaszkodik a Fidesz és a KDNP",
+        "meta_title": "Brüsszelhez fordult kétségbeesésében a Fidesz-kdnp",
         "meta_description": "Levélben fordult az Európai Unió illetékes biztosához a Fidesz és a KDNP európai parlamenti képviselőcsoportja, mert álláspontjuk szerint a Tisza-kormány antide",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-04-brusszelnek-panaszkodik-a-fidesz-es-a-kdnp/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-04-brusszelhez-fordult-ketsegbeeseseben-a-fidesz-kdnp/",
         "og_image": "https://xn--kollektva-m5a.hu/public/img/px/517560d389050aef.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -11862,9 +11862,9 @@
       "dedupe_hash": "c0e5c91cb0d9daafbe4411e402b4335c895e32f209682de05b4986fed1eaaff6",
       "pipeline_run_id": "37176243937",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-04T11:53:06+02:00",
-      "updated_at": "2026-10-04T08:31:16+02:00",
-      "published_at": "2026-10-04T07:28:40+02:00",
+      "created_at": "2026-10-04T11:54:34+02:00",
+      "updated_at": "2026-10-04T11:54:34+02:00",
+      "published_at": "2026-10-04T11:54:34+02:00",
       "expires_at": null,
       "hold": true,
       "title_options": [
@@ -11897,7 +11897,8 @@
         "control_id": 2392,
         "title_prompt_id": 2395,
         "custom_title": "Brüsszelhez fordult kétségbeesésében a Fidesz-kdnp"
-      }
+      },
+      "live": true
     }
   ]
 }

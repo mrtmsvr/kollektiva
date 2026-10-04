@@ -1,7 +1,129 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T11:52:53+02:00",
+  "updated_at": "2026-10-04T11:54:34+02:00",
   "articles": [
+    {
+      "id": "1d92ba89-3227-565f-a65f-636520291f1d",
+      "slug": "2026-10-04-brusszelhez-fordult-ketsegbeeseseben-a-fidesz-kdnp",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Fidesz",
+        "KDNP",
+        "Tisza Párt",
+        "Magyar Péter",
+        "Brüsszel"
+      ],
+      "title": "Brüsszelhez fordult kétségbeesésében a Fidesz-kdnp",
+      "subtitle": null,
+      "lead": "Levélben fordult az Európai Unió illetékes biztosához a Fidesz és a KDNP európai parlamenti képviselőcsoportja, mert álláspontjuk szerint a Tisza-kormány antidemokratikus lépésekkel és önkényuralmi rendszer kiépítésével veszélyezteti a jogállamiságot. Magyar Péter miniszterelnök mindeközben szánalmasnak és röhejesnek nevezte a brüsszeli akciót.",
+      "key_points": [
+        "A Fidesz és a KDNP uniós biztosi állásfoglalást kért a Tisza-kormány lépéseiről.",
+        "Az ellenzéki EP-képviselők szerint visszamenőleges jogalkotás és koncepciós eljárások zajlanak az országban.",
+        "Magyar Péter miniszterelnök bírálta a kormánypártok brüsszeli megkeresését.",
+        "A levélben kitértek Sulyok Tamás államfő eltávolítására is."
+      ],
+      "content": "Levélben kérte Michael McGrath európai uniós biztos állásfoglalását a Fidesz és a KDNP európai parlamenti képviselőcsoportja a Tisza-kormány intézkedései miatt. A szombati sajtóközleményben részletezett dokumentum szerint a kabinet visszamenőleges, személyre szabott jogalkotást alkalmaz, valamint független közjogi tisztségviselőket távolít el a hatalomból.\n\nA kormánypártok EP-képviselői úgy fogalmaztak, hogy a tiszás parlamenti többség alkotmányos puccsot hajtott végre. Ennek részeként említették, hogy az Országgyűlés korlátozta a parlamenti képviselők és a miniszterelnök mandátumának idejét, valamint eltávolította hivatalából Sulyok Tamás államfőt.\n\nA levél szerzői bírálják a legfőbb ügyész helyzetét is, akit a miniszterelnök többszörös nyomásgyakorlásával kényszerítettek lemondásra. Kifogásolják továbbá, hogy személyre szabott jogszabályokkal mentették fel az Alkotmánybíróság elnökét és számos tagját, míg a médiatanácsba jelölt fideszes és KDNP-s jelöltek mandátumát nem szavazta meg a parlament.\n\nA kormánypárti képviselők hangsúlyozták, hogy egy kitérő uniós válasz az Európai Bizottság hallgatólagos támogatását jelentené.\n\nMagyar Péter miniszterelnök a közösségi oldalán reagált a fejleményekre, ahol szánalmasnak és röhejesnek minősítette, hogy a Fidesz és a KDNP ahhoz a Brüsszelhez rohan panaszkodni, amelyet éveken át gyalázott, miközben itthon a hatóságokat fenyegeti.",
+      "content_format": "markdown",
+      "body": [
+        "Levélben kérte Michael McGrath európai uniós biztos állásfoglalását a Fidesz és a KDNP európai parlamenti képviselőcsoportja a Tisza-kormány intézkedései miatt. A szombati sajtóközleményben részletezett dokumentum szerint a kabinet visszamenőleges, személyre szabott jogalkotást alkalmaz, valamint független közjogi tisztségviselőket távolít el a hatalomból.",
+        "A kormánypártok EP-képviselői úgy fogalmaztak, hogy a tiszás parlamenti többség alkotmányos puccsot hajtott végre. Ennek részeként említették, hogy az Országgyűlés korlátozta a parlamenti képviselők és a miniszterelnök mandátumának idejét, valamint eltávolította hivatalából Sulyok Tamás államfőt.",
+        "A levél szerzői bírálják a legfőbb ügyész helyzetét is, akit a miniszterelnök többszörös nyomásgyakorlásával kényszerítettek lemondásra. Kifogásolják továbbá, hogy személyre szabott jogszabályokkal mentették fel az Alkotmánybíróság elnökét és számos tagját, míg a médiatanácsba jelölt fideszes és KDNP-s jelöltek mandátumát nem szavazta meg a parlament.",
+        "A kormánypárti képviselők hangsúlyozták, hogy egy kitérő uniós válasz az Európai Bizottság hallgatólagos támogatását jelentené.",
+        "Magyar Péter miniszterelnök a közösségi oldalán reagált a fejleményekre, ahol szánalmasnak és röhejesnek minősítette, hogy a Fidesz és a KDNP ahhoz a Brüsszelhez rohan panaszkodni, amelyet éveken át gyalázott, miközben itthon a hatóságokat fenyegeti."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 213,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/517560d389050aef.jpg",
+        "width": 6000,
+        "height": 4000,
+        "kind": "photo",
+        "alt": "european flag, european elections, eu election, european, flag, eu, future, states, euro, government, bundestag, politics, cdu, eu, eu, eu, eu, eu, cdu, cdu, cdu",
+        "credit": "kdg2020 / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/european-flag-european-elections-4777467/",
+        "vision_score": 5.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/517560d389050aef.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261003_fidesz-kdnp-eu-level-tiszas-onkeny-magyar-peter-reakcio",
+          "title": "Levélben fordult az EU-hoz a Fidesz és a KDNP a tiszás „önkény” miatt, Magyar szerint „szánalmas és röhejes” az akció",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T08:28:47+02:00"
+        },
+        {
+          "url": "https://telex.hu/belfold/2026/10/03/magyar-peter-reakcio-fidesz-kdnp-allasfoglalas-keres-unios-biztos-michael-mcgrath",
+          "title": "Reagált Magyar Péter arra, hogy a Fidesz és a KDNP a jogállamiságért felelős uniós biztoshoz fordult a „tiszás önkény” miatt",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T08:28:47+02:00"
+        },
+        {
+          "url": "https://telex.hu/belfold/2026/10/03/fidesz-kdnp-level-unios-biztosi-allasfoglalas-tisza-kormany-tevekenyseg",
+          "title": "Levélben kért uniós biztosi állásfoglalást a Tisza-kormány tevékenységéről a Fidesz és a KDNP",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T08:28:47+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Szánalmas és röhejes, ahogy a fideszes maffia magyar ügyészeket és rendőröket fenyeget, amiért végzik a munkájukat, és közben ahhoz a Brüsszelhez rohan panaszkodni, amelyet éveken keresztül gyalázott",
+        "who": "Magyar Péter miniszterelnök",
+        "after": 2
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-04T11:54:34+02:00"
+      },
+      "hot_score": 9.45,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261003_fidesz-kdnp-eu-level-tiszas-onkeny-magyar-peter-reakcio",
+          "https://telex.hu/belfold/2026/10/03/magyar-peter-reakcio-fidesz-kdnp-allasfoglalas-keres-unios-biztos-michael-mcgrath"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/kozelet/2026-10-04-brusszelhez-fordult-ketsegbeeseseben-a-fidesz-kdnp/",
+      "seo": {
+        "meta_title": "Brüsszelhez fordult kétségbeesésében a Fidesz-kdnp",
+        "meta_description": "Levélben fordult az Európai Unió illetékes biztosához a Fidesz és a KDNP európai parlamenti képviselőcsoportja, mert álláspontjuk szerint a Tisza-kormány antide",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-04-brusszelhez-fordult-ketsegbeeseseben-a-fidesz-kdnp/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/517560d389050aef.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "c0e5c91cb0d9daafbe4411e402b4335c895e32f209682de05b4986fed1eaaff6",
+      "pipeline_run_id": "37176243937",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T11:54:34+02:00",
+      "updated_at": "2026-10-04T11:54:34+02:00",
+      "published_at": "2026-10-04T11:54:34+02:00",
+      "expires_at": null,
+      "hold": true
+    },
     {
       "id": "262200b8-cea7-5728-a0d5-c2b5289f5413",
       "slug": "2026-10-04-szappanopera-a-politikaban-elnokvalasztas-braziliaban",
