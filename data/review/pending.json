@@ -9913,7 +9913,7 @@
     {
       "id": "69c33c8d-14d5-5d34-bcc3-3bdb80a6cfb1",
       "slug": "2026-10-04-legiriadok-es-romok-kozt-tett-egymilliardos-igeretet-merz-kijevben",
-      "status": "pending",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -10124,9 +10124,9 @@
       "dedupe_hash": "2ec80f4740ba221145245f482a929f224e92d091ac754a2eb3c436c6d5ef57cb",
       "pipeline_run_id": "37223991304",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-04T20:19:46+02:00",
-      "updated_at": "2026-10-04T20:19:46+02:00",
-      "published_at": "2026-10-04T20:19:46+02:00",
+      "created_at": "2026-10-04T20:51:21+02:00",
+      "updated_at": "2026-10-04T20:51:21+02:00",
+      "published_at": "2026-10-04T20:51:21+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10147,7 +10147,8 @@
           2614
         ],
         "control_id": 2615
-      }
+      },
+      "live": true
     },
     {
       "id": "1ef42d42-b36b-520e-aac0-b8d8ea1e2eef",
