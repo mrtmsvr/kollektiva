@@ -11137,73 +11137,15 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/1e038c5e01-1791117046-0.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/1e038c5e01-1791117046-0.jpg",
+          "url": "https://pixabay.com/get/g5ed9989c6fa7d85bd14db2332b06e484020bc7ad1b48b3182e9cf8f31618e7d3c7e68220c1a29261cc6d342e50b3658df71e49ebe03e212111ad470df0053486_1280.jpg",
+          "width": 6000,
+          "height": 4000,
           "kind": "photo",
-          "alt": "Már az ókori görögök is égi vasból kovácsoltak gyűrűket",
-          "likeness": false,
-          "credit": "Kollektíva illusztráció",
-          "license": "saját grafika",
-          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
-          "generated": true
-        },
-        {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/1e038c5e01-1791117050-1.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/1e038c5e01-1791117050-1.jpg",
-          "kind": "photo",
-          "alt": "Már az ókori görögök is égi vasból kovácsoltak gyűrűket",
-          "likeness": false,
-          "credit": "Kollektíva illusztráció",
-          "license": "saját grafika",
-          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
-          "generated": true
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Iron_meteorite._Hammersley_Range%2C_Australia-8911.jpg/1280px-Iron_meteorite._Hammersley_Range%2C_Australia-8911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1072,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Iron meteorite with Widmanstätten pattern - Place of discovery: Hammersley Range, Australia",
-          "credit": "Raimond Spekking / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Iron_meteorite._Hammersley_Range,_Australia-8911.jpg",
-          "vision_score": 8.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Namibie_Hoba_Meteorite_05.JPG/1280px-Namibie_Hoba_Meteorite_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 798,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Namibia Meteorite Hoba\nPhotograph taken by: GIRAUD Patrick",
-          "credit": "No machine-readable author provided. Calips assumed (based on copyright claims). / Wikimedia Commons",
-          "license": "CC BY 2.5",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Namibie_Hoba_Meteorite_05.JPG",
-          "vision_score": 7.0
-        },
-        {
-          "url": "https://pixabay.com/get/g6c3c4fca7f214169fb0b43ce78d2edae1e8de30ab38f1fa5cef99dc1905a48002f0cb2412e72c77a38b3c04e934afa13_1280.jpg",
-          "width": 4000,
-          "height": 3000,
-          "kind": "photo",
-          "alt": "meteorite, stone, rock, iron meteorite, nickel iron meteorites, shooting star, cosmos, space, stone meteorite, meteorite, meteorite, meteorite, meteorite, meteorite",
-          "credit": "Hans / Pixabay",
+          "alt": "pearl, gold, accessories, jewelry, gem, emerald, china, ancient, qing dynasty, cultural relics, pearl, jewelry, emerald, emerald, emerald, emerald, emerald",
+          "credit": "EVA12_ / Pixabay",
           "license": "Pixabay License",
-          "source_url": "https://pixabay.com/photos/meteorite-stone-rock-iron-meteorite-91891/",
+          "source_url": "https://pixabay.com/photos/pearl-gold-accessories-jewelry-gem-3443725/",
           "vision_score": 6.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Ancient_Egyptian_jewelry_beads_and_amulet_Penn_Museum.jpg/1280px-Ancient_Egyptian_jewelry_beads_and_amulet_Penn_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Ancient Egyptian jewelry beads and amulet Penn Museum",
-          "credit": "Mary Harrsch / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Egyptian_jewelry_beads_and_amulet_Penn_Museum.jpg",
-          "vision_score": 5.0
         }
       ],
       "story": [
@@ -11264,10 +11206,30 @@
           2477,
           2478,
           2495,
-          2496
+          2496,
+          2498
         ],
-        "control_id": 2497
-      }
+        "control_id": 2499
+      },
+      "image_queries": [
+        "Jan Gerrit Dercksen",
+        "Victoria Almansa-Villatoro",
+        "Tutankhamun",
+        "Leiden University",
+        "Assurban",
+        "Alexandria",
+        "ancient jewelry",
+        "meteorite iron",
+        "archaeological excavation"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Ancient_Egyptian_jewelry_beads_and_amulet_Penn_Museum.jpg/1280px-Ancient_Egyptian_jewelry_beads_and_amulet_Penn_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://xn--kollektva-m5a.hu/public/img/gen/1e038c5e01-1791117050-1.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Iron_meteorite._Hammersley_Range%2C_Australia-8911.jpg/1280px-Iron_meteorite._Hammersley_Range%2C_Australia-8911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Namibie_Hoba_Meteorite_05.JPG/1280px-Namibie_Hoba_Meteorite_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://pixabay.com/get/g6c3c4fca7f214169fb0b43ce78d2edae1e8de30ab38f1fa5cef99dc1905a48002f0cb2412e72c77a38b3c04e934afa13_1280.jpg",
+        "https://xn--kollektva-m5a.hu/public/img/gen/1e038c5e01-1791117046-0.jpg"
+      ]
     },
     {
       "id": "0dd09dec-96cf-5377-90fe-9a299de8e606",
