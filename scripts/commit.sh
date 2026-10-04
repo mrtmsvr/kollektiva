@@ -12,7 +12,7 @@ site_changed=0
 if git diff --cached --name-only | grep -qv '^data/'; then site_changed=1; fi
 
 deploy=0
-if [ "$site_changed" = 1 ] || [ -f "$FLAG" ]; then
+if [ "$site_changed" = 1 ] || [ -f "$FLAG" ] || [ -f data/deploy_now ]; then
   month_start=$(date -u +%Y-%m-01)
   day=$(date -u +%-d)
   dim=$(date -u -d "$month_start +1 month -1 day" +%-d)
@@ -23,7 +23,10 @@ if [ "$site_changed" = 1 ] || [ -f "$FLAG" ]; then
   allowed=$(( (${BUILD_BUDGET:-470} - ${used:-0} + ${bot_today:-0}) / left ))
   last=$(git log HEAD -1 --format=%ct --invert-grep --grep='CF-Pages-Skip' 2>/dev/null || echo 0)
   gap=$(( $(date +%s) - ${last:-0} ))
-  if [ "$gap" -lt $(( ${MIN_DEPLOY_GAP_MIN:-8} * 60 )) ]; then
+  if [ -f data/deploy_now ] && [ "$gap" -ge 60 ] && [ "${used:-0}" -lt "${BUILD_BUDGET:-470}" ]; then
+    # levétel / törlés: azonnal kikerül, a napi rész nem tartja vissza (csak a havi keret)
+    deploy=1; rm -f "$FLAG" data/deploy_now
+  elif [ "$gap" -lt $(( ${MIN_DEPLOY_GAP_MIN:-8} * 60 )) ]; then
     echo "Az előző kirakás óta csak ${gap} mp telt el – ez a változás a következő körrel kerül ki."; touch "$FLAG"
   elif [ "${bot_today:-0}" -lt "$allowed" ] && [ "${used:-0}" -lt "${BUILD_BUDGET:-470}" ]; then
     deploy=1; rm -f "$FLAG"
