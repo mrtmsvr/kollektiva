@@ -54,6 +54,12 @@ from pathlib import Path
 from typing import Any, Optional
 from zoneinfo import ZoneInfo
 
+# Ha szkriptként fut (python kollektiva_content.py), a többi modul (telegram_review, polls, quiz…) „import
+# kollektiva_content” hívása ugyanezt a példányt kapja – különben két külön AIError osztály lenne, és egy
+# AI-hiba elkerülné a hibakezelést (így omlott össze a robot a grafika gombnál).
+if __name__ == "__main__":
+    sys.modules.setdefault("kollektiva_content", sys.modules[__name__])
+
 BASE_DIR = Path(__file__).resolve().parent
 # A kanonikus webcím (kollektíva.hu punycode alakja). Ékezet nélküli kollektiva.hu MÁS domain!
 SITE_URL = os.getenv("SITE_URL", "https://xn--kollektva-m5a.hu").rstrip("/")
@@ -273,12 +279,35 @@ class AIClient:
             return f"ai:groq:{self.cfg.groq_model}"
         return "fallback"
 
+    def _groq_model(self) -> str:
+        """A beállított Groq-modell, vagy ha azt a Groq megszüntette, a legjobb elérhető (a lista futásonként egyszer)."""
+        if getattr(self, "_gm", None):
+            return self._gm
+        want = self.cfg.groq_model
+        try:
+            req = urllib.request.Request("https://api.groq.com/openai/v1/models",
+                                         headers={"Authorization": f"Bearer {self.cfg.groq_key}", "User-Agent": "KollektivaBot/1.0"})
+            with urllib.request.urlopen(req, timeout=15) as r:
+                ids = [m["id"] for m in json.loads(r.read()).get("data", []) if m.get("active", True)]
+        except Exception:  # noqa: BLE001
+            ids = []
+        if ids and want not in ids:
+            skip = ("guard", "whisper", "tts", "compound", "playai", "distil")
+            pref = ("llama-4-maverick", "gpt-oss-120b", "llama-4-scout", "kimi-k2", "qwen3-32b", "llama-3.3-70b",
+                    "gpt-oss-20b", "llama-3.1-8b")
+            cand = [i for p in pref for i in ids if p in i and not any(x in i for x in skip)]
+            if cand:
+                log.info("Groq: a %s modell nem elérhető, helyette: %s", want, cand[0])
+                want = cand[0]
+        self._gm = want
+        return want
+
     def _groq(self, system: str, prompt: str, max_tokens: int) -> str:
         """Groq (ingyenes, gyors, OpenAI-kompatibilis): tartalék, ha a fő modell keretet/hibát ad, és a kis
         feladatok (duplikáció, képkulcsszó, szavazás) gyors végrehajtója, hogy a fő keret a cikkírásra maradjon."""
         c = self.cfg
         data = post_json("https://api.groq.com/openai/v1/chat/completions", {"Authorization": f"Bearer {c.groq_key}"},
-                         {"model": c.groq_model, "max_tokens": min(max_tokens, 8000),
+                         {"model": self._groq_model(), "max_tokens": min(max_tokens, 8000),
                           "response_format": {"type": "json_object"},
                           "messages": [{"role": "system", "content": system}, {"role": "user", "content": prompt}]},
                          c.http_timeout, 2)
@@ -1033,6 +1062,8 @@ def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: in
     """Saját illusztráció a Cloudflare Workers AI-jal (FLUX, ingyenes napi keret): szerkesztőségi grafika, NEM fotó
     valós személyről (valódi embert nem generálunk le). Kell: CF_ACCOUNT_ID + CF_AI_TOKEN. A kép a repóba kerül."""
     import base64
+    global LAST_GEN_ERROR
+    LAST_GEN_ERROR = ""
     acct, token = os.getenv("CF_ACCOUNT_ID", "").strip(), os.getenv("CF_AI_TOKEN", "").strip()
     if not acct or not token:
         return []
@@ -1041,11 +1072,15 @@ def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: in
                                "konkrét, a témát jól mutató jelenet vagy szimbolikus kompozíció; stílus: modern editorial "
                                "illustration, rich detail, cinematic light, muted navy and warm gold palette; TILOS: felismerhető "
                                "valós személy arca, logó, felirat/szöveg, zászló-torzítás. "
-                               'JSON: {"prompts": ["...", "..."]}', 600, light=True)
+                               'JSON: {"prompts": ["...", "..."]}', 1400, light=True)
         prompts = [str(p)[:900] for p in raw.get("prompts") or [] if str(p).strip()][:n]
-    except (AIError, ValueError, TypeError, KeyError) as e:
-        log.warning("Illusztráció-prompt sikertelen: %s", e)
-        return []
+    except Exception as e:  # noqa: BLE001 – AI-hiba esetén egyszerű prompt a címből, a grafika így is elkészül
+        log.warning("Illusztráció-prompt sikertelen, egyszerű prompttal megyek: %s", str(e)[:200])
+        prompts = []
+    if not prompts:
+        base = (f"Modern editorial illustration for a news magazine article titled \"{title}\". Symbolic, conceptual "
+                "composition, rich detail, cinematic light, muted navy and warm gold palette, no recognizable real people")
+        prompts = [base, base + ", wide establishing view"][:n]
     out_dir = BASE_DIR / "public" / "img" / "gen"
     out_dir.mkdir(parents=True, exist_ok=True)
     out = []
@@ -1057,7 +1092,6 @@ def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: in
                              ai.cfg.http_timeout, 2)
             img = base64.b64decode((data.get("result") or {}).get("image") or "")
         except Exception as e:  # noqa: BLE001
-            global LAST_GEN_ERROR
             LAST_GEN_ERROR = str(e)[:300]
             log.warning("Illusztráció generálása sikertelen: %s", LAST_GEN_ERROR)
             continue
