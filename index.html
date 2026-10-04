@@ -140,6 +140,7 @@
         <p id="featKicker" class="text-[13px] uppercase tracking-[0.16em] text-brass">&nbsp;</p>
         <p class="shrink-0 text-[13px] text-dusk"><span id="todayLabel"></span></p>
       </div>
+      <a id="nowBar" href="#" style="position:relative;display:flex;align-items:center;gap:10px;min-height:30px;margin-top:10px;padding:5px 12px 5px 8px;border-left:3px solid #E5322B;background:rgba(229,50,43,.10);border-radius:0 8px 8px 0;font:600 13px/1.3 Manrope,system-ui,sans-serif;color:#ECE6D8;text-decoration:none;overflow:hidden"><span id="nowTag" style="flex:none;display:inline-flex;align-items:center;gap:5px;padding:2px 7px;border-radius:4px;background:#E5322B;color:#fff;font:800 10px/1.3 Manrope,system-ui,sans-serif;letter-spacing:.1em"><i style="width:6px;height:6px;border-radius:50%;background:#fff;animation:knp 1.2s infinite"></i>MOST</span><span id="nowText" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">&nbsp;</span></a>
       <a id="featLink" href="#retro" class="group relative block">
         <h1 id="featTitle" class="mt-3 min-h-[3.12em] lg:min-h-[2.08em] font-display text-[38px] font-semibold leading-[1.04] tracking-tight text-parch transition-colors group-hover:text-brass sm:text-[54px] lg:text-[62px]">&nbsp;</h1>
         <p id="featLead" class="mt-3 min-h-[3.25em] max-w-xl text-[16px] leading-relaxed text-dusk line-clamp-2 sm:text-[18px]"></p>
@@ -800,6 +801,7 @@ const todayState = { retroTitle: '', retroYear: '' };
 
 function renderFeatured(f) {
   $('featKicker').textContent = f.kicker;
+  $('featKicker').style.color = f.hot ? '#E5322B' : '';
   $('featTitle').textContent = f.title;
   $('featLead').textContent = f.lead || '';
   $('featMeta').textContent = f.meta || '';
@@ -971,7 +973,13 @@ loadRetro();
     const prio = sameDay.filter(a => a.category === 'kozelet' || a.category === 'vilag');
     const withImg = list => list.find(a => a.hero_image && a.hero_image.url);
     const top = best && (withImg(prio) || withImg(sameDay) || prio[0] || best);
-    if (top) { window.__hotFeatured = true; renderFeatured({ kicker: NAMES[top.category] || 'Friss', title: top.title, lead: top.lead, meta: `${top.date_label || ''} · ${top.reading_time_min || 1} perc olvasás · Kollektíva szerkesztőség`, href: top.url, img: top.hero_image }); }
+    if (top) { window.__hotFeatured = true; renderFeatured({ hot: true, kicker: NAMES[top.category] || 'Friss', title: top.title, lead: top.lead, meta: `${top.date_label || ''} · ${top.reading_time_min || 1} perc olvasás · Kollektíva szerkesztőség`, href: top.url, img: top.hero_image }); }
+    // „Most” csík a kiemelt cikk fölött: a legfrissebb (nem kiemelt) cikk; 1 órán belül MOST, egyébként FRISS
+    (function () { const ts = a => Date.parse(a.published_at || a.created_at || '') || 0;
+      const n = arts.filter(a => a !== top && a.category !== 'horoszkop').sort((a, b) => ts(b) - ts(a))[0], bar = $('nowBar');
+      if (!bar) return; if (!n) { bar.style.visibility = 'hidden'; return; }
+      bar.href = n.url; $('nowText').textContent = (NAMES[n.category] ? NAMES[n.category] + ' · ' : '') + n.title;
+      if (Date.now() - ts(n) > 3600e3) $('nowTag').lastChild.textContent = 'FRISS'; })();
     // „Új” jelölés: a 4 órán belül megjelent cikkek címe előtt kis piros felirat
     const isNew = a => { const t = Date.parse(a.published_at || a.created_at || ''); return t && Date.now() - t < 4 * 3600e3 && Date.now() >= t
       ? '<span style="display:inline-block;vertical-align:middle;margin:-2px 8px 0 0;padding:2px 6px;border-radius:4px;background:#E5322B;color:#fff;font:700 10px/1.3 Manrope,system-ui,sans-serif;letter-spacing:.08em">ÚJ</span>' : ''; };
