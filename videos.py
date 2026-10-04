@@ -17,6 +17,7 @@ hogy van-e benne hír.
 from __future__ import annotations
 
 import json
+import html
 import logging
 import os
 import re
@@ -36,11 +37,16 @@ SOURCES_FILE = kc.BASE_DIR / "data" / "video_sources.json"
 STATE_FILE = kc.BASE_DIR / "data" / "video_state.json"
 DEFAULT_SOURCES = [
     {"name": "Partizán", "channel_id": "UCEFpEvuosfPGlV1VyUF6QOA"},
-    {"name": "Telex", "handle": "Telexponthu"},
-    {"name": "444", "handle": "444hu"},
+    {"name": "Telex", "handle": "Telexponthu", "channel_id": "UCM-1sd-cXSuCsfWp8QMY_OQ"},
+    {"name": "444", "handle": "negynegynegy", "channel_id": "UCGoLa-QhHmTxLEdjv_8dxrg"},
+    {"name": "Szélsőközép", "handle": "szelsokozepprodukcio", "channel_id": "UCHdkcNjZq3CpIvMdWX8maMg"},
 ]
-UA = {"User-Agent": "Mozilla/5.0 (compatible; KollektivaBot/1.0; +https://xn--kollektva-m5a.hu)",
-      "Accept-Language": "hu-HU,hu;q=0.9,en;q=0.5"}
+# ismert csatornaazonosítók (a GitHub-szerverről a YouTube néha nem adja ki a csatornaoldalt)
+KNOWN_IDS = {"telexponthu": "UCM-1sd-cXSuCsfWp8QMY_OQ", "444hu": "UCGoLa-QhHmTxLEdjv_8dxrg",
+             "negynegynegy": "UCGoLa-QhHmTxLEdjv_8dxrg", "szelsokozepprodukcio": "UCHdkcNjZq3CpIvMdWX8maMg"}
+# a YouTube a bot-azonosítót és a süti nélküli kérést gyakran a hozzájárulási oldalra irányítja → böngésző-fejléc + hozzájárulás-süti
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+      "Accept-Language": "hu-HU,hu;q=0.9,en;q=0.5", "Cookie": "SOCS=CAI; CONSENT=YES+1"}
 SKIP = re.compile(r"#shorts|\bshorts?\b|előzetes|trailer|élő adás indul|premier|stream starts|reklám", re.I)
 
 VIDEO_SYSTEM = (
@@ -59,11 +65,23 @@ def _get(url: str, timeout: int = 20) -> str:
 
 
 def load_sources() -> list:
-    return kc.read_json(SOURCES_FILE, {"sources": DEFAULT_SOURCES}).get("sources", DEFAULT_SOURCES)
+    data = kc.read_json(SOURCES_FILE, {"sources": DEFAULT_SOURCES})
+    src = data.get("sources", DEFAULT_SOURCES)
+    removed = {str(x).lower() for x in data.get("removed", [])}
+    for x in src:  # régi bejegyzés azonosító nélkül → ismert azonosító
+        if not x.get("channel_id") and str(x.get("handle", "")).lower() in KNOWN_IDS:
+            x["channel_id"] = KNOWN_IDS[str(x["handle"]).lower()]
+    have = {x.get("channel_id") for x in src}
+    for d in DEFAULT_SOURCES:  # később felvett alapcsatornák (ha nem törölted őket)
+        if d["channel_id"] not in have and d["name"].lower() not in removed:
+            src.append(dict(d))
+    return src
 
 
-def save_sources(src: list) -> None:
-    kc.write_json_atomic(SOURCES_FILE, {"sources": src})
+def save_sources(src: list, removed: Optional[list] = None) -> None:
+    data = kc.read_json(SOURCES_FILE, {})
+    rem = list(dict.fromkeys((data.get("removed") or []) + (removed or [])))
+    kc.write_json_atomic(SOURCES_FILE, {"sources": src, "removed": rem})
 
 
 def resolve_channel(src: dict) -> Optional[str]:
@@ -85,6 +103,9 @@ def resolve_channel(src: dict) -> Optional[str]:
     h = str(src.get("handle") or "").lstrip("@")
     if not h:
         return None
+    if h.lower() in KNOWN_IDS:
+        src["channel_id"] = KNOWN_IDS[h.lower()]
+        return src["channel_id"]
     try:
         page = _get(f"https://www.youtube.com/@{urllib.parse.quote(h)}")
     except (urllib.error.URLError, TimeoutError, OSError) as e:
@@ -92,8 +113,17 @@ def resolve_channel(src: dict) -> Optional[str]:
         return None
     m = (re.search(r'"externalId":"(UC[\w-]{22})"', page) or re.search(r'"channelId":"(UC[\w-]{22})"', page)
          or re.search(r"/channel/(UC[\w-]{22})", page))
+    if not m:  # tartalék: YouTube-keresés csatornára
+        try:
+            res = _get(f"https://www.youtube.com/results?search_query={urllib.parse.quote(h)}&sp=EgIQAg%3D%3D")
+            m = re.search(r'"channelId":"(UC[\w-]{22})","title":\{"simpleText":"([^"]+)"', res)
+        except (urllib.error.URLError, TimeoutError, OSError):
+            m = None
     if m:
         src["channel_id"] = m.group(1)
+        n = re.search(r'<meta property="og:title" content="([^"]+)"', page)
+        if n and src.get("name") == h:
+            src["name"] = html.unescape(n.group(1))
         return m.group(1)
     log.warning("Nem találom a csatornaazonosítót: @%s", h)
     return None
