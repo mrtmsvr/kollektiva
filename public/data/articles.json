@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T14:23:15+02:00",
+  "updated_at": "2026-10-04T14:25:08+02:00",
   "articles": [
     {
       "id": "bd5f6137-5e0b-56e4-bda1-c741a69d0d7f",
@@ -112,105 +112,6 @@
       "created_at": "2026-10-04T14:23:15+02:00",
       "updated_at": "2026-10-04T14:23:15+02:00",
       "published_at": "2026-10-04T14:23:15+02:00",
-      "expires_at": null
-    },
-    {
-      "id": "11e103d5-0c6e-5ac6-bef2-439563c34026",
-      "slug": "2026-10-04-kozel-felmilliard-kelt-el-egy-nobel-dijas-festmenyeert",
-      "status": "published",
-      "category": "penzvilag",
-      "subcategory": null,
-      "tags": [
-        "műtárgypiac",
-        "aukció",
-        "Nobel-díj",
-        "befektetés",
-        "Kultúra"
-      ],
-      "title": "Közel félmilliárd kelt el egy Nobel-díjas festményéért",
-      "subtitle": null,
-      "lead": "Több százmillió forintos leütési árak születtek az őszi műtárgy-árveréseken, ahol egy irodalmi Nobel-díjas szerző festménye is elkelt. A rangos aukciósházak hongkongi és londoni rendezvényein a klasszikus és kortárs nyugati, valamint a délkelet-ázsiai mesterművek is hatalmas érdeklődést váltottak ki.",
-      "key_points": [
-        "Rabindranath Tagore női fejet ábrázoló festménye mintegy 1 millió fontért kelt el.",
-        "Egy Basquiat-alkotás csaknem 10 millió dollárt ért meg egy gyűjtőnek Hongkongban.",
-        "Az indiai modern művészet kiemelkedő darabjai is többszörösére növelték becsértéküket."
-      ],
-      "content": "A nemzetközi műtárgypiac az őszi időszak elején komoly árakat hozott Ázsiában és Európában is. A Sotheby’s és a Christie’s aukcióin a huszadik és huszonegyedik századi nyugati, valamint a modern délkelet-ázsiai alkotások iránti kiemelkedő kereslet több kategóriában is áremelkedést eredményezett.\n\nAz indiai polihisztor, irodalmi Nobel-díjas író és zeneszerző, Rabindranath Tagore egyik ritka munkája is új tulajdonosra talált az árverésen. A korabeli indiai festészettől stílusában és technikájában is eltérő, női fejet ábrázoló portréért, amelynek becsértéke 350 ezer font volt, végül mintegy 1 millió fontot, azaz megközelítőleg 430 millió forintot fizettek.\n\nA rendezvényeken más délkelet-ázsiai alkotások is kiemelkedően szerepeltek, miután becsértéküket többszörösen túlszárnyalva keltek el. Bhupen Khakhar indiai pop art művész Sakkozó öregember című nagyméretű vásznáért 3,14 millió fontot adtak a kezdeti 700 ezer fontos becslés helyett, míg az „Indiai Picassóként” ismert Maqbool Fida Husain munkája 2,65 millió fontért kelt el a legfeljebb 600 ezer fontra várt összeg helyett.\n\nA keleti vásárlóerőt tesztelő rendezvények csúcsát egy nyugati műtárgy, egy Basquiat-alkotás jelentette. Az Ancient Scientist elnevezésű mű a Christie’s hongkongi árverésén közel 10 millió dollárért cserélt gazdát, megkoronázva az őszi szezon eddigi legfontosabb műpiaci eseményeit.",
-      "content_format": "markdown",
-      "body": [
-        "A nemzetközi műtárgypiac az őszi időszak elején komoly árakat hozott Ázsiában és Európában is. A Sotheby’s és a Christie’s aukcióin a huszadik és huszonegyedik századi nyugati, valamint a modern délkelet-ázsiai alkotások iránti kiemelkedő kereslet több kategóriában is áremelkedést eredményezett.",
-        "Az indiai polihisztor, irodalmi Nobel-díjas író és zeneszerző, Rabindranath Tagore egyik ritka munkája is új tulajdonosra talált az árverésen. A korabeli indiai festészettől stílusában és technikájában is eltérő, női fejet ábrázoló portréért, amelynek becsértéke 350 ezer font volt, végül mintegy 1 millió fontot, azaz megközelítőleg 430 millió forintot fizettek.",
-        "A rendezvényeken más délkelet-ázsiai alkotások is kiemelkedően szerepeltek, miután becsértéküket többszörösen túlszárnyalva keltek el. Bhupen Khakhar indiai pop art művész Sakkozó öregember című nagyméretű vásznáért 3,14 millió fontot adtak a kezdeti 700 ezer fontos becslés helyett, míg az „Indiai Picassóként” ismert Maqbool Fida Husain munkája 2,65 millió fontért kelt el a legfeljebb 600 ezer fontra várt összeg helyett.",
-        "A keleti vásárlóerőt tesztelő rendezvények csúcsát egy nyugati műtárgy, egy Basquiat-alkotás jelentette. Az Ancient Scientist elnevezésű mű a Christie’s hongkongi árverésén közel 10 millió dollárért cserélt gazdát, megkoronázva az őszi szezon eddigi legfontosabb műpiaci eseményeit."
-      ],
-      "pull_quote": null,
-      "reading_time_min": 2,
-      "word_count": 231,
-      "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://xn--kollektva-m5a.hu/public/img/gen/11e103d50c-1791116431-0.jpg",
-        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/11e103d50c-1791116431-0.jpg",
-        "kind": "photo",
-        "alt": "Közel félmilliárd kelt el egy Nobel-díjas festményéért",
-        "likeness": false,
-        "credit": "Kollektíva illusztráció",
-        "license": "saját grafika",
-        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
-        "generated": true
-      },
-      "inline_images": [],
-      "sources": [
-        {
-          "url": "https://www.portfolio.hu/gazdasag/20261004/a-nobel-dijas-iro-festmenyeert-kozel-felmilliard-forintot-fizettek-londonban-866700",
-          "title": "A Nobel-díjas író festményéért közel félmilliárd forintot fizettek Londonban",
-          "publisher": "portfolio.hu",
-          "license": null,
-          "accessed_at": "2026-10-04T14:15:19+02:00"
-        }
-      ],
-      "quote": null,
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v2",
-        "reviewed_by": "szerkesztő (Telegram)",
-        "reviewed_at": "2026-10-04T14:22:59+02:00"
-      },
-      "hot_score": 6.0,
-      "clickbait_from": 3,
-      "category_meta": {
-        "source_links": [
-          "https://www.portfolio.hu/gazdasag/20261004/a-nobel-dijas-iro-festmenyeert-kozel-felmilliard-forintot-fizettek-londonban-866700"
-        ]
-      },
-      "date": "2026-10-04",
-      "date_label": "október 4.",
-      "url": "/penzvilag/2026-10-04-kozel-felmilliard-kelt-el-egy-nobel-dijas-festmenyeert/",
-      "seo": {
-        "meta_title": "Közel félmilliárd kelt el egy Nobel-díjas festményéért",
-        "meta_description": "Több százmillió forintos leütési árak születtek az őszi műtárgy-árveréseken, ahol egy irodalmi Nobel-díjas szerző festménye is elkelt. A rangos aukciósházak hon",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-04-kozel-felmilliard-kelt-el-egy-nobel-dijas-festmenyeert/",
-        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/11e103d50c-1791116431-0.jpg",
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [],
-      "see_also": [],
-      "thread_id": null,
-      "dedupe_hash": "0330d8729a0ba6a486f99ef4a5604561328e2d7ba9f34d49bb29c8f238e2c2d0",
-      "pipeline_run_id": "37201451630",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-04T14:22:59+02:00",
-      "updated_at": "2026-10-04T14:22:59+02:00",
-      "published_at": "2026-10-04T14:22:59+02:00",
       "expires_at": null
     },
     {
