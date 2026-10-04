@@ -2071,7 +2071,9 @@ SECTION_SYSTEM = (
     "megfogalmazású, magyarázó magazincikket: nem másolsz, nem fordítasz szó szerint, hanem összefoglalsz, "
     "kontextust adsz és elmagyarázod, mit jelent ez az olvasónak. SZIGORÚ SZABÁLY: csak a megadott "
     "forráskivonatokban szereplő tényekre és vitathatatlan, közismert háttérre támaszkodhatsz; nem találsz ki "
-    "számot, idézetet, nevet vagy dátumot. Pártpolitikai állást nem foglalsz. "
+    "számot, idézetet, nevet vagy dátumot. TISZTSÉGEK: egy személy tisztségét (pl. kancellár, miniszter, elnök) mindig "
+    "a forrás szerint írd, ne a saját (esetleg elavult) tudásod szerint – ha a forrás „kancellárt” ír, nem lehet "
+    "„kancellárjelölt”. Pártpolitikai állást nem foglalsz. "
     "STÍLUS: természetes, gördülékeny, újságírói magyar nyelv; változatos mondathossz; nincs töltelékszöveg, "
     "nincs ismétlődő szó vagy fordulat egymás közelében, nincsenek tükörfordítások és erőltetett szókapcsolatok "
     "(pl. „ez rávilágít arra”, „nem csupán… hanem”, „fontos megjegyezni”, „összességében”). Az első mondat "
@@ -2776,6 +2778,7 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         if t and t not in title_options and not title_too_similar(t, story):
             title_options.append(t)
     title_options = [_clean_title(t) for t in title_options[:3]]
+    title_options = _rank_titles(ai, title_options, art.get("lead", ""))
     art["title"] = title_options[0]
     clickbait_from = len(title_options)  # innentől a 🔥 „maximum clickbait” címek (Telegramon külön jelölve)
     for t in raw.get("clickbait_titles") or []:
@@ -2817,6 +2820,34 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         "created_at": now_iso, "updated_at": now_iso, "published_at": now_iso if status == "published" else None,
         "expires_at": None,
     }
+
+
+TITLE_JUDGE = (
+    "Magyar online lap címszerkesztője vagy. Címváltozatokat rangsorolsz aszerint, melyikre kattintana egy átlagos "
+    "magyar olvasó a telefonján, ÉS melyik érthető elsőre. Jó cím: konkrét (ki/mi + mi történt vagy miért érdekes), "
+    "rövid (max. 9 szó), van benne feszültség vagy újdonság, nem hazudik, nem homályos metafora, nem tükörfordítás. "
+    "Rossz cím: általános („A … ára”), érthetetlen kép, túl hosszú, nem derül ki belőle a téma. Csak JSON-t adsz vissza."
+)
+
+
+def _rank_titles(ai: "AIClient", titles: list, lead: str) -> list:
+    """Címlektor: a legjobb (legérthetőbb és legkattintósabb) cím kerül előre; ha mind gyenge, egy jobbat is írhat."""
+    if len(titles) < 2 or os.getenv("TITLE_JUDGE", "true").lower() not in ("1", "true", "yes"):
+        return titles
+    prompt = (f"Bevezető: {lead[:400]}\n\nCímek:\n" + "\n".join(f"{i + 1}. {t}" for i, t in enumerate(titles))
+              + "\n\nJSON: {\"order\": [sorszámok a legjobbtól], \"better\": \"ha mindegyik gyenge (homályos, "
+                "általános vagy túl hosszú), egy jobb cím ugyanerre a hírre, különben null\"}")
+    try:
+        raw = ai.complete_json(TITLE_JUDGE, prompt, 200, light=True)
+    except (AIError, ValueError, TypeError, KeyError) as e:
+        log.warning("Címlektor kimaradt: %s", e)
+        return titles
+    order = [int(i) - 1 for i in raw.get("order") or [] if str(i).isdigit() and 0 < int(i) <= len(titles)]
+    ranked = [titles[i] for i in dict.fromkeys(order)] + [t for i, t in enumerate(titles) if i not in order]
+    better = _clean_title(str(raw.get("better") or "").strip()) if raw.get("better") else ""
+    if better and better not in ranked and len(better.split()) <= 11:
+        ranked = [better] + ranked[:len(titles) - 1]
+    return ranked
 
 
 SENT_LOG = BASE_DIR / "data" / "review" / "sent_log.json"
@@ -2879,7 +2910,10 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
     recent_kw = [_keywords(a.get("title", "") + " " + " ".join(s.get("title", "") for s in a.get("sources", [])))
                  for a in articles_all if (a.get("created_at") or "") >= (now - timedelta(hours=followup_h)).isoformat()]
     # a már elküldött (de a függő listából esetleg kiesett) témák is számítanak
-    recent_sent = [e for e in sent if (e.get("t") or "") >= (datetime.now(timezone.utc) - timedelta(hours=followup_h)).isoformat()]
+    # az elvetett/leszedett témák (forráslinkjük a tiltólistán) 36 óráig számítanak – más forrásból se írja meg újra
+    rej = review.rejected_links(output_dir) if review else set()
+    recent_sent = [e for e in sent if (e.get("t") or "") >= (datetime.now(timezone.utc) - timedelta(hours=followup_h)).isoformat()
+                   or set(e.get("links") or []) & rej]
     recent_titles += [e["title"] for e in recent_sent if e.get("title")]
     recent_kw += [set(e.get("kw") or []) for e in recent_sent]
     wanted = [x.strip() for x in os.getenv("SECTION_IDS", ",".join(ACTIVE_SECTIONS)).split(",") if x.strip() in ACTIVE_SECTIONS]
