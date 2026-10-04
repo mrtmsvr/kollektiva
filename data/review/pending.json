@@ -11908,6 +11908,26 @@
       "clickbait_from": 3,
       "image_options": [
         {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/c7a4b4ae61-1791095915-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/c7a4b4ae61-1791095915-0.jpg",
+          "kind": "photo",
+          "alt": "Színesebb az ég, mint hittük: szivárványcsodát kaptak lencsevégre New Jersey felett",
+          "credit": "Kollektíva illusztráció",
+          "license": "saját (generált illusztráció)",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/c7a4b4ae61-1791095918-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/c7a4b4ae61-1791095918-1.jpg",
+          "kind": "photo",
+          "alt": "Színesebb az ég, mint hittük: szivárványcsodát kaptak lencsevégre New Jersey felett",
+          "credit": "Kollektíva illusztráció",
+          "license": "saját (generált illusztráció)",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
           "url": "https://pixabay.com/get/gd1ffdf78cdc0e37f348808df012d6036e439813436bb3ac34c00281c142975cb5b4f182cf43a82e2a144618a4b78767b42e00a64439f3ace798005879f272eea_1280.jpg",
           "width": 5184,
           "height": 3456,
@@ -11980,9 +12000,11 @@
         "msg_ids": [
           2206,
           2207,
-          2208
+          2208,
+          2265,
+          2266
         ],
-        "control_id": 2209
+        "control_id": 2267
       },
       "live": true
     },
