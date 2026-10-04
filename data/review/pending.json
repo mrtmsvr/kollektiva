@@ -12216,6 +12216,170 @@
         "custom_title": "Megújul a Gubacsi híd"
       },
       "live": true
+    },
+    {
+      "id": "346b9f30-9bdd-5553-b3ae-34593709e12f",
+      "slug": "2026-10-04-muszaj-beleallni-a-kenyes-ugyekbe",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "gyermekvédelem",
+        "Herczog Mária",
+        "Lakner Zoltán",
+        "Partizán",
+        "szociálpolitika"
+      ],
+      "title": "Muszáj beleállni a kényes ügyekbe",
+      "subtitle": null,
+      "lead": "A magyar gyermekvédelem rendszerszintű hiányosságairól és a szükséges szemléletváltásról beszélt Lakner Zoltán műsorában Herczog Mária szociológus. A szakember szerint az állam a jogszabályok szintjén erős, de a gyakorlatban sosem érezte igazi feladatának a gyermekek támogatását.",
+      "key_points": [
+        "Herczog Mária szociológus volt a Partizán Másnap című műsorának vendége.",
+        "A beszélgetés középpontjában a hazai gyermekvédelem rendszerszintű problémái álltak.",
+        "A szakértő szerint hiányzik az állami finanszírozás és a dolgozók megbecsülése.",
+        "Törökországban is hasonló kihívásokkal és elutasítással találkozott a munkája során."
+      ],
+      "content": "A Partizán Másnap című műsorának második epizódjában Lakner Zoltán műsorvezető beszélgetett Herczog Mária szociológus és gyermekvédelmi szakértővel a hazai intézményrendszer állapotáról. A diskurzus során felmerült, hogyan lehetne a jövőben egy demokratikusabb Magyarországot építeni, kiemelt figyelmet fordítva a legsebezhetőbb korosztályok helyzetére.\n\nA külföldről hazatérő szakember úgy látja, hogy a jogszabályok és a hivatalos nyilatkozatok szintjén ugyan erős az állam, a valóságban azonban egészen más a helyzet. „Ezek olyan kihagyhatatlan ajándékok voltak, amelyeknek lehetség látva lonna ellenállni.” – fogalmazott a szakértő, hozzátéve, hogy az állam valójában sosem érezte feladatának a gyerekek valódi támogatását.\n\nA nemzetközi tapasztalatok kapcsán szó esett a törökországi viszonyokról is, ahol hasonló nehézségekbe ütköztek a területi átszervezések és a családközpontú megközelítések bevezetése során. A szakember megosztotta, hogy a helyi minisztérium képviselői ugyanolyan ellenállással és elutasítással viszonyultak a szakértelméhez, mint a hazai szereplők.\n\nA strukturális problémák között kiemelték a forráshiányt, a gyermekotthonok nehéz helyzetét, valamint a dolgozók elmaradt bérezését és rossz munkakörülményeit. „Az állam nem tette meg azt a minimumot, hogy a gyermekvédelmi dolgozóknak megfelelő bért és munkakörülményeket biztosítson” – hangsúlyozta a szakértő, rávilágítva arra, hogy a jelenlegi rendszerben a gyerekek sorsa másodlagos szerepet kap.\n\nA beszélgetés zárásaként a felek egyetértettek abban, hogy a puszta jogszabályi módosítások nem elegendőek a megújuláshoz. A valós előrelépéshez mélyreható szemléletváltásra, erős társadalmi szolidaritásra és a gyermekek jogainak következetes képviseletére van szükség a mindennapokban.",
+      "content_format": "markdown",
+      "body": [
+        "A Partizán Másnap című műsorának második epizódjában Lakner Zoltán műsorvezető beszélgetett Herczog Mária szociológus és gyermekvédelmi szakértővel a hazai intézményrendszer állapotáról. A diskurzus során felmerült, hogyan lehetne a jövőben egy demokratikusabb Magyarországot építeni, kiemelt figyelmet fordítva a legsebezhetőbb korosztályok helyzetére.",
+        "A külföldről hazatérő szakember úgy látja, hogy a jogszabályok és a hivatalos nyilatkozatok szintjén ugyan erős az állam, a valóságban azonban egészen más a helyzet. „Ezek olyan kihagyhatatlan ajándékok voltak, amelyeknek lehetség látva lonna ellenállni.” – fogalmazott a szakértő, hozzátéve, hogy az állam valójában sosem érezte feladatának a gyerekek valódi támogatását.",
+        "A nemzetközi tapasztalatok kapcsán szó esett a törökországi viszonyokról is, ahol hasonló nehézségekbe ütköztek a területi átszervezések és a családközpontú megközelítések bevezetése során. A szakember megosztotta, hogy a helyi minisztérium képviselői ugyanolyan ellenállással és elutasítással viszonyultak a szakértelméhez, mint a hazai szereplők.",
+        "A strukturális problémák között kiemelték a forráshiányt, a gyermekotthonok nehéz helyzetét, valamint a dolgozók elmaradt bérezését és rossz munkakörülményeit. „Az állam nem tette meg azt a minimumot, hogy a gyermekvédelmi dolgozóknak megfelelő bért és munkakörülményeket biztosítson” – hangsúlyozta a szakértő, rávilágítva arra, hogy a jelenlegi rendszerben a gyerekek sorsa másodlagos szerepet kap.",
+        "A beszélgetés zárásaként a felek egyetértettek abban, hogy a puszta jogszabályi módosítások nem elegendőek a megújuláshoz. A valós előrelépéshez mélyreható szemléletváltásra, erős társadalmi szolidaritásra és a gyermekek jogainak következetes képviseletére van szükség a mindennapokban."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 252,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791099650-0.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kozelet-1791099650-0.jpg",
+        "kind": "photo",
+        "alt": "Muszáj beleállni a kényes ügyekbe",
+        "likeness": true,
+        "credit": "AI-generált illusztráció – Kollektíva",
+        "license": "saját (AI-generált illusztráció)",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=aU2AA1QmpLA",
+          "title": "Most álljunk bele a kényes ügyekbe, vagy hátrafele indulunk el | Másnap Laknerrel #2 Herczog Mária",
+          "publisher": "Partizán",
+          "license": null,
+          "accessed_at": "2026-10-04T09:37:46+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Muszáj beleállnunk a kényes ügyekbe, különben hátrafelé indulunk el.",
+        "who": "Herczog Mária gyermekvédelmi szakértő",
+        "after": 3
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5,
+      "title_options": [
+        "Muszáj beleállni a kényes ügyekbe",
+        "Herczog Mária szerint az állam nem törődik a gyerekekkel",
+        "Nem lehet olyan rendszert fenntartani, ahol a gyerekek sorsa másodlagos",
+        "Olyan kihagyhatatlan ajándékok voltak, amelyeknek nehéz ellenállni",
+        "Miért mondja azt egy szakértő, hogy hátrafelé indulunk el?",
+        "A gyermekvédelem sötét oldala: ezekbe a kényes ügyekbe bele kell állni"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791099650-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kozelet-1791099650-0.jpg",
+          "kind": "photo",
+          "alt": "Muszáj beleállni a kényes ügyekbe",
+          "likeness": true,
+          "credit": "AI-generált illusztráció – Kollektíva",
+          "license": "saját (AI-generált illusztráció)",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791099653-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kozelet-1791099653-1.jpg",
+          "kind": "photo",
+          "alt": "Muszáj beleállni a kényes ügyekbe",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        }
+      ],
+      "story": [
+        {
+          "title": "Most álljunk bele a kényes ügyekbe, vagy hátrafele indulunk el | Másnap Laknerrel #2 Herczog Mária",
+          "link": "https://www.youtube.com/watch?v=aU2AA1QmpLA",
+          "summary": "Lakner Zoltán műsorában Herczog Mária szociológus és gyermekvédelmi szakember értékeli a magyar gyermekvédelem helyzetét, rendszerszintű hiányosságait, valamint a törökországi példákat és a hazai intézményi reformok nehézségeit.",
+          "source": "Partizán",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.youtube.com/watch?v=aU2AA1QmpLA"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/kozelet/2026-10-04-muszaj-beleallni-a-kenyes-ugyekbe/",
+      "seo": {
+        "meta_title": "Muszáj beleállni a kényes ügyekbe",
+        "meta_description": "A magyar gyermekvédelem rendszerszintű hiányosságairól és a szükséges szemléletváltásról beszélt Lakner Zoltán műsorában Herczog Mária szociológus. A szakember ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-04-muszaj-beleallni-a-kenyes-ugyekbe/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791099650-0.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "6fb2c4bd67c34bd3ce5724d94056082d4721a0c259d45da03b0aaafae86ca273",
+      "pipeline_run_id": "37186272286",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T09:37:46+02:00",
+      "updated_at": "2026-10-04T09:37:46+02:00",
+      "published_at": "2026-10-04T09:37:46+02:00",
+      "expires_at": null,
+      "hold": true,
+      "video": {
+        "id": "aU2AA1QmpLA",
+        "title": "Most álljunk bele a kényes ügyekbe, vagy hátrafele indulunk el | Másnap Laknerrel #2 Herczog Mária",
+        "channel": "Partizán"
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-04T07:40:55+00:00",
+        "msg_ids": [
+          2317,
+          2318,
+          2319
+        ],
+        "control_id": 2320
+      }
     }
   ]
 }
