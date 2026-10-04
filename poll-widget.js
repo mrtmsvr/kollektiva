@@ -43,8 +43,8 @@
     + '#kpw .r{position:relative;overflow:hidden;margin:7px 0;padding:10px 13px;border:1px solid #2A2D52;border-radius:12px;display:flex;justify-content:space-between;gap:10px;font-size:14px}#kpw .r.me{border-color:#C9A45C}'
     + '#kpw .r s{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.16);text-decoration:none}#kpw .r em,#kpw .r strong{position:relative;font-style:normal}'
     + '#kpw .m{margin:8px 0 0;color:#9492B3;font-size:12px;display:flex;align-items:center;gap:6px}#kpw .dot{width:8px;height:8px;border-radius:50%;background:#3FBF6F;box-shadow:0 0 0 3px rgba(63,191,111,.2)}'
-    + '#kpw .ft{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;padding-top:12px;border-top:1px solid #2A2D52}'
-    + '#kpw .b1,#kpw .b2{display:inline-flex;align-items:center;font:600 13px/1 Manrope,system-ui,sans-serif;border-radius:999px;padding:9px 14px;text-decoration:none}'
+    + '#kpw .ft{display:flex;flex-wrap:nowrap;gap:8px;margin-top:12px;padding-top:12px;border-top:1px solid #2A2D52}'
+    + '#kpw .b1,#kpw .b2{flex:1 1 0;justify-content:center;white-space:nowrap;display:inline-flex;align-items:center;font:600 12.5px/1 Manrope,system-ui,sans-serif;border-radius:999px;padding:10px 8px;text-decoration:none}'
     + '#kpw .b1{background:#C9A45C;color:#0E1024}#kpw .b1:hover{background:#D8B46B;color:#0E1024}#kpw .b2{border:1px solid #2A2D52;color:#ECE6D8}#kpw .b2:hover{border-color:#C9A45C;color:#ECE6D8}'
     + '#kpw .nw{margin-left:6px;padding:2px 5px;border-radius:4px;background:#E5322B;color:#fff;font:800 9px/1.2 Manrope,system-ui,sans-serif;font-style:normal;letter-spacing:.08em}';
   getPolls().then(function (d) {
@@ -61,10 +61,10 @@
       document.body.appendChild(tab); document.body.appendChild(box);
       function head() {
         return '<div class="h"><b>A nap kérdése</b><button type="button" class="x" aria-label="Bezár">×</button></div><h3>' + esc(poll.question) + '</h3>'
-          + '<a class="sub" href="' + esc(poll.article_url) + '">A cikk: ' + esc(poll.article_title) + '</a>';
+          + '<a class="sub" href="' + esc(poll.article_url) + '">' + esc(poll.article_title) + '</a>';
       }
       function foot(meta) {
-        return '<p class="m">' + meta + '</p><div class="ft"><a class="b2" href="/szavazasok/">Korábbi szavazások</a><a class="b1" href="' + esc(poll.article_url) + '">Cikk</a>'
+        return '<p class="m">' + meta + '</p><div class="ft"><a class="b2" href="/szavazasok/">Korábbi szavazások</a>'
           + (Q ? '<a class="b2 qz" href="/kviz/">A hét kvíze' + (Q.fresh ? '<em class="nw">ÚJ</em>' : '') + '</a>' : '') + '</div>';
       }
       function status(r) { return r.closed ? 'lezárult' : '<span class="dot"></span>nyitva'; }
