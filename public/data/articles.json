@@ -1,7 +1,162 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T09:01:25+02:00",
+  "updated_at": "2026-10-04T09:02:28+02:00",
   "articles": [
+    {
+      "id": "48237085-842c-5f07-9c6f-0d1ef7a993ba",
+      "slug": "2026-10-04-megujul-a-gubacsi-hid",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Vitézy Dávid",
+        "vasútfejlesztés",
+        "Gubacsi híd",
+        "nagysebességű vasút",
+        "uniós források"
+      ],
+      "title": "Megújul a Gubacsi híd",
+      "subtitle": null,
+      "lead": "Három kiemelt vasúti beruházással és egy új dunai híd megépítésével pályázik Magyarország az Európai Hálózatfinanszírozási Eszköz forrásaira. A Baross Gábor Vasútfejlesztési Terv részeként megvalósuló projektek célja az évtizedes karbantartási lemaradások felszámolása és a nemzetközi hálózathoz való csatlakozás.",
+      "key_points": [
+        "Harmincegy milliárd forintból épül újjá a Csepeli Szabadkikötőt kiszolgáló Gubacsi vasúti híd.",
+        "A gyékényesi deltavágány megtervezésével irányváltás nélkül érhetők el az adriai kikötők.",
+        "A Budapest és Győr közötti új vasútvonal megalapozhatja a csatlakozást a közép-európai nagysebességű hálózathoz."
+      ],
+      "content": "Magyarország három kiemelt vasúti fejlesztéssel pályázik az Európai Hálózatfinanszírozási Eszköz (CEF) most megnyílt forrásaira – jelentette be Vitézy Dávid közlekedési és beruházási miniszter. A csomag magában foglalja a Gubacsi vasúti híd cseréjét, a gyékényesi deltavágány előkészítését, valamint a Budapest–Győr nagysebességű vasút tervezésének folytatását. A projektek a mintegy 3550 milliárd forint értékű Baross Gábor Vasútfejlesztési Terv részét képezik.\n\nA három beruházás közül a legelőrébb a Gubacsi vasúti híd cseréje tart, amely jelenleg a magyar vasúti árufuvarozás egyik legkritikusabb pontja. A Csepeli Szabadkikötőt kiszolgáló átkelő rossz állapota miatt a vonatok éveken át mindössze óránkénti 5 kilométeres sebességgel közlekedhetnek rajta. A régi híd helyére mintegy 31 milliárd forintból épül új létesítmény, amelynek kivitelezésére a közbeszerzési eljárást már lefolytatták, és a munkálatok hamarosan elindulnak; a kormány ehhez utófinanszírozásként szeretne uniós támogatást bevonni.\n\nA második pályázat a Balatonszentgyörgy–Nagykanizsa–Gyékényes vasúti kapcsolat korszerűsítésének előkészítését, ezen belül a gyékényesi deltavágány megtervezését célozza. Ezzel a fejlesztéssel a vonatok irányváltás nélkül közlekedhetnének Horvátország és az adriai kikötők felé, miközben Nagykanizsa belvárosához közelebb eső új megálló kialakítását is vizsgálják a szakemberek. A projekt a személyszállítás mellett a nemzetközi árufuvarozásban is komoly áttörést hozhat.\n\nA leghosszabb távú projekt a Budapest–Győr nagysebességű vasút, amelynek mostani uniós pályázatából a magyarországi szakasz engedélyezéséhez szükséges műszaki terveket készítenék el. Az új nyomvonal Győrön keresztül kötné be Budapestet a közép-európai nagysebességű hálózatba, közvetlen kapcsolatot teremtve Bécs, Prága, valamint Varsó irányába. A miniszter tájékoztatása szerint a beruházás évtizedes léptékű munka, amelynek kézzelfogható eredménye a 2030-as évek végére várható, és célja a meglévő fővonal tehermentesítése is az elővárosi és tehervonatok számára.",
+      "content_format": "markdown",
+      "body": [
+        "Magyarország három kiemelt vasúti fejlesztéssel pályázik az Európai Hálózatfinanszírozási Eszköz (CEF) most megnyílt forrásaira – jelentette be Vitézy Dávid közlekedési és beruházási miniszter. A csomag magában foglalja a Gubacsi vasúti híd cseréjét, a gyékényesi deltavágány előkészítését, valamint a Budapest–Győr nagysebességű vasút tervezésének folytatását. A projektek a mintegy 3550 milliárd forint értékű Baross Gábor Vasútfejlesztési Terv részét képezik.",
+        "A három beruházás közül a legelőrébb a Gubacsi vasúti híd cseréje tart, amely jelenleg a magyar vasúti árufuvarozás egyik legkritikusabb pontja. A Csepeli Szabadkikötőt kiszolgáló átkelő rossz állapota miatt a vonatok éveken át mindössze óránkénti 5 kilométeres sebességgel közlekedhetnek rajta. A régi híd helyére mintegy 31 milliárd forintból épül új létesítmény, amelynek kivitelezésére a közbeszerzési eljárást már lefolytatták, és a munkálatok hamarosan elindulnak; a kormány ehhez utófinanszírozásként szeretne uniós támogatást bevonni.",
+        "A második pályázat a Balatonszentgyörgy–Nagykanizsa–Gyékényes vasúti kapcsolat korszerűsítésének előkészítését, ezen belül a gyékényesi deltavágány megtervezését célozza. Ezzel a fejlesztéssel a vonatok irányváltás nélkül közlekedhetnének Horvátország és az adriai kikötők felé, miközben Nagykanizsa belvárosához közelebb eső új megálló kialakítását is vizsgálják a szakemberek. A projekt a személyszállítás mellett a nemzetközi árufuvarozásban is komoly áttörést hozhat.",
+        "A leghosszabb távú projekt a Budapest–Győr nagysebességű vasút, amelynek mostani uniós pályázatából a magyarországi szakasz engedélyezéséhez szükséges műszaki terveket készítenék el. Az új nyomvonal Győrön keresztül kötné be Budapestet a közép-európai nagysebességű hálózatba, közvetlen kapcsolatot teremtve Bécs, Prága, valamint Varsó irányába. A miniszter tájékoztatása szerint a beruházás évtizedes léptékű munka, amelynek kézzelfogható eredménye a 2030-as évek végére várható, és célja a meglévő fővonal tehermentesítése is az elővárosi és tehervonatok számára."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 294,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Gubacsi_h%C3%ADd_Budapesten1.jpg/1280px-Gubacsi_h%C3%ADd_Budapesten1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Gubacsi híd Budapesten",
+        "credit": "12akd / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gubacsi_h%C3%ADd_Budapesten1.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Csepel%2C_Szabadkik%C3%B6t%C5%91%2C_Kont%C3%A9nertermin%C3%A1l._Fortepan_26420.jpg/1280px-Csepel%2C_Szabadkik%C3%B6t%C5%91%2C_Kont%C3%A9nertermin%C3%A1l._Fortepan_26420.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 810,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Freeport of Csepel, Container terminal",
+          "credit": "FOTO:Fortepan — ID 26420: Adományozó/Donor: Angyalföldi Helytörténeti Gyűjtemény / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Csepel,_Szabadkik%C3%B6t%C5%91,_Kont%C3%A9nertermin%C3%A1l._Fortepan_26420.jpg",
+          "after": 1,
+          "caption": "A Gubacsi híd a Csepeli Szabadkikötőt szolgálja ki"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/vasuti-beruhazasok-vitezy-david-unios-forras?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Rendkívüli bejelentést tett Vitézy Dávid: három vasúti gigaberuházás indulhat, új híd épülhet a Dunán – Budapestet bekötnék az európai szupervasútba",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T08:01:23+02:00"
+        },
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261003/itt-a-nagy-bejelentes-megepulhet-az-elso-magyar-nagysebessegu-vasutvonal-867146",
+          "title": "Itt a nagy bejelentés: megépülhet az első magyar nagysebességű vasútvonal",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T08:01:23+02:00"
+        },
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261003/vitezy-david-bejelentette-osszefog-a-kormany-es-budapest-a-rakosrendezoi-beruhazasban-is-867142",
+          "title": "Vitézy Dávid bejelentette: összefog a kormány és Budapest a rákosrendezői beruházásban is",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T08:01:23+02:00"
+        }
+      ],
+      "quote": {
+        "text": "A magyar vasútnak egyszerre kell behoznia az elmúlt évtizedek karbantartási adósságát és felkészülnie arra, milyen vasúti hálózatra lesz szükségünk húsz-harminc év múlva",
+        "who": "Vitézy Dávid közlekedési és beruházási miniszter",
+        "after": 2
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-04T09:02:28+02:00"
+      },
+      "hot_score": 6.13,
+      "clickbait_from": 1,
+      "category_meta": {
+        "source_links": [
+          "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/vasuti-beruhazasok-vitezy-david-unios-forras?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/kozelet/2026-10-04-megujul-a-gubacsi-hid/",
+      "seo": {
+        "meta_title": "Megújul a Gubacsi híd",
+        "meta_description": "Három kiemelt vasúti beruházással és egy új dunai híd megépítésével pályázik Magyarország az Európai Hálózatfinanszírozási Eszköz forrásaira. A Baross Gábor Vas",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-04-megujul-a-gubacsi-hid/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Gubacsi_h%C3%ADd_Budapesten1.jpg/1280px-Gubacsi_h%C3%ADd_Budapesten1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "ac36a6e3-10e9-5ea9-8d16-556167c9496c"
+      ],
+      "see_also": [
+        {
+          "title": "Magyarország hamarosan csatlakozhat az Európai Ügyészséghez",
+          "url": "/penzvilag/2026-09-29-magyarorszag-hamarosan-csatlakozhat-az-europai-ugyeszseghez/",
+          "date": "2026-09-29"
+        }
+      ],
+      "thread_id": "ac36a6e3-10e9-5ea9-8d16-556167c9496c",
+      "dedupe_hash": "ad9e796a236ed5fdb3750e62123a949dd02bc6a19fb2e78249416393451e8810",
+      "pipeline_run_id": "37181547142",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T09:02:28+02:00",
+      "updated_at": "2026-10-04T09:02:28+02:00",
+      "published_at": "2026-10-04T09:02:28+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "Gubacsi híd",
+        "Csepeli Szabadkikötő",
+        "Gyékényes railway station",
+        "Budapest Győr railway",
+        "Vitézy Dávid",
+        "freight train",
+        "railway bridge",
+        "railway construction"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Connective_Railway_Bridge_and_H%C3%89V_Line_7%2C_2017_Ferencv%C3%A1ros_%28cropped%29.jpg/1280px-Connective_Railway_Bridge_and_H%C3%89V_Line_7%2C_2017_Ferencv%C3%A1ros_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Connective_Railway_Bridge_and_H%C3%89V_Line_7%2C_2017_Ferencv%C3%A1ros.jpg/1280px-Connective_Railway_Bridge_and_H%C3%89V_Line_7%2C_2017_Ferencv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ],
+      "hold": true
+    },
     {
       "id": "c7a4b4ae-6126-5f69-9f73-782e2dc81fc6",
       "slug": "2026-10-04-szinesebb-az-eg-mint-hittuk-szivarvanycsodat-kaptak-lencsevegre-new-j",

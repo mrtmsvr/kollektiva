@@ -12207,9 +12207,9 @@
       "live": true
     },
     {
-      "id": "b08ad2f5-f2d5-5367-b1be-da84a59d2e78",
-      "slug": "2026-10-04-ot-kilometer-per-oras-tempoval-zakatolnak-a-vonatok-a-31-milliardos-g",
-      "status": "needs_review",
+      "id": "48237085-842c-5f07-9c6f-0d1ef7a993ba",
+      "slug": "2026-10-04-megujul-a-gubacsi-hid",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -12219,7 +12219,7 @@
         "nagysebességű vasút",
         "uniós források"
       ],
-      "title": "Öt kilométer per órás tempóval zakatolnak a vonatok a 31 milliárdos Gubacsi hídon",
+      "title": "Megújul a Gubacsi híd",
       "subtitle": null,
       "lead": "Három kiemelt vasúti beruházással és egy új dunai híd megépítésével pályázik Magyarország az Európai Hálózatfinanszírozási Eszköz forrásaira. A Baross Gábor Vasútfejlesztési Terv részeként megvalósuló projektek célja az évtizedes karbantartási lemaradások felszámolása és a nemzetközi hálózathoz való csatlakozás.",
       "key_points": [
@@ -12311,11 +12311,11 @@
       },
       "date": "2026-10-04",
       "date_label": "október 4.",
-      "url": "/kozelet/2026-10-04-ot-kilometer-per-oras-tempoval-zakatolnak-a-vonatok-a-31-milliardos-g/",
+      "url": "/kozelet/2026-10-04-megujul-a-gubacsi-hid/",
       "seo": {
-        "meta_title": "Öt kilométer per órás tempóval zakatolnak a vonatok a 31 mil",
+        "meta_title": "Megújul a Gubacsi híd",
         "meta_description": "Három kiemelt vasúti beruházással és egy új dunai híd megépítésével pályázik Magyarország az Európai Hálózatfinanszírozási Eszköz forrásaira. A Baross Gábor Vas",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-04-ot-kilometer-per-oras-tempoval-zakatolnak-a-vonatok-a-31-milliardos-g/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-04-megujul-a-gubacsi-hid/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Gubacsi_h%C3%ADd_Budapesten1.jpg/1280px-Gubacsi_h%C3%ADd_Budapesten1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -12341,9 +12341,9 @@
       "dedupe_hash": "ad9e796a236ed5fdb3750e62123a949dd02bc6a19fb2e78249416393451e8810",
       "pipeline_run_id": "37181547142",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-04T09:01:25+02:00",
-      "updated_at": "2026-10-04T08:32:43+02:00",
-      "published_at": "2026-10-04T08:32:43+02:00",
+      "created_at": "2026-10-04T09:02:28+02:00",
+      "updated_at": "2026-10-04T09:02:28+02:00",
+      "published_at": "2026-10-04T09:02:28+02:00",
       "expires_at": null,
       "image_queries": [
         "Gubacsi híd",
@@ -12388,7 +12388,8 @@
         "control_id": 2280,
         "title_prompt_id": 2281,
         "custom_title": "Megújul a Gubacsi híd"
-      }
+      },
+      "live": true
     }
   ]
 }
