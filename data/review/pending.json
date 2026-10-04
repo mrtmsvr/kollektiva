@@ -11137,6 +11137,28 @@
       "clickbait_from": 3,
       "image_options": [
         {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/1e038c5e01-1791117046-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/1e038c5e01-1791117046-0.jpg",
+          "kind": "photo",
+          "alt": "Már az ókori görögök is égi vasból kovácsoltak gyűrűket",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/1e038c5e01-1791117050-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/1e038c5e01-1791117050-1.jpg",
+          "kind": "photo",
+          "alt": "Már az ókori görögök is égi vasból kovácsoltak gyűrűket",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Iron_meteorite._Hammersley_Range%2C_Australia-8911.jpg/1280px-Iron_meteorite._Hammersley_Range%2C_Australia-8911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 1072,
@@ -11233,16 +11255,18 @@
       },
       "review": {
         "title": 0,
-        "image": 2,
+        "image": 0,
         "sent_at": "2026-10-04T12:20:25+00:00",
         "msg_ids": [
           2474,
           2475,
           2476,
           2477,
-          2478
+          2478,
+          2495,
+          2496
         ],
-        "control_id": 2479
+        "control_id": 2497
       }
     },
     {
