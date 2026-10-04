@@ -1390,7 +1390,7 @@ PAGE_CSS = """
 body{margin:0;background:var(--night);color:var(--parch);font:17px/1.75 Manrope,system-ui,-apple-system,"Segoe UI",sans-serif}
 a{color:var(--parch)}a:hover{color:var(--brass)}
 header,main,footer{max-width:720px;margin:0 auto;padding:0 20px}
-.share{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share .sh-main{display:inline-flex;align-items:center;gap:8px;font:600 14px/1 Manrope,system-ui,sans-serif;color:#0E1024;background:var(--brass);border:0;border-radius:999px;padding:11px 18px;cursor:pointer}.sh-pop{display:flex;flex-wrap:wrap;gap:8px}.sh-pop[hidden]{display:none}.share .sh-save,.sh-pop a,.sh-pop button{display:inline-flex;align-items:center;gap:6px;font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.share .sh-save:hover,.share .sh-save[data-on="1"],.sh-pop a:hover,.sh-pop button:hover{border-color:var(--brass);color:var(--brass)}.share .sh-save[data-on="1"] svg{fill:currentColor}.share .sh-main:hover,.share .sh-main:focus,.share .sh-main:active{color:#0E1024;background:#D8B46B}.share .sh-main:active,.share .sh-save:active{transform:scale(.96)}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#3FBF6F;box-shadow:0 0 0 3px rgba(63,191,111,.2);margin-right:6px;vertical-align:middle}.pbtn{display:inline-block;margin-top:12px;background:var(--brass);color:#0E1024!important;font:600 13px/1 Manrope,system-ui,sans-serif;border-radius:999px;padding:9px 14px;text-decoration:none}.pbtn:hover{background:#D8B46B}.sh-top{float:right;display:inline-flex;align-items:center;justify-content:center;margin:-6px 0 0 10px;width:38px;height:38px;padding:0;border-radius:50%;border:1px solid var(--brass);background:transparent;color:var(--brass);cursor:pointer}.sh-top:hover{border-color:var(--brass)}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}.tags a{font-size:12px;color:var(--dusk);border:1px solid var(--line);border-radius:999px;padding:4px 10px;text-decoration:none}.tags a:hover{color:var(--brass);border-color:var(--brass)}.poll b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.poll h3{margin:6px 0 12px;font:600 22px/1.3 "Cormorant Garamond",Georgia,serif}.poll button{display:block;width:100%;text-align:left;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--parch);font:15px Manrope,system-ui,sans-serif;cursor:pointer}.poll button:hover{border-color:var(--brass)}.poll .pr{position:relative;overflow:hidden;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;display:flex;justify-content:space-between;gap:10px}.poll .pr.me{border-color:var(--brass)}.poll .pr span{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.15)}.poll .pr em,.poll .pr strong{position:relative;font-style:normal}.poll small{color:var(--dusk)}
+.share{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:28px 0 8px;padding-top:18px;border-top:1px solid var(--line)}.share .sh-main{display:inline-flex;align-items:center;gap:8px;font:600 14px/1 Manrope,system-ui,sans-serif;color:#0E1024;background:var(--brass);border:0;border-radius:999px;padding:11px 18px;cursor:pointer}.sh-pop{display:flex;flex-wrap:wrap;gap:8px}.sh-pop[hidden]{display:none}.share .sh-save,.sh-pop a,.sh-pop button{display:inline-flex;align-items:center;gap:6px;font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;cursor:pointer}.share .sh-save:hover,.share .sh-save[data-on="1"],.sh-pop a:hover,.sh-pop button:hover{border-color:var(--brass);color:var(--brass)}.share .sh-save[data-on="1"] svg{fill:currentColor}.share .sh-main:hover,.share .sh-main:focus,.share .sh-main:active{color:#0E1024;background:#D8B46B}.share .sh-main:active,.share .sh-save:active{transform:scale(.96)}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#3FBF6F;box-shadow:0 0 0 3px rgba(63,191,111,.2);margin-right:6px;vertical-align:middle}.pbtn{display:inline-block;margin-top:12px;background:var(--brass);color:#0E1024!important;font:600 13px/1 Manrope,system-ui,sans-serif;border-radius:999px;padding:9px 14px;text-decoration:none}.pbtn:hover{background:#D8B46B}.tagrow{display:flex;align-items:flex-start;gap:10px;margin:10px 0 0}.tagrow .tags{margin:0;flex:1}.sh-top{flex:none;margin-left:auto;display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;padding:0;border-radius:50%;border:1px solid var(--brass);background:transparent;color:var(--brass);cursor:pointer}.box.poll{max-width:560px}.share .sh-src{display:inline-flex;align-items:center;gap:6px;font:600 13px/1 Manrope,system-ui,sans-serif;color:var(--parch);background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 14px;cursor:pointer}.share .sh-src[aria-expanded=true]{border-color:var(--brass);color:var(--brass)}.srclist{margin:10px 0 0;padding:14px 18px;background:var(--vault);border:1px solid var(--line);border-radius:12px;font-size:14px;color:var(--dusk)}.srclist[hidden]{display:none}@media(max-width:430px){.share{gap:6px}.share .sh-save span{display:none}.share .sh-save{padding:9px 12px}}.sh-top:hover{border-color:var(--brass)}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}.tags a{font-size:12px;color:var(--dusk);border:1px solid var(--line);border-radius:999px;padding:4px 10px;text-decoration:none}.tags a:hover{color:var(--brass);border-color:var(--brass)}.poll b{color:var(--brass);font-size:13px;letter-spacing:.12em;text-transform:uppercase}.poll h3{margin:6px 0 12px;font:600 22px/1.3 "Cormorant Garamond",Georgia,serif}.poll button{display:block;width:100%;text-align:left;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--parch);font:15px Manrope,system-ui,sans-serif;cursor:pointer}.poll button:hover{border-color:var(--brass)}.poll .pr{position:relative;overflow:hidden;margin:6px 0;padding:11px 14px;border:1px solid var(--line);border-radius:12px;display:flex;justify-content:space-between;gap:10px}.poll .pr.me{border-color:var(--brass)}.poll .pr span{position:absolute;inset:0 auto 0 0;background:rgba(201,164,92,.15)}.poll .pr em,.poll .pr strong{position:relative;font-style:normal}.poll small{color:var(--dusk)}
 .hdr-r{display:flex;align-items:center;gap:10px}.srch{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid var(--line);border-radius:999px;color:var(--parch)}.srch:hover{color:var(--brass);border-color:var(--brass)}
 .gpref{text-align:center;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)}.gpref a{color:var(--brass);text-decoration:none}.gpref a:hover{color:var(--parch)}.gpref b{color:var(--brass);font-weight:400}
 header{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;border-bottom:1px solid var(--line);position:relative}
@@ -1515,7 +1515,7 @@ def _page(title: str, description: str, canonical: str, body: str, head_extra: s
 </main>
 <footer>© {datetime.now().year} {SITE_NAME}<br><a href="/">Főoldal</a>{NAV_LINKS}<a href="/feed.xml">RSS</a><br><a href="/info/#impresszum">Impresszum</a><a href="/info/#adatkezeles">Adatkezelés</a><a href="/info/#sutik">Sütik</a><a href="/info/#hirdetes">Hirdetés</a>{GPREF_FOOT}</footer>
 {NEW_TOAST_HTML}
-<script src="/poll-widget.js?v=4" defer></script>
+<script src="/poll-widget.js?v=5" defer></script>
 </body>
 </html>
 """
@@ -1610,17 +1610,20 @@ def _figure(img: dict, alt: str, eager: bool = False, caption: str = "") -> str:
             f'loading="{"eager" if eager else "lazy"}" decoding="async">'
             f'<figcaption>{cap}<details class="credit"><summary title="Képforrás">ⓘ</summary>'
             f'{"Kép" if img.get("kind") == "graphic" or img.get("generated") else "Fotó"}: <a href="{E(img.get("source_url") or img["url"])}" rel="noopener" '
-            f'target="_blank">{E(img.get("credit", ""))}</a>, {E(img.get("license", ""))}</details></figcaption></figure>')
+            f'target="_blank">{E(img.get("credit", ""))}</a>{"" if img.get("generated") else ", " + E(img.get("license", ""))}</details></figcaption></figure>')
 
 
 GOOGLE_CLIENT_ID = "1014482488754-j1k6m2otl4cma3iaec2639i2nbji0p06.apps.googleusercontent.com"
 
 
-def _share_html(url: str, title: str) -> str:
+def _share_html(url: str, title: str, n_src: int = 0) -> str:
     """Egyetlen „Megosztás” gomb: a rendszer saját megosztója (telefonon és a legtöbb gépi böngészőben is);
     ahol nincs ilyen (pl. Firefox), ott egy kis lenyíló: Facebook, WhatsApp, X, link másolása."""
     u, t = urllib.parse.quote(url, safe=""), urllib.parse.quote(title, safe="")
-    return (f'<div class="share" data-url="{E(url)}" data-title="{E(title)}">'
+    src_btn = (f'<button type="button" class="sh-src" aria-expanded="false" aria-controls="srclist" '
+               f'onclick="var l=document.getElementById(\'srclist\'),o=l.hidden;l.hidden=!o;this.setAttribute(\'aria-expanded\',o)">'
+               f'Források ({n_src})</button>') if n_src else ""
+    return (f'<div class="share" data-url="{E(url)}" data-title="{E(title)}">' + src_btn +
             '<button type="button" class="sh-main"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" '
             'stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
             '<path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg>'
@@ -1706,10 +1709,10 @@ def render_article_page(a: dict, related: Optional[list] = None) -> str:
         f'<li><a href="{E(x["url"])}">{E(x["title"])}</a>' + (f' <span>· {E(str(x.get("date", ""))[5:].replace("-", ". "))}.</span>' if x.get("date") else "")
         + '</li>' for x in sa[:3]) + '</ul></div>') if sa else ""
     body = f"""<article>
-<p class="kicker">{E(section["kicker"])}{(" · " + E(str(year))) if year else ""}</p>
+<p class="kicker">{E(section["kicker"])}{(" · " + E(str(year))) if year else ""}{" · ▶ Videó" if v else ""}</p>
 <h1>{E(a["title"])}</h1>
-<p class="meta"><button type="button" class="sh-top" aria-label="Megosztás" title="Megosztás" onclick="var d=document.querySelector('.share');if(navigator.share){{navigator.share({{title:d.dataset.title,url:d.dataset.url}}).catch(function(){{}})}}else{{d.scrollIntoView({{behavior:'smooth',block:'center'}});d.querySelector('.sh-main').click()}}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg></button>{E(a["authorship"]["byline"])} · <time datetime="{E(published)}">{E(published.replace("-", ". "))}.</time> · {a.get("reading_time_min", 1)} perc olvasás</p>
-{_tags_html(a.get("tags"))}
+<p class="meta">{E(a["authorship"]["byline"])} · <time datetime="{E(published)}">{E(published.replace("-", ". "))}.</time> · {a.get("reading_time_min", 1)} perc olvasás</p>
+<div class="tagrow">{_tags_html(a.get("tags"))}<button type="button" class="sh-top" aria-label="Megosztás" title="Megosztás" onclick="var d=document.querySelector('.share');if(navigator.share){{navigator.share({{title:d.dataset.title,url:d.dataset.url}}).catch(function(){{}})}}else{{d.scrollIntoView({{behavior:'smooth',block:'center'}});d.querySelector('.sh-main').click()}}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg></button></div>
 <p class="lead">{E(a["lead"])}</p>
 {figure}
 {keypoints}
@@ -1727,9 +1730,9 @@ return '<div class="pr'+(r.voted===i?' me':'')+'"><span style="width:'+pc+'%"></
 function ask(){{box.innerHTML='<b>A nap kérdése</b><h3>'+e(p.question)+'</h3>'+p.options.map(function(o,i){{return '<button type="button" data-i="'+i+'">'+e(o)+'</button>'}}).join('')+'<small>Szavazz, és utána látod az eredményt.</small>';box.hidden=false;
 box.querySelectorAll('button').forEach(function(b){{b.onclick=function(){{fetch('/api/poll',{{method:'POST',headers:{{'Content-Type':'application/json'}},body:JSON.stringify({{id:p.id,option:+b.dataset.i}})}}).then(function(r){{return r.json()}}).then(function(r){{if(r.counts)show(r)}})}}}})}}
 fetch('/api/poll?id='+encodeURIComponent(p.id)).then(function(r){{return r.json()}}).then(function(r){{if(!r.ok)return;(r.voted!==null||r.closed)?show(r):ask()}})}}).catch(function(){{}})}})();</script>
-{_share_html(a["seo"]["canonical_url"], a["title"])}
+{_share_html(a["seo"]["canonical_url"], a["title"], len(a.get("sources", [])))}
+<div class="srclist" id="srclist" hidden><ul>{sources or "<li>—</li>"}</ul></div>
 {see_also}
-<details class="box"><summary>Források ({len(a.get("sources", []))})</summary><ul>{sources or "<li>—</li>"}</ul></details>
 {_related_html(related or [])}"""
     og = (f'<meta property="og:image" content="{E(img["url"])}">\n<meta property="og:type" content="article">\n'
           if img and img.get("url") else '<meta property="og:type" content="article">\n')
@@ -1825,14 +1828,14 @@ def build_info_page(public: Path) -> None:
 POLLS_BODY = """<article>
 <p class="kicker">Olvasói szavazások</p>
 <h1>A nap kérdései</h1>
-<p>Minden nap egy kérdés a nap egyik fontos ügyéről; egy szavazás 7 napig van nyitva. Az eredmény a Kollektíva
-olvasóinak véleményét mutatja – nem reprezentatív közvélemény-kutatás. Nyitott kérdésnél az eredményt a szavazás után látod.</p>
+<p>Naponta egy kérdés, 7 napig nyitva. Nem reprezentatív.</p>
 <div id="plist"><p>Betöltés…</p></div>
 </article>
 <script>(function(){var L=document.getElementById('plist'),E=function(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
 fetch('/public/data/polls.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(d){var ps=(d.polls||[]);if(!ps.length){L.innerHTML='<p>Még nincs szavazás.</p>';return}
-L.innerHTML=ps.map(function(p){return '<div class="box poll" id="p'+E(p.id)+'"><b>'+E(p.date)+'</b><h3>'+E(p.question)+'</h3><p><a href="'+E(p.article_url)+'">A cikk: '+E(p.article_title)+'</a></p><div class="res"><small>Betöltés…</small></div></div>'}).join('');
+L.innerHTML=ps.map(function(p){return '<div class="box poll" id="p'+E(p.id)+'"><b>'+E(p.date)+' <span class="pst"></span></b><h3><a href="'+E(p.article_url)+'" style="color:inherit;text-decoration:none">'+E(p.question)+'</a></h3><p><a href="'+E(p.article_url)+'">A cikk: '+E(p.article_title)+'</a></p><div class="res"><small>Betöltés…</small></div></div>'}).join('');
 ps.forEach(function(p){fetch('/api/poll?id='+encodeURIComponent(p.id)).then(function(r){return r.json()}).then(function(r){var el=document.querySelector('#p'+p.id+' .res');if(!r.ok){el.innerHTML='';return}
+document.querySelector('#p'+p.id+' .pst').innerHTML=r.closed?'· <span class="dot" style="background:#E5322B;box-shadow:0 0 0 3px rgba(229,50,43,.2)"></span>lezárult':'· <span class="dot"></span>nyitva';
 if(!r.closed&&r.voted===null){el.innerHTML='<small>Még nyitva – <a href="'+E(p.article_url)+'">szavazz a cikknél</a>, utána látod az eredményt.</small>';return}
 var t=r.total||0;if(t<30){el.innerHTML='<small>'+(r.closed?'Lezárult':'Nyitva')+' · még kevés szavazat érkezett ahhoz, hogy az eredmény sokat mondjon.</small>';return}
 el.innerHTML=p.options.map(function(o,i){var c=r.counts[i]||0,pc=Math.round(100*c/t);return '<div class="pr'+(r.voted===i?' me':'')+'"><span style="width:'+pc+'%"></span><em>'+E(o)+'</em><strong>'+pc+'%</strong></div>'}).join('')
