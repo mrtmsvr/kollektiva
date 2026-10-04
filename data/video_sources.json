@@ -6,11 +6,19 @@
     },
     {
       "name": "Telex",
-      "handle": "Telexponthu"
+      "handle": "Telexponthu",
+      "channel_id": "UCM-1sd-cXSuCsfWp8QMY_OQ"
     },
     {
       "name": "444",
-      "handle": "444hu"
+      "handle": "444hu",
+      "channel_id": "UCGoLa-QhHmTxLEdjv_8dxrg"
+    },
+    {
+      "name": "Szélsőközép",
+      "handle": "szelsokozepprodukcio",
+      "channel_id": "UCHdkcNjZq3CpIvMdWX8maMg"
     }
-  ]
+  ],
+  "removed": []
 }

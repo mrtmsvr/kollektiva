@@ -4,9 +4,9 @@
     "gemini": 81
   },
   "2026-10-04": {
-    "gemini": 166,
-    "gemini_hiba": 155,
-    "groq": 34,
+    "gemini": 172,
+    "gemini_hiba": 161,
+    "groq": 36,
     "cf_image": 20
   }
 }
