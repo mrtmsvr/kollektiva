@@ -1,7 +1,109 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T07:37:21+02:00",
+  "updated_at": "2026-10-04T08:01:07+02:00",
   "articles": [
+    {
+      "id": "060a4471-c8bf-57d1-8be0-7a723d067476",
+      "slug": "2026-10-04-muholdak-valtjak-fel-a-tererot-a-magyar-egen",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "Starlink",
+        "4iG",
+        "SpaceX",
+        "mobilhálózat",
+        "műhold"
+      ],
+      "title": "Műholdak váltják fel a térerőt a magyar égen",
+      "subtitle": null,
+      "lead": "A 4iG Csoport és a SpaceX megállapodást kötött a Starlink Mobile regionális bevezetéséről, amely lehetővé teszi, hogy a mobiltelefonok bázisállomások nélkül, közvetlenül a műholdakkal kommunikáljanak.",
+      "key_points": [
+        "A Direct-to-Device technológia révén a mobilok közvetlenül a műholdakkal teremtnek kapcsolatot.",
+        "A szolgáltatáshoz nem kell speciális készülék, tányérantenna vagy új SIM-kártya.",
+        "Első körben az alapvető kommunikációt biztosítják, később pedig fejlettebb kapcsolat érkezhet."
+      ],
+      "content": "A mindennapi digitális élet eddig szorosan összefonódott a földi bázisállomások meglétével, egy hegyi túrán vagy ritkán lakott vidéken azonban a kapcsolat bármikor megszakadhatott. Ugyancsak veszélybe sodorhatja a hálózatokat egy-egy súlyosabb vihar, árvíz vagy erdőtűz, amely megrongálja a földfelszíni infrastruktúrát. Ezekre a helyzetekre nyújthat alternatívát a Starlink Mobile, amelynek regionális bevezetéséről a 4iG Csoport és a SpaceX kötött megállapodást.\n\nA Direct-to-Device, röviden D2D technológia lényege, hogy a mobiltelefon földi adótorony hiányában közvetlenül egy műholddal létesít kapcsolatot. Az otthoni műholdas internettel ellentétben itt nincs szükség külön tányérantennára, külső egységre vagy speciális terminálra, sőt új SIM-kártya sem kell a használatához a hagyományos, kompatibilis készülékek esetében.\n\nMíg a hagyományos telefonok néhány kilométeren belüli tornyokkal kommunikálnak, a Starlink műholdjai több száz kilométerrel a Föld felett, nagy sebességgel keringenek, így a rendszer lényegében mozgó bázisállomásokat helyez az űrbe. Ez a megoldás nemcsak a lakossági felhasználóknak kedvez egy elhagyatott úton vagy part menti vizeken, hanem a mentési munkálatokat és a kritikus infrastruktúrák működését is segíti katasztrófahelyzetben.\n\nA kültéri használatra tervezett első generáció fő feladata az alapvető üzenetküldés, az adatforgalom és az eseti hanghívás biztosítása ott, ahol más módon nincs térerő.\n\nA kereskedelmi induláshoz a feleknek még el kell végezniük a műszaki integrációt, a tesztelést, valamint be kell szerezniük a szükséges hatósági engedélyeket is.",
+      "content_format": "markdown",
+      "body": [
+        "A mindennapi digitális élet eddig szorosan összefonódott a földi bázisállomások meglétével, egy hegyi túrán vagy ritkán lakott vidéken azonban a kapcsolat bármikor megszakadhatott. Ugyancsak veszélybe sodorhatja a hálózatokat egy-egy súlyosabb vihar, árvíz vagy erdőtűz, amely megrongálja a földfelszíni infrastruktúrát. Ezekre a helyzetekre nyújthat alternatívát a Starlink Mobile, amelynek regionális bevezetéséről a 4iG Csoport és a SpaceX kötött megállapodást.",
+        "A Direct-to-Device, röviden D2D technológia lényege, hogy a mobiltelefon földi adótorony hiányában közvetlenül egy műholddal létesít kapcsolatot. Az otthoni műholdas internettel ellentétben itt nincs szükség külön tányérantennára, külső egységre vagy speciális terminálra, sőt új SIM-kártya sem kell a használatához a hagyományos, kompatibilis készülékek esetében.",
+        "Míg a hagyományos telefonok néhány kilométeren belüli tornyokkal kommunikálnak, a Starlink műholdjai több száz kilométerrel a Föld felett, nagy sebességgel keringenek, így a rendszer lényegében mozgó bázisállomásokat helyez az űrbe. Ez a megoldás nemcsak a lakossági felhasználóknak kedvez egy elhagyatott úton vagy part menti vizeken, hanem a mentési munkálatokat és a kritikus infrastruktúrák működését is segíti katasztrófahelyzetben.",
+        "A kültéri használatra tervezett első generáció fő feladata az alapvető üzenetküldés, az adatforgalom és az eseti hanghívás biztosítása ott, ahol más módon nincs térerő.",
+        "A kereskedelmi induláshoz a feleknek még el kell végezniük a műszaki integrációt, a tesztelést, valamint be kell szerezniük a szükséges hatósági engedélyeket is."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 235,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Starlink_01.webp/1280px-Starlink_01.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 600,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Starlink satellite",
+        "credit": "Wikideas1 / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Starlink_01.webp",
+        "vision_score": 9.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://24.hu/tech/2026/09/30/mobilhalozat-hijan-is-elerhetonek-maradni/?utm_source=facebook&utm_medium=cpc&utm_campaign=2026_Meta_24hu_Traffic_PR_5203&utm_content=0929_4ig-Starlink-PRcikk-40-het_PR&utm_id=6916332849036&utm_term=52584081884840",
+          "title": "Mobilhálózat nélkül is elérhetőnek maradni | 24.hu",
+          "publisher": "24.hu",
+          "license": null,
+          "accessed_at": "2026-10-04T07:27:49+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-04T08:01:07+02:00"
+      },
+      "hot_score": 5,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://24.hu/tech/2026/09/30/mobilhalozat-hijan-is-elerhetonek-maradni/?utm_source=facebook&utm_medium=cpc&utm_campaign=2026_Meta_24hu_Traffic_PR_5203&utm_content=0929_4ig-Starlink-PRcikk-40-het_PR&utm_id=6916332849036&utm_term=52584081884840"
+        ]
+      },
+      "date": "2026-10-04",
+      "date_label": "október 4.",
+      "url": "/tech/2026-10-04-muholdak-valtjak-fel-a-tererot-a-magyar-egen/",
+      "seo": {
+        "meta_title": "Műholdak váltják fel a térerőt a magyar égen",
+        "meta_description": "A 4iG Csoport és a SpaceX megállapodást kötött a Starlink Mobile regionális bevezetéséről, amely lehetővé teszi, hogy a mobiltelefonok bázisállomások nélkül, kö",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-04-muholdak-valtjak-fel-a-tererot-a-magyar-egen/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Starlink_01.webp/1280px-Starlink_01.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "b3bff2f664cfdaddcd2138e50785cca8d3a8d01542b426a58564423c2f3f0f1e",
+      "pipeline_run_id": "37179894813",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-04T08:01:07+02:00",
+      "updated_at": "2026-10-04T08:01:07+02:00",
+      "published_at": "2026-10-04T08:01:07+02:00",
+      "expires_at": null,
+      "requested": true
+    },
     {
       "id": "c27145c9-72d1-527e-83b8-b2503870a5a9",
       "slug": "2026-10-04-bezart-benzinkut-mellett-targyal-az-orszag-sorsarol-a-kormany-erdoben",

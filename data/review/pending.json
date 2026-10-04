@@ -11833,7 +11833,7 @@
     {
       "id": "060a4471-c8bf-57d1-8be0-7a723d067476",
       "slug": "2026-10-04-muholdak-valtjak-fel-a-tererot-a-magyar-egen",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -11994,9 +11994,9 @@
       "dedupe_hash": "b3bff2f664cfdaddcd2138e50785cca8d3a8d01542b426a58564423c2f3f0f1e",
       "pipeline_run_id": "37179894813",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-04T07:27:49+02:00",
-      "updated_at": "2026-10-04T07:27:49+02:00",
-      "published_at": "2026-10-04T07:27:49+02:00",
+      "created_at": "2026-10-04T08:01:07+02:00",
+      "updated_at": "2026-10-04T08:01:07+02:00",
+      "published_at": "2026-10-04T08:01:07+02:00",
       "expires_at": null,
       "requested": true,
       "review": {
@@ -12011,7 +12011,8 @@
           2152
         ],
         "control_id": 2153
-      }
+      },
+      "live": true
     },
     {
       "id": "60e79302-1017-5e0c-9988-046e4802e160",
