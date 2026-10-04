@@ -1,6 +1,22 @@
 {
-  "updated_at": "2026-10-03T10:16:15+02:00",
+  "updated_at": "2026-10-04T20:52:35+02:00",
   "polls": [
+    {
+      "id": "12f965ec10c0",
+      "date": "2026-10-04",
+      "question": "Ön szerint a német támogatás megfelelő Ukrajnának?",
+      "options": [
+        "Igen, elegendő",
+        "Nem, több kell",
+        "Nem, túl sok",
+        "Nem tudom"
+      ],
+      "article_url": "/vilag/2026-10-04-legiriadok-es-romok-kozt-tett-egymilliardos-igeretet-merz-kijevben/",
+      "article_title": "Légiriadók és romok közt tett egymilliárdos ígéretet Merz Kijevben",
+      "category": "vilag",
+      "created_at": "2026-10-04T20:52:35+02:00",
+      "closes_at": "2026-10-11T20:52:35+02:00"
+    },
     {
       "id": "9b5a2fddbaba",
       "date": "2026-10-03",
