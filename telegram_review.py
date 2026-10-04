@@ -290,7 +290,7 @@ def send_article(_out_dir: Optional[Path], art: dict) -> None:
     try:  # jogi ellenőr: kockázatjelzés a cikk alá; magas kockázatnál nem kerül ki magától
         import legal
         if "legal" not in art:
-            legal.review(kc.AIClient(kc.Config.from_env()), art)
+            legal.auto(kc.AIClient(kc.Config.from_env()), art)
         legal_txt = legal.summary(art.get("legal") or {})
     except Exception as e:  # noqa: BLE001
         log.warning("Jogi ellenőrzés kimaradt: %s", e)
