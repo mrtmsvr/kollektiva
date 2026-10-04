@@ -258,6 +258,17 @@ def _control(art: dict) -> tuple:
     return text, {"inline_keyboard": rows}
 
 
+DEPLOY_NOW = kc.BASE_DIR / "data" / "deploy_now"
+
+
+def _deploy_now() -> None:
+    """Levétel/törlés: a változás azonnal kerüljön ki (a napi build-keret ezt nem tartja vissza)."""
+    try:
+        DEPLOY_NOW.write_text("1")
+    except OSError:
+        pass
+
+
 def _drop_old_messages(chat: int, art: dict) -> None:
     """Egy cikk korábbi Telegram-üzeneteinek törlése (újraküldés előtt), hogy ne látsszon kétszer ugyanaz a cikk."""
     rv = art.get("review") or {}
@@ -460,6 +471,7 @@ def _apply_live(out_dir: Path, art: dict, tz: ZoneInfo, remove: bool = False, co
         return
     if remove:
         items.pop(idx)
+        _deploy_now()
     else:
         cur = items[idx]
         rv = art.get("review", {})
@@ -732,7 +744,7 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 name = text.split(maxsplit=1)[1].strip().lower() if len(text.split(maxsplit=1)) > 1 else ""
                 lst = videos.load_sources()
                 left = [x for x in lst if name not in (str(x.get("name", "")) + " " + str(x.get("handle", ""))).lower()] if name else lst
-                videos.save_sources(left)
+                videos.save_sources(left, [x.get("name", "") for x in lst if x not in left])
                 changed = True
                 tg("sendMessage", {"chat_id": st["chat_id"], "text": f"🗑 {len(lst) - len(left)} csatorna törölve."})
             elif re.match(r"(?i)/csatorna\b", text):
@@ -750,7 +762,10 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                         changed = True
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": f"✅ Figyelem: {src['name']} – az új videóiból cikk jön jóváhagyásra."})
                 else:
-                    tg("sendMessage", {"chat_id": st["chat_id"], "text": "Használat: /csatorna https://www.youtube.com/@csatornanev (vagy @csatornanev)"})
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": (
+                        "Nem tudtam kiolvasni a csatornát (a YouTube néha nem engedi a szervernek). Próbáld a csatorna "
+                        "youtube.com/channel/UC… linkjével, vagy küldd el az egyik videója linkjét: /csatorna <videólink>."
+                        if src else "Használat: /csatorna https://www.youtube.com/@csatornanev (vagy @csatornanev)")})
             elif re.match(r"(?i)/(keret|limit)\b", text):
                 tg("sendMessage", {"chat_id": st["chat_id"], "text": kc.usage_report()})
             elif re.match(r"(?i)/(t|torles|törlés)\b", text):
