@@ -523,7 +523,7 @@ def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: boo
         review.save_pending(output_dir, pending)
     else:  # Telegram nélkül azonnal kikerül
         art.update({"status": "published", "published_at": art["created_at"]})
-        for k in ("title_options", "image_options", "offtopic_topic", "schedule"):
+        for k in ("title_options", "image_options", "offtopic_topic", "schedule", "legal"):
             art.pop(k, None)
         path = output_dir / "articles.json"
         data = kc.read_json(path, {"articles": []})
