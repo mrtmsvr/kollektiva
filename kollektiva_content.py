@@ -2863,7 +2863,7 @@ def _sent_log(hours: float = 36) -> list:
 
 def _log_sent(art: dict) -> None:
     items = _sent_log(72)
-    items.append({"t": datetime.now(timezone.utc).isoformat(timespec="seconds"), "title": art.get("title", ""),
+    items.append({"t": datetime.now(timezone.utc).isoformat(timespec="seconds"), "title": art.get("title", ""), "cat": art.get("category"),
                   "kw": sorted(_keywords(art.get("title", "") + " " + " ".join(s.get("title", "") for s in art.get("sources", []))))[:40],
                   "links": art.get("category_meta", {}).get("source_links", []),
                   "imgs": [im.get("url") for im in art.get("image_options") or [] if im.get("url") and not im.get("generated")][:12]})
@@ -2911,10 +2911,12 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
     recent_kw = [_keywords(a.get("title", "") + " " + " ".join(s.get("title", "") for s in a.get("sources", [])))
                  for a in articles_all if (a.get("created_at") or "") >= (now - timedelta(hours=followup_h)).isoformat()]
     # a már elküldött (de a függő listából esetleg kiesett) témák is számítanak
-    # az elvetett/leszedett témák (forráslinkjük a tiltólistán) 36 óráig számítanak – más forrásból se írja meg újra
+    # elvetett témát (forráslinkje a tiltólistán) a szokásos idő után más forrásból újra megírhat – kivéve a bulvárt (36 óra)
     rej = review.rejected_links(output_dir) if review else set()
-    recent_sent = [e for e in sent if (e.get("t") or "") >= (datetime.now(timezone.utc) - timedelta(hours=followup_h)).isoformat()
-                   or set(e.get("links") or []) & rej]
+    fcut = (datetime.now(timezone.utc) - timedelta(hours=followup_h)).isoformat()
+    rej_free = lambda e: bool(set(e.get("links") or []) & rej) and e.get("cat") != "bulvar" and (e.get("t") or "") < fcut
+    recent_sent = [e for e in sent if (e.get("t") or "") >= fcut
+                   or (set(e.get("links") or []) & rej and e.get("cat") == "bulvar")]
     recent_titles += [e["title"] for e in recent_sent if e.get("title")]
     recent_kw += [set(e.get("kw") or []) for e in recent_sent]
     wanted = [x.strip() for x in os.getenv("SECTION_IDS", ",".join(ACTIVE_SECTIONS)).split(",") if x.strip() in ACTIVE_SECTIONS]
@@ -2956,7 +2958,7 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
         art = build_section_article(ai, SECTIONS[sid], d, tz, group, recent_imgs, related_past(articles, group))
         if not art:
             continue
-        dup = _same_images(art, sent)
+        dup = _same_images(art, [e for e in sent if not rej_free(e)])
         if dup and same_story_as_recent(ai, [{"title": art["title"], "summary": art.get("lead", "")}], [dup]):
             # ugyanazok a képtalálatok ÉS az AI szerint nincs új fejlemény → ugyanaz a hír még egyszer
             log.info("Kimarad (ugyanaz a hír, mint: %s): %s", dup, art["title"])
