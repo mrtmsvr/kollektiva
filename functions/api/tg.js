@@ -4,7 +4,7 @@
 //   • és elindítja a GitHub-robotot (workflow_dispatch), ha épp nem fut – percenként legfeljebb egyszer.
 // GET  /api/tg?take=1  (fejléc: X-Queue-Secret = TG_WEBHOOK_SECRET) <- a robot így veszi ki a sorból.
 // Kell (Cloudflare Pages → Settings → Variables and Secrets): TG_WEBHOOK_SECRET, TELEGRAM_BOT_TOKEN, GH_DISPATCH_TOKEN
-// (opcionális: GH_REPO, alap: mrtmsvr/kollektiva). D1 binding: DB (ugyanaz, mint a szavazásnál).
+// (opcionális: GH_REPO, alap: mrtmsvr/vx9-orrery-lumen-4qk7t-szinter-motor). D1 binding: DB (ugyanaz, mint a szavazásnál).
 const json = (obj, status = 200) => new Response(JSON.stringify(obj), {
   status, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' },
 });
@@ -31,7 +31,7 @@ async function dispatch(env) {
   const last = await env.DB.prepare("SELECT v FROM tg_meta WHERE k = 'dispatched'").first();
   if (last && now - Number(last.v) < 60000) return 'recent';
   await env.DB.prepare("INSERT OR REPLACE INTO tg_meta (k, v) VALUES ('dispatched', ?)").bind(String(now)).run();
-  const repo = env.GH_REPO || 'mrtmsvr/kollektiva';
+  const repo = env.GH_REPO || 'mrtmsvr/vx9-orrery-lumen-4qk7t-szinter-motor';
   const r = await fetch(`https://api.github.com/repos/${repo}/actions/workflows/telegram.yml/dispatches`, {
     method: 'POST',
     headers: { authorization: `Bearer ${env.GH_DISPATCH_TOKEN}`, accept: 'application/vnd.github+json',
