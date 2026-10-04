@@ -752,8 +752,11 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
             elif act == "gen":
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Grafikát készítek (kb. 30 mp)…"})
                 q = None
-                gen = kc.generate_illustration(ai or kc.AIClient(kc.Config.from_env()), _chosen_title(art),
-                                               art.get("lead", ""), art["id"])
+                try:
+                    gen = kc.generate_illustration(ai or kc.AIClient(kc.Config.from_env()), _chosen_title(art),
+                                                   art.get("lead", ""), art["id"])
+                except Exception as e:  # noqa: BLE001 – a grafika hibája ne állítsa le a robotot
+                    kc.LAST_GEN_ERROR, gen = str(e)[:300], []
                 if gen:
                     art["image_options"] = gen + [im for im in art.get("image_options") or [] if not im.get("generated")]
                     art["review"]["image"] = 0
