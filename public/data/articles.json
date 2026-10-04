@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T09:02:28+02:00",
+  "updated_at": "2026-10-04T09:03:19+02:00",
   "articles": [
     {
       "id": "48237085-842c-5f07-9c6f-0d1ef7a993ba",
@@ -156,102 +156,6 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Connective_Railway_Bridge_and_H%C3%89V_Line_7%2C_2017_Ferencv%C3%A1ros.jpg/1280px-Connective_Railway_Bridge_and_H%C3%89V_Line_7%2C_2017_Ferencv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ],
       "hold": true
-    },
-    {
-      "id": "c7a4b4ae-6126-5f69-9f73-782e2dc81fc6",
-      "slug": "2026-10-04-szinesebb-az-eg-mint-hittuk-szivarvanycsodat-kaptak-lencsevegre-new-j",
-      "status": "published",
-      "category": "tech",
-      "subcategory": null,
-      "tags": [
-        "csillagászat",
-        "időjárás",
-        "természet",
-        "NASA"
-      ],
-      "title": "Színesebb az ég, mint hittük: szivárványcsodát kaptak lencsevégre New Jersey felett",
-      "subtitle": null,
-      "lead": "Ritka égi tüneményt, úgynevezett szupernumeráris szivárványokat kaptak lencsevégre New Jersey felett. Ezek a megszokott színes ívek alatt vagy felett megjelenő, halványabb sávok, amelyeket a NASA a nap csillagászati felvételeként mutatott be hivatalos oldalán.",
-      "key_points": [
-        "Szupernumeráris szivárványokat fotóztak New Jersey felett az Egyesült Államokban.",
-        "A ritka égi jelenséget a NASA a nap csillagászati képeként emelte ki.",
-        "A jelenség hátterében az esőcseppek pontos mérete és fénytörése áll."
-      ],
-      "content": "Október elején különleges meteorológiai és optikai jelenség vonzotta magára a figyelmet az Egyesült Államok legsűrűbben lakott államában, New Jerseyben, amely a New York-i és philadelphiai agglomerációs régió része. A térség egén olyan szivárványok bukkantak fel, amelyek szerkezete eltér a megszokottól: a fő ív mellett további, halványabb, úgynevezett szupernumeráris sávok is kirajzolódtak. Ezt a ritka látványt választotta nap képének a NASA.\n\nA szupernumeráris szivárványok akkor alakulnak ki, amikor az esőcseppek mérete rendkívül egyenletes, és általában egy milliméternél kisebbek. Ilyenkor a vízcseppeken áthaladó és onnan visszaverődő fény nemcsak a hagyományos, jól ismert színsávokat hozza létre, hanem az interferencia – vagyis a fényhullámok találkozása – révén extra, pasztellszínű sávokat is fest az égre.\n\nA jelenség megfigyeléséhez tiszta rálátás és kedvező fényviszonyok szükségesek, ami a sűrűn beépített keleti parti régióban nem mindig adott, így a mostani fotó különösen értékes a szakemberek és a csillagászat iránt érdeklődők számára. Az amerikai űrügynökség naponta frissülő rovata rendszeresen mutat be hasonló természeti csodákat és a világűr jelenségeit megörökítő felvételeket.",
-      "content_format": "markdown",
-      "body": [
-        "Október elején különleges meteorológiai és optikai jelenség vonzotta magára a figyelmet az Egyesült Államok legsűrűbben lakott államában, New Jerseyben, amely a New York-i és philadelphiai agglomerációs régió része. A térség egén olyan szivárványok bukkantak fel, amelyek szerkezete eltér a megszokottól: a fő ív mellett további, halványabb, úgynevezett szupernumeráris sávok is kirajzolódtak. Ezt a ritka látványt választotta nap képének a NASA.",
-        "A szupernumeráris szivárványok akkor alakulnak ki, amikor az esőcseppek mérete rendkívül egyenletes, és általában egy milliméternél kisebbek. Ilyenkor a vízcseppeken áthaladó és onnan visszaverődő fény nemcsak a hagyományos, jól ismert színsávokat hozza létre, hanem az interferencia – vagyis a fényhullámok találkozása – révén extra, pasztellszínű sávokat is fest az égre.",
-        "A jelenség megfigyeléséhez tiszta rálátás és kedvező fényviszonyok szükségesek, ami a sűrűn beépített keleti parti régióban nem mindig adott, így a mostani fotó különösen értékes a szakemberek és a csillagászat iránt érdeklődők számára. Az amerikai űrügynökség naponta frissülő rovata rendszeresen mutat be hasonló természeti csodákat és a világűr jelenségeit megörökítő felvételeket."
-      ],
-      "pull_quote": null,
-      "reading_time_min": 1,
-      "word_count": 193,
-      "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://xn--kollektva-m5a.hu/public/img/gen/c7a4b4ae61-1791095915-0.jpg",
-        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/c7a4b4ae61-1791095915-0.jpg",
-        "kind": "photo",
-        "alt": "Színesebb az ég, mint hittük: szivárványcsodát kaptak lencsevégre New Jersey felett",
-        "credit": "Kollektíva illusztráció",
-        "license": "saját (generált illusztráció)",
-        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
-        "generated": true
-      },
-      "inline_images": [],
-      "sources": [
-        {
-          "url": "https://science.nasa.gov/image-article/apod-2026-october-4-supernumerary-rainbows-over-new-jersey/",
-          "title": "APOD: 2026 October 4 – Supernumerary Rainbows over New Jersey",
-          "publisher": "nasa.gov",
-          "license": null,
-          "accessed_at": "2026-10-04T08:03:52+02:00"
-        }
-      ],
-      "quote": null,
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v2",
-        "reviewed_by": null,
-        "reviewed_at": "2026-10-04T08:35:00+02:00"
-      },
-      "hot_score": 5.91,
-      "clickbait_from": 3,
-      "category_meta": {
-        "source_links": [
-          "https://science.nasa.gov/image-article/apod-2026-october-4-supernumerary-rainbows-over-new-jersey/"
-        ]
-      },
-      "date": "2026-10-04",
-      "date_label": "október 4.",
-      "url": "/tech/2026-10-04-szinesebb-az-eg-mint-hittuk-szivarvanycsodat-kaptak-lencsevegre-new-j/",
-      "seo": {
-        "meta_title": "Színesebb az ég, mint hittük: szivárványcsodát kaptak lencse",
-        "meta_description": "Ritka égi tüneményt, úgynevezett szupernumeráris szivárványokat kaptak lencsevégre New Jersey felett. Ezek a megszokott színes ívek alatt vagy felett megjelenő,",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-04-szinesebb-az-eg-mint-hittuk-szivarvanycsodat-kaptak-lencsevegre-new-j/",
-        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/c7a4b4ae61-1791095915-0.jpg",
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [],
-      "see_also": [],
-      "thread_id": null,
-      "dedupe_hash": "76c72ab083193603590871b10c92272ce80bef249d665a3f6fc0c3feb601811f",
-      "pipeline_run_id": "37181547142",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-04T08:35:00+02:00",
-      "updated_at": "2026-10-04T08:38:41+02:00",
-      "published_at": "2026-10-04T08:35:00+02:00",
-      "expires_at": null
     },
     {
       "id": "03e1321d-0482-5a6e-8aee-23ad3c815430",
