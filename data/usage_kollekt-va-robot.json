@@ -6,7 +6,7 @@
   "2026-10-04": {
     "gemini": 86,
     "gemini_hiba": 83,
-    "groq": 1,
-    "cf_image": 2
+    "groq": 2,
+    "cf_image": 4
   }
 }

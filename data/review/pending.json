@@ -10714,6 +10714,26 @@
       "clickbait_from": 3,
       "image_options": [
         {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/c27145c972-1791096068-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/c27145c972-1791096068-0.jpg",
+          "kind": "photo",
+          "alt": "Bezárt benzinkút mellett tárgyal az ország sorsáról a kormány Erdőbényén",
+          "credit": "Kollektíva illusztráció",
+          "license": "saját (generált illusztráció)",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/c27145c972-1791096070-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/c27145c972-1791096070-1.jpg",
+          "kind": "photo",
+          "alt": "Bezárt benzinkút mellett tárgyal az ország sorsáról a kormány Erdőbényén",
+          "credit": "Kollektíva illusztráció",
+          "license": "saját (generált illusztráció)",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Magyar_Honv%C3%A9ds%C3%A9g%2C_%C5%91rtorony%2C_T%C3%A9glagy%C3%A1rd%C5%B1l%C5%91%2C_2018_K%C5%91b%C3%A1nya.jpg/1280px-Magyar_Honv%C3%A9ds%C3%A9g%2C_%C5%91rtorony%2C_T%C3%A9glagy%C3%A1rd%C5%B1l%C5%91%2C_2018_K%C5%91b%C3%A1nya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 1600,
@@ -10907,9 +10927,11 @@
           2192,
           2193,
           2194,
-          2195
+          2195,
+          2268,
+          2269
         ],
-        "control_id": 2196
+        "control_id": 2270
       },
       "image_queries": [
         "Erdőbénye",
