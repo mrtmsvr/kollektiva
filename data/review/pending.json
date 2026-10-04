@@ -12055,8 +12055,8 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/e0e5b1d869-1791104831-0.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/e0e5b1d869-1791104831-0.jpg",
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/e0e5b1d869-1791104862-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/e0e5b1d869-1791104862-0.jpg",
           "kind": "photo",
           "alt": "Brazília választ: a mocsár és a dinasztia árnyékában",
           "likeness": false,
@@ -12066,8 +12066,8 @@
           "generated": true
         },
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/e0e5b1d869-1791104834-1.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/e0e5b1d869-1791104834-1.jpg",
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/e0e5b1d869-1791104865-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/e0e5b1d869-1791104865-1.jpg",
           "kind": "photo",
           "alt": "Brazília választ: a mocsár és a dinasztia árnyékában",
           "likeness": false,
@@ -12211,9 +12211,11 @@
           2372,
           2373,
           2375,
-          2376
+          2376,
+          2378,
+          2379
         ],
-        "control_id": 2377
+        "control_id": 2380
       }
     }
   ]
