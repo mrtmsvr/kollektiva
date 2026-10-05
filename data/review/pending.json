@@ -10589,6 +10589,28 @@
       "clickbait_from": 3,
       "image_options": [
         {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/c2005118c3-1791212369-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/c2005118c3-1791212369-0.jpg",
+          "kind": "photo",
+          "alt": "Brutális diáktüntetés rázza meg Franciaországot: bénulás az oktatásban",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/c2005118c3-1791212371-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/c2005118c3-1791212371-1.jpg",
+          "kind": "photo",
+          "alt": "Brutális diáktüntetés rázza meg Franciaországot: bénulás az oktatásban",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Ministry_of_Education_%28Taiwan%29%2C20150802.jpg/1280px-Ministry_of_Education_%28Taiwan%29%2C20150802.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 800,
@@ -10674,9 +10696,11 @@
           2926,
           2927,
           2949,
-          2950
+          2950,
+          2962,
+          2963
         ],
-        "control_id": 2951
+        "control_id": 2964
       },
       "image_queries": [
         "Édouard Geffray",
