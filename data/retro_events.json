@@ -59,5 +59,22 @@
       "tags": ["film", "popkultúra", "1950-es évek"],
       "sources": ["https://en.wikipedia.org/wiki/James_Dean"]
     }
+  ],
+  "10-06": [
+    {
+      "year": 1849,
+      "title": "Az aradi vértanúk",
+      "summary": "A szabadságharc leverése után osztrák hadbírósági ítélet alapján Aradon kivégezték a honvédsereg tizenhárom főtisztjét.",
+      "facts": [
+        "1849. október 6-án Aradon kivégezték az 1848–49-es szabadságharc 13 honvéd főtisztjét: 12 tábornokot és egy ezredest.",
+        "A kivégzettek: Aulich Lajos, Damjanich János, Dessewffy Arisztid, Kiss Ernő, Knezić Károly, Lahner György, Lázár Vilmos, Leiningen-Westerburg Károly, Nagy-Sándor József, Poeltenberg Ernő, Schweidel József, Török Ignác és Vécsey Károly.",
+        "Négyükkel – Dessewffy Arisztiddal, Kiss Ernővel, Lázár Vilmossal és Schweidel Józseffel – golyó által, a többi kilenc vértanúval kötél által végeztek.",
+        "Az ítéleteket osztrák hadbíróság hozta; a megtorlást a császári főparancsnok, Julius Haynau irányította.",
+        "Ugyanezen a napon Pesten kivégezték Batthyány Lajost, az első felelős magyar kormány miniszterelnökét.",
+        "Október 6. Magyarországon nemzeti gyásznap, az aradi vértanúk emléknapja."
+      ],
+      "tags": ["történelem", "1848–49", "szabadságharc"],
+      "sources": ["https://hu.wikipedia.org/wiki/Aradi_v%C3%A9rtan%C3%BAk"]
+    }
   ]
 }
