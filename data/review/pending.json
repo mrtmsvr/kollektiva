@@ -9704,62 +9704,15 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg/1280px-Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 799,
+          "url": "https://pixabay.com/get/ga02ab1397845f535ddb4361a3007eea9b4a2e58a771f8eb25418e42383fd3e30691e1d469756d27ee1ab33b7fb360c8a5182e47a646b2977772135915bd079a8_1280.jpg",
+          "width": 3872,
+          "height": 2592,
           "kind": "photo",
-          "pos": "center",
-          "alt": "A documentative record of a clinical pathology and medical laboratory environment configured for hematology investigations, routine blood sample analysis, specimen processing, and phlebotomy services.",
-          "credit": "Goleisureintl / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai,_India.jpg",
-          "vision_score": 7.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/NABL_Accredited_Clinical_Pathology_Laboratory_in_Kharghar_Navi_Mumbai_Diagnostic_Services.jpg/1280px-NABL_Accredited_Clinical_Pathology_Laboratory_in_Kharghar_Navi_Mumbai_Diagnostic_Services.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 675,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Medical laboratory technician processing blood test samples in an NABL-accredited pathology center in Kharghar, Navi Mumbai.",
-          "credit": "Goleisureintl / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:NABL_Accredited_Clinical_Pathology_Laboratory_in_Kharghar_Navi_Mumbai_Diagnostic_Services.jpg",
-          "vision_score": 7.0
-        },
-        {
-          "url": "https://pixabay.com/get/g36dbaa0bebdce79e2f91880c6b53092472ca017e0a9354416134b4c23faed44d197f3a360a1d832bbf2de6026ee11cc0f537fa6f6565979621a878c0c21a3696_1280.jpg",
-          "width": 3000,
-          "height": 2000,
-          "kind": "photo",
-          "alt": "laboratory, test tubes, healthcare worker, hospital, healthcare professional, medical professional, medical technology, medical, health, medicine, healthcare, laboratory, laboratory, laboratory, labor",
-          "credit": "DarkoStojanovic / Pixabay",
+          "alt": "lab, experiment, test, chemistry, test tubes, laboratory, hands, gloves, surgical gloves, blood samples, lab, lab, lab, lab, lab, chemistry, laboratory, laboratory, laboratory, laboratory",
+          "credit": "fernandozhiminaicela / Pixabay",
           "license": "Pixabay License",
-          "source_url": "https://pixabay.com/photos/laboratory-test-tubes-563423/",
+          "source_url": "https://pixabay.com/photos/lab-experiment-test-chemistry-3498584/",
           "vision_score": 7.0
-        },
-        {
-          "url": "https://pixabay.com/get/g14f08634a244d7e3f78d4911ab5e30f802c65301087bb5ede598b4d64673a55f4d0bd3b47014db3366076c6420b67ee616e10c28ae0263e9dc271a2b7279010d_1280.jpg",
-          "width": 3000,
-          "height": 2000,
-          "kind": "photo",
-          "alt": "chemist, laboratory, analysis, chemistry, research, woman, female, girl, laboratory, laboratory, laboratory, laboratory, laboratory, chemistry, chemistry, research, research",
-          "credit": "jarmoluk / Pixabay",
-          "license": "Pixabay License",
-          "source_url": "https://pixabay.com/photos/chemist-laboratory-analysis-2815640/",
-          "vision_score": 6.0
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/ZntB_Transporter_Protein_Structure_Comparison.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 675,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Zinc Transporter Protein (ZntB) Protein Structure Comparison",
-          "credit": "Science mickey18 / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:ZntB_Transporter_Protein_Structure_Comparison.png",
-          "vision_score": 5.0
         }
       ],
       "story": [
@@ -9819,10 +9772,29 @@
           2786,
           2787,
           2788,
-          2789
+          2789,
+          2798
         ],
-        "control_id": 2790
-      }
+        "control_id": 2799
+      },
+      "image_queries": [
+        "Queen Mary University of London",
+        "Precision Healthcare University Research Institute (PHURI)",
+        "Norwegian School of Sports Sciences",
+        "Nature Metabolism journal",
+        "London",
+        "United Kingdom",
+        "blood sample",
+        "laboratory scale",
+        "research laboratory"
+      ],
+      "images_seen": [
+        "https://pixabay.com/get/g14f08634a244d7e3f78d4911ab5e30f802c65301087bb5ede598b4d64673a55f4d0bd3b47014db3366076c6420b67ee616e10c28ae0263e9dc271a2b7279010d_1280.jpg",
+        "https://pixabay.com/get/g36dbaa0bebdce79e2f91880c6b53092472ca017e0a9354416134b4c23faed44d197f3a360a1d832bbf2de6026ee11cc0f537fa6f6565979621a878c0c21a3696_1280.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg/1280px-Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/NABL_Accredited_Clinical_Pathology_Laboratory_in_Kharghar_Navi_Mumbai_Diagnostic_Services.jpg/1280px-NABL_Accredited_Clinical_Pathology_Laboratory_in_Kharghar_Navi_Mumbai_Diagnostic_Services.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7b/ZntB_Transporter_Protein_Structure_Comparison.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      ]
     },
     {
       "id": "515f7c3d-8027-5650-a9b9-86b17d23eb6e",
