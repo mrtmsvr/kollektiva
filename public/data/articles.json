@@ -1,7 +1,233 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-05T10:36:46+02:00",
+  "updated_at": "2026-10-05T12:45:42+02:00",
   "articles": [
+    {
+      "id": "a7fb3d6f-8105-5a19-94ba-400a54033f80",
+      "slug": "2026-10-05-hogyan-iranyithatok-kek-fennyel-az-emlekek-es-az-erzelmek",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "Nobel-díj",
+        "optogenetika",
+        "idegtudomány",
+        "orvostudomány"
+      ],
+      "title": "Hogyan irányíthatók kék fénnyel az emlékek és az érzelmek?",
+      "subtitle": null,
+      "lead": "Előzetes információk szerint három kutató kapta megosztva a 2026-os fiziológiai és orvosi Nobel-díjat az optogenetikai módszer kidolgozásáért. A felfedezés fénnyel vezérelhető ioncsatornák segítségével teszi lehetővé az idegsejtek célzott vizsgálatát.",
+      "key_points": [
+        "Karl Deisseroth, Peter Hegemann és Georg Nagel kapta megosztva az elismerést Stockholmban.",
+        "A módszer alapja egy egysejtű algából felfedezett fehérje, a channelrhodopsin.",
+        "A technika segítségével kék fénnyel kapcsolhatók ki és be az élő idegsejtek.",
+        "Az optogenetika új lehetőségeket nyitott a neurológiai betegségek és a látássérülések gyógyításában."
+      ],
+      "content": "Hétfő délelőtt a stockholmi Karolinska Intézetben bejelentették, hogy előzetes információk szerint a 2026-os fiziológiai és orvosi Nobel-díjat Karl Deisseroth, Peter Hegemann és Georg Nagel kapta megosztva. A tudományos világ legrangosabb elismerését a fény által vezérelt ioncsatornákkal és az optogenetikával kapcsolatos áttörő felfedezéseikért nyerték el.\n\nAz emberi agy pontos működése évszázadok óta rejtély a tudomány számára, mivel a korábbi módszerekkel – mint az agyterületek elektromos ingerlése vagy inaktiválása – nem lehetett pontos ok-okozati összefüggéseket bizonyítani. Mivel minden agyterületen sokféle idegsejt található, korábban lehetetlen volt ezeket egyenként vagy típusonként célzottan ki- és bekapcsolni.\n\nA díjazott kutatók ezt a korlátot küzdötték le. A munka Peter Hegemann kíváncsiságával indult, aki azt vizsgálta, hogy a Chlamydomonas nevű egysejtű alga hogyan képes a fény felé úszni. Hegemann és Georg Nagel a 2000-es évek elején fedezték fel a sejtmembránon elhelyezkedő channelrhodopsin nevű fehérjét, amely kék fény hatására ioncsatornát nyit meg, így töltéssel rendelkező ionok áramolnak a sejtbe, elektromos impulzust hozva létre.\n\nKarl Deisseroth ezt követően óriási lépést tett: a fehérje génjét rágcsálók idegsejtjeibe juttatta, majd 2005-ben publikálta, hogy sikeresen váltott ki idegi jelet kék fény segítségével. Két évvel később ezt a fénnyel működő kapcsolót már élő egerek agysejteiben is sikerült működőképesnek tennie.\n\nAz optogenetika ma egy olyan modern biológiai és idegtudományi eljárás, amely fényérzékeny fehérjék segítségével szabályozza a sejteket. A klinikai orvoslásban a technológiát már arra is használják, hogy megpróbálják visszaadni a látássérültek látását, miközben a kutatók a segítségével a neurológiai és pszichiátriai betegségek hátterében álló idegi hálózatokat térképezik fel.",
+      "content_format": "markdown",
+      "body": [
+        "Hétfő délelőtt a stockholmi Karolinska Intézetben bejelentették, hogy előzetes információk szerint a 2026-os fiziológiai és orvosi Nobel-díjat Karl Deisseroth, Peter Hegemann és Georg Nagel kapta megosztva. A tudományos világ legrangosabb elismerését a fény által vezérelt ioncsatornákkal és az optogenetikával kapcsolatos áttörő felfedezéseikért nyerték el.",
+        "Az emberi agy pontos működése évszázadok óta rejtély a tudomány számára, mivel a korábbi módszerekkel – mint az agyterületek elektromos ingerlése vagy inaktiválása – nem lehetett pontos ok-okozati összefüggéseket bizonyítani. Mivel minden agyterületen sokféle idegsejt található, korábban lehetetlen volt ezeket egyenként vagy típusonként célzottan ki- és bekapcsolni.",
+        "A díjazott kutatók ezt a korlátot küzdötték le. A munka Peter Hegemann kíváncsiságával indult, aki azt vizsgálta, hogy a Chlamydomonas nevű egysejtű alga hogyan képes a fény felé úszni. Hegemann és Georg Nagel a 2000-es évek elején fedezték fel a sejtmembránon elhelyezkedő channelrhodopsin nevű fehérjét, amely kék fény hatására ioncsatornát nyit meg, így töltéssel rendelkező ionok áramolnak a sejtbe, elektromos impulzust hozva létre.",
+        "Karl Deisseroth ezt követően óriási lépést tett: a fehérje génjét rágcsálók idegsejtjeibe juttatta, majd 2005-ben publikálta, hogy sikeresen váltott ki idegi jelet kék fény segítségével. Két évvel később ezt a fénnyel működő kapcsolót már élő egerek agysejteiben is sikerült működőképesnek tennie.",
+        "Az optogenetika ma egy olyan modern biológiai és idegtudományi eljárás, amely fényérzékeny fehérjék segítségével szabályozza a sejteket. A klinikai orvoslásban a technológiát már arra is használják, hogy megpróbálják visszaadni a látássérültek látását, miközben a kutatók a segítségével a neurológiai és pszichiátriai betegségek hátterében álló idegi hálózatokat térképezik fel."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 271,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/5ca00e46b7886af3.jpg",
+        "width": 4000,
+        "height": 2200,
+        "kind": "photo",
+        "alt": "bacteria, microbiology, organism, biology, science, medicine, healthcare, microscopic, disease, genetic, bacteria, bacteria, bacteria, bacteria, bacteria",
+        "credit": "qimono / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/bacteria-microbiology-organism-3658992/",
+        "vision_score": 5.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/5ca00e46b7886af3.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://telex.hu/techtud/2026/10/05/fiziologiai-es-orvostudomanyi-nobel-dij-karl-deisseroth-peter-hegemann-georg-nagel-optogenetika",
+          "title": "Fénnyel irányítható idegsejtekért járt a 2026-os orvosi Nobel-díj",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T12:42:12+02:00"
+        },
+        {
+          "url": "https://hvg.hu/tudomany/20261005_orvosi-nobel-dij-2026-karl-deisseroth-peter-hegemann-georg-nagel-ebx",
+          "title": "Hogyan kell irányítani az idegsejteket? Ezért járt idén az orvosi Nobel-díj",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T12:42:12+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Az optogenetika olyan lehetőségeket kínál az agy feltérképezésére, amelyekről korábban csak álmodhattunk",
+        "who": "Per Svenningsson, a fiziológiai vagy orvostudományi Nobel-bizottság elnöke",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-05T12:45:42+02:00"
+      },
+      "hot_score": 9.53,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://telex.hu/techtud/2026/10/05/fiziologiai-es-orvostudomanyi-nobel-dij-karl-deisseroth-peter-hegemann-georg-nagel-optogenetika",
+          "https://hvg.hu/tudomany/20261005_orvosi-nobel-dij-2026-karl-deisseroth-peter-hegemann-georg-nagel-ebx"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/tech/2026-10-05-hogyan-iranyithatok-kek-fennyel-az-emlekek-es-az-erzelmek/",
+      "seo": {
+        "meta_title": "Hogyan irányíthatók kék fénnyel az emlékek és az érzelmek?",
+        "meta_description": "Három kutató kapta megosztva a 2026-os fiziológiai és orvosi Nobel-díjat az optogenetikai módszer kidolgozásáért. A felfedezés fénnyel vezérelhető ioncsatornák ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-05-hogyan-iranyithatok-kek-fennyel-az-emlekek-es-az-erzelmek/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/5ca00e46b7886af3.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "5c5e355a6e7e3928a53957d5e80ce47aaa89da9af2e1d77f4cd11f5302890ccb",
+      "pipeline_run_id": "37296221334",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T12:45:42+02:00",
+      "updated_at": "2026-10-05T12:45:42+02:00",
+      "published_at": "2026-10-05T12:45:42+02:00",
+      "expires_at": null,
+      "hold": true
+    },
+    {
+      "id": "7646a7f8-a29c-5215-9fbd-9af8b7d97d17",
+      "slug": "2026-10-05-marad-a-kamatstop-mert-meg-nincs-megallapodas-a-bankokkal",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "kamatstop",
+        "Pénzügyminisztérium",
+        "Magyar Bankszövetség",
+        "jelzáloghitel",
+        "Magyar Nemzeti Bank"
+      ],
+      "title": "Marad a kamatstop, mert még nincs megállapodás a bankokkal",
+      "subtitle": null,
+      "lead": "Továbbra sem született megállapodás a kormány és a Magyar Bankszövetség között a kamatstop jövőjéről, így a kedvezményes konstrukció egyelőre változatlan feltételekkel fennmarad. A jegybanki adatok szerint a tervezett kivezetés mintegy tizenkilencezer sérülékeny adóst érinthet érzékenyen.",
+      "key_points": [
+        "A Pénzügyminisztérium közlése szerint folytatódnak az egyeztetések a bankokkal a kamatstop esetleges kivezetéséről.",
+        "A 2022-ben bevezetett referenciakamat-stopot idén áprilisban hosszabbították meg határozatlan időre.",
+        "A Magyar Nemzeti Bank adatai alapján a kétszázezres ügyfélkör tizedénél jelentene legalább ötezer forintos emelkedést a kivezetés.",
+        "A hitelintézetekkel eddig nem sikerült olyan garanciákról megegyezni, amelyek megvédenék a tehernövekedéstől a rászorulókat."
+      ],
+      "content": "Folytatódnak az egyeztetések a kormány és a Magyar Bankszövetség képviselői között a jelzáloghitel-kamatstop esetleges kivezetéséről, miután a feleknek eddig nem sikerült közös nevezőre jutniuk – közölte a Pénzügyminisztérium az MTI megkeresésére. A cél az, hogy a leginkább kitett ügyfelek számára a törlesztőrészlet esetleges változására egy közösen elfogadható és megnyugtató megoldást találjanak.\n\nA referenciakamat-stopot 2022. január 1-jétől eredetileg fél évre vezették be, ám a korlátozást azóta többször meghosszabbították, idén április 18-tól pedig már határozatlan időre szól. Kármán András pénzügyminiszter júniusban még arról tájékoztatott, hogy az intézkedés szeptember 30-ig marad érvényben, amennyiben az Országgyűlés elfogadja a vonatkozó törvényjavaslatot. Boda Nikoletta, a Pénzügyminisztérium parlamenti államtitkára szeptember közepén a parlamentben azt nyilatkozta, hogy a hitelintézetekkel folytatott tárgyalások során nem találtak olyan megoldást, amely kellő garanciát jelentene az ügyfelek jelentős tehernövekedése ellen.\n\nA Magyar Nemzeti Bank kalkulációi szerint a kamatstop hatálya alá nagyjából 220 ezer jelzáloghitel-szerződés tartozik. Ebből a tömegből a becslések alapján mintegy 19 ezer ügyfél tekinthető sérülékenynek. A jegybanki definíció szerint ebbe a kategóriába azok az adósok esnek, akiknél a védőháló eltörlése legalább havi ötezer forintos törlesztőrészlet-emelkedést okozna, miközben a jövedelemarányos törlesztőrészlet-mutatójuk meghaladja a negyven százalékot, vagy az intézkedés bevezetése óta nyugdíjas státuszba kerültek.\n\nA kormányzati jogszabálytervezet társadalmi egyeztetési határideje idén június 19-én járt le, és a bankszövetség is jelezte korábban, hogy saját javaslatokat dolgoz ki a rendszer jövőjéről. Megállapodás hiányában azonban a jelenlegi szabályok érvényben maradnak, így a rászoruló adósok védelme egyelőre változatlan formában folytatódik.",
+      "content_format": "markdown",
+      "body": [
+        "Folytatódnak az egyeztetések a kormány és a Magyar Bankszövetség képviselői között a jelzáloghitel-kamatstop esetleges kivezetéséről, miután a feleknek eddig nem sikerült közös nevezőre jutniuk – közölte a Pénzügyminisztérium az MTI megkeresésére. A cél az, hogy a leginkább kitett ügyfelek számára a törlesztőrészlet esetleges változására egy közösen elfogadható és megnyugtató megoldást találjanak.",
+        "A referenciakamat-stopot 2022. január 1-jétől eredetileg fél évre vezették be, ám a korlátozást azóta többször meghosszabbították, idén április 18-tól pedig már határozatlan időre szól. Kármán András pénzügyminiszter júniusban még arról tájékoztatott, hogy az intézkedés szeptember 30-ig marad érvényben, amennyiben az Országgyűlés elfogadja a vonatkozó törvényjavaslatot. Boda Nikoletta, a Pénzügyminisztérium parlamenti államtitkára szeptember közepén a parlamentben azt nyilatkozta, hogy a hitelintézetekkel folytatott tárgyalások során nem találtak olyan megoldást, amely kellő garanciát jelentene az ügyfelek jelentős tehernövekedése ellen.",
+        "A Magyar Nemzeti Bank kalkulációi szerint a kamatstop hatálya alá nagyjából 220 ezer jelzáloghitel-szerződés tartozik. Ebből a tömegből a becslések alapján mintegy 19 ezer ügyfél tekinthető sérülékenynek. A jegybanki definíció szerint ebbe a kategóriába azok az adósok esnek, akiknél a védőháló eltörlése legalább havi ötezer forintos törlesztőrészlet-emelkedést okozna, miközben a jövedelemarányos törlesztőrészlet-mutatójuk meghaladja a negyven százalékot, vagy az intézkedés bevezetése óta nyugdíjas státuszba kerültek.",
+        "A kormányzati jogszabálytervezet társadalmi egyeztetési határideje idén június 19-én járt le, és a bankszövetség is jelezte korábban, hogy saját javaslatokat dolgoz ki a rendszer jövőjéről. Megállapodás hiányában azonban a jelenlegi szabályok érvényben maradnak, így a rászoruló adósok védelme egyelőre változatlan formában folytatódik."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 276,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/7646a7f8a2-1791197026-1.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/7646a7f8a2-1791197026-1.jpg",
+        "kind": "photo",
+        "alt": "Marad a kamatstop, mert még nincs megállapodás a bankokkal",
+        "likeness": false,
+        "credit": "Kollektíva illusztráció",
+        "license": "saját grafika",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/bank/20261005/kamatstop-varatlanul-megszolalt-a-penzugyminiszterium-867398",
+          "title": "Kamatstop: váratlanul megszólalt a Pénzügyminisztérium",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T12:40:49+02:00"
+        },
+        {
+          "url": "https://telex.hu/gazdasag/2026/10/05/penzugyminiszterium-kamatstop-egyeztetes-bankok",
+          "title": "Egyelőre marad a kamatstop, továbbra sincs megállapodás a kormány és a bankszövetség között",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T12:40:49+02:00"
+        }
+      ],
+      "quote": {
+        "text": "A kormány több körben egyeztetett a Magyar Bankszövetség képviselőivel. Az egyeztetések folytatódnak, hogy a leginkább kitettek számára a törlesztőrészlet változásra egy közösen elfogadható és megnyugtató megoldást találjunk",
+        "who": "Pénzügyminisztérium",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-05T12:45:41+02:00"
+      },
+      "hot_score": 9.77,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/bank/20261005/kamatstop-varatlanul-megszolalt-a-penzugyminiszterium-867398",
+          "https://telex.hu/gazdasag/2026/10/05/penzugyminiszterium-kamatstop-egyeztetes-bankok"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/kozelet/2026-10-05-marad-a-kamatstop-mert-meg-nincs-megallapodas-a-bankokkal/",
+      "seo": {
+        "meta_title": "Marad a kamatstop, mert még nincs megállapodás a bankokkal",
+        "meta_description": "Továbbra sem született megállapodás a kormány és a Magyar Bankszövetség között a kamatstop jövőjéről, így a kedvezményes konstrukció egyelőre változatlan feltét",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-marad-a-kamatstop-mert-meg-nincs-megallapodas-a-bankokkal/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/7646a7f8a2-1791197026-1.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "97435690ea1d0324619e464f5c9633eb1c00be41c54b167547d40fa0e7666c2e",
+      "pipeline_run_id": "37296221334",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T12:45:41+02:00",
+      "updated_at": "2026-10-05T12:45:41+02:00",
+      "published_at": "2026-10-05T12:45:41+02:00",
+      "expires_at": null
+    },
     {
       "id": "227cc24f-9bdc-5b0f-9db4-af58e7153d68",
       "slug": "2026-10-05-titkos-dokumentum-ezt-tervezi-brusszel-az-ukran-agrariummal",

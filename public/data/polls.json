@@ -1,6 +1,22 @@
 {
-  "updated_at": "2026-10-05T10:34:28+02:00",
+  "updated_at": "2026-10-05T12:47:52+02:00",
   "polls": [
+    {
+      "id": "aea317cd1847",
+      "date": "2026-10-05",
+      "question": "Ön szerint megfelelő-e az EU korlátozása Ukrajna agrársegélyeiben?",
+      "options": [
+        "Támogatom a korlátozást",
+        "Ellenezem a korlátozást",
+        "Vártam volna enyhébb megoldást",
+        "Nem tudom / nincs véleményem"
+      ],
+      "article_url": "/vilag/2026-10-05-titkos-dokumentum-ezt-tervezi-brusszel-az-ukran-agrariummal/",
+      "article_title": "Titkos dokumentum: Ezt tervezi Brüsszel az ukrán agráriummal",
+      "category": "vilag",
+      "created_at": "2026-10-05T12:47:52+02:00",
+      "closes_at": "2026-10-12T12:47:52+02:00"
+    },
     {
       "id": "9b5a2fddbaba",
       "date": "2026-10-03",
