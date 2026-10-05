@@ -8747,9 +8747,9 @@
       "live": true
     },
     {
-      "id": "17ac7fed-6e2d-5de9-8f79-e646e36b2b51",
-      "slug": "2026-10-05-negyedmilliardos-parizsi-szamlat-orokolt-az-allamfo",
-      "status": "pending",
+      "id": "8a6bc943-e604-5612-834c-4542f9e478d5",
+      "slug": "2026-10-05-tobb-mint-380-millioba-kerult-sulyok-tamas-ket-ev-alatti-kulfoldi-uta",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -8759,7 +8759,7 @@
         "külföldi út",
         "Novák Katalin"
       ],
-      "title": "Negyedmilliárdos párizsi számlát örökölt az államfő",
+      "title": "Több mint 380 millióba került Sulyok Tamás két év alatti külföldi utazása",
       "subtitle": null,
       "lead": "Közel 387 millió forint közpénzt emésztett fel Sulyok Tamás köztársasági elnök harminchárom külföldi útja a 2024. márciusi hivatali lépésétől 2025 végéig. A kiadások jelentős részét szálláshelyekre fordították, a legdrágább tételt pedig az előző államfőtől örökölte a hivatal.",
       "key_points": [
@@ -8780,16 +8780,16 @@
       "word_count": 225,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Sulyok_Tam%C3%A1s_hivatalos_portr%C3%A9ja.jpg/1280px-Sulyok_Tam%C3%A1s_hivatalos_portr%C3%A9ja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Sulyok_Tam%C3%A1s_%28cropped%2C_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "width": 1200,
-        "height": 1206,
+        "height": 1844,
         "kind": "photo",
         "pos": "top",
-        "alt": "Tamás Sulyok, Hungarian lawyer, past member of Constitutional Court, President of Hungary since 2024",
-        "credit": "Sándor Palota / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Sulyok_Tam%C3%A1s_hivatalos_portr%C3%A9ja.jpg",
-        "vision_score": 10.0
+        "alt": "Sulyok Tamás.",
+        "credit": "Elekes Andor / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sulyok_Tam%C3%A1s_(cropped,_2).jpg",
+        "vision_score": 8.0
       },
       "inline_images": [],
       "sources": [
@@ -8863,12 +8863,12 @@
       },
       "date": "2026-10-05",
       "date_label": "október 5.",
-      "url": "/kozelet/2026-10-05-negyedmilliardos-parizsi-szamlat-orokolt-az-allamfo/",
+      "url": "/kozelet/2026-10-05-tobb-mint-380-millioba-kerult-sulyok-tamas-ket-ev-alatti-kulfoldi-uta/",
       "seo": {
-        "meta_title": "Negyedmilliárdos párizsi számlát örökölt az államfő",
+        "meta_title": "Több mint 380 millióba került Sulyok Tamás két év alatti kül",
         "meta_description": "Közel 387 millió forint közpénzt emésztett fel Sulyok Tamás köztársasági elnök harminchárom külföldi útja a 2024. márciusi hivatali lépésétől 2025 végéig. A kia",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-negyedmilliardos-parizsi-szamlat-orokolt-az-allamfo/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Sulyok_Tam%C3%A1s_hivatalos_portr%C3%A9ja.jpg/1280px-Sulyok_Tam%C3%A1s_hivatalos_portr%C3%A9ja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-tobb-mint-380-millioba-kerult-sulyok-tamas-ket-ev-alatti-kulfoldi-uta/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Sulyok_Tam%C3%A1s_%28cropped%2C_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8885,9 +8885,9 @@
       "dedupe_hash": "94397afd301b450fc3de818658feb6f1550b195adf5098f8168b120cfade96e6",
       "pipeline_run_id": "37270103400",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T08:20:35+02:00",
-      "updated_at": "2026-10-05T08:20:35+02:00",
-      "published_at": "2026-10-05T08:20:35+02:00",
+      "created_at": "2026-10-05T08:26:40+02:00",
+      "updated_at": "2026-10-05T08:26:40+02:00",
+      "published_at": "2026-10-05T08:26:40+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -8903,7 +8903,8 @@
           2721
         ],
         "control_id": 2722
-      }
+      },
+      "live": true
     }
   ]
 }

@@ -1,7 +1,107 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-05T08:25:54+02:00",
+  "updated_at": "2026-10-05T08:26:40+02:00",
   "articles": [
+    {
+      "id": "8a6bc943-e604-5612-834c-4542f9e478d5",
+      "slug": "2026-10-05-tobb-mint-380-millioba-kerult-sulyok-tamas-ket-ev-alatti-kulfoldi-uta",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Sulyok Tamás",
+        "köztársasági elnök",
+        "közpénz",
+        "külföldi út",
+        "Novák Katalin"
+      ],
+      "title": "Több mint 380 millióba került Sulyok Tamás két év alatti külföldi utazása",
+      "subtitle": null,
+      "lead": "Közel 387 millió forint közpénzt emésztett fel Sulyok Tamás köztársasági elnök harminchárom külföldi útja a 2024. márciusi hivatali lépésétől 2025 végéig. A kiadások jelentős részét szálláshelyekre fordították, a legdrágább tételt pedig az előző államfőtől örökölte a hivatal.",
+      "key_points": [
+        "Sulyok Tamás 2024 márciusa és 2025 vége között 33 alkalommal utazott külföldre.",
+        "A kiadások összesen 387 millió forintot tettek ki, amiből 323 millió forint jutott szállásokra.",
+        "A legdrágább külföldi tétel a párizsi olimpia idején felmerült 232 millió forintos számla volt."
+      ],
+      "content": "Sulyok Tamás 2024. március 5-i hivatalba lépésétől 2025 végéig összesen harminchárom alkalommal utazott külföldre. A hivatalos utak összesen 387 millió forint közpénzt emésztettek fel, amelyből a legnagyobb összeget, 323 millió forintot a szállásköltségek tettek ki. Az útiköltségekre 56 millió, míg egyéb kiadásokra 8 millió forint adófizetői pénz ment el a 444 által közérdekű adatigénylés peres útján megszerzett részletei alapján.\n\nA kiadások közül kiemelkedik a párizsi olimpiai látogatás, amely a legdrágább tételnek bizonyult, és alaposan megdobta a végösszeget. Ezt az utat Sulyok Tamás még az előző államfőtől, Novák Katalintól örökölte meg. Bár a kifizetett tizennyolc éjszakából mindössze hármat töltött a szállodában a delegáció, a teljes út 232 millió forint közpénzbe került.\n\nA párizsi olimpiát leszámítva a legköltségesebb út a 2025. május 19. és 27. között Japánban tett munkalátogatás volt, amely 39 millió forintot emésztett fel. A párizsi paralimpiai látogatás 16 millió forintba került, a sorban következő angolai út pedig 12 millió forintot tett ki.\n\nA vizsgált időszakban az olcsóbb utazások közé tartozott egy 2024. decemberi párizsi munkalátogatás is, amely mindössze 100 ezer forintból jött ki, de a statisztikában szerepelt egy költségek nélkül lehozott, 2024. novemberi horvátországi út is.",
+      "content_format": "markdown",
+      "body": [
+        "Sulyok Tamás 2024. március 5-i hivatalba lépésétől 2025 végéig összesen harminchárom alkalommal utazott külföldre. A hivatalos utak összesen 387 millió forint közpénzt emésztettek fel, amelyből a legnagyobb összeget, 323 millió forintot a szállásköltségek tettek ki. Az útiköltségekre 56 millió, míg egyéb kiadásokra 8 millió forint adófizetői pénz ment el a 444 által közérdekű adatigénylés peres útján megszerzett részletei alapján.",
+        "A kiadások közül kiemelkedik a párizsi olimpiai látogatás, amely a legdrágább tételnek bizonyult, és alaposan megdobta a végösszeget. Ezt az utat Sulyok Tamás még az előző államfőtől, Novák Katalintól örökölte meg. Bár a kifizetett tizennyolc éjszakából mindössze hármat töltött a szállodában a delegáció, a teljes út 232 millió forint közpénzbe került.",
+        "A párizsi olimpiát leszámítva a legköltségesebb út a 2025. május 19. és 27. között Japánban tett munkalátogatás volt, amely 39 millió forintot emésztett fel. A párizsi paralimpiai látogatás 16 millió forintba került, a sorban következő angolai út pedig 12 millió forintot tett ki.",
+        "A vizsgált időszakban az olcsóbb utazások közé tartozott egy 2024. decemberi párizsi munkalátogatás is, amely mindössze 100 ezer forintból jött ki, de a statisztikában szerepelt egy költségek nélkül lehozott, 2024. novemberi horvátországi út is."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 225,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Sulyok_Tam%C3%A1s_%28cropped%2C_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1844,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Sulyok Tamás.",
+        "credit": "Elekes Andor / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sulyok_Tam%C3%A1s_(cropped,_2).jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/gazdasag/20261005_sulyok-tamas-koztarsasagi-elnok-kulfoldi-utak",
+          "title": "387 millió forintért utazott külföldre Sulyok Tamás, de a legdrágább tételt Novák Katalintól örökölte meg",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T08:20:35+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-05T08:26:40+02:00"
+      },
+      "hot_score": 5.51,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/gazdasag/20261005_sulyok-tamas-koztarsasagi-elnok-kulfoldi-utak"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/kozelet/2026-10-05-tobb-mint-380-millioba-kerult-sulyok-tamas-ket-ev-alatti-kulfoldi-uta/",
+      "seo": {
+        "meta_title": "Több mint 380 millióba került Sulyok Tamás két év alatti kül",
+        "meta_description": "Közel 387 millió forint közpénzt emésztett fel Sulyok Tamás köztársasági elnök harminchárom külföldi útja a 2024. márciusi hivatali lépésétől 2025 végéig. A kia",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-tobb-mint-380-millioba-kerult-sulyok-tamas-ket-ev-alatti-kulfoldi-uta/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Sulyok_Tam%C3%A1s_%28cropped%2C_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "94397afd301b450fc3de818658feb6f1550b195adf5098f8168b120cfade96e6",
+      "pipeline_run_id": "37270103400",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T08:26:40+02:00",
+      "updated_at": "2026-10-05T08:26:40+02:00",
+      "published_at": "2026-10-05T08:26:40+02:00",
+      "expires_at": null
+    },
     {
       "id": "a02ffd2d-0f6a-53d7-8b9b-145b8a30c6c2",
       "slug": "2026-10-05-biztos-menedek-lett-a-dollar-a-haborus-eszkalalodas-miatt",
