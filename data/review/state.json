@@ -1,5 +1,5 @@
 {
-  "offset": 391604497,
+  "offset": 391604498,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -42,7 +42,13 @@
     "https://hvg.hu/elet/20261004_hvg-krzysztof-zanussi-lengyel-filmrendezo-interju-tarkovszkij-68",
     "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/",
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/schobert-lara-stilusvaltas-stilus-noiesseg-mentalis-egeszseg/c11zrpw",
-    "https://hvg.hu/itthon/20261005_csatari-erno-tisza-felsofoku-vegzettseg-novak-elod-mi-hazank"
+    "https://hvg.hu/itthon/20261005_csatari-erno-tisza-felsofoku-vegzettseg-novak-elod-mi-hazank",
+    "https://doi.org/10.1016/j.biopsych.2015.05.014",
+    "https://doi.org/10.2147/nss.s134864",
+    "https://doi.org/10.1152/physrev.00010.2018",
+    "https://doi.org/10.1016/j.sleep.2016.08.006",
+    "https://doi.org/10.1146/annurev-psych-010213-115205",
+    "https://hu.wikipedia.org/wiki/Alv%C3%A1s"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
