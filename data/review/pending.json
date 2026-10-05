@@ -10992,9 +10992,9 @@
       "live": true
     },
     {
-      "id": "4ca3c474-8c55-5e0e-b06e-296d23b54d33",
-      "slug": "2026-10-05-norveg-riporter-kerne-interjut-de-a-miniszterelnok-bocsanatkerest-var",
-      "status": "pending",
+      "id": "38a28d12-0a7e-540a-91ed-c77213a5e539",
+      "slug": "2026-10-05-megszolalt-a-norveg-riporter-azonnal-lecsapott-ra-a-magyar-kormanyfo",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -11004,7 +11004,7 @@
         "Facebook",
         "interjú"
       ],
-      "title": "Norvég riporter kérne interjút, de a miniszterelnök bocsánatkérést vár",
+      "title": "Megszólalt a norvég riporter, azonnal lecsapott rá a magyar kormányfő",
       "subtitle": null,
       "lead": "Facebook-kommentben utasította el a norvég közmédia interjúkérelmét Magyar Péter, miután vita alakult ki egy korábbi, meghiúsult találkozóról. A norvég riporter Budapestre utazna a tisztázásért, Magyar Péter azonban előbb bocsánatkérést követel.",
       "key_points": [
@@ -11025,16 +11025,15 @@
       "word_count": 217,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Peter-Magyar-portrait-2026.jpg/1280px-Peter-Magyar-portrait-2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 1599,
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/4ca3c4748c-1791225649-0.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/4ca3c4748c-1791225649-0.jpg",
         "kind": "photo",
-        "pos": "top",
-        "alt": "High-resolution, freely reusable close-up portrait of Hungarian politician Péter Magyar, taken on 15 March 2026 during a national day demonstration at Heroes’ Square in Budapest, Hungary. The photogra",
-        "credit": "Norbert Banhalmi / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Peter-Magyar-portrait-2026.jpg",
-        "vision_score": 10.0
+        "alt": "Megszólalt a norvég riporter, azonnal lecsapott rá a magyar kormányfő",
+        "likeness": true,
+        "credit": "AI-generált illusztráció – Kollektíva",
+        "license": "saját (AI-generált illusztráció)",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
       },
       "inline_images": [],
       "sources": [
@@ -11179,12 +11178,12 @@
       },
       "date": "2026-10-05",
       "date_label": "október 5.",
-      "url": "/kozelet/2026-10-05-norveg-riporter-kerne-interjut-de-a-miniszterelnok-bocsanatkerest-var/",
+      "url": "/kozelet/2026-10-05-megszolalt-a-norveg-riporter-azonnal-lecsapott-ra-a-magyar-kormanyfo/",
       "seo": {
-        "meta_title": "Norvég riporter kérne interjút, de a miniszterelnök bocsánat",
+        "meta_title": "Megszólalt a norvég riporter, azonnal lecsapott rá a magyar ",
         "meta_description": "Facebook-kommentben utasította el a norvég közmédia interjúkérelmét Magyar Péter, miután vita alakult ki egy korábbi, meghiúsult találkozóról. A norvég riporter",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-norveg-riporter-kerne-interjut-de-a-miniszterelnok-bocsanatkerest-var/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Peter-Magyar-portrait-2026.jpg/1280px-Peter-Magyar-portrait-2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-megszolalt-a-norveg-riporter-azonnal-lecsapott-ra-a-magyar-kormanyfo/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/4ca3c4748c-1791225649-0.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -11201,9 +11200,9 @@
       "dedupe_hash": "35696a9b4a06505c271d75196409af8e87077c8ce276c94ecbc85109c3dcbe35",
       "pipeline_run_id": "37355825684",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T20:32:44+02:00",
-      "updated_at": "2026-10-05T20:32:44+02:00",
-      "published_at": "2026-10-05T20:32:44+02:00",
+      "created_at": "2026-10-05T21:04:47+02:00",
+      "updated_at": "2026-10-05T21:04:47+02:00",
+      "published_at": "2026-10-05T21:04:47+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -11225,7 +11224,8 @@
           3032
         ],
         "control_id": 3033
-      }
+      },
+      "live": true
     },
     {
       "id": "adf618fe-f3bf-538d-9075-0117eb80654a",

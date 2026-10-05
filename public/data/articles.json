@@ -1,7 +1,132 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-05T18:51:38+02:00",
+  "updated_at": "2026-10-05T21:04:47+02:00",
   "articles": [
+    {
+      "id": "38a28d12-0a7e-540a-91ed-c77213a5e539",
+      "slug": "2026-10-05-megszolalt-a-norveg-riporter-azonnal-lecsapott-ra-a-magyar-kormanyfo",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Magyar Péter",
+        "Norvégia",
+        "média",
+        "Facebook",
+        "interjú"
+      ],
+      "title": "Megszólalt a norvég riporter, azonnal lecsapott rá a magyar kormányfő",
+      "subtitle": null,
+      "lead": "Facebook-kommentben utasította el a norvég közmédia interjúkérelmét Magyar Péter, miután vita alakult ki egy korábbi, meghiúsult találkozóról. A norvég riporter Budapestre utazna a tisztázásért, Magyar Péter azonban előbb bocsánatkérést követel.",
+      "key_points": [
+        "Zofia Paszkiewicz norvég riporter a miniszterelnök Facebook-posztja alatt kérdezett rá egy újabb interjú időpontjára.",
+        "Magyar Péter elutasította a megkeresést, hiányolva a norvég stáb bocsánatkérését a korábbi vitás cikkek miatt.",
+        "A felek abban sem értenek egyet, hogy júliusban le volt-e fixen egyeztetve a parlamenti stáb találkozója."
+      ],
+      "content": "Újabb fejezethez érkezett Magyar Péter és a norvég közmédia (NRK) vitája, miután Zofia Paszkiewicz, a csatorna tudósítója a politikus hivatalos Facebook-oldalán jelentkezett be kommentben. A norvég riporter egy újabb találkozó leszervezését kérte, hogy tisztázhassák az esetleges félreértéseket.\n\nMagyar később egy másik bejegyzésben úgy fogalmazott, hogy a riporter elismerése nyomán talán lezárható a sajtót napok óta lázban tartó téma, bár az elnézéskérés szerinte továbbra is elmaradt.\n\nAz ügy előzményeként a norvég közmédia korábban arról írt, hogy július közepén fixen leegyeztetett interjúidőpontjuk volt Magyar Péterrel a Parlamentben, ám a stáb végül lemondta a találkozót, és később a többi kormánytag megkeresését is kifogásolták. A 444.hu megkeresésére a norvég tudósító később pontosított: elismerte, hogy nem egy klasszikus, hosszabb, leülős interjúban állapodtak meg, hanem csupán arról volt szó, hogy a parlamenti ülés előtt talán tehetnek fel kérdéseket, ha a miniszterelnök ideje engedi.\n\nA kialakult helyzetben Magyar a sajtóetikai szabályok betartását és a hírek előzetes ellenőrzését szorgalmazta. Egy másik, kapcsolódó parlamenti ügyben Magyar Péter arra is kitért, hogy a Partizán szerkesztőségének parlamenti beléptetését korlátozó döntéssel sem ért egyet, ugyanakkor hangsúlyozta, hogy az Országgyűlés egy külön hatalmi ág, amelyre nincs ráhatása.",
+      "content_format": "markdown",
+      "body": [
+        "Újabb fejezethez érkezett Magyar Péter és a norvég közmédia (NRK) vitája, miután Zofia Paszkiewicz, a csatorna tudósítója a politikus hivatalos Facebook-oldalán jelentkezett be kommentben. A norvég riporter egy újabb találkozó leszervezését kérte, hogy tisztázhassák az esetleges félreértéseket.",
+        "Magyar később egy másik bejegyzésben úgy fogalmazott, hogy a riporter elismerése nyomán talán lezárható a sajtót napok óta lázban tartó téma, bár az elnézéskérés szerinte továbbra is elmaradt.",
+        "Az ügy előzményeként a norvég közmédia korábban arról írt, hogy július közepén fixen leegyeztetett interjúidőpontjuk volt Magyar Péterrel a Parlamentben, ám a stáb végül lemondta a találkozót, és később a többi kormánytag megkeresését is kifogásolták. A 444.hu megkeresésére a norvég tudósító később pontosított: elismerte, hogy nem egy klasszikus, hosszabb, leülős interjúban állapodtak meg, hanem csupán arról volt szó, hogy a parlamenti ülés előtt talán tehetnek fel kérdéseket, ha a miniszterelnök ideje engedi.",
+        "A kialakult helyzetben Magyar a sajtóetikai szabályok betartását és a hírek előzetes ellenőrzését szorgalmazta. Egy másik, kapcsolódó parlamenti ügyben Magyar Péter arra is kitért, hogy a Partizán szerkesztőségének parlamenti beléptetését korlátozó döntéssel sem ért egyet, ugyanakkor hangsúlyozta, hogy az Országgyűlés egy külön hatalmi ág, amelyre nincs ráhatása."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 217,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/4ca3c4748c-1791225649-0.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/4ca3c4748c-1791225649-0.jpg",
+        "kind": "photo",
+        "alt": "Megszólalt a norvég riporter, azonnal lecsapott rá a magyar kormányfő",
+        "likeness": true,
+        "credit": "AI-generált illusztráció – Kollektíva",
+        "license": "saját (AI-generált illusztráció)",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://telex.hu/belfold/2026/10/05/magyar-peter-nrk-norveg-kozmedia-sajto-komment-interju",
+          "title": "Magyar Péter kommentben pattintotta le a norvég köztévé kommentben interjút kérő riporterét",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T20:32:44+02:00"
+        },
+        {
+          "url": "https://hvg.hu/itthon/20261005_magyar-peter-norveg-ujsagiro-interju",
+          "title": "Magyar Péter odakommentelt az interjút kérő norvég újságírónak: Nem hiszem, hogy ez hamarosan bekövetkezne",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T20:32:44+02:00"
+        },
+        {
+          "url": "https://hvg.hu/itthon/20261005_norveg-kozmedia-magyar-peter-interju-komment",
+          "title": "A norvég közmédia pontosított, mégsem volt egyeztetett interjú-időpontjuk Magyar Péterrel",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T20:32:44+02:00"
+        },
+        {
+          "url": "https://hvg.hu/itthon/20261005_magyar-peter-partizan-kitiltas-sajto-tisza-part",
+          "title": "Magyar Péter a Partizán kitiltásáról: Nem ért egyet vele, de az Országgyűlés egy külön hatalmi ág",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T20:32:44+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Elolvastam a hazugságokkal teli cikkét, ennek fényében nem hiszem, hogy ez mostanában meg fog történni. Minden jót.",
+        "who": "Magyar Péter miniszterelnök",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-05T21:04:47+02:00"
+      },
+      "hot_score": 11.35,
+      "clickbait_from": 2,
+      "category_meta": {
+        "source_links": [
+          "https://telex.hu/belfold/2026/10/05/magyar-peter-nrk-norveg-kozmedia-sajto-komment-interju",
+          "https://hvg.hu/itthon/20261005_magyar-peter-norveg-ujsagiro-interju"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/kozelet/2026-10-05-megszolalt-a-norveg-riporter-azonnal-lecsapott-ra-a-magyar-kormanyfo/",
+      "seo": {
+        "meta_title": "Megszólalt a norvég riporter, azonnal lecsapott rá a magyar ",
+        "meta_description": "Facebook-kommentben utasította el a norvég közmédia interjúkérelmét Magyar Péter, miután vita alakult ki egy korábbi, meghiúsult találkozóról. A norvég riporter",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-megszolalt-a-norveg-riporter-azonnal-lecsapott-ra-a-magyar-kormanyfo/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/4ca3c4748c-1791225649-0.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "35696a9b4a06505c271d75196409af8e87077c8ce276c94ecbc85109c3dcbe35",
+      "pipeline_run_id": "37355825684",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T21:04:47+02:00",
+      "updated_at": "2026-10-05T21:04:47+02:00",
+      "published_at": "2026-10-05T21:04:47+02:00",
+      "expires_at": null
+    },
     {
       "id": "41f9b564-4544-5384-959f-e062003eac3d",
       "slug": "2026-10-05-engedhet-a-kormany-az-ukran-csatlakozasi-klasztereknel",
