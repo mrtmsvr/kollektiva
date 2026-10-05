@@ -9931,6 +9931,28 @@
       "clickbait_from": 3,
       "image_options": [
         {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/b9656d9934-1791212426-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/b9656d9934-1791212426-0.jpg",
+          "kind": "photo",
+          "alt": "Nem köt kompromisszumot a tökéletes biztonságért az OpenAI vezetője",
+          "likeness": true,
+          "credit": "AI-generált illusztráció – Kollektíva",
+          "license": "saját (AI-generált illusztráció)",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/b9656d9934-1791212429-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/b9656d9934-1791212429-1.jpg",
+          "kind": "photo",
+          "alt": "Nem köt kompromisszumot a tökéletes biztonságért az OpenAI vezetője",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Sam_Altman_CropEdit_James_Tamim.jpg/1280px-Sam_Altman_CropEdit_James_Tamim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 1201,
@@ -10090,9 +10112,11 @@
           2905,
           2906,
           2907,
-          2908
+          2908,
+          2965,
+          2966
         ],
-        "control_id": 2930
+        "control_id": 2967
       },
       "legal": {
         "level": 0,
