@@ -9844,6 +9844,825 @@
         "https://upload.wikimedia.org/wikipedia/commons/7/7b/ZntB_Transporter_Protein_Structure_Comparison.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
       ],
       "live": true
+    },
+    {
+      "id": "b9656d99-34b1-56d5-812b-baf56832b830",
+      "slug": "2026-10-05-nem-kot-kompromisszumot-a-tokeletes-biztonsagert-az-openai-vezetoje",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "Sam Altman",
+        "OpenAI",
+        "mesterséges intelligencia",
+        "ChatGPT",
+        "szabályozás"
+      ],
+      "title": "Nem köt kompromisszumot a tökéletes biztonságért az OpenAI vezetője",
+      "subtitle": null,
+      "lead": "Sam Altman, az OpenAI vezérigazgatója egy interjúban kijelentette, hogy a társadalomnak el kell fogadnia az AI okozta károkat a technológia előnyeiért cserébe. A cégvezető szerint az emberek sokkal több jót tesznek majd a rendszerekkel, mint amennyi kár keletkezik.",
+      "key_points": [
+        "Sam Altman szerint az AI előnyei ellensúlyozzák a felmerülő kockázatokat.",
+        "Az OpenAI vezetője ellenzi a túlzottan szigorú, egyetlen laboratóriumra bízott szabályozást.",
+        "A vállalat az elmúlt időszakban több kellemetlen incidens és belső kritika miatt is a hírekbe került."
+      ],
+      "content": "A mesterséges intelligencia elterjedésével együtt járó kockázatokat – így a gyanú szerint a hackertámadásokat és az online csalásokat – tudatosan vállalni kell a technológia nyújtotta haszonért – mondta Sam Altman, a ChatGPT-t is fejlesztő OpenAI vezérigazgatója a Politico technológiai hírlevelének, a Decodednek adott interjújában.\n\nAz OpenAI és riválisai, például az Anthropic között komoly világnézeti ellentét feszül a szabályozás kérdésében. Altman elfogadhatatlannak nevezte azt a megközelítést, amelyben egyetlen laboratórium monopóliumként felügyelné a biztonságot és osztaná szét az előnyöket, mivel ez szerinte gátolná a fejlődést. [1] Az OpenAI vezetője kifejtette, hogy nem kötnének olyan alkut, amely garantálná a bűncselekmények teljes kizárását, mivel a mérleg nyelve egyértelműen az előnyök felé dől.\n\nA kijelentések hátterében az OpenAI elmúlt időszaki botrányai is állnak. [1] [1] Az OpenAI háza táján a belső kultúra is megosztóvá vált, miután egyes biztonsági szakemberek a cég irányvonala miatt távoztak. [2]\n\nA vitákhoz a politika is csatlakozott, hiszen Ron DeSantis, Florida kormányzója nyilvánosan bírálta a technológiai oligarchák döntési jogát a biztonsági kérdésekben. [2] Florida állam főügyésze a bírósághoz fordult, hogy nem jogerősen tiltsák meg a cégnek a harmadik fél által jóváhagyott biztonsági intézkedések nélküli modellfejlesztéseket, miután a szektorban továbbra is égető kihívás marad a gyors technológiai fejlődés és a fékek egyensúlyának megteremtése [1], [2], ahogy korábban [megírtuk a fékekenek az elhalasztását is](/tech/2026-09-29-fekezhetetlen-intelligenciarobbanas-johet-de-az-openai-maris-elhalasz/).]",
+      "content_format": "markdown",
+      "body": [
+        "A mesterséges intelligencia elterjedésével együtt járó kockázatokat – így a gyanú szerint a hackertámadásokat és az online csalásokat – tudatosan vállalni kell a technológia nyújtotta haszonért – mondta Sam Altman, a ChatGPT-t is fejlesztő OpenAI vezérigazgatója a Politico technológiai hírlevelének, a Decodednek adott interjújában.",
+        "Az OpenAI és riválisai, például az Anthropic között komoly világnézeti ellentét feszül a szabályozás kérdésében. Altman elfogadhatatlannak nevezte azt a megközelítést, amelyben egyetlen laboratórium monopóliumként felügyelné a biztonságot és osztaná szét az előnyöket, mivel ez szerinte gátolná a fejlődést. [1] Az OpenAI vezetője kifejtette, hogy nem kötnének olyan alkut, amely garantálná a bűncselekmények teljes kizárását, mivel a mérleg nyelve egyértelműen az előnyök felé dől.",
+        "A kijelentések hátterében az OpenAI elmúlt időszaki botrányai is állnak. [1] [1] Az OpenAI háza táján a belső kultúra is megosztóvá vált, miután egyes biztonsági szakemberek a cég irányvonala miatt távoztak. [2]",
+        "A vitákhoz a politika is csatlakozott, hiszen Ron DeSantis, Florida kormányzója nyilvánosan bírálta a technológiai oligarchák döntési jogát a biztonsági kérdésekben. [2] Florida állam főügyésze a bírósághoz fordult, hogy nem jogerősen tiltsák meg a cégnek a harmadik fél által jóváhagyott biztonsági intézkedések nélküli modellfejlesztéseket, miután a szektorban továbbra is égető kihívás marad a gyors technológiai fejlődés és a fékek egyensúlyának megteremtése [1], [2], ahogy korábban [megírtuk a fékekenek az elhalasztását is](/tech/2026-09-29-fekezhetetlen-intelligenciarobbanas-johet-de-az-openai-maris-elhalasz/).]"
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 254,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Sam_Altman_CropEdit_James_Tamim.jpg/1280px-Sam_Altman_CropEdit_James_Tamim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1201,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "SAN FRANCISCO, CALIFORNIA - OCTOBER 03: OpenAI Co-Founder &amp; CEO Sam Altman speaks onstage during TechCrunch Disrupt San Francisco 2019 at Moscone Convention Center on October 03, 2019 in San Franc",
+        "credit": "TechCrunch / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sam_Altman_CropEdit_James_Tamim.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261005_openai-sam-altman-mesterseges-intelligencia-veszelyek-elonyok-interju",
+          "title": "Sam Altman szerint el kell fogadni az AI veszélyeit, mivel több az előny, mint a kockázat",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T16:47:06+02:00"
+        },
+        {
+          "url": "https://qubit.hu/2026/10/05/az-openai-igazgatoja-szerint-az-ai-negativumait-el-kell-fogadni-a-technologia-elonyeiert?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "Az OpenAI igazgatója szerint az AI negatívumait el kell fogadni a technológia előnyeiért",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T16:47:06+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Úgy hisszük, a világnak el kell fogadnia, hogy rossz dolgok is történnek, cserébe e technológia előnyeiért, valamint azért, hogy megmaradjon az emberek kezében a cselekvés lehetősége",
+        "who": "Sam Altman, az OpenAI vezérigazgatója",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.45,
+      "title_options": [
+        "Nem köt kompromisszumot a tökéletes biztonságért az OpenAI vezetője",
+        "A mesterséges intelligencia kockázatai beleférnek a vezérigazgató szerint",
+        "Altman szerint az AI ártani fog",
+        "Így vallott a technológiai világ egyik legbefolyásosabb vezetője a sötét jövőről",
+        "Ezt a keserű pirulát kell lenyelnie a világnak az OpenAI vezére szerint",
+        "Beismerte az OpenAI feje, hogy a kockázatok ellenére is enyhébb szabályozást akarnak"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Sam_Altman_CropEdit_James_Tamim.jpg/1280px-Sam_Altman_CropEdit_James_Tamim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1201,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "SAN FRANCISCO, CALIFORNIA - OCTOBER 03: OpenAI Co-Founder &amp; CEO Sam Altman speaks onstage during TechCrunch Disrupt San Francisco 2019 at Moscone Convention Center on October 03, 2019 in San Franc",
+          "credit": "TechCrunch / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Sam_Altman_CropEdit_James_Tamim.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Ilya_Sutskever_and_Sam_Altman_in_TAU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Ilya Sutskever and Sam Altman in TAU, 2023",
+          "credit": "Eladkarmel / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ilya_Sutskever_and_Sam_Altman_in_TAU.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Screenshot_of_OpenAI_Codex.png/1280px-Screenshot_of_OpenAI_Codex.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 625,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Screenshot of OpenAI Codex working with the Tauri application framework and using the DOM inspector to do diagnostics and tests and optimizing the app before writing a permanent patch to the source co",
+          "credit": "Wikideas1 / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Screenshot_of_OpenAI_Codex.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/OpenAI_Codex_extention_for_VScode.png/1280px-OpenAI_Codex_extention_for_VScode.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 940,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "OpenAI Codex extention for VScode",
+          "credit": "Wikideas1 / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:OpenAI_Codex_extention_for_VScode.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Artificial_Intelligence_Scale.png/1280px-Artificial_Intelligence_Scale.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 751,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Categorize algorithms based on their use in relation to human activities.",
+          "credit": "Cyrilht / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Artificial_Intelligence_Scale.png"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Artificial_intelligence_prompt_completion_by_dalle_mini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1200,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Neural net completion for \"artificial intelligence\", as done by DALL-E mini hosted on HuggingFace, 4 June 2022 (code under Apache 2.0 license). Upscaled with Real-ESRGAN \"Anime\" upscaling version (und",
+          "credit": "Prompt by JPxG, model by Boris Dayma, upscaler by Xintao Wang, Liangbin Xie et a / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Artificial_intelligence_prompt_completion_by_dalle_mini.jpg"
+        },
+        {
+          "url": "https://pixabay.com/get/g79ef155f4c4aa1bf0cb0770d5db7d1b6d25557df12f995f584b26162c2b37a4f2486f65409fe9c6dd9b8345f2daf0c20db68dc552618bbf1ad09eab5e126b829_1280.jpg",
+          "width": 5472,
+          "height": 3648,
+          "kind": "photo",
+          "alt": "coding, programming, css, software development, computer, close up, laptop, data, display, electronics, keyboard, screen, technology, app, program, software, computer engineering, coding, coding, codi",
+          "credit": "Pexels / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/coding-programming-css-1853305/"
+        },
+        {
+          "url": "https://pixabay.com/get/g41491f1462946e9d8c44bb4c79beccfbf5f5126f3296671ca54074dff686afb030484a902b0c3f4698a3d1ce16fb1996093dbbbd39082fb73e999a43d5f3e6c1_1280.jpg",
+          "width": 5700,
+          "height": 3706,
+          "kind": "photo",
+          "alt": "keyboard, computer, technology, light, colorful, design, color, artist, digital, isolated, laptop, internet, work, work from home, network, tablet, designer, modern, object, electronic, communication,",
+          "credit": "JoshuaWoroniecki / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/keyboard-computer-technology-light-5017973/"
+        }
+      ],
+      "story": [
+        {
+          "title": "Sam Altman szerint el kell fogadni az AI veszélyeit, mivel több az előny, mint a kockázat",
+          "link": "https://hvg.hu/tudomany/20261005_openai-sam-altman-mesterseges-intelligencia-veszelyek-elonyok-interju",
+          "summary": "Az OpenAI vezetője megérti, hogy sokan aggódnak a mesterséges intelligencia miatt, ám meglátása szerint az emberek több jót tesznek majd a technológia segítségével, mint rosszat.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 6.45
+        },
+        {
+          "title": "Az OpenAI igazgatója szerint az AI negatívumait el kell fogadni a technológia előnyeiért",
+          "link": "https://qubit.hu/2026/10/05/az-openai-igazgatoja-szerint-az-ai-negativumait-el-kell-fogadni-a-technologia-elonyeiert?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "summary": "Sam Altman szerint a társadalomnak meg kell tanulnia alkalmazkodni az olyan típusú AI okozta hátrányokhoz, mint az online csalások és a hackertámadások.",
+          "source": "qubit.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261005_openai-sam-altman-mesterseges-intelligencia-veszelyek-elonyok-interju"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/tech/2026-10-05-nem-kot-kompromisszumot-a-tokeletes-biztonsagert-az-openai-vezetoje/",
+      "seo": {
+        "meta_title": "Nem köt kompromisszumot a tökéletes biztonságért az OpenAI v",
+        "meta_description": "Sam Altman, az OpenAI vezérigazgatója egy interjúban kijelentette, hogy a társadalomnak el kell fogadnia az AI okozta károkat a technológia előnyeiért cserébe. ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-05-nem-kot-kompromisszumot-a-tokeletes-biztonsagert-az-openai-vezetoje/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Sam_Altman_CropEdit_James_Tamim.jpg/1280px-Sam_Altman_CropEdit_James_Tamim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "279a021f-9abc-5529-b713-2f97c3f7a891"
+      ],
+      "see_also": [
+        {
+          "title": "Fékezhetetlen intelligenciarobbanás jöhet, de az OpenAI máris elhalasztotta új modelljét",
+          "url": "/tech/2026-09-29-fekezhetetlen-intelligenciarobbanas-johet-de-az-openai-maris-elhalasz/",
+          "date": "2026-09-29"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "01d1f68f7841e7fe99214c1a459672b36cf2ff10cae9eb138f27e5e606f769d0",
+      "pipeline_run_id": "37325945711",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T16:47:06+02:00",
+      "updated_at": "2026-10-05T16:47:06+02:00",
+      "published_at": "2026-10-05T16:47:06+02:00",
+      "expires_at": null,
+      "hold": true,
+      "legal": {
+        "level": 2,
+        "issues": [
+          "🔴 „egyes biztonsági szakemberek a cég irányvonala miatt távoztak” – Ellenőrizetlen vád, forrás hiányzik → Adj meg megbízható forrást vagy tedd a kijelentést feltételezéssé",
+          "🟡 „OpenAI elmúlt időszaki botrányai is állnak a kijelentések hátterében” – Általános vád, nincs konkrét hivatkozás → Részletezd a botrányokat vagy hivatkozz konkrét cikkekre",
+          "🟡 „Florida állam főügyésze a bírósához fordult, hogy ne tiltsák meg a cégnek a modellfejlesztéseket” – Állítás forrása hiányzik → Hivatkozz a tényleges jogi eljárásra vagy módosítsd a szöveget"
+        ],
+        "auto_fixed": [
+          "Bűnügyi tartalom kiegészítése feltételes móddal („a gyanú szerint”).",
+          "Bírósági intézkedés ellátása a „nem jogerős” megjelöléssel az ártatlanság vélelme és a jogi pontosság érdekében."
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-05T14:50:40+00:00",
+        "msg_ids": [
+          2900,
+          2901,
+          2902,
+          2903,
+          2904,
+          2905,
+          2906,
+          2907,
+          2908
+        ],
+        "control_id": 2909
+      }
+    },
+    {
+      "id": "c528ad84-46b6-5104-a7fa-5917fa64a5c5",
+      "slug": "2026-10-05-negyvenezer-forint-alatt-is-jart-az-otp-a-heten",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "tőzsde",
+        "OTP",
+        "Mol",
+        "gazdaság",
+        "költségvetés"
+      ],
+      "title": "Negyvenezer forint alatt is járt az OTP a héten",
+      "subtitle": null,
+      "lead": "Miközben a Pénzügyminisztérium hamarosan közzéteszi az államháztartás szeptemberi adatait, a hazai tőzsdén a Mol és a Telekom húzza a mutatókat. A befektetők figyelme már a 2027-es költségvetés tervezetére irányul.",
+      "key_points": [
+        "A BUX index 1,2 százalékos pluszban állt hétfő délután.",
+        "Az OTP árfolyama korábban 40 000 forint alatt is járt az orosz kivonulás hírére.",
+        "A Mol 2,6 százalékos emelkedéssel vezeti a hazai blue chipek mezőnyét."
+      ],
+      "content": "Hétfő délutánra a BUX index 1,2 százalékos pluszba kapaszkodott, amit elsősorban a nagypapírok erős teljesítménye hajtott. A Mol és a Telekom 1,9 százalékos emelkedéssel teljesített a legjobban. Ezzel szemben a Richter 0,6, míg az OTP 0,4 százalékos pluszban volt a zárás előtt.\n\nAz OTP esetében kiemelten figyelik a mozgásokat a piacon, miután a múlt héten az orosz kivonulás hírére alaposan megtépázták a bankrészvényt, és az árfolyam a 40 000 forintos határ alá is süllyedt. Hétfő reggel még nagyobb elmozdulás nélkül indult a kereskedés ebben a papírban, a zárás előtti percekben pedig a hazai blue chipek mind zöld színben zártak.\n\nA makrogazdasági adatok közül a Pénzügyminisztérium szeptemberi előzetes államháztartási jelentése hozhat újdonságot, amelyet hagyományosan fokozott figyelemmel kísér a befektetői közösség. A piac azonban már leginkább a 2027-es büdzsé tervezetére, valamint a kabinet által ígért középtávú fiskális pályára fókuszál.",
+      "content_format": "markdown",
+      "body": [
+        "Hétfő délutánra a BUX index 1,2 százalékos pluszba kapaszkodott, amit elsősorban a nagypapírok erős teljesítménye hajtott. A Mol és a Telekom 1,9 százalékos emelkedéssel teljesített a legjobban. Ezzel szemben a Richter 0,6, míg az OTP 0,4 százalékos pluszban volt a zárás előtt.",
+        "Az OTP esetében kiemelten figyelik a mozgásokat a piacon, miután a múlt héten az orosz kivonulás hírére alaposan megtépázták a bankrészvényt, és az árfolyam a 40 000 forintos határ alá is süllyedt. Hétfő reggel még nagyobb elmozdulás nélkül indult a kereskedés ebben a papírban, a zárás előtti percekben pedig a hazai blue chipek mind zöld színben zártak.",
+        "A makrogazdasági adatok közül a Pénzügyminisztérium szeptemberi előzetes államháztartási jelentése hozhat újdonságot, amelyet hagyományosan fokozott figyelemmel kísér a befektetői közösség. A piac azonban már leginkább a 2027-es büdzsé tervezetére, valamint a kabinet által ígért középtávú fiskális pályára fókuszál."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 172,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Budapest Stock Exchange",
+        "credit": "Leonard Chien / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_stock_exchange.jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/uzlet/20261005/mi-tortenik-az-otp-vel-a-mult-heti-esest-kovetoen-867298",
+          "title": "Mi történik az OTP-vel a múlt heti esést követően?",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T16:50:49+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Negyvenezer forint alatt is járt az OTP a héten",
+        "Büdzsé és blue chipek: így indult a hét a tőzsdén",
+        "Negyvenezren innen, milliárdokon túl: erre figyel a tőzsde"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Budapest Stock Exchange",
+          "credit": "Leonard Chien / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_stock_exchange.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/gaaab24b66cb9f9279a6548425646cafc9f460b85414f2a3c92b25e9628549b242bc4940bed342d9c79bc7453e2038e242bc40aa82f88ab298bf45dda0688963a_1280.jpg",
+          "width": 4608,
+          "height": 3456,
+          "kind": "photo",
+          "alt": "blur, chart, computer, data, finance, graph, growth, line graph, stock exchange, stock market, technology, trading, data, finance, finance, graph, stock market, stock market, stock market, stock marke",
+          "credit": "Pexels / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/gfb9078bd81724c6a9cbca8099bec72041c91c890ebfe84a070cbaab949682b2885ff8ac12e83994011001f9123d2f7e28b894f72f47a46effefa29a6d58951d2_1280.jpg",
+          "width": 5812,
+          "height": 3875,
+          "kind": "photo",
+          "alt": "stock, trading, monitor, business, finance, exchange, investment, market, trade, data, graph, economy, financial, currency, chart, information, technology, profit, forex, rate, foreign exchange, analy",
+          "credit": "3844328 / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/stock-trading-monitor-business-1863880/",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest's Stock Exchange Palace in Szabadság tér.",
+          "credit": "Illustratedjc / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace.jpg",
+          "vision_score": 7.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Mi történik az OTP-vel a múlt heti esést követően?",
+          "link": "https://www.portfolio.hu/uzlet/20261005/mi-tortenik-az-otp-vel-a-mult-heti-esest-kovetoen-867298",
+          "summary": "Ma reggel Ázsiában felemás hangulatú kereskedést láthatunk, különösen a japán tőzsde teljesít jól. Európában ezt követően többnyire emelkedést láthatunk. Idehaza különösen az OTP-re lesz érdemes figyelni, ugyanis múlt héten az orosz kivonulás hírére alaposan beleadtak a bankrészvénybe, 40 000 forint alatt is járt az árfolyam. Hétfő reggel egyelőre nem látni nagyobb elmozdulást a részvényben. Ami a gazdasági eseményeket illeti, a Pénzügyminisztérium ma közli az államháztartás szeptemberi előzetes adatait, melyeket mindig kiemelten figyelnek a befektetők. A piac most már elsősorban a 2027-es büd",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/uzlet/20261005/mi-tortenik-az-otp-vel-a-mult-heti-esest-kovetoen-867298"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/penzvilag/2026-10-05-negyvenezer-forint-alatt-is-jart-az-otp-a-heten/",
+      "seo": {
+        "meta_title": "Negyvenezer forint alatt is járt az OTP a héten",
+        "meta_description": "Miközben a Pénzügyminisztérium hamarosan közzéteszi az államháztartás szeptemberi adatait, a hazai tőzsdén a Mol és a Telekom húzza a mutatókat. A befektetők fi",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-05-negyvenezer-forint-alatt-is-jart-az-otp-a-heten/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "d5f3d9911a84447bdbcacba2c4c43095aa50276166d0836e250fca304d780996",
+      "pipeline_run_id": "37325945711",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T16:50:49+02:00",
+      "updated_at": "2026-10-05T16:50:49+02:00",
+      "published_at": "2026-10-05T16:50:49+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-05T14:51:58+00:00",
+        "msg_ids": [
+          2910,
+          2911,
+          2912,
+          2913,
+          2914
+        ],
+        "control_id": 2915
+      }
+    },
+    {
+      "id": "2994f80f-d487-5b0c-863f-cbe56bdddf16",
+      "slug": "2026-10-05-ismet-a-bosszuallok-lett-a-legtobb-bevetelt-hozo-film",
+      "status": "pending",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Marvel",
+        "Avatar",
+        "box office",
+        "mozisiker",
+        "Bosszúállók"
+      ],
+      "title": "Ismét a Bosszúállók lett a legtöbb bevételt hozó film",
+      "subtitle": null,
+      "lead": "Hét évvel a bemutatója után ismét a Bosszúállók: Végjáték lett minden idők legtöbb bevételt hozó mozifilme. A Ráadás elnevezéssel visszatérő Marvel-alkotás mindössze néhány millió dollárral előzte meg a 2009-es Avatart.",
+      "key_points": [
+        "A Bosszúállók: Végjáték teljes világpiaci bevétele 2,9255 milliárd dollárra emelkedett.",
+        "A Disney az Endgame: Encore újrabemutatásával küldte vissza a filmet a mozikba 2026 őszén.",
+        "A korábbi csúcstartó Avatar ezáltal a második helyre szorult a maga 2,9237 milliárd dollárjával.",
+        "A filmiparban a box office nem profitot vagy nézőszámot jelent, hanem a bruttó jegyeladási összeget."
+      ],
+      "content": "A modern filmtörténet egyik legszorosabb rekordharcában a Bosszúállók: Végjáték ismét megszerezte a világ legnagyobb mozis bevételét elérő film címét. A 2026 őszén startoló Endgame: Encore, azaz Ráadás nevű újrabemutatás mintegy 126 millió dollárral növelte a Marvel-film összbevételét, amely így elérte a 2,9255 milliárd dollárt.\n\nEzzel a húzással a produkció hajszállal utasította maga mögé James Cameron 2009-es sci-fijét, az Avatart, amely 2,9237 milliárd dollárig jutott a későbbi újrabemutatásokkal együtt. A két alkotás között mindössze néhány millió dollár a különbség.\n\nA trónért folyó küzdelem évtizedek óta tart a stúdiók között. Az 1997–98-as Titanic 1,84 milliárd dolláros csúcsát maga az Avatar döntötte meg 2010 januárjában, majd 2019-ben érkezett a Bosszúállók: Végjáték, amely akkor példátlan érdeklődést váltott ki. Bár 2021 márciusában a kínai újrabemutatásnak köszönhetően az Avatar visszavette az elsőséget, a 2026. október eleji adatok ismét átrendezték az élmezőnyt.\n\nA box office adatok nem a filmek művészi értékét vagy a nézők pontos számát mutatják, ráadásul az inflációt sem követik. A jegybevétel mégis a filmipar legfontosabb nyilvános kereskedelmi mércéje, amely hűen mutatja, mely alkotásokért voltak hajlandóak a nézők akár több évvel a premier után is újra pénzt adni a mozipénztáraknál.",
+      "content_format": "markdown",
+      "body": [
+        "A modern filmtörténet egyik legszorosabb rekordharcában a Bosszúállók: Végjáték ismét megszerezte a világ legnagyobb mozis bevételét elérő film címét. A 2026 őszén startoló Endgame: Encore, azaz Ráadás nevű újrabemutatás mintegy 126 millió dollárral növelte a Marvel-film összbevételét, amely így elérte a 2,9255 milliárd dollárt.",
+        "Ezzel a húzással a produkció hajszállal utasította maga mögé James Cameron 2009-es sci-fijét, az Avatart, amely 2,9237 milliárd dollárig jutott a későbbi újrabemutatásokkal együtt. A két alkotás között mindössze néhány millió dollár a különbség.",
+        "A trónért folyó küzdelem évtizedek óta tart a stúdiók között. Az 1997–98-as Titanic 1,84 milliárd dolláros csúcsát maga az Avatar döntötte meg 2010 januárjában, majd 2019-ben érkezett a Bosszúállók: Végjáték, amely akkor példátlan érdeklődést váltott ki. Bár 2021 márciusában a kínai újrabemutatásnak köszönhetően az Avatar visszavette az elsőséget, a 2026. október eleji adatok ismét átrendezték az élmezőnyt.",
+        "A box office adatok nem a filmek művészi értékét vagy a nézők pontos számát mutatják, ráadásul az inflációt sem követik. A jegybevétel mégis a filmipar legfontosabb nyilvános kereskedelmi mércéje, amely hűen mutatja, mely alkotásokért voltak hajlandóak a nézők akár több évvel a premier után is újra pénzt adni a mozipénztáraknál."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 226,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/North_American_Domestic_Box_Office.png/1280px-North_American_Domestic_Box_Office.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 714,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "A chart depicting the cumulative domestic box office gross of Avatar (2009), Avengers: Endgame (2019), Avengers: Infinity War (2018), Black Panther (2018), and Star Wars: The Force Awakens (2015) over",
+        "credit": "Philip Terry Graham / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:North_American_Domestic_Box_Office.png",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/filmklikk/bosszuallok-vegjatek-raadas-marvel-box-office-jegyeladas-vilagelso-avatar/mhyebsl",
+          "title": "Nem hiszi el, melyik film lett a világelső a legtöbb bevételt hozó mozifilmek listáján – Még az Avatart is megelőzte",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T16:52:07+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Ismét a Bosszúállók lett a legtöbb bevételt hozó film",
+        "Hétéves csata után újra átírta a Marvel a mozitörténelmet",
+        "Újabb milliárdok döntötték meg a filmtörténeti csúcsot"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/North_American_Domestic_Box_Office.png/1280px-North_American_Domestic_Box_Office.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 714,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A chart depicting the cumulative domestic box office gross of Avatar (2009), Avengers: Endgame (2019), Avengers: Infinity War (2018), Black Panther (2018), and Star Wars: The Force Awakens (2015) over",
+          "credit": "Philip Terry Graham / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:North_American_Domestic_Box_Office.png",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Nem hiszi el, melyik film lett a világelső a legtöbb bevételt hozó mozifilmek listáján – Még az Avatart is megelőzte",
+          "link": "https://www.blikk.hu/sztarvilag/filmklikk/bosszuallok-vegjatek-raadas-marvel-box-office-jegyeladas-vilagelso-avatar/mhyebsl",
+          "summary": "Hét évvel az eredeti bemutatója után az Avengers: Endgame, azaz a Bosszúállók: Végjáték, ismét megszerezte a világ legnagyobb mozis bevételét elérő film címét. A Marvel-film 2026 őszén egy új mozis bemutatóval, az Endgame: Encore-ral, azaz Ráadással került újra az élre. A teljes világpiaci bevétele mintegy 2,9255 milliárd dollárra nőtt, amivel hajszállal megelőzte a 2009-es Avatart. A különbség mindössze néhány millió dollár – vagyis a modern filmtörténet egyik legszorosabb rekordharcát látjuk.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/filmklikk/bosszuallok-vegjatek-raadas-marvel-box-office-jegyeladas-vilagelso-avatar/mhyebsl"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/kultura/2026-10-05-ismet-a-bosszuallok-lett-a-legtobb-bevetelt-hozo-film/",
+      "seo": {
+        "meta_title": "Ismét a Bosszúállók lett a legtöbb bevételt hozó film",
+        "meta_description": "Hét évvel a bemutatója után ismét a Bosszúállók: Végjáték lett minden idők legtöbb bevételt hozó mozifilme. A Ráadás elnevezéssel visszatérő Marvel-alkotás mind",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-05-ismet-a-bosszuallok-lett-a-legtobb-bevetelt-hozo-film/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/North_American_Domestic_Box_Office.png/1280px-North_American_Domestic_Box_Office.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "e56bff30-a9f8-5892-98d4-3f1bccf2ee89"
+      ],
+      "see_also": [
+        {
+          "title": "Zöld fénnyel jelöli a Disney a decemberi Marvel-roham előtti kötelező köröket",
+          "url": "/kultura/2026-10-03-zold-fennyel-jeloli-a-disney-a-decemberi-marvel-roham-elotti-kotelezo/",
+          "date": "2026-10-03"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "3880a6b9d9f92080064bc783e999ed6bff3cd6ce5cf7c761fed2743510ec65be",
+      "pipeline_run_id": "37325945711",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T16:52:07+02:00",
+      "updated_at": "2026-10-05T16:52:07+02:00",
+      "published_at": "2026-10-05T16:52:07+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-05T14:53:21+00:00",
+        "msg_ids": [
+          2916,
+          2917
+        ],
+        "control_id": 2918
+      }
+    },
+    {
+      "id": "c2005118-c3e6-5dd8-bdd8-7218af4bbb06",
+      "slug": "2026-10-05-orszagos-kaosz-tunteto-diakok-benitottak-meg-a-francia-kozepiskolakat",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Franciaország",
+        "diáktüntetés",
+        "oktatás",
+        "tüntetés",
+        "középiskola"
+      ],
+      "title": "Országos káosz: tüntető diákok bénították meg a francia középiskolákat",
+      "subtitle": null,
+      "lead": "A francia középiskolák mintegy tizenöt százalékában felfüggesztették a tanítást a tanár- és eszközhiány miatt kitört erőszakos utcai megmozdulások nyomán. A kormányzati tájékoztatás szerint a tiltakozásokba szélsőbaloldali csoportok is beszivárogtak.",
+      "key_points": [
+        "Hétfőn a francia középiskolák 15 százalékában felfüggesztették a tanítást a biztonsági feltételek hiánya miatt.",
+        "A diákok az intézményekben fennálló eszköz- és tanárhiány ellen tiltakoznak országszerte.",
+        "A hatóságok adatai szerint korábban 24 intézményt rongáltak meg vagy gyújtottak fel a zavargások során."
+      ],
+      "content": "Részlegesen vagy teljesen felfüggesztették a tanítást a francia középiskolák mintegy tizenöt százalékában, mivel a jelenlegi helyzetben nem biztosíthatók a zavartalan oktatás feltételei – közölte vasárnap Édouard Geffray oktatási miniszter. A mindennapossá vált demonstrációk hátterében az intézményekben fennálló súlyos erőforrás- és tanárhiány áll, amely ellen a tanulók az utcákon és a tereken tiltakoznak.\n\nA megmozdulások az elmúlt napokban egyre erőszakosabb fordulatot vettek. A lángoló kukák és a rendőrökkel összecsapó fiatalok képei mellett a kormányzat arról is beszámolt, hogy az országban korábban huszonnégy oktatási intézményt rongáltak meg vagy gyújtottak fel.\n\nÉdouard Geffray oktatási miniszter nyilatkozata szerint a tiltakozási hullám elvesztette békés jellegét, mivel egyes helyeken szélsőbaloldali aktivisták szivárogtak be a mozgalomba, rátelepedve a diákok elégedetlenségére, és rendkívüli erőszakot tanúsítottak.\n\nA feszültség pénteken tetőzött, amikor a francia középiskolák több mint negyedét érintették a különböző akciók. Az iskolák körüli utcákon zajló összecsapások és a kieső tanítási napok nemcsak a helyi oktatási rendszert terhelik meg, hanem országos politikai vitát is generálnak a közoktatás finanszírozási hiányosságairól.",
+      "content_format": "markdown",
+      "body": [
+        "Részlegesen vagy teljesen felfüggesztették a tanítást a francia középiskolák mintegy tizenöt százalékában, mivel a jelenlegi helyzetben nem biztosíthatók a zavartalan oktatás feltételei – közölte vasárnap Édouard Geffray oktatási miniszter. A mindennapossá vált demonstrációk hátterében az intézményekben fennálló súlyos erőforrás- és tanárhiány áll, amely ellen a tanulók az utcákon és a tereken tiltakoznak.",
+        "A megmozdulások az elmúlt napokban egyre erőszakosabb fordulatot vettek. A lángoló kukák és a rendőrökkel összecsapó fiatalok képei mellett a kormányzat arról is beszámolt, hogy az országban korábban huszonnégy oktatási intézményt rongáltak meg vagy gyújtottak fel.",
+        "Édouard Geffray oktatási miniszter nyilatkozata szerint a tiltakozási hullám elvesztette békés jellegét, mivel egyes helyeken szélsőbaloldali aktivisták szivárogtak be a mozgalomba, rátelepedve a diákok elégedetlenségére, és rendkívüli erőszakot tanúsítottak.",
+        "A feszültség pénteken tetőzött, amikor a francia középiskolák több mint negyedét érintették a különböző akciók. Az iskolák körüli utcákon zajló összecsapások és a kieső tanítási napok nemcsak a helyi oktatási rendszert terhelik meg, hanem országos politikai vitát is generálnak a közoktatás finanszírozási hiányosságairól."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 188,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/RF_emblem_with_French_flags%2C_Palais_des_Ducs%2C_Dijon%2C_2026.jpg/1280px-RF_emblem_with_French_flags%2C_Palais_des_Ducs%2C_Dijon%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 901,
+        "kind": "graphic",
+        "pos": "center",
+        "alt": "RF emblem with French flags, Palais des Ducs, Dijon, 2026",
+        "credit": "DimiTalen / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:RF_emblem_with_French_flags,_Palais_des_Ducs,_Dijon,_2026.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/vilag/20261005_diaktuntetesek-franciaorszagban-galeria",
+          "title": "Rendőrökkel összecsapó fiatalok, felgyújtott kukák – képeken a fékevesztett francia diáktüntetések",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T16:53:38+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.72,
+      "title_options": [
+        "Országos káosz: tüntető diákok bénították meg a francia középiskolákat",
+        "Kukák égnek, és az iskolák 15 százaléka zárva maradt Franciaországban",
+        "Huszonnégy intézményt rongáltak meg a franciaországi diáktüntetések",
+        "Brutális diáktüntetés rázza meg Franciaországot: bénulás az oktatásban",
+        "Lángoló kukák és összecsapások: miért zárt be a francia iskolák tizenöt százaléka?",
+        "Szélsőbaloldali aktivisták lepték el a francia középiskolás tüntetéseket"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/RF_emblem_with_French_flags%2C_Palais_des_Ducs%2C_Dijon%2C_2026.jpg/1280px-RF_emblem_with_French_flags%2C_Palais_des_Ducs%2C_Dijon%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 901,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "RF emblem with French flags, Palais des Ducs, Dijon, 2026",
+          "credit": "DimiTalen / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:RF_emblem_with_French_flags,_Palais_des_Ducs,_Dijon,_2026.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/EU_and_French_Flag_Together.jpg/1280px-EU_and_French_Flag_Together.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1800,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "The European Union flag and the French flag next to each other on flag poles in Paris, photo taken By Brayden A. uploaded to user Peaceful Commons",
+          "credit": "Brayden A. / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:EU_and_French_Flag_Together.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Paris_City_School_and_Paris_Junior_High_School%2C_the_main_building%2C_Paris%2C_KY.png/1280px-Paris_City_School_and_Paris_Junior_High_School%2C_the_main_building%2C_Paris%2C_KY.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 697,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Paris City School and Paris Junior High School (c. 1923), the main building, Paris, Kentucky",
+          "credit": "unknown, Hopewell Museum / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_City_School_and_Paris_Junior_High_School,_the_main_building,_Paris,_KY.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/American_School_of_Paris_-_the_lobby.jpg/1280px-American_School_of_Paris_-_the_lobby.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "the ASP lobby",
+          "credit": "MALO Conseil / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:American_School_of_Paris_-_the_lobby.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Sword_french_commissaire_de_police_-detail-.jpg/1280px-Sword_french_commissaire_de_police_-detail-.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1803,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Ceremonial sword of french Commissaire de Police (Superintendent).- Detail-",
+          "credit": "Jebulon / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Sword_french_commissaire_de_police_-detail-.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Citroen_C8_French_Police.jpg/1280px-Citroen_C8_French_Police.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 828,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Citroen C8 French Police at Chalon sur Saone",
+          "credit": "crash71100 / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Citroen_C8_French_Police.jpg"
+        },
+        {
+          "url": "https://pixabay.com/get/g27f50b5ebf2cca86a7952aba72d34c3670bcd3b49c32ab9044db857a21e812e42455e3940a9139345654c87d3a75ef3d3384b3f0cf26e765c79e35b3c457f9c0_1280.jpg",
+          "width": 4512,
+          "height": 3000,
+          "kind": "photo",
+          "alt": "policewoman, police, police car, figure, fun, handcuffs, uniform, cap, police, police, police, police, police",
+          "credit": "Alexas_Fotos / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/policewoman-police-police-car-986047/"
+        },
+        {
+          "url": "https://pixabay.com/get/gf4c17ebdcf48fbe5ec67793178f4bf9e6525346b7dbef36da86dcc2ace24fc5bd33ba08de1611d318c0a3560fa2f78f3877c984a428bec47c37b83c8e9b4dfad_1280.jpg",
+          "width": 4512,
+          "height": 3000,
+          "kind": "photo",
+          "alt": "cop, policewoman, colleagues, fun, figure, police, funny, law enforcement officers, handcuffs, baton, uniform, cap, police car, police, police, police, police, police",
+          "credit": "Alexas_Fotos / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/cop-policewoman-colleagues-fun-1016218/"
+        }
+      ],
+      "story": [
+        {
+          "title": "Rendőrökkel összecsapó fiatalok, felgyújtott kukák – képeken a fékevesztett francia diáktüntetések",
+          "link": "https://hvg.hu/vilag/20261005_diaktuntetesek-franciaorszagban-galeria",
+          "summary": "Hétfőn a francia középiskolák 15 százaléka zárva tart, mert nem tudják biztosítani a tanításhoz szükséges feltéteket. Az oktatási miniszter szerint korábban 24 intézményt „felgyújtottak vagy megrongáltak”. Fékevesztetté váltak az erőforrás- és tanárhiány miatti diáktüntetések. Képgaléria.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.72
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/vilag/20261005_diaktuntetesek-franciaorszagban-galeria"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/vilag/2026-10-05-orszagos-kaosz-tunteto-diakok-benitottak-meg-a-francia-kozepiskolakat/",
+      "seo": {
+        "meta_title": "Országos káosz: tüntető diákok bénították meg a francia közé",
+        "meta_description": "A francia középiskolák mintegy tizenöt százalékában felfüggesztették a tanítást a tanár- és eszközhiány miatt kitört erőszakos utcai megmozdulások nyomán. A kor",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-05-orszagos-kaosz-tunteto-diakok-benitottak-meg-a-francia-kozepiskolakat/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/RF_emblem_with_French_flags%2C_Palais_des_Ducs%2C_Dijon%2C_2026.jpg/1280px-RF_emblem_with_French_flags%2C_Palais_des_Ducs%2C_Dijon%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "5a87406cba1b3f64a4eef562a61a4ab2a8f43a825c61b700549cab5d99292708",
+      "pipeline_run_id": "37325945711",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T16:53:38+02:00",
+      "updated_at": "2026-10-05T16:53:38+02:00",
+      "published_at": "2026-10-05T16:53:38+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-05T14:54:47+00:00",
+        "msg_ids": [
+          2919,
+          2920,
+          2921,
+          2922,
+          2923,
+          2924,
+          2925,
+          2926,
+          2927
+        ],
+        "control_id": 2928
+      }
     }
   ]
 }
