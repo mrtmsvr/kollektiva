@@ -11230,7 +11230,7 @@
     {
       "id": "adf618fe-f3bf-538d-9075-0117eb80654a",
       "slug": "2026-10-05-kepmutatassal-vadolja-az-irodalmi-szakszervezet-az-mma-t",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -11472,9 +11472,9 @@
       "dedupe_hash": "5b5b9d35f725bfc76a0a5c117943224fe2268cb5287015f94229184ff29398fe",
       "pipeline_run_id": "37355825684",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T20:34:47+02:00",
-      "updated_at": "2026-10-05T20:34:47+02:00",
-      "published_at": "2026-10-05T20:34:47+02:00",
+      "created_at": "2026-10-05T21:08:28+02:00",
+      "updated_at": "2026-10-05T21:08:28+02:00",
+      "published_at": "2026-10-05T21:08:28+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -11496,7 +11496,8 @@
           3027
         ],
         "control_id": 3028
-      }
+      },
+      "live": true
     },
     {
       "id": "b4f5ac36-8461-5d8c-a454-6a12625245d2",
