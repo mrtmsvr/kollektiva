@@ -9227,6 +9227,771 @@
         "control_id": 2768
       },
       "live": true
+    },
+    {
+      "id": "7e710ef0-f094-5044-954d-4c4bdffbc197",
+      "slug": "2026-10-05-370-nel-remeg-a-forint-de-a-tozsde-maris-rakapcsolt",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "forint",
+        "dollár",
+        "infláció",
+        "költségvetés",
+        "tőzsde"
+      ],
+      "title": "370-nél remeg a forint, de a tőzsde máris rákapcsolt",
+      "subtitle": null,
+      "lead": "Újra a 370-es eurószintet kóstolgatja a magyar deviza, miközben a tőzsdén már a negyedéves gyorsjelentési szezont várják a befektetők. A dollár egyéves csúcson jár, ami komoly ellenszelet fúj a hazai pénztárcák felé.",
+      "key_points": [
+        "A dollár egyéves csúcson, az euró 370 közelében mozog.",
+        "Szeptemberben 92,8 milliárd forintos hiánnyal zárt az államháztartás központi alrendszere.",
+        "A pesti tőzsde pozitívan indította a hetet, a BUX index emelkedéssel rajtolt.",
+        "A hét közepén érkezik a szeptemberi inflációs adat és a Fed-jegyzőkönyv."
+      ],
+      "content": "Újra nehéz napokat él át a magyar fizetőeszköz a nemzetközi devizapiacon, miután a dollár az egyéves csúcsa közelében ragadt, az euró jegyzése pedig pénteken ismét a 370-es szintet súrolta. Hétfő reggel az euró 368,3 forintnál, a dollár pedig 329 forint körül mozog, miután a Portfolio.hu beszámolója szerint a fejlett hosszú hozamok is több éve nem látott rekordokat döntenek. A forint számára különösen rosszul jött ez az össztűz, hiszen a harmadik negyedévben hirtelen a leggyengébb teljesítményt nyújtó devizák közé sodródott az év eleji lendület után.\n\nA gyengülő árfolyamok mellett a hazai költségvetés helyzetéről is friss adatok láttak napvilágot. Ezzel párhuzamosan a finisébe érkezett a 2027-es költségvetés tervezése, ami a hétvégi kihelyezett kormányülésen is központi témát jelentett.\n\nA nemzetközi részvénypiacokon ugyanakkor sokkal jobb volt a hangulat a hét első napján. A múlt pénteken ismertetett, a vártnál gyengébb amerikai munkaerőpiaci adatok azonnal csökkentették annak valószínűségét, hogy az amerikai jegybank kamatot emelne, ez pedig megnyugtatta a befektetőket. Az ázsiai börzék is határozott pluszban zártak, a japán Nikkei például 2,4 százalékkal erősödött, miközben a pesti tőzsde is felfelé indult, a BUX index pedig 0,4 százalékos emelkedéssel 140 596 ponton rajtolt.\n\nA következő napokban a gazdasági naptár legfontosabb eseményei gyökeresen átírhatják a piaci várakozásokat. Kedden Kurali Zoltán, az MNB alelnöke tart előadást az euróbevezetésről, szerdán pedig érkezik a friss, szeptemberi inflációs adat, valamint a Fed várt jegyzőkönyve. Nemzetközi fronton eközben elindul a harmadik negyedéves vállalati gyorsjelentési szezon is az Egyesült Államokban, ami szintén új irányt szabhat a globális tőzsdéknek.",
+      "content_format": "markdown",
+      "body": [
+        "Újra nehéz napokat él át a magyar fizetőeszköz a nemzetközi devizapiacon, miután a dollár az egyéves csúcsa közelében ragadt, az euró jegyzése pedig pénteken ismét a 370-es szintet súrolta. Hétfő reggel az euró 368,3 forintnál, a dollár pedig 329 forint körül mozog, miután a Portfolio.hu beszámolója szerint a fejlett hosszú hozamok is több éve nem látott rekordokat döntenek. A forint számára különösen rosszul jött ez az össztűz, hiszen a harmadik negyedévben hirtelen a leggyengébb teljesítményt nyújtó devizák közé sodródott az év eleji lendület után.",
+        "A gyengülő árfolyamok mellett a hazai költségvetés helyzetéről is friss adatok láttak napvilágot. Ezzel párhuzamosan a finisébe érkezett a 2027-es költségvetés tervezése, ami a hétvégi kihelyezett kormányülésen is központi témát jelentett.",
+        "A nemzetközi részvénypiacokon ugyanakkor sokkal jobb volt a hangulat a hét első napján. A múlt pénteken ismertetett, a vártnál gyengébb amerikai munkaerőpiaci adatok azonnal csökkentették annak valószínűségét, hogy az amerikai jegybank kamatot emelne, ez pedig megnyugtatta a befektetőket. Az ázsiai börzék is határozott pluszban zártak, a japán Nikkei például 2,4 százalékkal erősödött, miközben a pesti tőzsde is felfelé indult, a BUX index pedig 0,4 százalékos emelkedéssel 140 596 ponton rajtolt.",
+        "A következő napokban a gazdasági naptár legfontosabb eseményei gyökeresen átírhatják a piaci várakozásokat. Kedden Kurali Zoltán, az MNB alelnöke tart előadást az euróbevezetésről, szerdán pedig érkezik a friss, szeptemberi inflációs adat, valamint a Fed várt jegyzőkönyve. Nemzetközi fronton eközben elindul a harmadik negyedéves vállalati gyorsjelentési szezon is az Egyesült Államokban, ami szintén új irányt szabhat a globális tőzsdéknek."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 282,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://pixabay.com/get/g5e6c9d0b993beddabe567bc6f39836da049d2ee12267c2fd244eeb74274682a5f0dcff97fa361969a4076cf94624cf3decf5cd27dab5d37d6f78819cb88d5020_1280.jpg",
+        "width": 4608,
+        "height": 3456,
+        "kind": "photo",
+        "alt": "blur, chart, computer, data, finance, graph, growth, line graph, stock exchange, stock market, technology, trading, data, finance, finance, graph, stock market, stock market, stock market, stock marke",
+        "credit": "Pexels / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
+        "vision_score": 9.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/deviza/20261005/egyeves-csucsan-a-dollar-a-forint-a-hazai-adatokra-var-867310",
+          "title": "Egyéves csúcsán a dollár, a forint a hazai adatokra vár",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T14:54:33+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/penz-es-tokepiac/2026/10/toszdenyitas-otp-mol-bux-olaj-forint-dollar-euro?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Jól indul a nap a tőzsdén: ugrik a Mol árfolyama, csak az OTP ragadt be a rajtnál – bivalyerős dollár tartja nyomás alatt a forintot",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T14:54:33+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 7.0,
+      "title_options": [
+        "370-nél remeg a forint, de a tőzsde máris rákapcsolt",
+        "Itt a dollárárfolyam, ami most minden magyar pénztárcát nyom",
+        "Ötmilliárd felett a hiány: nehéz negyedév zárult a költségvetésben",
+        "Megint kilőtt a dollár: ekkora pofont kapott a magyar fizetőeszköz",
+        "Itt van a feketeleves: ezek a számok döntik romba a kedves terveket",
+        "Mi történik a pénzünkkel? Ilyen árfolyamot rég láttunk a piacon"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://pixabay.com/get/g5e6c9d0b993beddabe567bc6f39836da049d2ee12267c2fd244eeb74274682a5f0dcff97fa361969a4076cf94624cf3decf5cd27dab5d37d6f78819cb88d5020_1280.jpg",
+          "width": 4608,
+          "height": 3456,
+          "kind": "photo",
+          "alt": "blur, chart, computer, data, finance, graph, growth, line graph, stock exchange, stock market, technology, trading, data, finance, finance, graph, stock market, stock market, stock market, stock marke",
+          "credit": "Pexels / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://pixabay.com/get/g9b44f9626ed3e1b4b74311d13ff224d2a2b2b29564b374766bcee3aa3e8b803d581416350167f51db26b390f0eebead1ba9fed28482803298ec938bd0f933ee2_1280.jpg",
+          "width": 5812,
+          "height": 3875,
+          "kind": "photo",
+          "alt": "stock, trading, monitor, business, finance, exchange, investment, market, trade, data, graph, economy, financial, currency, chart, information, technology, profit, forex, rate, foreign exchange, analy",
+          "credit": "3844328 / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/stock-trading-monitor-business-1863880/",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Budapest Stock Exchange",
+          "credit": "Leonard Chien / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_stock_exchange.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest's Stock Exchange Palace in Szabadság tér.",
+          "credit": "Illustratedjc / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009%2C_Budapest.jpg/1280px-Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Hungarian National Bank, Budapest",
+          "credit": "Egrian / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009,_Budapest.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/A_Magyar_Nemzeti_Bank_%C3%A9p%C3%BClete_Budapest9.jpg/1280px-A_Magyar_Nemzeti_Bank_%C3%A9p%C3%BClete_Budapest9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 676,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A Magyar Nemzeti Bank épülete, Budapest, Szabadság tér",
+          "credit": "12akd / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:A_Magyar_Nemzeti_Bank_%C3%A9p%C3%BClete_Budapest9.jpg",
+          "vision_score": 6.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Egyéves csúcsán a dollár, a forint a hazai adatokra vár",
+          "link": "https://www.portfolio.hu/deviza/20261005/egyeves-csucsan-a-dollar-a-forint-a-hazai-adatokra-var-867310",
+          "summary": "Pénteken ismét a 370-es lélektani szintet közelítette az euró jegyzése, a forintot ugyanis továbbra is nyomás alatt tartja az egyéves csúcs közelében járó dollár és a több éves rekordokat döntögető fejlett hosszú hozamok együttállása. Hétfő reggel 368,3-nál jár az euró és 329-nél a dollár. A héten szokatlan módon a hazai naptár a súlyosabb: kedden Kurali Zoltán MNB-alelnök beszél az euróbevezetésről, szerdán érkezik a szeptemberi infláció, Kármán András pénzügyminiszter pedig a Budapest Economic Forumon tartja a nyitóelőadást. A nemzetközi színtéren főként a szerda esti Fed-jegyzőkönyvből prób",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 7.0
+        },
+        {
+          "title": "Jól indul a nap a tőzsdén: ugrik a Mol árfolyama, csak az OTP ragadt be a rajtnál – bivalyerős dollár tartja nyomás alatt a forintot",
+          "link": "https://www.vg.hu/penz-es-tokepiac/2026/10/toszdenyitas-otp-mol-bux-olaj-forint-dollar-euro?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "summary": "A forint gyengülése folytatódik a hét elején is, különösen a szárnyaló dollár ellenében.",
+          "source": "vg.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/deviza/20261005/egyeves-csucsan-a-dollar-a-forint-a-hazai-adatokra-var-867310"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/penzvilag/2026-10-05-370-nel-remeg-a-forint-de-a-tozsde-maris-rakapcsolt/",
+      "seo": {
+        "meta_title": "370-nél remeg a forint, de a tőzsde máris rákapcsolt",
+        "meta_description": "Újra a 370-es eurószintet kóstolgatja a magyar deviza, miközben a tőzsdén már a negyedéves gyorsjelentési szezont várják a befektetők. A dollár egyéves csúcson ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-05-370-nel-remeg-a-forint-de-a-tozsde-maris-rakapcsolt/",
+        "og_image": "https://pixabay.com/get/g5e6c9d0b993beddabe567bc6f39836da049d2ee12267c2fd244eeb74274682a5f0dcff97fa361969a4076cf94624cf3decf5cd27dab5d37d6f78819cb88d5020_1280.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "f07d1dbe937fdeee14a06ffe3a8caeacac71e48a6a0dfd2395fb3f1130d52eab",
+      "pipeline_run_id": "37311794645",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T14:54:33+02:00",
+      "updated_at": "2026-10-05T14:54:33+02:00",
+      "published_at": "2026-10-05T14:54:33+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 2,
+        "image": 1,
+        "sent_at": "2026-10-05T12:55:40+00:00",
+        "msg_ids": [
+          2772,
+          2773,
+          2774,
+          2775,
+          2776,
+          2777,
+          2778
+        ],
+        "control_id": 2779
+      }
+    },
+    {
+      "id": "c19bd379-3d2c-5d3e-b8ed-5bb30c54f89f",
+      "slug": "2026-10-05-az-ugyeszseg-javasolta-fasy-adam-felesegenek-szabadlabra-helyezeset",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Fásy Ádám",
+        "NAV",
+        "Kecskeméti Járásbíróság",
+        "bűnügyi felügyelet",
+        "költségvetési csalás"
+      ],
+      "title": "Az ügyészség javasolta Fásy Ádám feleségének szabadlábra helyezését",
+      "subtitle": null,
+      "lead": "Már nem tartják szükségesnek az előzetes letartóztatást, így az ügyészség maga indítványozta Fásy Ádám feleségének enyhébb kényszerintézkedését. A költségvetési csalással és hamis magánokirat felhasználásával gyanúsított asszony bűnügyi felügyelet alatt védekezhet a jövőben.",
+      "key_points": [
+        "Az ügyészség enyhébb kényszerintézkedést, bűnügyi felügyeletet javasolt Fásyné számára.",
+        "A gyanú szerint fiktív számlákkal próbálták fedezni a le nem gyártott dokumentumfilm hiányzó összegét.",
+        "Az ügyben a Nemzeti Kulturális Alaptól lehívott 82,55 millió forintos támogatás elszámolása okozott vitát.",
+        "Az indítványról a Kecskeméti Járásbíróság nyomozási bírája dönt az ügyiratok alapján."
+      ],
+      "content": "Szeptember 9-én bilincsben vitték a NAV nyomozói a kecskeméti bíróságra Fásyné Máriát, akit költségvetési csalás és hamis magánokirat felhasználása ügyében hallgattak ki és vettek őrizetbe. Az eljárásban most váratlan fordulat történt, mivel a Bács-Kiskun Vármegyei Főügyészség már nem tartja indokoltnak a legszigorúbb kényszerintézkedés fenntartását.\n\nDr. Az ügyészség indítványáról a Kecskeméti Járásbíróság nyomozási bírája határoz az iratok áttekintése után.\n\nA gyanú alapját egy Békés megyei festőművészről szóló, négyrészesre tervezett dokumentumfilm – a Kéz, szív, lélek – magyar kortárs művészek nyomában – támogatása képezi. A sorozat első két epizódjára a Fásy Ádám családjához köthető cégek a Nemzeti Kulturális Alaptól (NKA) 82,55 millió forintot kaptak,\n\nA hatósági álláspont szerint az áprilisi elszámolási határidőre a film még nem készült el, a hiányzó összeget pedig egy másik cég által kiállított fiktív számlákkal próbálták leplezni. A Telex értesülései szerint a NAV korábban őrizetbe vette annak a cégnek a tulajdonosát és ügyvezetőjét is, amely több mint 56 millió forintért bízta meg a Fásy család vállalkozásait a munkával.\n\nA bűnügyi felügyelet, amely a korábbi házi őrizetnek vagy lakhelyelhagyási tilalomnak felel meg, azt jelenti, hogy a gyanúsított bizonyos magatartási szabályok betartásával, például rendszeres hatósági jelentkezéssel szabadlábon védekezhet.\n\nDr. Mile Attila ügyvéd az ATV-nek kifejtette, hogy a végleges feltételeket a bíróság határozza meg, amennyiben helyt ad az ügyészség javaslatának.",
+      "content_format": "markdown",
+      "body": [
+        "Szeptember 9-én bilincsben vitték a NAV nyomozói a kecskeméti bíróságra Fásyné Máriát, akit költségvetési csalás és hamis magánokirat felhasználása ügyében hallgattak ki és vettek őrizetbe. Az eljárásban most váratlan fordulat történt, mivel a Bács-Kiskun Vármegyei Főügyészség már nem tartja indokoltnak a legszigorúbb kényszerintézkedés fenntartását.",
+        "Dr. Az ügyészség indítványáról a Kecskeméti Járásbíróság nyomozási bírája határoz az iratok áttekintése után.",
+        "A gyanú alapját egy Békés megyei festőművészről szóló, négyrészesre tervezett dokumentumfilm – a Kéz, szív, lélek – magyar kortárs művészek nyomában – támogatása képezi. A sorozat első két epizódjára a Fásy Ádám családjához köthető cégek a Nemzeti Kulturális Alaptól (NKA) 82,55 millió forintot kaptak,",
+        "A hatósági álláspont szerint az áprilisi elszámolási határidőre a film még nem készült el, a hiányzó összeget pedig egy másik cég által kiállított fiktív számlákkal próbálták leplezni. A Telex értesülései szerint a NAV korábban őrizetbe vette annak a cégnek a tulajdonosát és ügyvezetőjét is, amely több mint 56 millió forintért bízta meg a Fásy család vállalkozásait a munkával.",
+        "A bűnügyi felügyelet, amely a korábbi házi őrizetnek vagy lakhelyelhagyási tilalomnak felel meg, azt jelenti, hogy a gyanúsított bizonyos magatartási szabályok betartásával, például rendszeres hatósági jelentkezéssel szabadlábon védekezhet.",
+        "Dr. Mile Attila ügyvéd az ATV-nek kifejtette, hogy a végleges feltételeket a bíróság határozza meg, amennyiben helyt ad az ügyészség javaslatának."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 243,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791205014-0.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kozelet-1791205014-0.jpg",
+        "kind": "photo",
+        "alt": "Bilincs helyett bűnügyi felügyelet: fordulat Fásyné ügyében",
+        "likeness": true,
+        "credit": "AI-generált illusztráció – Kollektíva",
+        "license": "saját (AI-generált illusztráció)",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/fasy-adam-felsege-fasyne-letartoztatas-enyhebb-birosag/7h5g0dh",
+          "title": "Fordulat: kijöhet Fásy Ádám felesége az előzetesből – újabb részletek",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T14:55:49+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Az eljárás jelen szakaszában a letartóztatással elérni kívánt célok enyhébb intézkedéssel is elérhetők",
+        "who": "Dr. Bodó Marianna, a Bács-Kiskun Vármegyei Főügyészség szóvivője",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.97,
+      "title_options": [
+        "Az ügyészség javasolta Fásy Ádám feleségének szabadlábra helyezését",
+        "Bilincs helyett bűnügyi felügyelet: fordulat Fásyné ügyében",
+        "Nem tartják már szükségesnek a letartóztatást a dokumentumfilm-botrányban",
+        "Váratlan fordulat: már nem akarja a börtönben tudni a NAV a híres producer feleségét",
+        "Kiderült, miért kéri az ügyészség Fásyné szabadlábra helyezését",
+        "Enyhébb kényszerintézkedést javasolnak a költségvetési csalással gyanúsított asszonynak"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791205014-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kozelet-1791205014-0.jpg",
+          "kind": "photo",
+          "alt": "Bilincs helyett bűnügyi felügyelet: fordulat Fásyné ügyében",
+          "likeness": true,
+          "credit": "AI-generált illusztráció – Kollektíva",
+          "license": "saját (AI-generált illusztráció)",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791205016-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kozelet-1791205016-1.jpg",
+          "kind": "photo",
+          "alt": "Bilincs helyett bűnügyi felügyelet: fordulat Fásyné ügyében",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        }
+      ],
+      "story": [
+        {
+          "title": "Fordulat: kijöhet Fásy Ádám felesége az előzetesből – újabb részletek",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/fasy-adam-felsege-fasyne-letartoztatas-enyhebb-birosag/7h5g0dh",
+          "summary": "Fásy Ádám feleségét, Fásyné Gurzó Máriát szeptember 9-én bilincsben vitték a kecskeméti bíróságra a NAV nyomozói. Az asszonyt költségvetési csalás és hamis magánokirat felhasználása ügyében tartóztatták le. Most fordulat állt be az ügyben: az ügyészség maga kérte, hogy Fásy Marika ellen enyhébb kényszerinteézkedést alkalmazzanak, már nem látják szükségesnek az előzetes letartóztatást.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 5.97
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/fasy-adam-felsege-fasyne-letartoztatas-enyhebb-birosag/7h5g0dh"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/kozelet/2026-10-05-az-ugyeszseg-javasolta-fasy-adam-felesegenek-szabadlabra-helyezeset/",
+      "seo": {
+        "meta_title": "Az ügyészség javasolta Fásy Ádám feleségének szabadlábra hel",
+        "meta_description": "Már nem tartják szükségesnek az előzetes letartóztatást, így az ügyészség maga indítványozta Fásy Ádám feleségének enyhébb kényszerintézkedését. A költségvetési",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-az-ugyeszseg-javasolta-fasy-adam-felesegenek-szabadlabra-helyezeset/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791205014-0.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "7deeb7d401d2c846ef5489872c537b9b7b1987637039dc0d6b83b3063a97f876",
+      "pipeline_run_id": "37311794645",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T14:55:49+02:00",
+      "updated_at": "2026-10-05T14:55:49+02:00",
+      "published_at": "2026-10-05T14:55:49+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": [],
+        "auto_fixed": [
+          "Magánszemély teljes nevének cseréje részleges névre a címben, leadben, kulcspontokban és a törzsben.",
+          "A kifogásolt teljes név eltávolítása a megjelölt mondatból."
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-05T12:57:28+00:00",
+        "msg_ids": [
+          2780,
+          2781,
+          2782
+        ],
+        "control_id": 2783
+      }
+    },
+    {
+      "id": "ccc3d2f5-33e4-5363-b13f-4e7b155e4b0b",
+      "slug": "2026-10-05-harom-nap-ehezes-utan-drasztikus-folyamatok-indulnak-be",
+      "status": "pending",
+      "category": "eletmod",
+      "subcategory": null,
+      "tags": [
+        "böjt",
+        "egészség",
+        "anyagcsere",
+        "kutatás",
+        "táplálkozás"
+      ],
+      "title": "Három nap éhezés után drasztikus folyamatok indulnak be",
+      "subtitle": null,
+      "lead": "Egy új kutatás részletesen feltérképezte, milyen biológiai és molekuláris folyamatokat indít el a szervezetben a többnapos éhezés. Az eredmények rávilágítanak arra, hogy a valódi áttörést jelentő szervi változások csak a harmadik nap után kezdődnek.",
+      "key_points": [
+        "A vizsgálatban tizenkét egészséges önkéntes vett részt, akik hétnapos víz-koplalást végeztek.",
+        "A vérben keringő mintegy háromezer fehérje szintjét folyamatosan és részletesen mérték a kutatók.",
+        "A legszembetűnőbb biológiai elmozdulások csak körülbelül három nap táplálékmegvonás után váltak érzékelhetővé.",
+        "A résztvevők átlagosan 5,7 kilogrammot veszítettek súlyukból, amely zsírból és izomból egyaránt adódott."
+      ],
+      "content": "Az emberi szervezet évmilliók alatt alkalmazkodott ahhoz, hogy átvészelje az étkezések közötti hosszabb időszakokat, amikor az élelem elérése bizonytalan volt. A hagyományos orvoslásban és a modern életmódban egyaránt megvannak a böjt különféle formái, míg biológiai szintjén eddig leginkább csak a glükózról a raktározott zsírokra való átállás folyamata volt ismert.\n\nA Nature Metabolism folyóiratban közzétett kutatás során a Queen Mary University of London Precision Healthcare University Research Institute (PHURI) szakemberei, valamint a Norwegian School of Sports Sciences munkatársai tizenkét egészséges önkéntest kísértek figyelemmel. A résztvevők teljes egészében hét napon át tartó, kizárólag vizes koplalást teljesítettek, miközben folyamatosan vizsgálták a véráramukban található nagyjából háromezer fehérje változásait.\n\nA vizsgálat igazolta, hogy az első két-három napban a szervezet elsősorban a glükózról tért át a tartalékként raktározott zsírok égetésére. A résztvevők átlagosan 5,7 kilogramm súlyt veszítettek, amely a zsír- és a sovány testtömegből – például az izmokból és a víztartalmú szövetekből – egyaránt lefaragott. Három nappal a normális étkezés újbóli megkezdése után az össztömeg alacsonyabb maradt a kiindulónál, ám a sovány tömeg nagy része visszatért, míg a zsírveszteség megmaradt.\n\nA legfontosabb megállapítás mégis az volt, hogy a legjelentősebb fehérjeszint-változások csak hozzávetőlegesen a harmadik nap után mutatkoztak meg. A kutatók a fehérjeméréseket nagy népességestudományi genetikai adatokkal is összekapcsolták, hogy feltérképezzék a biológiai útvonalak átrendeződését.\n\nAz azonosított molekuláris mechanizmusok hosszú távon utat nyithatnak olyan jövőbeli kezelések kifejlesztéséhez, amelyek utánozni tudják a böjt jótékony hatásait. Ez különösen hasznos lehet azok számára, akik egészségi okokból nem tudnak biztonságosan hosszabb ideig étkezés nélkül maradni vagy speciális diétákat követni.",
+      "content_format": "markdown",
+      "body": [
+        "Az emberi szervezet évmilliók alatt alkalmazkodott ahhoz, hogy átvészelje az étkezések közötti hosszabb időszakokat, amikor az élelem elérése bizonytalan volt. A hagyományos orvoslásban és a modern életmódban egyaránt megvannak a böjt különféle formái, míg biológiai szintjén eddig leginkább csak a glükózról a raktározott zsírokra való átállás folyamata volt ismert.",
+        "A Nature Metabolism folyóiratban közzétett kutatás során a Queen Mary University of London Precision Healthcare University Research Institute (PHURI) szakemberei, valamint a Norwegian School of Sports Sciences munkatársai tizenkét egészséges önkéntest kísértek figyelemmel. A résztvevők teljes egészében hét napon át tartó, kizárólag vizes koplalást teljesítettek, miközben folyamatosan vizsgálták a véráramukban található nagyjából háromezer fehérje változásait.",
+        "A vizsgálat igazolta, hogy az első két-három napban a szervezet elsősorban a glükózról tért át a tartalékként raktározott zsírok égetésére. A résztvevők átlagosan 5,7 kilogramm súlyt veszítettek, amely a zsír- és a sovány testtömegből – például az izmokból és a víztartalmú szövetekből – egyaránt lefaragott. Három nappal a normális étkezés újbóli megkezdése után az össztömeg alacsonyabb maradt a kiindulónál, ám a sovány tömeg nagy része visszatért, míg a zsírveszteség megmaradt.",
+        "A legfontosabb megállapítás mégis az volt, hogy a legjelentősebb fehérjeszint-változások csak hozzávetőlegesen a harmadik nap után mutatkoztak meg. A kutatók a fehérjeméréseket nagy népességestudományi genetikai adatokkal is összekapcsolták, hogy feltérképezzék a biológiai útvonalak átrendeződését.",
+        "Az azonosított molekuláris mechanizmusok hosszú távon utat nyithatnak olyan jövőbeli kezelések kifejlesztéséhez, amelyek utánozni tudják a böjt jótékony hatásait. Ez különösen hasznos lehet azok számára, akik egészségi okokból nem tudnak biztonságosan hosszabb ideig étkezés nélkül maradni vagy speciális diétákat követni."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 283,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg/1280px-Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 799,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "A documentative record of a clinical pathology and medical laboratory environment configured for hematology investigations, routine blood sample analysis, specimen processing, and phlebotomy services.",
+        "credit": "Goleisureintl / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai,_India.jpg",
+        "vision_score": 7.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/10/261005012444.htm",
+          "title": "Scientists reveal what seven days of fasting does to the human body",
+          "publisher": "sciencedaily.com",
+          "license": null,
+          "accessed_at": "2026-10-05T14:58:04+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.81,
+      "title_options": [
+        "Három nap éhezés után drasztikus folyamatok indulnak be",
+        "A harmadik nap után kezd átalakulni a koplaló szervezet",
+        "Nem csak a zsír olvad: ez történik a héttel a táplálékvétel nélkül maradt testtel",
+        "Ezt teszi a biológiai rendszerünk, ha három napig egy falatot sem eszünk",
+        "Elképesztő változásokat mutatott ki egy hét koplalásról a kutatás",
+        "Mi történik valójában az emberi szervezettel, ha napokig csak vizet iszik?"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg/1280px-Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 799,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A documentative record of a clinical pathology and medical laboratory environment configured for hematology investigations, routine blood sample analysis, specimen processing, and phlebotomy services.",
+          "credit": "Goleisureintl / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai,_India.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/NABL_Accredited_Clinical_Pathology_Laboratory_in_Kharghar_Navi_Mumbai_Diagnostic_Services.jpg/1280px-NABL_Accredited_Clinical_Pathology_Laboratory_in_Kharghar_Navi_Mumbai_Diagnostic_Services.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Medical laboratory technician processing blood test samples in an NABL-accredited pathology center in Kharghar, Navi Mumbai.",
+          "credit": "Goleisureintl / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NABL_Accredited_Clinical_Pathology_Laboratory_in_Kharghar_Navi_Mumbai_Diagnostic_Services.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://pixabay.com/get/g36dbaa0bebdce79e2f91880c6b53092472ca017e0a9354416134b4c23faed44d197f3a360a1d832bbf2de6026ee11cc0f537fa6f6565979621a878c0c21a3696_1280.jpg",
+          "width": 3000,
+          "height": 2000,
+          "kind": "photo",
+          "alt": "laboratory, test tubes, healthcare worker, hospital, healthcare professional, medical professional, medical technology, medical, health, medicine, healthcare, laboratory, laboratory, laboratory, labor",
+          "credit": "DarkoStojanovic / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/laboratory-test-tubes-563423/",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://pixabay.com/get/g14f08634a244d7e3f78d4911ab5e30f802c65301087bb5ede598b4d64673a55f4d0bd3b47014db3366076c6420b67ee616e10c28ae0263e9dc271a2b7279010d_1280.jpg",
+          "width": 3000,
+          "height": 2000,
+          "kind": "photo",
+          "alt": "chemist, laboratory, analysis, chemistry, research, woman, female, girl, laboratory, laboratory, laboratory, laboratory, laboratory, chemistry, chemistry, research, research",
+          "credit": "jarmoluk / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/chemist-laboratory-analysis-2815640/",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/ZntB_Transporter_Protein_Structure_Comparison.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Zinc Transporter Protein (ZntB) Protein Structure Comparison",
+          "credit": "Science mickey18 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:ZntB_Transporter_Protein_Structure_Comparison.png",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Scientists reveal what seven days of fasting does to the human body",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261005012444.htm",
+          "summary": "Scientists found that prolonged fasting triggers major changes throughout the body, but many of the most interesting effects only appeared after about three days without food. The results suggest fasting may influence health in ways that go beyond weight loss and could eventually inspire treatments that mimic its effects.",
+          "source": "sciencedaily.com",
+          "related": null,
+          "hot_score": 5.81
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.sciencedaily.com/releases/2026/10/261005012444.htm"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/eletmod/2026-10-05-harom-nap-ehezes-utan-drasztikus-folyamatok-indulnak-be/",
+      "seo": {
+        "meta_title": "Három nap éhezés után drasztikus folyamatok indulnak be",
+        "meta_description": "Egy új kutatás részletesen feltérképezte, milyen biológiai és molekuláris folyamatokat indít el a szervezetben a többnapos éhezés. Az eredmények rávilágítanak a",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-05-harom-nap-ehezes-utan-drasztikus-folyamatok-indulnak-be/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg/1280px-Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "7c62573b637f39ef19d4f35d39ce0cd9c577953e05384280486b27a62c7a577c",
+      "pipeline_run_id": "37311794645",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T14:58:04+02:00",
+      "updated_at": "2026-10-05T14:58:04+02:00",
+      "published_at": "2026-10-05T14:58:04+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-05T12:59:44+00:00",
+        "msg_ids": [
+          2784,
+          2785,
+          2786,
+          2787,
+          2788,
+          2789
+        ],
+        "control_id": 2790
+      }
+    },
+    {
+      "id": "515f7c3d-8027-5650-a9b9-86b17d23eb6e",
+      "slug": "2026-10-05-diplomabotrany-a-mi-hazank-lemondasra-szolitotta-fel-a-tiszas-kepvise",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Csatári Ernő",
+        "Novák Előd",
+        "Tisza Párt",
+        "Mi Hazánk Mozgalom",
+        "Országgyűlés"
+      ],
+      "title": "Diplomabotrány: a Mi Hazánk lemondásra szólította fel a tiszás képviselőt",
+      "subtitle": null,
+      "lead": "A Mi Hazánk lemondásra szólította fel Csatári Ernő tiszás képviselőt, miután a parlament honlapján szereplő adatok és a valós tanulmányok ellentmondásba kerültek egymással. Az érintett politikus adminisztrációs hibával magyarázza a történteket.",
+      "key_points": [
+        "A parlament honlapja szerint Csatári Ernő egyetemi végzettséggel rendelkezik, miközben tanulmányai még folyamatban vannak.",
+        "Novák Előd, a Mi Hazánk politikusa ezért azonnali lemondásra szólította fel a somogyi országgyűlési képviselőt.",
+        "Csatári Ernő közleményében azt írta, hogy az önéletrajzában lévő adat hiba miatt került fel a hivatalos oldalra."
+      ],
+      "content": "Vitás helyzet alakult ki a Tisza Párt siófoki országgyűlési képviselője körül, miután ellentmondások merültek fel a végzettségével kapcsolatban. Novák Előd, a Mi Hazánk alelnöke és frakcióvezető-helyettese a közösségi oldalán arról számolt be, hogy Csatári Ernő szerinte nem mondott igazat a diplomájáról, mivel a parlamenti adatok mást mutatnak, mint a valós helyzet.\n\nA források szerint a képviselő adatlapján egyetemi végzettség szerepel, holott folyamatban lévő felsőoktatási tanulmányai vannak. A tisztánlátást nehezítette, hogy a parlament honlapjára feltöltött önéletrajzban a kommunikációs és médiatudományi képzés a végzettségek között lett feltüntetve.\n\nA somogyi politikus hozzátette, hogy a tervek szerint jövőre szerezheti meg a diplomáját.\n\nA Mi Hazánk radikális ellenzéki pártként reagált az esetre, és a honlapján feltüntetett adatok miatt számonkérte a képviselőt. Az ügy utóélete attól függ, hogy a parlamenti adminisztráció hogyan korrigálja a vitatott bejegyzést.",
+      "content_format": "markdown",
+      "body": [
+        "Vitás helyzet alakult ki a Tisza Párt siófoki országgyűlési képviselője körül, miután ellentmondások merültek fel a végzettségével kapcsolatban. Novák Előd, a Mi Hazánk alelnöke és frakcióvezető-helyettese a közösségi oldalán arról számolt be, hogy Csatári Ernő szerinte nem mondott igazat a diplomájáról, mivel a parlamenti adatok mást mutatnak, mint a valós helyzet.",
+        "A források szerint a képviselő adatlapján egyetemi végzettség szerepel, holott folyamatban lévő felsőoktatási tanulmányai vannak. A tisztánlátást nehezítette, hogy a parlament honlapjára feltöltött önéletrajzban a kommunikációs és médiatudományi képzés a végzettségek között lett feltüntetve.",
+        "A somogyi politikus hozzátette, hogy a tervek szerint jövőre szerezheti meg a diplomáját.",
+        "A Mi Hazánk radikális ellenzéki pártként reagált az esetre, és a honlapján feltüntetett adatok miatt számonkérte a képviselőt. Az ügy utóélete attól függ, hogy a parlamenti adminisztráció hogyan korrigálja a vitatott bejegyzést."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 162,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Nov%C3%A1k_El%C5%91d2019.jpg/1280px-Nov%C3%A1k_El%C5%91d2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1557,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Novák Előd magyar nemzeti radikális politikus",
+        "credit": "Kocsis Antal / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nov%C3%A1k_El%C5%91d2019.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261005_csatari-erno-tisza-felsofoku-vegzettseg-novak-elod-mi-hazank",
+          "title": "A tiszás országgyűlési képviselő szerint egy adminisztrációs hiba miatt akarja lemondatni a Mi Hazánk",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T15:00:28+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Az önéletrajzomban szereplő adat vélhetően adminisztrációs hiba miatt került így feltüntetésre az Országgyűlés honlapján is. Hiszen az egyetemi tanulmányaim 2025 óta folyamatban vannak, ezt pedig már többször is egyértelműen jeleztem",
+        "who": "Csatári Ernő országgyűlési képviselő",
+        "after": 2
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.68,
+      "title_options": [
+        "Diplomabotrány: a Mi Hazánk lemondásra szólította fel a tiszás képviselőt",
+        "Adminisztrációs baki miatt esett feszültség a parlamentben",
+        "Adminisztrációs hiba vagy diplomaügy rázza meg Somogyot",
+        "Hivatalos iratok buktathatják le a Tisza Párt somogyi politikusát",
+        "Magyarázkodásra kényszerült a képviselő a végzettsége miatt",
+        "Papírok háborúja: ez történt a parlament honlapján"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Nov%C3%A1k_El%C5%91d2019.jpg/1280px-Nov%C3%A1k_El%C5%91d2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1557,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Novák Előd magyar nemzeti radikális politikus",
+          "credit": "Kocsis Antal / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Nov%C3%A1k_El%C5%91d2019.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 732,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Parliament building, Budapest",
+          "credit": "Dirk Beyer / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Parliament_4604.JPG",
+          "vision_score": 5.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/HUN-2015-Budapest-Hungarian_Parliament_%28Budapest%29_2015-02.jpg/1280px-HUN-2015-Budapest-Hungarian_Parliament_%28Budapest%29_2015-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Hungarian Parliament Building, Budapest, Hungary, 2015.",
+          "credit": "Godot13 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:HUN-2015-Budapest-Hungarian_Parliament_(Budapest)_2015-02.jpg",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "A tiszás országgyűlési képviselő szerint egy adminisztrációs hiba miatt akarja lemondatni a Mi Hazánk",
+          "link": "https://hvg.hu/itthon/20261005_csatari-erno-tisza-felsofoku-vegzettseg-novak-elod-mi-hazank",
+          "summary": "Novák Előd korábban arról posztolt, hogy Csatári Ernő, a Tisza Párt egyik somogyi országgyűlési képviselője hazudott az egyetemi végzettségéről, mivel folyamatban lévő felsőoktatási tanulmányai ellenére a parlament honlapján az áll, hogy egyetemi végzettséggel rendelkezik.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.68
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261005_csatari-erno-tisza-felsofoku-vegzettseg-novak-elod-mi-hazank"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/kozelet/2026-10-05-diplomabotrany-a-mi-hazank-lemondasra-szolitotta-fel-a-tiszas-kepvise/",
+      "seo": {
+        "meta_title": "Diplomabotrány: a Mi Hazánk lemondásra szólította fel a tisz",
+        "meta_description": "A Mi Hazánk lemondásra szólította fel Csatári Ernő tiszás képviselőt, miután a parlament honlapján szereplő adatok és a valós tanulmányok ellentmondásba kerülte",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-diplomabotrany-a-mi-hazank-lemondasra-szolitotta-fel-a-tiszas-kepvise/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Nov%C3%A1k_El%C5%91d2019.jpg/1280px-Nov%C3%A1k_El%C5%91d2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "b6a394240ca622842440a925420f82986663840af1a8fa4a88858d4e9cd61f7d",
+      "pipeline_run_id": "37311794645",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T15:00:28+02:00",
+      "updated_at": "2026-10-05T15:00:28+02:00",
+      "published_at": "2026-10-05T15:00:28+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-05T13:05:31+00:00",
+        "msg_ids": [
+          2791,
+          2792,
+          2793,
+          2794
+        ],
+        "control_id": 2795
+      }
     }
   ]
 }
