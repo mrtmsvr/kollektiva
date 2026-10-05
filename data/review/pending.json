@@ -9706,15 +9706,40 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://pixabay.com/get/g0e173d262c7f232d8fba9b3786b52a3cb08a252999deebabf71565bef89c7f3bf04bf7f743774d92fd92e307f9701257c36af5a22b774936317539b27ef16dff_1280.jpg",
-          "width": 5443,
-          "height": 3629,
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Fasting_4-Fasting-a-glass-of-water-on-an-empty-plate.jpg/1280px-Fasting_4-Fasting-a-glass-of-water-on-an-empty-plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1047,
           "kind": "photo",
-          "alt": "analysis, biochemistry, biologist, biology, biotechnology, chemistry, clinic, clinical, equipment, experiment, laboratory devices, laboratory, lenses, medical, medicine, microbiology, microscope, opti",
-          "credit": "Kost9n4 / Pixabay",
-          "license": "Pixabay License",
-          "source_url": "https://pixabay.com/photos/analysis-biochemistry-biologist-2030265/",
-          "vision_score": 5.0
+          "pos": "top",
+          "alt": "Fasting - A glass of water in an empty plate",
+          "credit": "Dr Jean Fortunet / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fasting_4-Fasting-a-glass-of-water-on-an-empty-plate.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Woman_with_a_glass_of_water_sits_at_a_table_in_a_relaxed_cafe_setting.jpg/1280px-Woman_with_a_glass_of_water_sits_at_a_table_in_a_relaxed_cafe_setting.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1800,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "A woman with long hair and a casual outfit holds a glass of water, sitting at a table in a sunlit cafe. She appears thoughtful and relaxed, enjoying her surroundings.",
+          "credit": "Shixart1985 / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Woman_with_a_glass_of_water_sits_at_a_table_in_a_relaxed_cafe_setting.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Woman_working_on_laptop_with_a_glass_of_water_at_a_table_in_a_cozy_indoor_setting_during_daytime.jpg/1280px-Woman_working_on_laptop_with_a_glass_of_water_at_a_table_in_a_cozy_indoor_setting_during_daytime.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 801,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A person wearing a bright pink top is typing on a laptop. A glass of water sits in the foreground on a wooden table, capturing a moment of concentration and productivity indoors.",
+          "credit": "Shixart1985 / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Woman_working_on_laptop_with_a_glass_of_water_at_a_table_in_a_cozy_indoor_setting_during_daytime.jpg",
+          "vision_score": 6.0
         }
       ],
       "story": [
@@ -9776,9 +9801,12 @@
           2788,
           2789,
           2798,
-          2800
+          2800,
+          2803,
+          2804,
+          2805
         ],
-        "control_id": 2801
+        "control_id": 2806
       },
       "image_queries": [
         "Queen Mary University of London",
@@ -9797,7 +9825,14 @@
         "Protein assay kit",
         "laboratory bench",
         "researcher measuring weight",
-        "close‑up of blood sample tube"
+        "close‑up of blood sample tube",
+        "fasting person",
+        "water glass on table",
+        "medical scale",
+        "human silhouette",
+        "fasting",
+        "empty plate",
+        "diet concept"
       ],
       "images_seen": [
         "https://pixabay.com/get/g14f08634a244d7e3f78d4911ab5e30f802c65301087bb5ede598b4d64673a55f4d0bd3b47014db3366076c6420b67ee616e10c28ae0263e9dc271a2b7279010d_1280.jpg",
@@ -9805,6 +9840,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg/1280px-Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/NABL_Accredited_Clinical_Pathology_Laboratory_in_Kharghar_Navi_Mumbai_Diagnostic_Services.jpg/1280px-NABL_Accredited_Clinical_Pathology_Laboratory_in_Kharghar_Navi_Mumbai_Diagnostic_Services.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://pixabay.com/get/ga02ab1397845f535ddb4361a3007eea9b4a2e58a771f8eb25418e42383fd3e30691e1d469756d27ee1ab33b7fb360c8a5182e47a646b2977772135915bd079a8_1280.jpg",
+        "https://pixabay.com/get/g0e173d262c7f232d8fba9b3786b52a3cb08a252999deebabf71565bef89c7f3bf04bf7f743774d92fd92e307f9701257c36af5a22b774936317539b27ef16dff_1280.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/7/7b/ZntB_Transporter_Protein_Structure_Comparison.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
       ]
     }
