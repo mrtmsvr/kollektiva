@@ -10171,99 +10171,48 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/BUD_MOL_Group_H.Q..JPG/1280px-BUD_MOL_Group_H.Q..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1600,
+          "url": "https://pixabay.com/get/g096f6a4e9e43aabe30e5d8c8ecda884f05f875d5e44871182637b1a52dbb461d24c8055b4c1fed1dd8734d6aa2f06611a3e55da956c33831d9162041cfb4dddb_1280.jpg",
+          "width": 4608,
+          "height": 3456,
           "kind": "photo",
-          "pos": "top",
-          "alt": ": MOL Group Building. - Október huszonharmadika utca 18, Budapest, District XI. kerülete. http://mol.hu",
-          "credit": "Globetrotter19 / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:BUD_MOL_Group_H.Q..JPG",
-          "vision_score": 10.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/MOL_Group_Building%2C_L%C3%A1gym%C3%A1nyos%2C_2016_%C3%9Ajbuda.jpg/1280px-MOL_Group_Building%2C_L%C3%A1gym%C3%A1nyos%2C_2016_%C3%9Ajbuda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1600,
-          "kind": "photo",
-          "pos": "top",
-          "alt": ": MOL Group Building. - Október huszonharmadika utca 18, Budapest, District XI. kerülete. http://mol.hu",
-          "credit": "Globetrotter19 / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:MOL_Group_Building,_L%C3%A1gym%C3%A1nyos,_2016_%C3%9Ajbuda.jpg",
-          "vision_score": 10.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Magyar_Telekom%2C_Budafoki_%C3%BAt%2C_2019_Kelenf%C3%B6ld.jpg/1280px-Magyar_Telekom%2C_Budafoki_%C3%BAt%2C_2019_Kelenf%C3%B6ld.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 675,
-          "kind": "photo",
-          "pos": "center",
-          "alt": ": Magyar Telekom Building 'A'. - 97 Budafoki út, Kelenföld neighbourhood, Újbuda, Budapest.",
-          "credit": "Globetrotter19 / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Magyar_Telekom,_Budafoki_%C3%BAt,_2019_Kelenf%C3%B6ld.jpg",
-          "vision_score": 8.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1024,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Ministry of Finance (Hungary)",
-          "credit": "Elekes Andor / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary).jpg",
+          "alt": "blur, chart, computer, data, finance, graph, growth, line graph, stock exchange, stock market, technology, trading, data, finance, finance, graph, stock market, stock market, stock market, stock marke",
+          "credit": "Pexels / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
           "vision_score": 7.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Budapest_Stock_Exchange_Palace_%2803%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
+          "url": "https://pixabay.com/get/g492505db7d54492605ec0e74790bdd9c8c00429dc7cf0efa54220a4d02ccbc5083c20ef2bd8ed1e2658735e27cf76d81eb08fee715f2df1820abe0891ab46e20_1280.jpg",
+          "width": 4368,
+          "height": 2912,
           "kind": "photo",
-          "pos": "center",
-          "alt": "Budapest Stock Exchange Palace at Szabadság tér.",
-          "credit": "Vasyatka1 / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace_(03).jpg",
+          "alt": "gamestop, stock, chart, gme, wallstreetbets, graph, finance, trading, business, growth, market, stock market, investment, boom, bubble, crash, squeeze, stock market, stock market, stock market, stock ",
+          "credit": "sergeitokmakov / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/gamestop-stock-chart-gme-6286877/",
           "vision_score": 7.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Ministry_of_Finance_%28Hungary%29_%289%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://pixabay.com/get/gfcfc7e156c7f60159ae2fcf9786b9f82284835792075afb73cdc9015dd1a61b7996550d6669501115600c511beca59dbdee03de7afce98ce7bcacfba99feaa6b_1280.jpg",
+          "width": 4523,
+          "height": 2996,
+          "kind": "photo",
+          "alt": "business, worldwide, cool backgrounds, global, international, full hd wallpaper, 4k wallpaper, network, hd wallpaper, beautiful wallpaper, marketing, mac wallpaper, communication, free background, win",
+          "credit": "flutie8211 / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/business-worldwide-global-6851888/",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Market_centre_in_Tokyo_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
           "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": "Ministry of Finance (Hungary)",
-          "credit": "Elekes Andor / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_(Hungary)_(9).jpg",
-          "vision_score": 6.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Budapest_Stock_Exchange_Palace_%2806%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Budapest Stock Exchange Palace at Szabadság tér.",
-          "credit": "Vasyatka1 / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Stock_Exchange_Palace_(06).jpg",
-          "vision_score": 6.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Budapesti_Stra%C3%9Fe%2C_Magyar_Telekom%2C_2024_Moh%C3%A1cs.jpg/1280px-Budapesti_Stra%C3%9Fe%2C_Magyar_Telekom%2C_2024_Moh%C3%A1cs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1600,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Small Magyar Telekom  building at Budapesti Street (Route 5121) Szőlő Street corner, Mohács, Baranya County, Hungary.",
-          "credit": "Globetrotter19 / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Budapesti_Stra%C3%9Fe,_Magyar_Telekom,_2024_Moh%C3%A1cs.jpg",
+          "alt": "Tokyo Stock Exchange's so-called Market Center. The real stock trading floor closed in 1999. In its place is now just a glass cylinder, a few screens and a silly ticker—something for clueless journali",
+          "credit": "ehnmark / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Market_centre_in_Tokyo_stock_exchange.jpg",
           "vision_score": 5.0
         }
       ],
@@ -10331,9 +10280,13 @@
           2936,
           2937,
           2938,
-          2939
+          2939,
+          2954,
+          2955,
+          2956,
+          2957
         ],
-        "control_id": 2940
+        "control_id": 2958
       },
       "image_queries": [
         "Ministry of Finance of Hungary",
@@ -10344,13 +10297,28 @@
         "BUX Index",
         "stock market trading floor",
         "financial chart",
-        "office interior"
+        "office interior",
+        "Richter Gedeon Nyrt.",
+        "Ministry of National Economy Hungary",
+        "Budapest Stock Exchange trading floor",
+        "Hungarian forint banknotes",
+        "stock market ticker screen",
+        "financial newspaper reading",
+        "calculator on desk"
       ],
       "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Ministry_of_Finance_%28Hungary%29_%289%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://pixabay.com/get/gfb9078bd81724c6a9cbca8099bec72041c91c890ebfe84a070cbaab949682b2885ff8ac12e83994011001f9123d2f7e28b894f72f47a46effefa29a6d58951d2_1280.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Budapest_Stock_Exchange_Palace_%2806%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Magyar_Telekom%2C_Budafoki_%C3%BAt%2C_2019_Kelenf%C3%B6ld.jpg/1280px-Magyar_Telekom%2C_Budafoki_%C3%BAt%2C_2019_Kelenf%C3%B6ld.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://pixabay.com/get/gaaab24b66cb9f9279a6548425646cafc9f460b85414f2a3c92b25e9628549b242bc4940bed342d9c79bc7453e2038e242bc40aa82f88ab298bf45dda0688963a_1280.jpg",
-        "https://pixabay.com/get/gfb9078bd81724c6a9cbca8099bec72041c91c890ebfe84a070cbaab949682b2885ff8ac12e83994011001f9123d2f7e28b894f72f47a46effefa29a6d58951d2_1280.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Budapest_Stock_Exchange_Palace_%2803%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/MOL_Group_Building%2C_L%C3%A1gym%C3%A1nyos%2C_2016_%C3%9Ajbuda.jpg/1280px-MOL_Group_Building%2C_L%C3%A1gym%C3%A1nyos%2C_2016_%C3%9Ajbuda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/BUD_MOL_Group_H.Q..JPG/1280px-BUD_MOL_Group_H.Q..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Budapesti_Stra%C3%9Fe%2C_Magyar_Telekom%2C_2024_Moh%C3%A1cs.jpg/1280px-Budapesti_Stra%C3%9Fe%2C_Magyar_Telekom%2C_2024_Moh%C3%A1cs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
     },
     {
