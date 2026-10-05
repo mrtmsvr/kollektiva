@@ -1,7 +1,115 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-05T08:24:16+02:00",
+  "updated_at": "2026-10-05T08:25:54+02:00",
   "articles": [
+    {
+      "id": "a02ffd2d-0f6a-53d7-8b9b-145b8a30c6c2",
+      "slug": "2026-10-05-biztos-menedek-lett-a-dollar-a-haborus-eszkalalodas-miatt",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "dollár",
+        "árfolyamok",
+        "befektetés",
+        "infláció",
+        "energiapiac"
+      ],
+      "title": "Biztos menedék lett a dollár a háborús eszkalálódás miatt",
+      "subtitle": null,
+      "lead": "A közel-keleti konfliktus eszkalálódása miatt a dollár több mint egyéves csúcsra erősödött, míg a fejlett kötvénypiacokon többéves vagy évtizedes csúcsot értek el a hosszú hozamok. A nemzetközi piaci hangulatot az emelkedő inflációs kockázatok és a tartósan magas energiaárak határozzák meg.",
+      "key_points": [
+        "A dollár több mint egyéves csúcsra drágult a globális bizonytalanság közepette.",
+        "A világ a tartósan magasan ragadó energiaárakra készül a Közel-Keleten.",
+        "Az amerikai kamatemelési várakozások erősödtek az inflációs kockázatok miatt.",
+        "A fejlett kötvények hosszú hozamai többéves vagy évtizedes rekordokat döntenek."
+      ],
+      "content": "Az elmúlt hetekben a nemzetközi piaci hangulatot elsősorban a geopolitikai hírek, különösen a közel-keleti háború eszkalálódása mozgatta. A piaci szereplők e fejlemények hatására arra készülnek, hogy az energiaárak a jövőben is tartósan magasan ragadhatnak.\n\nEzzel párhuzamosan, az inflációs kockázatok fokozódása nyomán erősödtek az amerikai kamatemelési várakozások. E két tényező együttes hatására az amerikai deviza több mint egyéves csúcsra erősödött, mivel a befektetők jelenleg a dollárt tekintik a legbiztosabb menedéknek.\n\nA dollár meneteléséhez a fejlett kötvényhozamok emelkedése is társult. A hosszú hozamok esetében folyamatosan többéves, illetve évtizedes csúcsok láthatók, ami alapvetően rajzolja át a nemzetközi tőkepiacok képét.\n\nHazai fronton a Portfolio gazdasági csúcskonferenciái és a héten érkező makrogazdasági adatok adhatnak újabb iránymutatást, amelyek a forint sorsát is befolyásolhatják. A rendezvényeken megszólalnak a hazai gazdaság fontos szereplői.",
+      "content_format": "markdown",
+      "body": [
+        "Az elmúlt hetekben a nemzetközi piaci hangulatot elsősorban a geopolitikai hírek, különösen a közel-keleti háború eszkalálódása mozgatta. A piaci szereplők e fejlemények hatására arra készülnek, hogy az energiaárak a jövőben is tartósan magasan ragadhatnak.",
+        "Ezzel párhuzamosan, az inflációs kockázatok fokozódása nyomán erősödtek az amerikai kamatemelési várakozások. E két tényező együttes hatására az amerikai deviza több mint egyéves csúcsra erősödött, mivel a befektetők jelenleg a dollárt tekintik a legbiztosabb menedéknek.",
+        "A dollár meneteléséhez a fejlett kötvényhozamok emelkedése is társult. A hosszú hozamok esetében folyamatosan többéves, illetve évtizedes csúcsok láthatók, ami alapvetően rajzolja át a nemzetközi tőkepiacok képét.",
+        "Hazai fronton a Portfolio gazdasági csúcskonferenciái és a héten érkező makrogazdasági adatok adhatnak újabb iránymutatást, amelyek a forint sorsát is befolyásolhatják. A rendezvényeken megszólalnak a hazai gazdaság fontos szereplői."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 167,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/US_Dollar_B26039099H.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1200,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "US Dollar B26039099H",
+        "credit": "Fumikas Sagisavas / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:US_Dollar_B26039099H.jpg",
+        "vision_score": 7.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261005/megszolalnak-a-magyar-gazdasag-nagyagyui-es-zaporoznak-a-fontos-adatok-867006",
+          "title": "Megszólalnak a magyar gazdaság nagyágyúi és záporoznak a fontos adatok",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T08:17:12+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/adatok-makro-gazdasag-allamhaztartas-ksh-pm?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Hamarosan kiderül merre tart valójában a magyar gazdaság: fontos adatok érkeznek a héten − eldől, milyen lesz az év vége",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T08:17:12+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-05T08:25:54+02:00"
+      },
+      "hot_score": 7.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261005/megszolalnak-a-magyar-gazdasag-nagyagyui-es-zaporoznak-a-fontos-adatok-867006"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/penzvilag/2026-10-05-biztos-menedek-lett-a-dollar-a-haborus-eszkalalodas-miatt/",
+      "seo": {
+        "meta_title": "Biztos menedék lett a dollár a háborús eszkalálódás miatt",
+        "meta_description": "A közel-keleti konfliktus eszkalálódása miatt a dollár több mint egyéves csúcsra erősödött, míg a fejlett kötvénypiacokon többéves vagy évtizedes csúcsot értek ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-05-biztos-menedek-lett-a-dollar-a-haborus-eszkalalodas-miatt/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/7/75/US_Dollar_B26039099H.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "64958e5b4f136e05cc64a28c0b7efe91cc6223af1dc3c1a500bb92fa3c9fe437",
+      "pipeline_run_id": "37270103400",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T08:25:54+02:00",
+      "updated_at": "2026-10-05T08:25:54+02:00",
+      "published_at": "2026-10-05T08:25:54+02:00",
+      "expires_at": null
+    },
     {
       "id": "1f69d6b1-4528-5a72-bc64-f4607d7399d7",
       "slug": "2026-10-05-kulonleges-helynevekkel-terkepezi-fel-a-marsot-a-nasa",
