@@ -11350,19 +11350,19 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/41f9b56445-1791219031-0.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/41f9b56445-1791219031-0.jpg",
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/41f9b56445-1791219063-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/41f9b56445-1791219063-0.jpg",
           "kind": "photo",
           "alt": "Engedhet a kormány az ukrán csatlakozási klasztereknél",
-          "likeness": false,
-          "credit": "Kollektíva illusztráció",
-          "license": "saját grafika",
+          "likeness": true,
+          "credit": "AI-generált illusztráció – Kollektíva",
+          "license": "saját (AI-generált illusztráció)",
           "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
           "generated": true
         },
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/41f9b56445-1791219033-1.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/41f9b56445-1791219033-1.jpg",
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/41f9b56445-1791219066-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/41f9b56445-1791219066-1.jpg",
           "kind": "photo",
           "alt": "Engedhet a kormány az ukrán csatlakozási klasztereknél",
           "likeness": false,
@@ -11467,9 +11467,11 @@
           3006,
           3007,
           3009,
-          3010
+          3010,
+          3012,
+          3013
         ],
-        "control_id": 3011
+        "control_id": 3014
       }
     },
     {
