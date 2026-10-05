@@ -11091,9 +11091,9 @@
       "live": true
     },
     {
-      "id": "d1ff79a7-8007-5c04-8c9a-65833eefc9da",
-      "slug": "2026-10-05-uj-tesztekkel-veszi-fel-a-harcot-a-nasa-a-rejtelyes-jegkepzodessel",
-      "status": "pending",
+      "id": "20b259cf-ebc8-5cac-a080-792cb2483a21",
+      "slug": "2026-10-05-a-lathatatlan-fagyveszely-ami-miatt-atdolgozzak-a-repulesbiztonsagot",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -11103,7 +11103,7 @@
         "időjárás",
         "légiközlekedés"
       ],
-      "title": "Új tesztekkel veszi fel a harcot a NASA a rejtélyes jégképződéssel",
+      "title": "A láthatatlan fagyveszély, ami miatt átdolgozzák a repülésbiztonságot",
       "subtitle": null,
       "lead": "A NASA eddigi szakértelmére támaszkodva és tesztlétesítményeit fejlesztve indított új programot egy ritka, de komoly repülési kockázat kezelésére. A kutatások középpontjában a szokatlanul nagy és rendkívül hideg vízcseppek okozta jegesedés áll.",
       "key_points": [
@@ -11230,11 +11230,11 @@
       },
       "date": "2026-10-05",
       "date_label": "október 5.",
-      "url": "/tech/2026-10-05-uj-tesztekkel-veszi-fel-a-harcot-a-nasa-a-rejtelyes-jegkepzodessel/",
+      "url": "/tech/2026-10-05-a-lathatatlan-fagyveszely-ami-miatt-atdolgozzak-a-repulesbiztonsagot/",
       "seo": {
-        "meta_title": "Új tesztekkel veszi fel a harcot a NASA a rejtélyes jégképző",
+        "meta_title": "A láthatatlan fagyveszély, ami miatt átdolgozzák a repülésbi",
         "meta_description": "A NASA eddigi szakértelmére támaszkodva és tesztlétesítményeit fejlesztve indított új programot egy ritka, de komoly repülési kockázat kezelésére. A kutatások k",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-05-uj-tesztekkel-veszi-fel-a-harcot-a-nasa-a-rejtelyes-jegkepzodessel/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-05-a-lathatatlan-fagyveszely-ami-miatt-atdolgozzak-a-repulesbiztonsagot/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/NASA%27s_Shuttle_Carrier_Aircraft_905_%28front%29_and_911_%28rear%29.jpg/1280px-NASA%27s_Shuttle_Carrier_Aircraft_905_%28front%29_and_911_%28rear%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -11252,9 +11252,9 @@
       "dedupe_hash": "80ca84202cca89b8a6651c3def66e7046d825880c4cae5be03753eec637017d8",
       "pipeline_run_id": "37341851281",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T18:41:54+02:00",
-      "updated_at": "2026-10-05T18:41:54+02:00",
-      "published_at": "2026-10-05T18:41:54+02:00",
+      "created_at": "2026-10-05T18:48:36+02:00",
+      "updated_at": "2026-10-05T18:48:36+02:00",
+      "published_at": "2026-10-05T18:48:36+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -11272,7 +11272,8 @@
           2992
         ],
         "control_id": 2993
-      }
+      },
+      "live": true
     },
     {
       "id": "41f9b564-4544-5384-959f-e062003eac3d",
@@ -11348,6 +11349,28 @@
       ],
       "clickbait_from": 3,
       "image_options": [
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/41f9b56445-1791218922-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/41f9b56445-1791218922-0.jpg",
+          "kind": "photo",
+          "alt": "Engedhet a kormány az ukrán csatlakozási klasztereknél",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/41f9b56445-1791218924-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/41f9b56445-1791218924-1.jpg",
+          "kind": "photo",
+          "alt": "Engedhet a kormány az ukrán csatlakozási klasztereknél",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg/1280px-European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
@@ -11440,9 +11463,11 @@
           2994,
           2995,
           2996,
-          2997
+          2997,
+          3006,
+          3007
         ],
-        "control_id": 2998
+        "control_id": 3008
       }
     },
     {
