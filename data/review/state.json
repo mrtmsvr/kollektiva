@@ -1,5 +1,5 @@
 {
-  "offset": 391604423,
+  "offset": 391604424,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -40,7 +40,8 @@
     "https://www.youtube.com/watch?v=vpnpqadg1Jc",
     "https://www.portfolio.hu/gazdasag/20261005/kiszeretett-magyarorszagbol-a-piac-csak-egy-szavaba-kerul-a-kormanynak-felmelegiteni-a-kapcsolatot-867052",
     "https://hvg.hu/elet/20261004_hvg-krzysztof-zanussi-lengyel-filmrendezo-interju-tarkovszkij-68",
-    "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/"
+    "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/",
+    "https://www.blikk.hu/sztarvilag/hazai-sztarok/schobert-lara-stilusvaltas-stilus-noiesseg-mentalis-egeszseg/c11zrpw"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
