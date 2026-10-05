@@ -9931,112 +9931,28 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/b9656d9934-1791212426-0.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/b9656d9934-1791212426-0.jpg",
-          "kind": "photo",
-          "alt": "Nem köt kompromisszumot a tökéletes biztonságért az OpenAI vezetője",
-          "likeness": true,
-          "credit": "AI-generált illusztráció – Kollektíva",
-          "license": "saját (AI-generált illusztráció)",
-          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
-          "generated": true
-        },
-        {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/b9656d9934-1791212429-1.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/b9656d9934-1791212429-1.jpg",
-          "kind": "photo",
-          "alt": "Nem köt kompromisszumot a tökéletes biztonságért az OpenAI vezetője",
-          "likeness": false,
-          "credit": "Kollektíva illusztráció",
-          "license": "saját grafika",
-          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
-          "generated": true
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Sam_Altman_CropEdit_James_Tamim.jpg/1280px-Sam_Altman_CropEdit_James_Tamim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/%E2%80%9CSam_Altman%E2%80%9D_by_Village_Global.jpg/1280px-%E2%80%9CSam_Altman%E2%80%9D_by_Village_Global.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1201,
+          "height": 1803,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Sam Altman at The Grove 2022",
+          "credit": "Village Global / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:%E2%80%9CSam_Altman%E2%80%9D_by_Village_Global.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_%28cropped%29_%28cropped%29.jpg/1280px-Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_%28cropped%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1637,
           "kind": "photo",
           "pos": "top",
           "alt": "SAN FRANCISCO, CALIFORNIA - OCTOBER 03: OpenAI Co-Founder &amp; CEO Sam Altman speaks onstage during TechCrunch Disrupt San Francisco 2019 at Moscone Convention Center on October 03, 2019 in San Franc",
           "credit": "TechCrunch / Wikimedia Commons",
           "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Sam_Altman_CropEdit_James_Tamim.jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Ilya_Sutskever_and_Sam_Altman_in_TAU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 1600,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Ilya Sutskever and Sam Altman in TAU, 2023",
-          "credit": "Eladkarmel / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ilya_Sutskever_and_Sam_Altman_in_TAU.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Screenshot_of_OpenAI_Codex.png/1280px-Screenshot_of_OpenAI_Codex.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 625,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Screenshot of OpenAI Codex working with the Tauri application framework and using the DOM inspector to do diagnostics and tests and optimizing the app before writing a permanent patch to the source co",
-          "credit": "Wikideas1 / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Screenshot_of_OpenAI_Codex.png"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/OpenAI_Codex_extention_for_VScode.png/1280px-OpenAI_Codex_extention_for_VScode.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 940,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "OpenAI Codex extention for VScode",
-          "credit": "Wikideas1 / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:OpenAI_Codex_extention_for_VScode.png"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Artificial_Intelligence_Scale.png/1280px-Artificial_Intelligence_Scale.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 751,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Categorize algorithms based on their use in relation to human activities.",
-          "credit": "Cyrilht / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Artificial_Intelligence_Scale.png"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Artificial_intelligence_prompt_completion_by_dalle_mini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 1200,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Neural net completion for \"artificial intelligence\", as done by DALL-E mini hosted on HuggingFace, 4 June 2022 (code under Apache 2.0 license). Upscaled with Real-ESRGAN \"Anime\" upscaling version (und",
-          "credit": "Prompt by JPxG, model by Boris Dayma, upscaler by Xintao Wang, Liangbin Xie et a / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Artificial_intelligence_prompt_completion_by_dalle_mini.jpg"
-        },
-        {
-          "url": "https://pixabay.com/get/g79ef155f4c4aa1bf0cb0770d5db7d1b6d25557df12f995f584b26162c2b37a4f2486f65409fe9c6dd9b8345f2daf0c20db68dc552618bbf1ad09eab5e126b829_1280.jpg",
-          "width": 5472,
-          "height": 3648,
-          "kind": "photo",
-          "alt": "coding, programming, css, software development, computer, close up, laptop, data, display, electronics, keyboard, screen, technology, app, program, software, computer engineering, coding, coding, codi",
-          "credit": "Pexels / Pixabay",
-          "license": "Pixabay License",
-          "source_url": "https://pixabay.com/photos/coding-programming-css-1853305/"
-        },
-        {
-          "url": "https://pixabay.com/get/g41491f1462946e9d8c44bb4c79beccfbf5f5126f3296671ca54074dff686afb030484a902b0c3f4698a3d1ce16fb1996093dbbbd39082fb73e999a43d5f3e6c1_1280.jpg",
-          "width": 5700,
-          "height": 3706,
-          "kind": "photo",
-          "alt": "keyboard, computer, technology, light, colorful, design, color, artist, digital, isolated, laptop, internet, work, work from home, network, tablet, designer, modern, object, electronic, communication,",
-          "credit": "JoshuaWoroniecki / Pixabay",
-          "license": "Pixabay License",
-          "source_url": "https://pixabay.com/photos/keyboard-computer-technology-light-5017973/"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_(cropped)_(cropped).jpg",
+          "vision_score": 10.0
         }
       ],
       "story": [
@@ -10114,14 +10030,39 @@
           2907,
           2908,
           2965,
-          2966
+          2966,
+          2968,
+          2969
         ],
-        "control_id": 2967
+        "control_id": 2970
       },
       "legal": {
         "level": 0,
         "issues": []
-      }
+      },
+      "image_queries": [
+        "Sam Altman",
+        "OpenAI",
+        "Anthropic",
+        "Ron DeSantis",
+        "Florida Attorney General",
+        "ChatGPT",
+        "technology conference",
+        "press conference",
+        "office meeting"
+      ],
+      "images_seen": [
+        "https://pixabay.com/get/g79ef155f4c4aa1bf0cb0770d5db7d1b6d25557df12f995f584b26162c2b37a4f2486f65409fe9c6dd9b8345f2daf0c20db68dc552618bbf1ad09eab5e126b829_1280.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Sam_Altman_CropEdit_James_Tamim.jpg/1280px-Sam_Altman_CropEdit_James_Tamim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/d/de/Ilya_Sutskever_and_Sam_Altman_in_TAU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Artificial_Intelligence_Scale.png/1280px-Artificial_Intelligence_Scale.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Screenshot_of_OpenAI_Codex.png/1280px-Screenshot_of_OpenAI_Codex.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/1/1c/Artificial_intelligence_prompt_completion_by_dalle_mini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/OpenAI_Codex_extention_for_VScode.png/1280px-OpenAI_Codex_extention_for_VScode.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://xn--kollektva-m5a.hu/public/img/gen/b9656d9934-1791212426-0.jpg",
+        "https://pixabay.com/get/g41491f1462946e9d8c44bb4c79beccfbf5f5126f3296671ca54074dff686afb030484a902b0c3f4698a3d1ce16fb1996093dbbbd39082fb73e999a43d5f3e6c1_1280.jpg",
+        "https://xn--kollektva-m5a.hu/public/img/gen/b9656d9934-1791212429-1.jpg"
+      ]
     },
     {
       "id": "800b0383-d281-5017-a0c1-61dd201e0df9",
