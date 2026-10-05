@@ -118,6 +118,6 @@ var fresh=arts.filter(function(x){return !known[x.id]&&x.url!==location.pathname
 if(!fresh.length)return;var n=fresh[0];a.href=n.url;a.textContent='ÚJ · '+(N[n.category]||'Friss')+' · '+n.title+(fresh.length>1?'  (+'+(fresh.length-1)+')':'');
 box.style.transform='translate(-50%,0)';clearTimeout(t);t=setTimeout(function(){box.style.transform='translate(-50%,-180%)'},/\/(kozelet|vilag|penzvilag|tech|eletmod|kultura|univerzum|bulvar|retro)\/./.test(location.pathname)?3500:6000)}).catch(function(){})}
 check();setInterval(check,90000);document.addEventListener('visibilitychange',check)})();</script>
-<script src="/poll-widget.js?v=8" defer></script>
+<script src="/poll-widget.js?v=9" defer></script>
 </body>
 </html>
