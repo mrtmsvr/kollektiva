@@ -9536,26 +9536,15 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791205014-0.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kozelet-1791205014-0.jpg",
+          "url": "https://pixabay.com/get/ge34aee8b6f15ab8ca0140ae1fb82d713ec1818bcee9701b53a29cb8b2baffdacca6a2b587625da2750c2b25b16a6d4e96a69e5f2b5f1cd7fdadd5e7d856b9b38_1280.jpg",
+          "width": 3600,
+          "height": 2000,
           "kind": "photo",
-          "alt": "Bilincs helyett bűnügyi felügyelet: fordulat Fásyné ügyében",
-          "likeness": true,
-          "credit": "AI-generált illusztráció – Kollektíva",
-          "license": "saját (AI-generált illusztráció)",
-          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
-          "generated": true
-        },
-        {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791205016-1.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kozelet-1791205016-1.jpg",
-          "kind": "photo",
-          "alt": "Bilincs helyett bűnügyi felügyelet: fordulat Fásyné ügyében",
-          "likeness": false,
-          "credit": "Kollektíva illusztráció",
-          "license": "saját grafika",
-          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
-          "generated": true
+          "alt": "gavel, auction, law, hammer, symbol, judge, legal, justice, crime, criminal, wooden, 3d, wood, judgment, trial, verdict, punishment, rights, authority, court, legislation, constitution, courthouse, bi",
+          "credit": "qimono / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/gavel-auction-law-hammer-symbol-2492011/",
+          "vision_score": 5.0
         }
       ],
       "story": [
@@ -9616,10 +9605,26 @@
         "msg_ids": [
           2780,
           2781,
-          2782
+          2782,
+          2796
         ],
-        "control_id": 2783
-      }
+        "control_id": 2797
+      },
+      "image_queries": [
+        "Adam Fasy",
+        "Maria Fasy",
+        "National Cultural Fund (Hungary)",
+        "Bacs-Kiskun County Prosecutor's Office",
+        "Kecskemét District Court",
+        "Hungarian Tax and Customs Administration (NAV)",
+        "courtroom",
+        "legal documents",
+        "press conference"
+      ],
+      "images_seen": [
+        "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791205014-0.jpg",
+        "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791205016-1.jpg"
+      ]
     },
     {
       "id": "ccc3d2f5-33e4-5363-b13f-4e7b155e4b0b",
