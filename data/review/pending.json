@@ -9052,7 +9052,7 @@
     {
       "id": "23fb4d50-74c3-5b51-aac7-b424eb8c8ecd",
       "slug": "2026-10-05-nem-a-dicsosegert-csak-egy-darab-raketaert-igy-keszul-a-nasa-az-ujabb",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -9200,9 +9200,9 @@
       "dedupe_hash": "05d15f32c580a094b074c6bd0c4b72eaf8b2f6aa399040eabc9657d9233b125d",
       "pipeline_run_id": "37261475753",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T06:08:57+02:00",
-      "updated_at": "2026-10-05T06:08:57+02:00",
-      "published_at": "2026-10-05T06:08:57+02:00",
+      "created_at": "2026-10-05T06:40:23+02:00",
+      "updated_at": "2026-10-05T06:40:23+02:00",
+      "published_at": "2026-10-05T06:40:23+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -9219,7 +9219,8 @@
           2674
         ],
         "control_id": 2675
-      }
+      },
+      "live": true
     }
   ]
 }
