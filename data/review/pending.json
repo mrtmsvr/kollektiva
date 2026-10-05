@@ -9469,7 +9469,7 @@
     {
       "id": "32a6ab13-7f5a-5612-94f6-9f2ab401f0da",
       "slug": "2026-10-05-a-forint-az-ev-eleji-csucsrol-hirtelen-a-regio-sereghajtoi-koze-csusz",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -9499,7 +9499,7 @@
       "word_count": 200,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://pixabay.com/get/g3467cdda3933fea1c291d2e3bd8849b7b956fa4c00cb062cd988f71a2b5cc9438193cab3132f8ea80976e4fd33b5b208eab76667c7a538c397aaf6ccd7d6b250_1280.jpg",
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/6e66ed9e2efe038d.jpg",
         "width": 4608,
         "height": 3456,
         "kind": "photo",
@@ -9507,7 +9507,8 @@
         "credit": "Pexels / Pixabay",
         "license": "Pixabay License",
         "source_url": "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
-        "vision_score": 9.0
+        "vision_score": 9.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/6e66ed9e2efe038d.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -9608,7 +9609,7 @@
         "meta_title": "A forint az év eleji csúcsról hirtelen a régió sereghajtói k",
         "meta_description": "Az év első felében még a világ legjobban teljesítő devizái közé tartozott a forint, a harmadik negyedévben azonban a nemzetközi hangulat változása miatt hirtele",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-a-forint-az-ev-eleji-csucsrol-hirtelen-a-regio-sereghajtoi-koze-csusz/",
-        "og_image": "https://pixabay.com/get/g3467cdda3933fea1c291d2e3bd8849b7b956fa4c00cb062cd988f71a2b5cc9438193cab3132f8ea80976e4fd33b5b208eab76667c7a538c397aaf6ccd7d6b250_1280.jpg",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/6e66ed9e2efe038d.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -9625,9 +9626,9 @@
       "dedupe_hash": "3c78b43d250e811da249c181d9fc00f12f1d50b8185ca0cbf0e68916eb0e76f1",
       "pipeline_run_id": "37261475753",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T06:04:54+02:00",
-      "updated_at": "2026-10-05T06:04:54+02:00",
-      "published_at": "2026-10-05T06:04:54+02:00",
+      "created_at": "2026-10-05T06:35:59+02:00",
+      "updated_at": "2026-10-05T06:35:59+02:00",
+      "published_at": "2026-10-05T06:35:59+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -9645,7 +9646,8 @@
           2656
         ],
         "control_id": 2657
-      }
+      },
+      "live": true
     },
     {
       "id": "98a56993-ad0b-524f-b58c-74fe9fe72b97",
