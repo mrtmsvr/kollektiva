@@ -11471,9 +11471,9 @@
       }
     },
     {
-      "id": "c2482a4e-7e22-5275-93b6-9fdb40f11ed3",
-      "slug": "2026-10-05-null",
-      "status": "pending",
+      "id": "0b62563c-e786-5f7b-a1ee-aa0d6377d07c",
+      "slug": "2026-10-05-magyar-peter-romai-robogozasa-es-mas-kozeleti-furcsasagok",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -11483,7 +11483,7 @@
         "podcast",
         "parlament"
       ],
-      "title": "null",
+      "title": "Magyar Péter római robogózása és más közéleti furcsaságok",
       "subtitle": null,
       "lead": "A 444 Borízű hang című műsorának legfrissebb adásában a fideszes vezetéknevektől a parlamenti lakhatási kérdésekig számos hazai közügy terítékre került. A beszélgetésben szó esett többek között Magyar Péter római robogós útjáról is.",
       "key_points": [
@@ -11504,16 +11504,16 @@
       "word_count": 140,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Peter-Magyar-portrait-2026.jpg/1280px-Peter-Magyar-portrait-2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Piaggio_Vespa_Special_50cc_in_Arezzo.jpg/1280px-Piaggio_Vespa_Special_50cc_in_Arezzo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 1599,
+        "height": 1234,
         "kind": "photo",
         "pos": "top",
-        "alt": "High-resolution, freely reusable close-up portrait of Hungarian politician Péter Magyar, taken on 15 March 2026 during a national day demonstration at Heroes’ Square in Budapest, Hungary. The photogra",
-        "credit": "Norbert Banhalmi / Wikimedia Commons",
+        "alt": "Piaggio Vespa Special 50cc in Arezzo",
+        "credit": "Livioandronico2013 / Wikimedia Commons",
         "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Peter-Magyar-portrait-2026.jpg",
-        "vision_score": 10.0
+        "source_url": "https://commons.wikimedia.org/wiki/File:Piaggio_Vespa_Special_50cc_in_Arezzo.jpg",
+        "vision_score": 7.0
       },
       "inline_images": [],
       "sources": [
@@ -11625,12 +11625,12 @@
       },
       "date": "2026-10-05",
       "date_label": "október 5.",
-      "url": "/kozelet/2026-10-05-null/",
+      "url": "/kozelet/2026-10-05-magyar-peter-romai-robogozasa-es-mas-kozeleti-furcsasagok/",
       "seo": {
-        "meta_title": "null",
+        "meta_title": "Magyar Péter római robogózása és más közéleti furcsaságok",
         "meta_description": "A 444 Borízű hang című műsorának legfrissebb adásában a fideszes vezetéknevektől a parlamenti lakhatási kérdésekig számos hazai közügy terítékre került. A beszé",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-null/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Peter-Magyar-portrait-2026.jpg/1280px-Peter-Magyar-portrait-2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-magyar-peter-romai-robogozasa-es-mas-kozeleti-furcsasagok/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Piaggio_Vespa_Special_50cc_in_Arezzo.jpg/1280px-Piaggio_Vespa_Special_50cc_in_Arezzo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -11647,9 +11647,9 @@
       "dedupe_hash": "1a93b502918d7e75b38fca8a6a8ea073dc11db9970e9b762e62e172fc276ecaa",
       "pipeline_run_id": "37341851281",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T18:47:24+02:00",
-      "updated_at": "2026-10-05T18:47:24+02:00",
-      "published_at": "2026-10-05T18:47:24+02:00",
+      "created_at": "2026-10-05T18:50:21+02:00",
+      "updated_at": "2026-10-05T18:50:21+02:00",
+      "published_at": "2026-10-05T18:50:21+02:00",
       "expires_at": null,
       "hold": true,
       "video": {
@@ -11675,7 +11675,8 @@
           3004
         ],
         "control_id": 3005
-      }
+      },
+      "live": true
     }
   ]
 }
