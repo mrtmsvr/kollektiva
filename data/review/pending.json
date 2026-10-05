@@ -10877,6 +10877,780 @@
         "control_id": 2975
       },
       "live": true
+    },
+    {
+      "id": "5f2dc838-d48c-5cea-88d4-e77b4f7ded83",
+      "slug": "2026-10-05-komoly-adossagstressz-arnyeka-vetul-az-europai-piacokra",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "EKB",
+        "kötvénypiac",
+        "állampapír",
+        "gazdaság",
+        "Franciaország"
+      ],
+      "title": "Komoly adósságstressz árnyéka vetül az európai piacokra",
+      "subtitle": null,
+      "lead": "Meredeken emelkednek a hosszú lejáratú hozamok az európai kötvénypiacokon, miközben Franciaországot már a perifériához sorolják a befektetők. A helyzet miatt egy volt jegybanki döntéshozó az EKB lépését sürgeti.",
+      "key_points": [
+        "Meredeken emelkednek a hosszú lejáratú állampapírhozamok az európai piacokon.",
+        "Franciaországot a befektetők a perifériaállamok közé sorolták be az elmúlt hónapokban.",
+        "Az Európai Központi Bank korábbi igazgatósági tagja szerint felfüggesztésre vár a mennyiségi szigorítás.",
+        "A jegybanki mérleg leépítése miatt a magánbefektetőknek kell felszívniuk a kötvénykibocsátások egyre nagyobb részét."
+      ],
+      "content": "Az európai kötvénypiacokon az elmúlt hónapokban tapasztalt folyamatok komoly aggodalomra adnak okot, miután a hosszú lejáratú hozamok meredeken emelkedni kezdtek. Ezzel párhuzamosan a magállamok és a perifériaállamok állampapírjai közötti hozamfelárak ismét tágulni kezdtek, a piaci megítélés alapján pedig Franciaországot már a perifériához sorolják.\n\nLorenzo Bini Smaghi, az Európai Központi Bank korábbi igazgatótanácsi tagja a Financial Timesban megjelent véleménycikkében arra hívta fel a figyelmet, hogy az EKB-nak ebben a helyzetben azonnal fel kellene függesztenie a mennyiségi szigorítást. A mennyiségi szigorítás, vagyis a QT keretében a jegybank 2023 márciusa óta nem pótolja a mérlegében lejáró eszközöket, így az állampapírokat sem, ami fokozatosan csökkenti a mérlegfőösszeget.\n\nA gyakorlatban ez azt jelenti, hogy az állampapír-kibocsátások egyre nagyobb hányadát kénytelenek a magánbefektetők felszívni, miközben a hosszú lejáratú hozamok eleve emelkedő pályán mozognak. Bár más, hasonló programot indító jegybankok már módosították vagy felfüggesztették a QT-t a piaci fejlemények fényében, az EKB továbbra is kitart mellette, a mérleg normalizálását ugyanis szinte kötelezettségként kezelik.\n\nA szakértő rámutatott, hogy semmi eleve normális nincs egy jegybanki mérleg adott méretében, különösen a gazdasági és piaci feltételek alapvető megváltozása idején. A 2008-as válság óta bekövetkezett strukturális változások jelentősen bonyolultabbá teszik a QT hatásait, ami felerősíti az úgynevezett bank-állam ördögi körének kockázatát, ahol egy szuverén adósságválság az állampapírokon keresztül a bankrendszert is destabilizálhatja.\n\nAz EKB azzal érvel, hogy a szigorítás üteme viszonylag lassú, az új likviditási keretrendszer pontos időzítése és kalibrációja pedig még bizonytalan. A kritikus hangvélemény szerint azonban éppen ez a bizonytalanság növeli tovább a nyomást az európai hosszú hozamokon, ezért a monetáris politikát a hagyományos rövid lejáratú irányadó kamattal kellene alakítani, a mérlegméret változtatását pedig másodlagos eszközként kezelni.",
+      "content_format": "markdown",
+      "body": [
+        "Az európai kötvénypiacokon az elmúlt hónapokban tapasztalt folyamatok komoly aggodalomra adnak okot, miután a hosszú lejáratú hozamok meredeken emelkedni kezdtek. Ezzel párhuzamosan a magállamok és a perifériaállamok állampapírjai közötti hozamfelárak ismét tágulni kezdtek, a piaci megítélés alapján pedig Franciaországot már a perifériához sorolják.",
+        "Lorenzo Bini Smaghi, az Európai Központi Bank korábbi igazgatótanácsi tagja a Financial Timesban megjelent véleménycikkében arra hívta fel a figyelmet, hogy az EKB-nak ebben a helyzetben azonnal fel kellene függesztenie a mennyiségi szigorítást. A mennyiségi szigorítás, vagyis a QT keretében a jegybank 2023 márciusa óta nem pótolja a mérlegében lejáró eszközöket, így az állampapírokat sem, ami fokozatosan csökkenti a mérlegfőösszeget.",
+        "A gyakorlatban ez azt jelenti, hogy az állampapír-kibocsátások egyre nagyobb hányadát kénytelenek a magánbefektetők felszívni, miközben a hosszú lejáratú hozamok eleve emelkedő pályán mozognak. Bár más, hasonló programot indító jegybankok már módosították vagy felfüggesztették a QT-t a piaci fejlemények fényében, az EKB továbbra is kitart mellette, a mérleg normalizálását ugyanis szinte kötelezettségként kezelik.",
+        "A szakértő rámutatott, hogy semmi eleve normális nincs egy jegybanki mérleg adott méretében, különösen a gazdasági és piaci feltételek alapvető megváltozása idején. A 2008-as válság óta bekövetkezett strukturális változások jelentősen bonyolultabbá teszik a QT hatásait, ami felerősíti az úgynevezett bank-állam ördögi körének kockázatát, ahol egy szuverén adósságválság az állampapírokon keresztül a bankrendszert is destabilizálhatja.",
+        "Az EKB azzal érvel, hogy a szigorítás üteme viszonylag lassú, az új likviditási keretrendszer pontos időzítése és kalibrációja pedig még bizonytalan. A kritikus hangvélemény szerint azonban éppen ez a bizonytalanság növeli tovább a nyomást az európai hosszú hozamokon, ezért a monetáris politikát a hagyományos rövid lejáratú irányadó kamattal kellene alakítani, a mérlegméret változtatását pedig másodlagos eszközként kezelni."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 300,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Europ%C3%A4ische_Zentralbank_Frankfurt.jpg/1280px-Europ%C3%A4ische_Zentralbank_Frankfurt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 925,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "European Central Bank at Frankfurt, Germany",
+        "credit": "Thomas Wolf, www.foto-tw.de / Wikimedia Commons",
+        "license": "CC BY-SA 3.0 de",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Europ%C3%A4ische_Zentralbank_Frankfurt.jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261005/volt-jegybanki-donteshozo-kongatja-a-veszharangot-ujabb-adossagstressz-johet-europaban-ha-nem-lep-az-ekb-867504",
+          "title": "Volt jegybanki döntéshozó kongatja a vészharangot: újabb adósságstressz jöhet Európában, ha nem lép az EKB",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T18:40:33+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Franciaországot már perifériának nézik a kötvénypiacon",
+        "Megint a bank-állam ördögi köre fenyegeti az eurózónát",
+        "Vészharangot kongatnak a volt jegybankárok az európai adósság miatt",
+        "Itt a pillanat, amikor az EKB-nak muszáj lesz meglépnie azt, amit eddig elkerült",
+        "Olyan dolog történik a francia kötvénnyel, amire rég nem volt példa",
+        "Komoly adósságstressz árnyéka vetül az európai piacokra"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Europ%C3%A4ische_Zentralbank_Frankfurt.jpg/1280px-Europ%C3%A4ische_Zentralbank_Frankfurt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 925,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "European Central Bank at Frankfurt, Germany",
+          "credit": "Thomas Wolf, www.foto-tw.de / Wikimedia Commons",
+          "license": "CC BY-SA 3.0 de",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Europ%C3%A4ische_Zentralbank_Frankfurt.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg/1280px-Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 630,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The Seat of the European Central Bank and Frankfurt Skyline at dawn, as seen from west.",
+          "credit": "DXR / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Skyline_Frankfurt_am_Main_2015.jpg/1280px-Skyline_Frankfurt_am_Main_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 843,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Skyline of Frankfurt am Main, Germany.",
+          "credit": "Christian Wolf (www.c-w-design.de) / Wikimedia Commons",
+          "license": "CC BY-SA 3.0 de",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Skyline_Frankfurt_am_Main_2015.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Skyline_Frankfurt_am_Main.jpg/1280px-Skyline_Frankfurt_am_Main.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Downtown Frankfurt am Main, Germany; seen from Deutschherrn Bridge.",
+          "credit": "Nicolas Scheuer / Wikimedia Commons",
+          "license": "CC BY-SA 2.5",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Skyline_Frankfurt_am_Main.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/gc28e688508d736b5405818b97d62b5639cb90f6e9c11497d9daaf10eed1327ba6f713fefe15b7481029443b11b03b93bb1cddf6c104b1638afc5cde8eb3b6e63_1280.jpg",
+          "width": 4608,
+          "height": 3456,
+          "kind": "photo",
+          "alt": "blur, chart, computer, data, finance, graph, growth, line graph, stock exchange, stock market, technology, trading, data, finance, finance, graph, stock market, stock market, stock market, stock marke",
+          "credit": "Pexels / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://pixabay.com/get/g6037490b59371b2f9398162fe81444f2dfc4a3258260faa80c30b8f1b32f7cd78122db2a9091eac6520a5b63e85e30939ec6415916b6388300c7741713fba7cf_1280.jpg",
+          "width": 5812,
+          "height": 3875,
+          "kind": "photo",
+          "alt": "stock, trading, monitor, business, finance, exchange, investment, market, trade, data, graph, economy, financial, currency, chart, information, technology, profit, forex, rate, foreign exchange, analy",
+          "credit": "3844328 / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/stock-trading-monitor-business-1863880/",
+          "vision_score": 7.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Volt jegybanki döntéshozó kongatja a vészharangot: újabb adósságstressz jöhet Európában, ha nem lép az EKB",
+          "link": "https://www.portfolio.hu/gazdasag/20261005/volt-jegybanki-donteshozo-kongatja-a-veszharangot-ujabb-adossagstressz-johet-europaban-ha-nem-lep-az-ekb-867504",
+          "summary": "Az európai kötvénypiacokon az elmúlt hónapokban meredeken emelkedtek a hosszú lejáratú hozamok, miközben a mag- és a perifériaállamok állampapírjai közötti hozamfelárak ismét tágulnak, ráadásul Franciaországot már a perifériához sorolják a piacon. Lorenzo Bini Smaghi, az Európai Központi Bank (EKB) korábbi igazgatótanácsi tagjának véleménye szerint ebben a helyzetben az Európai Központi Banknak fel kellene függesztenie a mennyiségi szigorítást - írta a Financial Times .",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261005/volt-jegybanki-donteshozo-kongatja-a-veszharangot-ujabb-adossagstressz-johet-europaban-ha-nem-lep-az-ekb-867504"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/penzvilag/2026-10-05-komoly-adossagstressz-arnyeka-vetul-az-europai-piacokra/",
+      "seo": {
+        "meta_title": "Komoly adósságstressz árnyéka vetül az európai piacokra",
+        "meta_description": "Meredeken emelkednek a hosszú lejáratú hozamok az európai kötvénypiacokon, miközben Franciaországot már a perifériához sorolják a befektetők. A helyzet miatt eg",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-05-komoly-adossagstressz-arnyeka-vetul-az-europai-piacokra/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Europ%C3%A4ische_Zentralbank_Frankfurt.jpg/1280px-Europ%C3%A4ische_Zentralbank_Frankfurt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "1e3544a261b49ab05e3d1f3dc9afa86c0dec95dcaef86fefed96b7690145e7b3",
+      "pipeline_run_id": "37341851281",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T18:46:38+02:00",
+      "updated_at": "2026-10-05T18:46:38+02:00",
+      "published_at": "2026-10-05T18:46:38+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 5,
+        "image": 0,
+        "sent_at": "2026-10-05T16:41:36+00:00",
+        "msg_ids": [
+          2980,
+          2981,
+          2982,
+          2983,
+          2984,
+          2985,
+          2986
+        ],
+        "control_id": 2987
+      },
+      "live": true
+    },
+    {
+      "id": "d1ff79a7-8007-5c04-8c9a-65833eefc9da",
+      "slug": "2026-10-05-uj-tesztekkel-veszi-fel-a-harcot-a-nasa-a-rejtelyes-jegkepzodessel",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "repülésbiztonság",
+        "technológia",
+        "időjárás",
+        "légiközlekedés"
+      ],
+      "title": "Új tesztekkel veszi fel a harcot a NASA a rejtélyes jégképződéssel",
+      "subtitle": null,
+      "lead": "A NASA eddigi szakértelmére támaszkodva és tesztlétesítményeit fejlesztve indított új programot egy ritka, de komoly repülési kockázat kezelésére. A kutatások középpontjában a szokatlanul nagy és rendkívül hideg vízcseppek okozta jegesedés áll.",
+      "key_points": [
+        "A NASA új tesztekkel vizsgálja a szuperhideg, nagy vízcseppek okozta jegesedési veszélyeket.",
+        "A probléma akkor lép fel, amikor a repülőgépek szokatlanul nagy méretű, fagypont alatti vízcseppeket tartalmazó felhőkön haladnak át.",
+        "A fejlesztések célja a légi közlekedés biztonságának növelése e ritka időjárási jelenségek közepette."
+      ],
+      "content": "A repülésbiztonságot fenyegető ritka, ám makacs jelenség ellen indított vizsgálatokat a NASA, amely a szervezet saját tesztlétesítményeit és szakértelmét hívja segítségül. Az úgynevezett szuperhideg, nagy vízcseppek okozta jegesedés akkor alakul ki, amikor a levegőben haladó járművek a szokásosnál jóval nagyobb méretű és rendkívül alacsony hőmérsékletű vízcseppekkel teli felhőkbe repülnek.\n\nBár az ilyen helyzetek ritkán fordulnak elő, a jelenség komoly kihívást jelent a légiközlekedési szakemberek számára, mivel a megszokott jégtelenítő rendszerek nem mindig nyújtanak teljes védelmet ellene. A mostani fejlesztések és tesztek pontosan azt célozzák, hogy a mérnökök jobban megértsék, miként csapódnak le és hűlnek át ezek a cseppek a szárnyakon, valamint a repülőgépek egyéb felületein.\n\nA NASA repüléstudományi kutatásai során nyert adatok alapvető fontosságúak ahhoz, hogy a jövőben hatékonyabb eljárásokat dolgozhassanak ki a gyártók és a légitársaságok számára. A program részeként a létesítmények modernizálása is zajlik, hogy laboratóriumi körülmények között is lehetséges legyen ezen extrém időjárási viszonyok pontos szimulációja.",
+      "content_format": "markdown",
+      "body": [
+        "A repülésbiztonságot fenyegető ritka, ám makacs jelenség ellen indított vizsgálatokat a NASA, amely a szervezet saját tesztlétesítményeit és szakértelmét hívja segítségül. Az úgynevezett szuperhideg, nagy vízcseppek okozta jegesedés akkor alakul ki, amikor a levegőben haladó járművek a szokásosnál jóval nagyobb méretű és rendkívül alacsony hőmérsékletű vízcseppekkel teli felhőkbe repülnek.",
+        "Bár az ilyen helyzetek ritkán fordulnak elő, a jelenség komoly kihívást jelent a légiközlekedési szakemberek számára, mivel a megszokott jégtelenítő rendszerek nem mindig nyújtanak teljes védelmet ellene. A mostani fejlesztések és tesztek pontosan azt célozzák, hogy a mérnökök jobban megértsék, miként csapódnak le és hűlnek át ezek a cseppek a szárnyakon, valamint a repülőgépek egyéb felületein.",
+        "A NASA repüléstudományi kutatásai során nyert adatok alapvető fontosságúak ahhoz, hogy a jövőben hatékonyabb eljárásokat dolgozhassanak ki a gyártók és a légitársaságok számára. A program részeként a létesítmények modernizálása is zajlik, hogy laboratóriumi körülmények között is lehetséges legyen ezen extrém időjárási viszonyok pontos szimulációja."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 180,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/NASA%27s_Shuttle_Carrier_Aircraft_905_%28front%29_and_911_%28rear%29.jpg/1280px-NASA%27s_Shuttle_Carrier_Aircraft_905_%28front%29_and_911_%28rear%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "For the first time ever, the  NASA Shuttle Carrier Aircraft 905 (foreground) and NASA 911 aircraft (rear) were captured together by photographer Carla Thomas as they flew in formation over the Rio Tin",
+        "credit": "NASA/Carla Thomas / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NASA%27s_Shuttle_Carrier_Aircraft_905_(front)_and_911_(rear).jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/image-article/nasa-testing-aims-at-supercooled-large-droplet-aviation-safety/",
+          "title": "NASA Testing Aims at Supercooled Large Droplet Aviation Safety",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-05T18:41:54+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.92,
+      "title_options": [
+        "Új tesztekkel veszi fel a harcot a NASA a rejtélyes jégképződéssel",
+        "Hatalmas vízcseppek fenyegetik a repülőket",
+        "A hideg cseppek veszélye: ezt teszi a NASA a fagyveszélyes felhők ellen",
+        "A láthatatlan fagyveszély, ami miatt átdolgozzák a repülésbiztonságot",
+        "Miért rettegnek a pilóták a különlegesen hideg vízcseppektől",
+        "Ezt a ritka és veszélyes jelenséget vizsgálja most a NASA laborjaiban"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/NASA%27s_Shuttle_Carrier_Aircraft_905_%28front%29_and_911_%28rear%29.jpg/1280px-NASA%27s_Shuttle_Carrier_Aircraft_905_%28front%29_and_911_%28rear%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "For the first time ever, the  NASA Shuttle Carrier Aircraft 905 (foreground) and NASA 911 aircraft (rear) were captured together by photographer Carla Thomas as they flew in formation over the Rio Tin",
+          "credit": "NASA/Carla Thomas / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NASA%27s_Shuttle_Carrier_Aircraft_905_(front)_and_911_(rear).jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Spray_System_Trials_in_the_Icing_Research_Tunnel_%28GRC-1949-C-24017%29.jpg/1280px-Spray_System_Trials_in_the_Icing_Research_Tunnel_%28GRC-1949-C-24017%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The spray bar system introduces water droplets into the Icing Research Tunnel’s air stream at the National Advisory Committee for Aeronautics (NACA) Lewis Flight Propulsion Laboratory. The icing tunne",
+          "credit": "NASA Glenn Research Center / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Spray_System_Trials_in_the_Icing_Research_Tunnel_(GRC-1949-C-24017).jpg",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Drive_Fan_of_the_NACA%27s_Icing_Research_Tunnel_%28GRC-1956-C-43289%29.jpg/1280px-Drive_Fan_of_the_NACA%27s_Icing_Research_Tunnel_%28GRC-1956-C-43289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A researcher examines the drive fan inside the Icing Research Tunnel at the National Advisory Committee for Aeronautics (NACA) Flight Propulsion Research Laboratory in Cleveland, Ohio. The facility wa",
+          "credit": "NASA Glenn Research Center / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Drive_Fan_of_the_NACA%27s_Icing_Research_Tunnel_(GRC-1956-C-43289).jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/GOES_East_Zooms_in_on_%E2%80%9CSupercool%E2%80%9D_Cloud_Phenomenon_Over_Florida_%28NESDIS_2020-06-11%29.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 740,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "If you watch the clouds in the image loop above closely, you will notice a phenomenon that meteorologists call fallstreak holes (also known as “hole punch clouds”). They appear right above and slightl",
+          "credit": "NOAA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:GOES_East_Zooms_in_on_%E2%80%9CSupercool%E2%80%9D_Cloud_Phenomenon_Over_Florida_(NESDIS_2020-06-11).gif",
+          "vision_score": 7.0
+        }
+      ],
+      "story": [
+        {
+          "title": "NASA Testing Aims at Supercooled Large Droplet Aviation Safety",
+          "link": "https://www.nasa.gov/image-article/nasa-testing-aims-at-supercooled-large-droplet-aviation-safety/",
+          "summary": "NASA is leveraging its expertise and enhancing its test facilities to help address a rare but persistent aviation hazard: icing that occurs when aircraft encounter unusually large, very cold water droplets in clouds. The problem, known as “supercooled large droplet icing,” occurs when aircraft fly through clouds containing unusually large drops of water that are […]",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": 5.92
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/image-article/nasa-testing-aims-at-supercooled-large-droplet-aviation-safety/"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/tech/2026-10-05-uj-tesztekkel-veszi-fel-a-harcot-a-nasa-a-rejtelyes-jegkepzodessel/",
+      "seo": {
+        "meta_title": "Új tesztekkel veszi fel a harcot a NASA a rejtélyes jégképző",
+        "meta_description": "A NASA eddigi szakértelmére támaszkodva és tesztlétesítményeit fejlesztve indított új programot egy ritka, de komoly repülési kockázat kezelésére. A kutatások k",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-05-uj-tesztekkel-veszi-fel-a-harcot-a-nasa-a-rejtelyes-jegkepzodessel/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/NASA%27s_Shuttle_Carrier_Aircraft_905_%28front%29_and_911_%28rear%29.jpg/1280px-NASA%27s_Shuttle_Carrier_Aircraft_905_%28front%29_and_911_%28rear%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "80ca84202cca89b8a6651c3def66e7046d825880c4cae5be03753eec637017d8",
+      "pipeline_run_id": "37341851281",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T18:41:54+02:00",
+      "updated_at": "2026-10-05T18:41:54+02:00",
+      "published_at": "2026-10-05T18:41:54+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 3,
+        "image": 0,
+        "sent_at": "2026-10-05T16:43:39+00:00",
+        "msg_ids": [
+          2988,
+          2989,
+          2990,
+          2991,
+          2992
+        ],
+        "control_id": 2993
+      }
+    },
+    {
+      "id": "41f9b564-4544-5384-959f-e062003eac3d",
+      "slug": "2026-10-05-engedhet-a-kormany-az-ukran-csatlakozasi-klasztereknel",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "EU-csatlakozás",
+        "Magyarország",
+        "Ukrajna",
+        "oktatási jogok",
+        "külpolitika"
+      ],
+      "title": "Engedhet a kormány az ukrán csatlakozási klasztereknél",
+      "subtitle": null,
+      "lead": "A magyar kormány enyhíthet álláspontján a blokkolt ukrán EU-csatlakozási klaszterek ügyében, miután törvényjavaslat keretében rendeznék a nemzeti kisebbségek oktatási jogait. A fejlemények új lendületet adhatnak az uniós integrációs folyamat eddig akadozó tárgyalásainak.",
+      "key_points": [
+        "A magyar kormány a négy blokkolt ukrán EU-csatlakozási klaszter közül kettő megnyitásánál tehet jelképes lépést.",
+        "A közeledés hátterében az áll, hogy az ukrán parlament elé kerül a nemzeti kisebbségek oktatási jogairól szóló törvényjavaslat.",
+        "Az intézkedés célja a két ország közötti vitás oktatási és jogi kérdések rendezése."
+      ],
+      "content": "Jelképes engedményre szánhatja el magát a kabinet az Ukrajna uniós csatlakozásával kapcsolatos vitákban. Az FT értesülései szerint a magyar fél a négy blokkolt csatlakozási klaszter közül kettőnek a megnyitásához hozzájárulhat.\n\nA diplomáciai mozgás azután indult meg, hogy bejelentették: az ukrán parlament elé kerül a nemzeti kisebbségek oktatási jogairól szóló törvényjavaslat. Ez a jogszabály hosszú idő óta a kétoldalú kapcsolatok egyik legfőbb vitatémája volt a kárpátaljai magyar kisebbség helyzete miatt.\n\nAz uniós csatlakozási folyamatban a klaszterek megnyitása kulcsfontosságú mérföldkő a tagjelölt országok számára. A magyar kormány eddig szigorú feltételekhez kötötte támogatását, különös tekintettel a nyelvi és oktatási jogok biztosítására.",
+      "content_format": "markdown",
+      "body": [
+        "Jelképes engedményre szánhatja el magát a kabinet az Ukrajna uniós csatlakozásával kapcsolatos vitákban. Az FT értesülései szerint a magyar fél a négy blokkolt csatlakozási klaszter közül kettőnek a megnyitásához hozzájárulhat.",
+        "A diplomáciai mozgás azután indult meg, hogy bejelentették: az ukrán parlament elé kerül a nemzeti kisebbségek oktatási jogairól szóló törvényjavaslat. Ez a jogszabály hosszú idő óta a kétoldalú kapcsolatok egyik legfőbb vitatémája volt a kárpátaljai magyar kisebbség helyzete miatt.",
+        "Az uniós csatlakozási folyamatban a klaszterek megnyitása kulcsfontosságú mérföldkő a tagjelölt országok számára. A magyar kormány eddig szigorú feltételekhez kötötte támogatását, különös tekintettel a nyelvi és oktatási jogok biztosítására."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 131,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg/1280px-European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "European Commission headquarters located in the Berlaymont building in the European quarters in Brussels, Belgium.\nEuropean Commission is the executive branch of the European Union (EU).",
+        "credit": "Ank Kumar / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:European_Commission_headquarters,_The_Berlaymont_Building,_Brussels,_Belgium_(_Ank_Kumar,_Infosys_Limited_).jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://telex.hu/kulfold/2026/10/05/eu-europai-unio-tanacsa-ukrajna-csatlakozas-blokkolas",
+          "title": "FT: A magyar kormány a négy blokkolt ukrán EU-csatlakozási klaszterből kettő megnyitásánál engedhet jelképes lépést",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T18:44:56+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.42,
+      "title_options": [
+        "Engedhet a kormány az ukrán csatlakozási klasztereknél",
+        "Oktatási törvény és EU-klaszterek: változás jöhet",
+        "Jelképes engedmény jöhet a brüsszeli tárgyalásokon",
+        "Váratlan fordulat: engedhet a kormány az ukrán EU-csatlakozási vitában",
+        "Itt a bejelentés: vajon megnyílnak az ukrán csatlakozási klaszterek?",
+        "Milyen jelképes lépésre készül Budapest az ukrán uniós csatlakozás ügyében?"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg/1280px-European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "European Commission headquarters located in the Berlaymont building in the European quarters in Brussels, Belgium.\nEuropean Commission is the executive branch of the European Union (EU).",
+          "credit": "Ank Kumar / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:European_Commission_headquarters,_The_Berlaymont_Building,_Brussels,_Belgium_(_Ank_Kumar,_Infosys_Limited_).jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 732,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Parliament building, Budapest",
+          "credit": "Dirk Beyer / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Parliament_4604.JPG",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/HUN-2015-Budapest-Hungarian_Parliament_%28Budapest%29_2015-02.jpg/1280px-HUN-2015-Budapest-Hungarian_Parliament_%28Budapest%29_2015-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Hungarian Parliament Building, Budapest, Hungary, 2015.",
+          "credit": "Godot13 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:HUN-2015-Budapest-Hungarian_Parliament_(Budapest)_2015-02.jpg",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "FT: A magyar kormány a négy blokkolt ukrán EU-csatlakozási klaszterből kettő megnyitásánál engedhet jelképes lépést",
+          "link": "https://telex.hu/kulfold/2026/10/05/eu-europai-unio-tanacsa-ukrajna-csatlakozas-blokkolas",
+          "summary": "A lap nem sokkal azután írt erről, hogy Orbán Anita külügyminiszter bejelentette: az ukrán parlament elé kerül a törvényjavaslat a nemzeti kisebbségek oktatási jogairól.",
+          "source": "telex.hu",
+          "related": null,
+          "hot_score": 5.42
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://telex.hu/kulfold/2026/10/05/eu-europai-unio-tanacsa-ukrajna-csatlakozas-blokkolas"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/kozelet/2026-10-05-engedhet-a-kormany-az-ukran-csatlakozasi-klasztereknel/",
+      "seo": {
+        "meta_title": "Engedhet a kormány az ukrán csatlakozási klasztereknél",
+        "meta_description": "A magyar kormány enyhíthet álláspontján a blokkolt ukrán EU-csatlakozási klaszterek ügyében, miután törvényjavaslat keretében rendeznék a nemzeti kisebbségek ok",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-engedhet-a-kormany-az-ukran-csatlakozasi-klasztereknel/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg/1280px-European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "f6b4616a439e38a56e7f1d2b4550ebe974b594830d7552659800123b02919654",
+      "pipeline_run_id": "37341851281",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T18:44:56+02:00",
+      "updated_at": "2026-10-05T18:44:56+02:00",
+      "published_at": "2026-10-05T18:44:56+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-05T16:46:37+00:00",
+        "msg_ids": [
+          2994,
+          2995,
+          2996,
+          2997
+        ],
+        "control_id": 2998
+      }
+    },
+    {
+      "id": "c2482a4e-7e22-5275-93b6-9fdb40f11ed3",
+      "slug": "2026-10-05-null",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Borízű hang",
+        "Magyar Péter",
+        "közélet",
+        "podcast",
+        "parlament"
+      ],
+      "title": "null",
+      "subtitle": null,
+      "lead": "A 444 Borízű hang című műsorának legfrissebb adásában a fideszes vezetéknevektől a parlamenti lakhatási kérdésekig számos hazai közügy terítékre került. A beszélgetésben szó esett többek között Magyar Péter római robogós útjáról is.",
+      "key_points": [
+        "Uj Péter, Sajó Dávid és Barkóczi szerkesztők elemezték a legújabb közéleti eseményeket.",
+        "A műsorban szóba került a parlamentben való életvitelszerű tartózkodás kérdése.",
+        "A szerkesztők boncolgatták, hogy legálisan vespázott-e Magyar Péter Rómában.",
+        "Megvizsgálták az elmúlt tizenhat év jellegzetes fideszes vezetékneveit is."
+      ],
+      "content": "A 444 szerkesztőségének podcastműsorában, a Borízű hang 288. adásában Uj Péter, Sajó Dávid és Barkóczi műsorvezetők vitatták meg az aktuális heti közéleti és nyelvtani témákat. A beszélgetés a nyelvkutatással indult, megemlítve Barczafalvi Szabó Dávid munkásságát az 1760–80-as évekből.\n\nA hazai politikum nyelvi sajátosságai mellett a közéleti szereplők lakhatási és autós ügyei is előkerültek. Emellett a fideszes politikusokhoz kapcsolódó járművek is témát szolgáltattak, külön kitérve a Totalcarnak köszönhetően ismertté vált Skoda Superbekre.\n\nAz adás második felében a külpolitikai kitekintések mellett a figyelom Magyar Péter római utazására terelődött. A „Magyar Péter Vespán” című blokkban a szerkesztők azt boncolgatták, hogy vajon teljesen legálisan pattant-e robogóra Rómában a politikus.",
+      "content_format": "markdown",
+      "body": [
+        "A 444 szerkesztőségének podcastműsorában, a Borízű hang 288. adásában Uj Péter, Sajó Dávid és Barkóczi műsorvezetők vitatták meg az aktuális heti közéleti és nyelvtani témákat. A beszélgetés a nyelvkutatással indult, megemlítve Barczafalvi Szabó Dávid munkásságát az 1760–80-as évekből.",
+        "A hazai politikum nyelvi sajátosságai mellett a közéleti szereplők lakhatási és autós ügyei is előkerültek. Emellett a fideszes politikusokhoz kapcsolódó járművek is témát szolgáltattak, külön kitérve a Totalcarnak köszönhetően ismertté vált Skoda Superbekre.",
+        "Az adás második felében a külpolitikai kitekintések mellett a figyelom Magyar Péter római utazására terelődött. A „Magyar Péter Vespán” című blokkban a szerkesztők azt boncolgatták, hogy vajon teljesen legálisan pattant-e robogóra Rómában a politikus."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 140,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Peter-Magyar-portrait-2026.jpg/1280px-Peter-Magyar-portrait-2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1599,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "High-resolution, freely reusable close-up portrait of Hungarian politician Péter Magyar, taken on 15 March 2026 during a national day demonstration at Heroes’ Square in Budapest, Hungary. The photogra",
+        "credit": "Norbert Banhalmi / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Peter-Magyar-portrait-2026.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=Qo_PkkZbF2k",
+          "title": "Tényfeltárás: legálisan vespázott Magyar Péter Rómában? | Borízű hang #288",
+          "publisher": "444.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T18:47:24+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Hogy lehet lakni a parlamentben?, és ez teljes komoly tárgyalás alá esett, hogy akkor a parlamentben életvitelszerű tartózkodás hogy történik.",
+        "who": "Uj Péter, a Borízű hang szerkesztője",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5,
+      "title_options": [
+        "null",
+        "Magyar Péter római robogózása és más közéleti furcsaságok",
+        "Vespa, nyelvújítás és a parlamentben lakás dilemmája",
+        "Vajon legálisan pattant robogóra Rómában Magyar Péter?",
+        "Ilyen vezetéknevekkel még nem találkozott a magyar közvélemény",
+        "Komoly viták tárgya lett a parlamentben való lakás kérdése"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Peter-Magyar-portrait-2026.jpg/1280px-Peter-Magyar-portrait-2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1599,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "High-resolution, freely reusable close-up portrait of Hungarian politician Péter Magyar, taken on 15 March 2026 during a national day demonstration at Heroes’ Square in Budapest, Hungary. The photogra",
+          "credit": "Norbert Banhalmi / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Peter-Magyar-portrait-2026.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Magyar_P%C3%A9ter_2024._%C3%A1prilis-%C3%A1n.jpg/1280px-Magyar_P%C3%A9ter_2024._%C3%A1prilis-%C3%A1n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Magyar Péter 2024. április-án",
+          "credit": "B. Molnár Béla / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Magyar_P%C3%A9ter_2024._%C3%A1prilis-%C3%A1n.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Piaggio_Vespa_Special_50cc_in_Arezzo.jpg/1280px-Piaggio_Vespa_Special_50cc_in_Arezzo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1234,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Piaggio Vespa Special 50cc in Arezzo",
+          "credit": "Livioandronico2013 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Piaggio_Vespa_Special_50cc_in_Arezzo.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://pixabay.com/get/ge0b3b80ce45b542313e7bc0dc384ab4d71b744079a5c74c4cafbb83583f041e2fb9f5a567b8cb54cc28cdd1e17544a6f6204ae4447c842f63dd07e3358bc2976_1280.jpg",
+          "width": 6000,
+          "height": 4000,
+          "kind": "photo",
+          "alt": "microphone, voice, sound, equipment, tool, performer, entertainment, microphone, microphone, microphone, microphone, microphone, voice, sound",
+          "credit": "spoiu23 / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/microphone-voice-sound-equipment-5594702/",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://pixabay.com/get/g9b11fc8bfa9ac49301ce014e196c5681f193deb455e5128fc826c600b482907f6fee87cd92e353a859f648a21f1618e1d57291f06d9f1f13ccf8527192d124cd_1280.jpg",
+          "width": 5168,
+          "height": 3448,
+          "kind": "photo",
+          "alt": "laptop, conference table, mouse, work, business, online, remote, microphone, podcast, podcast, podcast, podcast, podcast, podcast",
+          "credit": "jhenning / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/laptop-conference-table-mouse-work-7978588/",
+          "vision_score": 7.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Tényfeltárás: legálisan vespázott Magyar Péter Rómában? | Borízű hang #288",
+          "link": "https://www.youtube.com/watch?v=Qo_PkkZbF2k",
+          "summary": "Magyar Péter római Vespás utazása, nyelvtani és fideszes viccek, valamint közéleti és politikai témák a Borízű hang adásában.",
+          "source": "444.hu",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.youtube.com/watch?v=Qo_PkkZbF2k"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/kozelet/2026-10-05-null/",
+      "seo": {
+        "meta_title": "null",
+        "meta_description": "A 444 Borízű hang című műsorának legfrissebb adásában a fideszes vezetéknevektől a parlamenti lakhatási kérdésekig számos hazai közügy terítékre került. A beszé",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-null/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Peter-Magyar-portrait-2026.jpg/1280px-Peter-Magyar-portrait-2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "1a93b502918d7e75b38fca8a6a8ea073dc11db9970e9b762e62e172fc276ecaa",
+      "pipeline_run_id": "37341851281",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T18:47:24+02:00",
+      "updated_at": "2026-10-05T18:47:24+02:00",
+      "published_at": "2026-10-05T18:47:24+02:00",
+      "expires_at": null,
+      "hold": true,
+      "video": {
+        "id": "Qo_PkkZbF2k",
+        "title": "Tényfeltárás: legálisan vespázott Magyar Péter Rómában? | Borízű hang #288",
+        "channel": "444.hu",
+        "minutes": 48
+      },
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-05T16:48:31+00:00",
+        "msg_ids": [
+          2999,
+          3000,
+          3001,
+          3002,
+          3003,
+          3004
+        ],
+        "control_id": 3005
+      }
     }
   ]
 }
