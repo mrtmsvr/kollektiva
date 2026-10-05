@@ -1,7 +1,115 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-05T12:49:03+02:00",
+  "updated_at": "2026-10-05T15:11:06+02:00",
   "articles": [
+    {
+      "id": "d9392d15-7044-5d77-8402-346b5f8b7752",
+      "slug": "2026-10-05-otmilliard-felett-a-hiany-nehez-negyedev-zarult-a-koltsegvetesben",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "forint",
+        "dollár",
+        "infláció",
+        "költségvetés",
+        "tőzsde"
+      ],
+      "title": "Ötmilliárd felett a hiány: nehéz negyedév zárult a költségvetésben",
+      "subtitle": null,
+      "lead": "Újra a 370-es eurószintet kóstolgatja a magyar deviza, miközben a tőzsdén már a negyedéves gyorsjelentési szezont várják a befektetők. A dollár egyéves csúcson jár, ami komoly ellenszelet fúj a hazai pénztárcák felé.",
+      "key_points": [
+        "A dollár egyéves csúcson, az euró 370 közelében mozog.",
+        "Szeptemberben 92,8 milliárd forintos hiánnyal zárt az államháztartás központi alrendszere.",
+        "A pesti tőzsde pozitívan indította a hetet, a BUX index emelkedéssel rajtolt.",
+        "A hét közepén érkezik a szeptemberi inflációs adat és a Fed-jegyzőkönyv."
+      ],
+      "content": "Újra nehéz napokat él át a magyar fizetőeszköz a nemzetközi devizapiacon, miután a dollár az egyéves csúcsa közelében ragadt, az euró jegyzése pedig pénteken ismét a 370-es szintet súrolta. Hétfő reggel az euró 368,3 forintnál, a dollár pedig 329 forint körül mozog, miután a Portfolio.hu beszámolója szerint a fejlett hosszú hozamok is több éve nem látott rekordokat döntenek. A forint számára különösen rosszul jött ez az össztűz, hiszen a harmadik negyedévben hirtelen a leggyengébb teljesítményt nyújtó devizák közé sodródott az év eleji lendület után.\n\nA gyengülő árfolyamok mellett a hazai költségvetés helyzetéről is friss adatok láttak napvilágot. Ezzel párhuzamosan a finisébe érkezett a 2027-es költségvetés tervezése, ami a hétvégi kihelyezett kormányülésen is központi témát jelentett.\n\nA nemzetközi részvénypiacokon ugyanakkor sokkal jobb volt a hangulat a hét első napján. A múlt pénteken ismertetett, a vártnál gyengébb amerikai munkaerőpiaci adatok azonnal csökkentették annak valószínűségét, hogy az amerikai jegybank kamatot emelne, ez pedig megnyugtatta a befektetőket. Az ázsiai börzék is határozott pluszban zártak, a japán Nikkei például 2,4 százalékkal erősödött, miközben a pesti tőzsde is felfelé indult, a BUX index pedig 0,4 százalékos emelkedéssel 140 596 ponton rajtolt.\n\nA következő napokban a gazdasági naptár legfontosabb eseményei gyökeresen átírhatják a piaci várakozásokat. Kedden Kurali Zoltán, az MNB alelnöke tart előadást az euróbevezetésről, szerdán pedig érkezik a friss, szeptemberi inflációs adat, valamint a Fed várt jegyzőkönyve. Nemzetközi fronton eközben elindul a harmadik negyedéves vállalati gyorsjelentési szezon is az Egyesült Államokban, ami szintén új irányt szabhat a globális tőzsdéknek.",
+      "content_format": "markdown",
+      "body": [
+        "Újra nehéz napokat él át a magyar fizetőeszköz a nemzetközi devizapiacon, miután a dollár az egyéves csúcsa közelében ragadt, az euró jegyzése pedig pénteken ismét a 370-es szintet súrolta. Hétfő reggel az euró 368,3 forintnál, a dollár pedig 329 forint körül mozog, miután a Portfolio.hu beszámolója szerint a fejlett hosszú hozamok is több éve nem látott rekordokat döntenek. A forint számára különösen rosszul jött ez az össztűz, hiszen a harmadik negyedévben hirtelen a leggyengébb teljesítményt nyújtó devizák közé sodródott az év eleji lendület után.",
+        "A gyengülő árfolyamok mellett a hazai költségvetés helyzetéről is friss adatok láttak napvilágot. Ezzel párhuzamosan a finisébe érkezett a 2027-es költségvetés tervezése, ami a hétvégi kihelyezett kormányülésen is központi témát jelentett.",
+        "A nemzetközi részvénypiacokon ugyanakkor sokkal jobb volt a hangulat a hét első napján. A múlt pénteken ismertetett, a vártnál gyengébb amerikai munkaerőpiaci adatok azonnal csökkentették annak valószínűségét, hogy az amerikai jegybank kamatot emelne, ez pedig megnyugtatta a befektetőket. Az ázsiai börzék is határozott pluszban zártak, a japán Nikkei például 2,4 százalékkal erősödött, miközben a pesti tőzsde is felfelé indult, a BUX index pedig 0,4 százalékos emelkedéssel 140 596 ponton rajtolt.",
+        "A következő napokban a gazdasági naptár legfontosabb eseményei gyökeresen átírhatják a piaci várakozásokat. Kedden Kurali Zoltán, az MNB alelnöke tart előadást az euróbevezetésről, szerdán pedig érkezik a friss, szeptemberi inflációs adat, valamint a Fed várt jegyzőkönyve. Nemzetközi fronton eközben elindul a harmadik negyedéves vállalati gyorsjelentési szezon is az Egyesült Államokban, ami szintén új irányt szabhat a globális tőzsdéknek."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 282,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/1e8b9f2d39195e52.jpg",
+        "width": 5812,
+        "height": 3875,
+        "kind": "photo",
+        "alt": "stock, trading, monitor, business, finance, exchange, investment, market, trade, data, graph, economy, financial, currency, chart, information, technology, profit, forex, rate, foreign exchange, analy",
+        "credit": "3844328 / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/stock-trading-monitor-business-1863880/",
+        "vision_score": 9.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/1e8b9f2d39195e52.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/deviza/20261005/egyeves-csucsan-a-dollar-a-forint-a-hazai-adatokra-var-867310",
+          "title": "Egyéves csúcsán a dollár, a forint a hazai adatokra vár",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T14:54:33+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/penz-es-tokepiac/2026/10/toszdenyitas-otp-mol-bux-olaj-forint-dollar-euro?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Jól indul a nap a tőzsdén: ugrik a Mol árfolyama, csak az OTP ragadt be a rajtnál – bivalyerős dollár tartja nyomás alatt a forintot",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T14:54:33+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-05T15:11:06+02:00"
+      },
+      "hot_score": 7.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/deviza/20261005/egyeves-csucsan-a-dollar-a-forint-a-hazai-adatokra-var-867310"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/penzvilag/2026-10-05-otmilliard-felett-a-hiany-nehez-negyedev-zarult-a-koltsegvetesben/",
+      "seo": {
+        "meta_title": "Ötmilliárd felett a hiány: nehéz negyedév zárult a költségve",
+        "meta_description": "Újra a 370-es eurószintet kóstolgatja a magyar deviza, miközben a tőzsdén már a negyedéves gyorsjelentési szezont várják a befektetők. A dollár egyéves csúcson ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-05-otmilliard-felett-a-hiany-nehez-negyedev-zarult-a-koltsegvetesben/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/1e8b9f2d39195e52.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "f07d1dbe937fdeee14a06ffe3a8caeacac71e48a6a0dfd2395fb3f1130d52eab",
+      "pipeline_run_id": "37311794645",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T15:11:06+02:00",
+      "updated_at": "2026-10-05T15:11:06+02:00",
+      "published_at": "2026-10-05T15:11:06+02:00",
+      "expires_at": null
+    },
     {
       "id": "f9e9e082-b882-5869-98c8-13fa44348164",
       "slug": "2026-10-05-harmincket-millios-juttatas-tavozaskor-igy-bucsuztak-bus-balazstol",

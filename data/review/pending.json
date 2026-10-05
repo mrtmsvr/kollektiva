@@ -9229,9 +9229,9 @@
       "live": true
     },
     {
-      "id": "7e710ef0-f094-5044-954d-4c4bdffbc197",
-      "slug": "2026-10-05-370-nel-remeg-a-forint-de-a-tozsde-maris-rakapcsolt",
-      "status": "pending",
+      "id": "d9392d15-7044-5d77-8402-346b5f8b7752",
+      "slug": "2026-10-05-otmilliard-felett-a-hiany-nehez-negyedev-zarult-a-koltsegvetesben",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -9241,7 +9241,7 @@
         "költségvetés",
         "tőzsde"
       ],
-      "title": "370-nél remeg a forint, de a tőzsde máris rákapcsolt",
+      "title": "Ötmilliárd felett a hiány: nehéz negyedév zárult a költségvetésben",
       "subtitle": null,
       "lead": "Újra a 370-es eurószintet kóstolgatja a magyar deviza, miközben a tőzsdén már a negyedéves gyorsjelentési szezont várják a befektetők. A dollár egyéves csúcson jár, ami komoly ellenszelet fúj a hazai pénztárcák felé.",
       "key_points": [
@@ -9263,15 +9263,16 @@
       "word_count": 282,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://pixabay.com/get/g5e6c9d0b993beddabe567bc6f39836da049d2ee12267c2fd244eeb74274682a5f0dcff97fa361969a4076cf94624cf3decf5cd27dab5d37d6f78819cb88d5020_1280.jpg",
-        "width": 4608,
-        "height": 3456,
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/1e8b9f2d39195e52.jpg",
+        "width": 5812,
+        "height": 3875,
         "kind": "photo",
-        "alt": "blur, chart, computer, data, finance, graph, growth, line graph, stock exchange, stock market, technology, trading, data, finance, finance, graph, stock market, stock market, stock market, stock marke",
-        "credit": "Pexels / Pixabay",
+        "alt": "stock, trading, monitor, business, finance, exchange, investment, market, trade, data, graph, economy, financial, currency, chart, information, technology, profit, forex, rate, foreign exchange, analy",
+        "credit": "3844328 / Pixabay",
         "license": "Pixabay License",
-        "source_url": "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
-        "vision_score": 9.0
+        "source_url": "https://pixabay.com/photos/stock-trading-monitor-business-1863880/",
+        "vision_score": 9.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/1e8b9f2d39195e52.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -9406,12 +9407,12 @@
       },
       "date": "2026-10-05",
       "date_label": "október 5.",
-      "url": "/penzvilag/2026-10-05-370-nel-remeg-a-forint-de-a-tozsde-maris-rakapcsolt/",
+      "url": "/penzvilag/2026-10-05-otmilliard-felett-a-hiany-nehez-negyedev-zarult-a-koltsegvetesben/",
       "seo": {
-        "meta_title": "370-nél remeg a forint, de a tőzsde máris rákapcsolt",
+        "meta_title": "Ötmilliárd felett a hiány: nehéz negyedév zárult a költségve",
         "meta_description": "Újra a 370-es eurószintet kóstolgatja a magyar deviza, miközben a tőzsdén már a negyedéves gyorsjelentési szezont várják a befektetők. A dollár egyéves csúcson ",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-05-370-nel-remeg-a-forint-de-a-tozsde-maris-rakapcsolt/",
-        "og_image": "https://pixabay.com/get/g5e6c9d0b993beddabe567bc6f39836da049d2ee12267c2fd244eeb74274682a5f0dcff97fa361969a4076cf94624cf3decf5cd27dab5d37d6f78819cb88d5020_1280.jpg",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-05-otmilliard-felett-a-hiany-nehez-negyedev-zarult-a-koltsegvetesben/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/1e8b9f2d39195e52.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -9428,9 +9429,9 @@
       "dedupe_hash": "f07d1dbe937fdeee14a06ffe3a8caeacac71e48a6a0dfd2395fb3f1130d52eab",
       "pipeline_run_id": "37311794645",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T14:54:33+02:00",
-      "updated_at": "2026-10-05T14:54:33+02:00",
-      "published_at": "2026-10-05T14:54:33+02:00",
+      "created_at": "2026-10-05T15:11:06+02:00",
+      "updated_at": "2026-10-05T15:11:06+02:00",
+      "published_at": "2026-10-05T15:11:06+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -9450,7 +9451,8 @@
           2778
         ],
         "control_id": 2779
-      }
+      },
+      "live": true
     },
     {
       "id": "c19bd379-3d2c-5d3e-b8ed-5bb30c54f89f",
