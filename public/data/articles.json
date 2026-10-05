@@ -1,7 +1,105 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-05T18:50:21+02:00",
+  "updated_at": "2026-10-05T18:51:38+02:00",
   "articles": [
+    {
+      "id": "41f9b564-4544-5384-959f-e062003eac3d",
+      "slug": "2026-10-05-engedhet-a-kormany-az-ukran-csatlakozasi-klasztereknel",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "EU-csatlakozás",
+        "Magyarország",
+        "Ukrajna",
+        "oktatási jogok",
+        "külpolitika"
+      ],
+      "title": "Engedhet a kormány az ukrán csatlakozási klasztereknél",
+      "subtitle": null,
+      "lead": "A magyar kormány enyhíthet álláspontján a blokkolt ukrán EU-csatlakozási klaszterek ügyében, miután törvényjavaslat keretében rendeznék a nemzeti kisebbségek oktatási jogait. A fejlemények új lendületet adhatnak az uniós integrációs folyamat eddig akadozó tárgyalásainak.",
+      "key_points": [
+        "A magyar kormány a négy blokkolt ukrán EU-csatlakozási klaszter közül kettő megnyitásánál tehet jelképes lépést.",
+        "A közeledés hátterében az áll, hogy az ukrán parlament elé kerül a nemzeti kisebbségek oktatási jogairól szóló törvényjavaslat.",
+        "Az intézkedés célja a két ország közötti vitás oktatási és jogi kérdések rendezése."
+      ],
+      "content": "Jelképes engedményre szánhatja el magát a kabinet az Ukrajna uniós csatlakozásával kapcsolatos vitákban. Az FT értesülései szerint a magyar fél a négy blokkolt csatlakozási klaszter közül kettőnek a megnyitásához hozzájárulhat.\n\nA diplomáciai mozgás azután indult meg, hogy bejelentették: az ukrán parlament elé kerül a nemzeti kisebbségek oktatási jogairól szóló törvényjavaslat. Ez a jogszabály hosszú idő óta a kétoldalú kapcsolatok egyik legfőbb vitatémája volt a kárpátaljai magyar kisebbség helyzete miatt.\n\nAz uniós csatlakozási folyamatban a klaszterek megnyitása kulcsfontosságú mérföldkő a tagjelölt országok számára. A magyar kormány eddig szigorú feltételekhez kötötte támogatását, különös tekintettel a nyelvi és oktatási jogok biztosítására.",
+      "content_format": "markdown",
+      "body": [
+        "Jelképes engedményre szánhatja el magát a kabinet az Ukrajna uniós csatlakozásával kapcsolatos vitákban. Az FT értesülései szerint a magyar fél a négy blokkolt csatlakozási klaszter közül kettőnek a megnyitásához hozzájárulhat.",
+        "A diplomáciai mozgás azután indult meg, hogy bejelentették: az ukrán parlament elé kerül a nemzeti kisebbségek oktatási jogairól szóló törvényjavaslat. Ez a jogszabály hosszú idő óta a kétoldalú kapcsolatok egyik legfőbb vitatémája volt a kárpátaljai magyar kisebbség helyzete miatt.",
+        "Az uniós csatlakozási folyamatban a klaszterek megnyitása kulcsfontosságú mérföldkő a tagjelölt országok számára. A magyar kormány eddig szigorú feltételekhez kötötte támogatását, különös tekintettel a nyelvi és oktatási jogok biztosítására."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 131,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/41f9b56445-1791219066-1.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/41f9b56445-1791219066-1.jpg",
+        "kind": "photo",
+        "alt": "Engedhet a kormány az ukrán csatlakozási klasztereknél",
+        "likeness": false,
+        "credit": "Kollektíva illusztráció",
+        "license": "saját grafika",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://telex.hu/kulfold/2026/10/05/eu-europai-unio-tanacsa-ukrajna-csatlakozas-blokkolas",
+          "title": "FT: A magyar kormány a négy blokkolt ukrán EU-csatlakozási klaszterből kettő megnyitásánál engedhet jelképes lépést",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T18:44:56+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-05T18:51:38+02:00"
+      },
+      "hot_score": 5.42,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://telex.hu/kulfold/2026/10/05/eu-europai-unio-tanacsa-ukrajna-csatlakozas-blokkolas"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/kozelet/2026-10-05-engedhet-a-kormany-az-ukran-csatlakozasi-klasztereknel/",
+      "seo": {
+        "meta_title": "Engedhet a kormány az ukrán csatlakozási klasztereknél",
+        "meta_description": "A magyar kormány enyhíthet álláspontján a blokkolt ukrán EU-csatlakozási klaszterek ügyében, miután törvényjavaslat keretében rendeznék a nemzeti kisebbségek ok",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-engedhet-a-kormany-az-ukran-csatlakozasi-klasztereknel/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/41f9b56445-1791219066-1.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "f6b4616a439e38a56e7f1d2b4550ebe974b594830d7552659800123b02919654",
+      "pipeline_run_id": "37341851281",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T18:51:38+02:00",
+      "updated_at": "2026-10-05T18:51:38+02:00",
+      "published_at": "2026-10-05T18:51:38+02:00",
+      "expires_at": null
+    },
     {
       "id": "0b62563c-e786-5f7b-a1ee-aa0d6377d07c",
       "slug": "2026-10-05-magyar-peter-romai-robogozasa-es-mas-kozeleti-furcsasagok",

@@ -11278,7 +11278,7 @@
     {
       "id": "41f9b564-4544-5384-959f-e062003eac3d",
       "slug": "2026-10-05-engedhet-a-kormany-az-ukran-csatlakozasi-klasztereknel",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -11308,16 +11308,15 @@
       "word_count": 131,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg/1280px-European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 800,
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/41f9b56445-1791219066-1.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/41f9b56445-1791219066-1.jpg",
         "kind": "photo",
-        "pos": "center",
-        "alt": "European Commission headquarters located in the Berlaymont building in the European quarters in Brussels, Belgium.\nEuropean Commission is the executive branch of the European Union (EU).",
-        "credit": "Ank Kumar / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:European_Commission_headquarters,_The_Berlaymont_Building,_Brussels,_Belgium_(_Ank_Kumar,_Infosys_Limited_).jpg",
-        "vision_score": 8.0
+        "alt": "Engedhet a kormány az ukrán csatlakozási klasztereknél",
+        "likeness": false,
+        "credit": "Kollektíva illusztráció",
+        "license": "saját grafika",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
       },
       "inline_images": [],
       "sources": [
@@ -11430,7 +11429,7 @@
         "meta_title": "Engedhet a kormány az ukrán csatlakozási klasztereknél",
         "meta_description": "A magyar kormány enyhíthet álláspontján a blokkolt ukrán EU-csatlakozási klaszterek ügyében, miután törvényjavaslat keretében rendeznék a nemzeti kisebbségek ok",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-engedhet-a-kormany-az-ukran-csatlakozasi-klasztereknel/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg/1280px-European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/41f9b56445-1791219066-1.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -11447,9 +11446,9 @@
       "dedupe_hash": "f6b4616a439e38a56e7f1d2b4550ebe974b594830d7552659800123b02919654",
       "pipeline_run_id": "37341851281",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T18:44:56+02:00",
-      "updated_at": "2026-10-05T18:44:56+02:00",
-      "published_at": "2026-10-05T18:44:56+02:00",
+      "created_at": "2026-10-05T18:51:38+02:00",
+      "updated_at": "2026-10-05T18:51:38+02:00",
+      "published_at": "2026-10-05T18:51:38+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -11472,7 +11471,8 @@
           3013
         ],
         "control_id": 3014
-      }
+      },
+      "live": true
     },
     {
       "id": "0b62563c-e786-5f7b-a1ee-aa0d6377d07c",
