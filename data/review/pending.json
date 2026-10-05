@@ -9465,6 +9465,739 @@
         "control_id": 2622
       },
       "live": true
+    },
+    {
+      "id": "32a6ab13-7f5a-5612-94f6-9f2ab401f0da",
+      "slug": "2026-10-05-a-forint-az-ev-eleji-csucsrol-hirtelen-a-regio-sereghajtoi-koze-csusz",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "forint",
+        "devizapiac",
+        "állampapír",
+        "gazdaság",
+        "Portfolio"
+      ],
+      "title": "A forint az év eleji csúcsról hirtelen a régió sereghajtói közé csúszott",
+      "subtitle": null,
+      "lead": "Az év első felében még a világ legjobban teljesítő devizái közé tartozott a forint, a harmadik negyedévben azonban a nemzetközi hangulat változása miatt hirtelen a régiós rangsor végére esett vissza. A Portfolio összegzése szerint a gyengüléssel párhuzamosan az állampapírok hozamai is emelkedésnek indultak a nyári mélypontról.",
+      "key_points": [
+        "Az év első kilenc hónapját tekintve a forint még mindig a nyertesek között van, de tavaszi erősödése szinte teljesen elolvadt.",
+        "A harmadik negyedévben a forint közel 4%-ot gyengült, ami nemzetközi összehasonlításban is kifejezetten rossz teljesítménynek számít.",
+        "A devizapiaci folyamatokhoz hasonlóan a magyar állampapírok tízéves referenciahozama is emelkedésnek indult az 5%-os mélypontról."
+      ],
+      "content": "Kiválóan indult a 2026-os év a magyar fizetőeszköz számára: az első félévben a tavaszi választásokat megelőző várakozások és a Tisza Párt győzelme nyomán a világ élvonalába emelkedett a hazai deviza. Beke Károly elemzése szerint áprilisban a forint az egyhavi teljesítményeket tekintve világelső volt, és a lendület nagyjából június végéig, a második negyedév lezárásáig ki is tartott.\n\nA nemzetközi hangulat az elmúlt hetekben jelentősen megváltozott, a dollár erősödésével párhuzamosan pedig a magyar fizetőeszköz is nyomás alá került. A harmadik negyedévben a forint közel 4%-ot esett, amivel világviszonylatban is az alulteljesítők közé sodródott, miközben a román lej, a lengyel zloty és a cseh korona is jelentős gyengülést szenvedett el az év eleje óta.\n\nA devizapiaci folyamatokkal összhangban a magyar állampapírpiacon is markáns korrekció ment végbe a nyár eleji állapothoz képest. A leginkább figyelt, tízéves referencia-államkötvény hozama az 5% körüli mélypontról 5,7%-ra emelkedett, ami 70-80 bázispontos emelkedést jelent az elmúlt hetekben.",
+      "content_format": "markdown",
+      "body": [
+        "Kiválóan indult a 2026-os év a magyar fizetőeszköz számára: az első félévben a tavaszi választásokat megelőző várakozások és a Tisza Párt győzelme nyomán a világ élvonalába emelkedett a hazai deviza. Beke Károly elemzése szerint áprilisban a forint az egyhavi teljesítményeket tekintve világelső volt, és a lendület nagyjából június végéig, a második negyedév lezárásáig ki is tartott.",
+        "A nemzetközi hangulat az elmúlt hetekben jelentősen megváltozott, a dollár erősödésével párhuzamosan pedig a magyar fizetőeszköz is nyomás alá került. A harmadik negyedévben a forint közel 4%-ot esett, amivel világviszonylatban is az alulteljesítők közé sodródott, miközben a román lej, a lengyel zloty és a cseh korona is jelentős gyengülést szenvedett el az év eleje óta.",
+        "A devizapiaci folyamatokkal összhangban a magyar állampapírpiacon is markáns korrekció ment végbe a nyár eleji állapothoz képest. A leginkább figyelt, tízéves referencia-államkötvény hozama az 5% körüli mélypontról 5,7%-ra emelkedett, ami 70-80 bázispontos emelkedést jelent az elmúlt hetekben."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 200,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://pixabay.com/get/g3467cdda3933fea1c291d2e3bd8849b7b956fa4c00cb062cd988f71a2b5cc9438193cab3132f8ea80976e4fd33b5b208eab76667c7a538c397aaf6ccd7d6b250_1280.jpg",
+        "width": 4608,
+        "height": 3456,
+        "kind": "photo",
+        "alt": "blur, chart, computer, data, finance, graph, growth, line graph, stock exchange, stock market, technology, trading, data, finance, finance, graph, stock market, stock market, stock market, stock marke",
+        "credit": "Pexels / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
+        "vision_score": 9.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261005/kiszeretett-magyarorszagbol-a-piac-csak-egy-szavaba-kerul-a-kormanynak-felmelegiteni-a-kapcsolatot-867052",
+          "title": "Kiszeretett Magyarországból a piac? Csak egy szavába kerül a kormánynak felmelegíteni a kapcsolatot",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T06:04:54+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "A forint az év eleji csúcsról hirtelen a régió sereghajtói közé csúszott",
+        "A dollár erősödése húzta le a magyar devizát a nyár második felében",
+        "Hová tűnt a forint tavaszi világbajnoki formája a harmadik negyedévben?",
+        "Kiderült, miért olvadt el egyetlen negyedév alatt a forint összes előnye",
+        "A világ legrosszabbul teljesítő devizái közé csúszott vissza a magyar fizetőeszköz",
+        "Mi okozta a hirtelen fordulatot a deviza- és kötvénypiacon?"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://pixabay.com/get/g3467cdda3933fea1c291d2e3bd8849b7b956fa4c00cb062cd988f71a2b5cc9438193cab3132f8ea80976e4fd33b5b208eab76667c7a538c397aaf6ccd7d6b250_1280.jpg",
+          "width": 4608,
+          "height": 3456,
+          "kind": "photo",
+          "alt": "blur, chart, computer, data, finance, graph, growth, line graph, stock exchange, stock market, technology, trading, data, finance, finance, graph, stock market, stock market, stock market, stock marke",
+          "credit": "Pexels / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://pixabay.com/get/g4acd76751c8fc423fcf17e6d6209c8add95a11e1848fa3194bbf0ee59d1a5e9591a9ae8807864541cc813bb217dfea82227ed0c2b9461b6239f666805183c65f_1280.jpg",
+          "width": 5812,
+          "height": 3875,
+          "kind": "photo",
+          "alt": "stock, trading, monitor, business, finance, exchange, investment, market, trade, data, graph, economy, financial, currency, chart, information, technology, profit, forex, rate, foreign exchange, analy",
+          "credit": "3844328 / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/stock-trading-monitor-business-1863880/",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/100_Forint_Comemmorative_Army_Front.jpg/1280px-100_Forint_Comemmorative_Army_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The forint was released on 2023 May 22 as a comemmoration of the Hungarian Army.",
+          "credit": "ByRussia45 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:100_Forint_Comemmorative_Army_Front.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/50_Forint_Comemmorative_Ambulance_Front.jpg/1280px-50_Forint_Comemmorative_Ambulance_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The coin was released on 2023 May 9 as a comemmoration of the establishment of the Hungarian Ambulance Services.",
+          "credit": "ByRussia45 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:50_Forint_Comemmorative_Ambulance_Front.jpg",
+          "vision_score": 6.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Kiszeretett Magyarországból a piac? Csak egy szavába kerül a kormánynak felmelegíteni a kapcsolatot",
+          "link": "https://www.portfolio.hu/gazdasag/20261005/kiszeretett-magyarorszagbol-a-piac-csak-egy-szavaba-kerul-a-kormanynak-felmelegiteni-a-kapcsolatot-867052",
+          "summary": "Kiválóan indult az év a forint számára, az első félévben semmi panaszunk nem lehetett. Az elmúlt hetekben aztán nagyot fordult a nemzetközi hangulat, a dollár erősödésével párhuzamosan megint megtapasztalhattuk, milyen az, amikor komoly szelek tépázzák a magyar deviza vitorláját. Így mostanra az a faramuci helyzet állt elő, hogy az év első kilenc hónapját nézve még mindig a legnagyobb nyertesek között van a forint a piacon, de a korábbi erősödés szinte teljesen elolvadt, a harmadik negyedévben pedig hirtelen a toplista másik végén találtuk magunkat. Hasonló folyamat ment végbe a kötvénypiacon ",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261005/kiszeretett-magyarorszagbol-a-piac-csak-egy-szavaba-kerul-a-kormanynak-felmelegiteni-a-kapcsolatot-867052"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/kozelet/2026-10-05-a-forint-az-ev-eleji-csucsrol-hirtelen-a-regio-sereghajtoi-koze-csusz/",
+      "seo": {
+        "meta_title": "A forint az év eleji csúcsról hirtelen a régió sereghajtói k",
+        "meta_description": "Az év első felében még a világ legjobban teljesítő devizái közé tartozott a forint, a harmadik negyedévben azonban a nemzetközi hangulat változása miatt hirtele",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-a-forint-az-ev-eleji-csucsrol-hirtelen-a-regio-sereghajtoi-koze-csusz/",
+        "og_image": "https://pixabay.com/get/g3467cdda3933fea1c291d2e3bd8849b7b956fa4c00cb062cd988f71a2b5cc9438193cab3132f8ea80976e4fd33b5b208eab76667c7a538c397aaf6ccd7d6b250_1280.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "3c78b43d250e811da249c181d9fc00f12f1d50b8185ca0cbf0e68916eb0e76f1",
+      "pipeline_run_id": "37261475753",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T06:04:54+02:00",
+      "updated_at": "2026-10-05T06:04:54+02:00",
+      "published_at": "2026-10-05T06:04:54+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-05T04:05:55+00:00",
+        "msg_ids": [
+          2652,
+          2653,
+          2654,
+          2655,
+          2656
+        ],
+        "control_id": 2657
+      }
+    },
+    {
+      "id": "98a56993-ad0b-524f-b58c-74fe9fe72b97",
+      "slug": "2026-10-05-brandyt-kortyolgatott-a-hotelszobaban-a-rendezo-miutan-eljatszotta-a",
+      "status": "pending",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Krzysztof Zanussi",
+        "filmfesztivál",
+        "Velencei Filmfesztivál",
+        "Kultúra",
+        "interjú"
+      ],
+      "title": "Brandyt kortyolgatott a hotelszobában a rendező, miután eljátszotta a szívrohamot",
+      "subtitle": null,
+      "lead": "A 87 éves Krzysztof Zanussi lengyel filmrendező nemrégiben fejezte be munkáját a lengyel filmfesztivál zsűrielnökeként. Egy friss interjúban mesélt arról, hogyan működik valójában a zsűritagok harca, és milyen drámai pillanatok kísérik a legnagyobb nemzetközi filmfesztiválokat.",
+      "key_points": [
+        "Krzysztof Zanussi 87 évesen, a lengyel filmfesztivál zsűrielnökeként beszélt a filmes világ kulisszatitkairól.",
+        "Felidézte az 1985-ös velencei filmfesztivált, ahol Eugene Ionesco elájult egy hétórás film vetítése alatt.",
+        "A rendező vallomása szerint a filmesek sosem állnak a díjak felett, az ego mindenkinél megköveteli a magáét."
+      ],
+      "content": "A művészvilágban sokszor hangoztatják az alkotók, hogy a szakmai elismerések és a díjak nem érdeklik őket, ám a hvg.hu által megkérdezett Krzysztof Zanussi lengyel rendezőlegenda szerint ez csupán illúzió. A 87 éves filmes – aki korábban a Kaczynski-érában a harminc éven át vezetett állami produkciós cégét is elveszítette a változások közepette – nyíltan beszélt arról, hogy az ego mindenkinél megköveteli a magáét.\n\nZanussi saját tapasztalataira alapozva felidézte, hogy a fesztiválok zsűrijeiben zajló küzdelem sokszor a nagypolitikához hasonlít, ahol a résztvevők gyakran nem valamiért, hanem valami ellen harcolnak. Amikor ő maga tölti be az elnöki pozíciót, mindig arra kéri a kollégáit, hogy a nekik nem tetsző alkotásokat ne szidják hangosan, hanem csupán hagyják figyelmen kívül, mert a nyílt ellenségeskedés csak feszültséget szül.\n\nA rendező hosszú pályafutása során számos emlékezetes pillanatot élt át a világ legjelentősebb szemléin, így az 1985-ös velencei filmfesztiválon is, ahol Frank Capra és Eugene Ionesco mellett ő maga volt a zsűri elnöke. Ekkor vetítették le Manoel de Oliveira hétórás művét, A selyemcipőt, amelynek elviselhetetlenül hosszú és színpadias megoldásai annyira megviselték a jelenlévőket, hogy Ionesco rosszul lett, és a mentők elszállították.\n\nA fesztiválok világa ritkán múlik el sértődések nélkül, amit Zanussi saját karrierje is igazolt:",
+      "content_format": "markdown",
+      "body": [
+        "A művészvilágban sokszor hangoztatják az alkotók, hogy a szakmai elismerések és a díjak nem érdeklik őket, ám a hvg.hu által megkérdezett Krzysztof Zanussi lengyel rendezőlegenda szerint ez csupán illúzió. A 87 éves filmes – aki korábban a Kaczynski-érában a harminc éven át vezetett állami produkciós cégét is elveszítette a változások közepette – nyíltan beszélt arról, hogy az ego mindenkinél megköveteli a magáét.",
+        "Zanussi saját tapasztalataira alapozva felidézte, hogy a fesztiválok zsűrijeiben zajló küzdelem sokszor a nagypolitikához hasonlít, ahol a résztvevők gyakran nem valamiért, hanem valami ellen harcolnak. Amikor ő maga tölti be az elnöki pozíciót, mindig arra kéri a kollégáit, hogy a nekik nem tetsző alkotásokat ne szidják hangosan, hanem csupán hagyják figyelmen kívül, mert a nyílt ellenségeskedés csak feszültséget szül.",
+        "A rendező hosszú pályafutása során számos emlékezetes pillanatot élt át a világ legjelentősebb szemléin, így az 1985-ös velencei filmfesztiválon is, ahol Frank Capra és Eugene Ionesco mellett ő maga volt a zsűri elnöke. Ekkor vetítették le Manoel de Oliveira hétórás művét, A selyemcipőt, amelynek elviselhetetlenül hosszú és színpadias megoldásai annyira megviselték a jelenlévőket, hogy Ionesco rosszul lett, és a mentők elszállították.",
+        "A fesztiválok világa ritkán múlik el sértődések nélkül, amit Zanussi saját karrierje is igazolt:"
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 232,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Krzysztof_Zanussi_at_Kino_pod_Baranami_in_Krak%C3%B3w.jpg/1280px-Krzysztof_Zanussi_at_Kino_pod_Baranami_in_Krak%C3%B3w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Krzysztof Zanussi at Kino pod Baranami in Kraków, after the premiere screening of his film Eter.",
+        "credit": "Franek Vetulani / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Krzysztof_Zanussi_at_Kino_pod_Baranami_in_Krak%C3%B3w.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/elet/20261004_hvg-krzysztof-zanussi-lengyel-filmrendezo-interju-tarkovszkij-68",
+          "title": "Krzysztof Zanussi lengyel rendezőlegenda: Jól tudtuk, ha rossz irányt vesznek a dolgok, elég megnézni, mi történik Magyarországon",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T06:06:11+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Eugene szeretné, ha írásba adnád, hogy megbocsátasz",
+        "who": "Eugene Ionesco felesége",
+        "after": 2
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Brandyt kortyolgatott a hotelszobában a rendező, miután eljátszotta a szívrohamot",
+        "Hétórás film, eljátszott szívroham és egy lengyel rendezőlegenda vallomása",
+        "Amikor Ionesco infarktust tettetett a cannes-i filmfesztivál egyik legnehezebb vetítésén",
+        "Hét órán át tartó film kínjait mentette meg egy Oscar-díjas rendező barátjának eljátszott szívrohama",
+        "Soha nem találnád ki, mivel védekezett a rendező, amikor hét órás filmre ültették be",
+        "Brandy a hotelszobában: így menekült meg a halálosan unalmas filmvetítéstől a világhírű drámaíró"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Krzysztof_Zanussi_at_Kino_pod_Baranami_in_Krak%C3%B3w.jpg/1280px-Krzysztof_Zanussi_at_Kino_pod_Baranami_in_Krak%C3%B3w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Krzysztof Zanussi at Kino pod Baranami in Kraków, after the premiere screening of his film Eter.",
+          "credit": "Franek Vetulani / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Krzysztof_Zanussi_at_Kino_pod_Baranami_in_Krak%C3%B3w.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Krzysztof_Zanussi-2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1508,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Krzysztof Zanussi",
+          "credit": "Ejdzej / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Krzysztof_Zanussi-2008.jpg",
+          "vision_score": 9.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Krzysztof Zanussi lengyel rendezőlegenda: Jól tudtuk, ha rossz irányt vesznek a dolgok, elég megnézni, mi történik Magyarországon",
+          "link": "https://hvg.hu/elet/20261004_hvg-krzysztof-zanussi-lengyel-filmrendezo-interju-tarkovszkij-68",
+          "summary": "A Kaczynski-érában „bezárták a produkciós cégemet, állami volt, 30 éve vezettem. Mit tehettek volna még?” – beszél a hazájában letűnt rendszerről a 87 éves Krzysztof Zanussi, a nemrég véget ért lengyel filmfesztivál zsűrielnöke, akinek a Magyarországon letűnt rendszerről is voltak élményei. Miért hazugság szerinte, hogy valakit nem érdekelnek a díjak? Miért orrolt meg rá Godard, és milyen volt, amikor Ionesco szívrohamot tettetett egy hét és fél órás film alatt?",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/elet/20261004_hvg-krzysztof-zanussi-lengyel-filmrendezo-interju-tarkovszkij-68"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/kultura/2026-10-05-brandyt-kortyolgatott-a-hotelszobaban-a-rendezo-miutan-eljatszotta-a/",
+      "seo": {
+        "meta_title": "Brandyt kortyolgatott a hotelszobában a rendező, miután eljá",
+        "meta_description": "A 87 éves Krzysztof Zanussi lengyel filmrendező nemrégiben fejezte be munkáját a lengyel filmfesztivál zsűrielnökeként. Egy friss interjúban mesélt arról, hogya",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-05-brandyt-kortyolgatott-a-hotelszobaban-a-rendezo-miutan-eljatszotta-a/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Krzysztof_Zanussi_at_Kino_pod_Baranami_in_Krak%C3%B3w.jpg/1280px-Krzysztof_Zanussi_at_Kino_pod_Baranami_in_Krak%C3%B3w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "c353cca9ef1c67d75bc31153d6945fb3924e5df27c5e0875dd6ed42f78e6ecbe",
+      "pipeline_run_id": "37261475753",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T06:06:11+02:00",
+      "updated_at": "2026-10-05T06:06:11+02:00",
+      "published_at": "2026-10-05T06:06:11+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-05T04:07:17+00:00",
+        "msg_ids": [
+          2658,
+          2659,
+          2660
+        ],
+        "control_id": 2661
+      }
+    },
+    {
+      "id": "39b3ab47-b912-5bb9-a6b1-18b3dff46807",
+      "slug": "2026-10-05-anakondanak-hivtak-hajos-andrast-a-bolcsiben",
+      "status": "pending",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Hajós András",
+        "Heti Hetes",
+        "RTL",
+        "bulvár",
+        "televízió"
+      ],
+      "title": "Anakondának hívták Hajós Andrást a bölcsiben",
+      "subtitle": null,
+      "lead": "Váratlan és mulatságos gyerekkori beceneveket árultak el a Heti Hetes sztárjai az RTL népszerű műsorának évadzáró adásában. A szünetre vonuló produkcióban a humor és a csípős beszólások mellett a múltidézés vitte a főszerepet.",
+      "key_points": [
+        "Az RTL közéleti, szórakoztató műsora, a Heti Hetes átmeneti szünetre vonult.",
+        "A szünet előtti utolsó adásban a megszokott csapat mellett Lakatos Laci stand-upos is szerepelt.",
+        "Nagy Ádám műsorvezető felvetésére a szereplők felidézték legmókásabb gyerekkori beceneveiket.",
+        "Hajós András elárulta, hogy a bölcsődében Anakondának hívták, ami nagy nevetést váltott ki."
+      ],
+      "content": "Igazi poéncunamival és felejthetetlen pillanatokkal búcsúzott a nézőktől átmeneti időre az RTL képernyőjén futó Heti Hetes. A szünet előtti utolsó adásban a megszokott sztárcsapat – Kovalcsik Ildikó Lilu, Kajdi Csaba Cyla, Hajós András, Hevér Gábor és Linczényi Márkó – mellett Lakatos Laci stand-up humorista is csatlakozott a stúdióhoz.\n\nA labdát Hevér Gábor színész csapta le elsőként, aki elárulta, hogy őt az álló haja miatt a bölcsődében Süninek hívták. Ezt követően Hajós András dalszerző, zenész, televíziós műsorkészítő és humorista is megosztott a közönséggel egy eddig ismeretlen kulisszatitkot a múltjából, amelyen a blikk.hu beszámolója szerint a teljes stúdió szakadt a nevetéstől.\n\nLilu tréfásan megjegyezte, hogy a kollégája ennél magasabb szinten van, ám Kajdi Csaba úgy fogalmazott, hogy ennél jobb becenevet nem is kaphatott volna.\n\nA vasárnapi adás után a nézőknek most egy ideig türelmesnek kell lenniük, ugyanis a Heti Hetes átmenetileg lekerül a képernyőről. Az RTL tájékoztatása alapján a produkció csak az Álarcos énekes legújabb évadának lezárulta után tér majd vissza a megszokott pörgős adásokkal.",
+      "content_format": "markdown",
+      "body": [
+        "Igazi poéncunamival és felejthetetlen pillanatokkal búcsúzott a nézőktől átmeneti időre az RTL képernyőjén futó Heti Hetes. A szünet előtti utolsó adásban a megszokott sztárcsapat – Kovalcsik Ildikó Lilu, Kajdi Csaba Cyla, Hajós András, Hevér Gábor és Linczényi Márkó – mellett Lakatos Laci stand-up humorista is csatlakozott a stúdióhoz.",
+        "A labdát Hevér Gábor színész csapta le elsőként, aki elárulta, hogy őt az álló haja miatt a bölcsődében Süninek hívták. Ezt követően Hajós András dalszerző, zenész, televíziós műsorkészítő és humorista is megosztott a közönséggel egy eddig ismeretlen kulisszatitkot a múltjából, amelyen a blikk.hu beszámolója szerint a teljes stúdió szakadt a nevetéstől.",
+        "Lilu tréfásan megjegyezte, hogy a kollégája ennél magasabb szinten van, ám Kajdi Csaba úgy fogalmazott, hogy ennél jobb becenevet nem is kaphatott volna.",
+        "A vasárnapi adás után a nézőknek most egy ideig türelmesnek kell lenniük, ugyanis a Heti Hetes átmenetileg lekerül a képernyőről. Az RTL tájékoztatása alapján a produkció csak az Álarcos énekes legújabb évadának lezárulta után tér majd vissza a megszokott pörgős adásokkal."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 196,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/HajosAndras.jpg/1280px-HajosAndras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1027,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "András Hajós, Hungarian singer at the Millenáris Velodrom in 2008.",
+        "credit": "Hu Totya / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:HajosAndras.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/heti-hetes-hajos-andras-becenev-anakonda/ptdy39c",
+          "title": "„Engem Anakondában hívtak már a bölcsiben is” – Hajós András gyerekkori becenevén szakadt a nevetéstől a Heti Hetes csapata",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T06:07:34+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Engem Anakondának, nem tudom, miért, már a bölcsiben is",
+        "who": "Hajós András, humorista és műsorvezető",
+        "after": 2
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Anakondának hívták Hajós Andrást a bölcsiben",
+        "Süni és Anakonda: vad becenevek buktak ki a Heti Hetesben",
+        "Meglepő gyerekkori becenevekkel rukkolt elő a Heti Hetes stábja",
+        "Senki sem hitte volna el, milyen becenevet kapott Hajós András gyerekkorában",
+        "Ezt a bizarr gyerekkori titkot árulta el magáról Hajós András a stúdióban",
+        "Ilyen becenévvel nem lehet leélni egy életet: megdöbbentő titok derült ki"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/HajosAndras.jpg/1280px-HajosAndras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1027,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "András Hajós, Hungarian singer at the Millenáris Velodrom in 2008.",
+          "credit": "Hu Totya / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:HajosAndras.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Haj%C3%B3s-Andr%C3%A1s-210917-still1.png/1280px-Haj%C3%B3s-Andr%C3%A1s-210917-still1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Hajós András egyik arca 2021. szeptember 17-én (részlet a videóból)",
+          "credit": "SZERVÁC Attila / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Haj%C3%B3s-Andr%C3%A1s-210917-still1.png"
+        },
+        {
+          "url": "https://pixabay.com/get/g23ed9b199f4401b48e84ff15a61fac79fc333996ebc56a760bc847e230e47881bdf091b6b7ec67f9e38514ff078fc05bf594e7f7036a0f43ebdce4ee171f250c_1280.jpg",
+          "width": 4928,
+          "height": 3264,
+          "kind": "photo",
+          "alt": "theatre, musical, dance, stage, artistic stage dance, ballet, performance, aladin, visitors, viewers, theatre, theatre, theatre, theatre, theatre",
+          "credit": "HolgersFotografie / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/theatre-musical-dance-stage-1477670/"
+        },
+        {
+          "url": "https://pixabay.com/get/g5f3db4b77ae1ac8cedb440a5825f726c48d60e96a7b8a9039605f23cba6704e3085449bc6f414f9405327fd6f389e6d3b4d0b8cdd0d7777b81d958f9a4d11b47_1280.jpg",
+          "width": 4000,
+          "height": 3000,
+          "kind": "photo",
+          "alt": "curtain, stage, theatre, red, curtain, curtain, curtain, curtain, curtain, stage, stage, theatre, theatre",
+          "credit": "Dieter_G / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/curtain-stage-theatre-red-941716/"
+        },
+        {
+          "url": "https://live.staticflickr.com/2172/2053816509_d19673f307_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Arcade (Pantages) Theatre stage",
+          "credit": "laasB / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/97807252@N00/2053816509"
+        },
+        {
+          "url": "https://live.staticflickr.com/4176/34540653542_7de72d04c4_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Israel-05684 - Theatre Stage",
+          "credit": "archer10 (Dennis) / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/22490717@N02/34540653542"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Main_stage_in_Nowy_Theatre_in_Zabrze%2C_June_2021.jpg/1280px-Main_stage_in_Nowy_Theatre_in_Zabrze%2C_June_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Main stage in Nowy Theatre in Zabrze, June 2021",
+          "credit": "MichalPL / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Main_stage_in_Nowy_Theatre_in_Zabrze,_June_2021.jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "„Engem Anakondában hívtak már a bölcsiben is” – Hajós András gyerekkori becenevén szakadt a nevetéstől a Heti Hetes csapata",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/heti-hetes-hajos-andras-becenev-anakonda/ptdy39c",
+          "summary": "Igazi poéncunamival és felejthetetlen pillanatokkal vonul átmeneti pihenőre az RTL népszerű műsora, a Heti Hetes. A szünet előtti utolsó adásban a megszokott sztárcsapathoz – Liluhoz, Kajdi Csabához, Hajós Andráshoz, Hevér Gáborhoz és Linczényi Márkóhoz – a népszerű stand-upos, Lakatos Laci is csatlakozott. A műsor elején Nagy Ádám műsorvezető felvetésére a hetes fogat felidézte a legmókásabb gyerekkori beceneveiket is, Hajós Andrásé hallatán pedig azonnal nevetésben tört ki a stúdió.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/heti-hetes-hajos-andras-becenev-anakonda/ptdy39c"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/bulvar/2026-10-05-anakondanak-hivtak-hajos-andrast-a-bolcsiben/",
+      "seo": {
+        "meta_title": "Anakondának hívták Hajós Andrást a bölcsiben",
+        "meta_description": "Váratlan és mulatságos gyerekkori beceneveket árultak el a Heti Hetes sztárjai az RTL népszerű műsorának évadzáró adásában. A szünetre vonuló produkcióban a hum",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-05-anakondanak-hivtak-hajos-andrast-a-bolcsiben/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/HajosAndras.jpg/1280px-HajosAndras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "ee3e3834fc38649fec14c357d52c8dbc9169ef9d38ae64955b673aef92157d91",
+      "pipeline_run_id": "37261475753",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T06:07:34+02:00",
+      "updated_at": "2026-10-05T06:07:34+02:00",
+      "published_at": "2026-10-05T06:07:34+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-05T04:08:28+00:00",
+        "msg_ids": [
+          2662,
+          2663,
+          2664,
+          2665,
+          2666,
+          2667,
+          2668,
+          2669
+        ],
+        "control_id": 2670
+      }
+    },
+    {
+      "id": "23fb4d50-74c3-5b51-aac7-b424eb8c8ecd",
+      "slug": "2026-10-05-nem-a-dicsosegert-csak-egy-darab-raketaert-igy-keszul-a-nasa-az-ujabb",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "űrkutatás",
+        "Hold",
+        "Artemis",
+        "technológia"
+      ],
+      "title": "Nem a dicsőségért, csak egy darab rakétáért: így készül a NASA az újabb holdutazásra",
+      "subtitle": null,
+      "lead": "Richard Spolzino nem dicsőségre vagy konkrét küldetésekre hajt, hanem arra, hogy a keze nyomát lássa a Hold felé tartó űreszközökön. A NASA jelenlegi missziói és a közelgő Artemis-program hátterében az emberi jelenlét kiterjesztése és a technológiai kihívások leküzdése áll.",
+      "key_points": [
+        "Richard Spolzino számára a legfontosabb az alkotás fizikai közelsége a 3D-nyomtatott rakétaalkatrészeknél.",
+        "A NASA az Artemis-program keretében készül a Holdra való visszatérésre.",
+        "Az ügynökség jelenleg is számos technológiai és orvostudományi kihívással néz szembe az űrutazás terén."
+      ],
+      "content": "„Csak azt akarom mondani egy rakétakilövést nézve, hogy »megérintettem egy darabot ebből«” – fogalmazta meg motivációját Richard Spolzino a NASA anyagai szerint. A szakember nem címeket vagy konkrét tisztségeket kerget, hanem a kézzelfogható valóságot: azt a pillanatot, amikor egy fizikai tárgyról tudja, hogy a munkája révén válhatott valóvá.\n\nAz űrkutatási hivatal jelenlegi tevékenysége rendkívül széles skálán mozog a Holdra való visszatérést célzó Artemis-programtól kezdve a Nemzetközi Űrállomáson (ISS) végzett kutatásokig. A NASA szakemberei emellett olyan összetett projekteken dolgoznak, mint a James Webb űrtávcső adatok elemzése vagy a kereskedelmi űrutazási kezdeményezések támogatása.\n\nA mindennapi fejlesztések során a mérnököknek olyan speciális problémákat kell megoldaniuk, mint az alacsony Föld körüli pályán utazó asztronauták testhőmérsékletének monitorozása vagy a vérrögképződés megelőzése a világűrben. Ezek a tudományos kihívások mind hozzájárulnak ahhoz, hogy az emberiség biztonságosan terjeszthesse ki jelenlétét a Naprendszerben.",
+      "content_format": "markdown",
+      "body": [
+        "„Csak azt akarom mondani egy rakétakilövést nézve, hogy »megérintettem egy darabot ebből«” – fogalmazta meg motivációját Richard Spolzino a NASA anyagai szerint. A szakember nem címeket vagy konkrét tisztségeket kerget, hanem a kézzelfogható valóságot: azt a pillanatot, amikor egy fizikai tárgyról tudja, hogy a munkája révén válhatott valóvá.",
+        "Az űrkutatási hivatal jelenlegi tevékenysége rendkívül széles skálán mozog a Holdra való visszatérést célzó Artemis-programtól kezdve a Nemzetközi Űrállomáson (ISS) végzett kutatásokig. A NASA szakemberei emellett olyan összetett projekteken dolgoznak, mint a James Webb űrtávcső adatok elemzése vagy a kereskedelmi űrutazási kezdeményezések támogatása.",
+        "A mindennapi fejlesztések során a mérnököknek olyan speciális problémákat kell megoldaniuk, mint az alacsony Föld körüli pályán utazó asztronauták testhőmérsékletének monitorozása vagy a vérrögképződés megelőzése a világűrben. Ezek a tudományos kihívások mind hozzájárulnak ahhoz, hogy az emberiség biztonságosan terjeszthesse ki jelenlétét a Naprendszerben."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 174,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Moon_surface_10k.png/1280px-Moon_surface_10k.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 675,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Moon surface",
+        "credit": "Wikideas1 / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Moon_surface_10k.png"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/",
+          "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-05T06:08:57+02:00"
+        }
+      ],
+      "quote": {
+        "text": "I want to be able to look at a rocket launch and say, ‘I touched a piece of this.’",
+        "who": "Richard Spolzino",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.73,
+      "title_options": [
+        "Nem a dicsőségért, csak egy darab rakétáért: így készül a NASA az újabb holdutazásra",
+        "A mindennapi rakétáktól a Holdig: ki az a Richard Spolzino, aki nyomot hagyna a történelemben?",
+        "Amikor egyetlen kéznyom a cél: bepillantás a NASA kulisszái mögé",
+        "Ezt a különös vágyat kergeti a NASA egyik kulcsembere",
+        "Nem akart címet vagy küldetést, mégis ez a NASA legfontosabb célja",
+        "Ez az ember nem dicsőséget akar, hanem valami sokkal kézzelfoghatóbbat a Hold felé vezető úton"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Moon_surface_10k.png/1280px-Moon_surface_10k.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Moon surface",
+          "credit": "Wikideas1 / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Moon_surface_10k.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Aldrin_Apollo_11.jpg/1280px-Aldrin_Apollo_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1200,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Short description: Astronaut Buzz Aldrin on the Moon\nFull description: Astronaut Buzz Aldrin, Lunar Module pilot, walks on the surface of the Moon near the leg of the Lunar Module (LM) \"Eagle\" during",
+          "credit": "Neil A. Armstrong / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Artemis-program-infographic.webp/1280px-Artemis-program-infographic.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 864,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A graphic illustrating NASA’s increased cadence of Artemis missions.",
+          "credit": "Unknown authorUnknown author / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Artemis-program-infographic.webp",
+          "vision_score": 7.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
+          "link": "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/",
+          "summary": "“I want to be able to look at a rocket launch and say, ‘I touched a piece of this.’” That’s how Richard Spolzino describes the thing he’s chasing. Not a title, not a specific mission, not even NASA itself, just the ability to point at something real and know his work made it possible. At […]",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": 5.73
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/tech/2026-10-05-nem-a-dicsosegert-csak-egy-darab-raketaert-igy-keszul-a-nasa-az-ujabb/",
+      "seo": {
+        "meta_title": "Nem a dicsőségért, csak egy darab rakétáért: így készül a NA",
+        "meta_description": "Richard Spolzino nem dicsőségre vagy konkrét küldetésekre hajt, hanem arra, hogy a keze nyomát lássa a Hold felé tartó űreszközökön. A NASA jelenlegi missziói é",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-05-nem-a-dicsosegert-csak-egy-darab-raketaert-igy-keszul-a-nasa-az-ujabb/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Moon_surface_10k.png/1280px-Moon_surface_10k.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "05d15f32c580a094b074c6bd0c4b72eaf8b2f6aa399040eabc9657d9233b125d",
+      "pipeline_run_id": "37261475753",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T06:08:57+02:00",
+      "updated_at": "2026-10-05T06:08:57+02:00",
+      "published_at": "2026-10-05T06:08:57+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-05T04:10:06+00:00",
+        "msg_ids": [
+          2671,
+          2672,
+          2673,
+          2674
+        ],
+        "control_id": 2675
+      }
     }
   ]
 }
