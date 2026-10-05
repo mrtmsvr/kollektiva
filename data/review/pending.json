@@ -8803,9 +8803,9 @@
       }
     },
     {
-      "id": "9458122e-a0c4-5608-bf50-48721781c7f4",
-      "slug": "2026-10-05-tragedia-patagoniaban-elsodorta-a-lavina-a-29-eves-sibajnokot",
-      "status": "pending",
+      "id": "8b2598d8-631d-5089-b6af-4053f5c284f6",
+      "slug": "2026-10-05-tragikus-hirtelenseggel-29-evesen-vesztette-eletet-a-hires-sportolo",
+      "status": "published",
       "category": "bulvar",
       "subcategory": null,
       "tags": [
@@ -8815,7 +8815,7 @@
         "tragédia",
         "Patagónia"
       ],
-      "title": "Tragédia Patagóniában: elsodorta a lavina a 29 éves síbajnokot",
+      "title": "Tragikus hirtelenséggel, 29 évesen vesztette életét a híres sportoló",
       "subtitle": null,
       "lead": "Tragikus balesetben életét vesztette Juliette Willmann francia profi síelő, akit férjével közös argentínai sítúrájuk során sodort el egy hatalmas lavina a Cerro Creston hegyen. A sportoló utolsó Instagram-bejegyzésében még arról mesélt, mekkora szerencsének érzi patagóniai utazásukat.",
       "key_points": [
@@ -8925,11 +8925,11 @@
       },
       "date": "2026-10-05",
       "date_label": "október 5.",
-      "url": "/bulvar/2026-10-05-tragedia-patagoniaban-elsodorta-a-lavina-a-29-eves-sibajnokot/",
+      "url": "/bulvar/2026-10-05-tragikus-hirtelenseggel-29-evesen-vesztette-eletet-a-hires-sportolo/",
       "seo": {
-        "meta_title": "Tragédia Patagóniában: elsodorta a lavina a 29 éves síbajnok",
+        "meta_title": "Tragikus hirtelenséggel, 29 évesen vesztette életét a híres ",
         "meta_description": "Tragikus balesetben életét vesztette Juliette Willmann francia profi síelő, akit férjével közös argentínai sítúrájuk során sodort el egy hatalmas lavina a Cerro",
-        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-05-tragedia-patagoniaban-elsodorta-a-lavina-a-29-eves-sibajnokot/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-05-tragikus-hirtelenseggel-29-evesen-vesztette-eletet-a-hires-sportolo/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/2007-02-15-CLB-Couloir2-1c.JPG/1280px-2007-02-15-CLB-Couloir2-1c.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -8947,9 +8947,9 @@
       "dedupe_hash": "87500a579ab2afd41b9706e8370fcaea4dfc551709eb5b4caee924429a35d1dc",
       "pipeline_run_id": "37282860297",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T10:33:12+02:00",
-      "updated_at": "2026-10-05T10:33:12+02:00",
-      "published_at": "2026-10-05T10:33:12+02:00",
+      "created_at": "2026-10-05T10:36:36+02:00",
+      "updated_at": "2026-10-05T10:36:36+02:00",
+      "published_at": "2026-10-05T10:36:36+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -8965,7 +8965,8 @@
           2742
         ],
         "control_id": 2743
-      }
+      },
+      "live": true
     }
   ]
 }
