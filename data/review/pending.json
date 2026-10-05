@@ -10325,7 +10325,7 @@
     {
       "id": "2994f80f-d487-5b0c-863f-cbe56bdddf16",
       "slug": "2026-10-05-ismet-a-bosszuallok-lett-a-legtobb-bevetelt-hozo-film",
-      "status": "pending",
+      "status": "published",
       "category": "kultura",
       "subcategory": null,
       "tags": [
@@ -10357,16 +10357,16 @@
       "word_count": 226,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/North_American_Domestic_Box_Office.png/1280px-North_American_Domestic_Box_Office.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Marvel_Studios_Inc.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "width": 1200,
-        "height": 714,
+        "height": 675,
         "kind": "photo",
         "pos": "center",
-        "alt": "A chart depicting the cumulative domestic box office gross of Avatar (2009), Avengers: Endgame (2019), Avengers: Infinity War (2018), Black Panther (2018), and Star Wars: The Force Awakens (2015) over",
-        "credit": "Philip Terry Graham / Wikimedia Commons",
-        "license": "CC0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:North_American_Domestic_Box_Office.png",
-        "vision_score": 8.0
+        "alt": "Marvel Studios Inc logo",
+        "credit": "Hyva 007 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Marvel_Studios_Inc.webp",
+        "vision_score": 5.0
       },
       "inline_images": [],
       "sources": [
@@ -10454,7 +10454,7 @@
         "meta_title": "Ismét a Bosszúállók lett a legtöbb bevételt hozó film",
         "meta_description": "Hét évvel a bemutatója után ismét a Bosszúállók: Végjáték lett minden idők legtöbb bevételt hozó mozifilme. A Ráadás elnevezéssel visszatérő Marvel-alkotás mind",
         "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-05-ismet-a-bosszuallok-lett-a-legtobb-bevetelt-hozo-film/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/North_American_Domestic_Box_Office.png/1280px-North_American_Domestic_Box_Office.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Marvel_Studios_Inc.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -10479,9 +10479,9 @@
       "dedupe_hash": "3880a6b9d9f92080064bc783e999ed6bff3cd6ce5cf7c761fed2743510ec65be",
       "pipeline_run_id": "37325945711",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T16:52:07+02:00",
-      "updated_at": "2026-10-05T16:52:07+02:00",
-      "published_at": "2026-10-05T16:52:07+02:00",
+      "created_at": "2026-10-05T17:00:08+02:00",
+      "updated_at": "2026-10-05T17:00:08+02:00",
+      "published_at": "2026-10-05T17:00:08+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10513,7 +10513,8 @@
       ],
       "images_seen": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/North_American_Domestic_Box_Office.png/1280px-North_American_Domestic_Box_Office.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "7f5080ea-06a4-5f95-8938-5580544c0d89",
