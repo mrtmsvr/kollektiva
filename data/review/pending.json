@@ -8468,48 +8468,47 @@
       "live": true
     },
     {
-      "id": "23fb4d50-74c3-5b51-aac7-b424eb8c8ecd",
-      "slug": "2026-10-05-nem-a-dicsosegert-csak-egy-darab-raketaert-igy-keszul-a-nasa-az-ujabb",
-      "status": "needs_review",
+      "id": "2e778717-1ef8-5340-ae65-2936a3d9c05f",
+      "slug": "2026-10-05-felterkepezi-a-nasa-mi-hianyzik-meg-a-holdraszallashoz",
+      "status": "pending",
       "category": "tech",
       "subcategory": null,
       "tags": [
         "NASA",
-        "űrkutatás",
         "Hold",
         "Artemis",
-        "technológia"
+        "űrkutatás",
+        "kommunikáció"
       ],
-      "title": "Nem a dicsőségért, csak egy darab rakétáért: így készül a NASA az újabb holdutazásra",
+      "title": "Feltérképezi a NASA, mi hiányzik még a holdraszálláshoz",
       "subtitle": null,
-      "lead": "Richard Spolzino nem dicsőségre vagy konkrét küldetésekre hajt, hanem arra, hogy a keze nyomát lássa a Hold felé tartó űreszközökön. A NASA jelenlegi missziói és a közelgő Artemis-program hátterében az emberi jelenlét kiterjesztése és a technológiai kihívások leküzdése áll.",
+      "lead": "A NASA átfogó vizsgálatban veszi sorra az emberes holdraszálláshoz szükséges technológiai és logisztikai hiányosságokat Richard Spolzino közreműködésével.",
       "key_points": [
-        "Richard Spolzino számára a legfontosabb az alkotás fizikai közelsége a 3D-nyomtatott rakétaalkatrészeknél.",
-        "A NASA az Artemis-program keretében készül a Holdra való visszatérésre.",
-        "Az ügynökség jelenleg is számos technológiai és orvostudományi kihívással néz szembe az űrutazás terén."
+        "Richard Spolzino bevonásával elemzik, milyen technikai hiányosságok maradtak a NASA holdi visszatérési programjában.",
+        "A programmal párhuzamosan a Boeing Starliner felülvizsgálata és a Nemzetközi Űrállomásra tartó Crew-13 indítása is napirenden van."
       ],
-      "content": "„Csak azt akarom mondani egy rakétakilövést nézve, hogy »megérintettem egy darabot ebből«” – fogalmazta meg motivációját Richard Spolzino a NASA anyagai szerint. A szakember nem címeket vagy konkrét tisztségeket kerget, hanem a kézzelfogható valóságot: azt a pillanatot, amikor egy fizikai tárgyról tudja, hogy a munkája révén válhatott valóvá.\n\nAz űrkutatási hivatal jelenlegi tevékenysége rendkívül széles skálán mozog a Holdra való visszatérést célzó Artemis-programtól kezdve a Nemzetközi Űrállomáson (ISS) végzett kutatásokig. A NASA szakemberei emellett olyan összetett projekteken dolgoznak, mint a James Webb űrtávcső adatok elemzése vagy a kereskedelmi űrutazási kezdeményezések támogatása.\n\nA mindennapi fejlesztések során a mérnököknek olyan speciális problémákat kell megoldaniuk, mint az alacsony Föld körüli pályán utazó asztronauták testhőmérsékletének monitorozása vagy a vérrögképződés megelőzése a világűrben. Ezek a tudományos kihívások mind hozzájárulnak ahhoz, hogy az emberiség biztonságosan terjeszthesse ki jelenlétét a Naprendszerben.",
+      "content": "Részletes elemzésben tárja fel a NASA azokat a kritikus műszaki és infrastrukturális hiányosságokat, amelyek még megoldásra várnak az emberes holdmissziók újraindítása előtt. A projektben Richard Spolzino szakértelmére támaszkodva készítenek pontos helyzetképet arról, milyen rendszerek nem állnak még készen arra, hogy űrhajósokat juttassanak a déli sarkvidékre, és biztosítsák a tartós felszíni jelenlétet.\n\nA verseny célja, hogy működőképes koncepciókat találjon a leendő emberes holdkompok és a földi irányítás közötti, nagy távolságú kommunikáció zavartalan fenntartására. A felszíni műveletek során ugyanis a terepviszonyok, az árnyékolt kráterek és a szélsőséges rádiókörnyezet jelentős akadályt jelentenek a folyamatos adatforgalom előtt.\n\nA holdi felkészülés mellett az űrhivatal a mindennapi emberes repülések frontján is szoros menetrenddel dolgozik. A NASA a napokban frissítette a kereskedelmi Boeing Starliner űrhajó fejlesztési terveit a korábbi tesztrepülések tapasztalatai alapján, miközben már kitűzte a Nemzetközi Űrállomásra induló Crew-13 küldetés indítási és dokkolási közvetítésének részleteit is.",
       "content_format": "markdown",
       "body": [
-        "„Csak azt akarom mondani egy rakétakilövést nézve, hogy »megérintettem egy darabot ebből«” – fogalmazta meg motivációját Richard Spolzino a NASA anyagai szerint. A szakember nem címeket vagy konkrét tisztségeket kerget, hanem a kézzelfogható valóságot: azt a pillanatot, amikor egy fizikai tárgyról tudja, hogy a munkája révén válhatott valóvá.",
-        "Az űrkutatási hivatal jelenlegi tevékenysége rendkívül széles skálán mozog a Holdra való visszatérést célzó Artemis-programtól kezdve a Nemzetközi Űrállomáson (ISS) végzett kutatásokig. A NASA szakemberei emellett olyan összetett projekteken dolgoznak, mint a James Webb űrtávcső adatok elemzése vagy a kereskedelmi űrutazási kezdeményezések támogatása.",
-        "A mindennapi fejlesztések során a mérnököknek olyan speciális problémákat kell megoldaniuk, mint az alacsony Föld körüli pályán utazó asztronauták testhőmérsékletének monitorozása vagy a vérrögképződés megelőzése a világűrben. Ezek a tudományos kihívások mind hozzájárulnak ahhoz, hogy az emberiség biztonságosan terjeszthesse ki jelenlétét a Naprendszerben."
+        "Részletes elemzésben tárja fel a NASA azokat a kritikus műszaki és infrastrukturális hiányosságokat, amelyek még megoldásra várnak az emberes holdmissziók újraindítása előtt. A projektben Richard Spolzino szakértelmére támaszkodva készítenek pontos helyzetképet arról, milyen rendszerek nem állnak még készen arra, hogy űrhajósokat juttassanak a déli sarkvidékre, és biztosítsák a tartós felszíni jelenlétet.",
+        "A verseny célja, hogy működőképes koncepciókat találjon a leendő emberes holdkompok és a földi irányítás közötti, nagy távolságú kommunikáció zavartalan fenntartására. A felszíni műveletek során ugyanis a terepviszonyok, az árnyékolt kráterek és a szélsőséges rádiókörnyezet jelentős akadályt jelentenek a folyamatos adatforgalom előtt.",
+        "A holdi felkészülés mellett az űrhivatal a mindennapi emberes repülések frontján is szoros menetrenddel dolgozik. A NASA a napokban frissítette a kereskedelmi Boeing Starliner űrhajó fejlesztési terveit a korábbi tesztrepülések tapasztalatai alapján, miközben már kitűzte a Nemzetközi Űrállomásra induló Crew-13 küldetés indítási és dokkolási közvetítésének részleteit is."
       ],
       "pull_quote": null,
       "reading_time_min": 1,
-      "word_count": 174,
+      "word_count": 158,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Artemis-program-infographic.webp/1280px-Artemis-program-infographic.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/A_New_View_of_the_Moon.jpg/1280px-A_New_View_of_the_Moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 864,
+        "height": 800,
         "kind": "photo",
         "pos": "center",
-        "alt": "A graphic illustrating NASA’s increased cadence of Artemis missions.",
-        "credit": "Unknown authorUnknown author / Wikimedia Commons",
+        "alt": "art002e009287 (April 6, 2026) – Earth sets at 6:41 p.m. EDT, April 6, 2026, over the Moon’s curved limb in this photo captured by the Artemis II crew during their journey around the far side of the Mo",
+        "credit": "NASA / Wikimedia Commons",
         "license": "Public domain",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Artemis-program-infographic.webp",
-        "vision_score": 7.0
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_New_View_of_the_Moon.jpg",
+        "vision_score": 9.0
       },
       "inline_images": [],
       "sources": [
@@ -8518,24 +8517,111 @@
           "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
           "publisher": "nasa.gov",
           "license": null,
-          "accessed_at": "2026-10-05T06:08:57+02:00"
+          "accessed_at": "2026-10-05T07:40:25+02:00"
         }
       ],
-      "quote": {
-        "text": "I want to be able to look at a rocket launch and say, ‘I touched a piece of this.’",
-        "who": "Richard Spolzino",
-        "after": 0
-      },
+      "quote": null,
       "authorship": {
         "mode": "ai_generated",
         "byline": "Kollektíva szerkesztőség",
         "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
         "prompt_version": "section-v2",
         "reviewed_by": null,
-        "reviewed_at": "2026-10-05T06:40:23+02:00"
+        "reviewed_at": null
       },
-      "hot_score": 5.73,
+      "hot_score": 0,
+      "title_options": [
+        "Feltérképezi a NASA, mi hiányzik még a holdraszálláshoz",
+        "Kiderült, milyen technológiai rések nehezítik a holdutazást",
+        "Megnyílt a 2027-es verseny a holdi kommunikációért",
+        "Megszámolták a hiányosságokat: miért nem léphetünk még a Holdra?",
+        "Komoly akadályokba ütközött a NASA holdprogramja",
+        "Nem működik a kommunikáció a Holdon? Pályázatot hirdetett a NASA"
+      ],
       "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/A_New_View_of_the_Moon.jpg/1280px-A_New_View_of_the_Moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "art002e009287 (April 6, 2026) – Earth sets at 6:41 p.m. EDT, April 6, 2026, over the Moon’s curved limb in this photo captured by the Artemis II crew during their journey around the far side of the Mo",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:A_New_View_of_the_Moon.jpg",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Solar_eclipse_taken_from_Artemis_II_-_April_2026.jpg/1280px-Solar_eclipse_taken_from_Artemis_II_-_April_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "art002e009301 (April 6, 2026) – Captured by the Artemis II crew during their lunar flyby on April 6, 2026, this image shows the Moon fully eclipsing the Sun. From the crew’s perspective, the Moon appe",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Solar_eclipse_taken_from_Artemis_II_-_April_2026.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/NASA_Apollo_17_Lunar_Roving_Vehicle.jpg/1280px-NASA_Apollo_17_Lunar_Roving_Vehicle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1200,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Apollo 17 mission, 12 December 1972.\nAstronaut Eugene A. Cernan, commander, makes a short checkout of the Lunar Roving Vehicle (LRV) during the early part of the first Apollo 17 Extravehicular Activit",
+          "credit": "NASA / Harrison H. Schmitt / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NASA_Apollo_17_Lunar_Roving_Vehicle.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Apollo_11_Lunar_Lander_-_5927_NASA.jpg/1280px-Apollo_11_Lunar_Lander_-_5927_NASA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1207,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Buzz Aldrin removing the passive seismometer from a compartment in the SEQ bay of the Lunar Lander.",
+          "credit": "Neil Armstrong / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_11_Lunar_Lander_-_5927_NASA.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Artemis_Human_Landing_System_Announcement_%28NHQ202305190012%29.jpg/1280px-Artemis_Human_Landing_System_Announcement_%28NHQ202305190012%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 777,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A view of the human landing system is seen on the monitor during an event announcing Blue Origin as the company selected to develop a sustainable human landing system for the Artemis V Moon mission, F",
+          "credit": "NASA Headquarters / NASA/Aubrey Gemignani / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Artemis_Human_Landing_System_Announcement_(NHQ202305190012).jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://pixabay.com/get/g6830806827c586f346fe215189a984471d4bf6d62e1423c5512d16697b77cdcc10e30c6eab57c7b3fbb6221bd16fbc7b_1280.jpg",
+          "width": 3000,
+          "height": 2007,
+          "kind": "photo",
+          "alt": "rocket launch, rocket, take off, space shuttle, rocketship, space shuttle launch, nasa launch, space travel, john f kennedy space center, cape canaveral, florida, usa, rocket launch, rocket, rocket, r",
+          "credit": "WikiImages / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/rocket-launch-rocket-take-off-67643/",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
+          "link": "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/",
+          "summary": "",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": null
+        }
+      ],
       "category_meta": {
         "source_links": [
           "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/"
@@ -8543,12 +8629,12 @@
       },
       "date": "2026-10-05",
       "date_label": "október 5.",
-      "url": "/tech/2026-10-05-nem-a-dicsosegert-csak-egy-darab-raketaert-igy-keszul-a-nasa-az-ujabb/",
+      "url": "/tech/2026-10-05-felterkepezi-a-nasa-mi-hianyzik-meg-a-holdraszallashoz/",
       "seo": {
-        "meta_title": "Nem a dicsőségért, csak egy darab rakétáért: így készül a NA",
-        "meta_description": "Richard Spolzino nem dicsőségre vagy konkrét küldetésekre hajt, hanem arra, hogy a keze nyomát lássa a Hold felé tartó űreszközökön. A NASA jelenlegi missziói é",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-05-nem-a-dicsosegert-csak-egy-darab-raketaert-igy-keszul-a-nasa-az-ujabb/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Artemis-program-infographic.webp/1280px-Artemis-program-infographic.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "meta_title": "Feltérképezi a NASA, mi hiányzik még a holdraszálláshoz",
+        "meta_description": "A NASA átfogó vizsgálatban veszi sorra az emberes holdraszálláshoz szükséges technológiai és logisztikai hiányosságokat Richard Spolzino közreműködésével.",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-05-felterkepezi-a-nasa-mi-hianyzik-meg-a-holdraszallashoz/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/A_New_View_of_the_Moon.jpg/1280px-A_New_View_of_the_Moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8563,32 +8649,12 @@
       "see_also": [],
       "thread_id": null,
       "dedupe_hash": "05d15f32c580a094b074c6bd0c4b72eaf8b2f6aa399040eabc9657d9233b125d",
-      "pipeline_run_id": "37261475753",
+      "pipeline_run_id": "37267016086",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T07:40:00+02:00",
-      "updated_at": "2026-10-05T07:38:33+02:00",
-      "published_at": "2026-10-05T06:40:23+02:00",
+      "created_at": "2026-10-05T07:40:25+02:00",
+      "updated_at": "2026-10-05T07:40:25+02:00",
+      "published_at": "2026-10-05T07:40:25+02:00",
       "expires_at": null,
-      "hold": true,
-      "title_options": [
-        "Nem a dicsőségért, csak egy darab rakétáért: így készül a NASA az újabb holdutazásra",
-        "Holdra irányuló űrmissziók kulisszatitkai",
-        "NASA új rakétákat épít a következő artemiszhez"
-      ],
-      "image_options": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Artemis-program-infographic.webp/1280px-Artemis-program-infographic.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 864,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "A graphic illustrating NASA’s increased cadence of Artemis missions.",
-          "credit": "Unknown authorUnknown author / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Artemis-program-infographic.webp",
-          "vision_score": 7.0
-        }
-      ],
       "legal": {
         "level": 0,
         "issues": []
@@ -8596,12 +8662,17 @@
       "review": {
         "title": 0,
         "image": 0,
-        "sent_at": "2026-10-05T05:40:02+00:00",
+        "sent_at": "2026-10-05T05:41:17+00:00",
         "msg_ids": [
-          2683,
-          2684
+          2688,
+          2689,
+          2690,
+          2691,
+          2692,
+          2693,
+          2694
         ],
-        "control_id": 2685
+        "control_id": 2695
       }
     }
   ]
