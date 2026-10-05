@@ -9,6 +9,9 @@
   var esc = function (v) { return String(v == null ? '' : v).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); };
   var HOME = location.pathname === '/' || location.pathname === '/index.html';
   var MOBILE = matchMedia('(max-width: 1023px)').matches;
+  // böngésző-azonosító: a szavazat IP-váltás után is megmarad, és a főoldali doboz, a fül és a cikk szinkronban van
+  var KV = (function () { try { var t = localStorage.getItem('kvid'); if (!t) { t = (crypto.randomUUID ? crypto.randomUUID() : (Date.now() + '-' + Math.random().toString(36).slice(2))); localStorage.setItem('kvid', t); } return t; } catch (e) { return ''; } })();
+  function stUrl(id) { return '/api/poll?id=' + encodeURIComponent(id) + '&v=' + encodeURIComponent(KV); }
   function getPolls() {
     return fetch('/public/data/polls.json', { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw 0; return r.json(); })
       .catch(function () { return fetch('/data/polls.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }); });
@@ -18,7 +21,7 @@
     var seen = seenGet(), now = Date.now();
     polls.filter(function (p) { var c = Date.parse(p.closes_at); return c < now && now - c < 3 * 864e5 && seen.indexOf(p.id) < 0; })
       .slice(0, 3).forEach(function (p) {
-        fetch('/api/poll?id=' + encodeURIComponent(p.id)).then(function (r) { return r.json(); }).then(function (r) {
+        fetch(stUrl(p.id)).then(function (r) { return r.json(); }).then(function (r) {
           if (!r.ok || r.voted === null) return;
           seen = seenGet(); seen.push(p.id); try { localStorage.setItem('kpw_seen', JSON.stringify(seen.slice(-40))); } catch (e) {}
           var t = document.createElement('a'); t.href = '/szavazasok/#p' + p.id;
@@ -52,7 +55,7 @@
     notifyClosed(polls);
     var poll = polls.filter(function (p) { return Date.parse(p.closes_at) > Date.now(); })[0];
     if (!poll || location.pathname === poll.article_url) return;     // a cikk alján ott a saját szavazása
-    return fetch('/api/poll?id=' + encodeURIComponent(poll.id)).then(function (r) { return r.json(); }).then(function (st) {
+    return fetch(stUrl(poll.id)).then(function (r) { return r.json(); }).then(function (st) {
       if (!st.ok) return;
       var s = document.createElement('style'); s.textContent = CSS; document.head.appendChild(s);
       var tab = document.createElement('button'); tab.id = 'kpw-tab'; tab.type = 'button'; tab.className = 'off'; tab.setAttribute('aria-label', 'A nap kérdése – szavazás');
@@ -97,7 +100,13 @@
         if (box.classList.contains('on') || tab.classList.contains('off') || ++wigs > 5) { if (wigs > 5) clearInterval(wigT); return; }
         tab.classList.remove('wig'); void tab.offsetWidth; tab.classList.add('wig');
       }, 12000);
-      function open() { box.classList.add('on'); tab.classList.add('off'); tab.classList.remove('wig'); clearInterval(wigT); var i = tab.querySelector('i'); if (i) i.remove(); }
+      function render() { (st.voted !== null || st.closed) ? show(st) : ask(); }
+      function open() {
+        box.classList.add('on'); tab.classList.add('off'); tab.classList.remove('wig'); clearInterval(wigT); var i = tab.querySelector('i'); if (i) i.remove();
+        // nyitáskor friss állapot: ha közben máshol (főoldal, cikk, másik lap) szavazott, itt már ne kérdezzük újra
+        fetch(stUrl(poll.id)).then(function (r) { return r.json(); }).then(function (r) { if (r.ok) { st = r; render(); } }).catch(function () {});
+      }
+      window.addEventListener('kpoll', function (e) { if (e.detail && e.detail.id === poll.id && e.detail.r) { st = e.detail.r; render(); var i = tab.querySelector('i'); if (i && !(Q && Q.fresh)) i.remove(); } });
       function close() { box.classList.remove('on'); tab.classList.remove('off'); }
       tab.addEventListener('click', open);
       // bárhová máshová kattintva visszahúzódik – és ilyenkor a kattintás nem nyit meg semmi mást
@@ -109,8 +118,8 @@
         if (e.target.closest('.x')) return close();
         var b = e.target.closest('.o'); if (!b) return;
         box.querySelectorAll('.o').forEach(function (x) { x.disabled = true; });
-        fetch('/api/poll', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ id: poll.id, option: Number(b.dataset.i) }) })
-          .then(function (r) { return r.json(); }).then(function (r) { if (r.counts) show(r); else throw 0; })
+        fetch('/api/poll', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ id: poll.id, option: Number(b.dataset.i), v: KV }) })
+          .then(function (r) { return r.json(); }).then(function (r) { if (r.counts) { st = r; show(r); window.dispatchEvent(new CustomEvent('kpoll', { detail: { id: poll.id, r: r } })); } else throw 0; })
           .catch(function () { box.querySelectorAll('.o').forEach(function (x) { x.disabled = false; }); });
       });
       document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
