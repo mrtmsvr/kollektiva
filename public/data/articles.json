@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-05T07:37:22+02:00",
+  "updated_at": "2026-10-05T07:38:33+02:00",
   "articles": [
     {
       "id": "39b3ab47-b912-5bb9-a6b1-18b3dff46807",
@@ -139,15 +139,16 @@
       "word_count": 174,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Moon_surface_10k.png/1280px-Moon_surface_10k.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Artemis-program-infographic.webp/1280px-Artemis-program-infographic.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 675,
+        "height": 864,
         "kind": "photo",
         "pos": "center",
-        "alt": "Moon surface",
-        "credit": "Wikideas1 / Wikimedia Commons",
-        "license": "CC0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Moon_surface_10k.png"
+        "alt": "A graphic illustrating NASA’s increased cadence of Artemis missions.",
+        "credit": "Unknown authorUnknown author / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Artemis-program-infographic.webp",
+        "vision_score": 7.0
       },
       "inline_images": [],
       "sources": [
@@ -186,7 +187,7 @@
         "meta_title": "Nem a dicsőségért, csak egy darab rakétáért: így készül a NA",
         "meta_description": "Richard Spolzino nem dicsőségre vagy konkrét küldetésekre hajt, hanem arra, hogy a keze nyomát lássa a Hold felé tartó űreszközökön. A NASA jelenlegi missziói é",
         "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-05-nem-a-dicsosegert-csak-egy-darab-raketaert-igy-keszul-a-nasa-az-ujabb/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Moon_surface_10k.png/1280px-Moon_surface_10k.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Artemis-program-infographic.webp/1280px-Artemis-program-infographic.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -204,7 +205,7 @@
       "pipeline_run_id": "37261475753",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-05T06:40:23+02:00",
-      "updated_at": "2026-10-05T06:40:23+02:00",
+      "updated_at": "2026-10-05T07:38:33+02:00",
       "published_at": "2026-10-05T06:40:23+02:00",
       "expires_at": null
     },
