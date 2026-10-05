@@ -8692,9 +8692,9 @@
       }
     },
     {
-      "id": "07cad0cd-4a43-5f78-9679-0814de827308",
-      "slug": "2026-10-05-null",
-      "status": "pending",
+      "id": "1f69d6b1-4528-5a72-bc64-f4607d7399d7",
+      "slug": "2026-10-05-kulonleges-helynevekkel-terkepezi-fel-a-marsot-a-nasa",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -8704,7 +8704,7 @@
         "űrkutatás",
         "geológia"
       ],
-      "title": "null",
+      "title": "Különleges helynevekkel térképezi fel a Marsot a NASA",
       "subtitle": null,
       "lead": "A NASA Curiosity elnevezésű marsjárója a bolygó olyan kráterében folytatja kutatásait, amelyet földi kisvárosokról elnevezett parcellákra osztottak fel. A misszió friss adatai pontos betekintést engednek a vörös bolygó geológiai vizsgálataiba.",
       "key_points": [
@@ -8724,15 +8724,15 @@
       "word_count": 145,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Curiosity_-_Robot_Geologist_and_Chemist_in_One%21.jpg/1280px-Curiosity_-_Robot_Geologist_and_Chemist_in_One%21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 675,
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/b619711a37c81a23.jpg",
+        "width": 4297,
+        "height": 2865,
         "kind": "photo",
-        "pos": "center",
-        "alt": "This artist's concept features NASA's Mars Science Laboratory Curiosity rover, a mobile robot for investigating Mars' past or present ability to sustain microbial life. Curiosity landed near the Marti",
-        "credit": "NASA/JPL-Caltech / Wikimedia Commons",
-        "license": "Public domain",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Curiosity_-_Robot_Geologist_and_Chemist_in_One!.jpg"
+        "alt": "mars, road, nature, highway, planet, sky, composition, surreal, fantasy, landscape",
+        "credit": "Tumisu / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/mars-road-highway-planet-sky-6254436/",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/b619711a37c81a23.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -8868,12 +8868,12 @@
       },
       "date": "2026-10-05",
       "date_label": "október 5.",
-      "url": "/tech/2026-10-05-null/",
+      "url": "/tech/2026-10-05-kulonleges-helynevekkel-terkepezi-fel-a-marsot-a-nasa/",
       "seo": {
-        "meta_title": "null",
+        "meta_title": "Különleges helynevekkel térképezi fel a Marsot a NASA",
         "meta_description": "A NASA Curiosity elnevezésű marsjárója a bolygó olyan kráterében folytatja kutatásait, amelyet földi kisvárosokról elnevezett parcellákra osztottak fel. A missz",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-05-null/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Curiosity_-_Robot_Geologist_and_Chemist_in_One%21.jpg/1280px-Curiosity_-_Robot_Geologist_and_Chemist_in_One%21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-05-kulonleges-helynevekkel-terkepezi-fel-a-marsot-a-nasa/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/b619711a37c81a23.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8890,9 +8890,9 @@
       "dedupe_hash": "80670013b76f9aed6add8178980e2e27b114ab9f7559dffe30e9d79b75a45a89",
       "pipeline_run_id": "37270103400",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T08:19:31+02:00",
-      "updated_at": "2026-10-05T08:19:31+02:00",
-      "published_at": "2026-10-05T08:19:31+02:00",
+      "created_at": "2026-10-05T08:24:16+02:00",
+      "updated_at": "2026-10-05T08:24:16+02:00",
+      "published_at": "2026-10-05T08:24:16+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -8914,7 +8914,8 @@
           2717
         ],
         "control_id": 2718
-      }
+      },
+      "live": true
     },
     {
       "id": "17ac7fed-6e2d-5de9-8f79-e646e36b2b51",
