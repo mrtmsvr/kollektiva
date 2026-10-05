@@ -10100,9 +10100,9 @@
       }
     },
     {
-      "id": "c528ad84-46b6-5104-a7fa-5917fa64a5c5",
-      "slug": "2026-10-05-negyvenezer-forint-alatt-is-jart-az-otp-a-heten",
-      "status": "pending",
+      "id": "800b0383-d281-5017-a0c1-61dd201e0df9",
+      "slug": "2026-10-05-budzse-es-blue-chipek-igy-indult-a-het-a-tozsden",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -10112,7 +10112,7 @@
         "gazdaság",
         "költségvetés"
       ],
-      "title": "Negyvenezer forint alatt is járt az OTP a héten",
+      "title": "Büdzsé és blue chipek: így indult a hét a tőzsdén",
       "subtitle": null,
       "lead": "Miközben a Pénzügyminisztérium hamarosan közzéteszi az államháztartás szeptemberi adatait, a hazai tőzsdén a Mol és a Telekom húzza a mutatókat. A befektetők figyelme már a 2027-es költségvetés tervezetére irányul.",
       "key_points": [
@@ -10132,16 +10132,16 @@
       "word_count": 172,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Market_centre_in_Tokyo_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "width": 1200,
-        "height": 1600,
+        "height": 900,
         "kind": "photo",
-        "pos": "top",
-        "alt": "Budapest Stock Exchange",
-        "credit": "Leonard Chien / Wikimedia Commons",
-        "license": "CC BY-SA 2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_stock_exchange.jpg",
-        "vision_score": 8.0
+        "pos": "center",
+        "alt": "Tokyo Stock Exchange's so-called Market Center. The real stock trading floor closed in 1999. In its place is now just a glass cylinder, a few screens and a silly ticker—something for clueless journali",
+        "credit": "ehnmark / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_centre_in_Tokyo_stock_exchange.jpg",
+        "vision_score": 5.0
       },
       "inline_images": [],
       "sources": [
@@ -10233,12 +10233,12 @@
       },
       "date": "2026-10-05",
       "date_label": "október 5.",
-      "url": "/penzvilag/2026-10-05-negyvenezer-forint-alatt-is-jart-az-otp-a-heten/",
+      "url": "/penzvilag/2026-10-05-budzse-es-blue-chipek-igy-indult-a-het-a-tozsden/",
       "seo": {
-        "meta_title": "Negyvenezer forint alatt is járt az OTP a héten",
+        "meta_title": "Büdzsé és blue chipek: így indult a hét a tőzsdén",
         "meta_description": "Miközben a Pénzügyminisztérium hamarosan közzéteszi az államháztartás szeptemberi adatait, a hazai tőzsdén a Mol és a Telekom húzza a mutatókat. A befektetők fi",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-05-negyvenezer-forint-alatt-is-jart-az-otp-a-heten/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-05-budzse-es-blue-chipek-igy-indult-a-het-a-tozsden/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Market_centre_in_Tokyo_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -10255,9 +10255,9 @@
       "dedupe_hash": "d5f3d9911a84447bdbcacba2c4c43095aa50276166d0836e250fca304d780996",
       "pipeline_run_id": "37325945711",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T16:50:49+02:00",
-      "updated_at": "2026-10-05T16:50:49+02:00",
-      "published_at": "2026-10-05T16:50:49+02:00",
+      "created_at": "2026-10-05T16:59:54+02:00",
+      "updated_at": "2026-10-05T16:59:54+02:00",
+      "published_at": "2026-10-05T16:59:54+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10319,7 +10319,8 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/MOL_Group_Building%2C_L%C3%A1gym%C3%A1nyos%2C_2016_%C3%9Ajbuda.jpg/1280px-MOL_Group_Building%2C_L%C3%A1gym%C3%A1nyos%2C_2016_%C3%9Ajbuda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/BUD_MOL_Group_H.Q..JPG/1280px-BUD_MOL_Group_H.Q..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Budapesti_Stra%C3%9Fe%2C_Magyar_Telekom%2C_2024_Moh%C3%A1cs.jpg/1280px-Budapesti_Stra%C3%9Fe%2C_Magyar_Telekom%2C_2024_Moh%C3%A1cs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "2994f80f-d487-5b0c-863f-cbe56bdddf16",

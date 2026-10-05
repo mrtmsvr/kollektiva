@@ -1,7 +1,138 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-05T16:59:50+02:00",
+  "updated_at": "2026-10-05T16:59:54+02:00",
   "articles": [
+    {
+      "id": "800b0383-d281-5017-a0c1-61dd201e0df9",
+      "slug": "2026-10-05-budzse-es-blue-chipek-igy-indult-a-het-a-tozsden",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "tőzsde",
+        "OTP",
+        "Mol",
+        "gazdaság",
+        "költségvetés"
+      ],
+      "title": "Büdzsé és blue chipek: így indult a hét a tőzsdén",
+      "subtitle": null,
+      "lead": "Miközben a Pénzügyminisztérium hamarosan közzéteszi az államháztartás szeptemberi adatait, a hazai tőzsdén a Mol és a Telekom húzza a mutatókat. A befektetők figyelme már a 2027-es költségvetés tervezetére irányul.",
+      "key_points": [
+        "A BUX index 1,2 százalékos pluszban állt hétfő délután.",
+        "Az OTP árfolyama korábban 40 000 forint alatt is járt az orosz kivonulás hírére.",
+        "A Mol 2,6 százalékos emelkedéssel vezeti a hazai blue chipek mezőnyét."
+      ],
+      "content": "Hétfő délutánra a BUX index 1,2 százalékos pluszba kapaszkodott, amit elsősorban a nagypapírok erős teljesítménye hajtott. A Mol és a Telekom 1,9 százalékos emelkedéssel teljesített a legjobban. Ezzel szemben a Richter 0,6, míg az OTP 0,4 százalékos pluszban volt a zárás előtt.\n\nAz OTP esetében kiemelten figyelik a mozgásokat a piacon, miután a múlt héten az orosz kivonulás hírére alaposan megtépázták a bankrészvényt, és az árfolyam a 40 000 forintos határ alá is süllyedt. Hétfő reggel még nagyobb elmozdulás nélkül indult a kereskedés ebben a papírban, a zárás előtti percekben pedig a hazai blue chipek mind zöld színben zártak.\n\nA makrogazdasági adatok közül a Pénzügyminisztérium szeptemberi előzetes államháztartási jelentése hozhat újdonságot, amelyet hagyományosan fokozott figyelemmel kísér a befektetői közösség. A piac azonban már leginkább a 2027-es büdzsé tervezetére, valamint a kabinet által ígért középtávú fiskális pályára fókuszál.",
+      "content_format": "markdown",
+      "body": [
+        "Hétfő délutánra a BUX index 1,2 százalékos pluszba kapaszkodott, amit elsősorban a nagypapírok erős teljesítménye hajtott. A Mol és a Telekom 1,9 százalékos emelkedéssel teljesített a legjobban. Ezzel szemben a Richter 0,6, míg az OTP 0,4 százalékos pluszban volt a zárás előtt.",
+        "Az OTP esetében kiemelten figyelik a mozgásokat a piacon, miután a múlt héten az orosz kivonulás hírére alaposan megtépázták a bankrészvényt, és az árfolyam a 40 000 forintos határ alá is süllyedt. Hétfő reggel még nagyobb elmozdulás nélkül indult a kereskedés ebben a papírban, a zárás előtti percekben pedig a hazai blue chipek mind zöld színben zártak.",
+        "A makrogazdasági adatok közül a Pénzügyminisztérium szeptemberi előzetes államháztartási jelentése hozhat újdonságot, amelyet hagyományosan fokozott figyelemmel kísér a befektetői közösség. A piac azonban már leginkább a 2027-es büdzsé tervezetére, valamint a kabinet által ígért középtávú fiskális pályára fókuszál."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 172,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Market_centre_in_Tokyo_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Tokyo Stock Exchange's so-called Market Center. The real stock trading floor closed in 1999. In its place is now just a glass cylinder, a few screens and a silly ticker—something for clueless journali",
+        "credit": "ehnmark / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_centre_in_Tokyo_stock_exchange.jpg",
+        "vision_score": 5.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/uzlet/20261005/mi-tortenik-az-otp-vel-a-mult-heti-esest-kovetoen-867298",
+          "title": "Mi történik az OTP-vel a múlt heti esést követően?",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T16:50:49+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-05T16:59:54+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/uzlet/20261005/mi-tortenik-az-otp-vel-a-mult-heti-esest-kovetoen-867298"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/penzvilag/2026-10-05-budzse-es-blue-chipek-igy-indult-a-het-a-tozsden/",
+      "seo": {
+        "meta_title": "Büdzsé és blue chipek: így indult a hét a tőzsdén",
+        "meta_description": "Miközben a Pénzügyminisztérium hamarosan közzéteszi az államháztartás szeptemberi adatait, a hazai tőzsdén a Mol és a Telekom húzza a mutatókat. A befektetők fi",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-05-budzse-es-blue-chipek-igy-indult-a-het-a-tozsden/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Market_centre_in_Tokyo_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "d5f3d9911a84447bdbcacba2c4c43095aa50276166d0836e250fca304d780996",
+      "pipeline_run_id": "37325945711",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T16:59:54+02:00",
+      "updated_at": "2026-10-05T16:59:54+02:00",
+      "published_at": "2026-10-05T16:59:54+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "Ministry of Finance of Hungary",
+        "Budapest Stock Exchange",
+        "Mol Group",
+        "Magyar Telekom",
+        "OTP Bank",
+        "BUX Index",
+        "stock market trading floor",
+        "financial chart",
+        "office interior",
+        "Richter Gedeon Nyrt.",
+        "Ministry of National Economy Hungary",
+        "Budapest Stock Exchange trading floor",
+        "Hungarian forint banknotes",
+        "stock market ticker screen",
+        "financial newspaper reading",
+        "calculator on desk"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Ministry_of_Finance_%28Hungary%29_%289%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://pixabay.com/get/gfb9078bd81724c6a9cbca8099bec72041c91c890ebfe84a070cbaab949682b2885ff8ac12e83994011001f9123d2f7e28b894f72f47a46effefa29a6d58951d2_1280.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Budapest_Stock_Exchange_Palace_%2806%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Magyar_Telekom%2C_Budafoki_%C3%BAt%2C_2019_Kelenf%C3%B6ld.jpg/1280px-Magyar_Telekom%2C_Budafoki_%C3%BAt%2C_2019_Kelenf%C3%B6ld.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://pixabay.com/get/gaaab24b66cb9f9279a6548425646cafc9f460b85414f2a3c92b25e9628549b242bc4940bed342d9c79bc7453e2038e242bc40aa82f88ab298bf45dda0688963a_1280.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ministry_of_Finance_%28Hungary%29.jpg/1280px-Ministry_of_Finance_%28Hungary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Budapest_Stock_Exchange_Palace_%2803%29.jpg/1280px-Budapest_Stock_Exchange_Palace_%2803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/MOL_Group_Building%2C_L%C3%A1gym%C3%A1nyos%2C_2016_%C3%9Ajbuda.jpg/1280px-MOL_Group_Building%2C_L%C3%A1gym%C3%A1nyos%2C_2016_%C3%9Ajbuda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/BUD_MOL_Group_H.Q..JPG/1280px-BUD_MOL_Group_H.Q..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Budapesti_Stra%C3%9Fe%2C_Magyar_Telekom%2C_2024_Moh%C3%A1cs.jpg/1280px-Budapesti_Stra%C3%9Fe%2C_Magyar_Telekom%2C_2024_Moh%C3%A1cs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
+    },
     {
       "id": "7f5080ea-06a4-5f95-8938-5580544c0d89",
       "slug": "2026-10-05-brutalis-diaktuntetes-razza-meg-franciaorszagot-benulas-az-oktatasban",
