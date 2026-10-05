@@ -9652,7 +9652,7 @@
     {
       "id": "98a56993-ad0b-524f-b58c-74fe9fe72b97",
       "slug": "2026-10-05-brandyt-kortyolgatott-a-hotelszobaban-a-rendezo-miutan-eljatszotta-a",
-      "status": "pending",
+      "status": "published",
       "category": "kultura",
       "subcategory": null,
       "tags": [
@@ -9792,9 +9792,9 @@
       "dedupe_hash": "c353cca9ef1c67d75bc31153d6945fb3924e5df27c5e0875dd6ed42f78e6ecbe",
       "pipeline_run_id": "37261475753",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T06:06:11+02:00",
-      "updated_at": "2026-10-05T06:06:11+02:00",
-      "published_at": "2026-10-05T06:06:11+02:00",
+      "created_at": "2026-10-05T06:37:28+02:00",
+      "updated_at": "2026-10-05T06:37:28+02:00",
+      "published_at": "2026-10-05T06:37:28+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -9810,7 +9810,8 @@
           2660
         ],
         "control_id": 2661
-      }
+      },
+      "live": true
     },
     {
       "id": "39b3ab47-b912-5bb9-a6b1-18b3dff46807",
