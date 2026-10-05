@@ -9846,9 +9846,9 @@
       "live": true
     },
     {
-      "id": "b9656d99-34b1-56d5-812b-baf56832b830",
-      "slug": "2026-10-05-nem-kot-kompromisszumot-a-tokeletes-biztonsagert-az-openai-vezetoje",
-      "status": "pending",
+      "id": "997ae7af-c24a-5c78-bda5-594a3bc120c0",
+      "slug": "2026-10-05-beismerte-az-openai-feje-hogy-a-kockazatok-ellenere-is-enyhebb-szabal",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -9858,7 +9858,7 @@
         "ChatGPT",
         "szabályozás"
       ],
-      "title": "Nem köt kompromisszumot a tökéletes biztonságért az OpenAI vezetője",
+      "title": "Beismerte az OpenAI feje, hogy a kockázatok ellenére is enyhébb szabályozást akarnak",
       "subtitle": null,
       "lead": "Sam Altman, az OpenAI vezérigazgatója egy interjúban kijelentette, hogy a társadalomnak el kell fogadnia az AI okozta károkat a technológia előnyeiért cserébe. A cégvezető szerint az emberek sokkal több jót tesznek majd a rendszerekkel, mint amennyi kár keletkezik.",
       "key_points": [
@@ -9879,15 +9879,16 @@
       "word_count": 254,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Sam_Altman_CropEdit_James_Tamim.jpg/1280px-Sam_Altman_CropEdit_James_Tamim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_%28cropped%29_%28cropped%29.jpg/1280px-Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_%28cropped%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 1201,
+        "height": 1637,
         "kind": "photo",
         "pos": "top",
         "alt": "SAN FRANCISCO, CALIFORNIA - OCTOBER 03: OpenAI Co-Founder &amp; CEO Sam Altman speaks onstage during TechCrunch Disrupt San Francisco 2019 at Moscone Convention Center on October 03, 2019 in San Franc",
         "credit": "TechCrunch / Wikimedia Commons",
         "license": "CC BY 2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Sam_Altman_CropEdit_James_Tamim.jpg"
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_(cropped)_(cropped).jpg",
+        "vision_score": 10.0
       },
       "inline_images": [],
       "sources": [
@@ -9980,12 +9981,12 @@
       },
       "date": "2026-10-05",
       "date_label": "október 5.",
-      "url": "/tech/2026-10-05-nem-kot-kompromisszumot-a-tokeletes-biztonsagert-az-openai-vezetoje/",
+      "url": "/tech/2026-10-05-beismerte-az-openai-feje-hogy-a-kockazatok-ellenere-is-enyhebb-szabal/",
       "seo": {
-        "meta_title": "Nem köt kompromisszumot a tökéletes biztonságért az OpenAI v",
+        "meta_title": "Beismerte az OpenAI feje, hogy a kockázatok ellenére is enyh",
         "meta_description": "Sam Altman, az OpenAI vezérigazgatója egy interjúban kijelentette, hogy a társadalomnak el kell fogadnia az AI okozta károkat a technológia előnyeiért cserébe. ",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-05-nem-kot-kompromisszumot-a-tokeletes-biztonsagert-az-openai-vezetoje/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Sam_Altman_CropEdit_James_Tamim.jpg/1280px-Sam_Altman_CropEdit_James_Tamim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-05-beismerte-az-openai-feje-hogy-a-kockazatok-ellenere-is-enyhebb-szabal/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_%28cropped%29_%28cropped%29.jpg/1280px-Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_%28cropped%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -10010,9 +10011,9 @@
       "dedupe_hash": "01d1f68f7841e7fe99214c1a459672b36cf2ff10cae9eb138f27e5e606f769d0",
       "pipeline_run_id": "37325945711",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T16:47:06+02:00",
-      "updated_at": "2026-10-05T16:47:06+02:00",
-      "published_at": "2026-10-05T16:47:06+02:00",
+      "created_at": "2026-10-05T17:02:24+02:00",
+      "updated_at": "2026-10-05T17:02:24+02:00",
+      "published_at": "2026-10-05T17:02:24+02:00",
       "expires_at": null,
       "hold": true,
       "review": {
@@ -10062,7 +10063,8 @@
         "https://xn--kollektva-m5a.hu/public/img/gen/b9656d9934-1791212426-0.jpg",
         "https://pixabay.com/get/g41491f1462946e9d8c44bb4c79beccfbf5f5126f3296671ca54074dff686afb030484a902b0c3f4698a3d1ce16fb1996093dbbbd39082fb73e999a43d5f3e6c1_1280.jpg",
         "https://xn--kollektva-m5a.hu/public/img/gen/b9656d9934-1791212429-1.jpg"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "800b0383-d281-5017-a0c1-61dd201e0df9",
