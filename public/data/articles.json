@@ -1,7 +1,129 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-05T15:11:06+02:00",
+  "updated_at": "2026-10-05T15:13:10+02:00",
   "articles": [
+    {
+      "id": "c19bd379-3d2c-5d3e-b8ed-5bb30c54f89f",
+      "slug": "2026-10-05-az-ugyeszseg-javasolta-fasy-adam-felesegenek-szabadlabra-helyezeset",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Fásy Ádám",
+        "NAV",
+        "Kecskeméti Járásbíróság",
+        "bűnügyi felügyelet",
+        "költségvetési csalás"
+      ],
+      "title": "Az ügyészség javasolta Fásy Ádám feleségének szabadlábra helyezését",
+      "subtitle": null,
+      "lead": "Már nem tartják szükségesnek az előzetes letartóztatást, így az ügyészség maga indítványozta Fásy Ádám feleségének enyhébb kényszerintézkedését. A költségvetési csalással és hamis magánokirat felhasználásával gyanúsított asszony bűnügyi felügyelet alatt védekezhet a jövőben.",
+      "key_points": [
+        "Az ügyészség enyhébb kényszerintézkedést, bűnügyi felügyeletet javasolt Fásyné számára.",
+        "A gyanú szerint fiktív számlákkal próbálták fedezni a le nem gyártott dokumentumfilm hiányzó összegét.",
+        "Az ügyben a Nemzeti Kulturális Alaptól lehívott 82,55 millió forintos támogatás elszámolása okozott vitát.",
+        "Az indítványról a Kecskeméti Járásbíróság nyomozási bírája dönt az ügyiratok alapján."
+      ],
+      "content": "Szeptember 9-én bilincsben vitték a NAV nyomozói a kecskeméti bíróságra Fásyné Máriát, akit költségvetési csalás és hamis magánokirat felhasználása ügyében hallgattak ki és vettek őrizetbe. Az eljárásban most váratlan fordulat történt, mivel a Bács-Kiskun Vármegyei Főügyészség már nem tartja indokoltnak a legszigorúbb kényszerintézkedés fenntartását.\n\nDr. Az ügyészség indítványáról a Kecskeméti Járásbíróság nyomozási bírája határoz az iratok áttekintése után.\n\nA gyanú alapját egy Békés megyei festőművészről szóló, négyrészesre tervezett dokumentumfilm – a Kéz, szív, lélek – magyar kortárs művészek nyomában – támogatása képezi. A sorozat első két epizódjára a Fásy Ádám családjához köthető cégek a Nemzeti Kulturális Alaptól (NKA) 82,55 millió forintot kaptak,\n\nA hatósági álláspont szerint az áprilisi elszámolási határidőre a film még nem készült el, a hiányzó összeget pedig egy másik cég által kiállított fiktív számlákkal próbálták leplezni. A Telex értesülései szerint a NAV korábban őrizetbe vette annak a cégnek a tulajdonosát és ügyvezetőjét is, amely több mint 56 millió forintért bízta meg a Fásy család vállalkozásait a munkával.\n\nA bűnügyi felügyelet, amely a korábbi házi őrizetnek vagy lakhelyelhagyási tilalomnak felel meg, azt jelenti, hogy a gyanúsított bizonyos magatartási szabályok betartásával, például rendszeres hatósági jelentkezéssel szabadlábon védekezhet.\n\nDr. Mile Attila ügyvéd az ATV-nek kifejtette, hogy a végleges feltételeket a bíróság határozza meg, amennyiben helyt ad az ügyészség javaslatának.",
+      "content_format": "markdown",
+      "body": [
+        "Szeptember 9-én bilincsben vitték a NAV nyomozói a kecskeméti bíróságra Fásyné Máriát, akit költségvetési csalás és hamis magánokirat felhasználása ügyében hallgattak ki és vettek őrizetbe. Az eljárásban most váratlan fordulat történt, mivel a Bács-Kiskun Vármegyei Főügyészség már nem tartja indokoltnak a legszigorúbb kényszerintézkedés fenntartását.",
+        "Dr. Az ügyészség indítványáról a Kecskeméti Járásbíróság nyomozási bírája határoz az iratok áttekintése után.",
+        "A gyanú alapját egy Békés megyei festőművészről szóló, négyrészesre tervezett dokumentumfilm – a Kéz, szív, lélek – magyar kortárs művészek nyomában – támogatása képezi. A sorozat első két epizódjára a Fásy Ádám családjához köthető cégek a Nemzeti Kulturális Alaptól (NKA) 82,55 millió forintot kaptak,",
+        "A hatósági álláspont szerint az áprilisi elszámolási határidőre a film még nem készült el, a hiányzó összeget pedig egy másik cég által kiállított fiktív számlákkal próbálták leplezni. A Telex értesülései szerint a NAV korábban őrizetbe vette annak a cégnek a tulajdonosát és ügyvezetőjét is, amely több mint 56 millió forintért bízta meg a Fásy család vállalkozásait a munkával.",
+        "A bűnügyi felügyelet, amely a korábbi házi őrizetnek vagy lakhelyelhagyási tilalomnak felel meg, azt jelenti, hogy a gyanúsított bizonyos magatartási szabályok betartásával, például rendszeres hatósági jelentkezéssel szabadlábon védekezhet.",
+        "Dr. Mile Attila ügyvéd az ATV-nek kifejtette, hogy a végleges feltételeket a bíróság határozza meg, amennyiben helyt ad az ügyészség javaslatának."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 243,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/0ca8c62dc7f715f9.jpg",
+        "width": 3600,
+        "height": 2000,
+        "kind": "photo",
+        "alt": "gavel, auction, law, hammer, symbol, judge, legal, justice, crime, criminal, wooden, 3d, wood, judgment, trial, verdict, punishment, rights, authority, court, legislation, constitution, courthouse, bi",
+        "credit": "qimono / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/gavel-auction-law-hammer-symbol-2492011/",
+        "vision_score": 5.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/0ca8c62dc7f715f9.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/fasy-adam-felsege-fasyne-letartoztatas-enyhebb-birosag/7h5g0dh",
+          "title": "Fordulat: kijöhet Fásy Ádám felesége az előzetesből – újabb részletek",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-05T14:55:49+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Az eljárás jelen szakaszában a letartóztatással elérni kívánt célok enyhébb intézkedéssel is elérhetők",
+        "who": "Dr. Bodó Marianna, a Bács-Kiskun Vármegyei Főügyészség szóvivője",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-05T15:13:10+02:00"
+      },
+      "hot_score": 5.97,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/fasy-adam-felsege-fasyne-letartoztatas-enyhebb-birosag/7h5g0dh"
+        ]
+      },
+      "date": "2026-10-05",
+      "date_label": "október 5.",
+      "url": "/kozelet/2026-10-05-az-ugyeszseg-javasolta-fasy-adam-felesegenek-szabadlabra-helyezeset/",
+      "seo": {
+        "meta_title": "Az ügyészség javasolta Fásy Ádám feleségének szabadlábra hel",
+        "meta_description": "Már nem tartják szükségesnek az előzetes letartóztatást, így az ügyészség maga indítványozta Fásy Ádám feleségének enyhébb kényszerintézkedését. A költségvetési",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-05-az-ugyeszseg-javasolta-fasy-adam-felesegenek-szabadlabra-helyezeset/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/0ca8c62dc7f715f9.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "7deeb7d401d2c846ef5489872c537b9b7b1987637039dc0d6b83b3063a97f876",
+      "pipeline_run_id": "37311794645",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-05T15:13:10+02:00",
+      "updated_at": "2026-10-05T15:13:10+02:00",
+      "published_at": "2026-10-05T15:13:10+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "Adam Fasy",
+        "Maria Fasy",
+        "National Cultural Fund (Hungary)",
+        "Bacs-Kiskun County Prosecutor's Office",
+        "Kecskemét District Court",
+        "Hungarian Tax and Customs Administration (NAV)",
+        "courtroom",
+        "legal documents",
+        "press conference"
+      ],
+      "images_seen": [
+        "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791205014-0.jpg",
+        "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791205016-1.jpg"
+      ]
+    },
     {
       "id": "d9392d15-7044-5d77-8402-346b5f8b7752",
       "slug": "2026-10-05-otmilliard-felett-a-hiany-nehez-negyedev-zarult-a-koltsegvetesben",
