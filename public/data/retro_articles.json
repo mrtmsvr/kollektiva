@@ -1,7 +1,86 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-05T00:36:27+02:00",
+  "updated_at": "2026-10-06T00:23:36+02:00",
   "articles": [
+    {
+      "id": "13e66219-99dd-59d0-bcad-5dbb5a7eda35",
+      "slug": "2026-10-06-a-gyasznap-amikor-a-nemzet-szivebe-egett-arad-emleke",
+      "status": "published",
+      "category": "retro",
+      "subcategory": null,
+      "tags": [
+        "aradi vértanúk",
+        "1849",
+        "nemzeti gyásznap",
+        "történelem"
+      ],
+      "title": "A gyásznap, amikor a nemzet szívébe égett Arad emléke",
+      "subtitle": null,
+      "lead": "1849. október 6-án tragikus fejezethez érkezett a magyar történelem. Ezen a napon teljesedett be a szabadságharc vérbe fojtott bosszúja Aradon és Pesten.",
+      "content": "> A birodalmi megtorlás nemcsak tizenhárom kiváló tisztet akart eltörölni, hanem egy egész nemzet szabadságvágyát is.\n\nAz 1848–49-es magyar szabadságharc leverését követően a Habsburg-birodalom kegyetlen és könyörtelen megtorlásba kezdett. Ennek a legsúlyosabb fejezete 1849. október 6-án játszódott le, amikor Aradon kivégezték a magyar honvédsereg tizenhárom főtisztjét, tizenkét tábornokot és egy ezredest.\n\nA halálos ítéleteket az osztrák hadbíróság hozta meg, a fegyveres erők megtorlását és a kivégzések sorozatát pedig Julius Haynau császári főparancsnok irányította. A birodalom ezzel a példát statuáló, brutális aktussal akarta végleg elfojtani a függetlenségi törekvéseket.\n\nA halálra ítéltek sorában ott volt Aulich Lajos, Damjanich János, Dessewffy Arisztid, Kiss Ernő, Knezić Károly, Lahner György, Lázár Vilmos, Leiningen-Westerburg Károly, Nagy-Sándor József, Poeltenberg Ernő, Schweidel József, Török Ignác és Vécsey Károly.\n\nA kivégzés módja is mélyen megosztotta a halálba küldötteket a kegyetlen protokoll szerint. Négyükkel – Dessewffy Arisztiddal, Kiss Ernővel, Lázár Vilmossal és Schweidel Józseffel – golyó által végeztek, míg a többi kilenc vértanúra a gyalázatosabbnak szánt kötél általi halál várt.\n\nA gyászos nap tragédiája nem korlátozódott csupán Arad városára. Ugyanezen a napon Pesten is beteljesedett a sors: kivégezték gróf Batthyány Lajost, Magyarország első felelős kormányának miniszterelnökét.\n\nOktóber 6. azóta is kitörölhetetlen nyomot hagyott a kollektív emlékezetben. Magyarországon ez a nap hivatalos nemzeti gyásznap, az aradi vértanúk emléknapja, amikor minden évben fejet hajtunk a hazáért életüket áldozó hősök előtt.",
+      "content_format": "markdown",
+      "body": [
+        "Az 1848–49-es magyar szabadságharc leverését követően a Habsburg-birodalom kegyetlen és könyörtelen megtorlásba kezdett. Ennek a legsúlyosabb fejezete 1849. október 6-án játszódott le, amikor Aradon kivégezték a magyar honvédsereg tizenhárom főtisztjét, tizenkét tábornokot és egy ezredest.",
+        "A halálos ítéleteket az osztrák hadbíróság hozta meg, a fegyveres erők megtorlását és a kivégzések sorozatát pedig Julius Haynau császári főparancsnok irányította. A birodalom ezzel a példát statuáló, brutális aktussal akarta végleg elfojtani a függetlenségi törekvéseket.",
+        "A halálra ítéltek sorában ott volt Aulich Lajos, Damjanich János, Dessewffy Arisztid, Kiss Ernő, Knezić Károly, Lahner György, Lázár Vilmos, Leiningen-Westerburg Károly, Nagy-Sándor József, Poeltenberg Ernő, Schweidel József, Török Ignác és Vécsey Károly.",
+        "A kivégzés módja is mélyen megosztotta a halálba küldötteket a kegyetlen protokoll szerint. Négyükkel – Dessewffy Arisztiddal, Kiss Ernővel, Lázár Vilmossal és Schweidel Józseffel – golyó által végeztek, míg a többi kilenc vértanúra a gyalázatosabbnak szánt kötél általi halál várt.",
+        "A gyászos nap tragédiája nem korlátozódott csupán Arad városára. Ugyanezen a napon Pesten is beteljesedett a sors: kivégezték gróf Batthyány Lajost, Magyarország első felelős kormányának miniszterelnökét.",
+        "Október 6. azóta is kitörölhetetlen nyomot hagyott a kollektív emlékezetben. Magyarországon ez a nap hivatalos nemzeti gyásznap, az aradi vértanúk emléknapja, amikor minden évben fejet hajtunk a hazáért életüket áldozó hősök előtt."
+      ],
+      "pull_quote": "A birodalmi megtorlás nemcsak tizenhárom kiváló tisztet akart eltörölni, hanem egy egész nemzet szabadságvágyát is.",
+      "reading_time_min": 2,
+      "word_count": 229,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "sources": [
+        {
+          "url": "https://hu.wikipedia.org/wiki/Aradi_v%C3%A9rtan%C3%BAk",
+          "title": "",
+          "publisher": "hu.wikipedia.org",
+          "license": null,
+          "accessed_at": "2026-10-06T00:23:36+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "retro-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "event_year": 1849,
+        "event_date": "10-06",
+        "event_title": "Az aradi vértanúk"
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/retro/2026-10-06-a-gyasznap-amikor-a-nemzet-szivebe-egett-arad-emleke/",
+      "seo": {
+        "meta_title": "A gyásznap, amikor a nemzet szívébe égett Arad emléke",
+        "meta_description": "1849. október 6-án tragikus fejezethez érkezett a magyar történelem. Ezen a napon teljesedett be a szabadságharc vérbe fojtott bosszúja Aradon és Pesten.",
+        "canonical_url": "https://xn--kollektva-m5a.hu/retro/2026-10-06-a-gyasznap-amikor-a-nemzet-szivebe-egett-arad-emleke/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "Article"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "82a9014265e8504816be73f881a8243e4674d670dbe2b25478eb99a5e076e159",
+      "pipeline_run_id": "37380445659",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T00:23:36+02:00",
+      "updated_at": "2026-10-06T00:23:36+02:00",
+      "published_at": "2026-10-06T00:23:36+02:00",
+      "expires_at": null
+    },
     {
       "id": "fa1a508d-8517-5730-9350-11eb8535ef6e",
       "slug": "2026-10-05-a-gazdasagi-csapas-amely-megpecsetelte-del-vietnam-sorsat",
