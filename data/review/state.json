@@ -1,5 +1,5 @@
 {
-  "offset": 391604544,
+  "offset": 391604550,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -49,7 +49,8 @@
     "https://doi.org/10.1016/j.sleep.2016.08.006",
     "https://doi.org/10.1146/annurev-psych-010213-115205",
     "https://hu.wikipedia.org/wiki/Alv%C3%A1s",
-    "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra-rli-visszaterne-kizaras/2xljvhh"
+    "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra-rli-visszaterne-kizaras/2xljvhh",
+    "https://www.blikk.hu/sztarvilag/hazai-sztarok/szucs-judith-volegeny-fejlelentes/e7xfyyt"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
