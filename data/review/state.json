@@ -1,5 +1,5 @@
 {
-  "offset": 391604409,
+  "offset": 391604410,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -38,7 +38,8 @@
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/az-arulok-gyilkossag-a-kastelyban-vasvari-vivien/9ne20sw",
     "https://www.portfolio.hu/gazdasag/20261004/tisza-kormany-folytatodik-a-maratoni-kormanyules-a-koltsegvetes-es-a-budapest-alku-is-napirenden-867162",
     "https://www.youtube.com/watch?v=vpnpqadg1Jc",
-    "https://www.portfolio.hu/gazdasag/20261005/kiszeretett-magyarorszagbol-a-piac-csak-egy-szavaba-kerul-a-kormanynak-felmelegiteni-a-kapcsolatot-867052"
+    "https://www.portfolio.hu/gazdasag/20261005/kiszeretett-magyarorszagbol-a-piac-csak-egy-szavaba-kerul-a-kormanynak-felmelegiteni-a-kapcsolatot-867052",
+    "https://hvg.hu/elet/20261004_hvg-krzysztof-zanussi-lengyel-filmrendezo-interju-tarkovszkij-68"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"

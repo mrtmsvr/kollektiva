@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-05T07:35:25+02:00",
+  "updated_at": "2026-10-05T07:36:53+02:00",
   "articles": [
     {
       "id": "23fb4d50-74c3-5b51-aac7-b424eb8c8ecd",
@@ -102,110 +102,6 @@
       "created_at": "2026-10-05T06:40:23+02:00",
       "updated_at": "2026-10-05T06:40:23+02:00",
       "published_at": "2026-10-05T06:40:23+02:00",
-      "expires_at": null
-    },
-    {
-      "id": "98a56993-ad0b-524f-b58c-74fe9fe72b97",
-      "slug": "2026-10-05-brandyt-kortyolgatott-a-hotelszobaban-a-rendezo-miutan-eljatszotta-a",
-      "status": "published",
-      "category": "kultura",
-      "subcategory": null,
-      "tags": [
-        "Krzysztof Zanussi",
-        "filmfesztivál",
-        "Velencei Filmfesztivál",
-        "Kultúra",
-        "interjú"
-      ],
-      "title": "Brandyt kortyolgatott a hotelszobában a rendező, miután eljátszotta a szívrohamot",
-      "subtitle": null,
-      "lead": "A 87 éves Krzysztof Zanussi lengyel filmrendező nemrégiben fejezte be munkáját a lengyel filmfesztivál zsűrielnökeként. Egy friss interjúban mesélt arról, hogyan működik valójában a zsűritagok harca, és milyen drámai pillanatok kísérik a legnagyobb nemzetközi filmfesztiválokat.",
-      "key_points": [
-        "Krzysztof Zanussi 87 évesen, a lengyel filmfesztivál zsűrielnökeként beszélt a filmes világ kulisszatitkairól.",
-        "Felidézte az 1985-ös velencei filmfesztivált, ahol Eugene Ionesco elájult egy hétórás film vetítése alatt.",
-        "A rendező vallomása szerint a filmesek sosem állnak a díjak felett, az ego mindenkinél megköveteli a magáét."
-      ],
-      "content": "A művészvilágban sokszor hangoztatják az alkotók, hogy a szakmai elismerések és a díjak nem érdeklik őket, ám a hvg.hu által megkérdezett Krzysztof Zanussi lengyel rendezőlegenda szerint ez csupán illúzió. A 87 éves filmes – aki korábban a Kaczynski-érában a harminc éven át vezetett állami produkciós cégét is elveszítette a változások közepette – nyíltan beszélt arról, hogy az ego mindenkinél megköveteli a magáét.\n\nZanussi saját tapasztalataira alapozva felidézte, hogy a fesztiválok zsűrijeiben zajló küzdelem sokszor a nagypolitikához hasonlít, ahol a résztvevők gyakran nem valamiért, hanem valami ellen harcolnak. Amikor ő maga tölti be az elnöki pozíciót, mindig arra kéri a kollégáit, hogy a nekik nem tetsző alkotásokat ne szidják hangosan, hanem csupán hagyják figyelmen kívül, mert a nyílt ellenségeskedés csak feszültséget szül.\n\nA rendező hosszú pályafutása során számos emlékezetes pillanatot élt át a világ legjelentősebb szemléin, így az 1985-ös velencei filmfesztiválon is, ahol Frank Capra és Eugene Ionesco mellett ő maga volt a zsűri elnöke. Ekkor vetítették le Manoel de Oliveira hétórás művét, A selyemcipőt, amelynek elviselhetetlenül hosszú és színpadias megoldásai annyira megviselték a jelenlévőket, hogy Ionesco rosszul lett, és a mentők elszállították.\n\nA fesztiválok világa ritkán múlik el sértődések nélkül, amit Zanussi saját karrierje is igazolt:",
-      "content_format": "markdown",
-      "body": [
-        "A művészvilágban sokszor hangoztatják az alkotók, hogy a szakmai elismerések és a díjak nem érdeklik őket, ám a hvg.hu által megkérdezett Krzysztof Zanussi lengyel rendezőlegenda szerint ez csupán illúzió. A 87 éves filmes – aki korábban a Kaczynski-érában a harminc éven át vezetett állami produkciós cégét is elveszítette a változások közepette – nyíltan beszélt arról, hogy az ego mindenkinél megköveteli a magáét.",
-        "Zanussi saját tapasztalataira alapozva felidézte, hogy a fesztiválok zsűrijeiben zajló küzdelem sokszor a nagypolitikához hasonlít, ahol a résztvevők gyakran nem valamiért, hanem valami ellen harcolnak. Amikor ő maga tölti be az elnöki pozíciót, mindig arra kéri a kollégáit, hogy a nekik nem tetsző alkotásokat ne szidják hangosan, hanem csupán hagyják figyelmen kívül, mert a nyílt ellenségeskedés csak feszültséget szül.",
-        "A rendező hosszú pályafutása során számos emlékezetes pillanatot élt át a világ legjelentősebb szemléin, így az 1985-ös velencei filmfesztiválon is, ahol Frank Capra és Eugene Ionesco mellett ő maga volt a zsűri elnöke. Ekkor vetítették le Manoel de Oliveira hétórás művét, A selyemcipőt, amelynek elviselhetetlenül hosszú és színpadias megoldásai annyira megviselték a jelenlévőket, hogy Ionesco rosszul lett, és a mentők elszállították.",
-        "A fesztiválok világa ritkán múlik el sértődések nélkül, amit Zanussi saját karrierje is igazolt:"
-      ],
-      "pull_quote": null,
-      "reading_time_min": 2,
-      "word_count": 232,
-      "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Krzysztof_Zanussi_at_Kino_pod_Baranami_in_Krak%C3%B3w.jpg/1280px-Krzysztof_Zanussi_at_Kino_pod_Baranami_in_Krak%C3%B3w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 1600,
-        "kind": "photo",
-        "pos": "top",
-        "alt": "Krzysztof Zanussi at Kino pod Baranami in Kraków, after the premiere screening of his film Eter.",
-        "credit": "Franek Vetulani / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Krzysztof_Zanussi_at_Kino_pod_Baranami_in_Krak%C3%B3w.jpg",
-        "vision_score": 10.0
-      },
-      "inline_images": [],
-      "sources": [
-        {
-          "url": "https://hvg.hu/elet/20261004_hvg-krzysztof-zanussi-lengyel-filmrendezo-interju-tarkovszkij-68",
-          "title": "Krzysztof Zanussi lengyel rendezőlegenda: Jól tudtuk, ha rossz irányt vesznek a dolgok, elég megnézni, mi történik Magyarországon",
-          "publisher": "hvg.hu",
-          "license": null,
-          "accessed_at": "2026-10-05T06:06:11+02:00"
-        }
-      ],
-      "quote": {
-        "text": "Eugene szeretné, ha írásba adnád, hogy megbocsátasz",
-        "who": "Eugene Ionesco felesége",
-        "after": 2
-      },
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v2",
-        "reviewed_by": null,
-        "reviewed_at": "2026-10-05T06:37:28+02:00"
-      },
-      "hot_score": 6.0,
-      "clickbait_from": 3,
-      "category_meta": {
-        "source_links": [
-          "https://hvg.hu/elet/20261004_hvg-krzysztof-zanussi-lengyel-filmrendezo-interju-tarkovszkij-68"
-        ]
-      },
-      "date": "2026-10-05",
-      "date_label": "október 5.",
-      "url": "/kultura/2026-10-05-brandyt-kortyolgatott-a-hotelszobaban-a-rendezo-miutan-eljatszotta-a/",
-      "seo": {
-        "meta_title": "Brandyt kortyolgatott a hotelszobában a rendező, miután eljá",
-        "meta_description": "A 87 éves Krzysztof Zanussi lengyel filmrendező nemrégiben fejezte be munkáját a lengyel filmfesztivál zsűrielnökeként. Egy friss interjúban mesélt arról, hogya",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-05-brandyt-kortyolgatott-a-hotelszobaban-a-rendezo-miutan-eljatszotta-a/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Krzysztof_Zanussi_at_Kino_pod_Baranami_in_Krak%C3%B3w.jpg/1280px-Krzysztof_Zanussi_at_Kino_pod_Baranami_in_Krak%C3%B3w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [],
-      "see_also": [],
-      "thread_id": null,
-      "dedupe_hash": "c353cca9ef1c67d75bc31153d6945fb3924e5df27c5e0875dd6ed42f78e6ecbe",
-      "pipeline_run_id": "37261475753",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T06:37:28+02:00",
-      "updated_at": "2026-10-05T06:37:28+02:00",
-      "published_at": "2026-10-05T06:37:28+02:00",
       "expires_at": null
     },
     {
