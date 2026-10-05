@@ -10427,16 +10427,40 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/North_American_Domestic_Box_Office.png/1280px-North_American_Domestic_Box_Office.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Avengers_Endgame_First_Screening_Event_at_TOHO_Cinemas_Shinjuku_%2848133238487%29.jpg/1280px-Avengers_Endgame_First_Screening_Event_at_TOHO_Cinemas_Shinjuku_%2848133238487%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 714,
+          "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": "A chart depicting the cumulative domestic box office gross of Avatar (2009), Avengers: Endgame (2019), Avengers: Infinity War (2018), Black Panther (2018), and Star Wars: The Force Awakens (2015) over",
-          "credit": "Philip Terry Graham / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:North_American_Domestic_Box_Office.png",
-          "vision_score": 8.0
+          "alt": "アベンジャーズ/エンドゲーム 最速上映会 TOHOシネマズ新宿",
+          "credit": "Dick Thomas Johnson from Tokyo, Japan / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Avengers_Endgame_First_Screening_Event_at_TOHO_Cinemas_Shinjuku_(48133238487).jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Marvel_Studios_Inc.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Marvel Studios Inc logo",
+          "credit": "Hyva 007 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Marvel_Studios_Inc.webp",
+          "vision_score": 5.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/D23_Expo_2011_-_Marvel_panel_-_Marvel_Studios_%286080862191%29.jpg/1280px-D23_Expo_2011_-_Marvel_panel_-_Marvel_Studios_%286080862191%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "D23 Expo 2011 - Marvel panel - Marvel Studios",
+          "credit": "The Conmunity -  Pop Culture Geek from Los Angeles, CA, USA / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:D23_Expo_2011_-_Marvel_panel_-_Marvel_Studios_(6080862191).jpg",
+          "vision_score": 5.0
         }
       ],
       "story": [
@@ -10500,10 +10524,27 @@
         "sent_at": "2026-10-05T14:53:21+00:00",
         "msg_ids": [
           2916,
-          2917
+          2917,
+          2943,
+          2944,
+          2945
         ],
-        "control_id": 2918
-      }
+        "control_id": 2946
+      },
+      "image_queries": [
+        "Avengers: Endgame",
+        "Avengers: Endgame Encore",
+        "Marvel Studios",
+        "The Walt Disney Company",
+        "Avatar (2009)",
+        "James Cameron",
+        "movie theater",
+        "film poster",
+        "box office chart"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/North_American_Domestic_Box_Office.png/1280px-North_American_Domestic_Box_Office.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "c2005118-c3e6-5dd8-bdd8-7218af4bbb06",
