@@ -8470,7 +8470,7 @@
     {
       "id": "23fb4d50-74c3-5b51-aac7-b424eb8c8ecd",
       "slug": "2026-10-05-nem-a-dicsosegert-csak-egy-darab-raketaert-igy-keszul-a-nasa-az-ujabb",
-      "status": "published",
+      "status": "needs_review",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -8500,15 +8500,16 @@
       "word_count": 174,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Moon_surface_10k.png/1280px-Moon_surface_10k.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Artemis-program-infographic.webp/1280px-Artemis-program-infographic.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 675,
+        "height": 864,
         "kind": "photo",
         "pos": "center",
-        "alt": "Moon surface",
-        "credit": "Wikideas1 / Wikimedia Commons",
-        "license": "CC0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Moon_surface_10k.png"
+        "alt": "A graphic illustrating NASA’s increased cadence of Artemis missions.",
+        "credit": "Unknown authorUnknown author / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Artemis-program-infographic.webp",
+        "vision_score": 7.0
       },
       "inline_images": [],
       "sources": [
@@ -8531,64 +8532,10 @@
         "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
         "prompt_version": "section-v2",
         "reviewed_by": null,
-        "reviewed_at": null
+        "reviewed_at": "2026-10-05T06:40:23+02:00"
       },
       "hot_score": 5.73,
-      "title_options": [
-        "Nem a dicsőségért, csak egy darab rakétáért: így készül a NASA az újabb holdutazásra",
-        "A mindennapi rakétáktól a Holdig: ki az a Richard Spolzino, aki nyomot hagyna a történelemben?",
-        "Amikor egyetlen kéznyom a cél: bepillantás a NASA kulisszái mögé",
-        "Ezt a különös vágyat kergeti a NASA egyik kulcsembere",
-        "Nem akart címet vagy küldetést, mégis ez a NASA legfontosabb célja",
-        "Ez az ember nem dicsőséget akar, hanem valami sokkal kézzelfoghatóbbat a Hold felé vezető úton"
-      ],
       "clickbait_from": 3,
-      "image_options": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Moon_surface_10k.png/1280px-Moon_surface_10k.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 675,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Moon surface",
-          "credit": "Wikideas1 / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Moon_surface_10k.png"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Aldrin_Apollo_11.jpg/1280px-Aldrin_Apollo_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1200,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Short description: Astronaut Buzz Aldrin on the Moon\nFull description: Astronaut Buzz Aldrin, Lunar Module pilot, walks on the surface of the Moon near the leg of the Lunar Module (LM) \"Eagle\" during",
-          "credit": "Neil A. Armstrong / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Artemis-program-infographic.webp/1280px-Artemis-program-infographic.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 864,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "A graphic illustrating NASA’s increased cadence of Artemis missions.",
-          "credit": "Unknown authorUnknown author / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Artemis-program-infographic.webp",
-          "vision_score": 7.0
-        }
-      ],
-      "story": [
-        {
-          "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
-          "link": "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/",
-          "summary": "“I want to be able to look at a rocket launch and say, ‘I touched a piece of this.’” That’s how Richard Spolzino describes the thing he’s chasing. Not a title, not a specific mission, not even NASA itself, just the ability to point at something real and know his work made it possible. At […]",
-          "source": "nasa.gov",
-          "related": null,
-          "hot_score": 5.73
-        }
-      ],
       "category_meta": {
         "source_links": [
           "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/"
@@ -8601,7 +8548,7 @@
         "meta_title": "Nem a dicsőségért, csak egy darab rakétáért: így készül a NA",
         "meta_description": "Richard Spolzino nem dicsőségre vagy konkrét küldetésekre hajt, hanem arra, hogy a keze nyomát lássa a Hold felé tartó űreszközökön. A NASA jelenlegi missziói é",
         "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-05-nem-a-dicsosegert-csak-egy-darab-raketaert-igy-keszul-a-nasa-az-ujabb/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Moon_surface_10k.png/1280px-Moon_surface_10k.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Artemis-program-infographic.webp/1280px-Artemis-program-infographic.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8618,27 +8565,44 @@
       "dedupe_hash": "05d15f32c580a094b074c6bd0c4b72eaf8b2f6aa399040eabc9657d9233b125d",
       "pipeline_run_id": "37261475753",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-05T06:40:23+02:00",
-      "updated_at": "2026-10-05T06:40:23+02:00",
+      "created_at": "2026-10-05T07:40:00+02:00",
+      "updated_at": "2026-10-05T07:38:33+02:00",
       "published_at": "2026-10-05T06:40:23+02:00",
       "expires_at": null,
+      "hold": true,
+      "title_options": [
+        "Nem a dicsőségért, csak egy darab rakétáért: így készül a NASA az újabb holdutazásra",
+        "Holdra irányuló űrmissziók kulisszatitkai",
+        "NASA új rakétákat épít a következő artemiszhez"
+      ],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Artemis-program-infographic.webp/1280px-Artemis-program-infographic.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 864,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A graphic illustrating NASA’s increased cadence of Artemis missions.",
+          "credit": "Unknown authorUnknown author / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Artemis-program-infographic.webp",
+          "vision_score": 7.0
+        }
+      ],
       "legal": {
         "level": 0,
         "issues": []
       },
       "review": {
         "title": 0,
-        "image": 2,
-        "sent_at": "2026-10-05T04:10:06+00:00",
+        "image": 0,
+        "sent_at": "2026-10-05T05:40:02+00:00",
         "msg_ids": [
-          2671,
-          2672,
-          2673,
-          2674
+          2683,
+          2684
         ],
-        "control_id": 2675
-      },
-      "live": true
+        "control_id": 2685
+      }
     }
   ]
 }
