@@ -10334,7 +10334,7 @@
     {
       "id": "319c7931-3a43-5b18-ae3d-a27d99296c7b",
       "slug": "2026-10-06-feleves-melypontrol-kapaszkodott-vissza-a-magyar-fizetoeszkoz",
-      "status": "pending",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -10365,15 +10365,15 @@
       "word_count": 212,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://pixabay.com/get/g20acca2bfce6e0807a29945399330653715b3a75f3ade1de52340b01b8fb534e93ab170ae6ff76ead7cc0da258f9d95b81e3481b5e9c673b56fece48ae401d14_1280.jpg",
-        "width": 4608,
-        "height": 3456,
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/319c79313a-1791268012-0.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/319c79313a-1791268012-0.jpg",
         "kind": "photo",
-        "alt": "blur, chart, computer, data, finance, graph, growth, line graph, stock exchange, stock market, technology, trading, data, finance, finance, graph, stock market, stock market, stock market, stock marke",
-        "credit": "Pexels / Pixabay",
-        "license": "Pixabay License",
-        "source_url": "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
-        "vision_score": 8.0
+        "alt": "Féléves mélypontról kapaszkodott vissza a magyar fizetőeszköz",
+        "likeness": false,
+        "credit": "Kollektíva illusztráció",
+        "license": "saját grafika",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
       },
       "inline_images": [],
       "sources": [
@@ -10472,7 +10472,7 @@
         "meta_title": "Féléves mélypontról kapaszkodott vissza a magyar fizetőeszkö",
         "meta_description": "Megrázta magát a forint, és a dollárral szembeni féléves mélypontja után korrigálta hétfői veszteségeit. A piacok most a friss KSH-adatokra és a jegybanki bejel",
         "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-06-feleves-melypontrol-kapaszkodott-vissza-a-magyar-fizetoeszkoz/",
-        "og_image": "https://pixabay.com/get/g20acca2bfce6e0807a29945399330653715b3a75f3ade1de52340b01b8fb534e93ab170ae6ff76ead7cc0da258f9d95b81e3481b5e9c673b56fece48ae401d14_1280.jpg",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/319c79313a-1791268012-0.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -10489,9 +10489,9 @@
       "dedupe_hash": "9bc9554d0b2a5d107dfab6e6080a9082adb0d2a4433ae20ae82d81140dc0cb22",
       "pipeline_run_id": "37421865247",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-06T08:16:56+02:00",
-      "updated_at": "2026-10-06T08:16:56+02:00",
-      "published_at": "2026-10-06T08:16:56+02:00",
+      "created_at": "2026-10-06T08:27:49+02:00",
+      "updated_at": "2026-10-06T08:27:49+02:00",
+      "published_at": "2026-10-06T08:27:49+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10511,7 +10511,8 @@
           3106
         ],
         "control_id": 3107
-      }
+      },
+      "live": true
     },
     {
       "id": "a85f6b11-14d1-5f52-880d-9ff91e5856fb",

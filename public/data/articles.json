@@ -1,7 +1,106 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T08:24:59+02:00",
+  "updated_at": "2026-10-06T08:27:49+02:00",
   "articles": [
+    {
+      "id": "319c7931-3a43-5b18-ae3d-a27d99296c7b",
+      "slug": "2026-10-06-feleves-melypontrol-kapaszkodott-vissza-a-magyar-fizetoeszkoz",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "forint",
+        "árfolyam",
+        "dollár",
+        "euró",
+        "MNB"
+      ],
+      "title": "Féléves mélypontról kapaszkodott vissza a magyar fizetőeszköz",
+      "subtitle": null,
+      "lead": "Megrázta magát a forint, és a dollárral szembeni féléves mélypontja után korrigálta hétfői veszteségeit. A piacok most a friss KSH-adatokra és a jegybanki bejelentésekre figyelnek.",
+      "key_points": [
+        "A dollár-forint kurzus délelőtt még a 330-as szinten is járt, de estére 327,3 környékére tért vissza.",
+        "Az euró jegyzése ismét a 367-es szint közelébe süllyedt a szűkebb sávban zajló kereskedésben.",
+        "A nemzetközi nyomást a dollár erősödése és az euró gyengülése okozta, nem hazai egyedi kockázatok."
+      ],
+      "content": "Gyengüléssel indult, de korrekcióval zárult a hétfői kereskedés a forint piacán, miután a dollár-forint kurzus a délelőtti órákban a 330-as szintig emelkedett, amire legutóbb idén áprilisban volt példa. A délutáni órákban azonban megfordult a mozgás iránya, és az amerikai deviza lendületvesztésével párhuzamosan a jegyzés estére 327,3 környékére tért vissza, teljesen ledolgozva a korábbi elmozdulást.\n\nAz euróval szemben szűkebb sávban zajlott a kereskedés, hiszen a délelőtti 368,3-as szintről a kurzus a nap végére a 367,0–367,6 közötti sávba mérséklődött. Ez a mozgás jelezte, hogy a délelőtti nyomást nem hazai egyedi kockázatok, hanem a nemzetközi dollárerősödés és az euró gyengülése idézte elő.\n\nA nemzetközi hátteret a közel-keleti konfliktus nyomán emelkedő energiaárak és az amerikai szolgáltatószektor tartós árnyomása alakította, amelyek felerősítették a Federal Reserve további kamatemeléseit árazó várakozásokat. Ezzel párhuzamosan az euró is érezhetően gyengült a francia költségvetési viták, a táguló európai állampapír-felárak, valamint a spanyol politikai bizonytalanság hatására.\n\nA keddi nyitásban a nemzetközi környezet mellett a hazai hírekre figyel a piac, miközben a Portfolio Back to Europe konferenciáján Kurali Zoltán MNB-alelnök euróbevezetésről szóló előadása adhat iránymutatást a kereskedőknek.",
+      "content_format": "markdown",
+      "body": [
+        "Gyengüléssel indult, de korrekcióval zárult a hétfői kereskedés a forint piacán, miután a dollár-forint kurzus a délelőtti órákban a 330-as szintig emelkedett, amire legutóbb idén áprilisban volt példa. A délutáni órákban azonban megfordult a mozgás iránya, és az amerikai deviza lendületvesztésével párhuzamosan a jegyzés estére 327,3 környékére tért vissza, teljesen ledolgozva a korábbi elmozdulást.",
+        "Az euróval szemben szűkebb sávban zajlott a kereskedés, hiszen a délelőtti 368,3-as szintről a kurzus a nap végére a 367,0–367,6 közötti sávba mérséklődött. Ez a mozgás jelezte, hogy a délelőtti nyomást nem hazai egyedi kockázatok, hanem a nemzetközi dollárerősödés és az euró gyengülése idézte elő.",
+        "A nemzetközi hátteret a közel-keleti konfliktus nyomán emelkedő energiaárak és az amerikai szolgáltatószektor tartós árnyomása alakította, amelyek felerősítették a Federal Reserve további kamatemeléseit árazó várakozásokat. Ezzel párhuzamosan az euró is érezhetően gyengült a francia költségvetési viták, a táguló európai állampapír-felárak, valamint a spanyol politikai bizonytalanság hatására.",
+        "A keddi nyitásban a nemzetközi környezet mellett a hazai hírekre figyel a piac, miközben a Portfolio Back to Europe konferenciáján Kurali Zoltán MNB-alelnök euróbevezetésről szóló előadása adhat iránymutatást a kereskedőknek."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 212,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/319c79313a-1791268012-0.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/319c79313a-1791268012-0.jpg",
+        "kind": "photo",
+        "alt": "Féléves mélypontról kapaszkodott vissza a magyar fizetőeszköz",
+        "likeness": false,
+        "credit": "Kollektíva illusztráció",
+        "license": "saját grafika",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/deviza/20261006/ledolgozta-hetfoi-vesztesegeit-a-forint-ma-a-portfolio-konferenciajarol-erkezhet-lokes-867554",
+          "title": "Ledolgozta hétfői veszteségeit a forint: ma a Portfolio konferenciájáról érkezhet lökés",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T08:16:56+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-06T08:27:49+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/deviza/20261006/ledolgozta-hetfoi-vesztesegeit-a-forint-ma-a-portfolio-konferenciajarol-erkezhet-lokes-867554"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/penzvilag/2026-10-06-feleves-melypontrol-kapaszkodott-vissza-a-magyar-fizetoeszkoz/",
+      "seo": {
+        "meta_title": "Féléves mélypontról kapaszkodott vissza a magyar fizetőeszkö",
+        "meta_description": "Megrázta magát a forint, és a dollárral szembeni féléves mélypontja után korrigálta hétfői veszteségeit. A piacok most a friss KSH-adatokra és a jegybanki bejel",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-06-feleves-melypontrol-kapaszkodott-vissza-a-magyar-fizetoeszkoz/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/319c79313a-1791268012-0.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "9bc9554d0b2a5d107dfab6e6080a9082adb0d2a4433ae20ae82d81140dc0cb22",
+      "pipeline_run_id": "37421865247",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T08:27:49+02:00",
+      "updated_at": "2026-10-06T08:27:49+02:00",
+      "published_at": "2026-10-06T08:27:49+02:00",
+      "expires_at": null
+    },
     {
       "id": "a85f6b11-14d1-5f52-880d-9ff91e5856fb",
       "slug": "2026-10-06-soha-nem-latott-szamu-noi-kepviselo-indit-szakmai-muhelyt-a-parlament",
