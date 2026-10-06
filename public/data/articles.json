@@ -1,7 +1,117 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T13:27:09+02:00",
+  "updated_at": "2026-10-06T14:11:18+02:00",
   "articles": [
+    {
+      "id": "510b474f-a79e-5a8e-9c36-7498899a4458",
+      "slug": "2026-10-06-105-milliardos-sporolas-az-m6-oson-kulfoldi-cegek-kaptak-a-megbizast",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "M6-os autópálya",
+        "Vitézy Dávid",
+        "koncesszió",
+        "Építési és Közlekedési Minisztérium",
+        "gazdaság"
+      ],
+      "title": "105 milliárdos spórolás az M6-oson: külföldi cégek kapták a megbízást",
+      "subtitle": null,
+      "lead": "Több mint százmilliárd forintot takarít meg az állam az M6-os autópálya egy szakaszának üzemeltetésén azzal, hogy a korábbi tervektől eltérően olcsóbb szerződést kötöttek. A döntés hátterében komoly minisztériumi átrendeződések és korábbi szabálytalanságok gyanúja áll.",
+      "key_points": [
+        "Az állam 105 milliárd forintot takarít meg az M6-os autópálya Érdtető és Dunaújváros közötti szakaszának üzemeltetésén.",
+        "A megbízást a korábban tervezett, Mészáros Lőrinc és Szíjj László érdekeltségébe tartozó MKIF helyett a meglévő koncesszor kapta meg.",
+        "A minisztérium korábbi döntése miatt a gyanú szerint büntetőfeljelentést is tettek túlárazás miatt."
+      ],
+      "content": "A részletekről Vitézy Dávid közlekedési szakértő számolt be Facebook-bejegyzésében, jelezve, hogy a hivatalos lezárás után az autópályát két évtizede működtető társaság viszi tovább a feladatokat.\n\nA döntés jelentős pénzügyi eltérést mutat a korábbi elképzelésekhez képest, mivel az eredeti tervek szerint a feladatot Mészáros Lőrinc és Szíjj László érdekeltsége, a Magyar Koncessziós Infrastruktúra Fejlesztő Zrt. (MKIF) kapta volna meg. Az MKIF-fel tervezett konstrukcióban – az eredetileg 2057-ig szóló szerződés díjait 11 évre arányosítva – a kifizetendő összeg 149 milliárd forintra rúgott volna, míg a most aláírt megállapodás 44 milliárd forintba kerül 2037-ig.\n\nAz Építési és Közlekedési Minisztérium átvilágítása során kiderült, hogy a tárca korábban szabálytalanul és jelentősen túlárazva bízta volna meg a társaságot az azonos műszaki színvonalú üzemeltetési feladatokkal. Emiatt a minisztérium a gyanú szerint büntetőfeljelentést is tett, a mostani megállapodás aláírását pedig a koncessziós rendszer átalakításának első lépéseként értékelik.\n\nA bejegyzés szerint a következő lépés a teljes MKIF-koncessziós szerződés felülvizsgálata lesz, amellyel további ezermilliárdos nagyságrendű megtakarítást érhetnek el.",
+      "content_format": "markdown",
+      "body": [
+        "A részletekről Vitézy Dávid közlekedési szakértő számolt be Facebook-bejegyzésében, jelezve, hogy a hivatalos lezárás után az autópályát két évtizede működtető társaság viszi tovább a feladatokat.",
+        "A döntés jelentős pénzügyi eltérést mutat a korábbi elképzelésekhez képest, mivel az eredeti tervek szerint a feladatot Mészáros Lőrinc és Szíjj László érdekeltsége, a Magyar Koncessziós Infrastruktúra Fejlesztő Zrt. (MKIF) kapta volna meg. Az MKIF-fel tervezett konstrukcióban – az eredetileg 2057-ig szóló szerződés díjait 11 évre arányosítva – a kifizetendő összeg 149 milliárd forintra rúgott volna, míg a most aláírt megállapodás 44 milliárd forintba kerül 2037-ig.",
+        "Az Építési és Közlekedési Minisztérium átvilágítása során kiderült, hogy a tárca korábban szabálytalanul és jelentősen túlárazva bízta volna meg a társaságot az azonos műszaki színvonalú üzemeltetési feladatokkal. Emiatt a minisztérium a gyanú szerint büntetőfeljelentést is tett, a mostani megállapodás aláírását pedig a koncessziós rendszer átalakításának első lépéseként értékelik.",
+        "A bejegyzés szerint a következő lépés a teljes MKIF-koncessziós szerződés felülvizsgálata lesz, amellyel további ezermilliárdos nagyságrendű megtakarítást érhetnek el."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 196,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/M6_motorway%2C_HUN_-_92_km.jpg/1280px-M6_motorway%2C_HUN_-_92_km.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Motorway M6, Hungary",
+        "credit": "Pudelek (Marcin Szala) / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:M6_motorway,_HUN_-_92_km.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261006/105-milliardot-sporolhat-az-allam-az-m6-os-szerzodesen-867708",
+          "title": "105 milliárdot spórolhat az állam az M6-os szerződésén",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T14:07:58+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/vitezy-david-m6-autopalya-alairas-szerzodes-kozlekedes?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Itt a vége, Vitézy Dávid aláírta az autópálya-szerződést: mégse Mészáros Lőrincék kapták a megbízást, hanem külföldi óriáscégek – 44 milliárdos üzletet kötöttek",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T14:07:58+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Aláírtuk: 105 milliárd forintot spórolunk az adófizetőknek az M6-os autópálya üzemeltetésén!",
+        "who": "Vitézy Dávid közlekedési és beruházási miniszter",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-06T14:11:18+02:00"
+      },
+      "hot_score": 6.95,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261006/105-milliardot-sporolhat-az-allam-az-m6-os-szerzodesen-867708"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kozelet/2026-10-06-105-milliardos-sporolas-az-m6-oson-kulfoldi-cegek-kaptak-a-megbizast/",
+      "seo": {
+        "meta_title": "105 milliárdos spórolás az M6-oson: külföldi cégek kapták a ",
+        "meta_description": "Több mint százmilliárd forintot takarít meg az állam az M6-os autópálya egy szakaszának üzemeltetésén azzal, hogy a korábbi tervektől eltérően olcsóbb szerződés",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-105-milliardos-sporolas-az-m6-oson-kulfoldi-cegek-kaptak-a-megbizast/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/M6_motorway%2C_HUN_-_92_km.jpg/1280px-M6_motorway%2C_HUN_-_92_km.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "9f74883251ca1aa0743588c5d53fd76904a93c9b8fbf548dbdb19bc4efbc904e",
+      "pipeline_run_id": "37460095027",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T14:11:18+02:00",
+      "updated_at": "2026-10-06T14:11:18+02:00",
+      "published_at": "2026-10-06T14:11:18+02:00",
+      "expires_at": null
+    },
     {
       "id": "cd758f7e-9852-5075-85ab-c41669a4ac0a",
       "slug": "2026-10-06-nyugat-fele-kacsintanak-a-kozep-europai-fizetesek",
