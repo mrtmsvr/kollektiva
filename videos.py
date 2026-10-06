@@ -232,7 +232,7 @@ def article_from_video(ai: "kc.AIClient", v: dict, tz: ZoneInfo, articles: list,
               "source": v.get("author") or "YouTube", "published": now, "categories": [], "fulltext": fulltext}]
     story[0]["kw"] = kc._keywords(story[0]["title"] + " " + story[0]["summary"])
     section = kc.pick_section(ai, story, kc.SECTIONS.get("kozelet"))
-    recent_imgs = {(a.get("hero_image") or {}).get("url") for a in articles[:60]} - {None}
+    recent_imgs = kc.used_images(articles)
     art = kc.build_section_article(ai, section, now.date(), tz, story, recent_imgs, kc.related_past(articles, story))
     if not art:
         return None
