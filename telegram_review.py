@@ -14,7 +14,7 @@ Egy cikkhez ezt kapod:
   1. fejléc: rovat, forróság, címjavaslatok, lead, „Röviden” pontok, források
   2. a teljes szöveg
   3. a képjelöltek számozva (max. 10)
-  4. vezérlőüzenet gombokkal:  Cím 1–3 · Kép 1–N / Nincs kép · 🔄 Új képek · ✏️ Saját cím ·
+  4. vezérlőüzenet gombokkal:  Cím 1–3 · Kép 1–N / Nincs kép · 🔄 Új képek · 🆕 Új címek ·
      ✅ Kirakom · 🔁 Újraírás · 🗑 Elvetem
 Új képek: a gomb eldobja a mostani jelölteket és újakat keres; válaszban (/k hadihajó) megadhatod, mit keressen.
 Saját cím: a ✏️ gomb után írd be (vagy válaszolj: /c az új cím).
@@ -146,13 +146,14 @@ def _updates(st: dict, wait: int) -> dict:
               timeout=wait + 15)
 
 
-def _fresh_titles(ai, a: dict) -> list:
-    """Visszahívott cikkhez (kép vagy javítás miatt) a mostani cím + 2 új címjavaslat."""
+def _fresh_titles(ai, a: dict, n: int = 2) -> list:
+    """Visszahívott cikkhez (kép vagy javítás miatt), vagy a 🆕 Új címek gombra: a mostani cím + n új címjavaslat."""
     out = [a.get("title", "")]
     try:
         ai = ai or kc.AIClient(kc.Config.from_env())
         raw = ai.complete_json("Hírszerkesztő vagy egy magyar online magazinnál. Csak JSON-t adsz vissza.",
-                               f"Cím: {a.get('title', '')}\nBevezető: {a.get('lead', '')}\n\nÍrj 2 új, ütős, de igaz címet "
+                               f"Cím: {a.get('title', '')}\nBevezető: {a.get('lead', '')}\n\nÍrj {n} új, ütős, de igaz címet, ami "
+                               "nem csak a fenti átfogalmazása (más szög, más kulcsszó elöl) "
                                "(max. 9 szó, pont nélkül a végén, olcsó clickbait-sablonok nélkül). "
                                'JSON: {"titles": ["...", "..."]}', 300, light=True)
         for t in raw.get("titles") or []:
@@ -161,7 +162,7 @@ def _fresh_titles(ai, a: dict) -> list:
                 out.append(t)
     except Exception as e:  # noqa: BLE001
         log.warning("Címjavaslat kimaradt: %s", str(e)[:150])
-    return out[:3]
+    return out[:n + 1]
 
 
 def _mid(resp: dict) -> Optional[int]:
@@ -242,7 +243,7 @@ def _control(art: dict) -> tuple:
     rows += [btns[k:k + 4] for k in range(0, len(btns), 4)]
     rows.append([{"text": "🔄 Új képek", "callback_data": f"{sid}|img"},
                  {"text": "🎨 Grafika", "callback_data": f"{sid}|gen"}])
-    rows.append([{"text": "✏️ Saját cím", "callback_data": f"{sid}|ct"},
+    rows.append([{"text": "🆕 Új címek", "callback_data": f"{sid}|nt"},
                  {"text": "📄 Teljes szöveg", "callback_data": f"{sid}|txt"}])
     if (art.get("legal") or {}).get("issues"):
         rows.append([{"text": "⚖️ Jogi javítás (a jelzések alapján)", "callback_data": f"{sid}|lfix"}])
@@ -294,6 +295,13 @@ def send_article(_out_dir: Optional[Path], art: dict) -> None:
         legal_txt = legal.summary(art.get("legal") or {})
     except Exception as e:  # noqa: BLE001
         log.warning("Jogi ellenőrzés kimaradt: %s", e)
+    if not art.get("image_options") and not art.get("live") and not isinstance(art.get("video"), dict):
+        try:  # nincs illő kép → ne „nincs kép”-pel jöjjön: generált grafika (ha a cikkírásnál nem sikerült)
+            gen = kc.auto_illustration(kc.AIClient(kc.Config.from_env()), art, art.get("category", "x"))
+            if gen:
+                art["image_options"] = gen
+        except Exception as e:  # noqa: BLE001
+            log.warning("Automatikus grafika küldéskor kimaradt: %s", e)
     kind = "🟢 KINT VAN" if art.get("live") else ("🗓 SAJÁT (időzített)" if art.get("offtopic") else "🆕 ÚJ")
     if isinstance(art.get("video"), dict) and not art.get("live"):
         _m = art["video"].get("minutes")
@@ -407,6 +415,13 @@ def _new_images(art: dict, ai, hint: str = "") -> list:
     if hint and not specific:
         specific = [hint[:60]]
     found = kc.find_images(specific, generic, kc.Config.from_env().http_timeout, seen, limit=8)
+    try:  # más cikk főképe ne jöjjön újra jelöltnek
+        cfg_ = kc.Config.from_env()
+        others = [a for a in kc.read_json(cfg_.output_dir / "articles.json", {"articles": []}).get("articles", [])
+                  if a.get("id") != art.get("id")]
+        found = kc.drop_used(found, kc.used_images(others))
+    except Exception as e:  # noqa: BLE001
+        log.warning("Használt képek szűrése kimaradt: %s", e)
     found = kc.vision_rank(ai, _chosen_title(art), art.get("lead", ""), found)
     art["image_queries"] = (used + specific + generic)[-30:]
     return found
@@ -862,7 +877,9 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 pdata = kc.read_json(ppath, {"polls": []})
                 left = [x for x in pdata.get("polls", []) if x.get("id") != parts[1]]
                 if len(left) != len(pdata.get("polls", [])):
-                    kc.write_json_atomic(ppath, {**pdata, "polls": left})
+                    gone = [{"id": x.get("id"), "article_url": x.get("article_url"), "question": x.get("question")}
+                            for x in pdata.get("polls", []) if x.get("id") == parts[1]]
+                    kc.write_json_atomic(ppath, {**pdata, "polls": left, "removed": (pdata.get("removed") or [])[-99:] + gone})
                     published += 1
                 tg("editMessageText", {"chat_id": st["chat_id"], "message_id": q["message"]["message_id"],
                                        "text": "🗑 A szavazás lekerült az oldalról (1–2 perc)."})
@@ -961,6 +978,24 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Új képeket keresek…"})
                 q = None
                 _refresh_images(st["chat_id"], art, ai)
+            elif act == "nt":  # új címjavaslatok (saját cím: /c válaszként)
+                tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Új címeket írok…"})
+                q = None
+                cur = _chosen_title(art)
+                new_t = _fresh_titles(ai, {**art, "title": cur}, 3)
+                if len(new_t) > 1:
+                    art["title_options"], art["clickbait_from"] = new_t, len(new_t)
+                    art["review"]["title"] = 0
+                    art["review"].pop("custom_title", None)
+                    changed = True
+                    mid = _mid(tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": art["review"].get("control_id"),
+                                                  "text": "🆕 Új címek (az 1. a mostani):\n" + "\n".join(
+                                                      f"{i + 1}) {t}" for i, t in enumerate(new_t))}))
+                    if mid:
+                        art["review"].setdefault("msg_ids", []).append(mid)
+                    _refresh_control(st["chat_id"], art)
+                else:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": "Most nem sikerült új címet írni, próbáld újra (vagy /c <cím>)."})
             elif act == "ct":
                 note = "Írd be a címet"
                 art["review"]["title_prompt_id"] = _mid(tg("sendMessage", {
