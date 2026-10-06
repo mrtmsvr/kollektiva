@@ -10121,9 +10121,9 @@
       "live": true
     },
     {
-      "id": "7261a8ae-7c6c-584e-ae2b-779d6e89e9c6",
-      "slug": "2026-10-06-vilaghiru-kozgazdasz-dicserte-a-kozep-europai-berek-felzarkozasat",
-      "status": "pending",
+      "id": "cd758f7e-9852-5075-85ab-c41669a4ac0a",
+      "slug": "2026-10-06-nyugat-fele-kacsintanak-a-kozep-europai-fizetesek",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -10133,7 +10133,7 @@
         "Európai Unió",
         "jövedelmi egyenlőtlenség"
       ],
-      "title": "Világhírű közgazdász dicsérte a közép-európai bérek felzárkózását",
+      "title": "Nyugat felé kacsintanak a közép-európai fizetések",
       "subtitle": null,
       "lead": "Az elmúlt évtizedekben nemcsak az európai országok közötti gazdasági különbségek mérséklődtek, hanem a közép-kelet-európai lakosság jövedelme is jelentősen közelebb került a nyugati szintekhez. Ezt a folyamatot méltatta a keddi Back to Europe konferencián bemutatott interjúban egy világhírű közgazdász.",
       "key_points": [
@@ -10206,11 +10206,11 @@
       },
       "date": "2026-10-06",
       "date_label": "október 6.",
-      "url": "/penzvilag/2026-10-06-vilaghiru-kozgazdasz-dicserte-a-kozep-europai-berek-felzarkozasat/",
+      "url": "/penzvilag/2026-10-06-nyugat-fele-kacsintanak-a-kozep-europai-fizetesek/",
       "seo": {
-        "meta_title": "Világhírű közgazdász dicsérte a közép-európai bérek felzárkó",
+        "meta_title": "Nyugat felé kacsintanak a közép-európai fizetések",
         "meta_description": "Az elmúlt évtizedekben nemcsak az európai országok közötti gazdasági különbségek mérséklődtek, hanem a közép-kelet-európai lakosság jövedelme is jelentősen köze",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-06-vilaghiru-kozgazdasz-dicserte-a-kozep-europai-berek-felzarkozasat/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-06-nyugat-fele-kacsintanak-a-kozep-europai-fizetesek/",
         "og_image": null,
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -10228,9 +10228,9 @@
       "dedupe_hash": "0f6f478afc4bb49289367bb03ad2c7dfef8f46d6dc01fba5ddf2730c142e0f47",
       "pipeline_run_id": "37448426045",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-06T12:21:49+02:00",
-      "updated_at": "2026-10-06T12:21:49+02:00",
-      "published_at": "2026-10-06T12:21:49+02:00",
+      "created_at": "2026-10-06T12:53:06+02:00",
+      "updated_at": "2026-10-06T12:53:06+02:00",
+      "published_at": "2026-10-06T12:53:06+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10245,7 +10245,8 @@
           3154
         ],
         "control_id": 3155
-      }
+      },
+      "live": true
     },
     {
       "id": "d458d433-061e-5d1e-a914-837513719118",
