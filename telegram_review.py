@@ -230,6 +230,9 @@ def _chosen_title(art: dict) -> str:
 def _control(art: dict) -> tuple:
     rv = art.get("review", {})
     sid = art["id"][:8]
+    if rv.get("compact"):  # lezárt cikk: egyetlen sor; a ✏️ gomb (vagy /e) mindent újra előhoz
+        return (f"{rv['compact']} · <b>{E(_chosen_title(art))}</b>\n{kc.SITE_URL}{art.get('url', '')}",
+                {"inline_keyboard": [[{"text": "✏️ Módosítás (cím, kép, törlés…)", "callback_data": f"{sid}|ed"}]]})
     opts = art.get("title_options") or [art["title"]]
     imgs = art.get("image_options") or []
     ti, ii = rv.get("title", 0), rv.get("image", 0 if imgs else -1)
@@ -271,6 +274,32 @@ def _deploy_now() -> None:
         DEPLOY_NOW.write_text("1")
     except OSError:
         pass
+
+
+def _compact(chat: int, art: dict, label: str) -> None:
+    """Kirakás / döntés után a cikk üzenetei (képek, Röviden, címek) eltűnnek, csak egy rövid sor marad."""
+    rv = art.setdefault("review", {})
+    for mid in (rv.get("msg_ids") or []) + [rv.get("title_prompt_id")]:
+        if mid:
+            tg("deleteMessage", {"chat_id": chat, "message_id": mid})
+    rv["msg_ids"], rv["title_prompt_id"], rv["compact"] = [], None, label
+    _refresh_control(chat, art)
+
+
+def _expand(out_dir: Path, art: dict) -> None:
+    """Lezárt (kint lévő) cikk teljes vezérlője újra: a mostani cím és kép az első helyen."""
+    chat = load_state().get("chat_id")
+    _drop_old_messages(chat, art)
+    cur = _chosen_title(art)
+    art["title_options"] = [cur] + [t for t in (art.get("title_options") or []) if t != cur][:2]
+    art["clickbait_from"] = len(art["title_options"])
+    hero = art.get("hero_image")
+    imgs = [im for im in (art.get("image_options") or []) if not hero or im.get("url") != hero.get("url")]
+    art["image_options"] = ([hero] if hero else []) + imgs[:5]
+    art["review"] = {}
+    if art.get("live"):
+        art.setdefault("legal", {})  # kint lévő cikknél ne fusson újra a jogi automata (ne írja át csendben a szöveget)
+    send_article(out_dir, art)
 
 
 def _drop_old_messages(chat: int, art: dict) -> None:
@@ -579,6 +608,7 @@ HELP = ("Parancsok (rövid / hosszú):\n"
         "/j /jogi – jogi ellenőrzés újra (válaszként)\n"
         "/c /cim <cím> – saját cím (válaszként)\n"
         "/u /ujrairas – újraírás (válaszként)\n"
+        "/e <link|cím> – kint lévő cikk minden gombja újra (kint marad)\n"
         "/v /vissza <link|cím> – levétel javításra\n"
         "/t /torles <link|cím> – leszedés\n"
         "/kn – kép nélküli cikkek képválasztásra\n"
@@ -693,6 +723,25 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                         changed = True
                     else:
                         tg("sendMessage", {"chat_id": st["chat_id"], "text": "Az újraírás most nem sikerült, próbáld később."})
+            elif re.match(r"(?i)/(e|elo|elő|elohiv|előhív)\b", text):
+                # kint lévő cikk teljes vezérlője újra (cím, kép, grafika, újraírás, törlés) – az oldalon kint marad
+                qtxt = text.split(maxsplit=1)[1].strip().lower() if len(text.split(maxsplit=1)) > 1 else ""
+                live_arts = kc.read_json(out_dir / "articles.json", {"articles": []}).get("articles", [])
+                hits = [a for a in live_arts if qtxt and (qtxt in (a.get("url") or "").lower() or qtxt in a.get("title", "").lower())]
+                if len(hits) != 1:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": (
+                        "Használat: /e <link vagy címrészlet> – a kint lévő cikk minden gombja újra (kint marad)" if not hits else
+                        f"{len(hits)} cikk illik rá, pontosíts:\n" + "\n".join("• " + a["title"] for a in hits[:8]))})
+                else:
+                    h = hits[0]
+                    item = next((p for p in pending if p.get("id") == h["id"]), None)
+                    if not item:
+                        item = {**h, "live": True, "title_options": [h["title"]], "clickbait_from": 1,
+                                "image_options": [h["hero_image"]] if h.get("hero_image") else [],
+                                "created_at": datetime.now(tz).isoformat(timespec="seconds")}
+                        pending.append(item)
+                    _expand(out_dir, item)
+                    changed = True
             elif re.match(r"(?i)/(v|vissza)\b", text):
                 # kint lévő cikk levétele + visszaküldése ide javításra (nem kerül ki magától, csak ✅ Kirakom után)
                 qtxt = text.split(maxsplit=1)[1].strip().lower() if len(text.split(maxsplit=1)) > 1 else ""
@@ -889,9 +938,14 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
             if parts[0] == "igno":  # Instagram-poszt letiltása (instagram.py)
                 import instagram
                 ok = instagram.cancel(parts[1])
-                tg("editMessageText", {"chat_id": st["chat_id"], "message_id": q["message"]["message_id"],
-                                       "text": "🚫 Nem megy ki Instagramra." if ok else "Ez már kiment vagy nem várakozik."})
-                tg("answerCallbackQuery", {"callback_query_id": q["id"]})
+                tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Nem megy ki." if ok else "Ez már kiment vagy nem várakozik."})
+                continue
+            if parts[0] == "igdel":  # kint lévő Instagram-poszt leszedése
+                import instagram
+                tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Leszedem…"})
+                res = instagram.delete_post(parts[1])
+                if res != "Leszedve.":
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": res, "disable_web_page_preview": True})
                 continue
             if parts[0] == "qdel":
                 qpath = out_dir / "quizzes.json"
@@ -1035,12 +1089,18 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                     "reply_markup": {"force_reply": True, "input_field_placeholder": "Új cím"}}))
             elif act == "ok" and art.get("live"):
                 # nem zárjuk le: PENDING_MAX_AGE_H óráig (alap: 48) még cserélhető a cím/kép, vagy törölhető
-                note = f"Rendben ✅ – {PENDING_MAX_AGE_H} óráig még módosíthatod"
+                note = "Rendben ✅"
+                _compact(st["chat_id"], art, "✅ Kint")
             elif act == "ok":
                 _go_live(out_dir, art, tz)
                 published += 1
                 note = "Kirakva ✅ (1–2 perc múlva látszik)"
-                _refresh_control(st["chat_id"], art)
+                _compact(st["chat_id"], art, "✅ Kint")
+            elif act == "ed":  # lezárt cikk újra előhozása (cím, kép, újraírás, törlés)
+                note = "Előhozom…"
+                tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": note})
+                q = None
+                _expand(out_dir, art)
             elif act == "no":
                 pending.remove(art)
                 st.setdefault("rejected_links", []).extend(art.get("category_meta", {}).get("source_links", []))
@@ -1052,6 +1112,9 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                     import offtopic  # elvetett saját cikk helyett aznap új téma jön
                     if art.get("date") == datetime.now(tz).date().isoformat() and offtopic.allow_reroll(datetime.now(tz).date()):
                         note += " – új saját cikket írok (másik téma)"
+                for mid in (art.get("review", {}).get("msg_ids") or []) + [art.get("review", {}).get("title_prompt_id")]:
+                    if mid:  # a cikk többi üzenete eltűnik, csak egy sor marad
+                        tg("deleteMessage", {"chat_id": st["chat_id"], "message_id": mid})
                 tg("editMessageText", {"chat_id": st["chat_id"], "message_id": q["message"]["message_id"],
                                        "text": f"🗑 {note}: {_chosen_title(art)}"})
             elif act == "rw":
@@ -1100,9 +1163,7 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
             _go_live(out_dir, a, tz, auto=True)
             published += 1
             changed = True
-            _refresh_control(st["chat_id"], a)
-            tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": a["review"].get("control_id"),
-                               "text": msg + " Utólag még cserélheted a címet/képet, vagy törölheted."})
+            _compact(st["chat_id"], a, "🗓 Magától kint (csendes időszak)" if a.get("schedule") else "⏱ Magától kint")
     # lejárt függő cikkek
     limit = (datetime.now(tz) - timedelta(hours=PENDING_MAX_AGE_H)).isoformat()
     for a in [a for a in pending if (a.get("created_at") or "") < limit and (a.get("live") or MODE != "hybrid")]:
