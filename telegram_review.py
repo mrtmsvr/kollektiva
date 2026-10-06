@@ -886,6 +886,13 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
             if (q.get("message") or {}).get("chat", {}).get("id") != st.get("chat_id"):
                 continue
             parts = (q.get("data") or "").split("|")
+            if parts[0] == "igno":  # Instagram-poszt letiltása (instagram.py)
+                import instagram
+                ok = instagram.cancel(parts[1])
+                tg("editMessageText", {"chat_id": st["chat_id"], "message_id": q["message"]["message_id"],
+                                       "text": "🚫 Nem megy ki Instagramra." if ok else "Ez már kiment vagy nem várakozik."})
+                tg("answerCallbackQuery", {"callback_query_id": q["id"]})
+                continue
             if parts[0] == "qdel":
                 qpath = out_dir / "quizzes.json"
                 qdata = kc.read_json(qpath, {"quizzes": []})
