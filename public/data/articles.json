@@ -1,7 +1,125 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T06:53:38+02:00",
+  "updated_at": "2026-10-06T06:57:51+02:00",
   "articles": [
+    {
+      "id": "70eb9371-4d02-574e-b511-600e82d8760e",
+      "slug": "2026-10-06-milliok-a-megafonnak-zart-bizottsagi-ules-szijjarto-peterrel",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Megafon",
+        "Szijjártó Péter",
+        "Nemzetbiztonsági Bizottság",
+        "BYD",
+        "Mészáros Lőrinc"
+      ],
+      "title": "Milliók a Megafonnak, zárt bizottsági ülés Szijjártó Péterrel",
+      "subtitle": null,
+      "lead": "Többmilliárdos támogatási adatok láttak napvilágot a Megafon körül, miközben a parlamentben zárt ajtók mögött hallgatták meg Szijjártó Pétert. A hazai közélet elmúlt napjait a vagyonnyilatkozatok nyilvánosságra hozatala és a nemzetbiztonsági meghallgatások határozták meg.",
+      "key_points": [
+        "Legalább 4,5 milliárd forint érkezett Mészáros Lőrinc érdekeltségeibe tartozó cégektől a Megafonhoz 2022 és 2024 között.",
+        "Szijjártó Péter a Nemzetbiztonsági Bizottság ülésén számolt be a külügyminiszteri tisztségéről és a kínai BYD-hez kapcsolódó ügyekről.",
+        "A Tisza Párt kezdeményezésére összehívott ülésen a felek megosztottak maradtak a biztonsági kockázatokat illetően."
+      ],
+      "content": "A HVG beszámolója szerint Mészáros Lőrinc érdekeltségébe tartozó cégek legalább 4,5 milliárd forinttal támogatták a Megafont 2022 és 2024 között. Az ügyhöz kapcsolódóan a hazai közéletben továbbra is a nyilvánosságra hozott adatok és vagyonnyilatkozatok határozzák meg a napirendet, miközben a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) vezetőinek dokumentumai is elérhetővé váltak.\n\nEzzel párhuzamosan az Országgyűlés nemzetbiztonsági bizottsága hallgatta meg Szijjártó Pétert. A zárt ülésen faggatták a politikust a kínai óriásberuházáshoz kapcsolódó ügyekről.\n\nA hazai fejlemények mellett a nemzetközi hírek is formálják a közbeszédet: Novemberben előrehozott választásokat tartanak Spanyolországban, a brazil elnökválasztás első fordulóját a jobboldali Flávio Bolsonaro nyerte. A jövő héten ráadásul az NVVH elnökhelyettesi pozícióiról is döntés születhet.",
+      "content_format": "markdown",
+      "body": [
+        "A HVG beszámolója szerint Mészáros Lőrinc érdekeltségébe tartozó cégek legalább 4,5 milliárd forinttal támogatták a Megafont 2022 és 2024 között. Az ügyhöz kapcsolódóan a hazai közéletben továbbra is a nyilvánosságra hozott adatok és vagyonnyilatkozatok határozzák meg a napirendet, miközben a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) vezetőinek dokumentumai is elérhetővé váltak.",
+        "Ezzel párhuzamosan az Országgyűlés nemzetbiztonsági bizottsága hallgatta meg Szijjártó Pétert. A zárt ülésen faggatták a politikust a kínai óriásberuházáshoz kapcsolódó ügyekről.",
+        "A hazai fejlemények mellett a nemzetközi hírek is formálják a közbeszédet: Novemberben előrehozott választásokat tartanak Spanyolországban, a brazil elnökválasztás első fordulóját a jobboldali Flávio Bolsonaro nyerte. A jövő héten ráadásul az NVVH elnökhelyettesi pozícióiról is döntés születhet."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 143,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/P%C3%A9ter_Szijj%C3%A1rt%C3%B3_-_Hungarian_Minister_of_Foreign_Affairs_and_Trade_%2844613275674%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1994,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Foreign Secretary Jeremy Hunt meeting Péter Szijjártó, Hungarian Minister of Foreign Affairs and Trade at Chevening House.",
+        "credit": "Foreign and Commonwealth Office / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:P%C3%A9ter_Szijj%C3%A1rt%C3%B3_-_Hungarian_Minister_of_Foreign_Affairs_and_Trade_(44613275674)_(cropped).jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261006_milliardok-mentek-a-megafonnak-szijjartot-meghallgatta-a-nemzetbiztonsagi-bizottsag-newscast",
+          "title": "Milliárdok mentek a Megafonnak, Szijjártót meghallgatta a Nemzetbiztonsági Bizottság – Newscast",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T06:23:46+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-06T06:57:51+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261006_milliardok-mentek-a-megafonnak-szijjartot-meghallgatta-a-nemzetbiztonsagi-bizottsag-newscast"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kozelet/2026-10-06-milliok-a-megafonnak-zart-bizottsagi-ules-szijjarto-peterrel/",
+      "seo": {
+        "meta_title": "Milliók a Megafonnak, zárt bizottsági ülés Szijjártó Péterre",
+        "meta_description": "Többmilliárdos támogatási adatok láttak napvilágot a Megafon körül, miközben a parlamentben zárt ajtók mögött hallgatták meg Szijjártó Pétert. A hazai közélet e",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-milliok-a-megafonnak-zart-bizottsagi-ules-szijjarto-peterrel/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/P%C3%A9ter_Szijj%C3%A1rt%C3%B3_-_Hungarian_Minister_of_Foreign_Affairs_and_Trade_%2844613275674%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "c2bceab8-22ef-5301-b594-b58b1aab6802",
+        "8a177e58-8667-57e0-8b8f-746ab9edb755",
+        "83639ddc-34e0-5c32-97eb-0137ed96e4c1"
+      ],
+      "see_also": [
+        {
+          "title": "Nem nyugtatta meg a Tisza Pártot Szijjártó Péter nemzetbiztonsági meghallgatása",
+          "url": "/kozelet/2026-10-05-nem-nyugtatta-meg-a-tisza-partot-szijjarto-peter-nemzetbiztonsagi-meg/",
+          "date": "2026-10-05"
+        },
+        {
+          "title": "Zárt ajtók mögött faggatják Szijjártó Pétert a BYD-szerződésekről",
+          "url": "/kozelet/2026-10-05-zart-ajtok-mogott-faggatjak-szijjarto-petert-a-byd-szerzodesekrol/",
+          "date": "2026-10-05"
+        },
+        {
+          "title": "Hetvenmilliárdos kérdések várnak Szijjártó Péterre",
+          "url": "/kozelet/2026-10-02-hetvenmilliardos-kerdesek-varnak-szijjarto-peterre/",
+          "date": "2026-10-02"
+        }
+      ],
+      "thread_id": "8a177e58-8667-57e0-8b8f-746ab9edb755",
+      "dedupe_hash": "e640812c4d9c7598593c3bd736f2f0514295a4f8d40ef2cb9807d30337ead233",
+      "pipeline_run_id": "37411748561",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T06:57:51+02:00",
+      "updated_at": "2026-10-06T06:57:51+02:00",
+      "published_at": "2026-10-06T06:57:51+02:00",
+      "expires_at": null
+    },
     {
       "id": "c6ccc794-ffcd-5aa6-90a5-a66f7d408712",
       "slug": "2026-10-06-olaszorszagi-nyaralas-kozben-erte-a-nobel-dij-a-fennyel-iranyithato-a",
