@@ -1,7 +1,107 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T23:23:16+02:00",
+  "updated_at": "2026-10-06T23:25:14+02:00",
   "articles": [
+    {
+      "id": "661da993-22be-53f1-aaef-ec1887045ff0",
+      "slug": "2026-10-06-null",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Belügyminisztérium",
+        "Terrorelhárítási Központ",
+        "NAV",
+        "aranykonvoj",
+        "bűnügy"
+      ],
+      "title": "null",
+      "subtitle": null,
+      "lead": "Az áprilisi választást követő átmeneti időszakban több válságtanácskozást is tartottak a Belügyminisztériumban, ahol az ukrán pénzszállítók jogalap nélküli fogva tartásának jogi kereteit próbálták tisztázni. Az értekezleteken a Nemzeti Adó- és Vámhivatal, a Terrorelhárítási Központ és a titkosszolgálat vezető tisztségviselői is részt vettek.",
+      "key_points": [
+        "Több válságértekezletet tartottak a Belügyminisztériumban az aranykonvojügy jogi kérdéseiről.",
+        "A NAV korábbi válasza világossá tette, hogy az ukrán pénzszállítókat egy ideig biztosan jogtalanul tartották fogva.",
+        "A megbeszéléseken a TEK, a NAV és a titkosszolgálat illetékesei keresték a helyzet jogi lefedésének módját."
+      ],
+      "content": "A Belügyminisztériumban sorjázó zárt körű megbeszélésekre azután nyílhatott szükség, hogy a Nemzeti Adó- és Vámhivatal hivatalos válaszban jelezte az ügyészségnek: egy bizonyos időszakon keresztül egészen biztosan jogalap nélkül tartották fogva az ukrán pénzszállítókat. A Telex értesülései szerint az érintett állami szervek képviselőinek fő célja az volt, hogy megtalálják a módját a fogva tartás idején keletkezett jogi űr „lefedésének”, vagyis annak, hogy az intézkedést utólag jogszerűnek tüntessék fel.\n\nA tanácskozásokon a Nemzeti Adó- és Vámhivatal, a Terrorelhárítási Központ, valamint a titkosszolgálat felső vezetői fordultak meg. A résztvevők között volt Kovács András, aki Hajdu János helyetteseként dolgozik a Terrorelhárítási Központnál, valamint Szathmáry Zoltán testvére, aki az Alkotmányvédelmi Hivatal állományában tevékenykedett. Utóbbi személy az Alkotmányvédelmi Hivatal állományában tevékenykedett.\n\nAz üggyel összefüggésben egy olyan ügyészségi feljegyzés is napvilágot látott, amely szerint Hajdu János még a választás előtt egy belügyminisztériumi vizsgálóbizottsági tanácskozáson Orbán Viktor szerepére tett utalást. Minisztériumi vizsgálat azonban a sajtóban megjelent információk alapján kizárólag az Országos Idegenrendészeti Főigazgatóság, valamint a X. kerületi rendőrök érintettségének tisztázására indult meg, az ügy többi részét ez nem érintette.\n\nAz aranykonvoj ügye a politikai és igazgatási szférában is hullámokat vetett, miután a parlament tiszás többsége elutasította az ügyészjelöltet. A döntés meghozatalában vélhetően az is szerepet játszott, hogy a jelölt testvéréről már ekkor tudható volt az érintettsége az aranykonvojügyben.",
+      "content_format": "markdown",
+      "body": [
+        "A Belügyminisztériumban sorjázó zárt körű megbeszélésekre azután nyílhatott szükség, hogy a Nemzeti Adó- és Vámhivatal hivatalos válaszban jelezte az ügyészségnek: egy bizonyos időszakon keresztül egészen biztosan jogalap nélkül tartották fogva az ukrán pénzszállítókat. A Telex értesülései szerint az érintett állami szervek képviselőinek fő célja az volt, hogy megtalálják a módját a fogva tartás idején keletkezett jogi űr „lefedésének”, vagyis annak, hogy az intézkedést utólag jogszerűnek tüntessék fel.",
+        "A tanácskozásokon a Nemzeti Adó- és Vámhivatal, a Terrorelhárítási Központ, valamint a titkosszolgálat felső vezetői fordultak meg. A résztvevők között volt Kovács András, aki Hajdu János helyetteseként dolgozik a Terrorelhárítási Központnál, valamint Szathmáry Zoltán testvére, aki az Alkotmányvédelmi Hivatal állományában tevékenykedett. Utóbbi személy az Alkotmányvédelmi Hivatal állományában tevékenykedett.",
+        "Az üggyel összefüggésben egy olyan ügyészségi feljegyzés is napvilágot látott, amely szerint Hajdu János még a választás előtt egy belügyminisztériumi vizsgálóbizottsági tanácskozáson Orbán Viktor szerepére tett utalást. Minisztériumi vizsgálat azonban a sajtóban megjelent információk alapján kizárólag az Országos Idegenrendészeti Főigazgatóság, valamint a X. kerületi rendőrök érintettségének tisztázására indult meg, az ügy többi részét ez nem érintette.",
+        "Az aranykonvoj ügye a politikai és igazgatási szférában is hullámokat vetett, miután a parlament tiszás többsége elutasította az ügyészjelöltet. A döntés meghozatalában vélhetően az is szerepet játszott, hogy a jelölt testvéréről már ekkor tudható volt az érintettsége az aranykonvojügyben."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 258,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ministry_of_Interior_%28Hungary%29_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 797,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Ministry of Interior (Hungary)",
+        "credit": "VinceB / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Interior_(Hungary)_01.JPG",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261006_telex-aranykonvoj-ugy-erintett-valsagertekezlet-valasztas-utan",
+          "title": "A választás után válságértekezleteket tartottak az aranykonvojügy érintettjei",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T22:53:14+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-06T23:25:14+02:00"
+      },
+      "hot_score": 5.43,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261006_telex-aranykonvoj-ugy-erintett-valsagertekezlet-valasztas-utan"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kozelet/2026-10-06-null/",
+      "seo": {
+        "meta_title": "null",
+        "meta_description": "Az áprilisi választást követő átmeneti időszakban több válságtanácskozást is tartottak a Belügyminisztériumban, ahol az ukrán pénzszállítók jogalap nélküli fogv",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-null/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ministry_of_Interior_%28Hungary%29_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "1a9d412cb7e06b8ca106aa600e3fd76c023bc8f196a16fd8b2f7141c611a2309",
+      "pipeline_run_id": "37528574807",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T23:25:14+02:00",
+      "updated_at": "2026-10-06T23:25:14+02:00",
+      "published_at": "2026-10-06T23:25:14+02:00",
+      "expires_at": null
+    },
     {
       "id": "0b37cf8e-4df7-57b4-b687-d28cb6e58bd6",
       "slug": "2026-10-06-ket-evszazad-utan-zaratna-be-a-brit-konzulatust-izrael",
