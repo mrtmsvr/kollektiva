@@ -9575,16 +9575,92 @@
           "vision_score": 9.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Peter_Szijjarto_signs_Sec_Pompeo%27s_guestbook.jpg/1280px-Peter_Szijjarto_signs_Sec_Pompeo%27s_guestbook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Jeszenszky_G%C3%A9za_--.jpg/1280px-Jeszenszky_G%C3%A9za_--.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 800,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Géza JESZENSZKY",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Jeszenszky_G%C3%A9za_--.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Jeszenszky_G%C3%A9za_-.jpg/1280px-Jeszenszky_G%C3%A9za_-.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1512,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Géza JESZENSZKY",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Jeszenszky_G%C3%A9za_-.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/P%C3%A9ter_Szijj%C3%A1rt%C3%B3_-_Hungarian_Minister_of_Foreign_Affairs_and_Trade_%2844613275674%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1994,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Foreign Secretary Jeremy Hunt meeting Péter Szijjártó, Hungarian Minister of Foreign Affairs and Trade at Chevening House.",
+          "credit": "Foreign and Commonwealth Office / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P%C3%A9ter_Szijj%C3%A1rt%C3%B3_-_Hungarian_Minister_of_Foreign_Affairs_and_Trade_(44613275674)_(cropped).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/P%C3%A9ter_Szijj%C3%A1rt%C3%B3_in_%282025%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Photos: The Chancellery of the Prime Minister / PAP S.A",
+          "credit": "Polish presidency of the Council of the EU 2025 / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P%C3%A9ter_Szijj%C3%A1rt%C3%B3_in_(2025)_(cropped).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/BYD_Battery_Co.%2C_Ltd._early_signage.png/1280px-BYD_Battery_Co.%2C_Ltd._early_signage.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
           "kind": "photo",
           "pos": "center",
-          "alt": "Hungarian Foreign Minister Peter Szijjarto sign's U.S. Secretary of State Mike Pompeo's guestbook before their meeting at the U.S. Department of State in Washington, D.C., on May 30, 2018. [State Depa",
-          "credit": "U.S. Department of State (official Flickr account) / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Peter_Szijjarto_signs_Sec_Pompeo%27s_guestbook.jpg",
-          "vision_score": 8.0
+          "alt": "BYD Battery Co., Ltd. early signage showcased at the BYD Museum in Pingshan, Shenzhen, China",
+          "credit": "iMoD Official / Wikimedia Commons",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:BYD_Battery_Co.,_Ltd._early_signage.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/BYD_Auto_%28Thailand%29_Co.%2C_Ltd._manufacturing_plant_in_Rayong%2C_Thailand.png/1280px-BYD_Auto_%28Thailand%29_Co.%2C_Ltd._manufacturing_plant_in_Rayong%2C_Thailand.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 720,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "BYD Auto (Thailand) Co., Ltd. manufacturing plant in Rayong, Thailand",
+          "credit": "iMoD Official / Wikimedia Commons",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:BYD_Auto_(Thailand)_Co.,_Ltd._manufacturing_plant_in_Rayong,_Thailand.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Level_crossing_and_Audi_Hungaria_Plant%2C_Gate_-5%2C_2018_Gy%C5%91r.jpg/1280px-Level_crossing_and_Audi_Hungaria_Plant%2C_Gate_-5%2C_2018_Gy%C5%91r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": ": Level crossing at Audi Hungaria Plant, Gate #5. - Audi Hungária út, Győr, Győr-Moson-Sopron County, Hungary.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Level_crossing_and_Audi_Hungaria_Plant,_Gate_-5,_2018_Gy%C5%91r.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Audi_Hungaria_Plant%2C_Gate_-6%2C_2018_Gy%C5%91r.jpg/1280px-Audi_Hungaria_Plant%2C_Gate_-6%2C_2018_Gy%C5%91r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": ": Audi Hungaria Plant, Gate #6. Freight/Truck gate? - Audi Hungária út, Győr, Győr-Moson-Sopron County, Hungary.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Audi_Hungaria_Plant,_Gate_-6,_2018_Gy%C5%91r.jpg"
         }
       ],
       "story": [
@@ -9641,11 +9717,35 @@
         "msg_ids": [
           3135,
           3136,
-          3137
+          3137,
+          3166,
+          3167,
+          3168,
+          3169,
+          3170,
+          3171,
+          3172,
+          3173,
+          3174
         ],
-        "control_id": 3138
+        "control_id": 3175
       },
-      "live": true
+      "live": true,
+      "image_queries": [
+        "Jeszenszky Géza",
+        "Péter Szijjártó",
+        "BYD Co Ltd",
+        "Hungarian Parliament",
+        "Győr Audi plant",
+        "Szeged BYD factory",
+        "parliamentary hearing",
+        "industrial factory",
+        "political protest"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Peter_Szijjarto_signs_Sec_Pompeo%27s_guestbook.jpg/1280px-Peter_Szijjarto_signs_Sec_Pompeo%27s_guestbook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/P%C3%A9ter_Szijj%C3%A1rt%C3%B3_%26_Cornel_Feruta_%2801117848%29_%2848748227736%29.jpg/1280px-P%C3%A9ter_Szijj%C3%A1rt%C3%B3_%26_Cornel_Feruta_%2801117848%29_%2848748227736%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "6d78f454-c886-5619-99be-8e002b826269",
