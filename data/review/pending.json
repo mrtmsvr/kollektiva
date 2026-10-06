@@ -10368,15 +10368,25 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 732,
+          "url": "https://pixabay.com/get/g10bac6981915cf9afd8eb75ea492f32bd5091760004bd60bba285956f76e5d2491ff4f567709c75684808619b4dfff9db851e27b46dfe11dd0f97da88d3243d3_1280.jpg",
+          "width": 5259,
+          "height": 3098,
           "kind": "photo",
-          "pos": "center",
-          "alt": "Parliament building, Budapest",
-          "credit": "Dirk Beyer / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Parliament_4604.JPG",
+          "alt": "calculator, calculation, insurance, finance, accounting, pen, fountain pen, investment, office, work, taxes, calculator, insurance, insurance, finance, finance, finance, finance, finance, accounting, ",
+          "credit": "stevepb / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/calculator-calculation-insurance-385506/",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://pixabay.com/get/g4104b2936402fc56284eb581d5108d31c0677c8afa2b6f96c7f8c96f47b1d6230c417111ee892cf984706a1e2beb6855a607dc7e64c1ce16d726a799c1d1c680_1280.jpg",
+          "width": 5472,
+          "height": 3648,
+          "kind": "photo",
+          "alt": "tax, forms, income, business, paperwork, finance, document, accounting, office, taxation, irs, revenue, calculate, paper, return, investment, calculating, taxes, tax, tax, tax, tax, tax, paperwork, fi",
+          "credit": "stevepb / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/tax-forms-income-business-468440/",
           "vision_score": 7.0
         }
       ],
@@ -10460,10 +10470,25 @@
         "sent_at": "2026-10-06T14:35:43+00:00",
         "msg_ids": [
           3231,
-          3232
+          3232,
+          3236,
+          3237
         ],
-        "control_id": 3233
-      }
+        "control_id": 3238
+      },
+      "image_queries": [
+        "Viktor Orbán",
+        "Hungarian government",
+        "Hungarian Ministry of Finance",
+        "Hungarian Parliament",
+        "KATA tax system",
+        "tax documents",
+        "business meeting",
+        "financial chart"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     }
   ]
 }
