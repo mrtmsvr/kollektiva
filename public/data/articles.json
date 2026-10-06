@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T12:36:07+02:00",
+  "updated_at": "2026-10-06T12:36:32+02:00",
   "articles": [
     {
       "id": "6d78f454-c886-5619-99be-8e002b826269",
@@ -340,16 +340,16 @@
       "word_count": 231,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/One_stands_out_002_2025_01_01.jpg/1280px-One_stands_out_002_2025_01_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 634,
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/cda502dd7ce8ffbf.jpg",
+        "width": 6048,
+        "height": 4024,
         "kind": "photo",
-        "pos": "center",
-        "alt": "Plain euro banknotes, one of which is folded as a paper boat\n\n   \n\n\n\nObject: Euro banknote   \n\n\n\nTitle\nEuro banknote\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDepicts\nSpijkenisse's euro-bridges",
-        "credit": "Friedrich Haag / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:One_stands_out_002_2025_01_01.jpg",
-        "vision_score": 6.0
+        "alt": "banknotes, currency, finance, euro, investment, inflation, loan, corruption, bribes, money, wealth, cash, business, savings, euro, money, money, money, money, money",
+        "credit": "fotoblend / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/banknotes-currency-finance-euro-7850299/",
+        "vision_score": 8.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/cda502dd7ce8ffbf.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -396,7 +396,7 @@
         "meta_title": "Megvan a pontos terv a magyar euróbevezetésre",
         "meta_description": "Pontos menetrendet vázolt fel a Magyar Nemzeti Bank az euró bevezetésére, amely 2032 januárját jelöli meg céldátumként. A jegybank alelnöke szerint a sikerhez e",
         "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-06-megvan-a-pontos-terv-a-magyar-eurobevezetesre/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/One_stands_out_002_2025_01_01.jpg/1280px-One_stands_out_002_2025_01_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/cda502dd7ce8ffbf.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -428,7 +428,7 @@
       "pipeline_run_id": "37435991256",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-06T10:59:33+02:00",
-      "updated_at": "2026-10-06T11:10:15+02:00",
+      "updated_at": "2026-10-06T12:36:32+02:00",
       "published_at": "2026-10-06T10:59:33+02:00",
       "expires_at": null,
       "image_queries": [
