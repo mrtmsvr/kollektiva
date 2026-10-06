@@ -9907,6 +9907,563 @@
         "control_id": 3219
       },
       "live": true
+    },
+    {
+      "id": "50490333-3935-56fa-8a27-9126daf325af",
+      "slug": "2026-10-06-novemberben-valaszthatnak-uj-elnokot-a-pedagoguskar-elere",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Nemzeti Pedagógus Kar",
+        "oktatás",
+        "Horváth Péter",
+        "belföld",
+        "október 6"
+      ],
+      "title": "Novemberben választhatnak új elnököt a pedagóguskar élére",
+      "subtitle": null,
+      "lead": "Október 4-én lemondott posztjáról Horváth Péter, a Nemzeti Pedagógus Kar elnöke. A szervezet élén novemberben választhatnak új vezetőt.",
+      "key_points": [
+        "Horváth Péter tíz év után távozott a Nemzeti Pedagógus Kar éléről.",
+        "A távozó elnök döntését intézményvezetői feladataival és családi okokkal indokolta.",
+        "Az új elnök megválasztásáig Rázsi Botond Miklós alelnök látja el az elnöki feladatokat."
+      ],
+      "content": "Október 4-én távozott posztjáról Horváth Péter, a Nemzeti Pedagógus Kar elnöke. A győri Révai Miklós Gimnázium igazgatója intézményvezetői és egyéb teendőivel, valamint családi okokkal indokolta a döntését, amelyet a szervezet a honlapján közölt.\n\nHorváth Péter az MTI-nek nyilatkozva elmondta, hogy a júniusi újraválasztásakor is jelezte: csak ideiglenesen tudja elvállalni a pozíciót, mivel közeledik a nyugdíjkorhatár, és szeretne több időt tölteni az unokáival. Hozzátette, az oktatási rendszer átalakítása miatt komoly feladatok várnak a szervezetre, de ő már nem érzi magában azt az erőt és energiát, amelyet egy ilyen intenzív időszak megkövetel.\n\nAz új elnök megválasztásáig Rázsi Botond Miklós alelnök látja el az elnöki feladatokat, a végleges vezetőről pedig előreláthatólag novemberben dönt az országos küldöttgyűlés. A Nemzeti Pedagógus Kart 2014-ben hozta létre a kormány, működését azonban a pedagógusok egy része a kezdetektől fogva vitatta.",
+      "content_format": "markdown",
+      "body": [
+        "Október 4-én távozott posztjáról Horváth Péter, a Nemzeti Pedagógus Kar elnöke. A győri Révai Miklós Gimnázium igazgatója intézményvezetői és egyéb teendőivel, valamint családi okokkal indokolta a döntését, amelyet a szervezet a honlapján közölt.",
+        "Horváth Péter az MTI-nek nyilatkozva elmondta, hogy a júniusi újraválasztásakor is jelezte: csak ideiglenesen tudja elvállalni a pozíciót, mivel közeledik a nyugdíjkorhatár, és szeretne több időt tölteni az unokáival. Hozzátette, az oktatási rendszer átalakítása miatt komoly feladatok várnak a szervezetre, de ő már nem érzi magában azt az erőt és energiát, amelyet egy ilyen intenzív időszak megkövetel.",
+        "Az új elnök megválasztásáig Rázsi Botond Miklós alelnök látja el az elnöki feladatokat, a végleges vezetőről pedig előreláthatólag novemberben dönt az országos küldöttgyűlés. A Nemzeti Pedagógus Kart 2014-ben hozta létre a kormány, működését azonban a pedagógusok egy része a kezdetektől fogva vitatta."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 154,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Horvath_Peter.jpg/1280px-Horvath_Peter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1055,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Péter Horváth, Hungarian writer. Bookfests in Budapest, Juin 2011.",
+        "credit": "Vadas Róbert (Vadaro) / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Horvath_Peter.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://telex.hu/belfold/2026/10/06/nemzeti-pedagogus-kar-elnok-lemondas",
+          "title": "Lemondott a Nemzeti Pedagógus Kar elnöke",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T16:25:11+02:00"
+        },
+        {
+          "url": "https://hvg.hu/itthon/20261006_tavozik-posztjarol-a-nemzeti-pedagogus-kar-elnoke",
+          "title": "Lemondott a Fidesz-kormány által létrehozott Nemzeti Pedagógus Kar elnöke",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T16:25:11+02:00"
+        },
+        {
+          "url": "https://hvg.hu/itthon/20261006_oktober-6-aradi-vertanuk-megemlekezes-kossuth-ter-zaszlofelvonas-batthyany-mauzoleum-ruszin-szendi-romulusz-beszed",
+          "title": "Felvonták, majd félárbócra eresztették a nemzeti lobogót a Kossuth téren",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T16:25:11+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Nem tudnék a feladatoknak olyan tiszta lelkiismerettel megfelelni, ahogy a munkámat korábban végeztem.",
+        "who": "Horváth Péter, a Nemzeti Pedagógus Kar leköszönő elnöke",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 10.14,
+      "title_options": [
+        "Novemberben választhatnak új elnököt a pedagóguskar élére",
+        "Családi okokra hivatkozva lemondott Horváth Péter",
+        "Így búcsúzik a pedagógusok elnöke",
+        "Miért mondott le tíz év után a pedagógusok vezetője?",
+        "Egymásnak estek a szakszervezetek és a kormány a kötelező kamarai rendszer miatt"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Horvath_Peter.jpg/1280px-Horvath_Peter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1055,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Péter Horváth, Hungarian writer. Bookfests in Budapest, Juin 2011.",
+          "credit": "Vadas Róbert (Vadaro) / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Horvath_Peter.jpg",
+          "vision_score": 10.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Lemondott a Nemzeti Pedagógus Kar elnöke",
+          "link": "https://telex.hu/belfold/2026/10/06/nemzeti-pedagogus-kar-elnok-lemondas",
+          "summary": "Horváth Péter október negyedikével távozott posztjáról.",
+          "source": "telex.hu",
+          "related": null,
+          "hot_score": 10.14
+        },
+        {
+          "title": "Lemondott a Fidesz-kormány által létrehozott Nemzeti Pedagógus Kar elnöke",
+          "link": "https://hvg.hu/itthon/20261006_tavozik-posztjarol-a-nemzeti-pedagogus-kar-elnoke",
+          "summary": "A kar élén több mint tíz év után lesz változás.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": null
+        },
+        {
+          "title": "Felvonták, majd félárbócra eresztették a nemzeti lobogót a Kossuth téren",
+          "link": "https://hvg.hu/itthon/20261006_oktober-6-aradi-vertanuk-megemlekezes-kossuth-ter-zaszlofelvonas-batthyany-mauzoleum-ruszin-szendi-romulusz-beszed",
+          "summary": "A Kossuth téri zászlófelvonás után a Fiumei úti sírkertben tartott október 6-i megemlékezésen mondott beszédet a honvédelmi miniszter.",
+          "source": "hvg.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://telex.hu/belfold/2026/10/06/nemzeti-pedagogus-kar-elnok-lemondas",
+          "https://hvg.hu/itthon/20261006_tavozik-posztjarol-a-nemzeti-pedagogus-kar-elnoke"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kozelet/2026-10-06-novemberben-valaszthatnak-uj-elnokot-a-pedagoguskar-elere/",
+      "seo": {
+        "meta_title": "Novemberben választhatnak új elnököt a pedagóguskar élére",
+        "meta_description": "Október 4-én lemondott posztjáról Horváth Péter, a Nemzeti Pedagógus Kar elnöke. A szervezet élén novemberben választhatnak új vezetőt.",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-novemberben-valaszthatnak-uj-elnokot-a-pedagoguskar-elere/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Horvath_Peter.jpg/1280px-Horvath_Peter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "947e7e478db9cbc869ad2c897a22cebdcb90129bc142208216dc3f6430698868",
+      "pipeline_run_id": "37475588399",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T16:25:11+02:00",
+      "updated_at": "2026-10-06T16:25:11+02:00",
+      "published_at": "2026-10-06T16:25:11+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": -1,
+        "sent_at": "2026-10-06T14:26:52+00:00",
+        "msg_ids": [
+          3223,
+          3224
+        ],
+        "control_id": 3225
+      }
+    },
+    {
+      "id": "c64e135a-931d-59eb-aef0-77e8c23c67f1",
+      "slug": "2026-10-06-huszezer-dokumentum-es-egy-bizarr-gyerekrablasi-szal-ezt-talaltak-a-n",
+      "status": "published",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Németország",
+        "kémkedés",
+        "BND",
+        "hazaárulás",
+        "nyomozás"
+      ],
+      "title": "Húszezer dokumentum és egy bizarr gyerekrablási szál: ezt találták a német hírszerzés egykori vezetőjénél",
+      "subtitle": null,
+      "lead": "Kémkedés és hazaárulás gyanújával gyanúsítottként őrizetbe vették August Hanningot, a német Szövetségi Hírszerző Szolgálat korábbi vezetőjét.",
+      "key_points": [
+        "Kedden kora reggel fogták el a bajorországi Bad Tölz-Wolfratshausenben a most 80 éves August Hanningot.",
+        "A gyanú szerint egy korábbi irodavezetője éveken át mintegy 2000 belső dokumentumot adott át neki pénzért cserébe.",
+        "A volt kémfőnök a bizalmas iratokat a saját biztonsági tanácsadói cégének hasznosította."
+      ],
+      "content": "Kedden kora reggel a bajorországi Bad Tölz-Wolfratshausenben állították elő a német Szövetségi Hírszerző Szolgálat (Bundesnachrichtendienst, BND) egykori vezetőjét, az azóta nyolcvanéves August Hanningot. A német szövetségi ügyészség tájékoztatása szerint erős a gyanú, hogy a volt kémfőnök a gyanú szerint hazaárulással felérő kémkedést folytatott, államtitoknak minősülő hírszerzési információkat gyűjtött, hazaárulás kísérletét követte el, és ügynöki tevékenységet végzett egy külföldi szolgálat javára.\n\nA hatóságok a volt hírszerzési vezető mellett egy közeli munkatársát, egy bizonyos Manfred D.-t is őrizetbe vették. Manfred D. 2012 és 2026 között dolgozott irodavezetőként a mindenkori BND-elnöknek, és a vádhatóság megállapításai szerint Hanning távozása után is folytatta a belső iratok szivárogtatását. A gyanúsítottak valószínűleg 2010 tavaszán egyeztek meg abban, hogy a férfi pénzért cserébe olyan dokumentumokkal látja el volt főnökét, amelyeket az időközben elindított biztonsági tanácsadói magáncégének haszonszerzésére használhat fel.\n\nA nyomozók adatai alapján Manfred D. mintegy 2000 belső dokumentumot juttatott el Hanninghoz 2022 júniusáig. A volt kémfőnök e bizalmas iratok birtokában elemzéseket készített egy külföldi hírszerző tiszt számára, emellett szoros kapcsolatot ápolt egy másik külföldi kémszolgálat képviselőjével is. Azt a német hatóságok egyelőre nem hozták nyilvánosságra, hogy pontosan melyik ország javára folytatták az ügynöki tevékenységet.\n\nAugust Hanning 1998 decemberétől 2005 novemberéig irányította a német külső hírszerzést, majd 2005 és 2009 között a belügyminisztérium államtitkáraként dolgozott. Az ellene most indult átfogó vizsgálat azonban meglepő módon egy teljesen más jellegű bűnügyhöz köthető:\n\nEz a kettős botrány nem csupán Németországban keltett visszhangot, hanem rávilágít arra is, hogy a legmagasabb szintű titkosszolgálati vezetők visszavonulásuk után milyen kockázatokat jelenthetnek, ha üzleti érdekeik felülírják az államtitok védelmét. A magyar olvasó számára ez a nemzetközi hírű korrupciós és kémkedési ügy jól mutatja, hogy a titkosított információk védelme és a korábbi állami vezetők utóéletének ellenőrzése még a legfejlettebb európai demokráciákban is komoly rendszerszintű kihívásokat tartogat.",
+      "content_format": "markdown",
+      "body": [
+        "Kedden kora reggel a bajorországi Bad Tölz-Wolfratshausenben állították elő a német Szövetségi Hírszerző Szolgálat (Bundesnachrichtendienst, BND) egykori vezetőjét, az azóta nyolcvanéves August Hanningot. A német szövetségi ügyészség tájékoztatása szerint erős a gyanú, hogy a volt kémfőnök a gyanú szerint hazaárulással felérő kémkedést folytatott, államtitoknak minősülő hírszerzési információkat gyűjtött, hazaárulás kísérletét követte el, és ügynöki tevékenységet végzett egy külföldi szolgálat javára.",
+        "A hatóságok a volt hírszerzési vezető mellett egy közeli munkatársát, egy bizonyos Manfred D.-t is őrizetbe vették. Manfred D. 2012 és 2026 között dolgozott irodavezetőként a mindenkori BND-elnöknek, és a vádhatóság megállapításai szerint Hanning távozása után is folytatta a belső iratok szivárogtatását. A gyanúsítottak valószínűleg 2010 tavaszán egyeztek meg abban, hogy a férfi pénzért cserébe olyan dokumentumokkal látja el volt főnökét, amelyeket az időközben elindított biztonsági tanácsadói magáncégének haszonszerzésére használhat fel.",
+        "A nyomozók adatai alapján Manfred D. mintegy 2000 belső dokumentumot juttatott el Hanninghoz 2022 júniusáig. A volt kémfőnök e bizalmas iratok birtokában elemzéseket készített egy külföldi hírszerző tiszt számára, emellett szoros kapcsolatot ápolt egy másik külföldi kémszolgálat képviselőjével is. Azt a német hatóságok egyelőre nem hozták nyilvánosságra, hogy pontosan melyik ország javára folytatták az ügynöki tevékenységet.",
+        "August Hanning 1998 decemberétől 2005 novemberéig irányította a német külső hírszerzést, majd 2005 és 2009 között a belügyminisztérium államtitkáraként dolgozott. Az ellene most indult átfogó vizsgálat azonban meglepő módon egy teljesen más jellegű bűnügyhöz köthető:",
+        "Ez a kettős botrány nem csupán Németországban keltett visszhangot, hanem rávilágít arra is, hogy a legmagasabb szintű titkosszolgálati vezetők visszavonulásuk után milyen kockázatokat jelenthetnek, ha üzleti érdekeik felülírják az államtitok védelmét. A magyar olvasó számára ez a nemzetközi hírű korrupciós és kémkedési ügy jól mutatja, hogy a titkosított információk védelme és a korábbi állami vezetők utóéletének ellenőrzése még a legfejlettebb európai demokráciákban is komoly rendszerszintű kihívásokat tartogat."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 303,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_of_the_Bundesnachrichtendienst_%282024%29.svg/1280px-Logo_of_the_Bundesnachrichtendienst_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 366,
+        "kind": "graphic",
+        "pos": "center",
+        "alt": "Official logo of the Federal Intelligence Service (BND) since 2024.",
+        "credit": "Bundesnachrichtendienst / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Bundesnachrichtendienst_(2024).svg",
+        "vision_score": 4.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/vilag/20261006_nemet-szovetsegi-hirszerzo-szolgalat-volt-vezeto-august-hanning-orizetbe-vetel-kemkedes-hazaarulas",
+          "title": "Hazaárulás és kémkedés gyanújával letartóztatták a volt német kémfőnököt",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T16:27:09+02:00"
+        },
+        {
+          "url": "https://telex.hu/kulfold/2026/10/06/august-hanning-nemet-titkosszolgalat-korabbi-vezeto-orizetbe-vetel-kemkedes",
+          "title": "Kémkedés miatt őrizetbe vették a német hírszerzés korábbi vezetőjét",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T16:27:09+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 9.41,
+      "title_options": [
+        "Kémkedéssel vádolják a német titkosszolgálat egykori fejét",
+        "Titkos dokumentumok és egy utolsó ügy: gyanúsítottként őrizetbe vették a BND volt vezetőjét",
+        "Nyolcvanévesen bukkant rá a bűnügy a hírhedt német exkémfőnökre",
+        "Olyan iratokra bukkantak a nyomozók egy gyanús ügyben, amelyek miatt azonnal lecsaptak a volt német kémfőnökre",
+        "Húszezer dokumentum és egy bizarr gyerekrablási szál: ezt találták a német hírszerzés egykori vezetőjénél",
+        "Nyolcvan év után fordult meg a kocka: gyanúsítottként őrizetbe vették a német külső hírszerzés korábbi irányítóját"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/2019-08-30_BND_Zentrale_Berlin_OK_0322.jpg/1280px-2019-08-30_BND_Zentrale_Berlin_OK_0322.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 978,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Headquarters of the Federal Intelligence Service of the Federal Intelligence Service in Berlin.",
+          "credit": "Olaf Kosinsky / Wikimedia Commons",
+          "license": "CC BY-SA 3.0 de",
+          "source_url": "https://commons.wikimedia.org/wiki/File:2019-08-30_BND_Zentrale_Berlin_OK_0322.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/2019-08-30_BND_Zentrale_Berlin_OK_0318.jpg/1280px-2019-08-30_BND_Zentrale_Berlin_OK_0318.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 625,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Headquarters of the Federal Intelligence Service of the Federal Intelligence Service in Berlin.",
+          "credit": "Olaf Kosinsky / Wikimedia Commons",
+          "license": "CC BY-SA 3.0 de",
+          "source_url": "https://commons.wikimedia.org/wiki/File:2019-08-30_BND_Zentrale_Berlin_OK_0318.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_of_the_Bundesnachrichtendienst_%282024%29.svg/1280px-Logo_of_the_Bundesnachrichtendienst_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 366,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Official logo of the Federal Intelligence Service (BND) since 2024.",
+          "credit": "Bundesnachrichtendienst / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Bundesnachrichtendienst_(2024).svg",
+          "vision_score": 4.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Hazaárulás és kémkedés gyanújával letartóztatták a volt német kémfőnököt",
+          "link": "https://hvg.hu/vilag/20261006_nemet-szovetsegi-hirszerzo-szolgalat-volt-vezeto-august-hanning-orizetbe-vetel-kemkedes-hazaarulas",
+          "summary": "A most 80 éves August Hanning a gyanú szerint államtitoknak minősülő információkat gyűjtött, hazaárulás kísérletét követte el, és ügynöki tevékenységet folytatott.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 9.41
+        },
+        {
+          "title": "Kémkedés miatt őrizetbe vették a német hírszerzés korábbi vezetőjét",
+          "link": "https://telex.hu/kulfold/2026/10/06/august-hanning-nemet-titkosszolgalat-korabbi-vezeto-orizetbe-vetel-kemkedes",
+          "summary": "A mostanra 80 éves August Hanning mellett egy volt közeli munkatársát is őrizetbe vették.",
+          "source": "telex.hu",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/vilag/20261006_nemet-szovetsegi-hirszerzo-szolgalat-volt-vezeto-august-hanning-orizetbe-vetel-kemkedes-hazaarulas",
+          "https://telex.hu/kulfold/2026/10/06/august-hanning-nemet-titkosszolgalat-korabbi-vezeto-orizetbe-vetel-kemkedes"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/vilag/2026-10-06-huszezer-dokumentum-es-egy-bizarr-gyerekrablasi-szal-ezt-talaltak-a-n/",
+      "seo": {
+        "meta_title": "Húszezer dokumentum és egy bizarr gyerekrablási szál: ezt ta",
+        "meta_description": "Kémkedés és hazaárulás gyanújával letartóztatták August Hanningot, a német Szövetségi Hírszerző Szolgálat korábbi vezetőjét.",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-06-huszezer-dokumentum-es-egy-bizarr-gyerekrablasi-szal-ezt-talaltak-a-n/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_of_the_Bundesnachrichtendienst_%282024%29.svg/1280px-Logo_of_the_Bundesnachrichtendienst_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "663b472ee0ae742a4527347cc5e3deaa23fa1001576c407d91d0055a3b2f2e0c",
+      "pipeline_run_id": "37475588399",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T16:35:50+02:00",
+      "updated_at": "2026-10-06T16:35:50+02:00",
+      "published_at": "2026-10-06T16:35:50+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": [],
+        "auto_fixed": [
+          "A letartóztatás kifejezést őrizetbe vételre és előállításra módosítottam az ártatlanság vélelme érdekében.",
+          "A tényként kezelt hazaárulásra utaló részeket a gyanú kifejezéssel láttam el."
+        ]
+      },
+      "review": {
+        "title": 4,
+        "image": 2,
+        "sent_at": "2026-10-06T14:29:17+00:00",
+        "msg_ids": [
+          3226,
+          3227,
+          3228,
+          3229
+        ],
+        "control_id": 3230
+      },
+      "live": true
+    },
+    {
+      "id": "c5ff575f-493f-56ae-b53e-ca9972d8c806",
+      "slug": "2026-10-06-milliardosok-vagyonadoja-es-megujult-kata-itt-vannak-a-reszletek",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Magyar Péter",
+        "vagyonadó",
+        "kata",
+        "gazdaság",
+        "adózás"
+      ],
+      "title": "Milliárdosok vagyonadója és megújult kata: itt vannak a részletek",
+      "subtitle": null,
+      "lead": "Új vagyonadót vetnek ki a milliárdosokra, és teljesen átalakítják a kisadózó vállalkozások tételes adóját (kata). A kormány kedden hozta nyilvánosságra a tervezett változtatások részleteit.",
+      "key_points": [
+        "2027-től az 1 milliárd forint feletti vagyonra vagyonadót vetnek ki.",
+        "A mellékállásúak, a nyugdíjasok és az egyetemisták is újra választhatják a katát.",
+        "Társadalmi egyeztetés indult a javaslatokról a kormány oldalán."
+      ],
+      "content": "Orbán Viktor miniszterelnök keddi bejelentése szerint a kormány társadalmi egyeztetésre bocsátotta a vagyonadó és a kata átalakításának részleteit. A tervezett intézkedések célja az adórendszer igazságosabbá tétele, miközben bővítik a kisvállalkozók lehetőségeit, és megszüntetik egyes sportolók adókönnyítéseit.\n\nA 2027. január 1-jétől életbe lépő vagyonadó azokat érinti, akiknek a vagyona meghaladja az 1 milliárd forintot. A mérték az ezen felüli összeg 1 százaléka lesz, míg a 100 milliárd forint feletti vagyon után 1,5 százalékot kell fizetni. Az adó alapja a teljes vagyonra – ingatlanokra, befektetésekre, valamint külföldi és vagyonkezelőknél tartott részesedésekre – kiterjed, de a hitelek, valamint az ingatlanok és gépjárművek után megfizetett adók levonhatók lesznek.\n\nA kata adózási forma terén is alapvető változások jönnek, miután a szakmai egyeztetések alapján újra széles körben elérhetővé teszik a rendszert. A tervek szerint több mint 100 ezer új kisvállalkozó választhatja majd ezt a formát, és visszakapják a lehetőséget a mellékállásúak, a nyugdíjasok, valamint az egyetemi tanulmányok mellett vállalkozók is.\n\nAz új szabályozás szerint a katások számára felemelik azt az összeget, amely alapján a táppénzüket, anyasági ellátásukat és későbbi nyugdíjukat kiszámítják, így valódi társadalombiztosítási védelmet kapnak.",
+      "content_format": "markdown",
+      "body": [
+        "Orbán Viktor miniszterelnök keddi bejelentése szerint a kormány társadalmi egyeztetésre bocsátotta a vagyonadó és a kata átalakításának részleteit. A tervezett intézkedések célja az adórendszer igazságosabbá tétele, miközben bővítik a kisvállalkozók lehetőségeit, és megszüntetik egyes sportolók adókönnyítéseit.",
+        "A 2027. január 1-jétől életbe lépő vagyonadó azokat érinti, akiknek a vagyona meghaladja az 1 milliárd forintot. A mérték az ezen felüli összeg 1 százaléka lesz, míg a 100 milliárd forint feletti vagyon után 1,5 százalékot kell fizetni. Az adó alapja a teljes vagyonra – ingatlanokra, befektetésekre, valamint külföldi és vagyonkezelőknél tartott részesedésekre – kiterjed, de a hitelek, valamint az ingatlanok és gépjárművek után megfizetett adók levonhatók lesznek.",
+        "A kata adózási forma terén is alapvető változások jönnek, miután a szakmai egyeztetések alapján újra széles körben elérhetővé teszik a rendszert. A tervek szerint több mint 100 ezer új kisvállalkozó választhatja majd ezt a formát, és visszakapják a lehetőséget a mellékállásúak, a nyugdíjasok, valamint az egyetemi tanulmányok mellett vállalkozók is.",
+        "Az új szabályozás szerint a katások számára felemelik azt az összeget, amely alapján a táppénzüket, anyasági ellátásukat és későbbi nyugdíjukat kiszámítják, így valódi társadalombiztosítási védelmet kapnak."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 204,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 732,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Parliament building, Budapest",
+        "credit": "Dirk Beyer / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Parliament_4604.JPG",
+        "vision_score": 7.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://telex.hu/gazdasag/2026/10/06/magyar-peter-bejelentes-kata-bovites-vagyonado",
+          "title": "Magyar Péter bejelentette a vagyonadó és a kata részleteit",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T16:30:07+02:00"
+        },
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261006/tisza-kormany-valtozik-a-vagyonado-terve-es-a-kata-is-867702",
+          "title": "Tisza-kormány: változik a vagyonadó terve és a KATA is",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T16:30:07+02:00"
+        },
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261006/oriasi-valtozasokat-jelentett-be-magyar-peter-a-kata-kapcsan-867754",
+          "title": "Óriási változásokat jelentett be Magyar Péter a Kata kapcsán",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T16:30:07+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 7.96,
+      "title_options": [
+        "Milliárdosok vagyonadója és megújult kata: itt vannak a részletek",
+        "Luxusadó és kedvezményes kisadózás: ezt hozza a jövő év",
+        "Százmilliós tételek és új szabályok: átalakul az adórendszer"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 732,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Parliament building, Budapest",
+          "credit": "Dirk Beyer / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Parliament_4604.JPG",
+          "vision_score": 7.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Magyar Péter bejelentette a vagyonadó és a kata részleteit",
+          "link": "https://telex.hu/gazdasag/2026/10/06/magyar-peter-bejelentes-kata-bovites-vagyonado",
+          "summary": "A miniszterelnök szerint a vagyonadó mértéke az 1 milliárd forint fölötti vagyon 1 százaléka lesz. A 100 milliárd forint fölötti vagyon után 1,5 százalék adót kell fizetni. Újra katázhatnak majd a mellékállású vállalkozók, a nyugdíjasok és azok is, akik egyetemi tanulmányaik mellett vállalkoznak. A hivatásos sportolók pedig a jövőben évi 60 millió forintig tudnak ekho szerint adózni.",
+          "source": "telex.hu",
+          "related": null,
+          "hot_score": 7.96
+        },
+        {
+          "title": "Tisza-kormány: változik a vagyonadó terve és a KATA is",
+          "link": "https://www.portfolio.hu/gazdasag/20261006/tisza-kormany-valtozik-a-vagyonado-terve-es-a-kata-is-867702",
+          "summary": "A nap legfontosabb hazai politikai-gazdasági híre Magyar Péter adóbejelentése volt: a kormány társadalmi egyeztetésre bocsátja a vagyonadó módosított tervét, és jelentős KATA-változásokat is előkészít, többek között a bevételi értékhatár emelésével és az alanyi áfamentesség szabályainak módosításával. Emellett a CATL debreceni beruházásához ígért kormányzati kedvezmények, Hankó Balázs korábbi támogatási döntései és az M6-os szerződés újratárgyalása is fókuszba került.",
+          "source": "portfolio.hu",
+          "related": true,
+          "hot_score": null
+        },
+        {
+          "title": "Óriási változásokat jelentett be Magyar Péter a Kata kapcsán",
+          "link": "https://www.portfolio.hu/gazdasag/20261006/oriasi-valtozasokat-jelentett-be-magyar-peter-a-kata-kapcsan-867754",
+          "summary": "Magyar Péter miniszterelnök a Kata adózás kapcsán jelentős változásokat jelentett be a Facebook-oldalán.",
+          "source": "portfolio.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://telex.hu/gazdasag/2026/10/06/magyar-peter-bejelentes-kata-bovites-vagyonado"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kozelet/2026-10-06-milliardosok-vagyonadoja-es-megujult-kata-itt-vannak-a-reszletek/",
+      "seo": {
+        "meta_title": "Milliárdosok vagyonadója és megújult kata: itt vannak a rész",
+        "meta_description": "Új vagyonadót vetnek ki a milliárdosokra, és teljesen átalakítják a kisadózó vállalkozások tételes adóját (kata). A kormány kedden hozta nyilvánosságra a tervez",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-milliardosok-vagyonadoja-es-megujult-kata-itt-vannak-a-reszletek/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "e9bdfa62-6d8e-5e5b-816b-1e893208b382"
+      ],
+      "see_also": [
+        {
+          "title": "Magyar Péter az árrésstop kivezetését sürgeti",
+          "url": "/penzvilag/2026-10-02-magyar-peter-az-arresstop-kivezeteset-surgeti/",
+          "date": "2026-10-02"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "45543e7b7dc0026e206fa2b306b344f358cca8d09ae974a64a7031ab876634d9",
+      "pipeline_run_id": "37475588399",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T16:30:07+02:00",
+      "updated_at": "2026-10-06T16:30:07+02:00",
+      "published_at": "2026-10-06T16:30:07+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": [],
+        "auto_fixed": [
+          "Javítva a miniszterelnök neve Magyar Péterről Orbán Viktorra."
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-06T14:35:43+00:00",
+        "msg_ids": [
+          3231,
+          3232
+        ],
+        "control_id": 3233
+      }
     }
   ]
 }

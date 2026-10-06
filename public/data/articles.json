@@ -1,7 +1,116 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T14:23:09+02:00",
+  "updated_at": "2026-10-06T16:35:50+02:00",
   "articles": [
+    {
+      "id": "c64e135a-931d-59eb-aef0-77e8c23c67f1",
+      "slug": "2026-10-06-huszezer-dokumentum-es-egy-bizarr-gyerekrablasi-szal-ezt-talaltak-a-n",
+      "status": "published",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Németország",
+        "kémkedés",
+        "BND",
+        "hazaárulás",
+        "nyomozás"
+      ],
+      "title": "Húszezer dokumentum és egy bizarr gyerekrablási szál: ezt találták a német hírszerzés egykori vezetőjénél",
+      "subtitle": null,
+      "lead": "Kémkedés és hazaárulás gyanújával gyanúsítottként őrizetbe vették August Hanningot, a német Szövetségi Hírszerző Szolgálat korábbi vezetőjét.",
+      "key_points": [
+        "Kedden kora reggel fogták el a bajorországi Bad Tölz-Wolfratshausenben a most 80 éves August Hanningot.",
+        "A gyanú szerint egy korábbi irodavezetője éveken át mintegy 2000 belső dokumentumot adott át neki pénzért cserébe.",
+        "A volt kémfőnök a bizalmas iratokat a saját biztonsági tanácsadói cégének hasznosította."
+      ],
+      "content": "Kedden kora reggel a bajorországi Bad Tölz-Wolfratshausenben állították elő a német Szövetségi Hírszerző Szolgálat (Bundesnachrichtendienst, BND) egykori vezetőjét, az azóta nyolcvanéves August Hanningot. A német szövetségi ügyészség tájékoztatása szerint erős a gyanú, hogy a volt kémfőnök a gyanú szerint hazaárulással felérő kémkedést folytatott, államtitoknak minősülő hírszerzési információkat gyűjtött, hazaárulás kísérletét követte el, és ügynöki tevékenységet végzett egy külföldi szolgálat javára.\n\nA hatóságok a volt hírszerzési vezető mellett egy közeli munkatársát, egy bizonyos Manfred D.-t is őrizetbe vették. Manfred D. 2012 és 2026 között dolgozott irodavezetőként a mindenkori BND-elnöknek, és a vádhatóság megállapításai szerint Hanning távozása után is folytatta a belső iratok szivárogtatását. A gyanúsítottak valószínűleg 2010 tavaszán egyeztek meg abban, hogy a férfi pénzért cserébe olyan dokumentumokkal látja el volt főnökét, amelyeket az időközben elindított biztonsági tanácsadói magáncégének haszonszerzésére használhat fel.\n\nA nyomozók adatai alapján Manfred D. mintegy 2000 belső dokumentumot juttatott el Hanninghoz 2022 júniusáig. A volt kémfőnök e bizalmas iratok birtokában elemzéseket készített egy külföldi hírszerző tiszt számára, emellett szoros kapcsolatot ápolt egy másik külföldi kémszolgálat képviselőjével is. Azt a német hatóságok egyelőre nem hozták nyilvánosságra, hogy pontosan melyik ország javára folytatták az ügynöki tevékenységet.\n\nAugust Hanning 1998 decemberétől 2005 novemberéig irányította a német külső hírszerzést, majd 2005 és 2009 között a belügyminisztérium államtitkáraként dolgozott. Az ellene most indult átfogó vizsgálat azonban meglepő módon egy teljesen más jellegű bűnügyhöz köthető:\n\nEz a kettős botrány nem csupán Németországban keltett visszhangot, hanem rávilágít arra is, hogy a legmagasabb szintű titkosszolgálati vezetők visszavonulásuk után milyen kockázatokat jelenthetnek, ha üzleti érdekeik felülírják az államtitok védelmét. A magyar olvasó számára ez a nemzetközi hírű korrupciós és kémkedési ügy jól mutatja, hogy a titkosított információk védelme és a korábbi állami vezetők utóéletének ellenőrzése még a legfejlettebb európai demokráciákban is komoly rendszerszintű kihívásokat tartogat.",
+      "content_format": "markdown",
+      "body": [
+        "Kedden kora reggel a bajorországi Bad Tölz-Wolfratshausenben állították elő a német Szövetségi Hírszerző Szolgálat (Bundesnachrichtendienst, BND) egykori vezetőjét, az azóta nyolcvanéves August Hanningot. A német szövetségi ügyészség tájékoztatása szerint erős a gyanú, hogy a volt kémfőnök a gyanú szerint hazaárulással felérő kémkedést folytatott, államtitoknak minősülő hírszerzési információkat gyűjtött, hazaárulás kísérletét követte el, és ügynöki tevékenységet végzett egy külföldi szolgálat javára.",
+        "A hatóságok a volt hírszerzési vezető mellett egy közeli munkatársát, egy bizonyos Manfred D.-t is őrizetbe vették. Manfred D. 2012 és 2026 között dolgozott irodavezetőként a mindenkori BND-elnöknek, és a vádhatóság megállapításai szerint Hanning távozása után is folytatta a belső iratok szivárogtatását. A gyanúsítottak valószínűleg 2010 tavaszán egyeztek meg abban, hogy a férfi pénzért cserébe olyan dokumentumokkal látja el volt főnökét, amelyeket az időközben elindított biztonsági tanácsadói magáncégének haszonszerzésére használhat fel.",
+        "A nyomozók adatai alapján Manfred D. mintegy 2000 belső dokumentumot juttatott el Hanninghoz 2022 júniusáig. A volt kémfőnök e bizalmas iratok birtokában elemzéseket készített egy külföldi hírszerző tiszt számára, emellett szoros kapcsolatot ápolt egy másik külföldi kémszolgálat képviselőjével is. Azt a német hatóságok egyelőre nem hozták nyilvánosságra, hogy pontosan melyik ország javára folytatták az ügynöki tevékenységet.",
+        "August Hanning 1998 decemberétől 2005 novemberéig irányította a német külső hírszerzést, majd 2005 és 2009 között a belügyminisztérium államtitkáraként dolgozott. Az ellene most indult átfogó vizsgálat azonban meglepő módon egy teljesen más jellegű bűnügyhöz köthető:",
+        "Ez a kettős botrány nem csupán Németországban keltett visszhangot, hanem rávilágít arra is, hogy a legmagasabb szintű titkosszolgálati vezetők visszavonulásuk után milyen kockázatokat jelenthetnek, ha üzleti érdekeik felülírják az államtitok védelmét. A magyar olvasó számára ez a nemzetközi hírű korrupciós és kémkedési ügy jól mutatja, hogy a titkosított információk védelme és a korábbi állami vezetők utóéletének ellenőrzése még a legfejlettebb európai demokráciákban is komoly rendszerszintű kihívásokat tartogat."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 303,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_of_the_Bundesnachrichtendienst_%282024%29.svg/1280px-Logo_of_the_Bundesnachrichtendienst_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 366,
+        "kind": "graphic",
+        "pos": "center",
+        "alt": "Official logo of the Federal Intelligence Service (BND) since 2024.",
+        "credit": "Bundesnachrichtendienst / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Bundesnachrichtendienst_(2024).svg",
+        "vision_score": 4.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/vilag/20261006_nemet-szovetsegi-hirszerzo-szolgalat-volt-vezeto-august-hanning-orizetbe-vetel-kemkedes-hazaarulas",
+          "title": "Hazaárulás és kémkedés gyanújával letartóztatták a volt német kémfőnököt",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T16:27:09+02:00"
+        },
+        {
+          "url": "https://telex.hu/kulfold/2026/10/06/august-hanning-nemet-titkosszolgalat-korabbi-vezeto-orizetbe-vetel-kemkedes",
+          "title": "Kémkedés miatt őrizetbe vették a német hírszerzés korábbi vezetőjét",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T16:27:09+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-06T16:35:50+02:00"
+      },
+      "hot_score": 9.41,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/vilag/20261006_nemet-szovetsegi-hirszerzo-szolgalat-volt-vezeto-august-hanning-orizetbe-vetel-kemkedes-hazaarulas",
+          "https://telex.hu/kulfold/2026/10/06/august-hanning-nemet-titkosszolgalat-korabbi-vezeto-orizetbe-vetel-kemkedes"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/vilag/2026-10-06-huszezer-dokumentum-es-egy-bizarr-gyerekrablasi-szal-ezt-talaltak-a-n/",
+      "seo": {
+        "meta_title": "Húszezer dokumentum és egy bizarr gyerekrablási szál: ezt ta",
+        "meta_description": "Kémkedés és hazaárulás gyanújával letartóztatták August Hanningot, a német Szövetségi Hírszerző Szolgálat korábbi vezetőjét.",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-06-huszezer-dokumentum-es-egy-bizarr-gyerekrablasi-szal-ezt-talaltak-a-n/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_of_the_Bundesnachrichtendienst_%282024%29.svg/1280px-Logo_of_the_Bundesnachrichtendienst_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "663b472ee0ae742a4527347cc5e3deaa23fa1001576c407d91d0055a3b2f2e0c",
+      "pipeline_run_id": "37475588399",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T16:35:50+02:00",
+      "updated_at": "2026-10-06T16:35:50+02:00",
+      "published_at": "2026-10-06T16:35:50+02:00",
+      "expires_at": null
+    },
     {
       "id": "de8ea025-e203-5ad4-aa19-a3b93482686d",
       "slug": "2026-10-06-fizetescsokkentessel-es-perekkel-uzennek-a-keruletek-a-parkolasi-refo",
