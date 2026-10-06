@@ -10246,51 +10246,26 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Stanford_University_Main_Quad_May_2011_005.jpg/1280px-Stanford_University_Main_Quad_May_2011_005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 800,
+          "url": "https://pixabay.com/get/g59ce016ec36776af5fecaaf67cad548f6c652e39971c6b6fd4150d0232d417b09b927fe8f98b968b2c7ae9c4b5f9aa942712c1796ee090ee0611ce09b0c7a84f_1280.jpg",
+          "width": 3799,
+          "height": 2632,
           "kind": "photo",
-          "pos": "center",
-          "alt": "View of Wallenberg Hall on the Stanford University Main Quad.",
-          "credit": "King of Hearts / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Stanford_University_Main_Quad_May_2011_005.jpg",
-          "vision_score": 7.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Chondrichthyes_cartilage_structure.jpg/1280px-Chondrichthyes_cartilage_structure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 2030,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "General organization of the primary mineralized skeletal tissue in sharks and rays, tessellated cartilage. (a) Cleared and stained butterfly ray skeleton (Gymnura sp.). Specimen is young and not yet f",
-          "credit": "Seidel, R., Jayasankar, A.K., Dean, M.N. and Summers, A. (image (a)) / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Chondrichthyes_cartilage_structure.jpg",
-          "vision_score": 6.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Cartilage_from_mouse_joint.jpg/1280px-Cartilage_from_mouse_joint.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Section through the knee joint from a mouse stained with Safranin O and light green solution. The bone is stained pale blue and the cell nuclei of the bone and bone marrow are visible as small dark bl",
-          "credit": "Kevin Mackenzie, University of Aberdeen / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Cartilage_from_mouse_joint.jpg",
-          "vision_score": 6.0
-        },
-        {
-          "url": "https://pixabay.com/get/gaceb7e4f7f26cf2d0a4e009e4f214a6aec85ff144370bfd24af92ee19791b7faf942e4777f8adfa64be7ed0ac5a3a7b0646b3bf14b65bdd45c3c16d79bb4e092_1280.jpg",
-          "width": 3000,
-          "height": 2000,
-          "kind": "photo",
-          "alt": "laboratory, test tubes, healthcare worker, hospital, healthcare professional, medical professional, medical technology, medical, health, medicine, healthcare, laboratory, laboratory, laboratory, labor",
-          "credit": "DarkoStojanovic / Pixabay",
+          "alt": "body, medicine, health, care, people, medical, treatment, person, therapy, alternative, human, relaxation, medicinal, medical, medical, medical, medical, medical, treatment, therapy, therapy, therapy",
+          "credit": "nattanan23 / Pixabay",
           "license": "Pixabay License",
-          "source_url": "https://pixabay.com/photos/laboratory-test-tubes-563423/",
-          "vision_score": 5.0
+          "source_url": "https://pixabay.com/photos/body-medicine-health-care-people-2703403/",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://pixabay.com/get/ga396436a787ce05cd03f2b2538c128aa0465f422b50d684370773eed0a4aad25e1890e8363d346247959f476f0187c7cb4f99f8ce3afb583284bd54d5229db1c_1280.jpg",
+          "width": 4096,
+          "height": 2730,
+          "kind": "photo",
+          "alt": "disease, chronic, pain, treatment, body pain, illness, swollen, knee, pain, pain, pain, pain, pain, body pain, knee, knee",
+          "credit": "u_if8o5n0ioo / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/disease-chronic-pain-treatment-8198852/",
+          "vision_score": 9.0
         }
       ],
       "story": [
@@ -10342,17 +10317,35 @@
       },
       "review": {
         "title": 0,
-        "image": 2,
+        "image": 0,
         "sent_at": "2026-10-06T16:23:33+00:00",
         "msg_ids": [
           3250,
           3251,
           3252,
           3253,
-          3254
+          3254,
+          3259,
+          3260
         ],
-        "control_id": 3255
-      }
+        "control_id": 3261
+      },
+      "image_queries": [
+        "Stanford University",
+        "Helen Blau",
+        "Nidhi Bhutani",
+        "Science journal",
+        "15-PGDH enzyme",
+        "knee joint",
+        "laboratory equipment",
+        "scientist at work"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Chondrichthyes_cartilage_structure.jpg/1280px-Chondrichthyes_cartilage_structure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Cartilage_from_mouse_joint.jpg/1280px-Cartilage_from_mouse_joint.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://pixabay.com/get/gaceb7e4f7f26cf2d0a4e009e4f214a6aec85ff144370bfd24af92ee19791b7faf942e4777f8adfa64be7ed0ac5a3a7b0646b3bf14b65bdd45c3c16d79bb4e092_1280.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Stanford_University_Main_Quad_May_2011_005.jpg/1280px-Stanford_University_Main_Quad_May_2011_005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     }
   ]
 }
