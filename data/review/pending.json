@@ -11623,7 +11623,7 @@
     {
       "id": "f1a2c541-1539-5975-b386-fb653482c880",
       "slug": "2026-10-06-bod-peter-akos-vege-kell-legyen-a-piacronto-allami-beavatkozasoknak",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -11783,9 +11783,9 @@
       "dedupe_hash": "03be898fea8220372d84557b07c34fc52cec7b99e23568b7dd1044306c3a6169",
       "pipeline_run_id": "37411748561",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-06T06:27:02+02:00",
-      "updated_at": "2026-10-06T06:27:02+02:00",
-      "published_at": "2026-10-06T06:27:02+02:00",
+      "created_at": "2026-10-06T06:59:21+02:00",
+      "updated_at": "2026-10-06T06:59:21+02:00",
+      "published_at": "2026-10-06T06:59:21+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -11806,7 +11806,8 @@
           3076
         ],
         "control_id": 3077
-      }
+      },
+      "live": true
     }
   ]
 }
