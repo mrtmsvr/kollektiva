@@ -10406,8 +10406,8 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/319c79313a-1791267919-0.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/319c79313a-1791267919-0.jpg",
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/319c79313a-1791268012-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/319c79313a-1791268012-0.jpg",
           "kind": "photo",
           "alt": "Féléves mélypontról kapaszkodott vissza a magyar fizetőeszköz",
           "likeness": false,
@@ -10417,8 +10417,8 @@
           "generated": true
         },
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/319c79313a-1791267927-1.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/319c79313a-1791267927-1.jpg",
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/319c79313a-1791268031-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/319c79313a-1791268031-1.jpg",
           "kind": "photo",
           "alt": "Féléves mélypontról kapaszkodott vissza a magyar fizetőeszköz",
           "likeness": false,
@@ -10506,9 +10506,11 @@
           3095,
           3096,
           3102,
-          3103
+          3103,
+          3105,
+          3106
         ],
-        "control_id": 3104
+        "control_id": 3107
       }
     },
     {
