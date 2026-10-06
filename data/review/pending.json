@@ -10194,28 +10194,6 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/f1a2c54115-1791265478-0.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/f1a2c54115-1791265478-0.jpg",
-          "kind": "photo",
-          "alt": "Bod Péter Ákos: Vége kell legyen a piacrontó állami beavatkozásoknak",
-          "likeness": true,
-          "credit": "AI-generált illusztráció – Kollektíva",
-          "license": "saját (AI-generált illusztráció)",
-          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
-          "generated": true
-        },
-        {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/f1a2c54115-1791265487-1.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/f1a2c54115-1791265487-1.jpg",
-          "kind": "photo",
-          "alt": "Bod Péter Ákos: Vége kell legyen a piacrontó állami beavatkozásoknak",
-          "likeness": false,
-          "credit": "Kollektíva illusztráció",
-          "license": "saját grafika",
-          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
-          "generated": true
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Budapesti_Corvinus_Egyetem_%E2%80%93_K%C3%B6zg%C3%A1z.jpg/1280px-Budapesti_Corvinus_Egyetem_%E2%80%93_K%C3%B6zg%C3%A1z.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 799,
@@ -10228,40 +10206,16 @@
           "vision_score": 6.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Budapesti_Corvinus_Egyetem%2C_9.jpg/1280px-Budapesti_Corvinus_Egyetem%2C_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/32._ISC-Symposium-P%C3%A9ter_%C3%81kos_Bod-HSGN_028-01614.JPG/1280px-32._ISC-Symposium-P%C3%A9ter_%C3%81kos_Bod-HSGN_028-01614.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 900,
+          "height": 1800,
           "kind": "photo",
-          "pos": "center",
-          "alt": "Budapesti Corvinus Egyetem",
-          "credit": "Christo / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Budapesti_Corvinus_Egyetem,_9.jpg",
-          "vision_score": 6.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009%2C_Budapest.jpg/1280px-Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Hungarian National Bank, Budapest",
-          "credit": "Egrian / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009,_Budapest.jpg",
-          "vision_score": 6.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/A_Magyar_Nemzeti_Bank_%C3%A9p%C3%BClete_Budapest8.jpg/1280px-A_Magyar_Nemzeti_Bank_%C3%A9p%C3%BClete_Budapest8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 676,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "A Magyar Nemzeti Bank épülete, Budapest, Szabadság tér",
-          "credit": "12akd / Wikimedia Commons",
+          "pos": "top",
+          "alt": "32. ISC-Symposium: Péter Ákos Bod",
+          "credit": "St. Gallen Symposium / Wikimedia Commons",
           "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:A_Magyar_Nemzeti_Bank_%C3%A9p%C3%BClete_Budapest8.jpg",
-          "vision_score": 6.0
+          "source_url": "https://commons.wikimedia.org/wiki/File:32._ISC-Symposium-P%C3%A9ter_%C3%81kos_Bod-HSGN_028-01614.JPG",
+          "vision_score": 10.0
         }
       ],
       "story": [
@@ -10316,7 +10270,7 @@
       },
       "review": {
         "title": 0,
-        "image": -1,
+        "image": 0,
         "sent_at": "2026-10-06T04:29:18+00:00",
         "msg_ids": [
           3072,
@@ -10325,11 +10279,32 @@
           3075,
           3076,
           3082,
-          3083
+          3083,
+          3108,
+          3109
         ],
-        "control_id": 3084
+        "control_id": 3110
       },
-      "live": true
+      "live": true,
+      "image_queries": [
+        "Péter Ákos Bod",
+        "Corvinus University Budapest",
+        "Hungarian National Bank headquarters",
+        "Tisza Party logo",
+        "Orbán-Matolcsy government",
+        "Budapest cityscape",
+        "economic conference",
+        "financial chart",
+        "government building exterior"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009%2C_Budapest.jpg/1280px-Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://xn--kollektva-m5a.hu/public/img/gen/f1a2c54115-1791265487-1.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Budapesti_Corvinus_Egyetem%2C_9.jpg/1280px-Budapesti_Corvinus_Egyetem%2C_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/A_Magyar_Nemzeti_Bank_%C3%A9p%C3%BClete_Budapest8.jpg/1280px-A_Magyar_Nemzeti_Bank_%C3%A9p%C3%BClete_Budapest8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://xn--kollektva-m5a.hu/public/img/gen/f1a2c54115-1791265478-0.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Budapesti_Corvinus_Egyetem_%E2%80%93_K%C3%B6zg%C3%A1z.jpg/1280px-Budapesti_Corvinus_Egyetem_%E2%80%93_K%C3%B6zg%C3%A1z.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "319c7931-3a43-5b18-ae3d-a27d99296c7b",
