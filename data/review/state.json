@@ -1,5 +1,5 @@
 {
-  "offset": 391604601,
+  "offset": 391604602,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -55,7 +55,8 @@
     "https://science.nasa.gov/image-article/apod-2026-october-6-a-complete-auroral-oval-from-smile/",
     "https://science.nasa.gov/image-article/apod-2026-october-5-m104-the-sombrero-galaxys-tidal-streams/",
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra-anastasia-mate-kilepne/jn3ccxl",
-    "https://hvg.hu/gazdasag/20261006_trump-szinezett-dizel-felidos-valasztas"
+    "https://hvg.hu/gazdasag/20261006_trump-szinezett-dizel-felidos-valasztas",
+    "https://www.portfolio.hu/deviza/20261006/ledolgozta-hetfoi-vesztesegeit-a-forint-ma-a-portfolio-konferenciajarol-erkezhet-lokes-867554"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
