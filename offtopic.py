@@ -243,6 +243,7 @@ def build_article(ai: "kc.AIClient", topic: dict, d: date, tz: ZoneInfo, avoid_i
     image_options = kc.find_images([raw.get("image_query"), *(raw.get("image_query_alt") or []), *topic.get("images", [])][:6],
                                    (generic if isinstance(generic, list) else [generic])[:2], ai.cfg.http_timeout,
                                    avoid_images, limit=kc.IMAGE_OPTIONS)
+    image_options = kc.drop_used(image_options, avoid_images)
     image_options = kc.vision_rank(ai, art["title"], art["lead"], image_options)
     if not image_options:  # nincs illő kép -> saját grafika
         image_options = kc.auto_illustration(ai, art, "sajat")
@@ -496,7 +497,7 @@ def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: boo
         log.info("Off-topic: elfogyott a témalista.")
         return 0
     articles = kc.read_json(output_dir / "articles.json", {"articles": []}).get("articles", [])
-    avoid = {(a.get("hero_image") or {}).get("url") for a in articles[:60]} - {None}
+    avoid = kc.used_images(articles)
     art = build_article(ai, topic, d, tz, avoid)
     # a témát akkor is lezárjuk, ha nem sikerült (ne próbálkozzon vele minden futásnál)
     if not dry_run:
