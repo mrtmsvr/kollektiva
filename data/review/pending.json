@@ -10570,6 +10570,645 @@
         "control_id": 3282
       },
       "live": true
+    },
+    {
+      "id": "d794a0cd-69c7-5ca7-90d9-be7e0bb9b5fb",
+      "slug": "2026-10-06-politikusokkal-es-regi-rivalisokkal-indult-az-arulok-kastelya",
+      "status": "pending",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Az Árulók",
+        "RTL",
+        "Vona Gábor",
+        "Rainer-Micsinyei Nóra",
+        "reality"
+      ],
+      "title": "Politikusokkal és régi riválisokkal indult az Árulók kastélya",
+      "subtitle": null,
+      "lead": "Rögtön az RTL nyomozós realityjének első adásában felszínre törtek a kastélyon kívüli világ ellentétei. A huszonnégy fős mezőnyben olyan szereplők is helyet kaptak, akik a való életben nehezen viselik egymást.",
+      "key_points": [
+        "Kisebb konfliktussal indult Az Árulók – Gyilkosság a kastélyban első adása az RTL-en.",
+        "A huszonnégy játékos között olyan közéleti szereplők is találhatók, akik korábban nyíltan vállalták egymás iránti ellentétüket.",
+        "Rainer-Micsinyei Nóra színésznő és Sapkás Piréz videóblogger is nehezen viselte Vona Gábor jelenlétét a műsorban.",
+        "A feszültségek ellenére a szereplőknek a közös cél érdekében kellene együttműködniük a játékban."
+      ],
+      "content": "Már a nyomozós reality első epizódjában megfagyott a levegő, amikor a szereplők szembesültek azzal, hogy olyan arcokkal kell pénzt gyűjteniük és a gyilkosok után nyomozniuk, akiket a kastélyon kívüli életben el sem tudnak viselni. A készítők szándékosan olyan embereket válogattak be, akiknek a magánéletben vagy a nyilvánosságban komoly konfliktusaik vannak egymással.\n\nA legelső komolyabb összecsapás a csapat első játéka utáni visszaúton alakult ki, amikor Vona Gábor, a Második Reformkor Párt elnöke és Sapkás Piréz független videóblogger ugyanabba az autóba került. Sapkás Piréz számon kérte a politikust a jelenléte miatt, és morális dilempaként említette a múltját.\n\nHasonló lelki terhekről számolt be a humorról és politikai szerepvállalásáról ismert Rainer-Micsinyei Nóra is, akit szintén megviselt a politikus társasága. A színésznő végül úgy döntött az interjúszobában, hogy a belső békéje érdekében egyszerűen ignorálja a politikust a továbbiakban.",
+      "content_format": "markdown",
+      "body": [
+        "Már a nyomozós reality első epizódjában megfagyott a levegő, amikor a szereplők szembesültek azzal, hogy olyan arcokkal kell pénzt gyűjteniük és a gyilkosok után nyomozniuk, akiket a kastélyon kívüli életben el sem tudnak viselni. A készítők szándékosan olyan embereket válogattak be, akiknek a magánéletben vagy a nyilvánosságban komoly konfliktusaik vannak egymással.",
+        "A legelső komolyabb összecsapás a csapat első játéka utáni visszaúton alakult ki, amikor Vona Gábor, a Második Reformkor Párt elnöke és Sapkás Piréz független videóblogger ugyanabba az autóba került. Sapkás Piréz számon kérte a politikust a jelenléte miatt, és morális dilempaként említette a múltját.",
+        "Hasonló lelki terhekről számolt be a humorról és politikai szerepvállalásáról ismert Rainer-Micsinyei Nóra is, akit szintén megviselt a politikus társasága. A színésznő végül úgy döntött az interjúszobában, hogy a belső békéje érdekében egyszerűen ignorálja a politikust a továbbiakban."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 164,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/az-arulok-konfliktus-rainer-micsinyei-vona-gabor/wd1rmhr",
+          "title": "Súlyos döntést hozott Az Árulók egyik szereplője – Már az első részben balhé volt",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T22:47:40+02:00"
+        },
+        {
+          "url": "https://borsonline.origo.hu/utazasi-hirek/2026/10/kezipoggyasz-szabalyvaltozasok-eu",
+          "title": "Ezt mindenkinek tudnia kell, aki kézipoggyásszal repül: jelentős változás jön",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T22:47:40+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Nekem őszintén te egy kicsit ilyen morális dilemma vagy. Az a dilemmám veled kapcsolatban, hogy ha egy ilyen, már bocsánat, hazugságokra épített múltad van, akkor még hogyha ártatlan is vagy, hogyan tudnék bízni bármiben, amit mondasz?",
+        "who": "Sapkás Piréz, videóblogger",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 7.0,
+      "title_options": [
+        "Politikusokkal és régi riválisokkal indult az Árulók kastélya",
+        "Hús-vér morális dilemmák és sérelmek a kastélyban",
+        "Amikor a valóság és a játék határai összemosódnak a képernyőn",
+        "Az első percben kitört a botrány Az Árulók legújabb évadában",
+        "Ezt a párosítást garantáltan nem hagyják szó nélkül a nézők",
+        "Komoly feszültséggel indult a 24 játékos küzdelme"
+      ],
+      "clickbait_from": 3,
+      "image_options": [],
+      "story": [
+        {
+          "title": "Súlyos döntést hozott Az Árulók egyik szereplője – Már az első részben balhé volt",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/az-arulok-konfliktus-rainer-micsinyei-vona-gabor/wd1rmhr",
+          "summary": "Rögtön egy kisebb balhé zavarta meg a nyugalmat Az Árulók – Gyilkosság a kastélyban első adásában. Az RTL nyomozós realityjének készítői több olyan szereplőt is beválogattak, akik a kastélyon kívüli életükben komoly ellentétben állnak egymással, ráadásul ezt nyíltan vállalták is korábban. Ők a forgatás kezdetekor szembesültek azzal, hogy olyan emberekkel kell vagy kellene pénzt gyűjteniük, sőt, akár szövetségben a gyilkosok után nyomozniuk, akiket a kastélyon kívüli életben el sem tudnak viselni. De hogyan lehet ezt kezelni egy 24 játékosból álló realityben?",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 7.0
+        },
+        {
+          "title": "Ezt mindenkinek tudnia kell, aki kézipoggyásszal repül: jelentős változás jön",
+          "link": "https://borsonline.origo.hu/utazasi-hirek/2026/10/kezipoggyasz-szabalyvaltozasok-eu",
+          "summary": "Fontos döntést hozott az EU a kézipoggyászokról",
+          "source": "borsonline.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/az-arulok-konfliktus-rainer-micsinyei-vona-gabor/wd1rmhr"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/bulvar/2026-10-06-politikusokkal-es-regi-rivalisokkal-indult-az-arulok-kastelya/",
+      "seo": {
+        "meta_title": "Politikusokkal és régi riválisokkal indult az Árulók kastély",
+        "meta_description": "Rögtön az RTL nyomozós realityjének első adásában felszínre törtek a kastélyon kívüli világ ellentétei. A huszonnégy fős mezőnyben olyan szereplők is helyet kap",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-06-politikusokkal-es-regi-rivalisokkal-indult-az-arulok-kastelya/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "766641c985e24f405c6c8b6eb196de8f35397586363fc53591ab768881398165",
+      "pipeline_run_id": "37528574807",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T22:47:40+02:00",
+      "updated_at": "2026-10-06T22:47:40+02:00",
+      "published_at": "2026-10-06T22:47:40+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 1,
+        "issues": [
+          "🟡 bűnügyi tartalom feltételes mód nélkül – „a gyanú szerint”, „nem jogerős”, ártatlanság vélelme",
+          "🟡 „Sapkás Piréz számon kérte a politikust, és morális dilempaként említette a múltját” – Állítás a politikus múltjáról forrás nélkül → Adj meg hiteles forrást vagy távolítsd a vádat",
+          "🟡 „Rainer-Micsinyei Nóra megviselt a politikus társasága” – Személyes sértő állítás forrás nélkül → Bizonyítsd forrással vagy módosítsd semleges nyelvre"
+        ],
+        "auto_fixed": [
+          "A szövegben nem szerepelt bűnügyi tartalom vagy jogi kifogás, így a szerkezet és a tartalom megmaradt."
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": -1,
+        "sent_at": "2026-10-06T20:49:12+00:00",
+        "msg_ids": [
+          3283,
+          3284
+        ],
+        "control_id": 3285
+      }
+    },
+    {
+      "id": "9b611ca1-672a-50b4-ba50-6dd6d5116795",
+      "slug": "2026-10-06-veszelyes-elektromos-mezo-varja-az-urhajosokat-a-hold-deli-sarkan",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "Hold",
+        "űrkutatás",
+        "technológia",
+        "Artemis"
+      ],
+      "title": "Veszélyes elektromos mező várja az űrhajósokat a Hold déli sarkán",
+      "subtitle": null,
+      "lead": "Súlyos elektromos feltöltődés fenyegetheti a Hold felszínén járó űrhajósokat, különösen a Nap elől elzárt, sötét kráterekben. A probléma megértésére a NASA most külön kezdeményezést indított.",
+      "key_points": [
+        "A holdporon való járás és a környező plazma statikus elektromosságot hoz létre a szkafandereken.",
+        "A tartósan árnyékos területeken a ruházat jelentős negatív potenciált halmozhat fel.",
+        "A fizikai kihívás megoldására az űrügynökség új programot hirdetett."
+      ],
+      "content": "Amikor egy űrhajós a Hold déli sarkvidékén jár, a felszíni mozgásból fakadó súrlódásos feltöltődés, azaz a triboelektromos hatás, valamint a környező plazma elektromos töltést generál a ruháján. Ez a jelenség a gyakorlatban statikus elektromosságot hoz létre, amely a mindennapokban ismert kellemetlen kisülésekhez hasonló folyamatokat indíthat el az űrben is.\n\nA nehézségek akkor sokasodnak meg igazán, amikor a küldetés résztvevői behatolnak a holdi árnyékokba és a folyamatosan sötétbe burkolózó régiókba. Ezeken a fénysugaraktól elzárt területeken a szkafander jelentős mértékű negatív feszültséget képes felhalmozni, ami komoly technikai és biztonsági akadályt jelent a jövőbeli emberi expanzió számára.\n\nA probléma kezelésére az űrkutatási szervezet elindította a Lunar Grounding Challenge elnevezésű kihívást, amely gyakorlatias módszereket keres a felgyülemlő töltések biztonságos elvezetésére. A kutatók és mérnökök közösségétől várnak olyan megoldásokat, amelyek megvédik az eszközöket és az embereket a holdi felszín sajátos fizikai kihívásaitól.",
+      "content_format": "markdown",
+      "body": [
+        "Amikor egy űrhajós a Hold déli sarkvidékén jár, a felszíni mozgásból fakadó súrlódásos feltöltődés, azaz a triboelektromos hatás, valamint a környező plazma elektromos töltést generál a ruháján. Ez a jelenség a gyakorlatban statikus elektromosságot hoz létre, amely a mindennapokban ismert kellemetlen kisülésekhez hasonló folyamatokat indíthat el az űrben is.",
+        "A nehézségek akkor sokasodnak meg igazán, amikor a küldetés résztvevői behatolnak a holdi árnyékokba és a folyamatosan sötétbe burkolózó régiókba. Ezeken a fénysugaraktól elzárt területeken a szkafander jelentős mértékű negatív feszültséget képes felhalmozni, ami komoly technikai és biztonsági akadályt jelent a jövőbeli emberi expanzió számára.",
+        "A probléma kezelésére az űrkutatási szervezet elindította a Lunar Grounding Challenge elnevezésű kihívást, amely gyakorlatias módszereket keres a felgyülemlő töltések biztonságos elvezetésére. A kutatók és mérnökök közösségétől várnak olyan megoldásokat, amelyek megvédik az eszközöket és az embereket a holdi felszín sajátos fizikai kihívásaitól."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 162,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/The_Lunar_South_Pole_%28LROC237_-_SP_Mosaic_400m_label%29.png/1280px-The_Lunar_South_Pole_%28LROC237_-_SP_Mosaic_400m_label%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1200,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "WAC south polar mosaic showing locations of major craters. The impact site of the LCROSS spacecraft is marked with an \"X\". Mosaic width is ~600 km [NASA/GSFC/Arizona State University].",
+        "credit": "NASA/GSFC/Arizona State University / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:The_Lunar_South_Pole_(LROC237_-_SP_Mosaic_400m_label).png",
+        "vision_score": 7.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/lunar-grounding-challenge/",
+          "title": "Lunar Grounding Challenge",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-06T22:49:44+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.94,
+      "title_options": [
+        "Veszélyes elektromos mező várja az űrhajósokat a Hold déli sarkán",
+        "Áramütéstől retteghetnek az űrhajósok a Holdon",
+        "Statikus elektromosság nehezítheti a Hold felszínének kutatását",
+        "Ezt a rejtett veszélyt fedezték fel a Hold sötét zónáiban",
+        "Miért épül fel veszélyes feszültség a szkafanderekben a Holdon?",
+        "Láthatatlan elektromos csapda várja a Holdra lépő embereket"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/The_Lunar_South_Pole_%28LROC237_-_SP_Mosaic_400m_label%29.png/1280px-The_Lunar_South_Pole_%28LROC237_-_SP_Mosaic_400m_label%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1200,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "WAC south polar mosaic showing locations of major craters. The impact site of the LCROSS spacecraft is marked with an \"X\". Mosaic width is ~600 km [NASA/GSFC/Arizona State University].",
+          "credit": "NASA/GSFC/Arizona State University / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:The_Lunar_South_Pole_(LROC237_-_SP_Mosaic_400m_label).png",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Moon_South_Pole_no_Legend.jpg/1280px-Moon_South_Pole_no_Legend.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1200,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Mosaico lunare di ~1500 immagini del polo Sud della Luna",
+          "credit": "NASA/JPL-Caltech / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Moon_South_Pole_no_Legend.jpg",
+          "vision_score": 6.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Lunar Grounding Challenge",
+          "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/lunar-grounding-challenge/",
+          "summary": "As an astronaut traverses the lunar South Pole, tribocharging from walking on the lunar surface and plasma charging from the ambient plasma generate electric charge on the spacesuit. This problem is severely compounded when entering lunar shadows and Permanently Shadowed Regions (PSRs). In these dark zones, the spacesuit can buildup a substantial negative potential due […]",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": 5.94
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/lunar-grounding-challenge/"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/tech/2026-10-06-veszelyes-elektromos-mezo-varja-az-urhajosokat-a-hold-deli-sarkan/",
+      "seo": {
+        "meta_title": "Veszélyes elektromos mező várja az űrhajósokat a Hold déli s",
+        "meta_description": "Súlyos elektromos feltöltődés fenyegetheti a Hold felszínén járó űrhajósokat, különösen a Nap elől elzárt, sötét kráterekben. A probléma megértésére a NASA most",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-06-veszelyes-elektromos-mezo-varja-az-urhajosokat-a-hold-deli-sarkan/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/The_Lunar_South_Pole_%28LROC237_-_SP_Mosaic_400m_label%29.png/1280px-The_Lunar_South_Pole_%28LROC237_-_SP_Mosaic_400m_label%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "640b7e9435a834963952c5c1e60706e3c746b5f0036aa3354206b005b0586775",
+      "pipeline_run_id": "37528574807",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T22:49:44+02:00",
+      "updated_at": "2026-10-06T22:49:44+02:00",
+      "published_at": "2026-10-06T22:49:44+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-06T20:50:51+00:00",
+        "msg_ids": [
+          3286,
+          3287,
+          3288
+        ],
+        "control_id": 3289
+      }
+    },
+    {
+      "id": "0b37cf8e-4df7-57b4-b687-d28cb6e58bd6",
+      "slug": "2026-10-06-ket-evszazad-utan-zaratna-be-a-brit-konzulatust-izrael",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Nagy-Britannia",
+        "Izrael",
+        "diplomáciai válság",
+        "Ciszjordánia",
+        "Kelet-Jeruzsálem"
+      ],
+      "title": "Két évszázad után záratná be a brit konzulátust Izrael",
+      "subtitle": null,
+      "lead": "Zárt ajtók mögötti egyeztetések zajlanak London és Tel-Aviv között a kelet-jeruzsálemi brit képviselet sorsáról, miután a két ország diplomáciai viszonya mélypontra süllyedt. Az izraeli kormány döntött a csaknem kétszáz éve működő konzulátus bezárásáról, míg a brit fél ellenlépésekkel, köztük izraeli diplomaták kiutasításával fenyegetőzik.",
+      "key_points": [
+        "Jonathan Powell brit nemzetbiztonsági főtanácsadó a múlt héten Izraelbe utazott a válság rendezése érdekében.",
+        "A diplomáciai viszályt Ed Miliband brit külügyminiszter ciszjordániai szankciói váltották ki.",
+        "Izrael a kelet-jeruzsálemi brit konzulátus bezárásával és tucatnyi brit parlamenti képviselő beutazási tilalmával válaszolt."
+      ],
+      "content": "Súlyos diplomáciai konfliktus alakult ki Nagy-Britannia és Izrael között, miután a brit kormány szigorú gazdasági korlátozásokat vezetett be a ciszjordániai területeken. A Financial Times értesülései szerint Jonathan Powell, a brit kormány nemzetbiztonsági főtanácsadója a múlt héten Izraelbe utazott, hogy zárt ajtók mögött, titkos tárgyalások keretében próbáljon kompromisszumos megoldást találni a felek között.\n\nA viszály előzményeként Ed Miliband brit külügyminiszter egy hónapja bejelentette, hogy London megtiltja a ciszjordániai izraeli telepeken készült áruk importját, valamint szankciókkal sújtja az ezekkel a telepekkel üzleti kapcsolatot tartó vállalkozásokat. A brit diplomácia vezetője az intézkedést azzal indokolta, hogy a hivatalos álláspont szerint a palesztin területek izraeli megszállása törvénysértő, és a térségben etnikai tisztogatások zajlanak.\n\nAz izraeli kormány rendkívül dühösen reagált a szankciókra, és bejelentette: válaszul bezáratja a csaknem kétszáz éve működő kelet-jeruzsálemi brit konzulátust, amely jelenleg elsősorban a ciszjordániai palesztin lakosságnak nyújt konzuli szolgáltatásokat. Emellett az izraeli vezetés tucatnyi brit parlamenti képviselőnek is megtiltotta a beutazást az országba.\n\nAz ügyet ismerő illetékesek rámutattak, hogy az izraeli kormány jelenleg választási kampányt folytat, és a britellenes fellépés kifejezetten népszerűnek bizonyul a jobboldali választói bázis körében.",
+      "content_format": "markdown",
+      "body": [
+        "Súlyos diplomáciai konfliktus alakult ki Nagy-Britannia és Izrael között, miután a brit kormány szigorú gazdasági korlátozásokat vezetett be a ciszjordániai területeken. A Financial Times értesülései szerint Jonathan Powell, a brit kormány nemzetbiztonsági főtanácsadója a múlt héten Izraelbe utazott, hogy zárt ajtók mögött, titkos tárgyalások keretében próbáljon kompromisszumos megoldást találni a felek között.",
+        "A viszály előzményeként Ed Miliband brit külügyminiszter egy hónapja bejelentette, hogy London megtiltja a ciszjordániai izraeli telepeken készült áruk importját, valamint szankciókkal sújtja az ezekkel a telepekkel üzleti kapcsolatot tartó vállalkozásokat. A brit diplomácia vezetője az intézkedést azzal indokolta, hogy a hivatalos álláspont szerint a palesztin területek izraeli megszállása törvénysértő, és a térségben etnikai tisztogatások zajlanak.",
+        "Az izraeli kormány rendkívül dühösen reagált a szankciókra, és bejelentette: válaszul bezáratja a csaknem kétszáz éve működő kelet-jeruzsálemi brit konzulátust, amely jelenleg elsősorban a ciszjordániai palesztin lakosságnak nyújt konzuli szolgáltatásokat. Emellett az izraeli vezetés tucatnyi brit parlamenti képviselőnek is megtiltotta a beutazást az országba.",
+        "Az ügyet ismerő illetékesek rámutattak, hogy az izraeli kormány jelenleg választási kampányt folytat, és a britellenes fellépés kifejezetten népszerűnek bizonyul a jobboldali választói bázis körében."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 224,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/British_Consulate-General_in_Munich_%282025%29.jpg/1280px-British_Consulate-General_in_Munich_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 904,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "British Consulate-General, Munich",
+        "credit": "Niegodzisie / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:British_Consulate-General_in_Munich_(2025).jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/vilag/20261006_egyesult-kiralysag-ciszjordania-diplomaciai-valsag-izrael",
+          "title": "A brit és az izraeli kormány zárt ajtók mögött tárgyal a diplomáciai válságról",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T22:51:35+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.53,
+      "title_options": [
+        "Két évszázad után záratná be a brit konzulátust Izrael",
+        "Titkos tárgyalások zajlanak London és Tel-Aviv között",
+        "Ciszjordániai szankciók miatt borult ki a diplomáciai bili",
+        "Diplomáciai atomcsapás: diplomaták kiutasításával fenyegetőzik London",
+        "Titkosügynök mentené a menthetőt a brit-izraeli válságban",
+        "Hatalmas a feszültség: percek alatt robbanhat a bomba a Közel-Keleten"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/British_Consulate-General_in_Munich_%282025%29.jpg/1280px-British_Consulate-General_in_Munich_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 904,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "British Consulate-General, Munich",
+          "credit": "Niegodzisie / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:British_Consulate-General_in_Munich_(2025).jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Jerusalem_Dome_of_the_rock_BW_14.JPG/1280px-Jerusalem_Dome_of_the_rock_BW_14.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Jerusalem, Dome of the Rock, Church of the Holy Sepulcher in the background.",
+          "credit": "Berthold Werner / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Jerusalem_Dome_of_the_rock_BW_14.JPG",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Jerusalem_Damaskustor_BW_1.jpg/1280px-Jerusalem_Damaskustor_BW_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 799,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Jerusalem, Damascus Gate",
+          "credit": "Berthold Werner / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Jerusalem_Damaskustor_BW_1.jpg",
+          "vision_score": 7.0
+        }
+      ],
+      "story": [
+        {
+          "title": "A brit és az izraeli kormány zárt ajtók mögött tárgyal a diplomáciai válságról",
+          "link": "https://hvg.hu/vilag/20261006_egyesult-kiralysag-ciszjordania-diplomaciai-valsag-izrael",
+          "summary": "A brit napilap keddi értesülése szerint Jonathan Powell, a brit kormány nemzetbiztonsági főtanácsadója a múlt héten Izraelbe utazott, ahol titkos tárgyalásokat folytatott egy esetleges kompromisszumos megoldásról.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.53
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/vilag/20261006_egyesult-kiralysag-ciszjordania-diplomaciai-valsag-izrael"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/vilag/2026-10-06-ket-evszazad-utan-zaratna-be-a-brit-konzulatust-izrael/",
+      "seo": {
+        "meta_title": "Két évszázad után záratná be a brit konzulátust Izrael",
+        "meta_description": "Zárt ajtók mögötti egyeztetések zajlanak London és Tel-Aviv között a kelet-jeruzsálemi brit képviselet sorsáról, miután a két ország diplomáciai viszonya mélypo",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-06-ket-evszazad-utan-zaratna-be-a-brit-konzulatust-izrael/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/British_Consulate-General_in_Munich_%282025%29.jpg/1280px-British_Consulate-General_in_Munich_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "2bc4502ea6d8f213e669e41bfa133f7584450ac8e550c04e3dd1a1772b36c3fa",
+      "pipeline_run_id": "37528574807",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T22:51:35+02:00",
+      "updated_at": "2026-10-06T22:51:35+02:00",
+      "published_at": "2026-10-06T22:51:35+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-06T20:52:50+00:00",
+        "msg_ids": [
+          3290,
+          3291,
+          3292,
+          3293
+        ],
+        "control_id": 3294
+      }
+    },
+    {
+      "id": "661da993-22be-53f1-aaef-ec1887045ff0",
+      "slug": "2026-10-06-null",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Belügyminisztérium",
+        "Terrorelhárítási Központ",
+        "NAV",
+        "aranykonvoj",
+        "bűnügy"
+      ],
+      "title": "null",
+      "subtitle": null,
+      "lead": "Az áprilisi választást követő átmeneti időszakban több válságtanácskozást is tartottak a Belügyminisztériumban, ahol az ukrán pénzszállítók jogalap nélküli fogva tartásának jogi kereteit próbálták tisztázni. Az értekezleteken a Nemzeti Adó- és Vámhivatal, a Terrorelhárítási Központ és a titkosszolgálat vezető tisztségviselői is részt vettek.",
+      "key_points": [
+        "Több válságértekezletet tartottak a Belügyminisztériumban az aranykonvojügy jogi kérdéseiről.",
+        "A NAV korábbi válasza világossá tette, hogy az ukrán pénzszállítókat egy ideig biztosan jogtalanul tartották fogva.",
+        "A megbeszéléseken a TEK, a NAV és a titkosszolgálat illetékesei keresték a helyzet jogi lefedésének módját."
+      ],
+      "content": "A Belügyminisztériumban sorjázó zárt körű megbeszélésekre azután nyílhatott szükség, hogy a Nemzeti Adó- és Vámhivatal hivatalos válaszban jelezte az ügyészségnek: egy bizonyos időszakon keresztül egészen biztosan jogalap nélkül tartották fogva az ukrán pénzszállítókat. A Telex értesülései szerint az érintett állami szervek képviselőinek fő célja az volt, hogy megtalálják a módját a fogva tartás idején keletkezett jogi űr „lefedésének”, vagyis annak, hogy az intézkedést utólag jogszerűnek tüntessék fel.\n\nA tanácskozásokon a Nemzeti Adó- és Vámhivatal, a Terrorelhárítási Központ, valamint a titkosszolgálat felső vezetői fordultak meg. A résztvevők között volt Kovács András, aki Hajdu János helyetteseként dolgozik a Terrorelhárítási Központnál, valamint Szathmáry Zoltán testvére, aki az Alkotmányvédelmi Hivatal állományában tevékenykedett. Utóbbi személy az Alkotmányvédelmi Hivatal állományában tevékenykedett.\n\nAz üggyel összefüggésben egy olyan ügyészségi feljegyzés is napvilágot látott, amely szerint Hajdu János még a választás előtt egy belügyminisztériumi vizsgálóbizottsági tanácskozáson Orbán Viktor szerepére tett utalást. Minisztériumi vizsgálat azonban a sajtóban megjelent információk alapján kizárólag az Országos Idegenrendészeti Főigazgatóság, valamint a X. kerületi rendőrök érintettségének tisztázására indult meg, az ügy többi részét ez nem érintette.\n\nAz aranykonvoj ügye a politikai és igazgatási szférában is hullámokat vetett, miután a parlament tiszás többsége elutasította az ügyészjelöltet. A döntés meghozatalában vélhetően az is szerepet játszott, hogy a jelölt testvéréről már ekkor tudható volt az érintettsége az aranykonvojügyben.",
+      "content_format": "markdown",
+      "body": [
+        "A Belügyminisztériumban sorjázó zárt körű megbeszélésekre azután nyílhatott szükség, hogy a Nemzeti Adó- és Vámhivatal hivatalos válaszban jelezte az ügyészségnek: egy bizonyos időszakon keresztül egészen biztosan jogalap nélkül tartották fogva az ukrán pénzszállítókat. A Telex értesülései szerint az érintett állami szervek képviselőinek fő célja az volt, hogy megtalálják a módját a fogva tartás idején keletkezett jogi űr „lefedésének”, vagyis annak, hogy az intézkedést utólag jogszerűnek tüntessék fel.",
+        "A tanácskozásokon a Nemzeti Adó- és Vámhivatal, a Terrorelhárítási Központ, valamint a titkosszolgálat felső vezetői fordultak meg. A résztvevők között volt Kovács András, aki Hajdu János helyetteseként dolgozik a Terrorelhárítási Központnál, valamint Szathmáry Zoltán testvére, aki az Alkotmányvédelmi Hivatal állományában tevékenykedett. Utóbbi személy az Alkotmányvédelmi Hivatal állományában tevékenykedett.",
+        "Az üggyel összefüggésben egy olyan ügyészségi feljegyzés is napvilágot látott, amely szerint Hajdu János még a választás előtt egy belügyminisztériumi vizsgálóbizottsági tanácskozáson Orbán Viktor szerepére tett utalást. Minisztériumi vizsgálat azonban a sajtóban megjelent információk alapján kizárólag az Országos Idegenrendészeti Főigazgatóság, valamint a X. kerületi rendőrök érintettségének tisztázására indult meg, az ügy többi részét ez nem érintette.",
+        "Az aranykonvoj ügye a politikai és igazgatási szférában is hullámokat vetett, miután a parlament tiszás többsége elutasította az ügyészjelöltet. A döntés meghozatalában vélhetően az is szerepet játszott, hogy a jelölt testvéréről már ekkor tudható volt az érintettsége az aranykonvojügyben."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 258,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ministry_of_Interior_%28Hungary%29_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 797,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Ministry of Interior (Hungary)",
+        "credit": "VinceB / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Interior_(Hungary)_01.JPG",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261006_telex-aranykonvoj-ugy-erintett-valsagertekezlet-valasztas-utan",
+          "title": "A választás után válságértekezleteket tartottak az aranykonvojügy érintettjei",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T22:53:14+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.43,
+      "title_options": [
+        "null",
+        "Hogyan lett hirtelen jogszerű a jogtalan fogva tartás?",
+        "Válságtanácskozások az ukrán aranykonvoj ügyében",
+        "Ilyen módszerrel próbálták eltüntetni a hatóságok a legfőbb bökkenőt",
+        "A Telex robbantotta ki: válságtanácskozásokat hívtak össze a titokzatos konvoj ügyében",
+        "Miért ült össze a TEK, a NAV és a titkosszolgálat a választások után hirtelen?"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ministry_of_Interior_%28Hungary%29_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 797,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Ministry of Interior (Hungary)",
+          "credit": "VinceB / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Interior_(Hungary)_01.JPG",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/gff5b15b06d9c46dba859952321ffd781bb77602332f651076789a48bb312e35593117e6c5f380e4b4a0de2b34477a9ac774cad1494cb3734b284ba23e3e3af63_1280.jpg",
+          "width": 3000,
+          "height": 2000,
+          "kind": "photo",
+          "alt": "hammer, law, justice, judge, auction, judgement, authority, courtroom, offer, legislation, penalty, judge, judge, auction, auction, courtroom, courtroom, courtroom, courtroom, courtroom, legislation, ",
+          "credit": "VBlock / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/hammer-law-justice-judge-auction-7286346/",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "A választás után válságértekezleteket tartottak az aranykonvojügy érintettjei",
+          "link": "https://hvg.hu/itthon/20261006_telex-aranykonvoj-ugy-erintett-valsagertekezlet-valasztas-utan",
+          "summary": "A különböző szervek illetékesei azt próbálták meg kitalálni, hogyan tudnák jogszerűnek beállítani az ukrán pénzszállítók jogalap nélküli fogva tartását – értesült a Telex.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.43
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261006_telex-aranykonvoj-ugy-erintett-valsagertekezlet-valasztas-utan"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kozelet/2026-10-06-null/",
+      "seo": {
+        "meta_title": "null",
+        "meta_description": "Az áprilisi választást követő átmeneti időszakban több válságtanácskozást is tartottak a Belügyminisztériumban, ahol az ukrán pénzszállítók jogalap nélküli fogv",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-null/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ministry_of_Interior_%28Hungary%29_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "1a9d412cb7e06b8ca106aa600e3fd76c023bc8f196a16fd8b2f7141c611a2309",
+      "pipeline_run_id": "37528574807",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T22:53:14+02:00",
+      "updated_at": "2026-10-06T22:53:14+02:00",
+      "published_at": "2026-10-06T22:53:14+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": [],
+        "auto_fixed": [
+          "Eltávolítva a valótlan állítás Baka András legfőbb ügyészi jelöltségéről, a pozíció „ügyészjelölt”-ként lett pontosítva."
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-06T20:54:50+00:00",
+        "msg_ids": [
+          3295,
+          3296,
+          3297
+        ],
+        "control_id": 3298
+      }
     }
   ]
 }
