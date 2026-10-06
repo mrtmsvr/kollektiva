@@ -860,6 +860,29 @@ def find_inline_images(raw: dict, n_paras: int, timeout: int, avoid: Optional[se
     return out
 
 
+def img_keys(im: Optional[dict]) -> set:
+    """Egy kép azonosítói (URL és forrásoldal, lekérdezés nélkül) – így a Wikimedia bélyegkép és az eredeti, vagy a
+    letöltött Pixabay-másolat és az eredeti is ugyanannak számít."""
+    if not im or im.get("generated"):
+        return set()
+    return {k.split("?")[0] for k in (im.get("url"), im.get("source_url"), im.get("orig_url")) if k and "/info/" not in k}
+
+
+def used_images(articles: list) -> set:
+    """Minden kint lévő (és függő) cikk főképe: ugyanaz a fotó ne legyen két cikk főképe."""
+    out = set()
+    for a in articles:
+        out |= img_keys(a.get("hero_image"))
+        rv, opts = a.get("review") or {}, a.get("image_options") or []
+        if opts and 0 <= int(rv.get("image", 0)) < len(opts):  # függő cikk: a kiválasztott kép
+            out |= img_keys(opts[int(rv.get("image", 0))])
+    return out
+
+
+def drop_used(images: list, avoid: Optional[set]) -> list:
+    return [im for im in images if not (img_keys(im) & (avoid or set()))] if avoid else images
+
+
 def find_images(specific: list, generic: list, timeout: int, avoid: Optional[set] = None, limit: int = 4) -> list:
     """Képjelöltek a Telegramos kiválasztáshoz: a konkrét találatok elöl, utána az általános hangulatképek."""
     out, seen = [], set(avoid or ())
@@ -1052,10 +1075,46 @@ def localize_image(img: Optional[dict], timeout: int = 20) -> Optional[dict]:
     out_dir.mkdir(parents=True, exist_ok=True)
     name = hashlib.sha1(img["url"].encode()).hexdigest()[:16] + ".jpg"
     (out_dir / name).write_bytes(data)
-    return {**img, "url": f"{SITE_URL}/public/img/px/{name}", "local": str(out_dir / name)}
+    return {**img, "url": f"{SITE_URL}/public/img/px/{name}", "local": str(out_dir / name), "orig_url": img["url"]}
 
 
 LAST_GEN_ERROR = ""
+CF_IMG_EXHAUSTED = False  # a Cloudflare napi ingyenes keret (10 000 neuron) elfogyott → ebben a futásban tartalék
+
+
+def _gen_image(acct: str, token: str, prompt: str, timeout: int, seed: int) -> bytes:
+    """Egy kép: Cloudflare FLUX-1-schnell (4 lépés – ennyire tervezték, fele annyi keretet fogyaszt, mint 8); ha a napi
+    ingyenes keret elfogyott, a Pollinations nyílt FLUX-szolgáltatása (kulcs nélkül) a tartalék."""
+    import base64
+    global CF_IMG_EXHAUSTED
+    if acct and token and not CF_IMG_EXHAUSTED:
+        try:
+            data = post_json(f"https://api.cloudflare.com/client/v4/accounts/{acct}/ai/run/@cf/black-forest-labs/flux-1-schnell",
+                             {"Authorization": f"Bearer {token}"},
+                             {"prompt": prompt + ", no watermark, 16:9 composition", "steps": 4, "seed": seed},
+                             timeout, 1)
+            img = base64.b64decode((data.get("result") or {}).get("image") or "")
+            if len(img) >= 5000:
+                note_usage("cf_image")
+                return img
+        except Exception as e:  # noqa: BLE001
+            msg = str(e)
+            if "4006" in msg or "daily free allocation" in msg or "429" in msg:
+                CF_IMG_EXHAUSTED = True
+                log.warning("Cloudflare képkeret elfogyott – tartalék generátor.")
+            else:
+                raise
+    if os.getenv("IMAGE_FALLBACK", "pollinations") != "pollinations":
+        raise AIError("A Cloudflare napi képkerete elfogyott (10 000 neuron), és nincs tartalék generátor.")
+    q = urllib.parse.quote(prompt[:700] + ", editorial illustration, no watermark")
+    req = urllib.request.Request(f"https://image.pollinations.ai/prompt/{q}?width=1280&height=720&model=flux&nologo=true"
+                                 f"&seed={seed}", headers={"User-Agent": WIKI_UA["User-Agent"]})
+    with urllib.request.urlopen(req, timeout=max(timeout, 90)) as resp:
+        img = resp.read()
+    if len(img) < 5000:
+        raise AIError("A tartalék képgenerátor üres képet adott.")
+    note_usage("pollinations_image")
+    return img
 
 
 def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: int = 2) -> list:
@@ -1065,7 +1124,7 @@ def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: in
     global LAST_GEN_ERROR
     LAST_GEN_ERROR = ""
     acct, token = os.getenv("CF_ACCOUNT_ID", "").strip(), os.getenv("CF_AI_TOKEN", "").strip()
-    if not acct or not token:
+    if (not acct or not token) and os.getenv("IMAGE_FALLBACK", "pollinations") != "pollinations":
         return []
     try:
         raw = ai.complete_json(GEN_SYSTEM, f"Cikk: {title}\n{lead}\n\nÍrj {n} eltérő promptot egy szerkesztőségi illusztrációhoz: "
@@ -1091,18 +1150,13 @@ def generate_illustration(ai: "AIClient", title: str, lead: str, tag: str, n: in
     out = []
     for i, p in enumerate(prompts):
         try:
-            data = post_json(f"https://api.cloudflare.com/client/v4/accounts/{acct}/ai/run/@cf/black-forest-labs/flux-1-schnell",
-                             {"Authorization": f"Bearer {token}"},
-                             {"prompt": p + ", no watermark, 16:9 composition", "steps": 8},
-                             ai.cfg.http_timeout, 2)
-            img = base64.b64decode((data.get("result") or {}).get("image") or "")
+            img = _gen_image(acct, token, p, ai.cfg.http_timeout, int(time.time()) % 100000 + i)
         except Exception as e:  # noqa: BLE001
             LAST_GEN_ERROR = str(e)[:300]
             log.warning("Illusztráció generálása sikertelen: %s", LAST_GEN_ERROR)
             continue
         if len(img) < 5000:
             continue
-        note_usage("cf_image")
         name = f"{re.sub(r'[^a-z0-9]', '', tag.lower())[:10]}-{int(time.time())}-{i}.jpg"
         (out_dir / name).write_bytes(img)
         likeness = bool(person) and i == 0  # valós személyt ábrázoló kép: kötelező AI-jelölés
@@ -1564,8 +1618,14 @@ def strip_bad_links(body: list, allowed: set) -> list:
     return [LINK_MD.sub(lambda m: m.group(0) if m.group(2) in allowed else m.group(1), str(p)) for p in body]
 
 
+CITE_LEAK = re.compile(r"\s*\[\d{1,2}\](?!\()(?:\s*,?\s*\[\d{1,2}\](?!\())*")
+
+
 def _para(p: str) -> str:
     """Bekezdés -> HTML; a „- ” kezdetű sorokból felsorolás lesz."""
+    # az AI néha bemásolja a forráskivonatok sorszámát („[1]”, „[1] [1]”, „[1], [2]”) – az olvasónak ez nem mond semmit
+    p = CITE_LEAK.sub("", p)
+    p = re.sub(r"(\]\([^)\s]+\))([.,;:!?]?)\]", r"\1\2", p)  # link után maradt felesleges „]”
     if p.startswith("## "):  # alcím (összefoglaló cikkekben eseményenként)
         head, _, rest = p[3:].partition("\n")
         head = re.sub(r"(?i)^\s*(?:rövid\s+)?(?:al)?cím\s*[:：\-–]\s*", "", head)  # az AI néha beírja a „Rövid alcím:” címkét
@@ -2473,7 +2533,7 @@ def build_on_demand(ai: "AIClient", text: str, tz: ZoneInfo, articles: list) -> 
     for s in story:
         s["kw"] = _keywords(s["title"] + " " + (s.get("summary") or "")[:200])
     section = pick_section(ai, story, SECTIONS.get("kozelet") or next(iter(SECTIONS.values())))
-    recent_imgs = {(a.get("hero_image") or {}).get("url") for a in articles[:60]} - {None}
+    recent_imgs = used_images(articles)
     art = build_section_article(ai, section, now.date(), tz, story, recent_imgs, related_past(articles, story))
     if art:
         art["status"] = "pending"
@@ -2658,6 +2718,7 @@ A rovat hangja: {section.get('voice', 'természetes, újságírói')}.
 Forráskivonatok:
 {src}
 {bg_block}
+A forrásszámokat ([1], [2]…) SOHA ne írd a cikk szövegébe – az olvasó nem látja a kivonatokat.
 FŐ TÉMA az [1]-es forrás eseménye. A [KAPCSOLÓDÓ] jelű források másik, de összefüggő eseményről szólnak: ha tényleg
 tágítják a képet, külön bekezdés(ek)ben, egyértelmű átvezetéssel említsd őket („Közben…”, „Egy másik ügyben…”),
 de a tényeiket SOHA ne keverd a fő eseményével. Ha nem illenek, hagyd ki őket.
@@ -2762,10 +2823,12 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
     image_options = find_images([raw.get("image_query"), *(raw.get("image_query_alt") or [])][:5],
                                 (generic if isinstance(generic, list) else [generic])[:2], ai.cfg.http_timeout,
                                 avoid_images, limit=IMAGE_OPTIONS)
+    image_options = drop_used(image_options, avoid_images)
     strict = section["id"] == "bulvar"  # celebhírnél csak nagyon illő kép (különben inkább a rovat grafikája)
     image_options = vision_rank(ai, art["title"], art["lead"], image_options, min_score=7 if strict else 5)
     if len(image_options) < 2 and not strict:
-        image_options += more_images(ai, art, (avoid_images or set()) | {im["url"] for im in image_options})
+        image_options += drop_used(more_images(ai, art, (avoid_images or set()) | {im["url"] for im in image_options}),
+                                   avoid_images)
     if not image_options:  # nincs illő kép -> saját grafika, hogy a cikk ne kép nélkül menjen jóváhagyásra
         image_options = auto_illustration(ai, art, section["id"])
     image = image_options[0] if image_options else None
@@ -2935,7 +2998,7 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
         return 0
     min_score = float(os.getenv("MIN_HOT_SCORE", "5"))
     pause = int(os.getenv("AI_PAUSE_SECONDS", "8"))
-    recent_imgs = {(a.get("hero_image") or {}).get("url") for a in articles[:60]} - {None}
+    recent_imgs = used_images(articles + pending)
     cands = []
     for sid in wanted:
         today = sum(1 for a in articles_all if a.get("category") == sid and a.get("date") == d.isoformat())
@@ -2974,7 +3037,7 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
         recent_kw.append(group[0]["kw"])
         recent_titles.append(art["title"])
         if art.get("hero_image"):
-            recent_imgs.add(art["hero_image"]["url"])
+            recent_imgs |= img_keys(art["hero_image"])
         if review:
             # REVIEW_MODE=hybrid (alap): jóváhagyásra vár, de AUTO_PUBLISH_MIN perc után magától kikerül;
             # post: azonnal kikerül, utólagos ellenőrzéssel; pre: csak jóváhagyás után.
