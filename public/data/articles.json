@@ -1,7 +1,106 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T20:41:21+02:00",
+  "updated_at": "2026-10-06T23:20:51+02:00",
   "articles": [
+    {
+      "id": "9b611ca1-672a-50b4-ba50-6dd6d5116795",
+      "slug": "2026-10-06-veszelyes-elektromos-mezo-varja-az-urhajosokat-a-hold-deli-sarkan",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "Hold",
+        "űrkutatás",
+        "technológia",
+        "Artemis"
+      ],
+      "title": "Veszélyes elektromos mező várja az űrhajósokat a Hold déli sarkán",
+      "subtitle": null,
+      "lead": "Súlyos elektromos feltöltődés fenyegetheti a Hold felszínén járó űrhajósokat, különösen a Nap elől elzárt, sötét kráterekben. A probléma megértésére a NASA most külön kezdeményezést indított.",
+      "key_points": [
+        "A holdporon való járás és a környező plazma statikus elektromosságot hoz létre a szkafandereken.",
+        "A tartósan árnyékos területeken a ruházat jelentős negatív potenciált halmozhat fel.",
+        "A fizikai kihívás megoldására az űrügynökség új programot hirdetett."
+      ],
+      "content": "Amikor egy űrhajós a Hold déli sarkvidékén jár, a felszíni mozgásból fakadó súrlódásos feltöltődés, azaz a triboelektromos hatás, valamint a környező plazma elektromos töltést generál a ruháján. Ez a jelenség a gyakorlatban statikus elektromosságot hoz létre, amely a mindennapokban ismert kellemetlen kisülésekhez hasonló folyamatokat indíthat el az űrben is.\n\nA nehézségek akkor sokasodnak meg igazán, amikor a küldetés résztvevői behatolnak a holdi árnyékokba és a folyamatosan sötétbe burkolózó régiókba. Ezeken a fénysugaraktól elzárt területeken a szkafander jelentős mértékű negatív feszültséget képes felhalmozni, ami komoly technikai és biztonsági akadályt jelent a jövőbeli emberi expanzió számára.\n\nA probléma kezelésére az űrkutatási szervezet elindította a Lunar Grounding Challenge elnevezésű kihívást, amely gyakorlatias módszereket keres a felgyülemlő töltések biztonságos elvezetésére. A kutatók és mérnökök közösségétől várnak olyan megoldásokat, amelyek megvédik az eszközöket és az embereket a holdi felszín sajátos fizikai kihívásaitól.",
+      "content_format": "markdown",
+      "body": [
+        "Amikor egy űrhajós a Hold déli sarkvidékén jár, a felszíni mozgásból fakadó súrlódásos feltöltődés, azaz a triboelektromos hatás, valamint a környező plazma elektromos töltést generál a ruháján. Ez a jelenség a gyakorlatban statikus elektromosságot hoz létre, amely a mindennapokban ismert kellemetlen kisülésekhez hasonló folyamatokat indíthat el az űrben is.",
+        "A nehézségek akkor sokasodnak meg igazán, amikor a küldetés résztvevői behatolnak a holdi árnyékokba és a folyamatosan sötétbe burkolózó régiókba. Ezeken a fénysugaraktól elzárt területeken a szkafander jelentős mértékű negatív feszültséget képes felhalmozni, ami komoly technikai és biztonsági akadályt jelent a jövőbeli emberi expanzió számára.",
+        "A probléma kezelésére az űrkutatási szervezet elindította a Lunar Grounding Challenge elnevezésű kihívást, amely gyakorlatias módszereket keres a felgyülemlő töltések biztonságos elvezetésére. A kutatók és mérnökök közösségétől várnak olyan megoldásokat, amelyek megvédik az eszközöket és az embereket a holdi felszín sajátos fizikai kihívásaitól."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 162,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/The_Lunar_South_Pole_%28LROC237_-_SP_Mosaic_400m_label%29.png/1280px-The_Lunar_South_Pole_%28LROC237_-_SP_Mosaic_400m_label%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1200,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "WAC south polar mosaic showing locations of major craters. The impact site of the LCROSS spacecraft is marked with an \"X\". Mosaic width is ~600 km [NASA/GSFC/Arizona State University].",
+        "credit": "NASA/GSFC/Arizona State University / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:The_Lunar_South_Pole_(LROC237_-_SP_Mosaic_400m_label).png",
+        "vision_score": 7.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/lunar-grounding-challenge/",
+          "title": "Lunar Grounding Challenge",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-06T22:49:44+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-06T23:20:51+02:00"
+      },
+      "hot_score": 5.94,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/lunar-grounding-challenge/"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/tech/2026-10-06-veszelyes-elektromos-mezo-varja-az-urhajosokat-a-hold-deli-sarkan/",
+      "seo": {
+        "meta_title": "Veszélyes elektromos mező várja az űrhajósokat a Hold déli s",
+        "meta_description": "Súlyos elektromos feltöltődés fenyegetheti a Hold felszínén járó űrhajósokat, különösen a Nap elől elzárt, sötét kráterekben. A probléma megértésére a NASA most",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-06-veszelyes-elektromos-mezo-varja-az-urhajosokat-a-hold-deli-sarkan/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/The_Lunar_South_Pole_%28LROC237_-_SP_Mosaic_400m_label%29.png/1280px-The_Lunar_South_Pole_%28LROC237_-_SP_Mosaic_400m_label%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "640b7e9435a834963952c5c1e60706e3c746b5f0036aa3354206b005b0586775",
+      "pipeline_run_id": "37528574807",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T23:20:51+02:00",
+      "updated_at": "2026-10-06T23:20:51+02:00",
+      "published_at": "2026-10-06T23:20:51+02:00",
+      "expires_at": null
+    },
     {
       "id": "5b006867-b36f-534b-858d-25f5fab896bb",
       "slug": "2026-10-06-komoly-bajban-az-uj-generaciok-szovegertese",
