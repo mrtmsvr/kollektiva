@@ -1,7 +1,127 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-05T23:32:24+02:00",
+  "updated_at": "2026-10-06T06:53:38+02:00",
   "articles": [
+    {
+      "id": "c6ccc794-ffcd-5aa6-90a5-a66f7d408712",
+      "slug": "2026-10-06-olaszorszagi-nyaralas-kozben-erte-a-nobel-dij-a-fennyel-iranyithato-a",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "Nobel-díj",
+        "optogenetika",
+        "orvostudomány",
+        "idegtudomány",
+        "Karl Deisseroth"
+      ],
+      "title": "Olaszországi nyaralás közben érte a Nobel-díj a fénnyel irányítható agysejtek atyját",
+      "subtitle": null,
+      "lead": "Meglepetéssel fogadta a 2026-os orvosi-élettani Nobel-díjat Georg Nagel kutató, akit a kék fénnyel vezérelhető idegsejtek feltárásáért tüntettek ki társaival.",
+      "key_points": [
+        "Karl Deisseroth, Peter Hegemann és Georg Nagel kapta az idei orvosi-élettani Nobel-díjat.",
+        "A díjazott optogenetikai eljárás fénnyel teszi lehetővé az idegsejtek aktivitásának be- és kikapcsolását.",
+        "A módszer alapját egy egysejtű algában felfedezett fehérje, a channelrhodopsin adta.",
+        "Georg Nagel nápolyi tartózkodása közben értesült a svédországi elismerésről."
+      ],
+      "content": "Hétfőn jelentették be a svédországi Karolinska Intézet orvosi egyetemének Nobel-bizottságában, hogy az idei orvosi-élettani Nobel-díjat három kutatónak ítélik oda. Az elismerést a 73 éves német Georg Nagel, a Würzburgi Egyetem kutatója, társa, a 71 éves német Peter Hegemann, a Berlini Humboldt Egyetem professzora, valamint az 54 éves amerikai Karl Deisseroth, a Howard Hughes Orvostudományi Intézet és a Stanford Egyetem kutatója kapta.\n\nAz optogenetika olyan módszer, amely fénnyel vezérelt ioncsatornák segítségével teszi lehetővé az egyes idegsejtek célzott vizsgálatát és aktivitásának be- vagy kikapcsolását az élő agyban. A felfedezés azután kezdődött, hogy Hegemann és Nagel egy egysejtű algában felfedezett egy új fehérjét, a channelrhodopsint. Ezt a fehérjét kék fénnyel megvilágítva olyan csatorna nyílik meg, amelyen keresztül ionok áramlanak a sejtbe, elektromos impulzusokat hozva létre. Deisseroth ezt követően patkányok és egerek idegsejtjeibe juttatta be a fehérje génjét, sikeresen idegi jeleket kiváltva a kék fény segítségével.\n\nGeorg Nagelt az olaszországi hegyekben érte a hír, mivel nyugdíjasként olasz feleségének szülővárosában, Nápolyban töltik a hideg évszakokat. A Nobel-díj honlapjának adott telefonos interjújában elmondta, hogy meglepte az elismerés, mivel véleménye szerint még korai volt díjazni az eljárást, amely eddig csupán egyetlen páciensen segített.\n\nA svédországi Karolinska Intézet indoklása szerint a kutatók eredményei jelentősen hozzájárultak az agyban kialakuló emlékek, érzések és viselkedésformák összefüggéseinek megértéséhez, a módszert pedig ma már világszerte használják a laboratóriumokban az agy rejtélyeinek feltárására.",
+      "content_format": "markdown",
+      "body": [
+        "Hétfőn jelentették be a svédországi Karolinska Intézet orvosi egyetemének Nobel-bizottságában, hogy az idei orvosi-élettani Nobel-díjat három kutatónak ítélik oda. Az elismerést a 73 éves német Georg Nagel, a Würzburgi Egyetem kutatója, társa, a 71 éves német Peter Hegemann, a Berlini Humboldt Egyetem professzora, valamint az 54 éves amerikai Karl Deisseroth, a Howard Hughes Orvostudományi Intézet és a Stanford Egyetem kutatója kapta.",
+        "Az optogenetika olyan módszer, amely fénnyel vezérelt ioncsatornák segítségével teszi lehetővé az egyes idegsejtek célzott vizsgálatát és aktivitásának be- vagy kikapcsolását az élő agyban. A felfedezés azután kezdődött, hogy Hegemann és Nagel egy egysejtű algában felfedezett egy új fehérjét, a channelrhodopsint. Ezt a fehérjét kék fénnyel megvilágítva olyan csatorna nyílik meg, amelyen keresztül ionok áramlanak a sejtbe, elektromos impulzusokat hozva létre. Deisseroth ezt követően patkányok és egerek idegsejtjeibe juttatta be a fehérje génjét, sikeresen idegi jeleket kiváltva a kék fény segítségével.",
+        "Georg Nagelt az olaszországi hegyekben érte a hír, mivel nyugdíjasként olasz feleségének szülővárosában, Nápolyban töltik a hideg évszakokat. A Nobel-díj honlapjának adott telefonos interjújában elmondta, hogy meglepte az elismerés, mivel véleménye szerint még korai volt díjazni az eljárást, amely eddig csupán egyetlen páciensen segített.",
+        "A svédországi Karolinska Intézet indoklása szerint a kutatók eredményei jelentősen hozzájárultak az agyban kialakuló emlékek, érzések és viselkedésformák összefüggéseinek megértéséhez, a módszert pedig ma már világszerte használják a laboratóriumokban az agy rejtélyeinek feltárására."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 245,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/69101181c50bcead.jpg",
+        "width": 5443,
+        "height": 3629,
+        "kind": "photo",
+        "alt": "analysis, biochemistry, biologist, biology, biotechnology, chemistry, clinic, clinical, equipment, experiment, laboratory devices, laboratory, lenses, medical, medicine, microbiology, microscope, opti",
+        "credit": "Kost9n4 / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/analysis-biochemistry-biologist-2030265/",
+        "vision_score": 5.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/69101181c50bcead.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261005_friss-nobel-dij-kutato-korai-tart-eredmeny-dij",
+          "title": "Az egyik friss Nobel-díjas kutató még korainak tartja az eredményükért megítélt díjat",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T06:20:12+02:00"
+        },
+        {
+          "url": "https://qubit.hu/2026/10/05/az-idegsejtek-fennyel-torteno-vezerleseert-iteltek-oda-az-idei-orvosi-es-elettani-nobel-dijakat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "Az idegsejtek fénnyel történő vezérléséért ítélték oda az idei orvosi és élettani Nobel-díjakat",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T06:20:12+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Az optogenetika lehetőséget arra, hogy az agyat olyan módon térképezzük fel, amiről korábban csak álmodhattunk",
+        "who": "Per Svenningsson, a fiziológiai-orvostudományi Nobel-bizottság elnöke",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-06T06:53:38+02:00"
+      },
+      "hot_score": 6.3,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261005_friss-nobel-dij-kutato-korai-tart-eredmeny-dij"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/tech/2026-10-06-olaszorszagi-nyaralas-kozben-erte-a-nobel-dij-a-fennyel-iranyithato-a/",
+      "seo": {
+        "meta_title": "Olaszországi nyaralás közben érte a Nobel-díj a fénnyel irán",
+        "meta_description": "Meglepetéssel fogadta a 2026-os orvosi-élettani Nobel-díjat Georg Nagel kutató, akit a kék fénnyel vezérelhető idegsejtek feltárásáért tüntettek ki társaival.",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-06-olaszorszagi-nyaralas-kozben-erte-a-nobel-dij-a-fennyel-iranyithato-a/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/69101181c50bcead.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "a7fb3d6f-8105-5a19-94ba-400a54033f80"
+      ],
+      "see_also": [
+        {
+          "title": "Hogyan irányíthatók kék fénnyel az emlékek és az érzelmek?",
+          "url": "/tech/2026-10-05-hogyan-iranyithatok-kek-fennyel-az-emlekek-es-az-erzelmek/",
+          "date": "2026-10-05"
+        }
+      ],
+      "thread_id": "a7fb3d6f-8105-5a19-94ba-400a54033f80",
+      "dedupe_hash": "9104bd95ac16cce002958c36627b4cac7b7db9563debd6db655e6ddea1365499",
+      "pipeline_run_id": "37411748561",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T06:53:38+02:00",
+      "updated_at": "2026-10-06T06:53:38+02:00",
+      "published_at": "2026-10-06T06:53:38+02:00",
+      "expires_at": null
+    },
     {
       "id": "accd2a46-1e90-596c-a719-ba5d62a666eb",
       "slug": "2026-10-05-megtalaltak-a-mesterseges-intelligencia-kovetkezo-aranytojasat",
