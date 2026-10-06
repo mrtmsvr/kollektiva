@@ -10348,6 +10348,678 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Stanford_University_Main_Quad_May_2011_005.jpg/1280px-Stanford_University_Main_Quad_May_2011_005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ],
       "live": true
+    },
+    {
+      "id": "9fa4497b-ac17-59bf-b8cc-f910d7385d02",
+      "slug": "2026-10-06-tobb-mint-ot-tonna-teherrel-indul-hazafele-a-cygnus-xl",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "űr",
+        "NASA",
+        "Nemzetközi Űrállomás",
+        "Cygnus XL",
+        "Northrop Grumman"
+      ],
+      "title": "Több mint öt tonna teherrel indul hazafelé a Cygnus XL",
+      "subtitle": null,
+      "lead": "Több mint ötezer kilogrammnyi ellátmányt és tudományos kísérletet szállított a Nemzetközi Űrállomásra a Northrop Grumman Cygnus XL űreszköze, amely október 9-én indul vissza. A NASA élőben közvetíti a különleges szerkezet leválását és távozását.",
+      "key_points": [
+        "A Cygnus XL űreszköz több mint 11 000 font rakományt szállított a Nemzetközi Űrállomásra.",
+        "A visszatérési műveletet és a lekapcsolódást a NASA élőben közvetíti október 9-én.",
+        "A küldetés a vállalat Commercial Resupply Services-24 programjának részeként valósult meg."
+      ],
+      "content": "## Megkezdődik a visszatérés a Nemzetközi Űrállomásról\n\nA Northrop Grumman vállalat CRS-24 jelzésű küldetése lassan a végéhez ér, miután a Cygnus XL nevű teherhajó sikeresen kiszolgálta az alacsony Föld körüli pályán keringő Nemzetközi Űrállomást. Az űreszköz összesen több mint 11 000 fontnyi rakományt, köztük fontos felszereléseket, ellátmányokat és tudományos kísérletsorozatokat juttatott el a fedélzetre.\n\nA tervek szerint az űreszköz október 9-én válik le az orbitális komplexumról. A NASA bejelentése alapján az eseményt élőben követhetik az érdeklődők, a közvetítés pedig a leválási folyamat kezdetével, helyi idő szerint 12:30-kor veszi kezdetét.",
+      "content_format": "markdown",
+      "body": [
+        "## Megkezdődik a visszatérés a Nemzetközi Űrállomásról",
+        "A Northrop Grumman vállalat CRS-24 jelzésű küldetése lassan a végéhez ér, miután a Cygnus XL nevű teherhajó sikeresen kiszolgálta az alacsony Föld körüli pályán keringő Nemzetközi Űrállomást. Az űreszköz összesen több mint 11 000 fontnyi rakományt, köztük fontos felszereléseket, ellátmányokat és tudományos kísérletsorozatokat juttatott el a fedélzetre.",
+        "A tervek szerint az űreszköz október 9-én válik le az orbitális komplexumról. A NASA bejelentése alapján az eseményt élőben követhetik az érdeklődők, a közvetítés pedig a leválási folyamat kezdetével, helyi idő szerint 12:30-kor veszi kezdetét."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 126,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Cygnus_XL_cargo_spacecraft_is_in_the_grasp_of_the_Canadarm2_robotic_arm_%28iss074e0378294%29.jpg/1280px-The_Cygnus_XL_cargo_spacecraft_is_in_the_grasp_of_the_Canadarm2_robotic_arm_%28iss074e0378294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "iss074e0378294 (March 12, 2026) --- Northrop Grumman's Cygnus XL cargo spacecraft, with its two prominent cymbal-shaped UltraFlex solar arrays, is in the grasp of the Canadarm2 robotic arm before bein",
+        "credit": "NASA Johnson Space Center / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:The_Cygnus_XL_cargo_spacecraft_is_in_the_grasp_of_the_Canadarm2_robotic_arm_(iss074e0378294).jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-crs-24-spacecraft-departure/",
+          "title": "NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-06T20:34:42+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.96,
+      "title_options": [
+        "Több mint öt tonna teherrel indul hazafelé a Cygnus XL",
+        "Pénteken hagyja el a Nemzetközi Űrállomást a napokban leköszönő Cygnus XL",
+        "Visszafelé tart a Nemzetközi Űrállomásról a Northrop Grumman tehén hajója",
+        "Több mint 11 ezer fontnyi rakománnyal pakolták tele a most hazainduló űreszközt",
+        "Mutatjuk, mikor int búcsút a Nemzetközi Űrállomásnak a Cygnus XL",
+        "Pénteken kezdi meg visszatérését a napokban távozó északi teherhajó"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Cygnus_XL_cargo_spacecraft_is_in_the_grasp_of_the_Canadarm2_robotic_arm_%28iss074e0378294%29.jpg/1280px-The_Cygnus_XL_cargo_spacecraft_is_in_the_grasp_of_the_Canadarm2_robotic_arm_%28iss074e0378294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "iss074e0378294 (March 12, 2026) --- Northrop Grumman's Cygnus XL cargo spacecraft, with its two prominent cymbal-shaped UltraFlex solar arrays, is in the grasp of the Canadarm2 robotic arm before bein",
+          "credit": "NASA Johnson Space Center / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:The_Cygnus_XL_cargo_spacecraft_is_in_the_grasp_of_the_Canadarm2_robotic_arm_(iss074e0378294).jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/1280px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 797,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The International Space Station is featured in this image photographed by an STS-134 crew member on the space shuttle Endeavour after the station and shuttle began their post-undocking relative separa",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:STS-134_International_Space_Station_after_undocking.jpg",
+          "vision_score": 6.0
+        }
+      ],
+      "story": [
+        {
+          "title": "NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure",
+          "link": "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-crs-24-spacecraft-departure/",
+          "summary": "After delivering more than 11,000 pounds of supplies, science experiments, and other cargo to the International Space Station for NASA, Northrop Grumman’s Cygnus XL spacecraft is scheduled to depart Friday, Oct. 9, as part of the company’s Commercial Resupply Services-24 mission, or Northrop Grumman CRS-24. Watch NASA’s live coverage of undocking and departure beginning at 12:30 […]",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": 5.96
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-crs-24-spacecraft-departure/"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/tech/2026-10-06-tobb-mint-ot-tonna-teherrel-indul-hazafele-a-cygnus-xl/",
+      "seo": {
+        "meta_title": "Több mint öt tonna teherrel indul hazafelé a Cygnus XL",
+        "meta_description": "Több mint ötezer kilogrammnyi ellátmányt és tudományos kísérletet szállított a Nemzetközi Űrállomásra a Northrop Grumman Cygnus XL űreszköze, amely október 9-én",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-06-tobb-mint-ot-tonna-teherrel-indul-hazafele-a-cygnus-xl/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Cygnus_XL_cargo_spacecraft_is_in_the_grasp_of_the_Canadarm2_robotic_arm_%28iss074e0378294%29.jpg/1280px-The_Cygnus_XL_cargo_spacecraft_is_in_the_grasp_of_the_Canadarm2_robotic_arm_%28iss074e0378294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "e2c8288f4167ceb7be4893838f31c26e7a36ec5b46531cd30f72504bda4ad9ac",
+      "pipeline_run_id": "37510839219",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T20:34:42+02:00",
+      "updated_at": "2026-10-06T20:34:42+02:00",
+      "published_at": "2026-10-06T20:34:42+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 4,
+        "image": 0,
+        "sent_at": "2026-10-06T18:35:39+00:00",
+        "msg_ids": [
+          3265,
+          3266,
+          3267
+        ],
+        "control_id": 3268
+      }
+    },
+    {
+      "id": "da690bf0-243c-573c-a311-aae5f9a57207",
+      "slug": "2026-10-06-megvan-budapest-helye-a-2036-os-olimpia-listajan",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "olimpia 2036",
+        "Budapest",
+        "Magyar Olimpiai Bizottság",
+        "Fővárosi Önkormányzat",
+        "NOB"
+      ],
+      "title": "Megvan Budapest helye a 2036-os olimpia listáján",
+      "subtitle": null,
+      "lead": "A Nemzetközi Olimpiai Bizottság keddi közleménye szerint Magyarország is szerepel azon a szűkített listán, ahonnan kiválasztják a 2036-os olimpia rendező városát. A Magyar Olimpiai Bizottság és a Főváros hangsúlyozta, hogy a végleges döntés meghozásáig még több év áll rendelkezésre, és a folyamatot alapos társadalmi egyeztetésnek kell megelőznie.",
+      "key_points": [
+        "Budapest szerepel a 2036-os olimpia helyszínéül szolgáló szűkített listán.",
+        "A Főváros és a MOB szerint eddig semmilyen kötelezettséget nem vállaltak.",
+        "A rendezésről szóló végleges döntés 2029-ben születhet meg."
+      ],
+      "content": "Magyarország is szerepel azon a szűkített listán, ahonnan a Nemzetközi Olimpiai Bizottság kiválasztja a 2036-os olimpia rendező városát – írta a nemzetközi szervezet keddi közleményében. Bár Karácsony Gergely főpolgármester már régebb óta beszél arról, hogy örömmel látna egy ötkarikás rendezvényt Budapesten, a Városháza és a Magyar Olimpiai Bizottság egyaránt jelezte, hogy a folyamat jelenlegi szakaszában semmilyen kötelezettsége nincs a fővárosnak.\n\nA Magyar Olimpiai Bizottság és a Főváros emlékeztetett arra, hogy a 2024 októberében megkezdett tájékozódási folyamat nem jelenti magának az olimpiarendezésnek a kérelmét vagy hivatalos szándéknyilatkozatát. Gyulay Zsolt, a MOB elnöke levélben kezdeményezte, hogy a kormány és Budapest közös fórumán, a Fővárosi Közfejlesztések Tanácsán tárgyalják meg az olimpiai koncepciójavaslatot.\n\nA Nemzetközi Olimpiai Bizottság ütemezése alapján a szervezet 2027 márciusában jelöli ki azoknak a városoknak a körét, amelyeket meghív a helyszínválasztási folyamat következő szakaszába. Bármely érdeklődő országnak és városnak 2028-ban kell hivatalos döntést hoznia arról, hogy valóban szándékoznak-e rendezni a játékokat.\n\nA Fővárosi Önkormányzat tájékoztatása szerint a klímaválsággal és lakhatási válsággal szembeni ellenálló-képességet erősítő fejlesztések magától értetődően feltételezik a kormány és a főváros partnerségét. Az érintett testület legutóbbi ülésén már határozat született a Diákváros felépítéséről, a rákosrendezői projektről, valamint a közösségi közlekedés fejlesztéséről is.",
+      "content_format": "markdown",
+      "body": [
+        "Magyarország is szerepel azon a szűkített listán, ahonnan a Nemzetközi Olimpiai Bizottság kiválasztja a 2036-os olimpia rendező városát – írta a nemzetközi szervezet keddi közleményében. Bár Karácsony Gergely főpolgármester már régebb óta beszél arról, hogy örömmel látna egy ötkarikás rendezvényt Budapesten, a Városháza és a Magyar Olimpiai Bizottság egyaránt jelezte, hogy a folyamat jelenlegi szakaszában semmilyen kötelezettsége nincs a fővárosnak.",
+        "A Magyar Olimpiai Bizottság és a Főváros emlékeztetett arra, hogy a 2024 októberében megkezdett tájékozódási folyamat nem jelenti magának az olimpiarendezésnek a kérelmét vagy hivatalos szándéknyilatkozatát. Gyulay Zsolt, a MOB elnöke levélben kezdeményezte, hogy a kormány és Budapest közös fórumán, a Fővárosi Közfejlesztések Tanácsán tárgyalják meg az olimpiai koncepciójavaslatot.",
+        "A Nemzetközi Olimpiai Bizottság ütemezése alapján a szervezet 2027 márciusában jelöli ki azoknak a városoknak a körét, amelyeket meghív a helyszínválasztási folyamat következő szakaszába. Bármely érdeklődő országnak és városnak 2028-ban kell hivatalos döntést hoznia arról, hogy valóban szándékoznak-e rendezni a játékokat.",
+        "A Fővárosi Önkormányzat tájékoztatása szerint a klímaválsággal és lakhatási válsággal szembeni ellenálló-képességet erősítő fejlesztések magától értetődően feltételezik a kormány és a főváros partnerségét. Az érintett testület legutóbbi ülésén már határozat született a Diákváros felépítéséről, a rákosrendezői projektről, valamint a közösségi közlekedés fejlesztéséről is."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 244,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 798,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "View from Buda Castle towards the Northern west Budapest",
+        "credit": "Jakub Hałun / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:20190502_View_from_Buda_Castle_1059_2025_DxO.jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261006_mob-elnok-budapest-olimpia-2036-gyulay-zsolt-fovarosi-kozfejlesztesek-tanacsa",
+          "title": "A MOB és Karácsonyék is elmagyarázták, hogy valójában még nem is jelentkeztek az olimpiarendezésre",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T20:36:08+02:00"
+        }
+      ],
+      "quote": {
+        "text": "A Magyar Olimpiai Bizottság és a főpolgármester 2024 októberében tájékoztatta a magyar közvéleményt arról, hogy Budapest részt vesz a Nemzetközi Olimpiai Bizottság 2036-os olimpiai helyszínválasztási folyamatát megelőző, úgynevezett Tájékozódási Folyamatban.",
+        "who": "MOB és Főváros",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.61,
+      "title_options": [
+        "Megvan Budapest helye a 2036-os olimpia listáján",
+        "Még nincs döntés a fővárosi olimpiai tervekről",
+        "Még nem jelentkezett az olimpiára Budapest és a MOB",
+        "Bekerült Budapest a szűkített listára, de senki sem jelentkezett még semmire",
+        "Itt a hivatalos bejelentés: ekkor dől el a 2036-os budapesti olimpia sorsa",
+        "Mi történik most Budapesten a Nemzetközi Olimpiai Bizottság keddi hírét követően?"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "View from Buda Castle towards the Northern west Budapest",
+          "credit": "Jakub Hałun / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:20190502_View_from_Buda_Castle_1059_2025_DxO.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "View from Buda Castle towards the Northern west Budapest as of May 2014.",
+          "credit": "Perituss / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:View_from_Buda_Castle_2014_01.jpg",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "A MOB és Karácsonyék is elmagyarázták, hogy valójában még nem is jelentkeztek az olimpiarendezésre",
+          "link": "https://hvg.hu/itthon/20261006_mob-elnok-budapest-olimpia-2036-gyulay-zsolt-fovarosi-kozfejlesztesek-tanacsa",
+          "summary": "A Magyar Olimpiai Bizottság és a Főváros is hangsúlyozta, a NOB bejelentése után semmilyen kötelezettsége nincs Budapestnek, a végleges döntés meghozására még közel két év áll rendelkezésre, és alapos társadalmi egyeztetésnek kell megelőznie.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.61
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261006_mob-elnok-budapest-olimpia-2036-gyulay-zsolt-fovarosi-kozfejlesztesek-tanacsa"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kozelet/2026-10-06-megvan-budapest-helye-a-2036-os-olimpia-listajan/",
+      "seo": {
+        "meta_title": "Megvan Budapest helye a 2036-os olimpia listáján",
+        "meta_description": "A Nemzetközi Olimpiai Bizottság keddi közleménye szerint Magyarország is szerepel azon a szűkített listán, ahonnan kiválasztják a 2036-os olimpia rendező városá",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-megvan-budapest-helye-a-2036-os-olimpia-listajan/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "4ac1f3e1b8731729fb3dc9aac0c8ede13be2bb201c6bd6ea38286b740c15cdc8",
+      "pipeline_run_id": "37510839219",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T20:36:08+02:00",
+      "updated_at": "2026-10-06T20:36:08+02:00",
+      "published_at": "2026-10-06T20:36:08+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 4,
+        "image": 0,
+        "sent_at": "2026-10-06T18:37:09+00:00",
+        "msg_ids": [
+          3269,
+          3270,
+          3271
+        ],
+        "control_id": 3272
+      }
+    },
+    {
+      "id": "cec3732d-a9c2-5dbb-b843-2c901dfb293e",
+      "slug": "2026-10-06-a-rapper-aki-becsabitotta-a-zoomereket-a-vigszinhazba",
+      "status": "pending",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Pogány Induló",
+        "Vígszínház",
+        "ifj. Vidnyánszky Attila",
+        "színház",
+        "bemutató"
+      ],
+      "title": "A rapper, aki becsábította a zoomereket a Vígszínházba",
+      "subtitle": null,
+      "lead": "A népszerű rapper, Pogány Induló főszereplésével mutatta be a Vígszínház a 4-6 című, zajos nagykörúti előadást, amely a megszokott színházi kereteket teljesen felrúgva szólítja meg a fiatalokat. Ifj. Vidnyánszky Attila rendezése a közösségi média pörgetős élményét és a Nagykörút lepukkant italkimérőinek hangulatát hozza el a bársonyszékek közé.",
+      "key_points": [
+        "A 4-6 című előadás főszereplője a Fonogram- és Artisjus-díjas rapper, Pogány Induló.",
+        "Az ötletgazda és rendező ifj. Vidnyánszky Attila célja az volt, hogy eseménnyé tegye a színházat a fiatalabb korosztály számára.",
+        "A produkció a közösségi média doomscrolling élményét ülteti át a színpadra improvizatív jelenetekkel.",
+        "A díszlet a Nagykörút letűnt kocsmáinak világát idézi meg Schnábel Zita munkájaként."
+      ],
+      "content": "A 4-6 című nagyszabású bemutatóval a Vígszínház olyan produkciót hozott létre, amely a megjelenése pillanatától kezdve éles vitákat és élénk beszélgetéseket generált a közönség körében. A darab egyik legfőbb vonzereje, hogy valódi főszerepet bízott a fiatalok körében rendkívül népszerű előadóra, Szirmai Marcellre, azaz Pogány Indulóra. A rappert korábban old school rap számai repítették a hazai zene élvonalába, most pedig egy patinás színház színpadán bizonyítja a tehetségét az évtizedek óta bérlettel rendelkező nézők előtt is.\n\nAz előadás koncepciója szándékosan szakít a hagyományos narratív színházi formákkal, és a közösségi média végtelen, céltalan görgetését, a TikTok-videók világát idézi meg a színpadon. A kritikusok által doomscrollingként emlegetett jelenséget – amikor az ember órákig ragad bele a negatív hírfolyamokba – fordították le színpadi nyelvre az alkotók.\n\nA szokatlan megközelítés már a belépéstől kezdve érezteti hatását, hiszen a Vígszínház korábbi hasonló kísérletéhez, a @LL3t4rgIA című darabhoz hasonlóan itt is a mai fiatalok digitális valóságához igazodnak.\n\nIfj. Vidnyánszky Attila rendező vállalása az volt, hogy politikai jelszavak nélkül, de a korosztály sajátos tempóját és ritmusát leképezve hozzon létre olyan színházi eseményt, amely ütközteti a hagyományt a modern digitális kultúrával. A 4-6 így nem csupán egy színházi bemutató, hanem korrajz a folyamatosan pörgető, ingereket kereső generációról.",
+      "content_format": "markdown",
+      "body": [
+        "A 4-6 című nagyszabású bemutatóval a Vígszínház olyan produkciót hozott létre, amely a megjelenése pillanatától kezdve éles vitákat és élénk beszélgetéseket generált a közönség körében. A darab egyik legfőbb vonzereje, hogy valódi főszerepet bízott a fiatalok körében rendkívül népszerű előadóra, Szirmai Marcellre, azaz Pogány Indulóra. A rappert korábban old school rap számai repítették a hazai zene élvonalába, most pedig egy patinás színház színpadán bizonyítja a tehetségét az évtizedek óta bérlettel rendelkező nézők előtt is.",
+        "Az előadás koncepciója szándékosan szakít a hagyományos narratív színházi formákkal, és a közösségi média végtelen, céltalan görgetését, a TikTok-videók világát idézi meg a színpadon. A kritikusok által doomscrollingként emlegetett jelenséget – amikor az ember órákig ragad bele a negatív hírfolyamokba – fordították le színpadi nyelvre az alkotók.",
+        "A szokatlan megközelítés már a belépéstől kezdve érezteti hatását, hiszen a Vígszínház korábbi hasonló kísérletéhez, a @LL3t4rgIA című darabhoz hasonlóan itt is a mai fiatalok digitális valóságához igazodnak.",
+        "Ifj. Vidnyánszky Attila rendező vállalása az volt, hogy politikai jelszavak nélkül, de a korosztály sajátos tempóját és ritmusát leképezve hozzon létre olyan színházi eseményt, amely ütközteti a hagyományt a modern digitális kultúrával. A 4-6 így nem csupán egy színházi bemutató, hanem korrajz a folyamatosan pörgető, ingereket kereső generációról."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 246,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://pixabay.com/get/gcfe5f35ff461d36fc39768e5c9a47f9553097f66be8812ae0d33fe0a667e0ce51804d1cdaa78a840e8e418bbca23aa45778e39ab69f051338f4aec97501a2717_1280.jpg",
+        "width": 4928,
+        "height": 3264,
+        "kind": "photo",
+        "alt": "theatre, musical, dance, stage, artistic stage dance, ballet, performance, aladin, visitors, viewers, theatre, theatre, theatre, theatre, theatre",
+        "credit": "HolgersFotografie / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/theatre-musical-dance-stage-1477670/",
+        "vision_score": 6.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/kultura/20261006_vigszinhaz-4-6-kritika-pogany-indulo-ifj-vidnyanszky-attila-kovacs-patricia-szirmai-marcell",
+          "title": "Pogány Induló becsábította a Vígszínházba a fiatalokat, mi meg nézünk, mint a TikTokon",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T20:37:27+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.57,
+      "title_options": [
+        "A rapper, aki becsábította a zoomereket a Vígszínházba",
+        "Pogány Induló a Vígszínház színpadán kavarja a gőzt",
+        "Amikor a Nagykörút bártpultja költözik a bársonyszékek közé",
+        "Hát mikor ült utoljára Pogány Induló a Vígszínházban bérletes nézők mellett?",
+        "Nem hitték el, hogy a rapper és a közösségi média uralja az új vígszínházi bemutatót",
+        "Így néz ki, amikor a TikTok-generáció elfoglalja a patinás színházat"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://pixabay.com/get/gcfe5f35ff461d36fc39768e5c9a47f9553097f66be8812ae0d33fe0a667e0ce51804d1cdaa78a840e8e418bbca23aa45778e39ab69f051338f4aec97501a2717_1280.jpg",
+          "width": 4928,
+          "height": 3264,
+          "kind": "photo",
+          "alt": "theatre, musical, dance, stage, artistic stage dance, ballet, performance, aladin, visitors, viewers, theatre, theatre, theatre, theatre, theatre",
+          "credit": "HolgersFotografie / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/theatre-musical-dance-stage-1477670/",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Grand_Boulevard_%28Budapest%29.jpg/1280px-Grand_Boulevard_%28Budapest%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "View of the Grand Boulevard (Nagykorut) of central Budapest, Hungary.",
+          "credit": "Davidi Vardi / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Grand_Boulevard_(Budapest).jpg",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Pogány Induló becsábította a Vígszínházba a fiatalokat, mi meg nézünk, mint a TikTokon",
+          "link": "https://hvg.hu/kultura/20261006_vigszinhaz-4-6-kritika-pogany-indulo-ifj-vidnyanszky-attila-kovacs-patricia-szirmai-marcell",
+          "summary": "Nemcsak alibiből hirdetik a népszerű rapper, Pogány Induló nevével a Vígszínház már most nagy visszhangot kiváltó bemutatóját, a 4-6-ot, tényleg ő az egyik főszereplője a nagykörúti kocsmában játszódó, zajos előadásnak. Kritika.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.57
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/kultura/20261006_vigszinhaz-4-6-kritika-pogany-indulo-ifj-vidnyanszky-attila-kovacs-patricia-szirmai-marcell"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kultura/2026-10-06-a-rapper-aki-becsabitotta-a-zoomereket-a-vigszinhazba/",
+      "seo": {
+        "meta_title": "A rapper, aki becsábította a zoomereket a Vígszínházba",
+        "meta_description": "A népszerű rapper, Pogány Induló főszereplésével mutatta be a Vígszínház a 4-6 című, zajos nagykörúti előadást, amely a megszokott színházi kereteket teljesen f",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-06-a-rapper-aki-becsabitotta-a-zoomereket-a-vigszinhazba/",
+        "og_image": "https://pixabay.com/get/gcfe5f35ff461d36fc39768e5c9a47f9553097f66be8812ae0d33fe0a667e0ce51804d1cdaa78a840e8e418bbca23aa45778e39ab69f051338f4aec97501a2717_1280.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "acc6645d4e5bcd2f3db17272cae8865ba50bb17e629fb0b005fe085dc7057d09",
+      "pipeline_run_id": "37510839219",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T20:37:27+02:00",
+      "updated_at": "2026-10-06T20:37:27+02:00",
+      "published_at": "2026-10-06T20:37:27+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-06T18:38:34+00:00",
+        "msg_ids": [
+          3273,
+          3274,
+          3275
+        ],
+        "control_id": 3276
+      }
+    },
+    {
+      "id": "dec69f8e-c6ff-524f-b2ec-9dec93fc49b3",
+      "slug": "2026-10-06-miert-nem-tudnak-olvasni-a-mai-gyerekek",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "oktatás",
+        "PISA-jelentés",
+        "diszlexia",
+        "szövegértés",
+        "könyvkiadás"
+      ],
+      "title": "Miért nem tudnak olvasni a mai gyerekek?",
+      "subtitle": null,
+      "lead": "A friss PISA-jelentések szerint a magyar gyerekek harminckét százaléka válik majd funkcionális analfabétává felnőttkorára. A globális tendenciává vált olvasási nehézségek hátteréről és a fejlesztési lehetőségekről a Buksó podcastban beszélgettek szakértők.",
+      "key_points": [
+        "A legfrissebb PISA-mérések alapján a magyar diákok 32 százaléka lesz funkcionális analfabéta felnőttként.",
+        "Nemzetközi adatok szerint az általános iskolások 7,1 százaléka küzd diszlexiával.",
+        "A szakemberek szerint a túlzott képernyőhasználat és a felgyorsult információhabzsolás nehezíti a szövegértést."
+      ],
+      "content": "A Telex Buksó műsorának legújabb epizódjában Nyáry Krisztián irodalomtörténész, műsorvezető vendégei Steklács János olvasáskutató, a Pécsi Tudományegyetem professzora és Schéder Veronika nyelvész, logopédus, az Integratív Diszlexia-terápia kidolgozója voltak. A beszélgetés középpontjában a globálisan visszaszoruló szövegértés és a hazai PISA-eredmények álltak, amelyek szerint a magyar gyerekek közel egyharmada nem sajátítja el megfelelően ezeket a képességeket.\n\nSteklács János ismertetése szerint a nemzetközi kutatások azt mutatják, hogy az általános iskolás diákok 7,1 százaléka érintett a diszlexiában, és ebben az arányban még nincsenek benne az egyéb olvasási nehézséggel küzdő tanulók. A professzor emellett az életmódbeli változásokat – így a túlzott képernyőhasználatot és a felgyorsult, kapkodó információhalmozást – nevezte meg a jelenség fő okaként, amelyek miatt a szemkövetés és a hosszú távú, kitartó olvasás megértése kifejezetten nehézzé vált az új generációk számára.\n\nSchéder Veronika hangsúlyozta, hogy a diszlexia nem azonos az egyszerű olvasási nehézséggel, hanem egy makacs, komplex idegrendszeri fejlődési háttérprobléma. A szakember rámutatott, hogy a diagnosztizálás gyakran csak a harmadik-negyedik osztályban történik meg, holott az okokat már óvodáskorban fel lehet ismerni. A szakszerű módszerek alkalmazása azért kulcsfontosságú, mert a probléma nem vezethető vissza egyszerű figyelemhiányra vagy lustaságra.\n\nA nehézségek enyhítésére a pedagógusok, szülők és logopédusok számára több új könyv is napvilágot látott a Tinta Könyvkiadó és a Móra Könyvkiadó gondozásában.",
+      "content_format": "markdown",
+      "body": [
+        "A Telex Buksó műsorának legújabb epizódjában Nyáry Krisztián irodalomtörténész, műsorvezető vendégei Steklács János olvasáskutató, a Pécsi Tudományegyetem professzora és Schéder Veronika nyelvész, logopédus, az Integratív Diszlexia-terápia kidolgozója voltak. A beszélgetés középpontjában a globálisan visszaszoruló szövegértés és a hazai PISA-eredmények álltak, amelyek szerint a magyar gyerekek közel egyharmada nem sajátítja el megfelelően ezeket a képességeket.",
+        "Steklács János ismertetése szerint a nemzetközi kutatások azt mutatják, hogy az általános iskolás diákok 7,1 százaléka érintett a diszlexiában, és ebben az arányban még nincsenek benne az egyéb olvasási nehézséggel küzdő tanulók. A professzor emellett az életmódbeli változásokat – így a túlzott képernyőhasználatot és a felgyorsult, kapkodó információhalmozást – nevezte meg a jelenség fő okaként, amelyek miatt a szemkövetés és a hosszú távú, kitartó olvasás megértése kifejezetten nehézzé vált az új generációk számára.",
+        "Schéder Veronika hangsúlyozta, hogy a diszlexia nem azonos az egyszerű olvasási nehézséggel, hanem egy makacs, komplex idegrendszeri fejlődési háttérprobléma. A szakember rámutatott, hogy a diagnosztizálás gyakran csak a harmadik-negyedik osztályban történik meg, holott az okokat már óvodáskorban fel lehet ismerni. A szakszerű módszerek alkalmazása azért kulcsfontosságú, mert a probléma nem vezethető vissza egyszerű figyelemhiányra vagy lustaságra.",
+        "A nehézségek enyhítésére a pedagógusok, szülők és logopédusok számára több új könyv is napvilágot látott a Tinta Könyvkiadó és a Móra Könyvkiadó gondozásában."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 239,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Woman_Reading_a_Book.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 2133,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Woman Reading a Book.",
+        "credit": "Nefrit Lazurit / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Woman_Reading_a_Book.jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=xpY35i5jAXo",
+          "title": "A magyar gyerekek 32 százaléka lesz funkcionális analfabéta felnőttként",
+          "publisher": "Telex․hu",
+          "license": null,
+          "accessed_at": "2026-10-06T20:39:18+02:00"
+        }
+      ],
+      "quote": {
+        "text": "a leggyakoribb ok az a az életmódfolyamatainknak megfelelő okok, ami miatt nagyon keveset tudunk tenni",
+        "who": "Steklács János olvasáskutató",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5,
+      "title_options": [
+        "Miért nem tudnak olvasni a mai gyerekek?",
+        "A felnőtt magyarok harmada funkcionális analfabéta lehet",
+        "A képernyők falják fel a magyar diákok szövegértését",
+        "Ezt teszi a túlzott képernyőhasználat az olvasási készséggel",
+        "Komoly bajban az új generációk szövegértése?"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Woman_Reading_a_Book.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 2133,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Woman Reading a Book.",
+          "credit": "Nefrit Lazurit / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Woman_Reading_a_Book.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Young_woman_reading_a_book_closeup.jpg/1280px-Young_woman_reading_a_book_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 801,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Young woman reading a book closeup",
+          "credit": "Shixart1985 / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Young_woman_reading_a_book_closeup.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/gd587edc4acfa64ef22a07457fe23368e15beffbecaa4eaf7526861c9065edc32942e24c9ced9491dd20c4bf68cb65510b5041465ec8ecc1a73447cf5653ff202_1280.jpg",
+          "width": 5184,
+          "height": 3456,
+          "kind": "photo",
+          "alt": "woman, book, you read, library, information, literature, art, writing, beautiful, book, library, library, library, library, library, information, writing",
+          "credit": "24278850 / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/woman-book-you-read-library-6784555/",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/g2ab2cf70d018e608461e31816a5536b3ce8c282b2b3560b7acced2736d5b32554c1b00d8b886966df5eb76cbe5ec54d4cda1e916a3e025b616cf78cbdbfec99f_1280.jpg",
+          "width": 3000,
+          "height": 2000,
+          "kind": "photo",
+          "alt": "old books, book, old, library, education, archive, book shelf, antique, old books, book, book, book, book, book, library, education, education",
+          "credit": "jarmoluk / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/old-books-book-old-library-436498/",
+          "vision_score": 6.0
+        }
+      ],
+      "story": [
+        {
+          "title": "A magyar gyerekek 32 százaléka lesz funkcionális analfabéta felnőttként",
+          "link": "https://www.youtube.com/watch?v=xpY35i5jAXo",
+          "summary": "A diszlexia, a szövegértési nehézségek és az olvasásfejlesztési módszerek háttere a legfrissebb PISA-jelentések tükrében.",
+          "source": "Telex․hu",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.youtube.com/watch?v=xpY35i5jAXo"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kozelet/2026-10-06-miert-nem-tudnak-olvasni-a-mai-gyerekek/",
+      "seo": {
+        "meta_title": "Miért nem tudnak olvasni a mai gyerekek?",
+        "meta_description": "A friss PISA-jelentések szerint a magyar gyerekek harminckét százaléka válik majd funkcionális analfabétává felnőttkorára. A globális tendenciává vált olvasási ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-miert-nem-tudnak-olvasni-a-mai-gyerekek/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Woman_Reading_a_Book.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "4f93c13ed94cbe64712e506f84bdeea907413d9ead2d930f55336cf7ae107741",
+      "pipeline_run_id": "37510839219",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T20:39:18+02:00",
+      "updated_at": "2026-10-06T20:39:18+02:00",
+      "published_at": "2026-10-06T20:39:18+02:00",
+      "expires_at": null,
+      "hold": true,
+      "video": {
+        "id": "xpY35i5jAXo",
+        "title": "A magyar gyerekek 32 százaléka lesz funkcionális analfabéta felnőttként",
+        "channel": "Telex․hu",
+        "minutes": 55
+      },
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-06T18:40:23+00:00",
+        "msg_ids": [
+          3277,
+          3278,
+          3279,
+          3280,
+          3281
+        ],
+        "control_id": 3282
+      }
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "offset": 391604635,
+  "offset": 391604639,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -59,7 +59,8 @@
     "https://www.portfolio.hu/deviza/20261006/ledolgozta-hetfoi-vesztesegeit-a-forint-ma-a-portfolio-konferenciajarol-erkezhet-lokes-867554",
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra-merci-renato-kapcsolata-dontes/qp6636s",
     "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/hazassag-elso-latasra-bantalmazas-tucsi",
-    "https://www.blikk.hu/sztarvilag/hazai-sztarok/molnar-aniko-vegrehajtas-auto-tartozas-jogorvoslat/chyepkh"
+    "https://www.blikk.hu/sztarvilag/hazai-sztarok/molnar-aniko-vegrehajtas-auto-tartozas-jogorvoslat/chyepkh",
+    "https://www.blikk.hu/sztarvilag/hazai-sztarok/boraros-gabor-jakli-monika-tragdia-halal-gyerek/bp8v1z2"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
