@@ -10996,6 +10996,814 @@
         "https://pixabay.com/get/g7b0e2927b4cbd3096edbbf19121a4e3dad445acfedb373448ed5663a95084a177253f4def6e1403ed5de5814226127102a9422871c0e5f60603258900f29704a_1280.jpg"
       ],
       "live": true
+    },
+    {
+      "id": "6d5b3eab-6ec1-58c8-a7b8-49e2f5e7b263",
+      "slug": "2026-10-06-harommillio-forint-es-egy-csufos-arulas-razta-meg-a-farmot",
+      "status": "pending",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Farm VIP",
+        "TV2",
+        "Horányi Juli",
+        "Simor Olivér",
+        "reality"
+      ],
+      "title": "Hárommillió forint és egy csúfos árulás rázta meg a Farmot",
+      "subtitle": null,
+      "lead": "Feszültséggel és váratlan drámákkal teli napok zajlanak a TV2 tanyasi realityjének utolsó hetében. Horányi Juli játékstílusa miatt teljesen felborultak az eddigi szövetségek.",
+      "key_points": [
+        "Hárommillió forintot hozott a konyhára a titkos kovászos uborkás küldetés.",
+        "Horányi Juli elárulta a sárga csapatot, és Simor Olivérre tette a voksát.",
+        "A mindent eldöntő párbajt Juli nyerte meg Olivér ellen."
+      ],
+      "content": "Megfogyatkozott a játékosok száma a Farm VIP hatodik évadában, az utolsó hét eljövetelével pedig a feszültség is a tetőfokára hágott a TV2 műsorában. A kedélyeket leginkább egy titkos megbízatás borzolta fel, amellyel Zsolti gazda Simor Olivért, Kriston Pétert és Kenéz Nórát bízta meg. A titkos kovászos uborkás feladat végül hárommillió forintot hozott a négy celeb konyhájára, ám a háttérben zajló taktikázás hamar kiverte a biztosítékot a többi versenyzőnél.\n\nAz események akkor vettek váratlan fordulatot, amikor a szavazásnál a sárga csapat azt hitte, Juli is hozzájuk hasonlóan Sáfrány Emesére teszi a voksát. A megbeszéltek ellenére azonban a pirosakkal tartó énekesnő végül Simor Olivér nevét írta le, összetörve ezzel a sárgák taktikáját. Kenéz Nóra és Simor Olivér rendkívül csalódott volt a történtek miatt, mivel korábban mindenben támogatták a mezőnyben maradt társukat.\n\nA kialakult helyzet után Simor Olivér kapta a legtöbb szavazatot a Farmgyűlésen, így ő lett a kiválasztott. A feszült párbaj végül az énekesnő győzelmével zárult.\n\nA történtek után Horányi Juliból kiszakadt a napok alatt felgyülemlett feszültség, és hangosan örvendezett.",
+      "content_format": "markdown",
+      "body": [
+        "Megfogyatkozott a játékosok száma a Farm VIP hatodik évadában, az utolsó hét eljövetelével pedig a feszültség is a tetőfokára hágott a TV2 műsorában. A kedélyeket leginkább egy titkos megbízatás borzolta fel, amellyel Zsolti gazda Simor Olivért, Kriston Pétert és Kenéz Nórát bízta meg. A titkos kovászos uborkás feladat végül hárommillió forintot hozott a négy celeb konyhájára, ám a háttérben zajló taktikázás hamar kiverte a biztosítékot a többi versenyzőnél.",
+        "Az események akkor vettek váratlan fordulatot, amikor a szavazásnál a sárga csapat azt hitte, Juli is hozzájuk hasonlóan Sáfrány Emesére teszi a voksát. A megbeszéltek ellenére azonban a pirosakkal tartó énekesnő végül Simor Olivér nevét írta le, összetörve ezzel a sárgák taktikáját. Kenéz Nóra és Simor Olivér rendkívül csalódott volt a történtek miatt, mivel korábban mindenben támogatták a mezőnyben maradt társukat.",
+        "A kialakult helyzet után Simor Olivér kapta a legtöbb szavazatot a Farmgyűlésen, így ő lett a kiválasztott. A feszült párbaj végül az énekesnő győzelmével zárult.",
+        "A történtek után Horányi Juliból kiszakadt a napok alatt felgyülemlett feszültség, és hangosan örvendezett."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 190,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/A_Dal_2016_Hor%C3%A1nyi_Juli_2015-12-15.JPG/1280px-A_Dal_2016_Hor%C3%A1nyi_Juli_2015-12-15.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "A Dal 2016 participant: Juli Horányi",
+        "credit": "MrSilesian / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_Dal_2016_Hor%C3%A1nyi_Juli_2015-12-15.JPG",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/farm-vip-2026-horanyi-juli-feszultseg-arulas/hemdhz4",
+          "title": "Horányi Juli kiakadt, majd kifakadt a Farmon „Soha többé ne hívjon ki engem senki párbajra, mert ez a Farm az enyém”",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T06:17:47+02:00"
+        },
+        {
+          "url": "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/farm-vip-horanyi-juli-simor-oliver-kenez-nora-kieses",
+          "title": "Óriási árulás történt a Farm VIP-ban: újabb játékos búcsúzott",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T06:17:47+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Soha többé ne hívjon ki engem senki párbajra, mert ez a Farm az enyém, és itt maradtam!",
+        "who": "Horányi Juli énekesnő",
+        "after": 2
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.55,
+      "title_options": [
+        "Hárommillió forint és egy csúfos árulás rázta meg a Farmot",
+        "Ilyen még nem volt: kitört a botrány a TV2 realityjében"
+      ],
+      "clickbait_from": 2,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/A_Dal_2016_Hor%C3%A1nyi_Juli_2015-12-15.JPG/1280px-A_Dal_2016_Hor%C3%A1nyi_Juli_2015-12-15.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A Dal 2016 participant: Juli Horányi",
+          "credit": "MrSilesian / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:A_Dal_2016_Hor%C3%A1nyi_Juli_2015-12-15.JPG",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/A_Dal_2016_Hor%C3%A1nyi_Juli_2015-12-15_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1603,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "A Dal 2016 participant: Juli Horányi",
+          "credit": "MrSilesian / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:A_Dal_2016_Hor%C3%A1nyi_Juli_2015-12-15_(cropped).JPG",
+          "vision_score": 10.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Horányi Juli kiakadt, majd kifakadt a Farmon „Soha többé ne hívjon ki engem senki párbajra, mert ez a Farm az enyém”",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/farm-vip-2026-horanyi-juli-feszultseg-arulas/hemdhz4",
+          "summary": "Elkezdődött az utolsó hét a Farm VIP hatodik évadában! A TV2 tanyasi realityjében érdekesen alakultak az utolsó napok eseményei: a játékosok száma megfogyatkozott, a versenyben maradók között pedig tapintható a feszültség.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 6.55
+        },
+        {
+          "title": "Óriási árulás történt a Farm VIP-ban: újabb játékos búcsúzott",
+          "link": "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/farm-vip-horanyi-juli-simor-oliver-kenez-nora-kieses",
+          "summary": "A Farm VIP egy valaki számára véget ért,.",
+          "source": "borsonline.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/farm-vip-2026-horanyi-juli-feszultseg-arulas/hemdhz4"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/bulvar/2026-10-06-harommillio-forint-es-egy-csufos-arulas-razta-meg-a-farmot/",
+      "seo": {
+        "meta_title": "Hárommillió forint és egy csúfos árulás rázta meg a Farmot",
+        "meta_description": "Feszültséggel és váratlan drámákkal teli napok zajlanak a TV2 tanyasi realityjének utolsó hetében. Horányi Juli játékstílusa miatt teljesen felborultak az eddig",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-06-harommillio-forint-es-egy-csufos-arulas-razta-meg-a-farmot/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/A_Dal_2016_Hor%C3%A1nyi_Juli_2015-12-15.JPG/1280px-A_Dal_2016_Hor%C3%A1nyi_Juli_2015-12-15.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "49039b8451e473b9b7f1d49dc87d45f1436de395d46f2b438cce7d29ae45f470",
+      "pipeline_run_id": "37411748561",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T06:17:47+02:00",
+      "updated_at": "2026-10-06T06:17:47+02:00",
+      "published_at": "2026-10-06T06:17:47+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 1,
+        "issues": [
+          "🟡 bűnügyi tartalom feltételes mód nélkül – „a gyanú szerint”, „nem jogerős”, ártatlanság vélelme"
+        ],
+        "auto_fixed": [
+          "A cikk nem tartalmazott bűnügyi tartalmat vagy lektorálást igénylő jogi kifogást, így a szöveg változatlan maradt."
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-06T04:19:54+00:00",
+        "msg_ids": [
+          3053,
+          3054,
+          3055
+        ],
+        "control_id": 3056
+      }
+    },
+    {
+      "id": "c6ccc794-ffcd-5aa6-90a5-a66f7d408712",
+      "slug": "2026-10-06-olaszorszagi-nyaralas-kozben-erte-a-nobel-dij-a-fennyel-iranyithato-a",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "Nobel-díj",
+        "optogenetika",
+        "orvostudomány",
+        "idegtudomány",
+        "Karl Deisseroth"
+      ],
+      "title": "Olaszországi nyaralás közben érte a Nobel-díj a fénnyel irányítható agysejtek atyját",
+      "subtitle": null,
+      "lead": "Meglepetéssel fogadta a 2026-os orvosi-élettani Nobel-díjat Georg Nagel kutató, akit a kék fénnyel vezérelhető idegsejtek feltárásáért tüntettek ki társaival.",
+      "key_points": [
+        "Karl Deisseroth, Peter Hegemann és Georg Nagel kapta az idei orvosi-élettani Nobel-díjat.",
+        "A díjazott optogenetikai eljárás fénnyel teszi lehetővé az idegsejtek aktivitásának be- és kikapcsolását.",
+        "A módszer alapját egy egysejtű algában felfedezett fehérje, a channelrhodopsin adta.",
+        "Georg Nagel nápolyi tartózkodása közben értesült a svédországi elismerésről."
+      ],
+      "content": "Hétfőn jelentették be a svédországi Karolinska Intézet orvosi egyetemének Nobel-bizottságában, hogy az idei orvosi-élettani Nobel-díjat három kutatónak ítélik oda. Az elismerést a 73 éves német Georg Nagel, a Würzburgi Egyetem kutatója, társa, a 71 éves német Peter Hegemann, a Berlini Humboldt Egyetem professzora, valamint az 54 éves amerikai Karl Deisseroth, a Howard Hughes Orvostudományi Intézet és a Stanford Egyetem kutatója kapta.\n\nAz optogenetika olyan módszer, amely fénnyel vezérelt ioncsatornák segítségével teszi lehetővé az egyes idegsejtek célzott vizsgálatát és aktivitásának be- vagy kikapcsolását az élő agyban. A felfedezés azután kezdődött, hogy Hegemann és Nagel egy egysejtű algában felfedezett egy új fehérjét, a channelrhodopsint. Ezt a fehérjét kék fénnyel megvilágítva olyan csatorna nyílik meg, amelyen keresztül ionok áramlanak a sejtbe, elektromos impulzusokat hozva létre. Deisseroth ezt követően patkányok és egerek idegsejtjeibe juttatta be a fehérje génjét, sikeresen idegi jeleket kiváltva a kék fény segítségével.\n\nGeorg Nagelt az olaszországi hegyekben érte a hír, mivel nyugdíjasként olasz feleségének szülővárosában, Nápolyban töltik a hideg évszakokat. A Nobel-díj honlapjának adott telefonos interjújában elmondta, hogy meglepte az elismerés, mivel véleménye szerint még korai volt díjazni az eljárást, amely eddig csupán egyetlen páciensen segített.\n\nA svédországi Karolinska Intézet indoklása szerint a kutatók eredményei jelentősen hozzájárultak az agyban kialakuló emlékek, érzések és viselkedésformák összefüggéseinek megértéséhez, a módszert pedig ma már világszerte használják a laboratóriumokban az agy rejtélyeinek feltárására.",
+      "content_format": "markdown",
+      "body": [
+        "Hétfőn jelentették be a svédországi Karolinska Intézet orvosi egyetemének Nobel-bizottságában, hogy az idei orvosi-élettani Nobel-díjat három kutatónak ítélik oda. Az elismerést a 73 éves német Georg Nagel, a Würzburgi Egyetem kutatója, társa, a 71 éves német Peter Hegemann, a Berlini Humboldt Egyetem professzora, valamint az 54 éves amerikai Karl Deisseroth, a Howard Hughes Orvostudományi Intézet és a Stanford Egyetem kutatója kapta.",
+        "Az optogenetika olyan módszer, amely fénnyel vezérelt ioncsatornák segítségével teszi lehetővé az egyes idegsejtek célzott vizsgálatát és aktivitásának be- vagy kikapcsolását az élő agyban. A felfedezés azután kezdődött, hogy Hegemann és Nagel egy egysejtű algában felfedezett egy új fehérjét, a channelrhodopsint. Ezt a fehérjét kék fénnyel megvilágítva olyan csatorna nyílik meg, amelyen keresztül ionok áramlanak a sejtbe, elektromos impulzusokat hozva létre. Deisseroth ezt követően patkányok és egerek idegsejtjeibe juttatta be a fehérje génjét, sikeresen idegi jeleket kiváltva a kék fény segítségével.",
+        "Georg Nagelt az olaszországi hegyekben érte a hír, mivel nyugdíjasként olasz feleségének szülővárosában, Nápolyban töltik a hideg évszakokat. A Nobel-díj honlapjának adott telefonos interjújában elmondta, hogy meglepte az elismerés, mivel véleménye szerint még korai volt díjazni az eljárást, amely eddig csupán egyetlen páciensen segített.",
+        "A svédországi Karolinska Intézet indoklása szerint a kutatók eredményei jelentősen hozzájárultak az agyban kialakuló emlékek, érzések és viselkedésformák összefüggéseinek megértéséhez, a módszert pedig ma már világszerte használják a laboratóriumokban az agy rejtélyeinek feltárására."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 245,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://pixabay.com/get/gce4edb78220ad65743037ce7561c07e18f278016e09ff8847a0eeaabfd9766dd25fa7ccecfd1f054a2bf178b631048432a8a38e146b55db8d6d0ed12da1fe7ca_1280.jpg",
+        "width": 5443,
+        "height": 3629,
+        "kind": "photo",
+        "alt": "analysis, biochemistry, biologist, biology, biotechnology, chemistry, clinic, clinical, equipment, experiment, laboratory devices, laboratory, lenses, medical, medicine, microbiology, microscope, opti",
+        "credit": "Kost9n4 / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/analysis-biochemistry-biologist-2030265/",
+        "vision_score": 5.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261005_friss-nobel-dij-kutato-korai-tart-eredmeny-dij",
+          "title": "Az egyik friss Nobel-díjas kutató még korainak tartja az eredményükért megítélt díjat",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T06:20:12+02:00"
+        },
+        {
+          "url": "https://qubit.hu/2026/10/05/az-idegsejtek-fennyel-torteno-vezerleseert-iteltek-oda-az-idei-orvosi-es-elettani-nobel-dijakat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "Az idegsejtek fénnyel történő vezérléséért ítélték oda az idei orvosi és élettani Nobel-díjakat",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T06:20:12+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Az optogenetika lehetőséget arra, hogy az agyat olyan módon térképezzük fel, amiről korábban csak álmodhattunk",
+        "who": "Per Svenningsson, a fiziológiai-orvostudományi Nobel-bizottság elnöke",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.3,
+      "title_options": [
+        "Olaszországi nyaralás közben érte a Nobel-díj a fénnyel irányítható agysejtek atyját",
+        "Meglepetés a Nápolyban pihenő professzornak: ezért hálás az idegtudomány",
+        "A kutató, aki szerint még nagyon korai volt nekik adni a Nobel-díjat",
+        "A friss Nobel-díjas tudós maga is elképedt az elismerésen: ezt nem várták",
+        "Csak egyetlen emberen segített eddig a felfedezés, máris megkapták érte a világ leghíresebb díját",
+        "Így indult el a kék fénnyel vezérelhető idegsejtek világródító története egy algától"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://pixabay.com/get/gce4edb78220ad65743037ce7561c07e18f278016e09ff8847a0eeaabfd9766dd25fa7ccecfd1f054a2bf178b631048432a8a38e146b55db8d6d0ed12da1fe7ca_1280.jpg",
+          "width": 5443,
+          "height": 3629,
+          "kind": "photo",
+          "alt": "analysis, biochemistry, biologist, biology, biotechnology, chemistry, clinic, clinical, equipment, experiment, laboratory devices, laboratory, lenses, medical, medicine, microbiology, microscope, opti",
+          "credit": "Kost9n4 / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/analysis-biochemistry-biologist-2030265/",
+          "vision_score": 5.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/STAT_Optogenetics_MIT_Handout.jpg/1280px-STAT_Optogenetics_MIT_Handout.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1482,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "*HANDOUT -- ONLY FOR USE WITH STAT OPTOGENETICS STORY ** \nA neuron expressing the protein channelrhodopsin is activated by light.\n\n(McGovern Institute for Brain Research at MIT)",
+          "credit": "statenews website\n\nhayadan website / Wikimedia Commons",
+          "license": "CC BY 2.5",
+          "source_url": "https://commons.wikimedia.org/wiki/File:STAT_Optogenetics_MIT_Handout.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Optogenetics_imetronic.JPG/1280px-Optogenetics_imetronic.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Cages for rat equiped of optogenetics leds commutators which permit in vivo to study animal behavior during optogenetics' stimulations.",
+          "credit": "Bd008 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Optogenetics_imetronic.JPG",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Az egyik friss Nobel-díjas kutató még korainak tartja az eredményükért megítélt díjat",
+          "link": "https://hvg.hu/tudomany/20261005_friss-nobel-dij-kutato-korai-tart-eredmeny-dij",
+          "summary": "Georg Nagelt meglepte, milyen hamar elismerték az optogenetikai eljárást, amely egyelőre még csak egy páciensen segített.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 6.3
+        },
+        {
+          "title": "Az idegsejtek fénnyel történő vezérléséért ítélték oda az idei orvosi és élettani Nobel-díjakat",
+          "link": "https://qubit.hu/2026/10/05/az-idegsejtek-fennyel-torteno-vezerleseert-iteltek-oda-az-idei-orvosi-es-elettani-nobel-dijakat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "summary": "Az elismerést két német és egy amerikai kutató, Peter Hegemann, Georg Nagel és Karl Deisseroth kapta meg az optogenetikában végzett felfedezéseikért. A kitüntetettek 12 millió svéd koronán, azaz 392 millió forinton osztoznak.",
+          "source": "qubit.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261005_friss-nobel-dij-kutato-korai-tart-eredmeny-dij"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/tech/2026-10-06-olaszorszagi-nyaralas-kozben-erte-a-nobel-dij-a-fennyel-iranyithato-a/",
+      "seo": {
+        "meta_title": "Olaszországi nyaralás közben érte a Nobel-díj a fénnyel irán",
+        "meta_description": "Meglepetéssel fogadta a 2026-os orvosi-élettani Nobel-díjat Georg Nagel kutató, akit a kék fénnyel vezérelhető idegsejtek feltárásáért tüntettek ki társaival.",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-06-olaszorszagi-nyaralas-kozben-erte-a-nobel-dij-a-fennyel-iranyithato-a/",
+        "og_image": "https://pixabay.com/get/gce4edb78220ad65743037ce7561c07e18f278016e09ff8847a0eeaabfd9766dd25fa7ccecfd1f054a2bf178b631048432a8a38e146b55db8d6d0ed12da1fe7ca_1280.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "a7fb3d6f-8105-5a19-94ba-400a54033f80"
+      ],
+      "see_also": [
+        {
+          "title": "Hogyan irányíthatók kék fénnyel az emlékek és az érzelmek?",
+          "url": "/tech/2026-10-05-hogyan-iranyithatok-kek-fennyel-az-emlekek-es-az-erzelmek/",
+          "date": "2026-10-05"
+        }
+      ],
+      "thread_id": "a7fb3d6f-8105-5a19-94ba-400a54033f80",
+      "dedupe_hash": "9104bd95ac16cce002958c36627b4cac7b7db9563debd6db655e6ddea1365499",
+      "pipeline_run_id": "37411748561",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T06:20:12+02:00",
+      "updated_at": "2026-10-06T06:20:12+02:00",
+      "published_at": "2026-10-06T06:20:12+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-06T04:23:28+00:00",
+        "msg_ids": [
+          3057,
+          3058,
+          3059,
+          3060
+        ],
+        "control_id": 3061
+      }
+    },
+    {
+      "id": "70eb9371-4d02-574e-b511-600e82d8760e",
+      "slug": "2026-10-06-milliok-a-megafonnak-zart-bizottsagi-ules-szijjarto-peterrel",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Megafon",
+        "Szijjártó Péter",
+        "Nemzetbiztonsági Bizottság",
+        "BYD",
+        "Mészáros Lőrinc"
+      ],
+      "title": "Milliók a Megafonnak, zárt bizottsági ülés Szijjártó Péterrel",
+      "subtitle": null,
+      "lead": "Többmilliárdos támogatási adatok láttak napvilágot a Megafon körül, miközben a parlamentben zárt ajtók mögött hallgatták meg Szijjártó Pétert. A hazai közélet elmúlt napjait a vagyonnyilatkozatok nyilvánosságra hozatala és a nemzetbiztonsági meghallgatások határozták meg.",
+      "key_points": [
+        "Legalább 4,5 milliárd forint érkezett Mészáros Lőrinc érdekeltségeibe tartozó cégektől a Megafonhoz 2022 és 2024 között.",
+        "Szijjártó Péter a Nemzetbiztonsági Bizottság ülésén számolt be a külügyminiszteri tisztségéről és a kínai BYD-hez kapcsolódó ügyekről.",
+        "A Tisza Párt kezdeményezésére összehívott ülésen a felek megosztottak maradtak a biztonsági kockázatokat illetően."
+      ],
+      "content": "A HVG beszámolója szerint Mészáros Lőrinc érdekeltségébe tartozó cégek legalább 4,5 milliárd forinttal támogatták a Megafont 2022 és 2024 között. Az ügyhöz kapcsolódóan a hazai közéletben továbbra is a nyilvánosságra hozott adatok és vagyonnyilatkozatok határozzák meg a napirendet, miközben a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) vezetőinek dokumentumai is elérhetővé váltak.\n\nEzzel párhuzamosan az Országgyűlés nemzetbiztonsági bizottsága hallgatta meg Szijjártó Pétert. A zárt ülésen faggatták a politikust a kínai óriásberuházáshoz kapcsolódó ügyekről.\n\nA hazai fejlemények mellett a nemzetközi hírek is formálják a közbeszédet: Novemberben előrehozott választásokat tartanak Spanyolországban, a brazil elnökválasztás első fordulóját a jobboldali Flávio Bolsonaro nyerte. A jövő héten ráadásul az NVVH elnökhelyettesi pozícióiról is döntés születhet.",
+      "content_format": "markdown",
+      "body": [
+        "A HVG beszámolója szerint Mészáros Lőrinc érdekeltségébe tartozó cégek legalább 4,5 milliárd forinttal támogatták a Megafont 2022 és 2024 között. Az ügyhöz kapcsolódóan a hazai közéletben továbbra is a nyilvánosságra hozott adatok és vagyonnyilatkozatok határozzák meg a napirendet, miközben a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) vezetőinek dokumentumai is elérhetővé váltak.",
+        "Ezzel párhuzamosan az Országgyűlés nemzetbiztonsági bizottsága hallgatta meg Szijjártó Pétert. A zárt ülésen faggatták a politikust a kínai óriásberuházáshoz kapcsolódó ügyekről.",
+        "A hazai fejlemények mellett a nemzetközi hírek is formálják a közbeszédet: Novemberben előrehozott választásokat tartanak Spanyolországban, a brazil elnökválasztás első fordulóját a jobboldali Flávio Bolsonaro nyerte. A jövő héten ráadásul az NVVH elnökhelyettesi pozícióiról is döntés születhet."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 143,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/P%C3%A9ter_Szijj%C3%A1rt%C3%B3_-_Hungarian_Minister_of_Foreign_Affairs_and_Trade_%2844613275674%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1994,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Foreign Secretary Jeremy Hunt meeting Péter Szijjártó, Hungarian Minister of Foreign Affairs and Trade at Chevening House.",
+        "credit": "Foreign and Commonwealth Office / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:P%C3%A9ter_Szijj%C3%A1rt%C3%B3_-_Hungarian_Minister_of_Foreign_Affairs_and_Trade_(44613275674)_(cropped).jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261006_milliardok-mentek-a-megafonnak-szijjartot-meghallgatta-a-nemzetbiztonsagi-bizottsag-newscast",
+          "title": "Milliárdok mentek a Megafonnak, Szijjártót meghallgatta a Nemzetbiztonsági Bizottság – Newscast",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T06:23:46+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Milliók a Megafonnak, zárt bizottsági ülés Szijjártó Péterrel",
+        "Négymilliárdos támogatás és zárt ajtók: ezt hozta Szijjártó hete",
+        "Így faggatták a volt minisztert a kínai gyárról a Parlamentben",
+        "Hová tűnt a milliárdos támogatás, és miért kellett zárt ajtók mögött faggatni a volt minisztert?",
+        "Egymilliárdok áramlottak a háttérben: ezt rejtik a legfrissebb politikai adatok",
+        "Nem mindennapi hét: börtönből ki szabadult politikus és milliárdos támogatások a horizonton"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/P%C3%A9ter_Szijj%C3%A1rt%C3%B3_-_Hungarian_Minister_of_Foreign_Affairs_and_Trade_%2844613275674%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1994,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Foreign Secretary Jeremy Hunt meeting Péter Szijjártó, Hungarian Minister of Foreign Affairs and Trade at Chevening House.",
+          "credit": "Foreign and Commonwealth Office / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P%C3%A9ter_Szijj%C3%A1rt%C3%B3_-_Hungarian_Minister_of_Foreign_Affairs_and_Trade_(44613275674)_(cropped).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/P%C3%A9ter_Szijj%C3%A1rt%C3%B3_%26_Cornel_Feruta_%2801117848%29_%2848748227736%29.jpg/1280px-P%C3%A9ter_Szijj%C3%A1rt%C3%B3_%26_Cornel_Feruta_%2801117848%29_%2848748227736%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Bilateral meeting between HE Mr Péter Szijjártó, Minister of Foreign Affairs of Hungary and Cornel Feruta, IAEA Acting Director General at the IAEA 63rd General Conference. IAEA, Vienna, Austria. 16 S",
+          "credit": "IAEA Imagebank / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P%C3%A9ter_Szijj%C3%A1rt%C3%B3_%26_Cornel_Feruta_(01117848)_(48748227736).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "View from Buda Castle towards the Northern west Budapest",
+          "credit": "Jakub Hałun / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:20190502_View_from_Buda_Castle_1059_2025_DxO.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "View from Buda Castle towards the Northern west Budapest as of May 2014.",
+          "credit": "Perituss / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:View_from_Buda_Castle_2014_01.jpg"
+        },
+        {
+          "url": "https://pixabay.com/get/gd3db7a41b6c46d967216590ecb79dbcbdaf328f9af97b30d8c32afd48e5bbbda8ad971fe3c23f3c62d2d091344e388b9aa16ff1f96fa89d7d7e1fe7fd4bc02b8_1280.jpg",
+          "width": 7000,
+          "height": 4667,
+          "kind": "photo",
+          "alt": "hungarian parliament building, danube, building, architecture, budapest, hungary, flow, parliament of budapest, national assembly of hungary, houses of parliament, hungarian parliament, historical, la",
+          "credit": "Leonhard_Niederwimmer / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/hungarian-parliament-building-danube-6933621/"
+        },
+        {
+          "url": "https://pixabay.com/get/g557844d3578c43a41051834087a876fbe903a47f3f8200d25d887e106d28343ea22d36905e1c7d6d739ec25f80bde6b61d84c9ebc38fe062895f4450fe27523a_1280.jpg",
+          "width": 2000,
+          "height": 1333,
+          "kind": "photo",
+          "alt": "parliament, building, architecture, illuminated, budapest, hungarian parliament, danube, river, night, hungary, city, budapest, budapest, budapest, budapest, budapest, hungary",
+          "credit": "Walkerssk / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/parliament-building-architecture-1440679/"
+        },
+        {
+          "url": "https://live.staticflickr.com/3718/11211744594_039e48c257_b.jpg",
+          "width": 1024,
+          "height": 623,
+          "kind": "photo",
+          "alt": "Hungarian Parliament Building by Night",
+          "credit": "Cost3l / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/11473706@N03/11211744594"
+        },
+        {
+          "url": "https://live.staticflickr.com/7319/13571319903_021690894c_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Parliament Building",
+          "credit": "D-Stanley / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/79721788@N00/13571319903"
+        }
+      ],
+      "story": [
+        {
+          "title": "Milliárdok mentek a Megafonnak, Szijjártót meghallgatta a Nemzetbiztonsági Bizottság – Newscast",
+          "link": "https://hvg.hu/itthon/20261006_milliardok-mentek-a-megafonnak-szijjartot-meghallgatta-a-nemzetbiztonsagi-bizottsag-newscast",
+          "summary": "Interjút adott a HVG-nek a börtönből a múlt héten házi őrizetbe került Őrsi Gergely. Szijjártó Péter hétfőn személyesen megjelent a Parlamentben, a Nemzetbiztonsági Bizottságban kezdeményezett meghallgatásán. Néhány, Mészáros Lőrinc érdekeltségében álló cég legalább 4,5 milliárd forinttal támogatta a Megafont 2022 és 2024 között. A jövő héten eldőlhet, hogy kik lesznek a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal elnökhelyettesei, kijött az NVVH vezetőinek vagyonnyilatkozata. Novemberben előrehozott választásokat tartanak Spanyolországban, a brazil elnökválasztás első fordulóját a j",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261006_milliardok-mentek-a-megafonnak-szijjartot-meghallgatta-a-nemzetbiztonsagi-bizottsag-newscast"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kozelet/2026-10-06-milliok-a-megafonnak-zart-bizottsagi-ules-szijjarto-peterrel/",
+      "seo": {
+        "meta_title": "Milliók a Megafonnak, zárt bizottsági ülés Szijjártó Péterre",
+        "meta_description": "Többmilliárdos támogatási adatok láttak napvilágot a Megafon körül, miközben a parlamentben zárt ajtók mögött hallgatták meg Szijjártó Pétert. A hazai közélet e",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-milliok-a-megafonnak-zart-bizottsagi-ules-szijjarto-peterrel/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/P%C3%A9ter_Szijj%C3%A1rt%C3%B3_-_Hungarian_Minister_of_Foreign_Affairs_and_Trade_%2844613275674%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "c2bceab8-22ef-5301-b594-b58b1aab6802",
+        "8a177e58-8667-57e0-8b8f-746ab9edb755",
+        "83639ddc-34e0-5c32-97eb-0137ed96e4c1"
+      ],
+      "see_also": [
+        {
+          "title": "Nem nyugtatta meg a Tisza Pártot Szijjártó Péter nemzetbiztonsági meghallgatása",
+          "url": "/kozelet/2026-10-05-nem-nyugtatta-meg-a-tisza-partot-szijjarto-peter-nemzetbiztonsagi-meg/",
+          "date": "2026-10-05"
+        },
+        {
+          "title": "Zárt ajtók mögött faggatják Szijjártó Pétert a BYD-szerződésekről",
+          "url": "/kozelet/2026-10-05-zart-ajtok-mogott-faggatjak-szijjarto-petert-a-byd-szerzodesekrol/",
+          "date": "2026-10-05"
+        },
+        {
+          "title": "Hetvenmilliárdos kérdések várnak Szijjártó Péterre",
+          "url": "/kozelet/2026-10-02-hetvenmilliardos-kerdesek-varnak-szijjarto-peterre/",
+          "date": "2026-10-02"
+        }
+      ],
+      "thread_id": "8a177e58-8667-57e0-8b8f-746ab9edb755",
+      "dedupe_hash": "e640812c4d9c7598593c3bd736f2f0514295a4f8d40ef2cb9807d30337ead233",
+      "pipeline_run_id": "37411748561",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T06:23:46+02:00",
+      "updated_at": "2026-10-06T06:23:46+02:00",
+      "published_at": "2026-10-06T06:23:46+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-06T04:26:46+00:00",
+        "msg_ids": [
+          3062,
+          3063,
+          3064,
+          3065,
+          3066,
+          3067,
+          3068,
+          3069,
+          3070
+        ],
+        "control_id": 3071
+      }
+    },
+    {
+      "id": "f1a2c541-1539-5975-b386-fb653482c880",
+      "slug": "2026-10-06-bod-peter-akos-vege-kell-legyen-a-piacronto-allami-beavatkozasoknak",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Bod Péter Ákos",
+        "gazdaságpolitika",
+        "Tisza Párt",
+        "unortodoxia",
+        "Magyar Nemzeti Bank"
+      ],
+      "title": "Bod Péter Ákos: Vége kell legyen a piacrontó állami beavatkozásoknak",
+      "subtitle": null,
+      "lead": "A gazdaság stabilizálása és a piaci viszonyok helyreállítása nehéz feladatok elé állítja a döntéshozókat. Bod Péter Ákos közgazdász szerint elkerülhetetlen a piacrontó állami beavatkozások felszámolása.",
+      "key_points": [
+        "Bod Péter Ákos szerint tévútnak bizonyult az eddigi unortodox gazdaságpolitika.",
+        "A Tisza Párt határozott euróbevezetési programmal készül a gazdaság stabilizálására.",
+        "A periférikus országokban az erőforrás-ellátottság miatt eltérő optimális gazdaságfejlesztési pálya érvényesül."
+      ],
+      "content": "Térségünkben immár lassan négy évtizedes múltra tekint vissza a visszatérés a tervgazdaság valamilyen formájából a modern piacgazdasági rendre, azóta zajlik az európai visszaintegrálódás. Ezen hosszú folyamat tapasztalatairól és a jövőbeli kilátásokról értekezett a Portfolio hasábjain Bod Péter Ákos, a Budapesti Corvinus Egyetem professzora, az MNB korábbi elnöke.\n\nA szakember elemzése szerint Bod Péter Ákos megállapítása alapján az Orbán-Matolcsy nevével fémjelzett unortodox gazdaságpolitika tévútnak bizonyult, amennyiben az európai felzárkózás, a gazdaságszerkezeti hasonulás és a társadalmi jólét növekedése lett volna a kitűzött cél. A piacrontó beavatkozások felszámolása azonban történelmi esélyt nyújthat a gazdaság stabilizálására.\n\nA neheze azonban még hátravan, hiszen a feszes csatlakozási pálya és a gazdaság felélesztése megköveteli, hogy az új vezetés kivezesse az örökölt piacrontó állami beavatkozásokat, megteremtve ezzel a valós verseny alapvető feltételeit. A korszak gazdag tanulságai közül a gazdaságtan két alapigazságot szűrt le az elmúlt évtizedekben.\n\nAz egyik ilyen sarkalatos pont, hogy a fejlett országok élenjáró gazdaságpolitikai gyakorlata és a nyugati fejlődés során megalkotott intézményi rend nem alkalmazható változatlan formában a nem piaci kitérőt bejáró államokban. A múltbéli struktúrákból és a társadalmi viszonyokból fakadó helyi sajátóságok, valamint az erőforrás-ellátottság eltérései miatt ugyanis szükségszerűen megjelenik egyfajta útvonalfüggés, ami a periférián eleve más optimális fejlődési pályát jelöl ki.",
+      "content_format": "markdown",
+      "body": [
+        "Térségünkben immár lassan négy évtizedes múltra tekint vissza a visszatérés a tervgazdaság valamilyen formájából a modern piacgazdasági rendre, azóta zajlik az európai visszaintegrálódás. Ezen hosszú folyamat tapasztalatairól és a jövőbeli kilátásokról értekezett a Portfolio hasábjain Bod Péter Ákos, a Budapesti Corvinus Egyetem professzora, az MNB korábbi elnöke.",
+        "A szakember elemzése szerint Bod Péter Ákos megállapítása alapján az Orbán-Matolcsy nevével fémjelzett unortodox gazdaságpolitika tévútnak bizonyult, amennyiben az európai felzárkózás, a gazdaságszerkezeti hasonulás és a társadalmi jólét növekedése lett volna a kitűzött cél. A piacrontó beavatkozások felszámolása azonban történelmi esélyt nyújthat a gazdaság stabilizálására.",
+        "A neheze azonban még hátravan, hiszen a feszes csatlakozási pálya és a gazdaság felélesztése megköveteli, hogy az új vezetés kivezesse az örökölt piacrontó állami beavatkozásokat, megteremtve ezzel a valós verseny alapvető feltételeit. A korszak gazdag tanulságai közül a gazdaságtan két alapigazságot szűrt le az elmúlt évtizedekben.",
+        "Az egyik ilyen sarkalatos pont, hogy a fejlett országok élenjáró gazdaságpolitikai gyakorlata és a nyugati fejlődés során megalkotott intézményi rend nem alkalmazható változatlan formában a nem piaci kitérőt bejáró államokban. A múltbéli struktúrákból és a társadalmi viszonyokból fakadó helyi sajátóságok, valamint az erőforrás-ellátottság eltérései miatt ugyanis szükségszerűen megjelenik egyfajta útvonalfüggés, ami a periférián eleve más optimális fejlődési pályát jelöl ki."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 221,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Budapesti_Corvinus_Egyetem_%E2%80%93_K%C3%B6zg%C3%A1z.jpg/1280px-Budapesti_Corvinus_Egyetem_%E2%80%93_K%C3%B6zg%C3%A1z.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 799,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "A Budapesti Corvinus Egyetem „Közgáz” Karainak főépülete (IX. Fővám tér 8.) a 4-es metró Fővám téri állomásának építése idején.",
+        "credit": "Tamás Mészöly / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapesti_Corvinus_Egyetem_%E2%80%93_K%C3%B6zg%C3%A1z.jpg",
+        "vision_score": 6.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261006/bod-peter-akos-megkesett-bucsu-az-unortodoxiatol-867338",
+          "title": "Bod Péter Ákos: Megkésett búcsú az unortodoxiától",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T06:27:02+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Bod Péter Ákos: Vége kell legyen a piacrontó állami beavatkozásoknak",
+        "Útkeresés a magyar gazdaságban: Bod Péter Ákos értékelése",
+        "Véget ért a gazdasági unortodoxia korszaka?",
+        "Ilyen mélyen még nem elemezték a magyar gazdaság elmúlt évtizedeit",
+        "Meglepő kijelentés érkezett a magyar gazdaság jövőjéről",
+        "Ezért dőlhet be a régi gazdasági modell Magyarországon"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Budapesti_Corvinus_Egyetem_%E2%80%93_K%C3%B6zg%C3%A1z.jpg/1280px-Budapesti_Corvinus_Egyetem_%E2%80%93_K%C3%B6zg%C3%A1z.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 799,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A Budapesti Corvinus Egyetem „Közgáz” Karainak főépülete (IX. Fővám tér 8.) a 4-es metró Fővám téri állomásának építése idején.",
+          "credit": "Tamás Mészöly / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapesti_Corvinus_Egyetem_%E2%80%93_K%C3%B6zg%C3%A1z.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Budapesti_Corvinus_Egyetem%2C_9.jpg/1280px-Budapesti_Corvinus_Egyetem%2C_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapesti Corvinus Egyetem",
+          "credit": "Christo / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapesti_Corvinus_Egyetem,_9.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009%2C_Budapest.jpg/1280px-Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Hungarian National Bank, Budapest",
+          "credit": "Egrian / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009,_Budapest.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/A_Magyar_Nemzeti_Bank_%C3%A9p%C3%BClete_Budapest8.jpg/1280px-A_Magyar_Nemzeti_Bank_%C3%A9p%C3%BClete_Budapest8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 676,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A Magyar Nemzeti Bank épülete, Budapest, Szabadság tér",
+          "credit": "12akd / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:A_Magyar_Nemzeti_Bank_%C3%A9p%C3%BClete_Budapest8.jpg",
+          "vision_score": 6.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Bod Péter Ákos: Megkésett búcsú az unortodoxiától",
+          "link": "https://www.portfolio.hu/gazdasag/20261006/bod-peter-akos-megkesett-bucsu-az-unortodoxiatol-867338",
+          "summary": "Az Orbán-Matolcsy unortodoxia mind nyilvánvalóbban bizonyult tévútnak, már amennyiben az európai felzárkózás, intézményi és gazdaságszerkezeti hasonulás, a társadalmi jólét növekedése lett volna a célja. A 2026-os kormányváltással és a Tisza Párt határozott euróbevezetési programjával azonban történelmi esély nyílt a gazdaság stabilizálására. A neheze azonban még hátravan. A feszes csatlakozási pálya és a gazdaság felélesztése megköveteli, hogy az új vezetés még idén vezesse ki az örökölt piacrontó állami beavatkozásokat, megteremtve a valós verseny feltételeit. Bod Péter Ákos, a Budapesti Cor",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261006/bod-peter-akos-megkesett-bucsu-az-unortodoxiatol-867338"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kozelet/2026-10-06-bod-peter-akos-vege-kell-legyen-a-piacronto-allami-beavatkozasoknak/",
+      "seo": {
+        "meta_title": "Bod Péter Ákos: Vége kell legyen a piacrontó állami beavatko",
+        "meta_description": "A gazdaság stabilizálása és a piaci viszonyok helyreállítása nehéz feladatok elé állítja a döntéshozókat. Bod Péter Ákos közgazdász szerint elkerülhetetlen a pi",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-bod-peter-akos-vege-kell-legyen-a-piacronto-allami-beavatkozasoknak/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Budapesti_Corvinus_Egyetem_%E2%80%93_K%C3%B6zg%C3%A1z.jpg/1280px-Budapesti_Corvinus_Egyetem_%E2%80%93_K%C3%B6zg%C3%A1z.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "03be898fea8220372d84557b07c34fc52cec7b99e23568b7dd1044306c3a6169",
+      "pipeline_run_id": "37411748561",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T06:27:02+02:00",
+      "updated_at": "2026-10-06T06:27:02+02:00",
+      "published_at": "2026-10-06T06:27:02+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": [],
+        "auto_fixed": [
+          "A tényként kezelt politikai-gazdasági állítást forrásmegjelöléssel (Bod Péter Ákos megállapítása alapján) láttam el."
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-06T04:29:18+00:00",
+        "msg_ids": [
+          3072,
+          3073,
+          3074,
+          3075,
+          3076
+        ],
+        "control_id": 3077
+      }
     }
   ]
 }

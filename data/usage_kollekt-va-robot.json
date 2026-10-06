@@ -16,7 +16,8 @@
     "cf_image": 19
   },
   "2026-10-06": {
-    "gemini_hiba": 2,
-    "gemini": 2
+    "gemini_hiba": 27,
+    "gemini": 27,
+    "groq": 9
   }
 }
