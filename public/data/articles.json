@@ -1,7 +1,129 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T12:36:32+02:00",
+  "updated_at": "2026-10-06T12:37:18+02:00",
   "articles": [
+    {
+      "id": "46c5af5e-6d18-5c9a-83ac-36e61dda5981",
+      "slug": "2026-10-06-jegbe-rejtett-erzekelokkel-nyomozza-az-urbol-erkezo-jeleket-a-friss-n",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "Nobel-díj",
+        "fizika",
+        "csillagászat",
+        "IceCube",
+        "neutrínó"
+      ],
+      "title": "Jégbe rejtett érzékelőkkel nyomozza az űrből érkező jeleket a friss Nobel-díjas",
+      "subtitle": null,
+      "lead": "Francis Halzen amerikai részecskefizikus kapta a 2026-os fizikai Nobel-díjat a neutrínókutatásban elért áttörő eredményeiért. A kutató nevéhez fűződik az Antarktiszon működő IceCube obszervatórium megálmodása, amely a világűr legrejtélyesebb részecskéit vizsgálja.",
+      "key_points": [
+        "Francis Halzen kapta a 2026-os fizikai Nobel-díjat a neutrínók kutatásáért.",
+        "Az általa megálmodott IceCube egy köbkilométernyi jégtömbbe telepített különleges obszervatórium a Déli-sarkon.",
+        "A berendezés a távoli világegyetemből érkező, szinte láthatatlan elemi részecskéket, a neutrínókat figyeli."
+      ],
+      "content": "A Svéd Királyi Tudományos Akadémia idén Francis Halzennek ítélte oda a fizikai Nobel-díjat a neutrínókutatásban végzett úttörő munkájáért. Az amerikai asztrofizikus már 1988-ban felvetette, hogy a Déli-sark vastag és stabil gleccserjege kiválóan alkalmas lehet a nehezen megfogható elemi részecskék kimutatására.\n\nAz elismerést érő IceCube Neutrino Observatory egy rendkívül szokatlan csillagászati műszer: a jégtömbbe süllyesztett fényérzékelő szenzorokkal hálózza be az egy köbkilométernyi területi egységet. A berendezés a neutrínók – a mindenen akadálytalanul áthaladó, elektromosan semleges, parányi részecskék – és az atommagok ritka ütközései során fellépő Cserenkov-sugárzást, vagyis apró fényfelvillanásokat figyeli.\n\nA neutrínók azért bírnak kiemelkedő jelentőséggel a csillagászat számára, mert a Földre érkezve irányváltoztatás vagy energiaveszteség nélkül jutnak át a kozmoszon, így teljesen tiszta információkat hordoznak a távoli világegyetem rendkívül nagy energiájú folyamatairól. Ahhoz azonban, hogy ezeket a ritka kölcsönhatásokat egyáltalán észlelni lehessen, hatalmas térfogatú átlátszó közegre volt szükség.\n\nA nagyszabású projekt elődjeként az AMANDA elnevezésű rendszert is tesztelték, ám Halzen hamar rájött, hogy a kisebb szenzorhálózatok nem elegendőek. Az IceCube megépítése végül befejeződött, a kutatók pedig azóta a Naprendszeren kívülről érkező neutrínók megfigyelésével folyamatosan új részleteket tárnak fel a kozmikus jelenségekről.",
+      "content_format": "markdown",
+      "body": [
+        "A Svéd Királyi Tudományos Akadémia idén Francis Halzennek ítélte oda a fizikai Nobel-díjat a neutrínókutatásban végzett úttörő munkájáért. Az amerikai asztrofizikus már 1988-ban felvetette, hogy a Déli-sark vastag és stabil gleccserjege kiválóan alkalmas lehet a nehezen megfogható elemi részecskék kimutatására.",
+        "Az elismerést érő IceCube Neutrino Observatory egy rendkívül szokatlan csillagászati műszer: a jégtömbbe süllyesztett fényérzékelő szenzorokkal hálózza be az egy köbkilométernyi területi egységet. A berendezés a neutrínók – a mindenen akadálytalanul áthaladó, elektromosan semleges, parányi részecskék – és az atommagok ritka ütközései során fellépő Cserenkov-sugárzást, vagyis apró fényfelvillanásokat figyeli.",
+        "A neutrínók azért bírnak kiemelkedő jelentőséggel a csillagászat számára, mert a Földre érkezve irányváltoztatás vagy energiaveszteség nélkül jutnak át a kozmoszon, így teljesen tiszta információkat hordoznak a távoli világegyetem rendkívül nagy energiájú folyamatairól. Ahhoz azonban, hogy ezeket a ritka kölcsönhatásokat egyáltalán észlelni lehessen, hatalmas térfogatú átlátszó közegre volt szükség.",
+        "A nagyszabású projekt elődjeként az AMANDA elnevezésű rendszert is tesztelték, ám Halzen hamar rájött, hogy a kisebb szenzorhálózatok nem elegendőek. Az IceCube megépítése végül befejeződött, a kutatók pedig azóta a Naprendszeren kívülről érkező neutrínók megfigyelésével folyamatosan új részleteket tárnak fel a kozmikus jelenségekről."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 215,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/IceCube_Neutrino_Observatory_in_2023_02.jpg/1280px-IceCube_Neutrino_Observatory_in_2023_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 820,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "IceCube Neutrino Observatory in 2023 by Christopher Michel",
+        "credit": "Christopher Michel / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:IceCube_Neutrino_Observatory_in_2023_02.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261006_fizikai-nobel-dij-2026-ebx",
+          "title": "Mi érkezik az űrből? És honnan? Ezért járt idén a fizikai Nobel-díj",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T12:19:48+02:00"
+        },
+        {
+          "url": "https://qubit.hu/2026/10/06/francis-halzen-belga-asztrofizikus-kapta-a-fizikai-nobel-dijat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "Francis Halzen belga asztrofizikus kapta a fizikai Nobel-díjat",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T12:19:48+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-06T12:37:18+02:00"
+      },
+      "hot_score": 9.31,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261006_fizikai-nobel-dij-2026-ebx",
+          "https://qubit.hu/2026/10/06/francis-halzen-belga-asztrofizikus-kapta-a-fizikai-nobel-dijat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/tech/2026-10-06-jegbe-rejtett-erzekelokkel-nyomozza-az-urbol-erkezo-jeleket-a-friss-n/",
+      "seo": {
+        "meta_title": "Jégbe rejtett érzékelőkkel nyomozza az űrből érkező jeleket ",
+        "meta_description": "Francis Halzen belga részecskefizikus kapta a 2026-os fizikai Nobel-díjat a neutrínókutatásban elért áttörő eredményeiért. A kutató nevéhez fűződik az Antarktis",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-06-jegbe-rejtett-erzekelokkel-nyomozza-az-urbol-erkezo-jeleket-a-friss-n/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/IceCube_Neutrino_Observatory_in_2023_02.jpg/1280px-IceCube_Neutrino_Observatory_in_2023_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "a7fb3d6f-8105-5a19-94ba-400a54033f80",
+        "c6ccc794-ffcd-5aa6-90a5-a66f7d408712"
+      ],
+      "see_also": [
+        {
+          "title": "Hogyan irányíthatók kék fénnyel az emlékek és az érzelmek?",
+          "url": "/tech/2026-10-05-hogyan-iranyithatok-kek-fennyel-az-emlekek-es-az-erzelmek/",
+          "date": "2026-10-05"
+        },
+        {
+          "title": "Olaszországi nyaralás közben érte a Nobel-díj a fénnyel irányítható agysejtek atyját",
+          "url": "/tech/2026-10-06-olaszorszagi-nyaralas-kozben-erte-a-nobel-dij-a-fennyel-iranyithato-a/",
+          "date": "2026-10-06"
+        }
+      ],
+      "thread_id": "a7fb3d6f-8105-5a19-94ba-400a54033f80",
+      "dedupe_hash": "1ae5863b1c1ef7e3815e1992d6e8ea6a9ce322ad8fa0e016821c6774ca05f370",
+      "pipeline_run_id": "37448426045",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T12:37:18+02:00",
+      "updated_at": "2026-10-06T12:37:18+02:00",
+      "published_at": "2026-10-06T12:37:18+02:00",
+      "expires_at": null
+    },
     {
       "id": "6d78f454-c886-5619-99be-8e002b826269",
       "slug": "2026-10-06-haromkotetes-diszdobozban-ter-vissza-a-het-mesterlovesze",
