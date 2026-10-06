@@ -10673,9 +10673,9 @@
       "live": true
     },
     {
-      "id": "cec3732d-a9c2-5dbb-b843-2c901dfb293e",
-      "slug": "2026-10-06-a-rapper-aki-becsabitotta-a-zoomereket-a-vigszinhazba",
-      "status": "pending",
+      "id": "fa9d0113-909e-502b-9b09-382e985ab242",
+      "slug": "2026-10-06-hat-mikor-ult-utoljara-pogany-indulo-a-vigszinhazban-berletes-nezok-m",
+      "status": "published",
       "category": "kultura",
       "subcategory": null,
       "tags": [
@@ -10685,7 +10685,7 @@
         "színház",
         "bemutató"
       ],
-      "title": "A rapper, aki becsábította a zoomereket a Vígszínházba",
+      "title": "Hát mikor ült utoljára Pogány Induló a Vígszínházban bérletes nézők mellett?",
       "subtitle": null,
       "lead": "A népszerű rapper, Pogány Induló főszereplésével mutatta be a Vígszínház a 4-6 című, zajos nagykörúti előadást, amely a megszokott színházi kereteket teljesen felrúgva szólítja meg a fiatalokat. Ifj. Vidnyánszky Attila rendezése a közösségi média pörgetős élményét és a Nagykörút lepukkant italkimérőinek hangulatát hozza el a bársonyszékek közé.",
       "key_points": [
@@ -10707,7 +10707,7 @@
       "word_count": 246,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://pixabay.com/get/gcfe5f35ff461d36fc39768e5c9a47f9553097f66be8812ae0d33fe0a667e0ce51804d1cdaa78a840e8e418bbca23aa45778e39ab69f051338f4aec97501a2717_1280.jpg",
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/8ef03d38b0ad23d0.jpg",
         "width": 4928,
         "height": 3264,
         "kind": "photo",
@@ -10715,7 +10715,9 @@
         "credit": "HolgersFotografie / Pixabay",
         "license": "Pixabay License",
         "source_url": "https://pixabay.com/photos/theatre-musical-dance-stage-1477670/",
-        "vision_score": 6.0
+        "vision_score": 6.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/8ef03d38b0ad23d0.jpg",
+        "orig_url": "https://pixabay.com/get/gcfe5f35ff461d36fc39768e5c9a47f9553097f66be8812ae0d33fe0a667e0ce51804d1cdaa78a840e8e418bbca23aa45778e39ab69f051338f4aec97501a2717_1280.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -10788,12 +10790,12 @@
       },
       "date": "2026-10-06",
       "date_label": "október 6.",
-      "url": "/kultura/2026-10-06-a-rapper-aki-becsabitotta-a-zoomereket-a-vigszinhazba/",
+      "url": "/kultura/2026-10-06-hat-mikor-ult-utoljara-pogany-indulo-a-vigszinhazban-berletes-nezok-m/",
       "seo": {
-        "meta_title": "A rapper, aki becsábította a zoomereket a Vígszínházba",
+        "meta_title": "Hát mikor ült utoljára Pogány Induló a Vígszínházban bérlete",
         "meta_description": "A népszerű rapper, Pogány Induló főszereplésével mutatta be a Vígszínház a 4-6 című, zajos nagykörúti előadást, amely a megszokott színházi kereteket teljesen f",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-06-a-rapper-aki-becsabitotta-a-zoomereket-a-vigszinhazba/",
-        "og_image": "https://pixabay.com/get/gcfe5f35ff461d36fc39768e5c9a47f9553097f66be8812ae0d33fe0a667e0ce51804d1cdaa78a840e8e418bbca23aa45778e39ab69f051338f4aec97501a2717_1280.jpg",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-06-hat-mikor-ult-utoljara-pogany-indulo-a-vigszinhazban-berletes-nezok-m/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/8ef03d38b0ad23d0.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -10810,9 +10812,9 @@
       "dedupe_hash": "acc6645d4e5bcd2f3db17272cae8865ba50bb17e629fb0b005fe085dc7057d09",
       "pipeline_run_id": "37510839219",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-06T20:37:27+02:00",
-      "updated_at": "2026-10-06T20:37:27+02:00",
-      "published_at": "2026-10-06T20:37:27+02:00",
+      "created_at": "2026-10-06T20:40:48+02:00",
+      "updated_at": "2026-10-06T20:40:48+02:00",
+      "published_at": "2026-10-06T20:40:48+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10828,7 +10830,8 @@
           3275
         ],
         "control_id": 3276
-      }
+      },
+      "live": true
     },
     {
       "id": "dec69f8e-c6ff-524f-b2ec-9dec93fc49b3",
