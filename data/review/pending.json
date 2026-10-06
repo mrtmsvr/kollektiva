@@ -10546,7 +10546,7 @@
     {
       "id": "04385cb5-8911-5750-85ff-87d482251967",
       "slug": "2026-10-06-jovore-a-barba-negraban-tombol-a-hollywood-undead",
-      "status": "pending",
+      "status": "published",
       "category": "kultura",
       "subcategory": null,
       "tags": [
@@ -10576,15 +10576,15 @@
       "word_count": 212,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Hollywood_Undead_-_Sziget_2015.08.15_%281%29.JPG/1280px-Hollywood_Undead_-_Sziget_2015.08.15_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Lacuna_Coil_in_Barba_Negra%2C_Budapest.jpg/1280px-Lacuna_Coil_in_Barba_Negra%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
         "height": 900,
         "kind": "photo",
         "pos": "center",
-        "alt": "Live on the 15th of August, 2015. Sziget Festival. Hollywood Undead band.",
-        "credit": "Derzsi Elekes Andor / Wikimedia Commons",
+        "alt": "Lacuna Coil in concert. Taken at Barba Negra, Budapest,Hungary.",
+        "credit": "Elekes Andor / Wikimedia Commons",
         "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Hollywood_Undead_-_Sziget_2015.08.15_(1).JPG",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Lacuna_Coil_in_Barba_Negra,_Budapest.jpg",
         "vision_score": 7.0
       },
       "inline_images": [],
@@ -10664,7 +10664,7 @@
         "meta_title": "Jövőre a Barba Negrában tombol a Hollywood Undead",
         "meta_description": "Hosszú idő után ismét hazánkba látogat a kaliforniai rap-rock szupersztár alakulat, a Hollywood Undead, amely 2027 februárjában ad koncertet a fővárosban. A zen",
         "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-06-jovore-a-barba-negraban-tombol-a-hollywood-undead/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Hollywood_Undead_-_Sziget_2015.08.15_%281%29.JPG/1280px-Hollywood_Undead_-_Sziget_2015.08.15_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Lacuna_Coil_in_Barba_Negra%2C_Budapest.jpg/1280px-Lacuna_Coil_in_Barba_Negra%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -10681,9 +10681,9 @@
       "dedupe_hash": "68d4ea6a41d3d9a5eb13747d7df0218bda18f67f02748a9f4936ed3e234f66ce",
       "pipeline_run_id": "37460095027",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-06T14:12:08+02:00",
-      "updated_at": "2026-10-06T14:12:08+02:00",
-      "published_at": "2026-10-06T14:12:08+02:00",
+      "created_at": "2026-10-06T14:21:31+02:00",
+      "updated_at": "2026-10-06T14:21:31+02:00",
+      "published_at": "2026-10-06T14:21:31+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10703,7 +10703,8 @@
           3214
         ],
         "control_id": 3215
-      }
+      },
+      "live": true
     },
     {
       "id": "086e5d98-adbb-57ce-9dcf-a74420131f0e",

@@ -1,7 +1,106 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T14:20:55+02:00",
+  "updated_at": "2026-10-06T14:21:31+02:00",
   "articles": [
+    {
+      "id": "04385cb5-8911-5750-85ff-87d482251967",
+      "slug": "2026-10-06-jovore-a-barba-negraban-tombol-a-hollywood-undead",
+      "status": "published",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Hollywood Undead",
+        "Barba Negra",
+        "koncert",
+        "rap-rock",
+        "zene"
+      ],
+      "title": "Jövőre a Barba Negrában tombol a Hollywood Undead",
+      "subtitle": null,
+      "lead": "Hosszú idő után ismét hazánkba látogat a kaliforniai rap-rock szupersztár alakulat, a Hollywood Undead, amely 2027 februárjában ad koncertet a fővárosban. A zenekar rajongói a megszokott kaotikus küzdőtéri hangulatra és a védjegyükké vált álarcokra számíthatnak.",
+      "key_points": [
+        "A Hollywood Undead 2027. február 3-án lép fel a budapesti Barba Negrában.",
+        "A Los Angeles-i formáció lemezeit a hivatalos adatok szerint számos alkalommal streamelték világszerte.",
+        "A zenekar tagjai a kezdetek óta egyedi, korszakváltásokat szimbolizáló maszkokban lépnek színpadra."
+      ],
+      "content": "A MySpace hőskorában indult, stílusokat bátor kézzel elegyítő formáció 2027. február 3-án veszi be a budapesti Barba Negra színpadát az MTI közlése szerint. A rap, a rock, a metál és az elektronikus zene vonalait ötvöző hatos fogat koncertjein garantált a kendőzetlen humor és a különleges, maszkos látványvilág.\n\nA Los Angeles-i zenekar pályája 2008-ban indult be a Swan Songs című bemutatkozó nagylemezzel, amelyet 2011-ben az American Tragedy követett; utóbbi korong a negyedik helyig kapaszkodott fel a Billboard 200-as eladási listáján. Az azóta eltelt időszakban olyan albumokkal csiszolták tovább egyedi hangzásukat, mint a Notes from the Underground, a Day of the Dead, a Five, a kétrészes New Empire, valamint a 2022-es Hotel Kalifornia.\n\nA zenekar mára igazi globális tényezővé vált: felvételeiket a beszámolók szerint milliós nagyságrendben hallgatták meg a különböző streaming-platformokon és a YouTube-on is. A Spotifyon havonta több mint 4,3 millió hallgatót számláló együttes – amelynek soraiban olyan zenészek találhatók, mint George „Johnny 3 Tears” Ragan és Jorel „J-Dog” Decker – turnézik a világban.",
+      "content_format": "markdown",
+      "body": [
+        "A MySpace hőskorában indult, stílusokat bátor kézzel elegyítő formáció 2027. február 3-án veszi be a budapesti Barba Negra színpadát az MTI közlése szerint. A rap, a rock, a metál és az elektronikus zene vonalait ötvöző hatos fogat koncertjein garantált a kendőzetlen humor és a különleges, maszkos látványvilág.",
+        "A Los Angeles-i zenekar pályája 2008-ban indult be a Swan Songs című bemutatkozó nagylemezzel, amelyet 2011-ben az American Tragedy követett; utóbbi korong a negyedik helyig kapaszkodott fel a Billboard 200-as eladási listáján. Az azóta eltelt időszakban olyan albumokkal csiszolták tovább egyedi hangzásukat, mint a Notes from the Underground, a Day of the Dead, a Five, a kétrészes New Empire, valamint a 2022-es Hotel Kalifornia.",
+        "A zenekar mára igazi globális tényezővé vált: felvételeiket a beszámolók szerint milliós nagyságrendben hallgatták meg a különböző streaming-platformokon és a YouTube-on is. A Spotifyon havonta több mint 4,3 millió hallgatót számláló együttes – amelynek soraiban olyan zenészek találhatók, mint George „Johnny 3 Tears” Ragan és Jorel „J-Dog” Decker – turnézik a világban."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 212,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Lacuna_Coil_in_Barba_Negra%2C_Budapest.jpg/1280px-Lacuna_Coil_in_Barba_Negra%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Lacuna Coil in concert. Taken at Barba Negra, Budapest,Hungary.",
+        "credit": "Elekes Andor / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Lacuna_Coil_in_Barba_Negra,_Budapest.jpg",
+        "vision_score": 7.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/nemzetkozi-sztarok/hollywood-undead-koncert-budapest-2027/dg14kqf",
+          "title": "Újra Magyarországra jönnek a maszkos rap-rock fenegyerekek: Budapestet is beveszi a Hollywood Undead",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T14:12:08+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-06T14:21:31+02:00"
+      },
+      "hot_score": 5.77,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/nemzetkozi-sztarok/hollywood-undead-koncert-budapest-2027/dg14kqf"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kultura/2026-10-06-jovore-a-barba-negraban-tombol-a-hollywood-undead/",
+      "seo": {
+        "meta_title": "Jövőre a Barba Negrában tombol a Hollywood Undead",
+        "meta_description": "Hosszú idő után ismét hazánkba látogat a kaliforniai rap-rock szupersztár alakulat, a Hollywood Undead, amely 2027 februárjában ad koncertet a fővárosban. A zen",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-06-jovore-a-barba-negraban-tombol-a-hollywood-undead/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Lacuna_Coil_in_Barba_Negra%2C_Budapest.jpg/1280px-Lacuna_Coil_in_Barba_Negra%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "68d4ea6a41d3d9a5eb13747d7df0218bda18f67f02748a9f4936ed3e234f66ce",
+      "pipeline_run_id": "37460095027",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T14:21:31+02:00",
+      "updated_at": "2026-10-06T14:21:31+02:00",
+      "published_at": "2026-10-06T14:21:31+02:00",
+      "expires_at": null
+    },
     {
       "id": "5c808197-c61c-5946-996e-b0c2d52e9f5d",
       "slug": "2026-10-06-nem-mindennapi-komezore-bukkant-a-perseverance-a-marson",
