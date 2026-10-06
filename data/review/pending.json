@@ -10270,7 +10270,7 @@
       },
       "review": {
         "title": 0,
-        "image": 1,
+        "image": -1,
         "sent_at": "2026-10-06T04:29:18+00:00",
         "msg_ids": [
           3072,
@@ -10295,7 +10295,14 @@
         "Budapest cityscape",
         "economic conference",
         "financial chart",
-        "government building exterior"
+        "government building exterior",
+        "Portfolio HU news office",
+        "Corvinus University of Budapest main building",
+        "Hungarian Central Bank old sign",
+        "Budapest stock exchange building",
+        "empty boardroom",
+        "stock market graphs on screen",
+        "calculator on desk"
       ],
       "images_seen": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009%2C_Budapest.jpg/1280px-Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
