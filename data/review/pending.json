@@ -10350,9 +10350,9 @@
       "live": true
     },
     {
-      "id": "9fa4497b-ac17-59bf-b8cc-f910d7385d02",
-      "slug": "2026-10-06-tobb-mint-ot-tonna-teherrel-indul-hazafele-a-cygnus-xl",
-      "status": "pending",
+      "id": "c897c244-0cfb-551b-9151-8eb6da176422",
+      "slug": "2026-10-06-mutatjuk-mikor-int-bucsut-a-nemzetkozi-urallomasnak-a-cygnus-xl",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -10362,7 +10362,7 @@
         "Cygnus XL",
         "Northrop Grumman"
       ],
-      "title": "Több mint öt tonna teherrel indul hazafelé a Cygnus XL",
+      "title": "Mutatjuk, mikor int búcsút a Nemzetközi Űrállomásnak a Cygnus XL",
       "subtitle": null,
       "lead": "Több mint ötezer kilogrammnyi ellátmányt és tudományos kísérletet szállított a Nemzetközi Űrállomásra a Northrop Grumman Cygnus XL űreszköze, amely október 9-én indul vissza. A NASA élőben közvetíti a különleges szerkezet leválását és távozását.",
       "key_points": [
@@ -10465,11 +10465,11 @@
       },
       "date": "2026-10-06",
       "date_label": "október 6.",
-      "url": "/tech/2026-10-06-tobb-mint-ot-tonna-teherrel-indul-hazafele-a-cygnus-xl/",
+      "url": "/tech/2026-10-06-mutatjuk-mikor-int-bucsut-a-nemzetkozi-urallomasnak-a-cygnus-xl/",
       "seo": {
-        "meta_title": "Több mint öt tonna teherrel indul hazafelé a Cygnus XL",
+        "meta_title": "Mutatjuk, mikor int búcsút a Nemzetközi Űrállomásnak a Cygnu",
         "meta_description": "Több mint ötezer kilogrammnyi ellátmányt és tudományos kísérletet szállított a Nemzetközi Űrállomásra a Northrop Grumman Cygnus XL űreszköze, amely október 9-én",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-06-tobb-mint-ot-tonna-teherrel-indul-hazafele-a-cygnus-xl/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-06-mutatjuk-mikor-int-bucsut-a-nemzetkozi-urallomasnak-a-cygnus-xl/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Cygnus_XL_cargo_spacecraft_is_in_the_grasp_of_the_Canadarm2_robotic_arm_%28iss074e0378294%29.jpg/1280px-The_Cygnus_XL_cargo_spacecraft_is_in_the_grasp_of_the_Canadarm2_robotic_arm_%28iss074e0378294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -10487,9 +10487,9 @@
       "dedupe_hash": "e2c8288f4167ceb7be4893838f31c26e7a36ec5b46531cd30f72504bda4ad9ac",
       "pipeline_run_id": "37510839219",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-06T20:34:42+02:00",
-      "updated_at": "2026-10-06T20:34:42+02:00",
-      "published_at": "2026-10-06T20:34:42+02:00",
+      "created_at": "2026-10-06T20:40:29+02:00",
+      "updated_at": "2026-10-06T20:40:29+02:00",
+      "published_at": "2026-10-06T20:40:29+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10505,12 +10505,13 @@
           3267
         ],
         "control_id": 3268
-      }
+      },
+      "live": true
     },
     {
-      "id": "da690bf0-243c-573c-a311-aae5f9a57207",
-      "slug": "2026-10-06-megvan-budapest-helye-a-2036-os-olimpia-listajan",
-      "status": "pending",
+      "id": "96240ec3-67ad-52c7-9a8c-25fa318986f9",
+      "slug": "2026-10-06-itt-a-hivatalos-bejelentes-ekkor-dol-el-a-2036-os-budapesti-olimpia-s",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -10520,7 +10521,7 @@
         "Fővárosi Önkormányzat",
         "NOB"
       ],
-      "title": "Megvan Budapest helye a 2036-os olimpia listáján",
+      "title": "Itt a hivatalos bejelentés: ekkor dől el a 2036-os budapesti olimpia sorsa",
       "subtitle": null,
       "lead": "A Nemzetközi Olimpiai Bizottság keddi közleménye szerint Magyarország is szerepel azon a szűkített listán, ahonnan kiválasztják a 2036-os olimpia rendező városát. A Magyar Olimpiai Bizottság és a Főváros hangsúlyozta, hogy a végleges döntés meghozásáig még több év áll rendelkezésre, és a folyamatot alapos társadalmi egyeztetésnek kell megelőznie.",
       "key_points": [
@@ -10628,11 +10629,11 @@
       },
       "date": "2026-10-06",
       "date_label": "október 6.",
-      "url": "/kozelet/2026-10-06-megvan-budapest-helye-a-2036-os-olimpia-listajan/",
+      "url": "/kozelet/2026-10-06-itt-a-hivatalos-bejelentes-ekkor-dol-el-a-2036-os-budapesti-olimpia-s/",
       "seo": {
-        "meta_title": "Megvan Budapest helye a 2036-os olimpia listáján",
+        "meta_title": "Itt a hivatalos bejelentés: ekkor dől el a 2036-os budapesti",
         "meta_description": "A Nemzetközi Olimpiai Bizottság keddi közleménye szerint Magyarország is szerepel azon a szűkített listán, ahonnan kiválasztják a 2036-os olimpia rendező városá",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-megvan-budapest-helye-a-2036-os-olimpia-listajan/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-itt-a-hivatalos-bejelentes-ekkor-dol-el-a-2036-os-budapesti-olimpia-s/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/20190502_View_from_Buda_Castle_1059_2025_DxO.jpg/1280px-20190502_View_from_Buda_Castle_1059_2025_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -10650,9 +10651,9 @@
       "dedupe_hash": "4ac1f3e1b8731729fb3dc9aac0c8ede13be2bb201c6bd6ea38286b740c15cdc8",
       "pipeline_run_id": "37510839219",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-06T20:36:08+02:00",
-      "updated_at": "2026-10-06T20:36:08+02:00",
-      "published_at": "2026-10-06T20:36:08+02:00",
+      "created_at": "2026-10-06T20:40:30+02:00",
+      "updated_at": "2026-10-06T20:40:30+02:00",
+      "published_at": "2026-10-06T20:40:30+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10668,7 +10669,8 @@
           3271
         ],
         "control_id": 3272
-      }
+      },
+      "live": true
     },
     {
       "id": "cec3732d-a9c2-5dbb-b843-2c901dfb293e",
@@ -10817,7 +10819,7 @@
         "issues": []
       },
       "review": {
-        "title": 0,
+        "title": 3,
         "image": 0,
         "sent_at": "2026-10-06T18:38:34+00:00",
         "msg_ids": [
