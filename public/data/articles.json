@@ -1,7 +1,143 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T16:35:50+02:00",
+  "updated_at": "2026-10-06T16:36:42+02:00",
   "articles": [
+    {
+      "id": "c5ff575f-493f-56ae-b53e-ca9972d8c806",
+      "slug": "2026-10-06-milliardosok-vagyonadoja-es-megujult-kata-itt-vannak-a-reszletek",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Magyar Péter",
+        "vagyonadó",
+        "kata",
+        "gazdaság",
+        "adózás"
+      ],
+      "title": "Milliárdosok vagyonadója és megújult kata: itt vannak a részletek",
+      "subtitle": null,
+      "lead": "Új vagyonadót vetnek ki a milliárdosokra, és teljesen átalakítják a kisadózó vállalkozások tételes adóját (kata). A kormány kedden hozta nyilvánosságra a tervezett változtatások részleteit.",
+      "key_points": [
+        "2027-től az 1 milliárd forint feletti vagyonra vagyonadót vetnek ki.",
+        "A mellékállásúak, a nyugdíjasok és az egyetemisták is újra választhatják a katát.",
+        "Társadalmi egyeztetés indult a javaslatokról a kormány oldalán."
+      ],
+      "content": "Orbán Viktor miniszterelnök keddi bejelentése szerint a kormány társadalmi egyeztetésre bocsátotta a vagyonadó és a kata átalakításának részleteit. A tervezett intézkedések célja az adórendszer igazságosabbá tétele, miközben bővítik a kisvállalkozók lehetőségeit, és megszüntetik egyes sportolók adókönnyítéseit.\n\nA 2027. január 1-jétől életbe lépő vagyonadó azokat érinti, akiknek a vagyona meghaladja az 1 milliárd forintot. A mérték az ezen felüli összeg 1 százaléka lesz, míg a 100 milliárd forint feletti vagyon után 1,5 százalékot kell fizetni. Az adó alapja a teljes vagyonra – ingatlanokra, befektetésekre, valamint külföldi és vagyonkezelőknél tartott részesedésekre – kiterjed, de a hitelek, valamint az ingatlanok és gépjárművek után megfizetett adók levonhatók lesznek.\n\nA kata adózási forma terén is alapvető változások jönnek, miután a szakmai egyeztetések alapján újra széles körben elérhetővé teszik a rendszert. A tervek szerint több mint 100 ezer új kisvállalkozó választhatja majd ezt a formát, és visszakapják a lehetőséget a mellékállásúak, a nyugdíjasok, valamint az egyetemi tanulmányok mellett vállalkozók is.\n\nAz új szabályozás szerint a katások számára felemelik azt az összeget, amely alapján a táppénzüket, anyasági ellátásukat és későbbi nyugdíjukat kiszámítják, így valódi társadalombiztosítási védelmet kapnak.",
+      "content_format": "markdown",
+      "body": [
+        "Orbán Viktor miniszterelnök keddi bejelentése szerint a kormány társadalmi egyeztetésre bocsátotta a vagyonadó és a kata átalakításának részleteit. A tervezett intézkedések célja az adórendszer igazságosabbá tétele, miközben bővítik a kisvállalkozók lehetőségeit, és megszüntetik egyes sportolók adókönnyítéseit.",
+        "A 2027. január 1-jétől életbe lépő vagyonadó azokat érinti, akiknek a vagyona meghaladja az 1 milliárd forintot. A mérték az ezen felüli összeg 1 százaléka lesz, míg a 100 milliárd forint feletti vagyon után 1,5 százalékot kell fizetni. Az adó alapja a teljes vagyonra – ingatlanokra, befektetésekre, valamint külföldi és vagyonkezelőknél tartott részesedésekre – kiterjed, de a hitelek, valamint az ingatlanok és gépjárművek után megfizetett adók levonhatók lesznek.",
+        "A kata adózási forma terén is alapvető változások jönnek, miután a szakmai egyeztetések alapján újra széles körben elérhetővé teszik a rendszert. A tervek szerint több mint 100 ezer új kisvállalkozó választhatja majd ezt a formát, és visszakapják a lehetőséget a mellékállásúak, a nyugdíjasok, valamint az egyetemi tanulmányok mellett vállalkozók is.",
+        "Az új szabályozás szerint a katások számára felemelik azt az összeget, amely alapján a táppénzüket, anyasági ellátásukat és későbbi nyugdíjukat kiszámítják, így valódi társadalombiztosítási védelmet kapnak."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 204,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/15d761bd88d40095.jpg",
+        "width": 5259,
+        "height": 3098,
+        "kind": "photo",
+        "alt": "calculator, calculation, insurance, finance, accounting, pen, fountain pen, investment, office, work, taxes, calculator, insurance, insurance, finance, finance, finance, finance, finance, accounting, ",
+        "credit": "stevepb / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/calculator-calculation-insurance-385506/",
+        "vision_score": 7.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/15d761bd88d40095.jpg",
+        "orig_url": "https://pixabay.com/get/g10bac6981915cf9afd8eb75ea492f32bd5091760004bd60bba285956f76e5d2491ff4f567709c75684808619b4dfff9db851e27b46dfe11dd0f97da88d3243d3_1280.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://telex.hu/gazdasag/2026/10/06/magyar-peter-bejelentes-kata-bovites-vagyonado",
+          "title": "Magyar Péter bejelentette a vagyonadó és a kata részleteit",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T16:30:07+02:00"
+        },
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261006/tisza-kormany-valtozik-a-vagyonado-terve-es-a-kata-is-867702",
+          "title": "Tisza-kormány: változik a vagyonadó terve és a KATA is",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T16:30:07+02:00"
+        },
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261006/oriasi-valtozasokat-jelentett-be-magyar-peter-a-kata-kapcsan-867754",
+          "title": "Óriási változásokat jelentett be Magyar Péter a Kata kapcsán",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T16:30:07+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-06T16:36:42+02:00"
+      },
+      "hot_score": 7.96,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://telex.hu/gazdasag/2026/10/06/magyar-peter-bejelentes-kata-bovites-vagyonado"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kozelet/2026-10-06-milliardosok-vagyonadoja-es-megujult-kata-itt-vannak-a-reszletek/",
+      "seo": {
+        "meta_title": "Milliárdosok vagyonadója és megújult kata: itt vannak a rész",
+        "meta_description": "Új vagyonadót vetnek ki a milliárdosokra, és teljesen átalakítják a kisadózó vállalkozások tételes adóját (kata). A kormány kedden hozta nyilvánosságra a tervez",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-milliardosok-vagyonadoja-es-megujult-kata-itt-vannak-a-reszletek/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/15d761bd88d40095.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "e9bdfa62-6d8e-5e5b-816b-1e893208b382"
+      ],
+      "see_also": [
+        {
+          "title": "Magyar Péter az árrésstop kivezetését sürgeti",
+          "url": "/penzvilag/2026-10-02-magyar-peter-az-arresstop-kivezeteset-surgeti/",
+          "date": "2026-10-02"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "45543e7b7dc0026e206fa2b306b344f358cca8d09ae974a64a7031ab876634d9",
+      "pipeline_run_id": "37475588399",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T16:36:42+02:00",
+      "updated_at": "2026-10-06T16:36:42+02:00",
+      "published_at": "2026-10-06T16:36:42+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "Viktor Orbán",
+        "Hungarian government",
+        "Hungarian Ministry of Finance",
+        "Hungarian Parliament",
+        "KATA tax system",
+        "tax documents",
+        "business meeting",
+        "financial chart"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
+    },
     {
       "id": "c64e135a-931d-59eb-aef0-77e8c23c67f1",
       "slug": "2026-10-06-huszezer-dokumentum-es-egy-bizarr-gyerekrablasi-szal-ezt-talaltak-a-n",
