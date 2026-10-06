@@ -1,6 +1,22 @@
 {
-  "updated_at": "2026-10-06T10:35:26+02:00",
+  "updated_at": "2026-10-06T12:51:38+02:00",
   "polls": [
+    {
+      "id": "28931050b48b",
+      "date": "2026-10-06",
+      "question": "Ön szerint megfelelő-e a 2032-es euróbevezetés időzítése?",
+      "options": [
+        "Támogatom a 2032-as bevezetést",
+        "Ellenezem a gyors bevezetést",
+        "Későbbre szeretném halasztani",
+        "Nem tudom / nincs véleményem"
+      ],
+      "article_url": "/penzvilag/2026-10-06-megvan-a-pontos-terv-a-magyar-eurobevezetesre/",
+      "article_title": "Megvan a pontos terv a magyar euróbevezetésre",
+      "category": "penzvilag",
+      "created_at": "2026-10-06T12:51:38+02:00",
+      "closes_at": "2026-10-13T12:51:38+02:00"
+    },
     {
       "id": "aea317cd1847",
       "date": "2026-10-05",
