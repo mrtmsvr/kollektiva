@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T06:59:21+02:00",
+  "updated_at": "2026-10-06T07:43:13+02:00",
   "articles": [
     {
       "id": "f1a2c541-1539-5975-b386-fb653482c880",
@@ -373,16 +373,16 @@
       "word_count": 185,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://xn--kollektva-m5a.hu/public/img/px/69d9df00d4770c60.jpg",
-        "width": 4608,
-        "height": 3456,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/AI_Artificial_Intelligence_concept_%2852917075159%29.jpg/1280px-AI_Artificial_Intelligence_concept_%2852917075159%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 720,
         "kind": "photo",
-        "alt": "blur, chart, computer, data, finance, graph, growth, line graph, stock exchange, stock market, technology, trading, data, finance, finance, graph, stock market, stock market, stock market, stock marke",
-        "credit": "Pexels / Pixabay",
-        "license": "Pixabay License",
-        "source_url": "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
-        "vision_score": 8.0,
-        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/69d9df00d4770c60.jpg"
+        "pos": "center",
+        "alt": "AI Artificial Intelligence concept.",
+        "credit": "Jernej Furman from Slovenia / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:AI_Artificial_Intelligence_concept_(52917075159).jpg",
+        "vision_score": 7.0
       },
       "inline_images": [],
       "sources": [
@@ -417,7 +417,7 @@
         "meta_title": "Megtalálták a mesterséges intelligencia következő aranytojás",
         "meta_description": "Egy eddig háttérben maradt tőzsdei részvény keltette fel a legnagyobb elemzőházak figyelmét, miközben az üzleti világot meghódító mesterséges intelligencia újab",
         "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-05-megtalaltak-a-mesterseges-intelligencia-kovetkezo-aranytojasat/",
-        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/69d9df00d4770c60.jpg",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/AI_Artificial_Intelligence_concept_%2852917075159%29.jpg/1280px-AI_Artificial_Intelligence_concept_%2852917075159%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -435,7 +435,7 @@
       "pipeline_run_id": "37355825684",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-05T23:32:24+02:00",
-      "updated_at": "2026-10-05T23:32:24+02:00",
+      "updated_at": "2026-10-06T07:43:13+02:00",
       "published_at": "2026-10-05T23:32:24+02:00",
       "expires_at": null,
       "image_queries": [
