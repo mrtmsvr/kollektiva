@@ -10172,7 +10172,7 @@
     {
       "id": "2e6df63c-e9a0-54a6-a926-b73712ffae5f",
       "slug": "2026-10-06-megfiatalodhat-az-oregedo-terdporc-egy-uj-kutatas-szerint",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -10203,16 +10203,17 @@
       "word_count": 249,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Stanford_University_Main_Quad_May_2011_005.jpg/1280px-Stanford_University_Main_Quad_May_2011_005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 800,
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/15165b82ddcd5ba7.jpg",
+        "width": 4096,
+        "height": 2730,
         "kind": "photo",
-        "pos": "center",
-        "alt": "View of Wallenberg Hall on the Stanford University Main Quad.",
-        "credit": "King of Hearts / Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Stanford_University_Main_Quad_May_2011_005.jpg",
-        "vision_score": 7.0
+        "alt": "disease, chronic, pain, treatment, body pain, illness, swollen, knee, pain, pain, pain, pain, pain, body pain, knee, knee",
+        "credit": "u_if8o5n0ioo / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/disease-chronic-pain-treatment-8198852/",
+        "vision_score": 9.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/15165b82ddcd5ba7.jpg",
+        "orig_url": "https://pixabay.com/get/ga396436a787ce05cd03f2b2538c128aa0465f422b50d684370773eed0a4aad25e1890e8363d346247959f476f0187c7cb4f99f8ce3afb583284bd54d5229db1c_1280.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -10290,7 +10291,7 @@
         "meta_title": "Megfiatalodhat az öregedő térdporc egy új kutatás szerint",
         "meta_description": "A Stanford Egyetem kutatói azonosítottak egy olyan fehérjét, amelynek blokkolásával sikerült újjáépíteni a károsodott térdporcot idősebb egerekben. Az eljárás e",
         "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-06-megfiatalodhat-az-oregedo-terdporc-egy-uj-kutatas-szerint/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Stanford_University_Main_Quad_May_2011_005.jpg/1280px-Stanford_University_Main_Quad_May_2011_005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/15165b82ddcd5ba7.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -10307,9 +10308,9 @@
       "dedupe_hash": "84e3758b1d7c2d99907c8c73527a021f9c6d9fbfd34e92f4cf296314751508bc",
       "pipeline_run_id": "37494070349",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-06T18:22:02+02:00",
-      "updated_at": "2026-10-06T18:22:02+02:00",
-      "published_at": "2026-10-06T18:22:02+02:00",
+      "created_at": "2026-10-06T18:33:33+02:00",
+      "updated_at": "2026-10-06T18:33:33+02:00",
+      "published_at": "2026-10-06T18:33:33+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10345,7 +10346,8 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Cartilage_from_mouse_joint.jpg/1280px-Cartilage_from_mouse_joint.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://pixabay.com/get/gaceb7e4f7f26cf2d0a4e009e4f214a6aec85ff144370bfd24af92ee19791b7faf942e4777f8adfa64be7ed0ac5a3a7b0646b3bf14b65bdd45c3c16d79bb4e092_1280.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Stanford_University_Main_Quad_May_2011_005.jpg/1280px-Stanford_University_Main_Quad_May_2011_005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     }
   ]
 }
