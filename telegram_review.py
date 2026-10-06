@@ -583,8 +583,29 @@ HELP = ("Parancsok (rövid / hosszú):\n"
         "/t /torles <link|cím> – leszedés\n"
         "/kn – kép nélküli cikkek képválasztásra\n"
         "/csatornak · /csatorna <YouTube-link> – videófigyelés\n"
-        "/l /lista · /szavazas (állás, létszám) · /keret\n"
+        "/l /lista · /szavazas (állás, létszám) · /keret · /stat (olvasók)\n"
         "Link vagy „téma: …” → cikk róla")
+
+
+def _stats_text(days: int = 7) -> str:
+    """Saját olvasószámláló (/api/olvas, D1): napi olvasók és oldalmegtekintések, top cikkek, honnan jöttek."""
+    try:
+        req = urllib.request.Request(f"{kc.SITE_URL}/api/olvas?days={days}", headers={
+            "User-Agent": "Mozilla/5.0 (KollektivaBot)", "X-Queue-Secret": os.getenv("TG_WEBHOOK_SECRET", "")})
+        r = json.loads(urllib.request.urlopen(req, timeout=15).read().decode("utf-8"))
+    except Exception as e:  # noqa: BLE001
+        return f"A statisztika most nem kérhető le: {e}"
+    if not r.get("ok"):
+        return "A statisztika most nem kérhető le."
+    ds = r.get("days") or []
+    lines = [f"📊 Olvasók (saját mérés, robotok nélkül) – utolsó {days} nap", ""]
+    lines += [f"{d['day'][5:]}: 👥 {d['visitors']} olvasó · 📄 {d['views']} oldal" for d in ds]
+    lines.append(f"Összesen: {sum(d['visitors'] for d in ds)} olvasó-nap · {sum(d['views'] for d in ds)} oldal")
+    if r.get("top"):
+        lines += ["", "🔝 Legolvasottabb:"] + [f"{x['v']} · {x['path']}" for x in r["top"][:8]]
+    if r.get("sources"):
+        lines += ["", "↪️ Honnan jöttek:"] + [f"{x['src']}: {x['v']}" for x in r["sources"]]
+    return "\n".join(lines)
 
 
 def _poll_counts(p: dict) -> str:
@@ -817,6 +838,10 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": (
                         "Használat: /torles <link vagy címrészlet>" if not hits else
                         f"{len(hits)} cikk illik rá, pontosíts:\n" + "\n".join("• " + a["title"] for a in hits[:8]))})
+            elif re.match(r"(?i)/(stat|statisztika)\b", text):
+                mm = re.search(r"\d+", text)
+                tg("sendMessage", {"chat_id": st["chat_id"], "text": _stats_text(int(mm.group()) if mm else 7),
+                                   "disable_web_page_preview": True})
             elif text.startswith("/szavazas") or text.startswith("/szavazás"):
                 allp = kc.read_json(out_dir / "polls.json", {"polls": []}).get("polls", [])
                 pl = [x for x in allp if (x.get("closes_at") or "") > datetime.now(tz).isoformat()]
