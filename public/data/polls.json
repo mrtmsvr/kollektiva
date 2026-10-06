@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-10-06T10:00:47+02:00",
+  "updated_at": "2026-10-06T10:35:26+02:00",
   "polls": [
     {
       "id": "844ae0b942d5",
       "date": "2026-10-06",
-      "question": "Ön szerint az optogenetika jövője?",
+      "question": "Ön szerint mennyire befolyásolhatja a mindennapjainkat az optogenetika?",
       "options": [
-        "Izgalmas új lehetőség",
-        "Kockázatos etikai kérdések",
-        "Csak tudományos érdeklődés",
+        "Nagy hatással lesz",
+        "Közepes hatás",
+        "Kis vagy semmi hatás",
         "Nem tudom"
       ],
       "article_url": "/tech/2026-10-06-olaszorszagi-nyaralas-kozben-erte-a-nobel-dij-a-fennyel-iranyithato-a/",
       "article_title": "Olaszországi nyaralás közben érte a Nobel-díj a fénnyel irányítható agysejtek atyját",
       "category": "tech",
-      "created_at": "2026-10-06T10:00:47+02:00",
-      "closes_at": "2026-10-13T10:00:47+02:00"
+      "created_at": "2026-10-06T10:35:26+02:00",
+      "closes_at": "2026-10-13T10:35:26+02:00"
     },
     {
       "id": "aea317cd1847",

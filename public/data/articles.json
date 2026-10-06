@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T08:40:31+02:00",
+  "updated_at": "2026-10-06T10:29:11+02:00",
   "articles": [
     {
       "id": "319c7931-3a43-5b18-ae3d-a27d99296c7b",
@@ -239,13 +239,13 @@
       "word_count": 221,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://xn--kollektva-m5a.hu/public/img/gen/f1a2c54115-1791268799-0.jpg",
-        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/f1a2c54115-1791268799-0.jpg",
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/f1a2c54115-1791268828-1.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/f1a2c54115-1791268828-1.jpg",
         "kind": "photo",
         "alt": "Bod Péter Ákos: Vége kell legyen a piacrontó állami beavatkozásoknak",
-        "likeness": true,
-        "credit": "AI-generált illusztráció – Kollektíva",
-        "license": "saját (AI-generált illusztráció)",
+        "likeness": false,
+        "credit": "Kollektíva illusztráció",
+        "license": "saját grafika",
         "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
         "generated": true
       },
@@ -282,7 +282,7 @@
         "meta_title": "Bod Péter Ákos: Vége kell legyen a piacrontó állami beavatko",
         "meta_description": "A gazdaság stabilizálása és a piaci viszonyok helyreállítása nehéz feladatok elé állítja a döntéshozókat. Bod Péter Ákos közgazdász szerint elkerülhetetlen a pi",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-bod-peter-akos-vege-kell-legyen-a-piacronto-allami-beavatkozasoknak/",
-        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/f1a2c54115-1791268799-0.jpg",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/f1a2c54115-1791268828-1.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -300,7 +300,7 @@
       "pipeline_run_id": "37411748561",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-06T06:59:21+02:00",
-      "updated_at": "2026-10-06T08:40:31+02:00",
+      "updated_at": "2026-10-06T10:29:11+02:00",
       "published_at": "2026-10-06T06:59:21+02:00",
       "expires_at": null
     },
