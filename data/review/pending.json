@@ -10793,6 +10793,28 @@
       "clickbait_from": 3,
       "image_options": [
         {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/319c79313a-1791267919-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/319c79313a-1791267919-0.jpg",
+          "kind": "photo",
+          "alt": "Féléves mélypontról kapaszkodott vissza a magyar fizetőeszköz",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/319c79313a-1791267927-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/319c79313a-1791267927-1.jpg",
+          "kind": "photo",
+          "alt": "Féléves mélypontról kapaszkodott vissza a magyar fizetőeszköz",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
           "url": "https://pixabay.com/get/g20acca2bfce6e0807a29945399330653715b3a75f3ade1de52340b01b8fb534e93ab170ae6ff76ead7cc0da258f9d95b81e3481b5e9c673b56fece48ae401d14_1280.jpg",
           "width": 4608,
           "height": 3456,
@@ -10869,9 +10891,11 @@
         "msg_ids": [
           3094,
           3095,
-          3096
+          3096,
+          3102,
+          3103
         ],
-        "control_id": 3097
+        "control_id": 3104
       }
     },
     {
