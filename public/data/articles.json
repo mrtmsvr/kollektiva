@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T12:41:16+02:00",
+  "updated_at": "2026-10-06T12:41:52+02:00",
   "articles": [
     {
       "id": "d458d433-061e-5d1e-a914-837513719118",
@@ -781,7 +781,7 @@
         "Isztambuli Egyezmény",
         "egészségügy"
       ],
-      "title": "Negyvennégy nő ült asztalhoz a Tisza-frakcióban",
+      "title": "44 nő ült asztalhoz a Tisza-frakcióban",
       "subtitle": null,
       "lead": "A rendszerváltás óta nem volt példa akkora női képviseletre a magyar Országgyűlésben, mint jelenleg, ezt a jelenlétet pedig egy új, szakmai fókuszú közösség megteremtésével is erősítenék. A Tisza-frakció Női Műhelye október elején alakult meg, elsődleges céljaként pedig a szemléletváltást és a közéleti diskurzus átformálását határozta meg.",
       "key_points": [
@@ -847,7 +847,7 @@
       "date_label": "október 6.",
       "url": "/kozelet/2026-10-06-soha-nem-latott-szamu-noi-kepviselo-indit-szakmai-muhelyt-a-parlament/",
       "seo": {
-        "meta_title": "Negyvennégy nő ült asztalhoz a Tisza-frakcióban",
+        "meta_title": "44 nő ült asztalhoz a Tisza-frakcióban",
         "meta_description": "A rendszerváltás óta nem volt példa akkora női képviseletre a magyar Országgyűlésben, mint jelenleg, ezt a jelenlétet pedig egy új, szakmai fókuszú közösség meg",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-soha-nem-latott-szamu-noi-kepviselo-indit-szakmai-muhelyt-a-parlament/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/HUN-2015-Budapest-Hungarian_Parliament_%28Budapest%29_2015-02.jpg/1280px-HUN-2015-Budapest-Hungarian_Parliament_%28Budapest%29_2015-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -868,7 +868,7 @@
       "pipeline_run_id": "37421865247",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-06T08:24:59+02:00",
-      "updated_at": "2026-10-06T12:41:16+02:00",
+      "updated_at": "2026-10-06T12:41:52+02:00",
       "published_at": "2026-10-06T08:24:59+02:00",
       "expires_at": null
     },
