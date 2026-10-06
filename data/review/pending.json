@@ -10240,9 +10240,9 @@
       }
     },
     {
-      "id": "5444ffee-5195-52a8-b5ce-e4620b648dc1",
-      "slug": "2026-10-06-oroszlanoktol-a-filmtortenelemig-igy-kuzdott-a-csodbol-stallone",
-      "status": "pending",
+      "id": "d458d433-061e-5d1e-a914-837513719118",
+      "slug": "2026-10-06-zuhany-alatt-mosott-ruhat-es-nyers-tojast-evett-a-hires-akciohos-miel",
+      "status": "published",
       "category": "kultura",
       "subcategory": null,
       "tags": [
@@ -10252,7 +10252,7 @@
         "Hollywood",
         "életrajz"
       ],
-      "title": "Oroszlánoktól a filmtörténelemig: így küzdött a csődből Stallone",
+      "title": "Zuhany alatt mosott ruhát és nyers tojást evett a híres akcióhős, mielőtt meghódította Hollywoodot",
       "subtitle": null,
       "lead": "Szeptember végén megjelent önéletrajzi könyvében mesélt a nyolcvanesztendős Sylvester Stallone arról a küzdelmes időszakról, amikor a csőd szélén állva, állatkerti munkákból próbált megélni a világhírnév előtt. A legendás színész évtizedekkel ezelőtt hatalmas pénzösszegeket utasított vissza azért, hogy saját maga játszhassa el a kultikus bokszoló szerepét.",
       "key_points": [
@@ -10274,15 +10274,15 @@
       "word_count": 311,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29_-_Sylvester_Stallone_%2826%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Sylvester_Stallone_Cannes_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "width": 1200,
-        "height": 1802,
+        "height": 1702,
         "kind": "photo",
         "pos": "top",
-        "alt": "66ème Festival du Cinéma de Venise (Mostra), 11ème jour (12/09/2009)\nTapis rouge pour la soirée de cloture du Festival de Venise 2009\n\nSylvester Stallone",
-        "credit": "nicolas genin from Paris, France / Wikimedia Commons",
-        "license": "CC BY-SA 2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_(Mostra)_-_Sylvester_Stallone_(26).jpg",
+        "alt": "Sylvester Stallone Cannes 2019",
+        "credit": "Georges Biard / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sylvester_Stallone_Cannes_2019.jpg",
         "vision_score": 10.0
       },
       "inline_images": [],
@@ -10369,12 +10369,12 @@
       },
       "date": "2026-10-06",
       "date_label": "október 6.",
-      "url": "/kultura/2026-10-06-oroszlanoktol-a-filmtortenelemig-igy-kuzdott-a-csodbol-stallone/",
+      "url": "/kultura/2026-10-06-zuhany-alatt-mosott-ruhat-es-nyers-tojast-evett-a-hires-akciohos-miel/",
       "seo": {
-        "meta_title": "Oroszlánoktól a filmtörténelemig: így küzdött a csődből Stal",
+        "meta_title": "Zuhany alatt mosott ruhát és nyers tojást evett a híres akci",
         "meta_description": "Szeptember végén megjelent önéletrajzi könyvében mesélt a nyolcvanesztendős Sylvester Stallone arról a küzdelmes időszakról, amikor a csőd szélén állva, állatke",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-06-oroszlanoktol-a-filmtortenelemig-igy-kuzdott-a-csodbol-stallone/",
-        "og_image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29_-_Sylvester_Stallone_%2826%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-06-zuhany-alatt-mosott-ruhat-es-nyers-tojast-evett-a-hires-akciohos-miel/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Sylvester_Stallone_Cannes_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -10391,9 +10391,9 @@
       "dedupe_hash": "8ddb1e458511f21563289b407829d7f77ad7936122e846a65633fa028c2a5a21",
       "pipeline_run_id": "37448426045",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-06T12:23:11+02:00",
-      "updated_at": "2026-10-06T12:23:11+02:00",
-      "published_at": "2026-10-06T12:23:11+02:00",
+      "created_at": "2026-10-06T12:38:20+02:00",
+      "updated_at": "2026-10-06T12:38:20+02:00",
+      "published_at": "2026-10-06T12:38:20+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10410,7 +10410,8 @@
           3159
         ],
         "control_id": 3160
-      }
+      },
+      "live": true
     },
     {
       "id": "29a3a508-6b56-5b1f-a127-9feec109daa6",

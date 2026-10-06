@@ -1,7 +1,108 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T12:37:18+02:00",
+  "updated_at": "2026-10-06T12:38:20+02:00",
   "articles": [
+    {
+      "id": "d458d433-061e-5d1e-a914-837513719118",
+      "slug": "2026-10-06-zuhany-alatt-mosott-ruhat-es-nyers-tojast-evett-a-hires-akciohos-miel",
+      "status": "published",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Sylvester Stallone",
+        "Rocky",
+        "könyv",
+        "Hollywood",
+        "életrajz"
+      ],
+      "title": "Zuhany alatt mosott ruhát és nyers tojást evett a híres akcióhős, mielőtt meghódította Hollywoodot",
+      "subtitle": null,
+      "lead": "Szeptember végén megjelent önéletrajzi könyvében mesélt a nyolcvanesztendős Sylvester Stallone arról a küzdelmes időszakról, amikor a csőd szélén állva, állatkerti munkákból próbált megélni a világhírnév előtt. A legendás színész évtizedekkel ezelőtt hatalmas pénzösszegeket utasított vissza azért, hogy saját maga játszhassa el a kultikus bokszoló szerepét.",
+      "key_points": [
+        "Sylvester Stallone szeptember 29-én adta ki The Steps című önéletrajzi kötetét.",
+        "A színész az 1969 és 1976 közötti nehéz éveiről, koplalásairól és alkalmi munkáiról is őszintén vallott.",
+        "A Rocky forgatókönyvét három nap alatt írta meg.",
+        "A producerek hatalmas összegeket ajánlottak a forgatókönyvért, de ragaszkodott a főszerephez."
+      ],
+      "content": "Mielőtt a nevéhez fűződött volna a hollywoodi akciófilmek aranykora, a mai napig aktív színész a túlélésért küzdött New Yorkban. A szeptember végén napvilágot látott The Steps című memoárban részletesen bemutatja az 1969 és 1976 közötti időszakot, amelyet a csőd, a koplalás és a megaláztatások határoztak meg. A filmvászon meghódítása előtt a létező legnehezebb alkalmi munkákat is elvállalta, így egy rövid ideig a Central Park állatkertjében az oroszlánok ketreceit tisztította.\n\nA fizikai megterhelésnél is nehezebbnek bizonyult az oroszlánvizelet maró ammóniaszaga, amely teljesen beleivódott a ruházatába. Az állatkerti kaland után egy kétes hírű szálloda parányi szobájában húzta meg magát, ahol a spórolás jegyében ruhástul állt be a zuhany alá, miközben a mindennapi betevőjét két evőkanál túró és négy nyers tojás jelentette. Közben ügynökök, rendezők és producerek folyamatosan elutasították a beszédhibája és a külseje miatt, ő azonban mozifilmek hanganyagát hallgatva és éjszakánként forgatókönyveket írva készült a nagy áttörésre.\n\nAz igazi fordulópont 1975-ben érkezett el, amikor első felesége, Sasha várandós volt, a bankszámlájukon pedig mindössze 106 dollár maradt. Az ihlettől vezérelve mindössze három nap alatt megírta a később világhírnevet hozó Rocky forgatókönyvét egy küzdeni akaró philadelphiai bokszolóról. Bár a producerek azonnal meglátták a lehetőséget a történetben, nevetve utasították vissza a feltételét, hogy a címszerepet kizárólag ő maga játssza el.\n\nA filmesek először 20, majd 40 és 60 ezer dollárt kínáltak a forgatókönyvért, hogy a szerepet olyan ismert neveknek adják át, mint James Caan vagy Burt Reynolds. Az ajánlat végül elérte a 360 ezer dolláros összeget, ami a korabeli viszonyok között egy életre szóló vagyont jelentett volna, de ő hajthatatlan maradt, és végül elérte, hogy a stúdió beadja a derekát.",
+      "content_format": "markdown",
+      "body": [
+        "Mielőtt a nevéhez fűződött volna a hollywoodi akciófilmek aranykora, a mai napig aktív színész a túlélésért küzdött New Yorkban. A szeptember végén napvilágot látott The Steps című memoárban részletesen bemutatja az 1969 és 1976 közötti időszakot, amelyet a csőd, a koplalás és a megaláztatások határoztak meg. A filmvászon meghódítása előtt a létező legnehezebb alkalmi munkákat is elvállalta, így egy rövid ideig a Central Park állatkertjében az oroszlánok ketreceit tisztította.",
+        "A fizikai megterhelésnél is nehezebbnek bizonyult az oroszlánvizelet maró ammóniaszaga, amely teljesen beleivódott a ruházatába. Az állatkerti kaland után egy kétes hírű szálloda parányi szobájában húzta meg magát, ahol a spórolás jegyében ruhástul állt be a zuhany alá, miközben a mindennapi betevőjét két evőkanál túró és négy nyers tojás jelentette. Közben ügynökök, rendezők és producerek folyamatosan elutasították a beszédhibája és a külseje miatt, ő azonban mozifilmek hanganyagát hallgatva és éjszakánként forgatókönyveket írva készült a nagy áttörésre.",
+        "Az igazi fordulópont 1975-ben érkezett el, amikor első felesége, Sasha várandós volt, a bankszámlájukon pedig mindössze 106 dollár maradt. Az ihlettől vezérelve mindössze három nap alatt megírta a később világhírnevet hozó Rocky forgatókönyvét egy küzdeni akaró philadelphiai bokszolóról. Bár a producerek azonnal meglátták a lehetőséget a történetben, nevetve utasították vissza a feltételét, hogy a címszerepet kizárólag ő maga játssza el.",
+        "A filmesek először 20, majd 40 és 60 ezer dollárt kínáltak a forgatókönyvért, hogy a szerepet olyan ismert neveknek adják át, mint James Caan vagy Burt Reynolds. Az ajánlat végül elérte a 360 ezer dolláros összeget, ami a korabeli viszonyok között egy életre szóló vagyont jelentett volna, de ő hajthatatlan maradt, és végül elérte, hogy a stúdió beadja a derekát."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 311,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Sylvester_Stallone_Cannes_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1702,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Sylvester Stallone Cannes 2019",
+        "credit": "Georges Biard / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sylvester_Stallone_Cannes_2019.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/filmklikk/sylvester-stallone-rocky-tortenet-forgatokonyv/c16w70k",
+          "title": "„Veled egyetlen rohadt jegyet sem tudunk eladni!” – Így akarták kigolyózni Sylvester Stallonét saját kultuszfilmjéből",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T12:23:11+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-06T12:38:20+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/filmklikk/sylvester-stallone-rocky-tortenet-forgatokonyv/c16w70k"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kultura/2026-10-06-zuhany-alatt-mosott-ruhat-es-nyers-tojast-evett-a-hires-akciohos-miel/",
+      "seo": {
+        "meta_title": "Zuhany alatt mosott ruhát és nyers tojást evett a híres akci",
+        "meta_description": "Szeptember végén megjelent önéletrajzi könyvében mesélt a nyolcvanesztendős Sylvester Stallone arról a küzdelmes időszakról, amikor a csőd szélén állva, állatke",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-06-zuhany-alatt-mosott-ruhat-es-nyers-tojast-evett-a-hires-akciohos-miel/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Sylvester_Stallone_Cannes_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "8ddb1e458511f21563289b407829d7f77ad7936122e846a65633fa028c2a5a21",
+      "pipeline_run_id": "37448426045",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T12:38:20+02:00",
+      "updated_at": "2026-10-06T12:38:20+02:00",
+      "published_at": "2026-10-06T12:38:20+02:00",
+      "expires_at": null
+    },
     {
       "id": "46c5af5e-6d18-5c9a-83ac-36e61dda5981",
       "slug": "2026-10-06-jegbe-rejtett-erzekelokkel-nyomozza-az-urbol-erkezo-jeleket-a-friss-n",
