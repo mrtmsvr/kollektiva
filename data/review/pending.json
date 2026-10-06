@@ -9805,6 +9805,672 @@
         "control_id": 3142
       },
       "live": true
+    },
+    {
+      "id": "2f700e99-07d3-521b-9ade-76c14d60b29c",
+      "slug": "2026-10-06-fizikai-nobel-dijat-kapott-az-icecube-obszervatorium-atyja",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "Nobel-díj",
+        "fizika",
+        "csillagászat",
+        "IceCube",
+        "neutrínó"
+      ],
+      "title": "Fizikai Nobel-díjat kapott az IceCube obszervatórium atyja",
+      "subtitle": null,
+      "lead": "Francis Halzen amerikai részecskefizikus kapta a 2026-os fizikai Nobel-díjat a neutrínókutatásban elért áttörő eredményeiért. A kutató nevéhez fűződik az Antarktiszon működő IceCube obszervatórium megálmodása, amely a világűr legrejtélyesebb részecskéit vizsgálja.",
+      "key_points": [
+        "Francis Halzen kapta a 2026-os fizikai Nobel-díjat a neutrínók kutatásáért.",
+        "Az általa megálmodott IceCube egy köbkilométernyi jégtömbbe telepített különleges obszervatórium a Déli-sarkon.",
+        "A berendezés a távoli világegyetemből érkező, szinte láthatatlan elemi részecskéket, a neutrínókat figyeli."
+      ],
+      "content": "A Svéd Királyi Tudományos Akadémia idén Francis Halzennek ítélte oda a fizikai Nobel-díjat a neutrínókutatásban végzett úttörő munkájáért. Az amerikai asztrofizikus már 1988-ban felvetette, hogy a Déli-sark vastag és stabil gleccserjege kiválóan alkalmas lehet a nehezen megfogható elemi részecskék kimutatására.\n\nAz elismerést érő IceCube Neutrino Observatory egy rendkívül szokatlan csillagászati műszer: a jégtömbbe süllyesztett fényérzékelő szenzorokkal hálózza be az egy köbkilométernyi területi egységet. A berendezés a neutrínók – a mindenen akadálytalanul áthaladó, elektromosan semleges, parányi részecskék – és az atommagok ritka ütközései során fellépő Cserenkov-sugárzást, vagyis apró fényfelvillanásokat figyeli.\n\nA neutrínók azért bírnak kiemelkedő jelentőséggel a csillagászat számára, mert a Földre érkezve irányváltoztatás vagy energiaveszteség nélkül jutnak át a kozmoszon, így teljesen tiszta információkat hordoznak a távoli világegyetem rendkívül nagy energiájú folyamatairól. Ahhoz azonban, hogy ezeket a ritka kölcsönhatásokat egyáltalán észlelni lehessen, hatalmas térfogatú átlátszó közegre volt szükség.\n\nA nagyszabású projekt elődjeként az AMANDA elnevezésű rendszert is tesztelték, ám Halzen hamar rájött, hogy a kisebb szenzorhálózatok nem elegendőek. Az IceCube megépítése végül befejeződött, a kutatók pedig azóta a Naprendszeren kívülről érkező neutrínók megfigyelésével folyamatosan új részleteket tárnak fel a kozmikus jelenségekről.",
+      "content_format": "markdown",
+      "body": [
+        "A Svéd Királyi Tudományos Akadémia idén Francis Halzennek ítélte oda a fizikai Nobel-díjat a neutrínókutatásban végzett úttörő munkájáért. Az amerikai asztrofizikus már 1988-ban felvetette, hogy a Déli-sark vastag és stabil gleccserjege kiválóan alkalmas lehet a nehezen megfogható elemi részecskék kimutatására.",
+        "Az elismerést érő IceCube Neutrino Observatory egy rendkívül szokatlan csillagászati műszer: a jégtömbbe süllyesztett fényérzékelő szenzorokkal hálózza be az egy köbkilométernyi területi egységet. A berendezés a neutrínók – a mindenen akadálytalanul áthaladó, elektromosan semleges, parányi részecskék – és az atommagok ritka ütközései során fellépő Cserenkov-sugárzást, vagyis apró fényfelvillanásokat figyeli.",
+        "A neutrínók azért bírnak kiemelkedő jelentőséggel a csillagászat számára, mert a Földre érkezve irányváltoztatás vagy energiaveszteség nélkül jutnak át a kozmoszon, így teljesen tiszta információkat hordoznak a távoli világegyetem rendkívül nagy energiájú folyamatairól. Ahhoz azonban, hogy ezeket a ritka kölcsönhatásokat egyáltalán észlelni lehessen, hatalmas térfogatú átlátszó közegre volt szükség.",
+        "A nagyszabású projekt elődjeként az AMANDA elnevezésű rendszert is tesztelték, ám Halzen hamar rájött, hogy a kisebb szenzorhálózatok nem elegendőek. Az IceCube megépítése végül befejeződött, a kutatók pedig azóta a Naprendszeren kívülről érkező neutrínók megfigyelésével folyamatosan új részleteket tárnak fel a kozmikus jelenségekről."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 215,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/IceCube_Neutrino_Observatory_in_2023_02.jpg/1280px-IceCube_Neutrino_Observatory_in_2023_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 820,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "IceCube Neutrino Observatory in 2023 by Christopher Michel",
+        "credit": "Christopher Michel / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:IceCube_Neutrino_Observatory_in_2023_02.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261006_fizikai-nobel-dij-2026-ebx",
+          "title": "Mi érkezik az űrből? És honnan? Ezért járt idén a fizikai Nobel-díj",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T12:19:48+02:00"
+        },
+        {
+          "url": "https://qubit.hu/2026/10/06/francis-halzen-belga-asztrofizikus-kapta-a-fizikai-nobel-dijat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "Francis Halzen belga asztrofizikus kapta a fizikai Nobel-díjat",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T12:19:48+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 9.31,
+      "title_options": [
+        "Fizikai Nobel-díjat kapott az IceCube obszervatórium atyja",
+        "Jégbe rejtett érzékelőkkel nyomozza az űrből érkező jeleket a friss Nobel-díjas",
+        "A déli-sarki jég alatt keresi az univerzum titkait a fizikai Nobel-díjas kutató",
+        "Hogyan látja át a Déli-sark jege az egész világűrt?",
+        "A fizikus, aki egy köbkilométernyi jégtömbbe zárta a csillagászat jövőjét"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/IceCube_Neutrino_Observatory_in_2023_02.jpg/1280px-IceCube_Neutrino_Observatory_in_2023_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 820,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "IceCube Neutrino Observatory in 2023 by Christopher Michel",
+          "credit": "Christopher Michel / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:IceCube_Neutrino_Observatory_in_2023_02.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/IceCube_Neutrino_Observatory_in_2023_01.jpg/1280px-IceCube_Neutrino_Observatory_in_2023_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "IceCube Neutrino Observatory in 2023 by Christopher Michel",
+          "credit": "Christopher Michel / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:IceCube_Neutrino_Observatory_in_2023_01.jpg",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Amundsen-Scott_marsstation_ray_h_edit.jpg/1280px-Amundsen-Scott_marsstation_ray_h_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A full moon and 25 second exposure allowed sufficient light into this photo taken at Amundsen-Scott South Pole Station during the long Antarctic night. The new station can be seen at far left, power p",
+          "credit": "Photo by Chris Danals, National Science Foundation / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Amundsen-Scott_marsstation_ray_h_edit.jpg",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Mi érkezik az űrből? És honnan? Ezért járt idén a fizikai Nobel-díj",
+          "link": "https://hvg.hu/tudomany/20261006_fizikai-nobel-dij-2026-ebx",
+          "summary": "Francis Halsen kapta 2026-ban a fizikai Nobel-díjat. Az elismerést az űrből érkező rejtőzködő jelek befogásával érdemelte ki.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 9.31
+        },
+        {
+          "title": "Francis Halzen belga asztrofizikus kapta a fizikai Nobel-díjat",
+          "link": "https://qubit.hu/2026/10/06/francis-halzen-belga-asztrofizikus-kapta-a-fizikai-nobel-dijat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "summary": "A fizikus, az IceCube Neutrino Observatory szülőatyja kapta idén az elismerést a neutrínókutatásban elért eredményei miatt.",
+          "source": "qubit.hu",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261006_fizikai-nobel-dij-2026-ebx",
+          "https://qubit.hu/2026/10/06/francis-halzen-belga-asztrofizikus-kapta-a-fizikai-nobel-dijat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/tech/2026-10-06-fizikai-nobel-dijat-kapott-az-icecube-obszervatorium-atyja/",
+      "seo": {
+        "meta_title": "Fizikai Nobel-díjat kapott az IceCube obszervatórium atyja",
+        "meta_description": "Francis Halzen belga részecskefizikus kapta a 2026-os fizikai Nobel-díjat a neutrínókutatásban elért áttörő eredményeiért. A kutató nevéhez fűződik az Antarktis",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-06-fizikai-nobel-dijat-kapott-az-icecube-obszervatorium-atyja/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/IceCube_Neutrino_Observatory_in_2023_02.jpg/1280px-IceCube_Neutrino_Observatory_in_2023_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "a7fb3d6f-8105-5a19-94ba-400a54033f80",
+        "c6ccc794-ffcd-5aa6-90a5-a66f7d408712"
+      ],
+      "see_also": [
+        {
+          "title": "Hogyan irányíthatók kék fénnyel az emlékek és az érzelmek?",
+          "url": "/tech/2026-10-05-hogyan-iranyithatok-kek-fennyel-az-emlekek-es-az-erzelmek/",
+          "date": "2026-10-05"
+        },
+        {
+          "title": "Olaszországi nyaralás közben érte a Nobel-díj a fénnyel irányítható agysejtek atyját",
+          "url": "/tech/2026-10-06-olaszorszagi-nyaralas-kozben-erte-a-nobel-dij-a-fennyel-iranyithato-a/",
+          "date": "2026-10-06"
+        }
+      ],
+      "thread_id": "a7fb3d6f-8105-5a19-94ba-400a54033f80",
+      "dedupe_hash": "1ae5863b1c1ef7e3815e1992d6e8ea6a9ce322ad8fa0e016821c6774ca05f370",
+      "pipeline_run_id": "37448426045",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T12:19:48+02:00",
+      "updated_at": "2026-10-06T12:19:48+02:00",
+      "published_at": "2026-10-06T12:19:48+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": [],
+        "auto_fixed": [
+          "Francis Halzen nemzetiségének javítása belgról amerikaire a leadben.",
+          "Francis Halzen nemzetiségének javítása belgról amerikaire az 1. bekezdésben."
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-06T10:21:32+00:00",
+        "msg_ids": [
+          3148,
+          3149,
+          3150,
+          3151
+        ],
+        "control_id": 3152
+      }
+    },
+    {
+      "id": "7261a8ae-7c6c-584e-ae2b-779d6e89e9c6",
+      "slug": "2026-10-06-vilaghiru-kozgazdasz-dicserte-a-kozep-europai-berek-felzarkozasat",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "gazdaság",
+        "fizetések",
+        "Közép-Európa",
+        "Európai Unió",
+        "jövedelmi egyenlőtlenség"
+      ],
+      "title": "Világhírű közgazdász dicsérte a közép-európai bérek felzárkózását",
+      "subtitle": null,
+      "lead": "Az elmúlt évtizedekben nemcsak az európai országok közötti gazdasági különbségek mérséklődtek, hanem a közép-kelet-európai lakosság jövedelme is jelentősen közelebb került a nyugati szintekhez. Ezt a folyamatot méltatta a keddi Back to Europe konferencián bemutatott interjúban egy világhírű közgazdász.",
+      "key_points": [
+        "Jelentősen csökkent a jövedelmi szakadék Közép-Kelet-Európa és Nyugat-Európa között az elmúlt évtizedekben.",
+        "Branko Milanovic szerb-amerikai közgazdász szerint a huszonhét tagállam nehézkes döntéshozatala jelenti a kontinens egyik legnagyobb versenyhátrányát.",
+        "Az Európai Unió jelenlegi tagállamaiban az egyenlőtlenség ma már kisebb, mint az Egyesült Államokban.",
+        "A jövőben a mesterséges intelligencia térnyerése várhatóan növeli a tőke arányát a jövedelmeken belül."
+      ],
+      "content": "A közép-kelet-európai térség gazdasági integrációja és a lakosság jövedelmének felzárkózása a kontinens kiemelkedő sikertörténete. A Portfolio által készített és a keddi Back to Europe konferencián levetített exkluzív videóinterjúban Branko Milanovic szerb-amerikai közgazdász hangsúlyozta, hogy az országok közötti konvergencia mellett az egyéni jövedelmek terén is látványos közeledés ment végbe az elmúlt évtizedekben.\n\nAz egyenlőtlenségek kutatására szakosodott professzor adatai szerint az EU jelenlegi tagállamaiban 1993-ban még jelentősebb volt a vagyoni és jövedelmi egyenlőtlenség, mint az Egyesült Államokban, mára azonban ez a helyzet megfordult, és az unió ezen mutatója kedvezőbbé vált.\n\nA pozitív gazdasági folyamatok ellenére a kontinens komoly strukturális kihívásokkal szembesül a nemzetközi versenyben. A huszonhét tagállam eltérő nemzeti érdekei és a körülményes döntéshozatali mechanizmus gátolja, hogy az unió ugyanolyan gyorsan reagáljon a kihívásokra, mint a világgazdaság más nagyhatalmai, ráadásul a fokozódó nacionalista törekvések tovább nehezítik a jövőbeli reformokat.\n\nA technológiai jövőt illetően a szakértők egyetértenek abban, hogy a mesterséges intelligencia elterjedése növeli majd a tőke súlyát a jövedelmeken belül, így a folyamat legfőbb nyertesei azok lesznek, akik jelentős tőkével rendelkeznek, jóllehet a hatások pontos mértékét jelenleg még nehéz előre látni.",
+      "content_format": "markdown",
+      "body": [
+        "A közép-kelet-európai térség gazdasági integrációja és a lakosság jövedelmének felzárkózása a kontinens kiemelkedő sikertörténete. A Portfolio által készített és a keddi Back to Europe konferencián levetített exkluzív videóinterjúban Branko Milanovic szerb-amerikai közgazdász hangsúlyozta, hogy az országok közötti konvergencia mellett az egyéni jövedelmek terén is látványos közeledés ment végbe az elmúlt évtizedekben.",
+        "Az egyenlőtlenségek kutatására szakosodott professzor adatai szerint az EU jelenlegi tagállamaiban 1993-ban még jelentősebb volt a vagyoni és jövedelmi egyenlőtlenség, mint az Egyesült Államokban, mára azonban ez a helyzet megfordult, és az unió ezen mutatója kedvezőbbé vált.",
+        "A pozitív gazdasági folyamatok ellenére a kontinens komoly strukturális kihívásokkal szembesül a nemzetközi versenyben. A huszonhét tagállam eltérő nemzeti érdekei és a körülményes döntéshozatali mechanizmus gátolja, hogy az unió ugyanolyan gyorsan reagáljon a kihívásokra, mint a világgazdaság más nagyhatalmai, ráadásul a fokozódó nacionalista törekvések tovább nehezítik a jövőbeli reformokat.",
+        "A technológiai jövőt illetően a szakértők egyetértenek abban, hogy a mesterséges intelligencia elterjedése növeli majd a tőke súlyát a jövedelmeken belül, így a folyamat legfőbb nyertesei azok lesznek, akik jelentős tőkével rendelkeznek, jóllehet a hatások pontos mértékét jelenleg még nehéz előre látni."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 223,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261006/vilaghiru-kozgazdasz-sikertortenet-kozep-europa-felzarkozasa-866912",
+          "title": "Világhírű közgazdász: sikertörténet Közép-Európa felzárkózása",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T12:21:49+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Nem csak az országok között van gazdasági konvergencia, hanem ehhez hasonlóan az egyéni jövedelmek között is, ez Európa nagy sikersztorija",
+        "who": "Branko Milanovic közgazdász",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Világhírű közgazdász dicsérte a közép-európai bérek felzárkózását",
+        "Sikersztorivá vált a közép-európai bérfelzárkózás",
+        "Nyugat felé kacsintanak a közép-európai fizetések",
+        "Váratlan fordulat: miért tartja a világhírű közgazdász sikertörténetnek a térségünket?",
+        "Ezt kevesen tudták: hatalmasat szűkült a jövedelmi szakadék Európában",
+        "Mitől félti Európát a globális egyenlőtlenségek egyik legfőbb kutatója?"
+      ],
+      "clickbait_from": 3,
+      "image_options": [],
+      "story": [
+        {
+          "title": "Világhírű közgazdász: sikertörténet Közép-Európa felzárkózása",
+          "link": "https://www.portfolio.hu/gazdasag/20261006/vilaghiru-kozgazdasz-sikertortenet-kozep-europa-felzarkozasa-866912",
+          "summary": "Európa egyik nagy versenyhátránya a körülményes döntéshozatal, 27 tagállam az eltérő érdekek miatt képtelen olyan gyorsan lépni, mint a világgazdaság nagyhatalmai – mondta a Portfolionak adott exkluzív videóinterjúban Branko Milanovic szerb-amerikai közgazdász. Az egyenlőtlenségek világhírű kutatója szerint az elmúlt évtizedekben nem csak az európai országok közti fejlettségi szakadék szűkült, de a közép-kelet-európai emberek is felzárkóztak jövedelemben a nyugatiakhoz, ami a kontinens komoly sikersztorija.",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261006/vilaghiru-kozgazdasz-sikertortenet-kozep-europa-felzarkozasa-866912"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/penzvilag/2026-10-06-vilaghiru-kozgazdasz-dicserte-a-kozep-europai-berek-felzarkozasat/",
+      "seo": {
+        "meta_title": "Világhírű közgazdász dicsérte a közép-európai bérek felzárkó",
+        "meta_description": "Az elmúlt évtizedekben nemcsak az európai országok közötti gazdasági különbségek mérséklődtek, hanem a közép-kelet-európai lakosság jövedelme is jelentősen köze",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-06-vilaghiru-kozgazdasz-dicserte-a-kozep-europai-berek-felzarkozasat/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "0f6f478afc4bb49289367bb03ad2c7dfef8f46d6dc01fba5ddf2730c142e0f47",
+      "pipeline_run_id": "37448426045",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T12:21:49+02:00",
+      "updated_at": "2026-10-06T12:21:49+02:00",
+      "published_at": "2026-10-06T12:21:49+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": -1,
+        "sent_at": "2026-10-06T10:23:01+00:00",
+        "msg_ids": [
+          3153,
+          3154
+        ],
+        "control_id": 3155
+      }
+    },
+    {
+      "id": "5444ffee-5195-52a8-b5ce-e4620b648dc1",
+      "slug": "2026-10-06-oroszlanoktol-a-filmtortenelemig-igy-kuzdott-a-csodbol-stallone",
+      "status": "pending",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Sylvester Stallone",
+        "Rocky",
+        "könyv",
+        "Hollywood",
+        "életrajz"
+      ],
+      "title": "Oroszlánoktól a filmtörténelemig: így küzdött a csődből Stallone",
+      "subtitle": null,
+      "lead": "Szeptember végén megjelent önéletrajzi könyvében mesélt a nyolcvanesztendős Sylvester Stallone arról a küzdelmes időszakról, amikor a csőd szélén állva, állatkerti munkákból próbált megélni a világhírnév előtt. A legendás színész évtizedekkel ezelőtt hatalmas pénzösszegeket utasított vissza azért, hogy saját maga játszhassa el a kultikus bokszoló szerepét.",
+      "key_points": [
+        "Sylvester Stallone szeptember 29-én adta ki The Steps című önéletrajzi kötetét.",
+        "A színész az 1969 és 1976 közötti nehéz éveiről, koplalásairól és alkalmi munkáiról is őszintén vallott.",
+        "A Rocky forgatókönyvét három nap alatt írta meg.",
+        "A producerek hatalmas összegeket ajánlottak a forgatókönyvért, de ragaszkodott a főszerephez."
+      ],
+      "content": "Mielőtt a nevéhez fűződött volna a hollywoodi akciófilmek aranykora, a mai napig aktív színész a túlélésért küzdött New Yorkban. A szeptember végén napvilágot látott The Steps című memoárban részletesen bemutatja az 1969 és 1976 közötti időszakot, amelyet a csőd, a koplalás és a megaláztatások határoztak meg. A filmvászon meghódítása előtt a létező legnehezebb alkalmi munkákat is elvállalta, így egy rövid ideig a Central Park állatkertjében az oroszlánok ketreceit tisztította.\n\nA fizikai megterhelésnél is nehezebbnek bizonyult az oroszlánvizelet maró ammóniaszaga, amely teljesen beleivódott a ruházatába. Az állatkerti kaland után egy kétes hírű szálloda parányi szobájában húzta meg magát, ahol a spórolás jegyében ruhástul állt be a zuhany alá, miközben a mindennapi betevőjét két evőkanál túró és négy nyers tojás jelentette. Közben ügynökök, rendezők és producerek folyamatosan elutasították a beszédhibája és a külseje miatt, ő azonban mozifilmek hanganyagát hallgatva és éjszakánként forgatókönyveket írva készült a nagy áttörésre.\n\nAz igazi fordulópont 1975-ben érkezett el, amikor első felesége, Sasha várandós volt, a bankszámlájukon pedig mindössze 106 dollár maradt. Az ihlettől vezérelve mindössze három nap alatt megírta a később világhírnevet hozó Rocky forgatókönyvét egy küzdeni akaró philadelphiai bokszolóról. Bár a producerek azonnal meglátták a lehetőséget a történetben, nevetve utasították vissza a feltételét, hogy a címszerepet kizárólag ő maga játssza el.\n\nA filmesek először 20, majd 40 és 60 ezer dollárt kínáltak a forgatókönyvért, hogy a szerepet olyan ismert neveknek adják át, mint James Caan vagy Burt Reynolds. Az ajánlat végül elérte a 360 ezer dolláros összeget, ami a korabeli viszonyok között egy életre szóló vagyont jelentett volna, de ő hajthatatlan maradt, és végül elérte, hogy a stúdió beadja a derekát.",
+      "content_format": "markdown",
+      "body": [
+        "Mielőtt a nevéhez fűződött volna a hollywoodi akciófilmek aranykora, a mai napig aktív színész a túlélésért küzdött New Yorkban. A szeptember végén napvilágot látott The Steps című memoárban részletesen bemutatja az 1969 és 1976 közötti időszakot, amelyet a csőd, a koplalás és a megaláztatások határoztak meg. A filmvászon meghódítása előtt a létező legnehezebb alkalmi munkákat is elvállalta, így egy rövid ideig a Central Park állatkertjében az oroszlánok ketreceit tisztította.",
+        "A fizikai megterhelésnél is nehezebbnek bizonyult az oroszlánvizelet maró ammóniaszaga, amely teljesen beleivódott a ruházatába. Az állatkerti kaland után egy kétes hírű szálloda parányi szobájában húzta meg magát, ahol a spórolás jegyében ruhástul állt be a zuhany alá, miközben a mindennapi betevőjét két evőkanál túró és négy nyers tojás jelentette. Közben ügynökök, rendezők és producerek folyamatosan elutasították a beszédhibája és a külseje miatt, ő azonban mozifilmek hanganyagát hallgatva és éjszakánként forgatókönyveket írva készült a nagy áttörésre.",
+        "Az igazi fordulópont 1975-ben érkezett el, amikor első felesége, Sasha várandós volt, a bankszámlájukon pedig mindössze 106 dollár maradt. Az ihlettől vezérelve mindössze három nap alatt megírta a később világhírnevet hozó Rocky forgatókönyvét egy küzdeni akaró philadelphiai bokszolóról. Bár a producerek azonnal meglátták a lehetőséget a történetben, nevetve utasították vissza a feltételét, hogy a címszerepet kizárólag ő maga játssza el.",
+        "A filmesek először 20, majd 40 és 60 ezer dollárt kínáltak a forgatókönyvért, hogy a szerepet olyan ismert neveknek adják át, mint James Caan vagy Burt Reynolds. Az ajánlat végül elérte a 360 ezer dolláros összeget, ami a korabeli viszonyok között egy életre szóló vagyont jelentett volna, de ő hajthatatlan maradt, és végül elérte, hogy a stúdió beadja a derekát."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 311,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29_-_Sylvester_Stallone_%2826%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1802,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "66ème Festival du Cinéma de Venise (Mostra), 11ème jour (12/09/2009)\nTapis rouge pour la soirée de cloture du Festival de Venise 2009\n\nSylvester Stallone",
+        "credit": "nicolas genin from Paris, France / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_(Mostra)_-_Sylvester_Stallone_(26).jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/filmklikk/sylvester-stallone-rocky-tortenet-forgatokonyv/c16w70k",
+          "title": "„Veled egyetlen rohadt jegyet sem tudunk eladni!” – Így akarták kigolyózni Sylvester Stallonét saját kultuszfilmjéből",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T12:23:11+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Oroszlánoktól a filmtörténelemig: így küzdött a csődből Stallone",
+        "Háromszázezer dollár sem kellett az oroszlánszagú színésznek",
+        "Nem akarták eladni a Rocky jegyeit, de a készítő hajthatatlan maradt",
+        "Zuhany alatt mosott ruhát és nyers tojást evett a híres akcióhős, mielőtt meghódította Hollywoodot",
+        "A producer az arcába üvöltött, de ő mégis elérte, hogy saját filmjének főszereplője legyen",
+        "Csak 106 dollár volt a számláján, amikor megírta a filmtörténelem egyik leghíresebb forgatókönyvét"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29_-_Sylvester_Stallone_%2826%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1802,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "66ème Festival du Cinéma de Venise (Mostra), 11ème jour (12/09/2009)\nTapis rouge pour la soirée de cloture du Festival de Venise 2009\n\nSylvester Stallone",
+          "credit": "nicolas genin from Paris, France / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_(Mostra)_-_Sylvester_Stallone_(26).jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Sylvester_Stallone_Cannes_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1702,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Sylvester Stallone Cannes 2019",
+          "credit": "Georges Biard / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Sylvester_Stallone_Cannes_2019.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Rocky_Balboa_%28Film%29_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 474,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Rocky Balboa (Film) Logo",
+          "credit": "Schreibwerkzeug / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rocky_Balboa_(Film)_Logo.png",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "„Veled egyetlen rohadt jegyet sem tudunk eladni!” – Így akarták kigolyózni Sylvester Stallonét saját kultuszfilmjéből",
+          "link": "https://www.blikk.hu/sztarvilag/filmklikk/sylvester-stallone-rocky-tortenet-forgatokonyv/c16w70k",
+          "summary": "Sylvester Stallone élete legelképesztőbb történeteit osztotta meg a nagyvilággal a szeptember 29-én megjelent, The Steps című életrajzi könyvében. Talán kevesen tudják, de mielőtt Hollywood egyik nagyágyúja lett volna, fiatalon oroszlánok után takarított, nyers tojáson élt, és azért is meg kellett küzdenie, hogy eljátszhassa a főszerepet abban a filmben, aminek forgatókönyvét ő maga írta. A ma 80 éves színészlegendának évtizedekkel ezelőtt 360 ezer dollárt is felajánlottak a Rocky-ért, ám ő hajthatatlan volt.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/filmklikk/sylvester-stallone-rocky-tortenet-forgatokonyv/c16w70k"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kultura/2026-10-06-oroszlanoktol-a-filmtortenelemig-igy-kuzdott-a-csodbol-stallone/",
+      "seo": {
+        "meta_title": "Oroszlánoktól a filmtörténelemig: így küzdött a csődből Stal",
+        "meta_description": "Szeptember végén megjelent önéletrajzi könyvében mesélt a nyolcvanesztendős Sylvester Stallone arról a küzdelmes időszakról, amikor a csőd szélén állva, állatke",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-06-oroszlanoktol-a-filmtortenelemig-igy-kuzdott-a-csodbol-stallone/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29_-_Sylvester_Stallone_%2826%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "8ddb1e458511f21563289b407829d7f77ad7936122e846a65633fa028c2a5a21",
+      "pipeline_run_id": "37448426045",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T12:23:11+02:00",
+      "updated_at": "2026-10-06T12:23:11+02:00",
+      "published_at": "2026-10-06T12:23:11+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-06T10:24:16+00:00",
+        "msg_ids": [
+          3156,
+          3157,
+          3158,
+          3159
+        ],
+        "control_id": 3160
+      }
+    },
+    {
+      "id": "29a3a508-6b56-5b1f-a127-9feec109daa6",
+      "slug": "2026-10-06-olcsobb-gazolajjal-csillapitana-az-uzemanyagvalsagot-az-amerikai-elno",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "egyesült államok",
+        "donald trump",
+        "üzemanyag",
+        "mezőgazdaság",
+        "gazdaság"
+      ],
+      "title": "Olcsóbb gázolajjal csillapítaná az üzemanyagválságot az amerikai elnök",
+      "subtitle": null,
+      "lead": "Átmeneti időre feloldotta az elsősorban mezőgazdasági gépekhez és építkezésekre szánt színezett dízel használati korlátozásait Donald Trump amerikai elnök. A lépéssel az üzemanyagárak csökkenését és a kulcsfontosságú szavazói rétegek visszahódítását célozzák a novemberi félidős választások előtt.",
+      "key_points": [
+        "Donald Trump elnöki rendelettel tette szabaddá a vörösre festett, adómentes dízelolaj közúti használatát az év hátralevő részére.",
+        "A gallononkénti 24 centes szövetségi gázolajadótól mentes üzemanyag eddig csak földeken és építkezéseken volt legális, a rendőrség bírságolt a jogosulatlan használatért.",
+        "Az Egyesült Államokban a dízel ára nemrég 6,53 dolláros rekordra szökött az iráni háború és az orosz olajfinomítókat érő ukrán támadások miatt.",
+        "A nebraskai Grand Islandben bejelentett intézkedéstől a fuvarozók tankolásonkénti több mint 100 dolláros megtakarítását és az árak mérséklődését várják."
+      ],
+      "content": "Donald Trump amerikai elnök egy hétfő este aláírt elnöki rendelettel átmenetileg eltörölte a színezett, adómentes dízelolaj használati korlátozásait, így az év hátralevő részében az autópályákon közlekedő járművekbe is tankolható a szer. A vörös színűre festett üzemanyag mentesül a gallononkénti 24 centes szövetségi gázolajadó alól, és eddig kizárólag a mezőgazdaságban, az építőiparban, valamint fűtési célokra volt engedélyezett a használata.\n\nA Financial Times beszámolója szerint a korlátozások lazításától az amerikai üzemanyagárak csökkenését remélik, ami enyhítheti a gazdaság számos területén jelentkező költségnövekedést. Az üzemanyagot azért festik meg, hogy a rendőrség és az adóellenőrök könnyebben kiszúrják a tartályokban, és a jogosulatlan felhasználókat eddig bírsággal sújtották.\n\nA bejelentésre a nebraskai Grand Islandben került sor, ami nem a véletlen műve: az állam az Egyesült Államok mezőgazdasági központjainak egyike, ahol a gazdálkodóknak komoly nehézséget okozott az idei gázolajár-emelkedés, ez pedig kistérségi szinten is megingatta a mezőgazdaságra támaszkodó elnök támogatottságát.\n\nAz amerikai gázolaj ára nemrégiben gallononkénti 6,53 dolláros rekordmagasságba szökkent. Ez a drasztikus drágulás komoly nyomást helyezett a republikánusokra a novemberi félidős választások előtt.\n\nAz elnöki várakozások szerint a fuvarozók kamiononként átlagosan több mint 100 dollárt takaríthatnak meg tankolásonként. A szállítási költségek mérséklődésével párhuzamosan pedig a termékek és áruk ára is csökkenhet az Egyesült Államokban.",
+      "content_format": "markdown",
+      "body": [
+        "Donald Trump amerikai elnök egy hétfő este aláírt elnöki rendelettel átmenetileg eltörölte a színezett, adómentes dízelolaj használati korlátozásait, így az év hátralevő részében az autópályákon közlekedő járművekbe is tankolható a szer. A vörös színűre festett üzemanyag mentesül a gallononkénti 24 centes szövetségi gázolajadó alól, és eddig kizárólag a mezőgazdaságban, az építőiparban, valamint fűtési célokra volt engedélyezett a használata.",
+        "A Financial Times beszámolója szerint a korlátozások lazításától az amerikai üzemanyagárak csökkenését remélik, ami enyhítheti a gazdaság számos területén jelentkező költségnövekedést. Az üzemanyagot azért festik meg, hogy a rendőrség és az adóellenőrök könnyebben kiszúrják a tartályokban, és a jogosulatlan felhasználókat eddig bírsággal sújtották.",
+        "A bejelentésre a nebraskai Grand Islandben került sor, ami nem a véletlen műve: az állam az Egyesült Államok mezőgazdasági központjainak egyike, ahol a gazdálkodóknak komoly nehézséget okozott az idei gázolajár-emelkedés, ez pedig kistérségi szinten is megingatta a mezőgazdaságra támaszkodó elnök támogatottságát.",
+        "Az amerikai gázolaj ára nemrégiben gallononkénti 6,53 dolláros rekordmagasságba szökkent. Ez a drasztikus drágulás komoly nyomást helyezett a republikánusokra a novemberi félidős választások előtt.",
+        "Az elnöki várakozások szerint a fuvarozók kamiononként átlagosan több mint 100 dollárt takaríthatnak meg tankolásonként. A szállítási költségek mérséklődésével párhuzamosan pedig a termékek és áruk ára is csökkenhet az Egyesült Államokban."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 234,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1520,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017.  (Official White House Photo by Shealah Craighead)",
+        "credit": "Shealeah Craighead / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/gazdasag/20261006_trump-szinezett-dizel-felidos-valasztas",
+          "title": "Trump feloldotta a színezett dízel használati korlátait, hogy mentse a republikánusokat a félidős választás előtt",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T12:24:26+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.58,
+      "title_options": [
+        "Olcsóbb gázolajjal csillapítaná az üzemanyagválságot az amerikai elnök",
+        "Vörös festékkel mentené a gazdákat a Fehér Ház",
+        "Félidős választás: jövedéki adó alóli mentesítéssel operál Washingtonban az elnök",
+        "Brutális rekordárak után drasztikus lépésre szánta el magát az amerikai elnök",
+        "Ezt tankolhatják mostantól a kamionosok az Egyesült Államokban",
+        "Miért engedélyezték hirtelen a mezőgazdasági dízel használatát a közutakon?"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1520,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017.  (Official White House Photo by Shealah Craighead)",
+          "credit": "Shealeah Craighead / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/January_2025_Official_Presidential_Portrait_of_Donald_J._Trump.jpg/1280px-January_2025_Official_Presidential_Portrait_of_Donald_J._Trump.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1553,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Official 2025 inaugural portrait of Donald Trump by Daniel Torok.",
+          "credit": "Daniel Torok / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:January_2025_Official_Presidential_Portrait_of_Donald_J._Trump.jpg",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Trump feloldotta a színezett dízel használati korlátait, hogy mentse a republikánusokat a félidős választás előtt",
+          "link": "https://hvg.hu/gazdasag/20261006_trump-szinezett-dizel-felidos-valasztas",
+          "summary": "A vörösre festett dízel olcsóbb, és eddig csak közúton kívül, például a mezőgazdaságban lehetett használni. Az elnök a lépéstől az amerikai üzemanyagárak csökkenését várja, meg azt, hogy visszapártolnak hozzá a mezőgazdasági munkások.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.58
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/gazdasag/20261006_trump-szinezett-dizel-felidos-valasztas"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/vilag/2026-10-06-olcsobb-gazolajjal-csillapitana-az-uzemanyagvalsagot-az-amerikai-elno/",
+      "seo": {
+        "meta_title": "Olcsóbb gázolajjal csillapítaná az üzemanyagválságot az amer",
+        "meta_description": "Átmeneti időre feloldotta az elsősorban mezőgazdasági gépekhez és építkezésekre szánt színezett dízel használati korlátozásait Donald Trump amerikai elnök. A lé",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-06-olcsobb-gazolajjal-csillapitana-az-uzemanyagvalsagot-az-amerikai-elno/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "138de64792cd5b6cbe770890fe9686d2bacf97cebab3913c322b9519e5568574",
+      "pipeline_run_id": "37448426045",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T12:24:26+02:00",
+      "updated_at": "2026-10-06T12:24:26+02:00",
+      "published_at": "2026-10-06T12:24:26+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-06T10:26:06+00:00",
+        "msg_ids": [
+          3161,
+          3162,
+          3163
+        ],
+        "control_id": 3164
+      }
     }
   ]
 }
