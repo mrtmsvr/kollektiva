@@ -1,7 +1,106 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T11:04:24+02:00",
+  "updated_at": "2026-10-06T11:05:21+02:00",
   "articles": [
+    {
+      "id": "6d78f454-c886-5619-99be-8e002b826269",
+      "slug": "2026-10-06-haromkotetes-diszdobozban-ter-vissza-a-het-mesterlovesze",
+      "status": "published",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Puzsér Róbert",
+        "film",
+        "sorozat",
+        "könyvajánló",
+        "A hét mesterlövésze"
+      ],
+      "title": "Háromkötetes díszdobozban tér vissza A hét mesterlövésze",
+      "subtitle": null,
+      "lead": "Háromkötetes díszdobozban tért vissza a könyvesboltok polcaira Puzsér Róbert publicista, kritikus film- és sorozatajánlója, A hét mesterlövésze.",
+      "key_points": [
+        "Újra kapható A hét mesterlövésze című háromkötetes gyűjtemény.",
+        "A kiadvány az egykori rádióműsorok és a budapesti filmvetítések szellemiségét örökíti meg.",
+        "A kötetek a filmtörténet és a streaming korszak legfontosabb alkotásait veszik górcső alá."
+      ],
+      "content": "Újra elérhetővé vált a hazai filmrajongók körében kultikus státusznak örvendő A hét mesterlövésze című válogatás, amely ezúttal háromkötetes csomagban, az Inda Press gondozásában került a könyvesboltok polcaira. A kötetek alapját a radiocafén kétszáz adást megért, 2009 és 2011 között futott rádióműsor, valamint a budapesti filmszínházakban tartott egy év tíz éjszakáján keresztül tartó filmvetítések adják.\n\nAblak nyílik a huszadik század filmklasszikusaira és a huszonegyedik század sorozataira egyaránt, méghozzá szokatlan nézőpontból. A fejezetek nem hagyományos esztétikai vagy formanyelvi szempontból elemeznek, hanem azt mutatják be, hogy az egyes művek milyen mély hatást gyakoroltak a szerző személyes gondolkodására és világnézetére.\n\nA kiadvány készítői ráadásul arra is figyelmeztetnek, hogy az oldalakon a cselekmények váratlan fordulatai is lelepleződnek, így a kötetek forgatása előtt érdemes megnézni az említett alkotásokat.",
+      "content_format": "markdown",
+      "body": [
+        "Újra elérhetővé vált a hazai filmrajongók körében kultikus státusznak örvendő A hét mesterlövésze című válogatás, amely ezúttal háromkötetes csomagban, az Inda Press gondozásában került a könyvesboltok polcaira. A kötetek alapját a radiocafén kétszáz adást megért, 2009 és 2011 között futott rádióműsor, valamint a budapesti filmszínházakban tartott egy év tíz éjszakáján keresztül tartó filmvetítések adják.",
+        "Ablak nyílik a huszadik század filmklasszikusaira és a huszonegyedik század sorozataira egyaránt, méghozzá szokatlan nézőpontból. A fejezetek nem hagyományos esztétikai vagy formanyelvi szempontból elemeznek, hanem azt mutatják be, hogy az egyes művek milyen mély hatást gyakoroltak a szerző személyes gondolkodására és világnézetére.",
+        "A kiadvány készítői ráadásul arra is figyelmeztetnek, hogy az oldalakon a cselekmények váratlan fordulatai is lelepleződnek, így a kötetek forgatása előtt érdemes megnézni az említett alkotásokat."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 139,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Puzs%C3%A9r_R%C3%B3bert.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1395,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Puzsér Róbert (Budapest, 1974. október 24. –) végzettsége szerint magyar–történelem szakos tanár; műsorvezető, szerkesztő, kritikus.",
+        "credit": "ismeretlen szerző / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Puzs%C3%A9r_R%C3%B3bert.jpeg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/filmklikk/puzser-robert-a-het-mesterlovesze-harom-kotet-filmek-sorozatok/m0kgdv4",
+          "title": "Puzsérék nem finomkodnak! Újra megjelent az önjelölt filmkritikus háromkötetes mozi- és streamingajánlója",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T10:34:28+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-06T11:05:21+02:00"
+      },
+      "hot_score": 5.65,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/filmklikk/puzser-robert-a-het-mesterlovesze-harom-kotet-filmek-sorozatok/m0kgdv4"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/kultura/2026-10-06-haromkotetes-diszdobozban-ter-vissza-a-het-mesterlovesze/",
+      "seo": {
+        "meta_title": "Háromkötetes díszdobozban tér vissza A hét mesterlövésze",
+        "meta_description": "Háromkötetes díszdobozban tért vissza a könyvesboltok polcaira Puzsér Róbert publicista, kritikus film- és sorozatajánlója, A hét mesterlövésze.",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-06-haromkotetes-diszdobozban-ter-vissza-a-het-mesterlovesze/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Puzs%C3%A9r_R%C3%B3bert.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "3683072cf89af4b835d899f28e87ce7a020cbc642ea79a2ecff1a81e6e68712f",
+      "pipeline_run_id": "37435991256",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T11:05:21+02:00",
+      "updated_at": "2026-10-06T11:05:21+02:00",
+      "published_at": "2026-10-06T11:05:21+02:00",
+      "expires_at": null
+    },
     {
       "id": "3a0deb28-a274-5394-8b6f-3850d8c2450c",
       "slug": "2026-10-06-jeszenszky-geza-szerint-szijjarto-peter-uj-allasa-nemzetbiztonsagi-ko",
