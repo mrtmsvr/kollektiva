@@ -76,7 +76,8 @@ def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: boo
     if any(p.get("date") == d.isoformat() for p in polls) or not 10 <= now.hour <= 20:
         return 0
     articles = kc.read_json(output_dir / "articles.json", {"articles": []}).get("articles", [])
-    used = {p.get("article_url") for p in polls}
+    # a leszedett (elutasított) szavazás cikkéhez soha többé nem készül újra (különben a következő futás ugyanazt hozná)
+    used = {p.get("article_url") for p in polls} | {r.get("article_url") for r in data.get("removed", [])}
     cands = [a for a in articles if a.get("status") == "published" and a.get("category") in POLL_SECTIONS
              and a.get("date") == d.isoformat() and a.get("url") not in used and not a.get("offtopic")]
     if not cands:
@@ -113,7 +114,8 @@ def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: boo
     log.info("✔ Szavazás: %s %s", q, opts)
     if dry_run:
         return 1
-    kc.write_json_atomic(path, {"updated_at": now.isoformat(timespec="seconds"), "polls": [poll] + polls[:29]})
+    kc.write_json_atomic(path, {"updated_at": now.isoformat(timespec="seconds"), "polls": [poll] + polls[:29],
+                                "removed": data.get("removed", [])[-100:]})
     try:  # értesítés Telegramon, leszedés gombbal
         import telegram_review as tr
         chat = tr.load_state().get("chat_id") if os.getenv("TELEGRAM_BOT_TOKEN") else None
