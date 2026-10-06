@@ -1,7 +1,109 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T16:57:11+02:00",
+  "updated_at": "2026-10-06T18:31:02+02:00",
   "articles": [
+    {
+      "id": "48f70de7-4360-59f7-b259-f92ebe7d211c",
+      "slug": "2026-10-06-szazharmincmillio-szavazot-toroltek-ki-india-valasztasi-listajarol",
+      "status": "published",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "India",
+        "Narendra Modi",
+        "választások",
+        "tüntetés",
+        "Mahatma Gandhi"
+      ],
+      "title": "Százharmincmillió szavazót töröltek ki India választási listájáról",
+      "subtitle": null,
+      "lead": "Százharmincmillió választópolgért távolítottak el a választói névjegyzékből Indiában, ami országszerte hatalmas tüntetéseket váltott ki. A bírálók szerint a lépés a szegények és a kisebbségek jogait csorbítja a nacionalista kormányzat alatt.",
+      "key_points": [
+        "130 millió embert húztak ki a választási névjegyzékből Indiában.",
+        "A tiltakozások miatt zavartanná vált Mahatma Gandhi születésnapjának állami ünnepe.",
+        "Az ellenzék az Indiai Választási Bizottság elnökének lemondását követeli.",
+        "A bírálók a szegények és a muszlim kisebbség kiszorítását sejtik a háttérben."
+      ],
+      "content": "Október 2-án, Mahatma Gandhi születésnapjának állami ünnepén tömeges tiltakozásokba torkollott a megemlékezés Delhiben. Az indiai függetlenségi mozgalom vezéralakjához kapcsolódó helyszínek felkeresése az idén nem volt zavartalan, miután kiderült, hogy drasztikusan csökkentették a szavazásra jogosultak számát.\n\nA bírálók és az ellenzék szerint Narendra Modi miniszterelnök kormányának intézkedése a szegények és a muszlim kisebbség választójogának elvételét célozza a kormánypárt, a Bháratíja Dzsanatá Párt érdekei mentén. Ezzel szemben a választási testületek visszautasítják a vádakat, és azzal magyarázzák a revíziót, hogy a listák eddig nem tükrözték a költözéseket és a haláleseteket.\n\nA kialakult helyzetben az ellenzéki pártok és a Csótánypárt nevű formáció Gjánés Kumár, az Indiai Választási Bizottság elnökének távozását követeli. A felháborodást az is fokozta, hogy az elnök figyelemre sem méltatta a testület két tagjának a revíziót kifogásoló, tizennégy alkalommal benyújtott tiltakozó jegyzékét.\n\nA demonstrációk azóta is folytatódnak India-szerte, a Kongresszus Párt utcai vonulását pedig a pártvezető, Rahul Gandhi YouTube-csatornáján is közvetítik. Az ellenzéki erők és az Indiai Legfelsőbb Bíróság egyaránt teljes átláthatóságot és részletes indoklást vár a kabinettől.",
+      "content_format": "markdown",
+      "body": [
+        "Október 2-án, Mahatma Gandhi születésnapjának állami ünnepén tömeges tiltakozásokba torkollott a megemlékezés Delhiben. Az indiai függetlenségi mozgalom vezéralakjához kapcsolódó helyszínek felkeresése az idén nem volt zavartalan, miután kiderült, hogy drasztikusan csökkentették a szavazásra jogosultak számát.",
+        "A bírálók és az ellenzék szerint Narendra Modi miniszterelnök kormányának intézkedése a szegények és a muszlim kisebbség választójogának elvételét célozza a kormánypárt, a Bháratíja Dzsanatá Párt érdekei mentén. Ezzel szemben a választási testületek visszautasítják a vádakat, és azzal magyarázzák a revíziót, hogy a listák eddig nem tükrözték a költözéseket és a haláleseteket.",
+        "A kialakult helyzetben az ellenzéki pártok és a Csótánypárt nevű formáció Gjánés Kumár, az Indiai Választási Bizottság elnökének távozását követeli. A felháborodást az is fokozta, hogy az elnök figyelemre sem méltatta a testület két tagjának a revíziót kifogásoló, tizennégy alkalommal benyújtott tiltakozó jegyzékét.",
+        "A demonstrációk azóta is folytatódnak India-szerte, a Kongresszus Párt utcai vonulását pedig a pártvezető, Rahul Gandhi YouTube-csatornáján is közvetítik. Az ellenzéki erők és az Indiai Legfelsőbb Bíróság egyaránt teljes átláthatóságot és részletes indoklást vár a kabinettől."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 199,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/fcc9c76cfb65e783.jpg",
+        "width": 5616,
+        "height": 3744,
+        "kind": "photo",
+        "alt": "women, crowd, protest, protesters, people, protesting, garments clash, dhaka, bangladesh, women workers, female workers, women, crowd, crowd, protest, protest, protest, protest, protest, bangladesh, b",
+        "credit": "19661338 / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/women-crowd-protest-protesters-5963963/",
+        "vision_score": 10.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/fcc9c76cfb65e783.jpg",
+        "orig_url": "https://pixabay.com/get/g9aa9a4366260049f3a222bfb70d0c852ca9864751c4f4d2dfc73c260dc8a60a3ba82f9e910967afa10ec542a7e873a0dac144067323214de14c6b0b2066e3c92_1280.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/360/20261006_szeretettel-delhibol-india-valasztojog-nevjegyzek-revizio-tuntetesek-tiltakozasok",
+          "title": "130 millió embert húztak ki a választási névjegyzékből Indiában",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-06T18:18:14+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-06T18:31:02+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/360/20261006_szeretettel-delhibol-india-valasztojog-nevjegyzek-revizio-tuntetesek-tiltakozasok"
+        ]
+      },
+      "date": "2026-10-06",
+      "date_label": "október 6.",
+      "url": "/vilag/2026-10-06-szazharmincmillio-szavazot-toroltek-ki-india-valasztasi-listajarol/",
+      "seo": {
+        "meta_title": "Százharmincmillió szavazót töröltek ki India választási list",
+        "meta_description": "Százharmincmillió választópolgért távolítottak el a választói névjegyzékből Indiában, ami országszerte hatalmas tüntetéseket váltott ki. A bírálók szerint a lép",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-06-szazharmincmillio-szavazot-toroltek-ki-india-valasztasi-listajarol/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/fcc9c76cfb65e783.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "48f0858222bf54e187019fc19d80a3346d9ea2f6f5164637ad3f49a0b442d787",
+      "pipeline_run_id": "37494070349",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-06T18:31:02+02:00",
+      "updated_at": "2026-10-06T18:31:02+02:00",
+      "published_at": "2026-10-06T18:31:02+02:00",
+      "expires_at": null
+    },
     {
       "id": "50490333-3935-56fa-8a27-9126daf325af",
       "slug": "2026-10-06-novemberben-valaszthatnak-uj-elnokot-a-pedagoguskar-elere",
