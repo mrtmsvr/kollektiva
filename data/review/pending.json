@@ -9282,9 +9282,9 @@
       "live": true
     },
     {
-      "id": "5bec224f-295f-567a-b431-6e695595431a",
-      "slug": "2026-10-07-felezik-a-tiszteletdijakat-es-atvilagithatjak-a-politikusokat",
-      "status": "pending",
+      "id": "fb14fc7b-9ff4-5d4a-b47d-8a372b946754",
+      "slug": "2026-10-07-ezt-tervezik-a-politikusokkal-ot-evre-visszamenoleg-vizsgalodhat-a-na",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -9294,7 +9294,7 @@
         "gazdaság",
         "budapesti olimpia"
       ],
-      "title": "Felezik a tiszteletdíjakat és átvilágíthatják a politikusokat",
+      "title": "Ezt tervezik a politikusokkal: öt évre visszamenőleg vizsgálódhat a NAV",
       "subtitle": null,
       "lead": "Számos gazdasági és politikai bejelentés rázta meg a napot, miközben a Tisza-kormány éjszakába nyúló ülést tartott a 2027-es költségvetés előkészítéséről. A kabinet szigorítaná az MNB ellenőrzését, átvilágítaná a politikusokat, és jelentősen átalakítaná a vállalkozói adózási formákat.",
       "key_points": [
@@ -9386,11 +9386,11 @@
       },
       "date": "2026-10-07",
       "date_label": "október 7.",
-      "url": "/kozelet/2026-10-07-felezik-a-tiszteletdijakat-es-atvilagithatjak-a-politikusokat/",
+      "url": "/kozelet/2026-10-07-ezt-tervezik-a-politikusokkal-ot-evre-visszamenoleg-vizsgalodhat-a-na/",
       "seo": {
-        "meta_title": "Felezik a tiszteletdíjakat és átvilágíthatják a politikusoka",
+        "meta_title": "Ezt tervezik a politikusokkal: öt évre visszamenőleg vizsgál",
         "meta_description": "Számos gazdasági és politikai bejelentés rázta meg a napot, miközben a Tisza-kormány éjszakába nyúló ülést tartott a 2027-es költségvetés előkészítéséről. A kab",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-07-felezik-a-tiszteletdijakat-es-atvilagithatjak-a-politikusokat/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-07-ezt-tervezik-a-politikusokkal-ot-evre-visszamenoleg-vizsgalodhat-a-na/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -9408,9 +9408,9 @@
       "dedupe_hash": "22acb81c935432e5c67501cd3f2cd4957cff7f9a5cd20911605cfcdfb4c798f3",
       "pipeline_run_id": "37670415085",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-07T20:59:23+02:00",
-      "updated_at": "2026-10-07T20:59:23+02:00",
-      "published_at": "2026-10-07T20:59:23+02:00",
+      "created_at": "2026-10-07T21:05:16+02:00",
+      "updated_at": "2026-10-07T21:05:16+02:00",
+      "published_at": "2026-10-07T21:05:16+02:00",
       "expires_at": null,
       "hold": true,
       "legal": {
@@ -9423,12 +9423,12 @@
         "title": 3,
         "image": 0,
         "sent_at": "2026-10-07T19:00:50+00:00",
-        "msg_ids": [
-          3653,
-          3654
-        ],
-        "control_id": 3655
-      }
+        "msg_ids": [],
+        "control_id": 3655,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "fb59a1de-26ae-5578-ae15-928bdebdd0b5",
