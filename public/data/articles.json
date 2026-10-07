@@ -1,7 +1,108 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-07T09:04:36+02:00",
+  "updated_at": "2026-10-07T10:29:55+02:00",
   "articles": [
+    {
+      "id": "afc76075-f0c2-5a30-bc97-b48d3c26c679",
+      "slug": "2026-10-07-igy-elne-mindennapjait-egy-mesterseges-intelligencia-az-instagramon",
+      "status": "published",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "mesterséges intelligencia",
+        "Instagram",
+        "sorozat",
+        "ChatGPT",
+        "popkultúra"
+      ],
+      "title": "Így élné mindennapjait egy mesterséges intelligencia az Instagramon",
+      "subtitle": null,
+      "lead": "Miközben a hollywoodi stúdiók még a korábbi techbotrányokat filmesítik meg, az online tartalomkészítők valós időben reagálnak az ember és a technológia viszonyára. Az Instagramon futó ahh.gpt nevű projekt rövid szkeccsekben mutatja be, hogyan viselkedne egy chatbot a hétköznapokban.",
+      "key_points": [
+        "A klasszikus filmek és sorozatok gyakran évek lemaradásban vannak a technológiai valósághoz képest.",
+        "A ma bemutatott vagy érkező egész estés alkotások a 2021-es és 2023-as techbotrányokat dolgozzák fel.",
+        "Az ahh.gpt nevű Instagram-oldal ezzel szemben naprakészen, egyperces videókban parodizálja a ChatGPT-t.",
+        "A számozott epizódokból álló formátum és a visszatérő szereplők miatt a videók sorozatként működnek."
+      ],
+      "content": "A ChatGPT 2022 novemberében indult, de a filmekből és sorozatokból tájékozódó nézők aligha vehették volna észre az idő múlását. A popkultúra hagyományosan lemaradásban van a technológiai fejlődéshez képest, ám a mai tempó mellett a filmkészítők szinte képtelenek lépést tartani. Jó példa erre Hollywood lassúsága: a 2013-as Her (A nő) című film még mindig az egyik legjobban sikerült popkulturális ábrázolása a mesterséges intelligencia használatának. A ma elérhető AI-modellek azonban már hónapok alatt elavulnak, ami alaposan megnehezíti a tradicionális alkotók dolgát.\n\nEnnek a tempónak a jegyében épp most hétfőn mutatták be a New York-i Filmfesztiválon az Artificial című filmet, amely az OpenAI 2023. novemberi vezetőségi botrányáról szól, amikor Sam Altman vezérigazgatót rövid időre kirúgták saját cége éléről. Hasonló helyzetben van a csütörtökön a magyar mozikba érkező The Social Reckoning is, amely a 2021-es Facebook Files kiszivárgásait és a közösségi média társadalmi hatásait veszi górcső alá. Mire egy többéves gyártási folyamat végére ér egy játékfilm, az általa feldolgozott esemény mára szinte őstörténelemnek hat.\n\nA technológia valódi popkulturális lenyomata így ott formálódik, ahol maga a technológia is él: a közösségi platformokon, például az Instagramon és a TikTokon. A klasszikus, a televíziós logikából fakadó, gyakran túlírt szkeccskomédiák kifáradni látszanak, miközben a gyorsabb formátumok átvették a helyüket. A májusban indult, közel 800 ezer követővel rendelkező ahh.gpt nevű Instagram-oldal pont ezt a piaci rést találta meg. Az oldalon látható, egyperces videókban egy fiatal férfi hétköznapi szituációkban úgy viselkedik és beszél, mint egy hús-vér AI-chatbot.\n\nA készítők ráadásul nemcsak véletlenszerű mémeket gyártanak, hanem tudatosan építkeznek: a videók 1/100, 2/100 és így tovább számozással jelennek meg, a kommentekben pedig a lazán kapcsolódó cselekmény részleteire utalnak. Ezzel a szerkezettel és a visszatérő poénokkal az egyperces szkeccsek a mai reel-kultúrában már valódi sorozatként funkcionálnak, megmutatva, hogy a legfrissebb online humornak már nincs szüksége a hagyományos stúdiók kereteire.",
+      "content_format": "markdown",
+      "body": [
+        "A ChatGPT 2022 novemberében indult, de a filmekből és sorozatokból tájékozódó nézők aligha vehették volna észre az idő múlását. A popkultúra hagyományosan lemaradásban van a technológiai fejlődéshez képest, ám a mai tempó mellett a filmkészítők szinte képtelenek lépést tartani. Jó példa erre Hollywood lassúsága: a 2013-as Her (A nő) című film még mindig az egyik legjobban sikerült popkulturális ábrázolása a mesterséges intelligencia használatának. A ma elérhető AI-modellek azonban már hónapok alatt elavulnak, ami alaposan megnehezíti a tradicionális alkotók dolgát.",
+        "Ennek a tempónak a jegyében épp most hétfőn mutatták be a New York-i Filmfesztiválon az Artificial című filmet, amely az OpenAI 2023. novemberi vezetőségi botrányáról szól, amikor Sam Altman vezérigazgatót rövid időre kirúgták saját cége éléről. Hasonló helyzetben van a csütörtökön a magyar mozikba érkező The Social Reckoning is, amely a 2021-es Facebook Files kiszivárgásait és a közösségi média társadalmi hatásait veszi górcső alá. Mire egy többéves gyártási folyamat végére ér egy játékfilm, az általa feldolgozott esemény mára szinte őstörténelemnek hat.",
+        "A technológia valódi popkulturális lenyomata így ott formálódik, ahol maga a technológia is él: a közösségi platformokon, például az Instagramon és a TikTokon. A klasszikus, a televíziós logikából fakadó, gyakran túlírt szkeccskomédiák kifáradni látszanak, miközben a gyorsabb formátumok átvették a helyüket. A májusban indult, közel 800 ezer követővel rendelkező ahh.gpt nevű Instagram-oldal pont ezt a piaci rést találta meg. Az oldalon látható, egyperces videókban egy fiatal férfi hétköznapi szituációkban úgy viselkedik és beszél, mint egy hús-vér AI-chatbot.",
+        "A készítők ráadásul nemcsak véletlenszerű mémeket gyártanak, hanem tudatosan építkeznek: a videók 1/100, 2/100 és így tovább számozással jelennek meg, a kommentekben pedig a lazán kapcsolódó cselekmény részleteire utalnak. Ezzel a szerkezettel és a visszatérő poénokkal az egyperces szkeccsek a mai reel-kultúrában már valódi sorozatként funkcionálnak, megmutatva, hogy a legfrissebb online humornak már nincs szüksége a hagyományos stúdiók kereteire."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 346,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Instagram_app_icon_on_smartphone_screen_%28perspective_render%29_%2849897226292%29.jpg/1280px-Instagram_app_icon_on_smartphone_screen_%28perspective_render%29_%2849897226292%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 802,
+        "kind": "graphic",
+        "pos": "center",
+        "alt": "Instagram app icon on smartphone screen illustration.\nThis image provided under the Creative Commons Attribution 3.0 license. You can copy, distribute, adopt and transmit the work for any purpose, eve",
+        "credit": "Yuri Samoilov / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Instagram_app_icon_on_smartphone_screen_(perspective_render)_(49897226292).jpg",
+        "vision_score": 7.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://qubit.hu/2026/10/07/az-ai-korszak-legjobb-sorozata-nem-a-teveben-vagy-a-netflixen-fut-hanem-az-instagramon?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "Az AI-korszak legjobb sorozata nem a tévében vagy a Netflixen fut, hanem az Instagramon",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-10-07T10:26:17+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-07T10:29:55+02:00"
+      },
+      "hot_score": 5.74,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://qubit.hu/2026/10/07/az-ai-korszak-legjobb-sorozata-nem-a-teveben-vagy-a-netflixen-fut-hanem-az-instagramon?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
+        ]
+      },
+      "date": "2026-10-07",
+      "date_label": "október 7.",
+      "url": "/kultura/2026-10-07-igy-elne-mindennapjait-egy-mesterseges-intelligencia-az-instagramon/",
+      "seo": {
+        "meta_title": "Így élné mindennapjait egy mesterséges intelligencia az Inst",
+        "meta_description": "Miközben a hollywoodi stúdiók még a korábbi techbotrányokat filmesítik meg, az online tartalomkészítők valós időben reagálnak az ember és a technológia viszonyá",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-07-igy-elne-mindennapjait-egy-mesterseges-intelligencia-az-instagramon/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Instagram_app_icon_on_smartphone_screen_%28perspective_render%29_%2849897226292%29.jpg/1280px-Instagram_app_icon_on_smartphone_screen_%28perspective_render%29_%2849897226292%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "c50393cd01e1c749ddaf359953903ede9c8767aaf5222e9afd0d7e8ae3d2ab46",
+      "pipeline_run_id": "37593220642",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-07T10:29:55+02:00",
+      "updated_at": "2026-10-07T10:29:55+02:00",
+      "published_at": "2026-10-07T10:29:55+02:00",
+      "expires_at": null
+    },
     {
       "id": "dee697d4-5930-56e4-89b5-ee9b08ab9b9a",
       "slug": "2026-10-07-a-ner-lebontasat-es-hitelt-is-emleget-a-penzugyminiszter",

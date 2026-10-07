@@ -1,6 +1,21 @@
 {
-  "updated_at": "2026-10-06T12:51:38+02:00",
+  "updated_at": "2026-10-07T10:30:06+02:00",
   "polls": [
+    {
+      "id": "dac2e87059a8",
+      "date": "2026-10-07",
+      "question": "Ön szerint igazságos az egymilliárd forint feletti vagyonadó bevezetése?",
+      "options": [
+        "Igen, a nagyobb vagyonoktól több adó jár",
+        "Nem, ez kedvezőtlenül érinti a gazdaságot",
+        "Nem tudom / nincs véleményem"
+      ],
+      "article_url": "/kozelet/2026-10-07-egymilliard-felett-indul-a-vagyonado-jon-az-uj-kata-rendszer/",
+      "article_title": "Egymilliárd felett indul a vagyonadó, jön az új kata-rendszer",
+      "category": "kozelet",
+      "created_at": "2026-10-07T10:30:06+02:00",
+      "closes_at": "2026-10-14T10:30:06+02:00"
+    },
     {
       "id": "28931050b48b",
       "date": "2026-10-06",
@@ -79,5 +94,6 @@
       "created_at": "2026-10-01T12:53:46+02:00",
       "closes_at": "2026-10-08T12:53:46+02:00"
     }
-  ]
+  ],
+  "removed": []
 }
