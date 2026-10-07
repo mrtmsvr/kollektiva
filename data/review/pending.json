@@ -9516,6 +9516,503 @@
         "compact": "✅ Kint"
       },
       "live": true
+    },
+    {
+      "id": "5bec224f-295f-567a-b431-6e695595431a",
+      "slug": "2026-10-07-felezik-a-tiszteletdijakat-es-atvilagithatjak-a-politikusokat",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Tisza-kormány",
+        "Magyar Péter",
+        "Vitézy Dávid",
+        "gazdaság",
+        "budapesti olimpia"
+      ],
+      "title": "Felezik a tiszteletdíjakat és átvilágíthatják a politikusokat",
+      "subtitle": null,
+      "lead": "Számos gazdasági és politikai bejelentés rázta meg a napot, miközben a Tisza-kormány éjszakába nyúló ülést tartott a 2027-es költségvetés előkészítéséről. A kabinet szigorítaná az MNB ellenőrzését, átvilágítaná a politikusokat, és jelentősen átalakítaná a vállalkozói adózási formákat.",
+      "key_points": [
+        "A NAV öt évre visszamenőleg átvilágíthatja a politikusokat.",
+        "Kedvezőbb feltételekkel tér vissza a KATA, a vállalkozók dupla akkora hitelt vehetnek fel.",
+        "Vitézy Dávid bejelentette a Diákváros projekt újraindítását."
+      ],
+      "content": "A források szerint zajlik a tervezés, éjszakába nyúló kormányülés várható. A portfólió összesítése alapján a kabinet több radikális intézkedést is tervez: szigorítanák a Magyar Nemzeti Bank ellenőrzését, megfeleznék a tiszteletdíjakat, és a Nemzeti Adó- és Vámhivatal öt évre visszamenőleg is átvilágíthatja a politikusokat.\n\nA gazdasági változások érintik a kisvállalkozókat is, ugyanis kedvezőbb feltételekkel tér vissza a KATA, a vállalkozók pedig az eddigiek akár duplájának megfelelő hitelt is felvehetnek. Ezzel párhuzamosan Magyar Péter módosítaná a vagyonadó-terveket, míg a Nemzeti Kulturális Alap pénzeinek elosztásában jelentősen csökken a miniszteri hatáskör.\n\nEgy másik fejlemény szerint Vitézy Dávid közlekedési és beruházási miniszter a közösségi oldalán bejelentette, hogy újraindul a hányattatott sorsú budapesti Diákváros gigaberuházás, és ismertette a Rákosrendező fejlesztésének részleteit is.\n\nAz igazságügyi hírek között szerepel, hogy szerda este, előre egyeztetett időpontban a Központi Nyomozó Főügyészségen kihallgatták Magyar Pétert a 2024. június 21-i mobiltelefonos incidens miatt. A nemzetközi és uniós ügyek terén pedig hír, hogy Magyarország tájékoztatta az Európai Bizottságot: nem fogja betartani az Európai Unió egy vonatkozó irányelvét, miközben Magyarország tájékoztatta az Európai Bizottságot, hogy nem fogja betartani az EU irányelvét.",
+      "content_format": "markdown",
+      "body": [
+        "A források szerint zajlik a tervezés, éjszakába nyúló kormányülés várható. A portfólió összesítése alapján a kabinet több radikális intézkedést is tervez: szigorítanák a Magyar Nemzeti Bank ellenőrzését, megfeleznék a tiszteletdíjakat, és a Nemzeti Adó- és Vámhivatal öt évre visszamenőleg is átvilágíthatja a politikusokat.",
+        "A gazdasági változások érintik a kisvállalkozókat is, ugyanis kedvezőbb feltételekkel tér vissza a KATA, a vállalkozók pedig az eddigiek akár duplájának megfelelő hitelt is felvehetnek. Ezzel párhuzamosan Magyar Péter módosítaná a vagyonadó-terveket, míg a Nemzeti Kulturális Alap pénzeinek elosztásában jelentősen csökken a miniszteri hatáskör.",
+        "Egy másik fejlemény szerint Vitézy Dávid közlekedési és beruházási miniszter a közösségi oldalán bejelentette, hogy újraindul a hányattatott sorsú budapesti Diákváros gigaberuházás, és ismertette a Rákosrendező fejlesztésének részleteit is.",
+        "Az igazságügyi hírek között szerepel, hogy szerda este, előre egyeztetett időpontban a Központi Nyomozó Főügyészségen kihallgatták Magyar Pétert a 2024. június 21-i mobiltelefonos incidens miatt. A nemzetközi és uniós ügyek terén pedig hír, hogy Magyarország tájékoztatta az Európai Bizottságot: nem fogja betartani az Európai Unió egy vonatkozó irányelvét, miközben Magyarország tájékoztatta az Európai Bizottságot, hogy nem fogja betartani az EU irányelvét."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 217,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 675,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "View from Buda Castle towards the Northern west Budapest as of May 2014.",
+        "credit": "Perituss / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:View_from_Buda_Castle_2014_01.jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261007/tisza-kormany-zajlik-a-tervezes-ejszakaba-nyulo-kormanyules-varhato-867884",
+          "title": "Tisza-kormány: zajlik a tervezés, éjszakába nyúló kormányülés várható",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-07T20:59:23+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Felezik a tiszteletdíjakat és átvilágíthatják a politikusokat",
+        "A kormány szigorítana az MNB ellenőrzésén és a NAV-ot is bevetné",
+        "Éjszakába nyúló ülés és radikális gazdasági tervek a kormányasztalon",
+        "Ezt tervezik a politikusokkal: öt évre visszamenőleg vizsgálódhat a NAV",
+        "Mi történik a Tisza-kormány ülésén? Éjszakába nyúló egyeztetések zajlanak",
+        "Meglepő bejelentések: duplájára nőhet a vállalkozói hitel, visszatér a KATA"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "View from Buda Castle towards the Northern west Budapest as of May 2014.",
+          "credit": "Perituss / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:View_from_Buda_Castle_2014_01.jpg",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Tisza-kormány: zajlik a tervezés, éjszakába nyúló kormányülés várható",
+          "link": "https://www.portfolio.hu/gazdasag/20261007/tisza-kormany-zajlik-a-tervezes-ejszakaba-nyulo-kormanyules-varhato-867884",
+          "summary": "Számos gazdasági és politikai bejelentés érkezett egy nap leforgása alatt. A kormány szigorítaná az MNB ellenőrzését és felezné a tiszteletdíjakat, miközben a NAV öt évre visszamenőleg is átvilágíthatja a politikusokat. Visszatér a KATA kedvezőbb feltételekkel, a vállalkozók akár dupla akkora hitelt is felvehetnek. Magyar Péter módosítaná a vagyonadó-terveket, Vitézy Dávid pedig a Rákosrendező fejlesztésének részleteit ismertette, az NKA-pénzek elosztásában pedig jelentősen csökken a miniszteri hatáskör.",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261007/tisza-kormany-zajlik-a-tervezes-ejszakaba-nyulo-kormanyules-varhato-867884"
+        ]
+      },
+      "date": "2026-10-07",
+      "date_label": "október 7.",
+      "url": "/kozelet/2026-10-07-felezik-a-tiszteletdijakat-es-atvilagithatjak-a-politikusokat/",
+      "seo": {
+        "meta_title": "Felezik a tiszteletdíjakat és átvilágíthatják a politikusoka",
+        "meta_description": "Számos gazdasági és politikai bejelentés rázta meg a napot, miközben a Tisza-kormány éjszakába nyúló ülést tartott a 2027-es költségvetés előkészítéséről. A kab",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-07-felezik-a-tiszteletdijakat-es-atvilagithatjak-a-politikusokat/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "22acb81c935432e5c67501cd3f2cd4957cff7f9a5cd20911605cfcdfb4c798f3",
+      "pipeline_run_id": "37670415085",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-07T20:59:23+02:00",
+      "updated_at": "2026-10-07T20:59:23+02:00",
+      "published_at": "2026-10-07T20:59:23+02:00",
+      "expires_at": null,
+      "hold": true,
+      "legal": {
+        "level": 2,
+        "issues": [
+          "🔴 „Vitézy Dávid közlekedési és beruházási miniszter” – Vitézy Dávid nem miniszter, téves tisztség. → Vitézy Dávid fővárosi képviselőként vagy szakértőként hivatkozzon."
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-07T19:00:50+00:00",
+        "msg_ids": [
+          3653,
+          3654
+        ],
+        "control_id": 3655
+      }
+    },
+    {
+      "id": "fb59a1de-26ae-5578-ae15-928bdebdd0b5",
+      "slug": "2026-10-07-sportbalesetek-es-egy-veszfekezes-ezert-mutottek-meg-berki-mazsi-orra",
+      "status": "pending",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Berki Mazsi",
+        "TV2",
+        "orrműtét",
+        "bulvár"
+      ],
+      "title": "Sportbalesetek és egy vészfékezés: ezért műtötték meg Berki Mazsi orrát",
+      "subtitle": null,
+      "lead": "Hatalmas kötéssel az arcán jelentkezett be a közösségi oldalain Katona Mazsi, akit nemrég egy háromórás orrműtéttel kezeltek. Az influenszer a TV2 Aktív című műsorában tisztázta, hogy egészségügyi okok és korábbi balesetek miatt volt szükség a beavatkozásra.",
+      "key_points": [
+        "Háromórás orrműtéten esett át Katona Mazsi, akinek a beavatkozásáról a TV2 Aktív műsorában mesélt részletesen.",
+        "A műtétre egy korábbi wakeboardos baleset és egy idén tavaszi autóbaleset okozta orrsövényferdülés miatt volt szükség.",
+        "Mindennapjait a sport mellett a mozaikcsalád szervezése tölti ki, jelenleg ingatlanfejlesztő párjával közösen is dolgoznak.",
+        "Az esetleges esküvőjéről elárulta: bár szeretne menyasszony lenni, a házasság most nem a legfőbb prioritás a számára."
+      ],
+      "content": "Napok óta találgatások övezték Berki Mazsi egészségi állapotát, miután az édesanya kötésbe csomagolt arccal tűnt fel a nyilvánosság előtt. A TV2 Aktív stúdiójában aztán részletesen beszámolt a háromórás beavatkozásról, hangsúlyozva, hogy a műtét mögött nem csupán esztétikai szempontok, hanem súlyos orrsövényferdülés és korábbi sérülések álltak.\n\nA problémák gyökerei évekre nyúlnak vissza: egy korábbi wakeboardos baleset alkalmával deszkával találta el az arcát, ami miatt már akkor sérült az orrszerkezete. Idén tavasszal pedig egy újabb közlekedési szituáció nehezítette a helyzetet: egy vészfékezés során ismét betört az orra, így elkerülhetetlenné vált az orvos felkeresése.\n\nAz édesanya nagy hangsúlyt fektet a gyermek sportolására és jövőbeli fegyelmének megalapozására, miközben a magánéletében egy mozgalmas mozaikcsaládot koordinál ingatlanfejlesztő párjával, Zolival, összehangolva a gyerekek mindennapi teendőit is.\n\nA karrierépítés terén is új fejezetet nyitott: egy testépítővel közösen saját edzőprogramot és sportalkalmazást hoztak létre. A magánéletét feszítő, esetleges esküvőről szóló pletykákra reagálva elmondta, hogy a döntést a párjára bízva alakítják, és bár vágyik a menyasszonyi szerepre, jelenleg a kiegyensúlyozott párkapcsolat jelenti a legfontosabb alapot az életében.",
+      "content_format": "markdown",
+      "body": [
+        "Napok óta találgatások övezték Berki Mazsi egészségi állapotát, miután az édesanya kötésbe csomagolt arccal tűnt fel a nyilvánosság előtt. A TV2 Aktív stúdiójában aztán részletesen beszámolt a háromórás beavatkozásról, hangsúlyozva, hogy a műtét mögött nem csupán esztétikai szempontok, hanem súlyos orrsövényferdülés és korábbi sérülések álltak.",
+        "A problémák gyökerei évekre nyúlnak vissza: egy korábbi wakeboardos baleset alkalmával deszkával találta el az arcát, ami miatt már akkor sérült az orrszerkezete. Idén tavasszal pedig egy újabb közlekedési szituáció nehezítette a helyzetet: egy vészfékezés során ismét betört az orra, így elkerülhetetlenné vált az orvos felkeresése.",
+        "Az édesanya nagy hangsúlyt fektet a gyermek sportolására és jövőbeli fegyelmének megalapozására, miközben a magánéletében egy mozgalmas mozaikcsaládot koordinál ingatlanfejlesztő párjával, Zolival, összehangolva a gyerekek mindennapi teendőit is.",
+        "A karrierépítés terén is új fejezetet nyitott: egy testépítővel közösen saját edzőprogramot és sportalkalmazást hoztak létre. A magánéletét feszítő, esetleges esküvőről szóló pletykákra reagálva elmondta, hogy a döntést a párjára bízva alakítják, és bár vágyik a menyasszonyi szerepre, jelenleg a kiegyensúlyozott párkapcsolat jelenti a legfontosabb alapot az életében."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 203,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/berki-mazsi-orrmutet-tv2-aktiv/pvw8mg5",
+          "title": "Háromórás műtéten esett át Berki Mazsi, most tiszta vizet öntött a pohárba: ezért operálták meg az orrát",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-07T21:00:59+02:00"
+        }
+      ],
+      "quote": {
+        "text": "3 órás volt a műtétem, most ébredtem fel. Kb. egy órája. Ahhoz képest egész jól tudok beszélni. Ez azért van itt, hogy ne legyek véres.",
+        "who": "Katona Mazsi",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Sportbalesetek és egy vészfékezés: ezért műtötték meg Berki Mazsi orrát",
+        "Kötéssel az arcán állt kamera elé Berki Mazsi",
+        "Orrsövényferdülés és mozaikcsalád: ezt vallotta be a TV2 műsorában Berki Mazsi",
+        "Hatalmas kötéssel az arcán bukkant fel a TV2 műsorában Berki Mazsi, ezt mondta a műtétről",
+        "Nem puszta szépészeti beavatkozás volt: mindent elárult az orrműtétjéről Berki Mazsi",
+        "Sportbaleset és autóbaleset tette szükségessé a műtétet: ezért operálták meg Berki Mazsi orrát"
+      ],
+      "clickbait_from": 3,
+      "image_options": [],
+      "story": [
+        {
+          "title": "Háromórás műtéten esett át Berki Mazsi, most tiszta vizet öntött a pohárba: ezért operálták meg az orrát",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/berki-mazsi-orrmutet-tv2-aktiv/pvw8mg5",
+          "summary": "Napok óta lázban tartja az országot a kérdés, mi történt Katona Mazsi – vagy ahogy sokan ismerik: Berki Mazsi – orrával, miután az édesanya hatalmas kötéssel az arcán jelentkezett be a közösségi oldalán. A találgatásoknak most maga az érintett vetett véget. Az Aktív műsorában tiszta vizet öntött a pohárba az egészségügyi beavatkozásról, de a mozaikcsaládjuk mindennapjairól és a lehetséges esküvőről is elárult titkokat.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/berki-mazsi-orrmutet-tv2-aktiv/pvw8mg5"
+        ]
+      },
+      "date": "2026-10-07",
+      "date_label": "október 7.",
+      "url": "/bulvar/2026-10-07-sportbalesetek-es-egy-veszfekezes-ezert-mutottek-meg-berki-mazsi-orra/",
+      "seo": {
+        "meta_title": "Sportbalesetek és egy vészfékezés: ezért műtötték meg Berki ",
+        "meta_description": "Hatalmas kötéssel az arcán jelentkezett be a közösségi oldalain Katona Mazsi, akit nemrég egy háromórás orrműtéttel kezeltek. Az influenszer a TV2 Aktív című mű",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-07-sportbalesetek-es-egy-veszfekezes-ezert-mutottek-meg-berki-mazsi-orra/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "7cd8bc04-951a-5bbc-b1f9-384a5d4c02dc"
+      ],
+      "see_also": [
+        {
+          "title": "Ilyen rendetlenséggel küzd Berki Mazsi otthon",
+          "url": "/bulvar/2026-10-02-ilyen-rendetlenseggel-kuzd-berki-mazsi-otthon/",
+          "date": "2026-10-02"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "ddad9e949b5c9ee577b0ca2da102dde4b5bfb848f56137e322dff9236073264a",
+      "pipeline_run_id": "37670415085",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-07T21:00:59+02:00",
+      "updated_at": "2026-10-07T21:00:59+02:00",
+      "published_at": "2026-10-07T21:00:59+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": -1,
+        "sent_at": "2026-10-07T19:02:15+00:00",
+        "msg_ids": [
+          3656,
+          3657
+        ],
+        "control_id": 3658
+      }
+    },
+    {
+      "id": "cb3f5ef4-4f26-5421-9244-edf82ef0d40f",
+      "slug": "2026-10-07-a-curiosity-hajnalt-fotozott-a-mars-szelvajta-sziklai-kozott",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "Mars",
+        "Curiosity",
+        "NASA",
+        "űrkutatás",
+        "csillagászat"
+      ],
+      "title": "A Curiosity hajnalt fotózott a Mars szélvájta sziklái között",
+      "subtitle": null,
+      "lead": "A NASA Curiosity nevű marsi járgánya lenyűgöző panorámaképet készített a távoli, szél vájta sziklaformációkról egy marsi napfelkelte idején. A felvétel nemcsak esztétikai élményt nyújt, hanem fontos geológiai kérdésekre is választ adhat a kutatóknak.",
+      "key_points": [
+        "A Curiosity 2026. augusztus 11-én, a küldetés 4982. marsi napján örökítette meg a napfelkeltét.",
+        "A fotók középpontjában a yardangoknak nevezett, szél által formált távoli sziklaformációk állnak.",
+        "A tudósok jelenleg azt vizsgálják, hogyan alakulhattak ki ezek a jellegzetes kőzetrétegek."
+      ],
+      "content": "A NASA Curiosity Mars roverje augusztus 11-én rögzítette azt a részletes panorámaképet, amelyen a felkelő Nap fénye világítja meg a távoli, szél vájta sziklaformációkat. Az eseményre a küldetés 4982. marsi napján, azaz solján került sor a vörös bolygón.\n\nA felvételeken jól kivehetők a yardangok, vagyis azok a hosszúkás, szél által formált sziklavonulatok, amelyek tanulmányozása régóta lázban tartja a kutatókat. A tudósok most arra keresik a választ, hogy pontosan milyen geológiai folyamatok és rétegződések hozták létre ezeket a különleges képződményeket.\n\nA NASA által közzétett anyagokban a fő panoráma mellett egy részletfotó is szerepel, amely közelebbről mutatja be a távoli sziklákat. A jármű 2014 óta végzi szisztematikusan a felszíni megfigyeléseket, folyamatosan gyűjtve az adatokat a bolygó egykori környezetéről és felszíni alakulásáról.",
+      "content_format": "markdown",
+      "body": [
+        "A NASA Curiosity Mars roverje augusztus 11-én rögzítette azt a részletes panorámaképet, amelyen a felkelő Nap fénye világítja meg a távoli, szél vájta sziklaformációkat. Az eseményre a küldetés 4982. marsi napján, azaz solján került sor a vörös bolygón.",
+        "A felvételeken jól kivehetők a yardangok, vagyis azok a hosszúkás, szél által formált sziklavonulatok, amelyek tanulmányozása régóta lázban tartja a kutatókat. A tudósok most arra keresik a választ, hogy pontosan milyen geológiai folyamatok és rétegződések hozták létre ezeket a különleges képződményeket.",
+        "A NASA által közzétett anyagokban a fő panoráma mellett egy részletfotó is szerepel, amely közelebbről mutatja be a távoli sziklákat. A jármű 2014 óta végzi szisztematikusan a felszíni megfigyeléseket, folyamatosan gyűjtve az adatokat a bolygó egykori környezetéről és felszíni alakulásáról."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 153,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Curiosity_-_Robot_Geologist_and_Chemist_in_One%21.jpg/1280px-Curiosity_-_Robot_Geologist_and_Chemist_in_One%21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 675,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "This artist's concept features NASA's Mars Science Laboratory Curiosity rover, a mobile robot for investigating Mars' past or present ability to sustain microbial life. Curiosity landed near the Marti",
+        "credit": "NASA/JPL-Caltech / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Curiosity_-_Robot_Geologist_and_Chemist_in_One!.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/",
+          "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-07T21:02:25+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.88,
+      "title_options": [
+        "A Curiosity hajnalt fotózott a Mars szélvájta sziklái között",
+        "Napfelkelte a vörös bolygón: új panorámaképet küldött a Curiosity",
+        "Szél faragta sziklák és marsi napkelte: ezt fotózta a NASA roverje",
+        "Ilyen a napfelkelte a Marson: lenyűgöző panorámát küldött a NASA robotja",
+        "Több ezer napja dolgozik a Marson, de még mindig képes lenyűgöző fotókat küldeni a Curiosity",
+        "Hatalmas szélvájta sziklák látszanak a NASA roverének legfrissebb felvételén"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Curiosity_-_Robot_Geologist_and_Chemist_in_One%21.jpg/1280px-Curiosity_-_Robot_Geologist_and_Chemist_in_One%21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "This artist's concept features NASA's Mars Science Laboratory Curiosity rover, a mobile robot for investigating Mars' past or present ability to sustain microbial life. Curiosity landed near the Marti",
+          "credit": "NASA/JPL-Caltech / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Curiosity_-_Robot_Geologist_and_Chemist_in_One!.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/PIA16239_High-Resolution_Self-Portrait_by_Curiosity_Rover_Arm_Camera.jpg/1280px-PIA16239_High-Resolution_Self-Portrait_by_Curiosity_Rover_Arm_Camera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1668,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "On Sol 84 (Oct. 31, 2012), NASA's Curiosity rover used the Mars Hand Lens Imager (MAHLI) to capture this set of 55 high-resolution images, which were stitched together to create this full-color self-p",
+          "credit": "NASA/JPL-Caltech/Malin Space Science Systems\nDerivative work including grading,  / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:PIA16239_High-Resolution_Self-Portrait_by_Curiosity_Rover_Arm_Camera.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Mars_landscape_dry_wet.png/1280px-Mars_landscape_dry_wet.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "This artist’s concept depicts the early Martian environment (right) – believed to contain liquid water and a thicker atmosphere – versus the cold, dry environment seen at Mars today (left).",
+          "credit": "NASA’s Goddard Space Flight Center / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mars_landscape_dry_wet.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Mars_Pathfinder_Presidential_Panorama.jpg/1280px-Mars_Pathfinder_Presidential_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 208,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Various images of the Sojourner rover shot by the Pathfinder cameras have been composited into the 360 degree Presidential Panorama. Since the camera's position was consistent, it is thus possible to",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mars_Pathfinder_Presidential_Panorama.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/%27Yardangs%27_on_the_surface_of_Mars_ESA239525.jpg/1280px-%27Yardangs%27_on_the_surface_of_Mars_ESA239525.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 882,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "These images of ‘yardangs’, features sculpted by wind-blown sand seen here near Olympus Mons on Mars, were obtained by the High Resolution Stereo Camera (HRSC) on board the ESA Mars Express spacecraft",
+          "credit": "European Space Agency / Wikimedia Commons",
+          "license": "CC BY-SA 3.0 igo",
+          "source_url": "https://commons.wikimedia.org/wiki/File:%27Yardangs%27_on_the_surface_of_Mars_ESA239525.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Henry_crater_yardangs_G05_020124_1916_XI_11N336W.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1659,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Northeastern portion of Henry crater on Mars.  Linear hills are called yardangs and are sculpted to their shape by wind.\nImage ID\tG05_020124_1916_XI_11N336W\nCenter Lat\t11.68°\nCenter Lon\t23.72°\nLocal T",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Henry_crater_yardangs_G05_020124_1916_XI_11N336W.jpg"
+        },
+        {
+          "url": "https://pixabay.com/get/gd7f623d17c9af80e5c17903cd7a82bd6dc60b8fefa4738cceccee730c9bd26b0e7a4331afa99245c1fe29c3885db5ae659949ffa605c7a788cce60fd3dbb9206_1280.jpg",
+          "width": 5000,
+          "height": 3338,
+          "kind": "photo",
+          "alt": "altai mountains, mars, landscape, martian landscape, kyzyl-chin, mountains, nature, altai, kosh-agach, russia",
+          "credit": "DariaBelykh / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/altai-mountains-mars-landscape-6690400/"
+        }
+      ],
+      "story": [
+        {
+          "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
+          "link": "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/",
+          "summary": "Description NASA’s Curiosity Mars rover captured this panorama of sunrise illuminating distant, wind-carved features called yardangs on Aug. 11, 2026, the 4,982nd Martian day, or sol, of the mission. Scientists are eager to learn more about how the yardang layer formed. Figure A is a crop zooming in on the distant yardangs. Since 2014, Curiosity […]",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": 5.88
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/"
+        ]
+      },
+      "date": "2026-10-07",
+      "date_label": "október 7.",
+      "url": "/tech/2026-10-07-a-curiosity-hajnalt-fotozott-a-mars-szelvajta-sziklai-kozott/",
+      "seo": {
+        "meta_title": "A Curiosity hajnalt fotózott a Mars szélvájta sziklái között",
+        "meta_description": "A NASA Curiosity nevű marsi járgánya lenyűgöző panorámaképet készített a távoli, szél vájta sziklaformációkról egy marsi napfelkelte idején. A felvétel nemcsak ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-07-a-curiosity-hajnalt-fotozott-a-mars-szelvajta-sziklai-kozott/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Curiosity_-_Robot_Geologist_and_Chemist_in_One%21.jpg/1280px-Curiosity_-_Robot_Geologist_and_Chemist_in_One%21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "c3852c2b0fd0aec808af95f1e70ff641c4d42592cf5e94397efbefa6a51a4450",
+      "pipeline_run_id": "37670415085",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-07T21:02:25+02:00",
+      "updated_at": "2026-10-07T21:02:25+02:00",
+      "published_at": "2026-10-07T21:02:25+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-07T19:03:29+00:00",
+        "msg_ids": [
+          3659,
+          3660,
+          3661,
+          3662,
+          3663,
+          3664,
+          3665,
+          3666
+        ],
+        "control_id": 3667
+      }
     }
   ]
 }
