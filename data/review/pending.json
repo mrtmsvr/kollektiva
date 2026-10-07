@@ -9430,10 +9430,7 @@
       "title_options": [
         "Napfogyatkozást és becsapódásokat rögzítettek az Artemis II fedélzetén",
         "Új részleteket közölt a NASA az Artemis II holdi megfigyeléseiről",
-        "Megjelentek az első részletek az Artemis II történelmi holdtúrájáról",
-        "Ezt a képet mentette le egy táblagépre az Artemis II űrhajósa",
-        "Rejtélyes fényvillanásokra lettek figyelmesek a Holdnál járó asztronauták",
-        "Ilyen látványt nyújt a Napfogyatkozás a Holdról nézve"
+        "Megjelentek az első részletek az Artemis II történelmi holdtúrájáról"
       ],
       "clickbait_from": 3,
       "image_options": [
@@ -9512,11 +9509,13 @@
       "review": {
         "title": 0,
         "image": 0,
-        "sent_at": "2026-10-07T17:17:20+00:00",
-        "msg_ids": [],
-        "control_id": 3648,
-        "title_prompt_id": null,
-        "compact": "⏱ Magától kint"
+        "sent_at": "2026-10-07T17:48:32+00:00",
+        "msg_ids": [
+          3649,
+          3650,
+          3651
+        ],
+        "control_id": 3652
       },
       "live": true
     }
