@@ -1,5 +1,22 @@
 {
-  "posts": [],
+  "posts": [
+    {
+      "id": "119df1a812",
+      "art_id": "fb1b194b-0925-5c72-a644-a778a2ae1cb8",
+      "title": "Egymilliárd felett indul a vagyonadó, jön az új kata-rendszer",
+      "url": "/kozelet/2026-10-07-egymilliard-felett-indul-a-vagyonado-jon-az-uj-kata-rendszer/",
+      "card": "public/img/ig/2026-10-07-egymilliard-felett-indul-a-vagyonado-jon-az-uj-kata-rendsze.jpg",
+      "card_url": "https://xn--kollektva-m5a.hu/public/img/ig/2026-10-07-egymilliard-felett-indul-a-vagyonado-jon-az-uj-kata-rendsze.jpg",
+      "caption": "Egymilliárd felett indul a vagyonadó, jön az új kata-rendszer\n\nTársadalmi egyeztetésre bocsátja a kormány a vagyonadó módosított tervét, valamint jelentős változásokat készít elő a katában. A tervezett intézkedések a legvagyonosabbakat és a kisadózókat is közvetlenül érintik.\n\n👉 A teljes cikk a kollektíva.hu-n – link a bióban.\n\n#hírek #kollektíva #közélet #vagyonadó #kata #adóreform #nav #gazdaság",
+      "created": "2026-10-07T08:39:52+02:00",
+      "due": "2026-10-07T09:24:52+02:00",
+      "status": "queued",
+      "tg": [
+        3392,
+        3393
+      ]
+    }
+  ],
   "token": {
     "from": "869d20647902",
     "first_seen": "2026-10-06T22:54:59+02:00"
