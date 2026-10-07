@@ -10420,10 +10420,7 @@
       "title_options": [
         "Veszélyes elektromos mező várja az űrhajósokat a Hold déli sarkán",
         "Áramütéstől retteghetnek az űrhajósok a Holdon",
-        "Statikus elektromosság nehezítheti a Hold felszínének kutatását",
-        "Ezt a rejtett veszélyt fedezték fel a Hold sötét zónáiban",
-        "Miért épül fel veszélyes feszültség a szkafanderekben a Holdon?",
-        "Láthatatlan elektromos csapda várja a Holdra lépő embereket"
+        "Statikus elektromosság nehezítheti a Hold felszínének kutatását"
       ],
       "clickbait_from": 3,
       "image_options": [
@@ -10502,11 +10499,13 @@
       "review": {
         "title": 0,
         "image": 0,
-        "sent_at": "2026-10-06T20:50:51+00:00",
-        "msg_ids": [],
-        "control_id": 3289,
-        "title_prompt_id": null,
-        "compact": "⏱ Magától kint"
+        "sent_at": "2026-10-07T06:17:20+00:00",
+        "msg_ids": [
+          3317,
+          3318,
+          3319
+        ],
+        "control_id": 3320
       },
       "live": true
     },
@@ -10578,10 +10577,7 @@
       "title_options": [
         "Két évszázad után záratná be a brit konzulátust Izrael",
         "Titkos tárgyalások zajlanak London és Tel-Aviv között",
-        "Ciszjordániai szankciók miatt borult ki a diplomáciai bili",
-        "Diplomáciai atomcsapás: diplomaták kiutasításával fenyegetőzik London",
-        "Titkosügynök mentené a menthetőt a brit-izraeli válságban",
-        "Hatalmas a feszültség: percek alatt robbanhat a bomba a Közel-Keleten"
+        "Ciszjordániai szankciók miatt borult ki a diplomáciai bili"
       ],
       "clickbait_from": 3,
       "image_options": [
@@ -10672,11 +10668,14 @@
       "review": {
         "title": 0,
         "image": 0,
-        "sent_at": "2026-10-06T20:52:50+00:00",
-        "msg_ids": [],
-        "control_id": 3294,
-        "title_prompt_id": null,
-        "compact": "⏱ Magától kint"
+        "sent_at": "2026-10-07T06:17:22+00:00",
+        "msg_ids": [
+          3321,
+          3322,
+          3323,
+          3324
+        ],
+        "control_id": 3325
       },
       "live": true
     },
