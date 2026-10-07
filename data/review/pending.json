@@ -10038,39 +10038,51 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg/1280px-Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Chisinau_Airport_KIV.jpg/1280px-Chisinau_Airport_KIV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 706,
+          "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": "Arch of Triumph, Chișinău, Republic of Moldova",
-          "credit": "Photobank MD from Chisinau, Moldova / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Arch_of_Triumph,_Chisinau,_Republic_of_Moldova_(51160304626_cropped).jpg",
+          "alt": "Chisinau Chisinau International Airport (RMO).",
+          "credit": "Simiprof / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Chisinau_Airport_KIV.jpg",
           "vision_score": 8.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg/1280px-Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Statue_of_Pilot_and_two_Stewardesses_at_Chisinau_Airport.jpg/1280px-Statue_of_Pilot_and_two_Stewardesses_at_Chisinau_Airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 800,
+          "height": 675,
           "kind": "photo",
           "pos": "center",
-          "alt": "Moldova - landscape in Hîncești District",
-          "credit": "Pudelek / Wikimedia Commons",
+          "alt": "Statue of a pilot leading a group of two stewardesses walking",
+          "credit": "Duesseljan / Wikimedia Commons",
           "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Statue_of_Pilot_and_two_Stewardesses_at_Chisinau_Airport.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Jewish_Cultural_Centre_Chisinau_1.jpg/1280px-Jewish_Cultural_Centre_Chisinau_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The seat of the Jewish community of Moldova.",
+          "credit": "Duesseljan / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Jewish_Cultural_Centre_Chisinau_1.jpg",
           "vision_score": 7.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_02.jpg/1280px-Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Russian_peaceworkers_in_Transnistria_%282012-07-27%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
           "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "Moldova - landscape in Hîncești District",
-          "credit": "Pudelek / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_02.jpg",
+          "alt": "Служебные обязанности российских миротворцев в Приднестровском регионе Республики Молдова",
+          "credit": "Вадим Савицкий / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Russian_peaceworkers_in_Transnistria_(2012-07-27)_08.jpg",
           "vision_score": 6.0
         }
       ],
@@ -10129,10 +10141,29 @@
           3613,
           3614,
           3615,
-          3616
+          3616,
+          3621,
+          3622,
+          3623,
+          3624
         ],
-        "control_id": 3617
-      }
+        "control_id": 3625
+      },
+      "image_queries": [
+        "Moldova flag",
+        "Chisinau",
+        "Transnistria",
+        "Chisinau International Airport",
+        "Eugen Boico",
+        "wine bottles and glasses",
+        "business forum presentation",
+        "geopolitical map"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg/1280px-Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_02.jpg/1280px-Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg/1280px-Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "45bc5962-ed40-5601-8c56-4babeb387b87",
