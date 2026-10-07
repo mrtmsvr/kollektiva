@@ -11013,15 +11013,15 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/C%C4%83lin_Popescu-T%C4%83riceanu_at_a_government_meeting.jpg",
-          "width": 1000,
-          "height": 798,
+          "url": "https://pixabay.com/get/gd21501b1ab8a625a210c942ff42219afe8dc10f076ff3046932ef249dc9cb79908d0aa82c0ec0b21c56d8364385bd714dbf84f5db9e1862a9e62bf4afaca6bbe_1280.jpg",
+          "width": 5472,
+          "height": 3648,
           "kind": "photo",
-          "alt": "Călin Popescu-Tăriceanu at a government meeting",
-          "credit": "DAPP / wikimedia",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/w/index.php?curid=2123594",
-          "vision_score": 10.0
+          "alt": "computer, summary, chart, business, seo, presentation, business presentation, screen, laptop screen, growth, notebook, laptop, digital notebook, computer, chart, business, business, seo, seo, seo, seo",
+          "credit": "Lalmch / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/computer-summary-chart-business-767776/",
+          "vision_score": 5.0
         }
       ],
       "story": [
@@ -11101,9 +11101,10 @@
           3372,
           3373,
           3374,
-          3403
+          3403,
+          3406
         ],
-        "control_id": 3404
+        "control_id": 3408
       },
       "image_queries": [
         "Andras Karaman",
@@ -11114,9 +11115,17 @@
         "2027 Hungarian budget",
         "government meeting",
         "economic conference",
-        "budget presentation"
+        "budget presentation",
+        "Erdőbénye village",
+        "Ministry of Finance Hungary",
+        "Budapest Economic Forum",
+        "Hungarian parliament building",
+        "financial chart",
+        "business meeting",
+        "economic growth"
       ],
       "images_seen": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/15/C%C4%83lin_Popescu-T%C4%83riceanu_at_a_government_meeting.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Ministry_of_Finance%2C_SW_gate%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg/1280px-Ministry_of_Finance%2C_SW_gate%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Ministry_of_Finance%2C_SE_corner%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg/1280px-Ministry_of_Finance%2C_SE_corner%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
