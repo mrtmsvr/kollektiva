@@ -10683,7 +10683,7 @@
     {
       "id": "b06581ee-3a23-5f7a-a984-bcdf5f2de6f4",
       "slug": "2026-10-07-megsem-csodaszer-a-keto-a-belrendszerben-pusztithat-a-zsiralapu-dieta",
-      "status": "pending",
+      "status": "published",
       "category": "eletmod",
       "subcategory": null,
       "tags": [
@@ -10715,15 +10715,15 @@
       "word_count": 313,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ketogenic_diet_over_12_months.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Blausen_0817_SmallIntestine_Anatomy.png/1280px-Blausen_0817_SmallIntestine_Anatomy.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 1143,
+        "height": 1200,
         "kind": "photo",
         "pos": "top",
-        "alt": "Seizure-frequency reduction over 12 months on the ketogenic diet. From a prospective study of 150 children treated at Johns Hopkins Hospital.\nSource: Freeman JM, Vining EP, Pillas DJ, Pyzik PL, Casey",
-        "credit": "Colin / Wikimedia Commons",
-        "license": "Public domain",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Ketogenic_diet_over_12_months.png"
+        "alt": "Small Intestine.  See a full animation of this medical topic.",
+        "credit": "BruceBlaus. When using this image in external sources it can be cited as:\n\nBlaus / Wikimedia Commons",
+        "license": "CC BY 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Blausen_0817_SmallIntestine_Anatomy.png"
       },
       "inline_images": [],
       "sources": [
@@ -10868,7 +10868,7 @@
         "meta_title": "Mégsem csodaszer a keto: a bélrendszerben pusztíthat a zsíra",
         "meta_description": "A rendkívül zsíros, szénhidrátszegény ketogén étrend eddig ismeretlen kockázataira figyelmeztetnek kutatók, miután kiderült, hogy a diéta alapkövének számító zs",
         "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-07-megsem-csodaszer-a-keto-a-belrendszerben-pusztithat-a-zsiralapu-dieta/",
-        "og_image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ketogenic_diet_over_12_months.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Blausen_0817_SmallIntestine_Anatomy.png/1280px-Blausen_0817_SmallIntestine_Anatomy.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -10885,9 +10885,9 @@
       "dedupe_hash": "b76adfb71d1412e60a3eb1b4d27e724800f6d9fd84dedb02c64876e64225a64d",
       "pipeline_run_id": "37621495052",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-07T14:45:22+02:00",
-      "updated_at": "2026-10-07T14:45:22+02:00",
-      "published_at": "2026-10-07T14:45:22+02:00",
+      "created_at": "2026-10-07T14:47:40+02:00",
+      "updated_at": "2026-10-07T14:47:40+02:00",
+      "published_at": "2026-10-07T14:47:40+02:00",
       "expires_at": null,
       "legal": {
         "level": 1,
@@ -10903,19 +10903,12 @@
         "title": 0,
         "image": 5,
         "sent_at": "2026-10-07T12:46:46+00:00",
-        "msg_ids": [
-          3553,
-          3554,
-          3555,
-          3556,
-          3557,
-          3558,
-          3559,
-          3560,
-          3561
-        ],
-        "control_id": 3562
-      }
+        "msg_ids": [],
+        "control_id": 3562,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     }
   ]
 }
