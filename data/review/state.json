@@ -1,5 +1,5 @@
 {
-  "offset": 391604764,
+  "offset": 391604765,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -66,7 +66,8 @@
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/braham-edit-baratok-kozt-23-ev-aldozat-atok-szerep/nezb87z",
     "https://www.blikk.hu/sztarvilag/filmklikk/eva-marie-saint-meghalt-102-eves-oscar-dijas-szineszno-hollywood/w3xt0hb",
     "https://www.portfolio.hu/deviza/20261007/utik-az-eurot-szenved-a-forint-867880",
-    "https://hvg.hu/itthon/20261007_magyar-olimpia-lehet-2036-ban-januartol-elesedik-a-vagyonado-fasy-feleseget-kiengedtek-newscast"
+    "https://hvg.hu/itthon/20261007_magyar-olimpia-lehet-2036-ban-januartol-elesedik-a-vagyonado-fasy-feleseget-kiengedtek-newscast",
+    "https://telex.hu/techtud/2026/10/07/kemiai-nobel-dij-henri-b-kagan-kenso-soai-molekula-tukorkep-aszimmetria"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
