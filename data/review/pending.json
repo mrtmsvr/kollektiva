@@ -11031,28 +11031,15 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Ministry_of_Finance%2C_SE_corner%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg/1280px-Ministry_of_Finance%2C_SE_corner%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1600,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/C%C4%83lin_Popescu-T%C4%83riceanu_at_a_government_meeting.jpg",
+          "width": 1000,
+          "height": 798,
           "kind": "photo",
-          "pos": "top",
-          "alt": ": Part of Budapest World Heritage Site. Former bank building now Ministry of Finance. Southeast corner detail. Sleet or snow. - 2-3-4 József nádor Square, Lipótváros neighborhood, District V of Budap",
-          "credit": "Globetrotter19 / Wikimedia Commons",
+          "alt": "Călin Popescu-Tăriceanu at a government meeting",
+          "credit": "DAPP / wikimedia",
           "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance,_SE_corner,_2019_Lip%C3%B3tv%C3%A1ros.jpg",
-          "vision_score": 7.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Ministry_of_Finance%2C_SW_gate%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg/1280px-Ministry_of_Finance%2C_SW_gate%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1600,
-          "kind": "photo",
-          "pos": "top",
-          "alt": ": Part of Budapest World Heritage Site. Former bank building now Ministry of Finance. Southwest gate/portal with 3+3 relief and two bronze?, round, wall lanterns - 2-3-4 József nádor Square, Lipótvár",
-          "credit": "Globetrotter19 / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ministry_of_Finance,_SW_gate,_2019_Lip%C3%B3tv%C3%A1ros.jpg",
-          "vision_score": 7.0
+          "source_url": "https://commons.wikimedia.org/w/index.php?curid=2123594",
+          "vision_score": 10.0
         }
       ],
       "story": [
@@ -11131,10 +11118,26 @@
         "msg_ids": [
           3372,
           3373,
-          3374
+          3374,
+          3403
         ],
-        "control_id": 3375
-      }
+        "control_id": 3404
+      },
+      "image_queries": [
+        "Andras Karaman",
+        "Erdobeny",
+        "Hungarian Ministry of Finance",
+        "Portfolio Budapest Economic Forum 2026",
+        "European Union funding",
+        "2027 Hungarian budget",
+        "government meeting",
+        "economic conference",
+        "budget presentation"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Ministry_of_Finance%2C_SW_gate%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg/1280px-Ministry_of_Finance%2C_SW_gate%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Ministry_of_Finance%2C_SE_corner%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg/1280px-Ministry_of_Finance%2C_SE_corner%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "cddd0968-3d5e-55d1-bb3e-e454ef53910e",
