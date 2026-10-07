@@ -1,5 +1,5 @@
 {
-  "offset": 391604674,
+  "offset": 391604675,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -61,7 +61,8 @@
     "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/hazassag-elso-latasra-bantalmazas-tucsi",
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/molnar-aniko-vegrehajtas-auto-tartozas-jogorvoslat/chyepkh",
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/boraros-gabor-jakli-monika-tragdia-halal-gyerek/bp8v1z2",
-    "https://www.blikk.hu/sztarvilag/hazai-sztarok/az-arulok-konfliktus-rainer-micsinyei-vona-gabor/wd1rmhr"
+    "https://www.blikk.hu/sztarvilag/hazai-sztarok/az-arulok-konfliktus-rainer-micsinyei-vona-gabor/wd1rmhr",
+    "https://science.nasa.gov/image-article/apod-2026-october-7-supernova-remnant-pa-30/"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
