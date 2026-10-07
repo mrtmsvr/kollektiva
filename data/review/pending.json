@@ -10038,52 +10038,64 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Chisinau_Airport_KIV.jpg/1280px-Chisinau_Airport_KIV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Cricova_Winery_-_Moldova_%28by_David_Stanley%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
           "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": "Chisinau Chisinau International Airport (RMO).",
-          "credit": "Simiprof / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Chisinau_Airport_KIV.jpg",
+          "alt": "The Cricova Winery just north of Chisinau, Moldova, ages its production in underground tunnels such as this.",
+          "credit": "D-Stanley / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Cricova_Winery_-_Moldova_(by_David_Stanley).jpg",
           "vision_score": 8.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Statue_of_Pilot_and_two_Stewardesses_at_Chisinau_Airport.jpg/1280px-Statue_of_Pilot_and_two_Stewardesses_at_Chisinau_Airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Cricova_State_Winery_%2838108339585%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 675,
+          "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": "Statue of a pilot leading a group of two stewardesses walking",
-          "credit": "Duesseljan / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Statue_of_Pilot_and_two_Stewardesses_at_Chisinau_Airport.jpg",
+          "alt": "In 1952, 120 kilometers of 15th century mine tunnels 80 meters underground were converted to store wine at the state winery at Cricova, Moldova.",
+          "credit": "David Stanley from Nanaimo, Canada / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Cricova_State_Winery_(38108339585).jpg",
           "vision_score": 8.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Jewish_Cultural_Centre_Chisinau_1.jpg/1280px-Jewish_Cultural_Centre_Chisinau_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 675,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "The seat of the Jewish community of Moldova.",
-          "credit": "Duesseljan / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Jewish_Cultural_Centre_Chisinau_1.jpg",
-          "vision_score": 7.0
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Russian_peaceworkers_in_Transnistria_%282012-07-27%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Monasterio_Orheiul_Vechi%2C_Orhei%2C_Moldavia%2C_2023-11-02%2C_DD_12.jpg/1280px-Monasterio_Orheiul_Vechi%2C_Orhei%2C_Moldavia%2C_2023-11-02%2C_DD_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 800,
           "kind": "photo",
           "pos": "center",
-          "alt": "Служебные обязанности российских миротворцев в Приднестровском регионе Республики Молдова",
-          "credit": "Вадим Савицкий / Wikimedia Commons",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Russian_peaceworkers_in_Transnistria_(2012-07-27)_08.jpg",
-          "vision_score": 6.0
+          "alt": "This file illustrates a cultural heritage monument in Moldova, ID",
+          "credit": "Diego Delso / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Monasterio_Orheiul_Vechi,_Orhei,_Moldavia,_2023-11-02,_DD_12.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Monasterio_Orheiul_Vechi%2C_Orhei%2C_Moldavia%2C_2023-11-02%2C_DD_06.jpg/1280px-Monasterio_Orheiul_Vechi%2C_Orhei%2C_Moldavia%2C_2023-11-02%2C_DD_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "This file illustrates a cultural heritage monument in Moldova, ID",
+          "credit": "Diego Delso / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Monasterio_Orheiul_Vechi,_Orhei,_Moldavia,_2023-11-02,_DD_06.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Bender_Fortress._South_side_03.JPG/1280px-Bender_Fortress._South_side_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "South side of the Bender Fortress",
+          "credit": "Ivo Kruusamägi / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bender_Fortress._South_side_03.JPG",
+          "vision_score": 8.0
         }
       ],
       "story": [
@@ -10145,9 +10157,14 @@
           3621,
           3622,
           3623,
-          3624
+          3624,
+          3627,
+          3628,
+          3629,
+          3630,
+          3631
         ],
-        "control_id": 3625
+        "control_id": 3632
       },
       "image_queries": [
         "Moldova flag",
@@ -10157,12 +10174,24 @@
         "Eugen Boico",
         "wine bottles and glasses",
         "business forum presentation",
-        "geopolitical map"
+        "geopolitical map",
+        "Cricova winery",
+        "Orhei Vechi",
+        "Tighina Castle",
+        "Bender fortress",
+        "Sheriff Stadium",
+        "wine cellar",
+        "drone in the sky",
+        "business conference"
       ],
       "images_seen": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg/1280px-Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_02.jpg/1280px-Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg/1280px-Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "https://upload.wikimedia.org/wikipedia/commons/0/01/Russian_peaceworkers_in_Transnistria_%282012-07-27%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Jewish_Cultural_Centre_Chisinau_1.jpg/1280px-Jewish_Cultural_Centre_Chisinau_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg/1280px-Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Statue_of_Pilot_and_two_Stewardesses_at_Chisinau_Airport.jpg/1280px-Statue_of_Pilot_and_two_Stewardesses_at_Chisinau_Airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg/1280px-Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Chisinau_Airport_KIV.jpg/1280px-Chisinau_Airport_KIV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
     },
     {
