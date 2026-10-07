@@ -1,7 +1,134 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-07T17:27:31+02:00",
+  "updated_at": "2026-10-07T17:32:07+02:00",
   "articles": [
+    {
+      "id": "e9cf2951-d9e7-5877-99cd-af8b9b997280",
+      "slug": "2026-10-07-a-haboru-tette-fel-a-terkepre-europa-eddigi-legnagyobb-vakfoltjat",
+      "status": "published",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Moldova",
+        "turizmus",
+        "orosz-ukrán háború",
+        "gazdaság",
+        "külpolitika"
+      ],
+      "title": "A háború tette fel a térképre Európa eddigi legnagyobb vakfoltját",
+      "subtitle": null,
+      "lead": "Az ukrajnai fegyveres konfliktus közelsége ellenére Moldova nyitni kezdett a külvilág felé, és idei üzleti fórumának is központi témájává tette az országimázs építését. A nemzetközi figyelem középpontjába került állam azonban komoly kihívásokkal küzd a turizmus és a gazdaság területén.",
+      "key_points": [
+        "Moldova az idei üzleti fórumán az országimázs erősítésére fókuszált.",
+        "A külföldi látogatók jelentős része a szakadár Dnyeszter Menti Köztársaság iránt érdeklődik.",
+        "Az ország imázsát eddig a szegénység, a Moszkva felől érkező nyomás és a háborús drónok határozták meg."
+      ],
+      "content": "Az Európa legszegényebb állusaként emlegetett Moldova a nemzetközi nyitás jegyében szervezte meg idei üzleti fórumát, amelyen az országimázs fejlesztése kapta a főszerepet. A hvg.hu beszámolója szerint a helyi döntéshozók komoly kihívásokkal szembesülnek a külföldi befektetők és turisták vonzásában, mivel a közvéleményben mélyen gyökeret vertek a sztereotípiák.\n\nA külföldiek körében sokszor félelmet kelt az ukrajnai háború közelsége, különösen az időről időre az ország területére tévedő drónok miatt. Emellett Moszkva folyamatos politikai és információs nyomást gyakorol a vezetésre, hogy megakadályozza az Európai Unió felé vezető integrációs lépéseket.\n\nA turisztikai szektor sajátos kettősséggel szembesül, hiszen a statisztikák szerint a látogatók egyharmada a hivatalos chisinaui kormány ellenőrzésén kívül eső, szovjetpárti Dnyeszter menti szakadár köztársaságra kíváncsi. A helyi borászatok és a gazdag gasztronómiai kínálat ellenére nehéz áttörni a külföldi utazók óvatosságát.\n\nA mindennapi utazók számára ez a helyzet azt jelenti, hogy Moldova – miközben a nyugati piacok és a diszkont légitársaságok járatai révén egyre elérhetőbbé válik – továbbra is a geopolitikai törésvonalak mentén keresi a saját gazdasági jövőjét.",
+      "content_format": "markdown",
+      "body": [
+        "Az Európa legszegényebb állusaként emlegetett Moldova a nemzetközi nyitás jegyében szervezte meg idei üzleti fórumát, amelyen az országimázs fejlesztése kapta a főszerepet. A hvg.hu beszámolója szerint a helyi döntéshozók komoly kihívásokkal szembesülnek a külföldi befektetők és turisták vonzásában, mivel a közvéleményben mélyen gyökeret vertek a sztereotípiák.",
+        "A külföldiek körében sokszor félelmet kelt az ukrajnai háború közelsége, különösen az időről időre az ország területére tévedő drónok miatt. Emellett Moszkva folyamatos politikai és információs nyomást gyakorol a vezetésre, hogy megakadályozza az Európai Unió felé vezető integrációs lépéseket.",
+        "A turisztikai szektor sajátos kettősséggel szembesül, hiszen a statisztikák szerint a látogatók egyharmada a hivatalos chisinaui kormány ellenőrzésén kívül eső, szovjetpárti Dnyeszter menti szakadár köztársaságra kíváncsi. A helyi borászatok és a gazdag gasztronómiai kínálat ellenére nehéz áttörni a külföldi utazók óvatosságát.",
+        "A mindennapi utazók számára ez a helyzet azt jelenti, hogy Moldova – miközben a nyugati piacok és a diszkont légitársaságok járatai révén egyre elérhetőbbé válik – továbbra is a geopolitikai törésvonalak mentén keresi a saját gazdasági jövőjét."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 201,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Monasterio_Orheiul_Vechi%2C_Orhei%2C_Moldavia%2C_2023-11-02%2C_DD_06.jpg/1280px-Monasterio_Orheiul_Vechi%2C_Orhei%2C_Moldavia%2C_2023-11-02%2C_DD_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "This file illustrates a cultural heritage monument in Moldova, ID",
+        "credit": "Diego Delso / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Monasterio_Orheiul_Vechi,_Orhei,_Moldavia,_2023-11-02,_DD_06.jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/360/20261007_moldova-chisinau-turizmus-orszagimazs",
+          "title": "Számunkra a háború valójában jobb pozíciót hozott: megjelentünk a térképen, Moldova nullából hőssé vált",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-07T17:21:07+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-07T17:32:07+02:00"
+      },
+      "hot_score": 5.83,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/360/20261007_moldova-chisinau-turizmus-orszagimazs"
+        ]
+      },
+      "date": "2026-10-07",
+      "date_label": "október 7.",
+      "url": "/vilag/2026-10-07-a-haboru-tette-fel-a-terkepre-europa-eddigi-legnagyobb-vakfoltjat/",
+      "seo": {
+        "meta_title": "A háború tette fel a térképre Európa eddigi legnagyobb vakfo",
+        "meta_description": "Az ukrajnai fegyveres konfliktus közelsége ellenére Moldova nyitni kezdett a külvilág felé, és idei üzleti fórumának is központi témájává tette az országimázs é",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-07-a-haboru-tette-fel-a-terkepre-europa-eddigi-legnagyobb-vakfoltjat/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Monasterio_Orheiul_Vechi%2C_Orhei%2C_Moldavia%2C_2023-11-02%2C_DD_06.jpg/1280px-Monasterio_Orheiul_Vechi%2C_Orhei%2C_Moldavia%2C_2023-11-02%2C_DD_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "4bea837e5f5f080d5766b07872df866789531b14451474b982a2914c5417a2d5",
+      "pipeline_run_id": "37642447287",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-07T17:32:07+02:00",
+      "updated_at": "2026-10-07T17:32:07+02:00",
+      "published_at": "2026-10-07T17:32:07+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "Moldova flag",
+        "Chisinau",
+        "Transnistria",
+        "Chisinau International Airport",
+        "Eugen Boico",
+        "wine bottles and glasses",
+        "business forum presentation",
+        "geopolitical map",
+        "Cricova winery",
+        "Orhei Vechi",
+        "Tighina Castle",
+        "Bender fortress",
+        "Sheriff Stadium",
+        "wine cellar",
+        "drone in the sky",
+        "business conference"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_02.jpg/1280px-Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/0/01/Russian_peaceworkers_in_Transnistria_%282012-07-27%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Jewish_Cultural_Centre_Chisinau_1.jpg/1280px-Jewish_Cultural_Centre_Chisinau_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg/1280px-Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Statue_of_Pilot_and_two_Stewardesses_at_Chisinau_Airport.jpg/1280px-Statue_of_Pilot_and_two_Stewardesses_at_Chisinau_Airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg/1280px-Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Chisinau_Airport_KIV.jpg/1280px-Chisinau_Airport_KIV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
+    },
     {
       "id": "2fbeab1a-9498-5e62-b4ac-850e4978055d",
       "slug": "2026-10-07-lettorszagba-tortek-be-a-szabotorok-mikozben-sulyos-csapas-erte-ukraj",

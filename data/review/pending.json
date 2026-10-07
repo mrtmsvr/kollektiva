@@ -9963,9 +9963,9 @@
       "live": true
     },
     {
-      "id": "df5b519a-0949-5542-be0c-2c74c85ce559",
-      "slug": "2026-10-07-dronok-es-borturika-igy-probal-megujulni-a-szomszedos-kisallam",
-      "status": "pending",
+      "id": "e9cf2951-d9e7-5877-99cd-af8b9b997280",
+      "slug": "2026-10-07-a-haboru-tette-fel-a-terkepre-europa-eddigi-legnagyobb-vakfoltjat",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -9975,7 +9975,7 @@
         "gazdaság",
         "külpolitika"
       ],
-      "title": "Drónok és borturika: így próbál megújulni a szomszédos kisállam",
+      "title": "A háború tette fel a térképre Európa eddigi legnagyobb vakfoltját",
       "subtitle": null,
       "lead": "Az ukrajnai fegyveres konfliktus közelsége ellenére Moldova nyitni kezdett a külvilág felé, és idei üzleti fórumának is központi témájává tette az országimázs építését. A nemzetközi figyelem középpontjába került állam azonban komoly kihívásokkal küzd a turizmus és a gazdaság területén.",
       "key_points": [
@@ -9996,15 +9996,15 @@
       "word_count": 201,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg/1280px-Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Monasterio_Orheiul_Vechi%2C_Orhei%2C_Moldavia%2C_2023-11-02%2C_DD_06.jpg/1280px-Monasterio_Orheiul_Vechi%2C_Orhei%2C_Moldavia%2C_2023-11-02%2C_DD_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 706,
+        "height": 800,
         "kind": "photo",
         "pos": "center",
-        "alt": "Arch of Triumph, Chișinău, Republic of Moldova",
-        "credit": "Photobank MD from Chisinau, Moldova / Wikimedia Commons",
-        "license": "CC0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Arch_of_Triumph,_Chisinau,_Republic_of_Moldova_(51160304626_cropped).jpg",
+        "alt": "This file illustrates a cultural heritage monument in Moldova, ID",
+        "credit": "Diego Delso / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Monasterio_Orheiul_Vechi,_Orhei,_Moldavia,_2023-11-02,_DD_06.jpg",
         "vision_score": 8.0
       },
       "inline_images": [],
@@ -10115,12 +10115,12 @@
       },
       "date": "2026-10-07",
       "date_label": "október 7.",
-      "url": "/vilag/2026-10-07-dronok-es-borturika-igy-probal-megujulni-a-szomszedos-kisallam/",
+      "url": "/vilag/2026-10-07-a-haboru-tette-fel-a-terkepre-europa-eddigi-legnagyobb-vakfoltjat/",
       "seo": {
-        "meta_title": "Drónok és borturika: így próbál megújulni a szomszédos kisál",
+        "meta_title": "A háború tette fel a térképre Európa eddigi legnagyobb vakfo",
         "meta_description": "Az ukrajnai fegyveres konfliktus közelsége ellenére Moldova nyitni kezdett a külvilág felé, és idei üzleti fórumának is központi témájává tette az országimázs é",
-        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-07-dronok-es-borturika-igy-probal-megujulni-a-szomszedos-kisallam/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg/1280px-Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-07-a-haboru-tette-fel-a-terkepre-europa-eddigi-legnagyobb-vakfoltjat/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Monasterio_Orheiul_Vechi%2C_Orhei%2C_Moldavia%2C_2023-11-02%2C_DD_06.jpg/1280px-Monasterio_Orheiul_Vechi%2C_Orhei%2C_Moldavia%2C_2023-11-02%2C_DD_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -10137,9 +10137,9 @@
       "dedupe_hash": "4bea837e5f5f080d5766b07872df866789531b14451474b982a2914c5417a2d5",
       "pipeline_run_id": "37642447287",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-07T17:21:07+02:00",
-      "updated_at": "2026-10-07T17:21:07+02:00",
-      "published_at": "2026-10-07T17:21:07+02:00",
+      "created_at": "2026-10-07T17:32:07+02:00",
+      "updated_at": "2026-10-07T17:32:07+02:00",
+      "published_at": "2026-10-07T17:32:07+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10149,22 +10149,10 @@
         "title": 2,
         "image": 3,
         "sent_at": "2026-10-07T15:22:16+00:00",
-        "msg_ids": [
-          3613,
-          3614,
-          3615,
-          3616,
-          3621,
-          3622,
-          3623,
-          3624,
-          3627,
-          3628,
-          3629,
-          3630,
-          3631
-        ],
-        "control_id": 3632
+        "msg_ids": [],
+        "control_id": 3632,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
       },
       "image_queries": [
         "Moldova flag",
@@ -10192,7 +10180,8 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Statue_of_Pilot_and_two_Stewardesses_at_Chisinau_Airport.jpg/1280px-Statue_of_Pilot_and_two_Stewardesses_at_Chisinau_Airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg/1280px-Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Chisinau_Airport_KIV.jpg/1280px-Chisinau_Airport_KIV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "45bc5962-ed40-5601-8c56-4babeb387b87",
