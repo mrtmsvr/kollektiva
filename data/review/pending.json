@@ -10228,7 +10228,7 @@
       },
       "review": {
         "title": 2,
-        "image": 0,
+        "image": -1,
         "sent_at": "2026-10-07T06:17:25+00:00",
         "msg_ids": [
           3326,
@@ -10237,7 +10237,18 @@
         ],
         "control_id": 3329
       },
-      "live": true
+      "live": true,
+      "image_queries": [
+        "Andras Kovacs",
+        "Janos Hajdu",
+        "Zoltan Szathmary",
+        "Viktor Orbán",
+        "National Tax and Customs Administration",
+        "Counter Terrorism Centre",
+        "government meeting room",
+        "legal documents",
+        "press conference"
+      ]
     },
     {
       "id": "fb1b194b-0925-5c72-a644-a778a2ae1cb8",
