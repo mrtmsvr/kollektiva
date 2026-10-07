@@ -11172,15 +11172,6 @@
       "updated_at": "2026-10-07T06:07:53+02:00",
       "published_at": "2026-10-07T06:07:53+02:00",
       "expires_at": null,
-      "legal": {
-        "level": 1,
-        "issues": [
-          "🟡 bűnügyi tartalom feltételes mód nélkül – „a gyanú szerint”, „nem jogerős”, ártatlanság vélelme"
-        ],
-        "auto_fixed": [
-          "Ellenőrizve a bűnügyi/jogi tartalom hiánya és a semleges megfogalmazás."
-        ]
-      },
       "review": {
         "title": 0,
         "image": -1,
@@ -11189,7 +11180,13 @@
           3303,
           3304
         ],
-        "control_id": 3305
+        "control_id": 3335
+      },
+      "legal": {
+        "level": 1,
+        "issues": [
+          "🟡 bűnügyi tartalom feltételes mód nélkül – „a gyanú szerint”, „nem jogerős”, ártatlanság vélelme"
+        ]
       }
     },
     {
