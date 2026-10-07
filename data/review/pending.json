@@ -11563,7 +11563,7 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/View_from_Buda_Castle_2014_02.jpg/1280px-View_from_Buda_Castle_2014_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 675,
           "kind": "photo",
@@ -11571,30 +11571,8 @@
           "alt": "View from Buda Castle towards the Northern west Budapest as of May 2014.",
           "credit": "Perituss / Wikimedia Commons",
           "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:View_from_Buda_Castle_2014_01.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:View_from_Buda_Castle_2014_02.jpg",
           "vision_score": 8.0
-        },
-        {
-          "url": "https://pixabay.com/get/g978bc0d510a8e3699de433435d486a8b116ad369e6aef9554fe93e9f67b4a4dad936b3dee27fdee52ee256d2697e6a4bce0743078127e3f8264b075730d619fe_1280.jpg",
-          "width": 3034,
-          "height": 1887,
-          "kind": "photo",
-          "alt": "bleachers, soccer field, stadium, field, soccer stadium, football stadium, football, game, nature, grandstand, grass, match, sports, arena, soccer",
-          "credit": "Pexels / Pixabay",
-          "license": "Pixabay License",
-          "source_url": "https://pixabay.com/photos/bleachers-soccer-field-stadium-1867992/",
-          "vision_score": 6.0
-        },
-        {
-          "url": "https://pixabay.com/get/gda89d5c71b4fcebe66225e627a806f3b9077100f609fbfafdd8b2bb3ba8c8743ba6ee380a25121f7e121eb687b7ab95773d9fea040068c4fb91e5f47d2a2ad6a_1280.jpg",
-          "width": 12122,
-          "height": 5776,
-          "kind": "photo",
-          "alt": "architecture, bleachers, stadium, empty, field, panoramic, seats, arena, sports, sports arena, football stadium, soccer stadium, panorama, stadium, stadium, stadium, stadium, stadium, arena, sports, f",
-          "credit": "Pexels / Pixabay",
-          "license": "Pixabay License",
-          "source_url": "https://pixabay.com/photos/architecture-bleachers-stadium-1853520/",
-          "vision_score": 6.0
         }
       ],
       "story": [
@@ -11660,10 +11638,26 @@
           3387,
           3388,
           3389,
-          3390
+          3390,
+          3396
         ],
-        "control_id": 3391
-      }
+        "control_id": 3397
+      },
+      "image_queries": [
+        "Budapest",
+        "International Olympic Committee",
+        "Hungarian Olympic Committee",
+        "Gyulay Zsolt",
+        "2036 Summer Olympics",
+        "sports stadium",
+        "urban transportation",
+        "construction site"
+      ],
+      "images_seen": [
+        "https://pixabay.com/get/gda89d5c71b4fcebe66225e627a806f3b9077100f609fbfafdd8b2bb3ba8c8743ba6ee380a25121f7e121eb687b7ab95773d9fea040068c4fb91e5f47d2a2ad6a_1280.jpg",
+        "https://pixabay.com/get/g978bc0d510a8e3699de433435d486a8b116ad369e6aef9554fe93e9f67b4a4dad936b3dee27fdee52ee256d2697e6a4bce0743078127e3f8264b075730d619fe_1280.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     }
   ]
 }
