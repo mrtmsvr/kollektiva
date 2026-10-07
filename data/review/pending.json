@@ -9743,14 +9743,10 @@
         "title": 4,
         "image": 2,
         "sent_at": "2026-10-06T18:40:23+00:00",
-        "msg_ids": [
-          3277,
-          3278,
-          3279,
-          3280,
-          3281
-        ],
-        "control_id": 3282
+        "msg_ids": [],
+        "control_id": 3282,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
       },
       "live": true
     },
