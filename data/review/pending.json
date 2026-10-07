@@ -9389,12 +9389,10 @@
         "title": 4,
         "image": 0,
         "sent_at": "2026-10-06T18:37:09+00:00",
-        "msg_ids": [
-          3269,
-          3270,
-          3271
-        ],
-        "control_id": 3272
+        "msg_ids": [],
+        "control_id": 3272,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
       },
       "live": true
     },
