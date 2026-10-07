@@ -10747,10 +10747,7 @@
       "title_options": [
         "null",
         "Hogyan lett hirtelen jogszerű a jogtalan fogva tartás?",
-        "Válságtanácskozások az ukrán aranykonvoj ügyében",
-        "Ilyen módszerrel próbálták eltüntetni a hatóságok a legfőbb bökkenőt",
-        "A Telex robbantotta ki: válságtanácskozásokat hívtak össze a titokzatos konvoj ügyében",
-        "Miért ült össze a TEK, a NAV és a titkosszolgálat a választások után hirtelen?"
+        "Válságtanácskozások az ukrán aranykonvoj ügyében"
       ],
       "clickbait_from": 3,
       "image_options": [
@@ -10831,11 +10828,13 @@
       "review": {
         "title": 0,
         "image": 0,
-        "sent_at": "2026-10-06T20:54:50+00:00",
-        "msg_ids": [],
-        "control_id": 3298,
-        "title_prompt_id": null,
-        "compact": "⏱ Magától kint"
+        "sent_at": "2026-10-07T06:17:25+00:00",
+        "msg_ids": [
+          3326,
+          3327,
+          3328
+        ],
+        "control_id": 3329
       },
       "live": true
     },
@@ -10923,10 +10922,7 @@
       "title_options": [
         "Egymilliárd felett indul a vagyonadó, jön az új kata-rendszer",
         "Különadó a milliárdosoknak és új kata: bejelentették a részleteket",
-        "Megszülettek a kormány új adóbejelentései a vagyonadókról és a katáról",
-        "Itt vannak a részletek: ennyit kell fizetniük a leggazdagabbaknak az új vagyonadó miatt",
-        "Meglepő változások a katában és a vagyonadóban: ezt jelentette be a kormány",
-        "Így alakul át a vállalkozók élete: minden, amit az új adószabályokról tudni kell"
+        "Megszülettek a kormány új adóbejelentései a vagyonadókról és a katáról"
       ],
       "clickbait_from": 3,
       "image_options": [
@@ -11040,11 +11036,13 @@
       "review": {
         "title": 0,
         "image": 0,
-        "sent_at": "2026-10-07T04:07:37+00:00",
-        "msg_ids": [],
-        "control_id": 3302,
-        "title_prompt_id": null,
-        "compact": "⏱ Magától kint"
+        "sent_at": "2026-10-07T06:17:27+00:00",
+        "msg_ids": [
+          3330,
+          3331,
+          3332
+        ],
+        "control_id": 3333
       },
       "live": true
     },
