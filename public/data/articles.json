@@ -1,7 +1,108 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-07T17:27:22+02:00",
+  "updated_at": "2026-10-07T17:27:31+02:00",
   "articles": [
+    {
+      "id": "2fbeab1a-9498-5e62-b4ac-850e4978055d",
+      "slug": "2026-10-07-lettorszagba-tortek-be-a-szabotorok-mikozben-sulyos-csapas-erte-ukraj",
+      "status": "published",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Orosz-ukrán háború",
+        "Lettország",
+        "Európai Unió",
+        "szankciók",
+        "rakétatámadás"
+      ],
+      "title": "Lettországba törtek be a szabotőrök, miközben súlyos csapás érte Ukrajnát",
+      "subtitle": null,
+      "lead": "Egy Belaruszhoz köthető szabotőrcsoport lépte át az uniós határt Lettországban, miközben egy halálos kimenetelű rakétatámadás rázta meg az ukrajnai Csernyihiv megyét. A fejlemények rávilágítanak a kontinenst fenyegető hibrid veszélyek fokozódására.",
+      "key_points": [
+        "Egy Belaruszhoz köthető szabotőrcsoport tört be Lettország területére az elmúlt huszonnégy órában.",
+        "Csernyihiv megyében, Prilukij városában egy magasház is összeomlott a hajnali rakétatámadásban, amely legalább tizennégy civil életét követelte.",
+        "Az Európai Unió tagállamai újabb, csaknem ezerhattszáz embert és szervezetet érintő szankciós csomagról állapodtak meg.",
+        "A donyecki fronton állóháború, Zaporizzsjában és Harkivben pedig orosz előretörés tapasztalható."
+      ],
+      "content": "Az elmúlt huszonnégy órában egy Belaruszhoz köthető szabotőrcsoport lépte át Lettország határát, ami a hibrid műveletek fokozódását jelzi az európai térségben. Ezzel párhuzamosan súlyos rakétacsapás érte az észak-ukrajnai Csernyihiv megyében található Prilukij városát, ahol egy lakóépület is összeomlott. A légicsapás következtében legalább tizennégy civil vesztette életét.\n\nA harctéri eseményekkel kapcsolatban egy friss kutatás arról számolt be, hogy az ukrán lakosság harci kedve csökkent: jelenleg hatvankét százalékuk hajlandó a végsőkig harcolni az orosz erők ellen. A donyecki fronton hetek óta alig változott a helyzet, azonban Zaporizzsjában és Harkiv térségében az orosz csapatoknak sikerült átvenniük néhány kisebb falut.\n\nA nemzetközi színtéren diplomáciai és katonai lépések is történtek.",
+      "content_format": "markdown",
+      "body": [
+        "Az elmúlt huszonnégy órában egy Belaruszhoz köthető szabotőrcsoport lépte át Lettország határát, ami a hibrid műveletek fokozódását jelzi az európai térségben. Ezzel párhuzamosan súlyos rakétacsapás érte az észak-ukrajnai Csernyihiv megyében található Prilukij városát, ahol egy lakóépület is összeomlott. A légicsapás következtében legalább tizennégy civil vesztette életét.",
+        "A harctéri eseményekkel kapcsolatban egy friss kutatás arról számolt be, hogy az ukrán lakosság harci kedve csökkent: jelenleg hatvankét százalékuk hajlandó a végsőkig harcolni az orosz erők ellen. A donyecki fronton hetek óta alig változott a helyzet, azonban Zaporizzsjában és Harkiv térségében az orosz csapatoknak sikerült átvenniük néhány kisebb falut.",
+        "A nemzetközi színtéren diplomáciai és katonai lépések is történtek."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 136,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/696283cb2c522b60.jpg",
+        "width": 6699,
+        "height": 3350,
+        "kind": "photo",
+        "alt": "soldier, the war, the army, conflict, the military, rifle, gun, camouflage, military, warrior, soldier, soldier, soldier, soldier, soldier, military, military",
+        "credit": "tprzem / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/soldier-the-war-the-army-conflict-4771927/",
+        "vision_score": 8.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/696283cb2c522b60.jpg",
+        "orig_url": "https://pixabay.com/get/g9329eb794d39c154d9e4ae471a9af7b7231e578b484992549a634085247c2edc34ed22e6a2cf69c6eddbe935ed7e9f57f12bc82b2c566197c177a7a92446a425_1280.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/global/20261007/attortek-europa-hatarat-putyin-csatlosai-embertelen-csapas-erte-prilukijt-hireink-az-ukran-frontrol-szerdan-867850",
+          "title": "Áttörték Európa határát Putyin csatlósai, embertelen csapás érte Prilukijt - Híreink az ukrán frontról szerdán",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-07T17:19:11+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-07T17:27:31+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/global/20261007/attortek-europa-hatarat-putyin-csatlosai-embertelen-csapas-erte-prilukijt-hireink-az-ukran-frontrol-szerdan-867850"
+        ]
+      },
+      "date": "2026-10-07",
+      "date_label": "október 7.",
+      "url": "/vilag/2026-10-07-lettorszagba-tortek-be-a-szabotorok-mikozben-sulyos-csapas-erte-ukraj/",
+      "seo": {
+        "meta_title": "Lettországba törtek be a szabotőrök, miközben súlyos csapás ",
+        "meta_description": "Egy Belaruszhoz köthető szabotőrcsoport lépte át az uniós határt Lettországban, miközben egy halálos kimenetelű rakétatámadás rázta meg az ukrajnai Csernyihiv m",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-07-lettorszagba-tortek-be-a-szabotorok-mikozben-sulyos-csapas-erte-ukraj/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/696283cb2c522b60.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "e5fdff612803c8a61ac9cad82762ee672405de102b9e3b903e8f539e981f39a2",
+      "pipeline_run_id": "37642447287",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-07T17:27:31+02:00",
+      "updated_at": "2026-10-07T17:27:31+02:00",
+      "published_at": "2026-10-07T17:27:31+02:00",
+      "expires_at": null
+    },
     {
       "id": "85b0dd1d-e354-5428-b09d-b7b6fd9648fc",
       "slug": "2026-10-07-homersekleti-hullamvasut-fagytol-a-nyari-melegig",

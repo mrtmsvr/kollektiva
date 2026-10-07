@@ -9796,7 +9796,7 @@
     {
       "id": "2fbeab1a-9498-5e62-b4ac-850e4978055d",
       "slug": "2026-10-07-lettorszagba-tortek-be-a-szabotorok-mikozben-sulyos-csapas-erte-ukraj",
-      "status": "pending",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -9827,7 +9827,7 @@
       "word_count": 136,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://pixabay.com/get/g9329eb794d39c154d9e4ae471a9af7b7231e578b484992549a634085247c2edc34ed22e6a2cf69c6eddbe935ed7e9f57f12bc82b2c566197c177a7a92446a425_1280.jpg",
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/696283cb2c522b60.jpg",
         "width": 6699,
         "height": 3350,
         "kind": "photo",
@@ -9835,7 +9835,9 @@
         "credit": "tprzem / Pixabay",
         "license": "Pixabay License",
         "source_url": "https://pixabay.com/photos/soldier-the-war-the-army-conflict-4771927/",
-        "vision_score": 8.0
+        "vision_score": 8.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/696283cb2c522b60.jpg",
+        "orig_url": "https://pixabay.com/get/g9329eb794d39c154d9e4ae471a9af7b7231e578b484992549a634085247c2edc34ed22e6a2cf69c6eddbe935ed7e9f57f12bc82b2c566197c177a7a92446a425_1280.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -9924,7 +9926,7 @@
         "meta_title": "Lettországba törtek be a szabotőrök, miközben súlyos csapás ",
         "meta_description": "Egy Belaruszhoz köthető szabotőrcsoport lépte át az uniós határt Lettországban, miközben egy halálos kimenetelű rakétatámadás rázta meg az ukrajnai Csernyihiv m",
         "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-07-lettorszagba-tortek-be-a-szabotorok-mikozben-sulyos-csapas-erte-ukraj/",
-        "og_image": "https://pixabay.com/get/g9329eb794d39c154d9e4ae471a9af7b7231e578b484992549a634085247c2edc34ed22e6a2cf69c6eddbe935ed7e9f57f12bc82b2c566197c177a7a92446a425_1280.jpg",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/696283cb2c522b60.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -9941,9 +9943,9 @@
       "dedupe_hash": "e5fdff612803c8a61ac9cad82762ee672405de102b9e3b903e8f539e981f39a2",
       "pipeline_run_id": "37642447287",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-07T17:19:11+02:00",
-      "updated_at": "2026-10-07T17:19:11+02:00",
-      "published_at": "2026-10-07T17:19:11+02:00",
+      "created_at": "2026-10-07T17:27:31+02:00",
+      "updated_at": "2026-10-07T17:27:31+02:00",
+      "published_at": "2026-10-07T17:27:31+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -9953,14 +9955,12 @@
         "title": 0,
         "image": 0,
         "sent_at": "2026-10-07T15:20:23+00:00",
-        "msg_ids": [
-          3606,
-          3607,
-          3608,
-          3609
-        ],
-        "control_id": 3610
-      }
+        "msg_ids": [],
+        "control_id": 3610,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "df5b519a-0949-5542-be0c-2c74c85ce559",
