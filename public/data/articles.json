@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-07T08:56:40+02:00",
+  "updated_at": "2026-10-07T08:57:15+02:00",
   "articles": [
     {
       "id": "c749c9dd-9df8-5480-98b5-03b54fc54bdf",
@@ -347,7 +347,7 @@
         "aranykonvoj",
         "bűnügy"
       ],
-      "title": "null",
+      "title": "Válságtanácskozások az ukrán aranykonvoj ügyében",
       "subtitle": null,
       "lead": "Az áprilisi választást követő átmeneti időszakban több válságtanácskozást is tartottak a Belügyminisztériumban, ahol az ukrán pénzszállítók jogalap nélküli fogva tartásának jogi kereteit próbálták tisztázni. Az értekezleteken a Nemzeti Adó- és Vámhivatal, a Terrorelhárítási Központ és a titkosszolgálat vezető tisztségviselői is részt vettek.",
       "key_points": [
@@ -409,7 +409,7 @@
       "date_label": "október 6.",
       "url": "/kozelet/2026-10-06-null/",
       "seo": {
-        "meta_title": "null",
+        "meta_title": "Válságtanácskozások az ukrán aranykonvoj ügyében",
         "meta_description": "Az áprilisi választást követő átmeneti időszakban több válságtanácskozást is tartottak a Belügyminisztériumban, ahol az ukrán pénzszállítók jogalap nélküli fogv",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-06-null/",
         "og_image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ministry_of_Interior_%28Hungary%29_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -430,7 +430,7 @@
       "pipeline_run_id": "37528574807",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-06T23:25:14+02:00",
-      "updated_at": "2026-10-06T23:25:14+02:00",
+      "updated_at": "2026-10-07T08:57:15+02:00",
       "published_at": "2026-10-06T23:25:14+02:00",
       "expires_at": null
     },
