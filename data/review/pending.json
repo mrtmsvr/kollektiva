@@ -9861,7 +9861,7 @@
     {
       "id": "5de3b2a3-f879-517a-a592-bb00c9d48c05",
       "slug": "2026-10-07-ket-adag-merget-is-tulelt-a-halalra-itelt-amerikai-no",
-      "status": "pending",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -9890,18 +9890,7 @@
       "reading_time_min": 2,
       "word_count": 229,
       "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Tennessee_state_capitol_2009.jpg/1280px-Tennessee_state_capitol_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 1600,
-        "kind": "photo",
-        "pos": "top",
-        "alt": "Tennessee State Capitol in Nashville.",
-        "credit": "euthman / Wikimedia Commons",
-        "license": "CC BY-SA 2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Tennessee_state_capitol_2009.jpg",
-        "vision_score": 6.0
-      },
+      "hero_image": null,
       "inline_images": [],
       "sources": [
         {
@@ -9999,7 +9988,7 @@
         "meta_title": "Két adag mérget is túlélt a halálra ítélt amerikai nő",
         "meta_description": "Magához tért a kórházban az az ötvenéves nő Tennessee államban, aki életben maradt két adag halálos injekció beadása után is. A kivégzési kísérlet kudarcba full",
         "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-07-ket-adag-merget-is-tulelt-a-halalra-itelt-amerikai-no/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Tennessee_state_capitol_2009.jpg/1280px-Tennessee_state_capitol_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": null,
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -10030,9 +10019,9 @@
       "dedupe_hash": "17c8158258f81f3cae4c99017e06f97d3591249b380ed2af1f876c61d8c84431",
       "pipeline_run_id": "37606401534",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-07T12:43:18+02:00",
-      "updated_at": "2026-10-07T12:43:18+02:00",
-      "published_at": "2026-10-07T12:43:18+02:00",
+      "created_at": "2026-10-07T12:55:07+02:00",
+      "updated_at": "2026-10-07T12:55:07+02:00",
+      "published_at": "2026-10-07T12:55:07+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10042,14 +10031,10 @@
         "title": 0,
         "image": -1,
         "sent_at": "2026-10-07T10:44:26+00:00",
-        "msg_ids": [
-          3498,
-          3499,
-          3500,
-          3506,
-          3507
-        ],
-        "control_id": 3508
+        "msg_ids": [],
+        "control_id": 3508,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
       },
       "image_queries": [
         "Christa Pike",
@@ -10072,7 +10057,8 @@
       "images_seen": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Tennessee_state_capitol_2009.jpg/1280px-Tennessee_state_capitol_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Tennessee_State_Capitol_2009.jpg/1280px-Tennessee_State_Capitol_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "a410cfd0-c061-5943-b829-c4d606edf4de",
