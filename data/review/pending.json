@@ -11153,9 +11153,9 @@
       ]
     },
     {
-      "id": "cddd0968-3d5e-55d1-bb3e-e454ef53910e",
-      "slug": "2026-10-07-milliardok-helyett-nulla-forint-igy-rendeznek-meg-a-2036-os-olimpiat",
-      "status": "pending",
+      "id": "c74da3d7-6368-5db5-ae36-2b8ae4a056cc",
+      "slug": "2026-10-07-a-nemzetkozi-olimpiai-bizottsag-listajan-szerepel-budapest-de-van-egy",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -11165,7 +11165,7 @@
         "olimpia",
         "Nemzetközi Olimpiai Bizottság"
       ],
-      "title": "Milliárdok helyett nulla forint: így rendeznék meg a 2036-os olimpiát Budapesten",
+      "title": "A Nemzetközi Olimpiai Bizottság listáján szerepel Budapest, de van egy csavar",
       "subtitle": null,
       "lead": "Magyarország továbbra is esélyes a 2036-os nyári olimpiai játékok rendezésére, ráadásul a Nemzetközi Olimpiai Bizottság legfrissebb szűkített listáján is helyet kapott. A koncepció kidolgozói szerint ráadásul 2030-ig semmilyen külön költséggel nem kellene számolni.",
       "key_points": [
@@ -11187,7 +11187,7 @@
       "word_count": 245,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/View_from_Buda_Castle_2014_02.jpg/1280px-View_from_Buda_Castle_2014_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
         "height": 675,
         "kind": "photo",
@@ -11195,7 +11195,7 @@
         "alt": "View from Buda Castle towards the Northern west Budapest as of May 2014.",
         "credit": "Perituss / Wikimedia Commons",
         "license": "CC0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:View_from_Buda_Castle_2014_01.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:View_from_Buda_Castle_2014_02.jpg",
         "vision_score": 8.0
       },
       "inline_images": [],
@@ -11262,12 +11262,12 @@
       },
       "date": "2026-10-07",
       "date_label": "október 7.",
-      "url": "/kozelet/2026-10-07-milliardok-helyett-nulla-forint-igy-rendeznek-meg-a-2036-os-olimpiat/",
+      "url": "/kozelet/2026-10-07-a-nemzetkozi-olimpiai-bizottsag-listajan-szerepel-budapest-de-van-egy/",
       "seo": {
-        "meta_title": "Milliárdok helyett nulla forint: így rendeznék meg a 2036-os",
+        "meta_title": "A Nemzetközi Olimpiai Bizottság listáján szerepel Budapest, ",
         "meta_description": "Magyarország továbbra is esélyes a 2036-os nyári olimpiai játékok rendezésére, ráadásul a Nemzetközi Olimpiai Bizottság legfrissebb szűkített listáján is helyet",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-07-milliardok-helyett-nulla-forint-igy-rendeznek-meg-a-2036-os-olimpiat/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-07-a-nemzetkozi-olimpiai-bizottsag-listajan-szerepel-budapest-de-van-egy/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/View_from_Buda_Castle_2014_02.jpg/1280px-View_from_Buda_Castle_2014_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -11292,9 +11292,9 @@
       "dedupe_hash": "a24d6e1e4ff5f132b253fa75eb598d1081d697adaafa6209d691bd3b76d65a37",
       "pipeline_run_id": "37581679197",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-07T08:38:41+02:00",
-      "updated_at": "2026-10-07T08:38:41+02:00",
-      "published_at": "2026-10-07T08:38:41+02:00",
+      "created_at": "2026-10-07T09:03:31+02:00",
+      "updated_at": "2026-10-07T09:03:31+02:00",
+      "published_at": "2026-10-07T09:03:31+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -11304,14 +11304,10 @@
         "title": 2,
         "image": 0,
         "sent_at": "2026-10-07T06:39:42+00:00",
-        "msg_ids": [
-          3387,
-          3388,
-          3389,
-          3390,
-          3396
-        ],
-        "control_id": 3397
+        "msg_ids": [],
+        "control_id": 3397,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
       },
       "image_queries": [
         "Budapest",
@@ -11334,7 +11330,8 @@
         "https://pixabay.com/get/gda89d5c71b4fcebe66225e627a806f3b9077100f609fbfafdd8b2bb3ba8c8743ba6ee380a25121f7e121eb687b7ab95773d9fea040068c4fb91e5f47d2a2ad6a_1280.jpg",
         "https://pixabay.com/get/g978bc0d510a8e3699de433435d486a8b116ad369e6aef9554fe93e9f67b4a4dad936b3dee27fdee52ee256d2697e6a4bce0743078127e3f8264b075730d619fe_1280.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/View_from_Buda_Castle_2014_01.jpg/1280px-View_from_Buda_Castle_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     }
   ]
 }
