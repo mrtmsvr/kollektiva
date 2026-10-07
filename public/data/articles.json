@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-07T08:56:23+02:00",
+  "updated_at": "2026-10-07T08:56:40+02:00",
   "articles": [
     {
       "id": "c749c9dd-9df8-5480-98b5-03b54fc54bdf",
@@ -132,17 +132,16 @@
       "word_count": 171,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://xn--kollektva-m5a.hu/public/img/px/6eacc52db5d4b2b1.jpg",
-        "width": 3000,
-        "height": 2007,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Aerial_View_of_Glenn_Research_Center_at_Lewis_Field_-_GPN-2000-002008.jpg/1280px-Aerial_View_of_Glenn_Research_Center_at_Lewis_Field_-_GPN-2000-002008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 792,
         "kind": "photo",
-        "alt": "rocket launch, rocket, take off, space shuttle, rocketship, space shuttle launch, nasa launch, space travel, john f kennedy space center, cape canaveral, florida, usa, rocket launch, rocket, rocket, r",
-        "credit": "WikiImages / Pixabay",
-        "license": "Pixabay License",
-        "source_url": "https://pixabay.com/photos/rocket-launch-rocket-take-off-67643/",
-        "vision_score": 8.0,
-        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/6eacc52db5d4b2b1.jpg",
-        "orig_url": "https://pixabay.com/get/ga96b164a6789e7fba9471df44fb3ef277758e1a8e138e16e62e5691485c5857a7761ae0bdc9b12b22d4fcd91951d3584_1280.jpg"
+        "pos": "center",
+        "alt": "An aerial view looking northeast towards Cleveland's Hopkins Airport. This is the NASA John H. Glenn Research Center at Lewis Field, Cleveland, Ohio.",
+        "credit": "NASA / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_View_of_Glenn_Research_Center_at_Lewis_Field_-_GPN-2000-002008.jpg",
+        "vision_score": 7.0
       },
       "inline_images": [],
       "sources": [
@@ -177,7 +176,7 @@
         "meta_title": "Energetikai kutatóközpont építésébe kezd a NASA a leendő hol",
         "meta_description": "Új, kifejezetten az űrben használt energiarendszerek tesztelésére és fejlesztésére szolgáló laboratórium építését tervezi a NASA az ohioi kutatóközpontjában. A ",
         "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-07-energetikai-kutatokozpont-epitesebe-kezd-a-nasa-a-leendo-holdbazisok/",
-        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/6eacc52db5d4b2b1.jpg",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Aerial_View_of_Glenn_Research_Center_at_Lewis_Field_-_GPN-2000-002008.jpg/1280px-Aerial_View_of_Glenn_Research_Center_at_Lewis_Field_-_GPN-2000-002008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -195,7 +194,7 @@
       "pipeline_run_id": "37569245051",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-07T06:40:36+02:00",
-      "updated_at": "2026-10-07T06:40:36+02:00",
+      "updated_at": "2026-10-07T08:56:40+02:00",
       "published_at": "2026-10-07T06:40:36+02:00",
       "expires_at": null
     },
