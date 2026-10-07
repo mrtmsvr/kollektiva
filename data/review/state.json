@@ -1,5 +1,5 @@
 {
-  "offset": 391604839,
+  "offset": 391604845,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -70,7 +70,9 @@
     "https://telex.hu/techtud/2026/10/07/kemiai-nobel-dij-henri-b-kagan-kenso-soai-molekula-tukorkep-aszimmetria",
     "https://www.portfolio.hu/uzlet/20261007/csunya-minuszban-az-otp-867866",
     "https://www.blikk.hu/sztarvilag/filmklikk/will-smith-kaliforniaba-jottem-folytatas-sorozat/3bp8sqe",
-    "https://www.sciencedaily.com/releases/2026/10/261007042059.htm"
+    "https://www.sciencedaily.com/releases/2026/10/261007042059.htm",
+    "https://www.blikk.hu/sztarvilag/hazai-sztarok/frey-timi-es-ll-junior-szakitasa-utan-vallott-a-rapper-gyerekeivel-valo-kapcsolatarol/1n972ng",
+    "https://www.portfolio.hu/gazdasag/20261007/a-kulfoldre-koltozo-gazdagokat-is-utolerheti-a-tisza-kormany-vagyonadoja-868080"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"

@@ -9362,6 +9362,164 @@
         "compact": "✅ Kint"
       },
       "live": true
+    },
+    {
+      "id": "8d0c7a5e-c5e3-5c63-a797-909fc874be26",
+      "slug": "2026-10-07-napfogyatkozast-es-becsapodasokat-rogzitettek-az-artemis-ii-fedelzete",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "Artemis II",
+        "NASA",
+        "Hold",
+        "űrkutatás",
+        "csillagászat"
+      ],
+      "title": "Napfogyatkozást és becsapódásokat rögzítettek az Artemis II fedélzetén",
+      "subtitle": null,
+      "lead": "A küldetés során gyűjtött adatokból most egy előzetes holdtudományi jelentés is készült.",
+      "key_points": [
+        "Az Artemis II legénységének táblagépéről származó képernyőfotók részletezik a Hold körüli megfigyeléseket.",
+        "A közzétett dokumentumok között szerepel egy sötét Hold által elsötétített Nap vizualizációja is."
+      ],
+      "content": "## Tudományos áttörés a holdraszállási programban\n\nA NASA által közzétett legfrissebb adatok részletesen bemutatják az Artemis II küldetés során készült első holdtudományi megfigyeléseket. A vizuális anyagok között egy olyan ábrázolás is napvilágot látott, amelyen egy sötét Hold éppen eltakarja a Napot, kézzel írt jegyzetekkel kiegészítve egy űrhajós táblagépén.\n\nA misszió tagjai nemcsak a különleges égi jelenségeket figyelték meg, hanem a Hold felszínén tapasztalt becsapódási villanásokat és azok pontos helyszíneit is dokumentálták.\n\nAz űrügynökség által kiadott előzetes jelentés fontos lépés a jövőbeli emberes holdmissziók és a tervezett holdbázis munkálatainak előkészítésében. A most rögzített adatok segítik a kutatókat abban, hogy jobban megismerjék a Hold környezetét a következő, még ambiciózusabb űrutazások előtt.",
+      "content_format": "markdown",
+      "body": [
+        "## Tudományos áttörés a holdraszállási programban",
+        "A NASA által közzétett legfrissebb adatok részletesen bemutatják az Artemis II küldetés során készült első holdtudományi megfigyeléseket. A vizuális anyagok között egy olyan ábrázolás is napvilágot látott, amelyen egy sötét Hold éppen eltakarja a Napot, kézzel írt jegyzetekkel kiegészítve egy űrhajós táblagépén.",
+        "A misszió tagjai nemcsak a különleges égi jelenségeket figyelték meg, hanem a Hold felszínén tapasztalt becsapódási villanásokat és azok pontos helyszíneit is dokumentálták.",
+        "Az űrügynökség által kiadott előzetes jelentés fontos lépés a jövőbeli emberes holdmissziók és a tervezett holdbázis munkálatainak előkészítésében. A most rögzített adatok segítik a kutatókat abban, hogy jobban megismerjék a Hold környezetét a következő, még ambiciózusabb űrutazások előtt."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 120,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Artemis_2_Crew_Portrait.jpg/1280px-Artemis_2_Crew_Portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1500,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "LOCATION: Bldg. 8, Room 183 - Photo Studio. SUBJECT: Official crew portrait for Artemis II, clockwise from left: NASA Astronauts Christina Koch, Victor Glover, Canadian Space Agency Astronaut Jeremy H",
+        "credit": "Josh Valcarcel / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Artemis_2_Crew_Portrait.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/image-article/artemis-ii-crew-moon-photo-annotations/",
+          "title": "Artemis II Crew Moon Photo Annotations",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-07T19:16:05+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.85,
+      "title_options": [
+        "Napfogyatkozást és becsapódásokat rögzítettek az Artemis II fedélzetén",
+        "Új részleteket közölt a NASA az Artemis II holdi megfigyeléseiről",
+        "Megjelentek az első részletek az Artemis II történelmi holdtúrájáról",
+        "Ezt a képet mentette le egy táblagépre az Artemis II űrhajósa",
+        "Rejtélyes fényvillanásokra lettek figyelmesek a Holdnál járó asztronauták",
+        "Ilyen látványt nyújt a Napfogyatkozás a Holdról nézve"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Artemis_2_Crew_Portrait.jpg/1280px-Artemis_2_Crew_Portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1500,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "LOCATION: Bldg. 8, Room 183 - Photo Studio. SUBJECT: Official crew portrait for Artemis II, clockwise from left: NASA Astronauts Christina Koch, Victor Glover, Canadian Space Agency Astronaut Jeremy H",
+          "credit": "Josh Valcarcel / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Artemis_2_Crew_Portrait.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Solar_eclipse_taken_from_Artemis_II_-_April_2026.jpg/1280px-Solar_eclipse_taken_from_Artemis_II_-_April_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "art002e009301 (April 6, 2026) – Captured by the Artemis II crew during their lunar flyby on April 6, 2026, this image shows the Moon fully eclipsing the Sun. From the crew’s perspective, the Moon appe",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Solar_eclipse_taken_from_Artemis_II_-_April_2026.jpg",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Artemis II Crew Moon Photo Annotations",
+          "link": "https://www.nasa.gov/image-article/artemis-ii-crew-moon-photo-annotations/",
+          "summary": "A visualization of a dark Moon eclipsing the Sun is marked with handwritten notes in this April 6, 2026, screenshot from an Artemis II crew member’s tablet. NASA astronauts Reid Wiseman (in blue) and Victor “Ike” Glover (in green) and CSA (Canadian Space Agency) Jeremy Hansen (in red) observed impact flashes and their locations, which […]",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": 5.85
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/image-article/artemis-ii-crew-moon-photo-annotations/"
+        ]
+      },
+      "date": "2026-10-07",
+      "date_label": "október 7.",
+      "url": "/tech/2026-10-07-napfogyatkozast-es-becsapodasokat-rogzitettek-az-artemis-ii-fedelzete/",
+      "seo": {
+        "meta_title": "Napfogyatkozást és becsapódásokat rögzítettek az Artemis II ",
+        "meta_description": "A küldetés során gyűjtött adatokból most egy előzetes holdtudományi jelentés is készült.",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-07-napfogyatkozast-es-becsapodasokat-rogzitettek-az-artemis-ii-fedelzete/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Artemis_2_Crew_Portrait.jpg/1280px-Artemis_2_Crew_Portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "191ac5753f60a53ba476f20451a26b149a3e8b1387601249df553376a7989544",
+      "pipeline_run_id": "37655110549",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-07T19:16:05+02:00",
+      "updated_at": "2026-10-07T19:16:05+02:00",
+      "published_at": "2026-10-07T19:16:05+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-07T17:17:20+00:00",
+        "msg_ids": [
+          3645,
+          3646,
+          3647
+        ],
+        "control_id": 3648
+      }
     }
   ]
 }
