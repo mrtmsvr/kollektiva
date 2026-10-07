@@ -10771,15 +10771,10 @@
         "title": 0,
         "image": 4,
         "sent_at": "2026-10-07T06:17:50+00:00",
-        "msg_ids": [
-          3336,
-          3337,
-          3338,
-          3339,
-          3340,
-          3341
-        ],
-        "control_id": 3342
+        "msg_ids": [],
+        "control_id": 3342,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
       },
       "live": true
     },
