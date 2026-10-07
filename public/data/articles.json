@@ -1,7 +1,106 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-07T06:37:49+02:00",
+  "updated_at": "2026-10-07T06:40:36+02:00",
   "articles": [
+    {
+      "id": "e141ddbe-09a1-5d06-8cad-6a156c2f4273",
+      "slug": "2026-10-07-energetikai-kutatokozpont-epitesebe-kezd-a-nasa-a-leendo-holdbazisok",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "űrkutatás",
+        "technológia",
+        "energiaellátás"
+      ],
+      "title": "Energetikai kutatóközpont építésébe kezd a NASA a leendő holdbázisok áramellátásához",
+      "subtitle": null,
+      "lead": "Új, kifejezetten az űrben használt energiarendszerek tesztelésére és fejlesztésére szolgáló laboratórium építését tervezi a NASA az ohioi kutatóközpontjában. A beruházás a jövőbeli hold- és űrutazások biztonságosabbá tételéhez szükséges technológiai hátteret biztosítja.",
+      "key_points": [
+        "A NASA Glenn Kutatóközpont pályázatot hirdetett egy új űrenergia-laboratórium megtervezésére.",
+        "A létesítmény az űrben használt energiarendszerek és a hozzájuk kapcsolódó infrastruktúra tesztelését támogatja.",
+        "A fejlesztés szorosan kapcsolódik a szervezet hosszú távú űr- és holdkutatási programjaihoz."
+      ],
+      "content": "Pályázatot hirdetett az Aerospace Power Systems Laboratory első fázisú megtervezésére a NASA clevelandi Glenn Kutatóközpontja. A beruházás elsődleges célja egy olyan modern tesztelőhely kialakítása, amely képes kiszolgálni a jövőbeli űrutazások során alkalmazott összetett energiarendszerek fejlesztését és vizsgálatát.\n\nA tervezett intézmény nem csupán magát a laboratóriumi épületet foglalja magában, hanem a működtetéséhez szükséges teljes infrastruktúrát és a kapcsolódó területrendezési munkálatokat is. Az űrkutatási szervezet jelenlegi missziói – köztük a Hold felszínén tervezett bázisok és a Nemzetközi Űrállomás fenntartása – mind olyan folyamatos technológiai hátteret igényelnek, amelyet ezek a korszerű tesztlétesítmények tudnak biztosítani a mérnökök számára.\n\nAz űrutazás során felmerülő energetikai kihívások kezelése kulcsfontosságú a hosszú távú emberi jelenléthez a Naprendszerben, legyen szó akár a Hold kutatásáról, akár a távolabbi bolygók eléréséről. Az ehhez hasonló földi tesztbázisok teszik lehetővé, hogy a berendezések még a felbocsátás előtt kiállják a legszigorúbb biztonsági és megbízhatósági próbákat is.",
+      "content_format": "markdown",
+      "body": [
+        "Pályázatot hirdetett az Aerospace Power Systems Laboratory első fázisú megtervezésére a NASA clevelandi Glenn Kutatóközpontja. A beruházás elsődleges célja egy olyan modern tesztelőhely kialakítása, amely képes kiszolgálni a jövőbeli űrutazások során alkalmazott összetett energiarendszerek fejlesztését és vizsgálatát.",
+        "A tervezett intézmény nem csupán magát a laboratóriumi épületet foglalja magában, hanem a működtetéséhez szükséges teljes infrastruktúrát és a kapcsolódó területrendezési munkálatokat is. Az űrkutatási szervezet jelenlegi missziói – köztük a Hold felszínén tervezett bázisok és a Nemzetközi Űrállomás fenntartása – mind olyan folyamatos technológiai hátteret igényelnek, amelyet ezek a korszerű tesztlétesítmények tudnak biztosítani a mérnökök számára.",
+        "Az űrutazás során felmerülő energetikai kihívások kezelése kulcsfontosságú a hosszú távú emberi jelenléthez a Naprendszerben, legyen szó akár a Hold kutatásáról, akár a távolabbi bolygók eléréséről. Az ehhez hasonló földi tesztbázisok teszik lehetővé, hogy a berendezések még a felbocsátás előtt kiállják a legszigorúbb biztonsági és megbízhatósági próbákat is."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 171,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/6eacc52db5d4b2b1.jpg",
+        "width": 3000,
+        "height": 2007,
+        "kind": "photo",
+        "alt": "rocket launch, rocket, take off, space shuttle, rocketship, space shuttle launch, nasa launch, space travel, john f kennedy space center, cape canaveral, florida, usa, rocket launch, rocket, rocket, r",
+        "credit": "WikiImages / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/rocket-launch-rocket-take-off-67643/",
+        "vision_score": 8.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/6eacc52db5d4b2b1.jpg",
+        "orig_url": "https://pixabay.com/get/ga96b164a6789e7fba9471df44fb3ef277758e1a8e138e16e62e5691485c5857a7761ae0bdc9b12b22d4fcd91951d3584_1280.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-glenn-invites-phase-1-proposals-for-aerospace-power-systems-laboratory/",
+          "title": "NASA Glenn Invites Phase 1 Proposals for Aerospace Power Systems Laboratory",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-07T06:09:31+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-07T06:40:36+02:00"
+      },
+      "hot_score": 5.94,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/news-release/nasa-glenn-invites-phase-1-proposals-for-aerospace-power-systems-laboratory/"
+        ]
+      },
+      "date": "2026-10-07",
+      "date_label": "október 7.",
+      "url": "/tech/2026-10-07-energetikai-kutatokozpont-epitesebe-kezd-a-nasa-a-leendo-holdbazisok/",
+      "seo": {
+        "meta_title": "Energetikai kutatóközpont építésébe kezd a NASA a leendő hol",
+        "meta_description": "Új, kifejezetten az űrben használt energiarendszerek tesztelésére és fejlesztésére szolgáló laboratórium építését tervezi a NASA az ohioi kutatóközpontjában. A ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-07-energetikai-kutatokozpont-epitesebe-kezd-a-nasa-a-leendo-holdbazisok/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/6eacc52db5d4b2b1.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "e070054de2034263066e6b9d5396e592c1b64d63e8ecbb7aa502a03bee75e73b",
+      "pipeline_run_id": "37569245051",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-07T06:40:36+02:00",
+      "updated_at": "2026-10-07T06:40:36+02:00",
+      "published_at": "2026-10-07T06:40:36+02:00",
+      "expires_at": null
+    },
     {
       "id": "fb1b194b-0925-5c72-a644-a778a2ae1cb8",
       "slug": "2026-10-07-egymilliard-felett-indul-a-vagyonado-jon-az-uj-kata-rendszer",

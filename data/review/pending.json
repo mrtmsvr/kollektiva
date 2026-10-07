@@ -11564,7 +11564,7 @@
     {
       "id": "e141ddbe-09a1-5d06-8cad-6a156c2f4273",
       "slug": "2026-10-07-energetikai-kutatokozpont-epitesebe-kezd-a-nasa-a-leendo-holdbazisok",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -11593,7 +11593,7 @@
       "word_count": 171,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://pixabay.com/get/ga96b164a6789e7fba9471df44fb3ef277758e1a8e138e16e62e5691485c5857a7761ae0bdc9b12b22d4fcd91951d3584_1280.jpg",
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/6eacc52db5d4b2b1.jpg",
         "width": 3000,
         "height": 2007,
         "kind": "photo",
@@ -11601,7 +11601,9 @@
         "credit": "WikiImages / Pixabay",
         "license": "Pixabay License",
         "source_url": "https://pixabay.com/photos/rocket-launch-rocket-take-off-67643/",
-        "vision_score": 8.0
+        "vision_score": 8.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/6eacc52db5d4b2b1.jpg",
+        "orig_url": "https://pixabay.com/get/ga96b164a6789e7fba9471df44fb3ef277758e1a8e138e16e62e5691485c5857a7761ae0bdc9b12b22d4fcd91951d3584_1280.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -11701,7 +11703,7 @@
         "meta_title": "Energetikai kutatóközpont építésébe kezd a NASA a leendő hol",
         "meta_description": "Új, kifejezetten az űrben használt energiarendszerek tesztelésére és fejlesztésére szolgáló laboratórium építését tervezi a NASA az ohioi kutatóközpontjában. A ",
         "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-07-energetikai-kutatokozpont-epitesebe-kezd-a-nasa-a-leendo-holdbazisok/",
-        "og_image": "https://pixabay.com/get/ga96b164a6789e7fba9471df44fb3ef277758e1a8e138e16e62e5691485c5857a7761ae0bdc9b12b22d4fcd91951d3584_1280.jpg",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/6eacc52db5d4b2b1.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -11718,9 +11720,9 @@
       "dedupe_hash": "e070054de2034263066e6b9d5396e592c1b64d63e8ecbb7aa502a03bee75e73b",
       "pipeline_run_id": "37569245051",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-07T06:09:31+02:00",
-      "updated_at": "2026-10-07T06:09:31+02:00",
-      "published_at": "2026-10-07T06:09:31+02:00",
+      "created_at": "2026-10-07T06:40:36+02:00",
+      "updated_at": "2026-10-07T06:40:36+02:00",
+      "published_at": "2026-10-07T06:40:36+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -11730,15 +11732,12 @@
         "title": 0,
         "image": 0,
         "sent_at": "2026-10-07T04:10:20+00:00",
-        "msg_ids": [
-          3306,
-          3307,
-          3308,
-          3309,
-          3310
-        ],
-        "control_id": 3311
-      }
+        "msg_ids": [],
+        "control_id": 3311,
+        "title_prompt_id": null,
+        "compact": "⏱ Magától kint"
+      },
+      "live": true
     },
     {
       "id": "c749c9dd-9df8-5480-98b5-03b54fc54bdf",
