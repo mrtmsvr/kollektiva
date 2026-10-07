@@ -11013,14 +11013,26 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://pixabay.com/get/gd21501b1ab8a625a210c942ff42219afe8dc10f076ff3046932ef249dc9cb79908d0aa82c0ec0b21c56d8364385bd714dbf84f5db9e1862a9e62bf4afaca6bbe_1280.jpg",
-          "width": 5472,
-          "height": 3648,
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009%2C_Budapest.jpg/1280px-Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
           "kind": "photo",
-          "alt": "computer, summary, chart, business, seo, presentation, business presentation, screen, laptop screen, growth, notebook, laptop, digital notebook, computer, chart, business, business, seo, seo, seo, seo",
-          "credit": "Lalmch / Pixabay",
+          "pos": "center",
+          "alt": "Hungarian National Bank, Budapest",
+          "credit": "Egrian / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009,_Budapest.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://pixabay.com/get/g3f048ada539ff3e64e0c4f15a8c4a543371c30b914e5a327feaa5ab1aa5fde6a2a8d91690a18d520f824306857894513ca7a6be45b41c3aee8cf024e2cd4a836_1280.jpg",
+          "width": 4752,
+          "height": 3168,
+          "kind": "photo",
+          "alt": "euro, coins, currency, cent, euro cent, money, finance, savings, wealth, income, budget, ten, twenty, cash, credit, golden, financial, europe, money, money, money, money, money",
+          "credit": "image4you / Pixabay",
           "license": "Pixabay License",
-          "source_url": "https://pixabay.com/photos/computer-summary-chart-business-767776/",
+          "source_url": "https://pixabay.com/photos/euro-coins-currency-cent-euro-cent-1353420/",
           "vision_score": 5.0
         }
       ],
@@ -11102,9 +11114,11 @@
           3373,
           3374,
           3403,
-          3406
+          3406,
+          3411,
+          3412
         ],
-        "control_id": 3408
+        "control_id": 3413
       },
       "image_queries": [
         "Andras Karaman",
@@ -11122,12 +11136,20 @@
         "Hungarian parliament building",
         "financial chart",
         "business meeting",
-        "economic growth"
+        "economic growth",
+        "Hungarian National Bank",
+        "European Central Bank",
+        "Banknote printing",
+        "Budapest Stock Exchange",
+        "financial credit",
+        "money coins",
+        "banking loan"
       ],
       "images_seen": [
         "https://upload.wikimedia.org/wikipedia/commons/1/15/C%C4%83lin_Popescu-T%C4%83riceanu_at_a_government_meeting.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Ministry_of_Finance%2C_SW_gate%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg/1280px-Ministry_of_Finance%2C_SW_gate%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Ministry_of_Finance%2C_SE_corner%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg/1280px-Ministry_of_Finance%2C_SE_corner%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Ministry_of_Finance%2C_SE_corner%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg/1280px-Ministry_of_Finance%2C_SE_corner%2C_2019_Lip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://pixabay.com/get/gd21501b1ab8a625a210c942ff42219afe8dc10f076ff3046932ef249dc9cb79908d0aa82c0ec0b21c56d8364385bd714dbf84f5db9e1862a9e62bf4afaca6bbe_1280.jpg"
       ]
     },
     {
