@@ -10365,25 +10365,10 @@
       "title_options": [
         "Magánrepülő, kastély és milliárdos megbízások: kiszivárogtak Mészárosék belső iratai",
         "Francia kastélytól a magánrepülőkig: ezt rejtik Mészáros Lőrinc cégének belső iratai",
-        "Szőlőültetvények és milliárdos projektek: így működik a V-Híd belső világa",
-        "Magánrepülővel érkeztek a francia kastélyba: sosem látott belső iratok kerültek elő Mészáros Lőrinc vasútépítő cégéről",
-        "Milliók a luxusra, milliárdok a közpénzből: ezt mutatják a V-Híd kiszivárgott dokumentumai",
-        "Hajózás, masszázs és korlátlan mulatozás: meglepő részletek láttak napvilágot Mészárosék csapatépítőjéről"
+        "Szőlőültetvények és milliárdos projektek: így működik a V-Híd belső világa"
       ],
       "clickbait_from": 3,
       "image_options": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Private_jet_at_Glasgow_Airport_-_geograph.org.uk_-_5893158.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 770,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Private jet at Glasgow Airport",
-          "credit": "Thomas Nugent / Wikimedia Commons",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Private_jet_at_Glasgow_Airport_-_geograph.org.uk_-_5893158.jpg",
-          "vision_score": 7.0
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Private_Jet_crack.jpg/1280px-Private_Jet_crack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
@@ -10395,6 +10380,18 @@
           "license": "CC BY-SA 4.0",
           "source_url": "https://commons.wikimedia.org/wiki/File:Private_Jet_crack.jpg",
           "vision_score": 5.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Private_jet_at_Glasgow_Airport_-_geograph.org.uk_-_5893158.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 770,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Private jet at Glasgow Airport",
+          "credit": "Thomas Nugent / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Private_jet_at_Glasgow_Airport_-_geograph.org.uk_-_5893158.jpg",
+          "vision_score": 7.0
         }
       ],
       "story": [
@@ -10453,12 +10450,14 @@
       },
       "review": {
         "title": 0,
-        "image": 1,
-        "sent_at": "2026-10-07T13:14:46+00:00",
-        "msg_ids": [],
-        "control_id": 3569,
-        "title_prompt_id": null,
-        "compact": "✅ Kint"
+        "image": 0,
+        "sent_at": "2026-10-07T13:25:04+00:00",
+        "msg_ids": [
+          3570,
+          3571,
+          3572
+        ],
+        "control_id": 3573
       },
       "live": true
     }
