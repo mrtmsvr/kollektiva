@@ -9225,12 +9225,10 @@
         "title": 4,
         "image": 0,
         "sent_at": "2026-10-06T18:35:39+00:00",
-        "msg_ids": [
-          3265,
-          3266,
-          3267
-        ],
-        "control_id": 3268
+        "msg_ids": [],
+        "control_id": 3268,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
       },
       "live": true
     },
