@@ -9610,6 +9610,652 @@
         "compact": "✅ Kint"
       },
       "live": true
+    },
+    {
+      "id": "1709881d-a425-55dd-862b-6d10088d7a17",
+      "slug": "2026-10-07-reggel-meg-kabat-delutan-mar-polo-kell",
+      "status": "pending",
+      "category": "eletmod",
+      "subcategory": null,
+      "tags": [
+        "időjárás",
+        "előrejelzés",
+        "hőhullám",
+        "meteorológia",
+        "HungaroMet"
+      ],
+      "title": "Reggel még kabát, délután már póló kell",
+      "subtitle": null,
+      "lead": "Igen erős hőmérsékleti hullámvasúttal indul a nap: miközben hajnalban a fagyzugos vidékeken gyenge fagy is előfordulhat, délutánra akár 23–27 fokig is felkúszhat a higanyszál. A HungaroMet előrejelzése szerint a napos, nagyrészt száraz időt csak időszakos felhősávok zavarják meg.",
+      "key_points": [
+        "Hajnalban 1 és 8 fok közötti hőmérséklet várható, a hidegre hajlamos helyeken gyenge fagy is lehetséges.",
+        "Napközben derült vagy fátyolfelhős, csapadékmentes időre számíthatunk.",
+        "A délutáni órákban a legmagasabb hőmérséklet 23 és 27 fok között alakul.",
+        "A délies szelet helyenként élénk, Sopron környékén akár erős lökések is kísérhetik."
+      ],
+      "content": "Igazi hőmérsékleti hullámvasúttal indulhat a nap, hiszen miközben hajnalban a fagyzugos területeken gyenge fagy is előfordulhat, délutánra már 23–27 fokot is mérhetünk az országban. A HungaroMet országos időjárás-előrejelzése szerint jobbára derült vagy fátyolfelhős időre számíthatunk, bár az éjféli óráktól a Dunántúlon vastagabb felhőzet is megjelenhet.\n\nCsapadékra továbbra sem kell számítani, csupán a hajnali órákban válhat foltokban átmenetileg párássá a levegő, miközben gyenge vagy mérsékelt marad a légmozgás. A legalacsonyabb éjszakai hőmérséklet általában 1 és 7–8 fok között alakul, de a hidegre hajlamos helyeken gyenge fagy is kísérheti a hajnalt, míg a magasabban fekvő részeken, a vízpartok közelében és a nagyobb városok belsejében ennél jóval enyhébb marad a reggel.\n\nA nap további részében döntően napos idő várható fátyolfelhőkkel, bár egy nyugatról kelet felé haladó felhősáv miatt időszakosan előfordulhatnak felhősebb körzetek is. A csapadék továbbra sem valószínű, a délies szelet azonban helyenként élénk, Sopron környékén pedig akár erős lökések is kísérhetik.",
+      "content_format": "markdown",
+      "body": [
+        "Igazi hőmérsékleti hullámvasúttal indulhat a nap, hiszen miközben hajnalban a fagyzugos területeken gyenge fagy is előfordulhat, délutánra már 23–27 fokot is mérhetünk az országban. A HungaroMet országos időjárás-előrejelzése szerint jobbára derült vagy fátyolfelhős időre számíthatunk, bár az éjféli óráktól a Dunántúlon vastagabb felhőzet is megjelenhet.",
+        "Csapadékra továbbra sem kell számítani, csupán a hajnali órákban válhat foltokban átmenetileg párássá a levegő, miközben gyenge vagy mérsékelt marad a légmozgás. A legalacsonyabb éjszakai hőmérséklet általában 1 és 7–8 fok között alakul, de a hidegre hajlamos helyeken gyenge fagy is kísérheti a hajnalt, míg a magasabban fekvő részeken, a vízpartok közelében és a nagyobb városok belsejében ennél jóval enyhébb marad a reggel.",
+        "A nap további részében döntően napos idő várható fátyolfelhőkkel, bár egy nyugatról kelet felé haladó felhősáv miatt időszakosan előfordulhatnak felhősebb körzetek is. A csapadék továbbra sem valószínű, a délies szelet azonban helyenként élénk, Sopron környékén pedig akár erős lökések is kísérhetik."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 191,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://pixabay.com/get/g89e185494bcbcb1769dd0140caa3767c9efa73d0b3733111f6ec8a721978add6112b023bf0fd3555e23c1a9be4df6c4af15cb4620fb1b2eb2943ba85a16b36be_1280.jpg",
+        "width": 4297,
+        "height": 2865,
+        "kind": "photo",
+        "alt": "death valley, desert, highway, road, rural, countryside, landscape, sky, nature, sunny, california, desert, highway, road, road, road, road, road, sky, sky",
+        "credit": "jplenio / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/death-valley-desert-highway-road-3133502/",
+        "vision_score": 9.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://borsonline.origo.hu/kozelet/2026/10/idojaras-fagy-utan-27-fok-szerda",
+          "title": "Erre az időjárásra nehéz lesz felöltözni: durva, ami ránk vár",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-10-07T17:17:38+02:00"
+        },
+        {
+          "url": "https://borsonline.origo.hu/kozelet/2026/10/idojaras-fagy-kedd-oktober",
+          "title": "Durva fordulat jön az időjárásban: hajnalban még fagyhat, délután 26 fok ütheti meg az országot",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-10-07T17:17:38+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.39,
+      "title_options": [
+        "Reggel még kabát, délután már póló kell",
+        "Hajnali fagy után huszonhét fok vár ránk",
+        "Hőmérsékleti hullámvasút: fagytól a nyári melegig",
+        "Ilyen extrém hőingadozásra senki sem számított ezen a héten",
+        "Fagypont közeli hideggel indul a nap, de délutánra minden megváltozik",
+        "Azonnal kapkodni fogjuk a fejünket a durva időjárás-változás miatt"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://pixabay.com/get/g89e185494bcbcb1769dd0140caa3767c9efa73d0b3733111f6ec8a721978add6112b023bf0fd3555e23c1a9be4df6c4af15cb4620fb1b2eb2943ba85a16b36be_1280.jpg",
+          "width": 4297,
+          "height": 2865,
+          "kind": "photo",
+          "alt": "death valley, desert, highway, road, rural, countryside, landscape, sky, nature, sunny, california, desert, highway, road, road, road, road, road, sky, sky",
+          "credit": "jplenio / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/death-valley-desert-highway-road-3133502/",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://pixabay.com/get/g089381bea05b7991592f2b951949ee6c30f7a4e0b38d524f1a5b8728ce3ad0a336955b2a8857183721a2d9dfaeb1490ce23538b259cd8116d0331a30e3f983b3_1280.jpg",
+          "width": 5184,
+          "height": 3095,
+          "kind": "photo",
+          "alt": "sky, clouds, 4k wallpaper, rural, laptop wallpaper, wheat field, hd wallpaper, 4k wallpaper 1920x1080, wallpaper hd, beautiful wallpaper, summer, windows wallpaper, agriculture, sky background, nature",
+          "credit": "terbe_rezso / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/sky-clouds-rural-wheat-field-10482823/",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Erre az időjárásra nehéz lesz felöltözni: durva, ami ránk vár",
+          "link": "https://borsonline.origo.hu/kozelet/2026/10/idojaras-fagy-utan-27-fok-szerda",
+          "summary": "Igazi hőmérsékleti hullámvasúttal indulhat a nap: miközben hajnalban a fagyzugos területeken gyenge fagy is előfordulhat, délután már 23–27 fokot mérhetünk.",
+          "source": "borsonline.hu",
+          "related": null,
+          "hot_score": 6.39
+        },
+        {
+          "title": "Durva fordulat jön az időjárásban: hajnalban még fagyhat, délután 26 fok ütheti meg az országot",
+          "link": "https://borsonline.origo.hu/kozelet/2026/10/idojaras-fagy-kedd-oktober",
+          "summary": "Alaposan rákapcsol az időjárás a hőmérsékleti hullámvasútra: miközben hajnalban az ország hidegre hajlamos részein gyenge fagy is előfordulhat, napközben már szinte nyárias meleg köszönthet be.",
+          "source": "borsonline.hu",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://borsonline.origo.hu/kozelet/2026/10/idojaras-fagy-utan-27-fok-szerda",
+          "https://borsonline.origo.hu/kozelet/2026/10/idojaras-fagy-kedd-oktober"
+        ]
+      },
+      "date": "2026-10-07",
+      "date_label": "október 7.",
+      "url": "/eletmod/2026-10-07-reggel-meg-kabat-delutan-mar-polo-kell/",
+      "seo": {
+        "meta_title": "Reggel még kabát, délután már póló kell",
+        "meta_description": "Igen erős hőmérsékleti hullámvasúttal indul a nap: miközben hajnalban a fagyzugos vidékeken gyenge fagy is előfordulhat, délutánra akár 23–27 fokig is felkúszha",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-07-reggel-meg-kabat-delutan-mar-polo-kell/",
+        "og_image": "https://pixabay.com/get/g89e185494bcbcb1769dd0140caa3767c9efa73d0b3733111f6ec8a721978add6112b023bf0fd3555e23c1a9be4df6c4af15cb4620fb1b2eb2943ba85a16b36be_1280.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "1f868bce756dd84b80650b0266fa9533b0ef368887a5215b744e11b136c822a8",
+      "pipeline_run_id": "37642447287",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-07T17:17:38+02:00",
+      "updated_at": "2026-10-07T17:17:38+02:00",
+      "published_at": "2026-10-07T17:17:38+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 2,
+        "image": 0,
+        "sent_at": "2026-10-07T15:18:52+00:00",
+        "msg_ids": [
+          3601,
+          3602,
+          3603
+        ],
+        "control_id": 3604
+      },
+      "image_queries": [
+        "Sopron Hungary",
+        "HungaroMet",
+        "Danubia region",
+        "Hungarian landscape",
+        "thermometer weather",
+        "spring weather transition",
+        "sunny sky clouds"
+      ]
+    },
+    {
+      "id": "2fbeab1a-9498-5e62-b4ac-850e4978055d",
+      "slug": "2026-10-07-lettorszagba-tortek-be-a-szabotorok-mikozben-sulyos-csapas-erte-ukraj",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Orosz-ukrán háború",
+        "Lettország",
+        "Európai Unió",
+        "szankciók",
+        "rakétatámadás"
+      ],
+      "title": "Lettországba törtek be a szabotőrök, miközben súlyos csapás érte Ukrajnát",
+      "subtitle": null,
+      "lead": "Egy Belaruszhoz köthető szabotőrcsoport lépte át az uniós határt Lettországban, miközben egy halálos kimenetelű rakétatámadás rázta meg az ukrajnai Csernyihiv megyét. A fejlemények rávilágítanak a kontinenst fenyegető hibrid veszélyek fokozódására.",
+      "key_points": [
+        "Egy Belaruszhoz köthető szabotőrcsoport tört be Lettország területére az elmúlt huszonnégy órában.",
+        "Csernyihiv megyében, Prilukij városában egy magasház is összeomlott a hajnali rakétatámadásban, amely legalább tizennégy civil életét követelte.",
+        "Az Európai Unió tagállamai újabb, csaknem ezerhattszáz embert és szervezetet érintő szankciós csomagról állapodtak meg.",
+        "A donyecki fronton állóháború, Zaporizzsjában és Harkivben pedig orosz előretörés tapasztalható."
+      ],
+      "content": "Az elmúlt huszonnégy órában egy Belaruszhoz köthető szabotőrcsoport lépte át Lettország határát, ami a hibrid műveletek fokozódását jelzi az európai térségben. Ezzel párhuzamosan súlyos rakétacsapás érte az észak-ukrajnai Csernyihiv megyében található Prilukij városát, ahol egy lakóépület is összeomlott. A légicsapás következtében legalább tizennégy civil vesztette életét.\n\nA harctéri eseményekkel kapcsolatban egy friss kutatás arról számolt be, hogy az ukrán lakosság harci kedve csökkent: jelenleg hatvankét százalékuk hajlandó a végsőkig harcolni az orosz erők ellen. A donyecki fronton hetek óta alig változott a helyzet, azonban Zaporizzsjában és Harkiv térségében az orosz csapatoknak sikerült átvenniük néhány kisebb falut.\n\nA nemzetközi színtéren diplomáciai és katonai lépések is történtek.",
+      "content_format": "markdown",
+      "body": [
+        "Az elmúlt huszonnégy órában egy Belaruszhoz köthető szabotőrcsoport lépte át Lettország határát, ami a hibrid műveletek fokozódását jelzi az európai térségben. Ezzel párhuzamosan súlyos rakétacsapás érte az észak-ukrajnai Csernyihiv megyében található Prilukij városát, ahol egy lakóépület is összeomlott. A légicsapás következtében legalább tizennégy civil vesztette életét.",
+        "A harctéri eseményekkel kapcsolatban egy friss kutatás arról számolt be, hogy az ukrán lakosság harci kedve csökkent: jelenleg hatvankét százalékuk hajlandó a végsőkig harcolni az orosz erők ellen. A donyecki fronton hetek óta alig változott a helyzet, azonban Zaporizzsjában és Harkiv térségében az orosz csapatoknak sikerült átvenniük néhány kisebb falut.",
+        "A nemzetközi színtéren diplomáciai és katonai lépések is történtek."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 136,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://pixabay.com/get/g9329eb794d39c154d9e4ae471a9af7b7231e578b484992549a634085247c2edc34ed22e6a2cf69c6eddbe935ed7e9f57f12bc82b2c566197c177a7a92446a425_1280.jpg",
+        "width": 6699,
+        "height": 3350,
+        "kind": "photo",
+        "alt": "soldier, the war, the army, conflict, the military, rifle, gun, camouflage, military, warrior, soldier, soldier, soldier, soldier, soldier, military, military",
+        "credit": "tprzem / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/soldier-the-war-the-army-conflict-4771927/",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/global/20261007/attortek-europa-hatarat-putyin-csatlosai-embertelen-csapas-erte-prilukijt-hireink-az-ukran-frontrol-szerdan-867850",
+          "title": "Áttörték Európa határát Putyin csatlósai, embertelen csapás érte Prilukijt - Híreink az ukrán frontról szerdán",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-07T17:19:11+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Lettországba törtek be a szabotőrök, miközben súlyos csapás érte Ukrajnát",
+        "Határon túli csoport tört be, miközben rakéta rombolt le egy lakóházat Prilukijban",
+        "Újabb frontvonalak és hibrid akciók: ez történik most Európa határán",
+        "Itt a bizonyíték: betörtek egy szabotőrcsoport tagjai az európai határokon túlra",
+        "Felfoghatatlan pusztítás: magasház dőlt össze a hajnali rakétatámadásban",
+        "Elszabadult az erőszak: újabb frontokon csaptak le a szabotőrök és a rakéták"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://pixabay.com/get/g9329eb794d39c154d9e4ae471a9af7b7231e578b484992549a634085247c2edc34ed22e6a2cf69c6eddbe935ed7e9f57f12bc82b2c566197c177a7a92446a425_1280.jpg",
+          "width": 6699,
+          "height": 3350,
+          "kind": "photo",
+          "alt": "soldier, the war, the army, conflict, the military, rifle, gun, camouflage, military, warrior, soldier, soldier, soldier, soldier, soldier, military, military",
+          "credit": "tprzem / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/soldier-the-war-the-army-conflict-4771927/",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/g347af73118c8837eca38eb3f1046641c61841ecc3898e9aea0390298df41fb01eef6e91435e04a9839fd6a58dd1dd3f002752096c290a7a1245b319364370a04_1280.jpg",
+          "width": 6000,
+          "height": 4004,
+          "kind": "photo",
+          "alt": "soldier, the war, the army, conflict, the military, rifle, gun, camouflage, forest, military, nature, warrior",
+          "credit": "tprzem / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/soldier-the-war-the-army-conflict-4761267/",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/%D0%9F%D1%83%D0%BD%D0%BA%D1%82_%D0%BF%D1%80%D0%BE%D0%BF%D1%83%D1%81%D0%BA%D0%B0_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BD%D0%B0_border_belarus-latvia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 762,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Пункт пропуску на мяжы з Латвіяй. З латвійскага боку яму адпавядае пункт пропуску «Патарніекі» Краслаўскага края. З'яўляецца адным з двух аўтамабільных пунктаў пропуску на мяжы Беларусі з Латвіяй і ма",
+          "credit": "Rakoon / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%83%D0%BD%D0%BA%D1%82_%D0%BF%D1%80%D0%BE%D0%BF%D1%83%D1%81%D0%BA%D0%B0_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BD%D0%B0_border_belarus-latvia.jpg",
+          "vision_score": 6.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Áttörték Európa határát Putyin csatlósai, embertelen csapás érte Prilukijt - Híreink az ukrán frontról szerdán",
+          "link": "https://www.portfolio.hu/global/20261007/attortek-europa-hatarat-putyin-csatlosai-embertelen-csapas-erte-prilukijt-hireink-az-ukran-frontrol-szerdan-867850",
+          "summary": "Csökkent az ukránok harci kedve: már csak a lakosság 62%-a hajlandó a végsőkig harcolni az oroszok ellen, ami persze még mindig a többség - derül ki egy friss kutatásból. A napokban több szakértő, vezető is figyelmeztetett arra, hogy Oroszország fokozni fogja a hibrid támadásokat Európa ellen, az elmúlt 24 órában egy Belaruszhoz köthető szabotőrcsoport be is tört Lettország területére. Hajnalban súlyos rakétacsapás érte Ukrajnát, a Csernyihivben található Prilukij városában egy magasház összeomlott, a támadás-sorozatban legalább 14 civil meghalt. A donyecki fronton a helyzet hetek óta szinte v",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/global/20261007/attortek-europa-hatarat-putyin-csatlosai-embertelen-csapas-erte-prilukijt-hireink-az-ukran-frontrol-szerdan-867850"
+        ]
+      },
+      "date": "2026-10-07",
+      "date_label": "október 7.",
+      "url": "/vilag/2026-10-07-lettorszagba-tortek-be-a-szabotorok-mikozben-sulyos-csapas-erte-ukraj/",
+      "seo": {
+        "meta_title": "Lettországba törtek be a szabotőrök, miközben súlyos csapás ",
+        "meta_description": "Egy Belaruszhoz köthető szabotőrcsoport lépte át az uniós határt Lettországban, miközben egy halálos kimenetelű rakétatámadás rázta meg az ukrajnai Csernyihiv m",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-07-lettorszagba-tortek-be-a-szabotorok-mikozben-sulyos-csapas-erte-ukraj/",
+        "og_image": "https://pixabay.com/get/g9329eb794d39c154d9e4ae471a9af7b7231e578b484992549a634085247c2edc34ed22e6a2cf69c6eddbe935ed7e9f57f12bc82b2c566197c177a7a92446a425_1280.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "e5fdff612803c8a61ac9cad82762ee672405de102b9e3b903e8f539e981f39a2",
+      "pipeline_run_id": "37642447287",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-07T17:19:11+02:00",
+      "updated_at": "2026-10-07T17:19:11+02:00",
+      "published_at": "2026-10-07T17:19:11+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-07T15:20:23+00:00",
+        "msg_ids": [
+          3606,
+          3607,
+          3608,
+          3609
+        ],
+        "control_id": 3610
+      }
+    },
+    {
+      "id": "df5b519a-0949-5542-be0c-2c74c85ce559",
+      "slug": "2026-10-07-dronok-es-borturika-igy-probal-megujulni-a-szomszedos-kisallam",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Moldova",
+        "turizmus",
+        "orosz-ukrán háború",
+        "gazdaság",
+        "külpolitika"
+      ],
+      "title": "Drónok és borturika: így próbál megújulni a szomszédos kisállam",
+      "subtitle": null,
+      "lead": "Az ukrajnai fegyveres konfliktus közelsége ellenére Moldova nyitni kezdett a külvilág felé, és idei üzleti fórumának is központi témájává tette az országimázs építését. A nemzetközi figyelem középpontjába került állam azonban komoly kihívásokkal küzd a turizmus és a gazdaság területén.",
+      "key_points": [
+        "Moldova az idei üzleti fórumán az országimázs erősítésére fókuszált.",
+        "A külföldi látogatók jelentős része a szakadár Dnyeszter Menti Köztársaság iránt érdeklődik.",
+        "Az ország imázsát eddig a szegénység, a Moszkva felől érkező nyomás és a háborús drónok határozták meg."
+      ],
+      "content": "Az Európa legszegényebb állusaként emlegetett Moldova a nemzetközi nyitás jegyében szervezte meg idei üzleti fórumát, amelyen az országimázs fejlesztése kapta a főszerepet. A hvg.hu beszámolója szerint a helyi döntéshozók komoly kihívásokkal szembesülnek a külföldi befektetők és turisták vonzásában, mivel a közvéleményben mélyen gyökeret vertek a sztereotípiák.\n\nA külföldiek körében sokszor félelmet kelt az ukrajnai háború közelsége, különösen az időről időre az ország területére tévedő drónok miatt. Emellett Moszkva folyamatos politikai és információs nyomást gyakorol a vezetésre, hogy megakadályozza az Európai Unió felé vezető integrációs lépéseket.\n\nA turisztikai szektor sajátos kettősséggel szembesül, hiszen a statisztikák szerint a látogatók egyharmada a hivatalos chisinaui kormány ellenőrzésén kívül eső, szovjetpárti Dnyeszter menti szakadár köztársaságra kíváncsi. A helyi borászatok és a gazdag gasztronómiai kínálat ellenére nehéz áttörni a külföldi utazók óvatosságát.\n\nA mindennapi utazók számára ez a helyzet azt jelenti, hogy Moldova – miközben a nyugati piacok és a diszkont légitársaságok járatai révén egyre elérhetőbbé válik – továbbra is a geopolitikai törésvonalak mentén keresi a saját gazdasági jövőjét.",
+      "content_format": "markdown",
+      "body": [
+        "Az Európa legszegényebb állusaként emlegetett Moldova a nemzetközi nyitás jegyében szervezte meg idei üzleti fórumát, amelyen az országimázs fejlesztése kapta a főszerepet. A hvg.hu beszámolója szerint a helyi döntéshozók komoly kihívásokkal szembesülnek a külföldi befektetők és turisták vonzásában, mivel a közvéleményben mélyen gyökeret vertek a sztereotípiák.",
+        "A külföldiek körében sokszor félelmet kelt az ukrajnai háború közelsége, különösen az időről időre az ország területére tévedő drónok miatt. Emellett Moszkva folyamatos politikai és információs nyomást gyakorol a vezetésre, hogy megakadályozza az Európai Unió felé vezető integrációs lépéseket.",
+        "A turisztikai szektor sajátos kettősséggel szembesül, hiszen a statisztikák szerint a látogatók egyharmada a hivatalos chisinaui kormány ellenőrzésén kívül eső, szovjetpárti Dnyeszter menti szakadár köztársaságra kíváncsi. A helyi borászatok és a gazdag gasztronómiai kínálat ellenére nehéz áttörni a külföldi utazók óvatosságát.",
+        "A mindennapi utazók számára ez a helyzet azt jelenti, hogy Moldova – miközben a nyugati piacok és a diszkont légitársaságok járatai révén egyre elérhetőbbé válik – továbbra is a geopolitikai törésvonalak mentén keresi a saját gazdasági jövőjét."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 201,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg/1280px-Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 706,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Arch of Triumph, Chișinău, Republic of Moldova",
+        "credit": "Photobank MD from Chisinau, Moldova / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arch_of_Triumph,_Chisinau,_Republic_of_Moldova_(51160304626_cropped).jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/360/20261007_moldova-chisinau-turizmus-orszagimazs",
+          "title": "Számunkra a háború valójában jobb pozíciót hozott: megjelentünk a térképen, Moldova nullából hőssé vált",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-07T17:21:07+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.83,
+      "title_options": [
+        "Drónok és borturika: így próbál megújulni a szomszédos kisállam",
+        "Hogyan lett Európa legszegényebb országából hirtelen turisztikai célpont?",
+        "A háború tette fel a térképre Európa eddigi legnagyobb vakfoltját",
+        "Senki sem akart odautazni, aztán a szomszédos háború mindent megváltoztatott",
+        "A turisták egyharmada oda özönlik, ahonnan mindenki menekül",
+        "Megnéztük, hogyan próbálja eladni magát a legszegényebb európai ország"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg/1280px-Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 706,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Arch of Triumph, Chișinău, Republic of Moldova",
+          "credit": "Photobank MD from Chisinau, Moldova / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Arch_of_Triumph,_Chisinau,_Republic_of_Moldova_(51160304626_cropped).jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg/1280px-Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Moldova - landscape in Hîncești District",
+          "credit": "Pudelek / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_01.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_02.jpg/1280px-Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Moldova - landscape in Hîncești District",
+          "credit": "Pudelek / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Moldova_-_landscape_in_H%C3%AEnce%C8%99ti_District_02.jpg",
+          "vision_score": 6.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Számunkra a háború valójában jobb pozíciót hozott: megjelentünk a térképen, Moldova nullából hőssé vált",
+          "link": "https://hvg.hu/360/20261007_moldova-chisinau-turizmus-orszagimazs",
+          "summary": "Európa és a világ felé próbál nyitni Moldova, amely idei üzleti fórumának is egyik fő témájává tette az országimázs építését. Kinek próbálják eladni az országot? Tényleg annyira tartanak a külföldiek az ukrajnai háború közelségétől? És mit kezdenek azzal, hogy a turisták harmada a szakadár Dnyeszter menti Köztársaságra kíváncsi?",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.83
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/360/20261007_moldova-chisinau-turizmus-orszagimazs"
+        ]
+      },
+      "date": "2026-10-07",
+      "date_label": "október 7.",
+      "url": "/vilag/2026-10-07-dronok-es-borturika-igy-probal-megujulni-a-szomszedos-kisallam/",
+      "seo": {
+        "meta_title": "Drónok és borturika: így próbál megújulni a szomszédos kisál",
+        "meta_description": "Az ukrajnai fegyveres konfliktus közelsége ellenére Moldova nyitni kezdett a külvilág felé, és idei üzleti fórumának is központi témájává tette az országimázs é",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-07-dronok-es-borturika-igy-probal-megujulni-a-szomszedos-kisallam/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg/1280px-Arch_of_Triumph%2C_Chisinau%2C_Republic_of_Moldova_%2851160304626_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "4bea837e5f5f080d5766b07872df866789531b14451474b982a2914c5417a2d5",
+      "pipeline_run_id": "37642447287",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-07T17:21:07+02:00",
+      "updated_at": "2026-10-07T17:21:07+02:00",
+      "published_at": "2026-10-07T17:21:07+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-07T15:22:16+00:00",
+        "msg_ids": [
+          3613,
+          3614,
+          3615,
+          3616
+        ],
+        "control_id": 3617
+      }
+    },
+    {
+      "id": "45bc5962-ed40-5601-8c56-4babeb387b87",
+      "slug": "2026-10-07-cukorral-sulyosbitott-antibiotikum-kura-harmincszorosara-nohet-a-belr",
+      "status": "pending",
+      "category": "eletmod",
+      "subcategory": null,
+      "tags": [
+        "egészség",
+        "kutatás",
+        "bélflóra",
+        "antibiotikum",
+        "táplálkozás"
+      ],
+      "title": "Cukorral súlyosbított antibiotikum-kúra: harmincszorosára nőhet a bélrendszeri károsodás",
+      "subtitle": null,
+      "lead": "A gyógyszeres kezelés melletti magas cukorfogyasztás jelentősen súlyosbíthatja az antibiotikumok bélflórát pusztító hatását. Egy új kutatás szerint az édességek visszaszorítása egyszerű módszer lehet a károsodások csökkentésére.",
+      "key_points": [
+        "Minden 100 gramm elfogyasztott cukor 21 százalékkal csökkentette a bélbaktériumok fajgazdagságát.",
+        "A cukros diéta és az antibiotikum kombinációja a nehezen kezelhető Enterococcus baktériumok szaporodását segítette.",
+        "A vizsgálat során 173 kórházban fekvő rákbeteg 9419 étkezését és mikrobiomját monitorozták.",
+        "Egérkísérletekben a cukorfogyasztás hatására a bélrendszeri Enterococcus-szám akár harmincszorosára is nőhetett."
+      ],
+      "content": "Az antibiotikumok a világ leggyakrabban felírt gyógyszerei közé tartoznak, ám miközben elpusztítják a kórokozókat, a szervezet számára hasznos baktériumokat sem kímélik. Az emberi emésztésben és az immunrendszer működésében alapvető szerepet játszó bélmikrobiom egyedszáma és fajgazdagsága sérülékennyé válik a kezelések alatt, ami teret engedhet a veszélyesebb baktériumok elszaporodásának.\n\nA Nature folyóiratban megjelent tanulmány készítői – köztük az NYU Langone Health, a City of Hope és a Memorial Sloan Kettering kutatói – daganatos betegeket vizsgáltak, mivel esetükben a kórházi tartózkodás alatt rendkívül pontosan követhető volt az étrend és a mikrobiom napi változása. Az adatokból kiderült, hogy a kezelést megelőző 48 órában elfogyasztott minden egyes száz gramm cukor arányában markánsan csökkent a bélflóra hasznos baktériumfajainak változatossága.\n\nA megfigyelések azt is alátámasztották, hogy a magas cukortartalmú diéta és a gyógyszeres terápia együttesen az Enterococcus faecium nevű baktériumfaj megnövekedett jelenlétével járt együtt. Ez a mikróba olyan nehezen kezelhető fertőzésekhez kapcsolódik, amelyek komoly nehézséget okoznak a gyógyításban, különösen az intenzív kezeléseken, például csontvelő-transzplantáción áteső pácienseknél.\n\nAz egereken végzett laboratóriumi kísérletek ugyanezt a tendenciát mutatták: a biapenem nevű antibiotikummal kezelett, de cukrot is fogyasztó állatoknál a harmadik napra 16,3-szorosára, a hatodik napra pedig 33,4-szeresére emelkedett a bélrendszeri Enterococcus-populáció. Jonas Schluter, az NYU Langone mikrobiológiai tanszékének adjunktusa szerint a több mint kilencezer étkezés elemzésére támaszkodó eredmények arra utalnak, hogy a diéta módosítása – különösen az édességek visszaszorítása a gyógyszerszedés alatt és után – segíthet az akaratlan egészségügyi kockázatok mérséklésében.\n\nA kutatók hangsúlyozzák, hogy bár a megfigyelések világosan mutatják az összefüggést a táplálkozás és a bélrendszeri károsodás mértéke között, a pontos klinikai ajánlások kidolgozásához további vizsgálatokra és humán klinikai próbákra lesz szükség.",
+      "content_format": "markdown",
+      "body": [
+        "Az antibiotikumok a világ leggyakrabban felírt gyógyszerei közé tartoznak, ám miközben elpusztítják a kórokozókat, a szervezet számára hasznos baktériumokat sem kímélik. Az emberi emésztésben és az immunrendszer működésében alapvető szerepet játszó bélmikrobiom egyedszáma és fajgazdagsága sérülékennyé válik a kezelések alatt, ami teret engedhet a veszélyesebb baktériumok elszaporodásának.",
+        "A Nature folyóiratban megjelent tanulmány készítői – köztük az NYU Langone Health, a City of Hope és a Memorial Sloan Kettering kutatói – daganatos betegeket vizsgáltak, mivel esetükben a kórházi tartózkodás alatt rendkívül pontosan követhető volt az étrend és a mikrobiom napi változása. Az adatokból kiderült, hogy a kezelést megelőző 48 órában elfogyasztott minden egyes száz gramm cukor arányában markánsan csökkent a bélflóra hasznos baktériumfajainak változatossága.",
+        "A megfigyelések azt is alátámasztották, hogy a magas cukortartalmú diéta és a gyógyszeres terápia együttesen az Enterococcus faecium nevű baktériumfaj megnövekedett jelenlétével járt együtt. Ez a mikróba olyan nehezen kezelhető fertőzésekhez kapcsolódik, amelyek komoly nehézséget okoznak a gyógyításban, különösen az intenzív kezeléseken, például csontvelő-transzplantáción áteső pácienseknél.",
+        "Az egereken végzett laboratóriumi kísérletek ugyanezt a tendenciát mutatták: a biapenem nevű antibiotikummal kezelett, de cukrot is fogyasztó állatoknál a harmadik napra 16,3-szorosára, a hatodik napra pedig 33,4-szeresére emelkedett a bélrendszeri Enterococcus-populáció. Jonas Schluter, az NYU Langone mikrobiológiai tanszékének adjunktusa szerint a több mint kilencezer étkezés elemzésére támaszkodó eredmények arra utalnak, hogy a diéta módosítása – különösen az édességek visszaszorítása a gyógyszerszedés alatt és után – segíthet az akaratlan egészségügyi kockázatok mérséklésében.",
+        "A kutatók hangsúlyozzák, hogy bár a megfigyelések világosan mutatják az összefüggést a táplálkozás és a bélrendszeri károsodás mértéke között, a pontos klinikai ajánlások kidolgozásához további vizsgálatokra és humán klinikai próbákra lesz szükség."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 291,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/10/261007042059.htm",
+          "title": "Taking antibiotics? Sugar may be making the damage worse",
+          "publisher": "sciencedaily.com",
+          "license": null,
+          "accessed_at": "2026-10-07T17:22:35+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.81,
+      "title_options": [
+        "Cukorral súlyosbított antibiotikum-kúra: harmincszorosára nőhet a bélrendszeri károsodás",
+        "Nem várt mellékhatás: a cukor felerősíti az antibiotikumok rombolását",
+        "Az édesség még veszélyesebbé teheti az antibiotikumos kezelést",
+        "Ezt a hibát kövesed el cukorral, ha antibiotikumot szedsz?",
+        "Miért teszi tönkre a gyógyulásodat a kedvenc édességed?",
+        "Fokozza a bélrendszeri fertőzések kockázatát a cukros diéta antibiotikum mellett"
+      ],
+      "clickbait_from": 3,
+      "image_options": [],
+      "story": [
+        {
+          "title": "Taking antibiotics? Sugar may be making the damage worse",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261007042059.htm",
+          "summary": "Eating more sugar while taking antibiotics was linked to greater disruption of the gut microbiome and increased growth of potentially harmful bacteria. Researchers say temporarily cutting back on sweets during and after antibiotic treatment could be a simple way to reduce this damage, though clinical trials are still needed.",
+          "source": "sciencedaily.com",
+          "related": null,
+          "hot_score": 5.81
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.sciencedaily.com/releases/2026/10/261007042059.htm"
+        ]
+      },
+      "date": "2026-10-07",
+      "date_label": "október 7.",
+      "url": "/eletmod/2026-10-07-cukorral-sulyosbitott-antibiotikum-kura-harmincszorosara-nohet-a-belr/",
+      "seo": {
+        "meta_title": "Cukorral súlyosbított antibiotikum-kúra: harmincszorosára nő",
+        "meta_description": "A gyógyszeres kezelés melletti magas cukorfogyasztás jelentősen súlyosbíthatja az antibiotikumok bélflórát pusztító hatását. Egy új kutatás szerint az édességek",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-07-cukorral-sulyosbitott-antibiotikum-kura-harmincszorosara-nohet-a-belr/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "4172de0e9ef4246ebcb6887eb3d2e141b4ac080c97dfde13b197d8202468c73d",
+      "pipeline_run_id": "37642447287",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-07T17:22:35+02:00",
+      "updated_at": "2026-10-07T17:22:35+02:00",
+      "published_at": "2026-10-07T17:22:35+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": -1,
+        "sent_at": "2026-10-07T15:24:33+00:00",
+        "msg_ids": [
+          3618,
+          3619
+        ],
+        "control_id": 3620
+      }
     }
   ]
 }
