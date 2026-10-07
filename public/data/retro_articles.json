@@ -1,7 +1,122 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-07T00:11:26+02:00",
+  "updated_at": "2026-10-08T00:03:32+02:00",
   "articles": [
+    {
+      "id": "ec590540-7f4c-5bf8-8850-895df5945f7c",
+      "slug": "2026-10-08-a-deli-mozdulat-csendes-fegyverropogas-es-az-utolso-offenziva-bosznia",
+      "status": "published",
+      "category": "retro",
+      "subcategory": null,
+      "tags": [
+        "Déli Mozdulat",
+        "boszniai háború",
+        "Horvát Hadsereg",
+        "1995",
+        "történelem"
+      ],
+      "title": "A Déli Mozdulat: Csendes fegyverropogás és az utolsó offenzíva Boszniában",
+      "subtitle": null,
+      "lead": "Pontosan ezen a napon, 1995. október 8-án indította el a Horvát Hadsereg és a Horvát Védelmi Tanács a Déli Mozdulat elnevezésű hadműveletet. Ez a katonai akció volt a boszniai háború legutolsó offenzívája, amely alapvetően rajzolta át a konfliktus utolsó heteinek erőviszonyait Nyugat-Boszniában.",
+      "content": "> A Déli Mozdulat nem csupán egy utolsó katonai offenzíva volt, hanem a nyugat-boszniai erőviszonyok végleges átrendeződése.\n\nA történelem sokszor éles fordulópontokat hoz, amikor a fegyverek szava elnyom minden mást. 1995 őszén a balkáni konfliktus már a végső stádiumába lépett, ám a harcok még nemcsitkultak el teljesen. Ekkor határozott úgy a Horvát Hadsereg és a Horvát Védelmi Tanács, hogy egyesített erőkkel indít egy utolsó, átfogó offenzívát Nyugat-Bosznia-Hercegovinában. A Déli Mozdulat hadművelet 1995. október 8. és 11. között zajlott, meghatározva a térség stratégiai jövőjét.\n\nA hadművelet nem csupán egy elszigetelt katonai manőver volt, hanem egy pontosan megtervezett segítségnyújtás is. A Bosznia-Hercegovinai Köztársaság Hadserege ugyanis a Sana hadművelet során elfoglalta Ključ városát, ám a Boszniai Szerb Köztársaság Hadseregének ellentámadása komoly veszélybe sodorta ezeket az újonnan szerzett pozíciókat. A horvát erők fellépése lényeges tehermentesítést jelentett a szövetséges csapatok számára a kritikus pillanatban.\n\nA Déli Mozdulat céljai messze túlmutattak a helyi tűzoltáson. Az Ante Gotovina vezérőrnagy parancsnoksága alatt álló egyesített erők egyik kiemelt feladata Mrkonjić Grad városának és a Manjača-hegység kulcsfontosságú pozícióinak az elfoglalása volt. Ezen területek birtokbavétele lehetővé tette volna, hogy a Horvát Hadsereg és a Horvát Védelmi Tanács közvetlen fenyegetést jelentsen Banja Lukára, a boszniai szerbek által ellenőrzött legnagyobb városra.\n\nAz offenzíva gazdasági és infrastrukturális szempontból is létfontosságú célpontot tűzött ki: a Bočac vízerőmű elfoglalását. Ez az objektum jelentette ugyanis Nyugat-Bosznia-Hercegovinában az utolsó olyan jelentős villamosenergia-forrást, amely még a boszniai szerb erők irányítása alatt állt. Az erőmű birtoklása stratégiai előnyt biztosított a harcokban.\n\nA Horvát Hadsereg, mint a horvát fegyveres erők legidősebb és legnagyobb szárazföldi ága – melynek központja Karlovacban található és országszerte számos bázissal rendelkezik –, régóta meghatározó szereplője volt a konfliktusnak. Mellette a Horvát Védelmi Tanács, a herceg-boszniai horvátok fő katonai ereje vett részt a küzdelemben, amely ekkorra már túl volt a bosnyák erőkkel vívott korábbi összecsapásokon.\n\nEz a négy napos hadművelet mély nyomot hagyott a délszláv háború utolsó fejezeteiben. A Déli Mozdulat sikeres végrehajtása nemcsak katonai siker volt, hanem egy korszak lezárása is, amely közvetlenül előzte meg a daytoni megállapodás megszületését és a térség békefolyamatait.",
+      "content_format": "markdown",
+      "body": [
+        "A történelem sokszor éles fordulópontokat hoz, amikor a fegyverek szava elnyom minden mást. 1995 őszén a balkáni konfliktus már a végső stádiumába lépett, ám a harcok még nemcsitkultak el teljesen. Ekkor határozott úgy a Horvát Hadsereg és a Horvát Védelmi Tanács, hogy egyesített erőkkel indít egy utolsó, átfogó offenzívát Nyugat-Bosznia-Hercegovinában. A Déli Mozdulat hadművelet 1995. október 8. és 11. között zajlott, meghatározva a térség stratégiai jövőjét.",
+        "A hadművelet nem csupán egy elszigetelt katonai manőver volt, hanem egy pontosan megtervezett segítségnyújtás is. A Bosznia-Hercegovinai Köztársaság Hadserege ugyanis a Sana hadművelet során elfoglalta Ključ városát, ám a Boszniai Szerb Köztársaság Hadseregének ellentámadása komoly veszélybe sodorta ezeket az újonnan szerzett pozíciókat. A horvát erők fellépése lényeges tehermentesítést jelentett a szövetséges csapatok számára a kritikus pillanatban.",
+        "A Déli Mozdulat céljai messze túlmutattak a helyi tűzoltáson. Az Ante Gotovina vezérőrnagy parancsnoksága alatt álló egyesített erők egyik kiemelt feladata Mrkonjić Grad városának és a Manjača-hegység kulcsfontosságú pozícióinak az elfoglalása volt. Ezen területek birtokbavétele lehetővé tette volna, hogy a Horvát Hadsereg és a Horvát Védelmi Tanács közvetlen fenyegetést jelentsen Banja Lukára, a boszniai szerbek által ellenőrzött legnagyobb városra.",
+        "Az offenzíva gazdasági és infrastrukturális szempontból is létfontosságú célpontot tűzött ki: a Bočac vízerőmű elfoglalását. Ez az objektum jelentette ugyanis Nyugat-Bosznia-Hercegovinában az utolsó olyan jelentős villamosenergia-forrást, amely még a boszniai szerb erők irányítása alatt állt. Az erőmű birtoklása stratégiai előnyt biztosított a harcokban.",
+        "A Horvát Hadsereg, mint a horvát fegyveres erők legidősebb és legnagyobb szárazföldi ága – melynek központja Karlovacban található és országszerte számos bázissal rendelkezik –, régóta meghatározó szereplője volt a konfliktusnak. Mellette a Horvát Védelmi Tanács, a herceg-boszniai horvátok fő katonai ereje vett részt a küzdelemben, amely ekkorra már túl volt a bosnyák erőkkel vívott korábbi összecsapásokon.",
+        "Ez a négy napos hadművelet mély nyomot hagyott a délszláv háború utolsó fejezeteiben. A Déli Mozdulat sikeres végrehajtása nemcsak katonai siker volt, hanem egy korszak lezárása is, amely közvetlenül előzte meg a daytoni megállapodás megszületését és a térség békefolyamatait."
+      ],
+      "pull_quote": "A Déli Mozdulat nem csupán egy utolsó katonai offenzíva volt, hanem a nyugat-boszniai erőviszonyok végleges átrendeződése.",
+      "reading_time_min": 2,
+      "word_count": 369,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Croatian_Army",
+          "title": "Croatian Army",
+          "publisher": "Wikipedia",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-08T00:03:32+02:00"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Croatian_Defence_Council",
+          "title": "Croatian Defence Council",
+          "publisher": "Wikipedia",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-08T00:03:32+02:00"
+        },
+        {
+          "url": "https://peacekeeping.un.org/mission/past/unmiset/facts.html",
+          "title": "United Nations",
+          "publisher": "United Nations",
+          "license": null,
+          "accessed_at": "2026-10-08T00:03:32+02:00"
+        },
+        {
+          "url": "https://hu.wikipedia.org/wiki/Horv%C3%A1t_V%C3%A9delmi_Tan%C3%A1cs",
+          "title": "Horvát Védelmi Tanács",
+          "publisher": "Wikipédia",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-08T00:03:32+02:00"
+        },
+        {
+          "url": "https://hu.wikipedia.org/wiki/D%C3%A9li_Mozdulat_hadm%C5%B1velet",
+          "title": "Déli Mozdulat hadművelet",
+          "publisher": "Wikipédia",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-08T00:03:32+02:00"
+        },
+        {
+          "url": "https://www.nytimes.com/1992/05/12/world/pessimism-is-overshadowing-hope-in-effort-to-end-yugoslav-fighting.html?src=pm",
+          "title": "The New York Times",
+          "publisher": "The New York Times",
+          "license": null,
+          "accessed_at": "2026-10-08T00:03:32+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "retro-v1",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "category_meta": {
+        "event_year": 1995,
+        "event_date": "10-08",
+        "event_title": "The Croatian Army and Croatian Defence Council launched Operation Southern Move, their last offensive in the Bosnian War"
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/retro/2026-10-08-a-deli-mozdulat-csendes-fegyverropogas-es-az-utolso-offenziva-bosznia/",
+      "seo": {
+        "meta_title": "A Déli Mozdulat: Csendes fegyverropogás és az utolsó offenzí",
+        "meta_description": "Pontosan ezen a napon, 1995. október 8-án indította el a Horvát Hadsereg és a Horvát Védelmi Tanács a Déli Mozdulat elnevezésű hadműveletet. Ez a katonai akció ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/retro/2026-10-08-a-deli-mozdulat-csendes-fegyverropogas-es-az-utolso-offenziva-bosznia/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "Article"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "0fe8f81d9c4e858f88bffd4acf92508ae5bce970abebd5b5beba8c8671c3ee1e",
+      "pipeline_run_id": "37693424594",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T00:03:32+02:00",
+      "updated_at": "2026-10-08T00:03:32+02:00",
+      "published_at": "2026-10-08T00:03:32+02:00",
+      "expires_at": null
+    },
     {
       "id": "5101c304-b8a1-5540-9f5c-c6612543a7b1",
       "slug": "2026-10-07-a-nap-amikor-megrendult-a-foldkozi-tenger-ura-a-lepantoi-utkozet",
