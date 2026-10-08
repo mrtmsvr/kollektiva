@@ -8573,10 +8573,7 @@
       "title_options": [
         "Stephen Hawking elméletével magyarázzák a gigantikus energiájú űrbombázást",
         "Ősi fekete lyuk találhatta el a Földet?",
-        "Rejtélyes neutrínó érkezett egy ötödik dimenzióból",
-        "Miért nem látszott semmi abból a pusztító energiájú csapásból, amely eltalálta a Földet?",
-        "Valóban egy láthatatlan, túlvilági dimenzióból lőnek ránk az ősi fekete lyukak?",
-        "A fizikusok sem hiszik el, amit Szicília partjainál mértek a tengerfenéken"
+        "Rejtélyes neutrínó érkezett egy ötödik dimenzióból"
       ],
       "clickbait_from": 3,
       "image_options": [
@@ -8666,11 +8663,14 @@
       "review": {
         "title": 0,
         "image": 0,
-        "sent_at": "2026-10-08T16:59:56+00:00",
-        "msg_ids": [],
-        "control_id": 3935,
-        "title_prompt_id": null,
-        "compact": "⏱ Magától kint"
+        "sent_at": "2026-10-08T17:52:23+00:00",
+        "msg_ids": [
+          3936,
+          3937,
+          3938,
+          3939
+        ],
+        "control_id": 3940
       },
       "live": true
     }
