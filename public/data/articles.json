@@ -1,7 +1,120 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-08T12:10:01+02:00",
+  "updated_at": "2026-10-08T12:10:18+02:00",
   "articles": [
+    {
+      "id": "00232ae7-bb9c-554b-b924-46f92caa8491",
+      "slug": "2026-10-08-szaturnusz-mozaikok-es-marsi-hajnalok-ez-tortenik-most-az-urkutatasba",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "Szaturnusz",
+        "Mars",
+        "Hubble űrtávcső",
+        "Curiosity rover",
+        "NASA"
+      ],
+      "title": "Szaturnusz-mozaikok és marsi hajnalok: ez történik most az űrkutatásban",
+      "subtitle": null,
+      "lead": "A Szaturnusz-rendszer részletes bemutatása került a középpontba, miközben a NASA friss programjai és holdbázis-fejlesztései is előtérbe kerültek. Az őszi csillagászati hírek naprendszerünk legtávolabbi és legközelebbi szegmenseiből is izgalmas részletekkel szolgálnak.",
+      "key_points": [
+        "A NASA aktuális csillagászati naptára és képarchívuma a Szaturnusz-rendszer gazdag világát mutatja be.",
+        "Az űrkutatás jelenlegi projektjei a holdbázisok fejlesztésétől a heliofizikai kutatásokig terjednek."
+      ],
+      "content": "Az őszi időszakban a szakemberek a Naprendszer külső és belső bolygóira egyaránt fókuszálnak, amint azt a friss adatok és megfigyelések is mutatják. A NASA folyamatosan frissülő archívumai és naptárai ebben a hónapban is kiemelt figyelmet szentelnek a legújabb tudományos eredményeknek és az űrkutatás mérföldköveinek.\n\nA távolabbi régiókban a Szaturnusz-rendszer összetett világa került a középpontba, amelynek tanulmányozásához a csillagászok részletes magyarázatokat készítenek.\n\nAz űreszközök folyamatos munkája mellett a tudományos közösség a Holdra irányuló jövőbeli küldetésekre és a Föld körüli pályán végzett kísérletekre is koncentrál.\n\nA jövőbeli űrprogramok keretében a szakemberek már a következő generációs holdbázisok tudományos berendezéseit és a kommunikációs hálózatokat tervezik. Az alacsony Föld körüli pályán zajló emberi űrutazási projektek, valamint a napfizikai kutatások újabb pályázatai pedig tovább bővítik az emberiség technológiai határait.",
+      "content_format": "markdown",
+      "body": [
+        "Az őszi időszakban a szakemberek a Naprendszer külső és belső bolygóira egyaránt fókuszálnak, amint azt a friss adatok és megfigyelések is mutatják. A NASA folyamatosan frissülő archívumai és naptárai ebben a hónapban is kiemelt figyelmet szentelnek a legújabb tudományos eredményeknek és az űrkutatás mérföldköveinek.",
+        "A távolabbi régiókban a Szaturnusz-rendszer összetett világa került a középpontba, amelynek tanulmányozásához a csillagászok részletes magyarázatokat készítenek.",
+        "Az űreszközök folyamatos munkája mellett a tudományos közösség a Holdra irányuló jövőbeli küldetésekre és a Föld körüli pályán végzett kísérletekre is koncentrál.",
+        "A jövőbeli űrprogramok keretében a szakemberek már a következő generációs holdbázisok tudományos berendezéseit és a kommunikációs hálózatokat tervezik. Az alacsony Föld körüli pályán zajló emberi űrutazási projektek, valamint a napfizikai kutatások újabb pályázatai pedig tovább bővítik az emberiség technológiai határait."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 156,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg/1280px-Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "A swing high above Saturn by NASA's Cassini spacecraft revealed this stately view of the golden-hued planet and its main rings. The view is in natural color, as human eyes would have seen it. This mos",
+        "credit": "NASA/JPL-Caltech/SSI/Cornell / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10,_2013.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Curiosity_-_Robot_Geologist_and_Chemist_in_One%21.jpg/1280px-Curiosity_-_Robot_Geologist_and_Chemist_in_One%21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "This artist's concept features NASA's Mars Science Laboratory Curiosity rover, a mobile robot for investigating Mars' past or present ability to sustain microbial life. Curiosity landed near the Marti",
+          "credit": "NASA/JPL-Caltech / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Curiosity_-_Robot_Geologist_and_Chemist_in_One!.jpg",
+          "after": 2,
+          "caption": "A Curiosity rover a Mars felszínén"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-8-the-saturn-system-smorgasbord/",
+          "title": "APOD: 2026 October 8 – The Saturn System Smörgåsbord",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-08T12:05:48+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-08T12:10:18+02:00"
+      },
+      "hot_score": 5.87,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://science.nasa.gov/image-article/apod-2026-october-8-the-saturn-system-smorgasbord/"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/tech/2026-10-08-szaturnusz-mozaikok-es-marsi-hajnalok-ez-tortenik-most-az-urkutatasba/",
+      "seo": {
+        "meta_title": "Szaturnusz-mozaikok és marsi hajnalok: ez történik most az ű",
+        "meta_description": "A Szaturnusz-rendszer részletes bemutatása került a középpontba, miközben a NASA friss programjai és holdbázis-fejlesztései is előtérbe kerültek. Az őszi csilla",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-08-szaturnusz-mozaikok-es-marsi-hajnalok-ez-tortenik-most-az-urkutatasba/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg/1280px-Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "5b60f37d9c9d93eaf5849bb86d4ec062e5c6d9b2632870a76a32653a8d398265",
+      "pipeline_run_id": "37758883764",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T12:10:18+02:00",
+      "updated_at": "2026-10-08T12:10:18+02:00",
+      "published_at": "2026-10-08T12:10:18+02:00",
+      "expires_at": null
+    },
     {
       "id": "40c5fe0f-3109-5f27-82fc-d9c99d6eae55",
       "slug": "2026-10-08-ezt-hozza-a-jovo-a-kisvallalkozoknak-a-kamara-legujabb-terve-szerint",

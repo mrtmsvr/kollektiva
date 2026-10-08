@@ -9306,7 +9306,7 @@
     {
       "id": "00232ae7-bb9c-554b-b924-46f92caa8491",
       "slug": "2026-10-08-szaturnusz-mozaikok-es-marsi-hajnalok-ez-tortenik-most-az-urkutatasba",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -9477,9 +9477,9 @@
       "dedupe_hash": "5b60f37d9c9d93eaf5849bb86d4ec062e5c6d9b2632870a76a32653a8d398265",
       "pipeline_run_id": "37758883764",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-08T12:05:48+02:00",
-      "updated_at": "2026-10-08T12:05:48+02:00",
-      "published_at": "2026-10-08T12:05:48+02:00",
+      "created_at": "2026-10-08T12:10:18+02:00",
+      "updated_at": "2026-10-08T12:10:18+02:00",
+      "published_at": "2026-10-08T12:10:18+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -9489,15 +9489,12 @@
         "title": 0,
         "image": 0,
         "sent_at": "2026-10-08T10:07:06+00:00",
-        "msg_ids": [
-          3841,
-          3842,
-          3843,
-          3844,
-          3845
-        ],
-        "control_id": 3846
-      }
+        "msg_ids": [],
+        "control_id": 3846,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "b343f9af-5be3-57e1-b7b7-527bb535c185",
