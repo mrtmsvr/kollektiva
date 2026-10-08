@@ -8935,27 +8935,15 @@
           "vision_score": 6.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Yandex_main_office_%28old%29%2C_Moscow_20240403_125930.jpg/1280px-Yandex_main_office_%28old%29%2C_Moscow_20240403_125930.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Yandex main office (old), Moscow\nNew Yandex office under construction yet: \n\n\nThis photo was created by Lesless. It is not in the public domain, and use of this file outside of the licensing terms is",
-          "credit": "Lestest / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Yandex_main_office_(old),_Moscow_20240403_125930.jpg",
-          "vision_score": 6.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/PolitietsEfterretningstjenesteJanuar2025.jpg/1280px-PolitietsEfterretningstjenesteJanuar2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 800,
-          "kind": "graphic",
+          "kind": "photo",
           "pos": "center",
-          "alt": "The Flag of Europe is the flag and emblem of the European Union (EU) and Council of Europe (CoE). It consists of a circle of 12 golden (yellow) stars on a blue background. It was created in 1955 by th",
-          "credit": "User:Verdy p, User:-xfi-, User:Paddu, User:Nightstallion, User:Funakoshi, User:J / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg",
+          "alt": "Headquarters of the Danish Security and Intelligence Service",
+          "credit": "Juli1515 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:PolitietsEfterretningstjenesteJanuar2025.jpg",
           "vision_score": 5.0
         }
       ],
@@ -9008,17 +8996,35 @@
       },
       "review": {
         "title": 0,
-        "image": -1,
+        "image": 0,
         "sent_at": "2026-10-08T05:15:10+00:00",
         "msg_ids": [
           3704,
           3705,
           3706,
-          3707
+          3707,
+          3710,
+          3711
         ],
-        "control_id": 3708
+        "control_id": 3712
       },
-      "live": true
+      "live": true,
+      "image_queries": [
+        "Robert Fico",
+        "Yandex data center",
+        "Danish Intelligence Service",
+        "German Federal Ministry of Defense",
+        "Slovak Ministry of Transport",
+        "Russian IT giant",
+        "drone attack",
+        "fuel shortage",
+        "hybrid warfare"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Yandex_main_office.jpg/1280px-Yandex_main_office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Yandex_main_office_%28old%29%2C_Moscow_20240403_125930.jpg/1280px-Yandex_main_office_%28old%29%2C_Moscow_20240403_125930.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "d2399292-58e6-5a9b-8b45-44a1e42eddb6",
