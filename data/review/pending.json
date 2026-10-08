@@ -8999,15 +8999,10 @@
         "title": 0,
         "image": 0,
         "sent_at": "2026-10-08T05:15:10+00:00",
-        "msg_ids": [
-          3704,
-          3705,
-          3706,
-          3707,
-          3710,
-          3711
-        ],
-        "control_id": 3712
+        "msg_ids": [],
+        "control_id": 3712,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
       },
       "live": true,
       "image_queries": [
