@@ -8918,9 +8918,7 @@
       "title_options": [
         "Dróntámadás ért egy orosz IT-óriást, miközben üzemanyaghiányról számolt be Szlovákia",
         "Üzemanyaghiány és lebombázott szerverek: fokozódik a feszültség Európában",
-        "Dánia és Németország is kongatja a vészharangot az orosz hibrid hadviselés miatt",
-        "Aggasztó jelentések érkeztek: komoly üzemanyaghiánnyal küzd a szomszédos ország",
-        "Itt a bizonyíték, hogy tovább gyűrűzik az orosz-ukrán háború válsága Európában"
+        "Dánia és Németország is kongatja a vészharangot az orosz hibrid hadviselés miatt"
       ],
       "clickbait_from": 3,
       "image_options": [
@@ -9011,11 +9009,14 @@
       "review": {
         "title": 0,
         "image": 0,
-        "sent_at": "2026-10-08T04:27:05+00:00",
-        "msg_ids": [],
-        "control_id": 3688,
-        "title_prompt_id": null,
-        "compact": "⏱ Magától kint"
+        "sent_at": "2026-10-08T05:15:10+00:00",
+        "msg_ids": [
+          3704,
+          3705,
+          3706,
+          3707
+        ],
+        "control_id": 3708
       },
       "live": true
     },
