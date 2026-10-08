@@ -8622,7 +8622,7 @@
     {
       "id": "14771ee1-c38a-5653-ae37-6dcbe5de2bc7",
       "slug": "2026-10-08-hazudott-a-miniszterium-senki-sem-kapott-megbizast-a-terror-haza-atal",
-      "status": "needs_review",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -8652,16 +8652,15 @@
       "word_count": 176,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ungv%C3%A1ry_Kriszti%C3%A1n_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Budapest%2C_M1_metr%C3%B3_%28kisf%C3%B6ldalatti%29%2C_Andr%C3%A1ssy_%C3%BAt.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "width": 1200,
-        "height": 1496,
+        "height": 939,
         "kind": "photo",
-        "pos": "top",
-        "alt": "Ungváry Krisztián 2014",
-        "credit": "Solymári / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Ungv%C3%A1ry_Kriszti%C3%A1n_2014.jpg",
-        "vision_score": 8.0
+        "pos": "center",
+        "alt": "Andrássy út in Budapest, Hungary , showing an intersection of the street with the Millenium Underground Rail (Metro line 1) beneath street level, probably Vörösmarty utca",
+        "credit": "Unknown authorUnknown author / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_M1_metr%C3%B3_(kisf%C3%B6ldalatti),_Andr%C3%A1ssy_%C3%BAt.png"
       },
       "inline_images": [],
       "sources": [
@@ -8697,10 +8696,10 @@
       "date_label": "október 8.",
       "url": "/kozelet/2026-10-08-hazudott-a-miniszterium-senki-sem-kapott-megbizast-a-terror-haza-atal/",
       "seo": {
-        "meta_title": "Hazudott a minisztérium? Senki sem kapott megbízást a Terror",
+        "meta_title": "Kérdések a Terror Háza átalakulása körül: Senki sem kapott m",
         "meta_description": "Komoly ellentmondás alakult ki a kultúráért felelős minisztérium tervei és a valóság között a Terror Háza Múzeum esetében. Tarr Zoltán miniszter korábbi bejelen",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-08-hazudott-a-miniszterium-senki-sem-kapott-megbizast-a-terror-haza-atal/",
-        "og_image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ungv%C3%A1ry_Kriszti%C3%A1n_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Budapest%2C_M1_metr%C3%B3_%28kisf%C3%B6ldalatti%29%2C_Andr%C3%A1ssy_%C3%BAt.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8717,9 +8716,9 @@
       "dedupe_hash": "9acc81039b7dac8a2acf3a66ded917a9afb2d6e58566a7e160d2424d903accfd",
       "pipeline_run_id": "37747060702",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-08T17:28:48+02:00",
-      "updated_at": "2026-10-08T10:49:55+02:00",
-      "published_at": "2026-10-08T10:49:55+02:00",
+      "created_at": "2026-10-08T17:33:36+02:00",
+      "updated_at": "2026-10-08T17:33:36+02:00",
+      "published_at": "2026-10-08T17:33:36+02:00",
       "expires_at": null,
       "hold": true,
       "title_options": [
@@ -8818,20 +8817,10 @@
         "title": 0,
         "image": 0,
         "sent_at": "2026-10-08T15:29:01+00:00",
-        "msg_ids": [
-          3897,
-          3898,
-          3901,
-          3905,
-          3914,
-          3915,
-          3916,
-          3917,
-          3918,
-          3919,
-          3920
-        ],
-        "control_id": 3921
+        "msg_ids": [],
+        "control_id": 3921,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
       },
       "image_queries": [
         "Tarr Zoltán",
@@ -8869,7 +8858,8 @@
         "https://upload.wikimedia.org/wikipedia/commons/2/29/Ungv%C3%A1ry_Kriszti%C3%A1n_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Civic_Center_office_building%2C_Kossuth_Street%2C_2020_Zalaegerszeg.jpg/1280px-Civic_Center_office_building%2C_Kossuth_Street%2C_2020_Zalaegerszeg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Peace_March_for_Hungary_-_2013.10.23_%2870%29.JPG/1280px-Peace_March_for_Hungary_-_2013.10.23_%2870%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     }
   ]
 }
