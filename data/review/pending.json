@@ -9114,9 +9114,9 @@
       "live": true
     },
     {
-      "id": "93af2662-7671-5d30-92a6-5e99a13dbc10",
-      "slug": "2026-10-08-adocsavar-a-katanal-huszonket-milliora-nohet-a-hatar",
-      "status": "pending",
+      "id": "40c5fe0f-3109-5f27-82fc-d9c99d6eae55",
+      "slug": "2026-10-08-ezt-hozza-a-jovo-a-kisvallalkozoknak-a-kamara-legujabb-terve-szerint",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -9126,7 +9126,7 @@
         "adócsere",
         "vállalkozás"
       ],
-      "title": "Adócsavar a katánál: huszonkét millióra nőhet a határ",
+      "title": "Ezt hozza a jövő a kisvállalkozóknak a kamara legújabb terve szerint",
       "subtitle": null,
       "lead": "Kompromisszumos javaslatcsomagot terjesztett elő a Magyar Kereskedelmi és Iparkamara a kisadózó vállalkozások tételes adójának átalakítására, amely magasabb bevételi határt és új kötelezettségeket hozna. A tervezett változtatások alapjaiban rajzolhatják át a magyar kisvállalkozók mindennapjait.",
       "key_points": [
@@ -9257,11 +9257,11 @@
       },
       "date": "2026-10-08",
       "date_label": "október 8.",
-      "url": "/penzvilag/2026-10-08-adocsavar-a-katanal-huszonket-milliora-nohet-a-hatar/",
+      "url": "/penzvilag/2026-10-08-ezt-hozza-a-jovo-a-kisvallalkozoknak-a-kamara-legujabb-terve-szerint/",
       "seo": {
-        "meta_title": "Adócsavar a katánál: huszonkét millióra nőhet a határ",
+        "meta_title": "Ezt hozza a jövő a kisvállalkozóknak a kamara legújabb terve",
         "meta_description": "Kompromisszumos javaslatcsomagot terjesztett elő a Magyar Kereskedelmi és Iparkamara a kisadózó vállalkozások tételes adójának átalakítására, amely magasabb bev",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-08-adocsavar-a-katanal-huszonket-milliora-nohet-a-hatar/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-08-ezt-hozza-a-jovo-a-kisvallalkozoknak-a-kamara-legujabb-terve-szerint/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Chamber_of_Commerce_and_Industry_of_Pest_County%2C_2017_T%C3%B6r%C3%B6kb%C3%A1lint.jpg/1280px-Chamber_of_Commerce_and_Industry_of_Pest_County%2C_2017_T%C3%B6r%C3%B6kb%C3%A1lint.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -9279,9 +9279,9 @@
       "dedupe_hash": "f051466231429dc005ac81ed54497e3309c3233f1dbf2a2ef18d7e599ef3edbd",
       "pipeline_run_id": "37758883764",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-08T12:03:08+02:00",
-      "updated_at": "2026-10-08T12:03:08+02:00",
-      "published_at": "2026-10-08T12:03:08+02:00",
+      "created_at": "2026-10-08T12:10:01+02:00",
+      "updated_at": "2026-10-08T12:10:01+02:00",
+      "published_at": "2026-10-08T12:10:01+02:00",
       "expires_at": null,
       "legal": {
         "level": 1,
@@ -9296,14 +9296,12 @@
         "title": 5,
         "image": 0,
         "sent_at": "2026-10-08T10:05:38+00:00",
-        "msg_ids": [
-          3836,
-          3837,
-          3838,
-          3839
-        ],
-        "control_id": 3840
-      }
+        "msg_ids": [],
+        "control_id": 3840,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "00232ae7-bb9c-554b-b924-46f92caa8491",
