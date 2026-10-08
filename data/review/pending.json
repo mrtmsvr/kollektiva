@@ -8506,7 +8506,7 @@
     {
       "id": "93f454e1-f682-53c6-85ec-38489d78083b",
       "slug": "2026-10-08-stephen-hawking-elmeletevel-magyarazzak-a-gigantikus-energiaju-urbomb",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -8655,9 +8655,9 @@
       "dedupe_hash": "4d3ff91a1c569bbda4191ab2796046f18f5914fa212abfbc576db45c73b519b4",
       "pipeline_run_id": "37809736867",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-08T18:55:43+02:00",
-      "updated_at": "2026-10-08T18:55:43+02:00",
-      "published_at": "2026-10-08T18:55:43+02:00",
+      "created_at": "2026-10-08T19:30:08+02:00",
+      "updated_at": "2026-10-08T19:30:08+02:00",
+      "published_at": "2026-10-08T19:30:08+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -8667,14 +8667,12 @@
         "title": 0,
         "image": 0,
         "sent_at": "2026-10-08T16:59:56+00:00",
-        "msg_ids": [
-          3931,
-          3932,
-          3933,
-          3934
-        ],
-        "control_id": 3935
-      }
+        "msg_ids": [],
+        "control_id": 3935,
+        "title_prompt_id": null,
+        "compact": "⏱ Magától kint"
+      },
+      "live": true
     }
   ]
 }
