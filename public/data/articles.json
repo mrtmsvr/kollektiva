@@ -1,7 +1,109 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-08T06:57:06+02:00",
+  "updated_at": "2026-10-08T06:58:37+02:00",
   "articles": [
+    {
+      "id": "d2399292-58e6-5a9b-8b45-44a1e42eddb6",
+      "slug": "2026-10-08-null",
+      "status": "published",
+      "category": "eletmod",
+      "subcategory": null,
+      "tags": [
+        "D-vitamin",
+        "egészség",
+        "táplálkozás",
+        "kutatás",
+        "vitaminok"
+      ],
+      "title": "null",
+      "subtitle": null,
+      "lead": "Egy friss kutatás szerint a D2-vitamin szedése váratlan módon csökkentheti a szervezet saját D3-vitamin-szintjét. Az eredmények rávilágítanak arra, hogy a két vitaminformát a mindennapokban nem érdemes feltétlenül egyenértékűként kezelni.",
+      "key_points": [
+        "A D2-vitamin növelheti az összvitaminszintet, de mérsékelheti a D3-at.",
+        "A D3-vitamin hatékonyabban emeli és tartja fenn a vérben a D-vitamin szintjét.",
+        "A vizsgálat során huszonnégy korábbi tanulmány eredményeit elemezték a kutatók."
+      ],
+      "content": "A D-vitamin elengedhetetlen a kalcium felszívódásához, a csontok egészségéhez, valamint az izom-, ideg- és immunrendszer megfelelő működéséhez. Az Egyesült Királyságban például a sötétebb hónapokban napi tíz mikrogramm bevitelét javasolják, mivel a napfény ekkor már nem elég erős a természetes termelődéshez.\n\nA boltokban kapható készítmények jellemzően kétféle formát tartalmaznak. A D2-vitamint gombákból vagy élesztőgombákból állítják elő ultraibolya fénnyel, míg a D3-vitamin az emberi bőrben képződik a napfény hatására, illetve lanolinból vagy növényi forrásokból, például zuzmóból is kinyerhető.\n\nElemzésük szerint a D2-vitamint szedő embereknél a vérben mért 25-hidroxi-D3-vitamin koncentrációja jelentősen alacsonyabb volt azokhoz képest, akik nem kaptak D2-t.\n\nA kutatók becslései alapján az átlagos csökkenés nagyjából kilenc és tizennyolc nanomol között mozgott literenként. Ez nem azt jelenti, hogy a D2-vitamin káros lenne, vagy teljesen kiürítené a tápanyagot, de az egyik forma növelése láthatóan együtt jár a másik csökkenésével.\n\nA tudósok feltevése szerint a szervezet szabályozási mechanizmusai válthatják ki ezt, amikor a megnövekedett D2-szint miatt felgyorsul a D3 lebontása is.",
+      "content_format": "markdown",
+      "body": [
+        "A D-vitamin elengedhetetlen a kalcium felszívódásához, a csontok egészségéhez, valamint az izom-, ideg- és immunrendszer megfelelő működéséhez. Az Egyesült Királyságban például a sötétebb hónapokban napi tíz mikrogramm bevitelét javasolják, mivel a napfény ekkor már nem elég erős a természetes termelődéshez.",
+        "A boltokban kapható készítmények jellemzően kétféle formát tartalmaznak. A D2-vitamint gombákból vagy élesztőgombákból állítják elő ultraibolya fénnyel, míg a D3-vitamin az emberi bőrben képződik a napfény hatására, illetve lanolinból vagy növényi forrásokból, például zuzmóból is kinyerhető.",
+        "Elemzésük szerint a D2-vitamint szedő embereknél a vérben mért 25-hidroxi-D3-vitamin koncentrációja jelentősen alacsonyabb volt azokhoz képest, akik nem kaptak D2-t.",
+        "A kutatók becslései alapján az átlagos csökkenés nagyjából kilenc és tizennyolc nanomol között mozgott literenként. Ez nem azt jelenti, hogy a D2-vitamin káros lenne, vagy teljesen kiürítené a tápanyagot, de az egyik forma növelése láthatóan együtt jár a másik csökkenésével.",
+        "A tudósok feltevése szerint a szervezet szabályozási mechanizmusai válthatják ki ezt, amikor a megnövekedett D2-szint miatt felgyorsul a D3 lebontása is."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 199,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/ca4afd8a0295ce9d.jpg",
+        "width": 6240,
+        "height": 4160,
+        "kind": "photo",
+        "alt": "tablets, medicine, supplement, vitamin, pharmaceutical, cure, medical treatment, remedy, pill, prescription, medicine, medicine, medicine, medicine, medicine",
+        "credit": "HeungSoon / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/tablets-medicine-supplement-vitamin-5620566/",
+        "vision_score": 9.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/ca4afd8a0295ce9d.jpg",
+        "orig_url": "https://pixabay.com/get/g41c7e71ca7bd8bf320ebb978a7ba95a61b1c7fbc336434cabbfebb8c9aecaf4875b8b1c2066c6a6637ab7b947579799ff86a0c48e0bb41ae8a6925588a64b3ba_1280.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/10/261007232940.htm",
+          "title": "Scientists warn a popular vitamin D supplement may have a hidden downside",
+          "publisher": "sciencedaily.com",
+          "license": null,
+          "accessed_at": "2026-10-08T06:27:14+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-08T06:58:37+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.sciencedaily.com/releases/2026/10/261007232940.htm"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/eletmod/2026-10-08-null/",
+      "seo": {
+        "meta_title": "null",
+        "meta_description": "Egy friss kutatás szerint a D2-vitamin szedése váratlan módon csökkentheti a szervezet saját D3-vitamin-szintjét. Az eredmények rávilágítanak arra, hogy a két v",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-08-null/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/ca4afd8a0295ce9d.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "134f0bf580cb707002e2f7a8d28a6fa42bab6bfbc973dc1d99ce17cfee7a7172",
+      "pipeline_run_id": "37726983995",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T06:58:37+02:00",
+      "updated_at": "2026-10-08T06:58:37+02:00",
+      "published_at": "2026-10-08T06:58:37+02:00",
+      "expires_at": null
+    },
     {
       "id": "6e4c9573-3e32-58b2-abd8-50d0c7e96f3b",
       "slug": "2026-10-08-drontamadas-ert-egy-orosz-it-oriast-mikozben-uzemanyaghianyrol-szamol",

@@ -9241,7 +9241,7 @@
     {
       "id": "d2399292-58e6-5a9b-8b45-44a1e42eddb6",
       "slug": "2026-10-08-null",
-      "status": "pending",
+      "status": "published",
       "category": "eletmod",
       "subcategory": null,
       "tags": [
@@ -9273,7 +9273,7 @@
       "word_count": 199,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://pixabay.com/get/g41c7e71ca7bd8bf320ebb978a7ba95a61b1c7fbc336434cabbfebb8c9aecaf4875b8b1c2066c6a6637ab7b947579799ff86a0c48e0bb41ae8a6925588a64b3ba_1280.jpg",
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/ca4afd8a0295ce9d.jpg",
         "width": 6240,
         "height": 4160,
         "kind": "photo",
@@ -9281,7 +9281,9 @@
         "credit": "HeungSoon / Pixabay",
         "license": "Pixabay License",
         "source_url": "https://pixabay.com/photos/tablets-medicine-supplement-vitamin-5620566/",
-        "vision_score": 9.0
+        "vision_score": 9.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/ca4afd8a0295ce9d.jpg",
+        "orig_url": "https://pixabay.com/get/g41c7e71ca7bd8bf320ebb978a7ba95a61b1c7fbc336434cabbfebb8c9aecaf4875b8b1c2066c6a6637ab7b947579799ff86a0c48e0bb41ae8a6925588a64b3ba_1280.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -9394,7 +9396,7 @@
         "meta_title": "null",
         "meta_description": "Egy friss kutatás szerint a D2-vitamin szedése váratlan módon csökkentheti a szervezet saját D3-vitamin-szintjét. Az eredmények rávilágítanak arra, hogy a két v",
         "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-08-null/",
-        "og_image": "https://pixabay.com/get/g41c7e71ca7bd8bf320ebb978a7ba95a61b1c7fbc336434cabbfebb8c9aecaf4875b8b1c2066c6a6637ab7b947579799ff86a0c48e0bb41ae8a6925588a64b3ba_1280.jpg",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/ca4afd8a0295ce9d.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -9411,9 +9413,9 @@
       "dedupe_hash": "134f0bf580cb707002e2f7a8d28a6fa42bab6bfbc973dc1d99ce17cfee7a7172",
       "pipeline_run_id": "37726983995",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-08T06:27:14+02:00",
-      "updated_at": "2026-10-08T06:27:14+02:00",
-      "published_at": "2026-10-08T06:27:14+02:00",
+      "created_at": "2026-10-08T06:58:37+02:00",
+      "updated_at": "2026-10-08T06:58:37+02:00",
+      "published_at": "2026-10-08T06:58:37+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -9423,16 +9425,12 @@
         "title": 0,
         "image": 0,
         "sent_at": "2026-10-08T04:28:13+00:00",
-        "msg_ids": [
-          3689,
-          3690,
-          3691,
-          3692,
-          3693,
-          3694
-        ],
-        "control_id": 3695
-      }
+        "msg_ids": [],
+        "control_id": 3695,
+        "title_prompt_id": null,
+        "compact": "⏱ Magától kint"
+      },
+      "live": true
     }
   ]
 }
