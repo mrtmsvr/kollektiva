@@ -9616,6 +9616,741 @@
         "https://upload.wikimedia.org/wikipedia/commons/8/8a/John_B._Goodenough_%282010%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_08.jpg/1280px-Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
+    },
+    {
+      "id": "0e1f6dd0-80e8-5ad2-9233-61b5ec5dfc45",
+      "slug": "2026-10-08-zuhan-a-forint-es-az-otp-a-csutortoki-tozsdenyitason",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "OTP",
+        "forint",
+        "BUX",
+        "tőzsde",
+        "olajár"
+      ],
+      "title": "Zuhan a forint és az OTP a csütörtöki tőzsdenyitáson",
+      "subtitle": null,
+      "lead": "Aggódó hangulat és jelentős árfolyamesés uralja a hazai tőkepiacokat csütörtök reggel a közel-keleti feszültségek és az elszálló energiaárak miatt. A pesti tőzsde vezető indexe és az OTP is mélyrepülésbe kezdett.",
+      "key_points": [
+        "Az OTP árfolyama 40 000 forint alá esett, miután közel 3 százalékkal gyengült.",
+        "A dollárral szemben 327,2-ig szaladt fel a keresztárfolyam a reggeli órákban.",
+        "A Brent típusú olaj hordónkénti ára 103 dollár fölé emelkedett."
+      ],
+      "content": "Borús hangulat uralja csütörtök reggel a pénz- és tőkepiacokat, a befektetőket leginkább az amerikai–iráni háború alakulása aggasztja. A nemzetközi fejlemények hatására a hazai és az európai börzéken is lefordultak a részvényindexek, a pesti tőzsdén negatív hangulatban indult a kereskedés.\n\nA magyar blue chip papírok közül az OTP árfolyama 2,8-2,9 százalékkal szakadt be, így 40 000 forint alá került, miután elesett ettől a kulcsfontosságú támasztól. A bankpapír ezzel a szeptemberi csúcsához képest értékének közel ötödét elvesztette, miközben az európai nagybankok is számottevő mínuszban kezdték a napot a kötvénypiaci hozamok emelkedése közepette.\n\nAz olajárak ismét megugrottak az amerikai–iráni konfliktus újabb eszkalációjától tartó félelmek miatt. A Brent hordónkénti ára 103 dollár fölé ugrott, míg a WTI jegyzése 90,6 dollárra emelkedett, miután sajtóértesülések szerint a Pentagon előkészületbe kezdett.\n\nA forint kisebb gyengüléssel indította a csütörtöki kereskedést az összes meghatározó devizához képest, amiben Magyarország magas energiakitettsége és az energiaárak emelkedése játszhatta a legnagyobb szerepet. Az euróval szemben 367 közelében járt a jegyzés, míg a dollárhoz képest 327,2-ig szaladt fel a keresztárfolyam.",
+      "content_format": "markdown",
+      "body": [
+        "Borús hangulat uralja csütörtök reggel a pénz- és tőkepiacokat, a befektetőket leginkább az amerikai–iráni háború alakulása aggasztja. A nemzetközi fejlemények hatására a hazai és az európai börzéken is lefordultak a részvényindexek, a pesti tőzsdén negatív hangulatban indult a kereskedés.",
+        "A magyar blue chip papírok közül az OTP árfolyama 2,8-2,9 százalékkal szakadt be, így 40 000 forint alá került, miután elesett ettől a kulcsfontosságú támasztól. A bankpapír ezzel a szeptemberi csúcsához képest értékének közel ötödét elvesztette, miközben az európai nagybankok is számottevő mínuszban kezdték a napot a kötvénypiaci hozamok emelkedése közepette.",
+        "Az olajárak ismét megugrottak az amerikai–iráni konfliktus újabb eszkalációjától tartó félelmek miatt. A Brent hordónkénti ára 103 dollár fölé ugrott, míg a WTI jegyzése 90,6 dollárra emelkedett, miután sajtóértesülések szerint a Pentagon előkészületbe kezdett.",
+        "A forint kisebb gyengüléssel indította a csütörtöki kereskedést az összes meghatározó devizához képest, amiben Magyarország magas energiakitettsége és az energiaárak emelkedése játszhatta a legnagyobb szerepet. Az euróval szemben 367 közelében járt a jegyzés, míg a dollárhoz képest 327,2-ig szaladt fel a keresztárfolyam."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 205,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/50_Forint_Comemmorative_Ambulance_Front.jpg/1280px-50_Forint_Comemmorative_Ambulance_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "The coin was released on 2023 May 9 as a comemmoration of the establishment of the Hungarian Ambulance Services.",
+        "credit": "ByRussia45 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:50_Forint_Comemmorative_Ambulance_Front.jpg",
+        "vision_score": 7.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.vg.hu/penz-es-tokepiac/2026/10/forint-euro-dollar-otp-tozsde-olajar?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Már reggel hatalmasat ütöttek az OTP-n, a forint is gyengén kezdte a napot",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T10:07:56+02:00"
+        },
+        {
+          "url": "https://www.portfolio.hu/uzlet/20261008/nagyot-esett-az-otp-868160",
+          "title": "Nagyot esett az OTP",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T10:07:56+02:00"
+        },
+        {
+          "url": "https://www.portfolio.hu/deviza/20261008/botladozassal-kezd-a-forint-meg-mindig-torekeny-a-hangulat-868202",
+          "title": "Botladozással kezd a forint, még mindig törékeny a hangulat",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T10:07:56+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 7.34,
+      "title_options": [
+        "Zuhan a forint és az OTP a csütörtöki tőzsdenyitáson",
+        "Iráni háborús félelmek rántották le a pesti tőzsdét és a forintot",
+        "Negyvenezer forint alá esett az OTP, gyengélkedik a hazai fizetőeszköz",
+        "Ezt a számot nézik most a befektetők: ekkorát zuhant az OTP értéke",
+        "Közel két éve nem látott mélyponton a forint, mi történt a tőzsdén?",
+        "Így reagált a magyar gazdaság az amerikai–iráni konfliktus újabb fejleményeire"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/50_Forint_Comemmorative_Ambulance_Front.jpg/1280px-50_Forint_Comemmorative_Ambulance_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The coin was released on 2023 May 9 as a comemmoration of the establishment of the Hungarian Ambulance Services.",
+          "credit": "ByRussia45 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:50_Forint_Comemmorative_Ambulance_Front.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/OTP_Bank_B%C3%A9k%C3%A9scsaba.jpg/1280px-OTP_Bank_B%C3%A9k%C3%A9scsaba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "OTP Bank building in Békéscsaba, Hungary.",
+          "credit": "Burrows / Wikimedia Commons",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:OTP_Bank_B%C3%A9k%C3%A9scsaba.jpg",
+          "vision_score": 6.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Már reggel hatalmasat ütöttek az OTP-n, a forint is gyengén kezdte a napot",
+          "link": "https://www.vg.hu/penz-es-tokepiac/2026/10/forint-euro-dollar-otp-tozsde-olajar?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "summary": "Az iráni háború és a magas kötvényhozamok miatt aggódnak a befektetők csütörtök reggel. Az olajár ismét elszállt, a tőzsdék lefordultak.",
+          "source": "vg.hu",
+          "related": null,
+          "hot_score": 7.34
+        },
+        {
+          "title": "Nagyot esett az OTP",
+          "link": "https://www.portfolio.hu/uzlet/20261008/nagyot-esett-az-otp-868160",
+          "summary": "A tegnapi amerikai esés után ma reggel az ázsiai tőzsdéken is az eladók kerültek fölénybe, miközben Európában is esés látszik. A hangulatot a magas kötvényhozamok, az ismét dráguló olaj és az AI-beruházások növekvő hiteligényével kapcsolatos aggodalmak terhelik. Közben itthon is folytatódnak az izgalmak, a romló nemzetközi hangulattal párhuzamosan a magyar tőzsde is esik, élen az OTP-vel, melynek árfolyama ma 40 000 forint alá került - a bankpapír ezzel a szeptemberi csúcsához képest értékének közel ötödét elvesztette. Hasonló témákkal is foglalkozunk a Portfolio Investment Day konferenciánkon",
+          "source": "portfolio.hu",
+          "related": true,
+          "hot_score": null
+        },
+        {
+          "title": "Botladozással kezd a forint, még mindig törékeny a hangulat",
+          "link": "https://www.portfolio.hu/deviza/20261008/botladozassal-kezd-a-forint-meg-mindig-torekeny-a-hangulat-868202",
+          "summary": "Gyengüléssel kezdte a csütörtöki napot a forint, elsősorban a nemzetközi hangulat mozgatja a piacot jelenleg. A dollár az elmúlt napokban „erősen ragadt”, ez pedig nyomás alá helyezi a kockázatosabb befektetéseket, így a feltörekvő piaci devizákat is. Emellett a befektetők a kormány bejelentéseit várják a jövő évi költségvetéssel és a középtávú makropályával kapcsolatban.",
+          "source": "portfolio.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.vg.hu/penz-es-tokepiac/2026/10/forint-euro-dollar-otp-tozsde-olajar?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/penzvilag/2026-10-08-zuhan-a-forint-es-az-otp-a-csutortoki-tozsdenyitason/",
+      "seo": {
+        "meta_title": "Zuhan a forint és az OTP a csütörtöki tőzsdenyitáson",
+        "meta_description": "Aggódó hangulat és jelentős árfolyamesés uralja a hazai tőkepiacokat csütörtök reggel a közel-keleti feszültségek és az elszálló energiaárak miatt. A pesti tőzs",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-08-zuhan-a-forint-es-az-otp-a-csutortoki-tozsdenyitason/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/50_Forint_Comemmorative_Ambulance_Front.jpg/1280px-50_Forint_Comemmorative_Ambulance_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "20fb549efa0ae016d7b5067c0097f80a9b24a12139cc876119cde93b660e1bfb",
+      "pipeline_run_id": "37747060702",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T10:07:56+02:00",
+      "updated_at": "2026-10-08T10:07:56+02:00",
+      "published_at": "2026-10-08T10:07:56+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-08T08:13:10+00:00",
+        "msg_ids": [
+          3808,
+          3809,
+          3810
+        ],
+        "control_id": 3811
+      }
+    },
+    {
+      "id": "268c1d3c-2d1c-5fa9-a758-bfabc0f7a31f",
+      "slug": "2026-10-08-megyeri-livia-a-parterapia-segitett-lezarni-a-fajdalmas-multat",
+      "status": "pending",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Házasság első látásra",
+        "Megyeri Lívia",
+        "TV2",
+        "párkapcsolat",
+        "bulvár"
+      ],
+      "title": "Megyeri Lívia: A párterápia segített lezárni a fájdalmas múltat",
+      "subtitle": null,
+      "lead": "Három sikertelen kapcsolat és nyilvános csalódások után a Házasság első látásra című tévéműsorban próbál szerencsét Megyeri Lívia. A 38 éves biztosítási alkusz hosszú önismereti út és párterápia után nyitott újra a szerelemre.",
+      "key_points": [
+        "Megyeri Lívia korábbi kapcsolataiban a gyanú szerint többször is hűtlenséggel szembesült.",
+        "A 38 éves biztosítási alkusz a Story magazinnak mesélt a nehéz időszakról.",
+        "Gaál Viktor pszichológus szerint a megcsalások hátterében összetettebb problémák állnak."
+      ],
+      "content": "A Házasság első látásra legújabb évadában szereplő Megyeri Lívia a Story magazinnak adott nyilatkozatában vallott arról, hogy korábbi párkapcsolataiban többször is elhagyatottnak érezte magát. A 38 éves biztosítási alkusz elmondása szerint rendre olyan partnereket választott, akik mintát adtak arra, hogy a gyanú szerint a harmadik fél jelenjen meg a kapcsolatban, ami mély, elfojtott sérelmekhez vezetett.\n\nBár a problémák megoldására egykori partnerével párterápiát is igénybe vettek, a konfliktusokat és a kommunikációs hiányosságokat végül nem sikerült áttörniük. A nehéz időszak lezárásához és a múlt lezárásához a párterápia és az önismereti munka járult hozzá, amely után a televíziós kísérletben keresi a boldogságot.\n\nA műsor szakértője, Gaál Viktor pszichológus a hűtlenség kapcsán rámutatott, hogy a félrelépések hátterében összetett kapcsolati elakadások húzódnak meg, és a felelősség ezen a területen ritkán hárul kizárólag egyetlen félre.\n\nKözben a Házasság első látásra korábbi évadainak szereplői is a magánéletük alakulásáról számoltak be az elmúlt időszakban, hiszen több egykori páros az adások lezárása után külön utakon folytatta, míg másoknál azóta új eljegyzések vagy éppen váratlan szakítások történtek.",
+      "content_format": "markdown",
+      "body": [
+        "A Házasság első látásra legújabb évadában szereplő Megyeri Lívia a Story magazinnak adott nyilatkozatában vallott arról, hogy korábbi párkapcsolataiban többször is elhagyatottnak érezte magát. A 38 éves biztosítási alkusz elmondása szerint rendre olyan partnereket választott, akik mintát adtak arra, hogy a gyanú szerint a harmadik fél jelenjen meg a kapcsolatban, ami mély, elfojtott sérelmekhez vezetett.",
+        "Bár a problémák megoldására egykori partnerével párterápiát is igénybe vettek, a konfliktusokat és a kommunikációs hiányosságokat végül nem sikerült áttörniük. A nehéz időszak lezárásához és a múlt lezárásához a párterápia és az önismereti munka járult hozzá, amely után a televíziós kísérletben keresi a boldogságot.",
+        "A műsor szakértője, Gaál Viktor pszichológus a hűtlenség kapcsán rámutatott, hogy a félrelépések hátterében összetett kapcsolati elakadások húzódnak meg, és a felelősség ezen a területen ritkán hárul kizárólag egyetlen félre.",
+        "Közben a Házasság első látásra korábbi évadainak szereplői is a magánéletük alakulásáról számoltak be az elmúlt időszakban, hiszen több egykori páros az adások lezárása után külön utakon folytatta, míg másoknál azóta új eljegyzések vagy éppen váratlan szakítások történtek."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 196,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra-livia-haromszor-csalta-meg-a-parja-vallomas/vj87v5w",
+          "title": "Háromszor csalta meg a párja: párterápia után keresi az igazit Házasság első látásra Lívia",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T10:13:28+02:00"
+        },
+        {
+          "url": "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/hazassag-elso-latasra-korabbi-evad-parosok-folytatas",
+          "title": "Hamarosan véget ér a Házasság első látásra! Eddig ők döntöttek a házasságuk folytatása mellett",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T10:13:28+02:00"
+        }
+      ],
+      "quote": {
+        "text": "A megcsalások mögött sokszor jóval összetettebb kapcsolati gondok állnak... A félrelépésnél mindig kettőn áll a vásár",
+        "who": "Gaál Viktor pszichológus",
+        "after": 2
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.79,
+      "title_options": [
+        "Megyeri Lívia: A párterápia segített lezárni a fájdalmas múltat",
+        "Megyeri Lívia kamerák előtt keresi a boldogságot"
+      ],
+      "clickbait_from": 2,
+      "image_options": [],
+      "story": [
+        {
+          "title": "Háromszor csalta meg a párja: párterápia után keresi az igazit Házasság első látásra Lívia",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra-livia-haromszor-csalta-meg-a-parja-vallomas/vj87v5w",
+          "summary": "Háromszor csalta meg a legutóbbi párja, a férje pedig ország-világ előtt okozott neki újabb csalódást: Megyeri Lívia nyíltan mesélt arról, miért választ újra és újra olyan férfiakat, akik végül cserben hagyják. A 38 éves biztosítási alkusz most a Házasság első látásra című műsorban próbálja megtalálni a boldogságot.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 6.79
+        },
+        {
+          "title": "Hamarosan véget ér a Házasság első látásra! Eddig ők döntöttek a házasságuk folytatása mellett",
+          "link": "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/hazassag-elso-latasra-korabbi-evad-parosok-folytatas",
+          "summary": "Ők mondtak eddig igent egymásnak.",
+          "source": "borsonline.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra-livia-haromszor-csalta-meg-a-parja-vallomas/vj87v5w"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/bulvar/2026-10-08-megyeri-livia-a-parterapia-segitett-lezarni-a-fajdalmas-multat/",
+      "seo": {
+        "meta_title": "Megyeri Lívia: A párterápia segített lezárni a fájdalmas múl",
+        "meta_description": "Három sikertelen kapcsolat és nyilvános csalódások után a Házasság első látásra című tévéműsorban próbál szerencsét Megyeri Lívia. A 38 éves biztosítási alkusz ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-08-megyeri-livia-a-parterapia-segitett-lezarni-a-fajdalmas-multat/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "238afc54-e95e-55e1-a9ec-d98e5dcb3e77"
+      ],
+      "see_also": [
+        {
+          "title": "Nem várt húzás a TV2 műsorában",
+          "url": "/bulvar/2026-09-30-nem-vart-huzas-a-tv2-musoraban/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": "238afc54-e95e-55e1-a9ec-d98e5dcb3e77",
+      "dedupe_hash": "9cc932d05a6d882b9e774647d5309d1d388030eb3e76e70074d22d28223d1c44",
+      "pipeline_run_id": "37747060702",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T10:13:28+02:00",
+      "updated_at": "2026-10-08T10:13:28+02:00",
+      "published_at": "2026-10-08T10:13:28+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": [],
+        "auto_fixed": [
+          "Hűtlenségre vonatkozó állítások ellátása feltételes móddal (a gyanú szerint)"
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": -1,
+        "sent_at": "2026-10-08T08:15:18+00:00",
+        "msg_ids": [
+          3812,
+          3813
+        ],
+        "control_id": 3814
+      }
+    },
+    {
+      "id": "891a7c95-4e4b-516f-95d4-2986d11fb15e",
+      "slug": "2026-10-08-kartellgyanu-miatt-vizsgalja-a-menzacegeket-a-gazdasagi-versenyhivata",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Gazdasági Versenyhivatal",
+        "közétkeztetés",
+        "kartellgyanú",
+        "közbeszerzés",
+        "önkormányzat"
+      ],
+      "title": "Kartellgyanú miatt vizsgálja a menzacégeket a Gazdasági Versenyhivatal",
+      "subtitle": null,
+      "lead": "Versenyfelügyeleti eljárást indított a Gazdasági Versenyhivatal a közétkeztetés piacán, tiltott versenykorlátozó megállapodás gyanúja miatt. Az ellenőrzés célja annak feltárása, hogy tisztességes verseny mentén zajlottak-e az önkormányzati tenderek.",
+      "key_points": [
+        "A Gazdasági Versenyhivatal hivatalos versenyfelügyeleti eljárást indított a közétkeztetés piacán.",
+        "A hatóság vizsgálata tiltott versenykorlátozó megállapodások, illetve kartellgyanú miatt folyik.",
+        "A parkfenntartással foglalkozó vállalatok ellen jelenleg nincs folyamatban eljárás.",
+        "Az önkormányzati közbeszerzések átláthatósága az elmúlt években többször is a közbeszéd tárgyává vált."
+      ],
+      "content": "A versenytörvény értelmében szigorúan tilos az olyan vállalkozások közötti megállapodás vagy összehangolt magatartás, amely a gazdasági verseny megakadályozását, korlátozását vagy torzítását célozza, illetve ilyen hatást fejthet ki.\n\nAz eljárás lefolytatására azért volt szükség, mert az utóbbi években több pályázat esetében is felmerült a gyanú, hogy a rendszerint önkormányzatok által kiírt közbeszerzéseken a közétkeztetési vállalatok esetlegesen nem tiszta körülmények között nyertek.\n\nA Gazdasági Versenyhivatal megkeresésre megerősítette a vizsgálat tényét, azonban hangsúlyozták, hogy az ügy eredményessége érdekében további részleteket jelenleg nem adhatnak ki. A parkfenntartással foglalkozó vállalkozásokat egyelőre nem vizsgálják, mivel velük kapcsolatban nem érkeztek hivatalos jelzések a hatósághoz, holott korábban ezen a területen is felmerültek látszatversenyre utaló kérdések.",
+      "content_format": "markdown",
+      "body": [
+        "A versenytörvény értelmében szigorúan tilos az olyan vállalkozások közötti megállapodás vagy összehangolt magatartás, amely a gazdasági verseny megakadályozását, korlátozását vagy torzítását célozza, illetve ilyen hatást fejthet ki.",
+        "Az eljárás lefolytatására azért volt szükség, mert az utóbbi években több pályázat esetében is felmerült a gyanú, hogy a rendszerint önkormányzatok által kiírt közbeszerzéseken a közétkeztetési vállalatok esetlegesen nem tiszta körülmények között nyertek.",
+        "A Gazdasági Versenyhivatal megkeresésre megerősítette a vizsgálat tényét, azonban hangsúlyozták, hogy az ügy eredményessége érdekében további részleteket jelenleg nem adhatnak ki. A parkfenntartással foglalkozó vállalkozásokat egyelőre nem vizsgálják, mivel velük kapcsolatban nem érkeztek hivatalos jelzések a hatósághoz, holott korábban ezen a területen is felmerültek látszatversenyre utaló kérdések."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 134,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Rendszerbont%C3%B3_Nagykoncert_20260410_204315.jpg/1280px-Rendszerbont%C3%B3_Nagykoncert_20260410_204315.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 2132,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Rendszerbontó Nagykoncert at Heroes' Square. Someone is holding a shield with the Lidl logo, as a reference to the recent Gazdasági Versenyhivatal whistleblower",
+        "credit": "Vauia Rex / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rendszerbont%C3%B3_Nagykoncert_20260410_204315.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261008_vizsgalja-a-menzacegeket-a-versenyhivatal-tiltott-megallapodas-a-gyanu",
+          "title": "Menzacégeket vizsgál a versenyhivatal, tiltott megállapodás a gyanú",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T10:16:11+02:00"
+        }
+      ],
+      "quote": {
+        "text": "A közétkeztetés piacán a Gazdasági Versenyhivatal tiltott versenykorlátozó megállapodás tárgyában jelenleg is versenyfelügyeleti eljárást folytat. Tekintettel az ügy eredményességére, további információ jelenleg nem adható",
+        "who": "Gazdasági Versenyhivatal, hivatalos szervezet",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.67,
+      "title_options": [
+        "Kartellgyanú miatt vizsgálja a menzacégeket a Gazdasági Versenyhivatal",
+        "Összehangolt árak és tiltott megállapodások a hazai menzákon",
+        "Versenyfelügyeleti eljárás indult a közétkeztetési piacon",
+        "Mi zajlik a kulisszák mögött? Súlyos vádakkal vizsgálja a menzagyártókat a GVH",
+        "Tiltott megállapodások nyomába eredt a hatóság a hazai közétkeztetésben",
+        "Komoly bajban lehetnek a menzák: versenyfelügyeleti eljárás indult"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Rendszerbont%C3%B3_Nagykoncert_20260410_204315.jpg/1280px-Rendszerbont%C3%B3_Nagykoncert_20260410_204315.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 2132,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Rendszerbontó Nagykoncert at Heroes' Square. Someone is holding a shield with the Lidl logo, as a reference to the recent Gazdasági Versenyhivatal whistleblower",
+          "credit": "Vauia Rex / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rendszerbont%C3%B3_Nagykoncert_20260410_204315.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Hungarian_Competition_Authority%2C_corner_balcony%2C_support_elements%2C_Alkotm%C3%A1ny_%26_Honv%C3%A9d_Sts._cnr.%2C_2009_BudapestDSCN3506.jpg/1280px-Hungarian_Competition_Authority%2C_corner_balcony%2C_support_elements%2C_Alkotm%C3%A1ny_%26_Honv%C3%A9d_Sts._cnr.%2C_2009_BudapestDSCN3506.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest, Gazdasági Versenyhivatal, Alkotmány utca 5 v. 7 / Honvéd utca 12 sarokerkély részlete",
+          "credit": "Yoav Dothan / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hungarian_Competition_Authority,_corner_balcony,_support_elements,_Alkotm%C3%A1ny_%26_Honv%C3%A9d_Sts._cnr.,_2009_BudapestDSCN3506.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/High_school_students_eat_lunch_at_a_public_school_cafeteria_in_North_Carolina_02.jpg/1280px-High_school_students_eat_lunch_at_a_public_school_cafeteria_in_North_Carolina_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "High school students eat lunch at a public school cafeteria in North Carolina",
+          "credit": "Harrison Keely / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:High_school_students_eat_lunch_at_a_public_school_cafeteria_in_North_Carolina_02.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Irving_High_School_cafeteria.jpg/1280px-Irving_High_School_cafeteria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The new Irving High School cafeteria (Irving, TX).",
+          "credit": "Nadia Eimandoust / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Irving_High_School_cafeteria.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Erd%C5%91horv%C3%A1ti-Zempl%C3%A9n-Tokaj-Hegyalja-Magyarorsz%C3%A1g-_Hungary.png/1280px-Erd%C5%91horv%C3%A1ti-Zempl%C3%A9n-Tokaj-Hegyalja-Magyarorsz%C3%A1g-_Hungary.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Erdőhorváti-Zemplén-Tokaj-Hegyalja-Magyarország- Hungary",
+          "credit": "Amator-helytortenesz / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Erd%C5%91horv%C3%A1ti-Zempl%C3%A9n-Tokaj-Hegyalja-Magyarorsz%C3%A1g-_Hungary.png"
+        },
+        {
+          "url": "https://pixabay.com/get/g91f0afbb145bca677073f66275c73f6780ccedec0f3e030036acae52373c30a170e1df5f0cdb6e858dfe626308eabdc9e7be16af117d714ed867c966ce8c34c6_1280.jpg",
+          "width": 3000,
+          "height": 2000,
+          "kind": "photo",
+          "alt": "hammer, law, justice, judge, auction, judgement, authority, courtroom, offer, legislation, penalty, judge, judge, auction, auction, courtroom, courtroom, courtroom, courtroom, courtroom, legislation, ",
+          "credit": "VBlock / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/hammer-law-justice-judge-auction-7286346/"
+        },
+        {
+          "url": "https://live.staticflickr.com/4031/4289726649_2d622fe46e_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Courtroom",
+          "credit": "☺ Lee J Haywood / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/45034206@N06/4289726649"
+        }
+      ],
+      "story": [
+        {
+          "title": "Menzacégeket vizsgál a versenyhivatal, tiltott megállapodás a gyanú",
+          "link": "https://hvg.hu/itthon/20261008_vizsgalja-a-menzacegeket-a-versenyhivatal-tiltott-megallapodas-a-gyanu",
+          "summary": "Versenyfelügyeleti eljárást indított a közétkeztetés piacán a Gazdasági Versenyhivatal – értesült a HVG. A parkfenntartással foglalkozó vállalatokat viszont egyelőre nem vizsgálják, pedig korábban felmerült, hogy csak látszatverseny folyt bizonyos pályázatok esetében.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.67
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261008_vizsgalja-a-menzacegeket-a-versenyhivatal-tiltott-megallapodas-a-gyanu"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/kozelet/2026-10-08-kartellgyanu-miatt-vizsgalja-a-menzacegeket-a-gazdasagi-versenyhivata/",
+      "seo": {
+        "meta_title": "Kartellgyanú miatt vizsgálja a menzacégeket a Gazdasági Vers",
+        "meta_description": "Versenyfelügyeleti eljárást indított a Gazdasági Versenyhivatal a közétkeztetés piacán, tiltott versenykorlátozó megállapodás gyanúja miatt. Az ellenőrzés célja",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-08-kartellgyanu-miatt-vizsgalja-a-menzacegeket-a-gazdasagi-versenyhivata/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Rendszerbont%C3%B3_Nagykoncert_20260410_204315.jpg/1280px-Rendszerbont%C3%B3_Nagykoncert_20260410_204315.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "294a0617cf610dfd9693e2f3b3c4ae1deabda00e06dc58160e1b1679f28718ee",
+      "pipeline_run_id": "37747060702",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T10:16:11+02:00",
+      "updated_at": "2026-10-08T10:16:11+02:00",
+      "published_at": "2026-10-08T10:16:11+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 1,
+        "issues": [
+          "🟡 „a közétkeztetési vállalatok esetlegesen nem tiszta körülmények között nyertek” – alaptalan vád, bizonyíték nélkül → tedd kérdésként, idézd a hatóság állítását vagy forrást"
+        ],
+        "auto_fixed": [
+          "A közétkeztetési vállalatok győzelmére vonatkozó kijelentést feltételes módra (esetlegesen) módosítottam az ártatlanság vélelme és a megalapozatlan vád elkerülé"
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-08T08:17:17+00:00",
+        "msg_ids": [
+          3815,
+          3816,
+          3817,
+          3818,
+          3819,
+          3820,
+          3821,
+          3822
+        ],
+        "control_id": 3823
+      }
+    },
+    {
+      "id": "14771ee1-c38a-5653-ae37-6dcbe5de2bc7",
+      "slug": "2026-10-08-hazudott-a-miniszterium-senki-sem-kapott-megbizast-a-terror-haza-atal",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Terror Háza Múzeum",
+        "Tarr Zoltán",
+        "Ungváry Krisztián",
+        "kulturális politika",
+        "történelem"
+      ],
+      "title": "Hazudott a minisztérium? Senki sem kapott megbízást a Terror Háza átalakítására",
+      "subtitle": null,
+      "lead": "Komoly ellentmondás alakult ki a kultúráért felelős minisztérium tervei és a valóság között a Terror Háza Múzeum esetében. Tarr Zoltán miniszter korábbi bejelentésével ellentétben ugyanis egyetlen történész sem kapott megbízást a kiállítás átalakítására.",
+      "key_points": [
+        "Tarr Zoltán miniszter korábban arról beszélt a Kossuth Rádióban, hogy egy történészcsapat vizsgálja át a múzeum kiállítását.",
+        "A megkérdezett történészek cáfolták a miniszter szavait, és kiderült, hogy senkit sem kértek fel a feladatra.",
+        "Schmidt Mária korábbi igazgató emberei továbbra is a helyükön vannak, mivel jelenleg nincs pénz az elbocsátásukra."
+      ],
+      "content": "A budapesti Andrássy út 60. szám alatt található Terror Háza Múzeum kiállításának átalakításáról beszélt a közelmúltban a Kossuth Rádióban Tarr Zoltán kultúráért is felelős miniszter. A rádióinterjúban elhangzottak szerint egy történészcsapat feladata lett volna a huszadik századi fasiszta és kommunista rezsimek áldozatainak emléket állító intézmény tárlatának átdolgozása.\n\nA minisztérium azonban nem válaszolt a sajtó megkereséseire, így a hvg.hu munkatársai maguk kérdezték meg a szóba jöhető szakembereket. A körképből kiderült, hogy szó sincs semmilyen felkért csapatról, és a megkérdezett történészek közül egyedül Ungváry Krisztián, az MTA doktora nyilatkozott úgy, hogy elvállalná a munkát, de hivatalos megbízást ő sem kapott.\n\nA múzeum mindennapi működésében egyelőre nem történt érdemi változás, a korábbi vezetéshez köthető munkatársak a helyükön maradtak. Ennek oka az, hogy a fenntartónak jelenleg nincsen elegendő pénzügyi kerete az érintett munkavállalók elbocsátására, így az intézmény irányítása változatlan maradt a hétvégi telt házas időszakban is.",
+      "content_format": "markdown",
+      "body": [
+        "A budapesti Andrássy út 60. szám alatt található Terror Háza Múzeum kiállításának átalakításáról beszélt a közelmúltban a Kossuth Rádióban Tarr Zoltán kultúráért is felelős miniszter. A rádióinterjúban elhangzottak szerint egy történészcsapat feladata lett volna a huszadik századi fasiszta és kommunista rezsimek áldozatainak emléket állító intézmény tárlatának átdolgozása.",
+        "A minisztérium azonban nem válaszolt a sajtó megkereséseire, így a hvg.hu munkatársai maguk kérdezték meg a szóba jöhető szakembereket. A körképből kiderült, hogy szó sincs semmilyen felkért csapatról, és a megkérdezett történészek közül egyedül Ungváry Krisztián, az MTA doktora nyilatkozott úgy, hogy elvállalná a munkát, de hivatalos megbízást ő sem kapott.",
+        "A múzeum mindennapi működésében egyelőre nem történt érdemi változás, a korábbi vezetéshez köthető munkatársak a helyükön maradtak. Ennek oka az, hogy a fenntartónak jelenleg nincsen elegendő pénzügyi kerete az érintett munkavállalók elbocsátására, így az intézmény irányítása változatlan maradt a hétvégi telt házas időszakban is."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 176,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ungv%C3%A1ry_Kriszti%C3%A1n_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1496,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Ungváry Krisztián 2014",
+        "credit": "Solymári / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ungv%C3%A1ry_Kriszti%C3%A1n_2014.jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/360/20261008_terror-haza-tortenesz-ungvary-krisztian",
+          "title": "A minisztérium által megkérdezett történészek közül csak Ungváry Krisztián vállalná a Terror Háza átalakítását, de ő sem kapott megbízást",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T10:17:33+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Történészcsapat dolga lesz átnézni a Terror Háza Múzeum kiállítását",
+        "who": "Tarr Zoltán kultúráért is felelős miniszter",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.56,
+      "title_options": [
+        "Hazudott a minisztérium? Senki sem kapott megbízást a Terror Háza átalakítására",
+        "Hiába ígértek új csapatot a Terror Házához, senki sem tud semmiről",
+        "Káosz és cáfolatok: ki nyúlhat hozzá a Terror Háza kiállításához?",
+        "A miniszter azt állította, hogy csapat dolgozik rajta, de a történészek teljesen mást mondanak",
+        "Senki sem kapott megbízást a Terror Háza átrendezésére, miközben a régi vezetők a helyükön maradtak",
+        "Megkérdezték a szakembereket a Terror Háza jövőjéről, a válaszra senki sem számított"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ungv%C3%A1ry_Kriszti%C3%A1n_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1496,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Ungváry Krisztián 2014",
+          "credit": "Solymári / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ungv%C3%A1ry_Kriszti%C3%A1n_2014.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/House_of_Terror%2C_Budapest.jpg/1280px-House_of_Terror%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "House of Terror, Budapest",
+          "credit": "Slyronit / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:House_of_Terror,_Budapest.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Budapest_-_Terror_H%C3%A1za_M%C3%BAzeum_%2837766897444%29.jpg/1280px-Budapest_-_Terror_H%C3%A1za_M%C3%BAzeum_%2837766897444%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1814,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Terézváros - Andrássy útca\nHouse of Terror is a museum which contains exhibits related to the fascist and communist regimes in 20th-century Hungary and is also a memorial to the victims of these regim",
+          "credit": "Fred Romero from Paris, France / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_-_Terror_H%C3%A1za_M%C3%BAzeum_(37766897444).jpg",
+          "vision_score": 7.0
+        }
+      ],
+      "story": [
+        {
+          "title": "A minisztérium által megkérdezett történészek közül csak Ungváry Krisztián vállalná a Terror Háza átalakítását, de ő sem kapott megbízást",
+          "link": "https://hvg.hu/360/20261008_terror-haza-tortenesz-ungvary-krisztian",
+          "summary": "A történészek cáfolják a minisztert, nincs felkért csapat, akik a múlt hétvégén telt házas Terror Házát átalakítanák. Schmidt Mária emberei még mindig a helyükön vannak, nincs pénz az elbocsátásukra – körkép a Terror Házáról",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 5.56
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/360/20261008_terror-haza-tortenesz-ungvary-krisztian"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/kozelet/2026-10-08-hazudott-a-miniszterium-senki-sem-kapott-megbizast-a-terror-haza-atal/",
+      "seo": {
+        "meta_title": "Hazudott a minisztérium? Senki sem kapott megbízást a Terror",
+        "meta_description": "Komoly ellentmondás alakult ki a kultúráért felelős minisztérium tervei és a valóság között a Terror Háza Múzeum esetében. Tarr Zoltán miniszter korábbi bejelen",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-08-hazudott-a-miniszterium-senki-sem-kapott-megbizast-a-terror-haza-atal/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ungv%C3%A1ry_Kriszti%C3%A1n_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "9acc81039b7dac8a2acf3a66ded917a9afb2d6e58566a7e160d2424d903accfd",
+      "pipeline_run_id": "37747060702",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T10:17:33+02:00",
+      "updated_at": "2026-10-08T10:17:33+02:00",
+      "published_at": "2026-10-08T10:17:33+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-08T08:19:38+00:00",
+        "msg_ids": [
+          3824,
+          3825,
+          3826,
+          3827
+        ],
+        "control_id": 3828
+      }
     }
   ]
 }
