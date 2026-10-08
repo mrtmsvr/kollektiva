@@ -8663,9 +8663,9 @@
       "live": true
     },
     {
-      "id": "0edad11e-4111-5de7-b6d4-17e727509afc",
-      "slug": "2026-10-08-hetszazhuszonket-matematikai-tanulmanyt-publikalt-egyszerre-az-openai",
-      "status": "pending",
+      "id": "9c3b9d08-7e6e-5941-b640-ec73c254ee83",
+      "slug": "2026-10-08-megosztotta-a-szakmat-a-mesterseges-intelligencia-altal-irt-matematik",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -8675,7 +8675,7 @@
         "Riemann-sejtés",
         "tudomány"
       ],
-      "title": "Hétszázhuszonkét matematikai tanulmányt publikált egyszerre az OpenAI",
+      "title": "Megosztotta a szakmát a mesterséges intelligencia által írt matematikai csomag",
       "subtitle": null,
       "lead": "Az OpenAI október 6-án közzétett 722 olyan matematikai tanulmányt, amelyeket egy, a nagyközönség elől eddig elzárt, belső mesterségesintelligencia-modellel írtak.",
       "key_points": [
@@ -8695,15 +8695,15 @@
       "word_count": 289,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Timeline_of_artificial_intelligence_training_computation_for_the_last_8_decades.png/1280px-Timeline_of_artificial_intelligence_training_computation_for_the_last_8_decades.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Artificial_Intelligence_Word_Cloud.png/1280px-Artificial_Intelligence_Word_Cloud.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 1478,
+        "height": 675,
         "kind": "photo",
-        "pos": "top",
-        "alt": "The raise of AI over the last 8 decades",
-        "credit": "Our World in Data / Wikimedia Commons",
-        "license": "CC BY 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Timeline_of_artificial_intelligence_training_computation_for_the_last_8_decades.png"
+        "pos": "center",
+        "alt": "This image was created with the WordCloud Python library.",
+        "credit": "Madhav-Malhotra-003 / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Artificial_Intelligence_Word_Cloud.png"
       },
       "inline_images": [],
       "sources": [
@@ -8840,12 +8840,12 @@
       },
       "date": "2026-10-08",
       "date_label": "október 8.",
-      "url": "/tech/2026-10-08-hetszazhuszonket-matematikai-tanulmanyt-publikalt-egyszerre-az-openai/",
+      "url": "/tech/2026-10-08-megosztotta-a-szakmat-a-mesterseges-intelligencia-altal-irt-matematik/",
       "seo": {
-        "meta_title": "Hétszázhuszonkét matematikai tanulmányt publikált egyszerre ",
+        "meta_title": "Megosztotta a szakmát a mesterséges intelligencia által írt ",
         "meta_description": "Az OpenAI október 6-án közzétett 722 olyan matematikai tanulmányt, amelyeket egy, a nagyközönség elől eddig elzárt, belső mesterségesintelligencia-modellel írta",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-08-hetszazhuszonket-matematikai-tanulmanyt-publikalt-egyszerre-az-openai/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Timeline_of_artificial_intelligence_training_computation_for_the_last_8_decades.png/1280px-Timeline_of_artificial_intelligence_training_computation_for_the_last_8_decades.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-08-megosztotta-a-szakmat-a-mesterseges-intelligencia-altal-irt-matematik/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Artificial_Intelligence_Word_Cloud.png/1280px-Artificial_Intelligence_Word_Cloud.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8862,9 +8862,9 @@
       "dedupe_hash": "8f98c86f63fdda5f587492bd3351098a55e26c8780e53d3c16ebfeb0e139643e",
       "pipeline_run_id": "37773398530",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-08T14:19:17+02:00",
-      "updated_at": "2026-10-08T14:19:17+02:00",
-      "published_at": "2026-10-08T14:19:17+02:00",
+      "created_at": "2026-10-08T14:32:04+02:00",
+      "updated_at": "2026-10-08T14:32:04+02:00",
+      "published_at": "2026-10-08T14:32:04+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -8877,19 +8877,12 @@
         "title": 2,
         "image": 1,
         "sent_at": "2026-10-08T12:20:41+00:00",
-        "msg_ids": [
-          3864,
-          3865,
-          3866,
-          3867,
-          3868,
-          3869,
-          3870,
-          3871,
-          3872
-        ],
-        "control_id": 3873
-      }
+        "msg_ids": [],
+        "control_id": 3873,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     }
   ]
 }
