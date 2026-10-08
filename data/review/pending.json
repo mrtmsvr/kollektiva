@@ -9297,7 +9297,7 @@
     {
       "id": "5b12eb67-950d-559d-b5e6-e6ee28d0f50a",
       "slug": "2026-10-08-miert-merul-le-olyan-gyorsan-a-telefonod",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": "olvasnivalo",
       "tags": [
@@ -9334,18 +9334,7 @@
       "reading_time_min": 3,
       "word_count": 557,
       "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_08.jpg/1280px-Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 675,
-        "kind": "photo",
-        "pos": "center",
-        "alt": "A Samsung-branded mobile telephone (or \"smartphone\") battery, that is located in the Rotterdammer neighbourhood of 110-Morgen, Hillegersberg-Schiebroek.",
-        "credit": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 Intern / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_smartphone_battery,_Hillegersberg,_Rotterdam_(2022)_08.jpg",
-        "vision_score": 9.0
-      },
+      "hero_image": null,
       "inline_images": [],
       "sources": [
         {
@@ -9518,7 +9507,7 @@
         "meta_title": "Miért merül le olyan gyorsan a telefonod?",
         "meta_description": "Reggel még százszázalékos a telefonod, délutánra mégis lemerül, és a zsebedben érezhetően melegszik az eszköz. A hordozható energiaforrások mögött rejlő fizikai",
         "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-08-miert-merul-le-olyan-gyorsan-a-telefonod/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_08.jpg/1280px-Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": null,
         "noindex": false,
         "schema_type": "Article"
       },
@@ -9533,9 +9522,9 @@
       "dedupe_hash": "d1e1d256a3f965614337813a8e4969d787886fd2ea4de868d404d24157dc86bc",
       "pipeline_run_id": "37736219218",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-08T08:24:24+02:00",
-      "updated_at": "2026-10-08T08:24:24+02:00",
-      "published_at": null,
+      "created_at": "2026-10-08T10:22:56+02:00",
+      "updated_at": "2026-10-08T10:22:56+02:00",
+      "published_at": "2026-10-08T10:22:56+02:00",
       "expires_at": null,
       "schedule": {
         "earliest": "2026-10-08T10:22:35+02:00",
@@ -9549,30 +9538,10 @@
         "title": 0,
         "image": -1,
         "sent_at": "2026-10-08T06:24:28+00:00",
-        "msg_ids": [
-          3772,
-          3773,
-          3774,
-          3775,
-          3776,
-          3777,
-          3778,
-          3784,
-          3785,
-          3786,
-          3787,
-          3788,
-          3789,
-          3790,
-          3791,
-          3795,
-          3796,
-          3797,
-          3798,
-          3799,
-          3800
-        ],
-        "control_id": 3801
+        "msg_ids": [],
+        "control_id": 3801,
+        "title_prompt_id": null,
+        "compact": "🗓 Magától kint (csendes időszak)"
       },
       "image_queries": [
         "M. S. Whittingham",
@@ -9615,7 +9584,8 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/PrismaticCell.png/1280px-PrismaticCell.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://upload.wikimedia.org/wikipedia/commons/8/8a/John_B._Goodenough_%282010%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_08.jpg/1280px-Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "0e1f6dd0-80e8-5ad2-9233-61b5ec5dfc45",

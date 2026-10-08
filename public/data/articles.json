@@ -1,7 +1,184 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-08T08:52:32+02:00",
+  "updated_at": "2026-10-08T10:22:56+02:00",
   "articles": [
+    {
+      "id": "5b12eb67-950d-559d-b5e6-e6ee28d0f50a",
+      "slug": "2026-10-08-miert-merul-le-olyan-gyorsan-a-telefonod",
+      "status": "published",
+      "category": "tech",
+      "subcategory": "olvasnivalo",
+      "tags": [
+        "akkumulátor",
+        "lítiumion",
+        "okostelefon",
+        "tech",
+        "fizika"
+      ],
+      "title": "Miért merül le olyan gyorsan a telefonod?",
+      "subtitle": null,
+      "lead": "Reggel még százszázalékos a telefonod, délutánra mégis lemerül, és a zsebedben érezhetően melegszik az eszköz. A hordozható energiaforrások mögött rejlő fizikai és kémiai folyamatok sokkal bonyolultabbak, mint gondolnánk, és a mindennapi használati szokásaink is alaposan próbára teszik őket.",
+      "key_points": [
+        "A lítiumion-akkumulátorok élettartama a folyamat kémiai jellegéből adódóan véges, minden töltési ciklus csökkenti a kapacitást.",
+        "A katód szerkezeti változásai és a mikrepedések kialakulása kulcsszerepet játszanak az akkumulátor elhasználódásában.",
+        "A magasabb feszültségű működés felgyorsítja a kapacitásvesztést és a nemkívánatos kémiai átalakulásokat.",
+        "A kutatások szerint a töltési tévhitekkel ellentétben a részleges töltések és a ciklusok száma határozza meg a cellák egészségét."
+      ],
+      "content": "## A zsebünkben rejlő kémiai reaktor\n\nAmikor rácsatlakoztatjuk a telefont a töltőre, ritkán gondolunk arra, hogy egy miniatűr, rendkívül összetett kémiai laboratóriumot hozunk mozgásba. A hordozható készülékekben használt lítiumion-akkumulátorok története az 1970-es évekig nyúlik vissza, amikor M. S. Whittingham először foglalkozott a fejlesztésükkel. Ezek a korai változatok még drága titán-szulfid-katódot és fémes lítiumanódot tartalmaztak, utóbbi azonban kisebb üzemzavar hatására is hajlamos volt villámsebesen felforrósodni, ami akár az akkumulátor felrobbanásához vagy elolvadásához is vezethetett.\n\nHasználható formában a Bell Labs kutatóinak sikerült előállítaniuk ilyen energiatárolókat grafitanód alkalmazásával a nyolcvanas években, a kereskedelmi bevezetést pedig a John Goodenough által vezetett csoport tette lehetővé, amely többrétegű lítium-kobalt-oxid katóddal valósította meg a rendszert. Az első ilyen kereskedelmi forgalomba hozott akkumulátorokat a Sony jelentette meg 1991-ben. A működési elv azóta is alapvetően azonos: töltéskor a lítiumionok a negatív, szénalapú elektródához vándorolnak, kisütéskor pedig visszatérnek a pozitív fém-oxid-elektródához. Az anódot és a katódot egy elektrolit, jellemzően egy folyékony szerves oldat választja el egymástól, amelyen keresztül az ionok áramlanak.\n\n## Miért fárad el az akkumulátor?\n\nAz újratölthető lítiumion-akkumulátorok élettartama a folyamat kémiai jellegéből adódóan véges. A fizikai és kémiai degradációs folyamatokat egy 2021-es, a Physical Chemistry Chemical Physics folyóiratban megjelent áttekintő tanulmány öt fő és tizenhárom másodlagos mechanizmusra bontja, amelyek mind hozzájárulnak a kapacitás vagy a teljesítmény csökkenéséhez. A mindennapi használat során egy teljes töltésciklust az jelent, amikor az akkumulátor teljesen lemerül, vagyis százszázalékosan elhasználják a kapacitását. Ha valaki félig lemeríti a telefont, majd újratöltés után másnap ugyanezt megteszi, az összesítve szintén egy teljes töltési ciklusnak felel meg.\n\nA nikkelben gazdag katódok esetében a Chemistry of Materials folyóiratban közölt 2018-as kutatás részletesen bemutatja, miért csökken a teljesítmény. A vizsgálatok szerint a magasabb nikkeltartalom ugyan nagyobb kisütési kapacitást biztosít, de a ciklikus stabilitás jelentősen csökken. A nikkelalapú katódoknál a töltés végéhez közel olyan fázisátalakulás megy végbe, amely hirtelen és egyenetlen térfogat-változást, azaz zsugorodást vagy duzzadást okoz. Az ebből fakadó belső feszültség mikrepedéseket hoz létre, amelyek utat nyitnak az elektrolit számára, így az anyag folyamatosan pusztul.\n\n## Tévhitek és valóság a mindennapi használatban\n\nA lítiumion-akkumulátorok működésével kapcsolatban számos tévhit kering. Az egyik leggyakoribb hiedelem szerint baj az, ha valaki nem várja meg a teljes lemerülést a töltés előtt. A notebookokhoz készített akkumulátorok általában háromszáz teljes töltési ciklus után már kevesebb mint nyolcvanszázalékos kapacitással bírnak, az elektromos autók esetében pedig bonyolult diagnosztikai eljárások szükségesek ahhoz, hogy nyolc év fölé tornásszák a cellák élettartamát.\n\nEgy másik kritikus tényező a feszültség szintje. Az Advanced Energy Materials című folyóiratban 2013-ban publikált kutatás szerint a magasabb feszültségen történő üzemeltetés, például a négy volt feletti tartományok elkerülhetetlenül gyorsabb kapacitásvesztést okoznak. A katód felületi rácsszerkezete ugyanis ilyenkor visszafordíthatatlan átalakuláson megy keresztül, és egy ionosan szigetelő kősó fázis keletkezik a felszínen. Ez a folyamat lelassítja az ionok mozgását, ami tovább rontja az akkumulátor energiamegtartó képességét. A modern akkumulátorkezelő rendszerek éppen ezért igyekeznek kordában tartani ezeket a folyamatokat, bár a pontos hátralévő élettartam előrejelzése még a legfejlettebb gépi tanulási modellek, például a Nature Communicationsben bemutatott spektroszkópiai módszerek számára is komoly kihívást jelent.\n\nEz a cikk kizárólag tájékoztató jellegű, és nem helyettesíti a szakértői vagy mérnöki véleményt.",
+      "content_format": "markdown",
+      "body": [
+        "## A zsebünkben rejlő kémiai reaktor",
+        "Amikor rácsatlakoztatjuk a telefont a töltőre, ritkán gondolunk arra, hogy egy miniatűr, rendkívül összetett kémiai laboratóriumot hozunk mozgásba. A hordozható készülékekben használt lítiumion-akkumulátorok története az 1970-es évekig nyúlik vissza, amikor M. S. Whittingham először foglalkozott a fejlesztésükkel. Ezek a korai változatok még drága titán-szulfid-katódot és fémes lítiumanódot tartalmaztak, utóbbi azonban kisebb üzemzavar hatására is hajlamos volt villámsebesen felforrósodni, ami akár az akkumulátor felrobbanásához vagy elolvadásához is vezethetett.",
+        "Használható formában a Bell Labs kutatóinak sikerült előállítaniuk ilyen energiatárolókat grafitanód alkalmazásával a nyolcvanas években, a kereskedelmi bevezetést pedig a John Goodenough által vezetett csoport tette lehetővé, amely többrétegű lítium-kobalt-oxid katóddal valósította meg a rendszert. Az első ilyen kereskedelmi forgalomba hozott akkumulátorokat a Sony jelentette meg 1991-ben. A működési elv azóta is alapvetően azonos: töltéskor a lítiumionok a negatív, szénalapú elektródához vándorolnak, kisütéskor pedig visszatérnek a pozitív fém-oxid-elektródához. Az anódot és a katódot egy elektrolit, jellemzően egy folyékony szerves oldat választja el egymástól, amelyen keresztül az ionok áramlanak.",
+        "## Miért fárad el az akkumulátor?",
+        "Az újratölthető lítiumion-akkumulátorok élettartama a folyamat kémiai jellegéből adódóan véges. A fizikai és kémiai degradációs folyamatokat egy 2021-es, a Physical Chemistry Chemical Physics folyóiratban megjelent áttekintő tanulmány öt fő és tizenhárom másodlagos mechanizmusra bontja, amelyek mind hozzájárulnak a kapacitás vagy a teljesítmény csökkenéséhez. A mindennapi használat során egy teljes töltésciklust az jelent, amikor az akkumulátor teljesen lemerül, vagyis százszázalékosan elhasználják a kapacitását. Ha valaki félig lemeríti a telefont, majd újratöltés után másnap ugyanezt megteszi, az összesítve szintén egy teljes töltési ciklusnak felel meg.",
+        "A nikkelben gazdag katódok esetében a Chemistry of Materials folyóiratban közölt 2018-as kutatás részletesen bemutatja, miért csökken a teljesítmény. A vizsgálatok szerint a magasabb nikkeltartalom ugyan nagyobb kisütési kapacitást biztosít, de a ciklikus stabilitás jelentősen csökken. A nikkelalapú katódoknál a töltés végéhez közel olyan fázisátalakulás megy végbe, amely hirtelen és egyenetlen térfogat-változást, azaz zsugorodást vagy duzzadást okoz. Az ebből fakadó belső feszültség mikrepedéseket hoz létre, amelyek utat nyitnak az elektrolit számára, így az anyag folyamatosan pusztul.",
+        "## Tévhitek és valóság a mindennapi használatban",
+        "A lítiumion-akkumulátorok működésével kapcsolatban számos tévhit kering. Az egyik leggyakoribb hiedelem szerint baj az, ha valaki nem várja meg a teljes lemerülést a töltés előtt. A notebookokhoz készített akkumulátorok általában háromszáz teljes töltési ciklus után már kevesebb mint nyolcvanszázalékos kapacitással bírnak, az elektromos autók esetében pedig bonyolult diagnosztikai eljárások szükségesek ahhoz, hogy nyolc év fölé tornásszák a cellák élettartamát.",
+        "Egy másik kritikus tényező a feszültség szintje. Az Advanced Energy Materials című folyóiratban 2013-ban publikált kutatás szerint a magasabb feszültségen történő üzemeltetés, például a négy volt feletti tartományok elkerülhetetlenül gyorsabb kapacitásvesztést okoznak. A katód felületi rácsszerkezete ugyanis ilyenkor visszafordíthatatlan átalakuláson megy keresztül, és egy ionosan szigetelő kősó fázis keletkezik a felszínen. Ez a folyamat lelassítja az ionok mozgását, ami tovább rontja az akkumulátor energiamegtartó képességét. A modern akkumulátorkezelő rendszerek éppen ezért igyekeznek kordában tartani ezeket a folyamatokat, bár a pontos hátralévő élettartam előrejelzése még a legfejlettebb gépi tanulási modellek, például a Nature Communicationsben bemutatott spektroszkópiai módszerek számára is komoly kihívást jelent.",
+        "Ez a cikk kizárólag tájékoztató jellegű, és nem helyettesíti a szakértői vagy mérnöki véleményt."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 3,
+      "word_count": 557,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1021/acs.chemmater.7b05269",
+          "title": "Capacity Fading of Ni-Rich Li[Ni x Co y Mn 1– x – y ]O 2 (0.6 ≤ x ≤ 0.95) Cathodes for High-Energy-Density Lithium-Ion Batteries: Bulk or Surface Degradation?",
+          "publisher": "Chemistry of Materials, 2018",
+          "license": null,
+          "accessed_at": "2026-10-08T08:24:24+02:00"
+        },
+        {
+          "url": "https://doi.org/10.1039/d1cp00359c",
+          "title": "Lithium ion battery degradation: what you need to know",
+          "publisher": "Physical Chemistry Chemical Physics, 2021",
+          "license": null,
+          "accessed_at": "2026-10-08T08:24:24+02:00"
+        },
+        {
+          "url": "https://doi.org/10.1109/tsg.2016.2578950",
+          "title": "Modeling of Lithium-Ion Battery Degradation for Cell Life Assessment",
+          "publisher": "IEEE Transactions on Smart Grid, 2016",
+          "license": null,
+          "accessed_at": "2026-10-08T08:24:24+02:00"
+        },
+        {
+          "url": "https://doi.org/10.1002/aenm.201300787",
+          "title": "Understanding the Degradation Mechanisms of LiNi0.5Co0.2Mn0.3O2 Cathode Material in Lithium Ion Batteries",
+          "publisher": "Advanced Energy Materials, 2013",
+          "license": null,
+          "accessed_at": "2026-10-08T08:24:24+02:00"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41467-020-15235-7",
+          "title": "Identifying degradation patterns of lithium ion batteries from impedance spectroscopy using machine learning",
+          "publisher": "Nature Communications, 2020",
+          "license": null,
+          "accessed_at": "2026-10-08T08:24:24+02:00"
+        },
+        {
+          "url": "https://hu.wikipedia.org/wiki/L%C3%ADtiumion-akkumul%C3%A1tor",
+          "title": "Lítiumion-akkumulátor",
+          "publisher": "Wikipédia (hu)",
+          "license": "CC BY-SA 4.0",
+          "accessed_at": "2026-10-08T08:24:24+02:00"
+        }
+      ],
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "offtopic-v2-science",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-08T10:22:56+02:00"
+      },
+      "hot_score": 0,
+      "offtopic": true,
+      "science_based": true,
+      "category_meta": {
+        "source_links": [
+          "https://doi.org/10.1021/acs.chemmater.7b05269",
+          "https://doi.org/10.1039/d1cp00359c",
+          "https://doi.org/10.1109/tsg.2016.2578950",
+          "https://doi.org/10.1002/aenm.201300787",
+          "https://doi.org/10.1038/s41467-020-15235-7",
+          "https://hu.wikipedia.org/wiki/L%C3%ADtiumion-akkumul%C3%A1tor"
+        ],
+        "offtopic_id": "akkumulator"
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/tech/2026-10-08-miert-merul-le-olyan-gyorsan-a-telefonod/",
+      "seo": {
+        "meta_title": "Miért merül le olyan gyorsan a telefonod?",
+        "meta_description": "Reggel még százszázalékos a telefonod, délutánra mégis lemerül, és a zsebedben érezhetően melegszik az eszköz. A hordozható energiaforrások mögött rejlő fizikai",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-08-miert-merul-le-olyan-gyorsan-a-telefonod/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "Article"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "dedupe_hash": "d1e1d256a3f965614337813a8e4969d787886fd2ea4de868d404d24157dc86bc",
+      "pipeline_run_id": "37736219218",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T10:22:56+02:00",
+      "updated_at": "2026-10-08T10:22:56+02:00",
+      "published_at": "2026-10-08T10:22:56+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "M. S. Whittingham",
+        "John Goodenough",
+        "Sony",
+        "Bell Labs",
+        "Lithium-ion battery",
+        "smartphone charging",
+        "battery overheating",
+        "Lithium cobalt oxide",
+        "Titanium disulfide",
+        "Graphite anode",
+        "Organic electrolyte",
+        "Lithium-ion cell",
+        "smartphone battery",
+        "microscope laboratory",
+        "charging cable",
+        "rechargeable battery",
+        "chemical laboratory",
+        "pocket device",
+        "power plug",
+        "electronic component",
+        "microscopic crack",
+        "warm hands",
+        "electrical circuit",
+        "energy flow"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/18650_and_21700_lithium_ion_battery_cell.jpg/1280px-18650_and_21700_lithium_ion_battery_cell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Stanley_Whittingham_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Lithium-Ion_Cell_cylindric.JPG/1280px-Lithium-Ion_Cell_cylindric.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d3/Stanley_Whittingham_2019_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sony_A77.jpg/1280px-Sony_A77.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Bell_Labs_Holmdel.jpg/1280px-Bell_Labs_Holmdel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Sony_headquaters_1.jpg/1280px-Sony_headquaters_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_03.jpg/1280px-Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/John_B._Goodenough_%282010%29.jpg/1280px-John_B._Goodenough_%282010%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/9_volt_battery_microCT_1272.jpg/1280px-9_volt_battery_microCT_1272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/J.J._Thomson_Frank_B._Jewett_Bell_Labs_1923.jpg/1280px-J.J._Thomson_Frank_B._Jewett_Bell_Labs_1923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/PrismaticCell.png/1280px-PrismaticCell.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/John_B._Goodenough_%282010%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_08.jpg/1280px-Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
+    },
     {
       "id": "62875770-a29c-52c3-a65b-d8993a23634e",
       "slug": "2026-10-08-nem-minden-transzzsir-ellenseg-ami-a-reggeli-kavenkba-kerul",
