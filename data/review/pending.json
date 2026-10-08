@@ -9135,6 +9135,753 @@
         ],
         "control_id": 3674
       }
+    },
+    {
+      "id": "0d515e77-1535-5f12-b7aa-2e3e8942df50",
+      "slug": "2026-10-08-harmincodszorre-indit-tehermissziot-a-spacex",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "SpaceX",
+        "NASA",
+        "Nemzetközi Űrállomás",
+        "űrrepülés",
+        "tudomány"
+      ],
+      "title": "Harmincödszörre indít tehermissziót a SpaceX",
+      "subtitle": null,
+      "lead": "A SpaceX és a NASA a Nemzetközi Űrállomásra indítja el soron következő, harmincötödik kereskedelmi tehermisszióját. A küldetés során fontos tudományos felszereléseket és az űrlabor napelemeinek utolsó egységeit juttatják fel.",
+      "key_points": [
+        "A NASA és a SpaceX a harmincötödik tehermisszió indítását készíti elő.",
+        "A rakomány tudományos vizsgálatokat és berendezéseket tartalmaz az űrállomás számára.",
+        "A küldetés részeként feljuttatják az űrállomás új napelemtömbjeinek utolsó darabjait is."
+      ],
+      "content": "A NASA és a SpaceX tervei alapján hamarosan rajtol el a harmincötödik kereskedelmi teherfuvarozási küldetés a Föld körüli pályán keringő nemzetközi laboratóriumhoz. Az űreszköz fedélzetén kutatási anyagok, alapvető felszerelések és eszközök kapnak helyet, amelyek a 327 kilométeres magasságban lévő komplexum munkáját segítik.\n\nA misszió egyik legfőbb rakománya a Nemzetközi Űrállomás új, kinyitható napelemtömbjeinek, az úgynevezett ISS Roll-Out Solar Array paneleknek a záró sorozata. Ezek a korszerű energiaellátási egységek a már elöregedett korábbi napelemeket hivatottak kiegészíteni, biztosítva az űrállomás zavartalan működéséhez szükséges elektromos teljesítményt.\n\nAz alacsony Föld körüli pályán, mintegy 28 ezer kilométeres óránkénti sebességgel keringő Nemzetközi Űrállomás a nemzetközi űrkoordináció egyik legjelentősebb bázisa, amelyben tizenhat ország kutatói dolgoznak együtt rendszeresen. A mostani küldetés ismét hangsúlyozza a magánszektor és az űrügynökség partnerségének súlyát a mindennapi űrlogisztikában.",
+      "content_format": "markdown",
+      "body": [
+        "A NASA és a SpaceX tervei alapján hamarosan rajtol el a harmincötödik kereskedelmi teherfuvarozási küldetés a Föld körüli pályán keringő nemzetközi laboratóriumhoz. Az űreszköz fedélzetén kutatási anyagok, alapvető felszerelések és eszközök kapnak helyet, amelyek a 327 kilométeres magasságban lévő komplexum munkáját segítik.",
+        "A misszió egyik legfőbb rakománya a Nemzetközi Űrállomás új, kinyitható napelemtömbjeinek, az úgynevezett ISS Roll-Out Solar Array paneleknek a záró sorozata. Ezek a korszerű energiaellátási egységek a már elöregedett korábbi napelemeket hivatottak kiegészíteni, biztosítva az űrállomás zavartalan működéséhez szükséges elektromos teljesítményt.",
+        "Az alacsony Föld körüli pályán, mintegy 28 ezer kilométeres óránkénti sebességgel keringő Nemzetközi Űrállomás a nemzetközi űrkoordináció egyik legjelentősebb bázisa, amelyben tizenhat ország kutatói dolgoznak együtt rendszeresen. A mostani küldetés ismét hangsúlyozza a magánszektor és az űrügynökség partnerségének súlyát a mindennapi űrlogisztikában."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 155,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Iridium-1_Launch_%2832312419215%29.jpg/1280px-Iridium-1_Launch_%2832312419215%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1800,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "SpaceX’s Falcon 9 Full Thrust rocket lifts off from Vandenberg Air Force Base SLC-4E with the first ten Iridium NEXT communication satellites.",
+        "credit": "SpaceX / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Iridium-1_Launch_(32312419215).jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
+          "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-08T06:23:00+02:00"
+        },
+        {
+          "url": "https://www.nasa.gov/general/nasas-spacex-35th-commercial-resupply-mission-overview/",
+          "title": "NASA’s SpaceX 35th Commercial Resupply Mission Overview",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-08T06:23:00+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.89,
+      "title_options": [
+        "Harmincödszörre indít tehermissziót a SpaceX",
+        "A SpaceX harmincötödször indul az űrállomás felé",
+        "Újabb rakomány indul a Nemzetközi Űrállomásra",
+        "Itt a dátum: ekkor indul a SpaceX harmincötödik űrutazása",
+        "Mi lapul a SpaceX harmincötödik űrállomásra tartó rakományában?",
+        "Megvan az időpont: újra útra kel a SpaceX a Nemzetközi Űrállomás felé"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Iridium-1_Launch_%2832312419215%29.jpg/1280px-Iridium-1_Launch_%2832312419215%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1800,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "SpaceX’s Falcon 9 Full Thrust rocket lifts off from Vandenberg Air Force Base SLC-4E with the first ten Iridium NEXT communication satellites.",
+          "credit": "SpaceX / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Iridium-1_Launch_(32312419215).jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://live.staticflickr.com/8124/8674655959_212668434d_b.jpg",
+          "width": 1024,
+          "height": 683,
+          "kind": "photo",
+          "alt": "Antares Rocket Launch",
+          "credit": "NASA Goddard Photo and Video / nasa",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/24662369@N07/8674655959",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/1280px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 797,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The International Space Station is featured in this image photographed by an STS-134 crew member on the space shuttle Endeavour after the station and shuttle began their post-undocking relative separa",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:STS-134_International_Space_Station_after_undocking.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/SpaceX_Starbase_launch_facility_%2851438071556%29.jpg/1280px-SpaceX_Starbase_launch_facility_%2851438071556%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "View from across the bay. From left to right: Starship booster, Starship SN20, cryogenic tank bank, \"Mechzilla\" launch tower.",
+          "credit": "Lars Plougmann from United States / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:SpaceX_Starbase_launch_facility_(51438071556).jpg",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
+          "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
+          "summary": "NASA and SpaceX are targeting 6:33 a.m. EDT, Tuesday, Oct. 13, for the next launch to deliver science investigations, supplies, and equipment, including the final set of International Space Station Roll-Out Solar Arrays, to the space station. This is the 35th SpaceX commercial resupply services mission to the orbital complex for NASA. NASA also will […]",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": 6.89
+        },
+        {
+          "title": "NASA’s SpaceX 35th Commercial Resupply Mission Overview",
+          "link": "https://www.nasa.gov/general/nasas-spacex-35th-commercial-resupply-mission-overview/",
+          "summary": "NASA and SpaceX are targeting no earlier than Tuesday, Oct. 13 to launch scientific investigations, supplies, and equipment to the International Space Station.",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
+          "https://www.nasa.gov/general/nasas-spacex-35th-commercial-resupply-mission-overview/"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/tech/2026-10-08-harmincodszorre-indit-tehermissziot-a-spacex/",
+      "seo": {
+        "meta_title": "Harmincödszörre indít tehermissziót a SpaceX",
+        "meta_description": "A SpaceX és a NASA a Nemzetközi Űrállomásra indítja el soron következő, harmincötödik kereskedelmi tehermisszióját. A küldetés során fontos tudományos felszerel",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-08-harmincodszorre-indit-tehermissziot-a-spacex/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Iridium-1_Launch_%2832312419215%29.jpg/1280px-Iridium-1_Launch_%2832312419215%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "d3941b01-28a3-581a-b6cc-75db2e4a0c68"
+      ],
+      "see_also": [
+        {
+          "title": "Kilőtték a SpaceX Crew-13 missziót",
+          "url": "/univerzum/2026-10-01-kilottek-a-spacex-crew-13-missziot/",
+          "date": "2026-10-01"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "70cf3bfa323f2a168678072bec12ef2b8e751ac884f17015e4fda3f5fd01b1ec",
+      "pipeline_run_id": "37726983995",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T06:23:00+02:00",
+      "updated_at": "2026-10-08T06:23:00+02:00",
+      "published_at": "2026-10-08T06:23:00+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-08T04:24:09+00:00",
+        "msg_ids": [
+          3675,
+          3676,
+          3677,
+          3678,
+          3679
+        ],
+        "control_id": 3680
+      }
+    },
+    {
+      "id": "ba0e43c9-0a72-54b9-9476-901a1325359c",
+      "slug": "2026-10-08-meglepo-puszival-indult-az-uj-fejezet-a-tv2-sikermusoranak-szereploin",
+      "status": "pending",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Házasság első látásra",
+        "TV2",
+        "bulvár",
+        "reality"
+      ],
+      "title": "Meglepő puszival indult az új fejezet a TV2 sikerműsorának szereplőinél",
+      "subtitle": null,
+      "lead": "Immár szingliként ült le egy asztalhoz Livi és Renátó a TV2 népszerű párkereső műsorában, ahol a korábbi házasságok kudarca után végre szabadon lobbanhatott lángra a vonzalom. A csütörtök esti randevú nemcsak váratlan őszinteséget, hanem egy játékos puszit is hozott a szereplőknek.",
+      "key_points": [
+        "Livi és Renátó korábbi házasságai időközben zátonyra futottak.",
+        "A TV2 csütörtök esti adásában a szereplők már szingliként randevúztak egy étteremben.",
+        "A felek nyíltan vállalták a kettejük között működő kémiát és a kölcsönös szimpátiát.",
+        "Renátó egy kártyatrükkel és mély kérdésekkel hozta zavarba a lányt."
+      ],
+      "content": "Végre elérkezett az a pillanat, amelyre a Házasság első látásra nézői már régóta vártak: Livi és Renátó immár hivatalosan is szingliként, egy étteremben ültek le egymással egy italra a TV2 csütörtök esti adásában. A kettejük közötti kémia már a kísérlet kezdetén is érezhető volt, ám addig rögös út vezetett, ugyanis mindkettejük korábbi házassága kudarcba fulladt. A médiában elhangzottak szerint Livi és előző férje, Roli kapcsolata végül a kísérletből való kizárással zárult, míg a beszámolók alapján Merci és Renátó története szintén a feszültségek és a válás miatt ért véget.\n\nA friss randevún Renátó nem vesztegette az idejét, és rögtön arra volt kíváncsi, mi fogta meg benne a legjobban a lányt. Livi erre őszintén válaszolt, elárulva, hogy a barna szemű, barna hajú, mediterrán típusú férfi pontosan az ideálja. A találkozó során a férfias magabiztosság mellett egy kártyatrükk is előkerült, amellyel Renátónak sikerült kicsikarnia egy puszit a kezdetben kissé vonakodó Livitől.\n\nA kamerák előtt mindketten pozitívan értékelték a találkozót, bár Renátó a maga részéről rendkívül szemléletesen érzékeltette a helyzetet, amikor úgy fogalmazott, hogy a levegőben lévő feszültségből akár tojásrántotta is sűrűsödhetett volna az asztal közepén.\n\nA Házasság első látásra korábbi évadai és jelenlegi epizódjai is azt mutatják, hogy a kísérletek vége gyakran tartogat váratlan fordulatokat. Míg az első évadban csupán egyetlen pár próbálkozott meg a folytatással a kamerák kikapcsolása után, a jelenlegi évad szereplői számára a rajongók kitüntetett figyelme és a hatalmas követőtábor maradt meg hozadékként, miközben a legtöbben még mindig a boldog hétköznapokat keresik.",
+      "content_format": "markdown",
+      "body": [
+        "Végre elérkezett az a pillanat, amelyre a Házasság első látásra nézői már régóta vártak: Livi és Renátó immár hivatalosan is szingliként, egy étteremben ültek le egymással egy italra a TV2 csütörtök esti adásában. A kettejük közötti kémia már a kísérlet kezdetén is érezhető volt, ám addig rögös út vezetett, ugyanis mindkettejük korábbi házassága kudarcba fulladt. A médiában elhangzottak szerint Livi és előző férje, Roli kapcsolata végül a kísérletből való kizárással zárult, míg a beszámolók alapján Merci és Renátó története szintén a feszültségek és a válás miatt ért véget.",
+        "A friss randevún Renátó nem vesztegette az idejét, és rögtön arra volt kíváncsi, mi fogta meg benne a legjobban a lányt. Livi erre őszintén válaszolt, elárulva, hogy a barna szemű, barna hajú, mediterrán típusú férfi pontosan az ideálja. A találkozó során a férfias magabiztosság mellett egy kártyatrükk is előkerült, amellyel Renátónak sikerült kicsikarnia egy puszit a kezdetben kissé vonakodó Livitől.",
+        "A kamerák előtt mindketten pozitívan értékelték a találkozót, bár Renátó a maga részéről rendkívül szemléletesen érzékeltette a helyzetet, amikor úgy fogalmazott, hogy a levegőben lévő feszültségből akár tojásrántotta is sűrűsödhetett volna az asztal közepén.",
+        "A Házasság első látásra korábbi évadai és jelenlegi epizódjai is azt mutatják, hogy a kísérletek vége gyakran tartogat váratlan fordulatokat. Míg az első évadban csupán egyetlen pár próbálkozott meg a folytatással a kamerák kikapcsolása után, a jelenlegi évad szereplői számára a rajongók kitüntetett figyelme és a hatalmas követőtábor maradt meg hozadékként, miközben a legtöbben még mindig a boldog hétköznapokat keresik."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 281,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://pixabay.com/get/g2a992642eb8bec94ca40a41cea12f9ed4d8903d23c388364ce65fa31c29866157223bb6e797d859507da48c8aae583bb0d2c842a1c1ab08544108ade4406eefc_1280.jpg",
+        "width": 4460,
+        "height": 2973,
+        "kind": "photo",
+        "alt": "man, woman, couple, dinner, date, restaurant, coffeehouse, shop, cupcakes, love, together, dinner, dinner, date, date, date, restaurant, restaurant, restaurant, restaurant, restaurant",
+        "credit": "StockSnap / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/man-woman-couple-dinner-date-2557408/",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra-livi-es-renato-elso-randija/nw6yr88",
+          "title": "Házasság első látásra: így sikerült Livi és Renátó első randija",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T06:24:18+02:00"
+        },
+        {
+          "url": "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/hazassag-elso-latasra-korabbi-evad-parosok-folytatas",
+          "title": "Hamarosan véget ér a Házasság első látásra! Eddig ők döntöttek a házasságuk folytatása mellett",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T06:24:18+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Az a kaliber vagy, ami nekem az ideálom. Barna szem, barna haj, az a mediterrán típus. Én a kísérlet elején is elmondtam, hogy ilyen férjet szeretnék, nekem ez a zsánerem",
+        "who": "Livi, a Házasság első látásra szereplője",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.69,
+      "title_options": [
+        "Meglepő puszival indult az új fejezet a TV2 sikerműsorának szereplőinél",
+        "Romantikus randevún közeledett egymáshoz Livi és Renátó",
+        "Azt hitték, végleg vége, erre egyetlen puszival mindent megfordítottak a TV2 kamerái előtt",
+        "Nem akarták elhinni, mit hozott ki belülük a váratlan randevú a csütörtöki adásban"
+      ],
+      "clickbait_from": 2,
+      "image_options": [
+        {
+          "url": "https://pixabay.com/get/g2a992642eb8bec94ca40a41cea12f9ed4d8903d23c388364ce65fa31c29866157223bb6e797d859507da48c8aae583bb0d2c842a1c1ab08544108ade4406eefc_1280.jpg",
+          "width": 4460,
+          "height": 2973,
+          "kind": "photo",
+          "alt": "man, woman, couple, dinner, date, restaurant, coffeehouse, shop, cupcakes, love, together, dinner, dinner, date, date, date, restaurant, restaurant, restaurant, restaurant, restaurant",
+          "credit": "StockSnap / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/man-woman-couple-dinner-date-2557408/",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Házasság első látásra: így sikerült Livi és Renátó első randija",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra-livi-es-renato-elso-randija/nw6yr88",
+          "summary": "Végre elérkezik az a pillanat, amelyre a Házasság első látásra nézői már régóta izgatottan vártak: Livi és Renátó immár szingliként ül le egymással egy italra. A TV2 Házasság első látásra című műsorának csütörtök esti adásában látható randi minden előzetes várakozást felülmúl.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 6.69
+        },
+        {
+          "title": "Hamarosan véget ér a Házasság első látásra! Eddig ők döntöttek a házasságuk folytatása mellett",
+          "link": "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/hazassag-elso-latasra-korabbi-evad-parosok-folytatas",
+          "summary": "Ők mondtak eddig igent egymásnak.",
+          "source": "borsonline.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra-livi-es-renato-elso-randija/nw6yr88"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/bulvar/2026-10-08-meglepo-puszival-indult-az-uj-fejezet-a-tv2-sikermusoranak-szereploin/",
+      "seo": {
+        "meta_title": "Meglepő puszival indult az új fejezet a TV2 sikerműsorának s",
+        "meta_description": "Immár szingliként ült le egy asztalhoz Livi és Renátó a TV2 népszerű párkereső műsorában, ahol a korábbi házasságok kudarca után végre szabadon lobbanhatott lán",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-08-meglepo-puszival-indult-az-uj-fejezet-a-tv2-sikermusoranak-szereploin/",
+        "og_image": "https://pixabay.com/get/g2a992642eb8bec94ca40a41cea12f9ed4d8903d23c388364ce65fa31c29866157223bb6e797d859507da48c8aae583bb0d2c842a1c1ab08544108ade4406eefc_1280.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "238afc54-e95e-55e1-a9ec-d98e5dcb3e77"
+      ],
+      "see_also": [
+        {
+          "title": "Nem várt húzás a TV2 műsorában",
+          "url": "/bulvar/2026-09-30-nem-vart-huzas-a-tv2-musoraban/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": "238afc54-e95e-55e1-a9ec-d98e5dcb3e77",
+      "dedupe_hash": "918c429c2f8c1e377810306223c9fa93fc168c097b71bd2d6b39b8940a0f42e0",
+      "pipeline_run_id": "37726983995",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T06:24:18+02:00",
+      "updated_at": "2026-10-08T06:24:18+02:00",
+      "published_at": "2026-10-08T06:24:18+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": [],
+        "auto_fixed": [
+          "Livi és Roli kapcsolatának okára vonatkozó állítást forrásra hivatkozva ('A médiában elhangzottak szerint') pontosítottuk.",
+          "Merci és Renátó szakításának okát 'a beszámolók alapján' formulával láttuk el."
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-08T04:25:48+00:00",
+        "msg_ids": [
+          3681,
+          3682
+        ],
+        "control_id": 3683
+      }
+    },
+    {
+      "id": "6e4c9573-3e32-58b2-abd8-50d0c7e96f3b",
+      "slug": "2026-10-08-drontamadas-ert-egy-orosz-it-oriast-mikozben-uzemanyaghianyrol-szamol",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "orosz-ukrán háború",
+        "hibrid hadviselés",
+        "energiapiac",
+        "Szlovákia",
+        "Yandex"
+      ],
+      "title": "Dróntámadás ért egy orosz IT-óriást, miközben üzemanyaghiányról számolt be Szlovákia",
+      "subtitle": null,
+      "lead": "Újabb dróntámadás ért el orosz informatikai infrastruktúrát, miközben az európai államok hibrid fenyegetésekre figyelmeztetnek. A kialakuló helyzet közvetlen hatással van a kontinens energiabiztonságára és gazdasági stabilitására.",
+      "key_points": [
+        "A dán hírszerzés és Németország is fokozódó orosz hibrid fenyegetésről számolt be.",
+        "Robert Fico szlovák miniszterelnök üzemanyaghiányra hívta fel a figyelmet.",
+        "Ukrán jelentések szerint sikerült megsemmisíteni a Yandex orosz IT-vállalat adatközpontját.",
+        "A frontokon továbbra is a drónhadviselés határozza meg a harctéri eseményeket."
+      ],
+      "content": "Sorra adnak ki baljós biztonsági jelentéseket az európai államok, miután Németország után a dán hírszerzés is a fokozódó orosz hibrid hadviselés veszélyeire irányította a figyelmet. A forrásban kizárólag a hibrid hadviselésre való figyelmeztetés szerepel, ezek a részletek (kibertámadások, szabotázsakciók felsorolása) a forrásban nem szerepelnek.\n\nA politikai és hírszerzési figyelmeztetések mellett a gazdasági következmények is egyre tapinthatóbbak a szomszédságban. Robert Fico szlovák miniszterelnök, aki korábban is a Moszkvával fenntartott pragmatikus kapcsolatokról volt ismert, üzemanyaghiányról számolt be, ami komoly terhet ró a szlovák belső piacra és logisztikai hálózatra.\n\nEközben a harctéri események terén a drónhadviselés dominanciája érvényesül. Ukrán források legfrissebb tájékoztatása szerint a napokban sikerült kilőni és megsemmisíteni a Yandex nevű jelentős orosz IT-vállalat egyik adatközpontját, ami súlyos csapást mér az orosz technológiai és digitális szolgáltatások hátországára.",
+      "content_format": "markdown",
+      "body": [
+        "Sorra adnak ki baljós biztonsági jelentéseket az európai államok, miután Németország után a dán hírszerzés is a fokozódó orosz hibrid hadviselés veszélyeire irányította a figyelmet. A forrásban kizárólag a hibrid hadviselésre való figyelmeztetés szerepel, ezek a részletek (kibertámadások, szabotázsakciók felsorolása) a forrásban nem szerepelnek.",
+        "A politikai és hírszerzési figyelmeztetések mellett a gazdasági következmények is egyre tapinthatóbbak a szomszédságban. Robert Fico szlovák miniszterelnök, aki korábban is a Moszkvával fenntartott pragmatikus kapcsolatokról volt ismert, üzemanyaghiányról számolt be, ami komoly terhet ró a szlovák belső piacra és logisztikai hálózatra.",
+        "Eközben a harctéri események terén a drónhadviselés dominanciája érvényesül. Ukrán források legfrissebb tájékoztatása szerint a napokban sikerült kilőni és megsemmisíteni a Yandex nevű jelentős orosz IT-vállalat egyik adatközpontját, ami súlyos csapást mér az orosz technológiai és digitális szolgáltatások hátországára."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 152,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Yandex_main_office.jpg/1280px-Yandex_main_office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Yandex main office in Moscow.",
+        "credit": "WikiFido / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Yandex_main_office.jpg",
+        "vision_score": 6.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/global/20261008/kongatjak-a-veszharangot-europaban-levegobe-repult-az-oroszok-adatkozpontja-hireink-az-orosz-ukran-haborubol-csutortokon-868142",
+          "title": "Kongatják a vészharangot Európában, levegőbe repült az oroszok adatközpontja - Híreink az orosz-ukrán háborúból csütörtökön",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T06:26:05+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Dróntámadás ért egy orosz IT-óriást, miközben üzemanyaghiányról számolt be Szlovákia",
+        "Üzemanyaghiány és lebombázott szerverek: fokozódik a feszültség Európában",
+        "Dánia és Németország is kongatja a vészharangot az orosz hibrid hadviselés miatt",
+        "Aggasztó jelentések érkeztek: komoly üzemanyaghiánnyal küzd a szomszédos ország",
+        "Itt a bizonyíték, hogy tovább gyűrűzik az orosz-ukrán háború válsága Európában"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Yandex_main_office.jpg/1280px-Yandex_main_office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Yandex main office in Moscow.",
+          "credit": "WikiFido / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Yandex_main_office.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Yandex_main_office_%28old%29%2C_Moscow_20240403_125930.jpg/1280px-Yandex_main_office_%28old%29%2C_Moscow_20240403_125930.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Yandex main office (old), Moscow\nNew Yandex office under construction yet: \n\n\nThis photo was created by Lesless. It is not in the public domain, and use of this file outside of the licensing terms is",
+          "credit": "Lestest / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Yandex_main_office_(old),_Moscow_20240403_125930.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "The Flag of Europe is the flag and emblem of the European Union (EU) and Council of Europe (CoE). It consists of a circle of 12 golden (yellow) stars on a blue background. It was created in 1955 by th",
+          "credit": "User:Verdy p, User:-xfi-, User:Paddu, User:Nightstallion, User:Funakoshi, User:J / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Kongatják a vészharangot Európában, levegőbe repült az oroszok adatközpontja - Híreink az orosz-ukrán háborúból csütörtökön",
+          "link": "https://www.portfolio.hu/global/20261008/kongatjak-a-veszharangot-europaban-levegobe-repult-az-oroszok-adatkozpontja-hireink-az-orosz-ukran-haborubol-csutortokon-868142",
+          "summary": "Sorra jelennek meg baljós jelentések az európai államoktól: Németország után a dán hírszerzés is növekvő orosz hibrid hadviselésre figyelmeztet, a Moszkvával egyébként jó kapcsolatot ápoló Robert Fico szlovák miniszterelnök pedig üzemagyaghiányra. A harctereken továbbra is a drónháború dominál, Ukrán jelentések szerint most a Yandex orosz IT vállalat adatközpontját sikerült kilőni. Cikkünk folyamatosan frissül az orosz-ukrán háború legfontosabb híreivel.",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/global/20261008/kongatjak-a-veszharangot-europaban-levegobe-repult-az-oroszok-adatkozpontja-hireink-az-orosz-ukran-haborubol-csutortokon-868142"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/vilag/2026-10-08-drontamadas-ert-egy-orosz-it-oriast-mikozben-uzemanyaghianyrol-szamol/",
+      "seo": {
+        "meta_title": "Dróntámadás ért egy orosz IT-óriást, miközben üzemanyaghiány",
+        "meta_description": "Újabb dróntámadás ért el orosz informatikai infrastruktúrát, miközben az európai államok hibrid fenyegetésekre figyelmeztetnek. A kialakuló helyzet közvetlen ha",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-08-drontamadas-ert-egy-orosz-it-oriast-mikozben-uzemanyaghianyrol-szamol/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Yandex_main_office.jpg/1280px-Yandex_main_office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "b0fdb53ccfd36b7376e885d51368746e91c17919e0e32a2ef8a33f7849a80b8b",
+      "pipeline_run_id": "37726983995",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T06:26:05+02:00",
+      "updated_at": "2026-10-08T06:26:05+02:00",
+      "published_at": "2026-10-08T06:26:05+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-08T04:27:05+00:00",
+        "msg_ids": [
+          3684,
+          3685,
+          3686,
+          3687
+        ],
+        "control_id": 3688
+      }
+    },
+    {
+      "id": "d2399292-58e6-5a9b-8b45-44a1e42eddb6",
+      "slug": "2026-10-08-null",
+      "status": "pending",
+      "category": "eletmod",
+      "subcategory": null,
+      "tags": [
+        "D-vitamin",
+        "egészség",
+        "táplálkozás",
+        "kutatás",
+        "vitaminok"
+      ],
+      "title": "null",
+      "subtitle": null,
+      "lead": "Egy friss kutatás szerint a D2-vitamin szedése váratlan módon csökkentheti a szervezet saját D3-vitamin-szintjét. Az eredmények rávilágítanak arra, hogy a két vitaminformát a mindennapokban nem érdemes feltétlenül egyenértékűként kezelni.",
+      "key_points": [
+        "A D2-vitamin növelheti az összvitaminszintet, de mérsékelheti a D3-at.",
+        "A D3-vitamin hatékonyabban emeli és tartja fenn a vérben a D-vitamin szintjét.",
+        "A vizsgálat során huszonnégy korábbi tanulmány eredményeit elemezték a kutatók."
+      ],
+      "content": "A D-vitamin elengedhetetlen a kalcium felszívódásához, a csontok egészségéhez, valamint az izom-, ideg- és immunrendszer megfelelő működéséhez. Az Egyesült Királyságban például a sötétebb hónapokban napi tíz mikrogramm bevitelét javasolják, mivel a napfény ekkor már nem elég erős a természetes termelődéshez.\n\nA boltokban kapható készítmények jellemzően kétféle formát tartalmaznak. A D2-vitamint gombákból vagy élesztőgombákból állítják elő ultraibolya fénnyel, míg a D3-vitamin az emberi bőrben képződik a napfény hatására, illetve lanolinból vagy növényi forrásokból, például zuzmóból is kinyerhető.\n\nElemzésük szerint a D2-vitamint szedő embereknél a vérben mért 25-hidroxi-D3-vitamin koncentrációja jelentősen alacsonyabb volt azokhoz képest, akik nem kaptak D2-t.\n\nA kutatók becslései alapján az átlagos csökkenés nagyjából kilenc és tizennyolc nanomol között mozgott literenként. Ez nem azt jelenti, hogy a D2-vitamin káros lenne, vagy teljesen kiürítené a tápanyagot, de az egyik forma növelése láthatóan együtt jár a másik csökkenésével.\n\nA tudósok feltevése szerint a szervezet szabályozási mechanizmusai válthatják ki ezt, amikor a megnövekedett D2-szint miatt felgyorsul a D3 lebontása is.",
+      "content_format": "markdown",
+      "body": [
+        "A D-vitamin elengedhetetlen a kalcium felszívódásához, a csontok egészségéhez, valamint az izom-, ideg- és immunrendszer megfelelő működéséhez. Az Egyesült Királyságban például a sötétebb hónapokban napi tíz mikrogramm bevitelét javasolják, mivel a napfény ekkor már nem elég erős a természetes termelődéshez.",
+        "A boltokban kapható készítmények jellemzően kétféle formát tartalmaznak. A D2-vitamint gombákból vagy élesztőgombákból állítják elő ultraibolya fénnyel, míg a D3-vitamin az emberi bőrben képződik a napfény hatására, illetve lanolinból vagy növényi forrásokból, például zuzmóból is kinyerhető.",
+        "Elemzésük szerint a D2-vitamint szedő embereknél a vérben mért 25-hidroxi-D3-vitamin koncentrációja jelentősen alacsonyabb volt azokhoz képest, akik nem kaptak D2-t.",
+        "A kutatók becslései alapján az átlagos csökkenés nagyjából kilenc és tizennyolc nanomol között mozgott literenként. Ez nem azt jelenti, hogy a D2-vitamin káros lenne, vagy teljesen kiürítené a tápanyagot, de az egyik forma növelése láthatóan együtt jár a másik csökkenésével.",
+        "A tudósok feltevése szerint a szervezet szabályozási mechanizmusai válthatják ki ezt, amikor a megnövekedett D2-szint miatt felgyorsul a D3 lebontása is."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 199,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://pixabay.com/get/g41c7e71ca7bd8bf320ebb978a7ba95a61b1c7fbc336434cabbfebb8c9aecaf4875b8b1c2066c6a6637ab7b947579799ff86a0c48e0bb41ae8a6925588a64b3ba_1280.jpg",
+        "width": 6240,
+        "height": 4160,
+        "kind": "photo",
+        "alt": "tablets, medicine, supplement, vitamin, pharmaceutical, cure, medical treatment, remedy, pill, prescription, medicine, medicine, medicine, medicine, medicine",
+        "credit": "HeungSoon / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/tablets-medicine-supplement-vitamin-5620566/",
+        "vision_score": 9.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/10/261007232940.htm",
+          "title": "Scientists warn a popular vitamin D supplement may have a hidden downside",
+          "publisher": "sciencedaily.com",
+          "license": null,
+          "accessed_at": "2026-10-08T06:27:14+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "null",
+        "D2-vitamin: vajon csökkenti a szervezet D3-szintjét",
+        "A népszerű D-vitamin-pótlás meglepő csapdája",
+        "Ezt biztosan nem tudtad a D-vitamin-tablettákról",
+        "Bizonyos D-vitamin-pótlás visszafelé sülhet el?",
+        "Megdöbbentő eredmény: így hathat a D2-vitamin a szervezetre"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://pixabay.com/get/g41c7e71ca7bd8bf320ebb978a7ba95a61b1c7fbc336434cabbfebb8c9aecaf4875b8b1c2066c6a6637ab7b947579799ff86a0c48e0bb41ae8a6925588a64b3ba_1280.jpg",
+          "width": 6240,
+          "height": 4160,
+          "kind": "photo",
+          "alt": "tablets, medicine, supplement, vitamin, pharmaceutical, cure, medical treatment, remedy, pill, prescription, medicine, medicine, medicine, medicine, medicine",
+          "credit": "HeungSoon / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/tablets-medicine-supplement-vitamin-5620566/",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Cholecalciferol-vitamin-D3-from-xtal-3D-sticks.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1369,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Stick model of the cholecalciferol molecule (vitamin D3), C27H44O, as found in the crystal structure.\nX-ray crystallographic data from J. Org. Chem. (1976) 41, 3476–3478.\nModel constructed in CrystalM",
+          "credit": "Ben Mills / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Cholecalciferol-vitamin-D3-from-xtal-3D-sticks.png",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Cholecalciferol-vitamin-D3-from-xtal-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1366,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Ball-and-stick model of the cholecalciferol molecule (vitamin D3), C27H44O, as found in the crystal structure.\nX-ray crystallographic data from J. Org. Chem. (1976) 41, 3476–3478.\nModel constructed in",
+          "credit": "Ben Mills / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Cholecalciferol-vitamin-D3-from-xtal-3D-balls.png",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/g503e51a2008e955c862647893accba00552ba0487e2b267eee9878f94c8681f2ba1eb6ed251141ed41da6c81c068f117b597cfda05e041ac5f778e1aee9e91fa_1280.jpg",
+          "width": 5472,
+          "height": 3648,
+          "kind": "photo",
+          "alt": "pill, gel capsule, medicine, health, cure, vitamin supplements, medication, pharmacy, treatment, prescription, pharmaceutical, remedy, healthcare, medical, sick, dose, medicament",
+          "credit": "stevepb / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/pill-gel-capsule-medicine-health-3069032/",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Vitamin_D_pills.jpg/1280px-Vitamin_D_pills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 882,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Vitamin D2 supplements (800 IU)",
+          "credit": "Mx. Granger / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Vitamin_D_pills.jpg",
+          "vision_score": 6.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Scientists warn a popular vitamin D supplement may have a hidden downside",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261007232940.htm",
+          "summary": "Not all vitamin D supplements are created equal, and new research suggests that one popular form may have an unexpected downside. Scientists found that taking vitamin D2 can actually lower the body's levels of vitamin D3, the form naturally produced by sunlight and more effective at boosting overall vitamin D. Previous studies also suggest that vitamin D3 may provide stronger immune protection against viruses and bacteria.",
+          "source": "sciencedaily.com",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.sciencedaily.com/releases/2026/10/261007232940.htm"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/eletmod/2026-10-08-null/",
+      "seo": {
+        "meta_title": "null",
+        "meta_description": "Egy friss kutatás szerint a D2-vitamin szedése váratlan módon csökkentheti a szervezet saját D3-vitamin-szintjét. Az eredmények rávilágítanak arra, hogy a két v",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-08-null/",
+        "og_image": "https://pixabay.com/get/g41c7e71ca7bd8bf320ebb978a7ba95a61b1c7fbc336434cabbfebb8c9aecaf4875b8b1c2066c6a6637ab7b947579799ff86a0c48e0bb41ae8a6925588a64b3ba_1280.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "134f0bf580cb707002e2f7a8d28a6fa42bab6bfbc973dc1d99ce17cfee7a7172",
+      "pipeline_run_id": "37726983995",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T06:27:14+02:00",
+      "updated_at": "2026-10-08T06:27:14+02:00",
+      "published_at": "2026-10-08T06:27:14+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-08T04:28:13+00:00",
+        "msg_ids": [
+          3689,
+          3690,
+          3691,
+          3692,
+          3693,
+          3694
+        ],
+        "control_id": 3695
+      }
     }
   ]
 }
