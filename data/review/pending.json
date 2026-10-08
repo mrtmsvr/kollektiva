@@ -9590,7 +9590,7 @@
     {
       "id": "891a7c95-4e4b-516f-95d4-2986d11fb15e",
       "slug": "2026-10-08-kartellgyanu-miatt-vizsgalja-a-menzacegeket-a-gazdasagi-versenyhivata",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -9621,15 +9621,15 @@
       "word_count": 134,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Rendszerbont%C3%B3_Nagykoncert_20260410_204315.jpg/1280px-Rendszerbont%C3%B3_Nagykoncert_20260410_204315.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Irving_High_School_cafeteria.jpg/1280px-Irving_High_School_cafeteria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 2132,
+        "height": 900,
         "kind": "photo",
-        "pos": "top",
-        "alt": "Rendszerbontó Nagykoncert at Heroes' Square. Someone is holding a shield with the Lidl logo, as a reference to the recent Gazdasági Versenyhivatal whistleblower",
-        "credit": "Vauia Rex / Wikimedia Commons",
-        "license": "CC0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Rendszerbont%C3%B3_Nagykoncert_20260410_204315.jpg"
+        "pos": "center",
+        "alt": "The new Irving High School cafeteria (Irving, TX).",
+        "credit": "Nadia Eimandoust / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Irving_High_School_cafeteria.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -9763,7 +9763,7 @@
         "meta_title": "Kartellgyanú miatt vizsgálja a menzacégeket a Gazdasági Vers",
         "meta_description": "Versenyfelügyeleti eljárást indított a Gazdasági Versenyhivatal a közétkeztetés piacán, tiltott versenykorlátozó megállapodás gyanúja miatt. Az ellenőrzés célja",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-08-kartellgyanu-miatt-vizsgalja-a-menzacegeket-a-gazdasagi-versenyhivata/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Rendszerbont%C3%B3_Nagykoncert_20260410_204315.jpg/1280px-Rendszerbont%C3%B3_Nagykoncert_20260410_204315.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Irving_High_School_cafeteria.jpg/1280px-Irving_High_School_cafeteria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -9780,9 +9780,9 @@
       "dedupe_hash": "294a0617cf610dfd9693e2f3b3c4ae1deabda00e06dc58160e1b1679f28718ee",
       "pipeline_run_id": "37747060702",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-08T10:16:11+02:00",
-      "updated_at": "2026-10-08T10:16:11+02:00",
-      "published_at": "2026-10-08T10:16:11+02:00",
+      "created_at": "2026-10-08T10:47:27+02:00",
+      "updated_at": "2026-10-08T10:47:27+02:00",
+      "published_at": "2026-10-08T10:47:27+02:00",
       "expires_at": null,
       "legal": {
         "level": 1,
@@ -9797,18 +9797,12 @@
         "title": 0,
         "image": 3,
         "sent_at": "2026-10-08T08:17:17+00:00",
-        "msg_ids": [
-          3815,
-          3816,
-          3817,
-          3818,
-          3819,
-          3820,
-          3821,
-          3822
-        ],
-        "control_id": 3823
-      }
+        "msg_ids": [],
+        "control_id": 3823,
+        "title_prompt_id": null,
+        "compact": "⏱ Magától kint"
+      },
+      "live": true
     },
     {
       "id": "14771ee1-c38a-5653-ae37-6dcbe5de2bc7",
