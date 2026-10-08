@@ -12,10 +12,12 @@
     "jelszo",
     "kamatos-kamat",
     "olimpia-magyar",
-    "hold-tavolodik"
+    "hold-tavolodik",
+    "kreatin"
   ],
   "last_seasonal_date": "2026-10-04",
   "offtopic_rerolls": {
     "2026-10-08": 1
-  }
+  },
+  "last_offtopic_date": "2026-10-08"
 }
