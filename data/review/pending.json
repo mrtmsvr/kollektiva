@@ -8037,40 +8037,28 @@
       "clickbait_from": 1,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/WaterPolo.JPG/1280px-WaterPolo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Pusk%C3%A1s_Ar%C3%A9na_%282%29.jpg/1280px-Pusk%C3%A1s_Ar%C3%A9na_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 899,
+          "height": 589,
           "kind": "photo",
           "pos": "center",
-          "alt": "Greece - Hungary WaterPolo match (World Junior Championship 2004 Naples, Italy)",
-          "credit": "Massimo Finizio / Wikimedia Commons",
-          "license": "CC BY-SA 2.0 it",
-          "source_url": "https://commons.wikimedia.org/wiki/File:WaterPolo.JPG",
-          "vision_score": 8.0
+          "alt": "Puskás Aréna. Budapest, Central Europe. On the day of the opening.  Hungary-Uruguay 1-2.",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Pusk%C3%A1s_Ar%C3%A9na_(2).jpg",
+          "vision_score": 6.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Pusk%C3%A1s_Ar%C3%A9na_%283%29.jpg/1280px-Pusk%C3%A1s_Ar%C3%A9na_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 732,
+          "height": 745,
           "kind": "photo",
           "pos": "center",
-          "alt": "Parliament building, Budapest",
-          "credit": "Dirk Beyer / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Parliament_4604.JPG",
-          "vision_score": 7.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Hungarian_Parliament_Building_2023-9.jpg/1280px-Hungarian_Parliament_Building_2023-9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 675,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "Hungarian Parliament Building is the seat of the National Assembly of Hungary, a notable landmark of Hungary",
-          "credit": "Pierre Blaché / Wikimedia Commons",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_2023-9.jpg",
-          "vision_score": 7.0
+          "alt": "Puskás Aréna. Budapest, Central Europe. On the day of the opening.  Hungary-Uruguay 1-2.",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Pusk%C3%A1s_Ar%C3%A9na_(3).jpg",
+          "vision_score": 6.0
         }
       ],
       "story": [
@@ -8128,9 +8116,11 @@
           4001,
           4002,
           4003,
-          4004
+          4004,
+          4016,
+          4017
         ],
-        "control_id": 4005
+        "control_id": 4018
       },
       "image_queries": [
         "Ferencváros football club",
@@ -8140,7 +8130,21 @@
         "Hungarian government",
         "football stadium",
         "tax document",
-        "press conference"
+        "press conference",
+        "Hungarian Ministry of Finance",
+        "Hungarian Tax Authority",
+        "Puskás Aréna",
+        "Budapest",
+        "National Sports Agency",
+        "Hungarian Football Federation",
+        "tax documents",
+        "football players in training",
+        "contract signing"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Hungarian_Parliament_Building_2023-9.jpg/1280px-Hungarian_Parliament_Building_2023-9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/WaterPolo.JPG/1280px-WaterPolo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
     },
     {
