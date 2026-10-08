@@ -7608,17 +7608,6 @@
           "credit": "Szilas / Wikimedia Commons",
           "license": "Public domain",
           "source_url": "https://commons.wikimedia.org/wiki/File:Hall_under_the_dome_of_the_National_Museum.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Magyar_Nemzeti_M%C3%BAzeum_-_Portr%C3%A4tstele_der_Claudia_Maximilla_%283%29%2C_Detail.jpg/1280px-Magyar_Nemzeti_M%C3%BAzeum_-_Portr%C3%A4tstele_der_Claudia_Maximilla_%283%29%2C_Detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1800,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Jüdisch umgenutzte Grabstele des 4. Jhdt. n. Chr., ursprünglich für Claudia Maximilla und ihre Familie; Magyar Nemzeti Múzeum (Ungarisches Nationalmuseum)",
-          "credit": "Markus Köllner / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Magyar_Nemzeti_M%C3%BAzeum_-_Portr%C3%A4tstele_der_Claudia_Maximilla_(3),_Detail.jpg"
         }
       ],
       "legal": {
@@ -7632,11 +7621,17 @@
       "review": {
         "title": 0,
         "image": 0,
-        "sent_at": "2026-10-08T15:29:01+00:00",
-        "msg_ids": [],
-        "control_id": 3921,
-        "title_prompt_id": null,
-        "compact": "✅ Kint"
+        "sent_at": "2026-10-08T18:43:41+00:00",
+        "msg_ids": [
+          3944,
+          3945,
+          3946,
+          3947,
+          3948,
+          3949,
+          3950
+        ],
+        "control_id": 3951
       },
       "image_queries": [
         "Tarr Zoltán",
