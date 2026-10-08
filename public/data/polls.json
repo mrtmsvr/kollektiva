@@ -2,22 +2,6 @@
   "updated_at": "2026-10-08T10:19:47+02:00",
   "polls": [
     {
-      "id": "ff81626c64b3",
-      "date": "2026-10-08",
-      "question": "Ön szerint a kereskedelmi űrmissziók előnyei megérik a költségeket?",
-      "options": [
-        "Igen, fontos",
-        "Nem, túl drága",
-        "Közömbös",
-        "Nem tudom"
-      ],
-      "article_url": "/tech/2026-10-08-harmincodszorre-indit-tehermissziot-a-spacex/",
-      "article_title": "Harmincödszörre indít tehermissziót a SpaceX",
-      "category": "tech",
-      "created_at": "2026-10-08T10:19:47+02:00",
-      "closes_at": "2026-10-15T10:19:47+02:00"
-    },
-    {
       "id": "dac2e87059a8",
       "date": "2026-10-07",
       "question": "Ön szerint igazságos az egymilliárd forint feletti vagyonadó bevezetése?",
@@ -111,5 +95,11 @@
       "closes_at": "2026-10-08T12:53:46+02:00"
     }
   ],
-  "removed": []
+  "removed": [
+    {
+      "id": "ff81626c64b3",
+      "article_url": "/tech/2026-10-08-harmincodszorre-indit-tehermissziot-a-spacex/",
+      "question": "Ön szerint a kereskedelmi űrmissziók előnyei megérik a költségeket?"
+    }
+  ]
 }
