@@ -9089,13 +9089,23 @@
       "title_options": [
         "null",
         "D2-vitamin: vajon csökkenti a szervezet D3-szintjét",
-        "A népszerű D-vitamin-pótlás meglepő csapdája",
-        "Ezt biztosan nem tudtad a D-vitamin-tablettákról",
-        "Bizonyos D-vitamin-pótlás visszafelé sülhet el?",
-        "Megdöbbentő eredmény: így hathat a D2-vitamin a szervezetre"
+        "A népszerű D-vitamin-pótlás meglepő csapdája"
       ],
       "clickbait_from": 3,
       "image_options": [
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/px/ca4afd8a0295ce9d.jpg",
+          "width": 6240,
+          "height": 4160,
+          "kind": "photo",
+          "alt": "tablets, medicine, supplement, vitamin, pharmaceutical, cure, medical treatment, remedy, pill, prescription, medicine, medicine, medicine, medicine, medicine",
+          "credit": "HeungSoon / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/tablets-medicine-supplement-vitamin-5620566/",
+          "vision_score": 9.0,
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/ca4afd8a0295ce9d.jpg",
+          "orig_url": "https://pixabay.com/get/g41c7e71ca7bd8bf320ebb978a7ba95a61b1c7fbc336434cabbfebb8c9aecaf4875b8b1c2066c6a6637ab7b947579799ff86a0c48e0bb41ae8a6925588a64b3ba_1280.jpg"
+        },
         {
           "url": "https://pixabay.com/get/g41c7e71ca7bd8bf320ebb978a7ba95a61b1c7fbc336434cabbfebb8c9aecaf4875b8b1c2066c6a6637ab7b947579799ff86a0c48e0bb41ae8a6925588a64b3ba_1280.jpg",
           "width": 6240,
@@ -9205,11 +9215,17 @@
       "review": {
         "title": 0,
         "image": 0,
-        "sent_at": "2026-10-08T04:28:13+00:00",
-        "msg_ids": [],
-        "control_id": 3695,
-        "title_prompt_id": null,
-        "compact": "⏱ Magától kint"
+        "sent_at": "2026-10-08T05:14:19+00:00",
+        "msg_ids": [
+          3696,
+          3697,
+          3698,
+          3699,
+          3700,
+          3701,
+          3702
+        ],
+        "control_id": 3703
       },
       "live": true
     }
