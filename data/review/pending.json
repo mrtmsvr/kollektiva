@@ -8729,16 +8729,81 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Peace_March_for_Hungary_-_2013.10.23_%2870%29.JPG/1280px-Peace_March_for_Hungary_-_2013.10.23_%2870%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Budapest%2C_M1_metr%C3%B3_%28kisf%C3%B6ldalatti%29%2C_Andr%C3%A1ssy_%C3%BAt.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 939,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Andrássy út in Budapest, Hungary , showing an intersection of the street with the Millenium Underground Rail (Metro line 1) beneath street level, probably Vörösmarty utca",
+          "credit": "Unknown authorUnknown author / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_M1_metr%C3%B3_(kisf%C3%B6ldalatti),_Andr%C3%A1ssy_%C3%BAt.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Andr%C3%A1ssy_Avenue_-_panoramio.jpg/1280px-Andr%C3%A1ssy_Avenue_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": "Live on the 23rd of October, 2013. Budapest downtown. The 3rd  Peace March for Hungary. Budapest Andrássy út – körút – Oktogon – Andrássy út (Terror Háza) – Körönd – Hősök tere. Pro-goverment demonstr",
-          "credit": "Derzsi Elekes Andor / Wikimedia Commons",
+          "alt": "Andrássy street",
+          "credit": "Marcihussar / Wikimedia Commons",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Andr%C3%A1ssy_Avenue_-_panoramio.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/%C3%81llambiztons%C3%A1gi_Szolg%C3%A1latok_T%C3%B6rt%C3%A9neti_Lev%C3%A9lt%C3%A1ra%2C_E%C3%B6tv%C3%B6s_utca%2C_2016%2C_Budapest.jpg/1280px-%C3%81llambiztons%C3%A1gi_Szolg%C3%A1latok_T%C3%B6rt%C3%A9neti_Lev%C3%A9lt%C3%A1ra%2C_E%C3%B6tv%C3%B6s_utca%2C_2016%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": ": Historical Archives of State Security Services building. - 7 Eötvös Street,  Budapest District VI. Hungary.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
           "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Peace_March_for_Hungary_-_2013.10.23_(70).JPG",
-          "vision_score": 10.0
+          "source_url": "https://commons.wikimedia.org/wiki/File:%C3%81llambiztons%C3%A1gi_Szolg%C3%A1latok_T%C3%B6rt%C3%A9neti_Lev%C3%A9lt%C3%A1ra,_E%C3%B6tv%C3%B6s_utca,_2016,_Budapest.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/%C3%81llambiztons%C3%A1gi_Szolg%C3%A1latok_T%C3%B6rt%C3%A9neti_Lev%C3%A9lt%C3%A1ra%2C_ablak%2C_E%C3%B6tv%C3%B6s_utca_7%2C_2016_Ter%C3%A9zv%C3%A1ros.jpg/1280px-%C3%81llambiztons%C3%A1gi_Szolg%C3%A1latok_T%C3%B6rt%C3%A9neti_Lev%C3%A9lt%C3%A1ra%2C_ablak%2C_E%C3%B6tv%C3%B6s_utca_7%2C_2016_Ter%C3%A9zv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": ": Historical Archives of State Security Services building detail, barrred window, carved stone, stucco, head. - 7 Eötvös Street,  Budapest District VI. Hungary.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:%C3%81llambiztons%C3%A1gi_Szolg%C3%A1latok_T%C3%B6rt%C3%A9neti_Lev%C3%A9lt%C3%A1ra,_ablak,_E%C3%B6tv%C3%B6s_utca_7,_2016_Ter%C3%A9zv%C3%A1ros.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Budapest_City_Hall.jpg/1280px-Budapest_City_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1899,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "a Központi Városháza a Vármegye utca 3-5.-ből",
+          "credit": "Máté / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_City_Hall.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Hall_under_the_dome_of_the_National_Museum.jpg/1280px-Hall_under_the_dome_of_the_National_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1807,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "This   file was uploaded  with Commonist.",
+          "credit": "Szilas / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hall_under_the_dome_of_the_National_Museum.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Magyar_Nemzeti_M%C3%BAzeum_-_Portr%C3%A4tstele_der_Claudia_Maximilla_%283%29%2C_Detail.jpg/1280px-Magyar_Nemzeti_M%C3%BAzeum_-_Portr%C3%A4tstele_der_Claudia_Maximilla_%283%29%2C_Detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1800,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Jüdisch umgenutzte Grabstele des 4. Jhdt. n. Chr., ursprünglich für Claudia Maximilla und ihre Familie; Magyar Nemzeti Múzeum (Ungarisches Nationalmuseum)",
+          "credit": "Markus Köllner / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Magyar_Nemzeti_M%C3%BAzeum_-_Portr%C3%A4tstele_der_Claudia_Maximilla_(3),_Detail.jpg"
         }
       ],
       "legal": {
@@ -8757,9 +8822,16 @@
           3897,
           3898,
           3901,
-          3905
+          3905,
+          3914,
+          3915,
+          3916,
+          3917,
+          3918,
+          3919,
+          3920
         ],
-        "control_id": 3906
+        "control_id": 3921
       },
       "image_queries": [
         "Tarr Zoltán",
@@ -8782,11 +8854,21 @@
         "Hungarian Parliament building",
         "Ministry of Culture Budapest",
         "empty museum gallery",
-        "historic documents on desk"
+        "historic documents on desk",
+        "Andrássy Avenue Metro Station",
+        "Hungarian State Archives",
+        "Budapest City Hall",
+        "National Museum of Hungary",
+        "Hungarian Cultural Heritage Agency",
+        "Buda Castle Hill",
+        "historic exhibition space",
+        "press conference room",
+        "archival research desk"
       ],
       "images_seen": [
         "https://upload.wikimedia.org/wikipedia/commons/2/29/Ungv%C3%A1ry_Kriszti%C3%A1n_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Civic_Center_office_building%2C_Kossuth_Street%2C_2020_Zalaegerszeg.jpg/1280px-Civic_Center_office_building%2C_Kossuth_Street%2C_2020_Zalaegerszeg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Civic_Center_office_building%2C_Kossuth_Street%2C_2020_Zalaegerszeg.jpg/1280px-Civic_Center_office_building%2C_Kossuth_Street%2C_2020_Zalaegerszeg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Peace_March_for_Hungary_-_2013.10.23_%2870%29.JPG/1280px-Peace_March_for_Hungary_-_2013.10.23_%2870%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
     }
   ]
