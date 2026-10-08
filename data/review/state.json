@@ -1,5 +1,5 @@
 {
-  "offset": 391604935,
+  "offset": 391604936,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -90,7 +90,8 @@
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra-livia-haromszor-csalta-meg-a-parja-vallomas/vj87v5w",
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/schobert-lara-megasztar-rubint-reka-betegseg-siras/yrtrc2g",
     "https://www.sciencedaily.com/releases/2026/10/261006234509.htm",
-    "https://www.blikk.hu/sztarvilag/hazai-sztarok/byealex-tanu-birosag-drogdiler/enh7b00"
+    "https://www.blikk.hu/sztarvilag/hazai-sztarok/byealex-tanu-birosag-drogdiler/enh7b00",
+    "https://qubit.hu/2026/10/08/egy-atomnal-is-kisebb-otdimenzios-osi-fekete-lyuk-lohette-a-foldre-a-legenergikusabb-neutrinot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
