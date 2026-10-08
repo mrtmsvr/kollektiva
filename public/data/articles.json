@@ -1,7 +1,111 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-08T20:43:57+02:00",
+  "updated_at": "2026-10-08T21:44:03+02:00",
   "articles": [
+    {
+      "id": "468b37bf-87d2-538a-a8dd-25dd9f864859",
+      "slug": "2026-10-08-uj-korszak-kuszoben-az-urkutatas-atomenergiaval-hajtanak-a-melyur-haj",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "űrkutatás",
+        "nukleáris energia",
+        "technológia",
+        "Egyesült Államok"
+      ],
+      "title": "Új korszak küszöbén az űrkutatás: atomenergiával hajtanák a mélyűr hajóit",
+      "subtitle": null,
+      "lead": "Az amerikai űrügynökség és az energiaügyi minisztérium közös programot indított a nukleáris alapú űrtechnológiák fejlesztésére. A kezdeményezés célja, hogy megbízhatóbbá tegye a mélyűr feltárását, és szilárdítsa az Egyesült Államok vezető szerepét az űrkutatásban.",
+      "key_points": [
+        "A NASA és az Egyesült Államok Energiaügyi Minisztériuma együtt lép fel a nukleáris űrtechnológiák fejlesztése érdekében.",
+        "A program célja a polgári űrkutatás felpörgetése és a mélyűr-utazás biztonságosabbá tétele.",
+        "A fejlesztések között új nukleáris hajtóművek és energiaforrások is szerepelnek."
+      ],
+      "content": "A mélyűr-kutatás új aranykorának keretében a NASA az Egyesült Államok Energiaügyi Minisztériumával összehangolva lát neki a biztonságos, megbízható és fejlett nukleáris technológiák kidolgozásának. Az együttműködés hivatalos bejelentése szerint a két szervezet olyan erőforrásokat hoz létre, amelyek alapjaiban változtathatják meg a Naprendszer határainak elérését.\n\nA partnerség elsődleges célkitűzése a polgári űrkutatás drasztikus felgyorsítása, a merész tudományos felfedezések támogatása, valamint az amerikai technológiai fölény bebiztosítása az űr-nukleáris energia és meghajtás területén.\n\n„Belépünk a nukleáris NASA-korszakba” – hangzott el a program indításakor, amely mérföldkő lehet a jövőbeli emberes küldetések és a távoli bolygók vizsgálata szempontjából.\n\nA nukleáris technológia alkalmazása a világűrben elengedhetetlen a távoli, napfénytől elzárt területeken végzett munkához, ahol a hagyományos napelemek már nem nyújtanak elegendő energiát az űreszközök számára.",
+      "content_format": "markdown",
+      "body": [
+        "A mélyűr-kutatás új aranykorának keretében a NASA az Egyesült Államok Energiaügyi Minisztériumával összehangolva lát neki a biztonságos, megbízható és fejlett nukleáris technológiák kidolgozásának. Az együttműködés hivatalos bejelentése szerint a két szervezet olyan erőforrásokat hoz létre, amelyek alapjaiban változtathatják meg a Naprendszer határainak elérését.",
+        "A partnerség elsődleges célkitűzése a polgári űrkutatás drasztikus felgyorsítása, a merész tudományos felfedezések támogatása, valamint az amerikai technológiai fölény bebiztosítása az űr-nukleáris energia és meghajtás területén.",
+        "„Belépünk a nukleáris NASA-korszakba” – hangzott el a program indításakor, amely mérföldkő lehet a jövőbeli emberes küldetések és a távoli bolygók vizsgálata szempontjából.",
+        "A nukleáris technológia alkalmazása a világűrben elengedhetetlen a távoli, napfénytől elzárt területeken végzett munkához, ahol a hagyományos napelemek már nem nyújtanak elegendő energiát az űreszközök számára."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 153,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/5cdb1c4cac0db387.jpg",
+        "width": 3000,
+        "height": 1996,
+        "kind": "photo",
+        "alt": "rocket launch, rocket, take off, space shuttle, rocketship, space shuttle launch, nasa launch, space travel, john f kennedy space center, cape canaveral, florida, usa, rocket launch, rocket, rocket, r",
+        "credit": "WikiImages / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/rocket-launch-rocket-take-off-67646/",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/5cdb1c4cac0db387.jpg",
+        "orig_url": "https://pixabay.com/get/gbb2bd298efd685347d97ff10c1b90671de030f781716713ab10b1004a19270e6532a8973e000011748d32698bf4708bd_1280.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+          "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-08T21:19:30+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Mi lépünk be a nukleáris NASA-korszakba",
+        "who": "NASA tisztségviselő",
+        "after": 2
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-08T21:44:03+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/tech/2026-10-08-uj-korszak-kuszoben-az-urkutatas-atomenergiaval-hajtanak-a-melyur-haj/",
+      "seo": {
+        "meta_title": "Új korszak küszöbén az űrkutatás: atomenergiával hajtanák a ",
+        "meta_description": "Az amerikai űrügynökség és az energiaügyi minisztérium közös programot indított a nukleáris alapú űrtechnológiák fejlesztésére. A kezdeményezés célja, hogy megb",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-08-uj-korszak-kuszoben-az-urkutatas-atomenergiaval-hajtanak-a-melyur-haj/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/5cdb1c4cac0db387.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "ae53ed4a38bf014974eab7f1fac3bc5e3c3009250fb972b0e50dac7bf72cf612",
+      "pipeline_run_id": "37829544457",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T21:44:03+02:00",
+      "updated_at": "2026-10-08T21:44:03+02:00",
+      "published_at": "2026-10-08T21:44:03+02:00",
+      "expires_at": null
+    },
     {
       "id": "32105147-2c4a-5bfe-b0a1-3bfe456084be",
       "slug": "2026-10-08-igy-valhatott-a-bicskei-otthon-a-hosszu-eveken-at-tarto-visszaelesek",
