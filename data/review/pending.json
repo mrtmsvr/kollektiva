@@ -8121,7 +8121,7 @@
         "issues": []
       },
       "review": {
-        "title": 0,
+        "title": 2,
         "image": 0,
         "sent_at": "2026-10-08T19:19:00+00:00",
         "msg_ids": [
@@ -8131,7 +8131,17 @@
           4004
         ],
         "control_id": 4005
-      }
+      },
+      "image_queries": [
+        "Ferencváros football club",
+        "MTK Budapest",
+        "Hungarian Professional Footballers' Association",
+        "RTL News",
+        "Hungarian government",
+        "football stadium",
+        "tax document",
+        "press conference"
+      ]
     },
     {
       "id": "fdf975d1-1a3d-5546-9dd3-5a8473ab8f92",
