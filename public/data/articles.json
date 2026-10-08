@@ -1,7 +1,122 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-08T07:23:27+02:00",
+  "updated_at": "2026-10-08T08:24:37+02:00",
   "articles": [
+    {
+      "id": "acb84d4b-11b6-5747-be69-1f0536ef08f5",
+      "slug": "2026-10-08-mi-jon-az-orosz-energiahordozok-utan-itt-vannak-a-tervek",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "energetika",
+        "konferencia",
+        "befektetés",
+        "zöld átállás",
+        "gazdaság"
+      ],
+      "title": "Mi jön az orosz energiahordozók után? Itt vannak a tervek",
+      "subtitle": null,
+      "lead": "Csütörtökön rajtolt el a Portfolio Energy Investment Forum 2026 konferencia, ahol a szakemberek a hazai energiapolitika következő négy évének stratégiáját és az orosz energiahordozókról való leválás lehetőségeit vitatják meg. A rendezvényen a hazai ellátásbiztonság mellett a villamosenergia-piac új működési modelleit és a jövőbeli beruházási hullámokat veszik górcső alá.",
+      "key_points": [
+        "Elkezdődött a Portfolio Energy Investment Forum 2026 szakmai rendezvény.",
+        "Tótth András energetikai államtitkár vázolta fel a következő négy év legfontosabb prioritásait.",
+        "A fórumon terítékre kerül a földgázpiac átalakulása, valamint a kis moduláris atomreaktorok magyarországi jövője is."
+      ],
+      "content": "Csütörtökön nyitotta meg kapuit a Portfolio Energy Investment Forum 2026, amely az európai versenyképesség, a geopolitikai változások és a zöld átállás kérdéseit helyezi a középpontba. A nyitószekcióban Tótth András energetikai államtitkár ismerteti a következő négy év energetikai prioritásait, míg Juhász Edit, a Magyar Energetikai és Közmű-szabályozási Hivatal elnöke a hazai szabályozási ciklus következő kihívásairól beszél.\n\nA délelőtti programban a hazai energetikai szféra kulcsszereplői szólalnak fel: Huibert Vigeveno, a MET Csoport vezérigazgatója, Guntram Würzberg, az E.ON Hungária Csoport elnök-vezérigazgatója, Bacsa György, a MOL-csoport stratégiai vezetője, valamint ifj. Chikán Attila, az Alteo vezérigazgatója vitatják meg, hogyan teremthető meg az egyensúly az ellátásbiztonság és a versenyképesebb rendszer kialakítása között.\n\nA délutáni szekciókban a technológiai átalakulás és a beruházási irányok kerülnek terítékre. A résztvevők azt vizsgálják, hogy a napenergia térnyerését követően az energiatárolás, a szélenergia, a geotermia vagy a biogáz jelenti-e a következő nagy hullámot, miközben Alexis Honner, a Rolls-Royce SMR üzletfejlesztési vezetője a kis moduláris atomreaktorok magyarországi lehetőségeit elemzi.\n\nA záróprogramokban a finanszírozási kilátások, az Európai Beruházási Bank és az UniCredit szerepe, valamint az adatalapú működés és a mesterséges intelligencia térnyerése kap hangsúlyt a villamosenergia-piacon.",
+      "content_format": "markdown",
+      "body": [
+        "Csütörtökön nyitotta meg kapuit a Portfolio Energy Investment Forum 2026, amely az európai versenyképesség, a geopolitikai változások és a zöld átállás kérdéseit helyezi a középpontba. A nyitószekcióban Tótth András energetikai államtitkár ismerteti a következő négy év energetikai prioritásait, míg Juhász Edit, a Magyar Energetikai és Közmű-szabályozási Hivatal elnöke a hazai szabályozási ciklus következő kihívásairól beszél.",
+        "A délelőtti programban a hazai energetikai szféra kulcsszereplői szólalnak fel: Huibert Vigeveno, a MET Csoport vezérigazgatója, Guntram Würzberg, az E.ON Hungária Csoport elnök-vezérigazgatója, Bacsa György, a MOL-csoport stratégiai vezetője, valamint ifj. Chikán Attila, az Alteo vezérigazgatója vitatják meg, hogyan teremthető meg az egyensúly az ellátásbiztonság és a versenyképesebb rendszer kialakítása között.",
+        "A délutáni szekciókban a technológiai átalakulás és a beruházási irányok kerülnek terítékre. A résztvevők azt vizsgálják, hogy a napenergia térnyerését követően az energiatárolás, a szélenergia, a geotermia vagy a biogáz jelenti-e a következő nagy hullámot, miközben Alexis Honner, a Rolls-Royce SMR üzletfejlesztési vezetője a kis moduláris atomreaktorok magyarországi lehetőségeit elemzi.",
+        "A záróprogramokban a finanszírozási kilátások, az Európai Beruházási Bank és az UniCredit szerepe, valamint az adatalapú működés és a mesterséges intelligencia térnyerése kap hangsúlyt a villamosenergia-piacon."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 238,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/BUD_MOL_Group_Oil_Well.JPG/1280px-BUD_MOL_Group_Oil_Well.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "An oil well sculpture/or Monument featuring oil well/ before MOL (Petroleum) Group Building, Október huszonharmadika Street, Lágymányos, District XI of Budapest.",
+        "credit": "Globetrotter19 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:BUD_MOL_Group_Oil_Well.JPG",
+        "vision_score": 7.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261008/elstartolt-a-portfolio-energy-investment-forum-2026-a-magyar-energetika-legfontosabb-kerdesei-kerulnek-teritekre-868162",
+          "title": "Elstartolt a Portfolio Energy Investment Forum 2026 – a magyar energetika legfontosabb kérdései kerülnek terítékre",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T08:16:02+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-08T08:24:37+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261008/elstartolt-a-portfolio-energy-investment-forum-2026-a-magyar-energetika-legfontosabb-kerdesei-kerulnek-teritekre-868162"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/penzvilag/2026-10-08-mi-jon-az-orosz-energiahordozok-utan-itt-vannak-a-tervek/",
+      "seo": {
+        "meta_title": "Mi jön az orosz energiahordozók után? Itt vannak a tervek",
+        "meta_description": "Csütörtökön rajtolt el a Portfolio Energy Investment Forum 2026 konferencia, ahol a szakemberek a hazai energiapolitika következő négy évének stratégiáját és az",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-08-mi-jon-az-orosz-energiahordozok-utan-itt-vannak-a-tervek/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/BUD_MOL_Group_Oil_Well.JPG/1280px-BUD_MOL_Group_Oil_Well.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "ce50d14d6ed246dbf68e49e6651daee40cb60a89ae09a521ada80481259c10b6",
+      "pipeline_run_id": "37736219218",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T08:24:37+02:00",
+      "updated_at": "2026-10-08T08:24:37+02:00",
+      "published_at": "2026-10-08T08:24:37+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "Portfolio Energy Investment Forum 2026",
+        "Rolls-Royce SMR",
+        "MOL Group",
+        "E.ON Hungária",
+        "Budapest",
+        "Tótth András",
+        "conference hall",
+        "solar panels",
+        "wind turbines"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/BUD_MOL_Group_H.Q..JPG/1280px-BUD_MOL_Group_H.Q..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/MOL_Group_Building%2C_L%C3%A1gym%C3%A1nyos%2C_2016_%C3%9Ajbuda.jpg/1280px-MOL_Group_Building%2C_L%C3%A1gym%C3%A1nyos%2C_2016_%C3%9Ajbuda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
+    },
     {
       "id": "6d2b0605-cb52-5d99-a905-e4b20df9c0c3",
       "slug": "2026-10-07-osszecsapott-a-kormany-es-a-greenpeace-a-vedett-fak-sorsaert",
