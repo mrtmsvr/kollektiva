@@ -8729,16 +8729,16 @@
       ],
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Civic_Center_office_building%2C_Kossuth_Street%2C_2020_Zalaegerszeg.jpg/1280px-Civic_Center_office_building%2C_Kossuth_Street%2C_2020_Zalaegerszeg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Peace_March_for_Hungary_-_2013.10.23_%2870%29.JPG/1280px-Peace_March_for_Hungary_-_2013.10.23_%2870%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1610,
+          "height": 900,
           "kind": "photo",
-          "pos": "top",
-          "alt": ": Civic Center Office building, partly Zalaegerszeg Television and Egerszeg Radió 95.1  - circa 49 Kossuth Lajos Street, Zalaegerszeg, Zala County, Hungary.",
-          "credit": "Globetrotter19 / Wikimedia Commons",
+          "pos": "center",
+          "alt": "Live on the 23rd of October, 2013. Budapest downtown. The 3rd  Peace March for Hungary. Budapest Andrássy út – körút – Oktogon – Andrássy út (Terror Háza) – Körönd – Hősök tere. Pro-goverment demonstr",
+          "credit": "Derzsi Elekes Andor / Wikimedia Commons",
           "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Civic_Center_office_building,_Kossuth_Street,_2020_Zalaegerszeg.jpg",
-          "vision_score": 9.0
+          "source_url": "https://commons.wikimedia.org/wiki/File:Peace_March_for_Hungary_-_2013.10.23_(70).JPG",
+          "vision_score": 10.0
         }
       ],
       "legal": {
@@ -8756,9 +8756,10 @@
         "msg_ids": [
           3897,
           3898,
-          3901
+          3901,
+          3905
         ],
-        "control_id": 3902
+        "control_id": 3906
       },
       "image_queries": [
         "Tarr Zoltán",
@@ -8768,10 +8769,18 @@
         "Schmidt Mária",
         "museum exhibition hall",
         "press interview setting",
-        "historic archive room"
+        "historic archive room",
+        "Andrassy ut 60",
+        "Ministry of Culture Hungary",
+        "HVG office",
+        "Hungarian Academy of Sciences",
+        "empty office desks",
+        "newsroom desk",
+        "microphone in radio studio"
       ],
       "images_seen": [
-        "https://upload.wikimedia.org/wikipedia/commons/2/29/Ungv%C3%A1ry_Kriszti%C3%A1n_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        "https://upload.wikimedia.org/wikipedia/commons/2/29/Ungv%C3%A1ry_Kriszti%C3%A1n_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Civic_Center_office_building%2C_Kossuth_Street%2C_2020_Zalaegerszeg.jpg/1280px-Civic_Center_office_building%2C_Kossuth_Street%2C_2020_Zalaegerszeg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
     }
   ]
