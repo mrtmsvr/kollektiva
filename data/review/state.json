@@ -1,5 +1,5 @@
 {
-  "offset": 391604881,
+  "offset": 391604885,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -82,7 +82,8 @@
     "https://doi.org/10.1249/mss.0000000000000220",
     "https://doi.org/10.1186/1550-2783-9-33",
     "https://doi.org/10.1186/s12970-021-00412-w",
-    "https://hu.wikipedia.org/wiki/Kreatin"
+    "https://hu.wikipedia.org/wiki/Kreatin",
+    "https://science.nasa.gov/photojournal/nasas-prima-spacecraft-artists-concept/"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"

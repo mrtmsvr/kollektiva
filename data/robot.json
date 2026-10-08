@@ -1,5 +1,5 @@
 {
-  "last_sections": "2026-10-08T06:22:55+02:00",
+  "last_sections": "2026-10-08T08:14:27+02:00",
   "offtopic_done": [
     "koffein",
     "fekete-lyuk",
@@ -13,10 +13,12 @@
     "kamatos-kamat",
     "olimpia-magyar",
     "hold-tavolodik",
-    "kreatin"
+    "kreatin",
+    "akkumulator"
   ],
   "last_seasonal_date": "2026-10-04",
   "offtopic_rerolls": {
     "2026-10-08": 2
-  }
+  },
+  "last_offtopic_date": "2026-10-08"
 }
