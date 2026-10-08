@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-08T07:14:48+02:00",
+  "updated_at": "2026-10-08T07:15:28+02:00",
   "articles": [
     {
       "id": "d2399292-58e6-5a9b-8b45-44a1e42eddb6",
@@ -136,18 +136,7 @@
       "reading_time_min": 1,
       "word_count": 152,
       "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Yandex_main_office.jpg/1280px-Yandex_main_office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 900,
-        "kind": "photo",
-        "pos": "center",
-        "alt": "Yandex main office in Moscow.",
-        "credit": "WikiFido / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Yandex_main_office.jpg",
-        "vision_score": 6.0
-      },
+      "hero_image": null,
       "inline_images": [],
       "sources": [
         {
@@ -181,7 +170,7 @@
         "meta_title": "Dróntámadás ért egy orosz IT-óriást, miközben üzemanyaghiány",
         "meta_description": "Újabb dróntámadás ért el orosz informatikai infrastruktúrát, miközben az európai államok hibrid fenyegetésekre figyelmeztetnek. A kialakuló helyzet közvetlen ha",
         "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-08-drontamadas-ert-egy-orosz-it-oriast-mikozben-uzemanyaghianyrol-szamol/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Yandex_main_office.jpg/1280px-Yandex_main_office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": null,
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -199,7 +188,7 @@
       "pipeline_run_id": "37726983995",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-08T06:57:06+02:00",
-      "updated_at": "2026-10-08T06:57:06+02:00",
+      "updated_at": "2026-10-08T07:15:28+02:00",
       "published_at": "2026-10-08T06:57:06+02:00",
       "expires_at": null
     },
