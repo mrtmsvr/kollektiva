@@ -1,5 +1,5 @@
 {
-  "offset": 391604876,
+  "offset": 391604877,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -75,7 +75,8 @@
     "https://www.portfolio.hu/gazdasag/20261007/a-kulfoldre-koltozo-gazdagokat-is-utolerheti-a-tisza-kormany-vagyonadoja-868080",
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/berki-mazsi-orrmutet-tv2-aktiv/pvw8mg5",
     "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/",
-    "https://hu.wikipedia.org/wiki/Hold"
+    "https://hu.wikipedia.org/wiki/Hold",
+    "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra-livi-es-renato-elso-randija/nw6yr88"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
