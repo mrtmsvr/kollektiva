@@ -8460,8 +8460,8 @@
         "issues": []
       },
       "review": {
-        "title": 0,
-        "image": 0,
+        "title": 5,
+        "image": 2,
         "sent_at": "2026-10-07T20:21:12+00:00",
         "msg_ids": [
           3669,
@@ -8547,10 +8547,7 @@
       "title_options": [
         "Harmincödszörre indít tehermissziót a SpaceX",
         "A SpaceX harmincötödször indul az űrállomás felé",
-        "Újabb rakomány indul a Nemzetközi Űrállomásra",
-        "Itt a dátum: ekkor indul a SpaceX harmincötödik űrutazása",
-        "Mi lapul a SpaceX harmincötödik űrállomásra tartó rakományában?",
-        "Megvan az időpont: újra útra kel a SpaceX a Nemzetközi Űrállomás felé"
+        "Újabb rakomány indul a Nemzetközi Űrállomásra"
       ],
       "clickbait_from": 3,
       "image_options": [
@@ -8669,11 +8666,15 @@
       "review": {
         "title": 0,
         "image": 0,
-        "sent_at": "2026-10-08T04:24:09+00:00",
-        "msg_ids": [],
-        "control_id": 3680,
-        "title_prompt_id": null,
-        "compact": "⏱ Magától kint"
+        "sent_at": "2026-10-08T05:18:46+00:00",
+        "msg_ids": [
+          3720,
+          3721,
+          3722,
+          3723,
+          3724
+        ],
+        "control_id": 3725
       },
       "live": true
     },
