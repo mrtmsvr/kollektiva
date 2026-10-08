@@ -1,6 +1,21 @@
 {
-  "updated_at": "2026-10-08T10:19:47+02:00",
+  "updated_at": "2026-10-08T12:34:08+02:00",
   "polls": [
+    {
+      "id": "724392158f0f",
+      "date": "2026-10-08",
+      "question": "Ön szerint a tervezett adóváltozások előnyösek?",
+      "options": [
+        "Igen, támogatja a kisvállalkozókat",
+        "Nem, terhet növel a szabályozás",
+        "Nem tudom"
+      ],
+      "article_url": "/penzvilag/2026-10-08-ezt-hozza-a-jovo-a-kisvallalkozoknak-a-kamara-legujabb-terve-szerint/",
+      "article_title": "Ezt hozza a jövő a kisvállalkozóknak a kamara legújabb terve szerint",
+      "category": "penzvilag",
+      "created_at": "2026-10-08T12:34:08+02:00",
+      "closes_at": "2026-10-15T12:34:08+02:00"
+    },
     {
       "id": "dac2e87059a8",
       "date": "2026-10-07",
