@@ -9435,92 +9435,76 @@
       ],
       "image_options": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Stanley_Whittingham_2019_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Battery_TiS2-ru.svg/1280px-Battery_TiS2-ru.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1719,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Nobel 9 Dec 2019 045 copy",
-          "credit": "US Embassy Sweden / Wikimedia Commons",
-          "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Stanley_Whittingham_2019_(cropped).jpg"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Stanley_Whittingham_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 1458,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Nobel 9 Dec 2019 045 copy",
-          "credit": "US Embassy Sweden / Wikimedia Commons",
-          "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Stanley_Whittingham_2019.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/John_B._Goodenough_%282010%29.jpg/1280px-John_B._Goodenough_%282010%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 960,
-          "kind": "photo",
+          "height": 936,
+          "kind": "graphic",
           "pos": "center",
-          "alt": "John B. Goodenough receives the 2009 Enrico Fermi Award",
-          "credit": "U.S. Department of Energy / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:John_B._Goodenough_(2010).jpg"
+          "alt": "A battery is shown using titanium disulfide as a cathode. Lithium ions intercalate and deintercalate the layered titanium disulfide cathode as the battery is charged and discharged.",
+          "credit": "Д.Ильин: vectorization, translation / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Battery_TiS2-ru.svg",
+          "vision_score": 8.0
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/John_B._Goodenough_%282010%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Lithium_ion_battery.png/1280px-Lithium_ion_battery.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1933,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "John B. Goodenough receives the 2009 Enrico Fermi Award",
-          "credit": "U.S. Department of Energy / Wikimedia Commons",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:John_B._Goodenough_(2010)_(cropped).jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sony_A77.jpg/1280px-Sony_A77.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 909,
-          "kind": "photo",
+          "height": 540,
+          "kind": "graphic",
           "pos": "center",
-          "alt": "Sony α77 with 16-50mm f/2.8 SSM lens.",
-          "credit": "SkywalkerPL / Wikimedia Commons",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Sony_A77.jpg"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Sony_headquaters_1.jpg/1280px-Sony_headquaters_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1104,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Sony headquaters in 2023",
-          "credit": "Akonnchiroll / Wikimedia Commons",
+          "alt": "Schematic drawing of a lithium ion battery cell during discharge and chrage.",
+          "credit": "Walter Davison / Wikimedia Commons",
           "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Sony_headquaters_1.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Lithium_ion_battery.png",
+          "vision_score": 8.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Bell_Labs_Holmdel.jpg/1280px-Bell_Labs_Holmdel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Lithium-cobalt-oxide-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 798,
+          "height": 901,
           "kind": "photo",
           "pos": "center",
-          "alt": "Aerial view of Bell Labs Holmdel Complex. The Bell Labs building in Holmdel is an architectural heirloom, designed by renowned architect Eero Saarinen, with a proud and distinguished history.  For 44",
-          "credit": "derivative work: MBisanz talk\nBell_Labs_Holmdel,_The_Oval2.png: *derivative work / Wikimedia Commons",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Bell_Labs_Holmdel.jpg"
+          "alt": "Ball-and-stick model of part of the crystal structure of lithium cobalt oxide, LiCoO2.\nStructural data from Yang Shao-Horn, Laurence Croguennec, Claude Delmas, E. Chris Nelson and Michael A. O'Keefem",
+          "credit": "Ben Mills / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Lithium-cobalt-oxide-3D-balls.png",
+          "vision_score": 7.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/J.J._Thomson_Frank_B._Jewett_Bell_Labs_1923.jpg/1280px-J.J._Thomson_Frank_B._Jewett_Bell_Labs_1923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Lithium-cobalt-oxide-3D-polyhedra.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 1483,
+          "height": 945,
           "kind": "photo",
-          "pos": "top",
-          "alt": "Joseph J. Thomson, Cavendish Professor of Experimental Physics, University of Cambridge; Frank B. Jewett, President, Bell Telephone Laboratories and Vice-President American Telephone and Telegraph Com",
-          "credit": "Unknown authorUnknown author / Wikimedia Commons",
+          "pos": "center",
+          "alt": "Polyhedral model of part of the crystal structure of lithium cobalt oxide, LiCoO2.\nStructural data from Yang Shao-Horn, Laurence Croguennec, Claude Delmas, E. Chris Nelson and Michael A. O'Keefem (Jul",
+          "credit": "Ben Mills / Wikimedia Commons",
           "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:J.J._Thomson_Frank_B._Jewett_Bell_Labs_1923.jpg"
+          "source_url": "https://commons.wikimedia.org/wiki/File:Lithium-cobalt-oxide-3D-polyhedra.png",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Polymer-Ta-Nb-Anode-construction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "construction princip of a polymer Ta/Nb electrolytic capacitor with a sintered anode and with graphite/silver cathode contact layers",
+          "credit": "Elcap / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Polymer-Ta-Nb-Anode-construction.png",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Titanium_Disulfide_structure_CHEM_511.jpg/1280px-Titanium_Disulfide_structure_CHEM_511.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "structure",
+          "credit": "Matgirl2 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Titanium_Disulfide_structure_CHEM_511.jpg",
+          "vision_score": 5.0
         }
       ],
       "category_meta": {
@@ -9587,9 +9571,15 @@
           3788,
           3789,
           3790,
-          3791
+          3791,
+          3795,
+          3796,
+          3797,
+          3798,
+          3799,
+          3800
         ],
-        "control_id": 3792
+        "control_id": 3801
       },
       "image_queries": [
         "M. S. Whittingham",
@@ -9598,14 +9588,30 @@
         "Bell Labs",
         "Lithium-ion battery",
         "smartphone charging",
-        "battery overheating"
+        "battery overheating",
+        "Lithium cobalt oxide",
+        "Titanium disulfide",
+        "Graphite anode",
+        "Organic electrolyte",
+        "Lithium-ion cell",
+        "smartphone battery",
+        "microscope laboratory",
+        "charging cable"
       ],
       "images_seen": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/18650_and_21700_lithium_ion_battery_cell.jpg/1280px-18650_and_21700_lithium_ion_battery_cell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Stanley_Whittingham_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Lithium-Ion_Cell_cylindric.JPG/1280px-Lithium-Ion_Cell_cylindric.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d3/Stanley_Whittingham_2019_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sony_A77.jpg/1280px-Sony_A77.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Bell_Labs_Holmdel.jpg/1280px-Bell_Labs_Holmdel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Sony_headquaters_1.jpg/1280px-Sony_headquaters_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_03.jpg/1280px-Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/John_B._Goodenough_%282010%29.jpg/1280px-John_B._Goodenough_%282010%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/9_volt_battery_microCT_1272.jpg/1280px-9_volt_battery_microCT_1272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/J.J._Thomson_Frank_B._Jewett_Bell_Labs_1923.jpg/1280px-J.J._Thomson_Frank_B._Jewett_Bell_Labs_1923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/PrismaticCell.png/1280px-PrismaticCell.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/John_B._Goodenough_%282010%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_08.jpg/1280px-Samsung_smartphone_battery%2C_Hillegersberg%2C_Rotterdam_%282022%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
     }
