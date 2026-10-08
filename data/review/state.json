@@ -1,5 +1,5 @@
 {
-  "offset": 391604900,
+  "offset": 391604901,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -87,7 +87,8 @@
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/gwm-kulcsar-edina-celeb-vagyok-hazateres-buli/zmjfvyg",
     "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/gwm-udvozlo-buli",
     "https://www.vg.hu/penz-es-tokepiac/2026/10/forint-euro-dollar-otp-tozsde-olajar?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
-    "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra-livia-haromszor-csalta-meg-a-parja-vallomas/vj87v5w"
+    "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra-livia-haromszor-csalta-meg-a-parja-vallomas/vj87v5w",
+    "https://www.blikk.hu/sztarvilag/hazai-sztarok/schobert-lara-megasztar-rubint-reka-betegseg-siras/yrtrc2g"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
