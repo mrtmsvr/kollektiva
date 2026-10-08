@@ -1,7 +1,96 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-08T12:10:18+02:00",
+  "updated_at": "2026-10-08T12:10:36+02:00",
   "articles": [
+    {
+      "id": "b343f9af-5be3-57e1-b7b7-527bb535c185",
+      "slug": "2026-10-08-virtualis-focimeccsekkel-csaltak-ki-szazezreket-a-del-dunantuli-csalo",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "csalás",
+        "sportfogadás",
+        "ügyészség",
+        "Kaposvár",
+        "Dél-Dunántúl"
+      ],
+      "title": "Virtuális focimeccsekkel csaltak ki százezreket a dél-dunántúli csalók",
+      "subtitle": null,
+      "lead": "A Kaposvári Járási Ügyészség három férfi ellen emelt vádat, akik V-sport fogadásokkal tévesztettek meg dél-dunántúli üzleteket. A gyanúsítottak a vesztes téteket nem egyenlítették ki, hanem fizetési problémákra hivatkozva távoztak a helyszínekről.",
+      "key_points": [
+        "A terheltek 2025 júniusa és augusztusa között 14 különböző terminállal rendelkező üzletet kerestek fel a dél-dunántúli régióban.",
+        "A módszerük lényege az volt, hogy fizetés előtt kinyomtatták a szelvényt, majd elterelték a dolgozó figyelmét."
+      ],
+      "content": "Szokatlan módszerrel hoztak nehéz helyzetbe több dél-dunántúli üzletet azok a férfiak, akik ellen a Kaposvári Járási Ügyészség emelt vádat csalás bűntette miatt. A Somogy Megyei Főügyészség tájékoztatása szerint a terheltek olyan kiskereskedelmi egységeket vettek célba, amelyekben V-sport fogadások kötésére alkalmas terminálok működtek.\n\nA V-sport olyan virtuális térben zajló játék, ahol jövőbeli eseményekre – például virtuális labdarúgásra vagy a virtuális Premier Ligára – lehet tétet tenni. Ezeket a mérkőzéseket nem hús-vér sportolók játsszák, a végeredményt pedig véletlenszám-generátor határozza meg a rendszerben.\n\nA gyanúsítottak a vizsgálat adatai szerint előre megállapodtak a módszer részleteiről. Miután megtették a téteket, elérték a dolgozóknál, hogy a szelvényt még a fizetés előtt kinyomtassák. Amíg a rövid ideig tartó virtuális mérkőzések lezajlottak, a férfiak a telefonjukon ellenőrizték az eredményt, közben pedig folyamatosan szóval tartották az eladót.\n\nAmennyiben a fogadásuk nem hozott nyereményt, a kinyomtatott papírért nem fizettek, hanem valamilyen hirtelen felmerülő fizetési problémára hivatkozva távoztak az üzletből. Az ügyészség által közzétett biztonsági kamerás felvételek is rögzítették az egyik ilyen eset részleteit, amelyen az alkalmazott megtévesztése látható.\n\nA vádlottak tevékenysége 2025 júniusától 2025 augusztusáig tartott, ez idő alatt tizennégy különböző egységet kerestek fel a régióban.",
+      "content_format": "markdown",
+      "body": [
+        "Szokatlan módszerrel hoztak nehéz helyzetbe több dél-dunántúli üzletet azok a férfiak, akik ellen a Kaposvári Járási Ügyészség emelt vádat csalás bűntette miatt. A Somogy Megyei Főügyészség tájékoztatása szerint a terheltek olyan kiskereskedelmi egységeket vettek célba, amelyekben V-sport fogadások kötésére alkalmas terminálok működtek.",
+        "A V-sport olyan virtuális térben zajló játék, ahol jövőbeli eseményekre – például virtuális labdarúgásra vagy a virtuális Premier Ligára – lehet tétet tenni. Ezeket a mérkőzéseket nem hús-vér sportolók játsszák, a végeredményt pedig véletlenszám-generátor határozza meg a rendszerben.",
+        "A gyanúsítottak a vizsgálat adatai szerint előre megállapodtak a módszer részleteiről. Miután megtették a téteket, elérték a dolgozóknál, hogy a szelvényt még a fizetés előtt kinyomtassák. Amíg a rövid ideig tartó virtuális mérkőzések lezajlottak, a férfiak a telefonjukon ellenőrizték az eredményt, közben pedig folyamatosan szóval tartották az eladót.",
+        "Amennyiben a fogadásuk nem hozott nyereményt, a kinyomtatott papírért nem fizettek, hanem valamilyen hirtelen felmerülő fizetési problémára hivatkozva távoztak az üzletből. Az ügyészség által közzétett biztonsági kamerás felvételek is rögzítették az egyik ilyen eset részleteit, amelyen az alkalmazott megtévesztése látható.",
+        "A vádlottak tevékenysége 2025 júniusától 2025 augusztusáig tartott, ez idő alatt tizennégy különböző egységet kerestek fel a régióban."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 222,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261008_online-sportfogadas-v-sport-csalas-vademeles-ugyeszseg",
+          "title": "Csalók újszerű trükkel vertek át sportfogadási irodákat",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T12:07:16+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-08T12:10:36+02:00"
+      },
+      "hot_score": 5.81,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261008_online-sportfogadas-v-sport-csalas-vademeles-ugyeszseg"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/kozelet/2026-10-08-virtualis-focimeccsekkel-csaltak-ki-szazezreket-a-del-dunantuli-csalo/",
+      "seo": {
+        "meta_title": "Virtuális focimeccsekkel csaltak ki százezreket a dél-dunánt",
+        "meta_description": "A Kaposvári Járási Ügyészség három férfi ellen emelt vádat, akik V-sport fogadásokkal tévesztettek meg dél-dunántúli üzleteket. A gyanúsítottak a vesztes téteke",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-08-virtualis-focimeccsekkel-csaltak-ki-szazezreket-a-del-dunantuli-csalo/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "516c97b6bd45a1565761fcbb183c2764cbf701defa3e5ef62cc9931033410d3f",
+      "pipeline_run_id": "37758883764",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T12:10:36+02:00",
+      "updated_at": "2026-10-08T12:10:36+02:00",
+      "published_at": "2026-10-08T12:10:36+02:00",
+      "expires_at": null
+    },
     {
       "id": "00232ae7-bb9c-554b-b924-46f92caa8491",
       "slug": "2026-10-08-szaturnusz-mozaikok-es-marsi-hajnalok-ez-tortenik-most-az-urkutatasba",
