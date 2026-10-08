@@ -8883,6 +8883,681 @@
         "compact": "✅ Kint"
       },
       "live": true
+    },
+    {
+      "id": "8623cd6b-e7aa-59ea-9090-d9387996c344",
+      "slug": "2026-10-08-egymilliardos-alapot-hoz-letre-a-kormany-a-bicskei-aldozatok-segitese",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "bicskei gyermekotthon",
+        "gyermekvédelem",
+        "Magyar Péter",
+        "Gyurkó Szilvia",
+        "Karmelita"
+      ],
+      "title": "Egymilliárdos alapot hoz létre a kormány a bicskei áldozatok segítésére",
+      "subtitle": null,
+      "lead": "Egymilliárd forintos gyermekvédelmi jóvátétel-alapot indít a kabinet a bicskei gyermekotthonban történt visszaélések áldozatainak támogatására. A nyilvánosságra hozott jelentés szerint már 1990-ben érkezett jelzés a korábbi igazgató szexuális határátlépéseiről.",
+      "key_points": [
+        "Egymilliárd forintos gyermekvédelmi jóvátétel-alapot hoz létre a kormány.",
+        "A támogatáshoz nem kell majd igazolni a bántalmazás tényét.",
+        "A bicskei intézmény volt vezetőjével kapcsolatban már 1990-ben volt jelzés.",
+        "A szeptemberben közzétett jelentés mutatott rá a rendszer súlyos hiányosságaira."
+      ],
+      "content": "Egymilliárd forintos gyermekvédelmi jóvátétel-alapot hoz létre a kormány – jelentette be a kormány képviselői a Karmelitában tartott csütörtöki sajtótájékoztatón. A kabinet ezzel egyidejűleg ismertette a bicskei gyermekotthonban történt visszaélésekről szóló vizsgálat eredményeit is.\n\nA dokumentum rávilágít arra, hogy már 1990-ben érkezett jelzés arról, hogy Vásárhelyi János volt igazgató szexuális határátlépést követett el. A most indított alapból jogi, pszichológiai, egészségügyi, lakhatási és oktatási segítség igénybevételére kérhetnek támogatást mindazok, akik 1997 óta legalább egy napot gyermekvédelmi otthonban töltöttek.\n\nA kezdetben egymilliárd forintos keretösszegű jóvátételi alap részleteit a következő hónapokban finomítják: a pontos igények felmérése után, egy év múlva vizsgálják meg, szükség van-e változtatásokra. A források lehívásához a támogatást igénylőknek nem kell majd igazolniuk a bántalmazás tényét.\n\nA kormány még szeptemberben hozta nyilvánosságra Diagnózis című átfogó gyermekvédelmi jelentését, amely rendszerszintű problémákat, így a szerhasználatot és az állandósult szakemberhiányt is feltárta, védtelenné téve a bántalmazással szemben a kiskorúakat. Bár az a korábbi összegzés a teljes ellátórendszer működését vette górcső alá, már akkor ígéret született a bicskei esetek külön vizsgálatára is, amelynek lezárásáról most számoltak be.",
+      "content_format": "markdown",
+      "body": [
+        "Egymilliárd forintos gyermekvédelmi jóvátétel-alapot hoz létre a kormány – jelentette be a kormány képviselői a Karmelitában tartott csütörtöki sajtótájékoztatón. A kabinet ezzel egyidejűleg ismertette a bicskei gyermekotthonban történt visszaélésekről szóló vizsgálat eredményeit is.",
+        "A dokumentum rávilágít arra, hogy már 1990-ben érkezett jelzés arról, hogy Vásárhelyi János volt igazgató szexuális határátlépést követett el. A most indított alapból jogi, pszichológiai, egészségügyi, lakhatási és oktatási segítség igénybevételére kérhetnek támogatást mindazok, akik 1997 óta legalább egy napot gyermekvédelmi otthonban töltöttek.",
+        "A kezdetben egymilliárd forintos keretösszegű jóvátételi alap részleteit a következő hónapokban finomítják: a pontos igények felmérése után, egy év múlva vizsgálják meg, szükség van-e változtatásokra. A források lehívásához a támogatást igénylőknek nem kell majd igazolniuk a bántalmazás tényét.",
+        "A kormány még szeptemberben hozta nyilvánosságra Diagnózis című átfogó gyermekvédelmi jelentését, amely rendszerszintű problémákat, így a szerhasználatot és az állandósult szakemberhiányt is feltárta, védtelenné téve a bántalmazással szemben a kiskorúakat. Bár az a korábbi összegzés a teljes ellátórendszer működését vette górcső alá, már akkor ígéret született a bicskei esetek külön vizsgálatára is, amelynek lezárásáról most számoltak be."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 203,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Budapest%2C_Budai_V%C3%A1r%2C_Karmelita_kolostor%2C_homlokzat.jpg/1280px-Budapest%2C_Budai_V%C3%A1r%2C_Karmelita_kolostor%2C_homlokzat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Budapest, Budai Vár, Karmelita kolostor, homlokzat",
+        "credit": "Christo / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_Budai_V%C3%A1r,_Karmelita_kolostor,_homlokzat.jpg",
+        "vision_score": 9.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261008_magyar-peter-bicske-gyermekotthon-jelentes-pedofilia-bantalmazas-ebx",
+          "title": "Már 1990-ben is felmerült, hogy az igazgató szexuális határátlépéseket követett el – Magyar és Gyurkó sajtótájékoztatója a bicskei jelentésről",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T16:29:25+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Egymilliárdos alapot hoz létre a kormány a bicskei áldozatok segítésére",
+        "Nem kell igazolni a bántalmazást a bicskei jóvátételi alaphoz",
+        "Már 1990-ben tudhattak a bicskei igazgató ügyéről"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Budapest%2C_Budai_V%C3%A1r%2C_Karmelita_kolostor%2C_homlokzat.jpg/1280px-Budapest%2C_Budai_V%C3%A1r%2C_Karmelita_kolostor%2C_homlokzat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest, Budai Vár, Karmelita kolostor, homlokzat",
+          "credit": "Christo / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_Budai_V%C3%A1r,_Karmelita_kolostor,_homlokzat.jpg",
+          "vision_score": 9.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Már 1990-ben is felmerült, hogy az igazgató szexuális határátlépéseket követett el – Magyar és Gyurkó sajtótájékoztatója a bicskei jelentésről",
+          "link": "https://hvg.hu/itthon/20261008_magyar-peter-bicske-gyermekotthon-jelentes-pedofilia-bantalmazas-ebx",
+          "summary": "Egymilliárd forintos gyermekvédelmi jóvátétel-alapot hoz létre a kormány – jelentette be Magyar Péter miniszterelnök és Gyurkó Szilvia államtitkár a Karmelitában tartott sajtótájékoztatón. A kormány ismertette a bicskei gyermekotthonban történt visszaélésekről szóló jelentést is, amely szerint már 1990-ben érkezett jelzés arról, hogy Vásárhelyi János volt igazgató szexuális határátlépést követhetett el.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261008_magyar-peter-bicske-gyermekotthon-jelentes-pedofilia-bantalmazas-ebx"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/kozelet/2026-10-08-egymilliardos-alapot-hoz-letre-a-kormany-a-bicskei-aldozatok-segitese/",
+      "seo": {
+        "meta_title": "Egymilliárdos alapot hoz létre a kormány a bicskei áldozatok",
+        "meta_description": "Egymilliárd forintos gyermekvédelmi jóvátétel-alapot indít a kabinet a bicskei gyermekotthonban történt visszaélések áldozatainak támogatására. A nyilvánosságra",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-08-egymilliardos-alapot-hoz-letre-a-kormany-a-bicskei-aldozatok-segitese/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Budapest%2C_Budai_V%C3%A1r%2C_Karmelita_kolostor%2C_homlokzat.jpg/1280px-Budapest%2C_Budai_V%C3%A1r%2C_Karmelita_kolostor%2C_homlokzat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "01c71b920fd29dd7d3cacce85aa9f5fbd046bb925e651483220ef545af28d192",
+      "pipeline_run_id": "37789834990",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T16:32:14+02:00",
+      "updated_at": "2026-10-08T16:32:14+02:00",
+      "published_at": "2026-10-08T16:32:14+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 1,
+        "issues": [
+          "🟡 bűnügy + kiskorú: ne legyen azonosítható (név, iskola, lakóhely, kép)"
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-08T14:30:55+00:00",
+        "msg_ids": [],
+        "control_id": 3878,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
+    },
+    {
+      "id": "54b8b840-a0d9-5355-9f50-ea94cdad8d6e",
+      "slug": "2026-10-08-25-millio-dollarert-vasarolt-meta-reszvenyeket-es-spacex-et-trump",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Donald Trump",
+        "tőzsde",
+        "SpaceX",
+        "Meta",
+        "vagyonnyilatkozat"
+      ],
+      "title": "25 millió dollárért vásárolt Meta-részvényeket és SpaceX-et Trump",
+      "subtitle": null,
+      "lead": "Donald Trump amerikai elnök augusztusban több mint 500 értékpapír-tranzakciót hajtott végre, amelyek között akár 25 millió dollár értékű Meta-részvények és SpaceX-befektetések is szerepelnek. Az újonnan nyilvánosságra hozott vagyonnyilatkozat bírálók szerint összeférhetetlenségi kérdéseket vet fel.",
+      "key_points": [
+        "Több mint 500 értékpapír-tranzakciót hajtottak végre Donald Trump nevében augusztusban.",
+        "A vagyonnyilatkozat szerint jelentős SpaceX-befektetés történt két nappal egy űripari rendelet aláírása előtt.",
+        "A legnagyobb tétel egy augusztus 21-i, akár 25 millió dollár értékű Meta-részvényvásárlás volt.",
+        "A tranzakciók összértéke a dokumentum szerint 74,3 és 273,3 millió dollár közé tehető."
+      ],
+      "content": "Donald Trump amerikai elnök vagy az ő vagyonát kezelő szakemberek augusztusban összesen 517 adásvételi ügyletet bonyolítottak le, amelyek összértéke a nyilvánosságra hozott dokumentum értéksávjai alapján 74,3 és 273,3 millió dollár között mozog. A vásárlások legalább 44,2 millió, míg az eladások legalább 30,1 millió dollárt tettek ki. Bár a kereskedési aktivitás némileg mérséklődött a nyári csúcshoz képest – amikor havonta több mint ezer tranzakciót regisztráltak –, a portfólió továbbra is rendkívül aktív maradt.\n\nA legnagyobb egyedi tétel egy augusztus 21-én végrehajtott Meta-részvényvásárlás volt, amelynek értéke 5 és 25 millió dollár közé esett. Ugyanezen a napon az elnök portfóliójába 1 és 5 millió dollár közötti értékben érkeztek AT&T-, ConocoPhillips-, Abbott Laboratories-, Netflix- és Chevron-részvények is. Ezzel párhuzamosan az eladási oldalon az Advanced Micro Devices és a Church & Dwight papírjaiból értékesítettek hasonló értékben, valamint kisebb mennyiségben Boeing-, Home Depot-, T-Mobile- és Nvidia-részvényeket is eladtak.\n\nKülönösen nagy figyelmet kapott egy augusztus 18-i tranzakció, amely során 1 és 5 millió dollár közötti értékben vásároltak Elon Musk rakéta- és műholdgyártó vállalatának, a SpaceX-nek a fedezetlen elsőbbségi kötvényeiből. Ezek a papírok 5,35 százalékos kamatot fizetnek, és 2031 júliusában járnak le. Mindössze két nappal e befektetés után az elnök aláírt egy nemzeti űrközlekedési irányelvet, amely előírja, hogy az Egyesült Államoknak 2030-ra évente több mint ezer indítást és visszatérést kell támogatnia, emellett a szövetségi ügynökségeknek is segíteniük kell a piaci szereplők hozzáférését a szövetségi indítóállomásokhoz.\n\nA CNBC által is részletesen elemzett ügylet bírálók szerint azért vet fel összeférhetetlenségi kérdéseket, mert a SpaceX a Pentagon és a NASA kulcsfontosságú beszállítója, így az állítások szerint közvetlenül profitálhat az űripari rendelet intézkedéseiből. Az elnök korábban is tartott SpaceX-részvényeket, ám júniusban és júliusban még jóval kisebb, 15 és 50 ezer dollár közötti értékben vásárolt a vállalat papírjaiból.",
+      "content_format": "markdown",
+      "body": [
+        "Donald Trump amerikai elnök vagy az ő vagyonát kezelő szakemberek augusztusban összesen 517 adásvételi ügyletet bonyolítottak le, amelyek összértéke a nyilvánosságra hozott dokumentum értéksávjai alapján 74,3 és 273,3 millió dollár között mozog. A vásárlások legalább 44,2 millió, míg az eladások legalább 30,1 millió dollárt tettek ki. Bár a kereskedési aktivitás némileg mérséklődött a nyári csúcshoz képest – amikor havonta több mint ezer tranzakciót regisztráltak –, a portfólió továbbra is rendkívül aktív maradt.",
+        "A legnagyobb egyedi tétel egy augusztus 21-én végrehajtott Meta-részvényvásárlás volt, amelynek értéke 5 és 25 millió dollár közé esett. Ugyanezen a napon az elnök portfóliójába 1 és 5 millió dollár közötti értékben érkeztek AT&T-, ConocoPhillips-, Abbott Laboratories-, Netflix- és Chevron-részvények is. Ezzel párhuzamosan az eladási oldalon az Advanced Micro Devices és a Church & Dwight papírjaiból értékesítettek hasonló értékben, valamint kisebb mennyiségben Boeing-, Home Depot-, T-Mobile- és Nvidia-részvényeket is eladtak.",
+        "Különösen nagy figyelmet kapott egy augusztus 18-i tranzakció, amely során 1 és 5 millió dollár közötti értékben vásároltak Elon Musk rakéta- és műholdgyártó vállalatának, a SpaceX-nek a fedezetlen elsőbbségi kötvényeiből. Ezek a papírok 5,35 százalékos kamatot fizetnek, és 2031 júliusában járnak le. Mindössze két nappal e befektetés után az elnök aláírt egy nemzeti űrközlekedési irányelvet, amely előírja, hogy az Egyesült Államoknak 2030-ra évente több mint ezer indítást és visszatérést kell támogatnia, emellett a szövetségi ügynökségeknek is segíteniük kell a piaci szereplők hozzáférését a szövetségi indítóállomásokhoz.",
+        "A CNBC által is részletesen elemzett ügylet bírálók szerint azért vet fel összeférhetetlenségi kérdéseket, mert a SpaceX a Pentagon és a NASA kulcsfontosságú beszállítója, így az állítások szerint közvetlenül profitálhat az űripari rendelet intézkedéseiből. Az elnök korábban is tartott SpaceX-részvényeket, ám júniusban és júliusban még jóval kisebb, 15 és 50 ezer dollár közötti értékben vásárolt a vállalat papírjaiból."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 329,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Entrance_to_SpaceX_headquarters.jpg/1280px-Entrance_to_SpaceX_headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1800,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Entrance",
+        "credit": "Bruno Sanchez-Andrade Nuño from Washington, DC, USA / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Entrance_to_SpaceX_headquarters.jpg",
+        "vision_score": 5.0
+      },
+      "inline_images": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/The_SpaceX_Factory.jpg/1280px-The_SpaceX_Factory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 846,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "SpaceX headquarters at Hawthorne, California.",
+          "credit": "Steve Jurvetson / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:The_SpaceX_Factory.jpg",
+          "after": 2,
+          "caption": "A SpaceX rakétái a szövetségi űrközlekedési irányelv középpontjában állnak"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/befektetes/20261008/kiderult-mibe-fektetett-trump-elkepeszto-osszegekert-adta-vette-a-legnepszerubb-reszvenyeket-868394",
+          "title": "Kiderült, mibe fektetett Trump: elképesztő összegekért adta-vette a legnépszerűbb részvényeket",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T16:31:06+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "25 millió dollárért vásárolt Meta-részvényeket és SpaceX-et Trump",
+        "Milliós tételek és űripari kötvények: mibe fektetett az elnök?",
+        "Tízmilliós nagyságrendű részvényvásárlások: az amerikai elnök augusztusi portfóliója"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/CRS-20_Dragon%E2%80%93Enhanced.jpg/1280px-CRS-20_Dragon%E2%80%93Enhanced.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "SpaceX CRS-20 mission. The SpaceX Dragon resupply ship is pictured approaching the International Space Station as both spacecraft were soaring 267 miles above the African nation of Namibia.",
+          "credit": "Original:  NASA Johnson Space Center\nDerivative work:  Nythar / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:CRS-20_Dragon%E2%80%93Enhanced.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Entrance_to_SpaceX_headquarters.jpg/1280px-Entrance_to_SpaceX_headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1800,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Entrance",
+          "credit": "Bruno Sanchez-Andrade Nuño from Washington, DC, USA / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Entrance_to_SpaceX_headquarters.jpg",
+          "vision_score": 5.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Meta_Platforms_Headquarters_Menlo_Park_California.jpg/1280px-Meta_Platforms_Headquarters_Menlo_Park_California.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Entrance to Meta Platforms headquarters complex in Menlo Park, California",
+          "credit": "LPS.1 / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Meta_Platforms_Headquarters_Menlo_Park_California.jpg",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Kiderült, mibe fektetett Trump: elképesztő összegekért adta-vette a legnépszerűbb részvényeket",
+          "link": "https://www.portfolio.hu/befektetes/20261008/kiderult-mibe-fektetett-trump-elkepeszto-osszegekert-adta-vette-a-legnepszerubb-reszvenyeket-868394",
+          "summary": "Donald Trump amerikai elnök (vagy pontosabb a pénzét kezelő szakemberek) augusztusban több mint 500 értékpapír-tranzakciót hajtott végre, beleértve egy akár 25 millió dollár értékű Meta-részvényvásárlást és egy jelentős SpaceX-befektetést – utóbbit mindössze két nappal azelőtt, hogy aláírt egy átfogó űripari rendeletet. Az újonnan nyilvánosságra hozott vagyonnyilatkozat komoly összeférhetetlenségi kérdéseket vet fel - írta a CNBC . Hasonló témákkal is foglalkozunk a Portfolio Investment Day konferenciánkon október 21-én. Jön az év egyik legnagyobb befektetési eseménye, ahol profi szakértők mon",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/befektetes/20261008/kiderult-mibe-fektetett-trump-elkepeszto-osszegekert-adta-vette-a-legnepszerubb-reszvenyeket-868394"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/kozelet/2026-10-08-25-millio-dollarert-vasarolt-meta-reszvenyeket-es-spacex-et-trump/",
+      "seo": {
+        "meta_title": "25 millió dollárért vásárolt Meta-részvényeket és SpaceX-et ",
+        "meta_description": "Donald Trump amerikai elnök augusztusban több mint 500 értékpapír-tranzakciót hajtott végre, amelyek között akár 25 millió dollár értékű Meta-részvények és Spac",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-08-25-millio-dollarert-vasarolt-meta-reszvenyeket-es-spacex-et-trump/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Entrance_to_SpaceX_headquarters.jpg/1280px-Entrance_to_SpaceX_headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "5a8309fe-1b25-5c29-8f18-e172d3345019",
+        "7a44a206-e931-5605-8043-f5f490beaf0e"
+      ],
+      "see_also": [
+        {
+          "title": "Új nevet kapott a mesterséges intelligencia a Fehér Házban",
+          "url": "/tech/2026-09-30-uj-nevet-kapott-a-mesterseges-intelligencia-a-feher-hazban/",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "Így vizsgálják át a mesterséges intelligenciát",
+          "url": "/tech/2026-09-30-kiderult-mikent-ellenoriznek-az-ai-cegeket/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "cb595842f3c70135c5cfe1bea2b7832fddcc67e13aae080566e0d295ec8edac3",
+      "pipeline_run_id": "37789834990",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T16:33:26+02:00",
+      "updated_at": "2026-10-08T16:33:26+02:00",
+      "published_at": "2026-10-08T16:33:26+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": [],
+        "auto_fixed": [
+          "A leadben a tényként kezelt összeférhetetlenséget bírálók véleményére bízva tompítottuk.",
+          "A body negyedik bekezdésében a profitálási állítást és az összeférhetetlenséget feltételes és véleményező formára (\"bírálók szerint\", \"az állítások szerint\") mó"
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 1,
+        "sent_at": "2026-10-08T14:32:13+00:00",
+        "msg_ids": [],
+        "control_id": 3883,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
+    },
+    {
+      "id": "3936d406-8c03-5431-9a99-32873781a5f4",
+      "slug": "2026-10-08-het-mutet-es-egy-uj-arc-igy-lett-rosszfiu-a-panelhosok-sztarja",
+      "status": "pending",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Szaszák Zsolt",
+        "Panelhősök",
+        "baleset",
+        "sorozat",
+        "színész"
+      ],
+      "title": "Hét műtét és egy új arc: így lett rosszfiú a Panelhősök sztárja",
+      "subtitle": null,
+      "lead": "Szaszák Zsolt színész három évvel ezelőtt súlyos autóbalesetet szenvedett, amely után hét műtéten esett át, megváltozott külseje pedig teljesen új irányt adott a karrierjének. A Blikknek adott interjújában mesélt arról, hogyan élte meg a nehéz időszakot, amikor a tükörbe nézve sokáig nem ismerte magát.",
+      "key_points": [
+        "Szaszák Zsolt három évvel ezelőtt élete legnehezebb időszakát élte át egy súlyos autóbaleset miatt.",
+        "A balesetet követő hét műtét teljesen megváltoztatta az arcát.",
+        "A nehézségek ellenére a külseje új szereplehetőségeket hozott, így kapta meg a Panelhősök című sorozatban Beton szerepét."
+      ],
+      "content": "A hétköznapokban ritkán gondolunk arra, hogy egyetlen pillanat alatt mennyire átalakulhat az ember élete és külseje. Az RTL Panelhősök című sorozatának egyik legkeményebb karakterét, Betont alakító Szaszák Zsolt három évvel ezelőtt kis híján életét vesztette egy brutális autóbalesetben. A baleset után arcgipsszel a fején várta a felépülést, és amikor levették a kötéseket, egy olyan arc nézett vissza rá a tükörből, amely hét olyan műtét eredménye volt, amit ő maga nem akart.\n\nA színész számára a beavatkozások közötti várakozási idő is lelkileg megterhelő volt, hiszen a három hónapos szünetekben nap mint nap szembesülnie kellett a megváltozott külsejével. Egyik alkalommal a Harry Pottert nézte a tévében, és azzal szembesült, hogy oldalról a filmbeli Voldemortra hasonlít, emiatt pedig kifejezetten figyelnie kellett arra, hogy nehogy profilból lássák a nézők.\n\nA nehéz időszak azonban szakmai szempontból teljesen új fejezetet nyitott a pályájában, a megváltozott megjelenése ugyanis olyan szereplehetőségeket hozott, amelyek korábban elképzelhetetlenek voltak. Jelenleg az orrnyergétől egészen az arccsontjáig fém van az arcában, ami bizonyos mértékű mimikatorzulást okoz, de a Panelhősök rosszfiú karakteréhez ez kifejezetten illik, ráadásul a Der Glöckner von Notre Dame című musicalben is megkapta Quasimodo szerepét.\n\nA Blikknek nyilatkozva a színész elmondta, hogy a történtek ellenére elképesztően szerencsésnek érzi magát, amiért túlélte az ütközést. A trauma arra tanította, hogy az élet véges, és érdemes arra fókuszálni, amit az ember igazán szeret csinálni, a színházban és a televízió képernyőjén pedig a lelkében maradt nyomok is segítik a karakterek megformálását.",
+      "content_format": "markdown",
+      "body": [
+        "A hétköznapokban ritkán gondolunk arra, hogy egyetlen pillanat alatt mennyire átalakulhat az ember élete és külseje. Az RTL Panelhősök című sorozatának egyik legkeményebb karakterét, Betont alakító Szaszák Zsolt három évvel ezelőtt kis híján életét vesztette egy brutális autóbalesetben. A baleset után arcgipsszel a fején várta a felépülést, és amikor levették a kötéseket, egy olyan arc nézett vissza rá a tükörből, amely hét olyan műtét eredménye volt, amit ő maga nem akart.",
+        "A színész számára a beavatkozások közötti várakozási idő is lelkileg megterhelő volt, hiszen a három hónapos szünetekben nap mint nap szembesülnie kellett a megváltozott külsejével. Egyik alkalommal a Harry Pottert nézte a tévében, és azzal szembesült, hogy oldalról a filmbeli Voldemortra hasonlít, emiatt pedig kifejezetten figyelnie kellett arra, hogy nehogy profilból lássák a nézők.",
+        "A nehéz időszak azonban szakmai szempontból teljesen új fejezetet nyitott a pályájában, a megváltozott megjelenése ugyanis olyan szereplehetőségeket hozott, amelyek korábban elképzelhetetlenek voltak. Jelenleg az orrnyergétől egészen az arccsontjáig fém van az arcában, ami bizonyos mértékű mimikatorzulást okoz, de a Panelhősök rosszfiú karakteréhez ez kifejezetten illik, ráadásul a Der Glöckner von Notre Dame című musicalben is megkapta Quasimodo szerepét.",
+        "A Blikknek nyilatkozva a színész elmondta, hogy a történtek ellenére elképesztően szerencsésnek érzi magát, amiért túlélte az ütközést. A trauma arra tanította, hogy az élet véges, és érdemes arra fókuszálni, amit az ember igazán szeret csinálni, a színházban és a televízió képernyőjén pedig a lelkében maradt nyomok is segítik a karakterek megformálását."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 280,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/szaszak-zsolt-baeset-arc-serules-szerep-szinhaz/kvp9hbg",
+          "title": "Kis híján belehalt a balesetbe, teljesen más arca lett Szaszák Zsoltnak – Ma már a sérülése segíti a szerepeiben",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T16:32:24+02:00"
+        }
+      ],
+      "quote": {
+        "text": "A két műtét között három hónapot kellett várnom. Közben például néztem a Harry Pottert, és azt vettem észre, hogy oldalról úgy nézek ki, mint Voldemort. Egy idő után már arra is elkezdtem figyelni, hogy nehogy profilból lássanak a nézők. Színészként ez elképesztően megterhelő volt",
+        "who": "Szaszák Zsolt színész",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Hét műtét és egy új arc: így lett rosszfiú a Panelhősök sztárja",
+        "Voldemortnak nézték a tükörben a brutális balesetet túlélő magyar színészt",
+        "Fém van az orrában, de a válogatásokon már előny a sérülése",
+        "Három hónapig nézte a tükröt, mire ráismert a Panelhősök sztárja",
+        "A Harry Potter sötét varázslója miatt rettegett a profiljától a magyar színész",
+        "Brutális autóbaleset után kapott teljesen új arcot az RTL sorozatának rosszfiúja"
+      ],
+      "clickbait_from": 3,
+      "image_options": [],
+      "story": [
+        {
+          "title": "Kis híján belehalt a balesetbe, teljesen más arca lett Szaszák Zsoltnak – Ma már a sérülése segíti a szerepeiben",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/szaszak-zsolt-baeset-arc-serules-szerep-szinhaz/kvp9hbg",
+          "summary": "Az RTL Panelhősök című sorozatának egyik legkeményebb karakterét, Betont Szaszák Zsolt alakítja, aki különös módon egy súlyos sérülésnek is \"köszönheti\", hogy végül övé lett a szerep. A színész három évvel ezelőtt kis híján életét vesztette egy brutális autóbalesetben, amely után két beavatkozáson kellett átesnie, az arca pedig szinte teljesen megváltozott. A megrázó történtek nemcsak fizikailag hagytak nyomot rajta, hanem egy teljesen új fejezetet is nyitottak a karrierjében: a megváltozott külseje olyan szereplehetőségeket hozott számára, amelyek korábban elképzelhetetlenek voltak.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/szaszak-zsolt-baeset-arc-serules-szerep-szinhaz/kvp9hbg"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/bulvar/2026-10-08-het-mutet-es-egy-uj-arc-igy-lett-rosszfiu-a-panelhosok-sztarja/",
+      "seo": {
+        "meta_title": "Hét műtét és egy új arc: így lett rosszfiú a Panelhősök sztá",
+        "meta_description": "Szaszák Zsolt színész három évvel ezelőtt súlyos autóbalesetet szenvedett, amely után hét műtéten esett át, megváltozott külseje pedig teljesen új irányt adott ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-08-het-mutet-es-egy-uj-arc-igy-lett-rosszfiu-a-panelhosok-sztarja/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "700d32fdeedaa6eea9e629eb708a04a7e72ee9799b6eac152b5fe585f7dd91f1",
+      "pipeline_run_id": "37789834990",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T16:32:24+02:00",
+      "updated_at": "2026-10-08T16:32:24+02:00",
+      "published_at": "2026-10-08T16:32:24+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 1,
+        "image": -1,
+        "sent_at": "2026-10-08T14:33:25+00:00",
+        "msg_ids": [
+          3884,
+          3885
+        ],
+        "control_id": 3886
+      },
+      "image_queries": [
+        "Zsolt Szaszák",
+        "Panelhősök TV series",
+        "RTL television network",
+        "Beton character",
+        "Quasimodo musical role",
+        "hospital corridor",
+        "mirror reflection",
+        "surgical scar"
+      ]
+    },
+    {
+      "id": "d97032da-84f7-5b1a-a450-0252ffb48b42",
+      "slug": "2026-10-08-het-nap-alatt-zsugorodtak-a-zsirsejtek-a-sulyzoktol",
+      "status": "pending",
+      "category": "eletmod",
+      "subcategory": null,
+      "tags": [
+        "egészség",
+        "mozgás",
+        "edzés",
+        "anyagcsere",
+        "kutatás"
+      ],
+      "title": "Állatkísérletben: Hét nap alatt zsugorodtak a zsírsejtek a súlyzóktól",
+      "subtitle": null,
+      "lead": "Mindössze hét napnyi intenzív erősítő edzés elegendő volt ahhoz, hogy a kutatók mérhető változásokat fedezzenek fel állatmodellek zsírszöveteiben anélkül, hogy a testtömeg megváltozott volna. Az eredmények azt mutatják, hogy a mozgás jótékony hatásai a látható fogyás előtt, már sokkal korábban elindulnak a szervezetben.",
+      "key_points": [
+        "Állatkísérletben hét nap alatt csökkent a zsírsejtek mérete és a belső szervek körüli zsírmennyiség.",
+        "A kísérlet során az elhízott alanyok végig megőrizték a magas zsírtartalmú étrendjüket.",
+        "A kutatók a legmélyebb, úgynevezett viszcerális zsírt vizsgálták."
+      ],
+      "content": "A fizikai aktivitás anyagcserére gyakorolt hatásait évtizedek óta kutatják a szakemberek, azonban ritkán vizsgálják azt a folyamatot, amely a legelső edzések alkalmával, a látható fogyás előtt zajlik le a sejtekben. A State University of Campinas munkatársai most azt figyelték meg, hogy a mindössze egyhetes erősítő program képes beindítani azokat a biológiai folyamatokat, amelyek állatkísérletben lebontják a raktározott zsírt, csökkentik a zsírsejtek méretét, és mérséklik a belek körüli zsírszövet mennyiségét.\n\nA vizsgálat során hím egereket osztottak csoportokba: egy részük normál étrendet kapott, míg mások magas zsírtartalmú étrenddel elhízott állatokká váltak. Az elhízott állatok egy része ezután mozgásszegény életmódot folytatott, míg a másik csoport egy speciális erősítő programot teljesített, miközben végig fennmaradt a korábbi, kalóriadús táplálkozásuk. Az azonos étrend biztosította, hogy a kutatók pontosan elkülöníthessék a fizikai edzés közvetlen hatásait.\n\nA program az emberi súlyzós edzést imitálta: a rágcsálóknak súlyokat rögzítettek a farkukra, és így kellett megmászniuk egy hetven centiméteres létrát a maximális kapacitásuk hetven százalékával. A tréning során a belek körüli, úgynevezett mezentérikus zsírszövetet elemezték, amely az emberi szervezetben mélyen, a létfontosságú szervek között felhalmozódó viszcerális zsírnak felel meg.\n\nA mélyen fekvő viszcerális zsír különösen veszélyes az egészségre, mivel túlzott felhalmozódása során olyan gyulladásos anyagokat juttathat a véráramba, amelyek a bőr alatti zsírszövetekkel ellentétben az egész test anyagcseréjét negatívan befolyásolják. Bár az állatok össztömege a rövid kísérleti időszak alatt nem csökkent, a tréninget végzett csoportban mégis kevesebb lett a belső zsírszövet, és aktiválódtak a zsírraktárak lebontásáért felelős molekuláris útvonalak.\n\nA Life Sciences folyóiratban megjelent eredmények rávilágítanak arra, hogy a mozgás biológiai haszna jóval a mérleg nyelvének elmozdulása előtt kezdetét veszi. A szakemberek hangsúlyozzák, hogy a megfigyeléseket egyelőre állatkísérletekben igazolták, így a jövőben még vizsgálni kell, hogy a folyamatok pontosan ugyanígy zajlanak-e le az emberi szervezetben.",
+      "content_format": "markdown",
+      "body": [
+        "A fizikai aktivitás anyagcserére gyakorolt hatásait évtizedek óta kutatják a szakemberek, azonban ritkán vizsgálják azt a folyamatot, amely a legelső edzések alkalmával, a látható fogyás előtt zajlik le a sejtekben. A State University of Campinas munkatársai most azt figyelték meg, hogy a mindössze egyhetes erősítő program képes beindítani azokat a biológiai folyamatokat, amelyek állatkísérletben lebontják a raktározott zsírt, csökkentik a zsírsejtek méretét, és mérséklik a belek körüli zsírszövet mennyiségét.",
+        "A vizsgálat során hím egereket osztottak csoportokba: egy részük normál étrendet kapott, míg mások magas zsírtartalmú étrenddel elhízott állatokká váltak. Az elhízott állatok egy része ezután mozgásszegény életmódot folytatott, míg a másik csoport egy speciális erősítő programot teljesített, miközben végig fennmaradt a korábbi, kalóriadús táplálkozásuk. Az azonos étrend biztosította, hogy a kutatók pontosan elkülöníthessék a fizikai edzés közvetlen hatásait.",
+        "A program az emberi súlyzós edzést imitálta: a rágcsálóknak súlyokat rögzítettek a farkukra, és így kellett megmászniuk egy hetven centiméteres létrát a maximális kapacitásuk hetven százalékával. A tréning során a belek körüli, úgynevezett mezentérikus zsírszövetet elemezték, amely az emberi szervezetben mélyen, a létfontosságú szervek között felhalmozódó viszcerális zsírnak felel meg.",
+        "A mélyen fekvő viszcerális zsír különösen veszélyes az egészségre, mivel túlzott felhalmozódása során olyan gyulladásos anyagokat juttathat a véráramba, amelyek a bőr alatti zsírszövetekkel ellentétben az egész test anyagcseréjét negatívan befolyásolják. Bár az állatok össztömege a rövid kísérleti időszak alatt nem csökkent, a tréninget végzett csoportban mégis kevesebb lett a belső zsírszövet, és aktiválódtak a zsírraktárak lebontásáért felelős molekuláris útvonalak.",
+        "A Life Sciences folyóiratban megjelent eredmények rávilágítanak arra, hogy a mozgás biológiai haszna jóval a mérleg nyelvének elmozdulása előtt kezdetét veszi. A szakemberek hangsúlyozzák, hogy a megfigyeléseket egyelőre állatkísérletekben igazolták, így a jövőben még vizsgálni kell, hogy a folyamatok pontosan ugyanígy zajlanak-e le az emberi szervezetben."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 327,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Exercise_equipment_2.webp/1280px-Exercise_equipment_2.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 721,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Exercise equipment at a YMCA",
+        "credit": "Wikideas1 / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Exercise_equipment_2.webp",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/10/261006234509.htm",
+          "title": "Just 7 days of strength training started shrinking fat cells in mice",
+          "publisher": "sciencedaily.com",
+          "license": null,
+          "accessed_at": "2026-10-08T16:33:44+02:00"
+        }
+      ],
+      "quote": {
+        "text": "We've always heard that physical exercise burns fat and helps you lose weight. But we rarely stop to think about how that happens, how much exercise is needed, and what that fat burning actually means.",
+        "who": "Leandro Moura, a UNICAMP professzora és a kutatás vezetője",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.89,
+      "title_options": [
+        "Állatkísérletben: Hét nap alatt zsugorodtak a zsírsejtek a súlyzóktól",
+        "Meglepő eredmény: egy hét edzés is átalakítja a zsírszövetet",
+        "Nem kellett kilóknak eltűnniük a látványos belső változáshoz",
+        "Ezt a biológiai folyamatot indítja be már egyetlen hét kemény edzés",
+        "Nem fogod elhinni, mi történt a zsírszövetekkel mindössze hét nap alatt",
+        "A mérleg még semmit sem mutatott, de a testben már elkezdődött a változás"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Exercise_equipment_2.webp/1280px-Exercise_equipment_2.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 721,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Exercise equipment at a YMCA",
+          "credit": "Wikideas1 / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Exercise_equipment_2.webp",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/gf4f313ab248450f0573c623f4ecedfaf0ebc09fcfe8a8bfe59964cd4bdf1c2ee9836e998acb4abacce20a4ee4a72e1067b1d38a3820cd83a91ee90c7287c2da6_1280.jpg",
+          "width": 4288,
+          "height": 2848,
+          "kind": "photo",
+          "alt": "training, muscles, arms, blonde, bar bells, workout, fitness, exercise, sport, gym, strong, young, woman, person, healthy, lifestyle, body, fit, muscular, studio, athlete, equipment, strength, female,",
+          "credit": "scottwebb / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/training-muscles-arms-blonde-828726/",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://live.staticflickr.com/5493/9130097284_eaceccb732_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "1st Workout of my Fitness Training with Regina Rodriguez (33)",
+          "credit": "reginarodriguez / flickr",
+          "license": "CC BY-ND 2.0",
+          "source_url": "https://www.flickr.com/photos/61583821@N07/9130097284",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://live.staticflickr.com/7286/9130162392_56d08334fd_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "1st Workout of my Fitness Training with Regina Rodriguez (4)",
+          "credit": "reginarodriguez / flickr",
+          "license": "CC BY-ND 2.0",
+          "source_url": "https://www.flickr.com/photos/61583821@N07/9130162392",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Just 7 days of strength training started shrinking fat cells in mice",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261006234509.htm",
+          "summary": "Just seven strength-training sessions helped obese mice shrink visceral fat cells and reactivate molecular pathways involved in burning stored fat, despite no change in overall body weight. The findings suggest some benefits of resistance exercise may begin long before weight loss becomes visible, though the results still need to be confirmed in humans.",
+          "source": "sciencedaily.com",
+          "related": null,
+          "hot_score": 5.89
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.sciencedaily.com/releases/2026/10/261006234509.htm"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/eletmod/2026-10-08-het-nap-alatt-zsugorodtak-a-zsirsejtek-a-sulyzoktol/",
+      "seo": {
+        "meta_title": "Hét nap alatt zsugorodtak a zsírsejtek a súlyzóktól",
+        "meta_description": "Mindössze hét napnyi intenzív erősítő edzés elegendő volt ahhoz, hogy a kutatók mérhető változásokat fedezzenek fel a zsírszövetekben anélkül, hogy a testtömeg ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/eletmod/2026-10-08-het-nap-alatt-zsugorodtak-a-zsirsejtek-a-sulyzoktol/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Exercise_equipment_2.webp/1280px-Exercise_equipment_2.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "0b112b0ebf789f801e70b148bfc139248550e90b7c633a5ca8b62b3d205b34a8",
+      "pipeline_run_id": "37789834990",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T16:33:44+02:00",
+      "updated_at": "2026-10-08T16:33:44+02:00",
+      "published_at": "2026-10-08T16:33:44+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 1,
+        "issues": [
+          "🟡 kép licence korlátozott (CC BY-ND 2.0) – NC: hirdetéses oldalon kerülendő, ND: nem vágható"
+        ],
+        "auto_fixed": [
+          "A címet és a leadet kiegészítettem azzal, hogy az eredmények állatmodelleken/állatkísérletben láthatók.",
+          "A szövegben pontosítottam, hogy a zsírsejtek méretének csökkenése az állatkísérletre vonatkozik."
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-08T14:35:04+00:00",
+        "msg_ids": [
+          3887,
+          3888,
+          3889,
+          3890,
+          3891
+        ],
+        "control_id": 3892
+      }
     }
   ]
 }
