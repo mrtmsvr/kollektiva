@@ -1,7 +1,120 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-08T12:10:36+02:00",
+  "updated_at": "2026-10-08T14:28:39+02:00",
   "articles": [
+    {
+      "id": "3c3d943b-ffe0-587d-b028-72ba41140249",
+      "slug": "2026-10-08-magyarorszagot-celozza-meg-a-rolls-royce-a-kis-atomreaktorokkal",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "energia",
+        "beruházás",
+        "Rolls-Royce",
+        "atomenergia",
+        "gazdaság"
+      ],
+      "title": "Magyarországot célozza meg a Rolls-Royce a kis atomreaktorokkal",
+      "subtitle": null,
+      "lead": "Csütörtökön rajtolt el a Portfolio Energy Investment Forum 2026 konferencia, ahol az energiaszektor meghatározó szereplői vitatják meg az ágazat jövőjét. A rendezvényen bejelentették, hogy a sorozatgyártás jelentősen csökkentheti az új atomreaktorok költségeit.",
+      "key_points": [
+        "Elindult a Portfolio Energy Investment Forum 2026 konferencia Budapesten.",
+        "Több mint negyven magyar beszállítóval tárgyal a Rolls-Royce SMR.",
+        "Akár 22–25 százalékkal is csökkenhet az új reaktorok ára a sorozatgyártással."
+      ],
+      "content": "Csütörtökön nyitotta meg kapuit a Portfolio Energy Investment Forum 2026, amelyen a magyar és az európai energiaszektor vezető döntéshozói, vállalatvezetők és nemzetközi szakértők tanácskoznak az iparág legfontosabb kihívásairól. Ahogy [korábban megírtuk](/penzvilag/2026-10-08-mi-jon-az-orosz-energiahordozok-utan-itt-vannak-a-tervek/), a rendezvény fókuszában az európai versenyképesség, az energiabiztonság, a geopolitikai átrendeződés és a zöld átállás áll.\n\nA nyitószekcióban Tótth András energetikai államtitkár ismertette a következő négy év energiapolitikai prioritásait, míg a délutáni programban a napenergia utáni beruházási hullámokat, a földgázpiac átalakulását és az orosz energiahordozók kiváltásának lehetőségeit járják körül.\n\nMagyarországot kiemelt piacként kezeli a Rolls-Royce SMR, amely már 2022 óta egyeztet a magyar kormánnyal, az energetikai vállalatokkal és a nukleáris hatóságokkal a kis moduláris atomreaktorok (SMR) hazai telepítéséről. A cég eddig több mint negyven magyar beszállítóval lépett kapcsolatba.\n\nEz a technológiai fejlődés idővel a magánfinanszírozás előtt is megnyithatja az utat a nukleáris energiatermelésben.",
+      "content_format": "markdown",
+      "body": [
+        "Csütörtökön nyitotta meg kapuit a Portfolio Energy Investment Forum 2026, amelyen a magyar és az európai energiaszektor vezető döntéshozói, vállalatvezetők és nemzetközi szakértők tanácskoznak az iparág legfontosabb kihívásairól. Ahogy [korábban megírtuk](/penzvilag/2026-10-08-mi-jon-az-orosz-energiahordozok-utan-itt-vannak-a-tervek/), a rendezvény fókuszában az európai versenyképesség, az energiabiztonság, a geopolitikai átrendeződés és a zöld átállás áll.",
+        "A nyitószekcióban Tótth András energetikai államtitkár ismertette a következő négy év energiapolitikai prioritásait, míg a délutáni programban a napenergia utáni beruházási hullámokat, a földgázpiac átalakulását és az orosz energiahordozók kiváltásának lehetőségeit járják körül.",
+        "Magyarországot kiemelt piacként kezeli a Rolls-Royce SMR, amely már 2022 óta egyeztet a magyar kormánnyal, az energetikai vállalatokkal és a nukleáris hatóságokkal a kis moduláris atomreaktorok (SMR) hazai telepítéséről. A cég eddig több mint negyven magyar beszállítóval lépett kapcsolatba.",
+        "Ez a technológiai fejlődés idővel a magánfinanszírozás előtt is megnyithatja az utat a nukleáris energiatermelésben."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 181,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/1c55bd979a27d5e0.jpg",
+        "width": 6000,
+        "height": 4000,
+        "kind": "photo",
+        "alt": "nuclear power plant, rhine, flow, nuclear power, atomic energy, smoke, steam, industrial, energy, power supply, electricity, nuclear reactor, backlighting, nuclear power, nuclear power, nuclear power,",
+        "credit": "distelAPPArath / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/nuclear-power-plant-rhine-flow-4535760/",
+        "vision_score": 8.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/1c55bd979a27d5e0.jpg",
+        "orig_url": "https://pixabay.com/get/g2dc96a3dfc7dbded1a307ec583bb3d434808d12a367ce3617815d431d9d1f37b690bcaf09e74de170b826c47791549afe01484fd44a78e73cbd37ec52248032b_1280.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261008/hatalmas-erdeklodes-mellett-zajlik-a-portfolio-energy-investment-forum-2026-868162",
+          "title": "Hatalmas érdeklődés mellett zajlik a Portfolio Energy Investment Forum 2026",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T14:15:47+02:00"
+        }
+      ],
+      "quote": {
+        "text": "A sorozatgyártás révén akár 22–25 százalékkal is csökkenhet az új reaktorok költsége, ami idővel a magánfinanszírozás előtt is megnyithatja utat.",
+        "who": "Alexis Honner, a Rolls-Royce SMR új piacokért felelős üzletfejlesztési vezetője",
+        "after": 2
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-08T14:28:39+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261008/hatalmas-erdeklodes-mellett-zajlik-a-portfolio-energy-investment-forum-2026-868162"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/penzvilag/2026-10-08-magyarorszagot-celozza-meg-a-rolls-royce-a-kis-atomreaktorokkal/",
+      "seo": {
+        "meta_title": "Magyarországot célozza meg a Rolls-Royce a kis atomreaktorok",
+        "meta_description": "Csütörtökön rajtolt el a Portfolio Energy Investment Forum 2026 konferencia, ahol az energiaszektor meghatározó szereplői vitatják meg az ágazat jövőjét. A rend",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-08-magyarorszagot-celozza-meg-a-rolls-royce-a-kis-atomreaktorokkal/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/1c55bd979a27d5e0.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "acb84d4b-11b6-5747-be69-1f0536ef08f5"
+      ],
+      "see_also": [
+        {
+          "title": "Mi jön az orosz energiahordozók után? Itt vannak a tervek",
+          "url": "/penzvilag/2026-10-08-mi-jon-az-orosz-energiahordozok-utan-itt-vannak-a-tervek/",
+          "date": "2026-10-08"
+        }
+      ],
+      "thread_id": "acb84d4b-11b6-5747-be69-1f0536ef08f5",
+      "dedupe_hash": "7d2cb7d607bfba7cb5c893762538ea64461a223ae1f84dadc2bc9ca40a4f8dfd",
+      "pipeline_run_id": "37773398530",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T14:28:39+02:00",
+      "updated_at": "2026-10-08T14:28:39+02:00",
+      "published_at": "2026-10-08T14:28:39+02:00",
+      "expires_at": null
+    },
     {
       "id": "b343f9af-5be3-57e1-b7b7-527bb535c185",
       "slug": "2026-10-08-virtualis-focimeccsekkel-csaltak-ki-szazezreket-a-del-dunantuli-csalo",

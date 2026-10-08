@@ -8311,9 +8311,9 @@
       "live": true
     },
     {
-      "id": "4b2e6835-2511-5d38-9981-d33282cd9d2b",
-      "slug": "2026-10-08-akar-huszonot-szazalekkal-is-olcsobbak-lehetnek-az-uj-atomreaktorok",
-      "status": "pending",
+      "id": "3c3d943b-ffe0-587d-b028-72ba41140249",
+      "slug": "2026-10-08-magyarorszagot-celozza-meg-a-rolls-royce-a-kis-atomreaktorokkal",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -8323,7 +8323,7 @@
         "atomenergia",
         "gazdaság"
       ],
-      "title": "Akár huszonöt százalékkal is olcsóbbak lehetnek az új atomreaktorok",
+      "title": "Magyarországot célozza meg a Rolls-Royce a kis atomreaktorokkal",
       "subtitle": null,
       "lead": "Csütörtökön rajtolt el a Portfolio Energy Investment Forum 2026 konferencia, ahol az energiaszektor meghatározó szereplői vitatják meg az ágazat jövőjét. A rendezvényen bejelentették, hogy a sorozatgyártás jelentősen csökkentheti az új atomreaktorok költségeit.",
       "key_points": [
@@ -8344,16 +8344,17 @@
       "word_count": 181,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Advanced_Test_Reactor.jpg/1280px-Advanced_Test_Reactor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 1577,
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/1c55bd979a27d5e0.jpg",
+        "width": 6000,
+        "height": 4000,
         "kind": "photo",
-        "pos": "top",
-        "alt": "The following is the author's description of the photograph quoted directly from the photograph's Flickr page.\"Argonne National Laboratory and Idaho National Laboratory have announced a collaboration",
-        "credit": "Argonne National Laboratory / Wikimedia Commons",
-        "license": "CC BY-SA 2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Advanced_Test_Reactor.jpg",
-        "vision_score": 8.0
+        "alt": "nuclear power plant, rhine, flow, nuclear power, atomic energy, smoke, steam, industrial, energy, power supply, electricity, nuclear reactor, backlighting, nuclear power, nuclear power, nuclear power,",
+        "credit": "distelAPPArath / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/nuclear-power-plant-rhine-flow-4535760/",
+        "vision_score": 8.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/1c55bd979a27d5e0.jpg",
+        "orig_url": "https://pixabay.com/get/g2dc96a3dfc7dbded1a307ec583bb3d434808d12a367ce3617815d431d9d1f37b690bcaf09e74de170b826c47791549afe01484fd44a78e73cbd37ec52248032b_1280.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -8461,12 +8462,12 @@
       },
       "date": "2026-10-08",
       "date_label": "október 8.",
-      "url": "/penzvilag/2026-10-08-akar-huszonot-szazalekkal-is-olcsobbak-lehetnek-az-uj-atomreaktorok/",
+      "url": "/penzvilag/2026-10-08-magyarorszagot-celozza-meg-a-rolls-royce-a-kis-atomreaktorokkal/",
       "seo": {
-        "meta_title": "Akár huszonöt százalékkal is olcsóbbak lehetnek az új atomre",
+        "meta_title": "Magyarországot célozza meg a Rolls-Royce a kis atomreaktorok",
         "meta_description": "Csütörtökön rajtolt el a Portfolio Energy Investment Forum 2026 konferencia, ahol az energiaszektor meghatározó szereplői vitatják meg az ágazat jövőjét. A rend",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-08-akar-huszonot-szazalekkal-is-olcsobbak-lehetnek-az-uj-atomreaktorok/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Advanced_Test_Reactor.jpg/1280px-Advanced_Test_Reactor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-08-magyarorszagot-celozza-meg-a-rolls-royce-a-kis-atomreaktorokkal/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/1c55bd979a27d5e0.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8491,9 +8492,9 @@
       "dedupe_hash": "7d2cb7d607bfba7cb5c893762538ea64461a223ae1f84dadc2bc9ca40a4f8dfd",
       "pipeline_run_id": "37773398530",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-08T14:15:47+02:00",
-      "updated_at": "2026-10-08T14:15:47+02:00",
-      "published_at": "2026-10-08T14:15:47+02:00",
+      "created_at": "2026-10-08T14:28:39+02:00",
+      "updated_at": "2026-10-08T14:28:39+02:00",
+      "published_at": "2026-10-08T14:28:39+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -8503,16 +8504,12 @@
         "title": 1,
         "image": 3,
         "sent_at": "2026-10-08T12:17:02+00:00",
-        "msg_ids": [
-          3854,
-          3855,
-          3856,
-          3857,
-          3858,
-          3859
-        ],
-        "control_id": 3860
-      }
+        "msg_ids": [],
+        "control_id": 3860,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "fd97aa98-37ac-5824-b216-f014534992b3",
