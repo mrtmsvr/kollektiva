@@ -8862,6 +8862,590 @@
         "compact": "✅ Kint"
       },
       "live": true
+    },
+    {
+      "id": "4b2e6835-2511-5d38-9981-d33282cd9d2b",
+      "slug": "2026-10-08-akar-huszonot-szazalekkal-is-olcsobbak-lehetnek-az-uj-atomreaktorok",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "energia",
+        "beruházás",
+        "Rolls-Royce",
+        "atomenergia",
+        "gazdaság"
+      ],
+      "title": "Akár huszonöt százalékkal is olcsóbbak lehetnek az új atomreaktorok",
+      "subtitle": null,
+      "lead": "Csütörtökön rajtolt el a Portfolio Energy Investment Forum 2026 konferencia, ahol az energiaszektor meghatározó szereplői vitatják meg az ágazat jövőjét. A rendezvényen bejelentették, hogy a sorozatgyártás jelentősen csökkentheti az új atomreaktorok költségeit.",
+      "key_points": [
+        "Elindult a Portfolio Energy Investment Forum 2026 konferencia Budapesten.",
+        "Több mint negyven magyar beszállítóval tárgyal a Rolls-Royce SMR.",
+        "Akár 22–25 százalékkal is csökkenhet az új reaktorok ára a sorozatgyártással."
+      ],
+      "content": "Csütörtökön nyitotta meg kapuit a Portfolio Energy Investment Forum 2026, amelyen a magyar és az európai energiaszektor vezető döntéshozói, vállalatvezetők és nemzetközi szakértők tanácskoznak az iparág legfontosabb kihívásairól. Ahogy [korábban megírtuk](/penzvilag/2026-10-08-mi-jon-az-orosz-energiahordozok-utan-itt-vannak-a-tervek/), a rendezvény fókuszában az európai versenyképesség, az energiabiztonság, a geopolitikai átrendeződés és a zöld átállás áll.\n\nA nyitószekcióban Tótth András energetikai államtitkár ismertette a következő négy év energiapolitikai prioritásait, míg a délutáni programban a napenergia utáni beruházási hullámokat, a földgázpiac átalakulását és az orosz energiahordozók kiváltásának lehetőségeit járják körül.\n\nMagyarországot kiemelt piacként kezeli a Rolls-Royce SMR, amely már 2022 óta egyeztet a magyar kormánnyal, az energetikai vállalatokkal és a nukleáris hatóságokkal a kis moduláris atomreaktorok (SMR) hazai telepítéséről. A cég eddig több mint negyven magyar beszállítóval lépett kapcsolatba.\n\nEz a technológiai fejlődés idővel a magánfinanszírozás előtt is megnyithatja az utat a nukleáris energiatermelésben.",
+      "content_format": "markdown",
+      "body": [
+        "Csütörtökön nyitotta meg kapuit a Portfolio Energy Investment Forum 2026, amelyen a magyar és az európai energiaszektor vezető döntéshozói, vállalatvezetők és nemzetközi szakértők tanácskoznak az iparág legfontosabb kihívásairól. Ahogy [korábban megírtuk](/penzvilag/2026-10-08-mi-jon-az-orosz-energiahordozok-utan-itt-vannak-a-tervek/), a rendezvény fókuszában az európai versenyképesség, az energiabiztonság, a geopolitikai átrendeződés és a zöld átállás áll.",
+        "A nyitószekcióban Tótth András energetikai államtitkár ismertette a következő négy év energiapolitikai prioritásait, míg a délutáni programban a napenergia utáni beruházási hullámokat, a földgázpiac átalakulását és az orosz energiahordozók kiváltásának lehetőségeit járják körül.",
+        "Magyarországot kiemelt piacként kezeli a Rolls-Royce SMR, amely már 2022 óta egyeztet a magyar kormánnyal, az energetikai vállalatokkal és a nukleáris hatóságokkal a kis moduláris atomreaktorok (SMR) hazai telepítéséről. A cég eddig több mint negyven magyar beszállítóval lépett kapcsolatba.",
+        "Ez a technológiai fejlődés idővel a magánfinanszírozás előtt is megnyithatja az utat a nukleáris energiatermelésben."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 181,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Advanced_Test_Reactor.jpg/1280px-Advanced_Test_Reactor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1577,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "The following is the author's description of the photograph quoted directly from the photograph's Flickr page.\"Argonne National Laboratory and Idaho National Laboratory have announced a collaboration",
+        "credit": "Argonne National Laboratory / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Advanced_Test_Reactor.jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261008/hatalmas-erdeklodes-mellett-zajlik-a-portfolio-energy-investment-forum-2026-868162",
+          "title": "Hatalmas érdeklődés mellett zajlik a Portfolio Energy Investment Forum 2026",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T14:15:47+02:00"
+        }
+      ],
+      "quote": {
+        "text": "A sorozatgyártás révén akár 22–25 százalékkal is csökkenhet az új reaktorok költsége, ami idővel a magánfinanszírozás előtt is megnyithatja utat.",
+        "who": "Alexis Honner, a Rolls-Royce SMR új piacokért felelős üzletfejlesztési vezetője",
+        "after": 2
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Akár huszonöt százalékkal is olcsóbbak lehetnek az új atomreaktorok",
+        "Magyarországot célozza meg a Rolls-Royce a kis atomreaktorokkal",
+        "Körvonalazódnak a beruházási irányok a csütörtöki energetikai fórumon"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Advanced_Test_Reactor.jpg/1280px-Advanced_Test_Reactor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1577,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "The following is the author's description of the photograph quoted directly from the photograph's Flickr page.\"Argonne National Laboratory and Idaho National Laboratory have announced a collaboration",
+          "credit": "Argonne National Laboratory / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Advanced_Test_Reactor.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Top_of_reactor_containment_vessel_NS_Savannah_Baltimore_MD1.jpg/1280px-Top_of_reactor_containment_vessel_NS_Savannah_Baltimore_MD1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1802,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "The cutaway top of the nuclear reactor containment vessel, NS Savannah, Baltimore, Maryland, USA",
+          "credit": "Acroterion / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Top_of_reactor_containment_vessel_NS_Savannah_Baltimore_MD1.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/g1d1c57473e2af278cd2585d811c80b6a81b3e693e516b0abccc7f00faa50426142be66c31cc95cf65d299ce8f5269d112bfa3bae4aa81814b8e49e22dc34302e_1280.jpg",
+          "width": 5959,
+          "height": 3973,
+          "kind": "photo",
+          "alt": "nuclear power plant, cooling tower, water vapor, clouds, heaven, sunrise, mood, nature, industry, nuclear power, energy, power supply, technology, nuclear reactor, power plant, high voltage",
+          "credit": "distelAPPArath / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/nuclear-power-plant-cooling-tower-4529392/",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/g2dc96a3dfc7dbded1a307ec583bb3d434808d12a367ce3617815d431d9d1f37b690bcaf09e74de170b826c47791549afe01484fd44a78e73cbd37ec52248032b_1280.jpg",
+          "width": 6000,
+          "height": 4000,
+          "kind": "photo",
+          "alt": "nuclear power plant, rhine, flow, nuclear power, atomic energy, smoke, steam, industrial, energy, power supply, electricity, nuclear reactor, backlighting, nuclear power, nuclear power, nuclear power,",
+          "credit": "distelAPPArath / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/nuclear-power-plant-rhine-flow-4535760/",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://live.staticflickr.com/8208/8238698197_686fe7dbc7_b.jpg",
+          "width": 1024,
+          "height": 686,
+          "kind": "photo",
+          "alt": "Nuclear Power Plant",
+          "credit": "Lennart Tange / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/77856868@N04/8238698197",
+          "vision_score": 6.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Hatalmas érdeklődés mellett zajlik a Portfolio Energy Investment Forum 2026",
+          "link": "https://www.portfolio.hu/gazdasag/20261008/hatalmas-erdeklodes-mellett-zajlik-a-portfolio-energy-investment-forum-2026-868162",
+          "summary": "Csütörtökön elindult a Portfolio Energy Investment Forum 2026, ahol a magyar és európai energiaszektor meghatározó döntéshozói, vállalatvezetők és nemzetközi szakértők vitatják meg az ágazat legfontosabb kihívásait. A konferencia fókuszában az európai versenyképesség, az energiabiztonság, a geopolitikai átrendeződés és a zöld átállás áll. A nyitószekcióban Tótth András energetikai államtitkár a következő négy év energiapolitikai prioritásait ismerteti, a délutáni programban pedig a napenergia utáni következő nagy beruházási hullám lehetőségeit, a földgázpiac átalakulását és az orosz energiahor",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261008/hatalmas-erdeklodes-mellett-zajlik-a-portfolio-energy-investment-forum-2026-868162"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/penzvilag/2026-10-08-akar-huszonot-szazalekkal-is-olcsobbak-lehetnek-az-uj-atomreaktorok/",
+      "seo": {
+        "meta_title": "Akár huszonöt százalékkal is olcsóbbak lehetnek az új atomre",
+        "meta_description": "Csütörtökön rajtolt el a Portfolio Energy Investment Forum 2026 konferencia, ahol az energiaszektor meghatározó szereplői vitatják meg az ágazat jövőjét. A rend",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-08-akar-huszonot-szazalekkal-is-olcsobbak-lehetnek-az-uj-atomreaktorok/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Advanced_Test_Reactor.jpg/1280px-Advanced_Test_Reactor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "acb84d4b-11b6-5747-be69-1f0536ef08f5"
+      ],
+      "see_also": [
+        {
+          "title": "Mi jön az orosz energiahordozók után? Itt vannak a tervek",
+          "url": "/penzvilag/2026-10-08-mi-jon-az-orosz-energiahordozok-utan-itt-vannak-a-tervek/",
+          "date": "2026-10-08"
+        }
+      ],
+      "thread_id": "acb84d4b-11b6-5747-be69-1f0536ef08f5",
+      "dedupe_hash": "7d2cb7d607bfba7cb5c893762538ea64461a223ae1f84dadc2bc9ca40a4f8dfd",
+      "pipeline_run_id": "37773398530",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T14:15:47+02:00",
+      "updated_at": "2026-10-08T14:15:47+02:00",
+      "published_at": "2026-10-08T14:15:47+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-08T12:17:02+00:00",
+        "msg_ids": [
+          3854,
+          3855,
+          3856,
+          3857,
+          3858,
+          3859
+        ],
+        "control_id": 3860
+      }
+    },
+    {
+      "id": "fd97aa98-37ac-5824-b216-f014534992b3",
+      "slug": "2026-10-08-nemzedekek-slagere-volt-71-evesen-is-turnezik-a-prognozis-egykori-fro",
+      "status": "pending",
+      "category": "kultura",
+      "subcategory": null,
+      "tags": [
+        "Vörös István",
+        "Prognózis",
+        "zene",
+        "koncert",
+        "interjú"
+      ],
+      "title": "Nemzedékek slágere volt: 71 évesen is turnézik a Prognózis egykori frontembere",
+      "subtitle": null,
+      "lead": "Hetvenegy esztendősen is aktívan zenél és turnézik Vörös István, a nyolcvanas évek egyik legikonikusabb hazai slágerének szerzője. A Prognózis egykori frontembere a mai napig hű maradt a rockhoz és a lázadó életfelfogáshoz.",
+      "key_points": [
+        "Vörös István hetvenegy évesen is aktív szólókarrierrel és időnkénti Prognózis-koncertekkel járja az országot.",
+        "A Tele van a város szerelemmel című sláger a nyolcvanas évek közepén született, amikor a hedonista életfelfogás még ritkaságnak számított.",
+        "A zenész öt évig élt Svájcban és Liechtensteinben, ahol vendéglátózott, mielőtt visszatért a hazai rockszínpadokra.",
+        "Október 10-én a Prognózis a Barba Negra klubban lép fel a Dinoszauruszok éjszakáján."
+      ],
+      "content": "A nyolcvanas évek közepén meglehetősen szokatlan látványt nyújtott egy piros dzsekis, fekete farmerre húzott mintás alsógatyában éneklő fiatalember az utcai járókelők között. Vörös István akkori fellépése és a Tele van a város szerelemmel című dala mára a korszak egyik legemlékezetesebb szimbólumává vált. A Blikknek adott interjúja szerint a dal nem hordoz bonyolult filozófiát, csupán azt az elemi vágyat tükrözi, amelyet a katonaságtól való leszerelés után érzett: a vad, szabad és korlátok nélküli életet.\n\nEz a szerzemény a korabeli, elvtársias légkörben szinte a szinglik és a magányosok himnuszává vált, sőt később még a fiatalon elhunyt szépségkirálynő, Molnár Andrea életéről szóló filmben is felcsendült. Bár a kultikus videóklipben szereplő alsógatya az évek során valahol elveszett, az előadó ma is remek fizikai formában őrzi a hetvenegy évesen is lendületes életstílusát.\n\nA zenei pálya nem alakult folyamatosan lineárisan: a Prognózis nevű formáció 1981 februári megalakulásától 1988-ig létezett, utána Vörös István külföldre távozott. Svájcban és Liechtensteinben vendéglátózott, mielőtt hazatért és visszatért a rockzenéhez.\n\nA rajongóknak sem kell sokat várniuk az újabb találkozásra, hiszen október 10-én, szombaton a Prognózis a Barba Negra klubban koncertezik a Dinoszauruszok éjszakáján a P. Mobil és az ős-P.Box társaságában.",
+      "content_format": "markdown",
+      "body": [
+        "A nyolcvanas évek közepén meglehetősen szokatlan látványt nyújtott egy piros dzsekis, fekete farmerre húzott mintás alsógatyában éneklő fiatalember az utcai járókelők között. Vörös István akkori fellépése és a Tele van a város szerelemmel című dala mára a korszak egyik legemlékezetesebb szimbólumává vált. A Blikknek adott interjúja szerint a dal nem hordoz bonyolult filozófiát, csupán azt az elemi vágyat tükrözi, amelyet a katonaságtól való leszerelés után érzett: a vad, szabad és korlátok nélküli életet.",
+        "Ez a szerzemény a korabeli, elvtársias légkörben szinte a szinglik és a magányosok himnuszává vált, sőt később még a fiatalon elhunyt szépségkirálynő, Molnár Andrea életéről szóló filmben is felcsendült. Bár a kultikus videóklipben szereplő alsógatya az évek során valahol elveszett, az előadó ma is remek fizikai formában őrzi a hetvenegy évesen is lendületes életstílusát.",
+        "A zenei pálya nem alakult folyamatosan lineárisan: a Prognózis nevű formáció 1981 februári megalakulásától 1988-ig létezett, utána Vörös István külföldre távozott. Svájcban és Liechtensteinben vendéglátózott, mielőtt hazatért és visszatért a rockzenéhez.",
+        "A rajongóknak sem kell sokat várniuk az újabb találkozásra, hiszen október 10-én, szombaton a Prognózis a Barba Negra klubban koncertezik a Dinoszauruszok éjszakáján a P. Mobil és az ős-P.Box társaságában."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 224,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/V%C3%B6r%C3%B6s_Istv%C3%A1n_arck%C3%A9p.JPG/1280px-V%C3%B6r%C3%B6s_Istv%C3%A1n_arck%C3%A9p.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1202,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "István Vörös musician.",
+        "credit": "Vörös István / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:V%C3%B6r%C3%B6s_Istv%C3%A1n_arck%C3%A9p.JPG",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/voros-istvan-prognozis-alsonadrag/2xbxdjt",
+          "title": "Így él most Vörös István – A zenészlegenda mintás alsógatyát húzott a farmerére és megalkotta a magányosok himnuszát",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T14:17:12+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Ennyi év távlatából gyárthatnék valamiféle különleges filozófiát ehhez a dalhoz, de felesleges. Egyszerűen arról szól, hogy az ember élni akar, méghozzá minél izgalmasabban, minél vadabbul.",
+        "who": "Vörös István zenész",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Nemzedékek slágere volt: 71 évesen is turnézik a Prognózis egykori frontembere",
+        "Nemzedékek himnusza volt a tiltottnak hitt sláger",
+        "Így éli napjait a 71 éves rocklegenda",
+        "Fekete farmer, mintás alsógatya: ezt a videóklipet még ma sem felejtette el a közönség",
+        "Svájci vendéglátózás után Rákospalotán zenél a Prognózis legendája",
+        "Így él ma a nyolcvanas évek kultikus rockzenéje és legnagyobb lázadója"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/V%C3%B6r%C3%B6s_Istv%C3%A1n_arck%C3%A9p.JPG/1280px-V%C3%B6r%C3%B6s_Istv%C3%A1n_arck%C3%A9p.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1202,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "István Vörös musician.",
+          "credit": "Vörös István / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:V%C3%B6r%C3%B6s_Istv%C3%A1n_arck%C3%A9p.JPG",
+          "vision_score": 10.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Így él most Vörös István – A zenészlegenda mintás alsógatyát húzott a farmerére és megalkotta a magányosok himnuszát",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/voros-istvan-prognozis-alsonadrag/2xbxdjt",
+          "summary": "Bizony, tele van a város szerelemmel. És ez így lesz mindig, míg világ a világ. Bár amikor a nyolcvanas évek közepén egy jóképű, piros dzsekis fiatalember ezt énekelte az utcán, a járókelők között, meglehetősen furcsán néztek rá. Nemcsak a dal hatott az emberekre, hanem az előadó külseje is, merthogy fekete farmerjára egy mintás alsógatyát húzott. Vörös István azóta már valahol elhagyta ezt a videóklipben is látható, kultikus ruhadarabot, de ő maga 71 esztendősen is örök lázadó maradt.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/voros-istvan-prognozis-alsonadrag/2xbxdjt"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/kultura/2026-10-08-nemzedekek-slagere-volt-71-evesen-is-turnezik-a-prognozis-egykori-fro/",
+      "seo": {
+        "meta_title": "Nemzedékek slágere volt: 71 évesen is turnézik a Prognózis e",
+        "meta_description": "Hetvenegy esztendősen is aktívan zenél és turnézik Vörös István, a nyolcvanas évek egyik legikonikusabb hazai slágerének szerzője. A Prognózis egykori frontembe",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-08-nemzedekek-slagere-volt-71-evesen-is-turnezik-a-prognozis-egykori-fro/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/V%C3%B6r%C3%B6s_Istv%C3%A1n_arck%C3%A9p.JPG/1280px-V%C3%B6r%C3%B6s_Istv%C3%A1n_arck%C3%A9p.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "78d3d8b11e42a93107dd00803bf5b940f77167cf14c92c7c8b1d642b7fbc6e63",
+      "pipeline_run_id": "37773398530",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T14:17:12+02:00",
+      "updated_at": "2026-10-08T14:17:12+02:00",
+      "published_at": "2026-10-08T14:17:12+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-08T12:19:01+00:00",
+        "msg_ids": [
+          3861,
+          3862
+        ],
+        "control_id": 3863
+      }
+    },
+    {
+      "id": "0edad11e-4111-5de7-b6d4-17e727509afc",
+      "slug": "2026-10-08-hetszazhuszonket-matematikai-tanulmanyt-publikalt-egyszerre-az-openai",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "OpenAI",
+        "mesterséges intelligencia",
+        "matematika",
+        "Riemann-sejtés",
+        "tudomány"
+      ],
+      "title": "Hétszázhuszonkét matematikai tanulmányt publikált egyszerre az OpenAI",
+      "subtitle": null,
+      "lead": "Az OpenAI október 6-án közzétett 722 olyan matematikai tanulmányt, amelyeket egy, a nagyközönség elől eddig elzárt, belső mesterségesintelligencia-modellel írtak.",
+      "key_points": [
+        "Az OpenAI 722 új matematikai tanulmányt tett közzé egy nyilvános GitHub-tárhelyen.",
+        "A vizsgált témák között szerepel a milliószoros jutalommal járó Riemann-sejtés egy gyengébb változata is."
+      ],
+      "content": "Az OpenAI október 6-án, kedden egy nyilvánosan még nem elérhető, belső mesterségesintelligencia-modellje által írt matematikai tanulmányokat hozott nyilvánosságra egy GitHub-tárhelyen. Az összesen 722 anyagot 372 eredménycsoportba rendezték, amelyek 17 különböző matematikai területet ölelnek fel. A dokumentumok a modell fejlesztése során készültek, miután a szoftver a meglévő matematikai teszteken már a maximális eredményt hozta. A tesztidőszak alatt a rendszer megközelítőleg 4000 problémát kapott, egy-egy végeredmény pedig átlagosan három órányi ChatGPT Pro-gondolkodásnak megfelelő számítási kapacitást igényelt.\n\nA kiadott tanulmányok közül a legnagyobb visszhangot a Riemann-sejtéshez kapcsolódó eredmény kapta. A prímszámok eloszlásáról szóló, egymillió dolláros jutalommal kiírt millenniumi probléma teljes megoldását a csomag ugyan nem tartalmazza, de annak egy gyengébb változatát sikerült bizonyítaniuk: a levezetés szerint egy széles függvénycsaládnak – beleértve a Riemann-féle zétafüggvényt is – egy jól meghatározott tartományban nincs zérushelye. Ezenfelül a dokumentumok között szerepel Kaplansky egyik algebrai sejtésének ellenpéldája, valamint a Mahler-sejtés bizonyítása is.\n\nA mesterséges intelligencia által elért eredmények hitelességét a szakma még vizsgálja. A cég a bizonyítások egy részét Lean programozási nyelven is közzétette, amellyel egy gép ellenőrizheti a levezetés minden lépését; ez a módszer 162 fő eredményre terjed ki. Az OpenAI fejlesztői ugyanakkor maguk is figyelmeztetnek arra, hogy a gépileg még nem ellenőrzött levezetések között hibásak is előfordulhatnak, az eredmények megítélését pedig a tudományos közösségre bízzák.\n\nA tudományos élet szereplői rendkívül eltérően reagáltak a példátlan publikációra. Ezzel szemben Peter Woit, a Columbia Egyetem matematika tanszékének fizikusa szerint a kiadvány az úgynevezett slopokalipszis, vagyis az MI-generált szemét tudományos formába csomagolt változata, míg Alvaro Lozano-Robledo, a Connecticuti Egyetem matematikusa azt kifogásolta, hogy a cég miért akar egyszerre ennyi ellenőrizetlen anyagot közzétenni.",
+      "content_format": "markdown",
+      "body": [
+        "Az OpenAI október 6-án, kedden egy nyilvánosan még nem elérhető, belső mesterségesintelligencia-modellje által írt matematikai tanulmányokat hozott nyilvánosságra egy GitHub-tárhelyen. Az összesen 722 anyagot 372 eredménycsoportba rendezték, amelyek 17 különböző matematikai területet ölelnek fel. A dokumentumok a modell fejlesztése során készültek, miután a szoftver a meglévő matematikai teszteken már a maximális eredményt hozta. A tesztidőszak alatt a rendszer megközelítőleg 4000 problémát kapott, egy-egy végeredmény pedig átlagosan három órányi ChatGPT Pro-gondolkodásnak megfelelő számítási kapacitást igényelt.",
+        "A kiadott tanulmányok közül a legnagyobb visszhangot a Riemann-sejtéshez kapcsolódó eredmény kapta. A prímszámok eloszlásáról szóló, egymillió dolláros jutalommal kiírt millenniumi probléma teljes megoldását a csomag ugyan nem tartalmazza, de annak egy gyengébb változatát sikerült bizonyítaniuk: a levezetés szerint egy széles függvénycsaládnak – beleértve a Riemann-féle zétafüggvényt is – egy jól meghatározott tartományban nincs zérushelye. Ezenfelül a dokumentumok között szerepel Kaplansky egyik algebrai sejtésének ellenpéldája, valamint a Mahler-sejtés bizonyítása is.",
+        "A mesterséges intelligencia által elért eredmények hitelességét a szakma még vizsgálja. A cég a bizonyítások egy részét Lean programozási nyelven is közzétette, amellyel egy gép ellenőrizheti a levezetés minden lépését; ez a módszer 162 fő eredményre terjed ki. Az OpenAI fejlesztői ugyanakkor maguk is figyelmeztetnek arra, hogy a gépileg még nem ellenőrzött levezetések között hibásak is előfordulhatnak, az eredmények megítélését pedig a tudományos közösségre bízzák.",
+        "A tudományos élet szereplői rendkívül eltérően reagáltak a példátlan publikációra. Ezzel szemben Peter Woit, a Columbia Egyetem matematika tanszékének fizikusa szerint a kiadvány az úgynevezett slopokalipszis, vagyis az MI-generált szemét tudományos formába csomagolt változata, míg Alvaro Lozano-Robledo, a Connecticuti Egyetem matematikusa azt kifogásolta, hogy a cég miért akar egyszerre ennyi ellenőrizetlen anyagot közzétenni."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 289,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Timeline_of_artificial_intelligence_training_computation_for_the_last_8_decades.png/1280px-Timeline_of_artificial_intelligence_training_computation_for_the_last_8_decades.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1478,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "The raise of AI over the last 8 decades",
+        "credit": "Our World in Data / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Timeline_of_artificial_intelligence_training_computation_for_the_last_8_decades.png"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://qubit.hu/2026/10/08/a-matematika-tortenetenek-legjelentosebb-pillanata-az-openai-722-uj-tanulmanyt-mutatott-be-egy-nap-alatt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "„A matematika történetének legjelentősebb pillanata” – az OpenAI 722 új tanulmányt mutatott be egy nap alatt",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-10-08T14:19:17+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Nyilvánvalóan ez a matematika történetének legjelentősebb pillanata",
+        "who": "Levent Alpöge, az Anthropic matematikusa",
+        "after": 2
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.58,
+      "title_options": [
+        "Hétszázhuszonkét matematikai tanulmányt publikált egyszerre az OpenAI",
+        "Háromórányi gépi gondolkodással írt tízezer oldalas cikksorozatot az OpenAI",
+        "Megosztotta a szakmát a mesterséges intelligencia által írt matematikai csomag",
+        "Slopokalipszis vagy áttörés? Titkos modellel támadta meg a legnehezebb sejtéseket az OpenAI",
+        "Milliószoros tempóban bizonyít az AI: ez a matematikusok leg rémálma?"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Timeline_of_artificial_intelligence_training_computation_for_the_last_8_decades.png/1280px-Timeline_of_artificial_intelligence_training_computation_for_the_last_8_decades.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1478,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "The raise of AI over the last 8 decades",
+          "credit": "Our World in Data / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Timeline_of_artificial_intelligence_training_computation_for_the_last_8_decades.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Artificial_Intelligence_Word_Cloud.png/1280px-Artificial_Intelligence_Word_Cloud.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 675,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "This image was created with the WordCloud Python library.",
+          "credit": "Madhav-Malhotra-003 / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Artificial_Intelligence_Word_Cloud.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1280px-GitHub_logo_2013.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 342,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "GitHub redesigned logo, April 2013.",
+          "credit": "GitHub / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:GitHub_logo_2013.svg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1280px-GitHub_Invertocat_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1200,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "GitHub Invertocat logo changed on February 2021",
+          "credit": "GitHub / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:GitHub_Invertocat_Logo.svg"
+        },
+        {
+          "url": "https://pixabay.com/get/gbe4d9d44c75bb891c30c9c15fb994f6ced52aa59373cfa4b107c25a41bf1bc1587fb8f025b94b6bcc64088b75c96591c607d71008204a41a0e529e142a8da6be_1280.jpg",
+          "width": 3543,
+          "height": 2365,
+          "kind": "photo",
+          "alt": "code, coding, computer, data, developing, development, ethernet, html, programmer, programming, screen, software, technology, work, code, code, coding, coding, coding, coding, coding, computer, comput",
+          "credit": "Pexels / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/code-coding-computer-data-1839406/"
+        },
+        {
+          "url": "https://pixabay.com/get/geb510760e18e292d4f105ed13a7dbbcf4b12795b6ff5af63f97a8702f84288cca7fa320a64b114ffb5992109bfacd10489e57b594ec6bf49a59c9f69f9ee69f7_1280.jpg",
+          "width": 5456,
+          "height": 3064,
+          "kind": "photo",
+          "alt": "code, html, digital, coding, web, programming, computer, technology, internet, design, development, website, web developer, web development, programming code, data, page, computer programming, softwar",
+          "credit": "jamesmarkosborne / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/code-html-digital-coding-web-1076536/"
+        },
+        {
+          "url": "https://live.staticflickr.com/7382/15787237274_8d3c544464_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Cool Reflecting Source Code Screen at GGJ Berlin 2015",
+          "credit": "qubodup / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/21051491@N02/15787237274"
+        },
+        {
+          "url": "https://live.staticflickr.com/677/32294675551_0d02e99735_b.jpg",
+          "width": 1024,
+          "height": 684,
+          "kind": "photo",
+          "alt": "code-screen-monitor",
+          "credit": "CCØBAY / flickr",
+          "license": "Public domain",
+          "source_url": "https://www.flickr.com/photos/151198978@N08/32294675551"
+        }
+      ],
+      "story": [
+        {
+          "title": "„A matematika történetének legjelentősebb pillanata” – az OpenAI 722 új tanulmányt mutatott be egy nap alatt",
+          "link": "https://qubit.hu/2026/10/08/a-matematika-tortenetenek-legjelentosebb-pillanata-az-openai-722-uj-tanulmanyt-mutatott-be-egy-nap-alatt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "summary": "A cég kiadatlan AI-modellje a legnehezebb matematikai problémákat vizsgálta, és mindössze három órányi ChatGPT-gondolkodásnak megfelelő számítási kapacitás kellett neki egy-egy eredményhez. A matematikusok továbbra is megosztottak.",
+          "source": "qubit.hu",
+          "related": null,
+          "hot_score": 5.58
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://qubit.hu/2026/10/08/a-matematika-tortenetenek-legjelentosebb-pillanata-az-openai-722-uj-tanulmanyt-mutatott-be-egy-nap-alatt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
+        ]
+      },
+      "date": "2026-10-08",
+      "date_label": "október 8.",
+      "url": "/tech/2026-10-08-hetszazhuszonket-matematikai-tanulmanyt-publikalt-egyszerre-az-openai/",
+      "seo": {
+        "meta_title": "Hétszázhuszonkét matematikai tanulmányt publikált egyszerre ",
+        "meta_description": "Az OpenAI október 6-án közzétett 722 olyan matematikai tanulmányt, amelyeket egy, a nagyközönség elől eddig elzárt, belső mesterségesintelligencia-modellel írta",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-08-hetszazhuszonket-matematikai-tanulmanyt-publikalt-egyszerre-az-openai/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Timeline_of_artificial_intelligence_training_computation_for_the_last_8_decades.png/1280px-Timeline_of_artificial_intelligence_training_computation_for_the_last_8_decades.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "8f98c86f63fdda5f587492bd3351098a55e26c8780e53d3c16ebfeb0e139643e",
+      "pipeline_run_id": "37773398530",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-08T14:19:17+02:00",
+      "updated_at": "2026-10-08T14:19:17+02:00",
+      "published_at": "2026-10-08T14:19:17+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": [],
+        "auto_fixed": [
+          "A becsületsértőnek ítélt kifejezést forrásmegjelöléssel („szerint”) elláttuk a jogi lektor utasítása alapján."
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-08T12:20:41+00:00",
+        "msg_ids": [
+          3864,
+          3865,
+          3866,
+          3867,
+          3868,
+          3869,
+          3870,
+          3871,
+          3872
+        ],
+        "control_id": 3873
+      }
     }
   ]
 }

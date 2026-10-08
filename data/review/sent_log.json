@@ -1,130 +1,6 @@
 {
   "items": [
     {
-      "t": "2026-10-05T10:42:00+00:00",
-      "title": "Marad a kamatstop, mert még nincs megállapodás a bankokkal",
-      "cat": "kozelet",
-      "kw": [
-        "bankokk",
-        "bankszö",
-        "egyelőr",
-        "kamatst",
-        "kormány",
-        "marad",
-        "megszól",
-        "megálla",
-        "mert",
-        "nincs",
-        "pénzügy",
-        "sincs",
-        "továbbr",
-        "váratla"
-      ],
-      "links": [
-        "https://www.portfolio.hu/bank/20261005/kamatstop-varatlanul-megszolalt-a-penzugyminiszterium-867398",
-        "https://telex.hu/gazdasag/2026/10/05/penzugyminiszterium-kamatstop-egyeztetes-bankok"
-      ],
-      "imgs": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Budapest_Stock_Exchange_Palace.jpg/1280px-Budapest_Stock_Exchange_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009%2C_Budapest.jpg/1280px-Magyar_Nemzeti_Bank_%C3%A9p%C3%BClet%C3%A9nek_nyugati_homlokzata._-_2009%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Budapest_stock_exchange.jpg/1280px-Budapest_stock_exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/A_Magyar_Nemzeti_Bank_%C3%A9p%C3%BClete_Budapest8.jpg/1280px-A_Magyar_Nemzeti_Bank_%C3%A9p%C3%BClete_Budapest8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
-    },
-    {
-      "t": "2026-10-05T10:43:24+00:00",
-      "title": "Fénnyel kapcsolható ki és be az agy a friss Nobel-díj szerint",
-      "cat": "tech",
-      "kw": [
-        "2026",
-        "ezért",
-        "friss",
-        "fénnyel",
-        "hogyan",
-        "idegsej",
-        "idén",
-        "irányít",
-        "járt",
-        "kapcsol",
-        "nobel",
-        "orvosi"
-      ],
-      "links": [
-        "https://telex.hu/techtud/2026/10/05/fiziologiai-es-orvostudomanyi-nobel-dij-karl-deisseroth-peter-hegemann-georg-nagel-optogenetika",
-        "https://hvg.hu/tudomany/20261005_orvosi-nobel-dij-2026-karl-deisseroth-peter-hegemann-georg-nagel-ebx"
-      ],
-      "imgs": [
-        "https://pixabay.com/get/ge33482bbc3843419db55eea42ac43c81ff5dc339f5f6f23a9f4232425529ab1a0a6e8ff5a8329fc5a5f8a402803ce2bd585b033d8587309f1835deb0a3f46294_1280.jpg",
-        "https://pixabay.com/get/gc3606fbf52da6740a7fea65179db0fe11117dd37fc0c799e14ee2b5edea3c21febb6422d9b7eb3e3ed150022d8d411838d4486c518c4943a8fa3337448caa54c_1280.jpg"
-      ]
-    },
-    {
-      "t": "2026-10-05T10:45:05+00:00",
-      "title": "Harminckét milliós juttatás távozáskor: így búcsúztak Bús Balázstól",
-      "cat": "kozelet",
-      "kw": [
-        "alelnök",
-        "arról",
-        "azóta",
-        "balázs",
-        "balázst",
-        "búcsúpé",
-        "búcsúzt",
-        "csák",
-        "harminc",
-        "juttatá",
-        "jánostó",
-        "kapott",
-        "letartó",
-        "milliós",
-        "molnár",
-        "posztol",
-        "távozás",
-        "áron"
-      ],
-      "links": [
-        "https://telex.hu/belfold/2026/10/05/molnar-aron-bus-balazs-bucsupenz-csak-janos",
-        "https://hvg.hu/itthon/20261005_bucsupenz-bus-balazs-nka-ugy-letartoztatas"
-      ],
-      "imgs": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/B%C3%BAs_Bal%C3%A1zs.jpg/1280px-B%C3%BAs_Bal%C3%A1zs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f8/Emberi_Er%C5%91forr%C3%A1s_T%C3%A1mogat%C3%A1skezel%C5%91_Nemzeti_Kultur%C3%A1lis_Alap%2C_Gyulai_P%C3%A1l_utca_13%2C_2017_Palotanegyed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_%281872%29%2C_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg/1280px-Gyulai_P%C3%A1l_13._bej%C3%A1rata_-_kor%C3%A1bban_Gottgeb_Antal_lak%C3%B3h%C3%A1za_%281872%29%2C_ma_a_Magyar_Kultur%C3%A1lis_Alap_Igazgat%C3%B3s%C3%A1ga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
-    },
-    {
-      "t": "2026-10-05T10:47:19+00:00",
-      "title": "Flávio Bolsonaro nyerte a brazil elnökválasztás első fordulóját, de lesz második",
-      "cat": "vilag",
-      "kw": [
-        "bolsona",
-        "brazil",
-        "brazíli",
-        "dönt",
-        "elnöksé",
-        "elnökvá",
-        "első",
-        "flávio",
-        "forduló",
-        "jair",
-        "jobbold",
-        "majd",
-        "második",
-        "nyert",
-        "nyerte",
-        "ugyan"
-      ],
-      "links": [
-        "https://hvg.hu/vilag/20261005_brazil-elnokvalasztas-elso-fordulo-flavio-bolsonaro-luiz-inacio-lula-da-silva"
-      ],
-      "imgs": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Pedro_Guimar%C3%A3es%2C_Jair_Bolsonaro_e_Fl%C3%A1vio_Bolsonaro.jpg/1280px-Pedro_Guimar%C3%A3es%2C_Jair_Bolsonaro_e_Fl%C3%A1vio_Bolsonaro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Entrevistas_-_Senador_Fl%C3%A1vio_Bolsonaro_%28Republicanos-RJ%29_e_advogado_Frederick_Wassef.jpg/1280px-Entrevistas_-_Senador_Fl%C3%A1vio_Bolsonaro_%28Republicanos-RJ%29_e_advogado_Frederick_Wassef.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/7/79/Donald_Trump%2C_Eduardo_Bolsonaro%2C_Fl%C3%A1vio_Bolsonaro%2C_and_Paulo_Figueiredo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Latin_America%2C_2006.jpg/1280px-Latin_America%2C_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
-    },
-    {
       "t": "2026-10-05T12:55:37+00:00",
       "title": "370-nél remeg a forint, de a tőzsde máris rákapcsolt",
       "cat": "penzvilag",
@@ -3150,6 +3026,99 @@
         "https://hvg.hu/itthon/20261008_online-sportfogadas-v-sport-csalas-vademeles-ugyeszseg"
       ],
       "imgs": []
+    },
+    {
+      "t": "2026-10-08T12:16:59+00:00",
+      "title": "Akár huszonöt százalékkal is olcsóbbak lehetnek az új atomreaktorok",
+      "cat": "penzvilag",
+      "kw": [
+        "2026",
+        "akár",
+        "atomrea",
+        "energy",
+        "forum",
+        "hatalma",
+        "huszonö",
+        "investm",
+        "lehetne",
+        "mellett",
+        "olcsóbb",
+        "portfol",
+        "százalé",
+        "zajlik",
+        "érdeklő"
+      ],
+      "links": [
+        "https://www.portfolio.hu/gazdasag/20261008/hatalmas-erdeklodes-mellett-zajlik-a-portfolio-energy-investment-forum-2026-868162"
+      ],
+      "imgs": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Advanced_Test_Reactor.jpg/1280px-Advanced_Test_Reactor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Top_of_reactor_containment_vessel_NS_Savannah_Baltimore_MD1.jpg/1280px-Top_of_reactor_containment_vessel_NS_Savannah_Baltimore_MD1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://pixabay.com/get/g1d1c57473e2af278cd2585d811c80b6a81b3e693e516b0abccc7f00faa50426142be66c31cc95cf65d299ce8f5269d112bfa3bae4aa81814b8e49e22dc34302e_1280.jpg",
+        "https://pixabay.com/get/g2dc96a3dfc7dbded1a307ec583bb3d434808d12a367ce3617815d431d9d1f37b690bcaf09e74de170b826c47791549afe01484fd44a78e73cbd37ec52248032b_1280.jpg",
+        "https://live.staticflickr.com/8208/8238698197_686fe7dbc7_b.jpg"
+      ]
+    },
+    {
+      "t": "2026-10-08T12:18:47+00:00",
+      "title": "Nemzedékek slágere volt: 71 évesen is turnézik a Prognózis egykori frontembere",
+      "cat": "kultura",
+      "kw": [
+        "alsógat",
+        "egykori",
+        "farmeré",
+        "frontem",
+        "himnusz",
+        "húzott",
+        "istván",
+        "magányo",
+        "megalko",
+        "mintás",
+        "most",
+        "nemzedé",
+        "prognóz",
+        "slágere",
+        "turnézi",
+        "vörös",
+        "zenészl",
+        "évesen"
+      ],
+      "links": [
+        "https://www.blikk.hu/sztarvilag/hazai-sztarok/voros-istvan-prognozis-alsonadrag/2xbxdjt"
+      ],
+      "imgs": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/V%C3%B6r%C3%B6s_Istv%C3%A1n_arck%C3%A9p.JPG/1280px-V%C3%B6r%C3%B6s_Istv%C3%A1n_arck%C3%A9p.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
+    },
+    {
+      "t": "2026-10-08T12:20:15+00:00",
+      "title": "Hétszázhuszonkét matematikai tanulmányt publikált egyszerre az OpenAI",
+      "cat": "tech",
+      "kw": [
+        "egyszer",
+        "hétszáz",
+        "legjele",
+        "matemat",
+        "mutatot",
+        "openai",
+        "pillana",
+        "publiká",
+        "tanulmá",
+        "történe"
+      ],
+      "links": [
+        "https://qubit.hu/2026/10/08/a-matematika-tortenetenek-legjelentosebb-pillanata-az-openai-722-uj-tanulmanyt-mutatott-be-egy-nap-alatt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
+      ],
+      "imgs": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Timeline_of_artificial_intelligence_training_computation_for_the_last_8_decades.png/1280px-Timeline_of_artificial_intelligence_training_computation_for_the_last_8_decades.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Artificial_Intelligence_Word_Cloud.png/1280px-Artificial_Intelligence_Word_Cloud.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1280px-GitHub_logo_2013.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1280px-GitHub_Invertocat_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://pixabay.com/get/gbe4d9d44c75bb891c30c9c15fb994f6ced52aa59373cfa4b107c25a41bf1bc1587fb8f025b94b6bcc64088b75c96591c607d71008204a41a0e529e142a8da6be_1280.jpg",
+        "https://pixabay.com/get/geb510760e18e292d4f105ed13a7dbbcf4b12795b6ff5af63f97a8702f84288cca7fa320a64b114ffb5992109bfacd10489e57b594ec6bf49a59c9f69f9ee69f7_1280.jpg",
+        "https://live.staticflickr.com/7382/15787237274_8d3c544464_b.jpg",
+        "https://live.staticflickr.com/677/32294675551_0d02e99735_b.jpg"
+      ]
     }
   ]
 }
