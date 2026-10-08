@@ -8335,8 +8335,8 @@
         "issues": []
       },
       "review": {
-        "title": 0,
-        "image": 0,
+        "title": 1,
+        "image": 5,
         "sent_at": "2026-10-08T19:24:18+00:00",
         "msg_ids": [
           4006,
