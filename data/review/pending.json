@@ -8037,28 +8037,90 @@
       "clickbait_from": 1,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Pusk%C3%A1s_Ar%C3%A9na_%282%29.jpg/1280px-Pusk%C3%A1s_Ar%C3%A9na_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Banknote_20_kronen_1918_reverse_II._KIAD%C3%81S.jpg/1280px-Banknote_20_kronen_1918_reverse_II._KIAD%C3%81S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 589,
+          "height": 715,
           "kind": "photo",
           "pos": "center",
-          "alt": "Puskás Aréna. Budapest, Central Europe. On the day of the opening.  Hungary-Uruguay 1-2.",
-          "credit": "Elekes Andor / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Pusk%C3%A1s_Ar%C3%A9na_(2).jpg",
-          "vision_score": 6.0
+          "alt": "Austro-Hungarian banknote 20 Kronen 1918 (second issue)",
+          "credit": "Österreichisch-ungarische Bank, Josef Pfeiffer / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Banknote_20_kronen_1918_reverse_II._KIAD%C3%81S.jpg"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Pusk%C3%A1s_Ar%C3%A9na_%283%29.jpg/1280px-Pusk%C3%A1s_Ar%C3%A9na_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Banknote_50_Kronen_1914_language_detail.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
-          "height": 745,
+          "height": 1167,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Detail of a 50 Austro-Hungarian Krone/korona banknote from 1914: indication of value in the languages of the ethnicities of the Austro-Hungarian Empire.",
+          "credit": "Österreichisch-ungarische Bank, Josef Pfeiffer / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Banknote_50_Kronen_1914_language_detail.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Braun_4856_solar_card_calculator%2C_5.jpg/1280px-Braun_4856_solar_card_calculator%2C_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 871,
           "kind": "photo",
           "pos": "center",
-          "alt": "Puskás Aréna. Budapest, Central Europe. On the day of the opening.  Hungary-Uruguay 1-2.",
-          "credit": "Elekes Andor / Wikimedia Commons",
+          "alt": "Braun 4856 solar card calculator",
+          "credit": "Morn / Wikimedia Commons",
           "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Pusk%C3%A1s_Ar%C3%A9na_(3).jpg",
-          "vision_score": 6.0
+          "source_url": "https://commons.wikimedia.org/wiki/File:Braun_4856_solar_card_calculator,_5.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Braun_4856_solar_card_calculator%2C_4.jpg/1280px-Braun_4856_solar_card_calculator%2C_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 842,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Braun 4856 solar card calculator",
+          "credit": "Morn / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Braun_4856_solar_card_calculator,_4.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Vintage_Texas_Instruments_TI_Money_Manager_Pocket_LED_Calculator%2C_Made_in_USA%2C_Circa_1977_%289273154764%29.jpg/1280px-Vintage_Texas_Instruments_TI_Money_Manager_Pocket_LED_Calculator%2C_Made_in_USA%2C_Circa_1977_%289273154764%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1816,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "The original price of the calculator was $26.95.",
+          "credit": "Joe Haupt from USA / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Vintage_Texas_Instruments_TI_Money_Manager_Pocket_LED_Calculator,_Made_in_USA,_Circa_1977_(9273154764).jpg"
+        },
+        {
+          "url": "https://pixabay.com/get/g0c3e9be344c2f30c0dc28995a7ab585b50d46e071934b13d0c926da385b380e6cdc0706ac0f0aa46fb5fb384d8d8beaec81eecbdfd0a29010a313e27e6e85c73_1280.jpg",
+          "width": 5472,
+          "height": 3648,
+          "kind": "photo",
+          "alt": "slip up, danger, careless, slippery, accident, risk, banana skin, hazard, peel, dangerous, foot, fall, safety, injury, mistake, shoe, be careful, unexpected, tripping, misstep, take care, insurance, o",
+          "credit": "stevepb / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/slip-up-danger-careless-slippery-709045/"
+        },
+        {
+          "url": "https://pixabay.com/get/g9ef8b28fba3d6353af82c9aa81b3f72bf57530907c438fc40e378d0b0b735c285edb04a9aeaa9d53e6de7e2b6f1b87d0cbfcb9b967b4b8169f615321c2fe082d_1280.jpg",
+          "width": 5472,
+          "height": 3648,
+          "kind": "photo",
+          "alt": "accidental slip, oops, slip, mistake, error, wrong, problem, accident, blunder, dropped, woman, girl, failure, sad girl, blooper, bumbler, goof, whimsical, icre cream, cone, fail, mess, spill, sad, br",
+          "credit": "RyanMcGuire / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/accidental-slip-oops-slip-mistake-542551/"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Daily_salary_IMG_0077.jpg/1280px-Daily_salary_IMG_0077.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1200,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Accounts for daily salaries sealed by a high civil servant named Ur-Shara",
+          "credit": "ismeretlen szerző / Wikimedia Commons",
+          "license": "CC BY-SA 2.0 fr",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Daily_salary_IMG_0077.jpg"
         }
       ],
       "story": [
@@ -8110,7 +8172,7 @@
       },
       "review": {
         "title": 1,
-        "image": -1,
+        "image": 0,
         "sent_at": "2026-10-08T19:19:00+00:00",
         "msg_ids": [
           4001,
@@ -8118,9 +8180,17 @@
           4003,
           4004,
           4016,
-          4017
+          4017,
+          4021,
+          4022,
+          4023,
+          4024,
+          4025,
+          4026,
+          4027,
+          4028
         ],
-        "control_id": 4018
+        "control_id": 4029
       },
       "image_queries": [
         "Ferencváros football club",
@@ -8139,12 +8209,21 @@
         "Hungarian Football Federation",
         "tax documents",
         "football players in training",
-        "contract signing"
+        "contract signing",
+        "Hungarian banknote",
+        "Credit card and calculator",
+        "Calculator and money",
+        "Pound banknotes stack",
+        "salary slip",
+        "financial report",
+        "tax calculation"
       ],
       "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Pusk%C3%A1s_Ar%C3%A9na_%282%29.jpg/1280px-Pusk%C3%A1s_Ar%C3%A9na_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Hungarian_Parliament_Building_2023-9.jpg/1280px-Hungarian_Parliament_Building_2023-9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/WaterPolo.JPG/1280px-WaterPolo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Pusk%C3%A1s_Ar%C3%A9na_%283%29.jpg/1280px-Pusk%C3%A1s_Ar%C3%A9na_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       ]
     },
     {
