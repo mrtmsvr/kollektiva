@@ -1,7 +1,138 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-09T06:54:27+02:00",
+  "updated_at": "2026-10-09T06:55:54+02:00",
   "articles": [
+    {
+      "id": "28e42ede-8361-538b-840c-c06f548985b4",
+      "slug": "2026-10-09-nem-halad-a-szocialis-agazat-fizetesemelese-hiaba-volt-a-budapesti-eg",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "szociális dolgozók",
+        "béremelés",
+        "SZÁÉF",
+        "költségvetés",
+        "szakszervezetek"
+      ],
+      "title": "Nem halad a szociális ágazat fizetésemelése, hiába volt a budapesti egyeztetés",
+      "subtitle": null,
+      "lead": "Nem született megállapodás a szociális szektor béremelésének ütemezéséről a Szociális Ágazati Érdekegyeztető Fórum csütörtöki budapesti ülésén. A szakszervezetek szerint a helyzet tarthatatlan, mert a halogatás miatt az ágazat kiürülésétől kell tartani.",
+      "key_points": [
+        "A Szociális Ágazati Érdekegyeztető Fórum csütörtöki budapesti ülésén sem sikerült megegyezni a béremelés ütemezéséről.",
+        "Az érdekképviseletek szerint a Tisza Párt és a kormány korábbi, azonnali huszonöt százalékos emelési ígérete óta nem történt előrelépés.",
+        "A szakszervezetek arra figyelmeztetnek, hogy az alacsony bérek miatt a humán szolgáltatásokhoz való hozzáférés is veszélybe kerülhet."
+      ],
+      "content": "Csütörtökön ült össze Budapesten a Szociális Ágazati Érdekegyeztető Fórum (SZÁÉF), hogy a szociális szektor béremelésének menetrendjéről tárgyaljon, azonban a megbeszélésen a szociális tárca képviselői nem tudtak konkrét időpontokat mondani. A szakszervezetek emlékeztetnek, hogy a Tisza Párt a választásokon azonnali huszonöt százalékos béremelést ígért, a kormány képviselői pedig később úgy nyilatkoztak, hogy a béremelést két részletben valósítják meg.\n\nKöves Ferenc, a Szociális Ágazatban Dolgozók Szakszervezetének (SZÁD) elnöke szerint a huszonöt százalékos béremeléshez mindössze egy politikai döntés szükséges, mivel az a költségvetés negyedik negyedévi összegének csupán egy százalékát emésztené fel a mintegy kilencvenezer érintett dolgozó esetében.\n\nA sorskérdéssé vált bérrendezés előzményeként a szociális dolgozók már szeptemberben demonstrációt tartottak a Miniszterelnökség előtt, ahol a Tisza Párt képviselői átvették az SZÁD bértáblajavaslatát. A kormány képviselői akkor türelmet kértek, és úgy fogalmaztak, hogy a kabinet a negyedik negyedéves költségvetés kialakításakor véglegesíti a bérfejlesztés mértékét és ütemét. A csütörtöki fórumon ugyanakkor Boros Péterné, a Magyar Köztisztviselők, Közalkalmazottak és Közszolgálati Dolgozók Szakszervezete (MKKSZ) elnöke pozitívumként említette, hogy a kormányzat és az érdekképviseletek egyetértettek abban: 2030-ra a szociális dolgozók bérének fel kell zárkóznia az oktatásban és az egészségügyben fizetett összegekhez.",
+      "content_format": "markdown",
+      "body": [
+        "Csütörtökön ült össze Budapesten a Szociális Ágazati Érdekegyeztető Fórum (SZÁÉF), hogy a szociális szektor béremelésének menetrendjéről tárgyaljon, azonban a megbeszélésen a szociális tárca képviselői nem tudtak konkrét időpontokat mondani. A szakszervezetek emlékeztetnek, hogy a Tisza Párt a választásokon azonnali huszonöt százalékos béremelést ígért, a kormány képviselői pedig később úgy nyilatkoztak, hogy a béremelést két részletben valósítják meg.",
+        "Köves Ferenc, a Szociális Ágazatban Dolgozók Szakszervezetének (SZÁD) elnöke szerint a huszonöt százalékos béremeléshez mindössze egy politikai döntés szükséges, mivel az a költségvetés negyedik negyedévi összegének csupán egy százalékát emésztené fel a mintegy kilencvenezer érintett dolgozó esetében.",
+        "A sorskérdéssé vált bérrendezés előzményeként a szociális dolgozók már szeptemberben demonstrációt tartottak a Miniszterelnökség előtt, ahol a Tisza Párt képviselői átvették az SZÁD bértáblajavaslatát. A kormány képviselői akkor türelmet kértek, és úgy fogalmaztak, hogy a kabinet a negyedik negyedéves költségvetés kialakításakor véglegesíti a bérfejlesztés mértékét és ütemét. A csütörtöki fórumon ugyanakkor Boros Péterné, a Magyar Köztisztviselők, Közalkalmazottak és Közszolgálati Dolgozók Szakszervezete (MKKSZ) elnöke pozitívumként említette, hogy a kormányzat és az érdekképviseletek egyetértettek abban: 2030-ra a szociális dolgozók bérének fel kell zárkóznia az oktatásban és az egészségügyben fizetett összegekhez."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 213,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/999b5dfe83a8c27b.jpg",
+        "width": 3354,
+        "height": 2019,
+        "kind": "photo",
+        "alt": "job, office, team, business, internet, technology, design, draft, portable, meeting, job, office, office, office, office, team, team, business, business, business, business, business, technology, meet",
+        "credit": "RonaldCandonga / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/job-office-team-business-internet-5382501/",
+        "vision_score": 7.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/999b5dfe83a8c27b.jpg",
+        "orig_url": "https://pixabay.com/get/gb86631ec2113af0d76ab5c0dea5f9f6a49830e5385b28bd215f673ae0bab7b3384e6504442dd2e9afb90a568ab18c447e65edf39d56a9321aaf597405d82752b_1280.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261008/szocialis-dolgozok-hiaba-igert-25-os-beremelest-a-tisza-nincs-elorelepes-868486",
+          "title": "Szociális dolgozók: hiába ígért 25%-os béremelést a Tisza, nincs előrelépés",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-09T06:24:09+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/szocialis-dolgozok-targyalas-magyar-peter-beremeles?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Beígérte Magyar Péter a nagy béremelést, de egyelőre semmit nem kaptak a szociális dolgozók: továbbra sincs előrelépés az ütemezésről a szakmai szervezetek szerint",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-09T06:24:09+02:00"
+        }
+      ],
+      "quote": {
+        "text": "már nemcsak türelmetlenek, hanem ott tartanak, hogy kiürül az ágazat, így az állampolgárok nem fognak hozzájutni az alapvető humán szolgáltatásokhoz.",
+        "who": "Szűcs Viktória, a SZÁÉF munkavállalói oldalának ügyvivője",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-09T06:55:54+02:00"
+      },
+      "hot_score": 6.55,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261008/szocialis-dolgozok-hiaba-igert-25-os-beremelest-a-tisza-nincs-elorelepes-868486"
+        ]
+      },
+      "date": "2026-10-09",
+      "date_label": "október 9.",
+      "url": "/kozelet/2026-10-09-nem-halad-a-szocialis-agazat-fizetesemelese-hiaba-volt-a-budapesti-eg/",
+      "seo": {
+        "meta_title": "Nem halad a szociális ágazat fizetésemelése, hiába volt a bu",
+        "meta_description": "Nem született megállapodás a szociális szektor béremelésének ütemezéséről a Szociális Ágazati Érdekegyeztető Fórum csütörtöki budapesti ülésén. A szakszervezete",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-09-nem-halad-a-szocialis-agazat-fizetesemelese-hiaba-volt-a-budapesti-eg/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/999b5dfe83a8c27b.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "7646a7f8-a29c-5215-9fbd-9af8b7d97d17",
+        "a85f6b11-14d1-5f52-880d-9ff91e5856fb",
+        "1d92ba89-3227-565f-a65f-636520291f1d"
+      ],
+      "see_also": [
+        {
+          "title": "Marad a kamatstop, mert még nincs megállapodás a bankokkal",
+          "url": "/kozelet/2026-10-05-marad-a-kamatstop-mert-meg-nincs-megallapodas-a-bankokkal/",
+          "date": "2026-10-05"
+        },
+        {
+          "title": "44 nő ült asztalhoz a Tisza-frakcióban",
+          "url": "/kozelet/2026-10-06-soha-nem-latott-szamu-noi-kepviselo-indit-szakmai-muhelyt-a-parlament/",
+          "date": "2026-10-06"
+        },
+        {
+          "title": "Brüsszelhez fordult kétségbeesésében a Fidesz-kdnp",
+          "url": "/kozelet/2026-10-04-brusszelhez-fordult-ketsegbeeseseben-a-fidesz-kdnp/",
+          "date": "2026-10-04"
+        }
+      ],
+      "thread_id": "7646a7f8-a29c-5215-9fbd-9af8b7d97d17",
+      "dedupe_hash": "f3cc8ef5dc85da46262dd80b37daf8fcf9e12560c725243ba1606154263cee91",
+      "pipeline_run_id": "37881940759",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-09T06:55:54+02:00",
+      "updated_at": "2026-10-09T06:55:54+02:00",
+      "published_at": "2026-10-09T06:55:54+02:00",
+      "expires_at": null
+    },
     {
       "id": "59a0a7b8-d5a9-52a3-8e31-ddfe33a645cf",
       "slug": "2026-10-09-a-who-valaszol-miert-titkoljak-az-orosz-hatosagok-a-halalos-irkutszki",

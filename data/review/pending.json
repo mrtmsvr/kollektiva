@@ -7746,7 +7746,7 @@
     {
       "id": "28e42ede-8361-538b-840c-c06f548985b4",
       "slug": "2026-10-09-nem-halad-a-szocialis-agazat-fizetesemelese-hiaba-volt-a-budapesti-eg",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -7776,7 +7776,7 @@
       "word_count": 213,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://pixabay.com/get/gb86631ec2113af0d76ab5c0dea5f9f6a49830e5385b28bd215f673ae0bab7b3384e6504442dd2e9afb90a568ab18c447e65edf39d56a9321aaf597405d82752b_1280.jpg",
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/999b5dfe83a8c27b.jpg",
         "width": 3354,
         "height": 2019,
         "kind": "photo",
@@ -7784,7 +7784,9 @@
         "credit": "RonaldCandonga / Pixabay",
         "license": "Pixabay License",
         "source_url": "https://pixabay.com/photos/job-office-team-business-internet-5382501/",
-        "vision_score": 7.0
+        "vision_score": 7.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/999b5dfe83a8c27b.jpg",
+        "orig_url": "https://pixabay.com/get/gb86631ec2113af0d76ab5c0dea5f9f6a49830e5385b28bd215f673ae0bab7b3384e6504442dd2e9afb90a568ab18c447e65edf39d56a9321aaf597405d82752b_1280.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -7880,7 +7882,7 @@
         "meta_title": "Nem halad a szociális ágazat fizetésemelése, hiába volt a bu",
         "meta_description": "Nem született megállapodás a szociális szektor béremelésének ütemezéséről a Szociális Ágazati Érdekegyeztető Fórum csütörtöki budapesti ülésén. A szakszervezete",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-09-nem-halad-a-szocialis-agazat-fizetesemelese-hiaba-volt-a-budapesti-eg/",
-        "og_image": "https://pixabay.com/get/gb86631ec2113af0d76ab5c0dea5f9f6a49830e5385b28bd215f673ae0bab7b3384e6504442dd2e9afb90a568ab18c447e65edf39d56a9321aaf597405d82752b_1280.jpg",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/999b5dfe83a8c27b.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -7917,9 +7919,9 @@
       "dedupe_hash": "f3cc8ef5dc85da46262dd80b37daf8fcf9e12560c725243ba1606154263cee91",
       "pipeline_run_id": "37881940759",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-09T06:24:09+02:00",
-      "updated_at": "2026-10-09T06:24:09+02:00",
-      "published_at": "2026-10-09T06:24:09+02:00",
+      "created_at": "2026-10-09T06:55:54+02:00",
+      "updated_at": "2026-10-09T06:55:54+02:00",
+      "published_at": "2026-10-09T06:55:54+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -7934,13 +7936,12 @@
         "title": 0,
         "image": 0,
         "sent_at": "2026-10-09T04:25:27+00:00",
-        "msg_ids": [
-          4040,
-          4041,
-          4042
-        ],
-        "control_id": 4043
-      }
+        "msg_ids": [],
+        "control_id": 4043,
+        "title_prompt_id": null,
+        "compact": "⏱ Magától kint"
+      },
+      "live": true
     },
     {
       "id": "1b3639c3-32f6-5404-a486-42e24f787432",
