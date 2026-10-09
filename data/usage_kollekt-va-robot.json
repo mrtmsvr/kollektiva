@@ -32,7 +32,8 @@
     "groq": 71
   },
   "2026-10-09": {
-    "gemini_hiba": 2,
-    "gemini": 2
+    "gemini_hiba": 32,
+    "gemini": 33,
+    "groq": 9
   }
 }

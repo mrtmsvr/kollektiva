@@ -7921,6 +7921,716 @@
         "compact": "✅ Kint"
       },
       "live": true
+    },
+    {
+      "id": "bbdcf82e-f0cd-51e8-a6ca-645f14a992e2",
+      "slug": "2026-10-09-ruszin-szendi-elszamoltatna-orbant-az-aranykonvoj-miatt",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Ruszin-Szendi Romulusz",
+        "Orbán Viktor",
+        "aranykonvoj",
+        "Központi Nyomozó Főügyészség",
+        "TEK"
+      ],
+      "title": "Ruszin-Szendi elszámoltatná Orbánt az aranykonvoj miatt",
+      "subtitle": null,
+      "lead": "Ruszin-Szendi Romulusz felszólította Orbán Viktor miniszterelnököt, hogy tisztázza szerepét az M3-as autópályán feltartóztatott ukrán pénzszállítmány ügyében. A tárcavezető szerint elkerülhetetlen, hogy a döntéshozók nyíltan vállalják a felelősséget a vitatott akcióért.",
+      "key_points": [
+        "Ruszin-Szendi Romulusz Facebook-bejegyzésben kérte számon az aranykonvoj leállításának parancsát.",
+        "A Központi Nyomozó Főügyészség tájékoztatása szerint az ügyben eddig öt gyanúsított szerepel.",
+        "A Terrorelhárítási Központ és a titkosszolgálat még márciusban foglalta le a szállítmányt az M3-ason."
+      ],
+      "content": "A volt vezérkari főnök csütörtök este közzétett bejegyzésében arról írt, hogy a volt kormányfőnek nyilvánosan kellene beszélnie arról, vajon tőle érkezett-e a parancs az úgynevezett aranykonvoj megállítására. Ruszin-Szendi Romulusz hangsúlyozta, hogy miközben egy volt főügyész nyilvános állításai szerint a legmagasabb politikai szintről jött az utasítás, a hatóságok eddig három rendőrjárőrt gyanúsítottak meg az eset kapcsán.\n\nAz ügy hátterében a Terrorelhárítási Központ (TEK) és a titkosszolgálat 2026. március 5-i akciója áll, amely során az M3-as autópályán állítottak meg egy ukrán pénzszállítmányt. A gépjárművekből a hatóságok tonnaszámra foglaltak le aranyat és készpénzt, a járműveket kísérő személyeket pedig napokig fogva tartották.\n\nA nyomozás fejleményeként a Központi Nyomozó Főügyészség október 2-án vonta saját hatáskörébe az eljárást, amelyben jelenleg öt gyanúsítottat tartanak számon. A gyanúsítottak között van Hajdu János, a TEK volt főigazgatója, valamint Szathmáry István, az Alkotmányvédelmi Hivatal munkatársa.\n\nA honvédelmi miniszter arra hívta fel a figyelmet, hogy nem igazságos a végrehajtó rendőrökre hárítani a következményeket egy olyan intézkedésért, amelynek eredetét továbbra is tisztázatlan kérdések övezik.",
+      "content_format": "markdown",
+      "body": [
+        "A volt vezérkari főnök csütörtök este közzétett bejegyzésében arról írt, hogy a volt kormányfőnek nyilvánosan kellene beszélnie arról, vajon tőle érkezett-e a parancs az úgynevezett aranykonvoj megállítására. Ruszin-Szendi Romulusz hangsúlyozta, hogy miközben egy volt főügyész nyilvános állításai szerint a legmagasabb politikai szintről jött az utasítás, a hatóságok eddig három rendőrjárőrt gyanúsítottak meg az eset kapcsán.",
+        "Az ügy hátterében a Terrorelhárítási Központ (TEK) és a titkosszolgálat 2026. március 5-i akciója áll, amely során az M3-as autópályán állítottak meg egy ukrán pénzszállítmányt. A gépjárművekből a hatóságok tonnaszámra foglaltak le aranyat és készpénzt, a járműveket kísérő személyeket pedig napokig fogva tartották.",
+        "A nyomozás fejleményeként a Központi Nyomozó Főügyészség október 2-án vonta saját hatáskörébe az eljárást, amelyben jelenleg öt gyanúsítottat tartanak számon. A gyanúsítottak között van Hajdu János, a TEK volt főigazgatója, valamint Szathmáry István, az Alkotmányvédelmi Hivatal munkatársa.",
+        "A honvédelmi miniszter arra hívta fel a figyelmet, hogy nem igazságos a végrehajtó rendőrökre hárítani a következményeket egy olyan intézkedésért, amelynek eredetét továbbra is tisztázatlan kérdések övezik."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 199,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Romolusz_Ruszin-Szendi.jpg/1280px-Romolusz_Ruszin-Szendi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Ruszin-Szendi Romolusz vezérkari főnök 2020 novemberében",
+        "credit": "Kölcsey Televízió / Wikimedia Commons",
+        "license": "CC BY 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Romolusz_Ruszin-Szendi.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261009_aranykonvojugy-ruszin-szendi-romolusz-orban-viktor",
+          "title": "„Álljon ki a magyar emberek elé!” – Ruszin-Szendi Romulusz felszólította Orbán Viktort az aranykonvojügyben",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-09T06:20:43+02:00"
+        },
+        {
+          "url": "https://telex.hu/belfold/2026/10/08/kerdore-vonta-orban-viktort-az-aranykonvoj-ugyben-ruszin-szendi-romulusz",
+          "title": "Kérdőre vonta Orbán Viktort az aranykonvoj-ügyben Ruszin-Szendi Romulusz",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-09T06:20:43+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Ön adta ki a parancsot az aranykonvoj megállítására, vagy nem? Ha igen, vállalja érte a felelősséget! Ha nem, mondja el, ki döntött, és milyen felhatalmazás alapján!",
+        "who": "Ruszin-Szendi Romulusz honvédelmi miniszter",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 9.34,
+      "title_options": [
+        "Ruszin-Szendi elszámoltatná Orbánt az aranykonvoj miatt",
+        "A volt vezérkari főnök szerint Orbán Viktornak kell válaszolnia az aranykonvoj leállításáról",
+        "Tisztázni kell, ki adott parancsot az aranykonvoj megállítására Ruszin-Szendi szerint",
+        "A volt vezérkari főnök nyíltan nekontrázott Orbán Viktornak a milliárdos aranykonvoj ügyében",
+        "Kicsoda adott parancsot? Újabb fordulat és felelősségre vonás az aranykonvoj botrányában",
+        "Öt gyanúsítottnál tart az aranykonvoj-ügy, most a kormányfőt szólították fel"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Romolusz_Ruszin-Szendi.jpg/1280px-Romolusz_Ruszin-Szendi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Ruszin-Szendi Romolusz vezérkari főnök 2020 novemberében",
+          "credit": "Kölcsey Televízió / Wikimedia Commons",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Romolusz_Ruszin-Szendi.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Exercise_Brave_Warrior_22_concludes_with_a_live-fire_demonstration_%287451336%29.jpg/1280px-Exercise_Brave_Warrior_22_concludes_with_a_live-fire_demonstration_%287451336%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The commander of the Hungarian Defense Forces, Lt. Gen. Romulusz Ruszin-Szendi, presents a ceremonial coin to U.S. Army 1st Lt. David Storch, middle, a platoon leader, assigned to Delta Company, 1st B",
+          "credit": "U.S. Army photo by Spc. Elizabeth MacPherson / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Exercise_Brave_Warrior_22_concludes_with_a_live-fire_demonstration_(7451336).jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Hungary%2C_Ohio_state_partners_discuss_accomplishments%2C_future_plans_during_annual_capstone_%289967062%29.jpg/1280px-Hungary%2C_Ohio_state_partners_discuss_accomplishments%2C_future_plans_during_annual_capstone_%289967062%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 798,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Maj. Gen. Matthew S. Woodruff, right, Ohio adjutant general, greets Hungarian Minister of Defence Romulusz Ruszin-Szendi during a State Partnership Program annual capstone visit at the Ministry of Def",
+          "credit": "U.S. Air National Guard photo by Staff Sgt. Nicholas Battani / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hungary,_Ohio_state_partners_discuss_accomplishments,_future_plans_during_annual_capstone_(9967062).jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Orb%C3%A1n_Viktor_-_CPAC_Hungary_2024_%282%29.jpg/1280px-Orb%C3%A1n_Viktor_-_CPAC_Hungary_2024_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Orbán Viktor - CPAC Hungary 2024.",
+          "credit": "Elekes Andor / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Orb%C3%A1n_Viktor_-_CPAC_Hungary_2024_(2).jpg",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "„Álljon ki a magyar emberek elé!” – Ruszin-Szendi Romulusz felszólította Orbán Viktort az aranykonvojügyben",
+          "link": "https://hvg.hu/itthon/20261009_aranykonvojugy-ruszin-szendi-romolusz-orban-viktor",
+          "summary": "A honvédelmi miniszter szerint a volt kormányfőnek nyilvánosan kell vállalnia, ő adta-e ki a parancsot a az aranykonvoj megállítására.",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": 9.34
+        },
+        {
+          "title": "Kérdőre vonta Orbán Viktort az aranykonvoj-ügyben Ruszin-Szendi Romulusz",
+          "link": "https://telex.hu/belfold/2026/10/08/kerdore-vonta-orban-viktort-az-aranykonvoj-ugyben-ruszin-szendi-romulusz",
+          "summary": "„A parancsot kiadni könnyű. A felelősséget vállalni már nehezebb” – írta a honvédelmi miniszter.",
+          "source": "telex.hu",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261009_aranykonvojugy-ruszin-szendi-romolusz-orban-viktor",
+          "https://telex.hu/belfold/2026/10/08/kerdore-vonta-orban-viktort-az-aranykonvoj-ugyben-ruszin-szendi-romulusz"
+        ]
+      },
+      "date": "2026-10-09",
+      "date_label": "október 9.",
+      "url": "/kozelet/2026-10-09-ruszin-szendi-elszamoltatna-orbant-az-aranykonvoj-miatt/",
+      "seo": {
+        "meta_title": "Ruszin-Szendi elszámoltatná Orbánt az aranykonvoj miatt",
+        "meta_description": "Ruszin-Szendi Romulusz felszólította Orbán Viktor volt miniszterelnököt, hogy tisztázza szerepét az M3-as autópályán feltartóztatott ukrán pénzszállítmány ügyéb",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-09-ruszin-szendi-elszamoltatna-orbant-az-aranykonvoj-miatt/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Romolusz_Ruszin-Szendi.jpg/1280px-Romolusz_Ruszin-Szendi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "1b8d58ce-a33f-52ae-b64f-816a7d47401d"
+      ],
+      "see_also": [
+        {
+          "title": "Négymilliárd forint ment el a csádi misszióra",
+          "url": "/kozelet/2026-09-30-negymilliard-forint-ment-el-a-csadi-missziora/",
+          "date": "2026-09-30"
+        }
+      ],
+      "thread_id": "1b8d58ce-a33f-52ae-b64f-816a7d47401d",
+      "dedupe_hash": "864e3c4b3cfb1dd02270220ee4be4aa10da2991609e8d806644716d7530aa0eb",
+      "pipeline_run_id": "37881940759",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-09T06:20:43+02:00",
+      "updated_at": "2026-10-09T06:20:43+02:00",
+      "published_at": "2026-10-09T06:20:43+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 1,
+        "issues": [
+          "🟡 „a volt kormányfőnek nyilvánosan kellene beszélnie arról, vajon tőle érkezett-e a parancs” – defamációs kockázat bizonyíték nélkül → tedd hozzá: \"a rendelkezésre álló bizonyítékok hiányában\" vagy idézd forrásból"
+        ],
+        "auto_fixed": [
+          "Orbán Viktor hivatalának pontosítása (volt miniszterelnök -> miniszterelnök/kormányfő).",
+          "Ruszin-Szendi Romulusz tisztségének helyesbítése (honvédelmi miniszter -> volt vezérkari főnök)."
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-09T04:22:34+00:00",
+        "msg_ids": [
+          4031,
+          4032,
+          4033,
+          4034,
+          4035
+        ],
+        "control_id": 4036
+      }
+    },
+    {
+      "id": "59a0a7b8-d5a9-52a3-8e31-ddfe33a645cf",
+      "slug": "2026-10-09-a-who-valaszol-miert-titkoljak-az-orosz-hatosagok-a-halalos-irkutszki",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Oroszország",
+        "Irkutszk",
+        "egészségügy",
+        "WHO",
+        "járvány"
+      ],
+      "title": "A WHO válaszol: miért titkolják az orosz hatóságok a halálos irkutszki esetet",
+      "subtitle": null,
+      "lead": "Meghalt egy fiatal laboratóriumi dolgozó egy szibériai kutatóintézetben, a helyi hatóságok azonban ragaszkodnak az ismeretlen eredetű tüdőgyulladás diagnózisához. Az eset nyomán nemzetközi aggodalom alakult ki.",
+      "key_points": [
+        "Október 2-án életét vesztette egy 28 éves laboráns az Irkutszki Pestiskutató Intézetben.",
+        "A hatóságok közel kétszáz embert helyeztek orvosi megfigyelés alá a szibériai városban.",
+        "Moszkva tagadja a fertőzésveszélyt, a WHO ugyanakkor további információkat követel.",
+        "Donald Trump amerikai elnök közölte, hogy Washington nem tartja biológiai fegyvernek az esetet."
+      ],
+      "content": "## Vészhelyzeti intézkedések Szibériában\n\nOktóber 2-án életét vesztette a pestiskutató intézet 28 éves munkatársa Irkutszkban. Az eset következtében a helyi hatóságok kiterjedt vészhelyzeti intézkedéseket vezettek be a régióban, és csaknem kétszáz embert helyeztek orvosi megfigyelés alá. A Roszpotrebnadzor nevű orosz fogyasztóvédelmi szolgálat csütörtöki közleménye szerint a dolgozó halálát kórházon kívül szerzett, ismeretlen eredetű tüdőgyulladás okozta, és a vizsgálatok nem mutatták ki azokat a kórokozókat, amelyekkel a munkája során kapcsolatban állt.\n\nA kezdeti ellentmondó kommunikációt követően az orosz hatóságok határozottan cáfolják, hogy bárki más is megfertőződött volna a környezetében. A hivatalos álláspont szerint a tragédia semmilyen összefüggésben nincs az intézményben kutatott veszélyes kórokozókkal, így járványveszély sem áll fenn.\n\nA történtekre nemzetközi szinten is felfigyeltek, az Egészségügyi Világszervezet (WHO) ugyanis további információkat kért Moszkvától a pontos okok tisztázására. Az Egyesült Államokból érkező hírek szerint Washington nem gyanakszik biológiai fegyver bevetésére. Donald Trump amerikai elnök a Fehér Házban nyilatkozva elmondta, hogy az amerikai fél szintén további tájékoztatást vár az esetről. Az amerikai járványügyi és betegségmegelőzési központ eközben rendkívül alacsonynak értékeli az Egyesült Államokat fenyegető közvetlen kockázatot,",
+      "content_format": "markdown",
+      "body": [
+        "## Vészhelyzeti intézkedések Szibériában",
+        "Október 2-án életét vesztette a pestiskutató intézet 28 éves munkatársa Irkutszkban. Az eset következtében a helyi hatóságok kiterjedt vészhelyzeti intézkedéseket vezettek be a régióban, és csaknem kétszáz embert helyeztek orvosi megfigyelés alá. A Roszpotrebnadzor nevű orosz fogyasztóvédelmi szolgálat csütörtöki közleménye szerint a dolgozó halálát kórházon kívül szerzett, ismeretlen eredetű tüdőgyulladás okozta, és a vizsgálatok nem mutatták ki azokat a kórokozókat, amelyekkel a munkája során kapcsolatban állt.",
+        "A kezdeti ellentmondó kommunikációt követően az orosz hatóságok határozottan cáfolják, hogy bárki más is megfertőződött volna a környezetében. A hivatalos álláspont szerint a tragédia semmilyen összefüggésben nincs az intézményben kutatott veszélyes kórokozókkal, így járványveszély sem áll fenn.",
+        "A történtekre nemzetközi szinten is felfigyeltek, az Egészségügyi Világszervezet (WHO) ugyanis további információkat kért Moszkvától a pontos okok tisztázására. Az Egyesült Államokból érkező hírek szerint Washington nem gyanakszik biológiai fegyver bevetésére. Donald Trump amerikai elnök a Fehér Házban nyilatkozva elmondta, hogy az amerikai fél szintén további tájékoztatást vár az esetről. Az amerikai járványügyi és betegségmegelőzési központ eközben rendkívül alacsonynak értékeli az Egyesült Államokat fenyegető közvetlen kockázatot,"
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 198,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/World_Health_Organisation_headquarters%2C_Geneva%2C_north_and_west_sides_2007.jpg/1280px-World_Health_Organisation_headquarters%2C_Geneva%2C_north_and_west_sides_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 823,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "World Health Organisation headquarters, Geneva, north and west sides.",
+        "credit": "Yann Forget / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:World_Health_Organisation_headquarters,_Geneva,_north_and_west_sides_2007.jpg",
+        "vision_score": 5.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://telex.hu/kulfold/2026/10/08/pestis-tudopestis-oroszorszag-labor-halaleset-jarvany-kockazat-trump-putyin",
+          "title": "A világ transzparens kommunikációt vár, Oroszország inkább a pestis szó eltüntetésén dolgozik",
+          "publisher": "telex.hu",
+          "license": null,
+          "accessed_at": "2026-10-09T06:22:43+02:00"
+        },
+        {
+          "url": "https://hvg.hu/vilag/20261008_sziberiai-pestiskutato-fertozes-oroszorszag-fogyasztovedelem",
+          "title": "Az orosz hatóság tagadja, hogy az elhunyt szibériai pestiskutató megfertőzött valakit",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-09T06:22:43+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Nem felelnek meg a valóságnak azok a hírek, amelyek szerint megbetegedett valaki, aki kapcsolatba került az Irkutszki Pestiskutató Intézetnek azzal a munkatársával, akinél korábban kórházon kívül szerzett tüdőgyulladást állapítottak meg.",
+        "who": "Roszpotrebnadzor, orosz fogyasztóvédelmi szolgálat",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.8,
+      "title_options": [
+        "A WHO válaszol: miért titkolják az orosz hatóságok a halálos irkutszki esetet",
+        "Ismeretlen tüdőgyulladás Szibériában: pestisnek nevezni tilos",
+        "Halálos laborbaleset vagy tüdőgyulladás: ez történik Irkutszkban",
+        "Fiatal laboráns halála után zárta le a területet az orosz hatóság",
+        "A tőzsdén már a következő járványra spekulálnak egy szibériai haláleset miatt",
+        "Moszkva mindent tagad, de a WHO azonnali válaszokat követel Szibériából"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/World_Health_Organisation_headquarters%2C_Geneva%2C_north_and_west_sides_2007.jpg/1280px-World_Health_Organisation_headquarters%2C_Geneva%2C_north_and_west_sides_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 823,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "World Health Organisation headquarters, Geneva, north and west sides.",
+          "credit": "Yann Forget / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:World_Health_Organisation_headquarters,_Geneva,_north_and_west_sides_2007.jpg",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "A világ transzparens kommunikációt vár, Oroszország inkább a pestis szó eltüntetésén dolgozik",
+          "link": "https://telex.hu/kulfold/2026/10/08/pestis-tudopestis-oroszorszag-labor-halaleset-jarvany-kockazat-trump-putyin",
+          "summary": "A napokban meghalt egy fiatal laboratóriumi dolgozó egy szibériai pestiskutató-intézetben. Az oroszok a kezdeti ellentmondó kommunikáció után már egységesen „ismeretlen eredetű” tüdőgyulladásról beszélnek. A WHO és a segítségét felajánló Trump több információt vár. De egyáltalán mi az a tüdőpestis, és mennyire veszélyes?",
+          "source": "telex.hu",
+          "related": null,
+          "hot_score": 6.8
+        },
+        {
+          "title": "Az orosz hatóság tagadja, hogy az elhunyt szibériai pestiskutató megfertőzött valakit",
+          "link": "https://hvg.hu/vilag/20261008_sziberiai-pestiskutato-fertozes-oroszorszag-fogyasztovedelem",
+          "summary": "A helyi hatóságok továbbra is azt állítják, hogy a 28 éves laboráns ismeretlen eredetű tüdőgyulladásban halt meg, ami nem hozható összefüggésbe azokkal a kórokozókkal, amelyekkel a munkája során kapcsolatba került.",
+          "source": "hvg.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://telex.hu/kulfold/2026/10/08/pestis-tudopestis-oroszorszag-labor-halaleset-jarvany-kockazat-trump-putyin"
+        ]
+      },
+      "date": "2026-10-09",
+      "date_label": "október 9.",
+      "url": "/vilag/2026-10-09-a-who-valaszol-miert-titkoljak-az-orosz-hatosagok-a-halalos-irkutszki/",
+      "seo": {
+        "meta_title": "A WHO válaszol: miért titkolják az orosz hatóságok a halálos",
+        "meta_description": "Meghalt egy fiatal laboratóriumi dolgozó egy szibériai kutatóintézetben, a helyi hatóságok azonban ragaszkodnak az ismeretlen eredetű tüdőgyulladás diagnózisáho",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-09-a-who-valaszol-miert-titkoljak-az-orosz-hatosagok-a-halalos-irkutszki/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/World_Health_Organisation_headquarters%2C_Geneva%2C_north_and_west_sides_2007.jpg/1280px-World_Health_Organisation_headquarters%2C_Geneva%2C_north_and_west_sides_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "e2d417a29eff9c9a4a69524e0756862d1d2349a9245682f27fb9ede01f9cd6a0",
+      "pipeline_run_id": "37881940759",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-09T06:22:43+02:00",
+      "updated_at": "2026-10-09T06:22:43+02:00",
+      "published_at": "2026-10-09T06:22:43+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-09T04:24:00+00:00",
+        "msg_ids": [
+          4037,
+          4038
+        ],
+        "control_id": 4039
+      }
+    },
+    {
+      "id": "28e42ede-8361-538b-840c-c06f548985b4",
+      "slug": "2026-10-09-nem-halad-a-szocialis-agazat-fizetesemelese-hiaba-volt-a-budapesti-eg",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "szociális dolgozók",
+        "béremelés",
+        "SZÁÉF",
+        "költségvetés",
+        "szakszervezetek"
+      ],
+      "title": "Nem halad a szociális ágazat fizetésemelése, hiába volt a budapesti egyeztetés",
+      "subtitle": null,
+      "lead": "Nem született megállapodás a szociális szektor béremelésének ütemezéséről a Szociális Ágazati Érdekegyeztető Fórum csütörtöki budapesti ülésén. A szakszervezetek szerint a helyzet tarthatatlan, mert a halogatás miatt az ágazat kiürülésétől kell tartani.",
+      "key_points": [
+        "A Szociális Ágazati Érdekegyeztető Fórum csütörtöki budapesti ülésén sem sikerült megegyezni a béremelés ütemezéséről.",
+        "Az érdekképviseletek szerint a Tisza Párt és a kormány korábbi, azonnali huszonöt százalékos emelési ígérete óta nem történt előrelépés.",
+        "A szakszervezetek arra figyelmeztetnek, hogy az alacsony bérek miatt a humán szolgáltatásokhoz való hozzáférés is veszélybe kerülhet."
+      ],
+      "content": "Csütörtökön ült össze Budapesten a Szociális Ágazati Érdekegyeztető Fórum (SZÁÉF), hogy a szociális szektor béremelésének menetrendjéről tárgyaljon, azonban a megbeszélésen a szociális tárca képviselői nem tudtak konkrét időpontokat mondani. A szakszervezetek emlékeztetnek, hogy a Tisza Párt a választásokon azonnali huszonöt százalékos béremelést ígért, a kormány képviselői pedig később úgy nyilatkoztak, hogy a béremelést két részletben valósítják meg.\n\nKöves Ferenc, a Szociális Ágazatban Dolgozók Szakszervezetének (SZÁD) elnöke szerint a huszonöt százalékos béremeléshez mindössze egy politikai döntés szükséges, mivel az a költségvetés negyedik negyedévi összegének csupán egy százalékát emésztené fel a mintegy kilencvenezer érintett dolgozó esetében.\n\nA sorskérdéssé vált bérrendezés előzményeként a szociális dolgozók már szeptemberben demonstrációt tartottak a Miniszterelnökség előtt, ahol a Tisza Párt képviselői átvették az SZÁD bértáblajavaslatát. A kormány képviselői akkor türelmet kértek, és úgy fogalmaztak, hogy a kabinet a negyedik negyedéves költségvetés kialakításakor véglegesíti a bérfejlesztés mértékét és ütemét. A csütörtöki fórumon ugyanakkor Boros Péterné, a Magyar Köztisztviselők, Közalkalmazottak és Közszolgálati Dolgozók Szakszervezete (MKKSZ) elnöke pozitívumként említette, hogy a kormányzat és az érdekképviseletek egyetértettek abban: 2030-ra a szociális dolgozók bérének fel kell zárkóznia az oktatásban és az egészségügyben fizetett összegekhez.",
+      "content_format": "markdown",
+      "body": [
+        "Csütörtökön ült össze Budapesten a Szociális Ágazati Érdekegyeztető Fórum (SZÁÉF), hogy a szociális szektor béremelésének menetrendjéről tárgyaljon, azonban a megbeszélésen a szociális tárca képviselői nem tudtak konkrét időpontokat mondani. A szakszervezetek emlékeztetnek, hogy a Tisza Párt a választásokon azonnali huszonöt százalékos béremelést ígért, a kormány képviselői pedig később úgy nyilatkoztak, hogy a béremelést két részletben valósítják meg.",
+        "Köves Ferenc, a Szociális Ágazatban Dolgozók Szakszervezetének (SZÁD) elnöke szerint a huszonöt százalékos béremeléshez mindössze egy politikai döntés szükséges, mivel az a költségvetés negyedik negyedévi összegének csupán egy százalékát emésztené fel a mintegy kilencvenezer érintett dolgozó esetében.",
+        "A sorskérdéssé vált bérrendezés előzményeként a szociális dolgozók már szeptemberben demonstrációt tartottak a Miniszterelnökség előtt, ahol a Tisza Párt képviselői átvették az SZÁD bértáblajavaslatát. A kormány képviselői akkor türelmet kértek, és úgy fogalmaztak, hogy a kabinet a negyedik negyedéves költségvetés kialakításakor véglegesíti a bérfejlesztés mértékét és ütemét. A csütörtöki fórumon ugyanakkor Boros Péterné, a Magyar Köztisztviselők, Közalkalmazottak és Közszolgálati Dolgozók Szakszervezete (MKKSZ) elnöke pozitívumként említette, hogy a kormányzat és az érdekképviseletek egyetértettek abban: 2030-ra a szociális dolgozók bérének fel kell zárkóznia az oktatásban és az egészségügyben fizetett összegekhez."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 213,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://pixabay.com/get/gb86631ec2113af0d76ab5c0dea5f9f6a49830e5385b28bd215f673ae0bab7b3384e6504442dd2e9afb90a568ab18c447e65edf39d56a9321aaf597405d82752b_1280.jpg",
+        "width": 3354,
+        "height": 2019,
+        "kind": "photo",
+        "alt": "job, office, team, business, internet, technology, design, draft, portable, meeting, job, office, office, office, office, team, team, business, business, business, business, business, technology, meet",
+        "credit": "RonaldCandonga / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/job-office-team-business-internet-5382501/",
+        "vision_score": 7.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261008/szocialis-dolgozok-hiaba-igert-25-os-beremelest-a-tisza-nincs-elorelepes-868486",
+          "title": "Szociális dolgozók: hiába ígért 25%-os béremelést a Tisza, nincs előrelépés",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-09T06:24:09+02:00"
+        },
+        {
+          "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/szocialis-dolgozok-targyalas-magyar-peter-beremeles?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "title": "Beígérte Magyar Péter a nagy béremelést, de egyelőre semmit nem kaptak a szociális dolgozók: továbbra sincs előrelépés az ütemezésről a szakmai szervezetek szerint",
+          "publisher": "vg.hu",
+          "license": null,
+          "accessed_at": "2026-10-09T06:24:09+02:00"
+        }
+      ],
+      "quote": {
+        "text": "már nemcsak türelmetlenek, hanem ott tartanak, hogy kiürül az ágazat, így az állampolgárok nem fognak hozzájutni az alapvető humán szolgáltatásokhoz.",
+        "who": "Szűcs Viktória, a SZÁÉF munkavállalói oldalának ügyvivője",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.55,
+      "title_options": [
+        "Nem halad a szociális ágazat fizetésemelése, hiába volt a budapesti egyeztetés",
+        "Kilencvenezren várják az ígért emelést, de üresek maradtak a szociális szektor egyeztetései",
+        "Süket fülekre találtak a szociális dolgozók, még mindig nincs menetrend a béremeléshez",
+        "Kilencvenezer ember sorsa függ ettől az egy döntéstől, mégis elakadtak a tárgyalások",
+        "Itt a válasz: miért nem kapják meg a szociális dolgozók a beígért pénzüket?",
+        "A költségvetés egy százaléka sem kéne, mégis patthelyzet alakult ki a szociális szektorban"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://pixabay.com/get/gb86631ec2113af0d76ab5c0dea5f9f6a49830e5385b28bd215f673ae0bab7b3384e6504442dd2e9afb90a568ab18c447e65edf39d56a9321aaf597405d82752b_1280.jpg",
+          "width": 3354,
+          "height": 2019,
+          "kind": "photo",
+          "alt": "job, office, team, business, internet, technology, design, draft, portable, meeting, job, office, office, office, office, team, team, business, business, business, business, business, technology, meet",
+          "credit": "RonaldCandonga / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/job-office-team-business-internet-5382501/",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://pixabay.com/get/gec1cacf60f4dd0e326abde15ac95ec6a8aff4b53e22e0a86c72358f7796b554869815b8f2bf17af4a32281ece15d7287b989cbabaddd1e4eef0f2d547ce85ca5_1280.jpg",
+          "width": 5760,
+          "height": 3840,
+          "kind": "photo",
+          "alt": "people, business, meeting, business meeting, coworkers, agreement, men, women, professionals, office, employees, suit, work, greeting, boss, computer, group, handshake, desk, team, colleagues, arrange",
+          "credit": "089photoshootings / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/people-business-meeting-1979261/",
+          "vision_score": 6.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Szociális dolgozók: hiába ígért 25%-os béremelést a Tisza, nincs előrelépés",
+          "link": "https://www.portfolio.hu/gazdasag/20261008/szocialis-dolgozok-hiaba-igert-25-os-beremelest-a-tisza-nincs-elorelepes-868486",
+          "summary": "Nem történt előrelépés a szociális szektor béremelésének ütemezése ügyében a Szociális Ágazati Érdekegyeztető Fórum (SZÁÉF) csütörtöki budapesti ülésén - közölték az ágazati dolgozókat képviselő szakszervezetek az MTI-vel.",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.55
+        },
+        {
+          "title": "Beígérte Magyar Péter a nagy béremelést, de egyelőre semmit nem kaptak a szociális dolgozók: továbbra sincs előrelépés az ütemezésről a szakmai szervezetek szerint",
+          "link": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/szocialis-dolgozok-targyalas-magyar-peter-beremeles?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "summary": "Újabb egyeztetésen van túl a kormány és az ágazat, de a béremelés ütemezésében ezúttal sem született előrelépés.",
+          "source": "vg.hu",
+          "related": true,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261008/szocialis-dolgozok-hiaba-igert-25-os-beremelest-a-tisza-nincs-elorelepes-868486"
+        ]
+      },
+      "date": "2026-10-09",
+      "date_label": "október 9.",
+      "url": "/kozelet/2026-10-09-nem-halad-a-szocialis-agazat-fizetesemelese-hiaba-volt-a-budapesti-eg/",
+      "seo": {
+        "meta_title": "Nem halad a szociális ágazat fizetésemelése, hiába volt a bu",
+        "meta_description": "Nem született megállapodás a szociális szektor béremelésének ütemezéséről a Szociális Ágazati Érdekegyeztető Fórum csütörtöki budapesti ülésén. A szakszervezete",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-09-nem-halad-a-szocialis-agazat-fizetesemelese-hiaba-volt-a-budapesti-eg/",
+        "og_image": "https://pixabay.com/get/gb86631ec2113af0d76ab5c0dea5f9f6a49830e5385b28bd215f673ae0bab7b3384e6504442dd2e9afb90a568ab18c447e65edf39d56a9321aaf597405d82752b_1280.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "7646a7f8-a29c-5215-9fbd-9af8b7d97d17",
+        "a85f6b11-14d1-5f52-880d-9ff91e5856fb",
+        "1d92ba89-3227-565f-a65f-636520291f1d"
+      ],
+      "see_also": [
+        {
+          "title": "Marad a kamatstop, mert még nincs megállapodás a bankokkal",
+          "url": "/kozelet/2026-10-05-marad-a-kamatstop-mert-meg-nincs-megallapodas-a-bankokkal/",
+          "date": "2026-10-05"
+        },
+        {
+          "title": "44 nő ült asztalhoz a Tisza-frakcióban",
+          "url": "/kozelet/2026-10-06-soha-nem-latott-szamu-noi-kepviselo-indit-szakmai-muhelyt-a-parlament/",
+          "date": "2026-10-06"
+        },
+        {
+          "title": "Brüsszelhez fordult kétségbeesésében a Fidesz-kdnp",
+          "url": "/kozelet/2026-10-04-brusszelhez-fordult-ketsegbeeseseben-a-fidesz-kdnp/",
+          "date": "2026-10-04"
+        }
+      ],
+      "thread_id": "7646a7f8-a29c-5215-9fbd-9af8b7d97d17",
+      "dedupe_hash": "f3cc8ef5dc85da46262dd80b37daf8fcf9e12560c725243ba1606154263cee91",
+      "pipeline_run_id": "37881940759",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-09T06:24:09+02:00",
+      "updated_at": "2026-10-09T06:24:09+02:00",
+      "published_at": "2026-10-09T06:24:09+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": [],
+        "auto_fixed": [
+          "Korrigálva a valótlan állítás a miniszterelnök személyes átvételéről",
+          "Átírva a helyszíni átvétel szereplője a Tisza Párt képviselőire",
+          "Javítva a kormányfői nyilatkozatot a kormány képviselőire"
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-09T04:25:27+00:00",
+        "msg_ids": [
+          4040,
+          4041,
+          4042
+        ],
+        "control_id": 4043
+      }
+    },
+    {
+      "id": "1b3639c3-32f6-5404-a486-42e24f787432",
+      "slug": "2026-10-09-vili-bacsi-fia-a-kozmedianal-folytatja",
+      "status": "pending",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Várkonyi András",
+        "Várkonyi Gyula",
+        "médiasorsok",
+        "közmédia",
+        "Barátok közt"
+      ],
+      "title": "Vili bácsi fia a közmédiánál folytatja",
+      "subtitle": null,
+      "lead": "Hatalmas öröm érte Várkonyi Andrást, hiszen a fia a közmédiához igazolt, ahol már az első adásban bizonyított. A család számára különösen fontos ez a pillanat, hiszen a fiatalabb újságíró a családi hagyományokat is továbbviszi.",
+      "key_points": [
+        "Várkonyi Gyula szerdán igazolt a közmédiához.",
+        "A televízióban híradóvezető szerkesztőként és politikai riporterként dolgozik.",
+        "Édesapja, a Barátok közt egykori Vili bácsija rendkívül büszke a sikerre.",
+        "A család számára a döntés a nagyszülői újságírói örökség továbbvitelét is jelenti."
+      ],
+      "content": "Várkonyi Gyula szerdán kezdte meg munkáját az új helyen, csütörtökön pedig már adásba is került az első riportja a közmédiában, ahol híradóvezető szerkesztőként és politikai riporterként tevékenykedik. A tapasztalt szakember korábban az RTL Híradó riportere, az ATV munkatársa, valamint az InfoRádiónál szerkesztő és riporter volt egészen októberig.\n\nA hír különösen nagy boldogságot hozott a Várkonyi család életébe, hiszen a fiú pályája révén a nagypapa, a hat éve elhunyt Arany- és Vastollas újságíró, Várkonyi Endre emléke és öröksége is tovább él a képernyőn. Várkonyi András, a Barátok közt egykori Vili bácsija elárulta, hogy bár ő maga a színészetet választotta közel nyolc évtizedes pályafutása során, rendkívül hálás azért, hogy a fia a családi gyökerekhez hűen az újságírói pályán teljesedhet ki.\n\nA színész azt is megosztotta, hogy bár évtizedek óta nem nézték az M1 híradóját, a fia első szereplését természetesen figyelemmel kísérték a feleségével, és a jövőben is követni fogják a munkáját ebben az új, kihívásokkal teli időszakban.",
+      "content_format": "markdown",
+      "body": [
+        "Várkonyi Gyula szerdán kezdte meg munkáját az új helyen, csütörtökön pedig már adásba is került az első riportja a közmédiában, ahol híradóvezető szerkesztőként és politikai riporterként tevékenykedik. A tapasztalt szakember korábban az RTL Híradó riportere, az ATV munkatársa, valamint az InfoRádiónál szerkesztő és riporter volt egészen októberig.",
+        "A hír különösen nagy boldogságot hozott a Várkonyi család életébe, hiszen a fiú pályája révén a nagypapa, a hat éve elhunyt Arany- és Vastollas újságíró, Várkonyi Endre emléke és öröksége is tovább él a képernyőn. Várkonyi András, a Barátok közt egykori Vili bácsija elárulta, hogy bár ő maga a színészetet választotta közel nyolc évtizedes pályafutása során, rendkívül hálás azért, hogy a fia a családi gyökerekhez hűen az újságírói pályán teljesedhet ki.",
+        "A színész azt is megosztotta, hogy bár évtizedek óta nem nézték az M1 híradóját, a fia első szereplését természetesen figyelemmel kísérték a feleségével, és a jövőben is követni fogják a munkáját ebben az új, kihívásokkal teli időszakban."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 189,
+      "locale": "hu-HU",
+      "hero_image": null,
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.blikk.hu/sztarvilag/hazai-sztarok/varkonyi-andras-fia-baratok-kozt-varkonyi-gyula-m1-hirado-kozmedia/6mcns23",
+          "title": "Hatalmas öröm érte Várkonyi Andrást: a Barátok közt Vili bácsijának fia a közmédiához igazolt",
+          "publisher": "blikk.hu",
+          "license": null,
+          "accessed_at": "2026-10-09T06:25:37+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Nagy dolog ez, nagyon boldogok vagyunk a feleségünkkel! Gyula most révbe ért! Ez egy felelősségteljes munka, mindig is ezt akarta",
+        "who": "Várkonyi András színész",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Vili bácsi fia a közmédiánál folytatja",
+        "A köztévénél folytatja a legendás sorozat színészének utódja",
+        "Új helyen kezdetett a Barátok közt egykori sztárjának fia",
+        "Meglepő helyen bukkant fel Várkonyi András fia",
+        "Nem fogja elhinni, hová igazolt Vili bácsi gyermeke",
+        "Hatalmas örömhírt osztott meg a Barátok közt egykori sztárja"
+      ],
+      "clickbait_from": 3,
+      "image_options": [],
+      "story": [
+        {
+          "title": "Hatalmas öröm érte Várkonyi Andrást: a Barátok közt Vili bácsijának fia a közmédiához igazolt",
+          "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/varkonyi-andras-fia-baratok-kozt-varkonyi-gyula-m1-hirado-kozmedia/6mcns23",
+          "summary": "Várkonyi András, a Barátok közt egykori Vili bácsija nagyon büszke a fiára, ugyanis Várkonyi Gyula a közmédiához igazolt, ahol a híradó vezető szerkesztőjeként és politikai riporterként dolgozik. A tapasztalt újságíró korábban az RTL Híradó riportere, majd az ATV munkatársa volt, később pedig az InfoRádiónál dolgozott szerkesztőként és riporterként egészen októberig. Szerdán már el is kezdte az új munkáját, csütörtökön pedig adásba került az első riportja.",
+          "source": "blikk.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.blikk.hu/sztarvilag/hazai-sztarok/varkonyi-andras-fia-baratok-kozt-varkonyi-gyula-m1-hirado-kozmedia/6mcns23"
+        ]
+      },
+      "date": "2026-10-09",
+      "date_label": "október 9.",
+      "url": "/bulvar/2026-10-09-vili-bacsi-fia-a-kozmedianal-folytatja/",
+      "seo": {
+        "meta_title": "Vili bácsi fia a közmédiánál folytatja",
+        "meta_description": "Hatalmas öröm érte Várkonyi Andrást, hiszen a fia a közmédiához igazolt, ahol már az első adásban bizonyított. A család számára különösen fontos ez a pillanat, ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-09-vili-bacsi-fia-a-kozmedianal-folytatja/",
+        "og_image": null,
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "e4fa5e7b817446c72bdd76999d387d4a03b5987fc607a63c40c513e29efcd075",
+      "pipeline_run_id": "37881940759",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-09T06:25:37+02:00",
+      "updated_at": "2026-10-09T06:25:37+02:00",
+      "published_at": "2026-10-09T06:25:37+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": -1,
+        "sent_at": "2026-10-09T04:26:34+00:00",
+        "msg_ids": [
+          4044,
+          4045
+        ],
+        "control_id": 4046
+      }
     }
   ]
 }
