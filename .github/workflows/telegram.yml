@@ -42,11 +42,12 @@ jobs:
       AUTO_PUBLISH_NEWS: "false"
       AUTO_PUBLISH_MIN: "30"
       REVIEW_SLOTS: "07:00,11:30,16:00,20:00"
-      ARTICLES_PER_SLOT: "4"
+      ARTICLES_PER_SLOT: "1"
+      PITCHES_PER_SLOT: "12"
       BREAKING_SCORE: "16"
       SECTIONS_EVERY_MIN: "110"
       MAX_ARTICLES_PER_RUN: "4"
-      DAILY_ARTICLE_LIMIT: "16"
+      DAILY_ARTICLE_LIMIT: "999"
       BUILD_BUDGET: "490"
     steps:
       - uses: actions/checkout@v4
@@ -63,7 +64,7 @@ jobs:
         run: python telegram_review.py
       - name: Új tartalom, ha esedékes
         run: python kollektiva_content.py --if-due
-      - name: Instagram (napi 4–5 poszt, Telegram-előnézettel)
+      - name: Instagram (minden cikkből, bulvár nélkül, Telegram-előnézettel)
         run: python instagram.py || true
       - name: Heti hírlevél (vasárnap reggel)
         run: python scripts/newsletter.py || true
