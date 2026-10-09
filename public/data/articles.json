@@ -1,7 +1,104 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-09T08:45:44+02:00",
+  "updated_at": "2026-10-09T08:48:07+02:00",
   "articles": [
+    {
+      "id": "78d0a830-6d79-5d34-8069-11cae58d838c",
+      "slug": "2026-10-09-uj-titkokat-fedezett-fel-a-csillagok-es-bolygok-hataran-a-spherex",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "űrteleszkóp",
+        "barna törpék",
+        "csillagászat"
+      ],
+      "title": "Új titkokat fedezett fel a csillagok és bolygók határán a SPHEREx",
+      "subtitle": null,
+      "lead": "A SPHEREx űrteleszkóp új megfigyelései révén közelebb kerültünk a csillagok és az exobolygók határvidékén mozgó égitestek megismeréséhez. A legfrissebb eredmények a sötét és felhős barna törpék titokzatos légkörébe engednek betekintést.",
+      "key_points": [
+        "A SPHEREx nevű űrteleszkóp barna törpéket vett górcő alá.",
+        "A barna törpék kémiailag gazdag légköre hasonlít a gázóriásokéhoz."
+      ],
+      "content": "A NASA SPHEREx – teljes nevén Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer – nevű űrteleszkópja új megfigyelési adatokkal gazdagította a csillagászatot. Az eszköz olyan égitesteket vizsgált, amelyek pontosan a csillagok és az exobolygók, vagyis a Naprendszeren kívüli bolygók között helyezkednek el.\n\nEz a légköri viszonyrendszer a kutatók megállapításai alapján meglepő hasonlóságot mutat a gázóriások jellemzőivel.\n\nA barna törpék olyan égitestek, amelyek nem lettek elég masszívak ahhoz, hogy beindítsák a csillagokra jellemző hidrogénfúziót, ugyanakkor túl nagyok ahhoz, hogy hagyományos bolygóként tekintsenek rájuk. A mostani mérések segítenek jobban megérteni ezeknek az átmeneti objektumoknak a keletkezését és fejlődését, valamint légkörük kialakulását.",
+      "content_format": "markdown",
+      "body": [
+        "A NASA SPHEREx – teljes nevén Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer – nevű űrteleszkópja új megfigyelési adatokkal gazdagította a csillagászatot. Az eszköz olyan égitesteket vizsgált, amelyek pontosan a csillagok és az exobolygók, vagyis a Naprendszeren kívüli bolygók között helyezkednek el.",
+        "Ez a légköri viszonyrendszer a kutatók megállapításai alapján meglepő hasonlóságot mutat a gázóriások jellemzőivel.",
+        "A barna törpék olyan égitestek, amelyek nem lettek elég masszívak ahhoz, hogy beindítsák a csillagokra jellemző hidrogénfúziót, ugyanakkor túl nagyok ahhoz, hogy hagyományos bolygóként tekintsenek rájuk. A mostani mérések segítenek jobban megérteni ezeknek az átmeneti objektumoknak a keletkezését és fejlődését, valamint légkörük kialakulását."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 134,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Sub-brown-dwarf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1200,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "A sub-brown dwarf or planetary-mass brown dwarf is an astronomical object that formed in the same manner as stars and brown dwarfs (i.e. through the collapse of a gas cloud) but that has a planetary m",
+        "credit": "Pablo Carlos Budassi / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sub-brown-dwarf.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/",
+          "title": "NASA’s SPHEREx Telescope Sees Menagerie of Brown Dwarfs",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-09T08:15:47+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-09T08:48:07+02:00"
+      },
+      "hot_score": 5.94,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+        ]
+      },
+      "date": "2026-10-09",
+      "date_label": "október 9.",
+      "url": "/tech/2026-10-09-uj-titkokat-fedezett-fel-a-csillagok-es-bolygok-hataran-a-spherex/",
+      "seo": {
+        "meta_title": "Új titkokat fedezett fel a csillagok és bolygók határán a SP",
+        "meta_description": "A SPHEREx űrteleszkóp új megfigyelései révén közelebb kerültünk a csillagok és az exobolygók határvidékén mozgó égitestek megismeréséhez. A legfrissebb eredmény",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-09-uj-titkokat-fedezett-fel-a-csillagok-es-bolygok-hataran-a-spherex/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Sub-brown-dwarf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "c3e51e7be7f1998ab33f7ead6126374acf8ddf9c849e6fe7bda527ac6521fd14",
+      "pipeline_run_id": "37890992424",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-09T08:48:07+02:00",
+      "updated_at": "2026-10-09T08:48:07+02:00",
+      "published_at": "2026-10-09T08:48:07+02:00",
+      "expires_at": null
+    },
     {
       "id": "029f37f8-ee5d-5276-85fc-28e540c38d27",
       "slug": "2026-10-09-meztelen-trump-szobor-es-fokozodo-drontamadasok-borzoljak-az-europai",
