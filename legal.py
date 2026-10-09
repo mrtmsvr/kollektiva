@@ -47,8 +47,20 @@ SYSTEM = (
     "magánszemély azonosítása, képmás, magánélet; közszereplőnél a közügyhöz kapcsolódó kritika megengedett); kiskorú "
     "azonosíthatósága (Smtv.); egészségügyi állítás, ami orvosi tanácsnak tűnik vagy gyógyulást ígér; a forrás szó szerinti, "
     "hosszabb átvétele (szerzői jog); idézet, ami nem a megnevezett személytől származhat; uszító, gyűlöletkeltő megfogalmazás. "
-    "Minden problémához adj rövid, konkrét javítási javaslatot. Csak érvényes JSON-t adsz vissza."
+    "Minden problémához adj rövid, konkrét javítási javaslatot. Csak érvényes JSON-t adsz vissza. "
+    "FONTOS: a saját tudásod egy korábbi dátumnál lezárult, a közélet azóta változott (pl. 2026 tavasza óta Magyar Péter "
+    "a miniszterelnök, Orbán Viktor a volt miniszterelnök és ellenzékvezető). Tisztséget, beosztást, kormányzati "
+    "szerepet SOHA ne kifogásolj és ne javíts, ha a cikk, a forrás vagy a lent megadott aktuális lista szerint helyes – "
+    "ez amúgy sem jogi kockázat. Ha valami ellentmond a te emlékeidnek, az aktuális lista és a forrás az irányadó."
 )
+
+
+def _context() -> str:
+    try:
+        import kollektiva_content as kc
+        return kc.current_context()
+    except Exception:  # noqa: BLE001
+        return ""
 
 
 def _lic_issues(art: dict) -> list:
@@ -93,7 +105,9 @@ def ai_check(ai, art: dict) -> list:
         return []
     body = "\n".join(art.get("body") or [])[:7000]
     srcs = ", ".join(s.get("publisher") or s.get("url", "") for s in art.get("sources") or [])[:400]
-    prompt = (f"Rovat: {art.get('category')}\nCím: {art.get('title')}\nBevezető: {art.get('lead', '')}\n"
+    ctx = _context()
+    prompt = ((f"AKTUÁLIS TISZTSÉGEK (ezek helyesek, ne vitasd őket):\n{ctx}\n\n" if ctx else "")
+              + f"Rovat: {art.get('category')}\nCím: {art.get('title')}\nBevezető: {art.get('lead', '')}\n"
               f"Források: {srcs}\n\nSzöveg:\n{body}\n\n"
               "JSON: {\"issues\": [{\"risk\": \"alacsony|közepes|magas\", \"quote\": \"a kifogásolt rész (max. 15 szó)\", "
               "\"problem\": \"mi a gond (max. 12 szó)\", \"fix\": \"javítás (max. 15 szó)\"}]} – legfeljebb 4 tétel, "
@@ -111,6 +125,8 @@ def ai_check(ai, art: dict) -> list:
         q, p, f = (str(it.get(k) or "").strip() for k in ("quote", "problem", "fix"))
         if not p:
             continue
+        if POSITION_ISSUE.search(p + " " + f) and not re.search(r"(?i)rágalm|becsület|bűn|vád", p):
+            continue  # tisztség „javítása” – a modell elavult tudásából jön, nem jogi kockázat
         out.append((lvl, (f"„{q[:110]}” – " if q else "") + p[:120] + (f" → {f[:140]}" if f else "")))
     return out
 
@@ -152,8 +168,10 @@ FIX_SYSTEM = (
     "részeket módosítod, a lehető legkisebb beavatkozással: forrásmegjelölés („X szerint”, „a … beszámolója alapján”), "
     "feltételes mód („a gyanú szerint”, „állítólag”), ártatlanság vélelme, magánszemély/kiskorú azonosíthatóságának "
     "megszüntetése, túlzó egészségügyi állítás tompítása; ami nem igazolható, azt kihagyod. Új tényt nem írsz bele, "
-    "a stílus, a szerkezet és a bekezdések száma marad. Csak érvényes JSON-t adsz vissza."
+    "a stílus, a szerkezet és a bekezdések száma marad. Tisztségeket, neveket (ki miniszterelnök, ki miniszter) NE írj át – "
+    "a cikkben és az aktuális listában szereplő tisztség a helyes, a saját emlékeid elavultak. Csak érvényes JSON-t adsz vissza."
 )
+POSITION_ISSUE = re.compile(r"(?i)miniszterelnök|miniszter\b|államtitkár|tisztség|beosztás|kormányfő|államfő|elnök\b")
 
 
 def fix(ai, art: dict, issues: Optional[list] = None) -> dict:
@@ -164,7 +182,8 @@ def fix(ai, art: dict, issues: Optional[list] = None) -> dict:
         return {}
     titles = art.get("title_options") or [art.get("title", "")]
     body = art.get("body") or []
-    prompt = ("JOGI MEGJEGYZÉSEK:\n" + "\n".join(issues)
+    ctx = _context()
+    prompt = ((f"AKTUÁLIS TISZTSÉGEK (helyesek):\n{ctx}\n\n" if ctx else "") + "JOGI MEGJEGYZÉSEK:\n" + "\n".join(issues)
               + "\n\nCIKK (JSON):\n" + json.dumps({"titles": titles, "lead": art.get("lead", ""),
                                                   "key_points": art.get("key_points") or [], "body": body}, ensure_ascii=False)
               + "\n\nAdd vissza ugyanebben a szerkezetben a javított változatot: {\"titles\": [...ugyanannyi cím...], "
