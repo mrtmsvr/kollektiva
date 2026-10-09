@@ -7104,10 +7104,7 @@
       "title_options": [
         "A WHO válaszol: miért titkolják az orosz hatóságok a halálos irkutszki esetet",
         "Ismeretlen tüdőgyulladás Szibériában: pestisnek nevezni tilos",
-        "Halálos laborbaleset vagy tüdőgyulladás: ez történik Irkutszkban",
-        "Fiatal laboráns halála után zárta le a területet az orosz hatóság",
-        "A tőzsdén már a következő járványra spekulálnak egy szibériai haláleset miatt",
-        "Moszkva mindent tagad, de a WHO azonnali válaszokat követel Szibériából"
+        "Halálos laborbaleset vagy tüdőgyulladás: ez történik Irkutszkban"
       ],
       "clickbait_from": 3,
       "image_options": [
@@ -7182,11 +7179,12 @@
       "review": {
         "title": 0,
         "image": 0,
-        "sent_at": "2026-10-09T04:24:00+00:00",
-        "msg_ids": [],
-        "control_id": 4039,
-        "title_prompt_id": null,
-        "compact": "⏱ Magától kint"
+        "sent_at": "2026-10-09T09:34:52+00:00",
+        "msg_ids": [
+          4098,
+          4099
+        ],
+        "control_id": 4100
       },
       "live": true
     },
