@@ -155,13 +155,13 @@
       "review": {
         "title": 0,
         "image": 0,
-        "sent_at": "2026-10-04T07:40:55+00:00",
+        "sent_at": "2026-10-09T20:12:07+00:00",
         "msg_ids": [
-          2317,
-          2318,
-          2319
+          4272,
+          4273,
+          4274
         ],
-        "control_id": 2320
+        "control_id": 4275
       },
       "image_queries": [
         "Zoltan Lakner",
@@ -172,7 +172,11 @@
         "childcare center interior",
         "social worker meeting",
         "family counseling session"
-      ]
+      ],
+      "legal": {
+        "level": 0,
+        "issues": []
+      }
     },
     {
       "id": "fa1c5582-91bf-5f54-b860-f749b827d771",
@@ -248,7 +252,30 @@
         "Drámai pillanatok: emiatt borult ki a mezőny a TV2 műsorában"
       ],
       "clickbait_from": 3,
-      "image_options": [],
+      "image_options": [
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/bulvar-1791576735-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/bulvar-1791576735-0.jpg",
+          "kind": "photo",
+          "alt": "Váratlan szövetségek és mély csalódások a Farm VIP végjátékában",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/bulvar-1791576737-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/bulvar-1791576737-1.jpg",
+          "kind": "photo",
+          "alt": "Váratlan szövetségek és mély csalódások a Farm VIP végjátékában",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        }
+      ],
       "story": [
         {
           "title": "Ők estek ki a Farm VIP-ből: „Lehet, hogy egy kicsit jobban ki kellett volna állnom magamért”",
@@ -303,12 +330,13 @@
       "review": {
         "title": 0,
         "image": -1,
-        "sent_at": "2026-10-07T04:09:22+00:00",
+        "sent_at": "2026-10-09T20:12:20+00:00",
         "msg_ids": [
-          3303,
-          3304
+          4276,
+          4277,
+          4278
         ],
-        "control_id": 3335
+        "control_id": 4279
       },
       "legal": {
         "level": 1,
@@ -3496,7 +3524,30 @@
         "Brutális autóbaleset után kapott teljesen új arcot az RTL sorozatának rosszfiúja"
       ],
       "clickbait_from": 3,
-      "image_options": [],
+      "image_options": [
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/bulvar-1791576746-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/bulvar-1791576746-0.jpg",
+          "kind": "photo",
+          "alt": "Hét műtét és egy új arc: így lett rosszfiú a Panelhősök sztárja",
+          "likeness": true,
+          "credit": "AI-generált illusztráció – Kollektíva",
+          "license": "saját (AI-generált illusztráció)",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/bulvar-1791576749-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/bulvar-1791576749-1.jpg",
+          "kind": "photo",
+          "alt": "Hét műtét és egy új arc: így lett rosszfiú a Panelhősök sztárja",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        }
+      ],
       "story": [
         {
           "title": "Kis híján belehalt a balesetbe, teljesen más arca lett Szaszák Zsoltnak – Ma már a sérülése segíti a szerepeiben",
@@ -3547,12 +3598,13 @@
       "review": {
         "title": 1,
         "image": -1,
-        "sent_at": "2026-10-08T14:33:25+00:00",
+        "sent_at": "2026-10-09T20:12:32+00:00",
         "msg_ids": [
-          3884,
-          3885
+          4280,
+          4281,
+          4282
         ],
-        "control_id": 3886
+        "control_id": 4283
       },
       "image_queries": [
         "Zsolt Szaszák",
@@ -5328,16 +5380,16 @@
       "review": {
         "title": 0,
         "image": 0,
-        "sent_at": "2026-10-09T06:13:45+00:00",
+        "sent_at": "2026-10-09T20:12:39+00:00",
         "msg_ids": [
-          4052,
-          4053,
-          4054,
-          4055,
-          4056,
-          4057
+          4284,
+          4285,
+          4286,
+          4287,
+          4288,
+          4289
         ],
-        "control_id": 4058
+        "control_id": 4290
       }
     },
     {
@@ -6338,13 +6390,13 @@
       "review": {
         "title": 0,
         "image": 0,
-        "sent_at": "2026-10-09T08:42:50+00:00",
+        "sent_at": "2026-10-09T20:12:43+00:00",
         "msg_ids": [
-          4089,
-          4090,
-          4091
+          4291,
+          4292,
+          4293
         ],
-        "control_id": 4092
+        "control_id": 4294
       }
     },
     {
