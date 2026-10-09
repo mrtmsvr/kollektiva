@@ -8765,7 +8765,7 @@
     {
       "id": "4cbab5ea-7542-5475-8559-224d28fe6c4f",
       "slug": "2026-10-09-tobb-penzt-kaphatnak-a-kisnyugdijasok-januartol",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -8796,16 +8796,17 @@
       "word_count": 276,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 732,
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/667b00c8c076e8fa.jpg",
+        "width": 3853,
+        "height": 2569,
         "kind": "photo",
-        "pos": "center",
-        "alt": "Parliament building, Budapest",
-        "credit": "Dirk Beyer / Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Parliament_4604.JPG",
-        "vision_score": 7.0
+        "alt": "poverty, black and white, emotion, sadness, life, money, pension, age, hands, poverty, money, money, money, money, money",
+        "credit": "Frantisek_Krejci / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/poverty-black-and-white-emotion-4561704/",
+        "vision_score": 9.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/667b00c8c076e8fa.jpg",
+        "orig_url": "https://pixabay.com/get/g84d27f480c037bd03680eabb72aaabe2c3fcdee611fdc3526b87f4fc0b5d31a1b9c55919046dc9af6f2fb049d522431a141b581a645d3b5a2981b228533a49e9_1280.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -8909,7 +8910,7 @@
         "meta_title": "Több pénzt kaphatnak a kisnyugdíjasok januártól",
         "meta_description": "Társadalmi egyeztetésre bocsátotta a kormány a 2027. januári nyugdíj- és szociálisellátás-emelési csomag részletszabályait, amelyek a korábban ígértnél is nagyo",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-09-tobb-penzt-kaphatnak-a-kisnyugdijasok-januartol/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/667b00c8c076e8fa.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8926,9 +8927,9 @@
       "dedupe_hash": "6cb9d3b944cb267e814252514e5a9f75076ebc989b9d44b93901dd105db949f5",
       "pipeline_run_id": "37944209264",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-09T16:38:49+02:00",
-      "updated_at": "2026-10-09T16:38:49+02:00",
-      "published_at": "2026-10-09T16:38:49+02:00",
+      "created_at": "2026-10-09T16:53:14+02:00",
+      "updated_at": "2026-10-09T16:53:14+02:00",
+      "published_at": "2026-10-09T16:53:14+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -8938,14 +8939,10 @@
         "title": 0,
         "image": 0,
         "sent_at": "2026-10-09T14:40:24+00:00",
-        "msg_ids": [
-          4199,
-          4200,
-          4223,
-          4224,
-          4225
-        ],
-        "control_id": 4226
+        "msg_ids": [],
+        "control_id": 4226,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
       },
       "image_queries": [
         "Hungarian Parliament Building",
@@ -8957,7 +8954,8 @@
       ],
       "images_seen": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
+      ],
+      "live": true
     }
   ]
 }
