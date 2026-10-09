@@ -4,9 +4,9 @@ Kollektíva – emberi jóváhagyás Telegramon
 =========================================
 
 Módok (REVIEW_MODE környezeti változó):
-  hybrid (alap): a cikk jóváhagyásra vár; „✅ Kirakom” után azonnal kikerül. Ha AUTO_PUBLISH_MIN percen
-                 belül (alap: 30) nem döntesz, automatikusan kikerül (verseny a kattintásért). Kint lévő
-                 cikknél utólag is lehet címet/képet cserélni, újraíratni vagy törölni.
+  hybrid (alap): a cikk jóváhagyásra vár; „✅ Kirakom” után azonnal kikerül. Hír magától nem kerül ki
+                 (AUTO_PUBLISH_NEWS=true esetén AUTO_PUBLISH_MIN perc után igen); a saját időzített anyag
+                 csendes időszakban kimehet. Kint lévő cikknél utólag is lehet címet/képet cserélni, törölni.
   post:          a hír azonnal kikerül, Telegramon csak utólagos ellenőrzés.
   pre:           csak jóváhagyás után jelenik meg (nincs automatikus kirakás).
 
@@ -55,6 +55,9 @@ PENDING_MAX_AGE_H = int(os.getenv("PENDING_MAX_AGE_H", "48"))
 PUBLISH_FLAG = kc.BASE_DIR / ".published_flag"
 MODE = os.getenv("REVIEW_MODE", "hybrid").strip().lower()
 AUTO_PUBLISH_MIN = int(os.getenv("AUTO_PUBLISH_MIN", "30"))
+# hír csak a te jóváhagyásoddal kerül ki (AUTO_PUBLISH_NEWS=true visszakapcsolja a „30 perc után magától” működést);
+# a saját (időzített) anyag továbbra is csendes időszakban, a határidejéig magától kimehet
+AUTO_NEWS = os.getenv("AUTO_PUBLISH_NEWS", "false").lower() in ("1", "true", "yes")
 E = lambda t: html.escape(str(t or ""), quote=False)  # noqa: E731
 
 
@@ -153,7 +156,8 @@ def _fresh_titles(ai, a: dict, n: int = 2) -> list:
         ai = ai or kc.AIClient(kc.Config.from_env())
         raw = ai.complete_json("Hírszerkesztő vagy egy magyar online magazinnál. Csak JSON-t adsz vissza.",
                                f"Cím: {a.get('title', '')}\nBevezető: {a.get('lead', '')}\n\nÍrj {n} új, ütős, de igaz címet, ami "
-                               "nem csak a fenti átfogalmazása (más szög, más kulcsszó elöl) "
+                               "más hangsúllyal vagy szöggel szól; a fontos kulcsszavak (személy neve, helyszín, a lényeg) maradhatnak benne, "
+                               "ismert személy nevét ne írd körül "
                                "(max. 9 szó, pont nélkül a végén, olcsó clickbait-sablonok nélkül). "
                                'JSON: {"titles": ["...", "..."]}', 300, light=True)
         for t in raw.get("titles") or []:
@@ -163,6 +167,37 @@ def _fresh_titles(ai, a: dict, n: int = 2) -> list:
     except Exception as e:  # noqa: BLE001
         log.warning("Címjavaslat kimaradt: %s", str(e)[:150])
     return out[:n + 1]
+
+
+def _download_file(file_id: str) -> Optional[bytes]:
+    """A chatbe küldött kép/matrica letöltése (Telegram getFile)."""
+    try:
+        path = (tg("getFile", {"file_id": file_id}).get("result") or {}).get("file_path")
+        if not path:
+            return None
+        url = f"https://api.telegram.org/file/bot{os.environ['TELEGRAM_BOT_TOKEN']}/{path}"
+        with urllib.request.urlopen(url, timeout=40) as r:
+            return r.read()
+    except Exception as e:  # noqa: BLE001
+        log.warning("Fájlletöltés sikertelen: %s", str(e)[:120])
+        return None
+
+
+def _resend_waiting(out_dir: Path, st: dict, pending: list) -> bool:
+    """/f vagy a 📋 gomb: minden még ki nem rakott cikk újra a chat aljára (a régi üzenetei törlődnek), minden gombbal."""
+    waiting = [a for a in pending if not a.get("live")]
+    if not waiting:
+        tg("sendMessage", {"chat_id": st["chat_id"], "text": "Nincs váró cikk."})
+        return False
+    tg("sendMessage", {"chat_id": st["chat_id"], "text": f"📋 {len(waiting)} váró cikk:"})
+    for a in waiting:
+        keep = {k: a.get("review", {}).get(k) for k in ("title", "image", "custom_title") if a.get("review", {}).get(k) is not None}
+        _drop_old_messages(st["chat_id"], a)
+        send_article(out_dir, a)
+        if keep:  # a korábbi cím-/képválasztásod megmarad
+            a["review"].update(keep)
+            _refresh_control(st["chat_id"], a)
+    return True
 
 
 def _mid(resp: dict) -> Optional[int]:
@@ -254,7 +289,7 @@ def _control(art: dict) -> tuple:
     rows.append([{"text": "✅ Rendben" if live else "✅ Kirakom", "callback_data": f"{sid}|ok"},
                  {"text": "🗑 Törlés" if live else "🗑 Elvetem", "callback_data": f"{sid}|no"}])
     img_txt = f"{ii + 1}. kép" if ii >= 0 and imgs else "nincs kép"
-    auto = f" (magától: {AUTO_PUBLISH_MIN} perc)" if MODE == "hybrid" else ""
+    auto = f" (magától: {AUTO_PUBLISH_MIN} perc)" if MODE == "hybrid" and AUTO_NEWS else " (magától nem kerül ki)"
     if art.get("hold") or art.get("category") == "bulvar":
         auto = " (magától nem kerül ki)"
     elif art.get("schedule") and MODE == "hybrid":
@@ -613,7 +648,9 @@ HELP = ("Parancsok (rövid / hosszú):\n"
         "/t /torles <link|cím> – leszedés\n"
         "/kn – kép nélküli cikkek képválasztásra\n"
         "/csatornak · /csatorna <YouTube-link> – videófigyelés\n"
-        "/l /lista · /szavazas (állás, létszám) · /keret · /stat (olvasók)\n"
+        "/l /lista · /f – a váró cikkek újra, minden gombbal\n"
+        "/szavazas (állás, létszám) · /keret · /stat (olvasók)\n"
+        "Instagram-előnézetre válaszként küldött kép/matrica = új háttér\n"
         "Link vagy „téma: …” → cikk róla")
 
 
@@ -675,6 +712,16 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 continue
             text = (m.get("text") or "").strip()
             rep = (m.get("reply_to_message") or {}).get("message_id")
+            fid = ((m.get("photo") or [{}])[-1].get("file_id") or (m.get("sticker") or {}).get("file_id")
+                   or ((m.get("document") or {}).get("file_id") if str((m.get("document") or {}).get("mime_type", "")).startswith("image/") else None))
+            if fid and rep:  # kép vagy matrica válaszként az Instagram-előnézetre: ez lesz a kártya háttere
+                import instagram
+                pid = instagram.post_for_message(rep)
+                if pid:
+                    data = _download_file(fid)
+                    res = instagram.set_background(pid, data) if data else "A képet nem tudtam letölteni."
+                    tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": m["message_id"], "text": res})
+                    continue
             if rep and text and not text.startswith("/"):
                 art = next((a for a in pending if rep in (a.get("review", {}).get("msg_ids", []) +
                                                           [a.get("review", {}).get("control_id"),
@@ -907,7 +954,12 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
             elif re.match(r"(?i)/(l|lista)\b", text):
                 lines = [f"{'🟢' if a.get('live') else '⏳'} {kc.SECTIONS.get(a['category'], {}).get('name', '')}: "
                          f"{_chosen_title(a)}" for a in pending]
-                tg("sendMessage", {"chat_id": st["chat_id"], "text": "\n".join(lines) or "Nincs függő cikk."})
+                waiting = [a for a in pending if not a.get("live")]
+                tg("sendMessage", {"chat_id": st["chat_id"], "text": "\n".join(lines) or "Nincs függő cikk.",
+                                   **({"reply_markup": {"inline_keyboard": [[{"text": f"📋 A {len(waiting)} váró cikk újra, minden gombbal",
+                                                                             "callback_data": "fall|x"}]]}} if waiting else {})})
+            elif re.match(r"(?i)/(f|fuggo|függő|fuggok|függők)\b", text):
+                changed = _resend_waiting(out_dir, st, pending) or changed
             elif text.startswith("/"):
                 tg("sendMessage", {"chat_id": st["chat_id"], "text": HELP})
             elif text and not rep and not re.search(r"https?://|^(téma|tema|cikk)\s*:", text, re.I):
@@ -939,6 +991,17 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 import instagram
                 ok = instagram.cancel(parts[1])
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Nem megy ki." if ok else "Ez már kiment vagy nem várakozik."})
+                continue
+            if parts[0] == "fall":  # a váró cikkek újra a chat aljára, minden gombbal
+                tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Előhozom a váró cikkeket…"})
+                changed = _resend_waiting(out_dir, st, pending) or changed
+                continue
+            if parts[0] == "ignow":  # Instagram-poszt azonnal
+                import instagram
+                tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Posztolom…"})
+                res = instagram.post_now(parts[1])
+                if res:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": res, "disable_web_page_preview": True})
                 continue
             if parts[0] == "igdel":  # kint lévő Instagram-poszt leszedése
                 import instagram
@@ -1112,11 +1175,11 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                     import offtopic  # elvetett saját cikk helyett aznap új téma jön
                     if art.get("date") == datetime.now(tz).date().isoformat() and offtopic.allow_reroll(datetime.now(tz).date()):
                         note += " – új saját cikket írok (másik téma)"
-                for mid in (art.get("review", {}).get("msg_ids") or []) + [art.get("review", {}).get("title_prompt_id")]:
-                    if mid:  # a cikk többi üzenete eltűnik, csak egy sor marad
+                rv_ = art.get("review", {})
+                for mid in (rv_.get("msg_ids") or []) + [rv_.get("title_prompt_id"), rv_.get("control_id"),
+                                                          q["message"]["message_id"]]:
+                    if mid:  # elvetett / törölt cikk: minden üzenete eltűnik a chatből, ne foglalja a helyet
                         tg("deleteMessage", {"chat_id": st["chat_id"], "message_id": mid})
-                tg("editMessageText", {"chat_id": st["chat_id"], "message_id": q["message"]["message_id"],
-                                       "text": f"🗑 {note}: {_chosen_title(art)}"})
             elif act == "rw":
                 note = "Újraírás…"
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": note})
@@ -1156,7 +1219,7 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 if not offtopic.is_due(a, live_articles, now_local):
                     continue
                 msg = "🗓 Csendesebb időszak van, ezért kiraktam a saját anyagot."
-            elif _age_min(a) >= AUTO_PUBLISH_MIN:
+            elif AUTO_NEWS and _age_min(a) >= AUTO_PUBLISH_MIN:
                 msg = f"⏱ Nem jött döntés {AUTO_PUBLISH_MIN} percen belül, ezért kiraktam."
             else:
                 continue
@@ -1240,7 +1303,16 @@ def main(argv: Optional[list] = None) -> int:
             log.info("✔ Új oldalsablon: minden oldal újraépítve")
     except Exception as e:  # noqa: BLE001
         log.warning("Sablon-ellenőrzés kimaradt: %s", e)
+    last_ig = 0.0
     while True:
+        if time.time() - last_ig >= 120:  # esedékes Instagram-poszt percre pontosan (ne csak a következő futás elején)
+            last_ig = time.time()
+            try:
+                import instagram
+                if instagram.publish_pending():
+                    _save_to_git("Instagram")
+            except Exception as e:  # noqa: BLE001
+                log.warning("Instagram-kör kimaradt: %s", str(e)[:200])
         before = (STATE_FILE.read_text() if STATE_FILE.exists() else "", PENDING_FILE.read_text() if PENDING_FILE.exists() else "")
         left = int(deadline - time.time())
         n = poll(cfg.output_dir, None, tz, wait=max(0, min(25, left)))
