@@ -869,9 +869,14 @@ def img_keys(im: Optional[dict]) -> set:
 
 
 def used_images(articles: list) -> set:
-    """Minden kint lévő (és függő) cikk főképe: ugyanaz a fotó ne legyen két cikk főképe."""
+    """Az elmúlt IMG_REUSE_DAYS (alap 21) nap kint lévő (és függő) cikkeinek főképe: ugyanaz a fotó ne legyen két
+    friss cikk főképe. Régebbi cikk képe (pl. egy politikus portréja) három hét után újra előkerülhet – a lapok is így
+    dolgoznak, és enélkül a szabad licencű képkészlet hamar elfogyna."""
     out = set()
+    since = (date.today() - timedelta(days=int(os.getenv("IMG_REUSE_DAYS", "21")))).isoformat()
     for a in articles:
+        if (a.get("date") or a.get("created_at") or "9999")[:10] < since:
+            continue
         out |= img_keys(a.get("hero_image"))
         rv, opts = a.get("review") or {}, a.get("image_options") or []
         if opts and 0 <= int(rv.get("image", 0)) < len(opts):  # függő cikk: a kiválasztott kép
