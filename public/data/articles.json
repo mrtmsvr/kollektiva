@@ -1,7 +1,121 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-09T10:39:45+02:00",
+  "updated_at": "2026-10-09T11:04:29+02:00",
   "articles": [
+    {
+      "id": "28fb8da5-96ad-51b1-bad3-1b2cb349ecee",
+      "slug": "2026-10-09-feltamadoban-a-budapesti-ertektozsde-az-otp-vezetesevel",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "OTP",
+        "BUX",
+        "Magyar Nemzeti Bank",
+        "tőzsde",
+        "részvényvásárlás"
+      ],
+      "title": "Feltámadóban a Budapesti Értéktőzsde az OTP vezetésével",
+      "subtitle": null,
+      "lead": "Bő kéthetes zuhanást követően felfelé korrigált a Budapesti Értéktőzsde, miután az OTP újabb sajátrészvény-vásárlási engedélyt kapott. A piaci fordulat az egész hazai mezőnyt magával rántotta.",
+      "key_points": [
+        "Az OTP árfolyama 1,7 százalékot emelkedett a nyitást követően.",
+        "A BUX index a csütörtöki esés után 0,8 százalékos pluszban nyitott pénteken."
+      ],
+      "content": "A csütörtöki kereskedésben jelentős nyomás alá került a Budapesti Értéktőzsde, miután az OTP árfolyama bő két hét alatt 18 százalékot esett. A befektetők addig csak találgatták, miért nem avatkozik közbe a bank a saját papírjainak vásárlásával, a válasz azonban a hatósági engedélyek hiánya volt.\n\nA bejelentést követően a papírok azonnal felpattantak, a nyitást követő percekben már 1,7 százalékos pluszban jártak, míg maga a bankrészvény a nap folyamán 4 százalék fölötti erősödést is mutatott.\n\nA hazai tőzsde egészére átragadt a jó hangulat, a BUX index 0,8 százalékos pluszban indította a pénteki kereskedést.\n\nA nemzetközi környezetben vegyes volt a kép: míg az európai tőzsdék emelkedéssel indították a napot, az amerikai indexek vegyesen zártak, Ázsiában pedig felemás elmozdulásokat mértek a befektetők. A külföldi makroadatok frontján csendes napra számíthatnak a piaci szereplők, így a figyelem továbbra is a kötvényhozamok és az olajár alakulására összpontosul.",
+      "content_format": "markdown",
+      "body": [
+        "A csütörtöki kereskedésben jelentős nyomás alá került a Budapesti Értéktőzsde, miután az OTP árfolyama bő két hét alatt 18 százalékot esett. A befektetők addig csak találgatták, miért nem avatkozik közbe a bank a saját papírjainak vásárlásával, a válasz azonban a hatósági engedélyek hiánya volt.",
+        "A bejelentést követően a papírok azonnal felpattantak, a nyitást követő percekben már 1,7 százalékos pluszban jártak, míg maga a bankrészvény a nap folyamán 4 százalék fölötti erősödést is mutatott.",
+        "A hazai tőzsde egészére átragadt a jó hangulat, a BUX index 0,8 százalékos pluszban indította a pénteki kereskedést.",
+        "A nemzetközi környezetben vegyes volt a kép: míg az európai tőzsdék emelkedéssel indították a napot, az amerikai indexek vegyesen zártak, Ázsiában pedig felemás elmozdulásokat mértek a befektetők. A külföldi makroadatok frontján csendes napra számíthatnak a piaci szereplők, így a figyelem továbbra is a kötvényhozamok és az olajár alakulására összpontosul."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 168,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/OTP_bank%2C_Hajd%C3%BAszoboszl%C3%B3.JPG/1280px-OTP_bank%2C_Hajd%C3%BAszoboszl%C3%B3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 862,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Az OTP bank Hajdúszoboszlón.",
+        "credit": "Own work / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:OTP_bank,_Hajd%C3%BAszoboszl%C3%B3.JPG",
+        "vision_score": 6.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/uzlet/20261009/jo-a-hangulat-a-tozsdeken-felfele-korrigal-az-otp-868522",
+          "title": "Jó a hangulat a tőzsdéken, felfelé korrigál az OTP",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-09T10:33:11+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": "2026-10-09T11:04:29+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/uzlet/20261009/jo-a-hangulat-a-tozsdeken-felfele-korrigal-az-otp-868522"
+        ]
+      },
+      "date": "2026-10-09",
+      "date_label": "október 9.",
+      "url": "/penzvilag/2026-10-09-feltamadoban-a-budapesti-ertektozsde-az-otp-vezetesevel/",
+      "seo": {
+        "meta_title": "Feltámadóban a Budapesti Értéktőzsde az OTP vezetésével",
+        "meta_description": "Bő kéthetes zuhanást követően felfelé korrigált a Budapesti Értéktőzsde, miután az OTP újabb sajátrészvény-vásárlási engedélyt kapott. A piaci fordulat az egész",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-09-feltamadoban-a-budapesti-ertektozsde-az-otp-vezetesevel/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/OTP_bank%2C_Hajd%C3%BAszoboszl%C3%B3.JPG/1280px-OTP_bank%2C_Hajd%C3%BAszoboszl%C3%B3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "e9db3e0c5178f9197ab7d23b132c0a48091b37719c72710c2cee13941da1351e",
+      "pipeline_run_id": "37902617750",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-09T11:04:29+02:00",
+      "updated_at": "2026-10-09T11:04:29+02:00",
+      "published_at": "2026-10-09T11:04:29+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "Budapest Stock Exchange",
+        "OTP Bank",
+        "BUX Index",
+        "Budapest cityscape",
+        "European stock exchange trading floor",
+        "American stock index display",
+        "stock market trading floor",
+        "financial chart",
+        "bank interior"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/OTP_Bank%2C_Pozsonyi_Stra%C3%9Fe%2C_2021_Budapest.jpg/1280px-OTP_Bank%2C_Pozsonyi_Stra%C3%9Fe%2C_2021_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/OTP_Bank%2C_2018_Sashalom.jpg/1280px-OTP_Bank%2C_2018_Sashalom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
+    },
     {
       "id": "68a65a02-56e9-5165-8146-6d6860c7de9e",
       "slug": "2026-10-09-lejart-a-moratorium-folytatodhat-a-fakitermeles-az-allami-erdokben",
