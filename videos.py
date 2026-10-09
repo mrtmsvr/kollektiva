@@ -224,7 +224,11 @@ def article_from_video(ai: "kc.AIClient", v: dict, tz: ZoneInfo, articles: list,
         log.info("Videó: nem hírértékű vagy kevés tartalom – %s", v["title"][:80])
         return None
     unsure = [str(u) for u in info.get("uncertain") or [] if str(u).strip()][:10]
-    fulltext = (f"[Videó/podcast: {v.get('author', '')} – {v['title']}]\nSzereplők: {', '.join(info.get('speakers') or [])}\n\n"
+    who = v.get("author") or str(info.get("channel") or "") or "a csatorna"
+    fulltext = (f"[Videó/podcast: {v.get('author', '')} – {v['title']}]\nSzereplők: {', '.join(info.get('speakers') or [])}\n"
+                f"SZÓHASZNÁLAT: a forrást a csatorna / lap / műsor nevével említsd (pl. „a {who} műsorában”, „a {who} "
+                f"videójában”, „– mondta a {who} interjújában”); SOHA ne így: „egy online videóban”, „egy videóban”, "
+                "„egy YouTube-videóban”.\n\n"
                 + str(info["summary"])
                 + (("\n\nBIZONYTALANUL ÉRTHETŐ RÉSZEK (ezeket ne állítsd biztosnak, ne idézd): " + "; ".join(unsure)) if unsure else ""))
     now = datetime.now(tz)
