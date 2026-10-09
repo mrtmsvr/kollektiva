@@ -7180,11 +7180,10 @@
         "title": 2,
         "image": 0,
         "sent_at": "2026-10-09T09:34:52+00:00",
-        "msg_ids": [
-          4098,
-          4099
-        ],
-        "control_id": 4100
+        "msg_ids": [],
+        "control_id": 4100,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
       },
       "live": true
     },
