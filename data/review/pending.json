@@ -8738,9 +8738,9 @@
       "live": true
     },
     {
-      "id": "6752f018-2759-57f2-922e-3c602d21f39b",
-      "slug": "2026-10-09-miert-nem-vizsgalja-senki-a-valasztas-utani-milliardos-lottonyeremeny",
-      "status": "pending",
+      "id": "1768747f-c31d-5d04-a282-b45e66137fb1",
+      "slug": "2026-10-09-matematikusok-szerint-13-evente-jon-ossze-az-a-lottohet-ami-most-vert",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -8750,7 +8750,7 @@
         "hatóságok",
         "választások"
       ],
-      "title": "Miért nem vizsgálja senki a választás utáni milliárdos lottónyereményeket?",
+      "title": "Matematikusok szerint 13 évente jön össze az a lottóhét, ami most verte ki a biztosítékot",
       "subtitle": null,
       "lead": "A választás utáni héten elvitt rekordösszegű lottónyereményekről és a hatósági vizsgálatok hiányáról beszélt Magyar Péter egy sajtótájékoztatón. A politikus a 444 újságírójának kérdésére válaszolva érintette a közpénzek áramlását és az érintett intézmények mulasztásait is.",
       "key_points": [
@@ -8770,7 +8770,19 @@
       "reading_time_min": 2,
       "word_count": 250,
       "locale": "hu-HU",
-      "hero_image": null,
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/a6b25a2e90255116.jpg",
+        "width": 6240,
+        "height": 4160,
+        "kind": "photo",
+        "alt": "lottery, ticket, game, bingo, numbers, board game, paper, bingo, bingo, bingo, bingo, bingo",
+        "credit": "u_1nl4askhcx / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/lottery-ticket-game-bingo-numbers-8093660/",
+        "vision_score": 5.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/a6b25a2e90255116.jpg",
+        "orig_url": "https://pixabay.com/get/g5eec2ff50d3842b1c0f874186bc05ebcf91c076ff0b6e4edcbfd0ea402bf1e456149aa3f2f70fa24eb18c4638e3f38470ec6c688c122a7adf76e5de042b7dc07_1280.jpg"
+      },
       "inline_images": [],
       "sources": [
         {
@@ -8858,12 +8870,12 @@
       },
       "date": "2026-10-09",
       "date_label": "október 9.",
-      "url": "/kozelet/2026-10-09-miert-nem-vizsgalja-senki-a-valasztas-utani-milliardos-lottonyeremeny/",
+      "url": "/kozelet/2026-10-09-matematikusok-szerint-13-evente-jon-ossze-az-a-lottohet-ami-most-vert/",
       "seo": {
-        "meta_title": "Miért nem vizsgálja senki a választás utáni milliárdos lottó",
+        "meta_title": "Matematikusok szerint 13 évente jön össze az a lottóhét, ami",
         "meta_description": "A választás utáni héten elvitt rekordösszegű lottónyereményekről és a hatósági vizsgálatok hiányáról beszélt Magyar Péter egy sajtótájékoztatón. A politikus a 4",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-09-miert-nem-vizsgalja-senki-a-valasztas-utani-milliardos-lottonyeremeny/",
-        "og_image": null,
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-09-matematikusok-szerint-13-evente-jon-ossze-az-a-lottohet-ami-most-vert/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/a6b25a2e90255116.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8880,9 +8892,9 @@
       "dedupe_hash": "ab1084fd89e8300a9a9e51d27ac3ace8b7020d68e9e10c37e80c671aef858248",
       "pipeline_run_id": "37932153625",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-09T14:54:36+02:00",
-      "updated_at": "2026-10-09T14:54:36+02:00",
-      "published_at": "2026-10-09T14:54:36+02:00",
+      "created_at": "2026-10-09T14:58:40+02:00",
+      "updated_at": "2026-10-09T14:58:40+02:00",
+      "published_at": "2026-10-09T14:58:40+02:00",
       "expires_at": null,
       "hold": true,
       "video": {
@@ -8899,14 +8911,10 @@
         "title": 2,
         "image": 2,
         "sent_at": "2026-10-09T12:56:08+00:00",
-        "msg_ids": [
-          4185,
-          4186,
-          4189,
-          4190,
-          4191
-        ],
-        "control_id": 4192
+        "msg_ids": [],
+        "control_id": 4192,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
       },
       "image_queries": [
         "Hungarian lottery",
@@ -8917,7 +8925,8 @@
         "money bills",
         "press conference"
       ],
-      "images_seen": []
+      "images_seen": [],
+      "live": true
     }
   ]
 }
