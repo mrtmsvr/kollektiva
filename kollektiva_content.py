@@ -1004,6 +1004,8 @@ CFG_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "20"))
 def _clean_title(t: str) -> str:
     """Cím: nincs pont a végén (kérdő- és felkiáltójel maradhat)."""
     t = str(t).strip()
+    if t.strip(" \"'").lower() in ("null", "none"):
+        return ""
     return t[:-1].rstrip() if t.endswith(".") and not t.endswith("...") else t
 
 
@@ -1091,19 +1093,19 @@ def _gen_image(acct: str, token: str, prompt: str, timeout: int, seed: int) -> b
         try:
             data = post_json(f"https://api.cloudflare.com/client/v4/accounts/{acct}/ai/run/@cf/black-forest-labs/flux-1-schnell",
                              {"Authorization": f"Bearer {token}"},
-                             {"prompt": prompt + ", no watermark, 16:9 composition", "steps": 4, "seed": seed},
+                             {"prompt": prompt[:2000] + ", no watermark, 16:9 composition", "steps": 4},
                              timeout, 1)
             img = base64.b64decode((data.get("result") or {}).get("image") or "")
             if len(img) >= 5000:
                 note_usage("cf_image")
                 return img
-        except Exception as e:  # noqa: BLE001
+        except Exception as e:  # noqa: BLE001 – bármilyen Cloudflare-hiba (keret, 5006 bemeneti hiba, időtúllépés): tartalék
             msg = str(e)
             if "4006" in msg or "daily free allocation" in msg or "429" in msg:
                 CF_IMG_EXHAUSTED = True
                 log.warning("Cloudflare képkeret elfogyott – tartalék generátor.")
             else:
-                raise
+                log.warning("Cloudflare képgenerálás hiba (%s) – tartalék generátor.", msg[:200])
     if os.getenv("IMAGE_FALLBACK", "pollinations") != "pollinations":
         raise AIError("A Cloudflare napi képkerete elfogyott (10 000 neuron), és nincs tartalék generátor.")
     q = urllib.parse.quote(prompt[:700] + ", editorial illustration, no watermark")
@@ -1569,7 +1571,7 @@ def _page(title: str, description: str, canonical: str, body: str, head_extra: s
 </main>
 <footer>© {datetime.now().year} {SITE_NAME}<br><a href="/">Főoldal</a>{NAV_LINKS}<a href="/feed.xml">RSS</a><br><a href="/info/#impresszum">Impresszum</a><a href="/info/#adatkezeles">Adatkezelés</a><a href="/info/#sutik">Sütik</a><a href="/info/#hirdetes">Hirdetés</a>{GPREF_FOOT}</footer>
 {NEW_TOAST_HTML}
-<script src="/poll-widget.js?v=9" defer></script>
+<script src="/poll-widget.js?v=10" defer></script>
 <script>try{{navigator.sendBeacon("/api/olvas",JSON.stringify({{p:location.pathname,r:document.referrer}}))}}catch(e){{}}</script>
 </body>
 </html>
@@ -1746,7 +1748,7 @@ def _share_html(url: str, title: str, n_src: int = 0) -> str:
 def _tags_html(tags: list) -> str:
     """Kulcsszavak a cikk tetején – kattintásra a keresőben az összes kapcsolódó cikk."""
     tags = [str(x).strip() for x in tags or [] if str(x).strip()][:6]
-    return ('<p class="tags">' + "".join(f'<a href="/?kereses={E(urllib.parse.quote(x))}">{E(x)}</a>' for x in tags)
+    return ('<p class="tags">' + "".join(f'<a href="/?kereses={E(urllib.parse.quote(x))}" rel="nofollow">{E(x)}</a>' for x in tags)
             + '</p>') if tags else ""
 
 
@@ -2054,6 +2056,11 @@ PUBLIC = (r"adat|statisztik|KSH|felmérés|kutatás|oktatás|iskola|egészségü
 # Minden rovatból kizárt témák: csak a szélsőséges tartalom (bűnügy, háború, vádak mehetnek, tényszerűen)
 EXCLUDE_ALL = re.compile(r"öngyilk|pedofil|gyermekpornó|kiskorú.{0,20}(szexuális|bántalmaz)", re.I)
 # Nem önálló hír, hanem „hír a hírről” / gyűjtőcikk / élő közvetítés – ezekből nem írunk
+# „új felvételek / képek” típusú űrhír: csak akkor ér valamit, ha magukat a képeket mutatjuk – ilyet nem írunk
+SPACE_IMG_STORY = re.compile(r"\b(new|stunning|latest) (images?|photos?|views?|mosaic)|\b(image|photo) of the (day|week)|"
+                             r"új (képek|képe|felvétel|fotó)|látványos (kép|felvétel|fotó)|lenyűgöző (kép|felvétel|fotó)|mozaik", re.I)
+SPACE_STORY = re.compile(r"NASA|ESA\b|\bűr\w*|\bMars\b|\bHold\b|holdbázis|Szaturnusz|Jupiter|csillag|galaxis|bolygó|SpaceX|"
+                         r"Artemis|asztronaut|űrhajó|teleszkóp|űrtávcső|rakéta", re.I)
 META_STORY = re.compile(r"Google Trends|keresések|keresőben|percről percre|hírösszefoglaló|napi összefoglaló|"
                         r"\bélő\b|élőben|podcast|videó:|galéria|horoszkóp|kvíz|nyereményjáték|ajánlónk", re.I)
 
@@ -2090,7 +2097,9 @@ SECTIONS = {
         "tagline": "Mesterséges intelligencia, tudomány és űrkutatás – érthetően.",
         "focus": "technológia, mesterséges intelligencia, digitális eszközök, tudomány, csillagászat és űrkutatás",
         "feeds": [("https://telex.hu/rss", r"Techtud", None), ("https://qubit.hu/feed", None, None),
-                  ("https://hvg.hu/rss", r"Tech|Tudomány", None), ("https://www.nasa.gov/feed/", None, None)],
+                  ("https://hvg.hu/rss", r"Tech|Tudomány", None),
+                  # a NASA saját hírfolyamából csak a nagy események (a sok „új felvétel” / mozaik-poszt nem hír nálunk)
+                  ("https://www.nasa.gov/feed/", None, r"Artemis|launch|landing|astronaut|crew|discover|first|record|asteroid|Mars Sample")],
     },
     "eletmod": {
         "voice": "barátságos, tudományosan megalapozott: a kutatási eredményt a helyén kezeli (egy vizsgálat nem bizonyíték), praktikus",
@@ -2676,24 +2685,66 @@ def headline_examples(timeout: int) -> list:
 
 
 CONTEXT_FILE = BASE_DIR / "data" / "context_hu.json"
-CONTEXT_PAGES = ["Magyarország miniszterelnöke", "Magyarország kormánya", "Magyarország köztársasági elnöke",
-                 "Magyarország Országgyűlése"]
+CABINET_PAGE = os.getenv("CABINET_PAGE", "Magyar-kormány")  # kormányváltáskor ezt kell átírni (vagy env)
+# Tartalék, ha a Wikipédia nem érhető el (2026. október). A robot naponta frissíti a Wikipédia kormány-szócikkéből.
+CABINET_FALLBACK = (
+    "Miniszterelnök: Magyar Péter (TISZA, 2026. május 9. óta); Miniszterelnök-helyettes, külügyminiszter: Orbán Anita; "
+    "Miniszterelnök-helyettes, Miniszterelnökséget vezető miniszter: Ruff Bálint; Agrár- és élelmiszergazdaságért felelős "
+    "miniszter: Bóna Szabolcs; Belügyminiszter: Pósfai Gábor; Egészségügyi miniszter: Hegedűs Zsolt; Élő környezetért "
+    "felelős miniszter: Gajdos László; Gazdasági és energetikai miniszter: Kapitány István; Honvédelmi miniszter: "
+    "Ruszin-Szendi Romulusz; Igazságügyi miniszter: Görög Márta; Közlekedési és beruházási miniszter: Vitézy Dávid; "
+    "Oktatási és gyermekügyi miniszter: Lannert Judit; Pénzügyminiszter: Kármán András; Szociális és családügyi "
+    "miniszter: Kátai-Németh Vilmos; Társadalmi kapcsolatokért és kultúráért felelős miniszter: Tarr Zoltán; Tudományos "
+    "és technológiai miniszter: Tanács Zoltán; Vidék- és településfejlesztési miniszter: Lőrincz Viktória; "
+    "Köztársasági elnök: Baka András; Az ellenzék vezetője: Orbán Viktor (Fidesz, volt miniszterelnök 2010–2026)")
+_BOLD = "'" * 3
+
+
+def _unwiki(t: str) -> str:
+    t = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", t)
+    t = re.sub(r"<[^>]+>|\{\{[^}]*\}\}", "", t).replace(_BOLD, "").replace("''", "")
+    return re.sub(r"\s+", " ", t).strip(" |,")
+
+
+def cabinet_text(timeout: int = 15) -> str:
+    """A kormány összetétele a Wikipédia kormány-szócikkéből (wikitext): „Tisztség: Név” sorok + államfő, ellenzékvezető."""
+    try:
+        req = urllib.request.Request(f"https://hu.wikipedia.org/w/index.php?title={_q(CABINET_PAGE)}&action=raw",
+                                     headers=WIKI_UA)
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            w = r.read().decode("utf-8")
+    except Exception as e:  # noqa: BLE001
+        log.warning("Kormány-szócikk nem érhető el: %s", e)
+        return ""
+    out = []
+    if '{| class="wikitable"' in w:
+        tbl = w.split('{| class="wikitable"', 1)[1].split("|}", 1)[0]
+        for row in tbl.split("|-"):
+            cells = [c[1:].strip() for c in row.strip().split("\n") if c.startswith("|") and not c.startswith("|}")]
+            if len(cells) >= 4 and _BOLD in cells[1] and not cells[3]:  # betöltött tisztség (nincs „hivatal vége”)
+                out.append(f"{_unwiki(cells[0])}: {_unwiki(cells[1])}")
+    m = re.search(r"vezető név 1 = (.*?)\n\| vezető cím 2", w, re.S)
+    if m:
+        cur = [x for x in m.group(1).split("*") if "–)" in x]
+        if cur:
+            out.append("Köztársasági elnök: " + _unwiki(cur[-1].split("<br>")[0]))
+    m = re.search(r"ellenzék vezére = ([^\n]+)", w)
+    if m:
+        out.append("Az ellenzék vezetője: " + _unwiki(m.group(1).split("<br>")[0]))
+    return "; ".join(out) if len(out) >= 5 else ""
 
 
 def current_context(timeout: int = 15) -> str:
-    """Napi egyszer frissülő háttér a magyar Wikipédiából: kik töltik be most a legfontosabb tisztségeket.
-    Az AI tudása egy adott dátumnál lezárul, ezért enélkül elavult tisztséget írhatna (pl. volt miniszterelnököt)."""
+    """Napi egyszer frissülő háttér: kik töltik be MOST a legfontosabb tisztségeket (a kormány Wikipédia-szócikkéből,
+    tartalékként a beégetett lista). Az AI tudása egy adott dátumnál lezárul, ezért enélkül elavult tisztséget írna
+    (pl. Orbán Viktort miniszterelnöknek), és a jogi ellenőr is „javítaná” a helyes tisztséget."""
     c = read_json(CONTEXT_FILE, {})
     today = date.today().isoformat()
-    if c.get("date") != today:
-        parts = []
-        for t in CONTEXT_PAGES:
-            data = http_get_json(f"https://hu.wikipedia.org/api/rest_v1/page/summary/{_q(t)}", timeout)
-            if data and data.get("extract"):
-                parts.append(f"{data.get('title', t)}: {data['extract'][:700]}")
-        if parts:
-            c = {"date": today, "text": "\n".join(parts)}
-            write_json_atomic(CONTEXT_FILE, c)
+    if c.get("date") != today or "Miniszterelnök" not in c.get("text", ""):
+        cab = cabinet_text(timeout)
+        c = {"date": today, "text": "Magyarország kormánya és vezetői (aktuális): " + (cab or CABINET_FALLBACK),
+             "source": "wikipedia" if cab else "fallback"}
+        write_json_atomic(CONTEXT_FILE, c)
     return c.get("text", "")
 
 
@@ -2714,10 +2765,10 @@ def section_prompt(section: dict, story: list, d: date, context: Optional[list] 
                      + "\n".join(f"- {p['date']}: {p['title']} – {p.get('lead') or ''} (link: {p.get('url') or '–'})" for p in past)
                      + "\nHa a szövegben természetesen adódik (pl. „ahogy korábban megírtuk”), legfeljebb 2 helyen linkelj ezekre "
                      "markdown formában: [rövid szövegrész](/rovat/cikk/) – CSAK a fent megadott linkeket használd.\n")
-    if section.get("id") in ("kozelet", "vilag", "penzvilag"):
+    if section.get("id") != "univerzum":
         ctx = current_context()
         if ctx:
-            bg_block += ("\nAKTUÁLIS HÁTTÉR (magyar Wikipédia, napi frissítés) – a tisztségeknél (ki a miniszterelnök, ki van "
+            bg_block += ("\nAKTUÁLIS HÁTTÉR (napi frissítés) – a tisztségeknél (ki a miniszterelnök, ki van "
                          "kormányon, ki az ellenzék) ehhez és a forrásokhoz igazodj, NE a saját emlékeidhez, mert azok elavultak "
                          "lehetnek:\n" + ctx + "\n")
     if examples:
@@ -2748,7 +2799,11 @@ esemény külön blokkban szerepeljen, a blokk első bekezdése egy „## ” ke
   pártpolitikailag semleges, ne ijesztgessen
   Ha a téma engedi (politikai húzások, abszurd helyzetek, bulvár), a cím lehet ironikus/szarkasztikus is – de
   tragédiánál, áldozatoknál, betegségnél SOHA.
-- "title_options": 2 további, eltérő stílusú címváltozat (ugyanazokkal a szabályokkal), tömbként
+  Ha a hír egy ismert személyről szól (politikus, híresség, sportoló), a NEVE szerepeljen a címben – ne írd körül
+  („a volt miniszter”, „egy ismert színész”), mert a név hozza a kattintást.
+- "title_options": 2 további címváltozat (ugyanazokkal a szabályokkal), tömbként. Nem kell teljesen másnak lennie:
+  a fontos kulcsszavak (név, helyszín, a lényeg) maradhatnak benne, a változat a szórendben, hangsúlyban,
+  hangzásban térjen el
 - "clickbait_titles": 3 további cím, ami a lehető legkattintósabb (erős érzelem, rejtély, „ezt nem fogod elhinni”
   hatás, kérdés, szám, csípős irónia, mint a 444 címei) – de továbbra is IGAZ, nem állít olyat, ami nincs a
   cikkben, és nem sértő. TILOS az olcsó, bármire ráhúzható sablon („Ezt nem hinnéd el”, „Nem fogod elhinni”,
@@ -2853,15 +2908,15 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         quote["after"] = max(0, min(quote["after"], len(art["body"]) - 2))
     title_options = [art["title"]]
     for t in raw.get("title_options") or []:
-        t = str(t).strip()
+        t = _clean_title(str(t).strip())
         if t and t not in title_options and not title_too_similar(t, story):
             title_options.append(t)
-    title_options = [_clean_title(t) for t in title_options[:3]]
+    title_options = [c for c in (_clean_title(t) for t in title_options[:3]) if c] or [art["title"]]
     title_options = _rank_titles(ai, title_options, art.get("lead", ""))
     art["title"] = title_options[0]
     clickbait_from = len(title_options)  # innentől a 🔥 „maximum clickbait” címek (Telegramon külön jelölve)
     for t in raw.get("clickbait_titles") or []:
-        t = str(t).strip()
+        t = _clean_title(str(t).strip())
         if t and t not in title_options and not title_too_similar(t, story) and len(title_options) < clickbait_from + 3:
             title_options.append(_clean_title(t))
     now_iso = now.isoformat(timespec="seconds")
@@ -2924,6 +2979,8 @@ def _rank_titles(ai: "AIClient", titles: list, lead: str) -> list:
     order = [int(i) - 1 for i in raw.get("order") or [] if str(i).isdigit() and 0 < int(i) <= len(titles)]
     ranked = [titles[i] for i in dict.fromkeys(order)] + [t for i, t in enumerate(titles) if i not in order]
     better = _clean_title(str(raw.get("better") or "").strip()) if raw.get("better") else ""
+    if better.strip(" \"'").lower() in ("null", "none", "nincs", "-", ""):  # a modell néha szövegként írja: "null"
+        better = ""
     if better and better not in ranked and len(better.split()) <= 11:
         ranked = [better] + ranked[:len(titles) - 1]
     return ranked
@@ -3003,7 +3060,7 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
     # és a keret egyenletesen oszlik el a nap futásai között (ne fogyjon el délelőtt).
     daily_limit = int(os.getenv("DAILY_ARTICLE_LIMIT", "12"))
     made_today = sum(1 for a in articles_all if a.get("date") == d.isoformat() and a.get("category") in SECTIONS)
-    runs_left = max(1, (22 - now.hour) // 2 + 1)  # hátralévő kétórás futások ma (kb. 22 óráig)
+    runs_left = int(os.getenv("SLOTS_LEFT") or max(1, (22 - now.hour) // 2 + 1))  # hátralévő körök / kétórás futások ma
     max_run = max(0, min(max_run, daily_limit - made_today, -(-(daily_limit - made_today) // runs_left)))
     if max_run == 0:
         log.info("A mai cikkkeret (%d) elfogyott – ebben a futásban nincs új cikk.", daily_limit)
@@ -3012,6 +3069,7 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
     pause = int(os.getenv("AI_PAUSE_SECONDS", "8"))
     recent_imgs = used_images(articles + pending)
     cands = []
+    space_today = sum(1 for a in articles_all if a.get("date") == d.isoformat() and SPACE_STORY.search(a.get("title", "")))
     for sid in wanted:
         today = sum(1 for a in articles_all if a.get("category") == sid and a.get("date") == d.isoformat())
         for group in pick_story(SECTIONS[sid], used_links, now, ai.cfg.http_timeout):
@@ -3023,6 +3081,11 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
             cap = int(os.getenv(f"DAILY_MAX_{sid.upper()}", "6" if sid == "bulvar" else "99"))
             if today >= cap:
                 continue
+            head = group[0]["title"] + " " + (group[0].get("summary") or "")[:200]
+            if SPACE_IMG_STORY.search(head):
+                continue  # „új képek”-hír, a képek nélkül értelmetlen
+            if SPACE_STORY.search(group[0]["title"]) and space_today >= int(os.getenv("DAILY_MAX_SPACE", "1")):
+                continue  # űrkutatásból naponta legfeljebb 1 (túl volt tolva)
             cands.append((group[0]["hot_score"], sid, group))
     cands.sort(key=lambda x: -x[0])
     made, per_section, made_public = 0, {}, 0
@@ -3135,6 +3198,30 @@ def main(argv: Optional[list] = None) -> int:
         except ValueError:
             since = 1e9
         sections_due = since >= every and 6 <= now.hour <= 22
+        # Jóváhagyási körök (REVIEW_SLOTS, pl. „07:00,11:30,16:00,20:00”): a rovatcikkek a körök előtt kb. 25 perccel
+        # készülnek, egyszerre jönnek Telegramra – nem kell egész nap figyelni. Körök között csak a nagyon forró
+        # (sok lap által hozott) hír jön azonnal (BREAKING_SCORE).
+        slots = [x.strip() for x in os.getenv("REVIEW_SLOTS", "").split(",") if re.match(r"^\d{1,2}:\d{2}$", x.strip())]
+        if slots:
+            slot_id = ""
+            for x in slots:
+                t = now.replace(hour=int(x.split(":")[0]), minute=int(x.split(":")[1]), second=0, microsecond=0)
+                if t - timedelta(minutes=25) <= now < t + timedelta(minutes=75):
+                    slot_id = f"{now.date().isoformat()} {x}"
+            left = sum(1 for x in slots if now.replace(hour=int(x.split(":")[0]), minute=int(x.split(":")[1]))
+                       + timedelta(minutes=75) > now)
+            os.environ["SLOTS_LEFT"] = str(max(1, left))
+            if slot_id and runs.get("last_slot") != slot_id:
+                sections_due = True
+                os.environ["MAX_ARTICLES_PER_RUN"] = os.getenv("ARTICLES_PER_SLOT", "4")
+                runs["last_slot"] = slot_id
+                write_json_atomic(runs_path, {**read_json(runs_path, {}), "last_slot": slot_id})
+                log.info("Jóváhagyási kör: %s", slot_id)
+            elif sections_due:  # körök között: csak rendkívüli hír
+                os.environ["MIN_HOT_SCORE"] = os.getenv("BREAKING_SCORE", "16")
+                os.environ["MAX_ARTICLES_PER_RUN"] = "1"
+                slot_id = ""
+            os.environ["CURRENT_SLOT"] = slot_id if sections_due else ""
 
     force = os.getenv("FORCE_REGENERATE", "false").lower() in ("1", "true", "yes")
     # Ami egyszer kikerült, az nem változik: a mai horoszkóp/retro cikk csak akkor készül, ha még nincs
@@ -3189,6 +3276,18 @@ def main(argv: Optional[list] = None) -> int:
             exit_code = 1
         if args.if_due and not args.dry_run:
             write_json_atomic(runs_path, {**read_json(runs_path, {}), "last_sections": now.isoformat(timespec="seconds")})
+        if os.getenv("CURRENT_SLOT") and not args.dry_run:
+            try:  # összefoglaló a kör elején: mennyi vár, és egy gomb, ami mindet a chat aljára hozza
+                import telegram_review as tr
+                chat = tr.load_state().get("chat_id")
+                waiting = [a for a in tr.load_pending() if not a.get("live")]
+                if chat and waiting:
+                    tr.tg("sendMessage", {"chat_id": chat, "text": f"🗂 Jóváhagyási kör ({os.getenv('CURRENT_SLOT')[-5:]}): "
+                                          f"{len(waiting)} cikk vár rád. Magától egyik sem kerül ki.",
+                                          "reply_markup": {"inline_keyboard": [[{"text": "📋 Mind újra, minden gombbal",
+                                                                                 "callback_data": "fall|x"}]]}})
+            except Exception as e:  # noqa: BLE001
+                log.warning("Kör-összefoglaló kimaradt: %s", e)
     elif args.if_due:
         log.info("Új rovatcikk most nem esedékes.")
 
