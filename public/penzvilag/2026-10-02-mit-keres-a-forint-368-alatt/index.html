@@ -90,7 +90,7 @@ footer{margin-top:60px;padding-top:24px;padding-bottom:40px;border-top:1px solid
 <p class="kicker">Pénzvilág</p>
 <h1>Mit keres a forint 368 alatt?</h1>
 <p class="meta">Kollektíva szerkesztőség · <time datetime="2026-10-02">2026. 10. 02.</time> · 2 perc olvasás</p>
-<div class="tagrow"><p class="tags"><a href="/?kereses=forint">forint</a><a href="/?kereses=doll%C3%A1r">dollár</a><a href="/?kereses=gazdas%C3%A1g">gazdaság</a><a href="/?kereses=munkaer%C5%91piac">munkaerőpiac</a><a href="/?kereses=olaj%C3%A1r">olajár</a></p><button type="button" class="sh-top" aria-label="Megosztás" title="Megosztás" onclick="var d=document.querySelector('.share');if(navigator.share){navigator.share({title:d.dataset.title,url:d.dataset.url}).catch(function(){})}else{d.scrollIntoView({behavior:'smooth',block:'center'});d.querySelector('.sh-main').click()}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg></button></div>
+<div class="tagrow"><p class="tags"><a href="/?kereses=forint" rel="nofollow">forint</a><a href="/?kereses=doll%C3%A1r" rel="nofollow">dollár</a><a href="/?kereses=gazdas%C3%A1g" rel="nofollow">gazdaság</a><a href="/?kereses=munkaer%C5%91piac" rel="nofollow">munkaerőpiac</a><a href="/?kereses=olaj%C3%A1r" rel="nofollow">olajár</a></p><button type="button" class="sh-top" aria-label="Megosztás" title="Megosztás" onclick="var d=document.querySelector('.share');if(navigator.share){navigator.share({title:d.dataset.title,url:d.dataset.url}).catch(function(){})}else{d.scrollIntoView({behavior:'smooth',block:'center'});d.querySelector('.sh-main').click()}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg></button></div>
 <p class="lead">A gyengülő amerikai munkaerőpiaci adatok és az olajárak esése egyszerre mozdította meg a devizapiacokat, átmenetileg kedvezőbb helyzetbe hozva a forintot. A befektetők most a jegybanki lépéseket és a nemzetközi folyamatokat figyelik.</p>
 
 <div class="keypoints"><p>Röviden</p><ul><li>A dollárindex közel 0,6%-ot emelkedett a hét folyamán.</li><li>Az Egyesült Államokban szeptemberben csupán 29 ezer új munkahely létesült.</li><li>A forint az euróval szemben 368 alá, a dollárral szemben 327 alá is erősödött.</li><li>Az olaj árfolyama több mint 3%-ot esett egyetlen nap alatt.</li></ul></div>
@@ -130,7 +130,7 @@ var fresh=arts.filter(function(x){return !known[x.id]&&x.url!==location.pathname
 if(!fresh.length)return;var n=fresh[0];a.href=n.url;a.textContent='ÚJ · '+(N[n.category]||'Friss')+' · '+n.title+(fresh.length>1?'  (+'+(fresh.length-1)+')':'');
 box.style.transform='translate(-50%,0)';clearTimeout(t);t=setTimeout(function(){box.style.transform='translate(-50%,-180%)'},/\/(kozelet|vilag|penzvilag|tech|eletmod|kultura|univerzum|bulvar|retro)\/./.test(location.pathname)?3500:6000)}).catch(function(){})}
 check();setInterval(check,90000);document.addEventListener('visibilitychange',check)})();</script>
-<script src="/poll-widget.js?v=9" defer></script>
+<script src="/poll-widget.js?v=10" defer></script>
 <script>try{navigator.sendBeacon("/api/olvas",JSON.stringify({p:location.pathname,r:document.referrer}))}catch(e){}</script>
 </body>
 </html>
