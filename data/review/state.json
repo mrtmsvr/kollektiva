@@ -1,5 +1,5 @@
 {
-  "offset": 391605061,
+  "offset": 391605062,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -102,7 +102,8 @@
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/nyari-dia-kislanya-emma-hat-honapos/4grjfbx",
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/tv2-hazassag-elso-latasra-merci-livi/q4lb158",
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/nyul-zsuzsa-visszateres-menopauza-uj-musor/elmthzs",
-    "https://www.sciencedaily.com/releases/2026/10/261007233348.htm"
+    "https://www.sciencedaily.com/releases/2026/10/261007233348.htm",
+    "https://www.blikk.hu/sztarvilag/hazai-sztarok/farm-vip-2026-kenez-nora-konfiktus-bucsu/fwk9h94"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
