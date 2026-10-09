@@ -8845,16 +8845,38 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://pixabay.com/get/g84d27f480c037bd03680eabb72aaabe2c3fcdee611fdc3526b87f4fc0b5d31a1b9c55919046dc9af6f2fb049d522431a141b581a645d3b5a2981b228533a49e9_1280.jpg",
+          "width": 3853,
+          "height": 2569,
+          "kind": "photo",
+          "alt": "poverty, black and white, emotion, sadness, life, money, pension, age, hands, poverty, money, money, money, money, money",
+          "credit": "Frantisek_Krejci / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/poverty-black-and-white-emotion-4561704/",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://pixabay.com/get/g86530c36e31cc03dc734628df6ea21d036222696901f59c09010731336b0614891299317c052ee1fbaf556b92302da148d50bd6e35427b2fbb6c5b75f18f6b52_1280.jpg",
+          "width": 3712,
+          "height": 3712,
+          "kind": "photo",
+          "alt": "restaurant, old man, elderly, beard, casual, sitting, counting money",
+          "credit": "Surprising_Media / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/restaurant-old-man-elderly-beard-8314483/",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Samarcanda%2C_Siyab_10.jpg/1280px-Samarcanda%2C_Siyab_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 732,
+          "height": 881,
           "kind": "photo",
           "pos": "center",
-          "alt": "Parliament building, Budapest",
-          "credit": "Dirk Beyer / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Parliament_4604.JPG",
-          "vision_score": 7.0
+          "alt": "Elderly man counting money at Siyob Market. Samarkand, Uzbekistan",
+          "credit": "LBM1948 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Samarcanda,_Siyab_10.jpg",
+          "vision_score": 6.0
         }
       ],
       "story": [
@@ -8918,10 +8940,24 @@
         "sent_at": "2026-10-09T14:40:24+00:00",
         "msg_ids": [
           4199,
-          4200
+          4200,
+          4223,
+          4224,
+          4225
         ],
-        "control_id": 4201
-      }
+        "control_id": 4226
+      },
+      "image_queries": [
+        "Hungarian Parliament Building",
+        "Ministry of Finance Hungary",
+        "Hungarian Forint banknotes",
+        "elderly people counting money",
+        "pensioner couple relaxing",
+        "calculator and coins"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "d2ffb351-e7e8-5094-a3c1-b8cd5c221719",
