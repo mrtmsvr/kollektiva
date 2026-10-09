@@ -189,7 +189,7 @@ Háttéranyag (csak ebből és közismert tudásból dolgozz; angol anyagot magy
 - "lead": 2 mondatos bevezető, ami behúzza az olvasót
 - "key_points": 4–5 rövid, egymondatos pont a lényegről („Röviden” doboz)
 - "body": bekezdések tömbje, 700–1100 szó (4–6 perc olvasás). 3–5 tematikus blokk, mindegyik első bekezdése
-  „## Rövid alcím” sorral kezdődjön. Legyen benne: miért érdekes/fontos, hogyan működik, konkrét számok és
+  „## ” kezdetű alcímsorral kezdődjön (pl. „## Miért pont a koffein?” – csak maga az alcím, címke nélkül). Legyen benne: miért érdekes/fontos, hogyan működik, konkrét számok és
   példák, gyakori tévhitek, és hogy mit jelent ez a hétköznapokban. Ahol illik, egy bekezdés lehet felsorolás
   („- ” kezdetű sorok). Ne ismételd a leadet, ne legyen „kerekítő” zárómondat.
 - "tags": 3–5 rövid címke
@@ -339,8 +339,11 @@ def refill_topics(ai: "kc.AIClient", topics: list, n: int = 12) -> list:
         return []
     have = "; ".join(t.get("topic", "") for t in topics[-60:] if not t.get("occasion"))
     prompt = (f"Eddigi témáink (ezeket NE ismételd): {have}\n\nTervezz {n} új, időtálló témát a következő rovatokba vegyesen: "
-              "eletmod (CSAK egészség, táplálkozás, sport, edzés, alvás, pszichológia), tech (technológia, tudomány, csillagászat, fizika), penzvilag "
+              "eletmod (egészség, mozgás, alvás, pszichológia, kapcsolatok – NE megint táplálék-kiegészítő vagy diéta), "
+              "tech (hétköznapi technológia, tudomány, fizika – űrkutatás legfeljebb 1), penzvilag "
               "(személyes pénzügyek, gazdaság), kultura (köztük 3–4 film-, sorozat- vagy könyvajánló, ill. „könyv röviden”). "
+              "Legyen VÁLTOZATOS a forma is: magyarázó, tévhit-romboló, történet („hogyan lett…”), gyakorlati útmutató, "
+              "ajánló; magyar vonatkozás (történelem, találmány, hely, személy) ahol lehet; két hasonló téma ne legyen. "
               "Elemek: {\"id\": \"rovid-kotojeles-azonosito\", \"section\": \"rovat\", \"topic\": \"magyar cím-ötlet\", "
               "\"angle\": \"mire kíváncsi az olvasó\", \"wiki_hu\": [\"magyar Wikipédia-szócikk címe\"], "
               "\"wiki_en\": [\"angol szócikk címe\"], \"images\": [\"angol képkereső kifejezés\"], "
@@ -463,6 +466,44 @@ def next_topic(done: list, ai: Optional["kc.AIClient"] = None) -> Optional[dict]
     return fresh[0]
 
 
+HOOK_SYSTEM = ("Egy magyar online magazin főszerkesztője vagy. A heti hírekből olyan időtálló háttércikk-témát választasz, "
+               "ami megmagyarázza a hírek mögötti fogalmat, intézményt, történetet vagy tudományt. Csak JSON-t adsz vissza.")
+
+
+def hook_topic(ai: "kc.AIClient", articles: list, done: list, d: date) -> Optional[dict]:
+    """A hét híreihez kötött háttéranyag (pl. euró-bevezetés hírére: „Mi kell az euróhoz?”) – ezt keresik az olvasók."""
+    if not ai or not ai.enabled:
+        return None
+    since = (d - timedelta(days=4)).isoformat()
+    heads = [a.get("title", "") for a in articles if (a.get("date") or "") >= since and not a.get("offtopic")][:40]
+    if len(heads) < 5:
+        return None
+    topics = kc.read_json(TOPICS_FILE, {"topics": []}).get("topics", [])
+    have = "; ".join(t.get("topic", "") for t in topics if t.get("id") in set(done))[-1500:]
+    prompt = ("A hét címei nálunk:\n" + "\n".join("- " + h for h in heads)
+              + f"\n\nKorábbi saját témáink (NE ismételd): {have}\n\nVálassz EGY témát, ami a fenti hírek közül egy fontoshoz "
+              "kapcsolódó, időtálló háttér-magyarázat (fogalom, intézmény, történelmi előzmény, tudományos háttér) – NEM a hír "
+              "újramondása, és nem pártpolitikai állásfoglalás. Rovat: kozelet, penzvilag, tech, eletmod vagy kultura. "
+              'JSON: {"id": "rovid-kotojeles-azonosito", "section": "rovat", "topic": "magyar cím-ötlet", "angle": "mire kíváncsi az olvasó", '
+              '"wiki_hu": ["magyar Wikipédia-szócikk"], "wiki_en": ["angol szócikk"], "images": ["angol képkereső kifejezés"], '
+              '"science": {"db": "epmc" vagy "openalex", "q": "rövid angol keresés"} vagy null}')
+    try:
+        t = ai.complete_json(HOOK_SYSTEM, prompt, 1200)
+    except (kc.AIError, ValueError, TypeError, KeyError) as e:
+        log.warning("Hírhez kötött téma kimaradt: %s", e)
+        return None
+    if not isinstance(t, dict) or not t.get("topic") or t.get("section") not in kc.SECTIONS:
+        return None
+    t["id"] = "hir-" + kc.slugify(str(t.get("id") or t["topic"]))[:40]
+    if t["id"] in set(done):
+        return None
+    if not isinstance(t.get("science"), dict):
+        t.pop("science", None)
+    t["hook"] = True
+    _write_topics(topics + [t])
+    return t
+
+
 def allow_reroll(d: date) -> bool:
     """Elvetett saját cikk után aznap új készülhet (max. OFFTOPIC_REROLLS alkalommal)."""
     runs = kc.read_json(RUNS_FILE, {})
@@ -492,7 +533,10 @@ def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: boo
         if not topic:
             return 0
     else:
-        topic = next_topic(done, ai)
+        topic = None
+        if d.toordinal() % 2 == 0 and os.getenv("OFFTOPIC_HOOK", "true").lower() in ("1", "true", "yes"):
+            topic = hook_topic(ai, kc.read_json(output_dir / "articles.json", {"articles": []}).get("articles", []), done, d)
+        topic = topic or next_topic(done, ai)
     if not topic:
         log.info("Off-topic: elfogyott a témalista.")
         return 0
