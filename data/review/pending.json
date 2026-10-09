@@ -8285,7 +8285,7 @@
     {
       "id": "14a4bef9-b468-5254-99df-a1a8b00484a3",
       "slug": "2026-10-09-a-fekete-ruhas-nover-visszautasitotta-a-miniszteriumi-felkerest",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -8423,9 +8423,9 @@
       "dedupe_hash": "3b462571db981e5406f44592e0e15601b204251ca263df2399c12a9d295ea07b",
       "pipeline_run_id": "37902617750",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-09T10:37:31+02:00",
-      "updated_at": "2026-10-09T10:37:31+02:00",
-      "published_at": "2026-10-09T10:37:31+02:00",
+      "created_at": "2026-10-09T11:33:52+02:00",
+      "updated_at": "2026-10-09T11:33:52+02:00",
+      "published_at": "2026-10-09T11:33:52+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -8438,13 +8438,12 @@
         "title": 0,
         "image": 0,
         "sent_at": "2026-10-09T08:39:43+00:00",
-        "msg_ids": [
-          4084,
-          4085,
-          4086
-        ],
-        "control_id": 4087
-      }
+        "msg_ids": [],
+        "control_id": 4087,
+        "title_prompt_id": null,
+        "compact": "⏱ Magától kint"
+      },
+      "live": true
     },
     {
       "id": "2b036ee0-299d-542a-b911-784a18f0a641",
