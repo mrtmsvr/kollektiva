@@ -1,5 +1,5 @@
 {
-  "offset": 391605035,
+  "offset": 391605036,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -96,7 +96,8 @@
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/varkonyi-andras-fia-baratok-kozt-varkonyi-gyula-m1-hirado-kozmedia/6mcns23",
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/szinetar-dora-fia-unoka/4kc051v",
     "https://www.blikk.hu/sztarvilag/filmklikk/kiralyi-csalad-botrany-diana-hercegne-kristen-stewart-spencer-film-charles-spencer/m0ftx7e",
-    "https://www.blikk.hu/sztarvilag/filmklikk/violet-bridgerton-uj-sorozat-netflix/l7b5mmh"
+    "https://www.blikk.hu/sztarvilag/filmklikk/violet-bridgerton-uj-sorozat-netflix/l7b5mmh",
+    "https://www.nasa.gov/image-article/cosmic-house-of-mirrors/"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
