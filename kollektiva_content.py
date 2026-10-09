@@ -2511,6 +2511,44 @@ def pick_section(ai: "AIClient", story: list, default: Optional[dict] = None) ->
     return (SECTIONS.get(sec) if not SECTIONS.get(sec, {}).get("legacy") else SECTIONS["tech"]) or default
 
 
+PITCH_FILE = BASE_DIR / "data" / "review" / "pitches.json"
+
+
+def send_pitches(review, cands: list, used_links: set, recent_kw: list) -> None:
+    """A kör végén a meg NEM írt, de forró témák listája Telegramra (AI nélkül, ingyen): cím, lap, hány lap hozta.
+    A „✍️ N” gombra a robot megírja (ugyanúgy, mintha a linket küldted volna). PITCHES_PER_SLOT (alap 6)."""
+    n = int(os.getenv("PITCHES_PER_SLOT", "6"))
+    if n <= 0:
+        return
+    out, seen = [], set()
+    for score, sid, group in cands:
+        g0 = group[0]
+        if g0["link"] in used_links or g0["link"] in seen or any(len(g0["kw"] & rk) >= 4 for rk in recent_kw):
+            continue
+        seen.add(g0["link"])
+        pubs = sorted({g["source"] for g in group if not g.get("related")})
+        out.append({"id": hashlib.sha1(g0["link"].encode()).hexdigest()[:10], "link": g0["link"], "title": g0["title"][:140],
+                    "sid": sid, "pubs": pubs, "score": round(score, 1)})
+        if len(out) >= n:
+            break
+    if not out:
+        return
+    st = read_json(PITCH_FILE, {"items": {}})
+    items = dict(list(st.get("items", {}).items())[-60:])
+    items.update({o["id"]: o for o in out})
+    write_json_atomic(PITCH_FILE, {"items": items})
+    chat = review.load_state().get("chat_id")
+    if not chat:
+        return
+    lines = [f"{i + 1}. {o['title']} – {', '.join(o['pubs'][:3])}{' +' + str(len(o['pubs']) - 3) if len(o['pubs']) > 3 else ''} "
+             f"({SECTIONS.get(o['sid'], {}).get('name', o['sid'])})" for i, o in enumerate(out)]
+    btns = [{"text": f"✍️ {i + 1}", "callback_data": f"pw|{o['id']}"} for i, o in enumerate(out)]
+    review.tg("sendMessage", {"chat_id": chat, "disable_web_page_preview": True,
+                              "text": "📰 További forró témák (nem írtam meg őket). Ha kell valamelyik, nyomd meg a számát:\n\n"
+                                      + "\n".join(lines),
+                              "reply_markup": {"inline_keyboard": [btns[k:k + 6] for k in range(0, len(btns), 6)]}})
+
+
 def build_on_demand(ai: "AIClient", text: str, tz: ZoneInfo, articles: list) -> Optional[dict]:
     """A szerkesztő Telegramon küld egy linket vagy témát → a robot cikket ír róla (jóváhagyásra).
     Link: a cikk szövege a forrás; téma: a Google Hírek friss találatai (max. 4 forrás)."""
@@ -3143,6 +3181,8 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
         time.sleep(pause)  # ingyenes AI-keret: ne fussunk bele a percenkénti limitbe
     if review and not dry_run and review.MODE == "post":
         review.save_pending(output_dir, pending)
+    if review and not dry_run and os.getenv("CURRENT_SLOT"):
+        send_pitches(review, cands, used_links, recent_kw)
     articles.sort(key=lambda a: a.get("created_at", ""), reverse=True)
     if (made_public or (made and not review)) and not dry_run:
         write_json_atomic(path, {"schema_version": 1, "updated_at": datetime.now(tz).isoformat(timespec="seconds"),
