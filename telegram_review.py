@@ -1163,7 +1163,12 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
             _go_live(out_dir, a, tz, auto=True)
             published += 1
             changed = True
-            _compact(st["chat_id"], a, "🗓 Magától kint (csendes időszak)" if a.get("schedule") else "⏱ Magától kint")
+            # magától kikerült (nem te hagytad jóvá): minden üzenete marad, hogy reggel is lásd; csak a vezérlő frissül
+            _refresh_control(st["chat_id"], a)
+            mid = _mid(tg("sendMessage", {"chat_id": st["chat_id"], "reply_to_message_id": a["review"].get("control_id"),
+                                          "text": msg + " Utólag még cserélheted a címet/képet, vagy törölheted (✅ Rendben = lezárom)."}))
+            if mid:
+                a["review"].setdefault("msg_ids", []).append(mid)
     # lejárt függő cikkek
     limit = (datetime.now(tz) - timedelta(hours=PENDING_MAX_AGE_H)).isoformat()
     for a in [a for a in pending if (a.get("created_at") or "") < limit and (a.get("live") or MODE != "hybrid")]:
