@@ -1,7 +1,106 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-09T12:28:52+02:00",
+  "updated_at": "2026-10-09T12:30:04+02:00",
   "articles": [
+    {
+      "id": "eba18979-bda8-516a-a660-007617562aa4",
+      "slug": "2026-10-09-millios-nagysagrendu-embert-benitott-meg-az-aradas-thaifoldon",
+      "status": "published",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Thaiföld",
+        "árvíz",
+        "időjárás",
+        "természeti csapás",
+        "Ázsia"
+      ],
+      "title": "Milliós nagyságrendű embert bénított meg az áradás Thaiföldön",
+      "subtitle": null,
+      "lead": "Súlyos és kiterjedt áradások bénították meg Thaiföldöt szeptember közepe óta a folyamatos, hatalmas mennyiségű esőzés következtében. A természeti csapás lakosok millióinak mindennapjait forgatta fel az országban.",
+      "key_points": [
+        "Szeptember közepe óta tartó, rendkívüli esőzések okoztak kiterjedt áradásokat Thaiföldön.",
+        "A katasztrofális helyzet az ország lakosainak millióit érinti közvetlenül.",
+        "A NASA földmegfigyelési jelentései is beszámoltak a délkelet-ázsiai országot sújtó víztömegekről."
+      ],
+      "content": "Szeptember közepe óta szakadó esőzések okoznak drámai helyzetet Thaiföldön, ahol a megáradt vizek lakott területeket öntöttek el. A hirtelen lezúduló, hatalmas csapadékmennyiség következtében kialakult áradások kiterjedt régiókban okoztak fennakadásokat.\n\nA katasztrófa méretét jól mutatja, hogy az ország lakosainak millióinak életét nehezítik meg a hömpölygő víztömegek. A rendkívüli időjárási események nemcsak a helyi infrastruktúrát terhelik meg, hanem komoly humanitárius kihívást is jelentenek.\n\nA NASA földmegfigyelési adatai és jelentései szerint a térségben uralkodó rendkívüli meteorológiai viszonyok vezettek a pusztító árvizek kialakulásához. Az amerikai űrügynökség földtudományi megfigyelései rávilágítanak a monszunidőszak szélsőséges megnyilvánulásaira.",
+      "content_format": "markdown",
+      "body": [
+        "Szeptember közepe óta szakadó esőzések okoznak drámai helyzetet Thaiföldön, ahol a megáradt vizek lakott területeket öntöttek el. A hirtelen lezúduló, hatalmas csapadékmennyiség következtében kialakult áradások kiterjedt régiókban okoztak fennakadásokat.",
+        "A katasztrófa méretét jól mutatja, hogy az ország lakosainak millióinak életét nehezítik meg a hömpölygő víztömegek. A rendkívüli időjárási események nemcsak a helyi infrastruktúrát terhelik meg, hanem komoly humanitárius kihívást is jelentenek.",
+        "A NASA földmegfigyelési adatai és jelentései szerint a térségben uralkodó rendkívüli meteorológiai viszonyok vezettek a pusztító árvizek kialakulásához. Az amerikai űrügynökség földtudományi megfigyelései rávilágítanak a monszunidőszak szélsőséges megnyilvánulásaira."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 115,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Floods_in_Thailand%2C_seen_from_Japan-Bangkok_flight.jpg/1280px-Floods_in_Thailand%2C_seen_from_Japan-Bangkok_flight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 904,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Floods in Thailand, seen from Japan-Bangkok flight",
+        "credit": "Syced / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Floods_in_Thailand,_seen_from_Japan-Bangkok_flight.jpg",
+        "vision_score": 9.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/floodwaters-overwhelm-thailand/",
+          "title": "Floodwaters Overwhelm Thailand",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-09T12:27:57+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-09T12:30:04+02:00"
+      },
+      "hot_score": 5.3,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://science.nasa.gov/earth/earth-observatory/floodwaters-overwhelm-thailand/"
+        ]
+      },
+      "date": "2026-10-09",
+      "date_label": "október 9.",
+      "url": "/vilag/2026-10-09-millios-nagysagrendu-embert-benitott-meg-az-aradas-thaifoldon/",
+      "seo": {
+        "meta_title": "Milliós nagyságrendű embert bénított meg az áradás Thaiföldö",
+        "meta_description": "Súlyos és kiterjedt áradások bénították meg Thaiföldöt szeptember közepe óta a folyamatos, hatalmas mennyiségű esőzés következtében. A természeti csapás lakosok",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-09-millios-nagysagrendu-embert-benitott-meg-az-aradas-thaifoldon/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Floods_in_Thailand%2C_seen_from_Japan-Bangkok_flight.jpg/1280px-Floods_in_Thailand%2C_seen_from_Japan-Bangkok_flight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "1521c040f4dba9baf14493cb0d6b888226e43838b260c39aae54545fda9b8204",
+      "pipeline_run_id": "37917343785",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-09T12:30:04+02:00",
+      "updated_at": "2026-10-09T12:30:04+02:00",
+      "published_at": "2026-10-09T12:30:04+02:00",
+      "expires_at": null
+    },
     {
       "id": "055bbd23-9665-5bdd-ab2b-eb9bdc8be6d8",
       "slug": "2026-10-09-gombnyomas-ejfel-utan-teljesen-uj-korszakba-lepett-a-magyar-villamose",

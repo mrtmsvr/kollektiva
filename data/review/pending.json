@@ -8842,9 +8842,9 @@
       "live": true
     },
     {
-      "id": "9797bd00-9512-5560-ab3c-d23b4c26f7c2",
-      "slug": "2026-10-09-viz-ala-kerult-egesz-videkek-sulyos-arviz-pusztit-thaifoldon",
-      "status": "pending",
+      "id": "eba18979-bda8-516a-a660-007617562aa4",
+      "slug": "2026-10-09-millios-nagysagrendu-embert-benitott-meg-az-aradas-thaifoldon",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -8854,7 +8854,7 @@
         "természeti csapás",
         "Ázsia"
       ],
-      "title": "Víz alá került egész vidékek: súlyos árvíz pusztít Thaiföldön",
+      "title": "Milliós nagyságrendű embert bénított meg az áradás Thaiföldön",
       "subtitle": null,
       "lead": "Súlyos és kiterjedt áradások bénították meg Thaiföldöt szeptember közepe óta a folyamatos, hatalmas mennyiségű esőzés következtében. A természeti csapás lakosok millióinak mindennapjait forgatta fel az országban.",
       "key_points": [
@@ -8980,11 +8980,11 @@
       },
       "date": "2026-10-09",
       "date_label": "október 9.",
-      "url": "/vilag/2026-10-09-viz-ala-kerult-egesz-videkek-sulyos-arviz-pusztit-thaifoldon/",
+      "url": "/vilag/2026-10-09-millios-nagysagrendu-embert-benitott-meg-az-aradas-thaifoldon/",
       "seo": {
-        "meta_title": "Víz alá került egész vidékek: súlyos árvíz pusztít Thaiföldö",
+        "meta_title": "Milliós nagyságrendű embert bénított meg az áradás Thaiföldö",
         "meta_description": "Súlyos és kiterjedt áradások bénították meg Thaiföldöt szeptember közepe óta a folyamatos, hatalmas mennyiségű esőzés következtében. A természeti csapás lakosok",
-        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-09-viz-ala-kerult-egesz-videkek-sulyos-arviz-pusztit-thaifoldon/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-09-millios-nagysagrendu-embert-benitott-meg-az-aradas-thaifoldon/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Floods_in_Thailand%2C_seen_from_Japan-Bangkok_flight.jpg/1280px-Floods_in_Thailand%2C_seen_from_Japan-Bangkok_flight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -9002,9 +9002,9 @@
       "dedupe_hash": "1521c040f4dba9baf14493cb0d6b888226e43838b260c39aae54545fda9b8204",
       "pipeline_run_id": "37917343785",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-09T12:27:57+02:00",
-      "updated_at": "2026-10-09T12:27:57+02:00",
-      "published_at": "2026-10-09T12:27:57+02:00",
+      "created_at": "2026-10-09T12:30:04+02:00",
+      "updated_at": "2026-10-09T12:30:04+02:00",
+      "published_at": "2026-10-09T12:30:04+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -9014,15 +9014,12 @@
         "title": 3,
         "image": 0,
         "sent_at": "2026-10-09T10:28:52+00:00",
-        "msg_ids": [
-          4119,
-          4120,
-          4121,
-          4122,
-          4123
-        ],
-        "control_id": 4124
-      }
+        "msg_ids": [],
+        "control_id": 4124,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     }
   ]
 }
