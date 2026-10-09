@@ -3291,9 +3291,9 @@
       "live": true
     },
     {
-      "id": "3936d406-8c03-5431-9a99-32873781a5f4",
-      "slug": "2026-10-08-het-mutet-es-egy-uj-arc-igy-lett-rosszfiu-a-panelhosok-sztarja",
-      "status": "pending",
+      "id": "c6024179-d573-5d8e-9a92-9b90365ca5fc",
+      "slug": "2026-10-08-voldemortnak-neztek-a-tukorben-a-brutalis-balesetet-tulelo-magyar-szi",
+      "status": "published",
       "category": "bulvar",
       "subcategory": null,
       "tags": [
@@ -3303,7 +3303,7 @@
         "sorozat",
         "színész"
       ],
-      "title": "Hét műtét és egy új arc: így lett rosszfiú a Panelhősök sztárja",
+      "title": "Voldemortnak nézték a tükörben a brutális balesetet túlélő magyar színészt",
       "subtitle": null,
       "lead": "Szaszák Zsolt színész három évvel ezelőtt súlyos autóbalesetet szenvedett, amely után hét műtéten esett át, megváltozott külseje pedig teljesen új irányt adott a karrierjének. A Blikknek adott interjújában mesélt arról, hogyan élte meg a nehéz időszakot, amikor a tükörbe nézve sokáig nem ismerte magát.",
       "key_points": [
@@ -3323,7 +3323,17 @@
       "reading_time_min": 2,
       "word_count": 280,
       "locale": "hu-HU",
-      "hero_image": null,
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/bulvar-1791576749-1.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/bulvar-1791576749-1.jpg",
+        "kind": "photo",
+        "alt": "Hét műtét és egy új arc: így lett rosszfiú a Panelhősök sztárja",
+        "likeness": false,
+        "credit": "Kollektíva illusztráció",
+        "license": "saját grafika",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
+      },
       "inline_images": [],
       "sources": [
         {
@@ -3398,12 +3408,12 @@
       },
       "date": "2026-10-08",
       "date_label": "október 8.",
-      "url": "/bulvar/2026-10-08-het-mutet-es-egy-uj-arc-igy-lett-rosszfiu-a-panelhosok-sztarja/",
+      "url": "/bulvar/2026-10-08-voldemortnak-neztek-a-tukorben-a-brutalis-balesetet-tulelo-magyar-szi/",
       "seo": {
-        "meta_title": "Hét műtét és egy új arc: így lett rosszfiú a Panelhősök sztá",
+        "meta_title": "Voldemortnak nézték a tükörben a brutális balesetet túlélő m",
         "meta_description": "Szaszák Zsolt színész három évvel ezelőtt súlyos autóbalesetet szenvedett, amely után hét műtéten esett át, megváltozott külseje pedig teljesen új irányt adott ",
-        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-08-het-mutet-es-egy-uj-arc-igy-lett-rosszfiu-a-panelhosok-sztarja/",
-        "og_image": null,
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-08-voldemortnak-neztek-a-tukorben-a-brutalis-balesetet-tulelo-magyar-szi/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/bulvar-1791576749-1.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -3420,9 +3430,9 @@
       "dedupe_hash": "700d32fdeedaa6eea9e629eb708a04a7e72ee9799b6eac152b5fe585f7dd91f1",
       "pipeline_run_id": "37789834990",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-08T16:32:24+02:00",
-      "updated_at": "2026-10-08T16:32:24+02:00",
-      "published_at": "2026-10-08T16:32:24+02:00",
+      "created_at": "2026-10-09T22:13:19+02:00",
+      "updated_at": "2026-10-09T22:13:19+02:00",
+      "published_at": "2026-10-09T22:13:19+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -3432,12 +3442,10 @@
         "title": 1,
         "image": 1,
         "sent_at": "2026-10-09T20:12:32+00:00",
-        "msg_ids": [
-          4280,
-          4281,
-          4282
-        ],
-        "control_id": 4283
+        "msg_ids": [],
+        "control_id": 4283,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
       },
       "image_queries": [
         "Zsolt Szaszák",
@@ -3448,7 +3456,8 @@
         "hospital corridor",
         "mirror reflection",
         "surgical scar"
-      ]
+      ],
+      "live": true
     },
     {
       "id": "14771ee1-c38a-5653-ae37-6dcbe5de2bc7",
