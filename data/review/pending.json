@@ -5860,9 +5860,9 @@
       "live": true
     },
     {
-      "id": "2b036ee0-299d-542a-b911-784a18f0a641",
-      "slug": "2026-10-09-irodat-bereltek-szazmilliokert-de-senki-sem-akart-bekoltozni",
-      "status": "pending",
+      "id": "3e0a8b85-356a-5e5e-b245-d30b05fc1b6b",
+      "slug": "2026-10-09-havi-50-milliot-fizetett-az-allam-egy-irodaert-aminek-a-kulcsat-sem-v",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -5872,7 +5872,7 @@
         "hűtlen kezelés",
         "közpénz"
       ],
-      "title": "Irodát béreltek százmilliókért, de senki sem akart beköltözni",
+      "title": "Havi 50 milliót fizetett az állam egy irodáért, aminek a kulcsát sem vették át",
       "subtitle": null,
       "lead": "Hűtlen kezelés gyanújával vizsgálja a Nemzeti Nyomozó Iroda azt a 13. kerületi irodaházat, amelyet a Lázár János vezette minisztérium megbízásából béreltek ki, ám több mint egy évig üresen állt. Az épület fenntartása és későbbi, sikertelen átalakítása jelentős vagyoni hátrányt okozott az államkasszának.",
       "key_points": [
@@ -5977,11 +5977,11 @@
       },
       "date": "2026-10-09",
       "date_label": "október 9.",
-      "url": "/kozelet/2026-10-09-irodat-bereltek-szazmilliokert-de-senki-sem-akart-bekoltozni/",
+      "url": "/kozelet/2026-10-09-havi-50-milliot-fizetett-az-allam-egy-irodaert-aminek-a-kulcsat-sem-v/",
       "seo": {
-        "meta_title": "Irodát béreltek százmilliókért, de senki sem akart beköltözn",
+        "meta_title": "Havi 50 milliót fizetett az állam egy irodáért, aminek a kul",
         "meta_description": "Hűtlen kezelés gyanújával vizsgálja a Nemzeti Nyomozó Iroda azt a 13. kerületi irodaházat, amelyet a Lázár János vezette minisztérium megbízásából béreltek ki, ",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-09-irodat-bereltek-szazmilliokert-de-senki-sem-akart-bekoltozni/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-09-havi-50-milliot-fizetett-az-allam-egy-irodaert-aminek-a-kulcsat-sem-v/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Kap%C3%A1s_Stra%C3%9Fe_6-12%2C_2024_V%C3%ADziv%C3%A1ros.jpg/1280px-Kap%C3%A1s_Stra%C3%9Fe_6-12%2C_2024_V%C3%ADziv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -5999,9 +5999,9 @@
       "dedupe_hash": "ff42b63ef2d851b3c124dc9503113122fa34f5a7603b33746496ea68ec1a4f35",
       "pipeline_run_id": "37902617750",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-09T10:41:06+02:00",
-      "updated_at": "2026-10-09T10:41:06+02:00",
-      "published_at": "2026-10-09T10:41:06+02:00",
+      "created_at": "2026-10-09T22:14:10+02:00",
+      "updated_at": "2026-10-09T22:14:10+02:00",
+      "published_at": "2026-10-09T22:14:10+02:00",
       "expires_at": null,
       "hold": true,
       "video": {
@@ -6018,13 +6018,12 @@
         "title": 3,
         "image": 0,
         "sent_at": "2026-10-09T20:12:43+00:00",
-        "msg_ids": [
-          4291,
-          4292,
-          4293
-        ],
-        "control_id": 4294
-      }
+        "msg_ids": [],
+        "control_id": 4294,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "055bbd23-9665-5bdd-ab2b-eb9bdc8be6d8",
