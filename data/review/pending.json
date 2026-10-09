@@ -8508,9 +8508,9 @@
       "live": true
     },
     {
-      "id": "e5b8058d-16f3-5d27-93c9-f9f5b8c8d7e0",
-      "slug": "2026-10-09-nem-a-reszvenyvasarlas-a-legnehezebb-a-tozsden",
-      "status": "pending",
+      "id": "ee17bd33-ecb2-5315-82d3-b9d422244491",
+      "slug": "2026-10-09-ezt-a-nehany-szabalyt-muszaj-tudnod-mielott-tozsdezni-kezdesz",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -8520,7 +8520,7 @@
         "portfolio",
         "gazdaság"
       ],
-      "title": "Nem a részvényvásárlás a legnehezebb a tőzsdén",
+      "title": "Ezt a néhány szabályt muszáj tudnod, mielőtt tőzsdézni kezdesz",
       "subtitle": null,
       "lead": "Egy tőzsdei ügylet elindítása ma már csupán néhány kattintást igényel, ám az igazi kihívást a megfelelő befektetési termékek kiválasztása és a kockázatok felmérése jelenti. A Portfolio által szervezett online előadás a kezdő befektetőknek segít eligazodni a számok, hozamok és grafikonok bonyolult világában.",
       "key_points": [
@@ -8636,11 +8636,11 @@
       },
       "date": "2026-10-09",
       "date_label": "október 9.",
-      "url": "/penzvilag/2026-10-09-nem-a-reszvenyvasarlas-a-legnehezebb-a-tozsden/",
+      "url": "/penzvilag/2026-10-09-ezt-a-nehany-szabalyt-muszaj-tudnod-mielott-tozsdezni-kezdesz/",
       "seo": {
-        "meta_title": "Nem a részvényvásárlás a legnehezebb a tőzsdén",
+        "meta_title": "Ezt a néhány szabályt muszáj tudnod, mielőtt tőzsdézni kezde",
         "meta_description": "Egy tőzsdei ügylet elindítása ma már csupán néhány kattintást igényel, ám az igazi kihívást a megfelelő befektetési termékek kiválasztása és a kockázatok felmér",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-09-nem-a-reszvenyvasarlas-a-legnehezebb-a-tozsden/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-09-ezt-a-nehany-szabalyt-muszaj-tudnod-mielott-tozsdezni-kezdesz/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Blur-chart-data-69760.jpg/1280px-Blur-chart-data-69760.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -8658,9 +8658,9 @@
       "dedupe_hash": "b3c6e3f451caaf431fd6fd022d092d459f1200a0dcbcacdd69a6c57152f29240",
       "pipeline_run_id": "37961165040",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-09T18:57:38+02:00",
-      "updated_at": "2026-10-09T18:57:38+02:00",
-      "published_at": "2026-10-09T18:57:38+02:00",
+      "created_at": "2026-10-09T19:26:24+02:00",
+      "updated_at": "2026-10-09T19:26:24+02:00",
+      "published_at": "2026-10-09T19:26:24+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -8670,14 +8670,12 @@
         "title": 3,
         "image": 0,
         "sent_at": "2026-10-09T16:58:38+00:00",
-        "msg_ids": [
-          4234,
-          4235,
-          4236,
-          4237
-        ],
-        "control_id": 4238
-      }
+        "msg_ids": [],
+        "control_id": 4238,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "1b71437f-673a-5fcf-8330-aaac3348d8eb",
