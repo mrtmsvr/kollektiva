@@ -40,10 +40,12 @@ git diff --cached --quiet && exit 0
 MSG="$LABEL: $(TZ=Europe/Budapest date '+%F %H:%M')"
 [ "$deploy" = 1 ] || MSG="$MSG [CF-Pages-Skip]"
 git commit -q -m "$MSG"
-for i in 1 2 3; do
-  if git pull -q --rebase origin main && git push -q; then exit 0; fi
+for i in 1 2 3 4; do
+  # ütközésnél (két futás egyszerre írta a data/ állapotfájlokat) a mostani futás változata nyer – különben az egész
+  # futás munkája elveszne és hibás futásról jönne e-mail
+  if git pull -q --rebase -X theirs origin main && git push -q; then exit 0; fi
   git rebase --abort 2>/dev/null || true
-  sleep 5
+  sleep $(( i * 5 ))
 done
 echo "A feltöltés nem sikerült." >&2
 exit 1
