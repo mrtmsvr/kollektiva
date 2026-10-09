@@ -996,6 +996,25 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Előhozom a váró cikkeket…"})
                 changed = _resend_waiting(out_dir, st, pending) or changed
                 continue
+            if parts[0] == "pw":  # téma-javaslatból cikk (a kör végi „További forró témák” listából)
+                pit = kc.read_json(kc.PITCH_FILE, {"items": {}}).get("items", {}).get(parts[1])
+                if not pit:
+                    tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Ez a téma már nincs meg."})
+                    continue
+                tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Megírom, 1–2 perc…"})
+                try:
+                    live_arts = kc.read_json(out_dir / "articles.json", {"articles": []}).get("articles", [])
+                    new = kc.build_on_demand(ai or kc.AIClient(kc.Config.from_env()), pit["link"], tz, live_arts)
+                except Exception as e:  # noqa: BLE001
+                    log.warning("Témajavaslatból cikk sikertelen: %s", e)
+                    new = None
+                if new:
+                    pending.append(new)
+                    send_article(out_dir, new)
+                    changed = True
+                else:
+                    tg("sendMessage", {"chat_id": st["chat_id"], "text": f"Ebből most nem sikerült cikket írni: {pit['title']}"})
+                continue
             if parts[0] == "ignow":  # Instagram-poszt azonnal
                 import instagram
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Posztolom…"})
