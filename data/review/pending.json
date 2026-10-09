@@ -8217,9 +8217,9 @@
       "live": true
     },
     {
-      "id": "97a664e0-9f92-50ab-9417-3991da776e44",
-      "slug": "2026-10-09-apa-potlekbol-bunugy-igy-mukodott-a-bicskei-gyermekotthon-belso-vedvo",
-      "status": "pending",
+      "id": "72af347a-985e-53d3-96f3-3b6648c9240f",
+      "slug": "2026-10-09-senki-sem-vedte-meg-a-bicskei-gyerekeket-pedig-eveken-at-jeleztek-a-b",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -8228,7 +8228,7 @@
         "jelentés",
         "belső vizsgálat"
       ],
-      "title": "Apa-pótlékból bűnügy: így működött a bicskei gyermekotthon belső védvonalma",
+      "title": "Senki sem védte meg a bicskei gyerekeket, pedig éveken át jelezték a bajt",
       "subtitle": null,
       "lead": "Nyilvánosságra hozták a bicskei gyermekotthon működését vizsgáló százoldalas kormányzati dokumentumot, amely részletesen feltárja, hogyan maradhatnak következmény nélkül a bántalmazásra utaló jelzések a gyanú szerint. A jelentés szerint a munkatársak tanácstalansága, a formális protokollok hiánya és az igazgató befolyása is hozzájárulhatott ahhoz, hogy évekig senki sem avatkozott közbe.",
       "key_points": [
@@ -8297,11 +8297,11 @@
       },
       "date": "2026-10-09",
       "date_label": "október 9.",
-      "url": "/kozelet/2026-10-09-apa-potlekbol-bunugy-igy-mukodott-a-bicskei-gyermekotthon-belso-vedvo/",
+      "url": "/kozelet/2026-10-09-senki-sem-vedte-meg-a-bicskei-gyerekeket-pedig-eveken-at-jeleztek-a-b/",
       "seo": {
-        "meta_title": "Apa-pótlékból bűnügy: így működött a bicskei gyermekotthon b",
+        "meta_title": "Senki sem védte meg a bicskei gyerekeket, pedig éveken át je",
         "meta_description": "Nyilvánosságra hozták a bicskei gyermekotthon működését vizsgáló százoldalas kormányzati dokumentumot, amely részletesen feltárja, hogyan maradtak következmény ",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-09-apa-potlekbol-bunugy-igy-mukodott-a-bicskei-gyermekotthon-belso-vedvo/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-09-senki-sem-vedte-meg-a-bicskei-gyerekeket-pedig-eveken-at-jeleztek-a-b/",
         "og_image": null,
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -8319,9 +8319,9 @@
       "dedupe_hash": "00416d2da666816129a8ee4dc0d990d79f8184f8404c02536e700730330d01a8",
       "pipeline_run_id": "37961165040",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-09T18:53:20+02:00",
-      "updated_at": "2026-10-09T18:53:20+02:00",
-      "published_at": "2026-10-09T18:53:20+02:00",
+      "created_at": "2026-10-09T19:24:22+02:00",
+      "updated_at": "2026-10-09T19:24:22+02:00",
+      "published_at": "2026-10-09T19:24:22+02:00",
       "expires_at": null,
       "legal": {
         "level": 1,
@@ -8337,12 +8337,12 @@
         "title": 3,
         "image": -1,
         "sent_at": "2026-10-09T16:55:36+00:00",
-        "msg_ids": [
-          4227,
-          4228
-        ],
-        "control_id": 4229
-      }
+        "msg_ids": [],
+        "control_id": 4229,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "b73921fe-1994-50bd-ad2c-ab6f1a054c3e",
