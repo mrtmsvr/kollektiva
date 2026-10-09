@@ -8017,27 +8017,27 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/OTP_Bank%2C_Pozsonyi_Stra%C3%9Fe%2C_2021_Budapest.jpg/1280px-OTP_Bank%2C_Pozsonyi_Stra%C3%9Fe%2C_2021_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/OTP_bank%2C_Hajd%C3%BAszoboszl%C3%B3.JPG/1280px-OTP_bank%2C_Hajd%C3%BAszoboszl%C3%B3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 900,
+          "height": 862,
           "kind": "photo",
           "pos": "center",
-          "alt": "There are marble benches and radiators at the entrances. The nameplates and loudspeaker and home phone equipment were designed to be recessed into the marble floor of the lobby. Two elevators, baby c",
-          "credit": "Globetrotter19 / Wikimedia Commons",
+          "alt": "Az OTP bank Hajdúszoboszlón.",
+          "credit": "Own work / Wikimedia Commons",
           "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:OTP_Bank,_Pozsonyi_Stra%C3%9Fe,_2021_Budapest.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:OTP_bank,_Hajd%C3%BAszoboszl%C3%B3.JPG",
           "vision_score": 6.0
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/OTP_Bank%2C_2018_Sashalom.jpg/1280px-OTP_Bank%2C_2018_Sashalom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/OTP_Bank_B%C3%A9k%C3%A9scsaba.jpg/1280px-OTP_Bank_B%C3%A9k%C3%A9scsaba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 900,
           "kind": "photo",
           "pos": "center",
-          "alt": ": OTP Bank 16th district Jókai street branch. - 3 Jókai street, Sashalom, 16th district of Budapest.",
-          "credit": "Globetrotter19 / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:OTP_Bank,_2018_Sashalom.jpg",
+          "alt": "OTP Bank building in Békéscsaba, Hungary.",
+          "credit": "Burrows / Wikimedia Commons",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:OTP_Bank_B%C3%A9k%C3%A9scsaba.jpg",
           "vision_score": 6.0
         }
       ],
@@ -8090,15 +8090,32 @@
       },
       "review": {
         "title": 1,
-        "image": -1,
+        "image": 0,
         "sent_at": "2026-10-09T08:34:25+00:00",
         "msg_ids": [
           4075,
           4076,
-          4077
+          4077,
+          4093,
+          4094
         ],
-        "control_id": 4078
-      }
+        "control_id": 4095
+      },
+      "image_queries": [
+        "Budapest Stock Exchange",
+        "OTP Bank",
+        "BUX Index",
+        "Budapest cityscape",
+        "European stock exchange trading floor",
+        "American stock index display",
+        "stock market trading floor",
+        "financial chart",
+        "bank interior"
+      ],
+      "images_seen": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/OTP_Bank%2C_Pozsonyi_Stra%C3%9Fe%2C_2021_Budapest.jpg/1280px-OTP_Bank%2C_Pozsonyi_Stra%C3%9Fe%2C_2021_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/OTP_Bank%2C_2018_Sashalom.jpg/1280px-OTP_Bank%2C_2018_Sashalom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     },
     {
       "id": "68a65a02-56e9-5165-8146-6d6860c7de9e",
