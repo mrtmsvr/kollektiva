@@ -25,7 +25,7 @@
           if (!r.ok || r.voted === null) return;
           seen = seenGet(); seen.push(p.id); try { localStorage.setItem('kpw_seen', JSON.stringify(seen.slice(-40))); } catch (e) {}
           var t = document.createElement('a'); t.href = '/szavazasok/#p' + p.id;
-          t.textContent = 'Lezárult a szavazás, amiben részt vettél: „' + p.question + '” – nézd meg az eredményt →';
+          t.textContent = 'Lezárult egy szavazás, amiben részt vettél – Nézd meg →';
           t.style.cssText = 'position:fixed;left:50%;top:14px;transform:translateX(-50%);z-index:80;max-width:calc(100vw - 32px);background:#C9A45C;color:#0E1024;border-radius:14px;padding:10px 16px;font:600 13px/1.4 Manrope,system-ui,sans-serif;text-decoration:none;box-shadow:0 6px 20px rgba(0,0,0,.4)';
           document.body.appendChild(t); setTimeout(function () { t.remove(); }, 9000);
         }).catch(function () {});
