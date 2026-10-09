@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-09T11:33:52+02:00",
+  "updated_at": "2026-10-09T11:35:15+02:00",
   "articles": [
     {
       "id": "14a4bef9-b468-5254-99df-a1a8b00484a3",
@@ -670,7 +670,7 @@
         "WHO",
         "járvány"
       ],
-      "title": "A WHO válaszol: miért titkolják az orosz hatóságok a halálos irkutszki esetet",
+      "title": "Halálos laborbaleset vagy tüdőgyulladás: ez történik Irkutszkban",
       "subtitle": null,
       "lead": "Meghalt egy fiatal laboratóriumi dolgozó egy szibériai kutatóintézetben, a helyi hatóságok azonban ragaszkodnak az ismeretlen eredetű tüdőgyulladás diagnózisához. Az eset nyomán nemzetközi aggodalom alakult ki.",
       "key_points": [
@@ -744,7 +744,7 @@
       "date_label": "október 9.",
       "url": "/vilag/2026-10-09-a-who-valaszol-miert-titkoljak-az-orosz-hatosagok-a-halalos-irkutszki/",
       "seo": {
-        "meta_title": "A WHO válaszol: miért titkolják az orosz hatóságok a halálos",
+        "meta_title": "Halálos laborbaleset vagy tüdőgyulladás: ez történik Irkutsz",
         "meta_description": "Meghalt egy fiatal laboratóriumi dolgozó egy szibériai kutatóintézetben, a helyi hatóságok azonban ragaszkodnak az ismeretlen eredetű tüdőgyulladás diagnózisáho",
         "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-09-a-who-valaszol-miert-titkoljak-az-orosz-hatosagok-a-halalos-irkutszki/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/World_Health_Organisation_headquarters%2C_Geneva%2C_north_and_west_sides_2007.jpg/1280px-World_Health_Organisation_headquarters%2C_Geneva%2C_north_and_west_sides_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -765,7 +765,7 @@
       "pipeline_run_id": "37881940759",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
       "created_at": "2026-10-09T06:54:27+02:00",
-      "updated_at": "2026-10-09T06:54:27+02:00",
+      "updated_at": "2026-10-09T11:35:15+02:00",
       "published_at": "2026-10-09T06:54:27+02:00",
       "expires_at": null
     },
