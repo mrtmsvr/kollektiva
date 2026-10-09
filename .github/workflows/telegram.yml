@@ -1,10 +1,10 @@
 name: Kollektíva robot
 
 # Egyetlen robot, 5 percenként indul (a GitHub ezt néha 10–20 percre nyújtja):
-#  1. ha esedékes (kb. kétóránként, 6–22 óra között), új rovatcikkek -> Telegramra jóváhagyásra
-#     (éjfél után a napi horoszkóp és retro cikk is itt készül)
+#  1. jóváhagyási körök (REVIEW_SLOTS): a körök előtt kb. 25 perccel új rovatcikkek -> Telegramra; körök között
+#     csak rendkívüli hír (BREAKING_SCORE). Éjfél után a napi horoszkóp és retro cikk is itt készül.
 #  2. kb. 25 percig folyamatosan figyeli a Telegram-gombnyomásokat, és azonnal kirakja / módosítja a cikket;
-#     ha AUTO_PUBLISH_MIN percen belül nincs döntés, magától kikerül
+#     hír csak a te jóváhagyásoddal kerül ki (AUTO_PUBLISH_NEWS=false), a saját anyag csendes időszakban magától
 #  3. minden változás mentése; Cloudflare-build csak a havi keret szerint (scripts/commit.sh)
 on:
   schedule:
@@ -39,10 +39,14 @@ jobs:
       ANTHROPIC_MODEL: claude-sonnet-5-5
       RETRO_AUTO_PUBLISH: "true"
       REVIEW_MODE: hybrid
+      AUTO_PUBLISH_NEWS: "false"
       AUTO_PUBLISH_MIN: "30"
+      REVIEW_SLOTS: "07:00,11:30,16:00,20:00"
+      ARTICLES_PER_SLOT: "4"
+      BREAKING_SCORE: "16"
       SECTIONS_EVERY_MIN: "110"
       MAX_ARTICLES_PER_RUN: "4"
-      DAILY_ARTICLE_LIMIT: "40"
+      DAILY_ARTICLE_LIMIT: "16"
       BUILD_BUDGET: "490"
     steps:
       - uses: actions/checkout@v4
@@ -59,7 +63,7 @@ jobs:
         run: python telegram_review.py
       - name: Új tartalom, ha esedékes
         run: python kollektiva_content.py --if-due
-      - name: Instagram (napi 2–3 poszt, Telegram-előnézettel)
+      - name: Instagram (napi 4–5 poszt, Telegram-előnézettel)
         run: python instagram.py || true
       - name: Heti hírlevél (vasárnap reggel)
         run: python scripts/newsletter.py || true
