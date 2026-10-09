@@ -8810,7 +8810,43 @@
         "Ezt mondta Magyar Péter a hatóságok hallgatásáról és a lottósorozatról"
       ],
       "clickbait_from": 3,
-      "image_options": [],
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Standard_Hungarian_post_office_and_lottery_signs.jpg/1280px-Standard_Hungarian_post_office_and_lottery_signs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1430,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Standard Hungarian post office sign and \"lottery flag\". Budapest, post office No 83 (Kálvária tér, District VIII)",
+          "credit": "Sir Morosus / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Standard_Hungarian_post_office_and_lottery_signs.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Lottery%2C_Kilian_house_in_Eger%2C_2016_Hungary.jpg/1280px-Lottery%2C_Kilian_house_in_Eger%2C_2016_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": ": L shaped listed building. Between 1766-1772 Sándor Berényi canon owned. Since 1773 owned by noble István Kilian. Remodelled by Architect József Zwenger.- 7 Széchenyi Street, Eger, Heves County, Hun",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Lottery,_Kilian_house_in_Eger,_2016_Hungary.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://pixabay.com/get/g5eec2ff50d3842b1c0f874186bc05ebcf91c076ff0b6e4edcbfd0ea402bf1e456149aa3f2f70fa24eb18c4638e3f38470ec6c688c122a7adf76e5de042b7dc07_1280.jpg",
+          "width": 6240,
+          "height": 4160,
+          "kind": "photo",
+          "alt": "lottery, ticket, game, bingo, numbers, board game, paper, bingo, bingo, bingo, bingo, bingo",
+          "credit": "u_1nl4askhcx / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/lottery-ticket-game-bingo-numbers-8093660/",
+          "vision_score": 5.0
+        }
+      ],
       "story": [
         {
           "title": "Az „Orbán-bábokról” és a választás utáni furcsa lottónyeremény-sorozatról kérdeztük Magyar Pétert",
@@ -8867,14 +8903,27 @@
       },
       "review": {
         "title": 0,
-        "image": -1,
+        "image": 0,
         "sent_at": "2026-10-09T12:56:08+00:00",
         "msg_ids": [
           4185,
-          4186
+          4186,
+          4189,
+          4190,
+          4191
         ],
-        "control_id": 4187
-      }
+        "control_id": 4192
+      },
+      "image_queries": [
+        "Hungarian lottery",
+        "Penzugyminiszterium",
+        "Gazdasagi Versenyhivatal",
+        "Magyar Peter",
+        "lottery ticket",
+        "money bills",
+        "press conference"
+      ],
+      "images_seen": []
     }
   ]
 }
