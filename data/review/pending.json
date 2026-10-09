@@ -8600,27 +8600,27 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Entrance%2C_Nemzeti_Nyomoz%C3%B3_Iroda%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Polizeipr%C3%A4sidium_Komitat_Pest_und_NNI_Polizei%2C_Tag_der_Polizei%2C_2024_Stadtw%C3%A4ldchen.jpg/1280px-Polizeipr%C3%A4sidium_Komitat_Pest_und_NNI_Polizei%2C_Tag_der_Polizei%2C_2024_Stadtw%C3%A4ldchen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
-          "height": 1599,
-          "kind": "graphic",
+          "height": 900,
+          "kind": "photo",
           "pos": "center",
-          "alt": "A Nemzeti Nyomozó Iroda budapesti aradi utcai irodájának bejárata",
-          "credit": "VinceB / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Entrance,_Nemzeti_Nyomoz%C3%B3_Iroda,_Budapest.jpg",
-          "vision_score": 9.0
+          "alt": "Pest County Police Department and the National Standby Police National Bureau of Investigation (NNI Police) - Photo taken on the 11th National Police and Firefighter/Firefighting? Day in Budapest. -",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Polizeipr%C3%A4sidium_Komitat_Pest_und_NNI_Polizei,_Tag_der_Polizei,_2024_Stadtw%C3%A4ldchen.jpg",
+          "vision_score": 6.0
         },
         {
-          "url": "https://pixabay.com/get/g1c70f82229629d1637c0b6e1aa262781cefb4ddd5ef48f37877a742ae422085af4df0ed343e6d27519ffdcac44126c3a60fc29e4976a9d3e333ec3ff84569473_1280.jpg",
-          "width": 5472,
-          "height": 3648,
+          "url": "https://pixabay.com/get/g3ba9624e36c9bcf9b6e81dca242886beb2f77221b8afaef3a45f3cb480e3634e5d5c3cc1443459585693fcfe9eb1b415ba2ce26f85768e7296dd4ca6347b165c_1280.jpg",
+          "width": 6720,
+          "height": 4480,
           "kind": "photo",
-          "alt": "binding contract, contract, secure, agreement, binding, legal, document, contractual, law, business, deal, sign, pen, signature, lawyer, paperwork, obligation, negotiation, finance, commitment, terms,",
-          "credit": "stevepb / Pixabay",
+          "alt": "right, advocacy, lex, attorney, jura, justice, the regulation, bookshelf, paragraph, cool, law, symbol, goddess, justitia, the court, the case-law, woman, europe, bronze, the fair, business, horizonta",
+          "credit": "advogadoaguilar / Pixabay",
           "license": "Pixabay License",
-          "source_url": "https://pixabay.com/photos/binding-contract-contract-secure-948442/",
-          "vision_score": 7.0
+          "source_url": "https://pixabay.com/photos/right-advocacy-lex-attorney-jura-4944550/",
+          "vision_score": 5.0
         }
       ],
       "story": [
@@ -8690,9 +8690,11 @@
           4245,
           4246,
           4256,
-          4257
+          4257,
+          4264,
+          4265
         ],
-        "control_id": 4258
+        "control_id": 4266
       },
       "image_queries": [
         "Exim Bank Budapest",
@@ -8701,9 +8703,19 @@
         "Ministry of Economy Hungary",
         "bank building",
         "financial documents",
-        "police investigation"
+        "police investigation",
+        "Eximbank headquarters Budapest",
+        "National Bureau of Investigation Hungary",
+        "Ministry of National Economy Budapest",
+        "Indotek Group building",
+        "financial audit",
+        "court documents",
+        "bank vault"
       ],
-      "images_seen": []
+      "images_seen": [
+        "https://pixabay.com/get/g1c70f82229629d1637c0b6e1aa262781cefb4ddd5ef48f37877a742ae422085af4df0ed343e6d27519ffdcac44126c3a60fc29e4976a9d3e333ec3ff84569473_1280.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/10/Entrance%2C_Nemzeti_Nyomoz%C3%B3_Iroda%2C_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      ]
     },
     {
       "id": "d799561d-a480-5b61-9539-823b33a87658",
