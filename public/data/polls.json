@@ -1,6 +1,21 @@
 {
-  "updated_at": "2026-10-08T12:34:08+02:00",
+  "updated_at": "2026-10-09T10:39:56+02:00",
   "polls": [
+    {
+      "id": "1967810c3a9f",
+      "date": "2026-10-09",
+      "question": "Ön szerint Orbán miniszterelnöknek vállalnia kell a felelősséget az aranykonvoj leállításáért?",
+      "options": [
+        "Igen, vállalnia kell",
+        "Nem, nincs felelőssége",
+        "Nem tudom"
+      ],
+      "article_url": "/kozelet/2026-10-09-ruszin-szendi-elszamoltatna-orbant-az-aranykonvoj-miatt/",
+      "article_title": "Ruszin-Szendi elszámoltatná Orbánt az aranykonvoj miatt",
+      "category": "kozelet",
+      "created_at": "2026-10-09T10:39:56+02:00",
+      "closes_at": "2026-10-16T10:39:56+02:00"
+    },
     {
       "id": "724392158f0f",
       "date": "2026-10-08",
