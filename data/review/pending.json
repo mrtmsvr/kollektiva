@@ -8706,9 +8706,9 @@
       "images_seen": []
     },
     {
-      "id": "cd627b27-0323-517b-9d9f-767dd3c36c80",
-      "slug": "2026-10-09-vegre-magancegek-epithetik-ki-a-nasa-jovobeni-urbazisait",
-      "status": "pending",
+      "id": "d799561d-a480-5b61-9539-823b33a87658",
+      "slug": "2026-10-09-magankezbe-adja-a-nasa-a-fold-koruli-urbazisok-jovojet",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -8718,7 +8718,7 @@
         "technológia",
         "ipar"
       ],
-      "title": "Végre magáncégek építhetik ki a NASA jövőbeni űrbázisait",
+      "title": "Magánkézbe adja a NASA a Föld körüli űrbázisok jövőjét",
       "subtitle": null,
       "lead": "Hivatalos pályázatot hirdetett a NASA a következő generációs, kereskedelmi alapú űrállomások megtervezésére. Ezzel a lépéssel a magánszektor veheti át a vezető szerepet a Föld körüli pályán zajló űrkutatásban.",
       "key_points": [
@@ -8738,16 +8738,16 @@
       "word_count": 144,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/1280px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Three-Radial-Module_Space_Station_Concept_-_GPN-2003-00103.jpg/1280px-Three-Radial-Module_Space_Station_Concept_-_GPN-2003-00103.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 797,
+        "height": 919,
         "kind": "photo",
         "pos": "center",
-        "alt": "The International Space Station is featured in this image photographed by an STS-134 crew member on the space shuttle Endeavour after the station and shuttle began their post-undocking relative separa",
+        "alt": "This three-radial-module space station concept was intended to utilize Apollo hardware to deploy the station and to transfer crews to and from orbit.",
         "credit": "NASA / Wikimedia Commons",
         "license": "Public domain",
-        "source_url": "https://commons.wikimedia.org/wiki/File:STS-134_International_Space_Station_after_undocking.jpg",
-        "vision_score": 8.0
+        "source_url": "https://commons.wikimedia.org/wiki/File:Three-Radial-Module_Space_Station_Concept_-_GPN-2003-00103.jpg",
+        "vision_score": 7.0
       },
       "inline_images": [],
       "sources": [
@@ -8855,12 +8855,12 @@
       },
       "date": "2026-10-09",
       "date_label": "október 9.",
-      "url": "/tech/2026-10-09-vegre-magancegek-epithetik-ki-a-nasa-jovobeni-urbazisait/",
+      "url": "/tech/2026-10-09-magankezbe-adja-a-nasa-a-fold-koruli-urbazisok-jovojet/",
       "seo": {
-        "meta_title": "Végre magáncégek építhetik ki a NASA jövőbeni űrbázisait",
+        "meta_title": "Magánkézbe adja a NASA a Föld körüli űrbázisok jövőjét",
         "meta_description": "Hivatalos pályázatot hirdetett a NASA a következő generációs, kereskedelmi alapú űrállomások megtervezésére. Ezzel a lépéssel a magánszektor veheti át a vezető ",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-09-vegre-magancegek-epithetik-ki-a-nasa-jovobeni-urbazisait/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/1280px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-09-magankezbe-adja-a-nasa-a-fold-koruli-urbazisok-jovojet/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Three-Radial-Module_Space_Station_Concept_-_GPN-2003-00103.jpg/1280px-Three-Radial-Module_Space_Station_Concept_-_GPN-2003-00103.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8877,9 +8877,9 @@
       "dedupe_hash": "f28d5a46126c10db23cc073a1c1729f0812bb552107fa7d1b8e2d9952678f7cb",
       "pipeline_run_id": "37973999463",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-09T20:47:17+02:00",
-      "updated_at": "2026-10-09T20:47:17+02:00",
-      "published_at": "2026-10-09T20:47:17+02:00",
+      "created_at": "2026-10-09T20:50:37+02:00",
+      "updated_at": "2026-10-09T20:50:37+02:00",
+      "published_at": "2026-10-09T20:50:37+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -8889,16 +8889,12 @@
         "title": 1,
         "image": 2,
         "sent_at": "2026-10-09T18:48:22+00:00",
-        "msg_ids": [
-          4249,
-          4250,
-          4251,
-          4252,
-          4253,
-          4254
-        ],
-        "control_id": 4255
-      }
+        "msg_ids": [],
+        "control_id": 4255,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "7d1932b0-f95b-5476-ba16-f7835195c853",
