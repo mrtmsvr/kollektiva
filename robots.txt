@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+# a címkék keresőoldalai (/?kereses=…) a főoldal másolatai – nem kell feltérképezni
+Disallow: /*?kereses=
 
 Sitemap: https://xn--kollektva-m5a.hu/sitemap.xml
 Sitemap: https://xn--kollektva-m5a.hu/news-sitemap.xml
