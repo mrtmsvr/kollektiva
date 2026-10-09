@@ -1,7 +1,112 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-09T11:35:15+02:00",
+  "updated_at": "2026-10-09T12:28:52+02:00",
   "articles": [
+    {
+      "id": "055bbd23-9665-5bdd-ab2b-eb9bdc8be6d8",
+      "slug": "2026-10-09-gombnyomas-ejfel-utan-teljesen-uj-korszakba-lepett-a-magyar-villamose",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "energia",
+        "villamosenergia",
+        "MAVIR",
+        "árampiac",
+        "gazdaság"
+      ],
+      "title": "Gombnyomás éjfél után: teljesen új korszakba lépett a magyar villamosenergia",
+      "subtitle": null,
+      "lead": "Magyarország október elején csatlakozott az európai villamosenergia-kiegyenlítő platformokhoz, amivel a hazai hálózat közvetlenül összekapcsolódott három szomszédos ország szabályozási piacával. A határokon átnyúló automatikus kereskedés nemcsak az ellátásbiztonságot növeli, hanem a rendszerszintű költségeken keresztül a hazai árakat is mérsékelheti.",
+      "key_points": [
+        "Október 1-jén indult el a magyar csatlakozás a MARI és PICASSO nevű közös európai szabályozási platformokhoz.",
+        "A magyar szolgáltatók váratlanul a hatodik legnagyobb ajánlati volument adták az automatikus frekvencia-helyreállítási piacon.",
+        "A nemzetközi verseny hatására a korábban kirívóan magas hazai kiegyenlítő árak relatív szintje csökkenni kezdett."
+      ],
+      "content": "Október 1-jén éjfélkor technikai és piaci mérföldkőhöz érkezett a magyar villamosenergia-rendszer: a hazai hálózat felcsatlakozott a MARI és a PICASSO elnevezésű európai kiegyenlítőenergia-platformokra. amelynek lényege, hogy a magyar termelés és fogyasztás másodpercről másodpercre változó egyensúlyát mostantól közvetlenül a környező országok szabad kapacitásaival is lehet simítani, ráadásul a hazai források is beszállhatnak az európai igények kiszolgálásába.\n\nA szabályozási energiapiac a laikusok számára láthatatlan, ám a villanyszámlákat közvetve meghatározó terület. Ha a valós fogyasztás eltér a menetrendektől – például váratlanul leáll egy erőmű, vagy a vártnál kevesebb napenergia érkezik –, a rendszerirányítónak azonnal be kell avatkoznia termelésnöveléssel vagy visszaszabályozással. Eddig ezt szinte kizárólag a szűkös belföldi piacról kellett megoldani, ami az elmúlt években rendkívül magas kiegyenlítő költségeket és drága rendszerhasználati díjakat eredményezett a hazai gazdaság számára.\n\nA Portfolio Energy Investment Forum 2026 konferencián ismertetett adatok szerint a csatlakozás azonnali meglepetést hozott. Az úgynevezett aFRR (automatikus frekvencia-helyreállítási tartalék) termék piacán a közös európai ajánlati könyvben a hatodik legnagyobb volument rögtön Magyarország adta. A rendszerben négy másodpercenként fut le egy nemzetközi szintű optimalizáció, október 5-én pedig az emberi beavatkozást igénylő mFRR termék európai kooperációja is elindult.\n\nBár a hazai kiegyenlítő árszintek még mindig a kontinens drágábbik felében, a mezőny utolsó harmadában mozognak, a határok megnyitásával a magyar árak relatív pozíciója már a működés első napjaiban javulni kezdett. A fogyasztók, energiatárolók és termelők számára a szélesebb piac élesebb versenyt teremt, ami hosszabb távon fékezi az ipari áramárakat, és stabilizálja a megújuló energiát egyre nagyobb arányban használó hálózat működését.",
+      "content_format": "markdown",
+      "body": [
+        "Október 1-jén éjfélkor technikai és piaci mérföldkőhöz érkezett a magyar villamosenergia-rendszer: a hazai hálózat felcsatlakozott a MARI és a PICASSO elnevezésű európai kiegyenlítőenergia-platformokra. amelynek lényege, hogy a magyar termelés és fogyasztás másodpercről másodpercre változó egyensúlyát mostantól közvetlenül a környező országok szabad kapacitásaival is lehet simítani, ráadásul a hazai források is beszállhatnak az európai igények kiszolgálásába.",
+        "A szabályozási energiapiac a laikusok számára láthatatlan, ám a villanyszámlákat közvetve meghatározó terület. Ha a valós fogyasztás eltér a menetrendektől – például váratlanul leáll egy erőmű, vagy a vártnál kevesebb napenergia érkezik –, a rendszerirányítónak azonnal be kell avatkoznia termelésnöveléssel vagy visszaszabályozással. Eddig ezt szinte kizárólag a szűkös belföldi piacról kellett megoldani, ami az elmúlt években rendkívül magas kiegyenlítő költségeket és drága rendszerhasználati díjakat eredményezett a hazai gazdaság számára.",
+        "A Portfolio Energy Investment Forum 2026 konferencián ismertetett adatok szerint a csatlakozás azonnali meglepetést hozott. Az úgynevezett aFRR (automatikus frekvencia-helyreállítási tartalék) termék piacán a közös európai ajánlati könyvben a hatodik legnagyobb volument rögtön Magyarország adta. A rendszerben négy másodpercenként fut le egy nemzetközi szintű optimalizáció, október 5-én pedig az emberi beavatkozást igénylő mFRR termék európai kooperációja is elindult.",
+        "Bár a hazai kiegyenlítő árszintek még mindig a kontinens drágábbik felében, a mezőny utolsó harmadában mozognak, a határok megnyitásával a magyar árak relatív pozíciója már a működés első napjaiban javulni kezdett. A fogyasztók, energiatárolók és termelők számára a szélesebb piac élesebb versenyt teremt, ami hosszabb távon fékezi az ipari áramárakat, és stabilizálja a megújuló energiát egyre nagyobb arányban használó hálózat működését."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 285,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/26ceff0e3b0bf762.jpg",
+        "width": 6000,
+        "height": 4000,
+        "kind": "photo",
+        "alt": "pylon, electricity, sun, power, grid, infrastructure, industrial, landscape, sky, cloudscape, perspective, height, nature, scale",
+        "credit": "jplenio / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/pylon-electricity-sun-power-grid-8574348/",
+        "vision_score": 8.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/26ceff0e3b0bf762.jpg",
+        "orig_url": "https://pixabay.com/get/gcaec562f4af5872892ee9d3825fd268906447e2d9cfc0d5470d3ce013a97bb9629ac755c83010a712456aa4a2bdf8804e74066e9c715b5bf65e90c5e766917b2_1280.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261009/csendben-nagy-valtozas-tortent-a-magyar-villamosenergia-rendszerben-egy-oszi-ejjelen-868656",
+          "title": "Csendben nagy változás történt a magyar villamosenergia-rendszerben egy őszi éjjelen",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-09T12:24:55+02:00"
+        }
+      ],
+      "quote": {
+        "text": "A gomb megnyomását követően, éjfél után 2-3 perccel a piac egy másik világban találta magát",
+        "who": "Kádár Márton, a MAVIR szabályozási szolgáltatások fejlesztési osztályvezetője",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-09T12:28:52+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 2,
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261009/csendben-nagy-valtozas-tortent-a-magyar-villamosenergia-rendszerben-egy-oszi-ejjelen-868656"
+        ]
+      },
+      "date": "2026-10-09",
+      "date_label": "október 9.",
+      "url": "/penzvilag/2026-10-09-gombnyomas-ejfel-utan-teljesen-uj-korszakba-lepett-a-magyar-villamose/",
+      "seo": {
+        "meta_title": "Gombnyomás éjfél után: teljesen új korszakba lépett a magyar",
+        "meta_description": "Magyarország október elején csatlakozott az európai villamosenergia-kiegyenlítő platformokhoz, amivel a hazai hálózat közvetlenül összekapcsolódott három szomsz",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-09-gombnyomas-ejfel-utan-teljesen-uj-korszakba-lepett-a-magyar-villamose/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/26ceff0e3b0bf762.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "fcf569010fe0506d2915e432e7f5caa6cc746fd36117773d470546fc5e3ea74a",
+      "pipeline_run_id": "37917343785",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-09T12:28:52+02:00",
+      "updated_at": "2026-10-09T12:28:52+02:00",
+      "published_at": "2026-10-09T12:28:52+02:00",
+      "expires_at": null
+    },
     {
       "id": "14a4bef9-b468-5254-99df-a1a8b00484a3",
       "slug": "2026-10-09-a-fekete-ruhas-nover-visszautasitotta-a-miniszteriumi-felkerest",

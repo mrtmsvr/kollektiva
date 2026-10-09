@@ -8608,6 +8608,421 @@
         ],
         "control_id": 4092
       }
+    },
+    {
+      "id": "055bbd23-9665-5bdd-ab2b-eb9bdc8be6d8",
+      "slug": "2026-10-09-gombnyomas-ejfel-utan-teljesen-uj-korszakba-lepett-a-magyar-villamose",
+      "status": "published",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "energia",
+        "villamosenergia",
+        "MAVIR",
+        "árampiac",
+        "gazdaság"
+      ],
+      "title": "Gombnyomás éjfél után: teljesen új korszakba lépett a magyar villamosenergia",
+      "subtitle": null,
+      "lead": "Magyarország október elején csatlakozott az európai villamosenergia-kiegyenlítő platformokhoz, amivel a hazai hálózat közvetlenül összekapcsolódott három szomszédos ország szabályozási piacával. A határokon átnyúló automatikus kereskedés nemcsak az ellátásbiztonságot növeli, hanem a rendszerszintű költségeken keresztül a hazai árakat is mérsékelheti.",
+      "key_points": [
+        "Október 1-jén indult el a magyar csatlakozás a MARI és PICASSO nevű közös európai szabályozási platformokhoz.",
+        "A magyar szolgáltatók váratlanul a hatodik legnagyobb ajánlati volument adták az automatikus frekvencia-helyreállítási piacon.",
+        "A nemzetközi verseny hatására a korábban kirívóan magas hazai kiegyenlítő árak relatív szintje csökkenni kezdett."
+      ],
+      "content": "Október 1-jén éjfélkor technikai és piaci mérföldkőhöz érkezett a magyar villamosenergia-rendszer: a hazai hálózat felcsatlakozott a MARI és a PICASSO elnevezésű európai kiegyenlítőenergia-platformokra. amelynek lényege, hogy a magyar termelés és fogyasztás másodpercről másodpercre változó egyensúlyát mostantól közvetlenül a környező országok szabad kapacitásaival is lehet simítani, ráadásul a hazai források is beszállhatnak az európai igények kiszolgálásába.\n\nA szabályozási energiapiac a laikusok számára láthatatlan, ám a villanyszámlákat közvetve meghatározó terület. Ha a valós fogyasztás eltér a menetrendektől – például váratlanul leáll egy erőmű, vagy a vártnál kevesebb napenergia érkezik –, a rendszerirányítónak azonnal be kell avatkoznia termelésnöveléssel vagy visszaszabályozással. Eddig ezt szinte kizárólag a szűkös belföldi piacról kellett megoldani, ami az elmúlt években rendkívül magas kiegyenlítő költségeket és drága rendszerhasználati díjakat eredményezett a hazai gazdaság számára.\n\nA Portfolio Energy Investment Forum 2026 konferencián ismertetett adatok szerint a csatlakozás azonnali meglepetést hozott. Az úgynevezett aFRR (automatikus frekvencia-helyreállítási tartalék) termék piacán a közös európai ajánlati könyvben a hatodik legnagyobb volument rögtön Magyarország adta. A rendszerben négy másodpercenként fut le egy nemzetközi szintű optimalizáció, október 5-én pedig az emberi beavatkozást igénylő mFRR termék európai kooperációja is elindult.\n\nBár a hazai kiegyenlítő árszintek még mindig a kontinens drágábbik felében, a mezőny utolsó harmadában mozognak, a határok megnyitásával a magyar árak relatív pozíciója már a működés első napjaiban javulni kezdett. A fogyasztók, energiatárolók és termelők számára a szélesebb piac élesebb versenyt teremt, ami hosszabb távon fékezi az ipari áramárakat, és stabilizálja a megújuló energiát egyre nagyobb arányban használó hálózat működését.",
+      "content_format": "markdown",
+      "body": [
+        "Október 1-jén éjfélkor technikai és piaci mérföldkőhöz érkezett a magyar villamosenergia-rendszer: a hazai hálózat felcsatlakozott a MARI és a PICASSO elnevezésű európai kiegyenlítőenergia-platformokra. amelynek lényege, hogy a magyar termelés és fogyasztás másodpercről másodpercre változó egyensúlyát mostantól közvetlenül a környező országok szabad kapacitásaival is lehet simítani, ráadásul a hazai források is beszállhatnak az európai igények kiszolgálásába.",
+        "A szabályozási energiapiac a laikusok számára láthatatlan, ám a villanyszámlákat közvetve meghatározó terület. Ha a valós fogyasztás eltér a menetrendektől – például váratlanul leáll egy erőmű, vagy a vártnál kevesebb napenergia érkezik –, a rendszerirányítónak azonnal be kell avatkoznia termelésnöveléssel vagy visszaszabályozással. Eddig ezt szinte kizárólag a szűkös belföldi piacról kellett megoldani, ami az elmúlt években rendkívül magas kiegyenlítő költségeket és drága rendszerhasználati díjakat eredményezett a hazai gazdaság számára.",
+        "A Portfolio Energy Investment Forum 2026 konferencián ismertetett adatok szerint a csatlakozás azonnali meglepetést hozott. Az úgynevezett aFRR (automatikus frekvencia-helyreállítási tartalék) termék piacán a közös európai ajánlati könyvben a hatodik legnagyobb volument rögtön Magyarország adta. A rendszerben négy másodpercenként fut le egy nemzetközi szintű optimalizáció, október 5-én pedig az emberi beavatkozást igénylő mFRR termék európai kooperációja is elindult.",
+        "Bár a hazai kiegyenlítő árszintek még mindig a kontinens drágábbik felében, a mezőny utolsó harmadában mozognak, a határok megnyitásával a magyar árak relatív pozíciója már a működés első napjaiban javulni kezdett. A fogyasztók, energiatárolók és termelők számára a szélesebb piac élesebb versenyt teremt, ami hosszabb távon fékezi az ipari áramárakat, és stabilizálja a megújuló energiát egyre nagyobb arányban használó hálózat működését."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 285,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/26ceff0e3b0bf762.jpg",
+        "width": 6000,
+        "height": 4000,
+        "kind": "photo",
+        "alt": "pylon, electricity, sun, power, grid, infrastructure, industrial, landscape, sky, cloudscape, perspective, height, nature, scale",
+        "credit": "jplenio / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/pylon-electricity-sun-power-grid-8574348/",
+        "vision_score": 8.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/26ceff0e3b0bf762.jpg",
+        "orig_url": "https://pixabay.com/get/gcaec562f4af5872892ee9d3825fd268906447e2d9cfc0d5470d3ce013a97bb9629ac755c83010a712456aa4a2bdf8804e74066e9c715b5bf65e90c5e766917b2_1280.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261009/csendben-nagy-valtozas-tortent-a-magyar-villamosenergia-rendszerben-egy-oszi-ejjelen-868656",
+          "title": "Csendben nagy változás történt a magyar villamosenergia-rendszerben egy őszi éjjelen",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-09T12:24:55+02:00"
+        }
+      ],
+      "quote": {
+        "text": "A gomb megnyomását követően, éjfél után 2-3 perccel a piac egy másik világban találta magát",
+        "who": "Kádár Márton, a MAVIR szabályozási szolgáltatások fejlesztési osztályvezetője",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Éjfélkor nyomták meg a gombot: összekapcsolták az árampiacot Európával",
+        "Európai platformra lépett a MAVIR, máris meglepő adat jött",
+        "Éjjel másfél száz ember virrasztott a MAVIR-nál, óriási fordulat történt",
+        "Gombnyomás éjfél után: teljesen új korszakba lépett a magyar villamosenergia",
+        "Hatodikak lettünk Európában, amint megnyílt a határokon átnyúló árampiac"
+      ],
+      "clickbait_from": 2,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/High-voltage_overhead_power_line_at_Ny%C3%ADrkar%C3%A1sz.jpg/1280px-High-voltage_overhead_power_line_at_Ny%C3%ADrkar%C3%A1sz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Nagyfeszültségű távvezeték Nyírkarász mellett",
+          "credit": "Szilas / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:High-voltage_overhead_power_line_at_Ny%C3%ADrkar%C3%A1sz.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/High-voltage_overhead_power_line_at_Ny%C3%ADrkar%C3%A1sz_2.jpg/1280px-High-voltage_overhead_power_line_at_Ny%C3%ADrkar%C3%A1sz_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Nagyfeszültségű távvezeték Nyírkarász mellett",
+          "credit": "Szilas / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:High-voltage_overhead_power_line_at_Ny%C3%ADrkar%C3%A1sz_2.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/gcaec562f4af5872892ee9d3825fd268906447e2d9cfc0d5470d3ce013a97bb9629ac755c83010a712456aa4a2bdf8804e74066e9c715b5bf65e90c5e766917b2_1280.jpg",
+          "width": 6000,
+          "height": 4000,
+          "kind": "photo",
+          "alt": "pylon, electricity, sun, power, grid, infrastructure, industrial, landscape, sky, cloudscape, perspective, height, nature, scale",
+          "credit": "jplenio / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/pylon-electricity-sun-power-grid-8574348/",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Electricity_pylon%2C_Angeli_Street%2C_2020_Nagyt%C3%A9t%C3%A9ny.jpg/1280px-Electricity_pylon%2C_Angeli_Street%2C_2020_Nagyt%C3%A9t%C3%A9ny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": ": Four arms electricity pylon part of the transmission line between Dunamenti power plant and Albertfalva 220/132/11 kV MAVIR ELMŰ substation - Angeli Street (Route 8102), Budafok-Tétény, Budapest, H",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Electricity_pylon,_Angeli_Street,_2020_Nagyt%C3%A9t%C3%A9ny.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Bev%C3%A1s%C3%A1rl%C3%B3k%C3%B6zpont_Savoya_Park_t%C3%A1bla%2C_Feh%C3%A9rv%C3%A1ri_%C3%BAt%2C_2020_Albertfalva.jpg/1280px-Bev%C3%A1s%C3%A1rl%C3%B3k%C3%B6zpont_Savoya_Park_t%C3%A1bla%2C_Feh%C3%A9rv%C3%A1ri_%C3%BAt%2C_2020_Albertfalva.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": ": Shopping Center Savoya Park road sign. High-voltage electricity pylon close to Albertfalva 220/132/11 kV Mavir-ELMŰ Substation - Fehérvári Road, Albertfalva neighbourhood, Újbuda, Budapest.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bev%C3%A1s%C3%A1rl%C3%B3k%C3%B6zpont_Savoya_Park_t%C3%A1bla,_Feh%C3%A9rv%C3%A1ri_%C3%BAt,_2020_Albertfalva.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Electrical_substation%2C_R%C3%A1k%C3%B3czi_Road%2C2020_Salg%C3%B3tarj%C3%A1n.jpg/1280px-Electrical_substation%2C_R%C3%A1k%C3%B3czi_Road%2C2020_Salg%C3%B3tarj%C3%A1n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": ": City Substation 120/20/10 kV. - 63 Rákóczi Road,Salgótarján, Nógrád County, Hungary",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Electrical_substation,_R%C3%A1k%C3%B3czi_Road,2020_Salg%C3%B3tarj%C3%A1n.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Electrical_substation%2C_2019_Tapolca.jpg/1280px-Electrical_substation%2C_2019_Tapolca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": ": Electrical substation - Halápi utca (Road 7317) off, Tapolca, Veszprém County, Hungary.",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Electrical_substation,_2019_Tapolca.jpg",
+          "vision_score": 6.0
+        },
+        {
+          "url": "https://pixabay.com/get/gcb97f54c4cf8f46613d97a3cda47257636d5fca8abe43b558c6ed34859a41113cca84042c1a91310bae4ccfebc4787cf16ba6fc1fbcd32daf4c3be4267daee2f_1280.jpg",
+          "width": 5377,
+          "height": 3584,
+          "kind": "photo",
+          "alt": "power station, energy, electricity, environmental, stack, coal, smog, chimney, smokestack, cooling towers, eskom, power grid, power generation, industry, pollution, environment, smoke, exhaust fumes, ",
+          "credit": "stevepb / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/power-station-energy-electricity-374097/",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Csendben nagy változás történt a magyar villamosenergia-rendszerben egy őszi éjjelen",
+          "link": "https://www.portfolio.hu/gazdasag/20261009/csendben-nagy-valtozas-tortent-a-magyar-villamosenergia-rendszerben-egy-oszi-ejjelen-868656",
+          "summary": "Magyarország október 1-jén sikeresen csatlakozott az európai kiegyenlítő energia szabályozási platformokhoz, megteremtve annak lehetőségét, hogy a hazai villamosenergia-rendszer egyensúlyának fenntartásához külföldi forrásból is igénybe vehetünk szolgáltatást, és immár a hazai források is részt vesznek az európai kiegyenlítésben. Az első pár nap meglepetése, hogy az úgynevezett aFRR termék esetében a közös európai ajánlati könyvben a 6. legnagyobb ajánlati mennyiség Magyarországról érkezik; közben a magyar árszintek relatív helye is csökkenni látszik, bár egyelőre még így is az európai lista u",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261009/csendben-nagy-valtozas-tortent-a-magyar-villamosenergia-rendszerben-egy-oszi-ejjelen-868656"
+        ]
+      },
+      "date": "2026-10-09",
+      "date_label": "október 9.",
+      "url": "/penzvilag/2026-10-09-gombnyomas-ejfel-utan-teljesen-uj-korszakba-lepett-a-magyar-villamose/",
+      "seo": {
+        "meta_title": "Gombnyomás éjfél után: teljesen új korszakba lépett a magyar",
+        "meta_description": "Magyarország október elején csatlakozott az európai villamosenergia-kiegyenlítő platformokhoz, amivel a hazai hálózat közvetlenül összekapcsolódott három szomsz",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-09-gombnyomas-ejfel-utan-teljesen-uj-korszakba-lepett-a-magyar-villamose/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/26ceff0e3b0bf762.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "fcf569010fe0506d2915e432e7f5caa6cc746fd36117773d470546fc5e3ea74a",
+      "pipeline_run_id": "37917343785",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-09T12:28:52+02:00",
+      "updated_at": "2026-10-09T12:28:52+02:00",
+      "published_at": "2026-10-09T12:28:52+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 3,
+        "image": 2,
+        "sent_at": "2026-10-09T10:26:14+00:00",
+        "msg_ids": [],
+        "control_id": 4113,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
+    },
+    {
+      "id": "9797bd00-9512-5560-ab3c-d23b4c26f7c2",
+      "slug": "2026-10-09-viz-ala-kerult-egesz-videkek-sulyos-arviz-pusztit-thaifoldon",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Thaiföld",
+        "árvíz",
+        "időjárás",
+        "természeti csapás",
+        "Ázsia"
+      ],
+      "title": "Víz alá került egész vidékek: súlyos árvíz pusztít Thaiföldön",
+      "subtitle": null,
+      "lead": "Súlyos és kiterjedt áradások bénították meg Thaiföldöt szeptember közepe óta a folyamatos, hatalmas mennyiségű esőzés következtében. A természeti csapás lakosok millióinak mindennapjait forgatta fel az országban.",
+      "key_points": [
+        "Szeptember közepe óta tartó, rendkívüli esőzések okoztak kiterjedt áradásokat Thaiföldön.",
+        "A katasztrofális helyzet az ország lakosainak millióit érinti közvetlenül.",
+        "A NASA földmegfigyelési jelentései is beszámoltak a délkelet-ázsiai országot sújtó víztömegekről."
+      ],
+      "content": "Szeptember közepe óta szakadó esőzések okoznak drámai helyzetet Thaiföldön, ahol a megáradt vizek lakott területeket öntöttek el. A hirtelen lezúduló, hatalmas csapadékmennyiség következtében kialakult áradások kiterjedt régiókban okoztak fennakadásokat.\n\nA katasztrófa méretét jól mutatja, hogy az ország lakosainak millióinak életét nehezítik meg a hömpölygő víztömegek. A rendkívüli időjárási események nemcsak a helyi infrastruktúrát terhelik meg, hanem komoly humanitárius kihívást is jelentenek.\n\nA NASA földmegfigyelési adatai és jelentései szerint a térségben uralkodó rendkívüli meteorológiai viszonyok vezettek a pusztító árvizek kialakulásához. Az amerikai űrügynökség földtudományi megfigyelései rávilágítanak a monszunidőszak szélsőséges megnyilvánulásaira.",
+      "content_format": "markdown",
+      "body": [
+        "Szeptember közepe óta szakadó esőzések okoznak drámai helyzetet Thaiföldön, ahol a megáradt vizek lakott területeket öntöttek el. A hirtelen lezúduló, hatalmas csapadékmennyiség következtében kialakult áradások kiterjedt régiókban okoztak fennakadásokat.",
+        "A katasztrófa méretét jól mutatja, hogy az ország lakosainak millióinak életét nehezítik meg a hömpölygő víztömegek. A rendkívüli időjárási események nemcsak a helyi infrastruktúrát terhelik meg, hanem komoly humanitárius kihívást is jelentenek.",
+        "A NASA földmegfigyelési adatai és jelentései szerint a térségben uralkodó rendkívüli meteorológiai viszonyok vezettek a pusztító árvizek kialakulásához. Az amerikai űrügynökség földtudományi megfigyelései rávilágítanak a monszunidőszak szélsőséges megnyilvánulásaira."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 115,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Floods_in_Thailand%2C_seen_from_Japan-Bangkok_flight.jpg/1280px-Floods_in_Thailand%2C_seen_from_Japan-Bangkok_flight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 904,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Floods in Thailand, seen from Japan-Bangkok flight",
+        "credit": "Syced / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Floods_in_Thailand,_seen_from_Japan-Bangkok_flight.jpg",
+        "vision_score": 9.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/floodwaters-overwhelm-thailand/",
+          "title": "Floodwaters Overwhelm Thailand",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-09T12:27:57+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.3,
+      "title_options": [
+        "Víz alá került egész vidékek: súlyos árvíz pusztít Thaiföldön",
+        "Szeptember közepe óta pusztítanak a monszun áradások Thaiföldön",
+        "Milliós nagyságrendű embert érintenek a súlyos thaiföldi áradások",
+        "Milliós nagyságrendű embert bénított meg az áradás Thaiföldön",
+        "Ilyen pusztítást hagytak maguk mögött a folyamatos esőzések Thaiföldön",
+        "Hatalmas tömegeket érint a katasztrofális árvízhelyzet"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Floods_in_Thailand%2C_seen_from_Japan-Bangkok_flight.jpg/1280px-Floods_in_Thailand%2C_seen_from_Japan-Bangkok_flight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 904,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Floods in Thailand, seen from Japan-Bangkok flight",
+          "credit": "Syced / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Floods_in_Thailand,_seen_from_Japan-Bangkok_flight.jpg",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Thailand_Flood_Good_Idea_%286305953307%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Thailand/Flood/Good Idea",
+          "credit": "DANIEL JULIE from Paris, France / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Thailand_Flood_Good_Idea_(6305953307).jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flooding_on_the_road_north_from_Bangkok_November_1964.jpg/1280px-Flooding_on_the_road_north_from_Bangkok_November_1964.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 794,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Floooding on the road north from Bangkok November 1964",
+          "credit": "Don Christie / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Flooding_on_the_road_north_from_Bangkok_November_1964.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://pixabay.com/get/g8377abb700b4e2e20eaf250ab22881e9100794946ce2e6e168efcd13e9f382a879e4fcbc2fff42741f126b2916959e1d3e739916582e2a7e95303c0792dd67c0_1280.jpg",
+          "width": 5564,
+          "height": 3516,
+          "kind": "photo",
+          "alt": "biking, street, flood, nature, city, bike, bicycle, bicycle ride, riding bike, flooding, water, water reflection, road, hoi an, vietnam, flooded street",
+          "credit": "trilemedia / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/biking-street-flood-city-bike-5680458/",
+          "vision_score": 7.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Floodwaters Overwhelm Thailand",
+          "link": "https://science.nasa.gov/earth/earth-observatory/floodwaters-overwhelm-thailand/",
+          "summary": "Heavy rains since mid-September have caused widespread flooding that has affected millions of people across the country.",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": 5.3
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://science.nasa.gov/earth/earth-observatory/floodwaters-overwhelm-thailand/"
+        ]
+      },
+      "date": "2026-10-09",
+      "date_label": "október 9.",
+      "url": "/vilag/2026-10-09-viz-ala-kerult-egesz-videkek-sulyos-arviz-pusztit-thaifoldon/",
+      "seo": {
+        "meta_title": "Víz alá került egész vidékek: súlyos árvíz pusztít Thaiföldö",
+        "meta_description": "Súlyos és kiterjedt áradások bénították meg Thaiföldöt szeptember közepe óta a folyamatos, hatalmas mennyiségű esőzés következtében. A természeti csapás lakosok",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-09-viz-ala-kerult-egesz-videkek-sulyos-arviz-pusztit-thaifoldon/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Floods_in_Thailand%2C_seen_from_Japan-Bangkok_flight.jpg/1280px-Floods_in_Thailand%2C_seen_from_Japan-Bangkok_flight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "1521c040f4dba9baf14493cb0d6b888226e43838b260c39aae54545fda9b8204",
+      "pipeline_run_id": "37917343785",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-09T12:27:57+02:00",
+      "updated_at": "2026-10-09T12:27:57+02:00",
+      "published_at": "2026-10-09T12:27:57+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-09T10:28:52+00:00",
+        "msg_ids": [
+          4119,
+          4120,
+          4121,
+          4122,
+          4123
+        ],
+        "control_id": 4124
+      }
     }
   ]
 }

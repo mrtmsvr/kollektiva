@@ -1,122 +1,6 @@
 {
   "items": [
     {
-      "t": "2026-10-06T10:21:11+00:00",
-      "title": "Fizikai Nobel-díjat kapott az IceCube obszervatórium atyja",
-      "cat": "tech",
-      "kw": [
-        "asztrof",
-        "atyja",
-        "belga",
-        "díjat",
-        "ezért",
-        "fizikai",
-        "francis",
-        "halzen",
-        "honnan",
-        "icecube",
-        "idén",
-        "járt",
-        "kapott",
-        "kapta",
-        "nobel",
-        "obszerv",
-        "érkezik",
-        "űrből"
-      ],
-      "links": [
-        "https://hvg.hu/tudomany/20261006_fizikai-nobel-dij-2026-ebx",
-        "https://qubit.hu/2026/10/06/francis-halzen-belga-asztrofizikus-kapta-a-fizikai-nobel-dijat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
-      ],
-      "imgs": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/IceCube_Neutrino_Observatory_in_2023_02.jpg/1280px-IceCube_Neutrino_Observatory_in_2023_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/IceCube_Neutrino_Observatory_in_2023_01.jpg/1280px-IceCube_Neutrino_Observatory_in_2023_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Amundsen-Scott_marsstation_ray_h_edit.jpg/1280px-Amundsen-Scott_marsstation_ray_h_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
-    },
-    {
-      "t": "2026-10-06T10:22:59+00:00",
-      "title": "Világhírű közgazdász dicsérte a közép-európai bérek felzárkózását",
-      "cat": "penzvilag",
-      "kw": [
-        "bérek",
-        "dicsért",
-        "európa",
-        "európai",
-        "felzárk",
-        "közgazd",
-        "közép",
-        "sikertö",
-        "világhí"
-      ],
-      "links": [
-        "https://www.portfolio.hu/gazdasag/20261006/vilaghiru-kozgazdasz-sikertortenet-kozep-europa-felzarkozasa-866912"
-      ],
-      "imgs": []
-    },
-    {
-      "t": "2026-10-06T10:24:06+00:00",
-      "title": "Oroszlánoktól a filmtörténelemig: így küzdött a csődből Stallone",
-      "cat": "kultura",
-      "kw": [
-        "akarták",
-        "csődből",
-        "egyetle",
-        "eladni",
-        "filmtör",
-        "jegyet",
-        "kigolyó",
-        "kultusz",
-        "küzdött",
-        "oroszlá",
-        "rohadt",
-        "saját",
-        "stallon",
-        "sylvest",
-        "tudunk",
-        "veled"
-      ],
-      "links": [
-        "https://www.blikk.hu/sztarvilag/filmklikk/sylvester-stallone-rocky-tortenet-forgatokonyv/c16w70k"
-      ],
-      "imgs": [
-        "https://upload.wikimedia.org/wikipedia/commons/c/c2/Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29_-_Sylvester_Stallone_%2826%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://upload.wikimedia.org/wikipedia/commons/8/84/Sylvester_Stallone_Cannes_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a4/Rocky_Balboa_%28Film%29_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
-      ]
-    },
-    {
-      "t": "2026-10-06T10:25:56+00:00",
-      "title": "Olcsóbb gázolajjal csillapítaná az üzemanyagválságot az amerikai elnök",
-      "cat": "vilag",
-      "kw": [
-        "amerika",
-        "csillap",
-        "dízel",
-        "elnök",
-        "előtt",
-        "feloldo",
-        "félidős",
-        "gázolaj",
-        "használ",
-        "korláta",
-        "mentse",
-        "olcsóbb",
-        "republi",
-        "színeze",
-        "trump",
-        "választ",
-        "üzemany"
-      ],
-      "links": [
-        "https://hvg.hu/gazdasag/20261006_trump-szinezett-dizel-felidos-valasztas"
-      ],
-      "imgs": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/January_2025_Official_Presidential_Portrait_of_Donald_J._Trump.jpg/1280px-January_2025_Official_Presidential_Portrait_of_Donald_J._Trump.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
-    },
-    {
       "t": "2026-10-06T12:09:01+00:00",
       "title": "105 milliárdos spórolás az M6-oson: külföldi cégek kapták a megbízást",
       "cat": "kozelet",
@@ -2869,6 +2753,99 @@
       "imgs": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/SandorMariaFotoThalerTamas.JPG/1280px-SandorMariaFotoThalerTamas.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Bus_interior_in_Quebec_city%2C_Canada.jpg/1280px-Bus_interior_in_Quebec_city%2C_Canada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
+    },
+    {
+      "t": "2026-10-09T10:26:09+00:00",
+      "title": "Éjfélkor nyomták meg a gombot: összekapcsolták az árampiacot Európával",
+      "cat": "penzvilag",
+      "kw": [
+        "csendbe",
+        "európáv",
+        "gombot",
+        "magyar",
+        "nyomták",
+        "rendsze",
+        "történt",
+        "villamo",
+        "változá",
+        "árampia",
+        "éjfélko",
+        "éjjelen",
+        "összeka",
+        "őszi"
+      ],
+      "links": [
+        "https://www.portfolio.hu/gazdasag/20261009/csendben-nagy-valtozas-tortent-a-magyar-villamosenergia-rendszerben-egy-oszi-ejjelen-868656"
+      ],
+      "imgs": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/High-voltage_overhead_power_line_at_Ny%C3%ADrkar%C3%A1sz.jpg/1280px-High-voltage_overhead_power_line_at_Ny%C3%ADrkar%C3%A1sz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/High-voltage_overhead_power_line_at_Ny%C3%ADrkar%C3%A1sz_2.jpg/1280px-High-voltage_overhead_power_line_at_Ny%C3%ADrkar%C3%A1sz_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://pixabay.com/get/gcaec562f4af5872892ee9d3825fd268906447e2d9cfc0d5470d3ce013a97bb9629ac755c83010a712456aa4a2bdf8804e74066e9c715b5bf65e90c5e766917b2_1280.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Electricity_pylon%2C_Angeli_Street%2C_2020_Nagyt%C3%A9t%C3%A9ny.jpg/1280px-Electricity_pylon%2C_Angeli_Street%2C_2020_Nagyt%C3%A9t%C3%A9ny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Bev%C3%A1s%C3%A1rl%C3%B3k%C3%B6zpont_Savoya_Park_t%C3%A1bla%2C_Feh%C3%A9rv%C3%A1ri_%C3%BAt%2C_2020_Albertfalva.jpg/1280px-Bev%C3%A1s%C3%A1rl%C3%B3k%C3%B6zpont_Savoya_Park_t%C3%A1bla%2C_Feh%C3%A9rv%C3%A1ri_%C3%BAt%2C_2020_Albertfalva.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Electrical_substation%2C_R%C3%A1k%C3%B3czi_Road%2C2020_Salg%C3%B3tarj%C3%A1n.jpg/1280px-Electrical_substation%2C_R%C3%A1k%C3%B3czi_Road%2C2020_Salg%C3%B3tarj%C3%A1n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Electrical_substation%2C_2019_Tapolca.jpg/1280px-Electrical_substation%2C_2019_Tapolca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://pixabay.com/get/gcb97f54c4cf8f46613d97a3cda47257636d5fca8abe43b558c6ed34859a41113cca84042c1a91310bae4ccfebc4787cf16ba6fc1fbcd32daf4c3be4267daee2f_1280.jpg"
+      ]
+    },
+    {
+      "t": "2026-10-09T10:27:15+00:00",
+      "title": "A hercegnő testvére szerint borzalmas a Spencer, de Kristen Stewart zseniális benne",
+      "cat": "kultura",
+      "kw": [
+        "benne",
+        "borzalm",
+        "családb",
+        "diana",
+        "dolog",
+        "filmbot",
+        "filmet",
+        "gyűlöli",
+        "hercegn",
+        "királyi",
+        "kristen",
+        "készült",
+        "neki",
+        "spencer",
+        "stewart",
+        "testvér",
+        "tetszet",
+        "zseniál"
+      ],
+      "links": [
+        "https://www.blikk.hu/sztarvilag/filmklikk/kiralyi-csalad-botrany-diana-hercegne-kristen-stewart-spencer-film-charles-spencer/m0ftx7e"
+      ],
+      "imgs": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Kristen_Stewart_Cannes_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Kristen_Stewart_2011.jpg/1280px-Kristen_Stewart_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Diana%2C_Princess_of_Wales_1997_%282%29_%283%29.jpg/1280px-Diana%2C_Princess_of_Wales_1997_%282%29_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
+    },
+    {
+      "t": "2026-10-09T10:28:48+00:00",
+      "title": "Víz alá került egész vidékek: súlyos árvíz pusztít Thaiföldön",
+      "cat": "vilag",
+      "kw": [
+        "egész",
+        "floodwa",
+        "került",
+        "overwhe",
+        "pusztít",
+        "súlyos",
+        "thaiföl",
+        "thailan",
+        "vidékek",
+        "árvíz"
+      ],
+      "links": [
+        "https://science.nasa.gov/earth/earth-observatory/floodwaters-overwhelm-thailand/"
+      ],
+      "imgs": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Floods_in_Thailand%2C_seen_from_Japan-Bangkok_flight.jpg/1280px-Floods_in_Thailand%2C_seen_from_Japan-Bangkok_flight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5b/Thailand_Flood_Good_Idea_%286305953307%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flooding_on_the_road_north_from_Bangkok_November_1964.jpg/1280px-Flooding_on_the_road_north_from_Bangkok_November_1964.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://pixabay.com/get/g8377abb700b4e2e20eaf250ab22881e9100794946ce2e6e168efcd13e9f382a879e4fcbc2fff42741f126b2916959e1d3e739916582e2a7e95303c0792dd67c0_1280.jpg"
       ]
     }
   ]
