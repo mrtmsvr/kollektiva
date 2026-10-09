@@ -8347,7 +8347,7 @@
     {
       "id": "b73921fe-1994-50bd-ad2c-ab6f1a054c3e",
       "slug": "2026-10-09-moszkva-hallgat-a-who-valaszokat-kovetel-sziberiabol",
-      "status": "pending",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -8484,9 +8484,9 @@
       "dedupe_hash": "1a00d30f29e661f4bc0e554ae42a7ac59733be6aabe9b314b3bd0dfdda5af106",
       "pipeline_run_id": "37961165040",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-09T18:55:53+02:00",
-      "updated_at": "2026-10-09T18:55:53+02:00",
-      "published_at": "2026-10-09T18:55:53+02:00",
+      "created_at": "2026-10-09T19:24:44+02:00",
+      "updated_at": "2026-10-09T19:24:44+02:00",
+      "published_at": "2026-10-09T19:24:44+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -8500,13 +8500,12 @@
         "title": 0,
         "image": 0,
         "sent_at": "2026-10-09T16:57:19+00:00",
-        "msg_ids": [
-          4230,
-          4231,
-          4232
-        ],
-        "control_id": 4233
-      }
+        "msg_ids": [],
+        "control_id": 4233,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "e5b8058d-16f3-5d27-93c9-f9f5b8c8d7e0",
