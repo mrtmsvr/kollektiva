@@ -3,7 +3,7 @@
 Kollektíva – automatikus Instagram-posztolás (Instagram API with Instagram Login, Facebook-oldal nélkül)
 =====================================================================================================
 
-Naponta legfeljebb IG_DAILY_MAX (alap 5) kirakott cikkből – a legforróbbakból, legalább IG_GAP_H (alap 2,5) óra
+Minden kirakott cikkből (bulvár nélkül; IG_DAILY_MAX, alap 30/nap) – a legforróbb előre, legalább IG_GAP_H (alap 0,5) óra
 különbséggel, 8 és 21:30 között – álló, 4:5-ös képkártyát készít (főkép vagy generált grafika + logó + rovat + cím),
 és képaláírással (cím, lead, „link a bióban”, max. 5 hashtag – az Instagram 2025 vége óta ennyit enged) kiteszi.
 
@@ -46,8 +46,8 @@ log = logging.getLogger("kollektiva.instagram")
 API = "https://graph.instagram.com"
 STATE = kc.BASE_DIR / "data" / "ig_state.json"
 CARD_DIR = kc.BASE_DIR / "public" / "img" / "ig"
-DAILY_MAX = int(os.getenv("IG_DAILY_MAX", "5"))
-GAP_H = float(os.getenv("IG_GAP_H", "2.5"))
+DAILY_MAX = int(os.getenv("IG_DAILY_MAX", "30"))  # gyakorlatilag minden kirakott cikkből (bulvár kivételével)
+GAP_H = float(os.getenv("IG_GAP_H", "0.5"))
 DELAY_MIN = int(os.getenv("IG_DELAY_MIN", "45"))
 W, H = 1080, 1350
 NAVY, BRASS, PARCH = (14, 16, 36), (201, 164, 92), (236, 230, 216)
@@ -300,7 +300,7 @@ def _pick(articles: list, st: dict, now: datetime) -> Optional[dict]:
         fresh = (now - timedelta(hours=hours)).isoformat()
         cands = [a for a in articles if a.get("status") == "published" and a.get("id") not in done
                  and (a.get("published_at") or a.get("created_at") or "") >= fresh
-                 and not (a.get("legal") or {}).get("hold") and a.get("category") != "horoscope"]
+                 and not (a.get("legal") or {}).get("hold") and a.get("category") not in ("horoscope", "bulvar")]
         if cands:  # képes cikk előnyben; kép nélkülihez generált grafika készül
             return max(cands, key=lambda a: (a.get("hot_score") or 0) + (2 if a.get("hero_image") else 0))
     return None
