@@ -197,6 +197,28 @@ Azért kapod ezt a levelet, mert feliratkoztál a Heti Kollektívára a kollekt�
     return subject[:150], body
 
 
+def _tg(text: str) -> None:
+    try:
+        import telegram_review as tr
+        chat = tr.load_state().get("chat_id")
+        if chat and os.getenv("TELEGRAM_BOT_TOKEN"):
+            tr.tg("sendMessage", {"chat_id": chat, "text": text})
+    except Exception as e:  # noqa: BLE001
+        log.warning("Telegram-jelzés kimaradt: %s", e)
+
+
+def _failed(runs: dict, week: str, fails: int, why: str, args) -> int:
+    """Hiba: Telegram-jelzés (hetente az első és a harmadik, utolsó próbánál), legfeljebb 3 próba hetente."""
+    log.warning("Hírlevél sikertelen: %s", why)
+    if args.force:
+        return 0
+    fails += 1
+    kc.write_json_atomic(RUNS, {**kc.read_json(RUNS, {}), "newsletter_fail": {week: fails}})
+    if fails in (1, 3):
+        _tg(f"⚠️ A heti hírlevél nem ment ki ({fails}. próba{', többet ezen a héten nem próbálom' if fails == 3 else ', később újrapróbálom'}): {why}")
+    return 0
+
+
 def main(argv=None) -> int:
     p = argparse.ArgumentParser()
     p.add_argument("--force", action="store_true", help="most azonnal (nem csak vasárnap)")
@@ -213,24 +235,30 @@ def main(argv=None) -> int:
         return 0
     if not args.force and runs.get("last_newsletter_week") == week:
         return 0
+    fails = (runs.get("newsletter_fail") or {}).get(week, 0)
+    if not args.force and fails >= 3:
+        return 0  # ezen a héten 3-szor nem sikerült – nem próbálkozik tovább (szólt Telegramon)
     lid, snd = list_id(), sender()
     if not lid or not snd:
-        log.warning("Brevo: nincs lista (%s) vagy hitelesített feladó (%s) – a hírlevél kimarad.", lid, snd)
-        return 0
+        return _failed(runs, week, fails, f"nincs Brevo-lista ({lid}) vagy hitelesített feladó ({snd})", args)
     subject, body = build(tz)
     code, camp = brevo("/emailCampaigns", {
         "name": f"Heti Kollektíva {week}", "subject": subject, "sender": snd, "htmlContent": body,
         "recipients": {"listIds": [lid]}, "inlineImageActivation": False})
     if code >= 300:
-        log.warning("Brevo kampány létrehozása sikertelen: %s %s", code, camp)
-        return 0
+        return _failed(runs, week, fails, f"kampány létrehozása: HTTP {code} {str(camp)[:200]}", args)
     if args.test:
         code, r = brevo(f"/emailCampaigns/{camp['id']}/sendTest", {"emailTo": [args.test]})
     else:
         code, r = brevo(f"/emailCampaigns/{camp['id']}/sendNow", {})
     log.info("Hírlevél (%s): HTTP %s %s", "teszt" if args.test else "kiküldve", code, r if code >= 300 else "")
-    if code < 300 and not args.test:
+    if code >= 300:
+        brevo(f"/emailCampaigns/{camp['id']}", method="DELETE")  # ne gyűljenek a piszkozatok
+        return _failed(runs, week, fails, f"kiküldés: HTTP {code} {str(r)[:200]}", args)
+    if not args.test:
         kc.write_json_atomic(RUNS, {**kc.read_json(RUNS, {}), "last_newsletter_week": week})
+        _, info = brevo(f"/contacts/lists/{lid}")
+        _tg(f"📧 Kiment a heti hírlevél ({info.get('uniqueSubscribers') or info.get('totalSubscribers') or '?'} feliratkozó): {subject}")
     return 0
 
 
