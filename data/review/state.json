@@ -1,5 +1,5 @@
 {
-  "offset": 391605018,
+  "offset": 391605022,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -95,7 +95,8 @@
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/hazassag-elso-latasra-botrany/yhwp5l8",
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/varkonyi-andras-fia-baratok-kozt-varkonyi-gyula-m1-hirado-kozmedia/6mcns23",
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/szinetar-dora-fia-unoka/4kc051v",
-    "https://www.blikk.hu/sztarvilag/filmklikk/kiralyi-csalad-botrany-diana-hercegne-kristen-stewart-spencer-film-charles-spencer/m0ftx7e"
+    "https://www.blikk.hu/sztarvilag/filmklikk/kiralyi-csalad-botrany-diana-hercegne-kristen-stewart-spencer-film-charles-spencer/m0ftx7e",
+    "https://www.blikk.hu/sztarvilag/filmklikk/violet-bridgerton-uj-sorozat-netflix/l7b5mmh"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"

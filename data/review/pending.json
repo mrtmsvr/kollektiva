@@ -8532,7 +8532,7 @@
       },
       "review": {
         "title": 4,
-        "image": 0,
+        "image": 2,
         "sent_at": "2026-10-09T12:50:00+00:00",
         "msg_ids": [
           4166,
@@ -8563,154 +8563,9 @@
       ]
     },
     {
-      "id": "ccc5ad11-bb8b-5112-a87d-acddbf228b15",
-      "slug": "2026-10-09-fiatal-eveirol-kap-sajat-sorozatot-a-bridgerton-matriarchaja",
-      "status": "pending",
-      "category": "kultura",
-      "subcategory": null,
-      "tags": [
-        "Bridgerton",
-        "Netflix",
-        "sorozat",
-        "Shonda Rhimes",
-        "streaming"
-      ],
-      "title": "Fiatal éveiről kap saját sorozatot a Bridgerton matriarchája",
-      "subtitle": null,
-      "lead": "Újabb spin-off sorozattal bővül a Netflixen futó Bridgerton univerzum, amely ezúttal a család matriarchájának fiatalkorára fókuszál. A bejelentés meglepte a nézőket, hiszen a fő sorozat ötödik évadának munkálatai még zajlanak.",
-      "key_points": [
-        "A Netflix hivatalosan bejelentette a második Bridgerton spin-off sorozatot.",
-        "A történet Violet Bridgerton korai éveit és Edmund Bridgton vikomttal való románcát mutatja be.",
-        "A projekt mögött a Sarolta királyné sikerét is jegyző Shonda Rhimes áll showrunnerként és íróként.",
-        "A forgatókönyvet Shonda Rhimes és Nicholas Nardini közösen jegyzi."
-      ],
-      "content": "Újabb mellékszállal bővül a világszerte népszerű Bridgerton univerzum, miután a Netflix hivatalosan is bejelentette a romantikus dráma második spin-off sorozatát. A produkció középpontjában Violet Bridgerton áll majd, korai éveitől kezdve egészen addig, amíg el nem kezdődik a románca Edmund Bridgerton vikomttal.\n\nA projekt mögött az a Shonda Rhimes áll, akinek a nevéhez a Sarolta királyné – Egy Bridgerton történet című, Emmy-díjas spin-off is fűződik. Az új sorozat forgatókönyvét Rhimes Nicholas Nardinival közösen írja, emellett showrunnerként is részt vesz a munkálatokban, míg a fő sorozat eseményeinek alapjait Julia Quinn 2000-ben megjelent regénye, A herceg és én fektette le.\n\nBár a cselekmény részleteit egyelőre homály fedi, a bejelentés időzítése feszített munkatempóra utal. A Bridgerton fő sorozatának ötödik évadát ugyanis jelenleg is forgatják, amelyben Lady Francesca szerepe kerül előtérbe.",
-      "content_format": "markdown",
-      "body": [
-        "Újabb mellékszállal bővül a világszerte népszerű Bridgerton univerzum, miután a Netflix hivatalosan is bejelentette a romantikus dráma második spin-off sorozatát. A produkció középpontjában Violet Bridgerton áll majd, korai éveitől kezdve egészen addig, amíg el nem kezdődik a románca Edmund Bridgerton vikomttal.",
-        "A projekt mögött az a Shonda Rhimes áll, akinek a nevéhez a Sarolta királyné – Egy Bridgerton történet című, Emmy-díjas spin-off is fűződik. Az új sorozat forgatókönyvét Rhimes Nicholas Nardinival közösen írja, emellett showrunnerként is részt vesz a munkálatokban, míg a fő sorozat eseményeinek alapjait Julia Quinn 2000-ben megjelent regénye, A herceg és én fektette le.",
-        "Bár a cselekmény részleteit egyelőre homály fedi, a bejelentés időzítése feszített munkatempóra utal. A Bridgerton fő sorozatának ötödik évadát ugyanis jelenleg is forgatják, amelyben Lady Francesca szerepe kerül előtérbe."
-      ],
-      "pull_quote": null,
-      "reading_time_min": 1,
-      "word_count": 160,
-      "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Arsema_thomas_bts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "width": 1200,
-        "height": 1764,
-        "kind": "photo",
-        "pos": "top",
-        "alt": "Arsema Thomas (young Lady Danbury) behind the scenes of Queen Charlotte: A Bridgerton Story (from Shondaland; Creative Commons license in description)",
-        "credit": "Shondaland / Wikimedia Commons",
-        "license": "CC BY 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Arsema_thomas_bts.jpg",
-        "vision_score": 10.0
-      },
-      "inline_images": [],
-      "sources": [
-        {
-          "url": "https://www.blikk.hu/sztarvilag/filmklikk/violet-bridgerton-uj-sorozat-netflix/l7b5mmh",
-          "title": "Óriási bejelentést tett a Netflix: jön az újabb Bridgerton - Erre a szereplőre senki sem számított!",
-          "publisher": "blikk.hu",
-          "license": null,
-          "accessed_at": "2026-10-09T14:50:19+02:00"
-        }
-      ],
-      "quote": null,
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v2",
-        "reviewed_by": null,
-        "reviewed_at": null
-      },
-      "hot_score": 6.0,
-      "title_options": [
-        "Fiatal éveiről kap saját sorozatot a Bridgerton matriarchája",
-        "Violet Bridgerton múltjába enged betekintést a streamingóriás",
-        "Újabb fejezettel bővül a Netflix sikersorozatának világa",
-        "Senki sem számított arra a szereplőre, akit a Bridgerton új spin-offja a középpontba állít",
-        "Mélyebb titkokra derül fény a Bridgerton család matriarchájának múltjából"
-      ],
-      "clickbait_from": 3,
-      "image_options": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Arsema_thomas_bts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "width": 1200,
-          "height": 1764,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "Arsema Thomas (young Lady Danbury) behind the scenes of Queen Charlotte: A Bridgerton Story (from Shondaland; Creative Commons license in description)",
-          "credit": "Shondaland / Wikimedia Commons",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Arsema_thomas_bts.jpg",
-          "vision_score": 10.0
-        }
-      ],
-      "story": [
-        {
-          "title": "Óriási bejelentést tett a Netflix: jön az újabb Bridgerton - Erre a szereplőre senki sem számított!",
-          "link": "https://www.blikk.hu/sztarvilag/filmklikk/violet-bridgerton-uj-sorozat-netflix/l7b5mmh",
-          "summary": "A Netflix hivatalosan is bejelentette, hogy újabb spin-off sorozattal bővül a világszerte népszerű Bridgerton univerzum. A második mellékszál Violet Bridgerton fiatal éveire fókuszál, és a romantikus dráma egyik központi alakjának korai életét tárja majd a nézők elé. A hírt a Sarolta királyné – Egy Bridgerton történet című Emmy-díjas spin-off sikere után jelentették be, amely szintén Shonda Rhimes produceri és írói munkájának eredménye.",
-          "source": "blikk.hu",
-          "related": null,
-          "hot_score": 6.0
-        }
-      ],
-      "category_meta": {
-        "source_links": [
-          "https://www.blikk.hu/sztarvilag/filmklikk/violet-bridgerton-uj-sorozat-netflix/l7b5mmh"
-        ]
-      },
-      "date": "2026-10-09",
-      "date_label": "október 9.",
-      "url": "/kultura/2026-10-09-fiatal-eveirol-kap-sajat-sorozatot-a-bridgerton-matriarchaja/",
-      "seo": {
-        "meta_title": "Fiatal éveiről kap saját sorozatot a Bridgerton matriarchája",
-        "meta_description": "Újabb spin-off sorozattal bővül a Netflixen futó Bridgerton univerzum, amely ezúttal a család matriarchájának fiatalkorára fókuszál. A bejelentés meglepte a néz",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kultura/2026-10-09-fiatal-eveirol-kap-sajat-sorozatot-a-bridgerton-matriarchaja/",
-        "og_image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Arsema_thomas_bts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [],
-      "see_also": [],
-      "thread_id": null,
-      "dedupe_hash": "81f7d8b2059c5789c1fc8cdefebb41fa762095f93eb0a46bfa7fd7c373cc1b88",
-      "pipeline_run_id": "37932153625",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-09T14:50:19+02:00",
-      "updated_at": "2026-10-09T14:50:19+02:00",
-      "published_at": "2026-10-09T14:50:19+02:00",
-      "expires_at": null,
-      "legal": {
-        "level": 0,
-        "issues": []
-      },
-      "review": {
-        "title": 0,
-        "image": 0,
-        "sent_at": "2026-10-09T12:51:40+00:00",
-        "msg_ids": [
-          4172,
-          4173
-        ],
-        "control_id": 4174
-      }
-    },
-    {
       "id": "e5cac80a-1c3d-5dd0-a569-9e7734827fd0",
       "slug": "2026-10-09-latvanyos-felvetelen-a-mars-legnagyobb-holdjanak-hatalmas-kratere",
-      "status": "pending",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -8869,9 +8724,9 @@
       "dedupe_hash": "3a74c8b19f4fa6d418f8b11f6eb2d8876a8843cd24d087220b3a35bec204e762",
       "pipeline_run_id": "37932153625",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-09T14:52:24+02:00",
-      "updated_at": "2026-10-09T14:52:24+02:00",
-      "published_at": "2026-10-09T14:52:24+02:00",
+      "created_at": "2026-10-09T14:56:13+02:00",
+      "updated_at": "2026-10-09T14:56:13+02:00",
+      "published_at": "2026-10-09T14:56:13+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -8881,15 +8736,12 @@
         "title": 0,
         "image": 0,
         "sent_at": "2026-10-09T12:53:33+00:00",
-        "msg_ids": [
-          4175,
-          4176,
-          4177,
-          4178,
-          4179
-        ],
-        "control_id": 4180
-      }
+        "msg_ids": [],
+        "control_id": 4180,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "6752f018-2759-57f2-922e-3c602d21f39b",
