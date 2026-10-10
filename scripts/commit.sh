@@ -43,7 +43,7 @@ git commit -q -m "$MSG"
 for i in 1 2 3 4; do
   # ütközésnél (két futás egyszerre írta a data/ állapotfájlokat) a mostani futás változata nyer – különben az egész
   # futás munkája elveszne és hibás futásról jönne e-mail
-  if git pull -q --rebase -X theirs origin main && git push -q; then exit 0; fi
+  if git pull -q --rebase --autostash -X theirs origin main && git push -q; then exit 0; fi
   git rebase --abort 2>/dev/null || true
   sleep $(( i * 5 ))
 done
