@@ -1,7 +1,211 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-10T11:26:52+02:00",
+  "updated_at": "2026-10-10T11:27:00+02:00",
   "articles": [
+    {
+      "id": "bd658bb2-f4e3-5d5b-a2ab-41195a01c9a5",
+      "slug": "2026-10-10-szazmilliok-jutnak-identol-unger-anna-es-tasnady-katalin-vedelmere",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "NVVH",
+        "Unger Anna",
+        "Tasnády Katalin",
+        "személyvédelem",
+        "rendőrség"
+      ],
+      "title": "Százmilliók jutnak idéntől Unger Anna és Tasnády Katalin védelmére",
+      "subtitle": null,
+      "lead": "Állandó, éjjel-nappali rendőri védelmet kaptak a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal vezetői; a költségeikre idén több mint 175 millió forintot különített el a kormány. A Belügyminisztérium és a Pénzügyminisztérium által finanszírozott intézkedés célja a szervezett bűnözés elleni fellépés biztosítása.",
+      "key_points": [
+        "Állandó rendőri felügyelet alá került Unger Anna és Tasnády Katalin.",
+        "A kormány idén 175,1 millió, 2027-től pedig évi 848,7 millió forintot biztosít a védelemre.",
+        "Az NVVH hivatalosan is a nemzetbiztonsági védelem alá tartozó szervek közé került."
+      ],
+      "content": "A Magyar Közlönyben megjelent kormányrendelet és -határozat értelmében az állandó személyvédelemben részesülők körébe emelték a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) elnökét, Unger Anna politológust, valamint nyomozati elnökhelyettesét, Tasnády Katalin jogászt. A rendőrség költségvetését érintő rendkívüli forrásból 111,2 millió forint a személyi juttatások kiadási előirányzatát növeli, míg a teljes idei támogatás meghaladja a 175 millió forintot.\n\nA kormányzati döntés értelmében a védelem fenntartása hosszútávon is biztosított: 2027-től beépülő jelleggel évi 848,7 millió forint többletforrást kap a rendőrség e feladatok ellátására. Ezzel párhuzamosan az NVVH megkapta a nemzetbiztonsági védelem alá tartozó szervek hivatalos státuszát, ami szigorúbb intézményi védelmet jelent a szervezet számára.\n\nA hivatali állomány kialakításáról szóló rendelkezések rögzítik, hogy a rendvédelmi szervek hivatásos tagjai az NVVH-hoz vezényelhetők, kizárólag az érintett beleegyezésével. A vezényelt személyek ráadásul kérhetik a vezénylés megszüntetését, amit a miniszternek harminc napon belül teljesítenie kell.\n\nA kormányrendelet és -határozat szombaton lépett hatályba, illetve jelent meg a Magyar Közlönyben.",
+      "content_format": "markdown",
+      "body": [
+        "A Magyar Közlönyben megjelent kormányrendelet és -határozat értelmében az állandó személyvédelemben részesülők körébe emelték a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) elnökét, Unger Anna politológust, valamint nyomozati elnökhelyettesét, Tasnády Katalin jogászt. A rendőrség költségvetését érintő rendkívüli forrásból 111,2 millió forint a személyi juttatások kiadási előirányzatát növeli, míg a teljes idei támogatás meghaladja a 175 millió forintot.",
+        "A kormányzati döntés értelmében a védelem fenntartása hosszútávon is biztosított: 2027-től beépülő jelleggel évi 848,7 millió forint többletforrást kap a rendőrség e feladatok ellátására. Ezzel párhuzamosan az NVVH megkapta a nemzetbiztonsági védelem alá tartozó szervek hivatalos státuszát, ami szigorúbb intézményi védelmet jelent a szervezet számára.",
+        "A hivatali állomány kialakításáról szóló rendelkezések rögzítik, hogy a rendvédelmi szervek hivatásos tagjai az NVVH-hoz vezényelhetők, kizárólag az érintett beleegyezésével. A vezényelt személyek ráadásul kérhetik a vezénylés megszüntetését, amit a miniszternek harminc napon belül teljesítenie kell.",
+        "A kormányrendelet és -határozat szombaton lépett hatályba, illetve jelent meg a Magyar Közlönyben."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 194,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/2019-09-14_Budapest_Police_Car.jpg/1280px-2019-09-14_Budapest_Police_Car.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 664,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "2019-09-14 Budapest Škoda Octavia? Police Car",
+        "credit": "Tony Hisgett / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:2019-09-14_Budapest_Police_Car.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261010_nvvh-unger-anna-tasnady-katalin-szemelyvedelem-175-millio-forint",
+          "title": "Több mint 175 millió forintot biztosít az NVVH két vezetőjének személyvédelmére idén a kormány",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T11:16:16+02:00"
+        }
+      ],
+      "quote": {
+        "text": "a legveszélyesebb feladatra, a maffia elleni küzdelemre vállalkozott",
+        "who": "Magyar Péter miniszterelnök",
+        "after": 2
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-10T11:27:00+02:00"
+      },
+      "hot_score": 5.3,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261010_nvvh-unger-anna-tasnady-katalin-szemelyvedelem-175-millio-forint"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/kozelet/2026-10-10-szazmilliok-jutnak-identol-unger-anna-es-tasnady-katalin-vedelmere/",
+      "seo": {
+        "meta_title": "Százmilliók jutnak idéntől Unger Anna és Tasnády Katalin véd",
+        "meta_description": "Állandó, éjjel-nappali rendőri védelmet kaptak a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal vezetői; a költségeikre idén több mint 175 millió forinto",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-szazmilliok-jutnak-identol-unger-anna-es-tasnady-katalin-vedelmere/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/2019-09-14_Budapest_Police_Car.jpg/1280px-2019-09-14_Budapest_Police_Car.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "5ee51bafabdf08416da034a565d6d92f827e85b7fa608941e1cf2db263bf467c",
+      "pipeline_run_id": "38039834555",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T11:27:00+02:00",
+      "updated_at": "2026-10-10T11:27:00+02:00",
+      "published_at": "2026-10-10T11:27:00+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "8eb1177d-4508-5c05-9ee9-f2be8c4c69cc",
+      "slug": "2026-10-10-igy-tisztitja-az-oceanokat-a-mindennapi-netezes",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "technológia",
+        "környezetvédelem",
+        "böngésző",
+        "műanyaghulladék",
+        "mesterséges intelligencia"
+      ],
+      "title": "Így tisztítja az óceánokat a mindennapi netezés",
+      "subtitle": null,
+      "lead": "Egy új, ingyenesen letölthető internetes böngésző a mindennapi webhasználatot köti össze a tengerek megtisztításával. A fejlesztők ígérete szerint a szoftver használatával a felhasználók közvetve támogatják a globális műanyaghulladék elleni harcot.",
+      "key_points": [
+        "A Wave Browser nevű, Chromium-alapú szoftver a keresőmotorokból és partnerségekből származó bevételeinek egy részét óceántakarításra fordítja.",
+        "A fejlesztők 2028-ig évente 45 ezer kilogramm hulladék eltávolítását tűzték ki célul.",
+        "A böngésző a környezetvédelmi funkciók mellett más kényelmi opciókat is kínál a felhasználóknak."
+      ],
+      "content": "A Chromium alapjaira épülő, Wave Browser elnevezésű internetes böngésző arra vállalkozott, hogy a weboldalak elérésén túl aktívan kivegye a részét az óceánok, tengerek megtisztításából. A fejlesztők állítása szerint a program ráadásul kevesebb energiát is fogyaszt, mint a legtöbb piaci konkurens.\n\nAz üzleti modell alapja nem az, hogy egyetlen weboldal megnyitása után azonnal konkrét mennyiségű szemét tűnne el a vízből. A rendszer működése jóval prózaibb: a szoftver a keresőmotorokon és különböző partnereken keresztül szerez bevételeket, és ebbőlfinanszírozza a takarítási programokat.\n\nA hivatalos adatok szerint az alapértelmezett keresőmotor a Yahoo, bár ezt a felhasználók a beállításokban bármikor megváltoztathatják. A program takarítópartnere a 4ocean nevű szervezet, amelynek munkáját a szoftver bevételeiből fenntartott személyzettel, hajókkal és felszerelésekkel támogatják.\n\nA vállalat 2028-ig évente 45 ezer kilogramm műanyag és egyéb hulladék eltávolítását célozta meg.\n\nA hétköznapi internetezők számára a szoftver használata semmilyen extra teendővel nem jár.",
+      "content_format": "markdown",
+      "body": [
+        "A Chromium alapjaira épülő, Wave Browser elnevezésű internetes böngésző arra vállalkozott, hogy a weboldalak elérésén túl aktívan kivegye a részét az óceánok, tengerek megtisztításából. A fejlesztők állítása szerint a program ráadásul kevesebb energiát is fogyaszt, mint a legtöbb piaci konkurens.",
+        "Az üzleti modell alapja nem az, hogy egyetlen weboldal megnyitása után azonnal konkrét mennyiségű szemét tűnne el a vízből. A rendszer működése jóval prózaibb: a szoftver a keresőmotorokon és különböző partnereken keresztül szerez bevételeket, és ebbőlfinanszírozza a takarítási programokat.",
+        "A hivatalos adatok szerint az alapértelmezett keresőmotor a Yahoo, bár ezt a felhasználók a beállításokban bármikor megváltoztathatják. A program takarítópartnere a 4ocean nevű szervezet, amelynek munkáját a szoftver bevételeiből fenntartott személyzettel, hajókkal és felszerelésekkel támogatják.",
+        "A vállalat 2028-ig évente 45 ezer kilogramm műanyag és egyéb hulladék eltávolítását célozta meg.",
+        "A hétköznapi internetezők számára a szoftver használata semmilyen extra teendővel nem jár."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 171,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Ocean_pollution_04.jpg/1280px-Ocean_pollution_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Plastic pollution in the ocean along the coast of Ghana",
+        "credit": "Esthee2010 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ocean_pollution_04.jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261010_wave-browser-oceanok-tisztitasanak-tamogatasa",
+          "title": "Ingyen letölthető a webböngésző, amelyik tisztítja az óceánokat",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T11:16:00+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-10T11:26:57+02:00"
+      },
+      "hot_score": 5.58,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261010_wave-browser-oceanok-tisztitasanak-tamogatasa"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/tech/2026-10-10-igy-tisztitja-az-oceanokat-a-mindennapi-netezes/",
+      "seo": {
+        "meta_title": "Így tisztítja az óceánokat a mindennapi netezés",
+        "meta_description": "Egy új, ingyenesen letölthető internetes böngésző a mindennapi webhasználatot köti össze a tengerek megtisztításával. A fejlesztők ígérete szerint a szoftver ha",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-10-igy-tisztitja-az-oceanokat-a-mindennapi-netezes/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Ocean_pollution_04.jpg/1280px-Ocean_pollution_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "5b4b0deb32af5c90deb30a7cf7293b9ba66095d4bb2b7e62851524a170c15e10",
+      "pipeline_run_id": "38039834555",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T11:26:57+02:00",
+      "updated_at": "2026-10-10T11:26:57+02:00",
+      "published_at": "2026-10-10T11:26:57+02:00",
+      "expires_at": null
+    },
     {
       "id": "22c02636-7232-5271-ae5d-1ed6120babcc",
       "slug": "2026-10-10-zuckerberg-bolyhos-kabalaja-rekordsebesseggel-hoditotta-meg-az-app-st",

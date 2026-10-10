@@ -9737,9 +9737,9 @@
       "live": true
     },
     {
-      "id": "0b9684b2-a458-58b7-b3f9-b5b0e84097aa",
-      "slug": "2026-10-10-muanyagmentes-oceanok-a-bongeszodben-erre-kepes-a-wave",
-      "status": "pending",
+      "id": "8eb1177d-4508-5c05-9ee9-f2be8c4c69cc",
+      "slug": "2026-10-10-igy-tisztitja-az-oceanokat-a-mindennapi-netezes",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -9749,7 +9749,7 @@
         "műanyaghulladék",
         "mesterséges intelligencia"
       ],
-      "title": "Műanyagmentes óceánok a böngésződben: erre képes a Wave",
+      "title": "Így tisztítja az óceánokat a mindennapi netezés",
       "subtitle": null,
       "lead": "Egy új, ingyenesen letölthető internetes böngésző a mindennapi webhasználatot köti össze a tengerek megtisztításával. A fejlesztők ígérete szerint a szoftver használatával a felhasználók közvetve támogatják a globális műanyaghulladék elleni harcot.",
       "key_points": [
@@ -9876,11 +9876,11 @@
       },
       "date": "2026-10-10",
       "date_label": "október 10.",
-      "url": "/tech/2026-10-10-muanyagmentes-oceanok-a-bongeszodben-erre-kepes-a-wave/",
+      "url": "/tech/2026-10-10-igy-tisztitja-az-oceanokat-a-mindennapi-netezes/",
       "seo": {
-        "meta_title": "Műanyagmentes óceánok a böngésződben: erre képes a Wave",
+        "meta_title": "Így tisztítja az óceánokat a mindennapi netezés",
         "meta_description": "Egy új, ingyenesen letölthető internetes böngésző a mindennapi webhasználatot köti össze a tengerek megtisztításával. A fejlesztők ígérete szerint a szoftver ha",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-10-muanyagmentes-oceanok-a-bongeszodben-erre-kepes-a-wave/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-10-igy-tisztitja-az-oceanokat-a-mindennapi-netezes/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Ocean_pollution_04.jpg/1280px-Ocean_pollution_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -9898,9 +9898,9 @@
       "dedupe_hash": "5b4b0deb32af5c90deb30a7cf7293b9ba66095d4bb2b7e62851524a170c15e10",
       "pipeline_run_id": "38039834555",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T11:16:00+02:00",
-      "updated_at": "2026-10-10T11:16:00+02:00",
-      "published_at": "2026-10-10T11:16:00+02:00",
+      "created_at": "2026-10-10T11:26:57+02:00",
+      "updated_at": "2026-10-10T11:26:57+02:00",
+      "published_at": "2026-10-10T11:26:57+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -9910,20 +9910,17 @@
         "title": 1,
         "image": 0,
         "sent_at": "2026-10-10T09:18:00+00:00",
-        "msg_ids": [
-          4519,
-          4520,
-          4521,
-          4522,
-          4523
-        ],
-        "control_id": 4524
-      }
+        "msg_ids": [],
+        "control_id": 4524,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
-      "id": "c1756c2d-cc9c-5ce1-a322-bb54accced28",
-      "slug": "2026-10-10-tobb-mint-175-milliot-koltenek-az-nvvh-vezetoinek-vedelmere",
-      "status": "pending",
+      "id": "bd658bb2-f4e3-5d5b-a2ab-41195a01c9a5",
+      "slug": "2026-10-10-szazmilliok-jutnak-identol-unger-anna-es-tasnady-katalin-vedelmere",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -9933,7 +9930,7 @@
         "személyvédelem",
         "rendőrség"
       ],
-      "title": "Több mint 175 milliót költenek az NVVH vezetőinek védelmére",
+      "title": "Százmilliók jutnak idéntől Unger Anna és Tasnády Katalin védelmére",
       "subtitle": null,
       "lead": "Állandó, éjjel-nappali rendőri védelmet kaptak a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal vezetői; a költségeikre idén több mint 175 millió forintot különített el a kormány. A Belügyminisztérium és a Pénzügyminisztérium által finanszírozott intézkedés célja a szervezett bűnözés elleni fellépés biztosítása.",
       "key_points": [
@@ -10078,11 +10075,11 @@
       },
       "date": "2026-10-10",
       "date_label": "október 10.",
-      "url": "/kozelet/2026-10-10-tobb-mint-175-milliot-koltenek-az-nvvh-vezetoinek-vedelmere/",
+      "url": "/kozelet/2026-10-10-szazmilliok-jutnak-identol-unger-anna-es-tasnady-katalin-vedelmere/",
       "seo": {
-        "meta_title": "Több mint 175 milliót költenek az NVVH vezetőinek védelmére",
+        "meta_title": "Százmilliók jutnak idéntől Unger Anna és Tasnády Katalin véd",
         "meta_description": "Állandó, éjjel-nappali rendőri védelmet kaptak a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal vezetői; a költségeikre idén több mint 175 millió forinto",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-tobb-mint-175-milliot-koltenek-az-nvvh-vezetoinek-vedelmere/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-szazmilliok-jutnak-identol-unger-anna-es-tasnady-katalin-vedelmere/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/2019-09-14_Budapest_Police_Car.jpg/1280px-2019-09-14_Budapest_Police_Car.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -10100,9 +10097,9 @@
       "dedupe_hash": "5ee51bafabdf08416da034a565d6d92f827e85b7fa608941e1cf2db263bf467c",
       "pipeline_run_id": "38039834555",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T11:16:16+02:00",
-      "updated_at": "2026-10-10T11:16:16+02:00",
-      "published_at": "2026-10-10T11:16:16+02:00",
+      "created_at": "2026-10-10T11:27:00+02:00",
+      "updated_at": "2026-10-10T11:27:00+02:00",
+      "published_at": "2026-10-10T11:27:00+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10112,17 +10109,12 @@
         "title": 2,
         "image": 0,
         "sent_at": "2026-10-10T09:18:11+00:00",
-        "msg_ids": [
-          4525,
-          4526,
-          4527,
-          4528,
-          4529,
-          4530,
-          4531
-        ],
-        "control_id": 4532
-      }
+        "msg_ids": [],
+        "control_id": 4532,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "38161235-1a85-524d-a872-e1411ca7bf7d",
