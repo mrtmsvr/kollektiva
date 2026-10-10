@@ -2576,7 +2576,9 @@ def build_from_pitch(ai: "AIClient", pit: dict, tz: ZoneInfo, articles: list) ->
             art["status"] = "pending"
             _log_sent(art)
             return art
-    return build_on_demand(ai, pit.get("link", ""), tz, articles)
+    # régi (forráscsoport nélküli) javaslat vagy hiba: a link, ha a lap letiltja, a cím alapján (Google Hírek-keresés)
+    return (build_on_demand(ai, pit.get("link", ""), tz, articles)
+            or (build_on_demand(ai, pit["title"], tz, articles) if pit.get("title") else None))
 
 
 def build_on_demand(ai: "AIClient", text: str, tz: ZoneInfo, articles: list) -> Optional[dict]:
