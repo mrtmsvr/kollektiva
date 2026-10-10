@@ -1,7 +1,106 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-10T16:03:38+02:00",
+  "updated_at": "2026-10-10T16:04:22+02:00",
   "articles": [
+    {
+      "id": "51bded0c-7b92-57a3-b059-22489b14f497",
+      "slug": "2026-10-10-bortonbe-zarhatjak-diego-maradona-kezeloorvosait",
+      "status": "published",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Diego Maradona",
+        "Argentína",
+        "bíróság",
+        "egészségügy",
+        "bűnügy"
+      ],
+      "title": "Börtönbe zárhatják Diego Maradona kezelőorvosait",
+      "subtitle": null,
+      "lead": "Az argentin ügyészség négytől tizenkét évig terjedő börtönbüntetést követel a néhai Diego Maradona kezelőorvosaira és egészségügyi stábjára. A hivatalos vád szerint a stáb tagjai súlyos gondatlansággal járultak hozzá a legendás sportoló halálához.",
+      "key_points": [
+        "Az ügyészek súlyos gondatlanságból elkövetett emberöléssel vádolják a labdarúgó korábbi kezelőorvosait.",
+        "A vizsgálat szerint Maradona otthoni kezelése nem felelt meg az előírásoknak, és a stáb nem ellenőrizte az állapotát.",
+        "A legsúlyosabb büntetést, tizenkét év börtönt a focista idegsebészére kérték."
+      ],
+      "content": "Hosszú börtönbüntetést kértek a néhai Diego Maradonát kezelő orvosokra és az egészségügyi csoport többi tagjára az argentin ügyészek. A vád szerint a személyzet tagjai súlyos gondatlanságból elkövetett emberölést követtek el a labdarúgó halála előtt, akinek utolsó napjai méltatlan körülmények között telt el.\n\nA TN televíziós csatorna beszámolója alapján a legsúlyosabb büntetést, tizenkét év börtönt a sportoló idegsebészére, Leopoldo Luquéra szabnának ki. Emellett tíz-tíz év letöltendőt követelnek Nancy Forlini orvosi koordinátorra és Agustin Kosachov pszichiáterre, míg további egészségügyi dolgozók négy, öt, illetve nyolc év börtönbüntetéssel néznek szembe.\n\nA hivatalos nyomozás az otthoni kezelés körülményeire fókuszált, miután a sportolót egy Buenos Aires-i házban helyezték el egy nagyobb műtétet követően. A vádhatóság megállapítása szerint a helyszín nem felelt meg a műtét utáni ellátási előírásoknak, a vádlottak nem követték figyelemmel a beteg állapotát, valamint laboratóriumi vizsgálatokat sem végeztek a halála előtti két hétben.\n\nAz ügyészség megfogalmazása szerint az argentin legenda egy horrorházban töltötte utolsó napjait, magára hagyva. Szakértői becslések szerint a hatvan éves korában, 2020. november 25-én elhunyt világbajnok akár tizenkét órán át is szenvedhetett a halála előtt, amelyet akut szívelégtelenség és az abból fakadó tüdőödéma okozott, évtizedes alkohol- és drogproblémák után.",
+      "content_format": "markdown",
+      "body": [
+        "Hosszú börtönbüntetést kértek a néhai Diego Maradonát kezelő orvosokra és az egészségügyi csoport többi tagjára az argentin ügyészek. A vád szerint a személyzet tagjai súlyos gondatlanságból elkövetett emberölést követtek el a labdarúgó halála előtt, akinek utolsó napjai méltatlan körülmények között telt el.",
+        "A TN televíziós csatorna beszámolója alapján a legsúlyosabb büntetést, tizenkét év börtönt a sportoló idegsebészére, Leopoldo Luquéra szabnának ki. Emellett tíz-tíz év letöltendőt követelnek Nancy Forlini orvosi koordinátorra és Agustin Kosachov pszichiáterre, míg további egészségügyi dolgozók négy, öt, illetve nyolc év börtönbüntetéssel néznek szembe.",
+        "A hivatalos nyomozás az otthoni kezelés körülményeire fókuszált, miután a sportolót egy Buenos Aires-i házban helyezték el egy nagyobb műtétet követően. A vádhatóság megállapítása szerint a helyszín nem felelt meg a műtét utáni ellátási előírásoknak, a vádlottak nem követték figyelemmel a beteg állapotát, valamint laboratóriumi vizsgálatokat sem végeztek a halála előtti két hétben.",
+        "Az ügyészség megfogalmazása szerint az argentin legenda egy horrorházban töltötte utolsó napjait, magára hagyva. Szakértői becslések szerint a hatvan éves korában, 2020. november 25-én elhunyt világbajnok akár tizenkét órán át is szenvedhetett a halála előtt, amelyet akut szívelégtelenség és az abból fakadó tüdőödéma okozott, évtizedes alkohol- és drogproblémák után."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 223,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Maradona_1986_vs_italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1652,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Diego Maradona celebrates his goal v. Italy at the 1986 FIFA World Cup in Mexico.",
+        "credit": "Unknown authorUnknown author / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Maradona_1986_vs_italy.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/elet/20261010_diego-maradona-halala-ugyeszseg-orvosok-bortonbuntetes",
+          "title": "Maradona egy „horrorházban” haldoklott magára hagyva az ügyészség szerint",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T15:58:54+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-10T16:04:22+02:00"
+      },
+      "hot_score": 5.21,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/elet/20261010_diego-maradona-halala-ugyeszseg-orvosok-bortonbuntetes"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/vilag/2026-10-10-bortonbe-zarhatjak-diego-maradona-kezeloorvosait/",
+      "seo": {
+        "meta_title": "Börtönbe zárhatják Diego Maradona kezelőorvosait",
+        "meta_description": "Az argentin ügyészség négytől tizenkét évig terjedő börtönbüntetést követel a néhai Diego Maradona kezelőorvosaira és egészségügyi stábjára. A hivatalos vád sze",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-bortonbe-zarhatjak-diego-maradona-kezeloorvosait/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/8/88/Maradona_1986_vs_italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "230f7a53c8eb7efc04f22581dd11f3f0720564264d3b85c0330ca70b7c60e240",
+      "pipeline_run_id": "38056382704",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T16:04:22+02:00",
+      "updated_at": "2026-10-10T16:04:22+02:00",
+      "published_at": "2026-10-10T16:04:22+02:00",
+      "expires_at": null
+    },
     {
       "id": "e09dff96-2303-5ddf-a658-beefe9be411c",
       "slug": "2026-10-10-hat-ev-utan-tert-vissza-hazajaba-de-rogton-megkapta-a-magaet-a-lelato",
