@@ -60,18 +60,16 @@ jobs:
         run: |
           git config user.name "kollektiva-bot"
           git config user.email "bot@kollektiva.hu"
-      - name: Telegram (gyors kör)
-        run: python telegram_review.py
-      - name: Új tartalom, ha esedékes
-        run: python kollektiva_content.py --if-due
       - name: Instagram (minden cikkből, bulvár nélkül, Telegram-előnézettel)
         run: python instagram.py || true
       - name: Heti hírlevél (vasárnap reggel)
         run: python scripts/newsletter.py || true
       - name: Mentés
         run: bash scripts/commit.sh "Tartalom"
-      - name: Telegram-gombnyomások figyelése (kb. 25 perc – a következő kör addig sorban áll, így szinte folyamatos)
-        run: python telegram_review.py --loop 1500
+      # a gombnyomás-figyelés azonnal indul; az új tartalom (ha esedékes) párhuzamos szálon készül közben, így a
+      # cikkírás alatt is azonnal reagál a gombokra (eddig a tartalomgyártás percekig blokkolta)
+      - name: Telegram-figyelés + tartalom párhuzamosan (kb. 25 perc)
+        run: python telegram_review.py --loop 1500 --content
       - name: Mentés (maradék)
         if: always()
         run: bash scripts/commit.sh "Jóváhagyás"
