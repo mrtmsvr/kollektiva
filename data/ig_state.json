@@ -358,12 +358,29 @@
       "caption": "Zuckerberg bolyhos kabalája rekordsebességgel hódította meg az App Store-t\n\nRekordgyorsan futott fel a Meta szeptember elején kiadott AI-ágense, a Muse, miközben az OpenAI modelljei hátrébb szorultak a rangsorban. A szektorban zajló változások és szabályozási hullámok teljesen átrajtják a technológiai piac térképét.\n\n👉 A teljes cikk a kollektíva.hu-n – link a bióban.\n\n#mesterségesintelligencia #meta #openai #hírek #kollektíva",
       "created": "2026-10-10T14:59:54+02:00",
       "due": "2026-10-10T15:44:54+02:00",
-      "status": "failed",
+      "status": "posted",
       "tg": [
-        4574,
-        4575
+        4577
       ],
-      "error": "Instagram API 400: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"AflVz6NkSjcmOZLZnjI"
+      "media_id": "17977734426129779",
+      "posted": "2026-10-10T15:50:38+02:00",
+      "permalink": "https://www.instagram.com/p/DeUOzRGEevW/"
+    },
+    {
+      "id": "86cfa9787f",
+      "art_id": "8eb1177d-4508-5c05-9ee9-f2be8c4c69cc",
+      "title": "Így tisztítja az óceánokat a mindennapi netezés",
+      "url": "/tech/2026-10-10-igy-tisztitja-az-oceanokat-a-mindennapi-netezes/",
+      "card": "public/img/ig/2026-10-10-igy-tisztitja-az-oceanokat-a-mindennapi-netezes.jpg",
+      "card_url": "https://xn--kollektva-m5a.hu/public/img/ig/2026-10-10-igy-tisztitja-az-oceanokat-a-mindennapi-netezes.jpg",
+      "caption": "Így tisztítja az óceánokat a mindennapi netezés\n\nEgy új, ingyenesen letölthető internetes böngésző a mindennapi webhasználatot köti össze a tengerek megtisztításával. A fejlesztők ígérete szerint a szoftver használatával a felhasználók közvetve támogatják a globális műanyaghulladék elleni harcot.\n\n👉 A teljes cikk a kollektíva.hu-n – link a bióban.\n\n#technológia #környezetvédelem #böngésző #hírek #kollektíva",
+      "created": "2026-10-10T15:50:38+02:00",
+      "due": "2026-10-10T16:35:38+02:00",
+      "status": "queued",
+      "tg": [
+        4578,
+        4579
+      ]
     }
   ],
   "token": {
