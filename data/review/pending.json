@@ -10109,7 +10109,7 @@
         "issues": []
       },
       "review": {
-        "title": 0,
+        "title": 1,
         "image": 0,
         "sent_at": "2026-10-10T14:00:03+00:00",
         "msg_ids": [
@@ -10771,6 +10771,161 @@
           4633
         ],
         "control_id": 4634
+      }
+    },
+    {
+      "id": "ba222ab5-0a10-523a-9242-8246ec7e5fe7",
+      "slug": "2026-10-10-szabadlabra-helyeztek-jeszenszky-geza-volt-kulugyminiszter-tamadojat",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Jeszenszky Géza",
+        "bűnügy",
+        "bíróság",
+        "Budai Központi Kerületi Bíróság"
+      ],
+      "title": "Szabadlábra helyezték Jeszenszky Géza volt külügyminiszter támadóját",
+      "subtitle": null,
+      "lead": "Szabadlábra helyezték a 2026 nyarán Jeszenszky Géza volt külügyminiszter és felesége ellen kalapáccsal elkövetett merénylet gyanúsítottját. A volt tárcavezető megdöbbenéssel értesült a Fővárosi Törvényszék és a Budai Központi Kerületi Bíróság október eleji döntéséről.",
+      "key_points": [
+        "Szabadlábra helyezték a 2026. június 1-jén letartóztatott G. Ferencet.",
+        "A bíróság a gyanúsított mozgását nyomon követő technikai eszközzel rendelte ellenőrizni a távoltartást."
+      ],
+      "content": "A Magyar Hanghoz eljuttatott bírósági levélből derült ki, hogy október 1-jei ülésén szabadlábra helyezte a bíróság a 70 éves G. Ferencet. A férfi 2026. június 1-je óta volt letartóztatásban emberölés kísérlete és más bűncselekmények miatt.\n\nA Fővárosi Törvényszék korábbi adatai szerint a támadó kalapáccsal és csavarhúzóval várta a volt külügyminisztert és feleségét a lakásuk előtt, majd benzinnel is le akarta őket önteni. Jeszenszky Géza a háza kapualjában súlyos kőműveskalapáccsal kapott ütést hátulról, ami miatt életmentő műtétet kellett rajta végrehajtani, felesége pedig könnyebb sérüléseket szenvedett.\n\nA rendőrség előre kitervelten, több ember sérelmére elkövetett emberölés bűntettének kísérletével, valamint súlyos testi sértés kísérletével gyanúsította meg a támadót. G. Ferenc ellen a nyomozás adatai szerint előre elhatározott, több ember sérelmére elkövetett emberölés kísérlete miatt indult eljárás.\n\nA Budai Központi Kerületi Bíróság 9 oldalas levélben tájékoztatta a házaspárt a kényszerintézkedés megszüntetéséről. A bírósági határozat értelmében a gyanúsított nem léphet kapcsolatba Jeszenszky Gézáékkal, és távol kell tartania magát a lakhelyüktől.\n\nA távoltartás betartását a bíróság a terhelt mozgását nyomon követő technikai eszközzel rendeli ellenőrizni. Ennek megszegése esetén rendbírság szabható ki, míg súlyosabb esetben akár a letartóztatás is újra elrendelhető.",
+      "content_format": "markdown",
+      "body": [
+        "A Magyar Hanghoz eljuttatott bírósági levélből derült ki, hogy október 1-jei ülésén szabadlábra helyezte a bíróság a 70 éves G. Ferencet. A férfi 2026. június 1-je óta volt letartóztatásban emberölés kísérlete és más bűncselekmények miatt.",
+        "A Fővárosi Törvényszék korábbi adatai szerint a támadó kalapáccsal és csavarhúzóval várta a volt külügyminisztert és feleségét a lakásuk előtt, majd benzinnel is le akarta őket önteni. Jeszenszky Géza a háza kapualjában súlyos kőműveskalapáccsal kapott ütést hátulról, ami miatt életmentő műtétet kellett rajta végrehajtani, felesége pedig könnyebb sérüléseket szenvedett.",
+        "A rendőrség előre kitervelten, több ember sérelmére elkövetett emberölés bűntettének kísérletével, valamint súlyos testi sértés kísérletével gyanúsította meg a támadót. G. Ferenc ellen a nyomozás adatai szerint előre elhatározott, több ember sérelmére elkövetett emberölés kísérlete miatt indult eljárás.",
+        "A Budai Központi Kerületi Bíróság 9 oldalas levélben tájékoztatta a házaspárt a kényszerintézkedés megszüntetéséről. A bírósági határozat értelmében a gyanúsított nem léphet kapcsolatba Jeszenszky Gézáékkal, és távol kell tartania magát a lakhelyüktől.",
+        "A távoltartás betartását a bíróság a terhelt mozgását nyomon követő technikai eszközzel rendeli ellenőrizni. Ennek megszegése esetén rendbírság szabható ki, míg súlyosabb esetben akár a letartóztatás is újra elrendelhető."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 218,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://pixabay.com/get/g7397591994b224f10f35e25cf8dd4a36ee4bf78ce2e9b39b6cfb4d407f585d54c153cfd6f2b8d52aabe09d77a9e63990d29511b8dad4aee8c95d9df11b5d8372_1280.jpg",
+        "width": 3000,
+        "height": 2000,
+        "kind": "photo",
+        "alt": "hammer, law, justice, judge, auction, judgement, authority, courtroom, offer, legislation, penalty, judge, judge, auction, auction, courtroom, courtroom, courtroom, courtroom, courtroom, legislation, ",
+        "credit": "VBlock / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/hammer-law-justice-judge-auction-7286346/",
+        "vision_score": 5.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261010_szabadlabon-van-jeszenszky-geza-tamadoja",
+          "title": "Szabadlábon van Jeszenszky Géza támadója",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T15:59:17+02:00"
+        }
+      ],
+      "quote": {
+        "text": "A bíróság 2026. októberi 1-jei ülésén szabadlábra helyezte a 2026. június 1-jén tettenért és „emberölés kísérlete és más bűncselekmények miatt” azóta letartóztatásban álló merénylőt",
+        "who": "Jeszenszky Géza volt külügyminiszter",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.14,
+      "title_options": [
+        "Szabadlábra helyezték Jeszenszky Géza volt külügyminiszter támadóját",
+        "Szabadlábon a Jeszenszky Gézát kalapáccsal támadó férfi",
+        "Megdöbbentő bírósági döntés: szabadon engedték Jeszenszky Géza merénylőjét",
+        "Hazaengedte a bíróság a volt külügyminisztert fejbe vágó kalapácsos támadót",
+        "Egy év letartóztatás után kiengedték a börtönből Jeszenszky Géza bántalmazóját",
+        "Nem hiszi el, milyen feltételekkel engedték szabadon a Jeszenszky Gézára támadó férfit"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://pixabay.com/get/g7397591994b224f10f35e25cf8dd4a36ee4bf78ce2e9b39b6cfb4d407f585d54c153cfd6f2b8d52aabe09d77a9e63990d29511b8dad4aee8c95d9df11b5d8372_1280.jpg",
+          "width": 3000,
+          "height": 2000,
+          "kind": "photo",
+          "alt": "hammer, law, justice, judge, auction, judgement, authority, courtroom, offer, legislation, penalty, judge, judge, auction, auction, courtroom, courtroom, courtroom, courtroom, courtroom, legislation, ",
+          "credit": "VBlock / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/hammer-law-justice-judge-auction-7286346/",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Szabadlábon van Jeszenszky Géza támadója",
+          "link": "https://hvg.hu/itthon/20261010_szabadlabon-van-jeszenszky-geza-tamadoja",
+          "summary": "A volt külügyminiszter megdöbbent a váratlan fordulaton.",
+          "source": "hvg.hu",
+          "related": false,
+          "hot_score": 5.14
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261010_szabadlabon-van-jeszenszky-geza-tamadoja"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/kozelet/2026-10-10-szabadlabra-helyeztek-jeszenszky-geza-volt-kulugyminiszter-tamadojat/",
+      "seo": {
+        "meta_title": "Szabadlábra helyezték Jeszenszky Géza volt külügyminiszter t",
+        "meta_description": "Szabadlábra helyezték a 2026 nyarán Jeszenszky Géza volt külügyminiszter és felesége ellen kalapáccsal elkövetett merénylet gyanúsítottját. A volt tárcavezető m",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-szabadlabra-helyeztek-jeszenszky-geza-volt-kulugyminiszter-tamadojat/",
+        "og_image": "https://pixabay.com/get/g7397591994b224f10f35e25cf8dd4a36ee4bf78ce2e9b39b6cfb4d407f585d54c153cfd6f2b8d52aabe09d77a9e63990d29511b8dad4aee8c95d9df11b5d8372_1280.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "3a0deb28-a274-5394-8b6f-3850d8c2450c"
+      ],
+      "see_also": [
+        {
+          "title": "Jeszenszky Géza szerint Szijjártó Péter új állása nemzetbiztonsági kockázat",
+          "url": "/kozelet/2026-10-06-jeszenszky-geza-szerint-szijjarto-peter-uj-allasa-nemzetbiztonsagi-ko/",
+          "date": "2026-10-06"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "b4b136b72ca9617f3835182ce98df07e30c0d9ba60afcba12ff9f8cd010293c6",
+      "pipeline_run_id": "38056382704",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T15:59:17+02:00",
+      "updated_at": "2026-10-10T15:59:17+02:00",
+      "published_at": "2026-10-10T15:59:17+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T14:01:01+00:00",
+        "msg_ids": [
+          4635,
+          4636
+        ],
+        "control_id": 4637
       }
     }
   ]
