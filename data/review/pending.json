@@ -9625,7 +9625,7 @@
     {
       "id": "4d54d600-5720-5c51-8568-a4af8de538ef",
       "slug": "2026-10-10-deli-korvasut-kizartak-a-v-hid-zrt-t",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -9776,9 +9776,9 @@
       "dedupe_hash": "53b450561b7b65103ef2f8dd9d29694748e26ebebaf067c78f763f2d86c44501",
       "pipeline_run_id": "38056382704",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T15:58:02+02:00",
-      "updated_at": "2026-10-10T15:58:02+02:00",
-      "published_at": "2026-10-10T15:58:02+02:00",
+      "created_at": "2026-10-10T16:00:36+02:00",
+      "updated_at": "2026-10-10T16:00:36+02:00",
+      "published_at": "2026-10-10T16:00:36+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -9791,12 +9791,773 @@
         "title": 0,
         "image": 0,
         "sent_at": "2026-10-10T13:59:16+00:00",
+        "msg_ids": [],
+        "control_id": 4597,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
+    },
+    {
+      "id": "4976cb5a-3eb9-573c-867f-7b0d03893f86",
+      "slug": "2026-10-10-veroer-repedest-neztek-belgazoknak-a-sussexi-korhazban",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "egészségügy",
+        "kórház",
+        "terhesség",
+        "Nagy-Britannia"
+      ],
+      "title": "Verőér-repedést néztek bélgázoknak a sussexi kórházban",
+      "subtitle": null,
+      "lead": "Elviselhetetlen hasi fájdalmakkal kereste fel a sussexi kórházat a harmincnégy hetes terhes Kimberley Newark, akinek panaszait az orvosok kezdetben csupán bélgázoknak tulajdonították. A kismama végül verőér-repedés miatt tizenegy liter vért veszített, újszülött kislánya pedig hatnapos korában elhunyt.",
+      "key_points": [
+        "A harmincegy éves édesanya 2024. szeptember 14-én került a Haywards Heathben található Princess Royal kórházba.",
+        "Az orvosok először görcsoldókat adtak neki, és azt mondták, hogy a panaszait bélgáz okozza.",
+        "A kismama egyik nagy verőere, a lépartéria megrepedt, ami miatt sürgősségi császármetszést hajtottak végre."
+      ],
+      "content": "Kimberley Newark 2024. szeptember 14-én a terhesség 34. hetében, elviselhetetlen hasi és hátfájdalmakkal, valamint hányingerrel és kimerültséggel küzdve fordult segítségért a sussexi Haywards Heathben található Princess Royal kórházhoz, miután otthon elájult. A sürgősségi osztályon alacsony vérnyomást mértek, és egy szakorvosi vizsgálatot követően a Bolney osztályra helyezték át, miközben párját, Yannt hazaküldték.\n\nA szülészeti osztály munkatársai a panaszokat bélgázoknak tulajdonították, így a kismamának görcsoldó gyógyszert és paracetamolt adtak. Kevesebb mint egy óra elteltével az állapota drasztikusan romlott, a fájdalmai pedig olyan erőssé váltak, hogy sikoltozni kezdett a kórteremben, mire a személyzet arra utasította, hogy maradjon csendben, mert mások is alszanak. Nem sokkal később az ágyra rogyva elvesztette az eszméletét.\n\nA vizsgálatok során kiderült, hogy a baba szívverése lelassult, ezért azonnali, sürgősségi császármetszést végeztek. Az eljárás közben azzal szembesültek az orvosok, hogy a panaszok hátterében nem emésztési probléma áll: a nő egyik fő verőere, a lépartéria megrepedt, aminek következtében mintegy 11 liter vért veszített. A világra jött kislány, Olivia nem lélegzett, és sápadt volt; az újraélesztés után átszállították a brightoni Royal Sussex County kórház speciális osztályára.\n\nAz elvégzett vizsgálatok kimutatták, hogy a csecsemő agya a születés körüli oxigénhiány miatt súlyos hipoxiás-iszkémiás enkefalopátiát szenvedett, és már nem mutatott aktivitást. Az édesanya és társa, Yann ekkor hozták meg a döntést, hogy lekapcsolják a lélegeztetőgépről, így Olivia 2024. szeptember 19-én, hatnapos korában elhunyt. Kimberley-t vérátömlesztéssel és intenzív kezeléssel egy hónapon át ápolták, végül 2024. októberben térhetett haza.",
+      "content_format": "markdown",
+      "body": [
+        "Kimberley Newark 2024. szeptember 14-én a terhesség 34. hetében, elviselhetetlen hasi és hátfájdalmakkal, valamint hányingerrel és kimerültséggel küzdve fordult segítségért a sussexi Haywards Heathben található Princess Royal kórházhoz, miután otthon elájult. A sürgősségi osztályon alacsony vérnyomást mértek, és egy szakorvosi vizsgálatot követően a Bolney osztályra helyezték át, miközben párját, Yannt hazaküldték.",
+        "A szülészeti osztály munkatársai a panaszokat bélgázoknak tulajdonították, így a kismamának görcsoldó gyógyszert és paracetamolt adtak. Kevesebb mint egy óra elteltével az állapota drasztikusan romlott, a fájdalmai pedig olyan erőssé váltak, hogy sikoltozni kezdett a kórteremben, mire a személyzet arra utasította, hogy maradjon csendben, mert mások is alszanak. Nem sokkal később az ágyra rogyva elvesztette az eszméletét.",
+        "A vizsgálatok során kiderült, hogy a baba szívverése lelassult, ezért azonnali, sürgősségi császármetszést végeztek. Az eljárás közben azzal szembesültek az orvosok, hogy a panaszok hátterében nem emésztési probléma áll: a nő egyik fő verőere, a lépartéria megrepedt, aminek következtében mintegy 11 liter vért veszített. A világra jött kislány, Olivia nem lélegzett, és sápadt volt; az újraélesztés után átszállították a brightoni Royal Sussex County kórház speciális osztályára.",
+        "Az elvégzett vizsgálatok kimutatták, hogy a csecsemő agya a születés körüli oxigénhiány miatt súlyos hipoxiás-iszkémiás enkefalopátiát szenvedett, és már nem mutatott aktivitást. Az édesanya és társa, Yann ekkor hozták meg a döntést, hogy lekapcsolják a lélegeztetőgépről, így Olivia 2024. szeptember 19-én, hatnapos korában elhunyt. Kimberley-t vérátömlesztéssel és intenzív kezeléssel egy hónapon át ápolták, végül 2024. októberben térhetett haza."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 274,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Royal_Sussex_County_Hospital%2C_Eastern_Road%2C_Brighton_%28July_2015%29_%282%29.JPG/1280px-Royal_Sussex_County_Hospital%2C_Eastern_Road%2C_Brighton_%28July_2015%29_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 818,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Category:Royal Sussex County Hospital, Eastern Road, Kemptown, City of Brighton and Hove, England.  The city's main (and oldest) hospital.  On Brighton &amp; Hove City Council's Local List of Heritage",
+        "credit": "Hassocks5489 / Wikimedia Commons",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Royal_Sussex_County_Hospital,_Eastern_Road,_Brighton_(July_2015)_(2).JPG",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://borsonline.origo.hu/igaz-tortenetek/2026/10/belgaznak-hittek-a-belso-verzeset-meghalt-a-kisbabaja",
+          "title": "„Maradjon csendben, mások alszanak” – kínok között sikoltozott a kórházi ágyon a kismama, hat nappal később meghalt az újszülöttje",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T15:58:26+02:00"
+        }
+      ],
+      "quote": {
+        "text": "A fájdalom elviselhetetlenné vált. Már nem bírtam tovább, és kínomban sikoltoztam. Megnyomtam a nővérhívót. Azt mondták, maradjak csendben, mert mások is vannak az osztályon, akik alszanak.",
+        "who": "Kimberley Newark, édesanya",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "Verőér-repedést néztek bélgázoknak a sussexi kórházban",
+        "Bélgázra hivatkoztak, majdnem tizenegy liter vért veszített a kismama",
+        "Fájdalomcsillapítóval küldték el a verőér-repedéses kismamát",
+        "Azt hitték, csak bélgáz okozza a fájdalmát, de a klinikán küzdeni kellett az életéért",
+        "Elviselhetetlen fájdalmakkal sikoltozott a kismama, miközben az orvosok csendre intették",
+        "Hat nap után halt meg az újszülött, miután a kórházban félrediagnosztizálták az édesanyát"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Royal_Sussex_County_Hospital%2C_Eastern_Road%2C_Brighton_%28July_2015%29_%282%29.JPG/1280px-Royal_Sussex_County_Hospital%2C_Eastern_Road%2C_Brighton_%28July_2015%29_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 818,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Category:Royal Sussex County Hospital, Eastern Road, Kemptown, City of Brighton and Hove, England.  The city's main (and oldest) hospital.  On Brighton &amp; Hove City Council's Local List of Heritage",
+          "credit": "Hassocks5489 / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Royal_Sussex_County_Hospital,_Eastern_Road,_Brighton_(July_2015)_(2).JPG",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Inauguraci%C3%B3n_del_Hospital_Regional_de_Apatzing%C3%A1n._%2820503993770%29.jpg/1280px-Inauguraci%C3%B3n_del_Hospital_Regional_de_Apatzing%C3%A1n._%2820503993770%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Inauguración del Hospital Regional de Apatzingán.\nApatzingán, Michoacán.\n\n18 de agosto de 2015.",
+          "credit": "Presidencia de la República Mexicana / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Inauguraci%C3%B3n_del_Hospital_Regional_de_Apatzing%C3%A1n._(20503993770).jpg",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "„Maradjon csendben, mások alszanak” – kínok között sikoltozott a kórházi ágyon a kismama, hat nappal később meghalt az újszülöttje",
+          "link": "https://borsonline.origo.hu/igaz-tortenetek/2026/10/belgaznak-hittek-a-belso-verzeset-meghalt-a-kisbabaja",
+          "summary": "Elviselhetetlen fájdalmakkal került kórházba a 34 hetes terhes kismama, ám panaszait kezdetben nem tartották súlyosnak. Az orvosok úgy vélték, a fájdalmait csupán bélgáz okozza, ám a 31 éves nő állapota rohamosan romlott: egyik fő verőere megrepedt, és mintegy 11 liter vért veszített. Kislányát sürgősségi császármetszéssel hozták világra, de Olivia súlyos agykárosodást szenvedett, és mindössze hatnapos korában meghalt.",
+          "source": "borsonline.hu",
+          "related": false,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://borsonline.origo.hu/igaz-tortenetek/2026/10/belgaznak-hittek-a-belso-verzeset-meghalt-a-kisbabaja"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/kozelet/2026-10-10-veroer-repedest-neztek-belgazoknak-a-sussexi-korhazban/",
+      "seo": {
+        "meta_title": "Verőér-repedést néztek bélgázoknak a sussexi kórházban",
+        "meta_description": "Elviselhetetlen hasi fájdalmakkal kereste fel a sussexi kórházat a harmincnégy hetes terhes Kimberley Newark, akinek panaszait az orvosok kezdetben csupán bélgá",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-veroer-repedest-neztek-belgazoknak-a-sussexi-korhazban/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Royal_Sussex_County_Hospital%2C_Eastern_Road%2C_Brighton_%28July_2015%29_%282%29.JPG/1280px-Royal_Sussex_County_Hospital%2C_Eastern_Road%2C_Brighton_%28July_2015%29_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "6b2c19feac88296929a627ad8a67a425aebcc74a5bd2dce1ea7ebc2a656d5b57",
+      "pipeline_run_id": "38056382704",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T15:58:26+02:00",
+      "updated_at": "2026-10-10T15:58:26+02:00",
+      "published_at": "2026-10-10T15:58:26+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T13:59:51+00:00",
         "msg_ids": [
-          4594,
-          4595,
-          4596
+          4599,
+          4600,
+          4601
         ],
-        "control_id": 4597
+        "control_id": 4602
+      }
+    },
+    {
+      "id": "77798f2f-fde1-54e8-82e4-dff1637882b4",
+      "slug": "2026-10-10-napi-szazezer-liter-edesviz-es-aram-jon-az-oceanbol-egy-indiai-sziget",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "zöldenergia",
+        "óceán",
+        "sótalanítás",
+        "India",
+        "technológia"
+      ],
+      "title": "Napi százezer liter édesvíz és áram jön az óceánból egy indiai szigeten",
+      "subtitle": null,
+      "lead": "Egy távoli indiai szigeten zajló kísérletben az óceán természetes hőmérsékleti rétegződését használják fel arra, hogy egyszerre termeljenek villamos energiát és sótalanítsanak tengervizet. A technológia áttörést hozhat a megbízható zöldenergia terén az elszigetelt szigetközösségek számára.",
+      "key_points": [
+        "Az óceáni termikus energiaátalakítás az óceán függőleges hőmérsékleti gradiensét alakítja át elektromos árammá.",
+        "A szárazföldtől 400 kilométerre lévő Kavaratti szigetén a 29 fokos felszíni és a 7 fokos mélyvízi hőmérséklet különbségét hasznosítják.",
+        "A rendszer 65 kilowatt villamos energia mellett naponta 100 ezer liter édesvizet állít elő."
+      ],
+      "content": "A tengerek és óceánok mélyebb rétegei fokozatosan lehűlnek, így a felszíni és a mélyebb vizek között akár 20–30 Celsius-fokos eltérés is megfigyelhető. Ezt a jelenséget használja ki az óceáni termikus energiaátalakítás, röviden az OTEC eljárás, amely ezt a függőleges hőmérsékleti gradienst alakítja át elektromos árammá.\n\nA ZME Science beszámolója szerint az indiai kutatók nemcsak áramot termelnek ezzel a módszerrel, hanem a tengervizet is sótalanítják. Ez különösen fontos az olyan elszigetelt területeken, mint az indiai szárazföldtől nagyjából 400 kilométerre fekvő Kavaratti szigete, ahol a megbízható energiaellátás és az ivóvíz biztosítása egyszerre jelent kihívást.\n\nA Kavaratti szigetén zajló projektben a felszíni, hozzávetőleg 29 Celsius-fokos vizet és az egy kilométer mélyen mérhető 7 fokos vizet állítják párba. A több mint húszfokos hőmérséklet-különbség révén a rendszer 65 kilowatt villamos energia és napi 100 ezer liter édesvíz előállítására képes, ami ugyan nem egy nagy erőmű mérete, de kiváló technológiai demonstráció.\n\nA legtöbb OTEC-terv zárt hurkot alkalmaz, ahol a meleg felszíni tengervíz egy alacsony forráspontú folyadékot, például ammóniát melegít fel, amelynek gőze megforgat egy turbinát. Ezzel szemben Kavarattiban nyitott ciklusú megközelítést alkalmaznak, ahol a szivattyúk által keltett vákuum teszi lehetővé a meleg tengervíz alacsony hőmérsékleten történő forralását.\n\nA technológia elterjedését eddig leginkább a mérnöki kihívások nehezítették, mivel a viszonylag alacsony hőmérséklet-különbség kiaknázása nagy csöveket, szivattyúkat, hőcserélőket és tengeri infrastruktúrát igényel, miközben az energiahatásfok tipikusan 2,5 és 5,3 százalék között mozog. Emiatt a fejlesztők ma már nem gigantikus erőművek építésére törekszenek, hanem célzott megoldásként alkalmazzák a rendszert a távoli szigetek dízelüzemanyagtól való függőségének csökkentésére.",
+      "content_format": "markdown",
+      "body": [
+        "A tengerek és óceánok mélyebb rétegei fokozatosan lehűlnek, így a felszíni és a mélyebb vizek között akár 20–30 Celsius-fokos eltérés is megfigyelhető. Ezt a jelenséget használja ki az óceáni termikus energiaátalakítás, röviden az OTEC eljárás, amely ezt a függőleges hőmérsékleti gradienst alakítja át elektromos árammá.",
+        "A ZME Science beszámolója szerint az indiai kutatók nemcsak áramot termelnek ezzel a módszerrel, hanem a tengervizet is sótalanítják. Ez különösen fontos az olyan elszigetelt területeken, mint az indiai szárazföldtől nagyjából 400 kilométerre fekvő Kavaratti szigete, ahol a megbízható energiaellátás és az ivóvíz biztosítása egyszerre jelent kihívást.",
+        "A Kavaratti szigetén zajló projektben a felszíni, hozzávetőleg 29 Celsius-fokos vizet és az egy kilométer mélyen mérhető 7 fokos vizet állítják párba. A több mint húszfokos hőmérséklet-különbség révén a rendszer 65 kilowatt villamos energia és napi 100 ezer liter édesvíz előállítására képes, ami ugyan nem egy nagy erőmű mérete, de kiváló technológiai demonstráció.",
+        "A legtöbb OTEC-terv zárt hurkot alkalmaz, ahol a meleg felszíni tengervíz egy alacsony forráspontú folyadékot, például ammóniát melegít fel, amelynek gőze megforgat egy turbinát. Ezzel szemben Kavarattiban nyitott ciklusú megközelítést alkalmaznak, ahol a szivattyúk által keltett vákuum teszi lehetővé a meleg tengervíz alacsony hőmérsékleten történő forralását.",
+        "A technológia elterjedését eddig leginkább a mérnöki kihívások nehezítették, mivel a viszonylag alacsony hőmérséklet-különbség kiaknázása nagy csöveket, szivattyúkat, hőcserélőket és tengeri infrastruktúrát igényel, miközben az energiahatásfok tipikusan 2,5 és 5,3 százalék között mozog. Emiatt a fejlesztők ma már nem gigantikus erőművek építésére törekszenek, hanem célzott megoldásként alkalmazzák a rendszert a távoli szigetek dízelüzemanyagtól való függőségének csökkentésére."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 289,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Makai%27s_Ocean_Thermal_Energy_Conversion.jpg/1280px-Makai%27s_Ocean_Thermal_Energy_Conversion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1600,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Ocean thermal energy conversion (OTEC) is a process or technology for producing energy by harnessing the temperature differences (thermal gradients) between ocean surface waters and deep ocean waters.",
+        "credit": "Vitafougue / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Makai%27s_Ocean_Thermal_Energy_Conversion.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261010_indiai-projekt-aram-es-ivoviz-az-oceanbol",
+          "title": "Indiában kitalálták, megcsinálják: áram és ivóvíz is lesz a tengerből",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T15:58:35+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.88,
+      "title_options": [
+        "Napi százezer liter édesvíz és áram jön az óceánból egy indiai szigeten",
+        "Így csinál áramot és ivóvizet a tengerből egy távoli indiai sziget",
+        "Áramot és édesvizet termel a tengervíz hőmérséklet-különbségéből egy új projekt",
+        "Húszfokos hőmérséklet-különbség az óceánban: ezzel a módszerrel oldják meg egy sziget ivóvíz- és áramgondjait",
+        "Így állít elő egyszerre villamos energiát és friss vizet a mélytengeri technológia",
+        "Nem egy gigászi erőmű: ekkora teljesítményre képes az indiai termálenergia-projekt"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Makai%27s_Ocean_Thermal_Energy_Conversion.jpg/1280px-Makai%27s_Ocean_Thermal_Energy_Conversion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Ocean thermal energy conversion (OTEC) is a process or technology for producing energy by harnessing the temperature differences (thermal gradients) between ocean surface waters and deep ocean waters.",
+          "credit": "Vitafougue / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Makai%27s_Ocean_Thermal_Energy_Conversion.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Aerial_view_of_Victorian_Desalination_Plant.jpg/1280px-Aerial_view_of_Victorian_Desalination_Plant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Aerial view of Victorian Desalination Plant looking at main plant, Bass Strait, storage pools and green roof from over the ecological reserve",
+          "credit": "JoelCarterRamadge / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Victorian_Desalination_Plant.jpg",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Indiában kitalálták, megcsinálják: áram és ivóvíz is lesz a tengerből",
+          "link": "https://hvg.hu/tudomany/20261010_indiai-projekt-aram-es-ivoviz-az-oceanbol",
+          "summary": "Akár még édesvíz is lehet az óceánok vízének hőmérséklet-különbségéből. Indiai szakemberek erre a jelenségre alapozva termelnének áramot. Egy távoli indiai szigeten zajló termálenergia-átalakítási projekt remekül demonstrálja, hogy miként használható fel a tenger természetes hőmérsékleti rétegződése egy önmagát energiával ellátó sótalanító rendszerhez.",
+          "source": "hvg.hu",
+          "related": false,
+          "hot_score": 5.88
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261010_indiai-projekt-aram-es-ivoviz-az-oceanbol"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/tech/2026-10-10-napi-szazezer-liter-edesviz-es-aram-jon-az-oceanbol-egy-indiai-sziget/",
+      "seo": {
+        "meta_title": "Napi százezer liter édesvíz és áram jön az óceánból egy indi",
+        "meta_description": "Egy távoli indiai szigeten zajló kísérletben az óceán természetes hőmérsékleti rétegződését használják fel arra, hogy egyszerre termeljenek villamos energiát és",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-10-napi-szazezer-liter-edesviz-es-aram-jon-az-oceanbol-egy-indiai-sziget/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Makai%27s_Ocean_Thermal_Energy_Conversion.jpg/1280px-Makai%27s_Ocean_Thermal_Energy_Conversion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "08a8bbe0d759ff7a32fc8f38811ff9f8caa26ddeb1621388cbdd94722c7d7011",
+      "pipeline_run_id": "38056382704",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T15:58:35+02:00",
+      "updated_at": "2026-10-10T15:58:35+02:00",
+      "published_at": "2026-10-10T15:58:35+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T14:00:03+00:00",
+        "msg_ids": [
+          4603,
+          4604,
+          4605
+        ],
+        "control_id": 4606
+      }
+    },
+    {
+      "id": "098c68fa-3d27-56d7-a501-caeac0efdc15",
+      "slug": "2026-10-10-gavin-newsom-alairta-fegyvernyomtatas-blokkolot-kovetel-kalifornia",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Kalifornia",
+        "3D nyomtatás",
+        "fegyverkorlátozás",
+        "Gavin Newsom",
+        "technológia"
+      ],
+      "title": "Gavin Newsom aláírta: fegyvernyomtatás-blokkolót követel Kalifornia",
+      "subtitle": null,
+      "lead": "Törvényjavaslatot írt alá szeptember végén Gavin Newsom, Kalifornia kormányzója, amely előírná a lőfegyver-blokkoló technológia beépítését a jövőbeli 3D nyomtatókba. Az intézkedés célja az otthoni, illegális fegyvergyártás visszaszorítása, ám a technológiai megvalósítás és a szabványosítás hiánya miatt komoly kérdőjelek övezik a bevezetését.",
+      "key_points": [
+        "Kalifornia kormányzója, Gavin Newsom aláírta a 3D nyomtatók lőfegyver-blokkoló technológiájáról szóló törvényt.",
+        "A rendszer célja, hogy felismerje és leállítsa a fegyverek vagy fegyveralkatrészek nyomtatási kísérleteit.",
+        "A korlátozás nem vonatkozik a már forgalomban lévő készülékekre, és a szabványok hiánya miatt évekig eltarthat a hatálybalépése."
+      ],
+      "content": "A mai technológiával szinte bármi előállítható otthoni környezetben a játékoktól kezdve a különféle eszközökön át egészen a lőfegyverekig. Bár az Egyesült Államok több államában viszonylag egyszerűen meg lehet vásárolni bizonyos fegyvereket, a nyomtatható darabok megjelenése komoly biztonsági kihívást jelent. Ezt felismerve New York után Kalifornia is szigorító lépéseket határozott el a lőfegyver-korlátozások terén.\n\nGavin Newsom kormányzó szeptember végén látta el kézjegyével azt a jogszabályt, amely arra kötelezné a gyártókat, hogy hardveres, firmware-es vagy egyéb beépített technológiával lássák el a jövőben értékesített 3D nyomtatókat. Ez a lőfegyver-blokkoló funkció arra hivatott, hogy felismerje a digitális terveket, ha azok lőfegyver vagy gépfegyver-átalakító eszköz készítésére szolgálnak, és megakadályozza a nyomtatási folyamat elindulását. A szabályozás azonban kifejezetten csak a jövőbeli termékekre vonatkozik, a már eleve forgalomban lévő eszközöket nem kell utólagosan felszerelni.\n\nA gyakorlati megvalósítás ugyanakkor jelentős akadályokba ütközik. Jelenleg két módszer létezik a fegyverfájlok kiszűrésére: az egyik egy ismert adatbázissal való összevetés, a másik pedig egy betanított modell alkalmazása. Előbbi egy egyszerű fájlmódosítással vagy a méret megváltoztatásával könnyen kijátszható, utóbbi viszont hajlamos a téves riasztásokra, ami megakadályozhatja a hasonló formájú, de teljesen legális alkatrészek, csövek vagy konzolok előállítását is.\n\nEmellett a törvény érvénybe lépése egyelőre egy olyan technológiai szabványra vár, amelyet az ASTM International nevű szabványügyi szervezetnek kellene kidolgoznia. Ha a csoport határidőre nem alkot meg ilyen szabványt, a kaliforniai igazságügyi minisztérium 2029. július 1-jéig követheti nyomon a folyamatot, ám ha addig sem történik áttörés, a rendelkezés alkalmazása teljesen elakadhat. Még ha meg is születik a szabvány, a helyi minisztériumnak saját követelményeket kell kidolgoznia a fegyverfelismerés pontosságáról, és a tilalom csak ezt követően, egy év elteltével lépne hatályba az új nyomtatók piacán.",
+      "content_format": "markdown",
+      "body": [
+        "A mai technológiával szinte bármi előállítható otthoni környezetben a játékoktól kezdve a különféle eszközökön át egészen a lőfegyverekig. Bár az Egyesült Államok több államában viszonylag egyszerűen meg lehet vásárolni bizonyos fegyvereket, a nyomtatható darabok megjelenése komoly biztonsági kihívást jelent. Ezt felismerve New York után Kalifornia is szigorító lépéseket határozott el a lőfegyver-korlátozások terén.",
+        "Gavin Newsom kormányzó szeptember végén látta el kézjegyével azt a jogszabályt, amely arra kötelezné a gyártókat, hogy hardveres, firmware-es vagy egyéb beépített technológiával lássák el a jövőben értékesített 3D nyomtatókat. Ez a lőfegyver-blokkoló funkció arra hivatott, hogy felismerje a digitális terveket, ha azok lőfegyver vagy gépfegyver-átalakító eszköz készítésére szolgálnak, és megakadályozza a nyomtatási folyamat elindulását. A szabályozás azonban kifejezetten csak a jövőbeli termékekre vonatkozik, a már eleve forgalomban lévő eszközöket nem kell utólagosan felszerelni.",
+        "A gyakorlati megvalósítás ugyanakkor jelentős akadályokba ütközik. Jelenleg két módszer létezik a fegyverfájlok kiszűrésére: az egyik egy ismert adatbázissal való összevetés, a másik pedig egy betanított modell alkalmazása. Előbbi egy egyszerű fájlmódosítással vagy a méret megváltoztatásával könnyen kijátszható, utóbbi viszont hajlamos a téves riasztásokra, ami megakadályozhatja a hasonló formájú, de teljesen legális alkatrészek, csövek vagy konzolok előállítását is.",
+        "Emellett a törvény érvénybe lépése egyelőre egy olyan technológiai szabványra vár, amelyet az ASTM International nevű szabványügyi szervezetnek kellene kidolgoznia. Ha a csoport határidőre nem alkot meg ilyen szabványt, a kaliforniai igazságügyi minisztérium 2029. július 1-jéig követheti nyomon a folyamatot, ám ha addig sem történik áttörés, a rendelkezés alkalmazása teljesen elakadhat. Még ha meg is születik a szabvány, a helyi minisztériumnak saját követelményeket kell kidolgoznia a fegyverfelismerés pontosságáról, és a tilalom csak ezt követően, egy év elteltével lépne hatályba az új nyomtatók piacán."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 315,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Gavin_Newsom_official_photo.jpg/1280px-Gavin_Newsom_official_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1800,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Lieutenant Governor of California Gavin Newsom",
+        "credit": "Office of the Lieutenant Governor of California / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gavin_Newsom_official_photo.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261010_3d-nyomtatott-fegyverek-tiltasa-kaliforniaban",
+          "title": "A törvényt már aláírták: betiltják a fegyverek 3D-nyomtatását Kaliforniában",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T15:58:40+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.51,
+      "title_options": [
+        "Gavin Newsom aláírta: fegyvernyomtatás-blokkolót követel Kalifornia",
+        "Kalifornia bevezeti a lőfegyver-blokkolót a 3D nyomtatókon",
+        "Új törvény: fegyvernyomtatást tiltó technológiát írna elő Kalifornia",
+        "Megállítaná a otthoni fegyvergyártást az amerikai állam",
+        "Ilyen technológiát építenének be a jövő 3D nyomtatóiba",
+        "Komoly akadályokba ütközhet a fegyvernyomtatás tilalma"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Gavin_Newsom_official_photo.jpg/1280px-Gavin_Newsom_official_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1800,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Lieutenant Governor of California Gavin Newsom",
+          "credit": "Office of the Lieutenant Governor of California / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Gavin_Newsom_official_photo.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Governor_of_California_Gavin_Newsom%2C_2026_Official_Portrait_2.jpg/1280px-Governor_of_California_Gavin_Newsom%2C_2026_Official_Portrait_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1799,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Newsom in 2026",
+          "credit": "Charles Ommanney – Office of the Governor of California / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Governor_of_California_Gavin_Newsom,_2026_Official_Portrait_2.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/3D_printing_calibration_%E2%80%93_3D_printer_belt_tension_and_backlash.png/1280px-3D_printing_calibration_%E2%80%93_3D_printer_belt_tension_and_backlash.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1212,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "An illustration of the effect on 3D printing caused by too loose drive belt tension effect on a filament-based 3D printers.",
+          "credit": "paulo@kiefe.com / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:3D_printing_calibration_%E2%80%93_3D_printer_belt_tension_and_backlash.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Backpack_3D_Printer_on_Man.jpg/1280px-Backpack_3D_Printer_on_Man.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 960,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Mitch Cerroni wearing a back-mounted 3D printer while operating a 237% scale model of a 1986 Macintosh Plus at Open Sauce.",
+          "credit": "Tessa Bury / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Backpack_3D_Printer_on_Man.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/California_State_Capitol_%28top%29%2C_NW_view_up.jpg/1280px-California_State_Capitol_%28top%29%2C_NW_view_up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 750,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Northwest view up to the pediment, rotunda, and dome of the California State Capitol in Sacramento",
+          "credit": "Photograph:  Radomianin / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:California_State_Capitol_(top),_NW_view_up.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/California_State_Capitol_during_blue_hour-3982.jpg/1280px-California_State_Capitol_during_blue_hour-3982.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1500,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "The California State Capitol in Sacramento during blue hour on April 8, 2022.",
+          "credit": "Frank Schulenburg / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:California_State_Capitol_during_blue_hour-3982.jpg"
+        },
+        {
+          "url": "https://pixabay.com/get/g92bfabc8ac485e1daf149b63766a496b8e577cb8554648e4e9b07306cdb75f90ca9aabb0728b3e7d95a8262ac62cd51f47f247e3f1dc8daf9fd8a68fd439687e_1280.jpg",
+          "width": 5472,
+          "height": 3648,
+          "kind": "photo",
+          "alt": "printer, technology, 3d printer, 3d printing, 3d, 3d printer, 3d printer, 3d printing, 3d printing, 3d printing, 3d printing, 3d printing",
+          "credit": "ZMorph3D / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/printer-technology-3d-printer-4348150/"
+        },
+        {
+          "url": "https://pixabay.com/get/g364a30554c968e50b64238f356f7e3ccfb426a4208a9c83703f42608a9f47394e3a69049ff08218501426a35e2b9587c899bc18e816ba49a8a37230d26688cda_1280.jpg",
+          "width": 4651,
+          "height": 3106,
+          "kind": "photo",
+          "alt": "brass, machine, technology, mechanical, specialist, 3d printer, 3d printing, print head, 3d-print, 3d, 3d printer, 3d printer, 3d printer, 3d printer, 3d printer, 3d printing, 3d printing, 3d printing",
+          "credit": "LPArt / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/brass-machine-technology-mechanical-4684040/"
+        }
+      ],
+      "story": [
+        {
+          "title": "A törvényt már aláírták: betiltják a fegyverek 3D-nyomtatását Kaliforniában",
+          "link": "https://hvg.hu/tudomany/20261010_3d-nyomtatott-fegyverek-tiltasa-kaliforniaban",
+          "summary": "Szinte felsorolhatatlan, hogy mi mindent lehet ma már 3D-ben nyomtatni: játékokat, dekorációkat, autós kiegészítőket, orvosi segédeszközöket, ételeket, sőt, akár emberi szerveket is. Meg persze fegyvereket.",
+          "source": "hvg.hu",
+          "related": false,
+          "hot_score": 5.51
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261010_3d-nyomtatott-fegyverek-tiltasa-kaliforniaban"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/vilag/2026-10-10-gavin-newsom-alairta-fegyvernyomtatas-blokkolot-kovetel-kalifornia/",
+      "seo": {
+        "meta_title": "Gavin Newsom aláírta: fegyvernyomtatás-blokkolót követel Kal",
+        "meta_description": "Törvényjavaslatot írt alá szeptember végén Gavin Newsom, Kalifornia kormányzója, amely előírná a lőfegyver-blokkoló technológia beépítését a jövőbeli 3D nyomtat",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-gavin-newsom-alairta-fegyvernyomtatas-blokkolot-kovetel-kalifornia/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Gavin_Newsom_official_photo.jpg/1280px-Gavin_Newsom_official_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "15f8acd1cafc463257de049344526dbf8d35bec503c0b3de8987b352691cc989",
+      "pipeline_run_id": "38056382704",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T15:58:40+02:00",
+      "updated_at": "2026-10-10T15:58:40+02:00",
+      "published_at": "2026-10-10T15:58:40+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T14:00:15+00:00",
+        "msg_ids": [
+          4607,
+          4608,
+          4609,
+          4610,
+          4611,
+          4612,
+          4613,
+          4614,
+          4615
+        ],
+        "control_id": 4616
+      }
+    },
+    {
+      "id": "662d9050-2c61-58e1-83e2-a672206c2a5e",
+      "slug": "2026-10-10-kifutyultek-harry-herceget-a-rogbimeccsen",
+      "status": "pending",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Harry herceg",
+        "Egyesült Királyság",
+        "királyi család",
+        "rögbi"
+      ],
+      "title": "Kifütyülték Harry herceget a rögbimeccsen",
+      "subtitle": null,
+      "lead": "Harry herceg sörrel a kezében szurkolt egy péntek esti rögbimeccsen, ám a stadion közönsége hangos fújolással reagált, amikor az arca megjelent az óriásképernyőn. A sussexi herceg augusztus végén tért vissza az Egyesült Királyságba a feleségével és a gyerekeivel, hat évvel azután, hogy Kaliforniába költöztek.",
+      "key_points": [
+        "Harry herceg a Leicester Tigers és a Gloucester mérkőzésén tűnt fel a lelátón.",
+        "A nézők egy része fütyüléssel és fújolással reagált, amikor a kamera őt vette.",
+        "A herceg hat év után, augusztus végén tért vissza a családjával az Egyesült Királyságba.",
+        "A visszatérés óta sem a király, sem Vilmos herceg nem találkozott Harryékkel."
+      ],
+      "content": "Harry herceg sörrel a kezében, lelkesen szurkolt a Leicester Tigers és a Gloucester rögbicsapatának meccsén péntek este. Amikor a stadion kamerái elcsípték őt, és az alakja feltűnt az óriásképernyőn, fújolás zúdult a sussexi hercegre.\n\nA sussexi herceg a feleségével, Meghan Markle-lel és a gyerekeivel augusztus végén tért vissza az Egyesült Királyságba, mintegy hat évvel azután, hogy felhagytak a királyi kötelezettségeikkel, és Kaliforniába távoztak. Harry a visszaköltözésük óta először jelent meg nyilvánosan egyedül, korábban csak rendezvényeken vett részt.\n\nA hercegi pár korábbi bejelentése szerint a gyerekek angol iskolai tanulmányai miatt is hozták meg a döntést a költözésről, ám a jövőbeli terveikről egyelőre kevés hivatalos információ látott napvilágot. Az mindenesetre borítékolható, hogy a család hagyományos sandringhami karácsonyi összejövetelére nem kapnak meghívást.\n\nA családi viszonyokban egyelőre nem látszik közeledés, ugyanis a visszatérés óta eltelt több mint egy hónapban sem III. Károly király, sem pedig Vilmos herceg nem találkozott velük. III. Károly a hivatalos iránymutatásában ráadásul nyomatékosította, hogy Harryék magánemberként élnek, nem tartoznak a királyi család dolgozó tagjai közé, és a HRH címet sem használhatják.",
+      "content_format": "markdown",
+      "body": [
+        "Harry herceg sörrel a kezében, lelkesen szurkolt a Leicester Tigers és a Gloucester rögbicsapatának meccsén péntek este. Amikor a stadion kamerái elcsípték őt, és az alakja feltűnt az óriásképernyőn, fújolás zúdult a sussexi hercegre.",
+        "A sussexi herceg a feleségével, Meghan Markle-lel és a gyerekeivel augusztus végén tért vissza az Egyesült Királyságba, mintegy hat évvel azután, hogy felhagytak a királyi kötelezettségeikkel, és Kaliforniába távoztak. Harry a visszaköltözésük óta először jelent meg nyilvánosan egyedül, korábban csak rendezvényeken vett részt.",
+        "A hercegi pár korábbi bejelentése szerint a gyerekek angol iskolai tanulmányai miatt is hozták meg a döntést a költözésről, ám a jövőbeli terveikről egyelőre kevés hivatalos információ látott napvilágot. Az mindenesetre borítékolható, hogy a család hagyományos sandringhami karácsonyi összejövetelére nem kapnak meghívást.",
+        "A családi viszonyokban egyelőre nem látszik közeledés, ugyanis a visszatérés óta eltelt több mint egy hónapban sem III. Károly király, sem pedig Vilmos herceg nem találkozott velük. III. Károly a hivatalos iránymutatásában ráadásul nyomatékosította, hogy Harryék magánemberként élnek, nem tartoznak a királyi család dolgozó tagjai közé, és a HRH címet sem használhatják."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 216,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Michelle_Obama%2C_Jill_Biden_and_Prince_Henry.jpg/1280px-Michelle_Obama%2C_Jill_Biden_and_Prince_Henry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "First Lady of the United States of America, Michelle Obama, Prince Harry, and Jill Biden help military children create Mother's Day cards and other crafts in the State Dining Room of the White House o",
+        "credit": "Lawrence Jackson / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Michelle_Obama,_Jill_Biden_and_Prince_Henry.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/elet/20261010_harry-herceg-rogbimeccs-kifutyules",
+          "title": "Harry herceg ellátogatott egy rögbimeccsre, rögtön ki is fütyülték",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T15:58:45+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.25,
+      "title_options": [
+        "Kifütyülték Harry herceget a rögbimeccsen",
+        "Sörrel a kezében fütyülték ki Harry herceget",
+        "Nem várt hűvös fogadtatásban részesült Harry herceg",
+        "Kamerák előtt kapták lencsevégre a pillanatot, amikor fújolni kezdett a stadion Harry hercegnek",
+        "Hat év után tért vissza hazájába, de rögtön megkapta a magáét a lelátón Harry herceg",
+        "Ezért nem kérnek most a brit rögbirajongók a sussexi hercegből"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Michelle_Obama%2C_Jill_Biden_and_Prince_Henry.jpg/1280px-Michelle_Obama%2C_Jill_Biden_and_Prince_Henry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "First Lady of the United States of America, Michelle Obama, Prince Harry, and Jill Biden help military children create Mother's Day cards and other crafts in the State Dining Room of the White House o",
+          "credit": "Lawrence Jackson / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Michelle_Obama,_Jill_Biden_and_Prince_Henry.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Uruguay_-_Chile_panamericano_rugby_1951.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 569,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Rugby union match Uruguay vs Chile in Buenos Aires, September 1951. The match was part of the Torneo Internacional (International Tournament) that originally should have been the rugby union tournamen",
+          "credit": "Unknown authorUnknown author / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Uruguay_-_Chile_panamericano_rugby_1951.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Spain_vs_Portugal_rugby_union_match_in_Santiago_de_Compostela.jpg/1280px-Spain_vs_Portugal_rugby_union_match_in_Santiago_de_Compostela.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 706,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Spain vs Portugal rugby union match in the San Lázaro Stadium (Santiago de Compostela).",
+          "credit": "JonnyJonny / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Spain_vs_Portugal_rugby_union_match_in_Santiago_de_Compostela.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/King_Charles_III_%28July_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1692,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "It was an honor meeting with His Majesty this morning for a wide-ranging discussion on the global challenges facing our nations.",
+          "credit": "White House / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/His_Majesty_The_King_of_Canada_Charles_III.png/1280px-His_Majesty_The_King_of_Canada_Charles_III.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1765,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "King Charles III during the tree planting ceremony held at Rideau Hall, Ottawa, on May 26, 2025.",
+          "credit": "Hayden Soloviev / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:His_Majesty_The_King_of_Canada_Charles_III.png"
+        },
+        {
+          "url": "https://pixabay.com/get/gd62e12dcafe03e055c1298735ad99738ac170d84999438755c3c97a59d74a97d8eabaaee582be2eced7e489c441fd963b0b70533270b179dd122a130c8effedc_1280.jpg",
+          "width": 5616,
+          "height": 3744,
+          "kind": "photo",
+          "alt": "athletes, american football, players, football team, football players, football field, team, ball, field, football, game, grass, helmets, men, people, rugby, sport, stadium, nature, uniforms",
+          "credit": "Pexels / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/athletes-american-football-players-1867185/"
+        },
+        {
+          "url": "https://pixabay.com/get/g1f29cd13e3ffaa14434c222a8a241085c000035b80fa9a26b6b993be4f669db3c3be1ef212d6623dd8af46f1e0d933494073fb1df256ad7764c9e9cbc5c99fc9_1280.jpg",
+          "width": 3000,
+          "height": 2000,
+          "kind": "photo",
+          "alt": "rugby, heineken cup, saracens, leinster, newcastle, rugby, rugby, rugby, rugby, rugby",
+          "credit": "KBaucherel / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/rugby-heineken-cup-saracens-4498376/"
+        }
+      ],
+      "story": [
+        {
+          "title": "Harry herceg ellátogatott egy rögbimeccsre, rögtön ki is fütyülték",
+          "link": "https://hvg.hu/elet/20261010_harry-herceg-rogbimeccs-kifutyules",
+          "summary": "A sussexi herceg kapott némi visszajelzést arról, hogy mit gondolnak az emberek a visszaköltözésükről.",
+          "source": "hvg.hu",
+          "related": false,
+          "hot_score": 5.25
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/elet/20261010_harry-herceg-rogbimeccs-kifutyules"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/bulvar/2026-10-10-kifutyultek-harry-herceget-a-rogbimeccsen/",
+      "seo": {
+        "meta_title": "Kifütyülték Harry herceget a rögbimeccsen",
+        "meta_description": "Harry herceg sörrel a kezében szurkolt egy péntek esti rögbimeccsen, ám a stadion közönsége hangos fújolással reagált, amikor az arca megjelent az óriásképernyő",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-10-kifutyultek-harry-herceget-a-rogbimeccsen/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Michelle_Obama%2C_Jill_Biden_and_Prince_Henry.jpg/1280px-Michelle_Obama%2C_Jill_Biden_and_Prince_Henry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "ac02754ffcf49145f29e480219837aa1fa58abcf11265d8d87a81a287bf1bd2b",
+      "pipeline_run_id": "38056382704",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T15:58:45+02:00",
+      "updated_at": "2026-10-10T15:58:45+02:00",
+      "published_at": "2026-10-10T15:58:45+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T14:00:36+00:00",
+        "msg_ids": [
+          4617,
+          4618,
+          4619,
+          4620,
+          4621,
+          4622,
+          4623,
+          4624
+        ],
+        "control_id": 4625
       }
     }
   ]
