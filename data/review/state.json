@@ -1,5 +1,5 @@
 {
-  "offset": 391605154,
+  "offset": 391605155,
   "chat_id": 5901583666,
   "rejected_links": [
     "https://hu.wikipedia.org/wiki/Koffein",
@@ -106,7 +106,9 @@
     "https://www.blikk.hu/sztarvilag/hazai-sztarok/farm-vip-2026-kenez-nora-konfiktus-bucsu/fwk9h94",
     "https://www.blikk.hu/sztarvilag/filmklikk/heti-hetes-szereplok-fizetesek-kajdi-csaba-hajos-andras/78ebxzx",
     "https://borsonline.origo.hu/magyar-sztarhirek/2026/10/heti-hetes-szereplok-penz",
-    "https://www.youtube.com/watch?v=aU2AA1QmpLA"
+    "https://www.youtube.com/watch?v=aU2AA1QmpLA",
+    "https://www.portfolio.hu/gazdasag/20261009/tisza-kormany-feljelentes-minimalberemeles-koltsegvetes-zajlik-a-kormanyzati-munka-868526",
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNN3R3dlpJd3VveFcyNTBmOFZpYnpBcW5mRjdDdmstQXZOcTRPeG9FYTBabnpNd3E2YXY0UUhCWjFiM2liVVFydmMyTThDdDZFUGs0cTlnTW9xRXB3NmVYTVNVTUo0TE1sTDdDbkhra0VrZ3NPR05oR1FKVG9BWGJTb0FoTk5pRXlkUjVDSFJrM0ZMdnlnT3NUaVVWSlRyMWd1dWxhTU90dDMzQ2pabF9NaFdZdFN2ZEhaaFJR?oc=5"
   ],
   "usage_warned": "2026-10-03",
   "webhook": "https://xn--kollektva-m5a.hu/api/tg"
