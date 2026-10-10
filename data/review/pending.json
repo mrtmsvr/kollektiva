@@ -7806,7 +7806,7 @@
     {
       "id": "a1dd82e4-88bd-5d31-9548-e5234d23d158",
       "slug": "2026-10-10-szeteso-vilagrend-roma-bukasat-idezi-a-nagyhatalmak-valsaga",
-      "status": "pending",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -7836,16 +7836,16 @@
       "word_count": 280,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Foro_Romano_visto_dal_Vittoriano_Roma.jpg/1280px-Foro_Romano_visto_dal_Vittoriano_Roma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Roman_forum%2C_Zadar_%28P1080975%29.jpg/1280px-Roman_forum%2C_Zadar_%28P1080975%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 660,
+        "height": 786,
         "kind": "photo",
         "pos": "center",
-        "alt": "View of the Roman Forum from the  Vittoriano in Rome.",
-        "credit": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but ple / Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Foro_Romano_visto_dal_Vittoriano_Roma.jpg",
-        "vision_score": 9.0
+        "alt": "Roman forum in Zadar, Croatia",
+        "credit": "Matti Blume / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Roman_forum,_Zadar_(P1080975).jpg",
+        "vision_score": 8.0
       },
       "inline_images": [],
       "sources": [
@@ -7924,7 +7924,7 @@
         "meta_title": "Széteső világrend: Róma bukását idézi a nagyhatalmak válsága",
         "meta_description": "A globális békeszabályozó mechanizmusok kudarca és a gazdasági erőviszonyok eltolódása miatt egyre instabilabbá válik a nemzetközi tér. A történelmi párhuzamok ",
         "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-szeteso-vilagrend-roma-bukasat-idezi-a-nagyhatalmak-valsaga/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Foro_Romano_visto_dal_Vittoriano_Roma.jpg/1280px-Foro_Romano_visto_dal_Vittoriano_Roma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Roman_forum%2C_Zadar_%28P1080975%29.jpg/1280px-Roman_forum%2C_Zadar_%28P1080975%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -7941,9 +7941,9 @@
       "dedupe_hash": "0895ee057a30c46b6d5043f0edee8078b9c5c3dfc0a76cdeb2072da664bf0920",
       "pipeline_run_id": "38033086813",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T09:19:43+02:00",
-      "updated_at": "2026-10-10T09:19:43+02:00",
-      "published_at": "2026-10-10T09:19:43+02:00",
+      "created_at": "2026-10-10T09:41:03+02:00",
+      "updated_at": "2026-10-10T09:41:03+02:00",
+      "published_at": "2026-10-10T09:41:03+02:00",
       "expires_at": null,
       "hold": true,
       "video": {
@@ -7960,13 +7960,12 @@
         "title": 0,
         "image": 1,
         "sent_at": "2026-10-10T07:25:49+00:00",
-        "msg_ids": [
-          4391,
-          4392,
-          4393
-        ],
-        "control_id": 4394
-      }
+        "msg_ids": [],
+        "control_id": 4394,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     }
   ]
 }
