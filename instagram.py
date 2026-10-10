@@ -466,27 +466,46 @@ def publish_due(st: dict, now: datetime, only: str = "") -> int:
             continue
         try:
             uid = api("me", {"fields": "user_id,username"}).get("user_id")
-            c = api(f"{uid}/media", {"image_url": p["card_url"], "caption": p["caption"]}, post=True)
-            cid = c.get("id")
-            for _ in range(10):  # a feltöltött képet az Instagram feldolgozza
-                s = api(cid, {"fields": "status_code"}).get("status_code")
-                if s in ("FINISHED", "ERROR", "EXPIRED"):
+            cid = p.get("container")  # újrapróbálásnál ugyanazt a feltöltést tesszük ki (nincs dupla poszt)
+            if not cid:
+                cid = api(f"{uid}/media", {"image_url": p["card_url"], "caption": p["caption"]}, post=True).get("id")
+                p["container"] = cid
+            status = ""
+            for _ in range(20):  # a feltöltött képet az Instagram feldolgozza (max. ~60 mp)
+                status = api(cid, {"fields": "status_code"}).get("status_code") or ""
+                if status in ("FINISHED", "ERROR", "EXPIRED"):
                     break
                 time.sleep(3)
+            if status in ("ERROR", "EXPIRED"):
+                p.pop("container", None)
+                raise RuntimeError(f"az Instagram nem tudta feldolgozni a képet ({status})")
+            if status != "FINISHED":  # még dolgozik rajta: a következő körben (2 perc) újra
+                p["tries"] = p.get("tries", 0) + 1
+                if p["tries"] < 5:
+                    continue
             r = api(f"{uid}/media_publish", {"creation_id": cid}, post=True)
-            p.update({"status": "posted", "media_id": r.get("id"), "posted": now.isoformat(timespec="seconds")})
-            try:
-                p["permalink"] = api(r.get("id"), {"fields": "permalink"}).get("permalink")
-            except Exception:  # noqa: BLE001
-                pass
-            n += 1
+        except Exception as e:  # noqa: BLE001
+            msg = str(e)
+            p["tries"] = p.get("tries", 0) + 1
+            if ("9007" in msg or "not ready" in msg or "is_transient\":true" in msg) and p["tries"] < 5:
+                log.info("Instagram: a kép még nincs kész, később újra (%s)", p.get("title"))
+                continue  # átmeneti hiba – a poszt várakozik tovább, a 2 perces körben újrapróbálja
+            p["status"] = "failed"
+            p["error"] = msg[:300]
+            log.warning("Instagram-posztolás sikertelen: %s", e)
+            _notify(f"⚠️ Instagram-posztolás sikertelen: {p.get('title')}\n{msg[:300]}")
+            continue
+        p.update({"status": "posted", "media_id": r.get("id"), "posted": now.isoformat(timespec="seconds")})
+        n += 1
+        try:  # a poszt már kint van – ami innen hibázik, az ne jelölje sikertelennek
+            p["permalink"] = api(r.get("id"), {"fields": "permalink"}).get("permalink")
+        except Exception:  # noqa: BLE001
+            pass
+        try:
             _collapse(p, f"✅ Instagramon: {p.get('title')}" + (f"\n{p['permalink']}" if p.get("permalink") else ""),
                       [{"text": "🗑 Leszedés Instagramról", "callback_data": f"igdel|{p['id']}"}])
         except Exception as e:  # noqa: BLE001
-            p["status"] = "failed"
-            p["error"] = str(e)[:300]
-            log.warning("Instagram-posztolás sikertelen: %s", e)
-            _notify(f"⚠️ Instagram-posztolás sikertelen: {p.get('title')}\n{str(e)[:300]}")
+            log.warning("Instagram-jelzés kimaradt: %s", e)
     return n
 
 
