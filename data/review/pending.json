@@ -8249,8 +8249,8 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/e6e087489f-1791621688-0.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/e6e087489f-1791621688-0.jpg",
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/e6e087489f-1791621777-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/e6e087489f-1791621777-0.jpg",
           "kind": "photo",
           "alt": "Drágább energia, rekordhozamok: itt a 2026-os piaci helyzet",
           "likeness": true,
@@ -8260,8 +8260,8 @@
           "generated": true
         },
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/e6e087489f-1791621689-1.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/e6e087489f-1791621689-1.jpg",
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/e6e087489f-1791621779-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/e6e087489f-1791621779-1.jpg",
           "kind": "photo",
           "alt": "Drágább energia, rekordhozamok: itt a 2026-os piaci helyzet",
           "likeness": false,
@@ -8414,7 +8414,7 @@
       },
       "review": {
         "title": 2,
-        "image": 1,
+        "image": 0,
         "sent_at": "2026-10-10T08:19:02+00:00",
         "msg_ids": [
           4424,
@@ -8425,9 +8425,11 @@
           4429,
           4430,
           4465,
-          4466
+          4466,
+          4471,
+          4472
         ],
-        "control_id": 4467
+        "control_id": 4473
       }
     },
     {
