@@ -358,11 +358,12 @@
       "caption": "Zuckerberg bolyhos kabalája rekordsebességgel hódította meg az App Store-t\n\nRekordgyorsan futott fel a Meta szeptember elején kiadott AI-ágense, a Muse, miközben az OpenAI modelljei hátrébb szorultak a rangsorban. A szektorban zajló változások és szabályozási hullámok teljesen átrajtják a technológiai piac térképét.\n\n👉 A teljes cikk a kollektíva.hu-n – link a bióban.\n\n#mesterségesintelligencia #meta #openai #hírek #kollektíva",
       "created": "2026-10-10T14:59:54+02:00",
       "due": "2026-10-10T15:44:54+02:00",
-      "status": "queued",
+      "status": "failed",
       "tg": [
         4574,
         4575
-      ]
+      ],
+      "error": "Instagram API 400: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"AflVz6NkSjcmOZLZnjI"
     }
   ],
   "token": {
