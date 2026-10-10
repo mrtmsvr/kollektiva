@@ -167,7 +167,10 @@ def _fresh_titles(ai, a: dict, n: int = 2) -> list:
                 out.append(t)
     except Exception as e:  # noqa: BLE001
         log.warning("Címjavaslat kimaradt: %s", str(e)[:150])
-    return out[:n + 1]
+    out = out[:n + 1]
+    if len(out) > 1:  # az újakat helyesírás-ellenőrzi (a mostani cím marad)
+        out = [out[0]] + kc.proofread_titles(ai or kc.AIClient(kc.Config.from_env()), out[1:])
+    return out
 
 
 def _download_file(file_id: str) -> Optional[bytes]:
@@ -326,6 +329,8 @@ def _control(art: dict) -> tuple:
         auto = " (magától nem kerül ki)"
     elif art.get("schedule") and MODE == "hybrid":
         auto = f" (magától: legkésőbb {str(art['schedule'].get('deadline', ''))[11:16]})"
+    if art.get("scheduled_at") and not live:
+        auto = f" (időzítve {art['scheduled_at'][11:16]} – ✅ = azonnal)"
     state = f"🟢 <b>Kint van</b> – {kc.SITE_URL}{art.get('url', '')}" if live else "⏳ <b>Vár</b>" + auto
     text = (f"{state} · {E(kc.SECTIONS.get(art['category'], {}).get('name', art['category']))}\n"
             f"<b>{E(_chosen_title(art))}</b> · {img_txt}")
@@ -626,6 +631,28 @@ def _go_live(out_dir: Path, art: dict, tz: ZoneInfo, auto: bool = False) -> dict
         art[k] = final[k]
     art["live"] = True
     return final
+
+
+STAGGER_MIN = int(os.getenv("PUBLISH_GAP_MIN", "20"))
+
+
+def _stagger_time(out_dir: Path, pending: list, tz: ZoneInfo) -> Optional[datetime]:
+    """Ha az előző cikk STAGGER_MIN percen belül került ki (vagy van már időzített), a következő időpont; különben None."""
+    if STAGGER_MIN <= 0:
+        return None
+    now = datetime.now(tz)
+    times = []
+    for a in kc.read_json(out_dir / "articles.json", {"articles": []}).get("articles", [])[:30]:
+        try:
+            t = datetime.fromisoformat(a.get("published_at") or "")
+        except ValueError:
+            continue
+        times.append(t if t.tzinfo else t.replace(tzinfo=tz))
+    for a in pending:
+        if a.get("scheduled_at") and not a.get("live"):
+            times.append(datetime.fromisoformat(a["scheduled_at"]))
+    nxt = max(times, default=now - timedelta(days=1)) + timedelta(minutes=STAGGER_MIN)
+    return nxt if nxt > now + timedelta(minutes=1) else None
 
 
 def _age_min(art: dict) -> float:
@@ -1097,6 +1124,41 @@ def _handle(out_dir: Path, ai, tz: ZoneInfo, u: dict, st: dict, pending: list) -
                                        "text": "🗑 A kvíz lekerült az oldalról (1–2 perc)."})
                 tg("answerCallbackQuery", {"callback_query_id": q["id"]})
                 continue
+            if parts[0] in ("pok", "pre", "pno"):  # napi szavazás-javaslat: választás / másik téma / ma nincs
+                import polls
+                dr = kc.read_json(polls.DRAFT_FILE, {})
+                mid_ = q["message"]["message_id"]
+                if dr.get("id") != parts[1] or dr.get("status") != "pending":
+                    tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Ez a javaslat már nem aktuális."})
+                    continue
+                if parts[0] == "pok":
+                    pl = polls.approve(dr, int(parts[2]), out_dir, tz)
+                    published += 1
+                    _deploy_now()
+                    tg("editMessageText", {"chat_id": st["chat_id"], "message_id": mid_,
+                                           "text": f"🗳 Kint (1–2 perc): {pl['question']}\n" + " / ".join(pl["options"]),
+                                           "reply_markup": {"inline_keyboard": [[{"text": "🗑 Szavazás leszedése",
+                                                                                 "callback_data": f"pdel|{pl['id']}"}]]}})
+                    tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Kirakva"})
+                elif parts[0] == "pno":
+                    dr["status"] = "skipped"
+                    kc.write_json_atomic(polls.DRAFT_FILE, dr)
+                    tg("editMessageText", {"chat_id": st["chat_id"], "message_id": mid_, "text": "🗳 Ma nincs szavazás."})
+                    tg("answerCallbackQuery", {"callback_query_id": q["id"]})
+                else:
+                    tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Másik témát keresek…"})
+                    new_dr = polls.make_draft(ai or kc.AIClient(kc.Config.from_env()), date.fromisoformat(dr["date"]),
+                                              out_dir, {dr.get("article_url")} | set(dr.get("tried") or []))
+                    tg("deleteMessage", {"chat_id": st["chat_id"], "message_id": mid_})
+                    if new_dr:
+                        new_dr["tried"] = (dr.get("tried") or []) + [dr.get("article_url")]
+                        polls.send_draft(new_dr)
+                        kc.write_json_atomic(polls.DRAFT_FILE, new_dr)
+                    else:
+                        dr["status"] = "skipped"
+                        kc.write_json_atomic(polls.DRAFT_FILE, dr)
+                        tg("sendMessage", {"chat_id": st["chat_id"], "text": "🗳 Nem találtam másik alkalmas témát – ma nincs szavazás."})
+                continue
             if parts[0] == "pdel":
                 ppath = out_dir / "polls.json"
                 pdata = kc.read_json(ppath, {"polls": []})
@@ -1231,10 +1293,17 @@ def _handle(out_dir: Path, ai, tz: ZoneInfo, u: dict, st: dict, pending: list) -
                 note = "Rendben ✅"
                 _compact(st["chat_id"], art, "✅ Kint")
             elif act == "ok":
-                _go_live(out_dir, art, tz)
-                published += 1
-                note = "Kirakva ✅ (1–2 perc múlva látszik)"
-                _compact(st["chat_id"], art, "✅ Kint")
+                when = None if art.get("scheduled_at") else _stagger_time(out_dir, pending, tz)
+                if when:  # röviddel az előző után: időzítve, hogy ne egyszerre kerüljön ki minden
+                    art["scheduled_at"] = when.isoformat(timespec="seconds")
+                    note = f"Időzítve: {when:%H:%M}"
+                    _compact(st["chat_id"], art, f"🕒 Kint lesz {when:%H:%M} (✏️ → ✅ = azonnal)")
+                else:
+                    art.pop("scheduled_at", None)
+                    _go_live(out_dir, art, tz)
+                    published += 1
+                    note = "Kirakva ✅ (1–2 perc múlva látszik)"
+                    _compact(st["chat_id"], art, "✅ Kint")
             elif act == "ed":  # lezárt cikk újra előhozása (cím, kép, újraírás, törlés)
                 note = "Előhozom…"
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": note})
@@ -1290,6 +1359,15 @@ def _finish(out_dir: Path, tz: ZoneInfo, st: dict, pending: list, published: int
     if published:  # a te gombnyomásod / parancsod: soron kívül kikerül (nem a napi keretből)
         _deploy_now()
     # automatikus kirakás, ha AUTO_PUBLISH_MIN percen belül nem jött döntés
+    # időzített (jóváhagyott, de röviddel az előző után jött) cikkek kirakása, ha eljött az idejük
+    for a in [a for a in pending if a.get("scheduled_at") and not a.get("live")]:
+        if a["scheduled_at"] <= datetime.now(tz).isoformat(timespec="seconds"):
+            a.pop("scheduled_at", None)
+            _go_live(out_dir, a, tz)
+            published += 1
+            changed = True
+            a.setdefault("review", {})["compact"] = "✅ Kint"
+            _refresh_control(st["chat_id"], a)
     if MODE == "hybrid":
         import offtopic
         now_local = datetime.now(tz)
