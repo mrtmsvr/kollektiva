@@ -9364,7 +9364,7 @@
     {
       "id": "1b61d220-3332-5ed5-917f-3883d08798ae",
       "slug": "2026-10-10-valodi-ugynokok-nevevel-es-hamis-videoval-csalnak-az-fbi-neveben",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -9395,15 +9395,15 @@
       "word_count": 237,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Federal_Bureau_of_Investigation_%28FBI%29_Minneapolis_Division_Field_Office_%2848343597171%29.jpg/1280px-Federal_Bureau_of_Investigation_%28FBI%29_Minneapolis_Division_Field_Office_%2848343597171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Badge_of_a_Federal_Bureau_of_Investigation_special_agent.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "width": 1200,
-        "height": 807,
+        "height": 1683,
         "kind": "photo",
-        "pos": "center",
-        "alt": "The Federal Bureau of Investigation (FBI) field office, Minneapolis Division, at 1501 Freeway Boulevard in Brooklyn Center, Minnesota.",
-        "credit": "Tony Webster from Minneapolis, Minnesota, United States / Wikimedia Commons",
-        "license": "CC BY-SA 2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Federal_Bureau_of_Investigation_(FBI)_Minneapolis_Division_Field_Office_(48343597171).jpg"
+        "pos": "top",
+        "alt": "The badge of the Federal Bureau of Investigation (FBI).",
+        "credit": "Federal Bureau of Investigation (FBI) / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Badge_of_a_Federal_Bureau_of_Investigation_special_agent.png"
       },
       "inline_images": [],
       "sources": [
@@ -9541,7 +9541,7 @@
         "meta_title": "Valódi ügynökök nevével és hamis videóval csalnak az FBI nev",
         "meta_description": "Új, rendkívül kifinomult telefonos csalási hullámra figyelmeztet az amerikai szövetségi nyomozóhatóság, amelyben valódi ügynökök adatait és hamisított hívószámo",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-valodi-ugynokok-nevevel-es-hamis-videoval-csalnak-az-fbi-neveben/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Federal_Bureau_of_Investigation_%28FBI%29_Minneapolis_Division_Field_Office_%2848343597171%29.jpg/1280px-Federal_Bureau_of_Investigation_%28FBI%29_Minneapolis_Division_Field_Office_%2848343597171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Badge_of_a_Federal_Bureau_of_Investigation_special_agent.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -9558,9 +9558,9 @@
       "dedupe_hash": "128ac51a0bc10d1df11636d3ca755f0687187bf261878778bdd93d15acd3d349",
       "pipeline_run_id": "38039834555",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T11:15:45+02:00",
-      "updated_at": "2026-10-10T11:15:45+02:00",
-      "published_at": "2026-10-10T11:15:45+02:00",
+      "created_at": "2026-10-10T11:26:47+02:00",
+      "updated_at": "2026-10-10T11:26:47+02:00",
+      "published_at": "2026-10-10T11:26:47+02:00",
       "expires_at": null,
       "legal": {
         "level": 1,
@@ -9572,24 +9572,17 @@
         "title": 0,
         "image": 1,
         "sent_at": "2026-10-10T09:17:35+00:00",
-        "msg_ids": [
-          4505,
-          4506,
-          4507,
-          4508,
-          4509,
-          4510,
-          4511,
-          4512,
-          4513
-        ],
-        "control_id": 4514
-      }
+        "msg_ids": [],
+        "control_id": 4514,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
-      "id": "0735091b-8b35-55f0-b38f-1fbc576fbf72",
-      "slug": "2026-10-10-igy-indult-el-a-meta-uj-ai-agense-amely-meg-a-chatgpt-t-is-leelozte",
-      "status": "pending",
+      "id": "22c02636-7232-5271-ae5d-1ed6120babcc",
+      "slug": "2026-10-10-zuckerberg-bolyhos-kabalaja-rekordsebesseggel-hoditotta-meg-az-app-st",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -9599,7 +9592,7 @@
         "Anthropic",
         "tech hírek"
       ],
-      "title": "Így indult el a Meta új AI-ágense, amely még a ChatGPT-t is leelőzte",
+      "title": "Zuckerberg bolyhos kabalája rekordsebességgel hódította meg az App Store-t",
       "subtitle": null,
       "lead": "Rekordgyorsan futott fel a Meta szeptember elején kiadott AI-ágense, a Muse, miközben az OpenAI modelljei hátrébb szorultak a rangsorban. A szektorban zajló változások és szabályozási hullámok teljesen átrajtják a technológiai piac térképét.",
       "key_points": [
@@ -9619,15 +9612,15 @@
       "word_count": 186,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Mark_Zuckerberg_at_the_37th_G8_Summit_in_Deauville_018_v1.jpg/1280px-Mark_Zuckerberg_at_the_37th_G8_Summit_in_Deauville_018_v1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg/1280px-Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 1800,
+        "height": 1599,
         "kind": "photo",
         "pos": "top",
-        "alt": "Mark Zuckerberg, Founder &amp; CEO of Facebook, at the press conference about the e-G8 forum during the 37th G8 summit in Deauville, France.",
-        "credit": "Guillaume Paumier / Wikimedia Commons",
-        "license": "CC BY 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Mark_Zuckerberg_at_the_37th_G8_Summit_in_Deauville_018_v1.jpg",
+        "alt": "Facebook CEO Alvin Litana Mirasolannounces the plan to make Facebook more happy at Facebook's Developer Conference on April 30, 2019.",
+        "credit": "Anthony Quintano from Westminster, United States / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mark_Zuckerberg_F8_2019_Keynote_(32830578717)_(cropped).jpg",
         "vision_score": 10.0
       },
       "inline_images": [],
@@ -9702,12 +9695,12 @@
       },
       "date": "2026-10-10",
       "date_label": "október 10.",
-      "url": "/tech/2026-10-10-igy-indult-el-a-meta-uj-ai-agense-amely-meg-a-chatgpt-t-is-leelozte/",
+      "url": "/tech/2026-10-10-zuckerberg-bolyhos-kabalaja-rekordsebesseggel-hoditotta-meg-az-app-st/",
       "seo": {
-        "meta_title": "Így indult el a Meta új AI-ágense, amely még a ChatGPT-t is ",
+        "meta_title": "Zuckerberg bolyhos kabalája rekordsebességgel hódította meg ",
         "meta_description": "Rekordgyorsan futott fel a Meta szeptember elején kiadott AI-ágense, a Muse, miközben az OpenAI modelljei hátrébb szorultak a rangsorban. A szektorban zajló vál",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-10-igy-indult-el-a-meta-uj-ai-agense-amely-meg-a-chatgpt-t-is-leelozte/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Mark_Zuckerberg_at_the_37th_G8_Summit_in_Deauville_018_v1.jpg/1280px-Mark_Zuckerberg_at_the_37th_G8_Summit_in_Deauville_018_v1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-10-zuckerberg-bolyhos-kabalaja-rekordsebesseggel-hoditotta-meg-az-app-st/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg/1280px-Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -9724,9 +9717,9 @@
       "dedupe_hash": "1d25787c3720159dc537234a147f3af1d76e2ba3be906a614ff6cbf64cb1e9ff",
       "pipeline_run_id": "38039834555",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T11:15:54+02:00",
-      "updated_at": "2026-10-10T11:15:54+02:00",
-      "published_at": "2026-10-10T11:15:54+02:00",
+      "created_at": "2026-10-10T11:26:52+02:00",
+      "updated_at": "2026-10-10T11:26:52+02:00",
+      "published_at": "2026-10-10T11:26:52+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -9736,13 +9729,12 @@
         "title": 1,
         "image": 1,
         "sent_at": "2026-10-10T09:17:48+00:00",
-        "msg_ids": [
-          4515,
-          4516,
-          4517
-        ],
-        "control_id": 4518
-      }
+        "msg_ids": [],
+        "control_id": 4518,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "0b9684b2-a458-58b7-b3f9-b5b0e84097aa",

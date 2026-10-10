@@ -1,7 +1,205 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-10T11:26:40+02:00",
+  "updated_at": "2026-10-10T11:26:52+02:00",
   "articles": [
+    {
+      "id": "22c02636-7232-5271-ae5d-1ed6120babcc",
+      "slug": "2026-10-10-zuckerberg-bolyhos-kabalaja-rekordsebesseggel-hoditotta-meg-az-app-st",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "mesterséges intelligencia",
+        "Meta",
+        "OpenAI",
+        "Anthropic",
+        "tech hírek"
+      ],
+      "title": "Zuckerberg bolyhos kabalája rekordsebességgel hódította meg az App Store-t",
+      "subtitle": null,
+      "lead": "Rekordgyorsan futott fel a Meta szeptember elején kiadott AI-ágense, a Muse, miközben az OpenAI modelljei hátrébb szorultak a rangsorban. A szektorban zajló változások és szabályozási hullámok teljesen átrajtják a technológiai piac térképét.",
+      "key_points": [
+        "A Muse napok alatt az App Store élére ugrott, és gyorsabban terjedt, mint a ChatGPT.",
+        "Az Anthropic modelljei jelenleg jobban teljesítenek a legerősebb GPT-verzióknál.",
+        "A Fehér Házban önkéntes biztonsági megállapodást írtak alá Donald Trump jelenlétében."
+      ],
+      "content": "A mesterséges intelligenciával foglalkozó vállalatok versenye új fordulatot vett az utóbbi hetekben, miután az Anthropic több modellje is megelőzte a piacon eddig domináns GPT-verziókat. Ezzel egy időben az OpenAI és az Anthropic ellen vizsgálatot indított a szövetségi kereskedelmi bizottság, mihelyt lezárult az a Fehér Házban megkötött önkéntes biztonsági megállapodás, amelyet a Semafor beszámolója szerint Mark Zuckerberg fogalmazott meg a legnagyobb cégek vezetői számára.\n\nA legnagyobb piaci meglepetést mégis a Meta okozta, amelynek Muse nevű AI-ágense napok alatt az alkalmazásbolt élére tornázta magát, és a kezdeti ütemét tekintve túlszárnyalta a ChatGPT korábbi rekordjait is. A cég egy zsebre tehető AI-tamagoccsit is bemutatott a szeptemberi Meta Connect rendezvényen, amelyen a Muse bolyhos kabalafigurája, Jolly kapott helyet.\n\nA nemzetközi szabályozói nyomás nemcsak az Egyesült Államokra korlátozódik. A kínai internethatóság szintén vizsgálatot indított a helyi AI-cégek körében, miután kiderült, hogy egyikük hazai felhasználók, köztük feltehetően katonai szereplők adatait továbbította az Anthropic modellje felé.",
+      "content_format": "markdown",
+      "body": [
+        "A mesterséges intelligenciával foglalkozó vállalatok versenye új fordulatot vett az utóbbi hetekben, miután az Anthropic több modellje is megelőzte a piacon eddig domináns GPT-verziókat. Ezzel egy időben az OpenAI és az Anthropic ellen vizsgálatot indított a szövetségi kereskedelmi bizottság, mihelyt lezárult az a Fehér Házban megkötött önkéntes biztonsági megállapodás, amelyet a Semafor beszámolója szerint Mark Zuckerberg fogalmazott meg a legnagyobb cégek vezetői számára.",
+        "A legnagyobb piaci meglepetést mégis a Meta okozta, amelynek Muse nevű AI-ágense napok alatt az alkalmazásbolt élére tornázta magát, és a kezdeti ütemét tekintve túlszárnyalta a ChatGPT korábbi rekordjait is. A cég egy zsebre tehető AI-tamagoccsit is bemutatott a szeptemberi Meta Connect rendezvényen, amelyen a Muse bolyhos kabalafigurája, Jolly kapott helyet.",
+        "A nemzetközi szabályozói nyomás nemcsak az Egyesült Államokra korlátozódik. A kínai internethatóság szintén vizsgálatot indított a helyi AI-cégek körében, miután kiderült, hogy egyikük hazai felhasználók, köztük feltehetően katonai szereplők adatait továbbította az Anthropic modellje felé."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 186,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg/1280px-Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1599,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Facebook CEO Alvin Litana Mirasolannounces the plan to make Facebook more happy at Facebook's Developer Conference on April 30, 2019.",
+        "credit": "Anthony Quintano from Westminster, United States / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mark_Zuckerberg_F8_2019_Keynote_(32830578717)_(cropped).jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://qubit.hu/2026/10/10/az-openai-lecsuszott-a-dobogorol-a-meta-cuki-agensekkel-harcolna-az-ai-apokalipszis-ellen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "title": "Az OpenAI lecsúszott a dobogóról, a Meta cuki ágensekkel harcolna az AI-apokalipszis ellen",
+          "publisher": "qubit.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T11:15:54+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-10T11:26:52+02:00"
+      },
+      "hot_score": 5.77,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://qubit.hu/2026/10/10/az-openai-lecsuszott-a-dobogorol-a-meta-cuki-agensekkel-harcolna-az-ai-apokalipszis-ellen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/tech/2026-10-10-zuckerberg-bolyhos-kabalaja-rekordsebesseggel-hoditotta-meg-az-app-st/",
+      "seo": {
+        "meta_title": "Zuckerberg bolyhos kabalája rekordsebességgel hódította meg ",
+        "meta_description": "Rekordgyorsan futott fel a Meta szeptember elején kiadott AI-ágense, a Muse, miközben az OpenAI modelljei hátrébb szorultak a rangsorban. A szektorban zajló vál",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-10-zuckerberg-bolyhos-kabalaja-rekordsebesseggel-hoditotta-meg-az-app-st/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg/1280px-Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "1d25787c3720159dc537234a147f3af1d76e2ba3be906a614ff6cbf64cb1e9ff",
+      "pipeline_run_id": "38039834555",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T11:26:52+02:00",
+      "updated_at": "2026-10-10T11:26:52+02:00",
+      "published_at": "2026-10-10T11:26:52+02:00",
+      "expires_at": null
+    },
+    {
+      "id": "1b61d220-3332-5ed5-917f-3883d08798ae",
+      "slug": "2026-10-10-valodi-ugynokok-nevevel-es-hamis-videoval-csalnak-az-fbi-neveben",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "FBI",
+        "telefoncsalás",
+        "biztonság",
+        "bűnügy",
+        "Egyesült Államok"
+      ],
+      "title": "Valódi ügynökök nevével és hamis videóval csalnak az FBI nevében",
+      "subtitle": null,
+      "lead": "Új, rendkívül kifinomult telefonos csalási hullámra figyelmeztet az amerikai szövetségi nyomozóhatóság, amelyben valódi ügynökök adatait és hamisított hívószámokat használnak az elkövetők. A módszer azért különösen veszélyes, mert még a hívást óvatosan ellenőrző személyek is könnyen áldozattá válhatnak.",
+      "key_points": [
+        "Az elkövetők meghamisítják a hívóazonosítót, így a kijelzőn valódi hatósági számok jelennek meg.",
+        "A csalók létező ügynökök nevét használják, sőt egyes esetekben videóhívásban imitálnak hivatali helyiséget.",
+        "A hatóság hangsúlyozza: senki ne küldjön pénzt olyan személynek, aki szövetségi rendvédelmi szervek nevében követel összegeket."
+      ],
+      "content": "Megtévesztő telefonos csalási módszerre adott ki riasztást az FBI, miután a bűnözők valósághű elemekkel próbálnak pénzt kicsalni az emberektől. Az elkövetők az amerikai Kábítószer-ellenes Hivatal, a Secret Service vagy magának az FBI-nak a munkatársainak adják ki magukat, és olyan technikai eszközöket alkalmaznak, amilyenekkel a hívóazonosítót a hatóságok valódi telefonszámára hamisítják.\n\nA módszer alapos kidolgozottságát mutatja, hogy a csalók valós ügynökök neveivel operálnak. Ha az óvatosabb áldozat felhívja a helyi hivatali irodát az ellenőrzés reményében, ott akár meg is erősíthetik, hogy az adott nevű személy valóban az alkalmazásukban áll. Ez a bürokratikus visszaigazolás téves biztonságérzetet teremt, és eloszlatja a gyanút.\n\nEgy New Jersey-i, newarki iroda által kiadott eseti beszámoló szerint egy alkalommal a csalók videóhívást is bevetettek a hitelesség növelésére. Az online kapcsolaton keresztül olyan helyiséget rendeztek be, amely megszólalásig hasonlított egy hivatalos irodára íróasztallal, szövetségi emblémával és egy öltönyös férfival.\n\nA szövetségi szervek közlése szerint a csalássorozat során a gyanútlan embereket jellemzően valamilyen bűncselekmény elkövetésével vádolják meg, majd büntetőeljárással vagy letartóztatással fenyegetőzve pénzt követelnek tőlük a következmények elkerülése érdekében. Az FBI hangsúlyozza, hogy a hivatal munkatársai soha nem kérnek pénzt telefonon, és azt javasolják, hogy minden esetben közvetlenül jelezzék a hivatal felé, ha valaki gyanús hívást kap.",
+      "content_format": "markdown",
+      "body": [
+        "Megtévesztő telefonos csalási módszerre adott ki riasztást az FBI, miután a bűnözők valósághű elemekkel próbálnak pénzt kicsalni az emberektől. Az elkövetők az amerikai Kábítószer-ellenes Hivatal, a Secret Service vagy magának az FBI-nak a munkatársainak adják ki magukat, és olyan technikai eszközöket alkalmaznak, amilyenekkel a hívóazonosítót a hatóságok valódi telefonszámára hamisítják.",
+        "A módszer alapos kidolgozottságát mutatja, hogy a csalók valós ügynökök neveivel operálnak. Ha az óvatosabb áldozat felhívja a helyi hivatali irodát az ellenőrzés reményében, ott akár meg is erősíthetik, hogy az adott nevű személy valóban az alkalmazásukban áll. Ez a bürokratikus visszaigazolás téves biztonságérzetet teremt, és eloszlatja a gyanút.",
+        "Egy New Jersey-i, newarki iroda által kiadott eseti beszámoló szerint egy alkalommal a csalók videóhívást is bevetettek a hitelesség növelésére. Az online kapcsolaton keresztül olyan helyiséget rendeztek be, amely megszólalásig hasonlított egy hivatalos irodára íróasztallal, szövetségi emblémával és egy öltönyös férfival.",
+        "A szövetségi szervek közlése szerint a csalássorozat során a gyanútlan embereket jellemzően valamilyen bűncselekmény elkövetésével vádolják meg, majd büntetőeljárással vagy letartóztatással fenyegetőzve pénzt követelnek tőlük a következmények elkerülése érdekében. Az FBI hangsúlyozza, hogy a hivatal munkatársai soha nem kérnek pénzt telefonon, és azt javasolják, hogy minden esetben közvetlenül jelezzék a hivatal felé, ha valaki gyanús hívást kap."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 237,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Badge_of_a_Federal_Bureau_of_Investigation_special_agent.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1683,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "The badge of the Federal Bureau of Investigation (FBI).",
+        "credit": "Federal Bureau of Investigation (FBI) / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Badge_of_a_Federal_Bureau_of_Investigation_special_agent.png"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://borsonline.origo.hu/toptipp/2026/10/fbi-riasztas-uj-telefonos-csalas",
+          "title": "Riasztást adott ki az FBI: új telefonos csalás terjed, még az ellenőrzés sem véd meg az átveréstől",
+          "publisher": "borsonline.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T11:15:45+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-10T11:26:47+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://borsonline.origo.hu/toptipp/2026/10/fbi-riasztas-uj-telefonos-csalas"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/kozelet/2026-10-10-valodi-ugynokok-nevevel-es-hamis-videoval-csalnak-az-fbi-neveben/",
+      "seo": {
+        "meta_title": "Valódi ügynökök nevével és hamis videóval csalnak az FBI nev",
+        "meta_description": "Új, rendkívül kifinomult telefonos csalási hullámra figyelmeztet az amerikai szövetségi nyomozóhatóság, amelyben valódi ügynökök adatait és hamisított hívószámo",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-valodi-ugynokok-nevevel-es-hamis-videoval-csalnak-az-fbi-neveben/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Badge_of_a_Federal_Bureau_of_Investigation_special_agent.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "128ac51a0bc10d1df11636d3ca755f0687187bf261878778bdd93d15acd3d349",
+      "pipeline_run_id": "38039834555",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T11:26:47+02:00",
+      "updated_at": "2026-10-10T11:26:47+02:00",
+      "published_at": "2026-10-10T11:26:47+02:00",
+      "expires_at": null
+    },
     {
       "id": "559f02cc-75a3-59b3-8f42-0f7485156df1",
       "slug": "2026-10-10-senki-sem-tudja-pontosan-hany-orvos-dolgozik-ma-magyarorszagon",
