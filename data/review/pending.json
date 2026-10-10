@@ -8143,9 +8143,9 @@
       "live": true
     },
     {
-      "id": "e6e08748-9fe3-5473-b95a-04e00f96b450",
-      "slug": "2026-10-10-olajcsapda-es-kotvenynyomas-nem-kell-150-dollar-a-bajhoz",
-      "status": "pending",
+      "id": "47e73859-c8ba-5720-861f-4555ffdea8f9",
+      "slug": "2026-10-10-dragabb-energia-rekordhozamok-itt-a-2026-os-piaci-helyzet",
+      "status": "published",
       "category": "penzvilag",
       "subcategory": null,
       "tags": [
@@ -8155,7 +8155,7 @@
         "gazdaság",
         "befektetés"
       ],
-      "title": "Olajcsapda és kötvénynyomás: nem kell 150 dollár a bajhoz",
+      "title": "Drágább energia, rekordhozamok: itt a 2026-os piaci helyzet",
       "subtitle": null,
       "lead": "Az európai Brent olaj tőzsdei ára a nyári hordónkénti 70 dollárról őszre 100 dollár közelébe emelkedett, ami a globális kötvénypiaci nyomással kombinálva komoly inflációs kockázatokat hordoz. Németh Gábor, a VIG Alapkezelő szakértője szerint a tartósan magas energiaárak és a technológiai beruházások együttese alapjaiban változtathatja meg a gazdasági környezetet.",
       "key_points": [
@@ -8178,15 +8178,15 @@
       "word_count": 428,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Brent_crude_oil_prices_and_exploration_and_development_expenditures_for_102_exploration_and_development_companies_in_2010_through_2019_%2849970299977%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "width": 1200,
-        "height": 614,
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/e6e087489f-1791621779-1.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/e6e087489f-1791621779-1.jpg",
         "kind": "photo",
-        "pos": "center",
-        "alt": "According to the financial reports analyzed by the U.S. Energy Information Administration (EIA), global expenditures related to oil and natural gas exploration and development (E&amp;D) increased $42",
-        "credit": "U.S. Energy Information Administration / Wikimedia Commons",
-        "license": "Public domain",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Brent_crude_oil_prices_and_exploration_and_development_expenditures_for_102_exploration_and_development_companies_in_2010_through_2019_(49970299977).png"
+        "alt": "Drágább energia, rekordhozamok: itt a 2026-os piaci helyzet",
+        "likeness": false,
+        "credit": "Kollektíva illusztráció",
+        "license": "saját grafika",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
       },
       "inline_images": [],
       "sources": [
@@ -8372,12 +8372,12 @@
       },
       "date": "2026-10-10",
       "date_label": "október 10.",
-      "url": "/penzvilag/2026-10-10-olajcsapda-es-kotvenynyomas-nem-kell-150-dollar-a-bajhoz/",
+      "url": "/penzvilag/2026-10-10-dragabb-energia-rekordhozamok-itt-a-2026-os-piaci-helyzet/",
       "seo": {
-        "meta_title": "Olajcsapda és kötvénynyomás: nem kell 150 dollár a bajhoz",
+        "meta_title": "Drágább energia, rekordhozamok: itt a 2026-os piaci helyzet",
         "meta_description": "Az európai Brent olaj tőzsdei ára a nyári hordónkénti 70 dollárról őszre 100 dollár közelébe emelkedett, ami a globális kötvénypiaci nyomással kombinálva komoly",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-10-olajcsapda-es-kotvenynyomas-nem-kell-150-dollar-a-bajhoz/",
-        "og_image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Brent_crude_oil_prices_and_exploration_and_development_expenditures_for_102_exploration_and_development_companies_in_2010_through_2019_%2849970299977%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-10-dragabb-energia-rekordhozamok-itt-a-2026-os-piaci-helyzet/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/e6e087489f-1791621779-1.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8394,9 +8394,9 @@
       "dedupe_hash": "9488d0423c06df99e8fdb52a3be565bf0415f17c2c7c10f031e93e304f6c394d",
       "pipeline_run_id": "38035254687",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T10:15:43+02:00",
-      "updated_at": "2026-10-10T10:15:43+02:00",
-      "published_at": "2026-10-10T10:15:43+02:00",
+      "created_at": "2026-10-10T10:43:29+02:00",
+      "updated_at": "2026-10-10T10:43:29+02:00",
+      "published_at": "2026-10-10T10:43:29+02:00",
       "expires_at": null,
       "requested": true,
       "legal": {
@@ -8407,21 +8407,12 @@
         "title": 2,
         "image": 1,
         "sent_at": "2026-10-10T08:19:02+00:00",
-        "msg_ids": [
-          4424,
-          4425,
-          4426,
-          4427,
-          4428,
-          4429,
-          4430,
-          4465,
-          4466,
-          4471,
-          4472
-        ],
-        "control_id": 4473
-      }
+        "msg_ids": [],
+        "control_id": 4473,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "0e93a38f-0796-5a58-8ed9-32c74f69aa59",
