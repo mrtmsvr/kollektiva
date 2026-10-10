@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T11:36:47+02:00",
+  "updated_at": "2026-10-10T12:02:21+02:00",
   "polls": [
     {
       "id": "1967810c3a9f",
@@ -145,6 +145,11 @@
       "id": "e0ab9c9818f9",
       "article_url": "/kozelet/2026-10-10-ujabb-milliardos-exim-ugyek-miatt-tett-feljelentest-kapitany-istvan/",
       "question": "Ön szerint indokolt a feljelentés a Exim-ügyekben?"
+    },
+    {
+      "id": "31918effe7ed",
+      "article_url": "/kozelet/2026-10-10-valodi-ugynokok-nevevel-es-hamis-videoval-csalnak-az-fbi-neveben/",
+      "question": "Ön szerint milyen gyakran hallott már hasonló FBI csalásról?"
     }
   ]
 }
