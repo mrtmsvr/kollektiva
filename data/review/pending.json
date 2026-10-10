@@ -10984,6 +10984,28 @@
       "clickbait_from": 3,
       "image_options": [
         {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/9689bdaa8b-1791641241-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/9689bdaa8b-1791641241-0.jpg",
+          "kind": "photo",
+          "alt": "Azonnal felmérik és pontozzák őket: ettől rettegnek a hajléktalan nők",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/9689bdaa8b-1791641243-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/9689bdaa8b-1791641243-1.jpg",
+          "kind": "photo",
+          "alt": "Azonnal felmérik és pontozzák őket: ettől rettegnek a hajléktalan nők",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/T%C3%A1bl%C3%A1s_Stra%C3%9Fe_31%2C_2024_Ferencv%C3%A1ros.jpg/1280px-T%C3%A1bl%C3%A1s_Stra%C3%9Fe_31%2C_2024_Ferencv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 900,
@@ -11048,9 +11070,11 @@
         "sent_at": "2026-10-10T14:01:18+00:00",
         "msg_ids": [
           4638,
-          4639
+          4639,
+          4644,
+          4645
         ],
-        "control_id": 4640
+        "control_id": 4646
       },
       "image_queries": [
         "BMSZKI",
