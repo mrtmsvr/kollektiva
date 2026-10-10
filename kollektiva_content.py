@@ -2532,8 +2532,11 @@ def send_pitches(review, cands: list, used_links: set, recent_kw: list) -> None:
             continue
         seen.add(g0["link"])
         pubs = sorted({g["source"] for g in group if not g.get("related")})
+        story = [{"title": g.get("title", ""), "link": g.get("link", ""), "summary": (g.get("summary") or "")[:1500],
+                  "source": g.get("source", ""), "related": bool(g.get("related")), "hot_score": g.get("hot_score", score)}
+                 for g in group[:5]]
         out.append({"id": hashlib.sha1(g0["link"].encode()).hexdigest()[:10], "link": g0["link"], "title": g0["title"][:140],
-                    "sid": sid, "pubs": pubs, "score": round(score, 1)})
+                    "sid": sid, "pubs": pubs, "score": round(score, 1), "story": story})
         if len(out) >= n:
             break
     if not out:
@@ -2552,6 +2555,28 @@ def send_pitches(review, cands: list, used_links: set, recent_kw: list) -> None:
                               "text": "📰 További forró témák (nem írtam meg őket). Ha kell valamelyik, nyomd meg a számát:\n\n"
                                       + "\n".join(lines),
                               "reply_markup": {"inline_keyboard": [btns[k:k + 6] for k in range(0, len(btns), 6)]}})
+
+
+def build_from_pitch(ai: "AIClient", pit: dict, tz: ZoneInfo, articles: list) -> Optional[dict]:
+    """✍️ gomb: a témajavaslat eltárolt forráscsoportjából (hírfolyam-címek, kivonatok, több lap) ugyanúgy ír cikket,
+    mint a körök automatikus cikkei. Ha nincs eltárolt csoport, a link alapján (build_on_demand)."""
+    story = pit.get("story") or []
+    sec = SECTIONS.get(pit.get("sid"))
+    if story and sec:
+        now = datetime.now(tz)
+        group = [dict(s, published=now, categories=[], kw=_keywords(s["title"] + " " + (s.get("summary") or "")[:200]))
+                 for s in story if s.get("title")]
+        pending_imgs = used_images(articles)
+        try:
+            art = build_section_article(ai, sec, now.date(), tz, group, pending_imgs, related_past(articles, group))
+        except Exception as e:  # noqa: BLE001
+            log.warning("Témajavaslatból cikk (forráscsoport) sikertelen: %s", e)
+            art = None
+        if art:
+            art["status"] = "pending"
+            _log_sent(art)
+            return art
+    return build_on_demand(ai, pit.get("link", ""), tz, articles)
 
 
 def build_on_demand(ai: "AIClient", text: str, tz: ZoneInfo, articles: list) -> Optional[dict]:
@@ -3167,14 +3192,13 @@ def run_sections(ai: AIClient, d: date, tz: ZoneInfo, output_dir: Path, dry_run:
                 made_public += 1
             else:
                 art["status"] = "pending"
-            review.send_article(output_dir, art)
             pending.append(art)
             if not dry_run and review.MODE != "post":
-                # azonnal mentjük, és közben feldolgozzuk a beérkezett gombnyomásokat (ne kelljen a futás végéig várni)
-                cur = review.load_pending(output_dir)
-                cur.append(art)
-                review.save_pending(output_dir, cur)
+                # küldés + azonnali mentés zárral (a párhuzamos Telegram-figyelő ne írja felül), aztán gombnyomások
+                review.add_pending(art)
                 review.poll(output_dir, ai, tz)
+            else:
+                review.send_article(output_dir, art)
         else:
             for k in ("title_options", "image_options", "story"):
                 art.pop(k, None)
