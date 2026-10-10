@@ -1,0 +1,35 @@
+{
+  "id": "41eb01efdf",
+  "date": "2026-10-10",
+  "status": "pending",
+  "article_url": "/kozelet/2026-10-09-itt-a-valasz-ennyit-kell-varni-a-2036-os-olimpia-sorsara/",
+  "article_title": "Itt a válasz: ennyit kell várni a 2036-os olimpia sorsára",
+  "category": "kozelet",
+  "choices": [
+    {
+      "question": "Ön támogatja, hogy Budapest pályázzon a 2036-os olimpiára?",
+      "options": [
+        "Igen, támogatom",
+        "Nem, elutasítom",
+        "Nem tudom / nincs véleményem"
+      ]
+    },
+    {
+      "question": "Helyeseli-e, hogy a kormány 2030-ig felfüggesztette az olimpiai szervezést?",
+      "options": [
+        "Igen, helyeslem",
+        "Nem, korai lenne",
+        "Nem tudom / nincs véleményem"
+      ]
+    },
+    {
+      "question": "Mit tart fontosabbnak a budapesti olimpiaterv kapcsán?",
+      "options": [
+        "A gazdasági fejlődést",
+        "A költségek kontrollálását",
+        "Nem tudom / nincs véleményem"
+      ]
+    }
+  ],
+  "msg_id": 4586
+}
