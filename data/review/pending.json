@@ -7086,9 +7086,9 @@
       "live": true
     },
     {
-      "id": "33f288f8-32a4-5036-8eef-6381f96a567b",
-      "slug": "2026-10-10-utfelujitasi-alappal-bekitene-karacsony-a-lazongo-keruleti-vezetoket",
-      "status": "pending",
+      "id": "32b07e3a-deca-5730-bd3c-e55a1da9b667",
+      "slug": "2026-10-10-parkolasi-haboru-budapesten-karacsony-utfelujitassal-szerelne-le-a-ke",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -7098,7 +7098,7 @@
         "önkormányzatok",
         "Tisza-kormány"
       ],
-      "title": "Útfelújítási alappal békítené Karácsony a lázongó kerületi vezetőket",
+      "title": "Parkolási háború Budapesten: Karácsony útfelújítással szerelné le a kerületeket",
       "subtitle": null,
       "lead": "A kerületi polgármesterek tiltakozása után Karácsony Gergely nyilvánosságra hozta a kormánnyal kötött megállapodás részleteit, és közös útfelújítási programot ígért a parkolási bevételekből. A főpolgármester szerint a jelenlegi finanszírozási rendszer Rogán Antal öröksége, amelyből ideje továbblépni a kerületekkel közösen.",
       "key_points": [
@@ -7120,16 +7120,15 @@
       "word_count": 357,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Kar%C3%A1csony_Gergely_-_portrait.jpg/1280px-Kar%C3%A1csony_Gergely_-_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 1593,
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/33f288f832-1791612888-1.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/33f288f832-1791612888-1.jpg",
         "kind": "photo",
-        "pos": "top",
-        "alt": "Karácsony Gergely. Taken on the 28th of March, 2016. Kertem, Budapest, Hungary.",
-        "credit": "Elekes Andor / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Kar%C3%A1csony_Gergely_-_portrait.jpg",
-        "vision_score": 10.0
+        "alt": "Parkolási háború Budapesten: Karácsony útfelújítással szerelné le a kerületeket",
+        "likeness": false,
+        "credit": "Kollektíva illusztráció",
+        "license": "saját grafika",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
       },
       "inline_images": [],
       "sources": [
@@ -7244,12 +7243,12 @@
       },
       "date": "2026-10-10",
       "date_label": "október 10.",
-      "url": "/kozelet/2026-10-10-utfelujitasi-alappal-bekitene-karacsony-a-lazongo-keruleti-vezetoket/",
+      "url": "/kozelet/2026-10-10-parkolasi-haboru-budapesten-karacsony-utfelujitassal-szerelne-le-a-ke/",
       "seo": {
-        "meta_title": "Útfelújítási alappal békítené Karácsony a lázongó kerületi v",
+        "meta_title": "Parkolási háború Budapesten: Karácsony útfelújítással szerel",
         "meta_description": "A kerületi polgármesterek tiltakozása után Karácsony Gergely nyilvánosságra hozta a kormánnyal kötött megállapodás részleteit, és közös útfelújítási programot í",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-utfelujitasi-alappal-bekitene-karacsony-a-lazongo-keruleti-vezetoket/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Kar%C3%A1csony_Gergely_-_portrait.jpg/1280px-Kar%C3%A1csony_Gergely_-_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-parkolasi-haboru-budapesten-karacsony-utfelujitassal-szerelne-le-a-ke/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/33f288f832-1791612888-1.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -7274,9 +7273,9 @@
       "dedupe_hash": "335e3192c976a2806ab018d7fc42701167b66c76cae9847f3dd11ab5b0c352ab",
       "pipeline_run_id": "38023455601",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T06:38:20+02:00",
-      "updated_at": "2026-10-10T06:38:20+02:00",
-      "published_at": "2026-10-10T06:38:20+02:00",
+      "created_at": "2026-10-10T09:41:46+02:00",
+      "updated_at": "2026-10-10T09:41:46+02:00",
+      "published_at": "2026-10-10T09:41:46+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -7286,15 +7285,12 @@
         "title": 1,
         "image": 1,
         "sent_at": "2026-10-10T04:41:34+00:00",
-        "msg_ids": [
-          4344,
-          4345,
-          4346,
-          4363,
-          4364
-        ],
-        "control_id": 4365
-      }
+        "msg_ids": [],
+        "control_id": 4365,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "f11b2c2c-e638-53e0-bebb-3256c07d083c",
