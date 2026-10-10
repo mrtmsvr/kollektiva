@@ -2,22 +2,6 @@
   "updated_at": "2026-10-10T10:20:50+02:00",
   "polls": [
     {
-      "id": "dee3909697c9",
-      "date": "2026-10-10",
-      "question": "Ön szerint milyen mértékben befolyásolja a nyersolaj ára a kamatlábakat?",
-      "options": [
-        "Erősen befolyásolja",
-        "Mérsékelten befolyásolja",
-        "Alig befolyásolja",
-        "Nem tudom"
-      ],
-      "article_url": "/penzvilag/2026-10-10-szazdollaros-olaj-es-adatkozpontok-miert-maradnak-magasan-a-kamatok/",
-      "article_title": "Százdolláros olaj és adatközpontok: miért maradnak magasan a kamatok?",
-      "category": "penzvilag",
-      "created_at": "2026-10-10T10:20:50+02:00",
-      "closes_at": "2026-10-17T10:20:50+02:00"
-    },
-    {
       "id": "1967810c3a9f",
       "date": "2026-10-09",
       "question": "Ön szerint Orbán miniszterelnöknek vállalnia kell a felelősséget az aranykonvoj leállításáért?",
@@ -146,6 +130,11 @@
       "id": "ff81626c64b3",
       "article_url": "/tech/2026-10-08-harmincodszorre-indit-tehermissziot-a-spacex/",
       "question": "Ön szerint a kereskedelmi űrmissziók előnyei megérik a költségeket?"
+    },
+    {
+      "id": "dee3909697c9",
+      "article_url": "/penzvilag/2026-10-10-szazdollaros-olaj-es-adatkozpontok-miert-maradnak-magasan-a-kamatok/",
+      "question": "Ön szerint milyen mértékben befolyásolja a nyersolaj ára a kamatlábakat?"
     }
   ]
 }
