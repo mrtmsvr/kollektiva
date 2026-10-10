@@ -299,10 +299,7 @@ def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: boo
         art = article_from_video(ai, v, tz, articles)
         if art and not dry_run:
             import telegram_review as review
-            review.send_article(output_dir, art)
-            pending = review.load_pending(output_dir)
-            pending.append(art)
-            review.save_pending(output_dir, pending)
+            review.add_pending(art)
             st.setdefault("done", {})[today] = done_today + 1
             log.info("✔ Videóból cikk: %s", art["title"])
             made = 1
