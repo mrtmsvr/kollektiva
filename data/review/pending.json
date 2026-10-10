@@ -10445,26 +10445,28 @@
       "clickbait_from": 3,
       "image_options": [
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/vilag-1791623861-0.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/vilag-1791623861-0.jpg",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/FlyDubai_-_A6-FGI_-_Boeing_737-8KN_-_89648E_-_60962_-_VGHS.jpg/1280px-FlyDubai_-_A6-FGI_-_Boeing_737-8KN_-_89648E_-_60962_-_VGHS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 677,
           "kind": "photo",
-          "alt": "A Flydubai másodpilótája a 9/11 szellemében hajtott végre támadást",
-          "likeness": false,
-          "credit": "Kollektíva illusztráció",
-          "license": "saját grafika",
-          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
-          "generated": true
+          "pos": "center",
+          "alt": "FlyDubai - A6-FGI - Boeing 737-8KN - 89648E - 60962 - VGHS.",
+          "credit": "Md Shaifuzzaman Ayon / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:FlyDubai_-_A6-FGI_-_Boeing_737-8KN_-_89648E_-_60962_-_VGHS.jpg",
+          "vision_score": 8.0
         },
         {
-          "url": "https://xn--kollektva-m5a.hu/public/img/gen/vilag-1791623864-1.jpg",
-          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/vilag-1791623864-1.jpg",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/TLV_from_LY542%2C_2019_%2801%29.jpg/1280px-TLV_from_LY542%2C_2019_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 801,
           "kind": "photo",
-          "alt": "A Flydubai másodpilótája a 9/11 szellemében hajtott végre támadást",
-          "likeness": false,
-          "credit": "Kollektíva illusztráció",
-          "license": "saját grafika",
-          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
-          "generated": true
+          "pos": "center",
+          "alt": "Aerial view of Ben Gurion Airport (TLV/LLBG), Israel, from flight LY542, operated by an El Al Boeing 737-800 fitted with winglets displaying the El Al logo, and approaching from Athens",
+          "credit": "Bahnfrend / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:TLV_from_LY542,_2019_(01).jpg",
+          "vision_score": 5.0
         }
       ],
       "story": [
@@ -10516,15 +10518,32 @@
       },
       "review": {
         "title": 1,
-        "image": 1,
+        "image": 0,
         "sent_at": "2026-10-10T09:18:35+00:00",
         "msg_ids": [
           4543,
           4544,
-          4545
+          4545,
+          4548,
+          4549
         ],
-        "control_id": 4546
-      }
+        "control_id": 4550
+      },
+      "image_queries": [
+        "Flydubai",
+        "Hamam al-Hammami",
+        "Ben Gurion Airport",
+        "Dubai",
+        "Tel Aviv",
+        "Saudi Arabia",
+        "airplane cockpit",
+        "airport terminal",
+        "security checkpoint"
+      ],
+      "images_seen": [
+        "https://xn--kollektva-m5a.hu/public/img/gen/vilag-1791623861-0.jpg",
+        "https://xn--kollektva-m5a.hu/public/img/gen/vilag-1791623864-1.jpg"
+      ]
     }
   ]
 }
