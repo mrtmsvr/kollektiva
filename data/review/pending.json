@@ -9960,9 +9960,9 @@
       "live": true
     },
     {
-      "id": "77798f2f-fde1-54e8-82e4-dff1637882b4",
-      "slug": "2026-10-10-napi-szazezer-liter-edesviz-es-aram-jon-az-oceanbol-egy-indiai-sziget",
-      "status": "pending",
+      "id": "065399b6-f910-57ca-9835-b84114434047",
+      "slug": "2026-10-10-igy-csinal-aramot-es-ivovizet-a-tengerbol-egy-tavoli-indiai-sziget",
+      "status": "published",
       "category": "tech",
       "subcategory": null,
       "tags": [
@@ -9972,7 +9972,7 @@
         "India",
         "technológia"
       ],
-      "title": "Napi százezer liter édesvíz és áram jön az óceánból egy indiai szigeten",
+      "title": "Így csinál áramot és ivóvizet a tengerből egy távoli indiai sziget",
       "subtitle": null,
       "lead": "Egy távoli indiai szigeten zajló kísérletben az óceán természetes hőmérsékleti rétegződését használják fel arra, hogy egyszerre termeljenek villamos energiát és sótalanítsanak tengervizet. A technológia áttörést hozhat a megbízható zöldenergia terén az elszigetelt szigetközösségek számára.",
       "key_points": [
@@ -10077,11 +10077,11 @@
       },
       "date": "2026-10-10",
       "date_label": "október 10.",
-      "url": "/tech/2026-10-10-napi-szazezer-liter-edesviz-es-aram-jon-az-oceanbol-egy-indiai-sziget/",
+      "url": "/tech/2026-10-10-igy-csinal-aramot-es-ivovizet-a-tengerbol-egy-tavoli-indiai-sziget/",
       "seo": {
-        "meta_title": "Napi százezer liter édesvíz és áram jön az óceánból egy indi",
+        "meta_title": "Így csinál áramot és ivóvizet a tengerből egy távoli indiai ",
         "meta_description": "Egy távoli indiai szigeten zajló kísérletben az óceán természetes hőmérsékleti rétegződését használják fel arra, hogy egyszerre termeljenek villamos energiát és",
-        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-10-napi-szazezer-liter-edesviz-es-aram-jon-az-oceanbol-egy-indiai-sziget/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-10-igy-csinal-aramot-es-ivovizet-a-tengerbol-egy-tavoli-indiai-sziget/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Makai%27s_Ocean_Thermal_Energy_Conversion.jpg/1280px-Makai%27s_Ocean_Thermal_Energy_Conversion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -10099,9 +10099,9 @@
       "dedupe_hash": "08a8bbe0d759ff7a32fc8f38811ff9f8caa26ddeb1621388cbdd94722c7d7011",
       "pipeline_run_id": "38056382704",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T15:58:35+02:00",
-      "updated_at": "2026-10-10T15:58:35+02:00",
-      "published_at": "2026-10-10T15:58:35+02:00",
+      "created_at": "2026-10-10T16:01:19+02:00",
+      "updated_at": "2026-10-10T16:01:19+02:00",
+      "published_at": "2026-10-10T16:01:19+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10111,13 +10111,12 @@
         "title": 1,
         "image": 0,
         "sent_at": "2026-10-10T14:00:03+00:00",
-        "msg_ids": [
-          4603,
-          4604,
-          4605
-        ],
-        "control_id": 4606
-      }
+        "msg_ids": [],
+        "control_id": 4606,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "098c68fa-3d27-56d7-a501-caeac0efdc15",
@@ -10925,6 +10924,149 @@
           4636
         ],
         "control_id": 4637
+      }
+    },
+    {
+      "id": "9689bdaa-8bfb-5b96-9d05-e05d780b4783",
+      "slug": "2026-10-10-a-lathatatlan-hajlektalansag-miert-kerulik-a-nok-a-szallokat",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "hajléktalanság",
+        "szociális ügyek",
+        "Budapest",
+        "BMSZKI",
+        "kiállítás"
+      ],
+      "title": "A láthatatlan hajléktalanság: miért kerülik a nők a szállókat?",
+      "subtitle": null,
+      "lead": "Bár a közterületeken elsősorban férfiakat látni, a hazai otthontalanok jelentős része nő, akik a hajléktalanszállók veszélyei és a bántalmazás elől inkább a nyílt utcát választják. A Beszélő képek című kiállítás bemutatta, milyen félelmekkel és kihívásokkal szembesülnek a nők a mindennapokban.",
+      "key_points": [
+        "A becslések szerint Magyarországon 20-30 ezer ember él tartós hajléktalanságban, közülük a Budapesti Módszertani Szociális Központ és Intézményei adatai alapján 25-30 százalék nő.",
+        "A hajléktalanszállókon sok nő zaklatással, nyílt megjegyzésekkel és méricskéléssel szembesül, ami miatt sokan inkább az utcai létet vagy a folyamatos éjszakai buszozást választják."
+      ],
+      "content": "A magyarországi közterületeken járva a legtöbbször otthontalan férfiakkal találkozni, a statisztikák és a segítő szervezetek tapasztalatai azonban azt mutatják, hogy a nők aránya is magas az otthontalanok között. A Budapesti Módszertani Szociális Központ és Intézményei fenntartásában működő egységekben a nők aránya eléri a 40 százalékot, a családok átmeneti otthonaiba pedig kifejezetten gyakran költöznek be édesanyák a gyerekeikkel. Az óvatos becslések szerint Magyarországon összesen 20-30 ezer ember él tartósan hajléktalanságban, és ennek a tábornak körülbelül a negyede-harmada nő.\n\nA hajléktalan nők helyzetét bemutató, Beszélő képek című kiállításon maguk az érintettek mutatták be fényképeken és üzeneteken keresztül a mindennapi küzdelmeiket. Fehér Boróka, a BMSZKI női projektjeinek felelőse a tárlat kapcsán rámutatott, hogy a fedél nélkül élők folyamatos készenlétben léteznek, és állandóan a következő veszélyre figyelnek. A nők számára a közterületi lét fokozottan kockázatos, ezért azok a hajléktalan nők, akik mégis az utcát választják a szállók helyett, többnyire nem egyedül élnek, hanem egy társ mellett keresnek védelmet. Egy férfi jelenléte elriaszthatja a többi hajléktalan férfit, akik egyébként kiszolgáltatott prédának tekintenék a nőt, ez azonban azt is jelenti, hogy sokan kényszerűségből maradnak együtt valakivel.\n\nA szállók elkerülésének hátterében az is áll, hogy a meglévő intézményrendszer kapacitásai korlátozottak. A legtöbb szállást hagyományosan a férfiak ellátására alakították ki, és bár léteznek koedukált intézmények – ahol a nőket és a férfiakat különböző emeleteken vagy folyosókon helyezik el –, a BMSZKI mindössze három olyan intézményt tart fenn, amely kifejezetten a nők fogadására szakosodott, így két éjjeli menedékhely mellett egy átmeneti szállást biztosítanak számukra. Budapesten ugyan javult a helyzet, továbbra sincs elég páros férőhely a szállókon, vidéken pedig kifejezetten súlyos hiányosságok tapasztalhatók ezen a területen.\n\nAz egyedülálló nők gyakran a szállók belső tereit sem érzik biztonságosnak a férfi lakstársak jelenléte miatt. Többen arról számolnak be, hogy a szállóra érkezve azonnal végigméregetik, pontozzák őket, vagy nyíltan arról beszélnek a többiek, mit tennének velük. Emiatt egyesek a szigorú szabályokat vagy a kötöttségeket elutasítva, mások a megaláztatásokat elkerülve inkább az utcát választják, míg nemzetközi példák mutatják, hogy nők egész éjszaka buszoznak, vagy éppen vendéglátóhelyeken húzzák meg magukat a biztonság reményében.",
+      "content_format": "markdown",
+      "body": [
+        "A magyarországi közterületeken járva a legtöbbször otthontalan férfiakkal találkozni, a statisztikák és a segítő szervezetek tapasztalatai azonban azt mutatják, hogy a nők aránya is magas az otthontalanok között. A Budapesti Módszertani Szociális Központ és Intézményei fenntartásában működő egységekben a nők aránya eléri a 40 százalékot, a családok átmeneti otthonaiba pedig kifejezetten gyakran költöznek be édesanyák a gyerekeikkel. Az óvatos becslések szerint Magyarországon összesen 20-30 ezer ember él tartósan hajléktalanságban, és ennek a tábornak körülbelül a negyede-harmada nő.",
+        "A hajléktalan nők helyzetét bemutató, Beszélő képek című kiállításon maguk az érintettek mutatták be fényképeken és üzeneteken keresztül a mindennapi küzdelmeiket. Fehér Boróka, a BMSZKI női projektjeinek felelőse a tárlat kapcsán rámutatott, hogy a fedél nélkül élők folyamatos készenlétben léteznek, és állandóan a következő veszélyre figyelnek. A nők számára a közterületi lét fokozottan kockázatos, ezért azok a hajléktalan nők, akik mégis az utcát választják a szállók helyett, többnyire nem egyedül élnek, hanem egy társ mellett keresnek védelmet. Egy férfi jelenléte elriaszthatja a többi hajléktalan férfit, akik egyébként kiszolgáltatott prédának tekintenék a nőt, ez azonban azt is jelenti, hogy sokan kényszerűségből maradnak együtt valakivel.",
+        "A szállók elkerülésének hátterében az is áll, hogy a meglévő intézményrendszer kapacitásai korlátozottak. A legtöbb szállást hagyományosan a férfiak ellátására alakították ki, és bár léteznek koedukált intézmények – ahol a nőket és a férfiakat különböző emeleteken vagy folyosókon helyezik el –, a BMSZKI mindössze három olyan intézményt tart fenn, amely kifejezetten a nők fogadására szakosodott, így két éjjeli menedékhely mellett egy átmeneti szállást biztosítanak számukra. Budapesten ugyan javult a helyzet, továbbra sincs elég páros férőhely a szállókon, vidéken pedig kifejezetten súlyos hiányosságok tapasztalhatók ezen a területen.",
+        "Az egyedülálló nők gyakran a szállók belső tereit sem érzik biztonságosnak a férfi lakstársak jelenléte miatt. Többen arról számolnak be, hogy a szállóra érkezve azonnal végigméregetik, pontozzák őket, vagy nyíltan arról beszélnek a többiek, mit tennének velük. Emiatt egyesek a szigorú szabályokat vagy a kötöttségeket elutasítva, mások a megaláztatásokat elkerülve inkább az utcát választják, míg nemzetközi példák mutatják, hogy nők egész éjszaka buszoznak, vagy éppen vendéglátóhelyeken húzzák meg magukat a biztonság reményében."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 378,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/T%C3%A1bl%C3%A1s_Stra%C3%9Fe_31%2C_2024_Ferencv%C3%A1ros.jpg/1280px-T%C3%A1bl%C3%A1s_Stra%C3%9Fe_31%2C_2024_Ferencv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 900,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "~Táblás Temporary Hostel/Shelter. ~Táblás Temporary Accommodation. One of the ten Temporary Accommodations (cap. 1470 people) of the Budapest Methodological Centre of Social Policy and Its Institutio",
+        "credit": "Globetrotter19 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:T%C3%A1bl%C3%A1s_Stra%C3%9Fe_31,_2024_Ferencv%C3%A1ros.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/elet/20261010_bmszki-hajlektalan-nok-kiallitas-nok-elleni-eroszak-lakhatas",
+          "title": "Egy szoba, ahol végre sírhatok",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T15:58:14+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 6.0,
+      "title_options": [
+        "A láthatatlan hajléktalanság: miért kerülik a nők a szállókat?",
+        "Ahol a bántalmazás elől a szállók helyett az utcát választják a nők",
+        "Hol bújnak el a magyarországi otthontalan nők?",
+        "Az utcán sem biztonságos, de a szállókon még attól is félnek, ami vár rájuk",
+        "Ezért maradnak inkább a nyílt utcán a nők ahelyett, hogy fedél alá mennének",
+        "Azonnal felmérik és pontozzák őket: ettől rettegnek a hajléktalan nők"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/T%C3%A1bl%C3%A1s_Stra%C3%9Fe_31%2C_2024_Ferencv%C3%A1ros.jpg/1280px-T%C3%A1bl%C3%A1s_Stra%C3%9Fe_31%2C_2024_Ferencv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "~Táblás Temporary Hostel/Shelter. ~Táblás Temporary Accommodation. One of the ten Temporary Accommodations (cap. 1470 people) of the Budapest Methodological Centre of Social Policy and Its Institutio",
+          "credit": "Globetrotter19 / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:T%C3%A1bl%C3%A1s_Stra%C3%9Fe_31,_2024_Ferencv%C3%A1ros.jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "Egy szoba, ahol végre sírhatok",
+          "link": "https://hvg.hu/elet/20261010_bmszki-hajlektalan-nok-kiallitas-nok-elleni-eroszak-lakhatas",
+          "summary": "Bár az utcán leginkább hajléktalan férfiakat látunk, valójában sok nő is otthontalan. A Beszélő képek című kiállításon ők maguk üzentek életükről, félelmeikről, álmaikról. Fehér Borókával, a Budapesti Módszertani Szociális Központ és Intézményei (BMSZKI) női projektjeinek felelősével nem csak az alkotásokról beszéltünk, hanem arról is: Hol vannak a hajléktalan nők, ha nem az utcán? Hogyan próbálnak sokan még a szállókról is gondoskodni a gyerekeikről? És miért mások a kitörési lehetőségeik, mint a férfiaknak?",
+          "source": "hvg.hu",
+          "related": false,
+          "hot_score": 6.0
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/elet/20261010_bmszki-hajlektalan-nok-kiallitas-nok-elleni-eroszak-lakhatas"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/kozelet/2026-10-10-a-lathatatlan-hajlektalansag-miert-kerulik-a-nok-a-szallokat/",
+      "seo": {
+        "meta_title": "A láthatatlan hajléktalanság: miért kerülik a nők a szállóka",
+        "meta_description": "Bár a közterületeken elsősorban férfiakat látni, a hazai otthontalanok jelentős része nő, akik a hajléktalanszállók veszélyei és a bántalmazás elől inkább a nyí",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-a-lathatatlan-hajlektalansag-miert-kerulik-a-nok-a-szallokat/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/T%C3%A1bl%C3%A1s_Stra%C3%9Fe_31%2C_2024_Ferencv%C3%A1ros.jpg/1280px-T%C3%A1bl%C3%A1s_Stra%C3%9Fe_31%2C_2024_Ferencv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "3dcf20476b964a713ef6d426c19cdba1f3463904ed95e32aafa287b0ad24f109",
+      "pipeline_run_id": "38056382704",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T15:58:14+02:00",
+      "updated_at": "2026-10-10T15:58:14+02:00",
+      "published_at": "2026-10-10T15:58:14+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T14:01:18+00:00",
+        "msg_ids": [
+          4638,
+          4639
+        ],
+        "control_id": 4640
       }
     }
   ]
