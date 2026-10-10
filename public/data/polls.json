@@ -1,6 +1,22 @@
 {
-  "updated_at": "2026-10-09T10:39:56+02:00",
+  "updated_at": "2026-10-10T10:20:50+02:00",
   "polls": [
+    {
+      "id": "dee3909697c9",
+      "date": "2026-10-10",
+      "question": "Ön szerint milyen mértékben befolyásolja a nyersolaj ára a kamatlábakat?",
+      "options": [
+        "Erősen befolyásolja",
+        "Mérsékelten befolyásolja",
+        "Alig befolyásolja",
+        "Nem tudom"
+      ],
+      "article_url": "/penzvilag/2026-10-10-szazdollaros-olaj-es-adatkozpontok-miert-maradnak-magasan-a-kamatok/",
+      "article_title": "Százdolláros olaj és adatközpontok: miért maradnak magasan a kamatok?",
+      "category": "penzvilag",
+      "created_at": "2026-10-10T10:20:50+02:00",
+      "closes_at": "2026-10-17T10:20:50+02:00"
+    },
     {
       "id": "1967810c3a9f",
       "date": "2026-10-09",
