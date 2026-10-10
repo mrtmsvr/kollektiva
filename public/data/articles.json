@@ -1,7 +1,110 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-10T11:27:00+02:00",
+  "updated_at": "2026-10-10T11:27:08+02:00",
   "articles": [
+    {
+      "id": "38161235-1a85-524d-a872-e1411ca7bf7d",
+      "slug": "2026-10-10-david-frost-ova-intette-nagy-britanniat-az-eu-ba-valo-visszaterestol",
+      "status": "published",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "David Frost",
+        "Brexit",
+        "Európai Unió",
+        "Nagy-Britannia",
+        "Daily Telegraph"
+      ],
+      "title": "David Frost óva intette Nagy-Britanniát az EU-ba való visszatéréstől",
+      "subtitle": null,
+      "lead": "Szigorúan óva intette hazáját a visszalépéstől David Frost volt brit Brexit-ügyi főtárgyaló, aki szerint az Európai Unió vezetése teljesen képtelen szembenézni a valósággal. A Daily Telegraph lapban megjelent véleménycikkben a politikus arról értekezett, hogy a kontinentális intézmények makacsul kizárják a hatalomból a jobbra tolódó polgárokat.",
+      "key_points": [
+        "David Frost nyilatkozatában felszólította Nagy-Britanniát, hogy esze ágában se legyen visszatérni az EU-ba.",
+        "A volt főtárgyaló szerint az unió vezetői inkább játszanak, mintsem hogy szembenézzenek a valósággal.",
+        "Frost úgy látja, a kontinens irányítása egyre kevésbé demokratikus a növekvő jobboldali szavazóbázis kizárása miatt."
+      ],
+      "content": "Kemény kritikával illette az európai integrációs szervezeteket David Frost, aki Boris Johnson kormányfősége idején a britek EU-ból való kilépéséért felelős főtárgyalóként dolgozott. A Daily Telegraph brit lapban közölt vendégkommentárban a diplomata kifejtette, hogy az uniós vezetés és az intézményrendszer nem hajlandó tudomást venni a polgárok körében zajló politikai eltolódásokról.\n\nA szerző meglátása szerint Európa jó néhány képviselője a valóság helyett a játszmákat részesíti előnyben, ami komoly csapdába sodorja magát az Európai Uniót is. Rámutatott arra a jelenségre is, hogy ha a kontinentális döntéshozók továbbra is tudatosan kizárják a hatalomból az erősödő új jobboldalt, azzal az egész kontinens irányítását teszik még kevésbé demokratikussá.\n\nA volt tisztségviselő azóta sem változtatott a szervezetről alkotott negatív véleményén, és egyértelmű üzenetet fogalmazott meg honfitársainak: semmiképpen sem szabad fontolóra venniük a britek uniós visszatérését. A brit kiválást levezénylő politikus írása jól mutatja, hogy a szigetországban a konzervatív körök továbbra is mélyen szkeptikusak Brüsszel irányítási kultúrájával és jövőjével kapcsolatban.",
+      "content_format": "markdown",
+      "body": [
+        "Kemény kritikával illette az európai integrációs szervezeteket David Frost, aki Boris Johnson kormányfősége idején a britek EU-ból való kilépéséért felelős főtárgyalóként dolgozott. A Daily Telegraph brit lapban közölt vendégkommentárban a diplomata kifejtette, hogy az uniós vezetés és az intézményrendszer nem hajlandó tudomást venni a polgárok körében zajló politikai eltolódásokról.",
+        "A szerző meglátása szerint Európa jó néhány képviselője a valóság helyett a játszmákat részesíti előnyben, ami komoly csapdába sodorja magát az Európai Uniót is. Rámutatott arra a jelenségre is, hogy ha a kontinentális döntéshozók továbbra is tudatosan kizárják a hatalomból az erősödő új jobboldalt, azzal az egész kontinens irányítását teszik még kevésbé demokratikussá.",
+        "A volt tisztségviselő azóta sem változtatott a szervezetről alkotott negatív véleményén, és egyértelmű üzenetet fogalmazott meg honfitársainak: semmiképpen sem szabad fontolóra venniük a britek uniós visszatérését. A brit kiválást levezénylő politikus írása jól mutatja, hogy a szigetországban a konzervatív körök továbbra is mélyen szkeptikusak Brüsszel irányítási kultúrájával és jövőjével kapcsolatban."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 199,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/f5844633f3572333.jpg",
+        "width": 5423,
+        "height": 3622,
+        "kind": "photo",
+        "alt": "palace, london, parliament, big ben, england, river thames, palace of westminster, buildings, architecture, city, skyline, clock tower, bridge, river, westminster, tower, british, travel, uk, thames, ",
+        "credit": "derwiki / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/palace-london-parliament-big-ben-530055/",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/f5844633f3572333.jpg",
+        "orig_url": "https://pixabay.com/get/g8bdfe7153af4754dcd485f8952c81658a952e33809818966c003873d8ad5c8b749df349b77e88a034a21896d0639bceecb83e7a621fb80228b8b13f1601e1d7f_1280.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/360/20261010_boris-johnson-brexit-targyaloja-szerint-az-amerikai-kulugyminiszter-megmutatta-milyen-komolytalan-az-eu",
+          "title": "Boris Johnson Brexit-tárgyalója szerint az amerikai külügyminiszter megmutatta, milyen komolytalan az EU",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T11:16:29+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Európa jó néhány képviselője jobban szeret játszani, semmint szembenézni a valósággal, ezért azután igen nehéz az Európai Unió számára, hogy kikerülje a rá leselkedő csapdát.",
+        "who": "David Frost, volt Brexit-ügyi főtárgyaló",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-10T11:27:08+02:00"
+      },
+      "hot_score": 5.26,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/360/20261010_boris-johnson-brexit-targyaloja-szerint-az-amerikai-kulugyminiszter-megmutatta-milyen-komolytalan-az-eu"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/vilag/2026-10-10-david-frost-ova-intette-nagy-britanniat-az-eu-ba-valo-visszaterestol/",
+      "seo": {
+        "meta_title": "David Frost óva intette Nagy-Britanniát az EU-ba való vissza",
+        "meta_description": "Szigorúan óva intette hazáját a visszalépéstől David Frost volt brit Brexit-ügyi főtárgyaló, aki szerint az Európai Unió vezetése teljesen képtelen szembenézni ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-david-frost-ova-intette-nagy-britanniat-az-eu-ba-valo-visszaterestol/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/f5844633f3572333.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "2b52ba5020250b94e158aeb9340a8e79d5bce4f9eb7ab217e3e1738f2c763aba",
+      "pipeline_run_id": "38039834555",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T11:27:08+02:00",
+      "updated_at": "2026-10-10T11:27:08+02:00",
+      "published_at": "2026-10-10T11:27:08+02:00",
+      "expires_at": null
+    },
     {
       "id": "bd658bb2-f4e3-5d5b-a2ab-41195a01c9a5",
       "slug": "2026-10-10-szazmilliok-jutnak-identol-unger-anna-es-tasnady-katalin-vedelmere",
