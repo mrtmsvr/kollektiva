@@ -2,22 +2,6 @@
   "updated_at": "2026-10-10T13:44:00+02:00",
   "polls": [
     {
-      "id": "dff1184901d1",
-      "date": "2026-10-10",
-      "question": "Mennyire hajlandó lenne használni a Wave Browser-t?",
-      "options": [
-        "Mindenképp",
-        "Talán",
-        "Egyáltalán nem",
-        "Nem tudom"
-      ],
-      "article_url": "/tech/2026-10-10-igy-tisztitja-az-oceanokat-a-mindennapi-netezes/",
-      "article_title": "Így tisztítja az óceánokat a mindennapi netezés",
-      "category": "tech",
-      "created_at": "2026-10-10T13:44:00+02:00",
-      "closes_at": "2026-10-17T13:44:00+02:00"
-    },
-    {
       "id": "1967810c3a9f",
       "date": "2026-10-09",
       "question": "Ön szerint Orbán miniszterelnöknek vállalnia kell a felelősséget az aranykonvoj leállításáért?",
@@ -181,6 +165,11 @@
       "id": "07d18833e347",
       "article_url": "/tech/2026-10-10-zuckerberg-bolyhos-kabalaja-rekordsebesseggel-hoditotta-meg-az-app-st/",
       "question": "Ön szerint a gyors AI terjedés milyen hatással lesz?"
+    },
+    {
+      "id": "dff1184901d1",
+      "article_url": "/tech/2026-10-10-igy-tisztitja-az-oceanokat-a-mindennapi-netezes/",
+      "question": "Mennyire hajlandó lenne használni a Wave Browser-t?"
     }
   ]
 }
