@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T10:20:50+02:00",
+  "updated_at": "2026-10-10T10:46:02+02:00",
   "polls": [
     {
       "id": "1967810c3a9f",
@@ -135,6 +135,11 @@
       "id": "dee3909697c9",
       "article_url": "/penzvilag/2026-10-10-szazdollaros-olaj-es-adatkozpontok-miert-maradnak-magasan-a-kamatok/",
       "question": "Ön szerint milyen mértékben befolyásolja a nyersolaj ára a kamatlábakat?"
+    },
+    {
+      "id": "6ade61e046a2",
+      "article_url": "/penzvilag/2026-10-10-dragabb-energia-rekordhozamok-itt-a-2026-os-piaci-helyzet/",
+      "question": "Ön szerint milyen hatással lesz a 2026‑os energiaár növekedés?"
     }
   ]
 }
