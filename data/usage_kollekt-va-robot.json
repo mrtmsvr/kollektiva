@@ -40,8 +40,8 @@
   "2026-10-10": {
     "gemini": 138,
     "gemini_hiba": 174,
-    "groq": 25,
-    "cf_image": 13,
+    "groq": 26,
+    "cf_image": 15,
     "pollinations_image": 1
   }
 }
