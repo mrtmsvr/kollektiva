@@ -1,7 +1,124 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-10T10:39:38+02:00",
+  "updated_at": "2026-10-10T10:42:11+02:00",
   "articles": [
+    {
+      "id": "db32a8df-35d5-593e-8c34-16dd9d17ba27",
+      "slug": "2026-10-10-vegre-kiderult-ez-a-bizarr-genetikai-hiba-okozza-a-voros-macskak-bund",
+      "status": "published",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "macska",
+        "genetika",
+        "tudomány",
+        "Stanford Egyetem"
+      ],
+      "title": "Végre kiderült: ez a bizarr genetikai hiba okozza a vörös macskák bundáját",
+      "subtitle": null,
+      "lead": "Hatvan év fejtörés után a kutatók végre megfejtették, miért lesz egyes macskák szőre vörös. A Stanford Egyetem szakemberei rájöttek, hogy a különleges bunda egy váratlan DNS-kiesés következménye.",
+      "key_points": [
+        "A Stanford Egyetem kutatói vizsgálták meg a vörös macskák genetikai mintáit.",
+        "A vörös szín egy nem fehérjekódoló régióból hiányzó DNS-szakasz miatt alakul ki.",
+        "A vizsgált bőrsejtekben az Arhgap36 nevű génből származó RNS mennyisége tizenháromszoros volt.",
+        "A mutáció az X kromoszómán található, ami megmagyarázza a nemek közötti eltéréseket."
+      ],
+      "content": "A macskák vörös szőrzete régóta az állatgenetika egyik legmakacsabb rejtélye volt, mivel ez a szín nem követte a szokásos öröklődési szabályokat. A Stanford Egyetem kutatói 188 macska biológiai adatait és bőrmintáit vizsgálták meg, amelyek közül csupán 37 bundájában nem voltak vörös foltok.\n\nGreg Barsh genetikus csapata azt találta, hogy a vörös szőrű macskák bőrsejtjeiben az Arhgap36 nevű génből származó RNS mennyisége tizenháromszor magasabb volt a nem vörös egyedekhez képest. A kutatók eredetileg a gén fehérjekódoló szakaszán vártak mutációt, ám a változás a gént megelőző szekvenciában történt.\n\nA Science Alert beszámolója szerint a vörös szín a macska genomjának egy nem fehérjekódoló régiójából hiányzó DNS-szakasz következménye, amely befolyásolja a gén további részének kifejeződését. Ez a mutáció a macskák X kromoszómáján helyezkedik el, ami megmagyarázza, hogy a vörös bundás egyedek többsége miért hím, míg a nőstényeknél ez inkább vöröses foltokban jelenik meg.",
+      "content_format": "markdown",
+      "body": [
+        "A macskák vörös szőrzete régóta az állatgenetika egyik legmakacsabb rejtélye volt, mivel ez a szín nem követte a szokásos öröklődési szabályokat. A Stanford Egyetem kutatói 188 macska biológiai adatait és bőrmintáit vizsgálták meg, amelyek közül csupán 37 bundájában nem voltak vörös foltok.",
+        "Greg Barsh genetikus csapata azt találta, hogy a vörös szőrű macskák bőrsejtjeiben az Arhgap36 nevű génből származó RNS mennyisége tizenháromszor magasabb volt a nem vörös egyedekhez képest. A kutatók eredetileg a gén fehérjekódoló szakaszán vártak mutációt, ám a változás a gént megelőző szekvenciában történt.",
+        "A Science Alert beszámolója szerint a vörös szín a macska genomjának egy nem fehérjekódoló régiójából hiányzó DNS-szakasz következménye, amely befolyásolja a gén további részének kifejeződését. Ez a mutáció a macskák X kromoszómáján helyezkedik el, ami megmagyarázza, hogy a vörös bundás egyedek többsége miért hím, míg a nőstényeknél ez inkább vöröses foltokban jelenik meg."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 168,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/bd8ab83eddbfe519.jpg",
+        "width": 5040,
+        "height": 3360,
+        "kind": "photo",
+        "alt": "cat, front door, pet, feline, nature, animal",
+        "credit": "MolnarSzabolcsErdely / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/cat-front-door-pet-feline-animal-6946498/",
+        "vision_score": 10.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/bd8ab83eddbfe519.jpg",
+        "orig_url": "https://pixabay.com/get/gfbdf8c92156f8bb50e6ce201571f51fdbce87ed80cc5f01b026b0b9baefd9dcef0f8c313c44c91efc72feb213fac30270790d987107ef1a95e276bb70332e3fd_1280.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261009_voros-macskak-szine-rejtely-genek",
+          "title": "60 éves titok derült ki a vörös macskákról",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T10:16:49+02:00"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSHVQaFhXNUdOQmZ1c3RwTHQ1dGtvOFFYZ3p1X09kQUltTHhVNTFjUEVBYWFjU2dpMjg3cHJEZVJkekhhMmZoel9IRVItSE9TTlIyUC1pdTFyWEFyZ3NpYnZLUS1odHpEUnhnUGRXYW5kSWpl?oc=5",
+          "title": "Tech: 60 éves titok derült ki a vörös macskákról - | hvg.hu",
+          "publisher": "news.google.com",
+          "license": null,
+          "accessed_at": "2026-10-10T10:16:49+02:00"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX1JBMG5tQTZBTEVoQXYzbXJFOC1QVmdSWkU2Y3dwNVRzUmxSNDNJSWNpVzFSZmFER1l6MENXNWd6Qy05WWdmZTQ2b0NRTFlHaEgya1hnTjVmbldvQ0RKci1vLUhFLWxMUlkwWXNNUC1tVXJUUE5QVkNWV25TeEtsQkhxbHIxYnplRm1Z?oc=5",
+          "title": "Végre megfejtették a vörös macskák több évtizedes titkát - Blikk",
+          "publisher": "news.google.com",
+          "license": null,
+          "accessed_at": "2026-10-10T10:16:49+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-10T10:42:11+02:00"
+      },
+      "hot_score": 5,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261009_voros-macskak-szine-rejtely-genek",
+          "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSHVQaFhXNUdOQmZ1c3RwTHQ1dGtvOFFYZ3p1X09kQUltTHhVNTFjUEVBYWFjU2dpMjg3cHJEZVJkekhhMmZoel9IRVItSE9TTlIyUC1pdTFyWEFyZ3NpYnZLUS1odHpEUnhnUGRXYW5kSWpl?oc=5",
+          "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX1JBMG5tQTZBTEVoQXYzbXJFOC1QVmdSWkU2Y3dwNVRzUmxSNDNJSWNpVzFSZmFER1l6MENXNWd6Qy05WWdmZTQ2b0NRTFlHaEgya1hnTjVmbldvQ0RKci1vLUhFLWxMUlkwWXNNUC1tVXJUUE5QVkNWV25TeEtsQkhxbHIxYnplRm1Z?oc=5"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/tech/2026-10-10-vegre-kiderult-ez-a-bizarr-genetikai-hiba-okozza-a-voros-macskak-bund/",
+      "seo": {
+        "meta_title": "Végre kiderült: ez a bizarr genetikai hiba okozza a vörös ma",
+        "meta_description": "Hatvan év fejtörés után a kutatók végre megfejtették, miért lesz egyes macskák szőre vörös. A Stanford Egyetem szakemberei rájöttek, hogy a különleges bunda egy",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-10-vegre-kiderult-ez-a-bizarr-genetikai-hiba-okozza-a-voros-macskak-bund/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/bd8ab83eddbfe519.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "9eee21e672cbbe2f15996ebd34ec55633bbe637f72b939a071afaf398b31dd78",
+      "pipeline_run_id": "38035254687",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T10:42:11+02:00",
+      "updated_at": "2026-10-10T10:42:11+02:00",
+      "published_at": "2026-10-10T10:42:11+02:00",
+      "expires_at": null,
+      "requested": true
+    },
     {
       "id": "0e93a38f-0796-5a58-8ed9-32c74f69aa59",
       "slug": "2026-10-10-haromszazmilliardos-unios-tamogatast-sodort-veszelybe-a-deli-korvasut",
