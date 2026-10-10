@@ -111,7 +111,7 @@ class Config:
             openai_key=os.getenv("OPENAI_API_KEY", ""),
             openai_model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
             gemini_key=os.getenv("GEMINI_API_KEY", ""),
-            gemini_model=os.getenv("GEMINI_MODEL", "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash"),
+            gemini_model=os.getenv("GEMINI_MODEL", "gemini-flash-latest,gemini-flash-lite-latest,gemini-3.1-flash-lite"),
             groq_key=os.getenv("GROQ_API_KEY", ""),
             groq_model=os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"),
             output_dir=(BASE_DIR / os.getenv("OUTPUT_DIR", "public/data")).resolve(),
@@ -159,6 +159,9 @@ class AIError(Exception):
     """Bármilyen AI-hívási hiba – a hívó oldalon fallbackre váltunk."""
 
 
+_GEMINI_OUT: dict = {}  # modell → időpont, ameddig nem próbáljuk (elfogyott napi keret)
+
+
 def post_json(url: str, headers: dict, payload: dict, timeout: int, retries: int) -> dict:
     """POST JSON, exponenciális visszalépéssel. 429/5xx és hálózati hiba esetén újrapróbál."""
     body = json.dumps(payload).encode("utf-8")
@@ -175,8 +178,8 @@ def post_json(url: str, headers: dict, payload: dict, timeout: int, retries: int
             if "<html" in detail.lower():  # HTML hibaoldal (pl. Cloudflare-botvédelem) – ne a nyers HTML-t adjuk tovább
                 detail = "a szolgáltató HTML hibaoldalt adott (botvédelem vagy hibás végpont/jogosultság)"
             last_err = AIError(f"HTTP {e.code}: {detail}")
-            if e.code not in (408, 429, 500, 502, 503, 504, 529):
-                break  # kliens hiba (pl. rossz kulcs) – nincs értelme újrapróbálni
+            if e.code not in (408, 429, 500, 502, 503, 504, 529) or (e.code == 429 and "quota" in detail.lower()):
+                break  # kliens hiba (pl. rossz kulcs) vagy elfogyott napi keret – nincs értelme újrapróbálni
         except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
             last_err = AIError(f"Hálózati/válasz hiba: {e}")
         if attempt < retries:
@@ -360,6 +363,8 @@ class AIClient:
             models = [m.strip() for m in c.gemini_model.split(",") if m.strip()]
             last: Optional[Exception] = None
             for model in models:
+                if _GEMINI_OUT.get(model, 0) > time.time():
+                    continue  # ennek a modellnek elfogyott a kerete – egy óráig nem próbáljuk (gyorsabb, kevesebb hiba)
                 try:
                     data = post_json(
                         "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
@@ -373,6 +378,8 @@ class AIClient:
                     return data["choices"][0]["message"]["content"]
                 except Exception as e:  # noqa: BLE001 – következő modell
                     note_usage("gemini", ok=False)
+                    if "429" in str(e) and "quota" in str(e).lower():
+                        _GEMINI_OUT[model] = time.time() + 3600
                     log.warning("Gemini modell sikertelen (%s): %s", model, str(e)[:200])
                     last = e
             raise last or AIError("Nincs megadott Gemini modell")
@@ -3380,7 +3387,7 @@ def main(argv: Optional[list] = None) -> int:
                 if chat and waiting:
                     tr.tg("sendMessage", {"chat_id": chat, "text": f"🗂 Jóváhagyási kör ({os.getenv('CURRENT_SLOT')[-5:]}): "
                                           f"{len(waiting)} cikk vár rád. Magától egyik sem kerül ki.",
-                                          "reply_markup": {"inline_keyboard": [[{"text": f"📋 A {len(waiting)} megírt cikk újra a chat aljára",
+                                          "reply_markup": {"inline_keyboard": [[{"text": f"📋 Váró cikkek ({len(waiting)})",
                                                                                  "callback_data": "fall|x"}]]}})
             except Exception as e:  # noqa: BLE001
                 log.warning("Kör-összefoglaló kimaradt: %s", e)
