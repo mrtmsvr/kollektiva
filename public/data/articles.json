@@ -1,7 +1,106 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-10T16:02:01+02:00",
+  "updated_at": "2026-10-10T16:03:38+02:00",
   "articles": [
+    {
+      "id": "e09dff96-2303-5ddf-a658-beefe9be411c",
+      "slug": "2026-10-10-hat-ev-utan-tert-vissza-hazajaba-de-rogton-megkapta-a-magaet-a-lelato",
+      "status": "published",
+      "category": "bulvar",
+      "subcategory": null,
+      "tags": [
+        "Harry herceg",
+        "Egyesült Királyság",
+        "királyi család",
+        "rögbi"
+      ],
+      "title": "Hat év után tért vissza hazájába, de rögtön megkapta a magáét a lelátón Harry herceg",
+      "subtitle": null,
+      "lead": "Harry herceg sörrel a kezében szurkolt egy péntek esti rögbimeccsen, ám a stadion közönsége hangos fújolással reagált, amikor az arca megjelent az óriásképernyőn. A sussexi herceg augusztus végén tért vissza az Egyesült Királyságba a feleségével és a gyerekeivel, hat évvel azután, hogy Kaliforniába költöztek.",
+      "key_points": [
+        "Harry herceg a Leicester Tigers és a Gloucester mérkőzésén tűnt fel a lelátón.",
+        "A nézők egy része fütyüléssel és fújolással reagált, amikor a kamera őt vette.",
+        "A herceg hat év után, augusztus végén tért vissza a családjával az Egyesült Királyságba.",
+        "A visszatérés óta sem a király, sem Vilmos herceg nem találkozott Harryékkel."
+      ],
+      "content": "Harry herceg sörrel a kezében, lelkesen szurkolt a Leicester Tigers és a Gloucester rögbicsapatának meccsén péntek este. Amikor a stadion kamerái elcsípték őt, és az alakja feltűnt az óriásképernyőn, fújolás zúdult a sussexi hercegre.\n\nA sussexi herceg a feleségével, Meghan Markle-lel és a gyerekeivel augusztus végén tért vissza az Egyesült Királyságba, mintegy hat évvel azután, hogy felhagytak a királyi kötelezettségeikkel, és Kaliforniába távoztak. Harry a visszaköltözésük óta először jelent meg nyilvánosan egyedül, korábban csak rendezvényeken vett részt.\n\nA hercegi pár korábbi bejelentése szerint a gyerekek angol iskolai tanulmányai miatt is hozták meg a döntést a költözésről, ám a jövőbeli terveikről egyelőre kevés hivatalos információ látott napvilágot. Az mindenesetre borítékolható, hogy a család hagyományos sandringhami karácsonyi összejövetelére nem kapnak meghívást.\n\nA családi viszonyokban egyelőre nem látszik közeledés, ugyanis a visszatérés óta eltelt több mint egy hónapban sem III. Károly király, sem pedig Vilmos herceg nem találkozott velük. III. Károly a hivatalos iránymutatásában ráadásul nyomatékosította, hogy Harryék magánemberként élnek, nem tartoznak a királyi család dolgozó tagjai közé, és a HRH címet sem használhatják.",
+      "content_format": "markdown",
+      "body": [
+        "Harry herceg sörrel a kezében, lelkesen szurkolt a Leicester Tigers és a Gloucester rögbicsapatának meccsén péntek este. Amikor a stadion kamerái elcsípték őt, és az alakja feltűnt az óriásképernyőn, fújolás zúdult a sussexi hercegre.",
+        "A sussexi herceg a feleségével, Meghan Markle-lel és a gyerekeivel augusztus végén tért vissza az Egyesült Királyságba, mintegy hat évvel azután, hogy felhagytak a királyi kötelezettségeikkel, és Kaliforniába távoztak. Harry a visszaköltözésük óta először jelent meg nyilvánosan egyedül, korábban csak rendezvényeken vett részt.",
+        "A hercegi pár korábbi bejelentése szerint a gyerekek angol iskolai tanulmányai miatt is hozták meg a döntést a költözésről, ám a jövőbeli terveikről egyelőre kevés hivatalos információ látott napvilágot. Az mindenesetre borítékolható, hogy a család hagyományos sandringhami karácsonyi összejövetelére nem kapnak meghívást.",
+        "A családi viszonyokban egyelőre nem látszik közeledés, ugyanis a visszatérés óta eltelt több mint egy hónapban sem III. Károly király, sem pedig Vilmos herceg nem találkozott velük. III. Károly a hivatalos iránymutatásában ráadásul nyomatékosította, hogy Harryék magánemberként élnek, nem tartoznak a királyi család dolgozó tagjai közé, és a HRH címet sem használhatják."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 216,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Michelle_Obama%2C_Jill_Biden_and_Prince_Henry.jpg/1280px-Michelle_Obama%2C_Jill_Biden_and_Prince_Henry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "First Lady of the United States of America, Michelle Obama, Prince Harry, and Jill Biden help military children create Mother's Day cards and other crafts in the State Dining Room of the White House o",
+        "credit": "Lawrence Jackson / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Michelle_Obama,_Jill_Biden_and_Prince_Henry.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/elet/20261010_harry-herceg-rogbimeccs-kifutyules",
+          "title": "Harry herceg ellátogatott egy rögbimeccsre, rögtön ki is fütyülték",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T15:58:45+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-10T16:03:38+02:00"
+      },
+      "hot_score": 5.25,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/elet/20261010_harry-herceg-rogbimeccs-kifutyules"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/bulvar/2026-10-10-hat-ev-utan-tert-vissza-hazajaba-de-rogton-megkapta-a-magaet-a-lelato/",
+      "seo": {
+        "meta_title": "Hat év után tért vissza hazájába, de rögtön megkapta a magáé",
+        "meta_description": "Harry herceg sörrel a kezében szurkolt egy péntek esti rögbimeccsen, ám a stadion közönsége hangos fújolással reagált, amikor az arca megjelent az óriásképernyő",
+        "canonical_url": "https://xn--kollektva-m5a.hu/bulvar/2026-10-10-hat-ev-utan-tert-vissza-hazajaba-de-rogton-megkapta-a-magaet-a-lelato/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Michelle_Obama%2C_Jill_Biden_and_Prince_Henry.jpg/1280px-Michelle_Obama%2C_Jill_Biden_and_Prince_Henry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "ac02754ffcf49145f29e480219837aa1fa58abcf11265d8d87a81a287bf1bd2b",
+      "pipeline_run_id": "38056382704",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T16:03:38+02:00",
+      "updated_at": "2026-10-10T16:03:38+02:00",
+      "published_at": "2026-10-10T16:03:38+02:00",
+      "expires_at": null
+    },
     {
       "id": "e2946d1b-1f99-54d3-bc8a-d82398fb7fc6",
       "slug": "2026-10-10-kalifornia-bevezeti-a-lofegyver-blokkolot-a-3d-nyomtatokon",
