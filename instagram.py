@@ -51,7 +51,7 @@ GAP_H = float(os.getenv("IG_GAP_H", "0.5"))
 DELAY_MIN = int(os.getenv("IG_DELAY_MIN", "45"))
 W, H = 1080, 1350
 NAVY, BRASS, PARCH = (14, 16, 36), (201, 164, 92), (236, 230, 216)
-# a Kollektíva-logó (K + holdpálya), 260 px széles átlátszó PNG – a kártya bal felső sarkába kerül
+# a Kollektíva-logó (K + holdpálya), 260 px széles átlátszó PNG – a kártya jobb alsó sarkába kerül
 LOGO_PNG = base64.b64decode("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")
 
 
@@ -225,17 +225,6 @@ def make_card(art: dict, bg: Optional[bytes] = None, suffix: str = "") -> Path:
     for y in range(H):
         grad.putpixel((0, y), int(max(0, min(1, (y - H * 0.30) / (H * 0.55))) * 235))
     img.paste(Image.new("RGB", (W, H), NAVY), (0, 0), grad.resize((W, H)))
-    # felső enyhe sötétítés + logó a bal felső sarokban
-    top = Image.new("L", (1, 260))
-    for y in range(260):
-        top.putpixel((0, y), int((1 - y / 260) ** 1.6 * 150))
-    img.paste(Image.new("RGB", (W, 260), NAVY), (0, 0), top.resize((W, 260)))
-    try:
-        logo = Image.open(io.BytesIO(LOGO_PNG)).convert("RGBA")
-        logo = logo.resize((170, int(170 * logo.height / logo.width)))
-        img.paste(logo, (60, 52), logo)
-    except Exception as e:  # noqa: BLE001
-        log.warning("Logó kimaradt: %s", e)
     d = ImageDraw.Draw(img)
     pad = 72
     # cím: a lehető legnagyobb betűvel, legfeljebb 5 sorban
@@ -259,9 +248,13 @@ def make_card(art: dict, bg: Optional[bytes] = None, suffix: str = "") -> Path:
     d.text((pad, H - 100), "Kollektíva", font=f_logo, fill=PARCH)
     lw = d.textlength("Kollektíva", font=f_logo)
     d.text((pad + lw + 2, H - 100), ".", font=f_logo, fill=BRASS)
-    f_u = _font(ImageFont, 26, serif=False)
-    u = "kollektíva.hu"
-    d.text((W - pad - d.textlength(u, font=f_u), H - 88), u, font=f_u, fill=(200, 196, 214))
+    try:  # letisztult: lent balra a név, jobbra a logó (K + holdpálya) – a kép tetején nincs semmi
+        logo = Image.open(io.BytesIO(LOGO_PNG)).convert("RGBA")
+        lw2 = 118
+        logo = logo.resize((lw2, int(lw2 * logo.height / logo.width)))
+        img.paste(logo, (W - pad - lw2, H - 66 - logo.height // 2 - 12), logo)
+    except Exception as e:  # noqa: BLE001
+        log.warning("Logó kimaradt: %s", e)
     CARD_DIR.mkdir(parents=True, exist_ok=True)
     out = CARD_DIR / (re.sub(r"[^a-z0-9-]", "", (art.get("slug") or art.get("id", "x")).lower())[:70] + suffix + ".jpg")
     img.save(out, "JPEG", quality=88, optimize=True)
