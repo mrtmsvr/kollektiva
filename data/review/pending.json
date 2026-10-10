@@ -11051,7 +11051,16 @@
           4639
         ],
         "control_id": 4640
-      }
+      },
+      "image_queries": [
+        "BMSZKI",
+        "Budapest street",
+        "night bus Budapest",
+        "homeless shelter",
+        "homeless woman",
+        "lonely bench at night",
+        "urban poverty"
+      ]
     }
   ]
 }
