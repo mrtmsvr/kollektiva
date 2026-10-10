@@ -1,191 +1,6 @@
 {
   "articles": [
     {
-      "id": "acb84d4b-11b6-5747-be69-1f0536ef08f5",
-      "slug": "2026-10-08-mi-jon-az-orosz-energiahordozok-utan-itt-vannak-a-tervek",
-      "status": "published",
-      "category": "penzvilag",
-      "subcategory": null,
-      "tags": [
-        "energetika",
-        "konferencia",
-        "befektetés",
-        "zöld átállás",
-        "gazdaság"
-      ],
-      "title": "Mi jön az orosz energiahordozók után? Itt vannak a tervek",
-      "subtitle": null,
-      "lead": "Csütörtökön rajtolt el a Portfolio Energy Investment Forum 2026 konferencia, ahol a szakemberek a hazai energiapolitika következő négy évének stratégiáját és az orosz energiahordozókról való leválás lehetőségeit vitatják meg. A rendezvényen a hazai ellátásbiztonság mellett a villamosenergia-piac új működési modelleit és a jövőbeli beruházási hullámokat veszik górcső alá.",
-      "key_points": [
-        "Elkezdődött a Portfolio Energy Investment Forum 2026 szakmai rendezvény.",
-        "Tótth András energetikai államtitkár vázolta fel a következő négy év legfontosabb prioritásait.",
-        "A fórumon terítékre kerül a földgázpiac átalakulása, valamint a kis moduláris atomreaktorok magyarországi jövője is."
-      ],
-      "content": "Csütörtökön nyitotta meg kapuit a Portfolio Energy Investment Forum 2026, amely az európai versenyképesség, a geopolitikai változások és a zöld átállás kérdéseit helyezi a középpontba. A nyitószekcióban Tótth András energetikai államtitkár ismerteti a következő négy év energetikai prioritásait, míg Juhász Edit, a Magyar Energetikai és Közmű-szabályozási Hivatal elnöke a hazai szabályozási ciklus következő kihívásairól beszél.\n\nA délelőtti programban a hazai energetikai szféra kulcsszereplői szólalnak fel: Huibert Vigeveno, a MET Csoport vezérigazgatója, Guntram Würzberg, az E.ON Hungária Csoport elnök-vezérigazgatója, Bacsa György, a MOL-csoport stratégiai vezetője, valamint ifj. Chikán Attila, az Alteo vezérigazgatója vitatják meg, hogyan teremthető meg az egyensúly az ellátásbiztonság és a versenyképesebb rendszer kialakítása között.\n\nA délutáni szekciókban a technológiai átalakulás és a beruházási irányok kerülnek terítékre. A résztvevők azt vizsgálják, hogy a napenergia térnyerését követően az energiatárolás, a szélenergia, a geotermia vagy a biogáz jelenti-e a következő nagy hullámot, miközben Alexis Honner, a Rolls-Royce SMR üzletfejlesztési vezetője a kis moduláris atomreaktorok magyarországi lehetőségeit elemzi.\n\nA záróprogramokban a finanszírozási kilátások, az Európai Beruházási Bank és az UniCredit szerepe, valamint az adatalapú működés és a mesterséges intelligencia térnyerése kap hangsúlyt a villamosenergia-piacon.",
-      "content_format": "markdown",
-      "body": [
-        "Csütörtökön nyitotta meg kapuit a Portfolio Energy Investment Forum 2026, amely az európai versenyképesség, a geopolitikai változások és a zöld átállás kérdéseit helyezi a középpontba. A nyitószekcióban Tótth András energetikai államtitkár ismerteti a következő négy év energetikai prioritásait, míg Juhász Edit, a Magyar Energetikai és Közmű-szabályozási Hivatal elnöke a hazai szabályozási ciklus következő kihívásairól beszél.",
-        "A délelőtti programban a hazai energetikai szféra kulcsszereplői szólalnak fel: Huibert Vigeveno, a MET Csoport vezérigazgatója, Guntram Würzberg, az E.ON Hungária Csoport elnök-vezérigazgatója, Bacsa György, a MOL-csoport stratégiai vezetője, valamint ifj. Chikán Attila, az Alteo vezérigazgatója vitatják meg, hogyan teremthető meg az egyensúly az ellátásbiztonság és a versenyképesebb rendszer kialakítása között.",
-        "A délutáni szekciókban a technológiai átalakulás és a beruházási irányok kerülnek terítékre. A résztvevők azt vizsgálják, hogy a napenergia térnyerését követően az energiatárolás, a szélenergia, a geotermia vagy a biogáz jelenti-e a következő nagy hullámot, miközben Alexis Honner, a Rolls-Royce SMR üzletfejlesztési vezetője a kis moduláris atomreaktorok magyarországi lehetőségeit elemzi.",
-        "A záróprogramokban a finanszírozási kilátások, az Európai Beruházási Bank és az UniCredit szerepe, valamint az adatalapú működés és a mesterséges intelligencia térnyerése kap hangsúlyt a villamosenergia-piacon."
-      ],
-      "pull_quote": null,
-      "reading_time_min": 2,
-      "word_count": 238,
-      "locale": "hu-HU",
-      "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/BUD_MOL_Group_Oil_Well.JPG/1280px-BUD_MOL_Group_Oil_Well.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 1600,
-        "kind": "photo",
-        "pos": "top",
-        "alt": "An oil well sculpture/or Monument featuring oil well/ before MOL (Petroleum) Group Building, Október huszonharmadika Street, Lágymányos, District XI of Budapest.",
-        "credit": "Globetrotter19 / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:BUD_MOL_Group_Oil_Well.JPG",
-        "vision_score": 7.0
-      },
-      "inline_images": [],
-      "sources": [
-        {
-          "url": "https://www.portfolio.hu/gazdasag/20261008/elstartolt-a-portfolio-energy-investment-forum-2026-a-magyar-energetika-legfontosabb-kerdesei-kerulnek-teritekre-868162",
-          "title": "Elstartolt a Portfolio Energy Investment Forum 2026 – a magyar energetika legfontosabb kérdései kerülnek terítékre",
-          "publisher": "portfolio.hu",
-          "license": null,
-          "accessed_at": "2026-10-08T08:16:02+02:00"
-        }
-      ],
-      "quote": null,
-      "authorship": {
-        "mode": "ai_generated",
-        "byline": "Kollektíva szerkesztőség",
-        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-        "prompt_version": "section-v2",
-        "reviewed_by": null,
-        "reviewed_at": null
-      },
-      "hot_score": 6.0,
-      "title_options": [
-        "Az orosz leválástól a mini atomreaktorokig: ez vár a magyar energiapiacra",
-        "Gázra lépett a magyar energetika: kis moduláris reaktorok és napenergia utáni tervek",
-        "Nem csak a napenergia: új beruházási hullám jön az energetikában",
-        "Milyen energiaforrás váltja fel a napenergiát Magyarországon?",
-        "Ezt a négy évet szánja átalakításra az energetikai államtitkár",
-        "Mi jön az orosz energiahordozók után? Itt vannak a tervek"
-      ],
-      "clickbait_from": 3,
-      "image_options": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/BUD_MOL_Group_Oil_Well.JPG/1280px-BUD_MOL_Group_Oil_Well.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 1600,
-          "kind": "photo",
-          "pos": "top",
-          "alt": "An oil well sculpture/or Monument featuring oil well/ before MOL (Petroleum) Group Building, Október huszonharmadika Street, Lágymányos, District XI of Budapest.",
-          "credit": "Globetrotter19 / Wikimedia Commons",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:BUD_MOL_Group_Oil_Well.JPG",
-          "vision_score": 7.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/E.ON_Hung%C3%A1ria%2C_Esze_Tam%C3%A1s_Stra%C3%9Fe%2C_2022_Sz%C3%A9kesfeh%C3%A9rv%C3%A1r.jpg/1280px-E.ON_Hung%C3%A1ria%2C_Esze_Tam%C3%A1s_Stra%C3%9Fe%2C_2022_Sz%C3%A9kesfeh%C3%A9rv%C3%A1r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "E.ON Hungária‎ South Transdanubian Gas Distribution Co. Esze Tamás Street Station - c. 4 Esze Tamás Street, Székesfehérvár, Fejér County, Hungary.",
-          "credit": "Globetrotter19 / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:E.ON_Hung%C3%A1ria,_Esze_Tam%C3%A1s_Stra%C3%9Fe,_2022_Sz%C3%A9kesfeh%C3%A9rv%C3%A1r.jpg",
-          "vision_score": 6.0
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/E.ON_East-Hungarian_Electricity_Network_Co.%2C_2017_M%C3%A1t%C3%A9szalka.jpg/1280px-E.ON_East-Hungarian_Electricity_Network_Co.%2C_2017_M%C3%A1t%C3%A9szalka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "width": 1200,
-          "height": 900,
-          "kind": "photo",
-          "pos": "center",
-          "alt": "E.ON East-Hungarian Electricity Network Co. - Bajcsy-Zsilinszky Street, Mátészalka, Szabolcs-Szatmár-Bereg County, Hungary.",
-          "credit": "Globetrotter19 / Wikimedia Commons",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:E.ON_East-Hungarian_Electricity_Network_Co.,_2017_M%C3%A1t%C3%A9szalka.jpg",
-          "vision_score": 5.0
-        }
-      ],
-      "story": [
-        {
-          "title": "Elstartolt a Portfolio Energy Investment Forum 2026 – a magyar energetika legfontosabb kérdései kerülnek terítékre",
-          "link": "https://www.portfolio.hu/gazdasag/20261008/elstartolt-a-portfolio-energy-investment-forum-2026-a-magyar-energetika-legfontosabb-kerdesei-kerulnek-teritekre-868162",
-          "summary": "Csütörtökön elindult a Portfolio Energy Investment Forum 2026, ahol a magyar és európai energiaszektor meghatározó döntéshozói, vállalatvezetők és nemzetközi szakértők vitatják meg az ágazat legfontosabb kihívásait. A konferencia fókuszában az európai versenyképesség, az energiabiztonság, a geopolitikai átrendeződés és a zöld átállás áll. A nyitószekcióban Tótth András energetikai államtitkár a következő négy év energiapolitikai prioritásait ismerteti, a délutáni programban pedig a napenergia utáni következő nagy beruházási hullám lehetőségeit, a földgázpiac átalakulását és az orosz energiahor",
-          "source": "portfolio.hu",
-          "related": null,
-          "hot_score": 6.0
-        }
-      ],
-      "category_meta": {
-        "source_links": [
-          "https://www.portfolio.hu/gazdasag/20261008/elstartolt-a-portfolio-energy-investment-forum-2026-a-magyar-energetika-legfontosabb-kerdesei-kerulnek-teritekre-868162"
-        ]
-      },
-      "date": "2026-10-08",
-      "date_label": "október 8.",
-      "url": "/penzvilag/2026-10-08-mi-jon-az-orosz-energiahordozok-utan-itt-vannak-a-tervek/",
-      "seo": {
-        "meta_title": "Mi jön az orosz energiahordozók után? Itt vannak a tervek",
-        "meta_description": "Csütörtökön rajtolt el a Portfolio Energy Investment Forum 2026 konferencia, ahol a szakemberek a hazai energiapolitika következő négy évének stratégiáját és az",
-        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-08-mi-jon-az-orosz-energiahordozok-utan-itt-vannak-a-tervek/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/BUD_MOL_Group_Oil_Well.JPG/1280px-BUD_MOL_Group_Oil_Well.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "noindex": false,
-        "schema_type": "NewsArticle"
-      },
-      "monetization": {
-        "ads_enabled": true,
-        "brand_safety": "safe",
-        "sponsored": false,
-        "sponsor_name": null,
-        "affiliate_links": false
-      },
-      "related_ids": [],
-      "see_also": [],
-      "thread_id": null,
-      "dedupe_hash": "ce50d14d6ed246dbf68e49e6651daee40cb60a89ae09a521ada80481259c10b6",
-      "pipeline_run_id": "37736219218",
-      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-08T08:24:37+02:00",
-      "updated_at": "2026-10-08T08:24:37+02:00",
-      "published_at": "2026-10-08T08:24:37+02:00",
-      "expires_at": null,
-      "legal": {
-        "level": 0,
-        "issues": []
-      },
-      "review": {
-        "title": 5,
-        "image": 0,
-        "sent_at": "2026-10-08T06:17:22+00:00",
-        "msg_ids": [],
-        "control_id": 3762,
-        "title_prompt_id": null,
-        "compact": "✅ Kint"
-      },
-      "image_queries": [
-        "Portfolio Energy Investment Forum 2026",
-        "Rolls-Royce SMR",
-        "MOL Group",
-        "E.ON Hungária",
-        "Budapest",
-        "Tótth András",
-        "conference hall",
-        "solar panels",
-        "wind turbines"
-      ],
-      "images_seen": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/BUD_MOL_Group_H.Q..JPG/1280px-BUD_MOL_Group_H.Q..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/MOL_Group_Building%2C_L%C3%A1gym%C3%A1nyos%2C_2016_%C3%9Ajbuda.jpg/1280px-MOL_Group_Building%2C_L%C3%A1gym%C3%A1nyos%2C_2016_%C3%9Ajbuda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ],
-      "live": true
-    },
-    {
       "id": "62875770-a29c-52c3-a65b-d8993a23634e",
       "slug": "2026-10-08-nem-minden-transzzsir-ellenseg-ami-a-reggeli-kavenkba-kerul",
       "status": "published",
@@ -7689,7 +7504,7 @@
       },
       "review": {
         "title": 1,
-        "image": 0,
+        "image": 1,
         "sent_at": "2026-10-10T04:41:34+00:00",
         "msg_ids": [
           4344,
@@ -7949,8 +7764,8 @@
         "issues": []
       },
       "review": {
-        "title": 0,
-        "image": 0,
+        "title": 2,
+        "image": 3,
         "sent_at": "2026-10-10T05:10:38+00:00",
         "msg_ids": [
           4350,
@@ -8210,6 +8025,365 @@
           4371
         ],
         "control_id": 4372
+      }
+    },
+    {
+      "id": "dd1e2ff7-c689-51cc-abd7-f0ebf3b1b332",
+      "slug": "2026-10-10-allami-kezbe-kerulhet-a-hazai-gyorsforgalmi-halozat",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Tisza-kormány",
+        "gazdaság",
+        "költségvetés",
+        "feljelentés",
+        "autópálya"
+      ],
+      "title": "Állami kézbe kerülhet a hazai gyorsforgalmi hálózat",
+      "subtitle": null,
+      "lead": "Gazdasági reformokat, adóváltozásokat, valamint az autópálya-koncessziók lezárását jelentette be a Tisza-kormány a héten. A kabinet emellett korábbi befektetések ügyében tett feljelentéseket, és megkezdte a 2027-es költségvetés véglegesítését.",
+      "key_points": [
+        "Az állami tulajdonú Magyar Közút veheti át a hazai gyorsforgalmi utak üzemeltetését 2027 áprilisától.",
+        "Kapitány István gazdasági és energetikai miniszter 166 milliárd forintos EXIM-befektetés miatt tett feljelentést.",
+        "A 2027-es költségvetés terhére 500 milliárd forintos pluszforrást kap az egészségügy.",
+        "A kormány szigorítja a környezetszennyező cégekre kivetett bírságokat."
+      ],
+      "content": "Eseménydús napokat tudhat maga mögött a magyar belpolitika, miután a kabinet számos adótörvény-módosítást és strukturális döntést hozott nyilvánosságra. A Pénzügyminisztériumban tartott háttérbeszélgetésen derültek ki a kata, valamint a vagyonadó új részletei, míg Kármán András pénzügyminiszter ismertette a vonatkozó tervezeteket.\n\nA közlekedési területen is jelentős változások körvonalazódnak. Vitézy Dávid közlekedési és beruházási miniszter videójából kiderült, hogy megkezdődtek a tárgyalások a hazai autópálya-koncessziós szerződés rendezett lezárásáról, aminek célja, hogy 2027. április 1-jétől ismét az állami tulajdonú Magyar Közút kezelje a teljes hazai gyorsforgalmi úthálózatot.\n\nA gazdasági tárca vezetője, Kapitány István gazdasági és energetikai miniszter bejelentette, hogy összesen 166 milliárd forint értékű EXIM-befektetés kapcsán a gyanú szerint hűtlen kezelés, hanyag kezelés, valamint hivatali visszaélés miatt tesz feljelentést a Nemzeti Nyomozó Irodánál. Ezzel az Exim Bank átvilágítása nyomán indított eljárások összege megközelíti az 1300 milliárd forintot.\n\nAz utolsó simításoknál tartó 2027-es költségvetés részletei is szivárogni kezdtek. Magyar Péter miniszterelnök a kormányzati sajtótájékoztatón jelezte, hogy jövőre plusz 500 milliárd forintból gazdálkodhat az egészségügy, péntek este pedig Hegedűs Zsolt egészségügyi miniszter ismertette a források felhasználási terveit. Ezzel párhuzamosan a kutatás-fejlesztési keret növeléséről is megállapodás született, amit Tanács Zoltán tudományos és technológiai miniszter erősített meg.\n\nA Magyar Közlöny pénteki számai szerint szigorodnak a környezetvédelmi bírságok is: a szabályt sértő cégeknek a gyanú szerint az árbevételük legalább fél százalékát, de minimum ötmillió forintot kell fizetniük. A főváros támogatása terén is történt előrelépés, ugyanis megjelent a 120 milliárd forintos központi költségvetési támogatásról szóló kormányhatározat Budapest számára.\n\nA nemzetközi pénzügyi megítélés sem maradt el: a Bank of America közgazdászai budapesti látogatásuk után kiadott elemzésükben javultnak ítélték Magyarország euróövezeti csatlakozási esélyeit, mivel a kormány várhatóan 5 százalék alatti GDP-arányos hiánycélt tűz ki 2027-re.",
+      "content_format": "markdown",
+      "body": [
+        "Eseménydús napokat tudhat maga mögött a magyar belpolitika, miután a kabinet számos adótörvény-módosítást és strukturális döntést hozott nyilvánosságra. A Pénzügyminisztériumban tartott háttérbeszélgetésen derültek ki a kata, valamint a vagyonadó új részletei, míg Kármán András pénzügyminiszter ismertette a vonatkozó tervezeteket.",
+        "A közlekedési területen is jelentős változások körvonalazódnak. Vitézy Dávid közlekedési és beruházási miniszter videójából kiderült, hogy megkezdődtek a tárgyalások a hazai autópálya-koncessziós szerződés rendezett lezárásáról, aminek célja, hogy 2027. április 1-jétől ismét az állami tulajdonú Magyar Közút kezelje a teljes hazai gyorsforgalmi úthálózatot.",
+        "A gazdasági tárca vezetője, Kapitány István gazdasági és energetikai miniszter bejelentette, hogy összesen 166 milliárd forint értékű EXIM-befektetés kapcsán a gyanú szerint hűtlen kezelés, hanyag kezelés, valamint hivatali visszaélés miatt tesz feljelentést a Nemzeti Nyomozó Irodánál. Ezzel az Exim Bank átvilágítása nyomán indított eljárások összege megközelíti az 1300 milliárd forintot.",
+        "Az utolsó simításoknál tartó 2027-es költségvetés részletei is szivárogni kezdtek. Magyar Péter miniszterelnök a kormányzati sajtótájékoztatón jelezte, hogy jövőre plusz 500 milliárd forintból gazdálkodhat az egészségügy, péntek este pedig Hegedűs Zsolt egészségügyi miniszter ismertette a források felhasználási terveit. Ezzel párhuzamosan a kutatás-fejlesztési keret növeléséről is megállapodás született, amit Tanács Zoltán tudományos és technológiai miniszter erősített meg.",
+        "A Magyar Közlöny pénteki számai szerint szigorodnak a környezetvédelmi bírságok is: a szabályt sértő cégeknek a gyanú szerint az árbevételük legalább fél százalékát, de minimum ötmillió forintot kell fizetniük. A főváros támogatása terén is történt előrelépés, ugyanis megjelent a 120 milliárd forintos központi költségvetési támogatásról szóló kormányhatározat Budapest számára.",
+        "A nemzetközi pénzügyi megítélés sem maradt el: a Bank of America közgazdászai budapesti látogatásuk után kiadott elemzésükben javultnak ítélték Magyarország euróövezeti csatlakozási esélyeit, mivel a kormány várhatóan 5 százalék alatti GDP-arányos hiánycélt tűz ki 2027-re."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 305,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Highway_407_at_Concession_Road_6_Overpass%2C_March_28_2026_%2801%29.jpg/1280px-Highway_407_at_Concession_Road_6_Overpass%2C_March_28_2026_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Highway 407 at Concession Road 6 overpass looking west",
+        "credit": "Dillan Payne / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Highway_407_at_Concession_Road_6_Overpass,_March_28_2026_(01).jpg",
+        "vision_score": 7.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261009/tisza-kormany-feljelentes-minimalberemeles-koltsegvetes-zajlik-a-kormanyzati-munka-868526",
+          "title": "Tisza-kormány: feljelentés, minimálbéremelés, költségvetés - zajlik a kormányzati munka",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T08:19:09+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5,
+      "title_options": [
+        "Állami kézbe kerülhet a hazai gyorsforgalmi hálózat",
+        "Százmilliárdok és autópályák: átalakul a Tisza-kormány gazdaságpolitikája",
+        "Új adók, lemondatások és milliárdos feljelentések a héten",
+        "Így forgatja fel a gazdaságot a Tisza-kormány: milliárdos bejelentések sora érkezett",
+        "Ezt a 166 milliárdos Exim-befektetést vizsgálja most a rendőrség",
+        "Váratlan fordulat: visszaveszi az állam az összes autópálya üzemeltetését"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Highway_407_at_Concession_Road_6_Overpass%2C_March_28_2026_%2801%29.jpg/1280px-Highway_407_at_Concession_Road_6_Overpass%2C_March_28_2026_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Highway 407 at Concession Road 6 overpass looking west",
+          "credit": "Dillan Payne / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Highway_407_at_Concession_Road_6_Overpass,_March_28_2026_(01).jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Highway_407_at_Concession_Road_6_Overpass%2C_March_28_2026_%2802%29.jpg/1280px-Highway_407_at_Concession_Road_6_Overpass%2C_March_28_2026_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Highway 407 at Concession Road 6 overpass looking west",
+          "credit": "Dillan Payne / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Highway_407_at_Concession_Road_6_Overpass,_March_28_2026_(02).jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 732,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Parliament building, Budapest",
+          "credit": "Dirk Beyer / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest_Parliament_4604.JPG",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Tisza-kormány: feljelentés, minimálbéremelés, költségvetés - zajlik a kormányzati munka",
+          "link": "https://www.portfolio.hu/gazdasag/20261009/tisza-kormany-feljelentes-minimalberemeles-koltsegvetes-zajlik-a-kormanyzati-munka-868526",
+          "summary": "Gazdaság Tisza-kormány: feljelentés, minimálbéremelés, költségvetés - zajlik a kormányzati munka Nagy bejelentésekre készül a kormány: az autópálya-koncesszió és vagyonadó is terítékre kerülhet Hozzányúl a katához a kormány - Kármán András pénzügyminiszter ismertette a részleteket Magyar Péter nem kíméli a régi rendszer embereit, most Windisch László ÁSZ-elnököt szólította fel lemondásra Portfolio 2026. október 09. 22:37 Itt állítsd be, hogy a Portfolio az elsők között legyen a Google híreiben Eseménydúsan voltak az elmúlt napok a magyar belpolitikai életben, ugyanis az elszámoltatáshoz kapcso",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261009/tisza-kormany-feljelentes-minimalberemeles-koltsegvetes-zajlik-a-kormanyzati-munka-868526"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/kozelet/2026-10-10-allami-kezbe-kerulhet-a-hazai-gyorsforgalmi-halozat/",
+      "seo": {
+        "meta_title": "Állami kézbe kerülhet a hazai gyorsforgalmi hálózat",
+        "meta_description": "Gazdasági reformokat, adóváltozásokat, valamint az autópálya-koncessziók lezárását jelentette be a Tisza-kormány a héten. A kabinet emellett korábbi befektetése",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-allami-kezbe-kerulhet-a-hazai-gyorsforgalmi-halozat/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Highway_407_at_Concession_Road_6_Overpass%2C_March_28_2026_%2801%29.jpg/1280px-Highway_407_at_Concession_Road_6_Overpass%2C_March_28_2026_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "fb14fc7b-9ff4-5d4a-b47d-8a372b946754"
+      ],
+      "see_also": [
+        {
+          "title": "Ezt tervezik a politikusokkal: öt évre visszamenőleg vizsgálódhat a NAV",
+          "url": "/kozelet/2026-10-07-ezt-tervezik-a-politikusokkal-ot-evre-visszamenoleg-vizsgalodhat-a-na/",
+          "date": "2026-10-07"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "647af059979c371650c4b35471438d77a4ee9a081729dc20a0dda4d80b3836ef",
+      "pipeline_run_id": "38029394120",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T08:19:09+02:00",
+      "updated_at": "2026-10-10T08:19:09+02:00",
+      "published_at": "2026-10-10T08:19:09+02:00",
+      "expires_at": null,
+      "requested": true,
+      "legal": {
+        "level": 0,
+        "issues": [],
+        "auto_fixed": [
+          "Bűnügyi tartalom (feljelentés okai) ellátása a gyanú szerinti feltételes móddal."
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T06:24:18+00:00",
+        "msg_ids": [
+          4373,
+          4374,
+          4375,
+          4376
+        ],
+        "control_id": 4377
+      }
+    },
+    {
+      "id": "53977e8e-311a-5a40-949b-153bda886af8",
+      "slug": "2026-10-10-szemetbe-dobott-pajzsokkal-vedi-az-urhajosokat-a-nasa",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "NASA",
+        "űrkutatás",
+        "technológia",
+        "Mars-utazás",
+        "Hold-misszió"
+      ],
+      "title": "Szemétbe dobott pajzsokkal védi az űrhajósokat a NASA",
+      "subtitle": null,
+      "lead": "A NASA kutatói szokatlan módszerrel tesztelik a jövőbeli űrküldetések legfontosabb védőfelszerelését: a visszatérő egységek hőpajzsait egyszerűen a teherűrhajók hátramaradt hulladéka között próbálják ki. Az eljárás célja, hogy biztonságosabbá tegye az űrhajósok hazatérését a Holdról és a Marsról.",
+      "key_points": [
+        "A NASA újszerű módszerrel tesztel háromdimenziós nyomtatással készült hőpajzsokat.",
+        "A kísérlethez a teherűrhajókból kikerülő felesleges anyagokat és hulladékot használják fel.",
+        "A technológia a jövőbeli Hold- és Mars-missziók személyzetének védelmét szolgálja."
+      ],
+      "content": "A houstoni Johnson Űrközpont szakemberei egy KREPE-3 elnevezésű kapszulában helyezték el a legújabb fejlesztésű védőpajzsot a Northrop Grumman Cygnus XL 24 teherűrhajó belsejében. Az eszköz lényege, hogy háromdimenziós nyomtatással állítják elő azt a speciális szerkezetet, amelynek feladata elviselni a légkörbe való belépéskor keletkező extrém hőhatásokat.\n\nA NASA közlése szerint ezekre a hőpajzsokra azért van égető szükség, mert a távolabbi égitestekről – így a Holdról és a Marsról – visszatérő űreszközök sokkal nagyobb sebességgel érkeznek meg a Föld légkörébe, mint az alacsony Föld körüli pályáról hazatérő missziók.\n\nA mostani tesztsorozat az űrkutatásban régóta jelen lévő logisztikai kihívásokra is megoldást kínál, hiszen a már feleslegessé vált rakományt és hulladékot hasznosítják újra a mérnöki mérésekhez. A technológia finomhangolása közvetlenül hozzájárulhat ahhoz, hogy a következő évtizedekben biztonságosan léphessenek újra emberi lábak a szomszédos égitestek felszínére.",
+      "content_format": "markdown",
+      "body": [
+        "A houstoni Johnson Űrközpont szakemberei egy KREPE-3 elnevezésű kapszulában helyezték el a legújabb fejlesztésű védőpajzsot a Northrop Grumman Cygnus XL 24 teherűrhajó belsejében. Az eszköz lényege, hogy háromdimenziós nyomtatással állítják elő azt a speciális szerkezetet, amelynek feladata elviselni a légkörbe való belépéskor keletkező extrém hőhatásokat.",
+        "A NASA közlése szerint ezekre a hőpajzsokra azért van égető szükség, mert a távolabbi égitestekről – így a Holdról és a Marsról – visszatérő űreszközök sokkal nagyobb sebességgel érkeznek meg a Föld légkörébe, mint az alacsony Föld körüli pályáról hazatérő missziók.",
+        "A mostani tesztsorozat az űrkutatásban régóta jelen lévő logisztikai kihívásokra is megoldást kínál, hiszen a már feleslegessé vált rakományt és hulladékot hasznosítják újra a mérnöki mérésekhez. A technológia finomhangolása közvetlenül hozzájárulhat ahhoz, hogy a következő évtizedekben biztonságosan léphessenek újra emberi lábak a szomszédos égitestek felszínére."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 167,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Artemis_II_Heat_Shield_Installation_%28KSC-20230622-PH-CSH01_0012%29.jpg/1280px-Artemis_II_Heat_Shield_Installation_%28KSC-20230622-PH-CSH01_0012%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Teams install the heat shield on the Artemis II Orion spacecraft inside the high bay of the Neil Armstrong Operations and Checkout Building at NASA’s Kennedy Space Center in Florida on June 22, 2023.",
+        "credit": "NASA Kennedy Space Center / NASA/Cory Huston / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Artemis_II_Heat_Shield_Installation_(KSC-20230622-PH-CSH01_0012).jpg",
+        "vision_score": 9.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/",
+          "title": "NASA Demonstrates Next-Generation Heat Shield Technologies - NASA",
+          "publisher": "nasa.gov",
+          "license": null,
+          "accessed_at": "2026-10-10T08:24:27+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5,
+      "title_options": [
+        "Szemétbe dobott pajzsokkal védi az űrhajósokat a NASA",
+        "Az űrszemét hasznosításával kísérletezik a NASA",
+        "Így teszteli az új hőpajzsokat a houstoni űrközpont",
+        "Meghökkentő helyen talált rá a jövő űrtechnológiájára a NASA",
+        "Kiderült, hogyan hasznosítják újra az űreszközök maradékát",
+        "Ezzel a meghökkentő módszerrel tesztelik a Mars-utazás legfontosabb védelmét"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Artemis_II_Heat_Shield_Installation_%28KSC-20230622-PH-CSH01_0012%29.jpg/1280px-Artemis_II_Heat_Shield_Installation_%28KSC-20230622-PH-CSH01_0012%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Teams install the heat shield on the Artemis II Orion spacecraft inside the high bay of the Neil Armstrong Operations and Checkout Building at NASA’s Kennedy Space Center in Florida on June 22, 2023.",
+          "credit": "NASA Kennedy Space Center / NASA/Cory Huston / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Artemis_II_Heat_Shield_Installation_(KSC-20230622-PH-CSH01_0012).jpg",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/JPL_testing_a_heat_shield_for_reentering_missile_warheads.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1155,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Spurned  in  their  bid  to launch a scientific satellite, the JPL–Army team \nturned their attention to testing a heat shield for \n\nreentering missile warhead (1957)",
+          "credit": "NASA / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:JPL_testing_a_heat_shield_for_reentering_missile_warheads.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_heat_shield_for_the_Orion_spacecraft.jpg/1280px-The_heat_shield_for_the_Orion_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The heat shield for the Orion spacecraft has been placed on a work stand inside the Operations and Checkout Building high bay at NASA’s Kennedy Space Center in Florida.",
+          "credit": "NASA/Mike Chambers / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:The_heat_shield_for_the_Orion_spacecraft.jpg",
+          "vision_score": 9.0
+        }
+      ],
+      "story": [
+        {
+          "title": "NASA Demonstrates Next-Generation Heat Shield Technologies - NASA",
+          "link": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/",
+          "summary": "Search Suggested Searches Artemis ISS Roman Webb Quesst Moon Base View All Topics A-Z Home Missions Humans in Space Earth The Solar System The Universe Science Aeronautics Technology Learning Resources About NASA Español News & Events Multimedia NASA+ Featured 4 min read NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival article 2 days ago 5 min read NASA’s SPHEREx Telescope Sees Menagerie of Brown Dwarfs article 1 day ago 3 min read What’s Up: October 2026 Skywatching Tips from NASA article 1 week ago Back Missions Search All NASA Missions A to Z List of Missions Upcoming Lau",
+          "source": "nasa.gov",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/tech/2026-10-10-szemetbe-dobott-pajzsokkal-vedi-az-urhajosokat-a-nasa/",
+      "seo": {
+        "meta_title": "Szemétbe dobott pajzsokkal védi az űrhajósokat a NASA",
+        "meta_description": "A NASA kutatói szokatlan módszerrel tesztelik a jövőbeli űrküldetések legfontosabb védőfelszerelését: a visszatérő egységek hőpajzsait egyszerűen a teherűrhajók",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-10-szemetbe-dobott-pajzsokkal-vedi-az-urhajosokat-a-nasa/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Artemis_II_Heat_Shield_Installation_%28KSC-20230622-PH-CSH01_0012%29.jpg/1280px-Artemis_II_Heat_Shield_Installation_%28KSC-20230622-PH-CSH01_0012%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "d3c5cc45db338de0028f58a72500a1baafd8e922446d7d7e7d38a93c03364f7f",
+      "pipeline_run_id": "38029394120",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T08:24:27+02:00",
+      "updated_at": "2026-10-10T08:24:27+02:00",
+      "published_at": "2026-10-10T08:24:27+02:00",
+      "expires_at": null,
+      "requested": true,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T06:27:04+00:00",
+        "msg_ids": [
+          4378,
+          4379,
+          4380,
+          4381
+        ],
+        "control_id": 4382
       }
     }
   ]
