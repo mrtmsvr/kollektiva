@@ -7955,6 +7955,1461 @@
         "compact": "✅ Kint"
       },
       "live": true
+    },
+    {
+      "id": "98797f98-dce0-5b32-b3ed-0f510c570b04",
+      "slug": "2026-10-10-erzestelenites-nelkul-ivartalanitott-disznot-egy-no-szentlorincen",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "állatkínzás",
+        "Szentlőrinc",
+        "Nébih",
+        "rendőrség",
+        "Baranya vármegye"
+      ],
+      "title": "Érzéstelenítés nélkül ivartalanított disznót egy nő Szentlőrincen",
+      "subtitle": null,
+      "lead": "Nyomozást indított a rendőrség és a Nébih egy baranyai eset miatt, miután egy nő a háza udvarán, érzéstelenítés nélkül ivartalanított egy sertést. Az esetről készült felvételt egy állatvédő alapítvány vezetője hozta nyilvánosságra.",
+      "key_points": [
+        "Szentlőrincen, a háza udvarán végzett állatorvosi beavatkozást egy nő.",
+        "A procedúra közben ketten fogták le a menekülni próbáló állatot.",
+        "A tetthelyen készült videót az elkövetők maguk osztották meg a közösségi oldalon.",
+        "A rendőrség és a Nébih is hivatalos vizsgálatot indított az ügyben."
+      ],
+      "content": "Nyilvánosságra került egy felvétel, amelyen az látható, hogy egy Baranya megyei településen, Szentlőrincen egy nő érzéstelenítés nélkül végez el egy állatorvosi beavatkozást egy disznón. A helyszínen készült képek szerint a barbár művelet során ketten is lefogták a menekülni próbáló állatot. A felvételt az RTL Híradó mutatta be pénteken, miután a Nyújts Kezet A Mancsokért Alapítvány vezetője közzétette azt.\n\nAz állatvédők azonnal feljelentést tettek a hatóságoknál. A helyiek elmondása alapján a videó szereplői nem először hajthattak végre hasonló kegyetlen cselekményt. A megkérdezett szakemberek hangsúlyozzák, hogy az ilyen jellegű beavatkozások elvégzése kizárólag szakképzett állatorvos feladata lenne.\n\nAz ügyben a Szigetvári Rendőrkapitányság feljelentés-kiegészítést rendelt el a tényállás tisztázása, valamint annak eldöntése érdekében, hogy történt-e bűncselekmény. Ezzel párhuzamosan a Nemzeti Élelmiszerlánc-biztonsági Hivatal is jelezte, hogy felveszi a kapcsolatot a területileg illetékes állategészségügyi hatósággal a jogsértések feltárása végett.\n\nA hatósági vizsgálatok célja annak kiderítése, hogy megvalósult-e a jogosulatlan állategészségügyi tevékenység, illetve milyen állatvédelmi előírásokat hágtak át a szereplők a brutális beavatkozás során.",
+      "content_format": "markdown",
+      "body": [
+        "Nyilvánosságra került egy felvétel, amelyen az látható, hogy egy Baranya megyei településen, Szentlőrincen egy nő érzéstelenítés nélkül végez el egy állatorvosi beavatkozást egy disznón. A helyszínen készült képek szerint a barbár művelet során ketten is lefogták a menekülni próbáló állatot. A felvételt az RTL Híradó mutatta be pénteken, miután a Nyújts Kezet A Mancsokért Alapítvány vezetője közzétette azt.",
+        "Az állatvédők azonnal feljelentést tettek a hatóságoknál. A helyiek elmondása alapján a videó szereplői nem először hajthattak végre hasonló kegyetlen cselekményt. A megkérdezett szakemberek hangsúlyozzák, hogy az ilyen jellegű beavatkozások elvégzése kizárólag szakképzett állatorvos feladata lenne.",
+        "Az ügyben a Szigetvári Rendőrkapitányság feljelentés-kiegészítést rendelt el a tényállás tisztázása, valamint annak eldöntése érdekében, hogy történt-e bűncselekmény. Ezzel párhuzamosan a Nemzeti Élelmiszerlánc-biztonsági Hivatal is jelezte, hogy felveszi a kapcsolatot a területileg illetékes állategészségügyi hatósággal a jogsértések feltárása végett.",
+        "A hatósági vizsgálatok célja annak kiderítése, hogy megvalósult-e a jogosulatlan állategészségügyi tevékenység, illetve milyen állatvédelmi előírásokat hágtak át a szereplők a brutális beavatkozás során."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 193,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Esterh%C3%A1zy-kast%C3%A9ly_Szentl%C5%91rinc.jpg/1280px-Esterh%C3%A1zy-kast%C3%A9ly_Szentl%C5%91rinc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 891,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "A szentlőrinci Esterházy-kastély – photo taken by uploader User:Csanády in 2006.",
+        "credit": "No machine-readable author provided. Csanády assumed (based on copyright claims) / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Esterh%C3%A1zy-kast%C3%A9ly_Szentl%C5%91rinc.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261009_illegalis-hereles-baranya-nebih",
+          "title": "Érzéstelenítés nélkül ivartalanított egy disznót egy nő Baranyában",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T10:16:43+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5,
+      "title_options": [
+        "Érzéstelenítés nélkül ivartalanított disznót egy nő Szentlőrincen",
+        "Videó készült a szentlőrinci, érzéstelenítés nélküli disznóivartalanításról",
+        "Baranyai udvaron végzett barbár állatorvosi beavatkozást egy nő",
+        "Barbár módon, érzéstelenítés nélkül kasztráltak egy disznót Szentlőrincen",
+        "Saját udvarukon, videóra véve kínoztak egy menekülő állatot Baranyában",
+        "Állatvédők feljelentése nyomán vizsgálja a rendőrség a szörnyű videót"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Esterh%C3%A1zy-kast%C3%A9ly_Szentl%C5%91rinc.jpg/1280px-Esterh%C3%A1zy-kast%C3%A9ly_Szentl%C5%91rinc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 891,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "A szentlőrinci Esterházy-kastély – photo taken by uploader User:Csanády in 2006.",
+          "credit": "No machine-readable author provided. Csanády assumed (based on copyright claims) / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Esterh%C3%A1zy-kast%C3%A9ly_Szentl%C5%91rinc.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/M%C3%A1ndi_uradalmi_kast%C3%A9ly%2C_Szentl%C5%91rinc_%28Neuwirth_Jakab_kiad%C3%A1sa%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 788,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Mándi uradalmi kastély (Esterházy-kastély), Szentlőrinc (Neuwirth Jakab kiadása)",
+          "credit": "Unknown authorUnknown author / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:M%C3%A1ndi_uradalmi_kast%C3%A9ly,_Szentl%C5%91rinc_(Neuwirth_Jakab_kiad%C3%A1sa).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Baranya_megyei_n%C3%A9metek.jpg/1280px-Baranya_megyei_n%C3%A9metek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 844,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Magyarországi németséghez tartozók földrajzi eloszlása Baranya megyében",
+          "credit": "SKPatrik / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Baranya_megyei_n%C3%A9metek.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/HUN_Baranya_megye_COA.png/1280px-HUN_Baranya_megye_COA.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1232,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "",
+          "credit": "ismeretlen szerző / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:HUN_Baranya_megye_COA.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Swedish_police_car_with_lights_on.jpg/1280px-Swedish_police_car_with_lights_on.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 803,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Photo of a Swedish police car with emergency lights activated, driving on Hornsgatan towards Zinkensdamm",
+          "credit": "ThibautRe / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Swedish_police_car_with_lights_on.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Grand_Ducal_Police_car_%28Ford%29_in_Luxembourg_City.jpg/1280px-Grand_Ducal_Police_car_%28Ford%29_in_Luxembourg_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 776,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Grand Ducal Police car in Luxembourg City",
+          "credit": "Pudelek (Marcin Szala) / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Grand_Ducal_Police_car_(Ford)_in_Luxembourg_City.jpg"
+        },
+        {
+          "url": "https://pixabay.com/get/gc516839abe0394320861d2f2ada3373f27a303e4f6ea4d4f086b884240e983b577852c1748ae7f35b5a164f35a7be0fce3584381aa9652f5936aaf8a0bef3b80_1280.jpg",
+          "width": 4512,
+          "height": 3000,
+          "kind": "photo",
+          "alt": "policewoman, police, police car, figure, fun, handcuffs, uniform, cap, police, police, police, police, police",
+          "credit": "Alexas_Fotos / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/policewoman-police-police-car-986047/"
+        },
+        {
+          "url": "https://pixabay.com/get/gf9a13c9915b2e999d29e389a652427bdabc520a8367430972923116b2cb03c05323498f3e55342c440e2d9b8030b0aa7ea28357dce6945877e1175e7e201374d_1280.jpg",
+          "width": 4512,
+          "height": 3000,
+          "kind": "photo",
+          "alt": "cop, policewoman, colleagues, fun, figure, police, funny, law enforcement officers, handcuffs, baton, uniform, cap, police car, police, police, police, police, police",
+          "credit": "Alexas_Fotos / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/cop-policewoman-colleagues-fun-1016218/"
+        }
+      ],
+      "story": [
+        {
+          "title": "Érzéstelenítés nélkül ivartalanított egy disznót egy nő Baranyában",
+          "link": "https://hvg.hu/itthon/20261009_illegalis-hereles-baranya-nebih",
+          "summary": "Ketten fogták le az állatot a barbár beavatkozás során, a rendőrség és a Nébih is vizsgálatot indított az ügyben.\nÉrzéstelenítés nélkül végzett állatorvosi beavatkozást egy disznón egy nő a háza udvarán a Baranya megyei Szentlőrincen – számolt be az RTL Híradó pénteken.\nAz erről készült videót a Nyújts Kezet A Mancsokért Alapítvány vezetője tette közzé, miután többen is elküldték neki. Az RTL úgy tudja, hogy a felvételt azok készítették és osztották meg a saját Facebook-oldalukon, akik a disznót ivartalanították. Az látszik a képeken, hogy ketten fogták le a menekülni próbáló állatot.\nAz állat",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261009_illegalis-hereles-baranya-nebih"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/kozelet/2026-10-10-erzestelenites-nelkul-ivartalanitott-disznot-egy-no-szentlorincen/",
+      "seo": {
+        "meta_title": "Érzéstelenítés nélkül ivartalanított disznót egy nő Szentlőr",
+        "meta_description": "Nyomozást indított a rendőrség és a Nébih egy baranyai eset miatt, miután egy nő a háza udvarán, érzéstelenítés nélkül ivartalanított egy sertést. Az esetről ké",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-erzestelenites-nelkul-ivartalanitott-disznot-egy-no-szentlorincen/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Esterh%C3%A1zy-kast%C3%A9ly_Szentl%C5%91rinc.jpg/1280px-Esterh%C3%A1zy-kast%C3%A9ly_Szentl%C5%91rinc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "471c15753be7046008ff032eaabf6432f7fe4a9015009f78dfef5f90494068ad",
+      "pipeline_run_id": "38035254687",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T10:16:43+02:00",
+      "updated_at": "2026-10-10T10:16:43+02:00",
+      "published_at": "2026-10-10T10:16:43+02:00",
+      "expires_at": null,
+      "requested": true,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T08:17:50+00:00",
+        "msg_ids": [
+          4407,
+          4408,
+          4409,
+          4410,
+          4411,
+          4412,
+          4413,
+          4414,
+          4415
+        ],
+        "control_id": 4416
+      }
+    },
+    {
+      "id": "10c63f6b-409c-5a5f-8925-904c3b141d2f",
+      "slug": "2026-10-10-hatvan-ev-utan-megvan-a-voros-macskak-titka",
+      "status": "pending",
+      "category": "tech",
+      "subcategory": null,
+      "tags": [
+        "macska",
+        "genetika",
+        "tudomány",
+        "Stanford Egyetem"
+      ],
+      "title": "Hatvan év után megvan a vörös macskák titka",
+      "subtitle": null,
+      "lead": "Hatvan év fejtörés után a kutatók végre megfejtették, miért lesz egyes macskák szőre vörös. A Stanford Egyetem szakemberei rájöttek, hogy a különleges bunda egy váratlan DNS-kiesés következménye.",
+      "key_points": [
+        "A Stanford Egyetem kutatói vizsgálták meg a vörös macskák genetikai mintáit.",
+        "A vörös szín egy nem fehérjekódoló régióból hiányzó DNS-szakasz miatt alakul ki.",
+        "A vizsgált bőrsejtekben az Arhgap36 nevű génből származó RNS mennyisége tizenháromszoros volt.",
+        "A mutáció az X kromoszómán található, ami megmagyarázza a nemek közötti eltéréseket."
+      ],
+      "content": "A macskák vörös szőrzete régóta az állatgenetika egyik legmakacsabb rejtélye volt, mivel ez a szín nem követte a szokásos öröklődési szabályokat. A Stanford Egyetem kutatói 188 macska biológiai adatait és bőrmintáit vizsgálták meg, amelyek közül csupán 37 bundájában nem voltak vörös foltok.\n\nGreg Barsh genetikus csapata azt találta, hogy a vörös szőrű macskák bőrsejtjeiben az Arhgap36 nevű génből származó RNS mennyisége tizenháromszor magasabb volt a nem vörös egyedekhez képest. A kutatók eredetileg a gén fehérjekódoló szakaszán vártak mutációt, ám a változás a gént megelőző szekvenciában történt.\n\nA Science Alert beszámolója szerint a vörös szín a macska genomjának egy nem fehérjekódoló régiójából hiányzó DNS-szakasz következménye, amely befolyásolja a gén további részének kifejeződését. Ez a mutáció a macskák X kromoszómáján helyezkedik el, ami megmagyarázza, hogy a vörös bundás egyedek többsége miért hím, míg a nőstényeknél ez inkább vöröses foltokban jelenik meg.",
+      "content_format": "markdown",
+      "body": [
+        "A macskák vörös szőrzete régóta az állatgenetika egyik legmakacsabb rejtélye volt, mivel ez a szín nem követte a szokásos öröklődési szabályokat. A Stanford Egyetem kutatói 188 macska biológiai adatait és bőrmintáit vizsgálták meg, amelyek közül csupán 37 bundájában nem voltak vörös foltok.",
+        "Greg Barsh genetikus csapata azt találta, hogy a vörös szőrű macskák bőrsejtjeiben az Arhgap36 nevű génből származó RNS mennyisége tizenháromszor magasabb volt a nem vörös egyedekhez képest. A kutatók eredetileg a gén fehérjekódoló szakaszán vártak mutációt, ám a változás a gént megelőző szekvenciában történt.",
+        "A Science Alert beszámolója szerint a vörös szín a macska genomjának egy nem fehérjekódoló régiójából hiányzó DNS-szakasz következménye, amely befolyásolja a gén további részének kifejeződését. Ez a mutáció a macskák X kromoszómáján helyezkedik el, ami megmagyarázza, hogy a vörös bundás egyedek többsége miért hím, míg a nőstényeknél ez inkább vöröses foltokban jelenik meg."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 168,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://pixabay.com/get/gfbdf8c92156f8bb50e6ce201571f51fdbce87ed80cc5f01b026b0b9baefd9dcef0f8c313c44c91efc72feb213fac30270790d987107ef1a95e276bb70332e3fd_1280.jpg",
+        "width": 5040,
+        "height": 3360,
+        "kind": "photo",
+        "alt": "cat, front door, pet, feline, nature, animal",
+        "credit": "MolnarSzabolcsErdely / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/cat-front-door-pet-feline-animal-6946498/",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261009_voros-macskak-szine-rejtely-genek",
+          "title": "60 éves titok derült ki a vörös macskákról",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T10:16:49+02:00"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSHVQaFhXNUdOQmZ1c3RwTHQ1dGtvOFFYZ3p1X09kQUltTHhVNTFjUEVBYWFjU2dpMjg3cHJEZVJkekhhMmZoel9IRVItSE9TTlIyUC1pdTFyWEFyZ3NpYnZLUS1odHpEUnhnUGRXYW5kSWpl?oc=5",
+          "title": "Tech: 60 éves titok derült ki a vörös macskákról - | hvg.hu",
+          "publisher": "news.google.com",
+          "license": null,
+          "accessed_at": "2026-10-10T10:16:49+02:00"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX1JBMG5tQTZBTEVoQXYzbXJFOC1QVmdSWkU2Y3dwNVRzUmxSNDNJSWNpVzFSZmFER1l6MENXNWd6Qy05WWdmZTQ2b0NRTFlHaEgya1hnTjVmbldvQ0RKci1vLUhFLWxMUlkwWXNNUC1tVXJUUE5QVkNWV25TeEtsQkhxbHIxYnplRm1Z?oc=5",
+          "title": "Végre megfejtették a vörös macskák több évtizedes titkát - Blikk",
+          "publisher": "news.google.com",
+          "license": null,
+          "accessed_at": "2026-10-10T10:16:49+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5,
+      "title_options": [
+        "Hatvan év után megvan a vörös macskák titka",
+        "Miért vörösek a macskák? Hat évtized rejtélye oldódott meg",
+        "Genetikai hiba okozza a macskák ritka vörös bundáját",
+        "Végre kiderült: ez a bizarr genetikai hiba okozza a vörös macskák bundáját",
+        "Hat évtizedes biológiai rejtélyt fejtettek meg a kutatók a macskák színe mögött",
+        "Nem hitték el a genetikusok, amit a vörös macskák bőrében találtak"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://pixabay.com/get/gfbdf8c92156f8bb50e6ce201571f51fdbce87ed80cc5f01b026b0b9baefd9dcef0f8c313c44c91efc72feb213fac30270790d987107ef1a95e276bb70332e3fd_1280.jpg",
+          "width": 5040,
+          "height": 3360,
+          "kind": "photo",
+          "alt": "cat, front door, pet, feline, nature, animal",
+          "credit": "MolnarSzabolcsErdely / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/cat-front-door-pet-feline-animal-6946498/",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Ginger_cat_on_the_street07.jpg/1280px-Ginger_cat_on_the_street07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Ginger cat",
+          "credit": "Panpanchik / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ginger_cat_on_the_street07.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://pixabay.com/get/g05617625f2b91c07fcae1af33355fef6f4f99aed61c838068fa4ea63236602cfccbdf2bdeafd1e44f581c296bdb2ee2e1279543271a9badaf125bcac756d6609_1280.jpg",
+          "width": 3872,
+          "height": 2592,
+          "kind": "photo",
+          "alt": "cat, feline, pet, animal, domestic, fluffy, fur, kitty, adorable, portrait, ginger cat, garfield",
+          "credit": "Dylka / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/cat-feline-pet-domestic-fluffy-1245963/",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Ginger_cat_on_the_street.jpg/1280px-Ginger_cat_on_the_street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Ginger cat",
+          "credit": "Panpanchik / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ginger_cat_on_the_street.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Stanford_Memorial_Church_May_2011_HDR_1.jpg/1280px-Stanford_Memorial_Church_May_2011_HDR_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Stanford Memorial Church. HDR created from 9 images taken at ISO 100 with f/8 aperture and shutter speeds ranging from 1/8 to 30 sec in full stops. Photoshop Merge to HDR Pro was used.",
+          "credit": "King of Hearts / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Stanford_Memorial_Church_May_2011_HDR_1.jpg",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "60 éves titok derült ki a vörös macskákról",
+          "link": "https://hvg.hu/tudomany/20261009_voros-macskak-szine-rejtely-genek",
+          "summary": "A kutatók hat évtizeden át próbáltak választ találni a kérdésre, hogy miért lesz egyes macskák szőre vörös színű. A válasz már megszületett.\nHa az egész emberiséget nem is, a kutatókat már 60 éve gyötri a kérdés, hogy miért lesz bizonyos macskák szőre vörös. Ez a fajta szőrzet a macskák egyik legjellegzetesebb vonása, ugyanakkor a macskagenetika egyik legmakacsabb rejtélye is. A legtöbb emlős szőrzetszínével ellentétben ez a szín nem követi a szokásos öröklődési szabályokat, és arra sem tudtak rájönni a tudósok, hogy mely gén lehet a felelős a kialakulásáért.\nA Stanford Egyetem kutatói a macsk",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": null
+        },
+        {
+          "title": "Tech: 60 éves titok derült ki a vörös macskákról - | hvg.hu",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSHVQaFhXNUdOQmZ1c3RwTHQ1dGtvOFFYZ3p1X09kQUltTHhVNTFjUEVBYWFjU2dpMjg3cHJEZVJkekhhMmZoel9IRVItSE9TTlIyUC1pdTFyWEFyZ3NpYnZLUS1odHpEUnhnUGRXYW5kSWpl?oc=5",
+          "summary": "Tech: 60 éves titok derült ki a vörös macskákról | hvg.hu",
+          "source": "news.google.com",
+          "related": null,
+          "hot_score": null
+        },
+        {
+          "title": "Végre megfejtették a vörös macskák több évtizedes titkát - Blikk",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX1JBMG5tQTZBTEVoQXYzbXJFOC1QVmdSWkU2Y3dwNVRzUmxSNDNJSWNpVzFSZmFER1l6MENXNWd6Qy05WWdmZTQ2b0NRTFlHaEgya1hnTjVmbldvQ0RKci1vLUhFLWxMUlkwWXNNUC1tVXJUUE5QVkNWV25TeEtsQkhxbHIxYnplRm1Z?oc=5",
+          "summary": "Végre megfejtették a vörös macskák több évtizedes titkát Blikk",
+          "source": "news.google.com",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261009_voros-macskak-szine-rejtely-genek",
+          "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSHVQaFhXNUdOQmZ1c3RwTHQ1dGtvOFFYZ3p1X09kQUltTHhVNTFjUEVBYWFjU2dpMjg3cHJEZVJkekhhMmZoel9IRVItSE9TTlIyUC1pdTFyWEFyZ3NpYnZLUS1odHpEUnhnUGRXYW5kSWpl?oc=5",
+          "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX1JBMG5tQTZBTEVoQXYzbXJFOC1QVmdSWkU2Y3dwNVRzUmxSNDNJSWNpVzFSZmFER1l6MENXNWd6Qy05WWdmZTQ2b0NRTFlHaEgya1hnTjVmbldvQ0RKci1vLUhFLWxMUlkwWXNNUC1tVXJUUE5QVkNWV25TeEtsQkhxbHIxYnplRm1Z?oc=5"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/tech/2026-10-10-hatvan-ev-utan-megvan-a-voros-macskak-titka/",
+      "seo": {
+        "meta_title": "Hatvan év után megvan a vörös macskák titka",
+        "meta_description": "Hatvan év fejtörés után a kutatók végre megfejtették, miért lesz egyes macskák szőre vörös. A Stanford Egyetem szakemberei rájöttek, hogy a különleges bunda egy",
+        "canonical_url": "https://xn--kollektva-m5a.hu/tech/2026-10-10-hatvan-ev-utan-megvan-a-voros-macskak-titka/",
+        "og_image": "https://pixabay.com/get/gfbdf8c92156f8bb50e6ce201571f51fdbce87ed80cc5f01b026b0b9baefd9dcef0f8c313c44c91efc72feb213fac30270790d987107ef1a95e276bb70332e3fd_1280.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "9eee21e672cbbe2f15996ebd34ec55633bbe637f72b939a071afaf398b31dd78",
+      "pipeline_run_id": "38035254687",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T10:16:49+02:00",
+      "updated_at": "2026-10-10T10:16:49+02:00",
+      "published_at": "2026-10-10T10:16:49+02:00",
+      "expires_at": null,
+      "requested": true,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T08:18:27+00:00",
+        "msg_ids": [
+          4417,
+          4418,
+          4419,
+          4420,
+          4421,
+          4422
+        ],
+        "control_id": 4423
+      }
+    },
+    {
+      "id": "e6e08748-9fe3-5473-b95a-04e00f96b450",
+      "slug": "2026-10-10-olajcsapda-es-kotvenynyomas-nem-kell-150-dollar-a-bajhoz",
+      "status": "pending",
+      "category": "penzvilag",
+      "subcategory": null,
+      "tags": [
+        "olajár",
+        "infláció",
+        "kötvénypiac",
+        "gazdaság",
+        "befektetés"
+      ],
+      "title": "Olajcsapda és kötvénynyomás: nem kell 150 dollár a bajhoz",
+      "subtitle": null,
+      "lead": "Az európai Brent olaj tőzsdei ára a nyári hordónkénti 70 dollárról őszre 100 dollár közelébe emelkedett, ami a globális kötvénypiaci nyomással kombinálva komoly inflációs kockázatokat hordoz. Németh Gábor, a VIG Alapkezelő szakértője szerint a tartósan magas energiaárak és a technológiai beruházások együttese alapjaiban változtathatja meg a gazdasági környezetet.",
+      "key_points": [
+        "A Brent olaj ára július elejétől szeptember végére 70 dollárról 100 dollár közelébe drágult.",
+        "Az amerikai tízéves államkötvény hozama október 1-jén 5,34%-ra nőtt, ami 2002 óta a legmagasabb szint.",
+        "Az Alphabet, az Amazon, a Meta, a Microsoft és az Oracle 2026-ban összesen 220 milliárd dollár értékben bocsátott ki kötvényt.",
+        "Az amerikai GDP a második negyedévben évesítve 2,2%-kal bővült."
+      ],
+      "content": "Az olajsokk első heteiben a piac leginkább a címlapi inflációt és a geopolitikai prémiumot árazza, ám ha az energiaárak hónapokon át magasan maradnak, a költségek fokozatosan megjelennek az árképzésben, a vállalati marzsokban, a bérekben és végül a monetáris politikában is. Július elején az Európában irányadó Brent olaj tőzsdei ára még hordónként 70 dollár körül forgott, szeptember végére és október elejére azonban a decemberi kurzus már 100 dollár közelébe emelkedett – írta a Portfolio.hu elemzésében.\n\nA rövid és a tartós olajsokk között alapvető különbség van, hiszen egy néhány hetes emelkedés leginkább az üzemanyagárakon keresztül érezteti hatását. Ha azonban a helyzet egy negyedévig vagy annál tovább tart, a háztartások energiaköltségvetése, a vállalati inputköltségek és a kamatpálya is idomul a változásokhoz. A fejlett gazdaságokat vizsgáló kutatások szerint egy tartós, 10 százalékos olajár-emelkedés gyorsan, közel 2,5 százalékkal emeli az energiaár-indexet, míg a másodkörös hatások akár nyolc negyedéven keresztül épülnek fel.\n\nA jelenlegi helyzetet tovább nehezíti, hogy az olajdrágulás olyan kötvénypiacot érint, amelyre már eleve több strukturális, a hozamokat felhajtó erő nehezedik. Az amerikai Kincstár 2026 harmadik és negyedik negyedévében nagyjából 600-600 milliárd dollárnyi nettó, piacképes hitelfelvétellel számol a magas államadósság és a tartós költségvetési deficit miatt. Ehhez csatlakozik a vállalati oldal is: a nagy technológiai cégek, így az Alphabet, az Amazon, a Meta, a Microsoft és az Oracle 2026-ban már 220 milliárd dollárnyi kötvényt bocsátottak ki az adatközpontok és a mesterségesintelligencia-modellek finanszírozására, ami több mint a duplája az egy évvel korábbi volumennek.\n\nEzzel párhuzamosan az amerikai gazdaság sem mutatja a lassulás jeleit, hiszen a GDP a második negyedévben évesítve 2,2 százalékkal nőtt, az első negyedéves adatot pedig 2,5 százalékra módosították. Az amerikai tízéves államkötvény hozama október 1-jén 5,34 százalékot ért el, ami 2002 óta a legmagasabb szintet jelenti. A tartósan 100 dollár körüli olajár, a rekordmagas állampapír-kínálat és az ellenálló gazdasági növekedés együttese így komoly bizonytalanságot teremt az egyensúlyi kamatszint körül a mindennapokban.\n\nA mindennapi életben ez azt jelenti, hogy a globális megtakarításokért egyszerre verseng az állami és a vállalati szféra, miközben az inflációs nyomás és a magasabb finanszírozási költségek a lakossági hitelkamatokban és a mindennapi árakban is visszaköszönhetnek. Ha a beruházási kereslet és a potenciális növekedés strukturálisan erősebb marad, a makrogazdasági kereslet lehűtéséhez a jövőben jóval magasabb nominális és reálhozamokra lesz szükség.",
+      "content_format": "markdown",
+      "body": [
+        "Az olajsokk első heteiben a piac leginkább a címlapi inflációt és a geopolitikai prémiumot árazza, ám ha az energiaárak hónapokon át magasan maradnak, a költségek fokozatosan megjelennek az árképzésben, a vállalati marzsokban, a bérekben és végül a monetáris politikában is. Július elején az Európában irányadó Brent olaj tőzsdei ára még hordónként 70 dollár körül forgott, szeptember végére és október elejére azonban a decemberi kurzus már 100 dollár közelébe emelkedett – írta a Portfolio.hu elemzésében.",
+        "A rövid és a tartós olajsokk között alapvető különbség van, hiszen egy néhány hetes emelkedés leginkább az üzemanyagárakon keresztül érezteti hatását. Ha azonban a helyzet egy negyedévig vagy annál tovább tart, a háztartások energiaköltségvetése, a vállalati inputköltségek és a kamatpálya is idomul a változásokhoz. A fejlett gazdaságokat vizsgáló kutatások szerint egy tartós, 10 százalékos olajár-emelkedés gyorsan, közel 2,5 százalékkal emeli az energiaár-indexet, míg a másodkörös hatások akár nyolc negyedéven keresztül épülnek fel.",
+        "A jelenlegi helyzetet tovább nehezíti, hogy az olajdrágulás olyan kötvénypiacot érint, amelyre már eleve több strukturális, a hozamokat felhajtó erő nehezedik. Az amerikai Kincstár 2026 harmadik és negyedik negyedévében nagyjából 600-600 milliárd dollárnyi nettó, piacképes hitelfelvétellel számol a magas államadósság és a tartós költségvetési deficit miatt. Ehhez csatlakozik a vállalati oldal is: a nagy technológiai cégek, így az Alphabet, az Amazon, a Meta, a Microsoft és az Oracle 2026-ban már 220 milliárd dollárnyi kötvényt bocsátottak ki az adatközpontok és a mesterségesintelligencia-modellek finanszírozására, ami több mint a duplája az egy évvel korábbi volumennek.",
+        "Ezzel párhuzamosan az amerikai gazdaság sem mutatja a lassulás jeleit, hiszen a GDP a második negyedévben évesítve 2,2 százalékkal nőtt, az első negyedéves adatot pedig 2,5 százalékra módosították. Az amerikai tízéves államkötvény hozama október 1-jén 5,34 százalékot ért el, ami 2002 óta a legmagasabb szintet jelenti. A tartósan 100 dollár körüli olajár, a rekordmagas állampapír-kínálat és az ellenálló gazdasági növekedés együttese így komoly bizonytalanságot teremt az egyensúlyi kamatszint körül a mindennapokban.",
+        "A mindennapi életben ez azt jelenti, hogy a globális megtakarításokért egyszerre verseng az állami és a vállalati szféra, miközben az inflációs nyomás és a magasabb finanszírozási költségek a lakossági hitelkamatokban és a mindennapi árakban is visszaköszönhetnek. Ha a beruházási kereslet és a potenciális növekedés strukturálisan erősebb marad, a makrogazdasági kereslet lehűtéséhez a jövőben jóval magasabb nominális és reálhozamokra lesz szükség."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 3,
+      "word_count": 428,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Brent_crude_oil_prices_and_exploration_and_development_expenditures_for_102_exploration_and_development_companies_in_2010_through_2019_%2849970299977%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 614,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "According to the financial reports analyzed by the U.S. Energy Information Administration (EIA), global expenditures related to oil and natural gas exploration and development (E&amp;D) increased $42",
+        "credit": "U.S. Energy Information Administration / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Brent_crude_oil_prices_and_exploration_and_development_expenditures_for_102_exploration_and_development_companies_in_2010_through_2019_(49970299977).png"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/uzlet/20261010/nem-kell-150-dollaros-olaj-ahhoz-hogy-nagyon-fajjon-867446",
+          "title": "Nem kell 150 dolláros olaj ahhoz, hogy nagyon fájjon",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T10:15:43+02:00"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZjlVT0FtVWtxR1FkVmlOX3g5V1hqU1RYekl4WWJEc3lSanZwbHNUNHJlTWFCZEdfb3AzRkd2ZzZEbloyeU55M1c5UUFXY2pRZFA3cnF3UzJGSTNOTGlBTjYyc1d4enJveVAydXctRFpUbHAwTjB5eHl3VGRYMVlrcmlCb0VFMHFEQVBReV9jbl9WaGsxbHZuSHAtU0RYSEnSAaQBQVVfeXFMT25MRVRod0hycGZhb3I4TVhGd01HUXhHd0FlUlA4ckNLZFkxZEJaX2huSUdLaFdEQnZkUjloYXVkY2NDbjVJUmRTYXo5c045M0lkcDJwSlpPdXBRczdWeksyOEtsa1M3VHJJMG1hMlZEaVhDQUFpUllDRXY0Q0NFZ3NMdENiSXEzWU4za3RNUTUxQU5BLU1MRnlJdXFFZ3E1MFlOMHY?oc=5",
+          "title": "Nem kell 150 dolláros olaj ahhoz, hogy nagyon fájjon - Portfolio.hu",
+          "publisher": "news.google.com",
+          "license": null,
+          "accessed_at": "2026-10-10T10:15:43+02:00"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRmFuN05lMGs4VjdLLVNhUWtyNzhqZkIxNVI3d1dTVWRSZHFYWGtackdnSE94MEpDQ0lNYkplZHlJTmg4VjhJV1pQUEF0OFhlb1NKWGVpNW9HLURuMHFHTzhHOTVzVjlNZVFzQ25McjVrNVByT3k0Z1o0X3Y2RzRzcGRYM1NTNzh6aXgyQ1dQQzYwdw?oc=5",
+          "title": "Nem kell 150 dolláros olaj ahhoz, hogy nagyon fájjon - Hirnavigator",
+          "publisher": "news.google.com",
+          "license": null,
+          "accessed_at": "2026-10-10T10:15:43+02:00"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTlFJb0FkQU9YY3JUcHFxZEZ6STlVNEh2N3l6SkppNWQxeTdxa21WLWZyYldyYnNqYnppQk55RjY4SklfTFNyeTBRYWs5TmoteVhoWjlKRmo3MzVzVlpJWDA3VFlRZDJVZUg1S2tIUXNzV1d5eUdUQUVLZWNEd1hZQVRYQXRURDF6VXF0V3JlUkZUQjhhemlacm1B?oc=5",
+          "title": "Nem kell 150 dolláros olaj ahhoz, hogy nagyon fájjon - Hírstart",
+          "publisher": "news.google.com",
+          "license": null,
+          "accessed_at": "2026-10-10T10:15:43+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5,
+      "title_options": [
+        "Olajcsapda és kötvénynyomás: nem kell 150 dollár a bajhoz",
+        "Olcsóbb olaj is elég a dráguláshoz",
+        "Drágább energia, rekordhozamok: itt a 2026-os piaci helyzet",
+        "Ezt a pénzügyi vihart senki sem várta: miért drágul minden egyszerre?",
+        "Megszólaltak az elemzők: ennyibe kerül most az AI-boom a pénztárcánknak",
+        "Történelmi csúcson a hozamok: hová vezet az olajár váratlan ugrása?"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Brent_crude_oil_prices_and_exploration_and_development_expenditures_for_102_exploration_and_development_companies_in_2010_through_2019_%2849970299977%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 614,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "According to the financial reports analyzed by the U.S. Energy Information Administration (EIA), global expenditures related to oil and natural gas exploration and development (E&amp;D) increased $42",
+          "credit": "U.S. Energy Information Administration / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Brent_crude_oil_prices_and_exploration_and_development_expenditures_for_102_exploration_and_development_companies_in_2010_through_2019_(49970299977).png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Brent_crude_oil_map.png/1280px-Brent_crude_oil_map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 927,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Location of Brent oil platform in the North Sea",
+          "credit": "US Energy Information Administration / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Brent_crude_oil_map.png"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/New_York_Stock_Exchange_building%2C_20231002_171816.jpg/1280px-New_York_Stock_Exchange_building%2C_20231002_171816.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1600,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "New York Stock Exchange Building",
+          "credit": "Jakub Hałun / Wikimedia Commons",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_building,_20231002_171816.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/New_York_Stock_Exchange_August_2017_02.jpg/1280px-New_York_Stock_Exchange_August_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 801,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Intersection of Broad Street and Wall Street with New York Stock Exchange and the Federal Hall.\n\n\n\n\n\n\nThis is an image of a place or building that is listed on the National Register of Historic Places",
+          "credit": "Arild Vågen / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_August_2017_02.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Holidays_at_the_Treasury_Department_%285242616796%29.jpg/1280px-Holidays_at_the_Treasury_Department_%285242616796%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 797,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "The U.S. Department of the Treasury building decorated for the holidays.",
+          "credit": "U.S. Department of the Treasury / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Holidays_at_the_Treasury_Department_(5242616796).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/%22Twenty%22_%22THE_DEPARTMENT_OF_TREASURY_1789%22_on_the_20_dollar_United_States_banknote_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 825,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Folding money (20 dollar US banknotes)",
+          "credit": "United States Department of the Treasury / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:%22Twenty%22_%22THE_DEPARTMENT_OF_TREASURY_1789%22_on_the_20_dollar_United_States_banknote_(cropped).jpg"
+        }
+      ],
+      "story": [
+        {
+          "title": "Nem kell 150 dolláros olaj ahhoz, hogy nagyon fájjon",
+          "link": "https://www.portfolio.hu/uzlet/20261010/nem-kell-150-dollaros-olaj-ahhoz-hogy-nagyon-fajjon-867446",
+          "summary": "Üzlet Nem kell 150 dolláros olaj ahhoz, hogy nagyon fájjon Németh Gábor, VIG Alapkezelő 2026. október 10. 06:01 Gyors összefoglaló Ha csak egy perce van, olvassa el a lényeget AI összefoglalónkban. Az olajsokk első heteiben a piac elsősorban a \"headline\" inflációt és a geopolitikai prémiumot árazza. Ha azonban az energiaárak hónapokon át magasak maradnak, megváltozik a helyzet: a magasabb energia költségek fokozatosan megjelenhetnek az árképzésben, a vállalati marzsokban, a bérekben és végül a monetáris politikában is. Az olajpara ráadásul egy olyan kötvénypiacot talál, amelyre már eleve több ",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": null
+        },
+        {
+          "title": "Nem kell 150 dolláros olaj ahhoz, hogy nagyon fájjon - Portfolio.hu",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZjlVT0FtVWtxR1FkVmlOX3g5V1hqU1RYekl4WWJEc3lSanZwbHNUNHJlTWFCZEdfb3AzRkd2ZzZEbloyeU55M1c5UUFXY2pRZFA3cnF3UzJGSTNOTGlBTjYyc1d4enJveVAydXctRFpUbHAwTjB5eHl3VGRYMVlrcmlCb0VFMHFEQVBReV9jbl9WaGsxbHZuSHAtU0RYSEnSAaQBQVVfeXFMT25MRVRod0hycGZhb3I4TVhGd01HUXhHd0FlUlA4ckNLZFkxZEJaX2huSUdLaFdEQnZkUjloYXVkY2NDbjVJUmRTYXo5c045M0lkcDJwSlpPdXBRczdWeksyOEtsa1M3VHJJMG1hMlZEaVhDQUFpUllDRXY0Q0NFZ3NMdENiSXEzWU4za3RNUTUxQU5BLU1MRnlJdXFFZ3E1MFlOMHY?oc=5",
+          "summary": "Nem kell 150 dolláros olaj ahhoz, hogy nagyon fájjon Portfolio.hu",
+          "source": "news.google.com",
+          "related": null,
+          "hot_score": null
+        },
+        {
+          "title": "Nem kell 150 dolláros olaj ahhoz, hogy nagyon fájjon - Hirnavigator",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRmFuN05lMGs4VjdLLVNhUWtyNzhqZkIxNVI3d1dTVWRSZHFYWGtackdnSE94MEpDQ0lNYkplZHlJTmg4VjhJV1pQUEF0OFhlb1NKWGVpNW9HLURuMHFHTzhHOTVzVjlNZVFzQ25McjVrNVByT3k0Z1o0X3Y2RzRzcGRYM1NTNzh6aXgyQ1dQQzYwdw?oc=5",
+          "summary": "Nem kell 150 dolláros olaj ahhoz, hogy nagyon fájjon Hirnavigator",
+          "source": "news.google.com",
+          "related": null,
+          "hot_score": null
+        },
+        {
+          "title": "Nem kell 150 dolláros olaj ahhoz, hogy nagyon fájjon - Hírstart",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTlFJb0FkQU9YY3JUcHFxZEZ6STlVNEh2N3l6SkppNWQxeTdxa21WLWZyYldyYnNqYnppQk55RjY4SklfTFNyeTBRYWs5TmoteVhoWjlKRmo3MzVzVlpJWDA3VFlRZDJVZUg1S2tIUXNzV1d5eUdUQUVLZWNEd1hZQVRYQXRURDF6VXF0V3JlUkZUQjhhemlacm1B?oc=5",
+          "summary": "Nem kell 150 dolláros olaj ahhoz, hogy nagyon fájjon Hírstart",
+          "source": "news.google.com",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/uzlet/20261010/nem-kell-150-dollaros-olaj-ahhoz-hogy-nagyon-fajjon-867446",
+          "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZjlVT0FtVWtxR1FkVmlOX3g5V1hqU1RYekl4WWJEc3lSanZwbHNUNHJlTWFCZEdfb3AzRkd2ZzZEbloyeU55M1c5UUFXY2pRZFA3cnF3UzJGSTNOTGlBTjYyc1d4enJveVAydXctRFpUbHAwTjB5eHl3VGRYMVlrcmlCb0VFMHFEQVBReV9jbl9WaGsxbHZuSHAtU0RYSEnSAaQBQVVfeXFMT25MRVRod0hycGZhb3I4TVhGd01HUXhHd0FlUlA4ckNLZFkxZEJaX2huSUdLaFdEQnZkUjloYXVkY2NDbjVJUmRTYXo5c045M0lkcDJwSlpPdXBRczdWeksyOEtsa1M3VHJJMG1hMlZEaVhDQUFpUllDRXY0Q0NFZ3NMdENiSXEzWU4za3RNUTUxQU5BLU1MRnlJdXFFZ3E1MFlOMHY?oc=5",
+          "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRmFuN05lMGs4VjdLLVNhUWtyNzhqZkIxNVI3d1dTVWRSZHFYWGtackdnSE94MEpDQ0lNYkplZHlJTmg4VjhJV1pQUEF0OFhlb1NKWGVpNW9HLURuMHFHTzhHOTVzVjlNZVFzQ25McjVrNVByT3k0Z1o0X3Y2RzRzcGRYM1NTNzh6aXgyQ1dQQzYwdw?oc=5",
+          "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTlFJb0FkQU9YY3JUcHFxZEZ6STlVNEh2N3l6SkppNWQxeTdxa21WLWZyYldyYnNqYnppQk55RjY4SklfTFNyeTBRYWs5TmoteVhoWjlKRmo3MzVzVlpJWDA3VFlRZDJVZUg1S2tIUXNzV1d5eUdUQUVLZWNEd1hZQVRYQXRURDF6VXF0V3JlUkZUQjhhemlacm1B?oc=5"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/penzvilag/2026-10-10-olajcsapda-es-kotvenynyomas-nem-kell-150-dollar-a-bajhoz/",
+      "seo": {
+        "meta_title": "Olajcsapda és kötvénynyomás: nem kell 150 dollár a bajhoz",
+        "meta_description": "Az európai Brent olaj tőzsdei ára a nyári hordónkénti 70 dollárról őszre 100 dollár közelébe emelkedett, ami a globális kötvénypiaci nyomással kombinálva komoly",
+        "canonical_url": "https://xn--kollektva-m5a.hu/penzvilag/2026-10-10-olajcsapda-es-kotvenynyomas-nem-kell-150-dollar-a-bajhoz/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Brent_crude_oil_prices_and_exploration_and_development_expenditures_for_102_exploration_and_development_companies_in_2010_through_2019_%2849970299977%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "9488d0423c06df99e8fdb52a3be565bf0415f17c2c7c10f031e93e304f6c394d",
+      "pipeline_run_id": "38035254687",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T10:15:43+02:00",
+      "updated_at": "2026-10-10T10:15:43+02:00",
+      "published_at": "2026-10-10T10:15:43+02:00",
+      "expires_at": null,
+      "requested": true,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T08:19:02+00:00",
+        "msg_ids": [
+          4424,
+          4425,
+          4426,
+          4427,
+          4428,
+          4429,
+          4430
+        ],
+        "control_id": 4431
+      }
+    },
+    {
+      "id": "0e93a38f-0796-5a58-8ed9-32c74f69aa59",
+      "slug": "2026-10-10-haromszazmilliardos-unios-tamogatast-sodort-veszelybe-a-deli-korvasut",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Déli körvasút",
+        "Állami Számvevőszék",
+        "Vitézy Dávid",
+        "Magyar Péter",
+        "közbeszerzés"
+      ],
+      "title": "Háromszázmilliárdos uniós támogatást sodort veszélybe a Déli körvasút botránya",
+      "subtitle": null,
+      "lead": "Felfüggesztette a Déli körvasút beruházását a minisztérium, mert a kivitelezési közbeszerzés körüli jogsértő összejátszás gyanúja miatt több mint 320 milliárd forint uniós támogatás került veszélybe. Az ügyben vitatkozik egymással a kabinet és az Állami Számvevőszég.",
+      "key_points": [
+        "Vitézy Dávid közlekedési és beruházási miniszter jelentette be a Déli körvasút beruházásának felfüggesztését.",
+        "A kivitelező Mészáros Lőrinc vasútépítő cégét, a V-Hidat kizárták a munkákból a feltételezett jogsértések miatt.",
+        "Az Állami Számvevőszég közleményben reagált, visszautasítva a mulasztás vádját és a kormányt terhelő felelősségre utalva."
+      ],
+      "content": "A Vitézy Dávid közlekedési és beruházási miniszter által pénteken bejelentett döntés értelmében a szaktárca azonnali hatállyal felfüggeszti a Déli körvasút beruházását, és kizárja a munkálatokból a kivitelezést végző V-Híd nevű vállalatot, amely Mészáros Lőrinc érdekeltségébe tartozik. A lépést az indokolja, hogy alapos a gyanú: a közbeszerzési eljárás során jogsértő összejátszás történt, ami miatt több mint 320 milliárd forintnyi európai uniós támogatás került veszélybe.\n\nAz ajánlattételi folyamatot részletesen elemezte az Európai Számvevőszég (ECA), amelynek megállapításairól a tárcavezető tájékoztatása szerint már tíz hónapja értesült a magyar kormány. Mivel ezeket az értesítéseket az Állami Számvevőszéken (ÁSZ) keresztül küldik meg, a hivatalnak is tudnia kellett a problémákról, ám a minisztérium álláspontja szerint nem tettek semmit. Ekkora időeltolódással a közbeszerzés lezárulta után ráadásul már csak kiemelt állami ellenőrző szerveknek van joguk utólag megtámadni az eljárást, a minisztériumnak nincs.\n\nAz Állami Számvevőszég határozott közleményben utasította vissza a kritikákat, hangoztatva, hogy semmilyen jogszabályban meghatározott feladatát nem mulasztotta el. A hivatal közlése szerint az ECA vizsgálata júliusban zárult le, így a kormány az ÁSZ-szal egyidejűleg, július 17-én kapta meg a záró levelet, emiatt a teendők elsősorban a kormányt és olyan szerveit terhelik, mint a Nemzeti Fejlesztési Központ. Hozzátették, hogy az ÁSZ nem hatóság, és az uniós források felhasználása során nincs elsődleges ellenőrzési feladata, a magyar jogrendszerben erre külön intézmények léteznek.\n\nA fejleményekre reagálva Magyar Péter távozásra szólította fel Windisch László ÁSZ-elnököt, amiért az intézmény nem lépett fel a vitatott ügyekben. Az ellenzéki politikus fellépése és a számvevőszég vitája így arra az alapvető kérdésre irányítja a figyelmet, hogy a hatóságok időben észlelték-e a közbeszerzési folyamat anomáliáit, és ki viseli a felelősséget a veszélybe került százmilliárdos európai uniós forrásokért.",
+      "content_format": "markdown",
+      "body": [
+        "A Vitézy Dávid közlekedési és beruházási miniszter által pénteken bejelentett döntés értelmében a szaktárca azonnali hatállyal felfüggeszti a Déli körvasút beruházását, és kizárja a munkálatokból a kivitelezést végző V-Híd nevű vállalatot, amely Mészáros Lőrinc érdekeltségébe tartozik. A lépést az indokolja, hogy alapos a gyanú: a közbeszerzési eljárás során jogsértő összejátszás történt, ami miatt több mint 320 milliárd forintnyi európai uniós támogatás került veszélybe.",
+        "Az ajánlattételi folyamatot részletesen elemezte az Európai Számvevőszég (ECA), amelynek megállapításairól a tárcavezető tájékoztatása szerint már tíz hónapja értesült a magyar kormány. Mivel ezeket az értesítéseket az Állami Számvevőszéken (ÁSZ) keresztül küldik meg, a hivatalnak is tudnia kellett a problémákról, ám a minisztérium álláspontja szerint nem tettek semmit. Ekkora időeltolódással a közbeszerzés lezárulta után ráadásul már csak kiemelt állami ellenőrző szerveknek van joguk utólag megtámadni az eljárást, a minisztériumnak nincs.",
+        "Az Állami Számvevőszég határozott közleményben utasította vissza a kritikákat, hangoztatva, hogy semmilyen jogszabályban meghatározott feladatát nem mulasztotta el. A hivatal közlése szerint az ECA vizsgálata júliusban zárult le, így a kormány az ÁSZ-szal egyidejűleg, július 17-én kapta meg a záró levelet, emiatt a teendők elsősorban a kormányt és olyan szerveit terhelik, mint a Nemzeti Fejlesztési Központ. Hozzátették, hogy az ÁSZ nem hatóság, és az uniós források felhasználása során nincs elsődleges ellenőrzési feladata, a magyar jogrendszerben erre külön intézmények léteznek.",
+        "A fejleményekre reagálva Magyar Péter távozásra szólította fel Windisch László ÁSZ-elnököt, amiért az intézmény nem lépett fel a vitatott ügyekben. Az ellenzéki politikus fellépése és a számvevőszég vitája így arra az alapvető kérdésre irányítja a figyelmet, hogy a hatóságok időben észlelték-e a közbeszerzési folyamat anomáliáit, és ki viseli a felelősséget a veszélybe került százmilliárdos európai uniós forrásokért."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 309,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://pixabay.com/get/g65e52fdf5372a482780068d9863a2d849cc3b579bf45f6120881304b921fe94a802b4094555af66ba3780edc1fc49db49a316e36749fa7398944ed57036f63bd_1280.jpg",
+        "width": 6000,
+        "height": 4000,
+        "kind": "photo",
+        "alt": "crane, construction site, construction worker, track, rails, work, track construction, construction company, construction site, construction site, construction site, construction site, construction si",
+        "credit": "KVNSBL / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/crane-construction-site-8400990/",
+        "vision_score": 9.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/gazdasag/20261009_allami-szamvevoszek-deli-korvasut-konrmanyzati-tajekoztato-magyar-peter-reakcio",
+          "title": "Magyar Péter-idézettel reagált az ÁSZ a kormányzati tájékoztatón elhangzottakra",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T10:16:51+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5,
+      "title_options": [
+        "Háromszázmilliárdos uniós támogatást sodort veszélybe a Déli körvasút botránya",
+        "Felfüggesztették a Déli körvasút építését a százmilliárdos uniós források kockáztatása miatt",
+        "Kemény vita robbant ki a kormány és az Állami Számvevőszég között a Déli körvasút ügyében",
+        "Mészáros Lőrinc cége esett ki a százmilliárdos vasútépítésből",
+        "Olyan hibát találtak a Déli körvasút tenderénél, ami azonnali leállítást követelt",
+        "Ilyen még nem volt: egymásra mutogat a kormány és a számvevőszég a füstbe ment uniós milliók miatt"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://pixabay.com/get/g65e52fdf5372a482780068d9863a2d849cc3b579bf45f6120881304b921fe94a802b4094555af66ba3780edc1fc49db49a316e36749fa7398944ed57036f63bd_1280.jpg",
+          "width": 6000,
+          "height": 4000,
+          "kind": "photo",
+          "alt": "crane, construction site, construction worker, track, rails, work, track construction, construction company, construction site, construction site, construction site, construction site, construction si",
+          "credit": "KVNSBL / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/crane-construction-site-8400990/",
+          "vision_score": 9.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Budapest%2C_D%C3%A9li_k%C3%B6rvas%C3%BAt_%C3%A9p%C3%ADt%C3%A9se.jpg/1280px-Budapest%2C_D%C3%A9li_k%C3%B6rvas%C3%BAt_%C3%A9p%C3%ADt%C3%A9se.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest, Déli körvasút építése",
+          "credit": "Christo / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%A9li_k%C3%B6rvas%C3%BAt_%C3%A9p%C3%ADt%C3%A9se.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Budapest%2C_D%C3%A9li_k%C3%B6rvas%C3%BAt_%C3%A9p%C3%ADt%C3%A9se%2C_2.jpg/1280px-Budapest%2C_D%C3%A9li_k%C3%B6rvas%C3%BAt_%C3%A9p%C3%ADt%C3%A9se%2C_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Budapest, Déli körvasút építése",
+          "credit": "Christo / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Budapest,_D%C3%A9li_k%C3%B6rvas%C3%BAt_%C3%A9p%C3%ADt%C3%A9se,_2.jpg",
+          "vision_score": 8.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Magyar Péter-idézettel reagált az ÁSZ a kormányzati tájékoztatón elhangzottakra",
+          "link": "https://hvg.hu/gazdasag/20261009_allami-szamvevoszek-deli-korvasut-konrmanyzati-tajekoztato-magyar-peter-reakcio",
+          "summary": "Az Állami Számvevőszék szerint a miniszterelnök a saját kormánya mulasztását kéri számon rajtuk a Déli körvasút ügyében.\nAz Állami Számvevőszék (ÁSZ) a Déli körvasút fejlesztésével kapcsolatos európai számvevőszéki vizsgálat során semmilyen jogszabályban meghatározott feladatát nem mulasztotta el – áll a hivatal közleményében, amelyben a pénteki kormányzati tájékoztatón elhangzottakra reagált.\nA tájékoztatón Vitézy Dávid közlekedési és beruházási miniszter jelentette be, hogy a minisztérium felfüggeszti a Déli körvasút beruházását, továbbá kizárja a kivitelezőt, Mészáros Lőrinc vasútépítő cégé",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/gazdasag/20261009_allami-szamvevoszek-deli-korvasut-konrmanyzati-tajekoztato-magyar-peter-reakcio"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/kozelet/2026-10-10-haromszazmilliardos-unios-tamogatast-sodort-veszelybe-a-deli-korvasut/",
+      "seo": {
+        "meta_title": "Háromszázmilliárdos uniós támogatást sodort veszélybe a Déli",
+        "meta_description": "Felfüggesztette a Déli körvasút beruházását a minisztérium, mert a kivitelezési közbeszerzés körüli jogsértő összejátszás gyanúja miatt több mint 320 milliárd f",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-haromszazmilliardos-unios-tamogatast-sodort-veszelybe-a-deli-korvasut/",
+        "og_image": "https://pixabay.com/get/g65e52fdf5372a482780068d9863a2d849cc3b579bf45f6120881304b921fe94a802b4094555af66ba3780edc1fc49db49a316e36749fa7398944ed57036f63bd_1280.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "62dd981b5676e9e032c8961f584c3e20a4bb15b6ce041213a7050aa928440477",
+      "pipeline_run_id": "38035254687",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T10:16:51+02:00",
+      "updated_at": "2026-10-10T10:16:51+02:00",
+      "published_at": "2026-10-10T10:16:51+02:00",
+      "expires_at": null,
+      "requested": true,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T08:19:41+00:00",
+        "msg_ids": [
+          4432,
+          4433,
+          4434,
+          4435
+        ],
+        "control_id": 4436
+      }
+    },
+    {
+      "id": "d2517662-27b9-504e-b009-7d20d2027657",
+      "slug": "2026-10-10-meglettek-a-honap-elejen-elrabolt-renoir-festmenyek",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Renoir",
+        "Franciaország",
+        "műkincsrablás",
+        "rendőrség",
+        "múzeum"
+      ],
+      "title": "Meglettek a hónap elején elrabolt Renoir-festmények",
+      "subtitle": null,
+      "lead": "A rendőrök elfogták a gyanúsítottakat, és előkerítették az Auguste Renoir hagyatékához tartozó műalkotásokat, amelyeket szeptember elején loptak el egy dél-franciaországi múzeumból. A műkincsek sorsa eddig bizonytalan volt, miközben a francia intézmények biztonsága továbbra is éles viták tárgya.",
+      "key_points": [
+        "Hat embert vettek őrizetbe a szeptember 8-i múzeumi betörés ügyében.",
+        "A négy elvitt alkotásból kettőt már a rablás során elhagytak az elkövetők.",
+        "A polgármester szerint hatalmas megkönnyebbülés a képek megkerülése."
+      ],
+      "content": "A dél-franciaországi Cagnes-sur-Mer településen található Renoir Múzeumból szeptember 8-án éjszaka lopták el a műalkotásokat, miután a tettesek a kerítésen vágott lyukon át törtek be az épületbe. A helyi térfigyelő kamerák rögzítették, amint a rablók menekülnek a hatóságok elől; eredetileg négy festményt vittek magukkal, ám kettőt az üldözés során elejtettek.\n\nCsütörtökön a rendőrség hat embert fogott el és vett őrizetbe az ügyben – közölte Bryan Masson, a település polgármestere. A városvezető hangsúlyozta, hogy ezek a művek szorosan összefonódnak a helyi kulturális örökséggel és Auguste Renoir munkásságával, ugyanakkor egyelőre nem árult el részleteket arról, hogy pontosan hol bukkantak rá a festményekre, illetve milyen állapotban vannak.\n\nA múzeumi biztonság kérdése tavaly október óta fokozott figyelmet kap, miután a párizsi Louvre-ban egy drámai, kevesebb mint nyolc perc alatt végrehajtott ékszerrablás során több mint 100 millió dollár értékben vittek el történelmi jelentőségű darabokat. Bár a tetteseket ott is elfogták, az ékszerek azóta sem kerültek elő, így a mostani dél-franciaországi eredmény ritka sikernek számít a műkincsvédelem terén.",
+      "content_format": "markdown",
+      "body": [
+        "A dél-franciaországi Cagnes-sur-Mer településen található Renoir Múzeumból szeptember 8-án éjszaka lopták el a műalkotásokat, miután a tettesek a kerítésen vágott lyukon át törtek be az épületbe. A helyi térfigyelő kamerák rögzítették, amint a rablók menekülnek a hatóságok elől; eredetileg négy festményt vittek magukkal, ám kettőt az üldözés során elejtettek.",
+        "Csütörtökön a rendőrség hat embert fogott el és vett őrizetbe az ügyben – közölte Bryan Masson, a település polgármestere. A városvezető hangsúlyozta, hogy ezek a művek szorosan összefonódnak a helyi kulturális örökséggel és Auguste Renoir munkásságával, ugyanakkor egyelőre nem árult el részleteket arról, hogy pontosan hol bukkantak rá a festményekre, illetve milyen állapotban vannak.",
+        "A múzeumi biztonság kérdése tavaly október óta fokozott figyelmet kap, miután a párizsi Louvre-ban egy drámai, kevesebb mint nyolc perc alatt végrehajtott ékszerrablás során több mint 100 millió dollár értékben vittek el történelmi jelentőségű darabokat. Bár a tetteseket ott is elfogták, az ékszerek azóta sem kerültek elő, így a mostani dél-franciaországi eredmény ritka sikernek számít a műkincsvédelem terén."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 204,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Romaine_Lacaux%2C_by_Pierre-Auguste_Renoir%2C_Cleveland_Museum_of_Art%2C_1942.1065.jpg/1280px-Romaine_Lacaux%2C_by_Pierre-Auguste_Renoir%2C_Cleveland_Museum_of_Art%2C_1942.1065.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1508,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "This painting may be Renoir's earliest signed canvas. Its sensitive display of color and light communicates an ideal of delicate, youthful beauty. The luminous tones of the background drapery and of t",
+        "credit": "Pierre-Auguste Renoir / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Romaine_Lacaux,_by_Pierre-Auguste_Renoir,_Cleveland_Museum_of_Art,_1942.1065.jpg",
+        "vision_score": 8.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/kultura/20261009_renoir-festmeny-francia-muzeum-lopas",
+          "title": "Megtalálták a Renoir-festményeket, amelyeket egy francia múzeumból loptak el",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T10:16:57+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Ezek a festmények nem csupán egyszerű műalkotások. A városunk történetéhez, kulturális örökségünkhöz és Auguste Renoir hagyatékához tartoznak Cagnes-sur-Merben. Óriási megkönnyebbülés, hogy megtalálták őket",
+        "who": "Bryan Masson, a település polgármestere",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5,
+      "title_options": [
+        "Meglettek a hónap elején elrabolt Renoir-festmények",
+        "Előkerültek a francia múzeumból elemelett Renoir-alkotások",
+        "Megtalálták a dél-franciaországi Cagnes-sur-Merben elrabolt Renoir-képeket",
+        "Rács mögött a rablók, de vajon sértetlenek a felbecsülhetetlen értékű Renoir-képek?",
+        "Heten bukktak le a drámai múzeumi betörés után a francia Riviérán",
+        "Megvan a rejtélyes franciaországi műkincsrablás zsákmánya"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Romaine_Lacaux%2C_by_Pierre-Auguste_Renoir%2C_Cleveland_Museum_of_Art%2C_1942.1065.jpg/1280px-Romaine_Lacaux%2C_by_Pierre-Auguste_Renoir%2C_Cleveland_Museum_of_Art%2C_1942.1065.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1508,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "This painting may be Renoir's earliest signed canvas. Its sensitive display of color and light communicates an ideal of delicate, youthful beauty. The luminous tones of the background drapery and of t",
+          "credit": "Pierre-Auguste Renoir / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Romaine_Lacaux,_by_Pierre-Auguste_Renoir,_Cleveland_Museum_of_Art,_1942.1065.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Auguste_Renoir_-_A_Girl_with_a_Watering_Can_-_Google_Art_Project.jpg/1280px-Auguste_Renoir_-_A_Girl_with_a_Watering_Can_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1648,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "",
+          "credit": "Pierre-Auguste Renoir / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Auguste_Renoir_-_A_Girl_with_a_Watering_Can_-_Google_Art_Project.jpg",
+          "vision_score": 8.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Mus%C3%A9e_Renoir_de_Cagnes-sur-Mer_SAM_1561.JPG/1280px-Mus%C3%A9e_Renoir_de_Cagnes-sur-Mer_SAM_1561.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Musée Renoir de Cagnes-sur-Mer",
+          "credit": "Muesse / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Renoir_de_Cagnes-sur-Mer_SAM_1561.JPG",
+          "vision_score": 5.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Megtalálták a Renoir-festményeket, amelyeket egy francia múzeumból loptak el",
+          "link": "https://hvg.hu/kultura/20261009_renoir-festmeny-francia-muzeum-lopas",
+          "summary": "Hat embert fogtak el a rendőrök, arról egyelőre mindenki hallgat, hogy milyen állapotban vannak a képek.\nMegtalálták azt a két Renoir-festményt, amelyeket egy hónapja loptak el a dél-franciaországi Cagnes-sur-Mer múzeumából – írja a BBC . Csütörtökön hat embert őrizetbe vettek, akiket a lopással gyanúsítanak – közölte Bryan Masson, a település polgármestere.\nA múzeumba szeptember 8-án törtek be. A település térfigyelő kameráinak felvételein látható, ahogy két rabló menekül a rendőrök elől. Eredetileg négy műalkotást vittek magukkal a Renoir Múzeumból, de kettőt az üldözés során elejtettek. A f",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/kultura/20261009_renoir-festmeny-francia-muzeum-lopas"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/vilag/2026-10-10-meglettek-a-honap-elejen-elrabolt-renoir-festmenyek/",
+      "seo": {
+        "meta_title": "Meglettek a hónap elején elrabolt Renoir-festmények",
+        "meta_description": "A rendőrök elfogták a gyanúsítottakat, és előkerítették az Auguste Renoir hagyatékához tartozó műalkotásokat, amelyeket szeptember elején loptak el egy dél-fran",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-meglettek-a-honap-elejen-elrabolt-renoir-festmenyek/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Romaine_Lacaux%2C_by_Pierre-Auguste_Renoir%2C_Cleveland_Museum_of_Art%2C_1942.1065.jpg/1280px-Romaine_Lacaux%2C_by_Pierre-Auguste_Renoir%2C_Cleveland_Museum_of_Art%2C_1942.1065.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "8c8730fa283594f6b59d8afb92b53ba7bf19ec6f2350914f9407b021a558bf8a",
+      "pipeline_run_id": "38035254687",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T10:16:57+02:00",
+      "updated_at": "2026-10-10T10:16:57+02:00",
+      "published_at": "2026-10-10T10:16:57+02:00",
+      "expires_at": null,
+      "requested": true,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T08:19:52+00:00",
+        "msg_ids": [
+          4437,
+          4438,
+          4439,
+          4440
+        ],
+        "control_id": 4441
+      }
+    },
+    {
+      "id": "8e1df65e-28b5-53e4-b5c3-ea4f384ac1c9",
+      "slug": "2026-10-10-trump-kormanyzat-szankciok-az-icc-ellen-a-nobel-hir-utan",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "ICC",
+        "USA",
+        "szankció",
+        "nemzetközi jog",
+        "Magyarország"
+      ],
+      "title": "Trump-kormányzat: szankciók az ICC ellen a Nobel-hír után",
+      "subtitle": null,
+      "lead": "Az amerikai külügyminisztérium szankciókat vezetett be a Nemzetközi Büntetőbíróság ellen, miután a testület egykori bírója, Navi Pillay Nobel-békedíjat kapott. A lépés újabb feszültséget gerjeszt a nemzetközi jog és a washingtoni külpolitika viszonyában.",
+      "key_points": [
+        "Az USA szankciókat vetett ki az ICC-re és a bíróságnak szolgáltatásokat nyújtó vállalatokra",
+        "A döntést néhány órával a dél-afriai volt bíró Nobel-díja után jelentették be",
+        "A korlátozások hatással lehetnek minden olyan államra és cégre, amely üzletel az ICC-vel"
+      ],
+      "content": "Az amerikai külügyminiszter bejelentette, hogy az Egyesült Államok betiltja a Nemzetközi Büntetőbírósággal kötendő üzleteket, elvágja a forrásait, és megakadályozza működőképességét. A szabályozás hat hónapos türelmi időt tartalmaz, néhány kivétellel, amelyek bizonyos tranzakciókat engedélyeznek. A szankciók kiterjednek a bíróságnak anyagi, technikai és logisztikai szolgáltatásokat nyújtó vállalatokra is, ezzel széles körű gazdasági nyomást helyezve az intézményre.\n\n\"Betiltjuk az ügyleteket ezzel a törvénytelen bírósággal, elvágjuk a forrásait, és megbénítjuk működőképességét\" – nyilatkozta az amerikai külügyminiszter a bejelentéskor.\n\nA Nemzetközi Büntetőbíróság 2002-ben jött létre azzal a céllal, hogy felelősségre vonja a népirtás, az emberiség elleni bűncselekmények és a háborús bűnök elkövetőit. Székhelye Hágában van, de tárgyalásait világszerte lefolytatja. Az USA már korábban is ellenségesen viszonyult az intézményhez, szankciókat hozva a bírák és ügyészek ellen, most pedig a bíróság teljes működését célzó átfogó lépéseket tesz.\n\nA döntést közvetlenül azt követően hozta meg Washington, hogy a dél-afrikai volt ICC-bíró, Navi Pillay elnyerte a Nobel-békedíjat. Érdekes módon Donald Trump, az Egyesült Államok korábbi elnöke korábban maga is jelölt volt ugyanezen elismerésre, ami további politikai hátteret ad a szankcióknak.\n\nAz új intézkedés közvetlenül érinthet minden olyan országot és vállalatot, amely az ICC-nek szolgáltat – így a magyar cégeket is, amennyiben részt vesznek a bíróság pénzügyi vagy logisztikai ellátásában.\n\nAz ICC a szankciókat a jogállamiság elleni támadásként értékelte, és felszólította a 125 tagállamot, hogy tegyenek ellenlépéseket. A jövőben valószínűleg további diplomáciai viták alakulnak ki az amerikai–európai kapcsolatok tengelyén, amelyekre Magyarországnak is meg kell adnia a megfelelő diplomáciai válaszokat.",
+      "content_format": "markdown",
+      "body": [
+        "Az amerikai külügyminiszter bejelentette, hogy az Egyesült Államok betiltja a Nemzetközi Büntetőbírósággal kötendő üzleteket, elvágja a forrásait, és megakadályozza működőképességét. A szabályozás hat hónapos türelmi időt tartalmaz, néhány kivétellel, amelyek bizonyos tranzakciókat engedélyeznek. A szankciók kiterjednek a bíróságnak anyagi, technikai és logisztikai szolgáltatásokat nyújtó vállalatokra is, ezzel széles körű gazdasági nyomást helyezve az intézményre.",
+        "\"Betiltjuk az ügyleteket ezzel a törvénytelen bírósággal, elvágjuk a forrásait, és megbénítjuk működőképességét\" – nyilatkozta az amerikai külügyminiszter a bejelentéskor.",
+        "A Nemzetközi Büntetőbíróság 2002-ben jött létre azzal a céllal, hogy felelősségre vonja a népirtás, az emberiség elleni bűncselekmények és a háborús bűnök elkövetőit. Székhelye Hágában van, de tárgyalásait világszerte lefolytatja. Az USA már korábban is ellenségesen viszonyult az intézményhez, szankciókat hozva a bírák és ügyészek ellen, most pedig a bíróság teljes működését célzó átfogó lépéseket tesz.",
+        "A döntést közvetlenül azt követően hozta meg Washington, hogy a dél-afrikai volt ICC-bíró, Navi Pillay elnyerte a Nobel-békedíjat. Érdekes módon Donald Trump, az Egyesült Államok korábbi elnöke korábban maga is jelölt volt ugyanezen elismerésre, ami további politikai hátteret ad a szankcióknak.",
+        "Az új intézkedés közvetlenül érinthet minden olyan országot és vállalatot, amely az ICC-nek szolgáltat – így a magyar cégeket is, amennyiben részt vesznek a bíróság pénzügyi vagy logisztikai ellátásában.",
+        "Az ICC a szankciókat a jogállamiság elleni támadásként értékelte, és felszólította a 125 tagállamot, hogy tegyenek ellenlépéseket. A jövőben valószínűleg további diplomáciai viták alakulnak ki az amerikai–európai kapcsolatok tengelyén, amelyekre Magyarországnak is meg kell adnia a megfelelő diplomáciai válaszokat."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 276,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Navi_Pillay_June_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200,
+        "height": 1545,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "High Commissioner Navy Pillay at the 26th session of the Human Rights Council.",
+        "credit": "US Mission Geneva / Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Navi_Pillay_June_2014.jpg",
+        "vision_score": 10.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/vilag/20261009_egyesult-allamok-szankcio-nemzetkozi-buntetobirosag-icc-navi-pillay-nobel-bekedij",
+          "title": "Trumpék szankciókat szabtak ki a Nemzetközi Büntetőbíróságra, miután egyik volt bírája kapta a Nobel-békedíjat",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T10:17:47+02:00"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYUlyU2hfeHgtX0J6R3loN2l6ZmlfY0dFdXNqRktaSG1BaTNsWkRkLXl0Rkh6WGVCekN6LTN2QmVyZVVsb3N2dHRCdjFqd2hiclp0R18wUVlzSjVuRzJGdFJBMGxaX0Q5RGdQcVZkWEx4SGcydy1rX2JGenRzOWp6TnR6Qnh1VTBjQVQ0UGdQWnFGUFFQT3loeVNodk1PVWt4TFhIRWFfV1haQ3kydjVVbDZVeDFPSERmdmNGaHp2NXVCSUxLTFVqejJYNXJSNWR3TXVNZ3EzVXFIeG8yNnkw?oc=5",
+          "title": "Trumpék szankciókat szabtak ki a Nemzetközi Büntetőbíróságra, miután egyik volt bírája kapta a Nobel-békedíjat - Hirnavigator",
+          "publisher": "news.google.com",
+          "license": null,
+          "accessed_at": "2026-10-10T10:17:47+02:00"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5IU1pydFRZQ3ZoWE02Mm5vYkRZZ2p4b21NTEF6SFQ4c0UtS2I5Qkh6MzA4NkdGRjNKOTdyUG1JTEwwMXh4bVRpUnMzbVZRREJQb0drNEFPOXVKeGtPX19QZDVncDN1TVRBNUt2cG1kWWc3OC1PZlZDLVJ2bnQ?oc=5",
+          "title": "Az USA szankciókat vezetett be a Nemzetközi Büntetőbíróság ellen, miután a testület egyik korábbi bírája megkapta a Nobel-békedíjat - Hírstart",
+          "publisher": "news.google.com",
+          "license": null,
+          "accessed_at": "2026-10-10T10:17:47+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5,
+      "title_options": [
+        "Trump-kormányzat: szankciók az ICC ellen a Nobel-hír után",
+        "USA újabb harc az ICC-vel: szankciók a Nobel‑díjas bíró után",
+        "Nemzetközi jogválság: Washington betiltja az ICC-vel való üzletet"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Navi_Pillay_June_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1545,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "High Commissioner Navy Pillay at the 26th session of the Human Rights Council.",
+          "credit": "US Mission Geneva / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Navi_Pillay_June_2014.jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Navi_Pillay%2C_AGJA_member_and_Former_United_Nations_Commissioner_for_Human_Rights_%2829508439277%29.jpg/1280px-Navi_Pillay%2C_AGJA_member_and_Former_United_Nations_Commissioner_for_Human_Rights_%2829508439277%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "Navi Pillay, AGJA member and Former United Nations Commissioner for Human Rights",
+          "credit": "Wayamo Foundation / Wikimedia Commons",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Navi_Pillay,_AGJA_member_and_Former_United_Nations_Commissioner_for_Human_Rights_(29508439277).jpg",
+          "vision_score": 10.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/International_Criminal_Court_2022.jpg/1280px-International_Criminal_Court_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "International Criminal Court in The Hague in 2022\narchitectural firm: Schmidt Hammer Lassen architects",
+          "credit": "Choinowski / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:International_Criminal_Court_2022.jpg",
+          "vision_score": 7.0
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/International_Criminal_Court_2018.jpg/1280px-International_Criminal_Court_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1200,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Der Internationale Strafgerichtshof in Den Haag im Sommer 2018 vor blauem Himmel.",
+          "credit": "justflix / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:International_Criminal_Court_2018.jpg",
+          "vision_score": 7.0
+        }
+      ],
+      "story": [
+        {
+          "title": "Trumpék szankciókat szabtak ki a Nemzetközi Büntetőbíróságra, miután egyik volt bírája kapta a Nobel-békedíjat",
+          "link": "https://hvg.hu/vilag/20261009_egyesult-allamok-szankcio-nemzetkozi-buntetobirosag-icc-navi-pillay-nobel-bekedij",
+          "summary": "„Betiltjuk az ügyleteket ezzel a törvénytelen bírósággal, elvágjuk a forrásait, és megbénítjuk működőképességét” – jelentette ki az amerikai külügyminiszter.\nSzankciókat szabott ki az amerikai kormányzat a Nemzetközi Büntetőbíróságra (ICC), mindössze néhány órával azután, hogy az ICC egyik volt bírája, a dél-afrikai Navi Pillay elnyerte a Nobel-békedíjat , amelyre tavaly Donald Trump amerikai elnök is pályázott – írja a Reuters .\nA Trump-kormányzat régóta ellenségesen viszonyul a 2002-ben háborús bűnök, emberiség elleni bűnök és népirtások ügyében eljáró bírósághoz, és már korábban is vezetett",
+          "source": "hvg.hu",
+          "related": null,
+          "hot_score": null
+        },
+        {
+          "title": "Trumpék szankciókat szabtak ki a Nemzetközi Büntetőbíróságra, miután egyik volt bírája kapta a Nobel-békedíjat - Hirnavigator",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYUlyU2hfeHgtX0J6R3loN2l6ZmlfY0dFdXNqRktaSG1BaTNsWkRkLXl0Rkh6WGVCekN6LTN2QmVyZVVsb3N2dHRCdjFqd2hiclp0R18wUVlzSjVuRzJGdFJBMGxaX0Q5RGdQcVZkWEx4SGcydy1rX2JGenRzOWp6TnR6Qnh1VTBjQVQ0UGdQWnFGUFFQT3loeVNodk1PVWt4TFhIRWFfV1haQ3kydjVVbDZVeDFPSERmdmNGaHp2NXVCSUxLTFVqejJYNXJSNWR3TXVNZ3EzVXFIeG8yNnkw?oc=5",
+          "summary": "Trumpék szankciókat szabtak ki a Nemzetközi Büntetőbíróságra, miután egyik volt bírája kapta a Nobel-békedíjat Hirnavigator",
+          "source": "news.google.com",
+          "related": null,
+          "hot_score": null
+        },
+        {
+          "title": "Az USA szankciókat vezetett be a Nemzetközi Büntetőbíróság ellen, miután a testület egyik korábbi bírája megkapta a Nobel-békedíjat - Hírstart",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5IU1pydFRZQ3ZoWE02Mm5vYkRZZ2p4b21NTEF6SFQ4c0UtS2I5Qkh6MzA4NkdGRjNKOTdyUG1JTEwwMXh4bVRpUnMzbVZRREJQb0drNEFPOXVKeGtPX19QZDVncDN1TVRBNUt2cG1kWWc3OC1PZlZDLVJ2bnQ?oc=5",
+          "summary": "Az USA szankciókat vezetett be a Nemzetközi Büntetőbíróság ellen, miután a testület egyik korábbi bírája megkapta a Nobel-békedíjat Hírstart",
+          "source": "news.google.com",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/vilag/20261009_egyesult-allamok-szankcio-nemzetkozi-buntetobirosag-icc-navi-pillay-nobel-bekedij",
+          "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYUlyU2hfeHgtX0J6R3loN2l6ZmlfY0dFdXNqRktaSG1BaTNsWkRkLXl0Rkh6WGVCekN6LTN2QmVyZVVsb3N2dHRCdjFqd2hiclp0R18wUVlzSjVuRzJGdFJBMGxaX0Q5RGdQcVZkWEx4SGcydy1rX2JGenRzOWp6TnR6Qnh1VTBjQVQ0UGdQWnFGUFFQT3loeVNodk1PVWt4TFhIRWFfV1haQ3kydjVVbDZVeDFPSERmdmNGaHp2NXVCSUxLTFVqejJYNXJSNWR3TXVNZ3EzVXFIeG8yNnkw?oc=5",
+          "https://news.google.com/rss/articles/CBMifEFVX3lxTE5IU1pydFRZQ3ZoWE02Mm5vYkRZZ2p4b21NTEF6SFQ4c0UtS2I5Qkh6MzA4NkdGRjNKOTdyUG1JTEwwMXh4bVRpUnMzbVZRREJQb0drNEFPOXVKeGtPX19QZDVncDN1TVRBNUt2cG1kWWc3OC1PZlZDLVJ2bnQ?oc=5"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/vilag/2026-10-10-trump-kormanyzat-szankciok-az-icc-ellen-a-nobel-hir-utan/",
+      "seo": {
+        "meta_title": "Trump-kormányzat: szankciók az ICC ellen a Nobel-hír után",
+        "meta_description": "Az amerikai külügyminisztérium szankciókat vezetett be a Nemzetközi Büntetőbíróság ellen, miután a testület egykori bírója, Navi Pillay Nobel-békedíjat kapott. ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-trump-kormanyzat-szankciok-az-icc-ellen-a-nobel-hir-utan/",
+        "og_image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Navi_Pillay_June_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "9320c2acd6c45d1405ab89494bcd18de1992cac34f3a74bb430ef1d42abd4634",
+      "pipeline_run_id": "38035254687",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T10:17:47+02:00",
+      "updated_at": "2026-10-10T10:17:47+02:00",
+      "published_at": "2026-10-10T10:17:47+02:00",
+      "expires_at": null,
+      "requested": true,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T08:20:02+00:00",
+        "msg_ids": [
+          4442,
+          4443,
+          4444,
+          4445,
+          4446
+        ],
+        "control_id": 4447
+      }
+    },
+    {
+      "id": "da0b7539-a9ce-5c85-9b8b-fe9ca9b10bb9",
+      "slug": "2026-10-10-feljelentes-minimalber-es-koltsegvetes-zajlik-a-tisza-kormany-munkaja",
+      "status": "pending",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Tisza-kormány",
+        "költségvetés",
+        "gazdaság",
+        "feljelentés",
+        "Budapest"
+      ],
+      "title": "Feljelentés, minimálbér és költségvetés: zajlik a Tisza-kormány munkája",
+      "subtitle": null,
+      "lead": "Pozitív hangvételű elemzést tettek közzé a Bank of America közgazdászai budapesti látogatásuk után, miközben a Tisza-kormány számos gazdasági intézkedést és feljelentést jelentett be. A kabinet a 2027-es költségvetés számain dolgozik, miközben az Exim Bank átvilágítása nyomán újabb milliárdos eljárások indultak.",
+      "key_points": [
+        "A Bank of America szakemberei szerint javultak Magyarország euróövezeti csatlakozási esélyei a várhatóan 5 százalék alatti GDP-arányos hiánycél miatt."
+      ],
+      "content": "Eseménydús napokon van túl a magyar belpolitikai élet, miután a Tisza-kormány az elszámoltatáshoz kapcsolódó intézkedések mellett adótörvény-módosításokat és a 2027-es költségvetés részleteit is ismertette. Ahogy korábban megírtuk, a kabinet éjszakába nyúló üléseken készíti elő a jövő évi büdzsé tervezetét, amelyben az egészségügy plusz 500 milliárd forintos forrásbővítésére, valamint a kutatás-fejlesztési szektor támogatására is nagy hangsúlyt fektetnek.\n\nA gazdasági folyamatok hátterét vizsgálva jelentős előrelépésként értékelték a Bank of America közgazdászai a magyar kilátásokat, miután személyesen Budapesten tettek látogatást.\n\nEzzel párhuzamosan a hazai igazságszolgáltatási és elszámoltatási folyamatok is felgyorsultak. Kapitány István gazdasági és energetikai miniszter bejelentése szerint összesen 166 milliárd forint értékű EXIM-befektetés kapcsán tett feljelentést a Nemzeti Nyomozó Irodánál hűtlen kezelés, hanyag kezelés, valamint hivatali visszaélés gyanúja miatt a gyanú szerint.",
+      "content_format": "markdown",
+      "body": [
+        "Eseménydús napokon van túl a magyar belpolitikai élet, miután a Tisza-kormány az elszámoltatáshoz kapcsolódó intézkedések mellett adótörvény-módosításokat és a 2027-es költségvetés részleteit is ismertette. Ahogy korábban megírtuk, a kabinet éjszakába nyúló üléseken készíti elő a jövő évi büdzsé tervezetét, amelyben az egészségügy plusz 500 milliárd forintos forrásbővítésére, valamint a kutatás-fejlesztési szektor támogatására is nagy hangsúlyt fektetnek.",
+        "A gazdasági folyamatok hátterét vizsgálva jelentős előrelépésként értékelték a Bank of America közgazdászai a magyar kilátásokat, miután személyesen Budapesten tettek látogatást.",
+        "Ezzel párhuzamosan a hazai igazságszolgáltatási és elszámoltatási folyamatok is felgyorsultak. Kapitány István gazdasági és energetikai miniszter bejelentése szerint összesen 166 milliárd forint értékű EXIM-befektetés kapcsán tett feljelentést a Nemzeti Nyomozó Irodánál hűtlen kezelés, hanyag kezelés, valamint hivatali visszaélés gyanúja miatt a gyanú szerint."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 164,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791620365-0.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kozelet-1791620365-0.jpg",
+        "kind": "photo",
+        "alt": "Feljelentés, minimálbér és költségvetés: zajlik a Tisza-kormány munkája",
+        "likeness": false,
+        "credit": "Kollektíva illusztráció",
+        "license": "saját grafika",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://www.portfolio.hu/gazdasag/20261009/tisza-kormany-feljelentes-minimalberemeles-koltsegvetes-zajlik-a-kormanyzati-munka-868526",
+          "title": "Tisza-kormány: feljelentés, minimálbéremelés, költségvetés - zajlik a kormányzati munka",
+          "publisher": "portfolio.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T10:17:29+02:00"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNN3R3dlpJd3VveFcyNTBmOFZpYnpBcW5mRjdDdmstQXZOcTRPeG9FYTBabnpNd3E2YXY0UUhCWjFiM2liVVFydmMyTThDdDZFUGs0cTlnTW9xRXB3NmVYTVNVTUo0TE1sTDdDbkhra0VrZ3NPR05oR1FKVG9BWGJTb0FoTk5pRXlkUjVDSFJrM0ZMdnlnT3NUaVVWSlRyMWd1dWxhTU90dDMzQ2pabF9NaFdZdFN2ZEhaaFJR?oc=5",
+          "title": "Tisza-kormány: feljelentés, minimálbéremelés, költségvetés - zajlik a kormányzati munka - Hirnavigator",
+          "publisher": "news.google.com",
+          "license": null,
+          "accessed_at": "2026-10-10T10:17:29+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5,
+      "title_options": [
+        "Feljelentés, minimálbér és költségvetés: zajlik a Tisza-kormány munkája",
+        "Ilyen mélyen még nem vizsgálták a Tisza-kormány költségvetési terveit",
+        "Fél százalékos környezetvédelmi bírság és százmilliárdos EXIM-feljelentés is érkezett",
+        "Most jött a hír: 166 milliárd forintos feljelentést tett Kapitány István",
+        "Itt van feketén-fehéren, mikor érkezhet meg az euró Magyarországra a Bank of America szerint",
+        "Rogán Antal egykori rendszere után nyúl Karácsony Gergely és a Tisza-kormány"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791620365-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kozelet-1791620365-0.jpg",
+          "kind": "photo",
+          "alt": "Feljelentés, minimálbér és költségvetés: zajlik a Tisza-kormány munkája",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791620367-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kozelet-1791620367-1.jpg",
+          "kind": "photo",
+          "alt": "Feljelentés, minimálbér és költségvetés: zajlik a Tisza-kormány munkája",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        }
+      ],
+      "story": [
+        {
+          "title": "Tisza-kormány: feljelentés, minimálbéremelés, költségvetés - zajlik a kormányzati munka",
+          "link": "https://www.portfolio.hu/gazdasag/20261009/tisza-kormany-feljelentes-minimalberemeles-koltsegvetes-zajlik-a-kormanyzati-munka-868526",
+          "summary": "Gazdaság Tisza-kormány: feljelentés, minimálbéremelés, költségvetés - zajlik a kormányzati munka Nagy bejelentésekre készül a kormány: az autópálya-koncesszió és vagyonadó is terítékre kerülhet Hozzányúl a katához a kormány - Kármán András pénzügyminiszter ismertette a részleteket Magyar Péter nem kíméli a régi rendszer embereit, most Windisch László ÁSZ-elnököt szólította fel lemondásra Portfolio 2026. október 09. 22:37 Itt állítsd be, hogy a Portfolio az elsők között legyen a Google híreiben Eseménydúsan voltak az elmúlt napok a magyar belpolitikai életben, ugyanis az elszámoltatáshoz kapcso",
+          "source": "portfolio.hu",
+          "related": null,
+          "hot_score": null
+        },
+        {
+          "title": "Tisza-kormány: feljelentés, minimálbéremelés, költségvetés - zajlik a kormányzati munka - Hirnavigator",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNN3R3dlpJd3VveFcyNTBmOFZpYnpBcW5mRjdDdmstQXZOcTRPeG9FYTBabnpNd3E2YXY0UUhCWjFiM2liVVFydmMyTThDdDZFUGs0cTlnTW9xRXB3NmVYTVNVTUo0TE1sTDdDbkhra0VrZ3NPR05oR1FKVG9BWGJTb0FoTk5pRXlkUjVDSFJrM0ZMdnlnT3NUaVVWSlRyMWd1dWxhTU90dDMzQ2pabF9NaFdZdFN2ZEhaaFJR?oc=5",
+          "summary": "Tisza-kormány: feljelentés, minimálbéremelés, költségvetés - zajlik a kormányzati munka Hirnavigator",
+          "source": "news.google.com",
+          "related": null,
+          "hot_score": null
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://www.portfolio.hu/gazdasag/20261009/tisza-kormany-feljelentes-minimalberemeles-koltsegvetes-zajlik-a-kormanyzati-munka-868526",
+          "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNN3R3dlpJd3VveFcyNTBmOFZpYnpBcW5mRjdDdmstQXZOcTRPeG9FYTBabnpNd3E2YXY0UUhCWjFiM2liVVFydmMyTThDdDZFUGs0cTlnTW9xRXB3NmVYTVNVTUo0TE1sTDdDbkhra0VrZ3NPR05oR1FKVG9BWGJTb0FoTk5pRXlkUjVDSFJrM0ZMdnlnT3NUaVVWSlRyMWd1dWxhTU90dDMzQ2pabF9NaFdZdFN2ZEhaaFJR?oc=5"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/kozelet/2026-10-10-feljelentes-minimalber-es-koltsegvetes-zajlik-a-tisza-kormany-munkaja/",
+      "seo": {
+        "meta_title": "Feljelentés, minimálbér és költségvetés: zajlik a Tisza-korm",
+        "meta_description": "Pozitív hangvételű elemzést tettek közzé a Bank of America közgazdászai budapesti látogatásuk után, miközben a Tisza-kormány számos gazdasági intézkedést és fel",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-feljelentes-minimalber-es-koltsegvetes-zajlik-a-tisza-kormany-munkaja/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791620365-0.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "fb14fc7b-9ff4-5d4a-b47d-8a372b946754"
+      ],
+      "see_also": [
+        {
+          "title": "Ezt tervezik a politikusokkal: öt évre visszamenőleg vizsgálódhat a NAV",
+          "url": "/kozelet/2026-10-07-ezt-tervezik-a-politikusokkal-ot-evre-visszamenoleg-vizsgalodhat-a-na/",
+          "date": "2026-10-07"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "647af059979c371650c4b35471438d77a4ee9a081729dc20a0dda4d80b3836ef",
+      "pipeline_run_id": "38035254687",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T10:17:29+02:00",
+      "updated_at": "2026-10-10T10:17:29+02:00",
+      "published_at": "2026-10-10T10:17:29+02:00",
+      "expires_at": null,
+      "requested": true,
+      "legal": {
+        "level": 0,
+        "issues": [],
+        "auto_fixed": [
+          "Bűnügyi tartalom kiegészítése a gyanú szerinti formulával a harmadik bekezdésben."
+        ]
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T08:20:24+00:00",
+        "msg_ids": [
+          4448,
+          4449,
+          4450
+        ],
+        "control_id": 4451
+      }
     }
   ]
 }
