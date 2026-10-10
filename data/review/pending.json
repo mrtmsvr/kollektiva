@@ -7739,6 +7739,28 @@
       "clickbait_from": 3,
       "image_options": [
         {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/98797f98dc-1791621749-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/98797f98dc-1791621749-0.jpg",
+          "kind": "photo",
+          "alt": "Érzéstelenítés nélkül ivartalanított disznót egy nő Szentlőrincen",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/98797f98dc-1791621750-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/98797f98dc-1791621750-1.jpg",
+          "kind": "photo",
+          "alt": "Érzéstelenítés nélkül ivartalanított disznót egy nő Szentlőrincen",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Esterh%C3%A1zy-kast%C3%A9ly_Szentl%C5%91rinc.jpg/1280px-Esterh%C3%A1zy-kast%C3%A9ly_Szentl%C5%91rinc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "width": 1200,
           "height": 891,
@@ -7886,9 +7908,11 @@
           4412,
           4413,
           4414,
-          4415
+          4415,
+          4468,
+          4469
         ],
-        "control_id": 4416
+        "control_id": 4470
       },
       "image_queries": [
         "Szentlőrinc, Hungary",
