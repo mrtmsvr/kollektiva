@@ -8734,7 +8734,7 @@
     {
       "id": "8e1df65e-28b5-53e4-b5c3-ea4f384ac1c9",
       "slug": "2026-10-10-trump-kormanyzat-szankciok-az-icc-ellen-a-nobel-hir-utan",
-      "status": "pending",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -8767,16 +8767,16 @@
       "word_count": 276,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Navi_Pillay_June_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/International_Criminal_Court_2018.jpg/1280px-International_Criminal_Court_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 1545,
+        "height": 1200,
         "kind": "photo",
         "pos": "top",
-        "alt": "High Commissioner Navy Pillay at the 26th session of the Human Rights Council.",
-        "credit": "US Mission Geneva / Wikimedia Commons",
-        "license": "Public domain",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Navi_Pillay_June_2014.jpg",
-        "vision_score": 10.0
+        "alt": "Der Internationale Strafgerichtshof in Den Haag im Sommer 2018 vor blauem Himmel.",
+        "credit": "justflix / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:International_Criminal_Court_2018.jpg",
+        "vision_score": 7.0
       },
       "inline_images": [],
       "sources": [
@@ -8908,7 +8908,7 @@
         "meta_title": "Trump-kormányzat: szankciók az ICC ellen a Nobel-hír után",
         "meta_description": "Az amerikai külügyminisztérium szankciókat vezetett be a Nemzetközi Büntetőbíróság ellen, miután a testület egykori bírója, Navi Pillay Nobel-békedíjat kapott. ",
         "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-trump-kormanyzat-szankciok-az-icc-ellen-a-nobel-hir-utan/",
-        "og_image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Navi_Pillay_June_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/International_Criminal_Court_2018.jpg/1280px-International_Criminal_Court_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8925,9 +8925,9 @@
       "dedupe_hash": "9320c2acd6c45d1405ab89494bcd18de1992cac34f3a74bb430ef1d42abd4634",
       "pipeline_run_id": "38035254687",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T10:17:47+02:00",
-      "updated_at": "2026-10-10T10:17:47+02:00",
-      "published_at": "2026-10-10T10:17:47+02:00",
+      "created_at": "2026-10-10T10:37:16+02:00",
+      "updated_at": "2026-10-10T10:37:16+02:00",
+      "published_at": "2026-10-10T10:37:16+02:00",
       "expires_at": null,
       "requested": true,
       "legal": {
@@ -8938,15 +8938,12 @@
         "title": 0,
         "image": 3,
         "sent_at": "2026-10-10T08:20:02+00:00",
-        "msg_ids": [
-          4442,
-          4443,
-          4444,
-          4445,
-          4446
-        ],
-        "control_id": 4447
-      }
+        "msg_ids": [],
+        "control_id": 4447,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "da0b7539-a9ce-5c85-9b8b-fe9ca9b10bb9",
