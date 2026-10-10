@@ -52,6 +52,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # mindig a legfrissebb main (NEM az indításkori állapot): a sorban várakozó futás különben régi
+          # állapotfájlokkal indulna – ebből lett a dupla Instagram-poszt és az „elveszett” gombnyomás
+          ref: main
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
