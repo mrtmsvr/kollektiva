@@ -9949,8 +9949,8 @@
         "issues": []
       },
       "review": {
-        "title": 0,
-        "image": 0,
+        "title": 5,
+        "image": 1,
         "sent_at": "2026-10-10T13:59:51+00:00",
         "msg_ids": [
           4599,
@@ -10558,6 +10558,219 @@
           4624
         ],
         "control_id": 4625
+      }
+    },
+    {
+      "id": "0808efa5-07be-524a-8b69-c0913b0be356",
+      "slug": "2026-10-10-negytol-tizenket-evig-terjedo-bortont-kertek-maradona-orvosaira",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Diego Maradona",
+        "Argentína",
+        "bíróság",
+        "egészségügy",
+        "bűnügy"
+      ],
+      "title": "Négytől tizenkét évig terjedő börtönt kértek Maradona orvosaira",
+      "subtitle": null,
+      "lead": "Az argentin ügyészség négytől tizenkét évig terjedő börtönbüntetést követel a néhai Diego Maradona kezelőorvosaira és egészségügyi stábjára. A hivatalos vád szerint a stáb tagjai súlyos gondatlansággal járultak hozzá a legendás sportoló halálához.",
+      "key_points": [
+        "Az ügyészek súlyos gondatlanságból elkövetett emberöléssel vádolják a labdarúgó korábbi kezelőorvosait.",
+        "A vizsgálat szerint Maradona otthoni kezelése nem felelt meg az előírásoknak, és a stáb nem ellenőrizte az állapotát.",
+        "A legsúlyosabb büntetést, tizenkét év börtönt a focista idegsebészére kérték."
+      ],
+      "content": "Hosszú börtönbüntetést kértek a néhai Diego Maradonát kezelő orvosokra és az egészségügyi csoport többi tagjára az argentin ügyészek. A vád szerint a személyzet tagjai súlyos gondatlanságból elkövetett emberölést követtek el a labdarúgó halála előtt, akinek utolsó napjai méltatlan körülmények között telt el.\n\nA TN televíziós csatorna beszámolója alapján a legsúlyosabb büntetést, tizenkét év börtönt a sportoló idegsebészére, Leopoldo Luquéra szabnának ki. Emellett tíz-tíz év letöltendőt követelnek Nancy Forlini orvosi koordinátorra és Agustin Kosachov pszichiáterre, míg további egészségügyi dolgozók négy, öt, illetve nyolc év börtönbüntetéssel néznek szembe.\n\nA hivatalos nyomozás az otthoni kezelés körülményeire fókuszált, miután a sportolót egy Buenos Aires-i házban helyezték el egy nagyobb műtétet követően. A vádhatóság megállapítása szerint a helyszín nem felelt meg a műtét utáni ellátási előírásoknak, a vádlottak nem követték figyelemmel a beteg állapotát, valamint laboratóriumi vizsgálatokat sem végeztek a halála előtti két hétben.\n\nAz ügyészség megfogalmazása szerint az argentin legenda egy horrorházban töltötte utolsó napjait, magára hagyva. Szakértői becslések szerint a hatvan éves korában, 2020. november 25-én elhunyt világbajnok akár tizenkét órán át is szenvedhetett a halála előtt, amelyet akut szívelégtelenség és az abból fakadó tüdőödéma okozott, évtizedes alkohol- és drogproblémák után.",
+      "content_format": "markdown",
+      "body": [
+        "Hosszú börtönbüntetést kértek a néhai Diego Maradonát kezelő orvosokra és az egészségügyi csoport többi tagjára az argentin ügyészek. A vád szerint a személyzet tagjai súlyos gondatlanságból elkövetett emberölést követtek el a labdarúgó halála előtt, akinek utolsó napjai méltatlan körülmények között telt el.",
+        "A TN televíziós csatorna beszámolója alapján a legsúlyosabb büntetést, tizenkét év börtönt a sportoló idegsebészére, Leopoldo Luquéra szabnának ki. Emellett tíz-tíz év letöltendőt követelnek Nancy Forlini orvosi koordinátorra és Agustin Kosachov pszichiáterre, míg további egészségügyi dolgozók négy, öt, illetve nyolc év börtönbüntetéssel néznek szembe.",
+        "A hivatalos nyomozás az otthoni kezelés körülményeire fókuszált, miután a sportolót egy Buenos Aires-i házban helyezték el egy nagyobb műtétet követően. A vádhatóság megállapítása szerint a helyszín nem felelt meg a műtét utáni ellátási előírásoknak, a vádlottak nem követték figyelemmel a beteg állapotát, valamint laboratóriumi vizsgálatokat sem végeztek a halála előtti két hétben.",
+        "Az ügyészség megfogalmazása szerint az argentin legenda egy horrorházban töltötte utolsó napjait, magára hagyva. Szakértői becslések szerint a hatvan éves korában, 2020. november 25-én elhunyt világbajnok akár tizenkét órán át is szenvedhetett a halála előtt, amelyet akut szívelégtelenség és az abból fakadó tüdőödéma okozott, évtizedes alkohol- és drogproblémák után."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 223,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Maradona_at_2012_GCC_Champions_League_final.JPG/1280px-Maradona_at_2012_GCC_Champions_League_final.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 1262,
+        "kind": "photo",
+        "pos": "top",
+        "alt": "Diego Maradona at 2012 GCC Champions League final",
+        "credit": "Neogeolegend / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Maradona_at_2012_GCC_Champions_League_final.JPG"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/elet/20261010_diego-maradona-halala-ugyeszseg-orvosok-bortonbuntetes",
+          "title": "Maradona egy „horrorházban” haldoklott magára hagyva az ügyészség szerint",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T15:58:54+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.21,
+      "title_options": [
+        "Négytől tizenkét évig terjedő börtönt kértek Maradona orvosaira",
+        "Börtönbe zárhatják Diego Maradona kezelőorvosait",
+        "Horrorházban haldoklott a legendás focista az ügyészség szerint",
+        "Hosszú börtönbüntetés vár Diego Maradona egykori egészségügyi stábjára",
+        "Megrázó részletek derültek ki a világbajnok labdarúgó utolsó napjairól",
+        "Magára hagyva, fájdalmak között tölthette utolsó heteit az argentin legenda"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Maradona_at_2012_GCC_Champions_League_final.JPG/1280px-Maradona_at_2012_GCC_Champions_League_final.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 1262,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Diego Maradona at 2012 GCC Champions League final",
+          "credit": "Neogeolegend / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Maradona_at_2012_GCC_Champions_League_final.JPG"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Maradona_1986_vs_italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1652,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "Diego Maradona celebrates his goal v. Italy at the 1986 FIFA World Cup in Mexico.",
+          "credit": "Unknown authorUnknown author / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Maradona_1986_vs_italy.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Argentine_flag_at_the_May_Square.jpg/1280px-Argentine_flag_at_the_May_Square.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 875,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Argentine flag at the May Square.",
+          "credit": "The Cosmonaut / Wikimedia Commons",
+          "license": "CC BY-SA 2.5 ca",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Argentine_flag_at_the_May_Square.jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Flag_of_Argentina_%28civil%29.svg/1280px-Flag_of_Argentina_%28civil%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 750,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "The original flag created by Manuel Belgrano in 1812, which is also supposed to be used by Argentine army during the battles for the independence. This flag was the \"minor flag\" until 1985 when the pr",
+          "credit": "Manuel Belgrano (1770-1820) / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina_(civil).svg"
+        },
+        {
+          "url": "https://pixabay.com/get/g7397591994b224f10f35e25cf8dd4a36ee4bf78ce2e9b39b6cfb4d407f585d54c153cfd6f2b8d52aabe09d77a9e63990d29511b8dad4aee8c95d9df11b5d8372_1280.jpg",
+          "width": 3000,
+          "height": 2000,
+          "kind": "photo",
+          "alt": "hammer, law, justice, judge, auction, judgement, authority, courtroom, offer, legislation, penalty, judge, judge, auction, auction, courtroom, courtroom, courtroom, courtroom, courtroom, legislation, ",
+          "credit": "VBlock / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/hammer-law-justice-judge-auction-7286346/"
+        },
+        {
+          "url": "https://live.staticflickr.com/4031/4289726649_2d622fe46e_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Courtroom",
+          "credit": "☺ Lee J Haywood / flickr",
+          "license": "CC BY-SA 2.0",
+          "source_url": "https://www.flickr.com/photos/45034206@N06/4289726649"
+        },
+        {
+          "url": "https://live.staticflickr.com/2814/9841767075_357d73c5c3_b.jpg",
+          "width": 1024,
+          "height": 768,
+          "kind": "photo",
+          "alt": "Chartist courtroom 1",
+          "credit": "siaronj / flickr",
+          "license": "CC BY 2.0",
+          "source_url": "https://www.flickr.com/photos/59489479@N08/9841767075"
+        }
+      ],
+      "story": [
+        {
+          "title": "Maradona egy „horrorházban” haldoklott magára hagyva az ügyészség szerint",
+          "link": "https://hvg.hu/elet/20261010_diego-maradona-halala-ugyeszseg-orvosok-bortonbuntetes",
+          "summary": "Az ügyészek 4-12 év börtönbüntetést kértek az argentin labdarúgót kezelő orvosokra.",
+          "source": "hvg.hu",
+          "related": false,
+          "hot_score": 5.21
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/elet/20261010_diego-maradona-halala-ugyeszseg-orvosok-bortonbuntetes"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/vilag/2026-10-10-negytol-tizenket-evig-terjedo-bortont-kertek-maradona-orvosaira/",
+      "seo": {
+        "meta_title": "Négytől tizenkét évig terjedő börtönt kértek Maradona orvosa",
+        "meta_description": "Az argentin ügyészség négytől tizenkét évig terjedő börtönbüntetést követel a néhai Diego Maradona kezelőorvosaira és egészségügyi stábjára. A hivatalos vád sze",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-negytol-tizenket-evig-terjedo-bortont-kertek-maradona-orvosaira/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Maradona_at_2012_GCC_Champions_League_final.JPG/1280px-Maradona_at_2012_GCC_Champions_League_final.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "230f7a53c8eb7efc04f22581dd11f3f0720564264d3b85c0330ca70b7c60e240",
+      "pipeline_run_id": "38056382704",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T15:58:54+02:00",
+      "updated_at": "2026-10-10T15:58:54+02:00",
+      "published_at": "2026-10-10T15:58:54+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T14:00:49+00:00",
+        "msg_ids": [
+          4626,
+          4627,
+          4628,
+          4629,
+          4630,
+          4631,
+          4632,
+          4633
+        ],
+        "control_id": 4634
       }
     }
   ]
