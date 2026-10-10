@@ -9015,13 +9015,11 @@
       "hot_score": 5,
       "title_options": [
         "Feljelentés, minimálbér és költségvetés: zajlik a Tisza-kormány munkája",
-        "Ilyen mélyen még nem vizsgálták a Tisza-kormány költségvetési terveit",
-        "Fél százalékos környezetvédelmi bírság és százmilliárdos EXIM-feljelentés is érkezett",
-        "Most jött a hír: 166 milliárd forintos feljelentést tett Kapitány István",
-        "Itt van feketén-fehéren, mikor érkezhet meg az euró Magyarországra a Bank of America szerint",
-        "Rogán Antal egykori rendszere után nyúl Karácsony Gergely és a Tisza-kormány"
+        "Bank of America-elemzés és milliárdos feljelentések a Tisza-kormány körül",
+        "Exim Bank-átvilágítás és költségvetési tervezés: így zajlik a Tisza-kormány munkája",
+        "Gazdasági intézkedések és nemzetközi értékelés: a Tisza-kormány első hetei"
       ],
-      "clickbait_from": 3,
+      "clickbait_from": 4,
       "image_options": [
         {
           "url": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791620365-0.jpg",
@@ -9121,7 +9119,8 @@
         "msg_ids": [
           4448,
           4449,
-          4450
+          4450,
+          4464
         ],
         "control_id": 4451
       }
