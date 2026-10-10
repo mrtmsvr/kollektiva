@@ -1,7 +1,125 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-10T11:14:45+02:00",
+  "updated_at": "2026-10-10T11:26:20+02:00",
   "articles": [
+    {
+      "id": "18de4266-7f28-5efb-9cec-9dd04b3d0377",
+      "slug": "2026-10-10-a-flydubai-masodpilotaja-a-9-11-szellemeben-hajtott-vegre-tamadast",
+      "status": "published",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "repülésbiztonság",
+        "terrorizmus",
+        "közel-kelet",
+        "magyar külpolitika"
+      ],
+      "title": "A Flydubai másodpilótája a 9/11 szellemében hajtott végre támadást",
+      "subtitle": null,
+      "lead": "A Flydubai egyik dubaji–tel-avivi járatán a 29 éves ománi másodpilóta, Hamam al-Hammami szándékosan a Ben Gurion repülőtér felé irányította a gépet. Az incidens ismét rávilágít a légiközlekedés biztonsági réseire és a terrorista radikalizáció nemzetközi összefüggéseire.",
+      "key_points": [
+        "Az ománi másodpilóta a 2001. szeptember 11-i terrortámadásokból merített ihletet a repülőgép eltereléséhez.",
+        "A támadást a fedélzeten tartózkodó 170 utas és a legénység tagjai időben megakadályozták, így a gép végül Szaúd-Arábiában volt kénytelen leszállni.",
+        "Az eset komoly kérdéseket vet fel a légitársaságok átvilágítási gyakorlatával, valamint a nemzetközi repülőjáratok biztonsági protokolljaival kapcsolatban."
+      ],
+      "content": "A Flydubai Dubajból Tel-Avivba tartó járata a másodpilóta szándékos, erőszakos manővere miatt csaknem rárepült a Ben Gurion Nemzetközi Repülőtér termináljára. Az utasok még idejében ártalmatlanná tették a másodpilótát, a gép végül Szaúd-Arábiában landolt.\n\nAz incidens azért rendkívül jelentős, mert rávilágít arra, hogy a pilóták radikalizálódása – akár külföldi tanulmányok, akár online propaganda hatására – közvetlen veszélyt jelent a polgári légiközlekedésre. Úgy tűnik, hogy a Flydubai repülésbiztonsági ellenőrzései nem szűrték ki a személyes radikalizálódás jeleit.\n\nAl-Hammami 2015 és 2017 között Ausztráliában tanult, ezt követően pedig egyre több olyan radikális tartalmat fogyasztott, amelyeket a 2001-es szeptember 11-i terrortámadások inspiráltak. Az Egyesült Arab Emírségek főügyésze közölte: a pilóta elismerte, hogy egyedül, külső segítség nélkül dolgozta ki öngyilkos merényleti tervét, a nyomozás pedig jelenleg is zajlik.\n\nA repülésbiztonság szempontjából az eset különösen ellentmondásos, hiszen ománi állampolgárok számára a diplomáciai kapcsolatok hiánya miatt hivatalosan tilos Izraelbe repülni. Ennek ellenére a Flydubai engedélyt adott a pilótának a szolgálatra, ami a légitársaság alkalmazási és engedélyezési folyamatának hiányosságaira utal.",
+      "content_format": "markdown",
+      "body": [
+        "A Flydubai Dubajból Tel-Avivba tartó járata a másodpilóta szándékos, erőszakos manővere miatt csaknem rárepült a Ben Gurion Nemzetközi Repülőtér termináljára. Az utasok még idejében ártalmatlanná tették a másodpilótát, a gép végül Szaúd-Arábiában landolt.",
+        "Az incidens azért rendkívül jelentős, mert rávilágít arra, hogy a pilóták radikalizálódása – akár külföldi tanulmányok, akár online propaganda hatására – közvetlen veszélyt jelent a polgári légiközlekedésre. Úgy tűnik, hogy a Flydubai repülésbiztonsági ellenőrzései nem szűrték ki a személyes radikalizálódás jeleit.",
+        "Al-Hammami 2015 és 2017 között Ausztráliában tanult, ezt követően pedig egyre több olyan radikális tartalmat fogyasztott, amelyeket a 2001-es szeptember 11-i terrortámadások inspiráltak. Az Egyesült Arab Emírségek főügyésze közölte: a pilóta elismerte, hogy egyedül, külső segítség nélkül dolgozta ki öngyilkos merényleti tervét, a nyomozás pedig jelenleg is zajlik.",
+        "A repülésbiztonság szempontjából az eset különösen ellentmondásos, hiszen ománi állampolgárok számára a diplomáciai kapcsolatok hiánya miatt hivatalosan tilos Izraelbe repülni. Ennek ellenére a Flydubai engedélyt adott a pilótának a szolgálatra, ami a légitársaság alkalmazási és engedélyezési folyamatának hiányosságaira utal."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 202,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/TLV_from_LY542%2C_2019_%2801%29.jpg/1280px-TLV_from_LY542%2C_2019_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 801,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "Aerial view of Ben Gurion Airport (TLV/LLBG), Israel, from flight LY542, operated by an El Al Boeing 737-800 fitted with winglets displaying the El Al logo, and approaching from Athens",
+        "credit": "Bahnfrend / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:TLV_from_LY542,_2019_(01).jpg",
+        "vision_score": 5.0
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/vilag/20261010_flydubai-incidens-ausztralia-radikalis-ideologia-nyomozas",
+          "title": "A szeptember 11-ei terrortámadásokból merített inspirációt a Flydubai másodpilótája",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T11:16:07+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Elismerte, hogy egyedül cselekedett, mások bevonása nélkül, bár a nyomozás folytatódik, hogy ellenőrizzük ezt az állítást",
+        "who": "az Egyesült Arab Emírségek főügyésze",
+        "after": 2
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-10T11:26:20+02:00"
+      },
+      "hot_score": 5.54,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/vilag/20261010_flydubai-incidens-ausztralia-radikalis-ideologia-nyomozas"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/vilag/2026-10-10-a-flydubai-masodpilotaja-a-9-11-szellemeben-hajtott-vegre-tamadast/",
+      "seo": {
+        "meta_title": "A Flydubai másodpilótája a 9/11 szellemében hajtott végre tá",
+        "meta_description": "A Flydubai egyik dubaji–tel-avivi járatán a 29 éves ománi másodpilóta, Hamam al-Hammami szándékosan a Ben Gurion repülőtér felé irányította a gépet. Az incidens",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-a-flydubai-masodpilotaja-a-9-11-szellemeben-hajtott-vegre-tamadast/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/TLV_from_LY542%2C_2019_%2801%29.jpg/1280px-TLV_from_LY542%2C_2019_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "cb1f390d0f51c60f86f7cabdfa12456e5ce35f1da06dba1dcab77be297b77857",
+      "pipeline_run_id": "38039834555",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T11:26:20+02:00",
+      "updated_at": "2026-10-10T11:26:20+02:00",
+      "published_at": "2026-10-10T11:26:20+02:00",
+      "expires_at": null,
+      "image_queries": [
+        "Flydubai",
+        "Hamam al-Hammami",
+        "Ben Gurion Airport",
+        "Dubai",
+        "Tel Aviv",
+        "Saudi Arabia",
+        "airplane cockpit",
+        "airport terminal",
+        "security checkpoint"
+      ],
+      "images_seen": [
+        "https://xn--kollektva-m5a.hu/public/img/gen/vilag-1791623861-0.jpg",
+        "https://xn--kollektva-m5a.hu/public/img/gen/vilag-1791623864-1.jpg"
+      ]
+    },
     {
       "id": "5a623af9-67ca-515e-9d51-c58230341168",
       "slug": "2026-10-10-ujabb-milliardos-exim-ugyek-miatt-tett-feljelentest-kapitany-istvan",
