@@ -32,6 +32,7 @@ import hashlib
 import html
 import re
 import subprocess
+import threading
 import json
 import logging
 import os
@@ -219,6 +220,37 @@ def save_state(st: dict) -> None:
     REVIEW_DIR.mkdir(parents=True, exist_ok=True)
     st["rejected_links"] = st.get("rejected_links", [])[-800:]
     kc.write_json_atomic(STATE_FILE, st)
+
+
+# A Telegram-figyelő és a vele párhuzamosan futó tartalomgyártás (--content) ugyanazokat a fájlokat írja:
+# a függő lista/állapot módosítása csak ezzel a zárral történhet.
+LOCK = threading.RLock()
+LOOP_THREAD: Optional[int] = None  # a figyelő szál; ha fut, csak ő kérdezi le a Telegramot
+
+
+def add_pending(art: dict) -> None:
+    """Új cikk Telegramra + a függő listába, zárral (a párhuzamos gombnyomás-feldolgozás ne írja felül)."""
+    with LOCK:
+        send_article(None, art)
+        cur = load_pending()
+        cur.append(art)
+        save_pending(None, cur)
+
+
+_PITCH_TAKEN: set = set()
+
+
+def _write_pitch(out_dir: Path, pit: dict, tz: ZoneInfo, chat: int) -> None:
+    try:
+        live_arts = kc.read_json(out_dir / "articles.json", {"articles": []}).get("articles", [])
+        new = kc.build_from_pitch(kc.AIClient(kc.Config.from_env()), pit, tz, live_arts)
+    except Exception as e:  # noqa: BLE001
+        log.warning("Témajavaslatból cikk sikertelen: %s", e)
+        new = None
+    if new:
+        add_pending(new)
+    else:
+        tg("sendMessage", {"chat_id": chat, "text": f"Ebből most nem sikerült cikket írni: {pit.get('title', '')}"})
 
 
 def load_pending(_out_dir: Optional[Path] = None) -> list:
@@ -691,15 +723,45 @@ def _poll_counts(p: dict) -> str:
 
 def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -> int:
     """Feldolgozza a Telegram-frissítéseket (wait > 0: ennyi mp-ig vár az új gombnyomásra).
-    Visszatér: hány változás történt az oldalon (kirakás, csere, törlés)."""
-    tz = tz or ZoneInfo("Europe/Budapest")
-    st, pending = load_state(), load_pending()
-    hook_before = st.get("webhook")
-    resp = _updates(st, wait)
+    Visszatér: hány változás történt az oldalon (kirakás, csere, törlés).
+    A várakozás zár nélkül megy (a párhuzamos tartalomgyártás közben menthet), a feldolgozás zárral."""
+    if LOOP_THREAD and threading.get_ident() != LOOP_THREAD:
+        return 0  # a figyelő szál folyamatosan kérdez – a tartalomgyártó szál ne vegye el előle a frissítéseket
+    st0 = load_state()
+    hook_before = st0.get("webhook")
+    resp = _updates(st0, wait)
+    with LOCK:
+        st = load_state()
+        for k in ("webhook", "offset"):
+            if k in st0:
+                st[k] = st0[k]
+            else:
+                st.pop(k, None)
+        return _process(out_dir, ai, tz or ZoneInfo("Europe/Budapest"), resp, st, hook_before)
+
+
+def _process(out_dir: Path, ai, tz: ZoneInfo, resp: dict, st: dict, hook_before) -> int:
+    pending = load_pending()
     published, changed = 0, st.get("webhook") != hook_before
     for u in resp.get("result", []):
         st["offset"] = u["update_id"] + 1
         changed = True
+        try:
+            n_pub, n_ch = _handle(out_dir, ai, tz, u, st, pending)
+        except Exception as e:  # noqa: BLE001 – egy hibás gombnyomás ne vesszen el csendben, és ne vigye el a többit
+            log.exception("Telegram-frissítés feldolgozása sikertelen: %s", e)
+            n_pub, n_ch = 0, False
+            if st.get("chat_id"):
+                tg("sendMessage", {"chat_id": st["chat_id"],
+                                   "text": f"⚠️ Ezt most nem tudtam végrehajtani (hiba: {str(e)[:150]}). Próbáld újra."})
+        published += n_pub
+        changed = changed or n_ch
+    return _finish(out_dir, tz, st, pending, published, changed)
+
+
+def _handle(out_dir: Path, ai, tz: ZoneInfo, u: dict, st: dict, pending: list) -> tuple:
+    published, changed = 0, False
+    for _once in (1,):
         if "message" in u:
             m = u["message"]
             chat = m.get("chat", {})
@@ -1001,19 +1063,14 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                 if not pit:
                     tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Ez a téma már nincs meg."})
                     continue
+                if parts[1] in _PITCH_TAKEN:
+                    tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Ezt már írom / megírtam."})
+                    continue
+                _PITCH_TAKEN.add(parts[1])
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": "Megírom, 1–2 perc…"})
-                try:
-                    live_arts = kc.read_json(out_dir / "articles.json", {"articles": []}).get("articles", [])
-                    new = kc.build_on_demand(ai or kc.AIClient(kc.Config.from_env()), pit["link"], tz, live_arts)
-                except Exception as e:  # noqa: BLE001
-                    log.warning("Témajavaslatból cikk sikertelen: %s", e)
-                    new = None
-                if new:
-                    pending.append(new)
-                    send_article(out_dir, new)
-                    changed = True
-                else:
-                    tg("sendMessage", {"chat_id": st["chat_id"], "text": f"Ebből most nem sikerült cikket írni: {pit['title']}"})
+                tg("sendMessage", {"chat_id": st["chat_id"], "text": f"✍️ Írom: {pit.get('title', '')} (1–2 perc)"})
+                # külön szálon írja, hogy közben a többi gombnyomásra is azonnal reagáljon
+                threading.Thread(target=_write_pitch, args=(out_dir, pit, tz, st["chat_id"]), daemon=False).start()
                 continue
             if parts[0] == "ignow":  # Instagram-poszt azonnal
                 import instagram
@@ -1220,6 +1277,10 @@ def poll(out_dir: Path, ai=None, tz: Optional[ZoneInfo] = None, wait: int = 0) -
                     tg("sendMessage", {"chat_id": st["chat_id"], "text": "Az újraírás most nem sikerült, próbáld később."})
             if q:
                 tg("answerCallbackQuery", {"callback_query_id": q["id"], "text": note})
+    return published, changed
+
+
+def _finish(out_dir: Path, tz: ZoneInfo, st: dict, pending: list, published: int, changed: bool) -> int:
     # ingyenes keretek: figyelmeztetés csak USAGE_ALERTS=1 esetén (alapból ki; állapot: /keret)
     alert, today_s = kc.usage_alert(), datetime.now(tz).date().isoformat()
     if os.getenv("USAGE_ALERTS") == "1" and alert and st.get("usage_warned") != today_s and st.get("chat_id"):
@@ -1301,6 +1362,9 @@ def main(argv: Optional[list] = None) -> int:
     import argparse
     p = argparse.ArgumentParser(description="Kollektíva – Telegram-jóváhagyás")
     p.add_argument("--loop", type=int, default=0, help="ennyi másodpercig figyeli folyamatosan a gombnyomásokat")
+    p.add_argument("--content", action="store_true",
+                   help="közben, párhuzamos szálon a tartalomgyártás (kollektiva_content.py --if-due) is fut – így a "
+                        "gombnyomásokra a cikkírás alatt is azonnal reagál")
     args = p.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)-7s %(message)s", datefmt="%H:%M:%S")
     kc.load_dotenv(kc.BASE_DIR / ".env")
@@ -1322,6 +1386,21 @@ def main(argv: Optional[list] = None) -> int:
             log.info("✔ Új oldalsablon: minden oldal újraépítve")
     except Exception as e:  # noqa: BLE001
         log.warning("Sablon-ellenőrzés kimaradt: %s", e)
+    global LOOP_THREAD
+    # „python telegram_review.py” esetén ez a modul __main__ néven fut; a többi modul (tartalom, Instagram) a
+    # „telegram_review” nevet importálja – ugyanaz a példány kell (közös zár, közös figyelő-szál)
+    sys.modules["telegram_review"] = sys.modules[__name__]
+    worker = None
+    if args.content:
+        LOOP_THREAD = threading.get_ident()
+
+        def _content() -> None:
+            try:
+                kc.main(["--if-due"])
+            except Exception as e:  # noqa: BLE001
+                log.exception("Tartalomgyártás hiba: %s", e)
+        worker = threading.Thread(target=_content, name="tartalom", daemon=True)
+        worker.start()
     last_ig = 0.0
     while True:
         if time.time() - last_ig >= 120:  # esedékes Instagram-poszt percre pontosan (ne csak a következő futás elején)
@@ -1334,15 +1413,15 @@ def main(argv: Optional[list] = None) -> int:
                 log.warning("Instagram-kör kimaradt: %s", str(e)[:200])
         before = (STATE_FILE.read_text() if STATE_FILE.exists() else "", PENDING_FILE.read_text() if PENDING_FILE.exists() else "")
         left = int(deadline - time.time())
-        n = poll(cfg.output_dir, None, tz, wait=max(0, min(25, left)))
+        n = poll(cfg.output_dir, None, tz, wait=max(5 if worker and worker.is_alive() else 0, min(25, left)))
         if n:
             kc.build_static_site(cfg.output_dir, tz)
             log.info("✔ %d változás az oldalon", n)
         after = (STATE_FILE.read_text() if STATE_FILE.exists() else "", PENDING_FILE.read_text() if PENDING_FILE.exists() else "")
         if n or after != before or (kc.BASE_DIR / "data" / "deploy_pending").exists():
             _save_to_git("Jóváhagyás")  # a várakozó kirakást is itt küldi ki, amint lehet
-        if time.time() >= deadline - 2:
-            break
+        if time.time() >= deadline - 2 and not (worker and worker.is_alive()):
+            break  # a figyelés addig tart, amíg a párhuzamos tartalomgyártás is be nem fejeződik
     return 0
 
 
