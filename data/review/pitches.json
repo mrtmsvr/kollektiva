@@ -1,0 +1,124 @@
+{
+  "items": {
+    "87008d5a97": {
+      "id": "87008d5a97",
+      "link": "https://www.portfolio.hu/uzlet/20261010/nem-kell-150-dollaros-olaj-ahhoz-hogy-nagyon-fajjon-867446",
+      "title": "Nem kell 150 dolláros olaj ahhoz, hogy nagyon fájjon",
+      "sid": "penzvilag",
+      "pubs": [
+        "portfolio.hu"
+      ],
+      "score": 6.0
+    },
+    "7b6339a721": {
+      "id": "7b6339a721",
+      "link": "https://www.portfolio.hu/gazdasag/20261009/tisza-kormany-feljelentes-minimalberemeles-koltsegvetes-zajlik-a-kormanyzati-munka-868526",
+      "title": "Tisza-kormány: feljelentés, minimálbéremelés, költségvetés - zajlik a kormányzati munka",
+      "sid": "penzvilag",
+      "pubs": [
+        "portfolio.hu"
+      ],
+      "score": 6.0
+    },
+    "bca2ff8f2a": {
+      "id": "bca2ff8f2a",
+      "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/nadai-aniko-szomszedsag-buli-feng-ya-ou/73y5qsl",
+      "title": "Nádai Anikóék és Feng Ya Ouék szomszédok lettek: különös módon döbbentek rá",
+      "sid": "bulvar",
+      "pubs": [
+        "blikk.hu"
+      ],
+      "score": 6.0
+    },
+    "564786a4cf": {
+      "id": "564786a4cf",
+      "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/polgar-arpad-mukereskedo-eletut-szinesz-meggazdagodas/0e7vvtx",
+      "title": "Koppintott gatyákkal gazdagodott meg Polgár Árpád, aki négy feleség mellett is kereste már a boldogságot - interjú",
+      "sid": "bulvar",
+      "pubs": [
+        "blikk.hu"
+      ],
+      "score": 5.8
+    },
+    "78a00411e1": {
+      "id": "78a00411e1",
+      "link": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/",
+      "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
+      "sid": "tech",
+      "pubs": [
+        "nasa.gov"
+      ],
+      "score": 5.8
+    },
+    "21df842446": {
+      "id": "21df842446",
+      "link": "https://www.blikk.hu/sztarvilag/hazai-sztarok/valkusz-milan-nagybacsi-rokonok-megasztar/ldcm9hn",
+      "title": "Valkusz Milán nagybátyja a Megasztárban - elárulta, miért nem tartják Milánnal a kapcsolatot",
+      "sid": "bulvar",
+      "pubs": [
+        "blikk.hu"
+      ],
+      "score": 5.8
+    },
+    "fd09b13fa5": {
+      "id": "fd09b13fa5",
+      "link": "https://hvg.hu/vilag/20261009_egyesult-allamok-szankcio-nemzetkozi-buntetobirosag-icc-navi-pillay-nobel-bekedij",
+      "title": "Trumpék szankciókat szabtak ki a Nemzetközi Büntetőbíróságra, miután egyik volt bírája kapta a Nobel-békedíjat",
+      "sid": "vilag",
+      "pubs": [
+        "hvg.hu"
+      ],
+      "score": 5.4
+    },
+    "18c9a5e1fd": {
+      "id": "18c9a5e1fd",
+      "link": "https://hvg.hu/tudomany/20261009_instagram-bejegyzes-szelfi-tunderrozsa-felfedezes-kutatok",
+      "title": "Tudományos felfedezéshez vezetett egy Instagram-szelfi",
+      "sid": "tech",
+      "pubs": [
+        "hvg.hu"
+      ],
+      "score": 5.4
+    },
+    "9e63a3a1e9": {
+      "id": "9e63a3a1e9",
+      "link": "https://hvg.hu/tudomany/20261009_voros-macskak-szine-rejtely-genek",
+      "title": "60 éves titok derült ki a vörös macskákról",
+      "sid": "tech",
+      "pubs": [
+        "hvg.hu"
+      ],
+      "score": 5.3
+    },
+    "21a998f4fc": {
+      "id": "21a998f4fc",
+      "link": "https://hvg.hu/gazdasag/20261009_allami-szamvevoszek-deli-korvasut-konrmanyzati-tajekoztato-magyar-peter-reakcio",
+      "title": "Magyar Péter-idézettel reagált az ÁSZ a kormányzati tájékoztatón elhangzottakra",
+      "sid": "kozelet",
+      "pubs": [
+        "hvg.hu"
+      ],
+      "score": 5.3
+    },
+    "749144b18c": {
+      "id": "749144b18c",
+      "link": "https://hvg.hu/itthon/20261009_illegalis-hereles-baranya-nebih",
+      "title": "Érzéstelenítés nélkül ivartalanított egy disznót egy nő Baranyában",
+      "sid": "kozelet",
+      "pubs": [
+        "hvg.hu"
+      ],
+      "score": 5.3
+    },
+    "a843a9d780": {
+      "id": "a843a9d780",
+      "link": "https://hvg.hu/kultura/20261009_renoir-festmeny-francia-muzeum-lopas",
+      "title": "Megtalálták a Renoir-festményeket, amelyeket egy francia múzeumból loptak el",
+      "sid": "kultura",
+      "pubs": [
+        "hvg.hu"
+      ],
+      "score": 5.3
+    }
+  }
+}
