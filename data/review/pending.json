@@ -8227,6 +8227,28 @@
       "clickbait_from": 3,
       "image_options": [
         {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/e6e087489f-1791621688-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/e6e087489f-1791621688-0.jpg",
+          "kind": "photo",
+          "alt": "Drágább energia, rekordhozamok: itt a 2026-os piaci helyzet",
+          "likeness": true,
+          "credit": "AI-generált illusztráció – Kollektíva",
+          "license": "saját (AI-generált illusztráció)",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/e6e087489f-1791621689-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/e6e087489f-1791621689-1.jpg",
+          "kind": "photo",
+          "alt": "Drágább energia, rekordhozamok: itt a 2026-os piaci helyzet",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Brent_crude_oil_prices_and_exploration_and_development_expenditures_for_102_exploration_and_development_companies_in_2010_through_2019_%2849970299977%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "width": 1200,
           "height": 614,
@@ -8379,9 +8401,11 @@
           4427,
           4428,
           4429,
-          4430
+          4430,
+          4465,
+          4466
         ],
-        "control_id": 4431
+        "control_id": 4467
       }
     },
     {
