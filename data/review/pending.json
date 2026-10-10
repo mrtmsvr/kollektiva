@@ -7543,19 +7543,10 @@
         "title": 2,
         "image": 3,
         "sent_at": "2026-10-10T05:10:38+00:00",
-        "msg_ids": [
-          4350,
-          4351,
-          4352,
-          4353,
-          4354,
-          4355,
-          4356,
-          4357,
-          4358,
-          4399
-        ],
-        "control_id": 4359
+        "msg_ids": [],
+        "control_id": 4359,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
       },
       "live": true
     },
