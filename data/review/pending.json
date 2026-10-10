@@ -8558,7 +8558,7 @@
     {
       "id": "d2517662-27b9-504e-b009-7d20d2027657",
       "slug": "2026-10-10-meglettek-a-honap-elejen-elrabolt-renoir-festmenyek",
-      "status": "pending",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -8709,9 +8709,9 @@
       "dedupe_hash": "8c8730fa283594f6b59d8afb92b53ba7bf19ec6f2350914f9407b021a558bf8a",
       "pipeline_run_id": "38035254687",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T10:16:57+02:00",
-      "updated_at": "2026-10-10T10:16:57+02:00",
-      "published_at": "2026-10-10T10:16:57+02:00",
+      "created_at": "2026-10-10T10:38:41+02:00",
+      "updated_at": "2026-10-10T10:38:41+02:00",
+      "published_at": "2026-10-10T10:38:41+02:00",
       "expires_at": null,
       "requested": true,
       "legal": {
@@ -8722,14 +8722,12 @@
         "title": 0,
         "image": 0,
         "sent_at": "2026-10-10T08:19:52+00:00",
-        "msg_ids": [
-          4437,
-          4438,
-          4439,
-          4440
-        ],
-        "control_id": 4441
-      }
+        "msg_ids": [],
+        "control_id": 4441,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "8e1df65e-28b5-53e4-b5c3-ea4f384ac1c9",
