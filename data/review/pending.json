@@ -10756,7 +10756,7 @@
     {
       "id": "ba222ab5-0a10-523a-9242-8246ec7e5fe7",
       "slug": "2026-10-10-szabadlabra-helyeztek-jeszenszky-geza-volt-kulugyminiszter-tamadojat",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -10786,7 +10786,7 @@
       "word_count": 218,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://pixabay.com/get/g7397591994b224f10f35e25cf8dd4a36ee4bf78ce2e9b39b6cfb4d407f585d54c153cfd6f2b8d52aabe09d77a9e63990d29511b8dad4aee8c95d9df11b5d8372_1280.jpg",
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/59ffd6ea0c22a800.jpg",
         "width": 3000,
         "height": 2000,
         "kind": "photo",
@@ -10794,7 +10794,9 @@
         "credit": "VBlock / Pixabay",
         "license": "Pixabay License",
         "source_url": "https://pixabay.com/photos/hammer-law-justice-judge-auction-7286346/",
-        "vision_score": 5.0
+        "vision_score": 5.0,
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/59ffd6ea0c22a800.jpg",
+        "orig_url": "https://pixabay.com/get/g7397591994b224f10f35e25cf8dd4a36ee4bf78ce2e9b39b6cfb4d407f585d54c153cfd6f2b8d52aabe09d77a9e63990d29511b8dad4aee8c95d9df11b5d8372_1280.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -10864,7 +10866,7 @@
         "meta_title": "Szabadlábra helyezték Jeszenszky Géza volt külügyminiszter t",
         "meta_description": "Szabadlábra helyezték a 2026 nyarán Jeszenszky Géza volt külügyminiszter és felesége ellen kalapáccsal elkövetett merénylet gyanúsítottját. A volt tárcavezető m",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-szabadlabra-helyeztek-jeszenszky-geza-volt-kulugyminiszter-tamadojat/",
-        "og_image": "https://pixabay.com/get/g7397591994b224f10f35e25cf8dd4a36ee4bf78ce2e9b39b6cfb4d407f585d54c153cfd6f2b8d52aabe09d77a9e63990d29511b8dad4aee8c95d9df11b5d8372_1280.jpg",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/59ffd6ea0c22a800.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -10889,9 +10891,9 @@
       "dedupe_hash": "b4b136b72ca9617f3835182ce98df07e30c0d9ba60afcba12ff9f8cd010293c6",
       "pipeline_run_id": "38056382704",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T15:59:17+02:00",
-      "updated_at": "2026-10-10T15:59:17+02:00",
-      "published_at": "2026-10-10T15:59:17+02:00",
+      "created_at": "2026-10-10T16:04:41+02:00",
+      "updated_at": "2026-10-10T16:04:41+02:00",
+      "published_at": "2026-10-10T16:04:41+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10901,12 +10903,12 @@
         "title": 0,
         "image": 0,
         "sent_at": "2026-10-10T14:01:01+00:00",
-        "msg_ids": [
-          4635,
-          4636
-        ],
-        "control_id": 4637
-      }
+        "msg_ids": [],
+        "control_id": 4637,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "9689bdaa-8bfb-5b96-9d05-e05d780b4783",
