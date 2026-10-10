@@ -1,7 +1,119 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-10T10:42:11+02:00",
+  "updated_at": "2026-10-10T10:43:04+02:00",
   "articles": [
+    {
+      "id": "98797f98-dce0-5b32-b3ed-0f510c570b04",
+      "slug": "2026-10-10-erzestelenites-nelkul-ivartalanitott-disznot-egy-no-szentlorincen",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "állatkínzás",
+        "Szentlőrinc",
+        "Nébih",
+        "rendőrség",
+        "Baranya vármegye"
+      ],
+      "title": "Érzéstelenítés nélkül ivartalanított disznót egy nő Szentlőrincen",
+      "subtitle": null,
+      "lead": "Nyomozást indított a rendőrség és a Nébih egy baranyai eset miatt, miután egy nő a háza udvarán, érzéstelenítés nélkül ivartalanított egy sertést. Az esetről készült felvételt egy állatvédő alapítvány vezetője hozta nyilvánosságra.",
+      "key_points": [
+        "Szentlőrincen, a háza udvarán végzett állatorvosi beavatkozást egy nő.",
+        "A procedúra közben ketten fogták le a menekülni próbáló állatot.",
+        "A tetthelyen készült videót az elkövetők maguk osztották meg a közösségi oldalon.",
+        "A rendőrség és a Nébih is hivatalos vizsgálatot indított az ügyben."
+      ],
+      "content": "Nyilvánosságra került egy felvétel, amelyen az látható, hogy egy Baranya megyei településen, Szentlőrincen egy nő érzéstelenítés nélkül végez el egy állatorvosi beavatkozást egy disznón. A helyszínen készült képek szerint a barbár művelet során ketten is lefogták a menekülni próbáló állatot. A felvételt az RTL Híradó mutatta be pénteken, miután a Nyújts Kezet A Mancsokért Alapítvány vezetője közzétette azt.\n\nAz állatvédők azonnal feljelentést tettek a hatóságoknál. A helyiek elmondása alapján a videó szereplői nem először hajthattak végre hasonló kegyetlen cselekményt. A megkérdezett szakemberek hangsúlyozzák, hogy az ilyen jellegű beavatkozások elvégzése kizárólag szakképzett állatorvos feladata lenne.\n\nAz ügyben a Szigetvári Rendőrkapitányság feljelentés-kiegészítést rendelt el a tényállás tisztázása, valamint annak eldöntése érdekében, hogy történt-e bűncselekmény. Ezzel párhuzamosan a Nemzeti Élelmiszerlánc-biztonsági Hivatal is jelezte, hogy felveszi a kapcsolatot a területileg illetékes állategészségügyi hatósággal a jogsértések feltárása végett.\n\nA hatósági vizsgálatok célja annak kiderítése, hogy megvalósult-e a jogosulatlan állategészségügyi tevékenység, illetve milyen állatvédelmi előírásokat hágtak át a szereplők a brutális beavatkozás során.",
+      "content_format": "markdown",
+      "body": [
+        "Nyilvánosságra került egy felvétel, amelyen az látható, hogy egy Baranya megyei településen, Szentlőrincen egy nő érzéstelenítés nélkül végez el egy állatorvosi beavatkozást egy disznón. A helyszínen készült képek szerint a barbár művelet során ketten is lefogták a menekülni próbáló állatot. A felvételt az RTL Híradó mutatta be pénteken, miután a Nyújts Kezet A Mancsokért Alapítvány vezetője közzétette azt.",
+        "Az állatvédők azonnal feljelentést tettek a hatóságoknál. A helyiek elmondása alapján a videó szereplői nem először hajthattak végre hasonló kegyetlen cselekményt. A megkérdezett szakemberek hangsúlyozzák, hogy az ilyen jellegű beavatkozások elvégzése kizárólag szakképzett állatorvos feladata lenne.",
+        "Az ügyben a Szigetvári Rendőrkapitányság feljelentés-kiegészítést rendelt el a tényállás tisztázása, valamint annak eldöntése érdekében, hogy történt-e bűncselekmény. Ezzel párhuzamosan a Nemzeti Élelmiszerlánc-biztonsági Hivatal is jelezte, hogy felveszi a kapcsolatot a területileg illetékes állategészségügyi hatósággal a jogsértések feltárása végett.",
+        "A hatósági vizsgálatok célja annak kiderítése, hogy megvalósult-e a jogosulatlan állategészségügyi tevékenység, illetve milyen állatvédelmi előírásokat hágtak át a szereplők a brutális beavatkozás során."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 193,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/98797f98dc-1791621749-0.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/98797f98dc-1791621749-0.jpg",
+        "kind": "photo",
+        "alt": "Érzéstelenítés nélkül ivartalanított disznót egy nő Szentlőrincen",
+        "likeness": false,
+        "credit": "Kollektíva illusztráció",
+        "license": "saját grafika",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/itthon/20261009_illegalis-hereles-baranya-nebih",
+          "title": "Érzéstelenítés nélkül ivartalanított egy disznót egy nő Baranyában",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T10:16:43+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-10T10:43:04+02:00"
+      },
+      "hot_score": 5,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/itthon/20261009_illegalis-hereles-baranya-nebih"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/kozelet/2026-10-10-erzestelenites-nelkul-ivartalanitott-disznot-egy-no-szentlorincen/",
+      "seo": {
+        "meta_title": "Érzéstelenítés nélkül ivartalanított disznót egy nő Szentlőr",
+        "meta_description": "Nyomozást indított a rendőrség és a Nébih egy baranyai eset miatt, miután egy nő a háza udvarán, érzéstelenítés nélkül ivartalanított egy sertést. Az esetről ké",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-erzestelenites-nelkul-ivartalanitott-disznot-egy-no-szentlorincen/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/98797f98dc-1791621749-0.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "471c15753be7046008ff032eaabf6432f7fe4a9015009f78dfef5f90494068ad",
+      "pipeline_run_id": "38035254687",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T10:43:04+02:00",
+      "updated_at": "2026-10-10T10:43:04+02:00",
+      "published_at": "2026-10-10T10:43:04+02:00",
+      "expires_at": null,
+      "requested": true,
+      "image_queries": [
+        "Szentlőrinc, Hungary",
+        "Baranya County",
+        "Szigetvár Police Department",
+        "National Food Chain Safety Office (Nébih)",
+        "Nyújts Kezet A Mancsokért Foundation",
+        "RTL Híradó",
+        "pig in a backyard",
+        "veterinary procedure",
+        "animal handling"
+      ]
+    },
     {
       "id": "db32a8df-35d5-593e-8c34-16dd9d17ba27",
       "slug": "2026-10-10-vegre-kiderult-ez-a-bizarr-genetikai-hiba-okozza-a-voros-macskak-bund",
