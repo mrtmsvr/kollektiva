@@ -1,7 +1,116 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-10T11:26:34+02:00",
+  "updated_at": "2026-10-10T11:26:40+02:00",
   "articles": [
+    {
+      "id": "559f02cc-75a3-59b3-8f42-0f7485156df1",
+      "slug": "2026-10-10-senki-sem-tudja-pontosan-hany-orvos-dolgozik-ma-magyarorszagon",
+      "status": "published",
+      "category": "kozelet",
+      "subcategory": null,
+      "tags": [
+        "Magyar Orvosi Kamara",
+        "egészségügy",
+        "adatbázis",
+        "Álmos Péter"
+      ],
+      "title": "Senki sem tudja pontosan, hány orvos dolgozik ma Magyarországon",
+      "subtitle": null,
+      "lead": "Jövő nyár végére egy egységes, részletes adatbázis mutatja majd meg, hogy hány orvos dolgozik az országban, mivel jelenleg nincs ilyen átfogó nyilvántartás. A Magyar Orvosi Kamara emellett egy új etikai kódex kidolgozásába is belefogott.",
+      "key_points": [
+        "Jövő nyár végére készül el a Magyar Orvosi Kamara új, egységes orvosi adatbázisa.",
+        "Jelenleg 13-14 különböző állami nyilvántartásból próbálják összegyűjteni a szakemberek adatait.",
+        "A kötelező kamarai tagság korábbi időszakában 50 ezer orvost regisztráltak a testületnél.",
+        "A Horvátországi Orvosi Kamara mintájára a jövőben előrejelzéseket is készítenének az orvosszám alakulásáról."
+      ],
+      "content": "Egységes és naprakész nyilvántartás hiányában jelenleg senki sem tudja pontosan megmondani, hány orvos tevékenykedik Magyarországon, a helyzet tisztázására azonban új központi adatbázis készül. Álmos Péter, a Magyar Orvosi Kamara elnöke a HVG-nek adott interjújában elmondta, hogy a tervek szerint jövő nyár végére zárulhat le az a munka, amelynek eredményeképpen pontosan láthatóvá válik az orvosok területi eloszlása, valamint az is, hogy milyen szakvizsgákkal rendelkeznek.\n\nA hiányzó áttekinthetőséget jól mutatja, hogy jelenleg tizenhárom-tizennégy különböző állami nyilvántartásból kellene mozaikszerűen összegyűjteni ezeket az információkat, a tervezett rendszer pedig a magán- és az állami szférában dolgozókat egyaránt térképre tenné. A kamara elnöke példaként említette a horvátországi orvosi kamarát, amelynek módszereit követve a jövőben nemcsak a meglévő adatokat rögzítenék, hanem a tendenciák alapján előrejelzéseket is készítenének a várható orvosszámról.\n\nA folyamat szorosan összefügg a várhatóan újra kötelezővé váló kamarai tagsággal, amelynek pontos érintett számát a meglévő adatok hiányában jelenleg nehéz megbecsülni. Amikor legutóbb, 2023-ban kötelező volt a tagság, ötvenezer doktort regisztráltak a testületnél, és közülük mintegy harmincnégzezren a tagság önkéntessé válása után is megőrizték azt. Ezzel párhuzamosan a Magyar Orvosi Kamara elkezdte kidolgozni az új etikai kódexét is, amely a nyilvánosság előtt eddig kevésbé ismert konfliktusos helyzetek kezelésére is megoldási javaslatokat fog kínálni.",
+      "content_format": "markdown",
+      "body": [
+        "Egységes és naprakész nyilvántartás hiányában jelenleg senki sem tudja pontosan megmondani, hány orvos tevékenykedik Magyarországon, a helyzet tisztázására azonban új központi adatbázis készül. Álmos Péter, a Magyar Orvosi Kamara elnöke a HVG-nek adott interjújában elmondta, hogy a tervek szerint jövő nyár végére zárulhat le az a munka, amelynek eredményeképpen pontosan láthatóvá válik az orvosok területi eloszlása, valamint az is, hogy milyen szakvizsgákkal rendelkeznek.",
+        "A hiányzó áttekinthetőséget jól mutatja, hogy jelenleg tizenhárom-tizennégy különböző állami nyilvántartásból kellene mozaikszerűen összegyűjteni ezeket az információkat, a tervezett rendszer pedig a magán- és az állami szférában dolgozókat egyaránt térképre tenné. A kamara elnöke példaként említette a horvátországi orvosi kamarát, amelynek módszereit követve a jövőben nemcsak a meglévő adatokat rögzítenék, hanem a tendenciák alapján előrejelzéseket is készítenének a várható orvosszámról.",
+        "A folyamat szorosan összefügg a várhatóan újra kötelezővé váló kamarai tagsággal, amelynek pontos érintett számát a meglévő adatok hiányában jelenleg nehéz megbecsülni. Amikor legutóbb, 2023-ban kötelező volt a tagság, ötvenezer doktort regisztráltak a testületnél, és közülük mintegy harmincnégzezren a tagság önkéntessé válása után is megőrizték azt. Ezzel párhuzamosan a Magyar Orvosi Kamara elkezdte kidolgozni az új etikai kódexét is, amely a nyilvánosság előtt eddig kevésbé ismert konfliktusos helyzetek kezelésére is megoldási javaslatokat fog kínálni."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 234,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://live.staticflickr.com/4081/4952166117_a1683a1242_b.jpg",
+        "width": 1024,
+        "height": 750,
+        "kind": "photo",
+        "alt": "stethoscope",
+        "credit": "jasleen_kaur / flickr",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://www.flickr.com/photos/25384802@N08/4952166117"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/360/20261010_indul-a-nagy-orvosszamlalas-uj-adatbazis-keszit-a-mok",
+          "title": "Indul a nagy orvosszámlálás, új adatbázist készít a kamara",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T11:15:32+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Most 13-14 különböző állami nyilvántartásban lehetne nyomon követni, hogy pontosan hány orvos dolgozik Magyarországon, ezeket az adatbázisokat szeretnénk egységesíteni",
+        "who": "Álmos Péter, a Magyar Orvosi Kamara elnöke",
+        "after": 1
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-10T11:26:40+02:00"
+      },
+      "hot_score": 6.0,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/360/20261010_indul-a-nagy-orvosszamlalas-uj-adatbazis-keszit-a-mok"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/kozelet/2026-10-10-senki-sem-tudja-pontosan-hany-orvos-dolgozik-ma-magyarorszagon/",
+      "seo": {
+        "meta_title": "Senki sem tudja pontosan, hány orvos dolgozik ma Magyarorszá",
+        "meta_description": "Jövő nyár végére egy egységes, részletes adatbázis mutatja majd meg, hogy hány orvos dolgozik az országban, mivel jelenleg nincs ilyen átfogó nyilvántartás. A M",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-senki-sem-tudja-pontosan-hany-orvos-dolgozik-ma-magyarorszagon/",
+        "og_image": "https://live.staticflickr.com/4081/4952166117_a1683a1242_b.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [
+        "6b5d437b-1a89-5531-9756-593d69d09b77"
+      ],
+      "see_also": [
+        {
+          "title": "Nevünkön szólít a szállodai robot",
+          "url": "/tech/2026-10-01-nevunkon-szolit-a-szallodai-robot/",
+          "date": "2026-10-01"
+        }
+      ],
+      "thread_id": null,
+      "dedupe_hash": "af2d8b9c289f9a1ffad940c2cf4420e05bcab88b9d4c290d5f0c40d1f06066e3",
+      "pipeline_run_id": "38039834555",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T11:26:40+02:00",
+      "updated_at": "2026-10-10T11:26:40+02:00",
+      "published_at": "2026-10-10T11:26:40+02:00",
+      "expires_at": null
+    },
     {
       "id": "ab495784-7a5a-5f76-8b8f-4357d3739fec",
       "slug": "2026-10-10-komoly-megszoritasok-johetnek-az-unios-koltsegvetesben",
