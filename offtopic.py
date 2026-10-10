@@ -562,10 +562,7 @@ def run(ai: "kc.AIClient", d: date, tz: ZoneInfo, output_dir: Path, dry_run: boo
         if not review.enabled(output_dir):
             review = None
     if review:
-        review.send_article(output_dir, art)
-        pending = review.load_pending(output_dir)
-        pending.append(art)
-        review.save_pending(output_dir, pending)
+        review.add_pending(art)
     else:  # Telegram nélkül azonnal kikerül
         art.update({"status": "published", "published_at": art["created_at"]})
         for k in ("title_options", "image_options", "offtopic_topic", "schedule", "legal"):
