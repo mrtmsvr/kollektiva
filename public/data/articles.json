@@ -1,7 +1,107 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-10T16:01:19+02:00",
+  "updated_at": "2026-10-10T16:02:01+02:00",
   "articles": [
+    {
+      "id": "e2946d1b-1f99-54d3-bc8a-d82398fb7fc6",
+      "slug": "2026-10-10-kalifornia-bevezeti-a-lofegyver-blokkolot-a-3d-nyomtatokon",
+      "status": "published",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "Kalifornia",
+        "3D nyomtatás",
+        "fegyverkorlátozás",
+        "Gavin Newsom",
+        "technológia"
+      ],
+      "title": "Kalifornia bevezeti a lőfegyver-blokkolót a 3D nyomtatókon",
+      "subtitle": null,
+      "lead": "Törvényjavaslatot írt alá szeptember végén Gavin Newsom, Kalifornia kormányzója, amely előírná a lőfegyver-blokkoló technológia beépítését a jövőbeli 3D nyomtatókba. Az intézkedés célja az otthoni, illegális fegyvergyártás visszaszorítása, ám a technológiai megvalósítás és a szabványosítás hiánya miatt komoly kérdőjelek övezik a bevezetését.",
+      "key_points": [
+        "Kalifornia kormányzója, Gavin Newsom aláírta a 3D nyomtatók lőfegyver-blokkoló technológiájáról szóló törvényt.",
+        "A rendszer célja, hogy felismerje és leállítsa a fegyverek vagy fegyveralkatrészek nyomtatási kísérleteit.",
+        "A korlátozás nem vonatkozik a már forgalomban lévő készülékekre, és a szabványok hiánya miatt évekig eltarthat a hatálybalépése."
+      ],
+      "content": "A mai technológiával szinte bármi előállítható otthoni környezetben a játékoktól kezdve a különféle eszközökön át egészen a lőfegyverekig. Bár az Egyesült Államok több államában viszonylag egyszerűen meg lehet vásárolni bizonyos fegyvereket, a nyomtatható darabok megjelenése komoly biztonsági kihívást jelent. Ezt felismerve New York után Kalifornia is szigorító lépéseket határozott el a lőfegyver-korlátozások terén.\n\nGavin Newsom kormányzó szeptember végén látta el kézjegyével azt a jogszabályt, amely arra kötelezné a gyártókat, hogy hardveres, firmware-es vagy egyéb beépített technológiával lássák el a jövőben értékesített 3D nyomtatókat. Ez a lőfegyver-blokkoló funkció arra hivatott, hogy felismerje a digitális terveket, ha azok lőfegyver vagy gépfegyver-átalakító eszköz készítésére szolgálnak, és megakadályozza a nyomtatási folyamat elindulását. A szabályozás azonban kifejezetten csak a jövőbeli termékekre vonatkozik, a már eleve forgalomban lévő eszközöket nem kell utólagosan felszerelni.\n\nA gyakorlati megvalósítás ugyanakkor jelentős akadályokba ütközik. Jelenleg két módszer létezik a fegyverfájlok kiszűrésére: az egyik egy ismert adatbázissal való összevetés, a másik pedig egy betanított modell alkalmazása. Előbbi egy egyszerű fájlmódosítással vagy a méret megváltoztatásával könnyen kijátszható, utóbbi viszont hajlamos a téves riasztásokra, ami megakadályozhatja a hasonló formájú, de teljesen legális alkatrészek, csövek vagy konzolok előállítását is.\n\nEmellett a törvény érvénybe lépése egyelőre egy olyan technológiai szabványra vár, amelyet az ASTM International nevű szabványügyi szervezetnek kellene kidolgoznia. Ha a csoport határidőre nem alkot meg ilyen szabványt, a kaliforniai igazságügyi minisztérium 2029. július 1-jéig követheti nyomon a folyamatot, ám ha addig sem történik áttörés, a rendelkezés alkalmazása teljesen elakadhat. Még ha meg is születik a szabvány, a helyi minisztériumnak saját követelményeket kell kidolgoznia a fegyverfelismerés pontosságáról, és a tilalom csak ezt követően, egy év elteltével lépne hatályba az új nyomtatók piacán.",
+      "content_format": "markdown",
+      "body": [
+        "A mai technológiával szinte bármi előállítható otthoni környezetben a játékoktól kezdve a különféle eszközökön át egészen a lőfegyverekig. Bár az Egyesült Államok több államában viszonylag egyszerűen meg lehet vásárolni bizonyos fegyvereket, a nyomtatható darabok megjelenése komoly biztonsági kihívást jelent. Ezt felismerve New York után Kalifornia is szigorító lépéseket határozott el a lőfegyver-korlátozások terén.",
+        "Gavin Newsom kormányzó szeptember végén látta el kézjegyével azt a jogszabályt, amely arra kötelezné a gyártókat, hogy hardveres, firmware-es vagy egyéb beépített technológiával lássák el a jövőben értékesített 3D nyomtatókat. Ez a lőfegyver-blokkoló funkció arra hivatott, hogy felismerje a digitális terveket, ha azok lőfegyver vagy gépfegyver-átalakító eszköz készítésére szolgálnak, és megakadályozza a nyomtatási folyamat elindulását. A szabályozás azonban kifejezetten csak a jövőbeli termékekre vonatkozik, a már eleve forgalomban lévő eszközöket nem kell utólagosan felszerelni.",
+        "A gyakorlati megvalósítás ugyanakkor jelentős akadályokba ütközik. Jelenleg két módszer létezik a fegyverfájlok kiszűrésére: az egyik egy ismert adatbázissal való összevetés, a másik pedig egy betanított modell alkalmazása. Előbbi egy egyszerű fájlmódosítással vagy a méret megváltoztatásával könnyen kijátszható, utóbbi viszont hajlamos a téves riasztásokra, ami megakadályozhatja a hasonló formájú, de teljesen legális alkatrészek, csövek vagy konzolok előállítását is.",
+        "Emellett a törvény érvénybe lépése egyelőre egy olyan technológiai szabványra vár, amelyet az ASTM International nevű szabványügyi szervezetnek kellene kidolgoznia. Ha a csoport határidőre nem alkot meg ilyen szabványt, a kaliforniai igazságügyi minisztérium 2029. július 1-jéig követheti nyomon a folyamatot, ám ha addig sem történik áttörés, a rendelkezés alkalmazása teljesen elakadhat. Még ha meg is születik a szabvány, a helyi minisztériumnak saját követelményeket kell kidolgoznia a fegyverfelismerés pontosságáról, és a tilalom csak ezt követően, egy év elteltével lépne hatályba az új nyomtatók piacán."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 315,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/9db96d9783a635ef.jpg",
+        "width": 5472,
+        "height": 3648,
+        "kind": "photo",
+        "alt": "printer, technology, 3d printer, 3d printing, 3d, 3d printer, 3d printer, 3d printing, 3d printing, 3d printing, 3d printing, 3d printing",
+        "credit": "ZMorph3D / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/printer-technology-3d-printer-4348150/",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/9db96d9783a635ef.jpg",
+        "orig_url": "https://pixabay.com/get/g92bfabc8ac485e1daf149b63766a496b8e577cb8554648e4e9b07306cdb75f90ca9aabb0728b3e7d95a8262ac62cd51f47f247e3f1dc8daf9fd8a68fd439687e_1280.jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/tudomany/20261010_3d-nyomtatott-fegyverek-tiltasa-kaliforniaban",
+          "title": "A törvényt már aláírták: betiltják a fegyverek 3D-nyomtatását Kaliforniában",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T15:58:40+02:00"
+        }
+      ],
+      "quote": null,
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": "szerkesztő (Telegram)",
+        "reviewed_at": "2026-10-10T16:02:01+02:00"
+      },
+      "hot_score": 5.51,
+      "clickbait_from": 3,
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/tudomany/20261010_3d-nyomtatott-fegyverek-tiltasa-kaliforniaban"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/vilag/2026-10-10-kalifornia-bevezeti-a-lofegyver-blokkolot-a-3d-nyomtatokon/",
+      "seo": {
+        "meta_title": "Kalifornia bevezeti a lőfegyver-blokkolót a 3D nyomtatókon",
+        "meta_description": "Törvényjavaslatot írt alá szeptember végén Gavin Newsom, Kalifornia kormányzója, amely előírná a lőfegyver-blokkoló technológia beépítését a jövőbeli 3D nyomtat",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-kalifornia-bevezeti-a-lofegyver-blokkolot-a-3d-nyomtatokon/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/9db96d9783a635ef.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "15f8acd1cafc463257de049344526dbf8d35bec503c0b3de8987b352691cc989",
+      "pipeline_run_id": "38056382704",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T16:02:01+02:00",
+      "updated_at": "2026-10-10T16:02:01+02:00",
+      "published_at": "2026-10-10T16:02:01+02:00",
+      "expires_at": null
+    },
     {
       "id": "065399b6-f910-57ca-9835-b84114434047",
       "slug": "2026-10-10-igy-csinal-aramot-es-ivovizet-a-tengerbol-egy-tavoli-indiai-sziget",

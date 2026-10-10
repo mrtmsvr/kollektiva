@@ -10119,9 +10119,9 @@
       "live": true
     },
     {
-      "id": "098c68fa-3d27-56d7-a501-caeac0efdc15",
-      "slug": "2026-10-10-gavin-newsom-alairta-fegyvernyomtatas-blokkolot-kovetel-kalifornia",
-      "status": "pending",
+      "id": "e2946d1b-1f99-54d3-bc8a-d82398fb7fc6",
+      "slug": "2026-10-10-kalifornia-bevezeti-a-lofegyver-blokkolot-a-3d-nyomtatokon",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -10131,7 +10131,7 @@
         "Gavin Newsom",
         "technológia"
       ],
-      "title": "Gavin Newsom aláírta: fegyvernyomtatás-blokkolót követel Kalifornia",
+      "title": "Kalifornia bevezeti a lőfegyver-blokkolót a 3D nyomtatókon",
       "subtitle": null,
       "lead": "Törvényjavaslatot írt alá szeptember végén Gavin Newsom, Kalifornia kormányzója, amely előírná a lőfegyver-blokkoló technológia beépítését a jövőbeli 3D nyomtatókba. Az intézkedés célja az otthoni, illegális fegyvergyártás visszaszorítása, ám a technológiai megvalósítás és a szabványosítás hiánya miatt komoly kérdőjelek övezik a bevezetését.",
       "key_points": [
@@ -10152,15 +10152,16 @@
       "word_count": 315,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Gavin_Newsom_official_photo.jpg/1280px-Gavin_Newsom_official_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 1200,
-        "height": 1800,
+        "url": "https://xn--kollektva-m5a.hu/public/img/px/9db96d9783a635ef.jpg",
+        "width": 5472,
+        "height": 3648,
         "kind": "photo",
-        "pos": "top",
-        "alt": "Lieutenant Governor of California Gavin Newsom",
-        "credit": "Office of the Lieutenant Governor of California / Wikimedia Commons",
-        "license": "Public domain",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Gavin_Newsom_official_photo.jpg"
+        "alt": "printer, technology, 3d printer, 3d printing, 3d, 3d printer, 3d printer, 3d printing, 3d printing, 3d printing, 3d printing, 3d printing",
+        "credit": "ZMorph3D / Pixabay",
+        "license": "Pixabay License",
+        "source_url": "https://pixabay.com/photos/printer-technology-3d-printer-4348150/",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/px/9db96d9783a635ef.jpg",
+        "orig_url": "https://pixabay.com/get/g92bfabc8ac485e1daf149b63766a496b8e577cb8554648e4e9b07306cdb75f90ca9aabb0728b3e7d95a8262ac62cd51f47f247e3f1dc8daf9fd8a68fd439687e_1280.jpg"
       },
       "inline_images": [],
       "sources": [
@@ -10296,12 +10297,12 @@
       },
       "date": "2026-10-10",
       "date_label": "október 10.",
-      "url": "/vilag/2026-10-10-gavin-newsom-alairta-fegyvernyomtatas-blokkolot-kovetel-kalifornia/",
+      "url": "/vilag/2026-10-10-kalifornia-bevezeti-a-lofegyver-blokkolot-a-3d-nyomtatokon/",
       "seo": {
-        "meta_title": "Gavin Newsom aláírta: fegyvernyomtatás-blokkolót követel Kal",
+        "meta_title": "Kalifornia bevezeti a lőfegyver-blokkolót a 3D nyomtatókon",
         "meta_description": "Törvényjavaslatot írt alá szeptember végén Gavin Newsom, Kalifornia kormányzója, amely előírná a lőfegyver-blokkoló technológia beépítését a jövőbeli 3D nyomtat",
-        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-gavin-newsom-alairta-fegyvernyomtatas-blokkolot-kovetel-kalifornia/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Gavin_Newsom_official_photo.jpg/1280px-Gavin_Newsom_official_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-kalifornia-bevezeti-a-lofegyver-blokkolot-a-3d-nyomtatokon/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/px/9db96d9783a635ef.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -10318,9 +10319,9 @@
       "dedupe_hash": "15f8acd1cafc463257de049344526dbf8d35bec503c0b3de8987b352691cc989",
       "pipeline_run_id": "38056382704",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T15:58:40+02:00",
-      "updated_at": "2026-10-10T15:58:40+02:00",
-      "published_at": "2026-10-10T15:58:40+02:00",
+      "created_at": "2026-10-10T16:02:01+02:00",
+      "updated_at": "2026-10-10T16:02:01+02:00",
+      "published_at": "2026-10-10T16:02:01+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -10330,19 +10331,12 @@
         "title": 1,
         "image": 6,
         "sent_at": "2026-10-10T14:00:15+00:00",
-        "msg_ids": [
-          4607,
-          4608,
-          4609,
-          4610,
-          4611,
-          4612,
-          4613,
-          4614,
-          4615
-        ],
-        "control_id": 4616
-      }
+        "msg_ids": [],
+        "control_id": 4616,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "662d9050-2c61-58e1-83e2-a672206c2a5e",
