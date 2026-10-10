@@ -1,273 +1,6 @@
 {
   "items": [
     {
-      "t": "2026-10-07T10:44:24+00:00",
-      "title": "Két adag mérget is túlélt a halálra ítélt amerikai nő",
-      "cat": "vilag",
-      "kw": [
-        "adag",
-        "akin",
-        "amerika",
-        "beszél",
-        "christa",
-        "eszméle",
-        "halálra",
-        "kivégzé",
-        "magához",
-        "méregin",
-        "mérget",
-        "pike",
-        "sikerül",
-        "tért",
-        "túlélt",
-        "végreha",
-        "ítélt"
-      ],
-      "links": [
-        "https://hvg.hu/vilag/20261007_christa-pike-kivegzes-halalos-itelet-injekcio-tennessee-ebredes",
-        "https://telex.hu/kulfold/2026/10/06/christa-pike-kivegzes-mereginjekcio"
-      ],
-      "imgs": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Tennessee_state_capitol_2009.jpg/1280px-Tennessee_state_capitol_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Tennessee_State_Capitol_2009.jpg/1280px-Tennessee_State_Capitol_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
-    },
-    {
-      "t": "2026-10-07T10:47:00+00:00",
-      "title": "Így akadályozta meg a Magyar Honvédség a paksi turbinák leállítását",
-      "cat": "kozelet",
-      "kw": [
-        "akadály",
-        "békeidő",
-        "egyik",
-        "elégede",
-        "feladat",
-        "fenékkü",
-        "honvéds",
-        "legfont",
-        "leállít",
-        "magyar",
-        "paksi",
-        "pakson",
-        "ruszin",
-        "szendi",
-        "turbiná",
-        "végzett"
-      ],
-      "links": [
-        "https://telex.hu/belfold/2026/10/07/ruszin-szendi-romulusz-paks-fenekkuszob-epites-honvedseg",
-        "https://hvg.hu/itthon/20261007_ruszin-szendi-paksi-atomeromu-duna-fenekkuszob-honvedseg"
-      ],
-      "imgs": [
-        "https://upload.wikimedia.org/wikipedia/commons/9/96/Paksi_atomer%C5%91m%C5%B1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://upload.wikimedia.org/wikipedia/commons/0/09/Paks_Nuclear_Power_Plant_Controlroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
-      ]
-    },
-    {
-      "t": "2026-10-07T10:50:01+00:00",
-      "title": "A kémiai tükörképek rejtélye: ez ért Nobel-díjat",
-      "cat": "tech",
-      "kw": [
-        "2026",
-        "díjat",
-        "egyik",
-        "evolúci",
-        "ezért",
-        "fontosa",
-        "henri",
-        "hogyan",
-        "idei",
-        "járt",
-        "kagan",
-        "kapta",
-        "kenszo",
-        "kémiai",
-        "közül",
-        "megfejt",
-        "miért",
-        "molekul",
-        "nobel",
-        "rejtély",
-        "szoai",
-        "termész",
-        "tükörké",
-        "tükörmo",
-        "választ"
-      ],
-      "links": [
-        "https://telex.hu/techtud/2026/10/07/kemiai-nobel-dij-henri-b-kagan-kenso-soai-molekula-tukorkep-aszimmetria"
-      ],
-      "imgs": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Main_building_of_the_Royal_Swedish_Academy_of_Sciences_%28Kungliga_Vetenskapsakademien%29%2C_Frescati%2C_Norra_Djurg%C3%A5rden%2C_Stockholm.jpg/1280px-Main_building_of_the_Royal_Swedish_Academy_of_Sciences_%28Kungliga_Vetenskapsakademien%29%2C_Frescati%2C_Norra_Djurg%C3%A5rden%2C_Stockholm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Royal_Swedish_Academy_of_Sciences_-_main_building_05.jpg/1280px-Royal_Swedish_Academy_of_Sciences_-_main_building_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Flickr_-_Government_Press_Office_%28GPO%29_-_THE_NOBEL_PEACE_PRIZE_LAUREATES_FOR_1994_IN_OSLO..jpg/1280px-Flickr_-_Government_Press_Office_%28GPO%29_-_THE_NOBEL_PEACE_PRIZE_LAUREATES_FOR_1994_IN_OSLO..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Nobel_Prize_2009-Press_Conference_KVA-11.jpg/1280px-Nobel_Prize_2009-Press_Conference_KVA-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/1369432_II_INORGANIC_CHEMISTRY_LABORATORY_%28OLD_CHEMISTRY_DEPARTMENT%29_Oxford_20250617_0001.jpg/1280px-1369432_II_INORGANIC_CHEMISTRY_LABORATORY_%28OLD_CHEMISTRY_DEPARTMENT%29_Oxford_20250617_0001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Chemistry_Laboratory%2C_Augustine_University%2C_Ilara_Epe.jpg/1280px-Chemistry_Laboratory%2C_Augustine_University%2C_Ilara_Epe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://pixabay.com/get/g7959af72618441c5a33123947cd52e7fcccdb3849929d43b6f322794983430bdfc9ff417a4d88f35f84ba9497f39c43dc538146f0ea34a87f0963a44c7277515_1280.png"
-      ]
-    },
-    {
-      "t": "2026-10-07T10:51:48+00:00",
-      "title": "Az üzemanyag drágult, de a bevásárlás végre olcsóbb lett",
-      "cat": "penzvilag",
-      "kw": [
-        "adatok",
-        "bankból",
-        "bevásár",
-        "csökken",
-        "drágult",
-        "drágulá",
-        "egykor",
-        "ekkora",
-        "elemzők",
-        "holland",
-        "infláci",
-        "kiszáll",
-        "magyaro",
-        "megjárt",
-        "meglept",
-        "mindenk",
-        "olcsóbb",
-        "teljese",
-        "tovább",
-        "várták",
-        "végre",
-        "állam",
-        "élelmis",
-        "üzemany"
-      ],
-      "links": [
-        "https://telex.hu/gazdasag/2026/10/07/inflacio-szeptember-csokkent-az-elelmiszerek-ra"
-      ],
-      "imgs": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Shell_petrol_station_-_Budapest%2C_K%C3%A1lv%C3%A1ria_t%C3%A9r.jpg/1280px-Shell_petrol_station_-_Budapest%2C_K%C3%A1lv%C3%A1ria_t%C3%A9r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Shell_petrol_station_%28Budapest_VIII.%2C_K%C3%A1lv%C3%A1ria_t%C3%A9r%29.jpg/1280px-Shell_petrol_station_%28Budapest_VIII.%2C_K%C3%A1lv%C3%A1ria_t%C3%A9r%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://pixabay.com/get/gd60a010a52f17b9c09a6e7764057859446a97d99dd42baa9ccdd934cb3528e60f34a8eb0c9dbe473754d984be0642b5de1c389c1b5ffdfe24792f96ae9efab7a_1280.jpg",
-        "https://pixabay.com/get/g9baae9dbe6fb91c8855b87880f2f3dbc37002d8153b090547c6621af455016efd8833abb6461dc7bf4b42b9686a971363afe1ed2f0dc3ad0fab795f6699c5f40_1280.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/F%C3%A9ny_Street_Market_%28S%29_%26_Mammut_Shopping_and_Entertainment_Centre_%28SW_corner%29-_L%C3%B6v%C5%91h%C3%A1z_street%2C_Budapest_District_II.JPG/1280px-F%C3%A9ny_Street_Market_%28S%29_%26_Mammut_Shopping_and_Entertainment_Centre_%28SW_corner%29-_L%C3%B6v%C5%91h%C3%A1z_street%2C_Budapest_District_II.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
-    },
-    {
-      "t": "2026-10-07T12:40:10+00:00",
-      "title": "Francia válsághangulat rántotta le a magyar tőzsdét és az OTP-t",
-      "cat": "penzvilag",
-      "kw": [
-        "csúnya",
-        "francia",
-        "magyar",
-        "mínuszb",
-        "rántott",
-        "tőzsdét",
-        "válságh"
-      ],
-      "links": [
-        "https://www.portfolio.hu/uzlet/20261007/csunya-minuszban-az-otp-867866"
-      ],
-      "imgs": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg/1280px-Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      ]
-    },
-    {
-      "t": "2026-10-07T12:42:46+00:00",
-      "title": "Philadelphia utcáitól a csúcsig: ezt hozza Will Smith legújabb projektje",
-      "cat": "kultura",
-      "kw": [
-        "csúcsig",
-        "folytat",
-        "gyökere",
-        "hozza",
-        "jöttem",
-        "kalifor",
-        "legújab",
-        "philade",
-        "projekt",
-        "smith",
-        "utcáitó",
-        "visszat",
-        "will"
-      ],
-      "links": [
-        "https://www.blikk.hu/sztarvilag/filmklikk/will-smith-kaliforniaba-jottem-folytatas-sorozat/3bp8sqe"
-      ],
-      "imgs": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Will_Smith_by_Gage_Skidmore_2.jpg/1280px-Will_Smith_by_Gage_Skidmore_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/4/43/201205025-0812a_Will_Smith.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Brown_Rat_%28Rattus_norvegicus%29_also_called_Norway_Rat_or_Common_Rat_-with_food_container_-_Mathias_Baldwin_Park%2C_Philadelphia%2C_Pennsylvania%2C_USA.jpg/1280px-Brown_Rat_%28Rattus_norvegicus%29_also_called_Norway_Rat_or_Common_Rat_-with_food_container_-_Mathias_Baldwin_Park%2C_Philadelphia%2C_Pennsylvania%2C_USA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Red-tailed_hawk_%28Buteo_jamaicensis%29_with_a_brown_rat_%28Rattus_norvegicus%29_at_the_Community_College_of_Philadelphia%2C_Pennsylvania%2C_USA.png/1280px-Red-tailed_hawk_%28Buteo_jamaicensis%29_with_a_brown_rat_%28Rattus_norvegicus%29_at_the_Community_College_of_Philadelphia%2C_Pennsylvania%2C_USA.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1b/MikeWestbrook_December2008_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/MikeWestbrook_December2008.jpg/1280px-MikeWestbrook_December2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://pixabay.com/get/g5432729685968ff95750af37201e7c7c7e462d911aa95476af0c0e1075af68de5c27fdf0863b050696e4e5ef8e492d1ecc9d155eadd9c3f75cda04e57a0c2e0d_1280.jpg",
-        "https://pixabay.com/get/gc15acec21be16de5caba2ca2dc9bb73d6344359123a58fab4185b592865ff1b15d44bd2d8cd25bae053472bdb7393eddb8e804c7e82ea647d00235d09c4f82d5_1280.jpg"
-      ]
-    },
-    {
-      "t": "2026-10-07T12:44:45+00:00",
-      "title": "Metanolra bukkantak a csillagászok születő csillagok körül",
-      "cat": "tech",
-      "kw": [
-        "bolygók",
-        "bukkant",
-        "csillag",
-        "felfede",
-        "kezdőcs",
-        "kozmiku",
-        "kutatóc",
-        "körül",
-        "magyar",
-        "metanol",
-        "szükség",
-        "születő",
-        "tagja"
-      ],
-      "links": [
-        "https://qubit.hu/2026/10/07/magyar-tagja-is-van-a-bolygokeletkezeshez-szukseges-kozmikus-kezdocsomagot-felfedezo-kutatocsoportnak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication"
-      ],
-      "imgs": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Atacama_Large_Millimeter_Array_%28ALMA%29_by_night%2C_under_the_Magellanic_Clouds.jpg/1280px-The_Atacama_Large_Millimeter_Array_%28ALMA%29_by_night%2C_under_the_Magellanic_Clouds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/The_Atacama_Large_Millimeter-submillimeter_Array_%28eso0306a%29.jpg/1280px-The_Atacama_Large_Millimeter-submillimeter_Array_%28eso0306a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Solar_observation_during_the_Regional_Astronomy_Camp_in_Brod%2C_Dragash%2C_Kosovo_08.jpg/1280px-Solar_observation_during_the_Regional_Astronomy_Camp_in_Brod%2C_Dragash%2C_Kosovo_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7a/Astronomy_magazine_January_2020_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Protostar_%2831524881453%29.png/1280px-Protostar_%2831524881453%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Protostar_in_LDN_1527_-_Flickr_-_geckzilla.png/1280px-Protostar_in_LDN_1527_-_Flickr_-_geckzilla.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://pixabay.com/get/gf2d659449f777db12b80ca40e3bebaec5935f16456ef5af700d18e17a5ec650a50a60fb7a4dd3b8803f6c12ebf7acc90dbf6cf412b9c44df6ff92f368425b808_1280.jpg",
-        "https://pixabay.com/get/ge0665823ae4ad84c7035e91a70c9fb4206a0b7d3f68e81188665158a5a5be42867da19db3d1a951daf6fb0018f416cc546b3017018ead01e8c3904b1523df4e0_1280.jpg"
-      ]
-    },
-    {
-      "t": "2026-10-07T12:46:16+00:00",
-      "title": "Mégsem csodaszer a keto: a bélrendszerben pusztíthat a zsíralapú diéta",
-      "cat": "eletmod",
-      "kw": [
-        "bélrend",
-        "cancer",
-        "csodasz",
-        "diet",
-        "diéta",
-        "find",
-        "hidden",
-        "keto",
-        "mégsem",
-        "pusztít",
-        "risk",
-        "scienti",
-        "zsírala"
-      ],
-      "links": [
-        "https://www.sciencedaily.com/releases/2026/10/261002080037.htm"
-      ],
-      "imgs": [
-        "https://upload.wikimedia.org/wikipedia/commons/6/64/Ketogenic_diet_over_12_months.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://upload.wikimedia.org/wikipedia/commons/0/07/Watermelon-on-Keto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Massachusetts_Institute_of_Technology_campus_aerial_War_Department_1925.jpg/1280px-Massachusetts_Institute_of_Technology_campus_aerial_War_Department_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/MIT_Main_Campus_Aerial.jpg/1280px-MIT_Main_Campus_Aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e5/Cross_Section_of_a_Small_Intestine.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Blausen_0817_SmallIntestine_Anatomy.png/1280px-Blausen_0817_SmallIntestine_Anatomy.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "https://pixabay.com/get/gfb84a7928b1fbe5b7b949106d41b2d6d44c17062f97a0da7148dd42685b6a14deed013710131ac2e9be04f91a907717f8ca2b635456940d91908c8a6dfb3c3fc_1280.jpg",
-        "https://pixabay.com/get/gc6f7d77900d888bf92b332f1509cbc2d6cd9b2a12ad5eccef768a372a0916f21ecaa88bf9f8f4e6fc64ce311a82c4b9b1d459973ecaf5d572d1138b6db2c49f0_1280.jpg"
-      ]
-    },
-    {
       "t": "2026-10-07T15:18:40+00:00",
       "title": "Reggel még kabát, délután már póló kell",
       "cat": "eletmod",
@@ -2666,6 +2399,33 @@
         "https://hvg.hu/vilag/20261010_flydubai-incidens-ausztralia-radikalis-ideologia-nyomozas"
       ],
       "imgs": []
+    },
+    {
+      "t": "2026-10-10T13:56:48+00:00",
+      "title": "Varga Mihály szerint nem csodaszer az euró",
+      "cat": "kozelet",
+      "kw": [
+        "bevezet",
+        "csodasz",
+        "euró",
+        "hűti",
+        "kedélye",
+        "kormány",
+        "magyar",
+        "megszól",
+        "mihály",
+        "máris",
+        "terveir",
+        "varga"
+      ],
+      "links": [
+        "https://www.portfolio.hu/gazdasag/20261010/varga-mihaly-megszolalt-az-euro-bevezeteserol-868870",
+        "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/magyar-euro-varga-mihaly-erm-2-tisza?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator"
+      ],
+      "imgs": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Varga_Mih%C3%A1ly_portr%C3%A9ja.jpg/1280px-Varga_Mih%C3%A1ly_portr%C3%A9ja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Varga_Mih%C3%A1ly_a_Pom%C3%A1zi_%C3%BAti_fel%C3%BClj%C3%A1r%C3%B3_%C3%BCnnep%C3%A9lyes_%C3%A1tad%C3%A1s%C3%A1n.jpg/1280px-Varga_Mih%C3%A1ly_a_Pom%C3%A1zi_%C3%BAti_fel%C3%BClj%C3%A1r%C3%B3_%C3%BCnnep%C3%A9lyes_%C3%A1tad%C3%A1s%C3%A1n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      ]
     }
   ]
 }
