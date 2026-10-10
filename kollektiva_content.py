@@ -2989,6 +2989,8 @@ def build_section_article(ai: AIClient, section: dict, d: date, tz: ZoneInfo, st
         t = _clean_title(str(t).strip())
         if t and t not in title_options and not title_too_similar(t, story) and len(title_options) < clickbait_from + 3:
             title_options.append(_clean_title(t))
+    title_options = proofread_titles(ai, title_options) or title_options
+    art["title"] = title_options[0]
     now_iso = now.isoformat(timespec="seconds")
     slug = slugify(f"{d.isoformat()}-{art['title']}")
     sources = normalize_sources([{"url": s["link"], "title": s["title"], "publisher": s["source"]} for s in story], now_iso)
@@ -3032,6 +3034,29 @@ TITLE_JUDGE = (
     "rövid (max. 9 szó), van benne feszültség vagy újdonság, nem hazudik, nem homályos metafora, nem tükörfordítás. "
     "Rossz cím: általános („A … ára”), érthetetlen kép, túl hosszú, nem derül ki belőle a téma. Csak JSON-t adsz vissza."
 )
+
+
+def proofread_titles(ai: "AIClient", titles: list) -> list:
+    """Helyesírás-javítás a címjavaslatokon (ékezet, ragozás, egybe-/különírás, nyelvtan) – a tartalom és a stílus marad."""
+    titles = [t for t in titles if t]
+    if not titles or os.getenv("TITLE_PROOFREAD", "true").lower() not in ("1", "true", "yes"):
+        return titles
+    prompt = ("Javítsd ki a helyesírási, ékezet-, ragozási, egybe-/különírási és nyelvtani hibákat az alábbi magyar "
+              "újságcímekben (a magyar helyesírás szabályai szerint). A tartalmon, a szórenden és a stíluson NE változtass; "
+              "ha egy cím hibátlan, add vissza változatlanul.\n\n" + "\n".join(f"{i + 1}. {t}" for i, t in enumerate(titles))
+              + '\n\nJSON: {"titles": ["…ugyanannyi cím, ugyanebben a sorrendben…"]}')
+    try:
+        raw = ai.complete_json("Magyar korrektor vagy egy online lapnál. Csak JSON-t adsz vissza.", prompt, 500, light=True)
+    except Exception as e:  # noqa: BLE001
+        log.warning("Cím-korrektúra kimaradt: %s", e)
+        return titles
+    fixed = [_clean_title(str(t).strip()) for t in raw.get("titles") or []]
+    if len(fixed) != len(titles):
+        return titles
+    out = []
+    for old, new in zip(titles, fixed):  # csak apró javítást fogadunk el (ne írja át a címet)
+        out.append(new if new and abs(len(new) - len(old)) <= max(6, len(old) // 5) else old)
+    return out
 
 
 def _rank_titles(ai: "AIClient", titles: list, lead: str) -> list:
