@@ -8963,9 +8963,9 @@
       "live": true
     },
     {
-      "id": "ca517379-efa1-541c-b5ce-e4218503fee2",
-      "slug": "2026-10-10-szazeermilliardos-fekete-lyuk-fenyegeti-az-unios-budzse-tervet",
-      "status": "pending",
+      "id": "ab495784-7a5a-5f76-8b8f-4357d3739fec",
+      "slug": "2026-10-10-komoly-megszoritasok-johetnek-az-unios-koltsegvetesben",
+      "status": "published",
       "category": "vilag",
       "subcategory": null,
       "tags": [
@@ -8975,7 +8975,7 @@
         "gazdaság",
         "mezőgazdaság"
       ],
-      "title": "Százeermilliárdos fekete lyuk fenyegeti az uniós büdzsé tervét",
+      "title": "Komoly megszorítások jöhetnek az uniós költségvetésben",
       "subtitle": null,
       "lead": "Az Európai Unió Tanácsának ír elnöksége közel 160 milliárd euróval csökkentené a 2028–2034-es uniós költségvetést, amivel a német vezetésű, takarékosabb tagállamokat próbálják megnyugtatni. A Politico által ismertetett javaslat ellen azonban a kohézióbarát déli és keleti országok is tiltakoznak.",
       "key_points": [
@@ -9090,11 +9090,11 @@
       },
       "date": "2026-10-10",
       "date_label": "október 10.",
-      "url": "/vilag/2026-10-10-szazeermilliardos-fekete-lyuk-fenyegeti-az-unios-budzse-tervet/",
+      "url": "/vilag/2026-10-10-komoly-megszoritasok-johetnek-az-unios-koltsegvetesben/",
       "seo": {
-        "meta_title": "Százeermilliárdos fekete lyuk fenyegeti az uniós büdzsé terv",
+        "meta_title": "Komoly megszorítások jöhetnek az uniós költségvetésben",
         "meta_description": "Az Európai Unió Tanácsának ír elnöksége közel 160 milliárd euróval csökkentené a 2028–2034-es uniós költségvetést, amivel a német vezetésű, takarékosabb tagálla",
-        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-szazeermilliardos-fekete-lyuk-fenyegeti-az-unios-budzse-tervet/",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-komoly-megszoritasok-johetnek-az-unios-koltsegvetesben/",
         "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/European_Council_%2838185339475%29.jpg/1280px-European_Council_%2838185339475%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
@@ -9126,9 +9126,9 @@
       "dedupe_hash": "ab15ac462f8013935954db4c3891e2cac442e775ac96f1dcb7349d41da63ad7d",
       "pipeline_run_id": "38039834555",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T11:15:26+02:00",
-      "updated_at": "2026-10-10T11:15:26+02:00",
-      "published_at": "2026-10-10T11:15:26+02:00",
+      "created_at": "2026-10-10T11:26:34+02:00",
+      "updated_at": "2026-10-10T11:26:34+02:00",
+      "published_at": "2026-10-10T11:26:34+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -9138,14 +9138,12 @@
         "title": 1,
         "image": 0,
         "sent_at": "2026-10-10T09:16:48+00:00",
-        "msg_ids": [
-          4491,
-          4492,
-          4493,
-          4494
-        ],
-        "control_id": 4495
-      }
+        "msg_ids": [],
+        "control_id": 4495,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "efaf2219-6bdb-5355-bdc1-05f1d87108a2",
