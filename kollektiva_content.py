@@ -3380,7 +3380,7 @@ def main(argv: Optional[list] = None) -> int:
                 if chat and waiting:
                     tr.tg("sendMessage", {"chat_id": chat, "text": f"🗂 Jóváhagyási kör ({os.getenv('CURRENT_SLOT')[-5:]}): "
                                           f"{len(waiting)} cikk vár rád. Magától egyik sem kerül ki.",
-                                          "reply_markup": {"inline_keyboard": [[{"text": "📋 Mind újra, minden gombbal",
+                                          "reply_markup": {"inline_keyboard": [[{"text": f"📋 A {len(waiting)} megírt cikk újra a chat aljára",
                                                                                  "callback_data": "fall|x"}]]}})
             except Exception as e:  # noqa: BLE001
                 log.warning("Kör-összefoglaló kimaradt: %s", e)
