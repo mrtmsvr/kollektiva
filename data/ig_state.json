@@ -273,11 +273,27 @@
       "due": "2026-10-10T11:56:20+02:00",
       "status": "posted",
       "tg": [
-        4553
+        4554
       ],
-      "media_id": "18022284212945828",
-      "posted": "2026-10-10T11:56:24+02:00",
-      "permalink": "https://www.instagram.com/p/DeTz_nMnAbU/"
+      "media_id": "18173885959454150",
+      "posted": "2026-10-10T12:02:05+02:00",
+      "permalink": "https://www.instagram.com/p/DeT0pPlFq-I/"
+    },
+    {
+      "id": "ba27353490",
+      "art_id": "5a623af9-67ca-515e-9d51-c58230341168",
+      "title": "Újabb milliárdos Exim-ügyek miatt tett feljelentést Kapitány István",
+      "url": "/kozelet/2026-10-10-ujabb-milliardos-exim-ugyek-miatt-tett-feljelentest-kapitany-istvan/",
+      "card": "public/img/ig/2026-10-10-ujabb-milliardos-exim-ugyek-miatt-tett-feljelentest-kapitan.jpg",
+      "card_url": "https://xn--kollektva-m5a.hu/public/img/ig/2026-10-10-ujabb-milliardos-exim-ugyek-miatt-tett-feljelentest-kapitan.jpg",
+      "caption": "Újabb milliárdos Exim-ügyek miatt tett feljelentést Kapitány István\n\nKapitány István gazdasági és energetikai miniszter két, összesen 166 milliárd forint értékű Exim-ügylet miatt tett feljelentést hűtlen kezelés, hanyag kezelés és hivatali visszaélés gyanújával. Az ügyek nyomán az átvilágított és feljelentéssel érintett tranzakciók teljes összege már megközelíti az 1300 milliárd forintot.\n\n👉 A teljes cikk a kollektíva.hu-n – link a bióban.\n\n#eximbank #kapitányistván #indotekcsoport #hírek #kollektíva",
+      "created": "2026-10-10T12:02:05+02:00",
+      "due": "2026-10-10T12:47:05+02:00",
+      "status": "queued",
+      "tg": [
+        4555,
+        4556
+      ]
     }
   ],
   "token": {
