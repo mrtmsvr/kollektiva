@@ -1045,7 +1045,7 @@ def _handle(out_dir: Path, ai, tz: ZoneInfo, u: dict, st: dict, pending: list) -
                          f"{_chosen_title(a)}" for a in pending]
                 waiting = [a for a in pending if not a.get("live")]
                 tg("sendMessage", {"chat_id": st["chat_id"], "text": "\n".join(lines) or "Nincs függő cikk.",
-                                   **({"reply_markup": {"inline_keyboard": [[{"text": f"📋 A {len(waiting)} megírt cikk újra a chat aljára",
+                                   **({"reply_markup": {"inline_keyboard": [[{"text": f"📋 Váró cikkek ({len(waiting)})",
                                                                              "callback_data": "fall|x"}]]}} if waiting else {})})
             elif re.match(r"(?i)/(f|fuggo|függő|fuggok|függők)\b", text):
                 changed = _resend_waiting(out_dir, st, pending) or changed
@@ -1293,7 +1293,7 @@ def _handle(out_dir: Path, ai, tz: ZoneInfo, u: dict, st: dict, pending: list) -
                 note = "Rendben ✅"
                 _compact(st["chat_id"], art, "✅ Kint")
             elif act == "ok":
-                urgent = float(art.get("hot_score") or 0) >= float(os.getenv("BREAKING_SCORE", "16"))
+                urgent = float(art.get("hot_score") or 0) >= float(os.getenv("PUBLISH_NOW_SCORE", "10"))
                 when = None if art.get("scheduled_at") or urgent else _stagger_time(out_dir, pending, tz)  # rendkívüli hír: azonnal
                 if when:  # röviddel az előző után: időzítve, hogy ne egyszerre kerüljön ki minden
                     art["scheduled_at"] = when.isoformat(timespec="seconds")
