@@ -8759,7 +8759,7 @@
     {
       "id": "5a623af9-67ca-515e-9d51-c58230341168",
       "slug": "2026-10-10-ujabb-milliardos-exim-ugyek-miatt-tett-feljelentest-kapitany-istvan",
-      "status": "pending",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -8792,13 +8792,13 @@
       "word_count": 328,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791623611-0.jpg",
-        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kozelet-1791623611-0.jpg",
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791623612-1.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/kozelet-1791623612-1.jpg",
         "kind": "photo",
         "alt": "Százhatvanhat milliárd forintos Exim-botrány: Kapitány István feljelentést tett",
-        "likeness": true,
-        "credit": "AI-generált illusztráció – Kollektíva",
-        "license": "saját (AI-generált illusztráció)",
+        "likeness": false,
+        "credit": "Kollektíva illusztráció",
+        "license": "saját grafika",
         "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
         "generated": true
       },
@@ -8912,7 +8912,7 @@
         "meta_title": "Újabb milliárdos Exim-ügyek miatt tett feljelentést Kapitány",
         "meta_description": "Kapitány István gazdasági és energetikai miniszter két, összesen 166 milliárd forint értékű Exim-ügylet miatt tett feljelentést hűtlen kezelés, hanyag kezelés é",
         "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-ujabb-milliardos-exim-ugyek-miatt-tett-feljelentest-kapitany-istvan/",
-        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791623611-0.jpg",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/kozelet-1791623612-1.jpg",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -8943,9 +8943,9 @@
       "dedupe_hash": "f90f37e47969bae0fa74790337f18441f8a52c5d8a76b760709466ca49744e3c",
       "pipeline_run_id": "38039834555",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T11:11:40+02:00",
-      "updated_at": "2026-10-10T11:11:40+02:00",
-      "published_at": "2026-10-10T11:11:40+02:00",
+      "created_at": "2026-10-10T11:14:45+02:00",
+      "updated_at": "2026-10-10T11:14:45+02:00",
+      "published_at": "2026-10-10T11:14:45+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -8955,13 +8955,12 @@
         "title": 0,
         "image": 1,
         "sent_at": "2026-10-10T09:13:51+00:00",
-        "msg_ids": [
-          4477,
-          4478,
-          4479
-        ],
-        "control_id": 4480
-      }
+        "msg_ids": [],
+        "control_id": 4480,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     }
   ]
 }
