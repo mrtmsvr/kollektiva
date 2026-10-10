@@ -9354,7 +9354,7 @@
         "issues": []
       },
       "review": {
-        "title": 0,
+        "title": 3,
         "image": 0,
         "sent_at": "2026-10-10T09:17:01+00:00",
         "msg_ids": [
@@ -10139,6 +10139,391 @@
           4531
         ],
         "control_id": 4532
+      }
+    },
+    {
+      "id": "38161235-1a85-524d-a872-e1411ca7bf7d",
+      "slug": "2026-10-10-david-frost-ova-intette-nagy-britanniat-az-eu-ba-valo-visszaterestol",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "David Frost",
+        "Brexit",
+        "Európai Unió",
+        "Nagy-Britannia",
+        "Daily Telegraph"
+      ],
+      "title": "David Frost óva intette Nagy-Britanniát az EU-ba való visszatéréstől",
+      "subtitle": null,
+      "lead": "Szigorúan óva intette hazáját a visszalépéstől David Frost volt brit Brexit-ügyi főtárgyaló, aki szerint az Európai Unió vezetése teljesen képtelen szembenézni a valósággal. A Daily Telegraph lapban megjelent véleménycikkben a politikus arról értekezett, hogy a kontinentális intézmények makacsul kizárják a hatalomból a jobbra tolódó polgárokat.",
+      "key_points": [
+        "David Frost nyilatkozatában felszólította Nagy-Britanniát, hogy esze ágában se legyen visszatérni az EU-ba.",
+        "A volt főtárgyaló szerint az unió vezetői inkább játszanak, mintsem hogy szembenézzenek a valósággal.",
+        "Frost úgy látja, a kontinens irányítása egyre kevésbé demokratikus a növekvő jobboldali szavazóbázis kizárása miatt."
+      ],
+      "content": "Kemény kritikával illette az európai integrációs szervezeteket David Frost, aki Boris Johnson kormányfősége idején a britek EU-ból való kilépéséért felelős főtárgyalóként dolgozott. A Daily Telegraph brit lapban közölt vendégkommentárban a diplomata kifejtette, hogy az uniós vezetés és az intézményrendszer nem hajlandó tudomást venni a polgárok körében zajló politikai eltolódásokról.\n\nA szerző meglátása szerint Európa jó néhány képviselője a valóság helyett a játszmákat részesíti előnyben, ami komoly csapdába sodorja magát az Európai Uniót is. Rámutatott arra a jelenségre is, hogy ha a kontinentális döntéshozók továbbra is tudatosan kizárják a hatalomból az erősödő új jobboldalt, azzal az egész kontinens irányítását teszik még kevésbé demokratikussá.\n\nA volt tisztségviselő azóta sem változtatott a szervezetről alkotott negatív véleményén, és egyértelmű üzenetet fogalmazott meg honfitársainak: semmiképpen sem szabad fontolóra venniük a britek uniós visszatérését. A brit kiválást levezénylő politikus írása jól mutatja, hogy a szigetországban a konzervatív körök továbbra is mélyen szkeptikusak Brüsszel irányítási kultúrájával és jövőjével kapcsolatban.",
+      "content_format": "markdown",
+      "body": [
+        "Kemény kritikával illette az európai integrációs szervezeteket David Frost, aki Boris Johnson kormányfősége idején a britek EU-ból való kilépéséért felelős főtárgyalóként dolgozott. A Daily Telegraph brit lapban közölt vendégkommentárban a diplomata kifejtette, hogy az uniós vezetés és az intézményrendszer nem hajlandó tudomást venni a polgárok körében zajló politikai eltolódásokról.",
+        "A szerző meglátása szerint Európa jó néhány képviselője a valóság helyett a játszmákat részesíti előnyben, ami komoly csapdába sodorja magát az Európai Uniót is. Rámutatott arra a jelenségre is, hogy ha a kontinentális döntéshozók továbbra is tudatosan kizárják a hatalomból az erősödő új jobboldalt, azzal az egész kontinens irányítását teszik még kevésbé demokratikussá.",
+        "A volt tisztségviselő azóta sem változtatott a szervezetről alkotott negatív véleményén, és egyértelmű üzenetet fogalmazott meg honfitársainak: semmiképpen sem szabad fontolóra venniük a britek uniós visszatérését. A brit kiválást levezénylő politikus írása jól mutatja, hogy a szigetországban a konzervatív körök továbbra is mélyen szkeptikusak Brüsszel irányítási kultúrájával és jövőjével kapcsolatban."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 1,
+      "word_count": 199,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/David_Frost_%289367966287%29.jpg/1280px-David_Frost_%289367966287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1200,
+        "height": 800,
+        "kind": "photo",
+        "pos": "center",
+        "alt": "",
+        "credit": "Jonathan Palombo / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:David_Frost_(9367966287).jpg"
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/360/20261010_boris-johnson-brexit-targyaloja-szerint-az-amerikai-kulugyminiszter-megmutatta-milyen-komolytalan-az-eu",
+          "title": "Boris Johnson Brexit-tárgyalója szerint az amerikai külügyminiszter megmutatta, milyen komolytalan az EU",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T11:16:29+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Európa jó néhány képviselője jobban szeret játszani, semmint szembenézni a valósággal, ezért azután igen nehéz az Európai Unió számára, hogy kikerülje a rá leselkedő csapdát.",
+        "who": "David Frost, volt Brexit-ügyi főtárgyaló",
+        "after": 0
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.26,
+      "title_options": [
+        "David Frost óva intette Nagy-Britanniát az EU-ba való visszatéréstől",
+        "David Frost: Kifejezetten komolytalan az Európai Unió jelenlegi vezetése",
+        "Miért óvja a volt brit főtárgyaló a szigetországot az EU-ba való visszatéréstől?",
+        "Ilyen komolytalannak látszik Brüsszel a britek szemével",
+        "A volt Brexit-főtárgyaló megmondta, miért nem szabad visszamenni az unióba",
+        "Ezt gondolja most Boris Johnson egykori embere az európai politikáról"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/David_Frost_%289367966287%29.jpg/1280px-David_Frost_%289367966287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "photo",
+          "pos": "center",
+          "alt": "",
+          "credit": "Jonathan Palombo / Wikimedia Commons",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:David_Frost_(9367966287).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/David_Frost_Rumsfeld_interview_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 1536,
+          "kind": "photo",
+          "pos": "top",
+          "alt": "David Frost",
+          "credit": "Robert D. Ward / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:David_Frost_Rumsfeld_interview_cropped.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Ali_Shamkhani_-_Alexander_Boris_de_Pfeffel_Johnson_-_Boris_Johnson_-_kj_-_Iran_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 741,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Ali Shamkhani -  Alexander Boris de Pfeffel Johnson - Boris Johnson - - Iran",
+          "credit": "Erfan Kouchari / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ali_Shamkhani_-_Alexander_Boris_de_Pfeffel_Johnson_-_Boris_Johnson_-_kj_-_Iran_(3).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ali_Shamkhani_-_Alexander_Boris_de_Pfeffel_Johnson_-_Boris_Johnson_-_kj_-_Iran_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 1200,
+          "height": 727,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Ali Shamkhani -  Alexander Boris de Pfeffel Johnson - Boris Johnson - - Iran",
+          "credit": "Erfan Kouchari / Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ali_Shamkhani_-_Alexander_Boris_de_Pfeffel_Johnson_-_Boris_Johnson_-_kj_-_Iran_(6).jpg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "The Flag of Europe is the flag and emblem of the European Union (EU) and Council of Europe (CoE). It consists of a circle of 12 golden (yellow) stars on a blue background. It was created in 1955 by th",
+          "credit": "User:Verdy p, User:-xfi-, User:Paddu, User:Nightstallion, User:Funakoshi, User:J / Wikimedia Commons",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Flag_of_Europe_%28larger_stars%29.svg/1280px-Flag_of_Europe_%28larger_stars%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 800,
+          "kind": "graphic",
+          "pos": "center",
+          "alt": "Unofficial version of the flag of the European Union with stars enlarged by 25% (5/36 diameter instead of 1/9 of the total flag height) for better visibility at smaller sizes (e.g. for icons).Comparis",
+          "credit": "ConflictFan / Wikimedia Commons",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe_(larger_stars).svg"
+        },
+        {
+          "url": "https://pixabay.com/get/g8bdfe7153af4754dcd485f8952c81658a952e33809818966c003873d8ad5c8b749df349b77e88a034a21896d0639bceecb83e7a621fb80228b8b13f1601e1d7f_1280.jpg",
+          "width": 5423,
+          "height": 3622,
+          "kind": "photo",
+          "alt": "palace, london, parliament, big ben, england, river thames, palace of westminster, buildings, architecture, city, skyline, clock tower, bridge, river, westminster, tower, british, travel, uk, thames, ",
+          "credit": "derwiki / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/palace-london-parliament-big-ben-530055/"
+        },
+        {
+          "url": "https://pixabay.com/get/gbf136e9a0aac5b433736bd4709c4f32b297369daf8df832d5b8d2323f18e349e26b613d5dcf901767db80371fbae1560fbe31b9f5064ffb9c88512a71a02324e_1280.jpg",
+          "width": 5760,
+          "height": 3840,
+          "kind": "photo",
+          "alt": "thames, london, nature, river, uk, city, cityscape, aerial view, sunset",
+          "credit": "liushuquan / Pixabay",
+          "license": "Pixabay License",
+          "source_url": "https://pixabay.com/photos/thames-london-river-uk-city-541456/"
+        }
+      ],
+      "story": [
+        {
+          "title": "Boris Johnson Brexit-tárgyalója szerint az amerikai külügyminiszter megmutatta, milyen komolytalan az EU",
+          "link": "https://hvg.hu/360/20261010_boris-johnson-brexit-targyaloja-szerint-az-amerikai-kulugyminiszter-megmutatta-milyen-komolytalan-az-eu",
+          "summary": "David Frost a Telegraph-ban írt vendégkommentárt, amelyben óva int, hogy hazája visszalépjen az unióba.",
+          "source": "hvg.hu",
+          "related": false,
+          "hot_score": 5.26
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/360/20261010_boris-johnson-brexit-targyaloja-szerint-az-amerikai-kulugyminiszter-megmutatta-milyen-komolytalan-az-eu"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/vilag/2026-10-10-david-frost-ova-intette-nagy-britanniat-az-eu-ba-valo-visszaterestol/",
+      "seo": {
+        "meta_title": "David Frost óva intette Nagy-Britanniát az EU-ba való vissza",
+        "meta_description": "Szigorúan óva intette hazáját a visszalépéstől David Frost volt brit Brexit-ügyi főtárgyaló, aki szerint az Európai Unió vezetése teljesen képtelen szembenézni ",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-david-frost-ova-intette-nagy-britanniat-az-eu-ba-valo-visszaterestol/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/David_Frost_%289367966287%29.jpg/1280px-David_Frost_%289367966287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "2b52ba5020250b94e158aeb9340a8e79d5bce4f9eb7ab217e3e1738f2c763aba",
+      "pipeline_run_id": "38039834555",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T11:16:29+02:00",
+      "updated_at": "2026-10-10T11:16:29+02:00",
+      "published_at": "2026-10-10T11:16:29+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T09:18:23+00:00",
+        "msg_ids": [
+          4533,
+          4534,
+          4535,
+          4536,
+          4537,
+          4538,
+          4539,
+          4540,
+          4541
+        ],
+        "control_id": 4542
+      }
+    },
+    {
+      "id": "9350c5a1-5b81-5034-8130-e1fd56a6ab84",
+      "slug": "2026-10-10-az-omani-masodpilota-9-11-et-idezve-probalta-lerombolni-a-repulot",
+      "status": "pending",
+      "category": "vilag",
+      "subcategory": null,
+      "tags": [
+        "repülésbiztonság",
+        "terrorizmus",
+        "közel-kelet",
+        "magyar külpolitika"
+      ],
+      "title": "Az ománi másodpilóta 9/11-et idézve próbálta lerombolni a repülőt",
+      "subtitle": null,
+      "lead": "A Flydubai egyik dubaji–tel-avivi járatán a 29 éves ománi másodpilóta, Hamam al-Hammami szándékosan a Ben Gurion repülőtér felé irányította a gépet. Az incidens ismét rávilágít a légiközlekedés biztonsági réseire és a terrorista radikalizáció nemzetközi összefüggéseire.",
+      "key_points": [
+        "Az ománi másodpilóta a 2001. szeptember 11-i terrortámadásokból merített ihletet a repülőgép eltereléséhez.",
+        "A támadást a fedélzeten tartózkodó 170 utas és a legénység tagjai időben megakadályozták, így a gép végül Szaúd-Arábiában volt kénytelen leszállni.",
+        "Az eset komoly kérdéseket vet fel a légitársaságok átvilágítási gyakorlatával, valamint a nemzetközi repülőjáratok biztonsági protokolljaival kapcsolatban."
+      ],
+      "content": "A Flydubai Dubajból Tel-Avivba tartó járata a másodpilóta szándékos, erőszakos manővere miatt csaknem rárepült a Ben Gurion Nemzetközi Repülőtér termináljára. Az utasok még idejében ártalmatlanná tették a másodpilótát, a gép végül Szaúd-Arábiában landolt.\n\nAz incidens azért rendkívül jelentős, mert rávilágít arra, hogy a pilóták radikalizálódása – akár külföldi tanulmányok, akár online propaganda hatására – közvetlen veszélyt jelent a polgári légiközlekedésre. Úgy tűnik, hogy a Flydubai repülésbiztonsági ellenőrzései nem szűrték ki a személyes radikalizálódás jeleit.\n\nAl-Hammami 2015 és 2017 között Ausztráliában tanult, ezt követően pedig egyre több olyan radikális tartalmat fogyasztott, amelyeket a 2001-es szeptember 11-i terrortámadások inspiráltak. Az Egyesült Arab Emírségek főügyésze közölte: a pilóta elismerte, hogy egyedül, külső segítség nélkül dolgozta ki öngyilkos merényleti tervét, a nyomozás pedig jelenleg is zajlik.\n\nA repülésbiztonság szempontjából az eset különösen ellentmondásos, hiszen ománi állampolgárok számára a diplomáciai kapcsolatok hiánya miatt hivatalosan tilos Izraelbe repülni. Ennek ellenére a Flydubai engedélyt adott a pilótának a szolgálatra, ami a légitársaság alkalmazási és engedélyezési folyamatának hiányosságaira utal.",
+      "content_format": "markdown",
+      "body": [
+        "A Flydubai Dubajból Tel-Avivba tartó járata a másodpilóta szándékos, erőszakos manővere miatt csaknem rárepült a Ben Gurion Nemzetközi Repülőtér termináljára. Az utasok még idejében ártalmatlanná tették a másodpilótát, a gép végül Szaúd-Arábiában landolt.",
+        "Az incidens azért rendkívül jelentős, mert rávilágít arra, hogy a pilóták radikalizálódása – akár külföldi tanulmányok, akár online propaganda hatására – közvetlen veszélyt jelent a polgári légiközlekedésre. Úgy tűnik, hogy a Flydubai repülésbiztonsági ellenőrzései nem szűrték ki a személyes radikalizálódás jeleit.",
+        "Al-Hammami 2015 és 2017 között Ausztráliában tanult, ezt követően pedig egyre több olyan radikális tartalmat fogyasztott, amelyeket a 2001-es szeptember 11-i terrortámadások inspiráltak. Az Egyesült Arab Emírségek főügyésze közölte: a pilóta elismerte, hogy egyedül, külső segítség nélkül dolgozta ki öngyilkos merényleti tervét, a nyomozás pedig jelenleg is zajlik.",
+        "A repülésbiztonság szempontjából az eset különösen ellentmondásos, hiszen ománi állampolgárok számára a diplomáciai kapcsolatok hiánya miatt hivatalosan tilos Izraelbe repülni. Ennek ellenére a Flydubai engedélyt adott a pilótának a szolgálatra, ami a légitársaság alkalmazási és engedélyezési folyamatának hiányosságaira utal."
+      ],
+      "pull_quote": null,
+      "reading_time_min": 2,
+      "word_count": 202,
+      "locale": "hu-HU",
+      "hero_image": {
+        "url": "https://xn--kollektva-m5a.hu/public/img/gen/vilag-1791623861-0.jpg",
+        "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/vilag-1791623861-0.jpg",
+        "kind": "photo",
+        "alt": "A Flydubai másodpilótája a 9/11 szellemében hajtott végre támadást",
+        "likeness": false,
+        "credit": "Kollektíva illusztráció",
+        "license": "saját grafika",
+        "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+        "generated": true
+      },
+      "inline_images": [],
+      "sources": [
+        {
+          "url": "https://hvg.hu/vilag/20261010_flydubai-incidens-ausztralia-radikalis-ideologia-nyomozas",
+          "title": "A szeptember 11-ei terrortámadásokból merített inspirációt a Flydubai másodpilótája",
+          "publisher": "hvg.hu",
+          "license": null,
+          "accessed_at": "2026-10-10T11:16:07+02:00"
+        }
+      ],
+      "quote": {
+        "text": "Elismerte, hogy egyedül cselekedett, mások bevonása nélkül, bár a nyomozás folytatódik, hogy ellenőrizzük ezt az állítást",
+        "who": "az Egyesült Arab Emírségek főügyésze",
+        "after": 2
+      },
+      "authorship": {
+        "mode": "ai_generated",
+        "byline": "Kollektíva szerkesztőség",
+        "model": "gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+        "prompt_version": "section-v2",
+        "reviewed_by": null,
+        "reviewed_at": null
+      },
+      "hot_score": 5.54,
+      "title_options": [
+        "Az ománi másodpilóta 9/11-et idézve próbálta lerombolni a repülőt",
+        "A Flydubai másodpilótája a 9/11 szellemében hajtott végre támadást",
+        "Terrorra felkészülve a Flydubai ománi pilóta a Ben Gurion felé"
+      ],
+      "clickbait_from": 3,
+      "image_options": [
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/vilag-1791623861-0.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/vilag-1791623861-0.jpg",
+          "kind": "photo",
+          "alt": "A Flydubai másodpilótája a 9/11 szellemében hajtott végre támadást",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        },
+        {
+          "url": "https://xn--kollektva-m5a.hu/public/img/gen/vilag-1791623864-1.jpg",
+          "local": "/home/runner/work/vx9-orrery-lumen-4qk7t-szinter-motor/vx9-orrery-lumen-4qk7t-szinter-motor/public/img/gen/vilag-1791623864-1.jpg",
+          "kind": "photo",
+          "alt": "A Flydubai másodpilótája a 9/11 szellemében hajtott végre támadást",
+          "likeness": false,
+          "credit": "Kollektíva illusztráció",
+          "license": "saját grafika",
+          "source_url": "https://xn--kollektva-m5a.hu/info/#impresszum",
+          "generated": true
+        }
+      ],
+      "story": [
+        {
+          "title": "A szeptember 11-ei terrortámadásokból merített inspirációt a Flydubai másodpilótája",
+          "link": "https://hvg.hu/vilag/20261010_flydubai-incidens-ausztralia-radikalis-ideologia-nyomozas",
+          "summary": "A 29 éves Hamam al-Hammami Ausztráliában kezdett el szélsőséges nézeteket vallani és a terrorizmus irányába sodródni. Rejtély, hogy alkalmazhatta a Flydubai, és hogyan kaphatott engedélyt arra, hogy Izraelbe repüljön.",
+          "source": "hvg.hu",
+          "related": false,
+          "hot_score": 5.54
+        }
+      ],
+      "category_meta": {
+        "source_links": [
+          "https://hvg.hu/vilag/20261010_flydubai-incidens-ausztralia-radikalis-ideologia-nyomozas"
+        ]
+      },
+      "date": "2026-10-10",
+      "date_label": "október 10.",
+      "url": "/vilag/2026-10-10-az-omani-masodpilota-9-11-et-idezve-probalta-lerombolni-a-repulot/",
+      "seo": {
+        "meta_title": "Az ománi másodpilóta 9/11-et idézve próbálta lerombolni a re",
+        "meta_description": "A Flydubai egyik dubaji–tel-avivi járatán a 29 éves ománi másodpilóta, Hamam al-Hammami szándékosan a Ben Gurion repülőtér felé irányította a gépet. Az incidens",
+        "canonical_url": "https://xn--kollektva-m5a.hu/vilag/2026-10-10-az-omani-masodpilota-9-11-et-idezve-probalta-lerombolni-a-repulot/",
+        "og_image": "https://xn--kollektva-m5a.hu/public/img/gen/vilag-1791623861-0.jpg",
+        "noindex": false,
+        "schema_type": "NewsArticle"
+      },
+      "monetization": {
+        "ads_enabled": true,
+        "brand_safety": "safe",
+        "sponsored": false,
+        "sponsor_name": null,
+        "affiliate_links": false
+      },
+      "related_ids": [],
+      "see_also": [],
+      "thread_id": null,
+      "dedupe_hash": "cb1f390d0f51c60f86f7cabdfa12456e5ce35f1da06dba1dcab77be297b77857",
+      "pipeline_run_id": "38039834555",
+      "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
+      "created_at": "2026-10-10T11:16:07+02:00",
+      "updated_at": "2026-10-10T11:16:07+02:00",
+      "published_at": "2026-10-10T11:16:07+02:00",
+      "expires_at": null,
+      "legal": {
+        "level": 0,
+        "issues": []
+      },
+      "review": {
+        "title": 0,
+        "image": 0,
+        "sent_at": "2026-10-10T09:18:35+00:00",
+        "msg_ids": [
+          4543,
+          4544,
+          4545
+        ],
+        "control_id": 4546
       }
     }
   ]
