@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T12:53:06+02:00",
+  "updated_at": "2026-10-10T13:18:25+02:00",
   "polls": [
     {
       "id": "1967810c3a9f",
@@ -160,6 +160,11 @@
       "id": "c59940505e95",
       "article_url": "/vilag/2026-10-10-komoly-megszoritasok-johetnek-az-unios-koltsegvetesben/",
       "question": "Ön szerint helyes a költségvetési megtakarítás?"
+    },
+    {
+      "id": "07d18833e347",
+      "article_url": "/tech/2026-10-10-zuckerberg-bolyhos-kabalaja-rekordsebesseggel-hoditotta-meg-az-app-st/",
+      "question": "Ön szerint a gyors AI terjedés milyen hatással lesz?"
     }
   ]
 }
