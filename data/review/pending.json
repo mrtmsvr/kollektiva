@@ -9799,9 +9799,9 @@
       "live": true
     },
     {
-      "id": "4976cb5a-3eb9-573c-867f-7b0d03893f86",
-      "slug": "2026-10-10-veroer-repedest-neztek-belgazoknak-a-sussexi-korhazban",
-      "status": "pending",
+      "id": "ba5e3821-7284-5466-8fcc-dc21964fd4d1",
+      "slug": "2026-10-10-hat-nap-utan-halt-meg-az-ujszulott-miutan-a-korhazban-felrediagnoszti",
+      "status": "published",
       "category": "kozelet",
       "subcategory": null,
       "tags": [
@@ -9810,7 +9810,7 @@
         "terhesség",
         "Nagy-Britannia"
       ],
-      "title": "Verőér-repedést néztek bélgázoknak a sussexi kórházban",
+      "title": "Hat nap után halt meg az újszülött, miután a kórházban félrediagnosztizálták az édesanyát",
       "subtitle": null,
       "lead": "Elviselhetetlen hasi fájdalmakkal kereste fel a sussexi kórházat a harmincnégy hetes terhes Kimberley Newark, akinek panaszait az orvosok kezdetben csupán bélgázoknak tulajdonították. A kismama végül verőér-repedés miatt tizenegy liter vért veszített, újszülött kislánya pedig hatnapos korában elhunyt.",
       "key_points": [
@@ -9831,16 +9831,16 @@
       "word_count": 274,
       "locale": "hu-HU",
       "hero_image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Royal_Sussex_County_Hospital%2C_Eastern_Road%2C_Brighton_%28July_2015%29_%282%29.JPG/1280px-Royal_Sussex_County_Hospital%2C_Eastern_Road%2C_Brighton_%28July_2015%29_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Inauguraci%C3%B3n_del_Hospital_Regional_de_Apatzing%C3%A1n._%2820503993770%29.jpg/1280px-Inauguraci%C3%B3n_del_Hospital_Regional_de_Apatzing%C3%A1n._%2820503993770%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 1200,
-        "height": 818,
+        "height": 800,
         "kind": "photo",
         "pos": "center",
-        "alt": "Category:Royal Sussex County Hospital, Eastern Road, Kemptown, City of Brighton and Hove, England.  The city's main (and oldest) hospital.  On Brighton &amp; Hove City Council's Local List of Heritage",
-        "credit": "Hassocks5489 / Wikimedia Commons",
-        "license": "CC0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Royal_Sussex_County_Hospital,_Eastern_Road,_Brighton_(July_2015)_(2).JPG",
-        "vision_score": 8.0
+        "alt": "Inauguración del Hospital Regional de Apatzingán.\nApatzingán, Michoacán.\n\n18 de agosto de 2015.",
+        "credit": "Presidencia de la República Mexicana / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Inauguraci%C3%B3n_del_Hospital_Regional_de_Apatzing%C3%A1n._(20503993770).jpg",
+        "vision_score": 5.0
       },
       "inline_images": [],
       "sources": [
@@ -9918,12 +9918,12 @@
       },
       "date": "2026-10-10",
       "date_label": "október 10.",
-      "url": "/kozelet/2026-10-10-veroer-repedest-neztek-belgazoknak-a-sussexi-korhazban/",
+      "url": "/kozelet/2026-10-10-hat-nap-utan-halt-meg-az-ujszulott-miutan-a-korhazban-felrediagnoszti/",
       "seo": {
-        "meta_title": "Verőér-repedést néztek bélgázoknak a sussexi kórházban",
+        "meta_title": "Hat nap után halt meg az újszülött, miután a kórházban félre",
         "meta_description": "Elviselhetetlen hasi fájdalmakkal kereste fel a sussexi kórházat a harmincnégy hetes terhes Kimberley Newark, akinek panaszait az orvosok kezdetben csupán bélgá",
-        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-veroer-repedest-neztek-belgazoknak-a-sussexi-korhazban/",
-        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Royal_Sussex_County_Hospital%2C_Eastern_Road%2C_Brighton_%28July_2015%29_%282%29.JPG/1280px-Royal_Sussex_County_Hospital%2C_Eastern_Road%2C_Brighton_%28July_2015%29_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "canonical_url": "https://xn--kollektva-m5a.hu/kozelet/2026-10-10-hat-nap-utan-halt-meg-az-ujszulott-miutan-a-korhazban-felrediagnoszti/",
+        "og_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Inauguraci%C3%B3n_del_Hospital_Regional_de_Apatzing%C3%A1n._%2820503993770%29.jpg/1280px-Inauguraci%C3%B3n_del_Hospital_Regional_de_Apatzing%C3%A1n._%2820503993770%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "noindex": false,
         "schema_type": "NewsArticle"
       },
@@ -9940,9 +9940,9 @@
       "dedupe_hash": "6b2c19feac88296929a627ad8a67a425aebcc74a5bd2dce1ea7ebc2a656d5b57",
       "pipeline_run_id": "38056382704",
       "generator": "ai:gemini:gemini-flash-latest,gemini-flash-lite-latest,gemini-2.5-flash",
-      "created_at": "2026-10-10T15:58:26+02:00",
-      "updated_at": "2026-10-10T15:58:26+02:00",
-      "published_at": "2026-10-10T15:58:26+02:00",
+      "created_at": "2026-10-10T16:01:04+02:00",
+      "updated_at": "2026-10-10T16:01:04+02:00",
+      "published_at": "2026-10-10T16:01:04+02:00",
       "expires_at": null,
       "legal": {
         "level": 0,
@@ -9952,13 +9952,12 @@
         "title": 5,
         "image": 1,
         "sent_at": "2026-10-10T13:59:51+00:00",
-        "msg_ids": [
-          4599,
-          4600,
-          4601
-        ],
-        "control_id": 4602
-      }
+        "msg_ids": [],
+        "control_id": 4602,
+        "title_prompt_id": null,
+        "compact": "✅ Kint"
+      },
+      "live": true
     },
     {
       "id": "77798f2f-fde1-54e8-82e4-dff1637882b4",
